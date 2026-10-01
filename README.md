@@ -61,6 +61,6 @@ pytest -q
 ## 当前限制 / 后续
 
 - 测试覆盖 PKCE(含 RFC 7636 向量)、URL/请求参数、回环服务器、刷新轮换、撤销、存储权限;X 的 HTTP 端点用 mock,**尚未用真实 X 开发者账号做过联调**。
-- 免费 API 额度很低(以 X 当前政策为准),发推等能力请按需追加 scope(如 `tweet.write`)。
+- X API 自 2026 年 2 月起为按量付费(预充值 credits,无免费档,以 [console.x.com](https://console.x.com) 当前计费为准);发推等能力请按需追加 scope(如 `tweet.write`)。
 - 单账号(以 client_id 为 key);多账号和发帖/定时等运营功能是后续版本。
 - 请勿提交 `.env`、`tokens.json`;一旦泄露请在 Developer Portal 重置密钥并 `xlogin logout`。
