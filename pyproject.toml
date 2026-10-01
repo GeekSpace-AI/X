@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xlogin"
+version = "0.1.0"
+description = "Secure X (Twitter) login tool: OAuth 2.0 Authorization Code + PKCE"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "keyring>=24"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "responses>=0.25", "ruff>=0.5"]
+
+[project.scripts]
+xlogin = "xlogin.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S"]
+ignore = ["S105", "S107"]  # false positives: URL constants / "token_type" field names
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101", "S105", "S106"]
