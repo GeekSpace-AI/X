@@ -1,0 +1,132 @@
+@day: 1
+@week: 1
+@title_cn: 第一天上班
+@title_en: Day One at SwiftLink
+@topic: 自我介绍、见面打招呼
+@think_short: 「我叫……」≠ I call…｜「我很紧张」要加 am｜「我是新来的」怎么说
+
+@goal_scene: 第一天到一家有美国同事的公司报到：先在前台说明自己是谁，再向经理和一位美国同事介绍自己。
+@goal_expr: Hi, I'm… / I'm the new… / Today is my first day. / Nice to meet you. — Nice to meet you, too. / I'm a little nervous.
+@goal_vocab: 15 个重点词 + 4 个短语：身份与职位、见面问候、第一天的心情
+@done: 不看书，用 5 句英文介绍自己：名字、来自哪里、职位、今天是第一天、心情
+@done: 别人说 Nice to meet you，能马上回应 Nice to meet you, too.
+@done: 说「我叫……」「我是新来的」「我有点紧张」时，不再说 I call… / I very nervous
+
+@warmup_hint: 第一天还没有「旧课」。先用英文说出这些你可能已经会的话，热热身——说得出来，说明你的底子比你想象的好。
+@warmup: 早上好！ | Good morning! | 已有基础
+@warmup: 谢谢你！——不客气。 | Thank you! — You're welcome. | 已有基础
+@warmup: 对不起，我迟到了。 | Sorry, I'm late. | 已有基础
+@warmup: 你好吗？——我很好，谢谢。 | How are you? — I'm good, thanks. | 已有基础
+
+@scene: 周一早上 8 点 50 分，林晓第一天到深圳的 SwiftLink 报到。这家公司做跨境物流跟踪系统，办公室里有美国同事，开会常说英语。她先要在前台说明自己是谁，然后经理张涛会带一位美国同事 Emma 来和她见面。
+@sp: 人物关系 | 林晓（新员工）→ 前台接待员（第一次见）、经理张涛（上级）、Emma（美国同事，平级）
+@sp: 沟通目的 | 让对方知道：我是谁、我来做什么；给大家留下友好的第一印象
+@sp: 已知信息 | 前台知道今天有新人报到，但不认识林晓；Emma 第一次见她
+@sp: 表达重点 | 名字 → 职位（运营助理）→ 今天第一天 → 心情（有点紧张，但很期待）
+
+@story_title: Episode 1 · "Hi, I'm Lily."
+@story_type: 叙述 + 对话
+@s: It's Monday morning. | 周一早上。
+@s: Lily **arrives** at the SwiftLink **office** at 8:50. | 林晓 8 点 50 分到了 SwiftLink 的办公室。
+@s: Receptionist: Good morning! Can I **help** you? | 前台：早上好！有什么可以帮您？
+@s: Lily: Hi, I'm Lily Lin. I'm the **new** **operations** **assistant**. | 林晓：你好，我叫林晓，是新来的运营助理。
+@s: Lily: Today is my **first day**. | 林晓：今天是我第一天上班。
+@s: Receptionist: **Welcome**! Please **have a seat**. | 前台：欢迎！请坐。
+@br:
+@s: A minute later, her **manager**, Tom, comes out with a **coworker**. | 一分钟后，她的经理张涛和一位同事走了出来。
+@s: Tom: Hi, Lily. This is Emma. She's **from** the US. | 张涛：嗨，林晓。这是 Emma，她是美国人。
+@s: Emma: Hi, Lily! **Nice to meet you**. | Emma：嗨，林晓！很高兴认识你。
+@s: Lily: Nice to meet you, **too**. | 林晓：我也很高兴认识你。
+@s: Emma: Are you **nervous**? | Emma：你紧张吗？
+@s: Lily: **A little**. But I'm **excited**, too. | 林晓：有一点。不过我也很期待。
+@s: Emma: Don't **worry**. Everyone here is **friendly**. | Emma：别担心，这里的每个人都很友好。
+
+@v: arrives | arrive | v. | əˈraɪvz | 到达（某个地点） | 上班报到、客户来访、快递送到 | arrive at the office；arrive in Shenzhen；arrive on time | What time do you usually arrive at work? | 你一般几点到公司？ | arrive 后面不能直接跟地点：✗ arrive the office → ✓ arrive at the office；但「到家」说 arrive home，home 前不加 at。
+@v: office | = | n. | ˈɔːfɪs | 办公室；上班的地方 | 说「去公司」「在公司」：上班族每天都用 | at the office；in the office；the Shenzhen office（深圳分部） | I'm not in the office today. | 我今天不在公司。 | 「去公司」不说 go to company，美国人说 go to the office 或 go to work。
+@v: help | = | v. | help | 帮助；（服务场合）为您服务 | 前台、客服、店员的开场白 | Can I help you?；help sb with sth | Can you help me with this form? | 你能帮我弄一下这张表吗？ | Can I help you? 是「有什么能帮您的」，不是怀疑你；回答时直接说来意：Hi, I'm here for…
+@v: new | = | adj. | nuː | 新来的；新的 | 介绍新同事、新项目、新系统 | a new coworker；the new system；I'm new here. | I'm new here, so I have a lot of questions. | 我是新来的，所以有很多问题。 | 说「新来的那个助理」要加 the：I'm the new assistant.
+@v: operations | = | n. | ˌɑːpəˈreɪʃnz | 运营（部门 / 工作） | 公司里负责日常流程、订单和数据的部门 | operations team；operations assistant；work in operations | She works in operations. | 她在运营部工作。 | 表示部门时用复数 operations；单数 an operation 常指「手术」或「一次操作」。
+@v: assistant | = | n. | əˈsɪstənt | 助理 | 介绍职位：sales assistant、operations assistant | an assistant；the new assistant；assistant to the manager | I'm an assistant on the operations team. | 我是运营团队的助理。 | 职位前要有 a / an / the：✗ I'm assistant. → ✓ I'm an assistant.
+@v: first day | = | phr. | ˌfɜːrst ˈdeɪ | 第一天（上班 / 上学） | 新工作、新学校第一天的寒暄 | my first day；first day at work；How's your first day? | It's my first day, so I'm a little nervous. | 今天是我第一天，所以有点紧张。 | 「第一天上班」= my first day at work，不说 my first day to work。
+@v: Welcome | welcome | int. | ˈwelkəm | 欢迎 | 欢迎新同事、客户、访客 | Welcome to…；Welcome to the team!；You're welcome.（不客气） | Welcome to the team! | 欢迎加入团队！ | 后面接地点要加 to：✗ Welcome SwiftLink. → ✓ Welcome to SwiftLink.
+@v: have a seat | = | phr. | ˌhæv ə ˈsiːt | 请坐 | 前台、面试、会议室请人坐下 | Please have a seat.；Have a seat here. | Please have a seat. Tom will be right out. | 请坐，张涛马上出来。 | Sit down! 听起来像老师对学生下命令；对客人和同事说 Have a seat。
+@v: manager | = | n. | ˈmænɪdʒər | 经理；直属上级 | 介绍上级：my manager；职位：project manager | my manager；talk to your manager；project manager | My manager is very helpful. | 我的经理很乐意帮忙。 | 称呼时不说 Manager Zhang，直接叫名字 Tom，正式场合说 Mr. Zhang。
+@v: coworker | = | n. | ˈkoʊwɜːrkər | 同事 | 口语里最常用的「同事」 | a coworker；my coworkers；a new coworker | This is my coworker, Grace. | 这是我同事吴佳。 | colleague 也对，但更正式；美国人聊天时更常说 coworker。
+@v: from | = | prep. | frʌm | 来自 | 说家乡、国家、所在公司 | be from + 地方；Where are you from?；I'm from Hunan. | I'm from Hunan, but I live in Shenzhen now. | 我是湖南人，不过现在住在深圳。 | 「我是湖南人」直接说 I'm from Hunan，不说 I'm Hunan people。
+@v: Nice to meet you | nice to meet you | phr. | ˌnaɪs tə ˈmiːtʃə | 很高兴认识你 | 第一次见面时说 | Nice to meet you.；It's nice to meet you. | Hi, I'm Lily. Nice to meet you. | 你好，我是林晓，很高兴认识你。 | 只用于第一次见面；第二次见面说 Nice to see you (again)。
+@v: too | = | adv. | tuː | 也 | 回应对方同样的话；补充「我也……」 | me too；you too；…, too. | I'm excited, too. | 我也很期待。 | too 放句尾；否定句的「也不」用 either：I'm not hungry, either.
+@v: nervous | = | adj. | ˈnɜːrvəs | 紧张的 | 第一次见面、面试、开会发言前 | a little nervous；nervous about…；feel nervous | I'm nervous about the meeting. | 我对这个会有点紧张。 | 形容词前要有 am / is / are：✗ I very nervous. → ✓ I'm very nervous.
+@v: A little | a little | phr. | ə ˈlɪtl | 有一点 | 回答程度：「紧张吗？——有一点。」 | a little nervous；a little late；a little tired | I'm a little tired today. | 我今天有点累。 | 「有点紧张」不说 have a little：✗ I have a little nervous. → ✓ I'm a little nervous.
+@v: excited | = | adj. | ɪkˈsaɪtɪd | 兴奋的；很期待的 | 对新工作、新机会表达期待 | excited about…；so excited | I'm excited about my new job. | 我对新工作很期待。 | 说自己的感受用 excited；I'm exciting 是「我这个人很刺激」。
+@v: worry | = | v. | ˈwɜːri | 担心 | 安慰别人；说自己担心的事 | Don't worry.；worry about… | Don't worry about it. | 没事，别担心。 | 「我很担心」说 I'm worried（形容词），不说 I'm worry。
+@v: friendly | = | adj. | ˈfrendli | 友好的；好相处的 | 描述同事、客户、团队氛围 | friendly people；a friendly team；user-friendly（好用的） | Everyone on my team is friendly. | 我们团队每个人都很友好。 | friendly 是形容词，不是副词：✗ He talks friendly. → ✓ He's very friendly.
+
+@diff: 「我叫林晓」——不是 I call Lily
+@d_cn: 告诉别人自己的名字。
+@d_en: I'm Lily. / I'm Lily Lin. / My name is Lily Lin.
+@d_why: 中文的「叫」是动词，很多人顺手直译成 I call Lily。但英文的 call 是「打电话」或「称呼（别人）」，I call Lily 的意思变成了「我给 Lily 打电话」。英文介绍名字用 **I'm + 名字**。
+@d_when: 当面自我介绍用 I'm…（最自然）；填表、正式发言、电话开头可以说 My name is…
+@d_vs: **I'm Lily.** 我叫 Lily。\n**I call Lily.** 我给 Lily 打电话。（不是自我介绍！）\n**Please call me Lily.** 请叫我 Lily。（这里 call 是「称呼」）
+@d_task: 用英文说：「我叫王磊，大家可以叫我 Leo。」 | I'm Wang Lei. You can call me Leo.
+@diff: 「我（有点）紧张」——形容词前要加 am
+@d_cn: 描述自己现在的状态或心情。
+@d_en: I'm nervous. / I'm a little nervous. / I'm so nervous.
+@d_why: 中文形容词可以直接跟在主语后面（我紧张、他很忙）；英文形容词前面一定要有 **am / is / are**。另外，中文的「很」很多时候只是语气，不一定要翻成 very。
+@d_when: 说心情、状态、性格、外观：I'm tired. / She's friendly. / The office is big.
+@d_vs: ✗ I very nervous. → ✓ I'm very nervous.\n✗ I nervous a little. → ✓ I'm a little nervous.\n✗ He friendly. → ✓ He's friendly.
+@d_task: 用英文说出你今天的三种感受：有点累、很开心、有点紧张。 | I'm a little tired. I'm very happy. I'm a little nervous.
+@diff: 「我是新来的」——I'm new here.
+@d_cn: 告诉别人自己刚来、对这里还不熟悉。
+@d_en: I'm new here. / I just joined the team. / I'm the new assistant.
+@d_why: 「新来的」是中文的固定说法，直译 I'm new come 在英文里不成立。英文用形容词 **new + here**，或者用动词 **join**（加入）。
+@d_when: 别人问你问题而你不知道时：Sorry, I'm new here. 向新同事介绍自己：I just joined the operations team.
+@d_vs: **I'm new here.** 我是新来的（对这里不熟）。\n**I'm the new assistant.** 我是新来的那个助理。（职位前加 the）\n✗ I'm new come.
+@d_task: 有同事问你打印机在哪儿，你不知道。用英文回答。 | Sorry, I'm new here. I don't know. / Sorry, I'm not sure. I'm new here.
+
+@core: Hi, I'm + 名字. | 第一次见面介绍自己 | Hi / Hello / Good morning | 正式：Good morning. My name is Lily Lin.｜随意：Hi, I'm Lily.
+@core: I'm the new + 职位. | 告诉别人你的岗位 | operations assistant / sales assistant / designer | 正式：I've just joined as the new operations assistant.｜随意：I'm the new assistant.
+@core: I'm from + 地方. | 介绍家乡、国家或公司 | Hunan / Shenzhen / SwiftLink | 正式：I'm originally from Hunan.｜随意：I'm from Hunan.
+@core: Nice to meet you. — Nice to meet you, too. | 第一次见面的问候和回应 | 第二次见面 meet → see | 正式：It's a pleasure to meet you.｜随意：Nice to meet you!
+@core: Today is my first day. | 解释自己是新人 | first day / first week / first month | 正式：Today is my first day at SwiftLink.｜随意：First day!
+@core: I'm a little + 心情. | 说自己现在的感受 | nervous / tired / excited / busy | 正式：I'm slightly nervous.｜随意：Kind of nervous.
+
+@pw: arrive | əˈraɪv | 2 个音节 a·RRIVE，重音在后 | 开头的 a 读成很轻的 /ə/，不要读成「啊」
+@pw: assistant | əˈsɪstənt | 3 个音节 a·SIS·tant | 结尾 -tant 轻轻带过，不读「坦特」
+@pw: manager | ˈmænɪdʒər | 3 个音节 MAN·a·ger | 第一个 a 嘴巴张大 /æ/；结尾舌尖往后卷
+@pw: coworker | ˈkoʊwɜːrkər | 3 个音节 CO·wor·ker | wor 舌头卷起、拖长；不要读成「扣沃克」
+@pw: nervous | ˈnɜːrvəs | 2 个音节 NER·vous | ner 卷舌；v 是上牙轻咬下唇
+@pw: friendly | ˈfrendli | 2 个音节 FRIEND·ly | d 几乎听不到，像 fren-ly
+@ps: Hi, I'm **Lily**. / I'm the **new** operations as**sis**tant. | 名字和职位是重点，读重；I'm、the 读得又轻又快。在「/」处停一下。
+@ps: **Nice** to **meet** you. — **Nice** to meet you, **too**. | 回应时重音移到 too 上，表示「我也是」。meet you 连读成 /ˈmiːtʃə/。
+@ps: I'm a‿**lit**tle **ner**vous. | a little 连读；美式 little 的 tt 读成轻轻弹一下的 d：/ˈlɪdl/。
+@pnote: 书面写 I am，口语几乎都说 **I'm** /aɪm/，只有一个音节，听力里一闪而过。
+@pnote: Nice to meet you 里的 to 读成 /tə/，几乎听不见，整句听起来像「nice-ta-meet-cha」。
+@lfocus: I'm 很短，只听到 /aɪm/
+@lfocus: to 几乎听不见
+@lfocus: 回应句里 too 读得重而长
+@dict: S4
+@dict: S12
+@res: YouTube 频道 Rachel's English（美式发音教学）内搜索 "nice to meet you"，看口型和连读示范。
+
+@mimic: 跟读【C】S3–S13：先用 0.8 倍速每句跟读 2 遍，模仿重音；再由你演林晓、手机朗读其他人的台词，完整对一遍，录音。
+@swap: Hi, I'm Lily. I'm the new operations assistant. | 换成你自己的名字和职位（或你想做的工作） | Hi, I'm Wang Lei. I'm the new sales assistant.
+@swap: I'm from Hunan. | 换成你的家乡，再加一句你现在住在哪里 | I'm from Henan. I live in Guangzhou now.
+@swap: I'm a little nervous, but I'm excited, too. | 换心情词：tired / happy / busy | I'm a little tired, but I'm happy, too.
+@swap: This is Emma. She's from the US. | 介绍一位你的同事或朋友 | This is Grace. She's from Fujian.
+@free: 你第一天去新公司报到，前台问：Good morning! Can I help you? | Good morning. I'm Lily Lin, the new operations assistant. Today is my first day.
+@free: 经理把你介绍给一位新同事，同事说：Hi, nice to meet you! | Hi, nice to meet you, too. I'm Lily.
+@free: 同事问你 Are you nervous? 你想说「有一点，不过也很期待」。 | A little. But I'm excited, too.
+@free: 一位访客走进办公室，你想请他坐一下，说经理马上出来。 | Please have a seat. My manager will be right out.
+@output: 录一段 1 分钟自我介绍：名字 → 来自哪里 → 现在住在哪 → 职位（或想做的工作）→ 今天的心情 → Nice to meet you。录完听一遍，检查有没有说 I very… 或 I call…
+@output_sample: Hi, I'm Lily Lin. I'm from Hunan, but I live in Shenzhen now. I'm the new operations assistant at SwiftLink. Today is my first day, so I'm a little nervous. But I'm excited, too. Everyone here is friendly. Nice to meet you!
+
+@check: Emma 说 Nice to meet you，林晓为什么回答 Nice to meet you, too，而不是重复一遍 Nice to meet you？ | 加 too 表示「我也是」，是对对方的回应；只重复原句，听起来像没听见对方的话。
+@check: 第二天林晓又见到 Emma，她应该说 Nice to meet you 还是 Nice to see you？ | Nice to see you (again)。meet 只用于第一次认识。
+@check: 如果你把「我叫 Lily」说成 I call Lily，美国同事会理解成什么？ | 「我给 Lily 打电话」。应该说 I'm Lily. / My name is Lily.
+@check: 用今天学的词说：「别担心，我们团队很友好。」 | Don't worry. Our team is friendly.
+@check: 访客到了前台，你想请他坐下。说 Sit down 还是 Have a seat？为什么？ | Have a seat。Sit down 语气像命令；Have a seat 礼貌、自然。
+@next1: 不看书说出 S4、S5、S12 三句
+@next1: 「我叫……」= I'm…；「我是新来的」= I'm new here.
+@next1: nervous / excited / worry 各说一个句子
+@next7: 用 5 句话做自我介绍（Day 7 热身会用到）
+@next7: Nice to meet you 和 Nice to see you 的区别

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>{{ book.title }}</title>
+<link rel="stylesheet" href="style.css">
+<style>@page { @bottom-left { content: "{{ footer }}"; } }</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="tag">ENGLISH THE CHINESE WAY · 180 DAYS · BOOK {{ book.number }}</div>
+  <h1>{{ book.title }}</h1>
+  <div class="sub">{{ book.subtitle }}</div>
+  <div class="en-title">{{ book.title_en }}</div>
+  <div class="bar"></div>
+  <ul>
+    <li>Day {{ book.range }} · 每天 120 分钟 · 4 次阶段复习</li>
+    <li>{{ stats.words }} 个重点词 + {{ stats.phrases }} 个短语，全部放在原创故事和对话里，带美式音标、语境语义、搭配、例句和易错点</li>
+    <li>{{ stats.diffs }} 组「中文怎么想 → 英文怎么说」对比 · {{ stats.core }} 个核心表达</li>
+    {% for b in book.bullets %}<li>{{ b }}</li>{% endfor %}
+  </ul>
+  <div class="big-num">{{ book.range }}</div>
+  <div class="foot">{{ book.series }}</div>
+</div>
+
+{# ---------------- front matter ---------------- #}
+<section>
+  <h1 class="chapter">本册怎么用<span class="en-sub">How to Use This Book</span></h1>
+  <div class="lead">{% for p in book.howto %}<p>{{ p | md }}</p>{% endfor %}</div>
+  <h2 class="sec"><span class="n">⏱</span>普通学习日：120 分钟，8 步</h2>
+  <table class="plan">
+    <tr><th>#</th><th>环节</th><th>时间</th><th>具体操作</th></tr>
+    {% for name, mins, how in regular_plan %}<tr><td class="i">{{ loop.index }}</td><td class="nm">{{ name }}</td><td class="m">{{ mins }} 分钟</td><td>{{ how | md }}</td></tr>{% endfor %}
+  </table>
+  <h2 class="sec"><span class="n">↺</span>阶段复习日（Day 7 / 14 / 21）：120 分钟，8 步</h2>
+  <table class="plan">
+    <tr><th>#</th><th>环节</th><th>时间</th><th>具体操作</th></tr>
+    {% for name, mins, how in review_plan %}<tr><td class="i">{{ loop.index }}</td><td class="nm">{{ name }}</td><td class="m">{{ mins }} 分钟</td><td>{{ how | md }}</td></tr>{% endfor %}
+  </table>
+  <div class="box tip"><div class="bt">💡 上班族怎么安排</div>{{ book.split_tip | md }}</div>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">每课的 9 个部分 · 符号 · 听力方法<span class="en-sub">Inside Each Lesson</span></h1>
+  <table class="grid">
+    <tr><th style="width:9%">部分</th><th style="width:22%">名称</th><th>它解决什么问题</th></tr>
+    {% for p in book.parts %}<tr><td class="c">{{ p[0] }}</td><td><b>{{ p[1] }}</b></td><td>{{ p[2] | md }}</td></tr>{% endfor %}
+  </table>
+  <h2 class="sec"><span class="n">✎</span>符号说明</h2>
+  <ul class="dots">{% for s in book.symbols %}<li>{{ s | md }}</li>{% endfor %}</ul>
+  <h2 class="sec"><span class="n">🎧</span>没有音频，怎么练听力？</h2>
+  <ul class="dots">{% for s in book.audio %}<li>{{ s | md }}</li>{% endfor %}</ul>
+  <h2 class="sec"><span class="n">↻</span>词汇怎么记：首次接触 → 次日回忆 → 一周复习 → 场景再现</h2>
+  <ul class="dots">{% for s in book.vocab_method %}<li>{{ s | md }}</li>{% endfor %}</ul>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">故事背景与人物<span class="en-sub">The Story &amp; the Cast</span></h1>
+  <p class="lead">{{ book.setting | md }}</p>
+  <div class="cards">
+    {% for c in book.cast %}<div class="card"><div class="ct">{{ c[0] }}</div><div class="cs">{{ c[1] }}</div><div>{{ c[2] | md }}</div></div>{% endfor %}
+  </div>
+  <h2 class="sec"><span class="n">★</span>本册结束时，你应该能做到</h2>
+  <ul class="dots">{% for g in book.outcomes %}<li>{{ g | md }}</li>{% endfor %}</ul>
+</section>
+<section class="pagebreak">
+  <h1 class="chapter">180 天全课程中的位置<span class="en-sub">Where Book {{ book.number }} Fits</span></h1>
+  <table class="grid">
+    <tr><th style="width:15%">分册</th><th style="width:13%">天数</th><th>主题</th><th style="width:26%">词汇目标</th></tr>
+    {% for r in book.roadmap %}<tr{% if loop.index == book.number %} class="wk"{% endif %}><td class="c">{{ r[0] }}</td><td>{{ r[1] }}</td><td>{{ r[2] }}</td><td>{{ r[3] }}</td></tr>{% endfor %}
+  </table>
+  <p class="muted small">完整路线图见《课程总纲 · 180 天路线图》。</p>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">目录<span class="en-sub">Contents</span></h1>
+  <table class="toc">
+    {% set ns = namespace(wk=0) %}
+    {% for d in days %}
+      {% if d.week != ns.wk %}{% set ns.wk = d.week %}<tr class="wk"><td colspan="3">Week {{ d.week }} · {{ d.week_name }}</td></tr>{% endif %}
+      <tr><td class="d">Day {{ d.day }}</td><td>{{ d.title_cn }}{% if d.review %}（阶段复习）{% endif %}　<span class="muted en">{{ d.title_en }}</span><br><span class="muted small">{{ d.think_short }}</span></td><td class="pg">{{ pages.get('DAY %d' % d.day, '') }}</td></tr>
+    {% endfor %}
+    <tr class="wk"><td colspan="3">附录</td></tr>
+    <tr><td class="d">附录 1</td><td>词汇覆盖记录（新学 · 复现 · 能识别 · 能主动用）＋ 字母索引</td><td class="pg">{{ pages.get('INDEX', '') }}</td></tr>
+    <tr><td class="d">附录 2</td><td>复习索引（中英表达差异 · 核心表达）</td><td class="pg">{{ pages.get('RINDEX', '') }}</td></tr>
+    <tr><td class="d">附录 3</td><td>学习进度记录表</td><td class="pg">{{ pages.get('LOG', '') }}</td></tr>
+    <tr><td class="d">附录 4</td><td>第二册衔接记录</td><td class="pg">{{ pages.get('HANDOFF', '') }}</td></tr>
+    <tr><td class="d">附录 5</td><td>续写课程指令（可直接复制使用）</td><td class="pg">{{ pages.get('PROMPT', '') }}</td></tr>
+  </table>
+</section>
+
+{# ---------------- lessons ---------------- #}
+{% for d in days %}
+{% include "day.html.j2" %}
+{% endfor %}
+
+{# ---------------- back matter ---------------- #}
+<section class="pagebreak">
+  <h1 class="chapter">附录 1 · 词汇覆盖记录<span class="en-sub">Vocabulary Coverage</span></h1>
+  <p class="muted small">「首次」= 第一次作为重点词学习的日子；「复现」= 这个词后来又在哪几天的故事、表达或示范里出现（由程序逐课检索生成）。后两列请你自己勾：能在听读中认出来 → 勾「能识别」；能在口语或写作中主动用出来 → 勾「能主动用」。本册共 {{ stats.words }} 个词、{{ stats.phrases }} 个短语，其中 {{ stats.recurring }} 个在后面的课里至少复现过一次。</p>
+  <table class="cov">
+    <tr><th>词 / 短语</th><th>音标</th><th>首次</th><th>复现</th><th>能识别</th><th>能主动用</th></tr>
+    {% set ns3 = namespace(day=0) %}
+    {% for v in index %}
+      {% if v.day != ns3.day %}{% set ns3.day = v.day %}<tr class="dh"><td colspan="6">Day {{ v.day }} · {{ days[v.day - 1].title_cn }}</td></tr>{% endif %}
+      <tr><td class="w">{{ v.head }}{% if v.pos == 'phr.' %} <span class="muted small">(短语)</span>{% endif %}</td><td class="p"><span class="ipa">/{{ v.ipa }}/</span></td><td class="f">D{{ v.day }}</td><td class="r">{% for r in v.recur %}D{{ r }}{% if not loop.last %} {% endif %}{% else %}<span class="muted">—（第二册复现）</span>{% endfor %}</td><td class="cb">☐</td><td class="cb">☐</td></tr>
+    {% endfor %}
+  </table>
+  <h2 class="sec"><span class="n">A–Z</span>字母索引</h2>
+  <div class="index">
+    {% set ns2 = namespace(letter='') %}
+    {% for v in alpha %}
+      {% set L = (v.head | plain)[0] | upper %}
+      {% if L != ns2.letter %}{% set ns2.letter = L %}<span class="letter">{{ L }}</span>{% endif %}
+      <div class="it"><b>{{ v.head }}</b> {{ v.meaning | plain | truncate(14, True, '…') }} <span class="d">D{{ v.day }}</span></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">附录 2 · 复习索引<span class="en-sub">Review Index</span></h1>
+  <p class="muted small">复习时按这张表找回对应的课。建议每周日把本周的条目从头到尾说一遍。</p>
+  <h2 class="sec"><span class="n">E</span>中文怎么想 → 英文怎么说（全部对比点）</h2>
+  <table class="grid">
+    <tr><th style="width:9%">Day</th><th>对比点</th><th style="width:36%">关键英文</th></tr>
+    {% for d in days %}{% for x in d.diffs %}<tr><td class="c">D{{ d.day }}</td><td>{{ x.title | md }}</td><td class="en">{{ (x.en or '') | plain | truncate(60, True, '…') }}</td></tr>{% endfor %}{% endfor %}
+  </table>
+  <h2 class="sec"><span class="n">F</span>核心表达</h2>
+  <table class="grid">
+    <tr><th style="width:9%">Day</th><th>表达 / 句型</th><th style="width:40%">什么时候用</th></tr>
+    {% for d in days %}{% for c in d.core %}<tr><td class="c">D{{ d.day }}</td><td class="en"><b>{{ c.expr | md }}</b></td><td>{{ c.use | md }}</td></tr>{% endfor %}{% endfor %}
+  </table>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">附录 3 · 学习进度记录表<span class="en-sub">Progress Log</span></h1>
+  <p class="muted small">每天学完填一行。「自评」1–5 分：5 = 不看书能说出今天的核心表达；1 = 只能看着书读。连续两天低于 3 分，就把那两天的【H】再做一遍。</p>
+  <table class="log">
+    <tr><th>Day</th><th>日期</th><th>用时</th><th>录音</th><th>热身 ★ 数</th><th>自评 1–5</th><th style="width:38%">今天最想记住的一句 / 备注</th></tr>
+    {% for d in days %}<tr><td>{{ d.day }}{% if d.review %}↺{% endif %}</td><td></td><td></td><td>☐</td><td></td><td></td><td class="l"></td></tr>{% endfor %}
+  </table>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">附录 4 · 第二册衔接记录<span class="en-sub">Handoff to Book 2</span></h1>
+  <table class="grid">
+    <tr><th style="width:28%">项目</th><th>第一册完成情况</th></tr>
+    <tr><td class="c">课程天数</td><td>{{ stats.days }} 天（含 Day 7 / 14 / 21 / 30 四次阶段复习）</td></tr>
+    <tr><td class="c">重点词 / 短语</td><td>{{ stats.words }} 个词 + {{ stats.phrases }} 个短语（逐条见附录 1）；{{ stats.recurring }} 个已在后续课中复现，{{ stats.recur3 }} 个复现 2 次以上</td></tr>
+    <tr><td class="c">中英表达对比点</td><td>{{ stats.diffs }} 组（逐条见附录 2）</td></tr>
+    <tr><td class="c">核心表达</td><td>{{ stats.core }} 个</td></tr>
+    <tr><td class="c">英文阅读量</td><td>故事与对话共约 {{ stats.story_words }} 词</td></tr>
+  </table>
+  {% for sec in book.handoff %}
+  <h2 class="sec"><span class="n">{{ loop.index }}</span>{{ sec.title }}</h2>
+  <ul class="dots">{% for x in sec['list'] %}<li>{{ x | md }}</li>{% endfor %}</ul>
+  {% endfor %}
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">附录 5 · 续写课程指令<span class="en-sub">Prompt for Writing Book 2</span></h1>
+  <p class="muted small">以后想继续生成第二册时，把下面整段复制给 AI 助手，并附上本册的 Markdown 源文件（或附录 1、2、4）。</p>
+  <pre class="prompt">{{ book.continue_prompt }}</pre>
+</section>
+
+</body>
+</html>

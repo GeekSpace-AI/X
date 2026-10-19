@@ -1,195 +1,197 @@
-{# One lesson day. Expects `d` (parsed day dict). #}
+{# One lesson. Expects `d`. #}
 <section class="day" id="day{{ d.day }}">
   <div class="day-head">
     <div class="day-num"><span class="lbl">DAY</span><span class="num">{{ '%02d' % d.day }}</span></div>
     <div class="day-title">
-      <h1>{{ d.title_cn }}{% if d.review %}<span class="review-badge">复习日</span>{% endif %}</h1>
+      <h1>{{ d.title_cn }}{% if d.review %}<span class="badge">阶段复习</span>{% endif %}</h1>
       <div class="en-t">{{ d.title_en }}</div>
       <div class="meta">
-        <span>📅 Week {{ d.week }} · {{ d.week_name }}</span>
-        <span>🎬 场景：{{ d.scene }}</span>
-        <span>📚 新词 {{ d.word_count }} 个</span>
+        <span>Week {{ d.week }} · {{ d.week_name }}</span>
+        <span>主题：{{ d.topic }}</span>
+        <span>新学：{{ d.word_count }} 个词 + {{ d.phrase_count }} 个短语</span>
+        <span>短文 {{ d.story_words }} 词</span>
       </div>
     </div>
   </div>
 
-  <div class="overview">
-    <div class="goals">
-      <div class="t">🎯 今天学完，你能……</div>
-      <ul>{% for g in d.goals %}<li>{{ g | md }}</li>{% endfor %}</ul>
-    </div>
-    <table class="plan">
-      {% for name, mins in plan %}<tr><td>{{ name }}</td><td class="m">{{ mins }} 分钟</td></tr>{% endfor %}
-      <tr class="total"><td>合计</td><td class="m">{{ plan | sum(attribute=1) }} 分钟</td></tr>
-    </table>
-  </div>
+  {# ---------- A ---------- #}
+  <h2 class="sec"><span class="n">A</span>今日目标 <span class="en-sub">Today's Goals</span></h2>
+  <table class="goal">
+    <tr><td class="k">今日情境</td><td>{{ d.goal_scene | md }}</td></tr>
+    <tr><td class="k">关键表达</td><td class="en">{{ d.goal_expr | md }}</td></tr>
+    <tr><td class="k">重点词汇</td><td>{{ d.goal_vocab | md }}</td></tr>
+    <tr><td class="k">完成标准</td><td><ul>{% for x in d.done %}<li>{{ x | md }}</li>{% endfor %}</ul></td></tr>
+  </table>
+  <table class="plan">
+    <tr><th>#</th><th>环节</th><th>时间</th><th>具体操作</th></tr>
+    {% for name, mins, how in d.plan %}
+    <tr><td class="i">{{ loop.index }}</td><td class="nm">{{ name }}</td><td class="m">{{ mins }} 分钟</td><td>{{ how | md }}</td></tr>
+    {% endfor %}
+    <tr class="total"><td></td><td>合计</td><td class="m">{{ d.plan | sum(attribute=1) }} 分钟</td><td>中间可以休息，但当天完成全部 {{ d.plan | length }} 步。</td></tr>
+  </table>
 
-  {# 1. Warm-up #}
-  <h2 class="sec"><span class="n">1</span>热身复习 <span class="en-sub">Warm-up</span><span class="mins">{{ plan[0][1] }} 分钟</span></h2>
-  <p class="muted">{{ d.warmup_hint | md }}</p>
+  <h3>热身：旧知识情境复习（{{ d.plan[0][1] }} 分钟）</h3>
+  <p class="muted small">{{ (d.warmup_hint or '遮住答案，看中文说英文。答案在本课最后的【答案与示范】里；右侧橙色标记是这句话来自第几天。') | md }}</p>
   <div class="warm">
-    {% for w in d.warmup %}<div><span class="num">{{ loop.index }}</span>{{ w.cn | md }}</div>{% endfor %}
+    {% for w in d.warmup %}<div><span class="num">{{ loop.index }}</span>{{ w.cn | md }}{% if w.src %}<span class="src">{{ w.src }}</span>{% endif %}</div>{% endfor %}
   </div>
 
-  {# 2. Story #}
-  <h2 class="sec"><span class="n">2</span>今日短剧 · 精读 + 词汇 <span class="en-sub">Story &amp; Words</span><span class="mins">{{ plan[1][1] }} 分钟</span></h2>
+  {# ---------- B ---------- #}
+  <h2 class="sec"><span class="n">B</span>{{ '新情境导入' if d.review else '中文场景导入' }} <span class="en-sub">The Situation</span></h2>
+  <div class="scene">
+    <p>{{ d.scene | md }}</p>
+    {% if d.scene_points %}
+    <table class="sp">{% for p in d.scene_points %}<tr><td class="k">{{ p.label }}</td><td>{{ p.text | md }}</td></tr>{% endfor %}</table>
+    {% endif %}
+  </div>
+
+  {# ---------- C ---------- #}
+  <h2 class="sec"><span class="n">C</span>{{ '新情境故事（用旧词写成）' if d.review else '英文微故事' }} <span class="en-sub">{{ d.story_type or 'Story' }}</span></h2>
   <div class="story-head">
     <div class="ep">{{ d.story_title }}</div>
-    <div class="intro">{{ d.story_intro | md }}</div>
+    <div class="intro">
+      {% if d.review %}虚线标出的是复现词，右上角橙色数字是它第一次出现的日子——先别看中文，回忆它的意思。绿色加粗是今天的新词。{% else %}S1、S2……是句子编号，【D】的注释会标出每个词在哪一句；绿色加粗是今天的重点词，右上角数字对应【D】里的注释编号。{% endif %}
+    </div>
   </div>
-  <p class="muted" style="font-size:8.6pt">读法：先只看英文，猜意思 → 再看中文核对 → 看词表的「使用场景」 → 最后把整段英文大声读 2 遍。绿色加粗的词就是今天的新词。{% if d.review %}<span class="rcy">橙色虚线</span>标出的是前几天学过的词——先别看词表，试着回忆它的意思和用法。{% endif %}</p>
-  {% for p in d.paras %}
-  <div class="para">
-    <div class="en"><span class="pnum">{{ loop.index }}</span>{{ p.en | md }}</div>
-    <div class="cn">{{ p.cn | md }}</div>
-    {% if p.words %}
-    <table class="vocab">
-      <thead><tr><th>单词 / 短语</th><th>美式发音</th><th>中文意思</th><th>使用场景 · 怎么用</th></tr></thead>
-      <tbody>
-      {% for w in p.words %}
-        <tr>
-          <td class="w"><b>{{ w.word }}</b>{% if w.pos %}<span class="pos">{{ w.pos }}</span>{% endif %}</td>
-          <td class="p"><span class="ipa">/{{ w.ipa }}/</span></td>
-          <td class="c">{{ w.meaning | md }}</td>
-          <td class="s">{{ w.scene | md }}</td>
-        </tr>
-      {% endfor %}
-      </tbody>
+  <table class="story">
+    {% for s in d.sentences %}
+    {% if loop.index0 in d.paragraph_breaks and not loop.first %}<tr class="gap"><td colspan="3"></td></tr>{% endif %}
+    <tr><td class="sn">S{{ s.n }}</td><td class="e">{% if s.speaker %}<span class="who">{{ s.speaker }}:</span>{% endif %}{{ s.text | story_md(d.vocab) }}</td><td class="c">{{ s.cn | md }}</td></tr>
+    {% endfor %}
+  </table>
+
+  {# ---------- D ---------- #}
+  <h2 class="sec"><span class="n">D</span>原文重点词汇注释 <span class="en-sub">Words in Context</span></h2>
+  <p class="muted small">按原文出现顺序排列。「语义」只讲这个词在本文里的意思；其他意思会在后面的课里慢慢出现。音标为美式。</p>
+  <table class="vnote">
+    {% for v in d.vocab %}
+    <tr>
+      <td class="w">
+        <span class="no">{{ v.num }}</span><span class="form">{{ v.form }}</span><br>
+        {% if v.head.lower() != v.form.lower() %}<span class="head">原形 {{ v.head }}</span> {% endif %}{% if v.pos == 'phr.' %}<span class="phr">短语</span>{% else %}<span class="pos">{{ v.pos }}</span>{% endif %}<br>
+        <span class="ipa">/{{ v.ipa }}/</span><br>
+        <span class="loc">位置：S{{ v.sentence }}</span>
+      </td>
+      <td class="x">
+        <div><span class="k">语义</span>{{ v.meaning | md }}</div>
+        <div><span class="k">场景</span>{{ v.scene | md }}</div>
+        <div><span class="k">搭配</span><span class="en">{{ v.colloc | md }}</span></div>
+        <div><span class="k">例句</span><span class="ex">{{ v.ex_en | md }}</span>　<span class="muted">{{ v.ex_cn | md }}</span></div>
+        <div class="warn"><span class="k">易错</span>{{ v.pitfall | md }}</div>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  {# ---------- E ---------- #}
+  <h2 class="sec"><span class="n">E</span>{{ '易混表达检查' if d.review else '中文怎么想，英文通常怎么说' }} <span class="en-sub">From Chinese Meaning to Natural English</span></h2>
+  {% for x in d.diffs %}
+  <div class="diff">
+    <div class="dt">{{ loop.index }}. {{ x.title | md }}</div>
+    <table>
+      {% if x.cn %}<tr><td class="k">中文想表达</td><td>{{ x.cn | md }}</td></tr>{% endif %}
+      {% if x.en %}<tr><td class="k">自然英文</td><td><span class="en">{{ x.en | md }}</span></td></tr>{% endif %}
+      {% if x.why %}<tr><td class="k">为什么不同</td><td>{{ x.why | md }}</td></tr>{% endif %}
+      {% if x.when %}<tr><td class="k">什么时候用</td><td>{{ x.when | md }}</td></tr>{% endif %}
+      {% if x.vs %}<tr><td class="k">对比例句</td><td>{{ x.vs | md }}</td></tr>{% endif %}
+      {% if x.task %}<tr class="task"><td class="k">小任务</td><td>{{ x.task | md }}</td></tr>{% endif %}
     </table>
-    {% endif %}
   </div>
   {% endfor %}
 
-  {% if d.culture %}
-  <div class="box culture">
-    <div class="bt">🌏 中美文化小贴士：{{ d.culture_title }}</div>
-    {% for c in d.culture %}<p>{{ c | md }}</p>{% endfor %}
-  </div>
-  {% endif %}
-
-  {# 3. Chinese thinking #}
-  <h2 class="sec"><span class="n">3</span>中文思维 → 英文表达 <span class="en-sub">Think in Chinese, Speak in English</span><span class="mins">{{ plan[2][1] }} 分钟</span></h2>
-  <h3>{{ d.think_title | md }}</h3>
-  {% for t in d.think_intro %}<p class="think-intro">{{ t | md }}</p>{% endfor %}
-  <table class="pairs">
-    <thead><tr><th>中文这么说</th><th>✗ 中式直译</th><th>✓ 英文这么说</th><th>为什么</th></tr></thead>
-    <tbody>
-    {% for p in d.pairs %}
-      <tr>
-        <td class="zh">{{ p.zh | md }}</td>
-        <td class="bad">{% if p.bad and p.bad != '-' %}<span class="wrong">{{ p.bad | md }}</span>{% else %}<span class="muted">—</span>{% endif %}</td>
-        <td class="good">{{ p.good | md }}</td>
-        <td class="note">{{ p.note | md }}</td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  {% if d.think_tip %}
-  <div class="box tip"><div class="bt">💡 一句话记住</div>{{ d.think_tip | md }}</div>
-  {% endif %}
-
-  {# 4. Dialogue #}
-  <h2 class="sec"><span class="n">4</span>场景对话 + 发音 <span class="en-sub">Dialogue &amp; Pronunciation</span><span class="mins">{{ plan[3][1] }} 分钟</span></h2>
-  <h3>{{ d.dlg_title }}</h3>
-  {% if d.dlg_intro %}<p class="dlg-intro">{{ d.dlg_intro | md }}</p>{% endif %}
-  <table class="dlg">
-    {% for l in d.lines %}
-    <tr><td class="who">{{ l.who }}</td><td class="line">{{ l.en | md }}</td><td class="zh">{{ l.zh | md }}</td></tr>
-    {% endfor %}
-  </table>
-  <p class="legend">标注说明：<b>加粗下划线</b> = 句子重音（读得重一点、长一点）；<span class="lk">‿</span> = 连读（两个词连成一个音读）。</p>
-
-  {% if d.pron_title %}
-  <div class="box pron">
-    <div class="bt">🔊 发音小课：{{ d.pron_title | md }}</div>
-    <ul>{% for p in d.pron %}<li>{{ p | md }}</li>{% endfor %}</ul>
-    {% if d.pron_drill %}<div class="drill">{{ d.pron_drill | md }}</div>{% endif %}
-  </div>
-  {% endif %}
-
-  <h3>拿来就用的句块 · Useful Chunks</h3>
-  <table class="chunks">
-    {% for c in d.chunks %}
-    <tr><td class="e">{{ c.en | md }}</td><td class="z">{{ c.zh | md }}</td><td class="u">{{ c.use | md }}</td></tr>
-    {% endfor %}
+  {# ---------- F ---------- #}
+  <h2 class="sec"><span class="n">F</span>今日核心表达 <span class="en-sub">Key Expressions</span></h2>
+  <table class="core">
+    <tr><th>表达 / 句型</th><th>什么时候用</th><th>可以替换</th><th>正式 / 随意</th></tr>
+    {% for c in d.core %}<tr><td class="e">{{ c.expr | md }}</td><td class="u">{{ c.use | md }}</td><td class="s">{{ c.swap | md }}</td><td class="t">{{ c.tone | md }}</td></tr>{% endfor %}
   </table>
 
-  {# 5. Speaking #}
-  <h2 class="sec"><span class="n">5</span>口语练习 <span class="en-sub">Speaking Practice</span><span class="mins">{{ plan[4][1] }} 分钟</span></h2>
-  <div class="ex">
-    <div class="et"><span class="k">A</span>跟读模仿 Shadowing</div>
-    <div class="hint">{{ d.shadow | md }}</div>
+  {# ---------- G ---------- #}
+  <h2 class="sec"><span class="n">G</span>语音与听力 <span class="en-sub">Sounds &amp; Listening</span></h2>
+  {% if d.pron_words %}
+  <table class="pw">
+    <tr><th>词</th><th>音标</th><th>音节与重音</th><th>口型与听感</th></tr>
+    {% for p in d.pron_words %}<tr><td class="w">{{ p.word | md }}</td><td class="p"><span class="ipa">/{{ p.ipa }}/</span></td><td class="s">{{ p.stress | md }}</td><td>{{ p.tip | md }}</td></tr>{% endfor %}
+  </table>
+  {% endif %}
+  {% for p in d.pron_sents %}
+  <div class="sent"><div class="line">{{ p.sent | md }}</div><div class="note">{{ p.note | md }}</div></div>
+  {% endfor %}
+  {% if d.pron_notes %}<ul class="dots small">{% for p in d.pron_notes %}<li>{{ p | md }}</li>{% endfor %}</ul>{% endif %}
+  <h3>听力：四步听法（用手机朗读功能播放【C】）</h3>
+  <div class="steps">
+    <div><b>① 看英文听</b>0.8 倍速，眼睛跟着英文，听每个词怎么连在一起。</div>
+    <div><b>② 只看中文听</b>遮住英文，看中文听，脑子里对上英文。</div>
+    <div><b>③ 什么都不看</b>正常速度听，听懂大意即可，记下没听清的地方。</div>
+    <div><b>④ 听写</b>听写下面的句子，再对照原文找差别。</div>
   </div>
-  <div class="ex">
-    <div class="et"><span class="k">B</span>中译英 · 张口说（先说出来，再看答案）</div>
-    <ol class="items">{% for s in d.say %}<li>{{ s.zh | md }}</li>{% endfor %}</ol>
-  </div>
-  <div class="ex">
-    <div class="et"><span class="k">C</span>情景应答 · 别人这么说，你怎么回？</div>
-    <ol class="items">{% for r in d.respond %}<li>{{ r.q | md }}</li>{% endfor %}</ol>
-  </div>
-  <div class="ex">
-    <div class="et"><span class="k">D</span>1 分钟开口说：{{ d.talk_topic | md }}</div>
-    <div class="hint">用下面的句子框架，录一段 1 分钟的音频。不求完美，求说完。</div>
-    <div class="frame">{% for f in d.talk_frame %}<div>{{ f | md }}</div>{% endfor %}</div>
-  </div>
+  {% if d.listen_focus %}<div class="small"><b class="muted">听辨要点：</b>{% for f in d.listen_focus %}{{ f | md }}{% if not loop.last %}　｜　{% endif %}{% endfor %}</div>{% endif %}
+  {% for x in d.dictation %}<div class="small" style="margin-top:1.4mm">听写 {{ loop.index }}（答案见 {{ x }}）<span class="dict-line"></span></div>{% endfor %}
+  {% if d.res %}<div class="res">补充资源（可选）：{{ d.res | md }}</div>{% endif %}
 
-  {# 6. Vocabulary #}
-  <h2 class="sec"><span class="n">6</span>词汇理解 <span class="en-sub">Words in Context</span><span class="mins">{{ plan[5][1] }} 分钟</span></h2>
-  <div class="ex">
-    <div class="et"><span class="k">A</span>语境填空：根据意思选词，必要时变形</div>
-    <div class="bank">{% for b in d.fill_bank %}<span>{{ b }}</span>{% endfor %}</div>
-    <ol class="items">{% for f in d.fill %}<li><span class="q-en">{{ f.q | md }}</span>{% if f.zh %} <span class="muted">（{{ f.zh | md }}）</span>{% endif %}</li>{% endfor %}</ol>
+  {# ---------- H ---------- #}
+  <h2 class="sec"><span class="n">H</span>口语实战 <span class="en-sub">Speaking</span></h2>
+  <div class="lvl"><div class="lt"><span class="k">第 1 层</span>{{ '不看原文复述' if d.review else '模仿' }}</div>{{ d.mimic | md }}</div>
+  <div class="lvl"><div class="lt"><span class="k">第 2 层</span>替换练习（每题至少说 2 个版本）</div>
+    <ol class="items">{% for x in d.swaps %}<li><span class="base">{{ x.base | md }}</span><br><span class="hint">替换：{{ x.hint | md }}</span></li>{% endfor %}</ol>
   </div>
-  <div class="ex">
-    <div class="et"><span class="k">B</span>场景判断：哪个说法最合适？</div>
-    <ol class="items">
-      {% for c in d.choose %}
-      <li>{{ c.q | md }}
-        <div class="opts">{% for o in c.opts %}<span>{{ 'ABCD'[loop.index0] }}. {{ o | md }}</span>{% endfor %}</div>
-      </li>
-      {% endfor %}
-    </ol>
+  <div class="lvl"><div class="lt"><span class="k">第 3 层</span>自主表达（只看中文情境，用英文说）</div>
+    <ol class="items">{% for x in d.frees %}<li>{{ x.cn | md }}</li>{% endfor %}</ol>
   </div>
-  <div class="ex">
-    <div class="et"><span class="k">C</span>中式英语找茬：把句子改地道</div>
-    <ol class="items">{% for f in d.fix %}<li><span class="q-en">{{ f.wrong | md }}</span><span class="blank-line"></span></li>{% endfor %}</ol>
-  </div>
+  <div class="output"><div class="ot">🎙 今日输出（{{ d.plan[6][1] if d.plan|length > 6 else 12 }} 分钟）</div>{{ d.output | md }}</div>
+
+  {# ---------- I ---------- #}
+  <h2 class="sec"><span class="n">I</span>理解检测与当天复盘 <span class="en-sub">Check &amp; Review</span></h2>
+  <ol class="items">{% for c in d.checks %}<li>{{ c.q | md }}</li>{% endfor %}</ol>
 
   {% if d.assess %}
-  <h2 class="sec"><span class="n">✓</span>第一阶段自评 <span class="en-sub">Self-Assessment</span></h2>
-  <p class="muted">做完上面的测试后，诚实地给自己打勾。没有人会看，这张表只为你自己服务。</p>
-  <table class="assess">
-    <thead><tr><th>我能……</th><th>能做到</th><th>基本能</th><th>还不行</th><th>对应 Day</th></tr></thead>
-    <tbody>
-    {% for a in d.assess %}{% set parts = a.split(' | ') %}
-      <tr><td>{{ parts[0] | md }}</td><td class="cb">☐</td><td class="cb">☐</td><td class="cb">☐</td><td class="dd">{{ parts[1] if parts|length > 1 else '' }}</td></tr>
-    {% endfor %}
-    </tbody>
+  <h3>阶段成果评估</h3>
+  <table class="grid">
+    <tr><th>我能……</th><th style="width:11%">能做到</th><th style="width:11%">基本能</th><th style="width:11%">还不行</th><th style="width:14%">对应 Day</th></tr>
+    {% for a in d.assess %}<tr><td>{{ a.item | md }}</td><td class="cb">☐</td><td class="cb">☐</td><td class="cb">☐</td><td class="muted">{{ a.days }}</td></tr>{% endfor %}
   </table>
-  {% if d.next_steps %}
-  <div class="box tip"><div class="bt">🧭 下一步怎么走</div><ul class="dots">{% for n in d.next_steps %}<li>{{ n | md }}</li>{% endfor %}</ul></div>
   {% endif %}
+  {% if d.weak %}
+  <h3>薄弱项目记录（测试后填写）</h3>
+  <table class="grid">
+    <tr><th style="width:34%">常见薄弱项</th><th>补强方法</th><th style="width:12%">我也有？</th></tr>
+    {% for w in d.weak %}<tr><td>{{ w.item | md }}</td><td>{{ w.fix | md }}</td><td class="cb">☐</td></tr>{% endfor %}
+  </table>
   {% endif %}
 
-  {# Answers #}
   <div class="answers">
-    <div class="at">📖 Day {{ d.day }} 参考答案</div>
+    <div class="at">📖 答案与示范（Day {{ d.day }}）——示范只是参考，意思对、说得自然就算对</div>
     <div class="ag"><span class="gl">热身：</span>{% for w in d.warmup %}{{ loop.index }}. <span class="en">{{ w.en | md }}</span>{% if not loop.last %}　{% endif %}{% endfor %}</div>
-    <div class="ag"><span class="gl">口语 B：</span>{% for s in d.say %}{{ loop.index }}. <span class="en">{{ s.en | md }}</span>{% if not loop.last %}　{% endif %}{% endfor %}</div>
-    <div class="ag"><span class="gl">口语 C（参考说法，意思对即可）：</span>{% for r in d.respond %}{{ loop.index }}. <span class="en">{{ r.a | md }}</span>{% if not loop.last %}　{% endif %}{% endfor %}</div>
-    <div class="ag"><span class="gl">口语 D 范例：</span><span class="en">{{ d.talk_sample | md }}</span></div>
-    <div class="ag"><span class="gl">词汇 A：</span>{% for f in d.fill %}{{ loop.index }}. <span class="en">{{ f.a | md }}</span>{% if not loop.last %}　{% endif %}{% endfor %}</div>
-    <div class="ag"><span class="gl">词汇 B：</span>{% for c in d.choose %}{{ loop.index }}. <b>{{ c.a }}</b> {{ c.why | md }}{% if not loop.last %}　{% endif %}{% endfor %}</div>
-    <div class="ag"><span class="gl">词汇 C：</span>{% for f in d.fix %}{{ loop.index }}. <span class="en">{{ f.right | md }}</span> <span class="muted">{{ f.why | md }}</span>{% if not loop.last %}　{% endif %}{% endfor %}</div>
+    {% if d.diffs %}<div class="ag"><span class="gl">【E】小任务：</span>{% for x in d.diffs %}{{ loop.index }}. {{ x.task_answer | md }}{% if not loop.last %}　{% endif %}{% endfor %}</div>{% endif %}
+    <div class="ag"><span class="gl">【H】第 2 层示范：</span>{% for x in d.swaps %}{{ loop.index }}. <span class="en">{{ x.sample | md }}</span>{% if not loop.last %}　{% endif %}{% endfor %}</div>
+    <div class="ag"><span class="gl">【H】第 3 层示范：</span>{% for x in d.frees %}{{ loop.index }}. <span class="en">{{ x.sample | md }}</span>{% if not loop.last %}　{% endif %}{% endfor %}</div>
+    <div class="ag"><span class="gl">今日输出示范：</span><span class="en">{{ d.output_sample | md }}</span></div>
+    <div class="ag"><span class="gl">【I】检测：</span>{% for c in d.checks %}{{ loop.index }}. {{ c.a | md }}{% if not loop.last %}　{% endif %}{% endfor %}</div>
   </div>
 
-  <div class="checkin">
-    <div class="t">✅ Day {{ d.day }} 打卡</div>
-    <div class="row">
-      <span>短剧大声读了 2 遍</span><span>词表「使用场景」都看了</span><span>对话跟读 3 遍并录音</span><span>口语 B/C/D 都开口说了</span><span>词汇题做完并订正</span>
+  {% if d.improve %}
+  <div class="improve"><div class="t">🧭 下阶段改善建议</div><ul class="dots">{% for x in d.improve %}<li>{{ x | md }}</li>{% endfor %}</ul></div>
+  {% endif %}
+
+  <div class="wrapup">
+    <div class="box2">
+      <div class="t">✅ Day {{ d.day }} 完成清单</div>
+      <ul class="cb">
+        <li>热身全部说出（★ 的已回原课复习）</li>
+        <li>【C】全文大声读了 2 遍以上</li>
+        <li>【D】每个重点词能说出意思和一个搭配</li>
+        <li>【G】四步听法完成，听写已订正</li>
+        <li>【H】三层练习都出声说了</li>
+        <li>今日输出已录音 / 写完并存档</li>
+        <li>【I】检测题已做完并订正</li>
+      </ul>
     </div>
-    <div class="row" style="margin-top:1mm"><span class="muted" style="font-size:8.5pt">今天我最想记住的一句话：</span></div>
-    <div class="note-line"></div>
+    <div class="box2 rv">
+      <div class="t">🗓 复习安排</div>
+      <div class="h">明天热身前，再看一遍：</div>
+      <ul>{% for x in d.review_next_day %}<li>{{ x | md }}</li>{% endfor %}</ul>
+      <div class="h">七天后（Day {{ d.day + 7 }}）复习：</div>
+      <ul>{% for x in d.review_next_week %}<li>{{ x | md }}</li>{% endfor %}</ul>
+    </div>
   </div>
 </section>

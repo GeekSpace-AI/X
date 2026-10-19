@@ -1,0 +1,249 @@
+---
+title: "{{ book.title }}"
+subtitle: "{{ book.subtitle }}"
+lang: zh-CN
+---
+
+# 本册怎么用
+
+{% for p in book.howto %}
+{{ p | mdtext }}
+
+{% endfor %}
+## 普通学习日：120 分钟
+
+| # | 环节 | 时间 | 具体操作 |
+|---|---|---|---|
+{% for name, mins, how in regular_plan %}
+| {{ loop.index }} | {{ name }} | {{ mins }} 分钟 | {{ how | mdtext }} |
+{% endfor %}
+
+## 阶段复习日：120 分钟
+
+| # | 环节 | 时间 | 具体操作 |
+|---|---|---|---|
+{% for name, mins, how in review_plan %}
+| {{ loop.index }} | {{ name }} | {{ mins }} 分钟 | {{ how | mdtext }} |
+{% endfor %}
+
+## 故事背景与人物
+
+{{ book.setting | mdtext }}
+
+{% for c in book.cast %}
+- **{{ c[0] }}**（{{ c[1] }}）：{{ c[2] | mdtext }}
+{% endfor %}
+
+{% for d in days %}
+# Day {{ d.day }} · {{ d.title_cn }}{% if d.review %}（阶段复习）{% endif %}
+
+*{{ d.title_en }}* · Week {{ d.week }} {{ d.week_name }} · 主题：{{ d.topic }} · 新学 {{ d.word_count }} 词 + {{ d.phrase_count }} 短语 · 短文 {{ d.story_words }} 词
+
+## A 今日目标
+
+- **今日情境**：{{ d.goal_scene | mdtext }}
+- **关键表达**：{{ d.goal_expr | mdtext }}
+- **重点词汇**：{{ d.goal_vocab | mdtext }}
+- **完成标准**：
+{% for x in d.done %}
+    - [ ] {{ x | mdtext }}
+{% endfor %}
+
+| # | 环节 | 时间 | 具体操作 |
+|---|---|---|---|
+{% for name, mins, how in d.plan %}
+| {{ loop.index }} | {{ name }} | {{ mins }} 分钟 | {{ how | mdtext }} |
+{% endfor %}
+| | 合计 | {{ d.plan | sum(attribute=1) }} 分钟 | |
+
+**热身（看中文说英文）**
+
+{% for w in d.warmup %}
+{{ loop.index }}. {{ w.cn | mdtext }}{% if w.src %}（{{ w.src }}）{% endif %}
+
+{% endfor %}
+## B {{ '新情境导入' if d.review else '中文场景导入' }}
+
+{{ d.scene | mdtext }}
+
+{% for p in d.scene_points %}
+- **{{ p.label }}**：{{ p.text | mdtext }}
+{% endfor %}
+
+## C {{ d.story_title }}
+
+| # | English | 中文 |
+|---|---|---|
+{% for s in d.sentences %}
+| S{{ s.n }} | {% if s.speaker %}**{{ s.speaker }}:** {% endif %}{{ s.text | mdtext }} | {{ s.cn | mdtext }} |
+{% endfor %}
+
+## D 原文重点词汇注释
+
+{% for v in d.vocab %}
+**{{ v.num }}. {{ v.form }}**{% if v.head.lower() != v.form.lower() %}（原形 {{ v.head }}）{% endif %} *{{ v.pos }}* /{{ v.ipa }}/ · 位置 S{{ v.sentence }}
+
+- 语义：{{ v.meaning | mdtext }}
+- 场景：{{ v.scene | mdtext }}
+- 搭配：{{ v.colloc | mdtext }}
+- 例句：{{ v.ex_en | mdtext }} {{ v.ex_cn | mdtext }}
+- 易错：{{ v.pitfall | mdtext }}
+
+{% endfor %}
+## E {{ '易混表达检查' if d.review else '中文怎么想，英文通常怎么说' }}
+
+{% for x in d.diffs %}
+### {{ loop.index }}. {{ x.title | mdtext }}
+
+{% if x.cn %}- 中文想表达：{{ x.cn | mdtext }}
+{% endif %}
+{% if x.en %}- 自然英文：{{ x.en | mdtext }}
+{% endif %}
+{% if x.why %}- 为什么不同：{{ x.why | mdtext }}
+{% endif %}
+{% if x.when %}- 什么时候用：{{ x.when | mdtext }}
+{% endif %}
+{% if x.vs %}- 对比例句：{{ x.vs | mdtext }}
+{% endif %}
+{% if x.task %}- 小任务：{{ x.task | mdtext }}
+{% endif %}
+
+{% endfor %}
+## F 今日核心表达
+
+| 表达 / 句型 | 什么时候用 | 可以替换 | 正式 / 随意 |
+|---|---|---|---|
+{% for c in d.core %}
+| {{ c.expr | mdtext }} | {{ c.use | mdtext }} | {{ c.swap | mdtext }} | {{ c.tone | mdtext }} |
+{% endfor %}
+
+## G 语音与听力
+
+{% if d.pron_words %}
+| 词 | 音标 | 音节与重音 | 口型与听感 |
+|---|---|---|---|
+{% for p in d.pron_words %}
+| {{ p.word | mdtext }} | /{{ p.ipa }}/ | {{ p.stress | mdtext }} | {{ p.tip | mdtext }} |
+{% endfor %}
+{% endif %}
+
+{% for p in d.pron_sents %}
+- {{ p.sent | mdtext }} —— {{ p.note | mdtext }}
+{% endfor %}
+{% for p in d.pron_notes %}
+- {{ p | mdtext }}
+{% endfor %}
+
+听力（四步听法：看英文听 → 只看中文听 → 什么都不看听 → 听写）。听辨要点：{% for f in d.listen_focus %}{{ f | mdtext }}{% if not loop.last %}；{% endif %}{% endfor %}
+
+听写句：{% for x in d.dictation %}{{ x }}{% if not loop.last %}、{% endif %}{% endfor %}
+
+{% if d.res %}补充资源（可选）：{{ d.res | mdtext }}
+{% endif %}
+
+## H 口语实战
+
+**第 1 层**：{{ d.mimic | mdtext }}
+
+**第 2 层 替换练习**
+
+{% for x in d.swaps %}
+{{ loop.index }}. {{ x.base | mdtext }}（替换：{{ x.hint | mdtext }}）
+
+{% endfor %}
+**第 3 层 自主表达**
+
+{% for x in d.frees %}
+{{ loop.index }}. {{ x.cn | mdtext }}
+
+{% endfor %}
+**今日输出**：{{ d.output | mdtext }}
+
+## I 理解检测与当天复盘
+
+{% for c in d.checks %}
+{{ loop.index }}. {{ c.q | mdtext }}
+
+{% endfor %}
+{% if d.assess %}
+**阶段成果评估**
+
+| 我能…… | 能做到 | 基本能 | 还不行 | 对应 Day |
+|---|---|---|---|---|
+{% for a in d.assess %}
+| {{ a.item | mdtext }} | ☐ | ☐ | ☐ | {{ a.days }} |
+{% endfor %}
+{% endif %}
+{% if d.weak %}
+**薄弱项目记录**
+
+| 常见薄弱项 | 补强方法 |
+|---|---|
+{% for w in d.weak %}
+| {{ w.item | mdtext }} | {{ w.fix | mdtext }} |
+{% endfor %}
+{% endif %}
+
+**答案与示范**
+
+- 热身：{% for w in d.warmup %}{{ loop.index }}. {{ w.en | mdtext }} {% endfor %}
+
+{% if d.diffs %}- 【E】小任务：{% for x in d.diffs %}{{ loop.index }}. {{ x.task_answer | mdtext }} {% endfor %}
+{% endif %}
+- 【H】第 2 层：{% for x in d.swaps %}{{ loop.index }}. {{ x.sample | mdtext }} {% endfor %}
+
+- 【H】第 3 层：{% for x in d.frees %}{{ loop.index }}. {{ x.sample | mdtext }} {% endfor %}
+
+- 今日输出示范：{{ d.output_sample | mdtext }}
+- 【I】检测：{% for c in d.checks %}{{ loop.index }}. {{ c.a | mdtext }} {% endfor %}
+
+{% if d.improve %}
+**下阶段改善建议**
+
+{% for x in d.improve %}
+- {{ x | mdtext }}
+{% endfor %}
+{% endif %}
+
+**复习安排**：明天——{% for x in d.review_next_day %}{{ x | mdtext }}{% if not loop.last %}；{% endif %}{% endfor %}。七天后——{% for x in d.review_next_week %}{{ x | mdtext }}{% if not loop.last %}；{% endif %}{% endfor %}。
+
+{% endfor %}
+# 附录 1 · 词汇覆盖记录
+
+| 词 / 短语 | 音标 | 首次 | 复现 | 能识别 | 能主动用 |
+|---|---|---|---|---|---|
+{% for v in index %}
+| {{ v.head }} | /{{ v.ipa }}/ | D{{ v.day }} | {% for r in v.recur %}D{{ r }} {% endfor %} | ☐ | ☐ |
+{% endfor %}
+
+# 附录 2 · 复习索引
+
+| Day | 中英表达对比点 |
+|---|---|
+{% for d in days %}{% for x in d.diffs %}
+| D{{ d.day }} | {{ x.title | mdtext }} |
+{% endfor %}{% endfor %}
+
+| Day | 核心表达 | 什么时候用 |
+|---|---|---|
+{% for d in days %}{% for c in d.core %}
+| D{{ d.day }} | {{ c.expr | mdtext }} | {{ c.use | mdtext }} |
+{% endfor %}{% endfor %}
+
+# 附录 4 · 第二册衔接记录
+
+- 课程天数：{{ stats.days }}；重点词 {{ stats.words }} 个 + 短语 {{ stats.phrases }} 个；对比点 {{ stats.diffs }} 组；核心表达 {{ stats.core }} 个；阅读量约 {{ stats.story_words }} 词。
+
+{% for sec in book.handoff %}
+## {{ sec.title }}
+
+{% for x in sec['list'] %}
+- {{ x | mdtext }}
+{% endfor %}
+
+{% endfor %}
+# 附录 5 · 续写课程指令
+
+```text
+{{ book.continue_prompt }}
+```

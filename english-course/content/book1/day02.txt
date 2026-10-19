@@ -1,0 +1,136 @@
+@day: 2
+@week: 1
+@title_cn: 早上没吃早饭
+@title_en: I Didn't Eat Breakfast
+@topic: 日常习惯、今天早上发生的事
+@think_short: 「不吃」don't ≠「没吃」didn't｜「还没」Not yet｜「没有 + 东西」don't have
+
+@goal_scene: 同事在茶水间问你早上过得怎么样：你要分清「平时的习惯」和「今天早上发生的事」。
+@goal_expr: I usually… / I don't… / I didn't… / Not yet. / It takes about an hour.
+@goal_vocab: 18 个重点词 + 4 个短语：作息、频率、通勤、早餐
+@done: 用 4 句话说出自己工作日早上的习惯：几点起、吃不吃早饭、怎么上班、路上要多久
+@done: 在「我不吃早饭」和「我（今天）没吃早饭」之间选对 don't / didn't，并能说出理由
+@done: 被问 Did you have breakfast? 时，按真实情况回答 Yes, I did. / No, I didn't. / Not yet.
+
+@warmup: 我叫林晓，是新来的运营助理。 | I'm Lily Lin. I'm the new operations assistant. | D1
+@warmup: 今天是我第一天上班。 | Today is my first day. | D1
+@warmup: 很高兴认识你。——我也很高兴认识你。 | Nice to meet you. — Nice to meet you, too. | D1
+@warmup: 我有点紧张，不过也很期待。 | I'm a little nervous, but I'm excited, too. | D1
+@warmup: 别担心，这里每个人都很友好。 | Don't worry. Everyone here is friendly. | D1
+@warmup: 请坐。 | Please have a seat. | D1
+
+@scene: 第二天早上 9 点，林晓一路小跑进了公司。昨晚她看英语视频看到很晚，今天起晚了，没来得及吃早饭。茶水间里，美国同事 Emma 正在喝咖啡，看到她就问早上怎么了。
+@sp: 人物关系 | 林晓 ↔ Emma：刚认识一天的同事，关系友好、可以随意聊天
+@sp: 沟通目的 | 聊聊早上的情况：平时的习惯是什么，今天早上又是怎么回事
+@sp: 已知信息 | Emma 看到林晓跑着进来，但不知道原因；林晓不知道 Emma 平时吃不吃早饭
+@sp: 表达重点 | 平时 vs 今天：我平时都吃早饭（always），可今天没吃（didn't）；我平时坐地铁，路上要一个小时
+
+@story_title: Episode 2 · No Breakfast Today
+@story_type: 叙述 + 对话
+@s: Lily **usually** **gets up** at seven. | 林晓平时七点起床。
+@s: She **always** eats **breakfast** at home. | 她总是在家吃早饭。
+@s: Then she **takes** the **subway** to work. | 然后坐地铁去上班。
+@s: Her **commute** is about an **hour**. | 她的通勤时间大约一个小时。
+@br:
+@s: But **this morning** was **different**. | 但今天早上不一样。
+@s: She **stayed up** late last night, so she got up at 7:40. | 她昨晚熬夜到很晚，所以 7 点 40 才起床。
+@s: She didn't eat breakfast. She didn't have time. | 她没吃早饭——没时间了。
+@br:
+@s: Emma: Morning, Lily! **Busy** morning? | Emma：早，林晓！早上很赶吧？
+@s: Lily: Yes! I didn't eat breakfast. I'm so **hungry**. | 林晓：是啊！我没吃早饭，饿死了。
+@s: Emma: Oh no! Do you usually **skip** breakfast? | Emma：哎呀！你平时经常不吃早饭吗？
+@s: Lily: No, I don't. I **never** skip it. Did you have breakfast? | 林晓：不，我从来不落下早饭。你吃早饭了吗？
+@s: Emma: Not **yet**. I **sometimes** skip it. I **often** just have coffee. | Emma：还没呢。我有时候不吃，经常就喝杯咖啡。
+@s: Emma: But here, have a **sandwich**. I **bought** two **on the way**. | Emma：不过给你，吃个三明治吧。我在路上买了两个。
+@s: Lily: Thank you! Now I'm not hungry **anymore**. | 林晓：谢谢！现在我不饿了。
+
+@v: usually | = | adv. | ˈjuːʒuəli | 通常；一般 | 说平时的习惯、一般的安排 | usually + 动作；be usually busy；usually on weekdays | I usually start work at nine. | 我一般九点开始工作。 | 位置：放在动作前（I usually get up）、am / is / are 后（I'm usually busy），不要放句尾说 I get up at seven usually。
+@v: gets up | get up | phr. | ˌgets ˈʌp | 起床 | 说作息时间 | get up early；get up at seven；get up late | What time do you get up on weekdays? | 你工作日几点起床？ | get up 是「从床上起来」；wake up 是「醒来」：I wake up at six, but I get up at seven.
+@v: always | = | adv. | ˈɔːlweɪz | 总是；一直 | 频率最高（约 100%）的习惯 | always + 动作；always on time；as always（和往常一样） | She's always on time. | 她总是准时。 | 抱怨别人时 always 带不满语气：You're always late! 和别人说话时注意语气。
+@v: breakfast | = | n. | ˈbrekfəst | 早饭 | 聊作息、请人吃早餐 | eat / have breakfast；skip breakfast；breakfast meeting | Let's have a breakfast meeting tomorrow. | 我们明天开个早餐会吧。 | 三餐前不加 a / the：✗ eat a breakfast → ✓ eat breakfast / have breakfast。
+@v: takes | take | v. | teɪks | 乘坐（交通工具）；花（时间） | 说怎么上班、路上要多久 | take the subway / the bus / a taxi；It takes an hour. | It takes about thirty minutes by bus. | 坐公交大约要三十分钟。 | 「坐地铁」不说 sit the subway；说「花时间」用 It takes…，不说 It spends…。
+@v: subway | = | n. | ˈsʌbweɪ | 地铁 | 美国说 subway，英国说 underground / tube | take the subway；subway station；Line 1 | I take the subway to work every day. | 我每天坐地铁上班。 | 「坐地铁」前面要有 the：take the subway；by subway 时不加 the。
+@v: commute | = | n./v. | kəˈmjuːt | 通勤（上下班路程）；通勤 | 美国职场闲聊的高频话题 | a long commute；How long is your commute?；commute to work | How long is your commute? | 你上下班路上要多久？ | 中文「通勤」很书面，英文 commute 很口语，聊天时常用。
+@v: hour | = | n. | ˈaʊər | 小时 | 说时间长短 | an hour；two hours；half an hour | The meeting takes an hour. | 会议要开一个小时。 | h 不发音，所以是 **an** hour，不是 a hour；「半小时」= half an hour。
+@v: this morning | = | phr. | ˌðɪs ˈmɔːrnɪŋ | 今天早上 | 说今天早上发生的事 | this morning；this afternoon；this evening | I sent the email this morning. | 我今天早上发了那封邮件。 | 「今天早上」不说 today morning；this morning 前不加 in / at。
+@v: different | = | adj. | ˈdɪfrənt | 不同的；不一样的 | 说今天和平时不一样、两个东西有区别 | different from…；a different way；something different | This system is different from the old one. | 这个系统和旧的不一样。 | 搭配 different **from**，不说 different with。
+@v: stayed up | stay up | phr. | ˌsteɪd ˈʌp | 熬夜；晚睡 | 解释为什么累、为什么起晚了 | stay up late；stay up all night | I stayed up late to finish the report. | 我熬夜把报告写完了。 | 「熬夜」不说 stay late night；stay up 已经包含「不睡觉」的意思。
+@v: Busy | busy | adj. | ˈbɪzi | 忙的；（早上、日子）很赶的 | 寒暄：Busy morning? / Busy day? | a busy day；busy with work；I'm busy right now. | I'm busy with a report right now. | 我现在正忙着写报告。 | busy 的 u 读 /ɪ/，像「比-zi」，不读「巴-zi」。
+@v: hungry | = | adj. | ˈhʌŋgri | 饿的 | 说自己的状态；约人吃饭 | so hungry；get hungry；Are you hungry? | Are you hungry? Let's get lunch. | 你饿了吗？我们去吃午饭吧。 | 「我饿了」是 I'm hungry（现在的状态），不是 I was hungry。
+@v: skip | = | v. | skɪp | 跳过；不做（本该做的事） | 不吃饭、不参加、跳过某一步 | skip breakfast；skip a meeting；skip this step | You can skip this step. | 这一步可以跳过。 | skip 一般指「有意不做」；「忘了做」用 forget。
+@v: never | = | adv. | ˈnevər | 从不 | 频率为零的习惯 | never + 动作；never late；almost never | I never drink coffee at night. | 我晚上从不喝咖啡。 | never 自己就是否定，不要再加 don't：✗ I don't never… → ✓ I never…
+@v: yet | = | adv. | jet | （否定句）还；（疑问句）已经 | 回答「还没」：Not yet.；问「好了没」 | not yet；haven't … yet；Is it ready yet? | Is the report ready yet? | 报告好了吗？ | yet 一般放在句尾；肯定句「已经」用 already，不用 yet。
+@v: sometimes | = | adv. | ˈsʌmtaɪmz | 有时候 | 频率约 30–50% 的习惯 | sometimes + 动作；放句首 Sometimes, … | Sometimes I work from home. | 有时候我在家办公。 | 不要和 some time（一段时间）、sometime（某个时候）混淆。
+@v: often | = | adv. | ˈɔːfn | 经常 | 频率约 70% 的习惯；问「多久一次」 | how often；often + 动作；not often | How often do you have team meetings? | 你们多久开一次团队会？ | 美国人大多不读 t：/ˈɔːfn/；问频率用 How often，不说 How many times often。
+@v: sandwich | = | n. | ˈsænwɪtʃ | 三明治 | 美国办公室最常见的早餐、午餐 | a chicken sandwich；make a sandwich；grab a sandwich | I usually grab a sandwich for lunch. | 我午饭一般随便买个三明治。 | d 不发音，读 /ˈsænwɪtʃ/。
+@v: bought | buy | v. | bɔːt | 买（buy 的过去式） | 说买了什么、在哪里买的 | buy lunch；buy a ticket；buy sth for sb | I bought coffee for the team. | 我给团队买了咖啡。 | buy 的过去式是 bought，不是 buyed；bought 的 gh 不发音。
+@v: on the way | = | phr. | ˌɑːn ðə ˈweɪ | 在路上；顺路 | 说顺路买东西、告诉别人「我在路上了」 | on the way to work；I'm on the way!；buy … on the way | I'm on the way. I'll be there in ten minutes. | 我在路上了，十分钟后到。 | 「我在路上」说 I'm on the way / on my way，不说 I'm in the road。
+@v: anymore | = | adv. | ˌeniˈmɔːr | 不再 | 说情况变了：以前是，现在不是了 | not … anymore；don't … anymore | I don't drive to work anymore. | 我现在不开车上班了。 | 只用在否定句，放句尾：I'm not tired anymore. 美式写成一个词 anymore。
+
+@diff: 「我不吃早饭」≠「我没吃早饭」
+@d_cn: 「不吃」= 平时的习惯；「没吃」= 某一次（今天早上、昨天）没有发生。
+@d_en: I don't eat breakfast.（习惯）/ I didn't eat breakfast.（今天早上没吃）
+@d_why: 中文靠「不」和「没」区分；英文靠 **don't** 和 **didn't**。don't 说的是平常、一般的情况；didn't 说的是过去某个具体时间没发生的事。英文把「时间」藏在了 don't / didn't 里，所以选错了，意思就完全变了。
+@d_when: 说习惯、喜好、平时的安排 → don't / doesn't；说今天早上、昨天、上周某件事没做 → didn't。
+@d_vs: **I don't eat breakfast.** 我（平时）不吃早饭。——一种习惯\n**I didn't eat breakfast.** 我（今天早上）没吃早饭。——一次没发生的事\n**She doesn't drink coffee.** 她不喝咖啡。（she / he 后面用 doesn't）
+@d_task: 选 don't 还是 didn't 说出来：① 我平时不坐公交。② 我昨天没坐公交。③ 我今天没带午饭。 | ① I don't take the bus. ② I didn't take the bus yesterday. ③ I didn't bring lunch today.
+@diff: 「我还没吃」——Not yet.
+@d_cn: 到现在为止还没做，但可能等一下会做。
+@d_en: Not yet. / I haven't had breakfast yet.
+@d_why: 「还没」强调「到此刻为止」，不是过去某个时间点，所以完整说法是 haven't … yet；口语里最常用的是两个词的回答 **Not yet.** 如果你说 No, I didn't.，意思更接近「（今天）就是没吃」。
+@d_when: 别人问 Did you…? / Have you…?，而你还没做、打算等下再做。
+@d_vs: **Did you have breakfast? — No, I didn't.**（今天就没吃）\n**Did you have breakfast? — Not yet.**（还没，等会儿吃）
+@d_task: 上午 11 点，同事问 Did you have lunch? 你还没吃，打算 12 点去。 | Not yet. I'll have lunch at twelve.
+@diff: 「我没有时间」——I don't have time.
+@d_cn: 「没有 + 东西」= 现在不拥有、不具备某样东西。
+@d_en: I don't have time. / I don't have a car.
+@d_why: 「没」和「没有」长得像，但「没有 + 东西」说的是**现在的状态**，和「过去」无关，英文用 **don't have**。只有说过去那一刻没有，才用 didn't have。
+@d_when: 现在没时间、没车、没问题 → don't have；当时（今天早上、昨天）没有 → didn't have。
+@d_vs: **I don't have time now.** 我现在没时间。\n**I didn't have time this morning.** 我今天早上没时间。\n✗ I no have time.
+@d_task: 用英文说：「我没有车，所以我坐地铁上班。」 | I don't have a car, so I take the subway to work.
+
+@core: I usually + 动作. | 说平时的习惯 | usually → always / often / sometimes / never | 正式：I normally start work at nine.｜随意：I usually get in around nine.
+@core: I don't + 动作. | 说「平时不做」 | eat breakfast / drink coffee / drive | 正式：I don't usually eat breakfast.｜随意：I don't really do breakfast.
+@core: I didn't + 动作 + this morning / today. | 说某一次没做 | eat breakfast / sleep well / bring lunch | 正式：I didn't have time for breakfast this morning.｜随意：No breakfast today.
+@core: It takes about + 时间. | 说做某事或路上要多久 | an hour / 30 minutes / twenty minutes | 正式：It takes approximately an hour.｜随意：About an hour.
+@core: Not yet. | 还没做，但打算做 | Not yet. / Not yet, but soon. | 正式：I haven't had a chance yet.｜随意：Nope, not yet.
+@core: I'm so + 状态. | 说自己现在的状态 | hungry / tired / busy | 正式：I'm quite hungry.｜随意：I'm starving!
+
+@pw: usually | ˈjuːʒuəli | 4 个音节 U·su·al·ly，重音在第一个 | 中间的 s 读 `/ʒ/`（像轻轻的「日」），不是 s；口语常缩成 `/ˈjuːʒəli/`
+@pw: breakfast | ˈbrekfəst | 2 个音节 BREAK·fast | break 在这里读 `/brek/`，不读 `/breɪk/`；fast 很轻
+@pw: commute | kəˈmjuːt | 2 个音节 com·MUTE | 重音在后，com 很轻
+@pw: hour | ˈaʊər | 1 个音节 | h 不发音！所以说 an hour
+@pw: sandwich | ˈsænwɪtʃ | 2 个音节 SAND·wich | d 不发音，像 san-wich
+@pw: anymore | ˌeniˈmɔːr | 3 个音节 a·ny·MORE | 重音在最后，more 要卷舌
+@ps: I **don't** eat **break**fast. / I **did**n't eat **break**fast. | don't 和 didn't 都要读重——它们决定句子的意思。didn't 的 t 几乎不发音，听起来像 `/ˈdɪdn/`。
+@ps: It **takes**‿a**bout**‿an **hour**. | takes about an hour 连成一串：take-sa-bou-tan-hour。
+@ps: **Not yet**. | 两个词都重读，干脆利落；yet 结尾的 t 只做口型。
+@pnote: didn't 在快速口语里常常只剩 `/ˈdɪdn/`；don't 读 `/doʊn(t)/`。区分它们主要听元音：`/oʊ/`（don't）和 `/ɪ/`（didn't）。
+@pnote: 书面上 It is，口语说 It's；I did not 书面也很少见，平时都说 didn't。
+@lfocus: don't 和 didn't 的元音不同
+@lfocus: takes about an hour 连成一串
+@lfocus: anymore 的重音在 more
+@dict: S7
+@dict: S12
+
+@mimic: 跟读【C】S8–S14 的对话：先 0.8 倍速逐句跟读，重点模仿 didn't 和 Not yet 的读法；再你演林晓、手机朗读 Emma 的台词，完整对一遍并录音。
+@swap: I usually get up at seven. | 换时间和频率词：always / sometimes；six thirty / eight | I always get up at six thirty.
+@swap: I didn't eat breakfast this morning. | 换动作：drink coffee / bring lunch / take the subway | I didn't bring lunch today.
+@swap: My commute is about an hour. | 换时间：40 minutes / two hours；也可以换成 It takes about… | It takes about forty minutes.
+@swap: I never skip breakfast. | 换成你真实的习惯：drink coffee / work on weekends / drive to work | I never drive to work. I don't have a car.
+@free: 同事问：Did you have breakfast?（你今天没吃，因为起晚了） | No, I didn't. I got up late.
+@free: 同事问：Do you usually eat breakfast?（你平时都吃） | Yes, I do. I usually eat at home.
+@free: 上午 11 点，同事问：Did you have lunch?（你还没吃，打算 12 点去） | Not yet. I'll have lunch at twelve.
+@free: 美国同事问你上班路上要多久（坐地铁大约 50 分钟）。 | I take the subway. It takes about fifty minutes.
+@output: 录 1 分钟「我的早晨」：几点起床 → 平时吃不吃早饭（usually / don't）→ 怎么上班、路上要多久 → 今天早上和平时有什么不一样（didn't）。
+@output_sample: I usually get up at six thirty. I always eat breakfast at home. I usually have noodles. Then I take the subway to work. My commute is about fifty minutes. But this morning was different. I got up late, so I didn't eat breakfast. Now I'm so hungry!
+
+@check: 林晓说 I never skip it. 后来她又说今天没吃早饭。这两句话矛盾吗？为什么？ | 不矛盾。never skip 说的是平时的习惯；didn't eat 说的是今天早上这一次。
+@check: Emma 问 Did you have breakfast? 如果你今天吃了，怎么回答？如果还没吃、打算等会儿吃呢？ | Yes, I did. / Not yet.
+@check: 「我今天早上没时间吃早饭」用 don't have 还是 didn't have？ | didn't have：I didn't have time for breakfast this morning.（说「现在没时间」才用 don't have）
+@check: 把 She doesn't eat breakfast. 改成「她今天早上没吃早饭」。 | She didn't eat breakfast this morning.
+@check: 为什么说 an hour，而不是 a hour？ | hour 的 h 不发音，开头是元音 `/aʊ/`，所以用 an。
+@next1: 不看书说出 S7、S9、S11
+@next1: 用 don't / didn't / Not yet 各回答一次 Did you…? / Do you…?
+@next7: 用 don't 和 didn't 各说 3 句关于你自己的话
+@next7: 按频率从高到低排列：always、usually、often、sometimes、never
