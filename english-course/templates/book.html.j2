@@ -67,8 +67,8 @@
 <section class="pagebreak">
   <h1 class="chapter">180 天全课程中的位置<span class="en-sub">Where Book {{ book.number }} Fits</span></h1>
   <table class="grid">
-    <tr><th style="width:15%">分册</th><th style="width:13%">天数</th><th>主题</th><th style="width:26%">词汇目标</th></tr>
-    {% for r in book.roadmap %}<tr{% if loop.index == book.number %} class="wk"{% endif %}><td class="c">{{ r[0] }}</td><td>{{ r[1] }}</td><td>{{ r[2] }}</td><td>{{ r[3] }}</td></tr>{% endfor %}
+    <tr><th style="width:12%">分册</th><th style="width:13%">天数</th><th>主题</th><th style="width:24%">词汇目标</th></tr>
+    {% for r in roadmap %}<tr{% if loop.index == book.number %} class="wk"{% endif %}><td class="c">{{ r.name }}</td><td>{{ r.days }}</td><td><b>{{ r.title }}</b><br><span class="muted small">{{ r.story }}</span></td><td>{{ r.words }}</td></tr>{% endfor %}
   </table>
   <p class="muted small">完整路线图见《课程总纲 · 180 天路线图》。</p>
 </section>

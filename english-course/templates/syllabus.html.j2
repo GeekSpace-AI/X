@@ -9,144 +9,186 @@
 <body>
 
 <div class="cover">
-  <div class="tag">BUSINESS ENGLISH · 90 DAYS</div>
+  <div class="tag">ENGLISH THE CHINESE WAY · 180 DAYS · ROADMAP</div>
   <h1>{{ s.title }}</h1>
   <div class="sub">{{ s.subtitle }}</div>
   <div class="en-title">{{ s.title_en }}</div>
   <div class="bar"></div>
   <ul>{% for b in s.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
-  <div class="big-num">90</div>
-  <div class="foot">课程总纲 · 学习方法 · 路线图 · 音标速查 · 资源推荐 · 打卡表</div>
+  <div class="big-num">180</div>
+  <div class="foot">课程总纲 · 6 册路线图 · 每日 8 步 · 阶段目标 · 音标速查 · 资源核实 · 打卡表</div>
 </div>
 
 <section>
-  <h1 class="chapter">写给你的话<span class="en-sub">A Letter from Your Teacher</span></h1>
-  <div class="lead">
-    {% for p in s.letter %}<p>{{ p | md }}</p>{% endfor %}
-    <p class="sign">{{ s.letter_sign }}</p>
+  <h1 class="chapter">目录<span class="en-sub">Contents</span></h1>
+  <table class="toc">
+    {% for key, title in [('LETTER', '写给你的话'), ('WHO', '适合谁 · 180 天后的目标'), ('HOW', '课程原则 · 每天 120 分钟 · 每课 9 个部分'), ('MAP', '180 天路线图：6 册一览'), ('BOOKS', '各册详细规划：故事、每周主题、能力目标'), ('B1', '第一册逐日目录（Day 1–30）'), ('POINTS', '中文思维表达点的分布'), ('DIFF', '中文 vs 英文：10 个最大的差异'), ('TEST', '阶段测评怎么做'), ('IPA', '美式音标速查'), ('RES', '学习资源与核实情况'), ('TRACK', '180 天打卡表')] %}
+    <tr><td class="d">{{ loop.index }}</td><td>{{ title }}</td><td class="pg">{{ pages.get(key, '') }}</td></tr>
+    {% endfor %}
+  </table>
+  <div class="box tip" style="margin-top:6mm"><div class="bt">📦 本次交付的文件</div>
+    <ul class="dots">
+      <li><b>00-课程总纲-180天路线图.pdf</b>：就是你正在读的这份。</li>
+      <li><b>{{ b1.pdf_name }}</b>：第一册 Day 1–30 的完整教材（{{ b1stats.words }} 个重点词 + {{ b1stats.phrases }} 个短语），含复习索引、进度记录表、第二册衔接记录和续写指令。</li>
+      <li><b>{{ b1.editable_name }}.md / .docx</b>：第一册的可编辑版本（Markdown 与 Word）。</li>
+    </ul>
   </div>
 </section>
 
 <section class="pagebreak">
-  <h1 class="chapter">这套课程的 6 个原则<span class="en-sub">How This Course Works</span></h1>
-  <div class="cards" style="grid-template-columns: 1fr 1fr;">
-    {% for p in s.principles %}
-    <div class="card"><div class="ct">{{ loop.index }}. {{ p[0] }}</div><div style="margin-top:1mm">{{ p[1] | md }}</div></div>
-    {% endfor %}
+  <h1 class="chapter">写给你的话<span class="en-sub">A Letter from Your Teacher</span></h1>
+  <div class="lead">
+    {% for p in s.letter %}<p>{{ p | md }}</p>{% endfor %}
+    <p class="muted" style="text-align:right">{{ s.letter_sign }}</p>
   </div>
+</section>
 
-  <h2 class="sec"><span class="n">⏱</span>每天 2 小时，固定 6 步</h2>
+<section class="pagebreak">
+  <h1 class="chapter">适合谁 · 180 天后的目标<span class="en-sub">Who It's For &amp; Where It Leads</span></h1>
   <table class="grid">
-    <tr><th>环节</th><th>时间</th><th>具体怎么做</th></tr>
-    {% for r in s.routine %}<tr><td class="c">{{ r[0] }}</td><td class="c">{{ r[1] }}</td><td>{{ r[2] | md }}</td></tr>{% endfor %}
+    {% for a in s.audience %}<tr><td style="width:18%"><b>{{ a[0] }}</b></td><td>{{ a[1] | md }}</td></tr>{% endfor %}
   </table>
-  <div class="box tip"><div class="bt">💡 上班族怎么安排</div>{{ s.split_tip | md }}</div>
-
+  <h2 class="sec"><span class="n">★</span>完成 180 天后，你应该能做到</h2>
+  <ul class="dots">{% for g in s.final_goals %}<li>{{ g | md }}</li>{% endfor %}</ul>
   <h2 class="sec"><span class="n">✓</span>开始之前，先做 4 件事</h2>
   <ul class="dots">{% for b in s.before_start %}<li>{{ b | md }}</li>{% endfor %}</ul>
 </section>
 
 <section class="pagebreak">
-  <h1 class="chapter">90 天路线图<span class="en-sub">The Roadmap</span></h1>
-  <p class="lead">整套课程分三个阶段，每个阶段 30 天、约 4 周。每周 6 天学新内容，第 7 天是复习日；每个阶段最后两天是总复习和阶段测试。一部职场连续剧贯穿始终：主角 Lily 从新人一路成长为销售主管。</p>
+  <h1 class="chapter">课程原则 · 每天 120 分钟<span class="en-sub">How the Course Works</span></h1>
   <div class="cards">
-    {% for ph in s.phases %}
-    <div class="card">
-      <div class="ct">{{ ph.name }}</div>
-      <div class="cs">{{ ph.days }} · {{ ph.words }}</div>
-      <div style="font-weight:700; margin-bottom:1mm">{{ ph.theme }}</div>
-      <div class="muted" style="font-size:8.6pt; margin-bottom:1.5mm">{{ ph.story }}</div>
-      <ul>{% for g in ph.goals %}<li>{{ g | md }}</li>{% endfor %}</ul>
-    </div>
-    {% endfor %}
+    {% for p in s.principles %}<div class="card"><div class="ct">{{ loop.index }}. {{ p[0] }}</div><div>{{ p[1] | md }}</div></div>{% endfor %}
   </div>
-  <div class="box culture">
-    <div class="bt">📊 90 天学完，你会有什么？</div>
-    <p>约 <b>3,000 个</b>词汇卡（每个都有美式音标、中文意思、使用场景）＋ 约 <b>720 个</b>拿来就用的句块；第一阶段的短剧和对话里就出现了 <b>{{ distinct_words }}</b> 个不同的英文词形——这还不算你本来就认识的词。</p>
-    <p>约 <b>80 个</b>「中文思维 → 英文表达」对照点；<b>90 段</b>你自己的 1 分钟英文录音，记录你从开不了口到流利表达的全过程。</p>
-  </div>
+  <h2 class="sec"><span class="n">⏱</span>普通学习日：8 步，共 120 分钟</h2>
+  <table class="plan">
+    <tr><th>#</th><th>环节</th><th>时间</th><th>具体操作</th></tr>
+    {% for name, mins, how in regular_plan %}<tr><td class="i">{{ loop.index }}</td><td class="nm">{{ name }}</td><td class="m">{{ mins }} 分钟</td><td>{{ how | md }}</td></tr>{% endfor %}
+  </table>
 </section>
 
 <section class="pagebreak">
-  <h1 class="chapter">每日课程表<span class="en-sub">Day by Day</span></h1>
-  <p class="muted">「中文思维点」是当天重点攻克的中文习惯。第一阶段已完成，第二、三阶段为规划大纲，会按同样的格式陆续编写。</p>
+  <h2 class="sec"><span class="n">↺</span>阶段复习日（每册 Day 7 / 14 / 21 / 30）：8 步，共 120 分钟</h2>
+  <table class="plan">
+    <tr><th>#</th><th>环节</th><th>时间</th><th>具体操作</th></tr>
+    {% for name, mins, how in review_plan %}<tr><td class="i">{{ loop.index }}</td><td class="nm">{{ name }}</td><td class="m">{{ mins }} 分钟</td><td>{{ how | md }}</td></tr>{% endfor %}
+  </table>
+  <div class="box tip"><div class="bt">💡 上班族怎么安排</div>{{ s.split_tip | md }}</div>
+  <h2 class="sec"><span class="n">A–I</span>每课的 9 个部分</h2>
   <table class="grid">
-    <tr><th style="width:12mm">Day</th><th>主题</th><th>English</th><th>中文思维点</th></tr>
-    <tr class="wk"><td colspan="4">第一阶段 · 开口期（Day 1–30）</td></tr>
+    <tr><th style="width:8%">部分</th><th style="width:24%">名称</th><th>内容</th></tr>
+    {% for p in s.lesson_parts %}<tr><td class="c">{{ p[0] }}</td><td><b>{{ p[1] }}</b></td><td>{{ p[2] | md }}</td></tr>{% endfor %}
+  </table>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">180 天路线图：6 册一览<span class="en-sub">The Six Books</span></h1>
+  <table class="grid">
+    <tr><th style="width:11%">分册</th><th style="width:12%">天数</th><th>主题</th><th style="width:20%">词汇目标</th><th style="width:18%">文本长度</th></tr>
+    {% for b in s.books %}<tr{% if loop.first %} class="wk"{% endif %}><td class="c">{{ b.name }}</td><td>{{ b.days }}</td><td><b>{{ b.title }}</b><br><span class="muted small">{{ b.status }}</span></td><td>{{ b.words }}</td><td>{{ b.text }}</td></tr>{% endfor %}
+    <tr><td class="c"><b>合计</b></td><td>180 天</td><td>6 册，每册 30 天，每册最后一天为阶段测评</td><td><b>约 3,000 词族 + 约 800 短语</b></td><td></td></tr>
+  </table>
+  <h2 class="sec"><span class="n">🎧</span>听力怎样一步步减少中文提示和字幕</h2>
+  <table class="grid">
+    <tr><th style="width:12%">分册</th><th>听力方式</th></tr>
+    {% for b in s.books %}<tr><td class="c">{{ b.name }}</td><td>{{ b.listening }}</td></tr>{% endfor %}
+  </table>
+  <p class="muted small">第一册已经完成；第二至第六册是规划，会按第一册的格式逐册编写。第一册附录 4、5 提供了第二册的衔接记录和可直接复制的续写指令。</p>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">各册详细规划<span class="en-sub">Book by Book</span></h1>
+  {% for b in s.books %}
+  <div class="card keep" style="margin-bottom:4mm">
+    <div class="ct">{{ b.name }} · {{ b.title }}</div>
+    <div class="cs">{{ b.days }} · {{ b.words }} · {{ b.status }}</div>
+    <div class="muted" style="margin:1mm 0 1.5mm">{{ b.story }}</div>
+    <table class="grid" style="margin:1mm 0">
+      <tr><th style="width:50%">每周主题</th><th>本册结束时能做到（可测量）</th></tr>
+      <tr><td><ul class="dots">{% for w in b.weeks %}<li>{{ w | md }}</li>{% endfor %}</ul></td><td><ul class="dots">{% for g in b.goals %}<li>{{ g | md }}</li>{% endfor %}</ul></td></tr>
+    </table>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">第一册逐日目录<span class="en-sub">Book 1 Day by Day</span></h1>
+  <p class="muted small">右列是当天重点处理的中文思维点。阴影行是阶段复习日。</p>
+  <table class="grid">
+    <tr><th style="width:9%">Day</th><th style="width:30%">主题</th><th>中文思维点</th></tr>
     {% set ns = namespace(wk=0) %}
-    {% for d in p1days %}
-      {% if d.week != ns.wk %}{% set ns.wk = d.week %}<tr class="wk"><td colspan="4" style="font-weight:400">Week {{ d.week }} · {{ d.week_name }}</td></tr>{% endif %}
-      <tr{% if d.review %} class="rv"{% endif %}><td class="c">{{ d.day }}</td><td>{{ d.title_cn }}</td><td class="en">{{ d.title_en }}</td><td>{{ d.think_short }}</td></tr>
-    {% endfor %}
-    {% for title, rows in [("第二阶段 · 流利期（Day 31–60）", s.phase2_days), ("第三阶段 · 进阶期（Day 61–90）", s.phase3_days)] %}
-      <tr class="wk"><td colspan="4">{{ title }}</td></tr>
-      {% set ns2 = namespace(mod='') %}
-      {% for r in rows %}
-        {% if r[4] != ns2.mod %}{% set ns2.mod = r[4] %}<tr class="wk"><td colspan="4" style="font-weight:400">模块 {{ r[4] }}</td></tr>{% endif %}
-        <tr{% if '复习' in r[1] or '测试' in r[1] %} class="rv"{% endif %}><td class="c">{{ r[0] }}</td><td>{{ r[1] }}</td><td class="en">{{ r[2] }}</td><td>{{ r[3] }}</td></tr>
-      {% endfor %}
+    {% for d in b1days %}
+      {% if d.week != ns.wk %}{% set ns.wk = d.week %}<tr class="wk"><td colspan="3">Week {{ d.week }} · {{ d.week_name }}</td></tr>{% endif %}
+      <tr{% if d.review %} class="rv"{% endif %}><td class="c">{{ d.day }}</td><td>{{ d.title_cn }}<br><span class="muted small en">{{ d.title_en }}</span></td><td>{{ d.think_short }}</td></tr>
     {% endfor %}
   </table>
 </section>
 
 <section class="pagebreak">
-  <h1 class="chapter">中文思维 vs. 英文思维<span class="en-sub">10 Big Differences</span></h1>
-  <p class="lead">这 10 条，是中国人说英语时最常见的「中文习惯」。整套课程的「中文思维 → 英文表达」小节，都是围绕它们展开的。先有个整体印象，学到对应的那一天时再细细体会。</p>
+  <h1 class="chapter">中文思维表达点的分布<span class="en-sub">Where Each Point Is Taught</span></h1>
+  <p class="lead">这些「中文这么说、英文那么说」的关键点不会集中在一册里讲完：先在第一册用最常见的场景建立直觉，后面几册在更复杂的场景里复现和加深。</p>
   <table class="grid">
-    <tr><th style="width:8mm">#</th><th style="width:30%">差异</th><th>例子</th><th style="width:14%">详见</th></tr>
-    {% for d in s.differences %}<tr><td class="c">{{ loop.index }}</td><td><b>{{ d[0] }}</b></td><td>{{ d[1] | md }}</td><td class="c" style="font-weight:400">{{ d[2] }}</td></tr>{% endfor %}
+    <tr><th style="width:42%">表达点</th><th style="width:26%">首次出现</th><th>后续加深</th></tr>
+    {% for p in s.points %}<tr><td><b>{{ p[0] }}</b></td><td>{{ p[1] }}</td><td>{{ p[2] }}</td></tr>{% endfor %}
+  </table>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">中文 vs 英文：10 个最大的差异<span class="en-sub">Ten Big Differences</span></h1>
+  <p class="lead">中国人说英语时最常见的「中文习惯」都可以归到这 10 条。先有整体印象，学到对应的那一天再细细体会。</p>
+  <table class="grid">
+    <tr><th style="width:6%">#</th><th style="width:28%">差异</th><th>例子</th><th style="width:18%">详见</th></tr>
+    {% for d in s.differences %}<tr><td class="c">{{ loop.index }}</td><td><b>{{ d[0] }}</b></td><td>{{ d[1] | md }}</td><td>{{ d[2] }}</td></tr>{% endfor %}
+  </table>
+  <h1 class="chapter" style="margin-top:8mm">阶段测评怎么做<span class="en-sub">Stage Assessments</span></h1>
+  <p class="muted">每册 Day 30（总第 30、60、90、120、150、180 天）做一次测评。测评不是选择题，而是看你能不能在新情境里听懂、说出、用出来：</p>
+  <table class="grid">
+    <tr><th style="width:24%">项目</th><th>怎么做</th></tr>
+    {% for t in s.stage_test %}<tr><td><b>{{ t[0] }}</b></td><td>{{ t[1] | md }}</td></tr>{% endfor %}
   </table>
 </section>
 
 <section class="pagebreak">
   <h1 class="chapter">美式音标速查<span class="en-sub">American English Sounds</span></h1>
-  <p class="muted">本书使用的美式音标，与欧路、有道词典中标注「美」的音标一致。中文提示只是帮你找到大概的口型，一定要配合词典发音反复听。</p>
-  <h2 class="sec"><span class="n">1</span>单元音</h2>
+  <p class="muted small">本课程使用的美式音标与欧路、有道词典中标注「美」的音标一致。中文提示只是帮你找到大概的口型，一定要配合词典发音反复听。</p>
+  {% for title, rows in [('单元音', s.ipa_vowels), ('双元音', s.ipa_diph), ('中国人最容易读错的辅音', s.ipa_cons)] %}
+  <h2 class="sec"><span class="n">{{ loop.index }}</span>{{ title }}</h2>
   <table class="grid">
     <tr><th style="width:14%">音标</th><th style="width:30%">例词</th><th>怎么发</th></tr>
-    {% for v in s.ipa_vowels %}<tr><td class="c"><span class="ipa">/{{ v[0] }}/</span></td><td class="en">{{ v[1] }}</td><td>{{ v[2] | md }}</td></tr>{% endfor %}
+    {% for v in rows %}<tr><td class="c"><span class="ipa">/{{ v[0] }}/</span></td><td class="en">{{ v[1] }}</td><td>{{ v[2] | md }}</td></tr>{% endfor %}
   </table>
-  <h2 class="sec"><span class="n">2</span>双元音</h2>
-  <table class="grid">
-    <tr><th style="width:14%">音标</th><th style="width:30%">例词</th><th>怎么发</th></tr>
-    {% for v in s.ipa_diph %}<tr><td class="c"><span class="ipa">/{{ v[0] }}/</span></td><td class="en">{{ v[1] }}</td><td>{{ v[2] | md }}</td></tr>{% endfor %}
-  </table>
-  <h2 class="sec"><span class="n">3</span>中国人最容易读错的辅音</h2>
-  <table class="grid">
-    <tr><th style="width:14%">音标</th><th style="width:30%">例词</th><th>怎么发</th></tr>
-    {% for v in s.ipa_cons %}<tr><td class="c"><span class="ipa">/{{ v[0] }}/</span></td><td class="en">{{ v[1] }}</td><td>{{ v[2] | md }}</td></tr>{% endfor %}
-  </table>
+  {% endfor %}
   <h2 class="sec"><span class="n">4</span>符号说明</h2>
   <ul class="dots">{% for m in s.ipa_marks %}<li>{{ m | md }}</li>{% endfor %}</ul>
 </section>
 
 <section class="pagebreak">
-  <h1 class="chapter">学习资源推荐<span class="en-sub">Resources</span></h1>
-  {% for g in s.resources %}
-  <h2 class="sec"><span class="n">{{ loop.index }}</span>{{ g.group }}</h2>
+  <h1 class="chapter">学习资源与核实情况<span class="en-sub">Resources &amp; Verification</span></h1>
+  <p class="muted small">以下资源于 2026 年 10 月整理。「核实情况」一栏如实说明哪些已经确认、哪些无法在编写环境中打开。</p>
   <table class="grid">
-    <tr><th style="width:26%">名称</th><th>是什么</th><th style="width:32%">怎么配合本课程用</th></tr>
-    {% for it in g.entries %}<tr><td><b class="en">{{ it[0] }}</b></td><td>{{ it[1] | md }}</td><td>{{ it[2] | md }}</td></tr>{% endfor %}
+    <tr><th style="width:20%">资源</th><th style="width:30%">是什么 · 在哪里</th><th style="width:22%">怎么配合本课程</th><th>核实情况</th></tr>
+    {% for r in s.resources %}<tr><td><b class="en">{{ r.name }}</b></td><td>{{ r.what | md }}<br><span class="muted small en" style="word-break:break-all">{{ r.where }}</span></td><td>{{ r.how | md }}</td><td class="small">{{ r.check | md }}</td></tr>{% endfor %}
   </table>
-  {% endfor %}
   <div class="box tip"><div class="bt">⚠️ 提醒</div>{{ s.resource_note | md }}</div>
 </section>
 
 <section class="pagebreak">
-  <h1 class="chapter">90 天打卡表<span class="en-sub">Progress Tracker</span></h1>
-  <p class="muted">{{ s.tracker_note }}</p>
-  {% for ph in [(1, 30, '第一阶段 · 开口期'), (31, 60, '第二阶段 · 流利期'), (61, 90, '第三阶段 · 进阶期')] %}
-  <h2 class="sec"><span class="n">{{ loop.index }}</span>{{ ph[2] }}</h2>
+  <h1 class="chapter">180 天打卡表<span class="en-sub">Progress Tracker</span></h1>
+  <p class="muted small">{{ s.tracker_note }}</p>
+  {% for b in s.books %}
+  {% set start = loop.index0 * 30 + 1 %}
+  <div class="keep">
+  <h2 class="sec"><span class="n">{{ loop.index }}</span>{{ b.name }} · {{ b.title }}（{{ b.days }}）</h2>
   <table class="tracker">
-    {% for row in range(ph[0], ph[1] + 1, 10) %}
-    <tr>{% for d in range(row, row + 10) %}<td><div class="dd">D{{ d }}</div><div style="font-family:'DejaVu Sans'; font-size:11pt; color:#1f3a5f">☐</div><div style="border-bottom:0.5pt solid #c4ccd8; height:4mm"></div></td>{% endfor %}</tr>
+    {% for row in range(start, start + 30, 10) %}
+    <tr>{% for d in range(row, row + 10) %}<td{% if d % 30 == 0 %} class="t"{% endif %}><div class="dd">D{{ d }}</div><div class="bx">☐</div><div class="ln"></div></td>{% endfor %}</tr>
     {% endfor %}
   </table>
-  {% endfor %}
-  <div class="checkin" style="margin-top:5mm">
-    <div class="t">🎙 我的录音里程碑</div>
-    <div class="row"><span>Day 0 录音（开始前）</span><span>Day 30 阶段测试录音</span><span>Day 60 阶段测试录音</span><span>Day 90 毕业录音</span></div>
   </div>
+  {% endfor %}
+  <h2 class="sec"><span class="n">🎙</span>录音里程碑</h2>
+  <table class="tracker ms">
+    <tr>{% for m in ['Day 0 · 开始前', 'Day 30 · 1 分钟', 'Day 60 · 2 分钟', 'Day 90 · 2 分钟汇报', 'Day 120 · 模拟会议', 'Day 150 · 3 分钟对话', 'Day 180 · 5 分钟毕业录音'] %}<td><div class="dd">{{ m }}</div><div class="bx">☐</div><div class="ln"></div></td>{% endfor %}</tr>
+  </table>
 </section>
 
 </body>

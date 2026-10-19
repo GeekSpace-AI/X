@@ -278,3 +278,13 @@ table.log { width: 100%; border-collapse: collapse; font-size: 8.4pt; }
 table.log th { background: var(--panel); color: var(--navy); border: 0.6pt solid #b9c2cf; padding: 1mm; }
 table.log td { border: 0.6pt solid #b9c2cf; padding: 1.4mm 1mm; height: 7.2mm; text-align: center; }
 table.log td.l { text-align: left; }
+
+/* ---------- Roadmap tracker ---------- */
+table.tracker { width: 100%; border-collapse: collapse; table-layout: fixed; margin: 1mm 0 3mm; }
+table.tracker td { border: 0.5pt solid var(--line); text-align: center; padding: 1mm 0.5mm 1.4mm; vertical-align: top; }
+table.tracker td.t { background: var(--orange-soft); }
+table.tracker .dd { font-size: 7.6pt; color: var(--muted); font-weight: 700; }
+table.tracker .bx { font-family: "DejaVu Sans"; font-size: 11pt; color: var(--navy); line-height: 1.2; }
+table.tracker .ln { border-bottom: 0.5pt solid var(--line); height: 4mm; margin: 0 1.5mm; }
+table.tracker.ms .dd { font-size: 7.2pt; }
+.card table.grid ul.dots { margin: 0; padding-left: 4mm; }

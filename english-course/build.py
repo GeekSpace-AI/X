@@ -486,16 +486,52 @@ def check_book(n):
     return meta, days, index
 
 
+def fill_counts(obj, stats):
+    """Replace {WORDS} / {PHRASES} / {TOTAL} in book.yaml text with the real counts."""
+    if isinstance(obj, str):
+        return (obj.replace("{WORDS}", str(stats["words"])).replace("{PHRASES}", str(stats["phrases"]))
+                .replace("{TOTAL}", str(stats["words"] + stats["phrases"])))
+    if isinstance(obj, list):
+        return [fill_counts(x, stats) for x in obj]
+    if isinstance(obj, dict):
+        return {k: fill_counts(v, stats) for k, v in obj.items()}
+    return obj
+
+
 def build_book(n):
+    roadmap = load_syllabus()[0]["books"]  # loads Book 1 too, so do it before this book's own load
     meta, days, index = check_book(n)
     stats = book_stats(days, index)
-    ctx = {"book": meta, "days": days, "index": index, "stats": stats,
+    meta = fill_counts(meta, stats)
+    ctx = {"book": meta, "days": days, "index": index, "stats": stats, "roadmap": roadmap,
            "alpha": sorted(index, key=lambda v: re.sub(r"[^a-z ]", "", v["head"].lower()) or v["head"]),
            "review_plan": REVIEW_PLAN, "regular_plan": REGULAR_PLAN}
     build_pdf("book.html.j2", ctx, meta["pdf_name"], meta["footer"],
               [("INDEX", r"Vocabulary Coverage"), ("RINDEX", r"Review Index"), ("LOG", r"Progress Log"),
                ("HANDOFF", r"Handoff to Book"), ("PROMPT", r"Prompt for Writing Book")])
     build_editable(ctx, meta["editable_name"])
+
+
+def load_syllabus():
+    """The 180-day roadmap; Book 1's vocabulary figures come from the finished lessons."""
+    s = yaml.safe_load((CONTENT / "syllabus.yaml").read_text(encoding="utf-8"))
+    meta, days, index = load_book(1)
+    stats = book_stats(days, index)
+    for b in s["books"]:
+        b["words"] = b["words"].replace("{B1}", f"{stats['words']} 词 + {stats['phrases']} 短语")
+    return s, meta, days, stats
+
+
+def build_syllabus():
+    s, meta, days, stats = load_syllabus()
+    ctx = {"s": s, "b1": meta, "b1days": days, "b1stats": stats,
+           "regular_plan": REGULAR_PLAN, "review_plan": REVIEW_PLAN}
+    build_pdf("syllabus.html.j2", ctx, s["pdf_name"], s["footer"],
+              [("LETTER", r"A Letter from Your Teacher"), ("WHO", r"Who It.s For"), ("HOW", r"How the Course Works"),
+               ("MAP", r"The Six Books"), ("BOOKS", r"Book by Book"), ("B1", r"Book 1 Day by Day"),
+               ("POINTS", r"Where Each Point Is Taught"), ("DIFF", r"Ten Big Differences"),
+               ("TEST", r"Stage Assessments"), ("IPA", r"American English Sounds"),
+               ("RES", r"Resources . Verification"), ("TRACK", r"Progress Tracker")])
 
 
 def main():
@@ -508,8 +544,7 @@ def main():
     ensure_fonts()
     targets = args or ["syllabus"] + [f"book{n}" for n in books]
     if "syllabus" in targets:
-        syllabus = yaml.safe_load((CONTENT / "syllabus.yaml").read_text(encoding="utf-8"))
-        build_pdf("syllabus.html.j2", {"s": syllabus}, syllabus["pdf_name"], syllabus["footer"])
+        build_syllabus()
     for n in books:
         if f"book{n}" in targets:
             build_book(n)

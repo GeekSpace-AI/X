@@ -34,6 +34,20 @@ lang: zh-CN
 - **{{ c[0] }}**（{{ c[1] }}）：{{ c[2] | mdtext }}
 {% endfor %}
 
+## 本册结束时，你应该能做到
+
+{% for g in book.outcomes %}
+- {{ g | mdtext }}
+{% endfor %}
+
+## 180 天全课程中的位置
+
+| 分册 | 天数 | 主题 | 词汇目标 |
+|---|---|---|---|
+{% for r in roadmap %}
+| {{ r.name }} | {{ r.days }} | {{ r.title }} | {{ r.words }} |
+{% endfor %}
+
 {% for d in days %}
 # Day {{ d.day }} · {{ d.title_cn }}{% if d.review %}（阶段复习）{% endif %}
 
@@ -229,6 +243,16 @@ lang: zh-CN
 {% for d in days %}{% for c in d.core %}
 | D{{ d.day }} | {{ c.expr | mdtext }} | {{ c.use | mdtext }} |
 {% endfor %}{% endfor %}
+
+# 附录 3 · 学习进度记录表
+
+每天学完填一行。「自评」1–5 分：5 = 不看书能说出今天的核心表达；1 = 只能看着书读。
+
+| Day | 日期 | 用时 | 录音 | 热身 ★ 数 | 自评 1–5 | 今天最想记住的一句 / 备注 |
+|---|---|---|---|---|---|---|
+{% for d in days %}
+| {{ d.day }}{% if d.review %}（复习）{% endif %} |  |  | ☐ |  |  |  |
+{% endfor %}
 
 # 附录 4 · 第二册衔接记录
 
