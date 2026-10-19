@@ -1,0 +1,149 @@
+@day: 12
+@week: 2
+@title_cn: 电脑登不上
+@title_en: I Can't Log In
+@topic: 电脑、系统出问题，找 IT 帮忙
+@think_short: 「电脑坏了」≠ broken｜「登不上」can't log in｜「帮我看一下」take a look｜「试试重启」try restarting
+
+@goal_scene: 早上登不上公司的物流跟踪系统：向 IT 同事说清楚哪里用不了、自己已经试过什么，请他帮忙看一下，并听懂他的建议和解释。
+@goal_expr: My computer isn't working. / I can't log in to the system. / Can you take a look? — Let me take a look. / Have you tried restarting it? / I forgot my password.
+@goal_vocab: 17 个重点词 + 4 个短语：电脑与系统、出错与排查、密码与账号
+@done: 用 3 句英文向 IT 说明问题：哪里用不了 → 已经试过什么 → 请对方帮忙看一下
+@done: 说「电脑坏了」「登不上」「帮我看一下」时，不再说 broken / login the system / help me see
+@done: 听到 Have you tried…? 知道这是建议，能马上回答 Yes, I… / No, not yet.
+
+@warmup: 你周末过得怎么样？——过得很好！ | How was your weekend? — It was great! | D11
+@warmup: 我和朋友去徒步了。 | I went hiking with my friends. | D11
+@warmup: 还行。你呢？ | Not bad. And you? | D11
+@warmup: 我在家待着，看了一部很好笑的电影。 | I stayed home and watched a funny movie. | D11
+@warmup: 五号线出了事故，地铁停了二十分钟。 | There was an accident on Line 5, so the subway stopped for twenty minutes. | D9
+@warmup: 我昨天挺忙的。 | I was pretty busy yesterday. | D8
+
+@scene: 第二周的一个早上，林晓要在物流跟踪系统里帮吴佳查几个包裹，却怎么也登不上：屏幕上一直跳出错误提示，重启电脑也没用。她只好去找 IT 的李凯（Kevin）。Kevin 话不多，不管你遇到什么问题，他的第一句话总是 Have you tried restarting it?
+@sp: 人物关系 | 林晓（新员工）→ 李凯（IT 支持，同事，平级，还不太熟）
+@sp: 沟通目的 | 说清楚自己遇到了什么问题，请 Kevin 帮忙解决
+@sp: 已知信息 | Kevin 不知道林晓的电脑怎么了；林晓也不知道问题出在电脑、网络还是账号上
+@sp: 表达重点 | 现象（登不上系统）→ 已经试过什么（重启过两次）→ 请对方看一下 → 听懂原因（密码输错、账号被锁）
+
+@story_title: Episode 12 · "Have You Tried Restarting It?"
+@story_type: 叙述 + 对话
+@s: At nine, Lily sits down at her **computer** and opens the tracking **system**. | 九点，林晓在电脑前坐下，打开物流跟踪系统。
+@s: She **types** her **password**. | 她输入密码。
+@s: An **error** message comes up on the **screen**. | 屏幕上跳出一条错误提示。
+@s: She **tries** again. Same **problem**. | 她又试了一次，还是一样。
+@s: She **restarts** the computer, but it still doesn't work. | 她把电脑重启了一遍，还是不行。
+@br:
+@s: Lily: Hi, Kevin. My computer isn't working. I can't **log in** to the system. | 林晓：嗨，李凯。我电脑坏了，登不上系统。
+@s: Kevin: **Have you tried** restarting it? | 李凯：你试过重启吗？
+@s: Lily: Yes, twice! I **turned off** the computer and turned it back on. | 林晓：试过，两次了！我把电脑关了又重新打开。
+@s: Lily: Can you **take a look**? | 林晓：你能帮我看一下吗？
+@s: Kevin: Sure. Let me take a look. | 李凯：行，我来看看。
+@s: Kevin **checks** her computer. The **internet** is a little **slow**, but that's not the problem. | 李凯检查了一下她的电脑。网速有点慢，不过问题不在这儿。
+@s: Kevin: Your computer is fine. You typed the **wrong** password three times. | 李凯：你电脑没问题。你连着输错了三次密码。
+@s: Lily: Oh no! I **forgot** my password. I typed my old one. | 林晓：哎呀！我把密码忘了，输的是旧密码。
+@s: Kevin: Your account is **locked**. I'll **reset** your password. | 李凯：你的账号被锁了。我帮你重置一下密码。
+@br:
+@s: With her new password, Lily **clicks** "Log In" again. It works! | 林晓用新密码再点了一次“登录”——成功了！
+@s: Lily: Thank you so much, Kevin! | 林晓：太谢谢你了，李凯！
+@s: Kevin: No problem. That's my job. | 李凯：不客气，这是我的工作。
+
+@v: computer | = | n. | kəmˈpjuːtər | 电脑 | 办公室里最常说的设备；台式机、笔记本都可以叫 computer | turn on the computer；a computer problem；my work computer | My work computer is really slow today. | 我的办公电脑今天特别卡。 | 「开电脑」说 turn on the computer，不说 open the computer；笔记本电脑口语里也常说 laptop。
+@v: system | = | n. | ˈsɪstəm | （电脑）系统；软件平台 | 公司内部的业务系统、跟踪系统、订单系统 | the tracking system；log in to the system；The system is down. | The system is down, so we can't check any packages. | 系统挂了，所以我们查不了任何包裹。 | 指公司那一套系统时要加 the；「系统崩了 / 挂了」说 The system is down.，不说 The system is broken。
+@v: types | type | v. | taɪps | 打字；输入（文字、密码） | 在电脑、手机上输入内容 | type your password；type in a code；type fast | Please type your name and email here. | 请在这里输入你的名字和邮箱。 | 「输入」不要直译成 input（日常口语很少把 input 当动词用），说 type 或 enter：Enter your password.
+@v: password | = | n. | ˈpæswɜːrd | 密码 | 登录系统、邮箱、App | enter your password；forget your password；a new password | Don't tell anyone your password. | 不要把密码告诉任何人。 | 电脑、账号的密码是 password；银行卡、手机解锁的数字密码通常叫 PIN。
+@v: error | = | n. | ˈerər | 错误；（系统）报错 | 系统、软件提示出错 | an error message；get an error；a system error | I keep getting an error message. | 我一直收到报错提示。 | 「报错了」不说 It reports an error，说 I'm getting an error. 或 It shows an error.；说人「做错事」口语更常用 mistake。
+@v: screen | = | n. | skriːn | 屏幕 | 电脑、手机屏幕；开会时共享屏幕 | on the screen；a black screen；share your screen | Can you share your screen? | 你能共享一下屏幕吗？ | 「在屏幕上」用 on：✗ in the screen → ✓ on the screen。
+@v: tries | try | v. | traɪz | 试；尝试 | 再试一次、试试某个办法 | try again；try + -ing；try to + 动词 | Let me try again. | 我再试一次。 | 主语是 he / she 时 y 变 i 加 es：tries；过去式是 tried。try + -ing（试试这个办法）和 try to（努力想做到）意思不同，见【E】。
+@v: problem | = | n. | ˈprɑːbləm | 问题；故障；麻烦 | 说出了什么故障、遇到了什么麻烦 | a problem with…；What's the problem?；No problem. | There's a problem with my account. | 我的账号出了点问题。 | 中文「问题」有两个意思：要问别人的是 question，出了故障、麻烦是 problem。✗ I have a question with my computer. → ✓ I have a problem with my computer.
+@v: restarts | restart | v. | ˌriːˈstɑːrts | 重启（电脑、手机、程序） | 电脑卡了、出错时最先试的办法 | restart the computer；restart your phone；restart the app | Save your work before you restart the computer. | 重启电脑前先把文件保存好。 | 重启 = restart；重置（密码、设置）= reset；刷新网页 = refresh。三个词都带 re-，别混。
+@v: log in | = | phr. | ˌlɑːɡ ˈɪn | 登录 | 进入系统、邮箱、App | log in to the system；log in with your email；log out（退出登录） | You can log in with your work email. | 你可以用工作邮箱登录。 | 动词是两个词 log in，名词 / 形容词才写成一个词 login（login page 登录页）：✗ I can't login the system. → ✓ I can't log in to the system.
+@v: Have you tried | have you tried | phr. | ˌhæv jə ˈtraɪd | 你试过……吗（委婉地提建议） | 帮别人排查问题、提出一个办法 | Have you tried + -ing?；Have you tried this? | Have you tried calling the seller? | 你试过给那个卖家打电话吗？ | 后面接 -ing：✗ Have you tried restart it? → ✓ Have you tried restarting it?；这句话表面是提问，其实是在给建议。
+@v: turned off | turn off | phr. | ˌtɜːrnd ˈɔːf | 关掉（电脑、灯、机器） | 关电脑、关灯、关手机、关空调 | turn off the computer；turn it off；turn off the lights | Please turn off the lights when you leave. | 走的时候请把灯关掉。 | 「关电脑」不说 close the computer，close 用于关窗口、关文件、关门；代词放中间：turn it off，✗ turn off it。
+@v: take a look | = | phr. | ˌteɪk ə ˈlʊk | 看一下；帮忙检查一下 | 请人看问题，或主动说「我来看看」 | take a look at…；Let me take a look.；Can you take a look? | Can you take a look at this email? | 你能帮我看一下这封邮件吗？ | 「帮我看一下」不说 help me see；要看的东西放在 at 后面：take a look at my screen。
+@v: checks | check | v. | tʃeks | 检查；查看 | 查电脑、查邮件、查包裹到哪儿了 | check the internet；check your email；check a package | I check my email every morning. | 我每天早上都会看一下邮件。 | 「检查一下」口语里直接用 check，不说 make a check；check 不一定是「找毛病」，也可以只是「看一眼」。
+@v: internet | = | n. | ˈɪntərnet | 网络；互联网 | 说网速、断网、上网 | the internet；slow internet；on the internet | The internet is down again. | 又断网了。 | 前面一般加 the：the internet；「网很慢」说 The internet is slow.，美国办公室也常说 the Wi-Fi。
+@v: slow | = | adj. | sloʊ | 慢的；（电脑、网）卡 | 网速慢、电脑卡、回复慢 | a slow computer；slow internet；really slow today | My laptop is so slow today. | 我的笔记本今天卡死了。 | 「电脑很卡」直接说 My computer is slow.；slow 是形容词，「请说慢一点」用副词：Please speak more slowly.
+@v: wrong | = | adj. | rɔːŋ | 错的 | 输错密码、打错电话、拿错东西 | the wrong password；the wrong number；Something's wrong. | Sorry, I think you have the wrong number. | 不好意思，你好像打错电话了。 | 「输错密码」不说 typed error password，说 typed the wrong password；wrong 前面常带 the。
+@v: forgot | forget | v. | fərˈɡɑːt | 忘了（forget 的过去式） | 忘了密码、忘了带东西、忘了做某事 | forget your password；forget to + 动词；I forgot. | I forgot to send the report. | 我忘了发报告。 | 「我忘了」说的是已经发生的事，要用过去式：✗ I forget my password. → ✓ I forgot my password.；「忘了做某事」用 forget to：I forgot to call him.
+@v: locked | = | adj. | lɑːkt | 被锁住的 | 账号被锁、门锁着、手机锁屏 | Your account is locked.；The door is locked.；locked out | The door is locked. Do you have your key card? | 门锁了，你带门禁卡了吗？ | 中文说「被锁了」，英文说的是现在的状态，用 is locked，不说 was locked；「我被锁在账号外面了」= I'm locked out of my account.
+@v: reset | = | v. | ˌriːˈset | 重置（密码、设置） | IT 帮你重设密码、恢复设置 | reset your password；reset the system；reset your phone | You can reset your password on the login page. | 你可以在登录页面重置密码。 | reset 的过去式还是 reset；忘了旧密码，要重新设一个 → reset；记得旧密码、只是想换一个 → change your password。
+@v: clicks | click | v. | klɪks | （用鼠标）点击 | 点按钮、点链接、点图标 | click the button；click on…；double-click | Click "Save" before you close the file. | 关文件之前先点「保存」。 | 用鼠标「点」= click；在手机上用手指「点」= tap：Tap the app.
+
+@diff: 「电脑坏了」——My computer isn't working.
+@d_cn: 电脑、系统、打印机出了问题，暂时用不了（不一定真的「坏」了）。
+@d_en: My computer isn't working. / The printer isn't working. / Something's wrong with my computer.
+@d_why: 中文一个「坏了」什么情况都能用：开不了机、登不上、网太慢、屏幕摔裂了……英文要分开说：**broken** 指东西物理上坏了（摔坏、裂了、零件断了），得修或者换；只是出了故障、暂时用不了，美国人说 **isn't working**。林晓只是登不上系统，如果说 My computer is broken，Kevin 会以为她把电脑摔坏了。
+@d_when: 设备、系统、软件出故障、用不了 → isn't working；屏幕碎了、键盘掉了键 → broken；说不清哪里出了问题 → Something's wrong with…
+@d_vs: **My computer isn't working.** 我电脑（出了问题）用不了。\n**My phone screen is broken.** 我手机屏幕摔碎了。\n**Something's wrong with the printer.** 打印机好像出了点问题。\n✗ My computer is bad.（听起来像「我的电脑很差劲」）
+@d_task: 用英文分别告诉 IT：① 打印机坏了（打印不出来）。② 我的鼠标摔坏了。 | ① The printer isn't working. ② My mouse is broken.
+@diff: 「登不上」——I can't log in.
+@d_cn: 想进系统、邮箱或 App，但进不去。
+@d_en: I can't log in. / I can't log in to the system. / I can't open this file.
+@d_why: 中文把「做不到」藏在「登**不上**」「打**不开**」「进**不去**」里；英文没有这种说法，统一用 **can't + 动作**：can't log in、can't open、can't get in。另外要注意写法：动词「登录」是两个词 **log in**，后面接系统时加 to；一个词的 login 是名词或形容词（login page 登录页）。
+@d_when: 登录不了系统、邮箱、App → I can't log in (to…)；文件打不开 → I can't open this file；连不上 Wi-Fi → I can't connect to the Wi-Fi.
+@d_vs: **I can't log in to the system.** 我登不上系统。\n**The login page is really slow.** 登录页面特别慢。（login 是形容词）\n**I can't open this file.** 这个文件我打不开。\n✗ I can't login the system. ✗ I log in not.
+@d_task: 用英文说：「我登不上邮箱，这个文件也打不开。」 | I can't log in to my email, and I can't open this file.
+@diff: 「帮我看一下」——Can you take a look?
+@d_cn: 请别人帮忙看看、检查一下是怎么回事。
+@d_en: Can you take a look? / Can you take a look at my computer? / Let me take a look.（我来看看）
+@d_why: 「帮我看一下」直译成 Help me see 或 Help me look，英文听起来很别扭。英文的「看一下」是 **take a look**（看一眼、检查一下）；「帮我」的意思已经在 Can you…? 这个请求里了，不用再说 help me。「一下」也不用翻成 a little 或 one time，take **a** look 里的 a 就是「一下」。
+@d_when: 请同事看文件、看电脑、看报错 → Can you take a look (at…)?；主动帮别人 → Let me take a look.；要看的东西放在 at 后面。
+@d_vs: **Can you take a look at my screen?** 你能帮我看一下屏幕吗？\n**Let me take a look.** 我来看看。\n✗ Can you help me see my computer?\n✗ Let me look a little.
+@d_task: 你写好了一封给美国卖家的邮件，想请吴佳帮你看一下。用英文说。 | Grace, can you take a look at my email?
+@diff: 「试试重启」——Try restarting it.
+@d_cn: 给别人（或自己）提一个办法，试一试能不能解决问题。
+@d_en: Try restarting it. / Have you tried restarting it? / Did you try restarting it?
+@d_why: 中文「试试 + 动作」只有一种说法；英文 try 后面有两种接法，意思不一样：**try + -ing** = 试试这个办法，看管不管用；**try to + 动作** = 努力想做到一件不容易的事。Kevin 问 Have you tried restarting it?，意思是「重启这个办法你试过没有」。美国人也常说 Did you try restarting it?，意思差不多；但不要说 Do you try…?——那是问「你平时试不试」。
+@d_when: 提建议、帮人排查问题 → Try + -ing. / Have you tried + -ing?；说自己努力想做却没做成 → I tried to…, but…
+@d_vs: **Try restarting it.** 试试重启。（一个办法）\n**I tried to log in, but I couldn't.** 我想登录，可是登不上。（努力了，没成功）\n**Have you tried clicking "Forgot password"?** 你试过点「忘记密码」吗？\n✗ Do you try restart?
+@d_task: 同事说打印机打不出来，你建议他试试关掉再打开。 | Have you tried turning it off and on again? / Try turning it off and on again.
+
+@core: My + 设备 + isn't working. | 设备、系统出了故障 | computer / printer / phone / the Wi-Fi | 正式：I'm having some trouble with my computer.｜随意：My computer's acting weird.
+@core: I can't log in (to + 系统). | 登不上系统、邮箱、账号 | the system / my email / the app | 正式：I'm unable to log in to the system.｜随意：I can't get in.
+@core: Can you take a look? — Let me take a look. | 请人帮忙看一下；主动说「我来看看」 | at my computer / at this error / at my email | 正式：Could you take a look at this when you have a moment?｜随意：Can you look at this real quick?
+@core: Have you tried + -ing? | 给别人提建议、帮人排查问题 | restarting it / turning it off / clicking "Forgot password" | 正式：You might want to try restarting it.｜随意：Did you try restarting it?
+@core: I forgot my + 东西. | 说自己忘了某样东西 | password / key card / charger | 正式：I'm afraid I've forgotten my password.｜随意：Oops, forgot my password.
+@core: There's a problem with + 东西. | 说哪里出了问题 | my account / the system / the printer | 正式：There seems to be a problem with my account.｜随意：Something's wrong with my account.
+
+@pw: computer | kəmˈpjuːtər | 3 个音节 com·PU·ter，重音在中间 | com 很轻；美式 t 夹在元音中间，读成轻轻弹一下的 d，像 kəm-PYOO-der
+@pw: password | ˈpæswɜːrd | 2 个音节 PASS·word | pass 嘴巴张大 `/æ/`；word 的 w 要读出来，结尾卷舌
+@pw: error | ˈerər | 2 个音节 ER·ror | 两个 r 都要卷舌；不要读成「爱罗」
+@pw: restart | ˌriːˈstɑːrt | 2 个音节 re·START，重音在后 | re 读长音 `/iː/`；st 后面的 t 不送气，像「斯达」，不像「斯塔」
+@pw: internet | ˈɪntərnet | 3 个音节 IN·ter·net | 口语里第一个 t 常常被吞掉，听起来像 inner-net
+@pw: locked | lɑːkt | 1 个音节 | -ed 在 k 后面读 `/t/`，不要读成 lock-ed 两个音节
+@pw: problem | ˈprɑːbləm | 2 个音节 PROB·lem | o 读 `/ɑː/`，嘴巴张大；lem 很轻，不读「勒姆」
+@ps: My com**pu**ter / **is**n't **work**ing. / I **can't** log‿**in** to the **sys**tem. | 否定词 isn't、can't 一定读重——对方靠它们听出「出问题了」。log in 重音在 in 上，log‿in 连成 `/lɑːˈɡɪn/`。
+@ps: **Have** you **tried**‿re**start**ing‿it? ↗ | 能用 Yes / No 回答的问题，句尾往上扬 ↗。have you 连成 `/ˈhævjə/`；restarting‿it 里的 t 夹在元音中间，轻弹成 d：re-star-ding-it。
+@ps: Let me **take**‿a **look**. ↘ | Let me 连成 `/ˈlemi/`；take‿a 连成 `/ˈteɪkə/`。陈述句句尾下降 ↘；What's the **prob**lem? 这种 wh- 问句句尾也是下降 ↘。
+@ps: Your ac**count**‿is **locked**. / I'll re**set** your **pass**word. | account‿is 连成 `/əˈkaʊntɪz/`；I'll 只有一个音节 `/aɪl/`；locked 的 -ed 读 `/t/`。
+@pnote: can 和 can't 是听力难点：肯定句里的 can 弱读成 `/kən/`，又轻又短；can't 读 `/kænt/`，元音饱满、拉长，结尾的 t 常常只做口型不出声。分辨时听元音，不要等 t。
+@pnote: 书面写 I will / cannot / Let me，口语说 **I'll** `/aɪl/`、**can't**、**lemme** `/ˈlemi/`。lemme 只要求听懂，写的时候还是写 Let me。
+@lfocus: can't 的元音 /æ/ 又重又长，can 只剩 /kən/
+@lfocus: Have you tried…? 句尾上扬
+@lfocus: Let me 连成 /ˈlemi/
+@dict: S6
+@dict: S14
+@res: 在 YouTube 频道 Rachel's English 内搜索 "can can't"，听美国人怎么区分 can 和 can't。
+
+@mimic: 跟读【C】S6–S17 的对话：先 0.8 倍速逐句跟读，重点模仿 isn't / can't 的重读和 Have you tried…? 的上扬语调；再你演林晓、手机朗读 Kevin 的台词，完整对一遍并录音。
+@swap: My computer isn't working. | 换设备：the printer / my phone / the Wi-Fi | The printer isn't working.
+@swap: I can't log in to the system. | 换成 my email / the app / my account | I can't log in to my email.
+@swap: Have you tried restarting it? | 换办法：turning it off and on / clicking "Forgot password" / calling Kevin | Have you tried clicking "Forgot password"?
+@swap: I forgot my password. | 换东西：key card / charger / lunch | I forgot my key card.
+@free: 你的电脑登不上公司系统，你走到 IT 同事的工位说明情况。 | Hi, Kevin. My computer isn't working. I can't log in to the system.
+@free: 同事抱怨他的电脑特别卡，你建议他试试重启。 | Have you tried restarting it?
+@free: 同事说她的邮件发不出去，你想说「我来看看」。 | Let me take a look.
+@free: 你连续输错三次密码，账号被锁了，你去找 IT 求助。 | I typed the wrong password three times, and now my account is locked. Can you reset my password?
+@output: 录 1 分钟「我的电脑出问题了」：讲一次你的电脑或手机出问题的经历——哪里用不了（isn't working / can't…）→ 你试了什么（try / restart）→ 找谁帮忙、怎么说的 → 最后怎么解决的。可以用过去时讲，也可以按林晓的故事改编。
+@output_sample: Last week, my computer wasn't working. I couldn't log in to the system. I tried again, but there was an error message on the screen. I restarted my computer, but it still didn't work. So I asked Kevin, "Can you take a look?" He checked my computer. I typed the wrong password three times, so my account was locked. He reset my password, and then it worked!
+
+@check: 林晓只是登不上系统，她说 My computer isn't working 对吗？如果说 My computer is broken 呢？ | isn't working 对：只是出故障、暂时用不了。broken 指物理上坏了（摔坏、裂了），Kevin 会误会她把电脑弄坏了。
+@check: 你建议同事「试试重启」，说 Try restarting it 还是 Try to restart it？ | Try restarting it.（试试这个办法）try to 是「努力想做到」，用在 I tried to log in, but I couldn't. 这种句子里。
+@check: 你想请同事帮你看一下电脑屏幕上的报错，怎么说？为什么不说 Help me see? | Can you take a look at this error? Help me see 是中文直译；英文「看一下」用 take a look，「帮我」已经包含在 Can you…? 里。
+@check: 「我登不上系统」写成 I can't login the system. 有哪两处问题？ | 动词要写成两个词 log in；后面接系统要加 to：I can't log in to the system.
+@check: 听力：I can log in. 和 I can't log in. 怎么分辨？ | 听元音：can 弱读成 /kən/，又轻又短；can't 读 /kænt/，又重又长，t 常常听不到。
+@next1: 不看书说出 S6、S7、S14 三句
+@next1: 「电脑坏了」= isn't working；「帮我看一下」= Can you take a look?
+@next1: restart / reset / turn off 各说一个句子
+@next7: 讲一次你的电脑或手机出问题的经历（Day 14 复习会用到）
+@next7: try + -ing 和 try to 的区别，各说一句

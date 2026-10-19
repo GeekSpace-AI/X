@@ -1,0 +1,155 @@
+@day: 17
+@week: 3
+@title_cn: 打电话
+@title_en: On the Phone
+@topic: 接电话、找人、留言与转告
+@think_short: 电话里「我是……」= This is…｜say / tell / speak / talk｜没听清 ≠ What?
+
+@goal_scene: 替正在开会的同事接一个美国卖家的电话：自报家门、没听清时请对方重复、帮忙记下留言，再把留言转告同事。
+@goal_expr: This is Lily speaking. / Can I speak to…? / Hold on, please. / Can I take a message? / Sorry, I didn't catch that. / Please ask her to call me back.
+@goal_vocab: 17 个重点词 + 4 个短语：接打电话、听不清与请对方重复、留言与回电、say / tell / speak / talk
+@done: 用英文接起一个工作电话：自报家门，问清对方是谁、找谁、什么事
+@done: 没听清时，能用 Sorry, I didn't catch that. / Could you say that again? 礼貌地请对方重复，而不是只说 What?
+@done: 能按美国人的习惯读出电话号码、拼出自己的名字，并分清 say / tell / speak / talk
+
+@warmup: 你这个周末打算干什么？ | What are you doing this weekend? | D16
+@warmup: 我打算去看我爸妈。 | I'm going to visit my parents. | D16
+@warmup: 我周三要见一个客户。 | I'm meeting a client on Wednesday. | D16
+@warmup: 好的，我把日程表发给你。 | OK, I'll send you the schedule. | D16
+@warmup: 你试过重启吗？ | Have you tried restarting it? | D12
+@warmup: 你不饿吗？——不饿。 | Aren't you hungry? — No, I'm not. | D13
+
+@scene: 第三周的一个下午，吴佳在会议室开会，她桌上的电话一直在响。林晓深吸一口气，帮她接了起来。电话那头是一位美国卖家，语速很快，线路也不太清楚。林晓要弄清楚对方是谁、找谁、有什么事，记下回电号码，等吴佳开完会再转告她。
+@sp: 人物关系 | 林晓 → 美国卖家 Dan Miller（第一次通话，对方是客户，要礼貌）；林晓 → 吴佳（同事、入职搭子，转告留言）
+@sp: 沟通目的 | 接电话 → 说明吴佳不在 → 主动帮忙留言：谁打来的、什么事、怎么回电
+@sp: 已知信息 | 林晓不认识来电的人，也不知道他为什么打来；对方不知道吴佳在开会
+@sp: 表达重点 | 自报家门（This is…）→ 没听清就礼貌地请对方重复 → 说明要找的人不在 → 记下姓名拼写、事由和电话号码 → 承诺转告
+
+@story_title: Episode 17 · "Can I Take a Message?"
+@story_type: 叙述 + 电话对话
+@s: Grace is in a meeting, so Lily answers her desk **phone**. | 吴佳在开会，林晓就帮她接起了桌上的电话。
+@br:
+@s: Lily: Hello, SwiftLink. **This is** Lily **speaking**. How can I help you? | 林晓：您好，这里是 SwiftLink，我是林晓。有什么可以帮您？
+@s: Caller: Hi, this is Dan Miller. Can I speak to Grace Wu? | 来电者：你好，我是 Dan Miller。请问吴佳在吗？
+@s: The **caller** **talks** fast, and the **line** isn't very clear. | 对方语速很快，线路也不太清楚。
+@s: Lily: Sorry, I can't **hear** you very well. Could you **say** that again? | 林晓：不好意思，我听不太清楚。您能再说一遍吗？
+@s: Caller: Sorry! Grace Wu, please. | 来电者：抱歉！我找吴佳。
+@s: Now his voice is **loud** and clear. | 这回他的声音又大又清楚。
+@s: Lily: Thanks. And sorry, I didn't **catch** your name. | 林晓：谢谢。还有，不好意思，刚才没听清您的名字。
+@s: Caller: Dan Miller, from Bright Home. | 来电者：我是 Bright Home 的 Dan Miller。
+@s: Lily: OK. **Hold on**, please. | 林晓：好的，请稍等。
+@br:
+@s: Lily looks into the meeting room. Grace is still busy. | 林晓往会议室里看了看，吴佳还在忙。
+@s: Lily: She's in a meeting. Can I **take a message**? | 林晓：她在开会。要我帮您留个言吗？
+@s: Caller: Yes. Please ask her to **call me back**. | 来电者：好的。请让她给我回个电话。
+@s: Caller: It's about a late package. She can **reach** me at 213-555-0147. | 来电者：是一个包裹延误的事。她打 213-555-0147 就能找到我。
+@s: Lily: Could you **repeat** the **number** more **slowly**, please? | 林晓：您能把号码再说一遍吗？慢一点。
+@s: Caller: Sure. Two-one-three, five-five-five, oh-one-four-seven. | 来电者：好的。二一三，五五五，零一四七。
+@s: Lily: And how do you **spell** your last name? | 林晓：还有，您的姓怎么拼？
+@s: Caller: M-I-L-L-E-R. | 来电者：M-I-L-L-E-R。
+@s: Lily: Thank you. I'll **tell** her right after the meeting. | 林晓：谢谢您。她一开完会我就告诉她。
+@br:
+@s: Ten minutes later, Grace comes out. | 十分钟后，吴佳从会议室出来了。
+@s: Lily: Grace, do you have a **moment**? Dan Miller **called** about a late package. | 林晓：吴佳，你现在方便吗？Dan Miller 刚才打电话来，说有个包裹延误了。
+@s: Grace: Thanks, Lily! I'll call him back now. | 吴佳：谢啦，林晓！我这就给他回过去。
+
+@v: phone | = | n. | foʊn | 电话；电话机 | 接电话、打电话、「他在打电话」 | answer the phone；on the phone；desk phone | Tom is on the phone right now. | Tom 现在正在打电话。 | 「接电话」是 answer the phone / pick up the phone，不说 receive the phone；「他在打电话」说 He's on the phone。
+@v: This is | this is… | phr. | ˈðɪs ɪz | （电话里）我是…… | 接电话、打电话时自报姓名 | This is Lily.；This is Lily speaking.；Hi, this is… from… | Hi, this is Lily from SwiftLink. | 你好，我是 SwiftLink 的林晓。 | 电话里报名字用 This is…，比 I'm… 地道；想知道对方是谁，说 Who's calling, please?，不要说 Who are you?（很冲）。
+@v: speaking | speak | v. | ˈspiːkɪŋ | （电话用语）我就是；说话 | 接电话报名字；电话里找人；说某种语言 | This is… speaking.；speak to sb；speak English | Can I speak to your manager, please? | 我能和你们经理通个话吗？ | 别人在电话里找的就是你，最地道的回答是一个词：Speaking.（我就是）；电话里找人用 speak to，比 talk to 正式。
+@v: caller | = | n. | ˈkɔːlər | 来电者；打电话来的人 | 前台、客服说起「打电话来的那个人」 | the caller；a caller；caller ID（来电显示） | The caller didn't leave a name. | 来电的人没留名字。 | caller 是「打电话的人」，不是「接电话的人」；「来电显示」叫 caller ID。
+@v: talks | talk | v. | tɔːks | 说话；（和人）聊、商量 | 描述别人说话的方式；和人交谈、商量事情 | talk fast；talk to sb；talk about sth | Can we talk about the schedule later? | 日程的事我们晚点再聊，好吗？ | 「说英语」用 speak English，不说 talk English；「和某人谈」要加 to / with：✗ talk Tom → ✓ talk to Tom。
+@v: line | = | n. | laɪn | （电话）线路 | 电话听不清、占线、请对方别挂 | a bad line；The line is busy.；hold the line | Sorry, the line is bad. Can I call you back? | 抱歉，线路不太好，我给你打回去吧？ | 「占线」说 The line is busy，不说 The phone is busy；「排队」也是 line：wait in line。
+@v: hear | = | v. | hɪr | 听见；听得到 | 电话、视频里声音不清楚 | can't hear you；hear sb clearly；hear about sth | I can't hear you very well. Can you speak up? | 我听不太清，你能大点声吗？ | hear 是「听到（结果）」，listen 是「（主动）去听」：✗ I can't listen you. → ✓ I can't hear you.
+@v: say | = | v. | seɪ | 说（具体的话、内容） | 请对方重复；转述别人说了什么 | say that again；say hello；What did he say? | What did the customer say? | 客户说什么了？ | say 后面接「话」，不直接接人：✗ say me → ✓ tell me；要带上人，说 say … to sb。
+@v: loud | = | adj. | laʊd | 大声的；（环境）吵的 | 说声音大小；电话里声音清楚 | loud and clear（听得清清楚楚）；too loud；speak louder | It's too loud in here. Let's talk outside. | 这里太吵了，我们出去说吧。 | 「大声点」说 Could you speak louder? 或 Could you speak up?，不说 speak more loud。
+@v: catch | = | v. | kætʃ | 听清；听懂（某句话） | 没听清名字、号码或某一句话 | didn't catch that；didn't catch your name；catch a bus（赶上公交） | Sorry, I didn't catch your name. | 不好意思，我没听清您的名字。 | 「没听清」最自然的说法是 I didn't catch that，比 I didn't hear clearly 地道；过去式是 caught，不是 catched。
+@v: Hold on | hold on | phr. | ˌhoʊld ˈɑːn | （电话里）稍等；别挂 | 请对方在电话里等一下 | Hold on, please.；Hold on a second.；Can you hold on? | Hold on a second. Let me check. | 稍等一下，我查查看。 | 电话里请人等，说 Hold on, please. 或 One moment, please.；只说 Wait! 很生硬，像在喊人站住。
+@v: take a message | = | phr. | ˌteɪk ə ˈmesɪdʒ | （替别人）记下留言 | 要找的人不在，接电话的人主动帮忙 | Can I take a message?；take a message for sb | He's not here. Can I take a message? | 他不在，要我帮您留个言吗？ | 接电话的人「帮你记留言」用 take；打电话的人「留下留言」用 leave：Can I leave a message?
+@v: call me back | call back | phr. | ˌkɔːl mi ˈbæk | 给我回电话 | 留言请对方回电；答应稍后回电 | call sb back；call back later；I'll call you back. | I'm driving now. I'll call you back. | 我在开车，等下给你回电话。 | 人称代词放在 call 和 back 中间：✓ call me back，✗ call back me；「回电话」不说 return phone。
+@v: reach | = | v. | riːtʃ | 联系上；（打电话）找到某人 | 留联系方式；说「联系不上某人」 | reach me at + 号码；can't reach sb；easy to reach | I called him twice, but I couldn't reach him. | 我给他打了两次电话，都没联系上。 | reach 后面直接接人，不加 to：✗ reach to me → ✓ reach me。
+@v: repeat | = | v. | rɪˈpiːt | 重复；再说一遍 | 请对方再说一遍号码、名字、要求 | repeat that；repeat the number；Could you repeat that? | Could you repeat the order number? | 您能再说一遍订单号吗？ | repeat 本身就是「再说一遍」，再加 again 就重复了：✗ repeat again → ✓ repeat that。
+@v: number | = | n. | ˈnʌmbər | （电话）号码；数字 | 留电话、读订单号 | phone number；order number；wrong number（打错了） | Sorry, I think you have the wrong number. | 不好意思，您好像打错了。 | 「我的号码是……」说 My number is…，不说 My phone is…；号码要一位一位地读，0 一般读 oh。
+@v: slowly | = | adv. | ˈsloʊli | 慢慢地 | 请对方说慢一点 | more slowly；speak slowly；slowly and clearly | Could you say that more slowly? | 您能说慢一点吗？ | 修饰动作用副词：✓ speak slowly；「再慢一点」是 more slowly。也可以直接说 Could you slow down a little?
+@v: spell | = | v. | spel | 拼写（字母） | 确认名字、邮箱、地址的拼法 | spell your name；How do you spell that?；spell it out | How do you spell your last name? | 您的姓怎么拼？ | ✗ How to spell? 不是完整的问句；要说 How do you spell that? 或 Could you spell that for me?
+@v: tell | = | v. | tel | 告诉；转告 | 转告留言、告诉别人一件事 | tell sb sth；tell sb about…；tell sb to do sth | Please tell Tom the client is here. | 请告诉 Tom 客户到了。 | tell 后面直接接人，不加 to：✗ tell to her → ✓ tell her；后面没有「人」时用 say。
+@v: moment | = | n. | ˈmoʊmənt | 一会儿；片刻 | 问同事现在方不方便；请对方稍等 | One moment, please.；Do you have a moment?；at the moment（此刻） | Do you have a moment? I have a quick question. | 你现在方便吗？我有个小问题。 | 「你有空吗」直译 Are you free? 常被理解成「今晚 / 周末有没有空（想约你）」；临时找同事说事，用 Do you have a moment?
+@v: called | call | v. | kɔːld | 打电话（给某人） | 说谁来过电话、给谁打电话 | call sb；call about sth；give sb a call | A customer called about her order. | 有位客户打电话来问她的订单。 | 「给某人打电话」直接说 call sb：✗ call to Grace → ✓ call Grace / give Grace a call。
+
+@diff: 「说」有四个：say / tell / speak / talk
+@d_cn: 中文一个「说」字什么都能用：再说一遍、跟她说一声、找某人说话、我们说说这事。
+@d_en: say that again / tell her / speak to Grace / talk about it
+@d_why: 英文把「说」拆成了四个词，各有固定搭配：**say** 后面接「说的内容」（say that、say hello）；**tell** 后面直接接「人」（tell her、tell me）；**speak** 偏正式，电话找人、说某种语言都用它（speak to Grace、speak English）；**talk** 强调两个人你来我往地聊（talk to sb、talk about sth）。中国学习者最常见的错是 say me 和 tell to her——因为中文「跟她说」「告诉她」都可以先说「跟 / 对」。
+@d_when: 请对方重复、问别人说了什么 → say；转告某人 → tell + 人；电话里找人、说语言 → speak；聊天、商量 → talk to / talk about
+@d_vs: **Could you say that again?** 您能再说一遍吗？（say + 内容）\n**I'll tell her.** 我会告诉她。（tell + 人）\n**Can I speak to Grace?** 请找一下吴佳。（电话用语）\n**Let's talk about it later.** 这事我们晚点再聊。\n✗ Please say me. → ✓ Please tell me.　✗ I'll tell to her. → ✓ I'll tell her.
+@d_task: 选 say / tell / speak / talk 说出来：① 他会说三种语言。② 请告诉 Tom 我晚点到。③ 你刚才说什么？④ 我们得聊一聊。 | ① He speaks three languages. ② Please tell Tom I'll be late. ③ What did you say? ④ We need to talk.
+@diff: 电话里「我是林晓」——This is Lily.
+@d_cn: 打电话或接电话时，告诉对方自己是谁。
+@d_en: This is Lily. / This is Lily speaking. / Hi, this is Lily from SwiftLink.
+@d_why: 当面介绍说 I'm Lily；但在电话里，对方看不见你，英文习惯把自己当成「这个声音」来介绍，用 **This is…**。问对方是谁也一样：Who's calling, please? / Who's this?，而不是 Who are you?——这句当面问都很冲，电话里更像在质问。I'm Lily 在电话里不算错，只是没有 This is… 那么职业、自然。
+@d_when: 接公司电话：Hello, SwiftLink. This is Lily speaking. 打给别人：Hi, this is Lily from SwiftLink. 想知道对方是谁：May I ask who's calling?
+@d_vs: **This is Lily speaking.** 我是林晓。（接电话）\n**Hi, this is Lily from SwiftLink.** 你好，我是 SwiftLink 的林晓。（打电话）\n**May I ask who's calling?** 请问您是哪位？\n✗ Who are you?（太冲）
+@d_task: 你打电话给一位美国卖家，用英文开头：「你好，我是 SwiftLink 的林晓。请问 Sarah 在吗？」 | Hi, this is Lily from SwiftLink. Can I speak to Sarah? / Is Sarah there?
+@diff: 「没听清，能再说一遍吗？」——不要只说 What?
+@d_cn: 电话里没听清，请对方重复。
+@d_en: Sorry, I didn't catch that. / Could you say that again? / Could you repeat that more slowly?
+@d_why: 中文说「啊？」「什么？」很自然，但英文只甩一个 **What?** 听起来不耐烦，像在说「你说啥呢」。英文习惯先说 **Sorry**，把「没听清」算在自己身上，再礼貌地请对方重复。这里的 **catch** 是「听清、听懂」，I didn't catch that = 我没听清，不是「没抓住」。还要注意 repeat 本身就是「再说一遍」，不要说 repeat again。
+@d_when: 线路不好、对方语速太快、没听清名字或号码 → Sorry, I didn't catch that / your name. 想让对方慢一点 → Could you say that more slowly? 声音太小 → Could you speak a little louder?
+@d_vs: ✗ What? / Again? → ✓ Sorry, could you say that again?\n✗ Please repeat again. → ✓ Could you repeat that?\n**Sorry, I didn't catch your name.** 不好意思，刚才没听清您的名字。
+@d_task: 美国客户在电话里飞快地报了一个订单号，你没听清。用英文请他慢一点再说一遍。 | Sorry, I didn't catch that. Could you say it again more slowly? / Could you repeat the number more slowly, please?
+@diff: 「请她回个电话」——ask her to call me back
+@d_cn: 请接电话的人转告：让某人给我回电话。
+@d_en: Please ask her to call me back. / Could you ask him to call me back?
+@d_why: 中文「请她回个电话」里，「请」的是谁、「回」给谁都省略了；英文要说清楚：**ask + 人 + to + 动作**（请某人做某事）。「回电话」是 **call (sb) back**，back 就是「回」。代词要放在 call 和 back 中间：call me back，不说 call back me。另外分清：打电话的人「留言」是 leave a message，接电话的人「帮你记下」是 take a message。
+@d_when: 留言请对方回电：Please ask her to call me back. 答应回电：I'll call you back in five minutes. 转告：She asked you to call her back.
+@d_vs: **Please ask her to call me back.** 请让她给我回个电话。\n**I'll call you back.** 我等会儿给你打回去。\n✗ Please let her back call me.　✗ call back me → ✓ call me back
+@d_task: 你打电话找 Tom，他不在。请接电话的同事转告：「请他今天下午给我回个电话。」 | Could you ask him to call me back this afternoon? / Please ask him to call me back this afternoon.
+
+@core: Hello, + 公司名. This is + 名字 + speaking. | 接公司电话的开场白 | SwiftLink / Customer Service；Lily / Grace | 正式：Good morning, SwiftLink. This is Lily speaking. How may I help you?｜随意：Hi, this is Lily.
+@core: Can I speak to + 人? | 打电话找人 | Grace Wu / Tom / someone in customer service | 正式：May I speak to Ms. Wu, please?｜随意：Is Grace there?
+@core: Hold on, please. | 请对方在电话里稍等 | Hold on / One moment / Just a second | 正式：One moment, please.｜随意：Hang on a sec.
+@core: She's + 不在的原因. Can I take a message? | 要找的人不在，主动帮忙留言 | in a meeting / out for lunch / on another call | 正式：I'm afraid she's in a meeting. May I take a message?｜随意：She's not here right now. Want to leave a message?
+@core: Sorry, I didn't catch that. Could you say that again? | 没听清，请对方重复 | that / your name / the number | 正式：I'm sorry, could you repeat that, please?｜随意：Sorry, say that again?
+@core: How do you spell + 名字? | 请对方拼写名字、地址、邮箱 | your last name / that / the street name | 正式：Could you spell that for me, please?｜随意：How do you spell that?
+@core: Please ask her to call me back. She can reach me at + 号码. | 留言、请对方回电 | her / him / Tom；at + 号码 / by email | 正式：Could you ask her to return my call? I can be reached at…｜随意：Just have her call me back.
+
+@pw: phone | foʊn | 1 个音节 | /oʊ/ 从「欧」滑到「乌」，嘴型由大变小；结尾 n 舌尖顶住上齿龈收音，不要读成「风」
+@pw: caller | ˈkɔːlər | 2 个音节 CALL·er | call 嘴巴张圆、拖长，不读「扣」；结尾 -er 舌尖往后卷
+@pw: number | ˈnʌmbər | 2 个音节 NUM·ber | m 直接接 b，双唇闭紧再弹开；结尾 -ber 卷舌，不读「拿波」
+@pw: repeat | rɪˈpiːt | 2 个音节 re·PEAT | 重音在后；re 轻读 `/rɪ/`，peat 的 `/iː/` 拉长，结尾 t 只做口型
+@pw: slowly | ˈsloʊli | 2 个音节 SLOW·ly | s 和 l 之间不要加元音，不读「斯洛」；slow 的 `/oʊ/` 要滑动
+@pw: moment | ˈmoʊmənt | 2 个音节 MO·ment | -ment 轻读成 `/mənt/`，几乎只剩 m-n-t
+@ps: Hello, **Swift**Link. / This is **Li**ly **speak**ing. / How can I **help** you? | 接电话三段式，每段之间停一下。重音落在公司名、名字和 help 上；can 弱读成 `/kən/`，不读「看」。
+@ps: **Sor**ry, I **did**n't **catch** that. / Could‿you **say** that a**gain**? | 先道歉、再请求，语气放软。Could you 连读成 `/ˈkʊdʒə/`；didn't 的 t 几乎不出声。
+@ps: Two-one-**three**, / five-five-**five**, / oh-one-four-**sev**en. | 美国电话号码按「3-3-4」分组，每组最后一个数字读得重一点、语调上扬，组与组之间停顿；最后一组语调下降，表示「说完了」。0 一般读 oh `/oʊ/`。
+@ps: **M** / **I** / **L** / **L** / **E** / **R**. | 拼字母时每个字母读得一样长、一样清楚。I 读 `/aɪ/`（像「爱」），E 读 `/iː/`（像「一」），R 读 `/ɑːr/` 要卷舌，不要按拼音读。
+@pnote: 电话里看不到口型，m / n、b / p / d、f / s 这几组字母最容易听混。美国人常用「字母 + as in + 单词」来确认：M as in Mike, N as in Nancy。听到 as in，就知道对方在拼字母；你拼名字时也可以这样说。
+@pnote: 读电话号码：0 一般读 oh，也可以读 zero；两个相同的数字直接读两遍（five-five），double five 是更偏英式的说法。中国手机号 11 位，读给美国人听时按「3-4-4」分组停顿，对方更容易记。
+@lfocus: This is… 在电话开头，后面紧跟名字
+@lfocus: Could you 连读成 `/ˈkʊdʒə/`
+@lfocus: 电话号码按 3-3-4 分组，组与组之间有停顿
+@dict: S5
+@dict: S13
+@res: 在 youglish.com 输入 "can I take a message"，选 US，听真人在电话场景里怎么说。
+
+@mimic: 跟读【C】S2–S19 的电话对话：先 0.8 倍速逐句跟读，重点模仿 This is… 的开场、Sorry, I didn't catch… 的语气和电话号码的分组停顿；再由你演林晓、手机朗读 Caller 的台词，完整「接」一次电话并录音。
+@swap: Hello, SwiftLink. This is Lily speaking. How can I help you? | 换成你的公司名（或部门名）和你的名字 | Hello, Customer Service. This is Wang Lei speaking. How can I help you?
+@swap: She's in a meeting. Can I take a message? | 换不在的原因：out for lunch / not at her desk / on another call | He's on another call. Can I take a message?
+@swap: Sorry, I didn't catch your name. | 换成没听清的东西：that / the number / your email | Sorry, I didn't catch the number. Could you repeat it?
+@swap: She can reach me at 213-555-0147. | 换成你自己的手机号，按 3-4-4 分组读出来 | He can reach me at 138-1234-5678.
+@free: 你替同事接电话，对方报了名字，但你没听清。 | Sorry, I didn't catch your name. Could you say it again?
+@free: 对方要找 Tom，Tom 正在打另一个电话。你先请对方稍等，再告诉他 Tom 在通话中，问他要不要留言。 | Hold on, please. … Sorry, Tom is on another call. Can I take a message?
+@free: 你打电话给一位美国卖家，对方接了。你先自我介绍，再说要找 Sarah。 | Hi, this is Lily from SwiftLink. Can I speak to Sarah, please?
+@free: 吴佳开完会出来，你转告她：有个叫 Dan Miller 的卖家打过电话，请她回电。 | Dan Miller called. He asked you to call him back. Here's his number.
+@output: 一人分饰两角，录一段约 1 分钟的「替同事接电话」：自报家门 → 对方找人 → 没听清，请对方重复 → 说明要找的人不在，主动留言 → 请对方拼写名字、重复号码 → 承诺转告。录完检查有没有说 What? 或 say me / tell to her。
+@output_sample: Hello, SwiftLink. This is Lily speaking. How can I help you? — Hi, can I speak to Tom Zhang? — Sorry, I didn't catch that. Could you say that again? — Tom Zhang, please. — Hold on, please. … Sorry, he's in a meeting. Can I take a message? — Yes. Please ask him to call me back. This is Sarah Lee. — How do you spell your last name? — L-E-E. — And what's your number? — It's 213-555-0192. — Thank you, Ms. Lee. I'll tell him right after the meeting.
+
+@check: 林晓接电话时说 This is Lily speaking.。如果是她打给别人，开头怎么说？ | Hi, this is Lily from SwiftLink. 打出去时用 from 说明公司；speaking 一般只在接电话时用。
+@check: 「请告诉她我打过电话」用 say 还是 tell？为什么？ | tell：Please tell her I called. tell 后面直接接人；say 后面接内容，不能说 say her。
+@check: 电话里没听清对方的号码，为什么不要只说 What?，应该怎么说？ | What? 听起来不耐烦、不礼貌。说 Sorry, I didn't catch that. Could you repeat the number?
+@check: take a message 和 leave a message 有什么不同？ | 接电话的人帮忙记下留言 = take a message；打电话的人留下留言 = leave a message。
+@check: 用今天学的说法告诉一位美国卖家：「她在开会，我会请她给您回电话。」 | She's in a meeting. I'll ask her to call you back.
+@next1: 不看书说出 S2、S12、S13（接电话、留言、请对方回电）
+@next1: say / tell / speak / talk 各说一句
+@next1: 用英文读出你自己的手机号码，按 3-4-4 分组
+@next7: 一人分饰两角，演一遍「替同事接电话 → 留言 → 转告」
+@next7: Sorry, I didn't catch that. 和 What? 的区别；take a message 和 leave a message 的区别
