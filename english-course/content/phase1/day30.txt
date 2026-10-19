@@ -1,0 +1,193 @@
+@day: 30
+@week: 5
+@review: true
+@title_cn: 阶段测试 · 独当一面
+@title_en: Phase 1 Test — On Her Own
+@scene: 经理休假，你独自处理一整周的工作
+@think_short: 综合改错大挑战
+@goal: 完成第一阶段**口语测试**（全程录音，约 10 分钟）
+@goal: 完成第一阶段**词汇测试**，并对照答案打分
+@goal: 填写**阶段自评表**，决定下一步怎么走
+
+@warmup_hint: 测试日的热身，是把第一阶段最重要的 6 句「保命句」再说一遍。
+@warmup: 能说慢一点吗？ | Could you speak a little more slowly?
+@warmup: 我跟经理确认一下。 | Let me check with my manager.
+@warmup: 我周三之前回复您。 | I'll get back to you by Wednesday.
+@warmup: 附件是我们的目录，请查收。 | Please find attached our catalog.
+@warmup: 我们研究一下。 | We'll look into it.
+@warmup: 谢谢你的反馈，我会改进的。 | Thank you for the feedback. I'll work on it.
+
+@story_title: Episode 30 · On Her Own
+@story_intro: 四月，David 休假一周。这是 Lily 第一次独自面对所有工作：新客户来电、样品延误、主持周会……第一阶段的最后一集，也是对你的一次「实战测试」。
+
+@p: In April, David goes **on vacation** for a week. For the first time, Lily is **on her own**. On Monday morning, she gets a call from a new **prospect**: Ryan Lee from Maple Home in Toronto, Canada. "We saw your air fryer on Amazon. Do you sell **wholesale**?"
+@cn: 四月，David 休假一周。Lily 第一次要独自应对所有工作。周一早上，她接到一位新潜在客户的电话：加拿大多伦多 Maple Home 公司的 Ryan Lee。「我们在亚马逊上看到了你们的空气炸锅。你们做批发吗？」
+@w: on vacation | phr. | ˌɑːn veɪˈkeɪʃn | 在休假 | He's on vacation this week. 他这周休假。英式说 on holiday。
+@w: on one's own | phr. | ˌɑːn wʌnz ˈoʊn | 独自；靠自己 | She's on her own this week. 这周她一个人扛。
+@w: prospect | n. | ˈprɑːspekt | 潜在客户；前景 | a new prospect 一个新的潜在客户（销售常用词）。
+@w: wholesale | n./adj. | ˈhoʊlseɪl | 批发 | Do you sell wholesale? 你们做批发吗？零售是 retail。
+
+@p: Lily answers every question calmly: the [[MOQ]], the [[lead time]], the colors, the [[warranty]]. Then she says, "Let me send you our catalog and price list. I'll [[get back to]] you with a formal quote by Wednesday." Ryan sounds **impressed**. "Thanks, Lily. You've been very **helpful**."
+@cn: Lily 冷静地回答了所有问题：起订量、交期、颜色、保修。然后她说：「我先把产品目录和价目表发给您，周三之前给您正式报价。」Ryan 听起来很满意：「谢谢你，Lily，你帮了大忙。」
+@w: impressed | adj. | ɪmˈprest | 印象深刻的；佩服的 | I'm impressed! 我很佩服！/ 真不错！
+@w: helpful | adj. | ˈhelpfl | 有帮助的 | You've been very helpful. 你帮了大忙。
+
+@p: On Tuesday, there's a problem. The factory says the HomeStar air fryer samples will be two days late. Lily remembers David's rule: bad news early. She calls Sarah **immediately**, explains the **situation**, and offers a solution: "We'll send them by express, **at our cost**." Sarah says, "No problem. Thanks for the **heads-up**."
+@cn: 周二出了个问题：工厂说 HomeStar 的空气炸锅样品要晚两天。Lily 想起 David 的规矩：坏消息要早说。她立刻给 Sarah 打电话，说明情况，并给出解决方案：「我们会用快递寄，费用由我们承担。」Sarah 说：「没问题，谢谢你提前告诉我。」
+@w: immediately | adv. | ɪˈmiːdiətli | 立刻 | = right away。I'll call her immediately. 我马上给她打电话。
+@w: situation | n. | ˌsɪtʃuˈeɪʃn | 情况；形势 | explain the situation 说明情况。
+@w: at our cost | phr. | ət ˌaʊər ˈkɔːst | 费用由我们承担 | We'll send it by express at our cost. 快递费我们出。
+@w: heads-up | n. | ˈhedz ʌp | 提前通知；提醒 | Thanks for the heads-up. 谢谢你提前告诉我。Just a heads-up: … 提前说一声：……（美国职场高频）
+
+@p: On Wednesday, she sends Ryan the quote. Amy double-checks every number. On Thursday, Lily runs the weekly team meeting for the first time. Her voice shakes a little at first, but she **gets through** it, and everyone claps at the end.
+@cn: 周三，她把报价发给了 Ryan，Amy 把每个数字都复核了一遍。周四，Lily 第一次主持团队周会。一开始她的声音有点抖，但她顺利撑了下来，结束时大家都鼓起了掌。
+@w: get through | phr. | ˌget ˈθruː | 熬过；完成；（电话）打通 | I got through it! 我挺过来了！I couldn't get through. 我打不通电话。
+
+@p: On Friday evening, David texts her from the beach: "How was the week?" Lily smiles and types: "**All good**. New prospect from Canada, samples on the way, and I ran the meeting!" David replies with three thumbs-up. "Proud of you. Phase 2, here we come!"
+@cn: 周五晚上，David 在海边给她发消息：「这周怎么样？」Lily 笑着打字：「一切都好。加拿大来了个新客户，样品在路上了，我还主持了周会！」David 回了三个大拇指：「为你骄傲。第二阶段，我们来了！」
+@w: all good | phr. | ˌɔːl ˈgʊd | 一切都好；没事 | All good! 都好！别人道歉时也可以说 All good. 没事。
+
+@culture_title: 第二阶段预告 & 保持节奏的秘诀
+@culture: **第二阶段「流利期」（Day 31–60）**，Lily 要独立负责客户了：主持会议、写跟进邮件和月度报告、处理投诉和退货、运营亚马逊店铺。你会学到约 1,000 个新词，以及现在完成时、情态动词、定语从句等「中文思维点」。
+@culture: **坚持比强度更重要**。真的很忙的日子，至少做「30 分钟保底版」：热身 5 分钟 + 对话跟读 15 分钟 + 中译英张口说 10 分钟。一天都不断，比周末突击 6 小时有效得多。
+@culture: 继续保持三个习惯：**每天大声读**、**每周录一段 1 分钟音频**、**每周把 Day 29 的 28 点对照表说一遍**。
+
+@think_title: 综合改错大挑战：每句都用到 2–3 个思维点
+@think_intro: 第一阶段的最后一天，我们来一场「综合改错」。下面每句中文都同时用到了 2–3 个中文思维点。**先遮住右边两列**，自己用英文说一遍，再对答案。
+@think_intro: 错了不要紧，看「为什么」那一列，回到对应的那一天再复习一遍。
+@pair: 我很累，因为昨晚加班了。 | I very tired, because yesterday work overtime. | I'm very tired because I worked overtime last night. | Day 1 + Day 2 + Day 22
+@pair: 他还没回我邮件。 | He no reply my email yet. | He hasn't replied to my email yet. | Day 2 + Day 10
+@pair: 有个客户在前台等你。 | Have a customer wait you at front desk. | There's a customer waiting for you at the front desk. | Day 8 + Day 1
+@pair: 你能帮我把这个文件发给 Sarah 吗？ | You can help me send this file give Sarah? | Could you send this file to Sarah for me? | Day 9 + Day 16
+@pair: 如果价格合适，我们就订一万台。 | If price OK, so we order one wan units. | If the price is right, we'll order ten thousand units. | Day 15 + Day 18
+@pair: 我们上周寄的样品今天到了。 | Our last week sent samples today arrived. | The samples we sent last week arrived today. | Day 20 + Day 22
+@pair: 这些水壶是去年生产的，比新款便宜。 | These kettles produce last year, than new model cheap. | These kettles were made last year, and they're cheaper than the new model. | Day 17 + Day 21
+@pair: 你没收到我的邮件吗？——对，没收到。 | Yes, I didn't. | No, I didn't. | Day 27
+@pair: 太晚了，我们明天再说吧。 | Too late, tomorrow again say ba. | It's late. Let's talk about it tomorrow. | Day 13 + Day 24 + Day 25
+@pair: 要是客户问交期呢？ | If customer ask lead time ne? | What if the customer asks about the lead time? | Day 28
+@think_tip: 10 句里能说对 8 句以上，第一阶段就过关了！第二阶段我们会继续这个方法——永远从你熟悉的中文出发，找到地道的英文说法。
+
+@dlg_title: 口语测试剧本：独自接待新客户 · Do You Sell Wholesale?
+@dlg_intro: 这段对话几乎用到了第一阶段的所有核心句型。测试方法：**只看中文，用英文说出 Lily 的每一句话**；Ryan 的话可以让家人或 TTS 朗读。全部说完后再对照英文。
+@line: Lily | Good **morning**, BrightWay **Home**. This‿is **Lily** speaking. | 早上好，这里是 BrightWay Home，我是 Lily。
+@line: Ryan | Hi Lily, this‿is **Ryan Lee** from Maple Home in **Toronto**. Is **David** available? | 嗨 Lily，我是多伦多 Maple Home 的 Ryan Lee。David 在吗？
+@line: Lily | I'm **sorry**, he's on va**cation** this week. But **I** can help you. What can‿I **do** for you? | 抱歉，他这周休假。不过我可以帮您。有什么需要？
+@line: Ryan | We saw your **air fryer** on **Amazon**. Do you sell **wholesale**? | 我们在亚马逊上看到了你们的空气炸锅。你们做批发吗？
+@line: Lily | Yes, we **do**. We're‿a manu**facturer**, and we ex**port** to more than **thirty** countries. | 做的。我们是生产厂家，出口到 30 多个国家。
+@line: Ryan | **Great**. What's your **MOQ**? | 很好。你们的起订量是多少？
+@line: Lily | For the air fryer, it's **five hundred** units. | 空气炸锅是 500 台。
+@line: Ryan | And the **lead** time? | 交期呢？
+@line: Lily | About **thirty-five** days after we re**ceive** the de**posit**. | 收到定金后大约 35 天。
+@line: Ryan | Does‿it come‿in different **colors**? | 有不同颜色吗？
+@line: Lily | Yes. It comes‿in **black**, **white** and **gray**. We can also **customize** the color for **bigger** orders. | 有，黑、白、灰三色。订量大的话还可以定制颜色。
+@line: Ryan | Sounds **good**. Could you send me‿a **quote** for **one thousand** units? | 不错。能给我发一份 1,000 台的报价吗？
+@line: Lily | Of **course**. Could you **spell** your **email** address for me? | 当然。能拼一下您的邮箱地址吗？
+@line: Ryan | **Sure**. It's ryan **dot** lee at maplehome **dash** toronto **dot** c-a. | 好的。ryan.lee@maplehome-toronto.ca。
+@line: Lily | Let me read‿it **back**: r-y-a-n dot l-e-e at maplehome dash toronto dot c-a. Is that **correct**? | 我复述一遍：r-y-a-n.l-e-e@maplehome-toronto.c-a，对吗？
+@line: Ryan | That's **right**. | 对。
+@line: Lily | **Great**. I'll send you our **catalog** to**day** and a **formal** quote by **Wednesday**. | 好的。我今天先发目录，周三之前发正式报价。
+@line: Ryan | **Perfect**. Thanks, Lily. You've been very **helpful**. | 太好了。谢谢你，Lily，你帮了大忙。
+@line: Lily | My **pleasure**. Thank you for **calling**, Ryan. Have‿a **nice** day! | 不客气。感谢来电，Ryan，祝您愉快！
+
+@pron_title: 朗读测试：给自己打分
+@pron: 把下面这段话**录音**朗读一遍，然后按 5 项标准给自己打分（每项 1–5 分）：① 单个音准确（th、v、l/r、æ）② 单词重音 ③ 连读和弱读 ④ 流利度（不卡顿、不回读）⑤ 语调（问句、热情）。
+@pron: 20–25 分：非常好，可以开始第二阶段；15–19 分：不错，第二阶段继续每天跟读；15 分以下：用一周时间重做 Day 1–14 的发音小课。
+@pron_drill: Hello, my name is Lily Lin. I'm a sales assistant at BrightWay Home, a kitchen appliance company in Shenzhen. We were founded in 2010, and we export to more than thirty countries. Our best-seller is the K17 electric kettle. It's made of stainless steel, and it turns off automatically. If you're interested, I'd be happy to send you our catalog. What do you think?
+
+@chunk: Could you speak a little more slowly? | 能说慢一点吗？ | 听不懂时的救命句。
+@chunk: Let me check with my manager. | 我跟经理确认一下。 | 做不了主时争取时间。
+@chunk: I'll get back to you by Wednesday. | 我周三之前回复您。 | 给出明确的时间点。
+@chunk: Please find attached… | 附件是……，请查收。 | 邮件第一常用句。
+@chunk: Thanks for the heads-up. | 谢谢你提前告诉我。 | 别人提前通知你时。
+@chunk: We'll send it by express, at our cost. | 我们用快递寄，费用我们出。 | 出问题时给出补救方案。
+@chunk: You've been very helpful. — My pleasure. | 你帮了大忙。——不客气。 | 结束对话时。
+@chunk: All good! | 一切都好！/ 没事！ | 很口语的「没问题」。
+
+@shadow: 【测试说明】请用手机**全程录音**下面的 B、C、D 三部分（约 10 分钟）。先全部说完，再翻到最后看答案。每句只要**意思对、说得出来**就算过关，不要求和答案一字不差。录音文件命名为「Phase1-Test」，保存好，第二阶段结束时你会再听它。
+@say: 我叫……，在一家厨房电器公司做销售助理。 | My name is … I'm a sales assistant at a kitchen appliance company.
+@say: 我今天没吃早饭，到现在还没吃午饭。 | I didn't eat breakfast today, and I haven't had lunch yet.
+@say: 抱歉，他现在不方便接电话，我让他尽快给您回电。 | I'm sorry, he's not available right now. I'll ask him to call you back as soon as possible.
+@say: 我们的起订量是 500 台，交期大约 35 天。 | Our MOQ is 500 units, and the lead time is about 35 days.
+@say: 两千台的单价是 12.80 美元，总价 25,600 美元。 | The unit price for 2,000 units is $12.80, and the total is $25,600.
+@say: 如果您订三千台，我们可以把价格降到 12.20 美元。 | If you order 3,000 units, we can lower the price to $12.20.
+@say: 我注意到订单上的颜色写错了，您能再核对一下吗？ | I noticed that the color on the PO is wrong. Could you double-check it?
+@say: 货已经发出了，预计 1 月 2 日到洛杉矶。 | The goods have been shipped. The ETA in Los Angeles is January 2nd.
+@say: 不好意思，去会展中心怎么走？ | Excuse me, how do I get to the convention center?
+@say: 我房间里好冷，暖气好像坏了。 | It's really cold in my room. I think the heater is broken.
+@respond: 美国客户第一次来电，问："Are you a factory or a trading company?" | We're a manufacturer. We have our own factory in Dongguan.
+@respond: 客户说："Your price is too high. Another supplier offered $11.50." | I understand, but our quality is much better. You get better value with us.
+@respond: 客户问："Can you send me samples?"（样品免费，快递费客户付） | Sure. Samples are free of charge, but would you mind paying the courier fee?
+@respond: 你要告诉客户：彩盒会晚三天，但不影响出货。 | I have some bad news. The color boxes will be three days late. But we'll work overtime, so we're still on schedule.
+@respond: 服务员问："How would you like your steak?" | Medium, please.
+@respond: 客户问："You don't drink coffee?"（你确实不喝） | No, I don't. I prefer tea.
+@talk_topic: 2 分钟：向一位新客户介绍你的公司和一款产品（这是第一阶段的「毕业演讲」）
+@frame: Hello, my name is ______. I'm ______ at ______.
+@frame: Our company was founded in ______. We're located in ______.
+@frame: We make ______ and export to ______.
+@frame: Let me introduce our best-seller, ______. It's made of ______, and it comes in ______.
+@frame: The best feature is ______. It has a ______ warranty.
+@frame: Our MOQ is ______, and the lead time is about ______.
+@frame: If you're interested, I'd be happy to send you ______. I look forward to working with you.
+@talk_sample: Hello, my name is Lily Lin. I'm a sales assistant at BrightWay Home. Our company was founded in 2010. Our headquarters is located in Shenzhen, and our factory is in Dongguan. We make small kitchen appliances, and we export to more than thirty countries, mainly in North America and Europe. Let me introduce our best-seller, the K17 electric kettle. It's made of stainless steel, and it comes in silver and black. The best feature is safety: it turns off automatically when the water boils. It has a two-year warranty, and it's certified for the US market. Our MOQ is 1,000 units, and the lead time is about 35 days. If you're interested, I'd be happy to send you our catalog and a free sample. I look forward to working with you.
+
+@bank: nervous, commute, borrow, available, inquiry, quote, deposit, delay, itinerary, tip
+@fill: I always feel ______ before a presentation. | nervous
+@fill: My ______ is about an hour by subway. | commute
+@fill: Can I ______ your charger for a minute? | borrow
+@fill: Is Ms. Johnson ______? I'd like to speak to her. | available
+@fill: Thank you for your ______. We'll send you a price list today. | inquiry
+@fill: Could you send me a ______ for 1,000 units? | quote
+@fill: Please pay a 30% ______ before we start production. | deposit
+@fill: Sorry for the ______. The boxes were late. | delay
+@fill: Here's my travel ______ for the Chicago trip. | itinerary
+@fill: In the US, people usually leave a 20% ______ at restaurants. | tip
+@choose: 「我在开会，等会儿给你回电话。」
+@opt: I'm opening a meeting. I call you back later.
+@opt: I'm in a meeting. I'll call you back later.
+@opt: I'm at meeting. Later call you.
+@ans: B | Day 3 + Day 8
+@choose: 「请问您是哪位？」（电话里）
+@opt: Who are you?
+@opt: May I ask who's calling?
+@opt: What's your name you?
+@ans: B | Day 8
+@choose: 「感谢你们的反馈。」
+@opt: Thanks for your feedbacks.
+@opt: Thanks for your feedback.
+@opt: Thanks your feedback.
+@ans: B | Day 11：feedback 不可数。
+@choose: 「一百万台」
+@opt: one hundred wan units
+@opt: one million units
+@opt: ten million units
+@ans: B | Day 15
+@choose: 「虽然很累，但很开心。」
+@opt: Although I was tired, but I was happy.
+@opt: I was tired, but happy.
+@opt: Although tired but happy.
+@ans: B | Day 23
+@choose: 「让他给我回电话。」
+@opt: Let him call back me.
+@opt: Please ask him to call me back.
+@opt: Make him call me back.
+@ans: B | Day 26
+@fix: I am work in Shenzhen, I very like my job. | I work in Shenzhen, and I really like my job. | Day 1：有动作不加 am；「很喜欢」= really like。
+@fix: You can send me the catalog? I give you my email. | Could you send me the catalog? I'll give you my email. | Day 12 + Day 16
+@fix: We need two thousands units, please quote us price. | We need two thousand units. Please send us a quote. | Day 11 + Day 15
+@fix: The samples is send yesterday, you will receive it in next week. | The samples were sent yesterday. You'll receive them next week. | Day 21 + Day 22
+@fix: Because the traffic is bad, so we go to there by subway. | The traffic is bad, so we'll go there by subway. | Day 23：because 和 so 只用一个；there 前不加 to。
+
+@assess: 用 1 分钟流利地介绍自己和公司 | Day 1, 12
+@assess: 接听英文电话、帮人留言（问拼写、记电话和邮箱） | Day 8, 9
+@assess: 写一封 5 句左右的商务邮件（发资料、确认订单） | Day 10, 18
+@assess: 看懂询价邮件，说出 MOQ、单价、交期、付款方式 | Day 11, 15, 19
+@assess: 脱口说出大数字和价格（$25,600、十万、一百万） | Day 15
+@assess: 礼貌地提要求、指出错误、报告坏消息 | Day 16, 18, 19
+@assess: 应对讨价还价，用「价值」回应「价格」 | Day 17
+@assess: 独立完成机场、酒店、打车、点餐等出差场景 | Day 22–26
+@assess: 分清「不 / 没」「会 / 要」「在 / 了 / 过」等中文思维点 | Day 1–7
+@assess: 回答否定问句不答反 | Day 27
+@next: **「还不行」0–2 项**：恭喜你！直接进入第二阶段（Day 31）。
+@next: **「还不行」3–5 项**：花 3–5 天，只重做对应那几天的「中文思维 + 对话 + 口语练习」，再进入第二阶段。
+@next: **「还不行」6 项以上**：别灰心，这很正常。用一周时间把第一阶段的 28 段对话全部跟读一遍，再重新测试一次。
+@next: 无论哪种情况：保存好今天的测试录音，第二阶段结束时再听一次——那一刻，你会知道自己走了多远。

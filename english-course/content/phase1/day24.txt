@@ -1,0 +1,171 @@
+@day: 24
+@week: 4
+@title_cn: 打车与问路
+@title_en: Getting Around
+@scene: 机场打网约车、和司机闲聊、在芝加哥街头问路
+@think_short: 「先……再……」
+@goal: 会**叫车、上车、和司机闲聊**
+@goal: 会**问路和指路**：go straight、turn left、two blocks、across from
+@goal: 用 first / then / before / after / when 说清步骤
+
+@warmup: 我要办理登机。 | I'd like to check in, please.
+@warmup: 我的箱子超重了。 | My suitcase is overweight.
+@warmup: 我来参加一个展会。 | I'm here for a trade show.
+@warmup: 只有一些茶叶，是给客户的礼物。 | Just some tea. It's a gift for a customer.
+@warmup: 虽然很累，但我很兴奋。 | I'm tired, but I'm excited.
+@warmup: 行李提取处在哪？ | Where's baggage claim?
+
+@story_title: Episode 24 · How Do I Get to the Convention Center?
+@story_intro: 落地芝加哥！坐网约车进城，第二天一早 Lily 想自己走去会展中心——结果手机没电，迷路了。
+
+@p: Outside the airport, David orders an Uber on his phone. "First, we **request** a ride. Then the app shows us the car's **license plate**," he explains. Five minutes later, a black car **pulls up**. The **driver** puts their suitcases in the **trunk**.
+@cn: 出了机场，David 用手机叫了一辆 Uber。「先发出叫车请求，然后 App 会显示车牌号。」他解释说。五分钟后，一辆黑色轿车停在他们面前。司机把他们的行李箱放进了后备箱。
+@w: request | v./n. | rɪˈkwest | 请求；要求 | request a ride 叫车。邮件里：As requested, … 按您的要求……（Day 10）
+@w: license plate | n. | ˈlaɪsns ˌpleɪt | 车牌 | Check the license plate before you get in. 上车前核对车牌。
+@w: pull up | phr. | ˌpʊl ˈʌp | （车）停下来；调出（文件） | A car pulled up. 一辆车停了下来。Let me pull up the file. 我把文件调出来。
+@w: driver | n. | ˈdraɪvər | 司机 | Uber driver 网约车司机；driver's license 驾照。
+@w: trunk | n. | trʌŋk | （汽车）后备箱 | Can you open the trunk? 能开一下后备箱吗？英式叫 boot。
+
+@p: The **ride** **downtown** takes 45 minutes. The driver, Marcus, is very **chatty**. "First time in Chicago?" "Yes!" Lily says. "Well, welcome to the Windy City! Look, there's the **skyline**." Lily **stares** at the tall buildings. They look even bigger than in the movies.
+@cn: 去市中心的路上开了 45 分钟。司机 Marcus 很健谈：「第一次来芝加哥？」「是的！」Lily 说。「那欢迎来到风城！看，那就是天际线。」Lily 盯着那些高楼看，它们比电影里看起来还要高大。
+@w: ride | n./v. | raɪd | 乘车；搭车 | Thanks for the ride! 谢谢你送我！Can I give you a ride? 要我顺路送你吗？
+@w: downtown | adv./n. | ˌdaʊnˈtaʊn | 在市中心；去市中心 | go downtown 去市中心（不加 to）；a downtown hotel 市中心的酒店。
+@w: chatty | adj. | ˈtʃæti | 健谈的；爱聊天的 | The driver is very chatty. 司机很健谈。
+@w: skyline | n. | ˈskaɪlaɪn | 城市天际线 | the Chicago skyline 芝加哥的天际线。
+@w: stare | v. | ster | 盯着看 | stare at the buildings 盯着大楼看。盯着人看不礼貌。
+
+@p: The next morning, Lily wants to walk to the convention center early to see their **booth**. But her phone **battery** is **dead**, so she can't use the map. After ten minutes, she's **lost**. She stops a woman on the **sidewalk**. "Excuse me, how do I **get to** the convention center?"
+@cn: 第二天早上，Lily 想早点走去会展中心看看他们的展位。可她的手机没电了，用不了地图。走了十分钟，她迷路了。她在人行道上拦住一位女士：「不好意思，请问去会展中心怎么走？」
+@w: booth | n. | buːθ | 展位；小隔间 | trade show booth 展位。Visit us at Booth 1234. 欢迎光临 1234 号展位。
+@w: battery | n. | ˈbætəri | 电池；电量 | My battery is low. 我手机快没电了。
+@w: dead | adj. | ded | 死的；（电池）没电了 | My phone is dead. 我手机没电了。
+@w: lost | adj. | lɔːst | 迷路的；丢失的 | I'm lost. 我迷路了。注意 Get lost! 是「滚开」，别对人说！
+@w: sidewalk | n. | ˈsaɪdwɔːk | 人行道 | 英式叫 pavement。
+@w: get to | phr. | ˈget tə | 到达 | How do I get to…? 去……怎么走？（问路万能句）
+
+@p: "Oh, you're close. Go **straight** for two **blocks**. Then **turn** left at the **traffic light**. **Cross** the street, and it's **across from** a big hotel. You **can't miss it**." Lily repeats the **directions**: "Straight two blocks, left at the light, then cross the street." "**You got it**!"
+@cn: 「哦，你离得很近了。直走两个街区，然后在红绿灯处左转，过马路，就在一家大酒店的对面。你一眼就能看到。」Lily 复述了一遍路线：「直走两个街区，红绿灯左转，然后过马路。」「对，就是这样！」
+@w: straight | adv. | streɪt | 一直；直地 | Go straight. 直走。go straight ahead 一直往前走。
+@w: block | n. | blɑːk | 街区 | 美国人指路常用：Go two blocks. 走两个街区。It's three blocks away. 离这儿三个街区。
+@w: turn | v. | tɜːrn | 转弯 | turn left / right 左转 / 右转；make a U-turn 掉头。
+@w: traffic light | n. | ˈtræfɪk ˌlaɪt | 红绿灯 | turn left at the traffic light 在红绿灯处左转。口语常说 at the light。
+@w: cross | v. | krɔːs | 穿过；越过 | cross the street 过马路。
+@w: across from | phr. | əˈkrɔːs frəm | 在……对面 | It's across from the hotel. 在酒店对面。= opposite。
+@w: can't miss it | phr. | ˌkænt ˈmɪs ɪt | 一眼就能看到 | You can't miss it. 你不会错过的。（指路的结束语）
+@w: directions | n. | dəˈrekʃnz | 路线指引；使用说明 | ask for directions 问路；give directions 指路。常用复数。
+@w: you got it | phr. | ˌjuː ˈgɑːt ɪt | 对，就是这样；好嘞 | 别人复述对了：You got it! 别人请你帮忙：You got it! 没问题！
+
+@p: Five minutes later, Lily sees a huge **banner**: "Home Products Show – Main **Entrance**." She **made it**! She texts David: "I'm here. And I learned something: always leave the hotel with a **fully charged** phone!"
+@cn: 五分钟后，Lily 看到一条巨大的横幅：「家居用品展——主入口」。她找到了！她给 David 发消息：「我到了。我还学到一件事：出酒店之前，手机一定要充满电！」
+@w: banner | n. | ˈbænər | 横幅；网页横幅广告 | a huge banner 巨大的横幅。展会上到处都是 banner。
+@w: entrance | n. | ˈentrəns | 入口 | main entrance 主入口。出口是 exit。
+@w: make it | phr. | ˈmeɪk ɪt | 成功；赶到 | I made it! 我做到了 / 我赶上了！Can you make it to the meeting? 你能来开会吗？
+@w: fully charged | phr. | ˌfʊli ˈtʃɑːrdʒd | 充满电的 | Make sure your phone is fully charged. 确保手机充满电。charge 还有「充电」的意思。
+
+@culture_title: 在美国打车和问路
+@culture: **网约车**（Uber、Lyft）是美国最常用的打车方式。上车前一定核对车牌和司机名字，问一句 Are you here for David? 一般**坐后排**。小费在 App 里给，可给可不给，常见 10–20%。
+@culture: **美国人很乐意给陌生人指路**。问路先说 Excuse me，再问 How do I get to…? 美国城市多是方格路网，指路常用 blocks（街区）、traffic light、corner；芝加哥人还爱说东南西北（Go north on State Street）。
+@culture: 和陌生人说话保持一臂距离（personal space），说完一定说 Thank you so much! 对方会回 You're welcome / No problem / Have a good one!
+
+@think_title: 「先……再……」：英文用「顺序词」
+@think_intro: 说步骤时，中文用「先……再……然后……」，英文用一组「顺序词」：**first → then → after that → finally**。指路、讲流程、教客户用产品，全靠它们。
+@think_intro: 「做完 A 再做 B」「到了再说」这类意思，英文常用 **before / after / when / once**：Charge your phone **before** you leave. / Let's talk **when** we get there.
+@think_intro: 注意：这里的「再」不是 again！「先吃饭再工作」的「再」是「然后」，不是「又一次」。
+@pair: 先直走，再左转。 | First go straight, again turn left. | Go straight first, then turn left. | 「先……再」→ first…, then…
+@pair: 我们先去酒店，然后去吃饭。 | We first go hotel, then go eat. | Let's go to the hotel first, and then get something to eat. | first 可以放句尾
+@pair: 到了酒店再说。 | Arrive hotel again say. | Let's talk about it when we get to the hotel. | 「到了……再」→ when
+@pair: 出门前先充电。 | Go out before first charge. | Charge your phone before you go out. | before + 句子
+@pair: 吃完饭再工作。 | Eat finish again work. | Let's work after lunch. | after + 名词
+@pair: 你先走吧（别等我）。 | You first go. | Go ahead. I'll catch up. | 「你先」→ go ahead
+@pair: 一过马路就能看到。 | One cross street just see. | As soon as you cross the street, you'll see it. | 复习 Day 19 as soon as
+@pair: 最后，按这个按钮。 | Last, press this button. | Finally, press this button. | 最后一步 → finally
+@think_tip: 说步骤 → **First…, then…, after that…, finally…**；「做 A 之前 / 之后」→ **before / after**；「到了再……」→ **when / once**。这里的「再」≠ again。
+
+@dlg_title: 网约车上的闲聊 · What Brings You Here?
+@dlg_intro: 从机场到市中心的路上，司机 Marcus 和他们聊了起来。美国司机常会这样闲聊，这是练口语的好机会。
+@line: Marcus | Hi there! Are you **David**? | 你们好！是 David 吗？
+@line: David | **Yes**. Hi Marcus. Can we put our bags‿in the **trunk**? | 是的。你好 Marcus，能把行李放后备箱吗？
+@line: Marcus | Sure **thing**. Let me **help** you. So, where are you folks **from**? | 当然，我来帮你们。你们是从哪儿来的？
+@line: Lily | We're from **China**. **Shenzhen**. | 我们从中国来，深圳。
+@line: Marcus | Shenzhen! That's the **tech** city, right? **First** time in Chicago? | 深圳！那个科技城，对吧？第一次来芝加哥？
+@line: Lily | It's **my** first time. **David** has been here be**fore**. | 我是第一次。David 以前来过。
+@line: Marcus | Well, **welcome**! You picked‿a **cold** week. It's **thirty** degrees today. | 那欢迎啊！你们挑了个冷的星期，今天只有 30 度。
+@line: Lily | **Thirty**? Oh, **Fahrenheit**. That's be**low zero**! | 30 度？哦，华氏度，那是零下了！
+@line: Marcus | Ha, you **got**‿it. So, what brings you **here**? | 哈，没错。你们来这儿做什么？
+@line: David | We're here for the home products **show** at the con**vention** center. | 我们来参加会展中心的家居用品展。
+@line: Marcus | **Nice**. Your hotel is‿only **two blocks** from there. | 不错。你们的酒店离那儿只有两个街区。
+@line: Lily | **Great**. How long does‿it take to get down**town**? | 太好了。到市中心要多久？
+@line: Marcus | Usually **forty** minutes, but **traffic** is bad right now. Maybe an **hour**. | 平时 40 分钟，不过现在堵车，可能要一个小时。
+@line: Lily | No **problem**. I'll en**joy** the **view**. | 没关系，我正好看看风景。
+@line: Marcus | OK, here we **are**. Have‿a **great** trip, guys! | 好，到了。祝你们旅途愉快！
+
+@pron_title: `/n/` 和 `/ŋ/`：thin 还是 thing？
+@pron: `/n/`：**舌尖顶住上牙龈**，声音从鼻子出来，像「嗯」但舌尖在前面：thin, ran, win, sun, ten。
+@pron: `/ŋ/`：**舌头后部抬起贴住软腭**，舌尖放下，嘴巴微张，像「昂」的尾音：thing, rang, wing, sing, long。
+@pron: 南方同学常常 n 和 ng 不分。另外，-ing 结尾的词（going, morning, building, meeting）都要收在 `/ŋ/` 上，不要读成 -in。
+@pron_drill: 对比朗读：thin – thing ｜ ran – rang ｜ win – wing ｜ sin – sing ｜ ban – bang　　句子：**Good morning**! I'm **going** to the **meeting** in that **building**.
+
+@chunk: How do I get to the convention center? | 去会展中心怎么走？ | 问路万能句。
+@chunk: Go straight for two blocks, then turn left. | 直走两个街区，然后左转。 | 指路。
+@chunk: It's across from the hotel. | 在酒店对面。 | 说位置。
+@chunk: You can't miss it. | 你一眼就能看到。 | 指路的结束语。
+@chunk: Excuse me, I'm lost. | 不好意思，我迷路了。 | 求助开场白。
+@chunk: Are you here for David? | 您是来接 David 的吗？ | 上网约车前核对。
+@chunk: What brings you here? | 你来这儿做什么？ | 闲聊时问对方来意（很地道）。
+@chunk: Here we are. | 我们到了。 | 到达目的地时。
+
+@shadow: 跟读那位女士指路的一整段：Go straight for two blocks. / Then turn left at the traffic light. / Cross the street, / and it's across from a big hotel. / You can't miss it. 然后合上书，试着自己把路线说出来，再像 Lily 一样复述一遍。
+@say: 不好意思，去会展中心怎么走？ | Excuse me, how do I get to the convention center?
+@say: 先直走两个街区，然后在红绿灯处左转。 | Go straight for two blocks first, then turn left at the traffic light.
+@say: 它在一家大酒店对面。 | It's across from a big hotel.
+@say: 我迷路了，手机也没电了。 | I'm lost, and my phone is dead.
+@say: 我们先去酒店放行李，然后去吃饭。 | Let's drop off our bags at the hotel first, and then get something to eat.
+@say: 出门前确保手机充满电。 | Make sure your phone is fully charged before you leave.
+@say: 到了酒店再说吧。 | Let's talk about it when we get to the hotel.
+@say: 我们到了！ | Here we are!
+@respond: 有人问你："Excuse me, how do I get to the subway station?"（直走，第二个路口右转） | Go straight and turn right at the second corner. You can't miss it.
+@respond: 网约车司机问："Are you Lily?" | Yes, that's me. Could you open the trunk, please?
+@respond: 司机问："What brings you to Chicago?" | I'm here for a trade show.
+@respond: 路人给你指完路，问："Got it?" | Got it. Thank you so much!
+@respond: 路人指路说得太快，你没听清。 | Sorry, could you say that again more slowly?
+@talk_topic: 给别人指路：从你家（或公司）到最近的地铁站
+@frame: Go out of ______ and turn ______.
+@frame: Go straight for ______ blocks / minutes.
+@frame: Then turn ______ at ______.
+@frame: Cross the street. ______ is across from / next to ______.
+@frame: It takes about ______ on foot.
+@frame: You can't miss it.
+@talk_sample: Go out of our office building and turn right. Go straight for about two hundred meters. Then turn left at the traffic light. Cross the street. The subway station is across from a big supermarket. It takes about five minutes on foot. You can't miss it.
+
+@bank: downtown, block, straight, traffic light, across from, lost, entrance, ride
+@fill: Our hotel is ______, near the river. | downtown
+@fill: Go ______ and don't turn. | straight
+@fill: The bank is two ______ from here. | blocks
+@fill: Turn right at the ______. | traffic light
+@fill: The café is ______ the post office. | across from
+@fill: Excuse me, I think I'm ______. Where's Main Street? | lost
+@fill: Meet me at the main ______ at 9. | entrance
+@fill: Thanks for the ______! See you tomorrow. | ride
+@choose: 「先直走，再左转。」
+@opt: First go straight, again turn left.
+@opt: Go straight, then turn left.
+@opt: Go straight, after again left.
+@ans: B | 「再」在这里是 then，不是 again。
+@choose: 「到了酒店再说。」
+@opt: Arrive hotel again talk.
+@opt: Let's talk about it when we get to the hotel.
+@opt: We talk again in hotel.
+@ans: B | 「到了……再」→ when。
+@choose: 美国人指路说 "It's two blocks away."，block 是：
+@opt: 街区
+@opt: 石头
+@opt: 公里
+@ans: A | block = 两个路口之间的一段街区。
+@choose: 「我手机没电了。」
+@opt: My phone is dead.
+@opt: My phone is die.
+@opt: My phone no electric.
+@ans: A | 没电了 = dead。
+@fix: Let's go to downtown together. | Let's go downtown together. | downtown 前面不加 to。
+@fix: First we go hotel, again we eat. | First we'll go to the hotel, then we'll eat. | 「再」= then，不是 again。
+@fix: Where is the station? How to go? | How do I get to the station? | 问路的地道说法。

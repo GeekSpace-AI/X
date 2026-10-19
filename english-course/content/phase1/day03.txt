@@ -1,0 +1,173 @@
+@day: 3
+@week: 1
+@title_cn: 熟悉办公室
+@title_en: Getting Set Up
+@scene: 工位、打印机旁、会议室，和 IT 同事打交道
+@think_short: 「在」的四种说法
+@goal: 说清楚东西**在哪儿**：in / on / at / next to / upstairs
+@goal: 分清「在」的四种英文：在某地、正在做、在某公司上班、在开会
+@goal: 处理办公室小问题：密码、Wi-Fi、打印机、借东西
+
+@warmup: 我平时七点起床。 | I usually get up at seven.
+@warmup: 我今天没吃早饭。 | I didn't eat breakfast today.
+@warmup: 我还没吃午饭。 | I haven't had lunch yet.
+@warmup: 坐地铁大概要一个小时。 | It takes about an hour by subway.
+@warmup: 我堵在路上了。 | I got stuck in traffic.
+@warmup: 你真是救了我！ | You're a lifesaver!
+
+@story_title: Episode 3 · The Printer Isn't Working
+@story_intro: 第三天，IT 同事 Kevin 来帮 Lily 装电脑、开账号。没想到第一次用打印机就出了状况……
+
+@p: On Wednesday morning, Kevin from IT comes to Lily's desk. "Hi Lily. I'm here to **set up** your laptop." He creates an email **account** for her. "Your **password** is on this card. Please **change** it after you **log in**." Lily **types** slowly. "OK, I'm in!"
+@cn: 周三早上，IT 部的 Kevin 来到 Lily 的工位：「嗨 Lily，我来给你装电脑。」他帮她开了一个邮箱账号：「密码在这张卡片上，登录之后请改掉。」Lily 慢慢地打字：「好了，我登进去了！」
+@w: set up | phr. | ˌset ˈʌp | 安装；设置；安排 | set up a laptop / an account。约会议也能用：Can we set up a call next week? 我们下周约个电话吧？
+@w: account | n. | əˈkaʊnt | 账号；账户 | email account 邮箱账号；bank account 银行账户（外贸收款天天用）。
+@w: password | n. | ˈpæswɜːrd | 密码 | What's the Wi-Fi password? Wi-Fi 密码是多少？（出差必备句）reset the password 重置密码。
+@w: change | v./n. | tʃeɪndʒ | 改变；更换；零钱 | change the password 改密码；change the date 改日期。买东西「不用找了」：Keep the change.
+@w: log in | phr. | ˌlɔːg ˈɪn | 登录 | log in to your account 登录账号；log out 退出。I can't log in. 我登不上去。
+@w: type | v./n. | taɪp | 打字；类型 | type fast 打字快。名词是「类型」：What type of kettle do you need? 您需要哪种水壶？
+
+@p: Next, Kevin **connects** her laptop to the office **Wi-Fi**. "If the **internet** is slow, just **restart** your laptop. That **fixes** most problems." Lily laughs. "Is that the IT secret?" "Shh. Don't tell anyone."
+@cn: 接着，Kevin 把她的电脑连上公司的 Wi-Fi：「要是网速慢，就重启一下电脑，大部分问题都能解决。」Lily 笑了：「这就是 IT 的秘诀吗？」「嘘，别告诉别人。」
+@w: connect | v. | kəˈnekt | 连接；联系 | connect to the Wi-Fi 连 Wi-Fi。介绍人认识也用它：I'll connect you with our sales manager. 我帮你联系我们的销售经理。
+@w: Wi-Fi | n. | ˈwaɪfaɪ | 无线网 | 美国人读「歪-fai」。Is there Wi-Fi here? 这里有 Wi-Fi 吗？
+@w: internet | n. | ˈɪntərnet | 网络；互联网 | The internet is down. 网断了。on the internet 在网上（介词用 on）。
+@w: restart | v. | ˌriːˈstɑːrt | 重启 | Try restarting your computer. 试试重启。re- 表示「再一次」：resend 重发，reschedule 改期。
+@w: fix | v. | fɪks | 修理；解决 | fix the printer 修打印机；fix the problem 解决问题。修好了：It's fixed.
+
+@p: Then Kevin gives her an **access card**. "**Swipe** this at the door." He **points** to the **corner**. "The **printer** is over there. The meeting rooms are **upstairs**, on the fifth **floor**. You can **book** a room on the **calendar**."
+@cn: 然后 Kevin 给了她一张门禁卡：「进门时在门口刷一下。」他指了指角落：「打印机在那边。会议室在楼上五楼，你可以在日历系统里预订。」
+@w: access card | n. | ˈækses ˌkɑːrd | 门禁卡 | 也叫 key card 或 badge。I forgot my access card. 我忘带门禁卡了。
+@w: swipe | v. | swaɪp | 刷（卡）；滑动 | swipe your card 刷卡；手机上左右滑也叫 swipe。
+@w: point | v./n. | pɔɪnt | 指；要点 | point to sth 指着某物。开会时「说得好！」= Good point! That's my point. 这就是我想说的。
+@w: corner | n. | ˈkɔːrnər | 角落；拐角 | in the corner 在（房间）角落；on the corner 在街角。
+@w: printer | n. | ˈprɪntər | 打印机 | The printer is out of paper. 打印机没纸了。
+@w: upstairs | adv. | ˌʌpˈsterz | 在楼上；往楼上 | go upstairs 上楼（不加 to）。反义 downstairs 楼下。
+@w: floor | n. | flɔːr | 楼层；地板 | on the fifth floor 在五楼（楼层用 on）。美国的 first floor 就是一楼。
+@w: book | v. | bʊk | 预订 | book a meeting room / a hotel / a flight。I'd like to book a table for two. 我想订个两人桌。
+@w: calendar | n. | ˈkæləndər | 日历；日程表 | Let me check my calendar. 我看下日程。send a calendar invite 发会议邀请。
+
+@p: At 11:00, Lily needs to **print** a product **list** for David. She clicks "Print", but nothing happens. She goes to the printer. There's a **paper jam**! She calls Kevin. "Kevin, the printer isn't **working**." "Sorry, I'm in a meeting **right now**. I'll **come over** in ten minutes."
+@cn: 11 点，Lily 要给 David 打印一份产品清单。她点了「打印」，什么反应都没有。她走到打印机前一看——卡纸了！她打电话给 Kevin：「Kevin，打印机不工作了。」「抱歉，我现在在开会，十分钟后过去。」
+@w: print | v. | prɪnt | 打印 | print out a document 打印文件。Can you print this for me? 能帮我打一份吗？
+@w: list | n. | lɪst | 清单；列表 | price list 价目表；product list 产品清单；to-do list 待办事项。
+@w: paper jam | n. | ˈpeɪpər ˌdʒæm | 卡纸 | There's a paper jam. 卡纸了。jam 也是「堵」：traffic jam 堵车。
+@w: work | v. | wɜːrk | （机器）运转；行得通 | It isn't working. 坏了 / 不好用。It works! 好了！约时间时 That works for me. 我这边没问题。
+@w: right now | phr. | ˌraɪt ˈnaʊ | 现在；此刻 | I'm busy right now. 我现在正忙。比 now 更强调「就这会儿」。
+@w: come over | phr. | ˌkʌm ˈoʊvər | 过来 | I'll come over in ten minutes. 我十分钟后过来。邀请人来家：Come over for dinner!
+
+@p: Ten minutes later, Kevin opens the printer and **pulls out** the paper. "Done!" Lily asks, "Can I **borrow** a **charger**? I **left** mine at home." "Sure. Just **give** it **back** tomorrow." He also shows her the cabinet for office **supplies**. Lily writes in her notebook: "Computer problem? Restart first. Then call Kevin."
+@cn: 十分钟后，Kevin 打开打印机，把纸抽了出来：「好了！」Lily 问：「我能借个充电器吗？我把我的落在家里了。」「当然，明天还我就行。」他还带她看了放办公用品的柜子。Lily 在笔记本上写：「电脑有问题？先重启，再找 Kevin。」
+@w: pull out | phr. | ˌpʊl ˈaʊt | 拉出；抽出；退出 | pull out the paper 把纸抽出来。商务里 pull out of a deal 是「退出交易」。
+@w: borrow | v. | ˈbɑːroʊ | 借（进来） | Can I borrow your charger? 我能借你的充电器吗？借给别人是 lend：I can lend you mine.
+@w: charger | n. | ˈtʃɑːrdʒər | 充电器 | phone charger 手机充电器。My phone is dead. 我手机没电了。
+@w: leave | v. | liːv | ① 离开 ② 落下（忘带） | ① I leave work at six. 我六点下班。② I left my charger at home. 我把充电器落家里了。
+@w: give back | phr. | ˌgɪv ˈbæk | 归还 | Please give it back tomorrow. 明天还我就行。
+@w: supplies | n. | səˈplaɪz | 用品 | office supplies 办公用品。相关词：supplier 供应商（外贸重要词）。
+
+@culture_title: 别只发一句「在吗？」
+@culture: 在中国，微信上先发「在吗？」等对方回了再说事，很常见。在美国职场（用 Slack、Teams、邮件），这样反而让人着急：对方回了 Yes，还要再等你打字。
+@culture: 美式习惯是**一条消息把事说完**：Hi Kevin, the printer on the 3rd floor isn't working. Could you take a look when you have a minute? 对方有空看到就能直接处理。
+@culture: 当面找人可以先问一句 Do you have a minute? / Got a sec? 「你有空吗？」，对方会回 Sure, what's up?
+
+@think_title: 「在」：一个字，四种英文
+@think_intro: 中文一个「在」字，能表示位置（在角落）、进行中（在打印）、工作单位（在 BrightWay 上班）、状态（在开会）。英文要分开说，而且**很多时候需要 am / is / are**——还记得 Day 1 的规则吗？没有动作的句子要有 be。
+@think_intro: 位置的三个小词：**in** 在里面（in the office, in Shenzhen）；**on** 在表面 / 楼层（on the desk, on the fifth floor）；**at** 在一个点（at the door, at the front desk, at work）。
+@pair: 打印机在角落里。 | Printer in corner. | The printer is in the corner. | 在 + 地方 → is + in/on/at
+@pair: 会议室在五楼。 | Meeting room at five floor. | The meeting room is on the fifth floor. | 楼层用 on，序数词 fifth
+@pair: 我在打印文件。 | I print the file. | I'm printing a document. | 「正在」→ am + 动词-ing
+@pair: 我在 BrightWay 上班。 | I'm in BrightWay work. | I work at BrightWay. | 在某公司上班 = work at / for
+@pair: 我在开会。 | I'm opening a meeting. | I'm in a meeting. | 「开会」不是 open，是 be in a meeting
+@pair: 他不在（办公室）。 | He not at. | He's not in right now. / He's out. | 电话里找人时最常用
+@pair: 我今天在家办公。 | I'm in home work today. | I'm working from home today. | 「在家办公」固定说 work from home
+@pair: （微信）你在吗？ | Are you in? | Do you have a minute? | 先问对方有没有空，再说事
+@think_tip: 「在 + 地方」→ **be + in / on / at**；「在 + 做事」→ **be + 动词-ing**；「在某公司上班」→ **work at**；「在开会 / 不在」→ **be in a meeting / be out**。
+
+@dlg_title: 东西都在哪儿？ · Where Is Everything?
+@dlg_intro: 下午，David 约 Lily 两点在会议室见面，可 Lily 还不知道会议室在哪儿，她去问 Emma。
+@line: Lily | Hi Emma, do you have‿a **minute**? | 嗨 Emma，你现在有空吗？
+@line: Emma | **Sure**. What's **up**? | 当然，什么事？
+@line: Lily | Where's the **meeting** room? David wants to **see** me‿at **two**. | 会议室在哪儿？David 让我两点去找他。
+@line: Emma | **Which** one? We have **three**. | 哪一间？我们有三间。
+@line: Lily | Um… he said "the **big** one". | 呃……他说「大的那间」。
+@line: Emma | Oh, that's Room **five-oh-one**. It's‿**upstairs**, on the **fifth** floor. Turn **right** when you get‿out‿of the **elevator**. | 哦，那是 501，在楼上五楼。出电梯右转。
+@line: Lily | Got‿it. And where can‿I get some **pens**? | 明白了。还有，我在哪儿能拿到笔？
+@line: Emma | The supply **cabinet** is‿in the **corner**, next to the **printer**. | 办公用品柜在角落里，打印机旁边。
+@line: Lily | The printer that doesn't **work**? | 那台不工作的打印机？
+@line: Emma | Ha-ha. Kevin **fixed**‿it this morning. It's **working** now. | 哈哈，Kevin 早上修好了，现在能用了。
+@line: Lily | **Great**. One more **question**. Is David‿in his **office**? | 太好了。再问一个：David 在他办公室吗？
+@line: Emma | **No**, he's not‿**in** right now. He's‿in‿a **meeting** with the **factory**. | 不在，他现在在和工厂开会。
+@line: Lily | **OK**. I'll send him‿a **message**. Thanks, Emma! | 好，我给他发个消息。谢谢你，Emma！
+@line: Emma | **Anytime**! | 随时找我！
+
+@pron_title: `/θ/` 和 `/ð/`：Thank you 不是 Sank you
+@pron: 这两个音中文里没有，所以最容易被读成 s、z、f、d。秘诀只有一个：**舌尖轻轻放在上下牙齿之间**（能在镜子里看到一点舌尖）。
+@pron: `/θ/`（清音）：舌尖在牙齿间，往外送气，喉咙不振动：**th**ink, **th**ank, **th**ree, mon**th**, bo**th**。
+@pron: `/ð/`（浊音）：同样的口型，但喉咙振动：**th**is, **th**at, **th**e, **th**ere, wi**th**。
+@pron: 别担心一开始慢，先慢慢做对口型，速度自然会上来。
+@pron_drill: 对比朗读：think – sink ｜ three – free ｜ thank – sank ｜ they – day ｜ then – den　　句子：I **think** there are **three** things. ｜ **Thanks** for **this**.
+
+@chunk: Do you have a minute? — Sure. What's up? | 你有空吗？——当然，什么事？ | 找人说事前先问一句，比「在吗」得体。
+@chunk: It's upstairs, on the fifth floor. | 在楼上五楼。 | 指路；楼下 downstairs，同一层 on this floor。
+@chunk: Got it. | 明白了。 | 比 I understand 更口语、更短。
+@chunk: He's not in right now. | 他现在不在。 | 电话或当面找人时说；也可以说 He's out of the office.
+@chunk: He's in a meeting. | 他在开会。 | 接着可以说 Can he call you back later?
+@chunk: The printer isn't working. | 打印机坏了。 | 任何东西不好使：My laptop isn't working.
+@chunk: What's the Wi-Fi password? | Wi-Fi 密码是多少？ | 出差、去客户公司必备。
+@chunk: Anytime! | 随时找我！（不客气） | 回应别人的感谢，很亲切。
+
+@shadow: 重点模仿 Emma 指路的那一句：It's upstairs, on the fifth floor. Turn right when you get out of the elevator. 注意 get‿out‿of 三个词连成一个音 /getaʊtəv/。然后把对话里的「会议室、笔、David」换成你公司里的真实东西，再问一遍答一遍。
+@say: 打印机在门旁边。 | The printer is next to the door.
+@say: 会议室在楼上五楼。 | The meeting room is upstairs, on the fifth floor.
+@say: 我在开会，十分钟后给你回电话。 | I'm in a meeting. I'll call you back in ten minutes.
+@say: 他现在不在办公室。 | He's not in the office right now.
+@say: Wi-Fi 密码是多少？ | What's the Wi-Fi password?
+@say: 我登不上我的账号。 | I can't log in to my account.
+@say: 我能借一下你的充电器吗？ | Can I borrow your charger?
+@say: 我把笔记本电脑落在家里了。 | I left my laptop at home.
+@respond: 同事给你发消息："Hey, do you have a minute?" | Sure. What's up?
+@respond: 客户打电话找 David，可他在开会。 | Sorry, David is in a meeting right now. Can he call you back later?
+@respond: 新同事问："Where's the restroom?"（在电梯旁边） | It's next to the elevator.
+@respond: 同事说："Thanks for your help!" | Anytime!
+@respond: IT 同事问："Is your laptop working now?"（好了） | Yes, it works now. Thanks!
+@talk_topic: 介绍你的办公室（或你的家）里东西都在哪儿
+@frame: My office is on the ______ floor.
+@frame: My desk is next to / near ______.
+@frame: The printer is in / next to ______.
+@frame: The meeting rooms are upstairs / downstairs / on this floor.
+@frame: The break room is ______. I usually ______ there.
+@frame: My favorite place is ______, because ______.
+@talk_sample: My office is on the third floor. My desk is next to the window, so it's very bright. The printer is in the corner, next to the supply cabinet. The meeting rooms are upstairs, on the fourth floor. The break room is near the elevator. I usually make tea there. My favorite place is the break room, because I can chat with people there.
+
+@bank: set up, password, log in, borrow, book, fix, upstairs, work
+@fill: I forgot my ______. Can you reset it? | password
+@fill: Can I ______ your pen for a second? | borrow
+@fill: Kevin will ______ your email account today. | set up
+@fill: I can't ______. The system says my password is wrong. | log in
+@fill: Let's ______ a meeting room for 3 p.m. | book
+@fill: The printer isn't ______ again! | working
+@fill: The meeting rooms are ______, on the fifth floor. | upstairs
+@fill: Don't worry. I can ______ it in five minutes. | fix
+@choose: 同事打电话问你在干嘛，你正在开会：
+@opt: I'm opening a meeting.
+@opt: I'm in a meeting.
+@opt: I'm at meeting.
+@ans: B | 「在开会」= be in a meeting。
+@choose: 在 Slack 上找美国同事帮忙，最好怎么发？
+@opt: 只发 "Are you there?" 然后等回复
+@opt: Hi Kevin, the printer isn't working. Could you take a look?
+@opt: 只发「在吗」
+@ans: B | 一条消息把事情说清楚。
+@choose: 「我在 BrightWay 上班。」
+@opt: I'm in BrightWay work.
+@opt: I work at BrightWay.
+@opt: I'm working in BrightWay company.
+@ans: B | 在某公司上班 = work at + 公司名。
+@choose: 你想借同事的笔：
+@opt: Can you borrow me your pen?
+@opt: Can I borrow your pen?
+@opt: Can I lend your pen?
+@ans: B | 「我借进来」用 borrow；对方借出去才用 lend。
+@fix: He is not at here. | He's not here. | here 前面不加 at。
+@fix: The printer is broken, it no work. | The printer isn't working. | 东西「不好使」= isn't working。
+@fix: I'm work from home today. | I'm working from home today. | 今天正在 = am working；「在家办公」= work from home。

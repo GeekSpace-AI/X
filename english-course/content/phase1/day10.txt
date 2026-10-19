@@ -1,0 +1,165 @@
+@day: 10
+@week: 2
+@title_cn: 第一封商务邮件
+@title_en: Writing Your First Email
+@scene: 给美国客户发产品目录和价目表
+@think_short: 「请」≠ please
+@goal: 写出一封**标准的英文商务邮件**：标题、称呼、正文、结尾、署名
+@goal: 掌握邮件万能句：Please find attached / As requested / Please don't hesitate…
+@goal: 明白「请」≠ please：用 **Could you…?** 才真正礼貌
+
+@warmup: 您要留言吗？ | Would you like to leave a message?
+@warmup: 能拼一下您的姓吗？ | Could you spell your last name, please?
+@warmup: 我给您复述一遍。 | Let me read it back to you.
+@warmup: 我马上给你发邮件。 | I'll email you right away.
+@warmup: 请把目录发给我。 | Please send me the catalog.
+@warmup: 这是给你的。 | This is for you.
+
+@story_title: Episode 10 · Dear Ms. Johnson
+@story_intro: Lily 要给 Sarah 发第一封英文商务邮件。她写的草稿是「中文直译版」，David 手把手帮她改成了地道的美式商务邮件。
+
+@p: On Wednesday, Lily has an important **task**: email Sarah the catalog and price list. It's her first **business** email in English. She writes a **draft**: "Dear Sarah Johnson, I am Lily. I am sales assistant. I send you catalog." She reads it again. Something feels **wrong**.
+@cn: 周三，Lily 有个重要任务：把产品目录和价目表发邮件给 Sarah。这是她第一封英文商务邮件。她写了一份草稿：「亲爱的 Sarah Johnson，我是 Lily。我是销售助理。我发给你目录。」她又读了一遍，总觉得哪里不对劲。
+@w: task | n. | tæsk | 任务 | an important task 重要任务。to-do list 上的每一项都是一个 task。
+@w: business | n./adj. | ˈbɪznəs | 生意；商务 | business email 商务邮件；business trip 出差；How's business? 生意怎么样？只读两个音节：BIZ-nis。
+@w: draft | n./v. | dræft | 草稿；起草 | first draft 初稿。Can you draft an email to the customer? 你能起草一封给客户的邮件吗？
+@w: wrong | adj. | rɔːŋ | 错的；不对劲 | Something is wrong. 有点不对劲。What's wrong? 怎么了？
+
+@p: David looks at her **screen**. "Good start! Now let's make it more **professional**. First, every email needs a clear **subject** line. Second, start with 'Dear Ms. Johnson'. Business emails are a little **formal**. Be **polite**, but **get to the point**. Americans are busy."
+@cn: David 看了看她的屏幕：「开头不错！我们把它改得更专业一点。第一，每封邮件都要有清楚的标题。第二，开头用『Dear Ms. Johnson』。商务邮件要稍微正式一点。要礼貌，但要直奔主题——美国人都很忙。」
+@w: screen | n. | skriːn | 屏幕 | share my screen 共享屏幕；on the screen 在屏幕上。
+@w: professional | adj. | prəˈfeʃənl | 专业的 | a professional email 一封专业的邮件。You look very professional today. 你今天看起来很职业。
+@w: subject | n. | ˈsʌbdʒɪkt | （邮件）标题；话题 | subject line 邮件标题。回复时标题前会出现 Re:，转发是 Fw:。
+@w: formal | adj. | ˈfɔːrml | 正式的 | a formal email 正式邮件；反义 casual 随意的。
+@w: polite | adj. | pəˈlaɪt | 礼貌的 | Be polite but direct. 礼貌但直接。反义 rude 粗鲁。
+@w: get to the point | phr. | ˌget tə ðə ˈpɔɪnt | 直奔主题 | Let me get to the point. 我直说吧。美国人欣赏开门见山。
+
+@p: Here is Lily's new email:\nSubject: BrightWay Catalog and Price List\nDear Ms. Johnson,\nThank you for your call yesterday. **As requested**, please find **attached** our latest catalog and price list. Please see the **details** **below**.
+@cn: 这是 Lily 改好的邮件——标题：BrightWay 产品目录及价目表。尊敬的 Johnson 女士：感谢您昨天的来电。按您的要求，附件是我们最新的产品目录和价目表，详情请见下文。
+@w: as requested | phr. | ˌæz rɪˈkwestɪd | 按照您的要求 | As requested, please find attached… 按您的要求，附件是……（邮件高频句）
+@w: attach | v. | əˈtætʃ | 附上（附件） | Please find attached our catalog. 附件是我们的目录（请查收）。attachment 附件：I forgot the attachment! 我忘了加附件！
+@w: details | n. | ˈdiːteɪlz | 细节；详情 | Please see the details below. 详情见下文。for more details 了解更多详情。
+@w: below | adv. | bɪˈloʊ | 在下面；下文 | see below 见下文。反义 above：as mentioned above 如上所述。
+
+@p: "Our best-selling kettle is the K17 (page 5). All prices **include** packaging. If you need more **information**, please don't **hesitate** to **contact** me.\n**Best regards**,\nLily Lin\nSales Assistant, BrightWay Home"
+@cn: 「我们最畅销的水壶是 K17（第 5 页）。所有价格均含包装。如需更多信息，请随时与我联系。祝好！林晓，销售助理，BrightWay Home」
+@w: include | v. | ɪnˈkluːd | 包括；包含 | The price includes packaging. 价格含包装。不含：not included。
+@w: information | n. | ˌɪnfərˈmeɪʃn | 信息；资料 | **不可数**！more information（不说 informations）；一条信息 a piece of information。
+@w: hesitate | v. | ˈhezɪteɪt | 犹豫 | Please don't hesitate to contact me. 有任何问题请随时联系我。（邮件结尾经典句）
+@w: contact | v./n. | ˈkɑːntækt | 联系；联系人 | contact me 联系我（后面不加 with）；contact person 联系人；contact information 联系方式。
+@w: best regards | phr. | ˌbest rɪˈgɑːrdz | 祝好；此致（邮件结尾） | 常用结尾：Best regards, / Best, / Thanks,；Sincerely 非常正式，一般用于正式信函。
+
+@p: Before she clicks "Send", Lily finds a **typo**: "pirce list". She fixes it. She **CCs** David and **forwards** a copy to Amy. The next morning, there's a **reply** in her **inbox**: "Hi Lily, **received**, thanks! Sarah." Lily notices that Sarah **signed** her email with just her first name. Next time, Lily can write "Hi Sarah".
+@cn: 点「发送」之前，Lily 发现了一个错字：「pirce list」，她赶紧改了。她把邮件抄送给 David，又转发了一份给 Amy。第二天早上，收件箱里有了回复：「嗨 Lily，收到，谢谢！Sarah」。Lily 注意到，Sarah 署名只写了自己的名。下次，Lily 就可以写「Hi Sarah」了。
+@w: typo | n. | ˈtaɪpoʊ | 打字错误；错别字 | Sorry for the typo. 抱歉有个错字。报价单上的 typo 可能造成大损失，一定要检查！
+@w: CC | v./n. | ˌsiː ˈsiː | 抄送 | CC David on the email 抄送给 David；BCC 密送。过去式写作 CC'd。
+@w: forward | v. | ˈfɔːrwərd | 转发 | Could you forward this email to Amy? 你能把这封邮件转给 Amy 吗？
+@w: reply | v./n. | rɪˈplaɪ | 回复 | reply **to** an email 回复邮件；Thanks for your quick reply. 感谢您的及时回复。
+@w: inbox | n. | ˈɪnbɑːks | 收件箱 | check my inbox 看收件箱；垃圾邮件箱叫 spam folder。
+@w: receive | v. | rɪˈsiːv | 收到 | I received your email. 我收到您的邮件了。商务短回复：Received, thanks! 收到，谢谢！
+@w: sign | v. | saɪn | 签名；署名 | sign the contract 签合同；sign here 在这里签字。名词「签名」是 signature。
+
+@culture_title: 美式商务邮件：短、直接、友好
+@culture: 中文商务邮件喜欢长长的客套：「尊敬的……您好！首先非常感谢贵司一直以来的支持……」。美国人读邮件很快，**第一句就说重点**：Thank you for your call. As requested, please find attached…
+@culture: 称呼看对方：第一次写用 Dear Ms. Johnson / Dear Mr. Davis；**对方回信署名只写 first name，下次你就可以写 Hi Sarah**（这叫「跟随对方的语气」）。知道名字时，不要用 Dear Sir or Madam。
+@culture: 三个小规矩：① 24 小时内回复，哪怕只是 Got it, I'll get back to you tomorrow. ② 不要全用大写字母（像在吼）。③ 发送前检查附件——Sorry, I forgot the attachment! 是全世界最常见的第二封邮件。
+
+@think_title: 「请」≠ please：礼貌靠「问」，不靠「请」
+@think_intro: 很多人以为「请」= please，前面加个 please 就礼貌了。其实 **please + 命令句仍然是命令**：Please reply quickly! 听起来像在催促，甚至有点生气。
+@think_intro: 英文的礼貌主要靠**问句**：Could you…? / Would you mind…? / I'd appreciate it if…。另外，很多中文的「请」有固定说法：请坐 Have a seat；请进 Come on in；请查收 Please find attached。
+@pair: 请查收附件。 | Please check the attachment. | Please find attached… / I've attached… | 邮件固定说法
+@pair: 请问您是哪位？ | Please ask, who are you? | May I ask who's calling? | 「请问」→ May I ask…
+@pair: 请坐。 | Please sit. | Please have a seat. | Please sit 像在命令
+@pair: 请进。 | Please enter. | Come on in! | 口语里热情地请人进来
+@pair: 请帮我看一下这封邮件。 | Please help me look this email. | Could you take a look at this email for me? | 求人帮忙，用 Could you…?
+@pair: 请尽快回复。 | Please reply quickly! | I'd appreciate a quick reply. | please + 命令 = 催促
+@pair: 请稍等。 | Please wait. | One moment, please. | 更柔和
+@pair: 请多指教。 | Please teach me more. | I look forward to working with you. | 中文客套换成英文客套
+@think_tip: 让别人做事，把 **Please + 动词** 换成 **Could you + 动词?**，礼貌程度立刻升级。「请多指教」这类中文客套，换成英文自己的客套：**I look forward to working with you.**
+
+@dlg_title: 经理帮你改邮件 · Let Me See Your Draft
+@dlg_intro: 发邮件之前，David 坐到 Lily 旁边，一句一句帮她改。这些句子，你以后每天都会用到。
+@line: David | Let me **see** your **draft**. Hmm… "I send you **catalog**." | 我看看你的草稿。嗯……「I send you catalog.」
+@line: Lily | Is‿it **wrong**? | 写错了吗？
+@line: David | It's not **wrong**, but it's not very pro**fessional**. Try "Please find at**tached** our **catalog**." | 不算错，但不够专业。试试「Please find attached our catalog.」
+@line: Lily | "Please find at**tached**…" Got‿it. What‿about the be**ginning**? | 「Please find attached……」明白了。那开头呢？
+@line: David | Start with "Thank you for your **call** yesterday." It's **polite**, and it gets to the **point**. | 用「Thank you for your call yesterday.」开头，礼貌又直奔主题。
+@line: Lily | And‿at the **end**? In **Chinese**, we say "qǐng duō zhǐ jiào". | 那结尾呢？中文我们会说「请多指教」。
+@line: David | Ha, there's no **direct** translation. Just say "I look **forward** to **working** with you." | 哈，这个没法直译。就说「I look forward to working with you.」
+@line: Lily | **OK**. Should‿I write "Best **wishes**"? | 好。结尾写「Best wishes」可以吗？
+@line: David | "Best re**gards**" is better for **business**. And don't for**get** the at**tachment**! | 商务邮件用「Best regards」更好。还有，别忘了附件！
+@line: Lily | Oh **no**, I **almost** forgot! **Thanks**, David. | 哎呀，我差点忘了！谢谢你，David。
+@line: David | No **problem**. And **CC** me, please. | 不客气。记得抄送我。
+@line: Lily | Will **do**. | 好的，没问题。
+
+@pron_title: 弱读：小词要读得「又轻又快」
+@pron: to、for、and、of、can、you、from、at 这些小词，在句子里几乎**从来不按字典音标读**，而是读成弱化的 `/ə/`：to → `/tə/`，for → `/fər/`，and → `/ən/`，of → `/əv/`，can → `/kən/`，you → `/jə/`。
+@pron: 例：Thank you for your call. 读起来像 `/ˈθæŋkjə fər jər ˈkɔːl/`，重音只落在 thank 和 call 上。
+@pron: 中国学生习惯每个词都读清楚、读得一样重，结果说得又慢又「硬」。小词读轻，大词（名词、动词、形容词）读重，节奏感立刻就出来了。
+@pron_drill: 弱读练习：a **cup** of **tea** `/ə ˈkʌp əv ˈtiː/` ｜ **salt** and **pepper** ｜ I'd **like** to **talk** to **David**. ｜ **Thank** you for your **email**. ｜ **What** are you **going** to **do**?
+
+@chunk: Thank you for your email / call. | 感谢您的来信 / 来电。 | 邮件开头最常用的第一句。
+@chunk: Please find attached… | 附件是……，请查收。 | 发附件的固定说法。
+@chunk: As requested, … | 按您的要求，…… | 回应对方的请求。
+@chunk: Please see the details below. | 详情见下文。 | 引出正文细节。
+@chunk: Please don't hesitate to contact me. | 有任何问题请随时联系我。 | 邮件结尾。
+@chunk: I look forward to working with you. | 期待与您合作。 | 代替「请多指教」。
+@chunk: Best regards, | 祝好 / 此致 | 商务邮件最安全的结尾。
+@chunk: Got it, thanks! / Received, thanks! | 收到，谢谢！ | 简短确认收到邮件。
+
+@shadow: 跟读 David 的建议句，并把它们抄在一张卡片上贴在电脑旁边：Please find attached our catalog. / Thank you for your call yesterday. / I look forward to working with you. 注意弱读：for your 读成 `/fər jər/`，to working 读成 `/tə ˈwɜːrkɪŋ/`。
+@say: 感谢您昨天的来电。 | Thank you for your call yesterday.
+@say: 按您的要求，附件是我们最新的产品目录。 | As requested, please find attached our latest catalog.
+@say: 价格包含包装。 | The price includes packaging.
+@say: 如需更多信息，请随时联系我。 | If you need more information, please don't hesitate to contact me.
+@say: 你能帮我看一下这封邮件吗？ | Could you take a look at this email for me?
+@say: 请坐。 | Please have a seat.
+@say: 期待与您合作。 | I look forward to working with you.
+@say: 我把这封邮件转发给 Amy 了，也抄送了你。 | I forwarded the email to Amy and CC'd you.
+@respond: 客户来信："Could you send me your price list?" 你回信的第一句话： | Thank you for your email. As requested, please find attached our price list.
+@respond: 同事提醒你："You forgot the attachment!" | Oh, sorry! I'll send it again right away.
+@respond: 客户来信只有一句："Thanks for the catalog." 你简短回复： | You're welcome! Please let me know if you have any questions.
+@respond: 经理说："CC me on that email, please." | Sure, will do.
+@respond: 新客户邮件结尾写："Looking forward to working with you." | Thank you! I look forward to working with you, too.
+@talk_topic: 口头「写」一封邮件：给新客户发产品目录
+@frame: Subject: ______
+@frame: Dear ______,
+@frame: Thank you for ______.
+@frame: As requested, please find attached ______.
+@frame: ______（一句话介绍产品或价格）
+@frame: If you need more information, please don't hesitate to contact me.
+@frame: Best regards, ______
+@talk_sample: Subject: BrightWay Air Fryer Catalog. Dear Mr. Davis, Thank you for your call this morning. As requested, please find attached our latest air fryer catalog. Our best-seller is the AF5. It comes in three colors and has a two-year warranty. If you need more information, please don't hesitate to contact me. Best regards, Lily Lin, Sales Assistant, BrightWay Home.
+
+@bank: attach, include, reply, information, hesitate, forward, typo, subject
+@fill: Please find ______ our latest price list. | attached
+@fill: Does the price ______ shipping? | include
+@fill: Sorry, there's a ______ in my last email. | typo
+@fill: Could you ______ this email to the finance team? | forward
+@fill: Please don't ______ to contact me. | hesitate
+@fill: Thanks for your quick ______! | reply
+@fill: Could you send me more ______ about the AF5? | information
+@fill: Always write a clear ______ line. | subject
+@choose: 邮件结尾想表达「请多指教」，最自然的英文是：
+@opt: Please teach me more.
+@opt: I look forward to working with you.
+@opt: Please give me more guidance.
+@ans: B | 用英文自己的客套话。
+@choose: 请同事帮你看邮件，最礼貌的是：
+@opt: Please look my email.
+@opt: Could you take a look at my email?
+@opt: You look my email.
+@ans: B | 求人帮忙用 Could you…?
+@choose: 「我们需要更多信息。」
+@opt: We need more informations.
+@opt: We need more information.
+@opt: We need many information.
+@ans: B | information 不可数，不加 s，不用 many。
+@choose: 第一次给 Sarah Johnson 写邮件，最合适的称呼是：
+@opt: Dear Sarah Johnson,
+@opt: Dear Ms. Johnson,
+@opt: Hi Johnson,
+@ans: B | 第一次用 Ms. + 姓；对方以后署名 Sarah，再改成 Hi Sarah。
+@fix: Please check the attachment, I send you catalog. | Please find attached our catalog. | 发附件的固定说法。
+@fix: Please reply me quickly. | I'd appreciate a quick reply. | reply 后面要加 to；please + 命令像在催人。
+@fix: If you have any question, please contact with me. | If you have any questions, please contact me. | any questions 用复数；contact 后面不加 with。

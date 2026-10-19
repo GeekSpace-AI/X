@@ -1,0 +1,167 @@
+@day: 13
+@week: 2
+@title_cn: 视频会议
+@title_en: A Video Call with Sarah
+@scene: 晚上 9 点，和芝加哥客户开 Zoom 视频会
+@think_short: 「吧」：Let's / right? / probably
+@goal: 应对视频会议的常见状况：静音、卡顿、共享屏幕
+@goal: 会用英文**开场、过议程、收尾**，会说 We'll look into it
+@goal: 用英文表达「吧」的语气：建议、确认、推测
+
+@warmup: 我们公司成立于 2010 年。 | Our company was founded in 2010.
+@warmup: 我们主要出口到北美。 | We mainly export to North America.
+@warmup: 每台产品出货前都经过检测。 | Every unit is tested before shipment.
+@warmup: 价格包含运费吗？ | Does the price include shipping?
+@warmup: 你昨天收到我的邮件了吗？ | Did you get my email yesterday?
+@warmup: 祝好运！/ 但愿如此！ | Fingers crossed!
+
+@story_title: Episode 13 · "You're on Mute!"
+@story_intro: 公司简介发出后，Sarah 约了一次视频会议。深圳晚上 9 点，芝加哥早上 8 点——Lily 第一次在镜头前面对美国客户。
+
+@p: On Monday evening, David and Lily stay late for a **video call** with Sarah. It's 9 p.m. in Shenzhen and 8 a.m. in Chicago. David sends the meeting **link**. At 8:58, they **click** it. Lily turns on her **camera** and fixes her hair.
+@cn: 周一晚上，David 和 Lily 留下来加班，和 Sarah 开视频会。深圳是晚上 9 点，芝加哥是早上 8 点。David 发了会议链接。8 点 58 分，他们点了进去。Lily 打开摄像头，整理了一下头发。
+@w: video call | n. | ˈvɪdioʊ ˌkɔːl | 视频通话；视频会议 | have a video call 开视频会。也常直接说 a Zoom call / a Teams call。
+@w: link | n. | lɪŋk | 链接 | meeting link 会议链接。Here's the link. 链接在这儿。
+@w: click | v. | klɪk | 点击 | click the link 点链接；click "Send" 点发送。
+@w: camera | n. | ˈkæmərə | 摄像头；相机 | Turn on your camera. 打开摄像头。和客户开会，一般默认要开摄像头。
+
+@p: Sarah **appears** on the screen with a cup of coffee. "Good morning! I mean, good evening!" she laughs. David starts talking, but Sarah can't hear him. "David, I think you're on **mute**." David **unmutes** himself. "Sorry about that! Can you hear me now?" "**Loud and clear**."
+@cn: Sarah 端着一杯咖啡出现在屏幕上：「早上好！哦不，晚上好！」她笑了。David 开始说话，可 Sarah 听不到。「David，你好像开着静音。」David 取消了静音：「抱歉！现在能听到吗？」「非常清楚。」
+@w: appear | v. | əˈpɪr | 出现；看起来 | She appears on the screen. 她出现在屏幕上。It appears that… 看起来……
+@w: mute | adj./v. | mjuːt | 静音 | You're on mute. 你开着静音呢！（视频会议最常听到的一句）mute yourself 把自己静音。
+@w: unmute | v. | ˌʌnˈmjuːt | 取消静音 | Please unmute yourself. 请取消静音。
+@w: loud and clear | phr. | ˌlaʊd ən ˈklɪr | 听得清清楚楚 | Can you hear me? — Loud and clear! 能听到吗？——很清楚！
+
+@p: "Let's **go over** the **agenda** quickly," Sarah says. "First, the product **specs**. Second, **pricing**." Lily shares her screen and shows the K17 photos. Then Sarah's picture **freezes**. "Sorry, my **connection** is a little slow," Sarah says. "Can you see the **slide** now?" Lily asks. "Yes, it's back."
+@cn: 「我们快速过一下议程，」Sarah 说，「第一，产品参数；第二，价格。」Lily 共享了屏幕，展示 K17 的照片。这时 Sarah 的画面卡住了。「抱歉，我的网有点慢。」Sarah 说。「现在能看到这页幻灯片吗？」Lily 问。「能了，恢复了。」
+@w: go over | phr. | ˌgoʊ ˈoʊvər | 过一遍；仔细检查 | Let's go over the agenda. 我们过一下议程。go over the contract 审一遍合同。
+@w: agenda | n. | əˈdʒendə | 议程 | What's on the agenda today? 今天议程有哪些？
+@w: specs | n. | speks | 规格；参数 | = specifications。product specs 产品参数。Can you send me the specs? 能把参数发我吗？
+@w: pricing | n. | ˈpraɪsɪŋ | 定价；价格 | Let's talk about pricing. 我们谈谈价格。
+@w: freeze | v. | friːz | （画面）卡住；冻结 | The screen froze. 画面卡住了。You're frozen. 你卡住了。
+@w: connection | n. | kəˈnekʃn | 网络连接；联系 | My connection is bad today. 我今天网不好。
+@w: slide | n. | slaɪd | 幻灯片（PPT 的一页） | Next slide, please. 请翻下一页。
+
+@p: They talk for 40 minutes. Sarah likes the K17, but she has some **concerns** about the price. "It's **a bit** higher than we **expected**," she says. "We'll **look into** it," David answers. "Let's **discuss** the price **in detail** when we send our **official** quote."
+@cn: 他们聊了 40 分钟。Sarah 很喜欢 K17，但对价格有些顾虑：「比我们预期的高了一点。」「我们研究一下，」David 回答，「等我们发正式报价的时候，再详细讨论价格。」
+@w: concern | n. | kənˈsɜːrn | 顾虑；担心 | I have some concerns about the price. 我对价格有些顾虑。比 problem 委婉得多。
+@w: a bit | phr. | ə ˈbɪt | 有点；稍微 | a bit higher 稍高一点；I'm a bit busy. 我有点忙。= a little。
+@w: expect | v. | ɪkˈspekt | 预期；预计 | higher than we expected 比我们预期的高；We expect the goods next week. 预计下周到货。
+@w: look into | phr. | ˌlʊk ˈɪntuː | 调查；研究一下 | We'll look into it. 我们研究一下。（对方提出问题时的标准回答，表示认真对待）
+@w: discuss | v. | dɪˈskʌs | 讨论 | discuss the price 讨论价格。**后面不加 about**！
+@w: in detail | phr. | ɪn ˈdiːteɪl | 详细地 | Let's discuss it in detail. 我们详细讨论一下。
+@w: official | adj. | əˈfɪʃl | 正式的；官方的 | official quote 正式报价；official website 官网。
+
+@p: At the end, Sarah **wraps up** the call. "Great talking to you both. Let's **touch base** again next week. Lily, could you send me a short **summary** of today's call?" "Sure. I'll send it **by** tomorrow." After the call, Lily **sighs**. "That was **intense**!" David smiles. "You did great."
+@cn: 最后，Sarah 为会议收尾：「很高兴和你们两位聊。我们下周再碰一下。Lily，你能把今天会议的简短总结发给我吗？」「好的，我明天之前发给您。」挂断后，Lily 长出一口气：「刚才好紧张！」David 笑了：「你表现得很好。」
+@w: wrap up | phr. | ˌræp ˈʌp | 结束；收尾 | Let's wrap up. 我们收个尾吧。（会议快结束时说）
+@w: touch base | phr. | ˌtʌtʃ ˈbeɪs | 联系一下；碰个头 | Let's touch base next week. 我们下周再碰一下。（美国职场常用语）
+@w: summary | n. | ˈsʌməri | 总结；摘要 | meeting summary 会议纪要。In summary, … 总之，……
+@w: by | prep. | baɪ | 在……之前（截止时间） | by tomorrow 明天之前；by Friday 周五前。by 是「最晚」，until 是「一直到」。
+@w: sigh | v. | saɪ | 叹气；长出一口气 | She sighed with relief. 她松了一口气。
+@w: intense | adj. | ɪnˈtens | 紧张的；激烈的 | That was intense! 刚才好紧张！intense competition 激烈的竞争。
+
+@culture_title: 视频会议礼仪
+@culture: **准时**：提前 1–2 分钟进会议室。美国人开会准时开始、准时结束，迟到 5 分钟就要道歉：Sorry I'm late.
+@culture: **开摄像头**：和客户开会默认开摄像头；不说话时自己静音（mute），避免背景噪音。说话时看**摄像头**，而不是看屏幕上的人——这样对方才觉得你在看着他。
+@culture: **先寒暄再说事**：开头 1–2 分钟聊聊天气、周末：How's the weather in Chicago? 然后再进入正题：Shall we get started? **会后发总结**（recap email）：Thanks for your time today. Here's a quick summary of what we discussed… 这是专业的表现。
+
+@think_title: 「吧」：一个字，四种语气
+@think_intro: 「吧」是中文里最有「人情味」的一个字。它本身没有意思，却能让句子变成**建议**（我们开始吧）、**确认**（你是 Lily 吧）、**推测**（应该没问题吧）或**勉强同意**（好吧）。
+@think_intro: 英文没有「吧」，但有对应的「语气工具」：建议 → **Let's / Shall we / How about**；确认 → 句尾加 **…, right?**；推测 → **I think / probably / should**。
+@pair: 我们开始吧。 | We start ba. | Let's get started. | 建议 → Let's
+@pair: 你是 Lily 吧？ | You are Lily ba? | You're Lily, right? / You must be Lily. | 确认 → …, right?
+@pair: 应该没问题吧。 | Should no problem. | It should be fine. | 推测 → should
+@pair: 他大概还没起床吧。 | He maybe not get up ba. | He's probably still asleep. | 推测 → probably
+@pair: 你不喝咖啡吧？ | You no drink coffee ba? | You don't drink coffee, do you? | 确认 → 句尾反问
+@pair: 我们休息五分钟吧？ | We rest five minutes ba? | Shall we take a five-minute break? | 商量 → Shall we…?
+@pair: 明天再说吧。 | Tomorrow again say. | Let's talk about it tomorrow. | 建议 → Let's
+@pair: 好吧。（勉强同意） | Good ba. | OK, fine. / Alright. | 语气要轻、短
+@think_tip: 看「吧」想表达什么：建议 → **Let's…**；确认 → **…, right?**；推测 → **probably / should / I think**；商量 → **Shall we…? / How about…?**
+
+@dlg_title: 会议开场 · Can You Hear Me?
+@dlg_intro: 视频会议的头两分钟最紧张：要确认声音和画面，还要寒暄几句。下面就是这次会议的开场。
+@line: Sarah | Hi David, hi Lily! Can you **hear** me? | 嗨 David，嗨 Lily！能听到我说话吗？
+@line: David | Hi Sarah! Yes, **loud** and **clear**. Can you **see**‿us? | 嗨 Sarah！能，非常清楚。你能看到我们吗？
+@line: Sarah | Yes, I **can**. Lily, nice to **finally** see you! | 能看到。Lily，终于见到你了！
+@line: Lily | Nice to see **you** too, Sarah! How's the **weather**‿in **Chicago**? | 我也很高兴见到你，Sarah！芝加哥天气怎么样？
+@line: Sarah | **Cold**! It's‿only **forty** degrees this morning. | 冷！今天早上才 40 度。
+@line: Lily | **Forty**? Oh, **Fahrenheit**. That's‿about **four** degrees **Celsius**, right? | 40 度？哦，是华氏度。那大概是摄氏 4 度，对吧？
+@line: Sarah | **Right**! You're **quick**. OK, shall we get **started**? | 对！你反应真快。好，我们开始吧？
+@line: David | **Sure**. Let's go‿over the **agenda** first. | 好的。我们先过一下议程。
+@line: Sarah | Sounds **good**. Lily, could you **share** your **screen**? | 好。Lily，你能共享一下屏幕吗？
+@line: Lily | **Sure**… Can you see the **slide** now? | 好的……现在能看到幻灯片吗？
+@line: Sarah | Hmm, not **yet**. Oh, there‿it **is**. Wait, you're **frozen**. | 嗯，还没有。哦，出来了。等等，你卡住了。
+@line: Lily | Sorry, my con**nection** is‿a bit **slow**. Is‿it **better** now? | 抱歉，我网有点慢。现在好点了吗？
+@line: Sarah | **Much** better. OK, let's **start** with the **specs**. | 好多了。好，我们从参数开始吧。
+
+@pron_title: 失去爆破：next week 里的 t 去哪了？
+@pron: p、b、t、d、k、g 这 6 个音叫「爆破音」。当它们后面紧跟着另一个辅音时，**只做口型、不发出声音**，停顿一下就直接读下一个音。这叫「失去爆破」。
+@pron: 例子：nex(t) week、goo(d) job、las(t) night、tha(t) time、bi(g) gift、black coffee（k 只做口型）。
+@pron: 听美国人说话时，很多 t、d 好像「消失」了，就是这个原因。你自己这样读，听起来会更流畅。
+@pron_drill: 练习（括号里的音只做口型）：nex(t) week ｜ goo(d) job ｜ las(t) night ｜ si(t) down ｜ bla(ck) coffee ｜ ho(t) dog　　句子：Let's **touch base** **nex(t) week**. ｜ **Goo(d) job**, Lily!
+
+@chunk: Can you hear me? — Loud and clear. | 能听到吗？——很清楚。 | 会议开场确认声音。
+@chunk: You're on mute. | 你开着静音呢。 | 对方说话没声音时提醒。
+@chunk: Can you see my screen? | 能看到我的屏幕吗？ | 共享屏幕后确认。
+@chunk: Sorry, you're frozen. / You're breaking up. | 你卡住了。/ 你声音断断续续的。 | 网络不好时。
+@chunk: Shall we get started? | 我们开始吧？ | 寒暄结束，进入正题。
+@chunk: Let's go over the agenda. | 我们过一下议程。 | 正式开会第一步。
+@chunk: We'll look into it. | 我们研究一下。 | 对方提出问题或要求，先认真接住。
+@chunk: Let's touch base next week. | 我们下周再联系。 | 会议结束、约下次沟通。
+
+@shadow: 跟读 Lily 和 Sarah 关于温度的那几句，练习「确认」的语气：That's about four degrees Celsius, right? ——right 要上扬 ↗。另外，练习把华氏度换算成摄氏度说出来：fifty degrees Fahrenheit is about ten degrees Celsius.（华氏度 −30，再除以 2，就是摄氏度的近似值）
+@say: 我们开始吧。 | Let's get started. / Shall we get started?
+@say: 你开着静音呢。 | You're on mute.
+@say: 你能看到我的屏幕吗？ | Can you see my screen?
+@say: 抱歉，我的网络不太好。 | Sorry, my connection isn't very good.
+@say: 你是 Sarah 吧？ | You're Sarah, right?
+@say: 价格比我们预期的高一点。 | The price is a bit higher than we expected.
+@say: 我们研究一下。 | We'll look into it.
+@say: 我明天之前把会议总结发给您。 | I'll send you a summary by tomorrow.
+@respond: 视频会议开始，对方问："Can you hear me?" | Yes, loud and clear!
+@respond: 同事正在说话，但没有声音。 | I think you're on mute.
+@respond: 客户说："The price is a bit high." | I understand. We'll look into it.
+@respond: 会议结束时客户说："Let's touch base next week." | Sounds good. I'll send you a summary by tomorrow.
+@respond: 客户的画面卡住了。 | Sorry, Sarah, you're frozen. Can you hear me?
+@talk_topic: 主持一次视频会议的开场
+@frame: Hi everyone, can you all hear me?
+@frame: Thanks for joining. Shall we get started?
+@frame: Let's go over the agenda. First, ______. Second, ______. Third, ______.
+@frame: ______, could you share your screen?
+@frame: Any questions before we start?
+@frame: OK, let's start with ______.
+@talk_sample: Hi everyone, can you all hear me? Great. Thanks for joining. Shall we get started? Let's go over the agenda. First, the product specs. Second, pricing. Third, delivery time. Lily, could you share your screen? Thanks. Any questions before we start? OK, let's start with the specs.
+
+@bank: agenda, mute, connection, look into, discuss, wrap up, summary, expect
+@fill: Sorry, I can't hear you. You're on ______. | mute
+@fill: Let's go over the ______ before we start. | agenda
+@fill: My ______ is bad today. I might freeze. | connection
+@fill: Thanks for the feedback. We'll ______ it. | look into
+@fill: We need to ______ the price in detail. | discuss
+@fill: It's almost five. Let's ______. | wrap up
+@fill: Could you send everyone a ______ of the meeting? | summary
+@fill: The order is bigger than we ______. | expected
+@choose: 会议开始，想说「我们开始吧」：
+@opt: We start ba.
+@opt: Let's get started.
+@opt: Start now we.
+@ans: B | 建议用 Let's。
+@choose: 「你是 Lily 吧？」（想确认一下）
+@opt: You are Lily ba?
+@opt: You're Lily, right?
+@opt: Are you Lily or not?
+@ans: B | 确认用句尾 right?
+@choose: 客户在视频里说话但没有声音，你说：
+@opt: You're on mute.
+@opt: You are no voice.
+@opt: Your mouth is closed.
+@ans: A | 视频会议标准提醒。
+@choose: 「我们讨论一下价格。」
+@opt: Let's discuss about the price.
+@opt: Let's discuss the price.
+@opt: Let's discussing the price.
+@ans: B | discuss 后面直接加讨论的内容。
+@fix: We can discuss about it tomorrow. | We can discuss it tomorrow. | discuss 后面不加 about。
+@fix: Please send me the summary until Friday. | Please send me the summary by Friday. | 截止时间用 by。
+@fix: Should no problem.（想说「应该没问题吧」） | It should be fine. | 推测用 should be fine。

@@ -1,0 +1,156 @@
+@day: 14
+@week: 2
+@review: true
+@title_cn: 第二周复习 · 我的第一份周报
+@title_en: Week 2 Review — My Weekly Update
+@scene: 周五下午，给经理写英文周报
+@think_short: 「一下」：take a look / give it a try
+@goal: 用英文**写 / 说一份周报**：做了什么、遇到什么挑战、下周重点
+@goal: 学会「一下」的地道说法：take a look、give it a try、check with
+@goal: 复习第二周：电话、留言、邮件、询价、公司介绍、视频会议
+
+@warmup: 你开着静音呢。 | You're on mute.
+@warmup: 我们开始吧。 | Let's get started.
+@warmup: 我们研究一下。 | We'll look into it.
+@warmup: 你是 Sarah 吧？ | You're Sarah, right?
+@warmup: 价格比我们预期的高一点。 | The price is a bit higher than we expected.
+@warmup: 我们下周再联系。 | Let's touch base next week.
+
+@story_title: Episode 14 · My First Weekly Update
+@story_intro: David 要求团队每周五发一份简短的周报。这是 Lily 的第一份——里面藏着本周学过的很多词。
+
+@p: Every Friday, David asks his team to send a short **weekly** **update**. Here is Lily's first one:\nSubject: Weekly Update – Lily\nHi David,\nHere's a quick update on my **progress** this week.
+@cn: 每周五，David 都要求团队发一份简短的周报。这是 Lily 的第一份——标题：周报 – Lily。嗨 David，简单汇报一下我这周的进展。
+@w: weekly | adj. | ˈwiːkli | 每周的 | weekly meeting 周会；weekly report 周报。每天 daily，每月 monthly。
+@w: update | n./v. | ˈʌpdeɪt | 最新进展；更新 | Any updates? 有新进展吗？Please keep me updated. 有进展随时告诉我。
+@w: progress | n. | ˈprɑːgres | 进展；进步 | make progress 取得进步。How's the progress? 进展如何？（不可数）
+
+@p: "1. Calls: I **handled** about 20 [[phone calls]] this week. I [[transferred]] calls and took messages. I always ask callers to [[spell]] their names, and I [[double-check]] everything. The biggest **challenge** is the American **accent**. When people speak fast, I still **struggle**."
+@cn: 「1. 电话：这周我处理了大约 20 通电话，转接电话、记录留言。我总会请来电者拼写名字，并且每项信息都再核对一遍。最大的挑战是美国口音，对方说得快的时候我还是很吃力。」
+@w: handle | v. | ˈhændl | 处理；应付 | handle calls / complaints 处理电话 / 投诉。I can handle it. 我搞得定。
+@w: challenge | n. | ˈtʃælɪndʒ | 挑战；难题 | The biggest challenge is… 最大的挑战是……（比 problem 更积极）
+@w: accent | n. | ˈæksent | 口音 | American accent 美国口音。He has a strong accent. 他口音很重。
+@w: struggle | v. | ˈstrʌgl | 吃力；挣扎 | I still struggle with fast English. 语速快的英语我听着还很吃力。
+
+@p: "2. Emails: I wrote my first business emails. I learned to write a clear [[subject]] line and to [[get to the point]]. I'm **getting used to** writing 'Please find [[attached]]'! I feel more **comfortable** with emails now.\n3. Customers: HomeStar sent us an [[inquiry]] for 2,000 [[units]] of the K17. We had a [[video call]] with Sarah. She has some [[concerns]] about the price."
+@cn: 「2. 邮件：我写了第一批商务邮件，学会了写清楚的标题、直奔主题。我渐渐习惯写『Please find attached』了！现在写邮件自在多了。3. 客户：HomeStar 发来了 2,000 台 K17 的询价。我们和 Sarah 开了视频会，她对价格有些顾虑。」
+@w: get used to | phr. | ˌget ˈjuːst tə | 逐渐习惯 | I'm getting used to it. 我渐渐习惯了。to 后面接名词或 -ing：get used to working late。
+@w: comfortable | adj. | ˈkʌmftərbl | 舒服的；自在的 | I feel more comfortable now. 我现在自在多了。只读三个音节：KUMF-ter-bl。
+
+@p: "**Overall**, it was a busy week, but I learned a lot. My **priorities** for next week: (1) help [[prepare]] the [[official]] [[quote]] for HomeStar; (2) learn more about [[pricing]]; (3) practice listening to American English every day."
+@cn: 「总的来说，这周很忙，但我学到了很多。下周的重点：(1) 协助准备给 HomeStar 的正式报价；(2) 多了解定价；(3) 每天练习听美式英语。」
+@w: overall | adv. | ˌoʊvərˈɔːl | 总的来说 | Overall, it was a good week. 总的来说这周不错。
+@w: priority | n. | praɪˈɔːrəti | 优先事项 | top priority 头等大事。Safety is our top priority. 安全是我们的第一要务。
+
+@p: "I really **appreciate** your **support**. I'm improving **step by step**.\n[[Best regards]],\nLily"\nDavid replies five minutes later: "Great update, Lily! **Keep up the good work**."
+@cn: 「非常感谢您的支持，我在一步一步地进步。祝好，Lily」五分钟后，David 回复：「周报写得很好，Lily！继续保持！」
+@w: appreciate | v. | əˈpriːʃieɪt | 感激；欣赏 | I really appreciate your help. 非常感谢你的帮助。比 thank you 更正式、更真诚。
+@w: support | n./v. | səˈpɔːrt | 支持；帮助 | Thanks for your support. 谢谢你的支持。customer support 客服。
+@w: step by step | phr. | ˌstep baɪ ˈstep | 一步一步地 | Let's do it step by step. 我们一步一步来。
+@w: keep up the good work | phr. | ˌkiːp ˌʌp ðə ˌgʊd ˈwɜːrk | 继续保持，干得好 | 美国老板夸下属的经典句。回答：Thank you! I appreciate it.
+
+@culture_title: 美国职场的「周报」和「向上沟通」
+@culture: 美国经理很看重 **keep me in the loop**（让我知道进展）。好的周报很短：做了什么、有什么问题、下周做什么，用 1、2、3 列出来，经理 1 分钟就能看完。
+@culture: **No surprises**：有问题要**早说**，不要等到最后。Quick update: the samples might be two days late. 比交货那天才说好一万倍。经理常说 Keep me posted. 有进展随时告诉我。
+@culture: 美国人很爱**夸人**：Great job! / Nice work! / Keep up the good work! 被夸了别谦虚说「哪里哪里」，大方回答 Thank you! I appreciate it. 就好。
+
+@think_title: 「一下」：让动作变「轻」的英文说法
+@think_intro: 中文爱用「一下」：看一下、等一下、试一下、问一下。它的作用是让动作**变轻、变短、变客气**。直译成 one time 或 a little，老外会听不懂。
+@think_intro: 英文表达「一下」的感觉，最常用的是这些**「轻动作」短语**：take a look（看一下）、give it a try（试一下）、check with sb（问一下）、just a sec（等一下），以及 Let me…（我来……一下）。
+@think_intro: 本周复习：有、给、请、量词、吗、吧。表格最后两行是复习。
+@pair: 我看一下。 | I look one down. | Let me take a look. / Let me check. | 「看一下」→ take a look
+@pair: 你等一下。 | You wait one down. | Just a sec. / One moment. | 「等一下」→ just a sec
+@pair: 我想一下。 | I think a little. | Let me think about it. | 「想一下」→ think about it
+@pair: 你试一下。 | You try one time. | Give it a try. | 「试一下」→ give it a try
+@pair: 我问一下经理。 | I ask manager one down. | Let me check with my manager. | 「问一下（确认）」→ check with
+@pair: 介绍一下你自己吧。 | Introduce yourself a little. | Tell us a little about yourself. | 面试、开会时常听到
+@pair: 复习：附近有银行吗？ | Nearby has a bank? | Is there a bank nearby? | Day 8：某地有 → There is
+@pair: 复习：我给你发邮件。 | I give you email. | I'll email you. | Day 9：不需要「给」
+@think_tip: 「……一下」→ 用 **Let me + 动词**，或者「轻动作」短语：**take a look / give it a try / check with sb / just a sec**。
+
+@dlg_title: 经理的一对一谈话 · A Quick Check-in
+@dlg_intro: 周五下午，David 找 Lily 做了一次简短的一对一谈话（美国职场叫 check-in 或 one-on-one）。
+@line: David | Lily, got‿a **minute**? Let's do‿a quick **check-in**. | Lily，有空吗？我们简单聊几句。
+@line: Lily | **Sure**. Should‿I bring my **notebook**? | 好的。要带笔记本吗？
+@line: David | No **need**. Just‿a quick **chat**. So, how are you **feeling** after **two** weeks? | 不用，就随便聊聊。来了两周，感觉怎么样？
+@line: Lily | **Much** better than the first **day**! I'm getting **used** to **everything**. | 比第一天好多了！我渐渐习惯了。
+@line: David | **Good**. I read your weekly up**date**. It was very **clear**. | 很好。我看了你的周报，写得很清楚。
+@line: Lily | **Thank** you. I really ap**preciate** your **help**. | 谢谢。非常感谢你的帮助。
+@line: David | What's the **biggest challenge** for you right **now**? | 你现在最大的挑战是什么？
+@line: Lily | **Listening**. When customers speak **fast**, I still **struggle**. | 听力。客户说得快的时候，我还是很吃力。
+@line: David | That's **normal**. Try watching‿A**merican** TV shows with **English** subtitles. | 很正常。试试看美剧，开英文字幕。
+@line: Lily | Good i**dea**. Can you recom**mend** one? | 好主意。你能推荐一部吗？
+@line: David | Try "**The Office**". It's **funny**, and it's all‿about **work**. | 试试《办公室》，很好笑，而且全是职场。
+@line: Lily | I'll give‿it‿a **try** this **weekend**. | 这周末我试试。
+@line: David | **Great**. Keep up the **good** work! | 很好，继续保持！
+
+@pron_title: 过去式 -ed 的三种读音
+@pron: `/t/`：前面是 p、k、f、s、sh、ch 这类清辅音：asked `/æskt/`、helped、worked、checked、fixed、finished。**不要读成 ask-ed 两个音节！**
+@pron: `/d/`：前面是元音或浊辅音：called `/kɔːld/`、answered、received、planned、arrived、handled。
+@pron: `/ɪd/`：前面是 t 或 d 时，才多出一个音节：started `/ˈstɑːrtɪd/`、needed、wanted、tested、updated。
+@pron_drill: 分类朗读：/t/ asked, worked, checked, fixed ｜ /d/ called, received, handled, arrived ｜ /ɪd/ started, needed, tested, updated　　句子：I **handled** twenty **calls** and **checked** every **message**.
+
+@chunk: Let me take a look. | 我看一下。 | 同事、客户请你看东西时。
+@chunk: Give it a try. | 试一下吧。 | 鼓励别人尝试；自己说 I'll give it a try.
+@chunk: Let me check with my manager. | 我跟经理确认一下。 | 自己做不了主时，先缓一缓。
+@chunk: Just a sec. | 等一下。 | 很口语，同事之间用。
+@chunk: Here's a quick update. | 简单汇报一下最新进展。 | 周报、邮件、会议发言的开场。
+@chunk: Keep me posted. | 有进展随时告诉我。 | 经理常说；你回答 Will do.
+@chunk: I really appreciate your help. | 非常感谢你的帮助。 | 比 Thank you 更真诚。
+@chunk: Keep up the good work! | 继续保持！ | 夸奖别人。
+
+@shadow: 复习日跟读加长版：先把本周你最喜欢的两段对话各跟读一遍（推荐 Day 8 接电话、Day 13 视频会议），再跟读今天的对话。注意今天 David 的问句 How are you feeling after two weeks? 是降调 ↘。
+@say: 我看一下。 | Let me take a look.
+@say: 我跟经理确认一下，今天给您回电话。 | Let me check with my manager. I'll call you back today.
+@say: 你试一下这个新功能。 | Give this new feature a try.
+@say: 简单汇报一下这周的进展。 | Here's a quick update on this week's progress.
+@say: 最大的挑战是美国口音。 | The biggest challenge is the American accent.
+@say: 总的来说，这周很忙，但我学到了很多。 | Overall, it was a busy week, but I learned a lot.
+@say: 非常感谢你的支持。 | I really appreciate your support.
+@say: 我在一步一步地进步。 | I'm improving step by step.
+@respond: 同事拿着一份报价问："Can you check this for me?" | Sure, let me take a look.
+@respond: 客户问："Can you give us a 5% discount?"（你做不了主） | Let me check with my manager. I'll call you back today.
+@respond: 经理问："How are you feeling after two weeks?" | Much better. I'm getting used to everything.
+@respond: 经理说："Great job this week. Keep up the good work!" | Thank you! I really appreciate it.
+@respond: 经理问："What's your top priority next week?" | My top priority is the quote for HomeStar.
+@talk_topic: 给经理做一份口头周报
+@frame: Here's a quick update on my progress this week.
+@frame: This week, I ______.
+@frame: The biggest challenge was ______.
+@frame: I'm getting used to ______.
+@frame: Overall, ______.
+@frame: My priorities for next week are ______.
+@talk_sample: Here's a quick update on my progress this week. This week, I handled about twenty phone calls and wrote my first business emails. I also helped with an inquiry from HomeStar. The biggest challenge was the American accent. I'm getting used to it, but it's still hard when people speak fast. Overall, it was a busy but good week. My priorities for next week are the HomeStar quote and listening practice.
+
+@bank: update, progress, handle, challenge, appreciate, priority, overall, get used to
+@fill: Any ______ on the HomeStar order? | updates
+@fill: We're making good ______. The quote is almost ready. | progress
+@fill: Don't worry. I can ______ it. | handle
+@fill: Our biggest ______ this year is rising costs. | challenge
+@fill: I really ______ your help. | appreciate
+@fill: Safety is our top ______. | priority
+@fill: ______, the customer is happy with our service. | Overall
+@fill: It takes time to ______ the time difference. | get used to
+@choose: 同事请你看一份文件，你说「我看一下」：
+@opt: I look one down.
+@opt: Let me take a look.
+@opt: I see a little.
+@ans: B | 「看一下」= take a look。
+@choose: 客户问价格能不能再低，你要先请示经理：
+@opt: I ask my boss one down.
+@opt: Let me check with my manager.
+@opt: I will ask to my boss a little.
+@ans: B | 「问一下（确认）」= check with。
+@choose: 复习：「附近有超市吗？」
+@opt: Nearby has a supermarket?
+@opt: Is there a supermarket nearby?
+@opt: Have supermarket nearby?
+@ans: B | 某地有某物 → Is there…?
+@choose: 老板说 "Keep up the good work!"，最合适的回应是：
+@opt: No, no, I'm not good.
+@opt: Thank you! I appreciate it.
+@opt: Yes, I know.
+@ans: B | 被夸奖时大方道谢。
+@fix: Wait me one down. | Just a sec. / Wait a second. | 「等一下」的地道说法。
+@fix: I get used to work late.（想说「我渐渐习惯加班了」） | I'm getting used to working late. | 「渐渐习惯」用 getting used to + -ing。
+@fix: Please give me send the price list. | Please send me the price list. | 复习 Day 9：send + 人 + 东西。

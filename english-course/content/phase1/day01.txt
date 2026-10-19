@@ -1,0 +1,179 @@
+@day: 1
+@week: 1
+@title_cn: 入职第一天
+@title_en: First Day at Work
+@scene: 公司前台、办公室，第一次见同事
+@think_short: 「是」和「很」
+@goal: 用 6 句话做一个**自我介绍**（名字、家乡、职位、感受）
+@goal: 分清英文里**什么时候要加 am / is / are**，不再说 I very busy
+@goal: 和外国同事完成一段 1 分钟的**茶水间闲聊**
+
+@warmup_hint: 第一天没有「昨天」，我们先热热身：用英文说出下面这些你可能已经会的话。说得出来，说明你的底子比你想象的好。
+@warmup: 早上好！ | Good morning!
+@warmup: 谢谢你！——不客气。 | Thank you! — You're welcome.
+@warmup: 我叫……（说你自己的名字） | My name is ... / I'm ...
+@warmup: 对不起，我迟到了。 | Sorry, I'm late.
+
+@story_title: Episode 1 · Hello, BrightWay!
+@story_intro: 周一早上，24 岁的林晓（Lily）第一天到深圳一家做小家电出口的公司上班。她英语一般，心里有点慌……
+
+@p: It's Monday morning. Lily Lin **arrives** at the BrightWay **office** at 8:45. She feels a little **nervous**. Today is her first day at her new job. BrightWay is a small **company** in Shenzhen. It makes kitchen **appliances**, like **electric** kettles and air fryers, and sells them to **customers** in the US.
+@cn: 周一早上，林晓（Lily）8 点 45 分到了 BrightWay 的办公室。她有点紧张，因为今天是她新工作的第一天。BrightWay 是深圳的一家小公司，生产厨房电器，比如电热水壶和空气炸锅，卖给美国的客户。
+@w: arrive | v. | əˈraɪv | 到达 | arrive **at** + 具体地点（公司、机场），arrive **in** + 城市/国家。外贸天天用：The goods will arrive next Friday. 货下周五到。
+@w: office | n. | ˈɔːfɪs | 办公室；公司 | 「在公司」= in the office；「我今天不在公司」= I'm not in the office today. 「去上班」也常说 go to the office。
+@w: nervous | adj. | ˈnɜːrvəs | 紧张的 | 面试、第一次见客户、上台讲话前：I'm a little nervous. 我有点紧张。
+@w: company | n. | ˈkʌmpəni | 公司 | 介绍公司：Our company makes kitchen appliances. 重音在第一个音节 COM。
+@w: appliance | n. | əˈplaɪəns | （家用）电器 | kitchen appliances 厨房电器，home appliances 家电。做家电外贸的人天天说的词。
+@w: electric | adj. | ɪˈlektrɪk | 电的；电动的 | electric kettle 电热水壶，electric car 电动车。重音在 LEC。
+@w: customer | n. | ˈkʌstəmər | 顾客；客户 | 买东西的人都是 customer；长期合作的大客户也常叫 client。Our customers are mainly in the US. 我们的客户主要在美国。
+
+@p: At the **front desk**, the **receptionist** **smiles**. "Good morning! Can I help you?" Lily says, "Hi, I'm Lily Lin. I'm the new **sales** **assistant**. Today is my first day." "**Welcome** to BrightWay! Please **wait** a moment. I'll **call** your **manager**."
+@cn: 前台接待员笑着说：「早上好！有什么可以帮您？」Lily 说：「你好，我叫林晓，是新来的销售助理，今天第一天上班。」「欢迎来到 BrightWay！请稍等，我给你的经理打个电话。」
+@w: front desk | n. | ˌfrʌnt ˈdesk | 前台 | 公司、酒店的前台都叫 front desk。在酒店打电话：Hi, is this the front desk? 你好，是前台吗？
+@w: receptionist | n. | rɪˈsepʃənɪst | 前台接待员 | 坐在前台的人。The receptionist will take you to the meeting room. 前台会带你去会议室。
+@w: smile | v./n. | smaɪl | 微笑 | smile 是不出声的笑；出声笑是 laugh。拍照时说 Smile! 笑一个！
+@w: sales | n. | seɪlz | 销售；销售额 | sales assistant 销售助理，sales team 销售部；也指「销售额」：Our sales went up this year. 今年销售额涨了。
+@w: assistant | n. | əˈsɪstənt | 助理 | 介绍职位：I'm a sales assistant. 职位前别忘了 a / the。重音在 SIS。
+@w: welcome | v./int. | ˈwelkəm | 欢迎 | Welcome to BrightWay! 欢迎来到……；别人道谢时回答 You're welcome. 不客气。
+@w: wait | v. | weɪt | 等 | Please wait a moment. 请稍等。「等某人」要加 for：I'm waiting for my manager.（不说 wait my manager）
+@w: call | v. | kɔːl | ① 打电话 ② 称呼 | ① I'll call you tomorrow. 我明天给你打电话。② Call me David. 叫我 David 就行。
+@w: manager | n. | ˈmænɪdʒər | 经理 | sales manager 销售经理，project manager 项目经理。注意英文不说 Manager Zhang（见文化小贴士）。
+
+@p: A few minutes **later**, a man in a blue shirt walks over. "Hi Lily, I'm David Zhang, the sales manager. Nice to meet you." "Nice to meet you too, Mr. Zhang." David **laughs**. "Just call me David. **Everyone** here uses **first names**." Lily is **surprised**. At her old job, people called the **boss** "Manager Wang".
+@cn: 几分钟后，一个穿蓝衬衫的男人走过来：「嗨 Lily，我是张伟（David），销售经理。很高兴认识你。」「我也很高兴认识您，张先生。」David 笑了：「叫我 David 就行，这里大家都直接叫名字。」Lily 有点意外——在她以前的公司，大家都管老板叫「王经理」。
+@w: later | adv. | ˈleɪtər | 之后；晚些时候 | a few minutes later 几分钟后；See you later! 回头见；I'll call you back later. 我晚点回你电话。
+@w: laugh | v. | læf | （出声地）笑 | David laughs. 他笑了。注意 laugh at sb 是「嘲笑某人」，别乱用。
+@w: everyone | pron. | ˈevriwʌn | 每个人；大家 | 开会开场：Hi everyone! 大家好！后面动词用单数：Everyone **is** here. 人都到齐了。
+@w: first name | n. | ˈfɜːrst neɪm | 名（不是姓） | 英文名字顺序：first name 名 + last name 姓。填表时 First Name 填 Lily，Last Name 填 Lin。
+@w: surprised | adj. | sərˈpraɪzd | 惊讶的；意外的 | 人的感受用 -ed：I'm surprised. 我很意外。事情本身用 -ing：That's surprising. 这事挺让人意外的。
+@w: boss | n. | bɔːs | 老板；上司 | 口语里「我领导」就是 my boss：My boss is really nice. 正式介绍时用 manager。
+
+@p: David **shows** Lily **around** the office. "This is our sales **team**. And this is Emma Brown. She's from the US. She's our **marketing** manager." Emma **shakes hands** with Lily. "Hi Lily! I'm so **glad** you're **joining** us. Don't **worry**. Everyone here is really **friendly**."
+@cn: David 带 Lily 参观办公室：「这是我们的销售团队。这位是 Emma Brown，她是美国人，是我们的市场经理。」Emma 和 Lily 握了握手：「嗨 Lily！很高兴你加入我们。别担心，这里每个人都很友好。」
+@w: show (sb) around | phr. | ʃoʊ əˈraʊnd | 带（某人）参观 | 带新同事、客户参观：Let me show you around our factory. 我带你参观一下我们工厂。
+@w: team | n. | tiːm | 团队；小组 | sales team 销售团队。「我在销售组」美式说 I'm on the sales team.
+@w: marketing | n. | ˈmɑːrkɪtɪŋ | 市场营销；市场部 | marketing 负责宣传推广，sales 负责直接卖货。marketing manager 市场经理。
+@w: shake hands | phr. | ʃeɪk hændz | 握手 | shake hands with sb 和某人握手。美国人握手要有力、看着对方眼睛，2–3 秒就松开。
+@w: glad | adj. | glæd | 高兴的 | I'm glad to hear that. 听你这么说我很高兴。常用于「对某件事感到高兴」。
+@w: join | v. | dʒɔɪn | 加入；参加 | join a company / a team / a meeting。Can you join the meeting at 3? 你三点能来开会吗？
+@w: worry | v. | ˈwɜːri | 担心 | Don't worry. 别担心。别人向你道歉时说 Don't worry about it. 没事，别放心上。
+@w: friendly | adj. | ˈfrendli | 友好的；亲切的 | friendly people 友好的人；产品「好用、易上手」叫 user-friendly。
+
+@p: Lily's desk is **next to** the window. There is a **laptop**, a phone and a **notebook** on it. David says, "**Take your time** today. If you have any **questions**, just **ask** me or Emma." Lily smiles. She is still a little nervous, but she's also **excited**. She opens her notebook and writes: "Day 1 — I'm **ready**."
+@cn: Lily 的办公桌在窗户旁边，桌上有一台笔记本电脑、一部电话和一个笔记本。David 说：「今天慢慢来，不着急。有任何问题就问我或者 Emma。」Lily 笑了。她还是有点紧张，但也很兴奋。她打开笔记本写下：「第一天——我准备好了。」
+@w: next to | prep. | ˈnekst tə | 在……旁边 | 说位置最常用：The printer is next to the door. 打印机在门旁边。
+@w: laptop | n. | ˈlæptɑːp | 笔记本电脑 | 美国人说「笔记本电脑」用 laptop；notebook 一般指纸质笔记本。
+@w: notebook | n. | ˈnoʊtbʊk | 笔记本（纸的） | 开会记笔记：write it down in my notebook 记在我本子上。
+@w: take your time | phr. | ˌteɪk jər ˈtaɪm | 慢慢来，不着急 | 对方手忙脚乱或着急道歉时：No rush. Take your time. 不急，慢慢来。
+@w: question | n. | ˈkwestʃən | 问题（要问的） | 「我有个问题」= I have a question.；「出问题了、有麻烦」用 problem：There's a problem with the order.
+@w: ask | v. | æsk | 问；请求 | ask sb 问某人（后面不加 to）：Ask me. ask a question 提问；ask for help 求助。
+@w: excited | adj. | ɪkˈsaɪtɪd | 兴奋的；期待的 | I'm excited about the new job. 我对新工作很期待。别说 I'm exciting（那是「我这人很刺激」）。
+@w: ready | adj. | ˈredi | 准备好的 | Are you ready? 准备好了吗？外贸常用：The goods are ready to ship. 货已备好，可以发了。
+
+@culture_title: 「王经理」在英文里怎么叫？
+@culture: 中文职场习惯「姓 + 职位」：王经理、张总、李老师。英文**没有** Manager Wang、Boss Zhang 这种叫法，老外听了会觉得很奇怪。
+@culture: 在美国公司（包括很多外企）里，同事之间、甚至对大老板，通常都直接叫 **first name**：Hi David! 这不是没礼貌，而是表示平等和亲近。
+@culture: 正式场合或第一次写邮件给客户，用 **Mr. / Ms. + 姓**：Mr. Zhang、Ms. Johnson。Ms. 读 `/mɪz/`，不知道对方是否结婚，女性一律用 Ms.。注意 Mr. David 是错的——Mr. 后面跟姓。
+@culture: 对方说 "Please call me Sarah." 之后，就直接叫 Sarah。一直坚持叫 Ms. Johnson，反而会让人觉得你在保持距离。
+
+@think_title: 「是」和「很」：英文句子离不开 am / is / are
+@think_intro: 中文里，形容词可以直接放在主语后面：「我很忙」「天气很好」。英文不行——形容词前面必须有 **am / is / are**，哪怕中文里根本没有「是」字。
+@think_intro: 反过来，中文说「我在深圳工作」，句子里已经有动作（work）了，就**不要**再加 am。中国学生最常见的两个错误正好相反：该加的不加（I very busy），不该加的乱加（I am work…）。
+@think_intro: 还有个小秘密：中文的「很」很多时候只是为了说着顺口，并没有「非常」的意思。「我很好」→ I'm good. 说成 I'm very good 反而像「我非常厉害」。
+@pair: 我很忙。 | I very busy. | I'm busy. | 形容词前要有 be；「很」只是语气，可以不翻
+@pair: 我很好，谢谢。 | I'm very good. | I'm good, thanks. | very good 听起来像「我非常棒」
+@pair: 我有点紧张。 | I little nervous. | I'm a little nervous. | 「有点」= a little / a bit
+@pair: 今天很冷。 | Today very cold. | It's cold today. | 说天气、时间，用 It's 开头
+@pair: 我是新来的销售助理。 | I new sales assistant. | I'm the new sales assistant. | 有 am，职位前还要加 a / the
+@pair: 我叫林晓。 | I call Lin Xiao. | I'm Lin Xiao. / My name is Lin Xiao. | I call 是「我打电话」
+@pair: 我在深圳工作。 | I am work in Shenzhen. | I work in Shenzhen. | 有动作 work，就不加 am
+@pair: 他人很好。 | He very good person. | He's really nice. | 夸人「人好」，用 nice 最自然
+@think_tip: 说英文前先问自己一句：**这句话里有没有动作？** 有动作（work、eat、go……）→ 直接用动词；没有动作，只是在说「怎么样、是什么、在哪儿」→ 加 **am / is / are**。
+
+@dlg_title: 茶水间偶遇 · Coffee Break with Emma
+@dlg_intro: 上午 10 点，Lily 在茶水间碰到 Emma。美国人很爱这种轻松的「茶水间闲聊」（small talk），内容简单，正好练开口。
+@line: Emma | Hi Lily! **How's** your **first** day **going**? | 嗨 Lily！第一天过得怎么样？
+@line: Lily | **Pretty good**, thanks. Everyone‿is so **friendly**. | 挺好的，谢谢。大家都很友好。
+@line: Emma | That's **great**. So, where‿are you **from**? | 那太好了。你是哪里人？
+@line: Lily | I'm from **Hunan**. But‿I **live**‿in **Shenzhen** now. | 我是湖南人，不过现在住在深圳。
+@line: Emma | Oh, I **love** Hunan food! It's **really spicy**. | 哦，我超爱湖南菜！特别辣。
+@line: Lily | Yes, it‿**is**! Do you like **spicy** food? | 是啊！你喜欢吃辣吗？
+@line: Emma | I **do**. But not **too** spicy! | 喜欢。不过别太辣！
+@line: Lily | Ha-ha. How **long** have you been‿in **China**? | 哈哈。你来中国多久了？
+@line: Emma | About **six** years. I came here after **college**. | 大概六年了，大学毕业就来了。
+@line: Lily | **Wow**. Your **Chinese** must be **good**! | 哇，那你中文一定很好！
+@line: Emma | Yī diǎn diǎn — just‿a **little**. By the **way**, if you need‿**anything**, just let me **know**. | 一点点而已。对了，有任何需要随时跟我说。
+@line: Lily | Thank you, Emma. That's very **kind**‿of you. | 谢谢你，Emma，你人真好。
+@line: Emma | No **problem**. See you‿at **lunch**! | 不客气。午饭见！
+
+@pron_title: 先学会看音标 + `/iː/` 和 `/ɪ/`
+@pron: 本书统一用**美式音标**（和欧路/有道词典里标「美」的音标一致）。`ˈ` 表示后面那个音节要**重读**，`ː` 表示**长音**。例如 manager `/ˈmænɪdʒər/`，重音在 MAN。
+@pron: `/iː/`：嘴角向两边拉开，像拍照说「茄子」时的「衣——」，要**拉长**：meet, team, see, three。
+@pron: `/ɪ/`：**短而放松**，嘴巴几乎不用力，介于「衣」和「诶」之间，一带而过：it, sit, his, business `/ˈbɪznəs/`。
+@pron: 很多人把两个都读成「衣」，结果 sheep（羊）和 ship（船）、leave（离开）和 live（住）听起来一模一样。
+@pron_drill: 对比朗读：eat – it ｜ team – Tim ｜ seat – sit ｜ leave – live ｜ feel – fill　　句子：Please **take** a **seat**. ｜ It's a **big team**.
+
+@chunk: Nice to meet you. — Nice to meet you, too. | 很高兴认识你。——我也是。 | 第一次见面说；以后再见面说 Nice to see you (again).
+@chunk: Just call me David. | 叫我 David 就行。 | 别人对你太客气（Mr./Ms.）时，让对方直接叫名字。
+@chunk: I'm the new sales assistant. | 我是新来的销售助理。 | 介绍职位；也可以说 I just joined the sales team.
+@chunk: How's your first day going? | 第一天过得怎么样？ | How's + 事情 + going? 问进展的万能句：How's the project going?
+@chunk: Where are you from? — I'm from Hunan. | 你是哪里人？——我是湖南人。 | 聊家乡是最安全的闲聊话题。
+@chunk: If you need anything, just let me know. | 有需要随时跟我说。 | 对新同事、客户都可以说，客气又自然。
+@chunk: That's very kind of you. | 你真好。/ 太感谢了。 | 别人主动帮你时，比单说 thank you 更真诚。
+@chunk: See you at lunch. / See you later. | 午饭见。/ 回头见。 | 结束闲聊时用。
+
+@shadow: 重点跟读 Emma 的两个问句：How's your first day going? / Where are you from? 问句的重音落在 how's 和 from 上。先 0.8 倍速跟读 3 遍，再正常速度跟读 2 遍；最后你演 Lily、手机朗读 Emma，完整对一遍并录音。
+@say: 我是新来的销售助理。 | I'm the new sales assistant.
+@say: 今天是我上班的第一天。 | Today is my first day at work.
+@say: 我有点紧张。 | I'm a little nervous.
+@say: 叫我 Lily 就行。 | Just call me Lily.
+@say: 我是湖南人，现在住在深圳。 | I'm from Hunan, and I live in Shenzhen now.
+@say: 这里的每个人都很友好。 | Everyone here is really friendly.
+@say: 有问题就问我。 | If you have any questions, just ask me.
+@say: 我带你参观一下办公室。 | Let me show you around the office.
+@respond: 你到公司前台报到，接待员说："Good morning! Can I help you?" | Good morning. I'm Lily Lin, the new sales assistant. Today is my first day.
+@respond: 新同事伸出手说："Hi, I'm Kevin. Nice to meet you." | Hi Kevin, I'm Lily. Nice to meet you, too.
+@respond: 同事说："If you need anything, just let me know." | Thank you. That's very kind of you.
+@respond: 经理问："How's your first day going?" | Pretty good, thanks. Everyone is really friendly.
+@respond: 你叫对方 Mr. Carter，对方说："Please, call me Mike." | OK, Mike. And please call me Lily.
+@talk_topic: 我的自我介绍（像 Lily 第一天那样）
+@frame: Hi everyone, I'm ______. / My name is ______.
+@frame: I'm from ______, but I live in ______ now.
+@frame: I work at ______ as a ______.（还没工作：I'm looking for a job in ______.）
+@frame: I'm a little ______ today, but I'm also ______.
+@frame: In my free time, I like ______.
+@frame: Nice to meet you all!
+@talk_sample: Hi everyone, I'm Lily Lin. I'm from Hunan, but I live in Shenzhen now. I'm the new sales assistant at BrightWay. Today is my first day, so I'm a little nervous, but I'm also very excited. In my free time, I like cooking and watching movies. Nice to meet you all!
+
+@bank: arrive, nervous, assistant, show ... around, join, ready, worry, customer
+@fill: Don't ______. Everyone here is very friendly. | worry
+@fill: Most of our ______ are in the US. | customers
+@fill: The samples will ______ next Monday. | arrive | 样品下周一到
+@fill: I'm the new sales ______. | assistant
+@fill: Let me ______ you ______ the office. | show ... around
+@fill: We're so glad you're ______ our team! | joining
+@fill: Are you ______? The meeting starts in five minutes. | ready
+@fill: I always feel ______ before a job interview. | nervous
+@choose: 你在电话里想说「我是新来的助理」，哪句对？
+@opt: I new assistant.
+@opt: I'm the new assistant.
+@opt: I am new assistant person.
+@ans: B | 说「是什么」要有 am，职位前加 the。
+@choose: 美国同事对你说 "Just call me Mike."，他的意思是？
+@opt: 给我打个电话
+@opt: 叫我 Mike 就行
+@opt: 打电话给 Mike
+@ans: B | call 在这里是「称呼」。
+@choose: 前台想对客人说「请稍等」，最自然的是？
+@opt: Please wait me.
+@opt: Please wait a moment.
+@opt: Please waiting.
+@ans: B | 「稍等」固定说 wait a moment；等某人要说 wait for sb。
+@choose: 新经理 David Zhang 对你说 "Hi, I'm David."，你最好怎么称呼他？
+@opt: Manager Zhang
+@opt: Mr. David
+@opt: David
+@ans: C | 美国职场直接叫名；Mr. 后面要跟姓，不跟名。
+@fix: I very nervous today. | I'm very nervous today. | 形容词前要加 am。
+@fix: I am work at BrightWay. | I work at BrightWay. | 有动作 work 就不加 am。
+@fix: If you have questions, you can ask to me. | If you have any questions, you can ask me. | ask 后面直接跟人，不加 to。

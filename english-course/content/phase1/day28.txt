@@ -1,0 +1,155 @@
+@day: 28
+@week: 4
+@review: true
+@title_cn: 第四周复习 · 出差汇报
+@title_en: Week 4 Review — The Trip Report
+@scene: 回到深圳倒时差，在团队会议上做出差汇报
+@think_short: 「呢」：And you? / Where's…? / What if…?
+@goal: 用英文做一个 **1 分钟的出差汇报**：亮点、收获、下一步
+@goal: 「呢」的几种英文：And you? / Where's…? / What if…?
+@goal: 复习第四周：订票、机场、问路、酒店、餐厅、拜访客户
+
+@warmup: 终于见到你本人了！ | It's so good to finally meet you in person!
+@warmup: 结果超出了我们的预期。 | The results exceeded our expectations.
+@warmup: 感谢您的信任。 | Thank you for your trust.
+@warmup: （别人问「你不喝咖啡？」）对，不喝。 | No, I don't.
+@warmup: 这是我家乡的茶。 | It's tea from my hometown.
+@warmup: 谢谢你们的接待。 | Thank you for having us.
+
+@story_title: Episode 28 · Here Are the Highlights
+@story_intro: 从芝加哥回来的第一个周一，Lily 带着时差、纪念品和一肚子故事回到了办公室。David 让她在团队会上用英文做出差汇报。
+
+@p: On Monday, back in Shenzhen, Lily has terrible **jet lag**. She woke up at 3 a.m. and couldn't **fall asleep** again. But she's at her desk by nine, with **souvenirs** for everyone: Chicago chocolate. David has asked her to give a short **presentation** about the trip at the team meeting.
+@cn: 周一，回到深圳的 Lily 时差反应很严重。她凌晨 3 点就醒了，再也睡不着。不过 9 点她已经坐在工位上了，还给每个人都带了纪念品：芝加哥巧克力。David 让她在团队会上做一个简短的出差汇报。
+@w: jet lag | n. | ˈdʒet ˌlæg | 时差反应 | I have terrible jet lag. 我时差反应很严重。形容词 jet-lagged：I'm still jet-lagged. 我还在倒时差。
+@w: fall asleep | phr. | ˌfɔːl əˈsliːp | 睡着 | I couldn't fall asleep. 我睡不着。
+@w: souvenir | n. | ˌsuːvəˈnɪr | 纪念品 | souvenirs for the team 给团队带的纪念品。
+@w: presentation | n. | ˌpriːzenˈteɪʃn | 演示；汇报 | give a presentation 做汇报 / 演讲。
+
+@p: First, she finishes her **expense report**. She attaches all her [[receipts]]: the hotel, the Uber [[rides]] and the meals. Amy will **reimburse** her by Friday. "Did you keep the receipt for the [[steakhouse]] dinner?" Amy asks. "Sarah paid for that one," Lily smiles.
+@cn: 她先把报销单做完，附上了所有收据：酒店、网约车和餐费。Amy 周五之前会给她报销。「牛排馆那顿饭的收据你留了吗？」Amy 问。「那顿是 Sarah 请的。」Lily 笑着说。
+@w: expense report | n. | ɪkˈspens rɪˌpɔːrt | 报销单；费用报告 | submit an expense report 提交报销单。expense 是「开支、费用」。
+@w: reimburse | v. | ˌriːɪmˈbɜːrs | 报销；偿还 | The company will reimburse you. 公司会给你报销。
+
+@p: At ten, Lily stands in front of the team. "Here are the **highlights** of our trip," she begins. "One: we met over 80 **potential** customers at our [[booth]]. Two: HomeStar placed a [[reorder]] of 10,000 units. Three: they want samples of our new air fryer." Everyone **claps**.
+@cn: 十点，Lily 站在团队面前：「这是我们这次出差的几个亮点。第一，我们在展位上见了 80 多个潜在客户。第二，HomeStar 下了一万台的返单。第三，他们想要我们新款空气炸锅的样品。」大家都鼓起掌来。
+@w: highlight | n./v. | ˈhaɪlaɪt | 亮点；突出 | the highlights of the trip 这次出差的亮点。highlight the key points 突出重点。
+@w: potential | adj./n. | pəˈtenʃl | 潜在的；潜力 | potential customers 潜在客户。She has great potential. 她很有潜力。
+@w: clap | v. | klæp | 鼓掌 | Everyone claps. 大家鼓掌。
+
+@p: "What was your biggest surprise?" Emma asks. "Hmm… [[tipping]]," Lily laughs. "And the [[portions]]! I had a little **culture shock**. But **seriously**, my biggest **takeaway** is this: Americans are very [[direct]], but very friendly. If you're [[honest]] with them, they [[trust]] you."
+@cn: 「你最惊讶的是什么？」Emma 问。「嗯……小费，」Lily 笑了，「还有那个分量！有一点文化冲击。不过说真的，我最大的收获是：美国人很直接，但也很友好。只要你对他们诚实，他们就会信任你。」
+@w: culture shock | n. | ˈkʌltʃər ˌʃɑːk | 文化冲击 | I had a little culture shock. 我有点文化冲击。
+@w: seriously | adv. | ˈsɪriəsli | 说真的；认真地 | Seriously, … 说真的，……；Seriously? 真的假的？
+@w: takeaway | n. | ˈteɪkəweɪ | 收获；要点 | My biggest takeaway is… 我最大的收获是……（开会、培训后常用）
+
+@p: David stands up. "Thank you, Lily. A few months ago, she **was afraid of** the phone. Today, she gave a presentation in English." Lily smiles and opens her notebook to Day 1. It says: "I'm [[ready]]." Underneath, she writes: "I'm **getting there**."
+@cn: David 站起来：「谢谢你，Lily。几个月前，她还害怕接电话。今天，她用英文做了一次汇报。」Lily 笑了，她把笔记本翻到第一天，上面写着：「我准备好了。」在下面，她又写了一行：「我正在进步。」
+@w: be afraid of | phr. | ˌbiː əˈfreɪd əv | 害怕 | She was afraid of the phone. 她害怕接电话。I'm afraid… 也是委婉说「恐怕……」。
+@w: getting there | phr. | ˈgetɪŋ ˌðer | 快到了；在进步 | I'm getting there. 我在进步 / 快成了。（还没完全做到，但越来越接近）
+
+@culture_title: 出差回来，别忘了这两件事
+@culture: **报销**：美国公司出差一般先自己垫付，回来交 expense report，附上所有收据（receipts），财务会报销（reimburse）。很多公司有每日餐补（per diem）。出差时养成习惯：Can I get a receipt? 能给我一张收据吗？
+@culture: **展会后 48 小时内发跟进邮件**：给在展位上认识的每一位潜在客户发一封简短的邮件：It was great meeting you at the show. As promised, please find attached our catalog… 美国人很看重「说到做到」，展会上答应的事，回来马上做。
+
+@think_title: 「呢」：反问、找东西、假设……英文各有说法
+@think_intro: 「呢」是又一个中文特有的语气词。它可以表示**反问对方**（你呢？）、**找东西**（我的护照呢？）、**正在进行**（他在开会呢）、**假设**（要是……呢？）。
+@think_intro: 英文根据意思换说法：反问 → **And you? / What about you?**；找东西 → **Where's…?**；正在 → **be doing**；假设 → **What if…?**
+@think_intro: 本周复习：时间地点顺序、因为 / 所以、先 / 再、It / There、让、否定问句。表格最后两行是复习。
+@pair: 我挺好的，你呢？ | I'm fine, you ne? | I'm good. And you? / How about you? | 反问对方
+@pair: 我的护照呢？ | My passport ne? | Where's my passport? | 找东西 → Where's…?
+@pair: 他在开会呢。 | He in meeting ne. | He's in a meeting right now. | 「正……呢」→ 进行时
+@pair: 要是客户不同意呢？ | If customer not agree ne? | What if the customer says no? | 假设 → What if…?
+@pair: 我觉得挺好的，你觉得呢？ | I think good, you think ne? | I think it's pretty good. What do you think? | 问对方意见
+@pair: 那价格呢？ | Then price ne? | And what about the price? | 追问另一件事 → What about…?
+@pair: 复习：因为下雨，航班延误了。 | Because rain, so flight delay. | The flight was delayed because of the rain. | Day 23
+@pair: 复习：你不吃牛肉？——对，不吃。 | Yes, I don't. | No, I don't. | Day 27
+@think_tip: 「你呢？」→ **And you? / What about you?**；「……呢？」（在哪）→ **Where's…?**；「要是……呢？」→ **What if…?**；「正……呢」→ **be + doing**。
+
+@dlg_title: 汇报之后的问答 · What About You?
+@dlg_intro: 汇报结束，同事们七嘴八舌地问 Lily 问题。注意大家是怎么用 What about…? / What if…? / And you? 的。
+@line: Emma | **Great** presentation, Lily! So, what was the **best** part of the **trip**? | 汇报得太好了，Lily！这次出差最棒的是什么？
+@line: Lily | Meeting **Sarah** in **person**. And **you**? What was your **first** trip a**broad** like? | 见到 Sarah 本人。你呢？你第一次出国是什么样的？
+@line: Emma | Ha, I was **so lost** in **Beijing**! I couldn't even order **noodles**. | 哈，我在北京完全迷路了！连面条都不会点。
+@line: Tom | What a**bout** the **flight**? Was‿it de**layed**? | 航班呢？延误了吗？
+@line: Lily | Only the **first** one, because of the **rain**. But we made our con**nection**. | 只有第一段，因为下雨。不过我们赶上了转机。
+@line: Amy | And the **hotel**? Was‿it **OK**? | 那酒店呢？还行吗？
+@line: Lily | It was **nice**, but the **heater** didn't work the first **night**. It was **freezing**! | 挺好的，不过第一晚暖气坏了，冷死了！
+@line: Kevin | What‿if your phone **dies** again? Here, this‿is for **you**. A **power bank**. | 要是你手机又没电了呢？给，这个送你，一个充电宝。
+@line: Lily | Oh, **Kevin**! How **thoughtful**! Thank you. | 哦，Kevin！你想得真周到！谢谢。
+@line: Kevin | Now you'll **never** get lost a**gain**. | 这下你再也不会迷路了。
+@line: David | OK, **everyone**. What about the **HomeStar** samples? Lily, when can we **send** them? | 好了，各位。HomeStar 的样品呢？Lily，什么时候能寄出？
+@line: Lily | The factory says next **Wednesday**. I'll follow **up** to**day**. | 工厂说下周三。我今天就跟进。
+@line: David | **Great**. Let's get **back** to **work**! | 很好。大家回去干活吧！
+
+@pron_title: 发音大复习：四个「美音」关键
+@pron: **① 单词重音**（Day 6）：**PRE**-sen-ta-tion？不对！是 pre-sen-**TA**-tion。重音读重、读长、读高。
+@pron: **② 连读**（Day 8、13、16）：Here‿are the highlights‿of‿our trip. 词和词之间不要断开。
+@pron: **③ 弱读**（Day 10、21）：and、of、to、for、have been 读轻读快，像 `/ən/`、`/əv/`、`/tə/`。
+@pron: **④ 语调**（Day 12、26、27）：Yes/No 问句上扬 ↗，特殊疑问句下降 ↘，表达热情时音调起伏要大。
+@pron_drill: 综合练习（Lily 的汇报开场）：**Here** are the **highlights** of our **trip**. ｜ We **met** over **eighty** po**ten**tial **customers** at our **booth**. ｜ My **biggest takeaway** is **this**…
+
+@chunk: And you? / What about you? | 你呢？ | 回答完对方，把问题抛回去。
+@chunk: Where's my passport? | 我的护照呢？ | 找东西。
+@chunk: What if the customer says no? | 要是客户不同意呢？ | 讨论风险、做预案。
+@chunk: Here are the highlights of our trip. | 这是我们这次出差的亮点。 | 汇报开场。
+@chunk: My biggest takeaway is… | 我最大的收获是…… | 总结经验。
+@chunk: I'm still jet-lagged. | 我还在倒时差。 | 出差回来的寒暄。
+@chunk: I'm getting there. | 我在进步。/ 快成了。 | 别人问你学得怎么样时。
+@chunk: Let's get back to work! | 回去工作吧！ | 会议结束。
+
+@shadow: 复习日加长版：先跟读 Day 23（入境）和 Day 26（点餐）的对话，再跟读今天的对话。今天特别注意 What about…? 和 What if…? 的语调：都是特殊疑问，句尾下降 ↘。
+@say: 我在倒时差，凌晨三点就醒了。 | I'm jet-lagged. I woke up at 3 a.m.
+@say: 这是我们出差的几个亮点。 | Here are the highlights of our trip.
+@say: 我们在展位上见了 80 多个潜在客户。 | We met over 80 potential customers at our booth.
+@say: 我最大的收获是：对客户诚实，他们就会信任你。 | My biggest takeaway is: if you're honest with customers, they'll trust you.
+@say: 我觉得挺好的，你觉得呢？ | I think it's pretty good. What do you think?
+@say: 要是客户不同意呢？ | What if the customer says no?
+@say: 我的护照呢？ | Where's my passport?
+@say: 我还没完全学会，但我在进步。 | I'm not there yet, but I'm getting there.
+@respond: 同事问："How was your trip?" | It was amazing! Busy, but I learned a lot.
+@respond: 同事问："Are you still jet-lagged?" | A little. I woke up at 3 a.m. this morning.
+@respond: 同事说："I'm going to Chicago next month. Any tips?" | Bring a warm coat, and remember to tip about 20% at restaurants!
+@respond: 经理问："What was your biggest takeaway?" | Americans are direct but friendly. Honesty builds trust.
+@respond: 同事说："I went hiking this weekend. What about you?" | I stayed home and practiced English.
+@talk_topic: 做一个 1 分钟的出差（或旅行）汇报
+@frame: Here are the highlights of our trip to ______.
+@frame: First, ______.
+@frame: Second, ______.
+@frame: My biggest surprise was ______.
+@frame: My biggest takeaway is ______.
+@frame: Next, we need to ______.
+@talk_sample: Here are the highlights of our trip to Chicago. First, we met over eighty potential customers at the trade show. Second, HomeStar placed a reorder of ten thousand units, and they want samples of our new air fryer. My biggest surprise was the tipping culture, and the huge portions! My biggest takeaway is that Americans are direct but very friendly. If we're honest, they trust us. Next, we need to send the air fryer samples by next Wednesday.
+
+@bank: jet lag, highlight, potential, takeaway, reimburse, expense report, souvenir, presentation
+@fill: I have terrible ______. I can't sleep at night. | jet lag
+@fill: The ______ of the trip was meeting the client in person. | highlight
+@fill: We met 80 ______ customers at the trade show. | potential
+@fill: What's your biggest ______ from this training? | takeaway
+@fill: Please keep your receipts. Finance will ______ you. | reimburse
+@fill: Don't forget to submit your ______ by Friday. | expense report
+@fill: I bought some chocolate as ______ for the team. | souvenirs
+@fill: I have to give a ______ at the team meeting. | presentation
+@choose: 同事说完自己的计划，问你「你呢？」，英文是：
+@opt: You ne?
+@opt: And you? / What about you?
+@opt: How you?
+@ans: B | 反问对方用 And you? / What about you?
+@choose: 「我的手机呢？」
+@opt: My phone ne?
+@opt: Where's my phone?
+@opt: What my phone?
+@ans: B | 找东西 → Where's…?
+@choose: 「要是航班延误了呢？」
+@opt: If flight delay ne?
+@opt: What if the flight is delayed?
+@opt: How if the flight delay?
+@ans: B | 假设 → What if…?
+@choose: 复习：客户问 "You're not from Shanghai?"，你是深圳人：
+@opt: Yes, I'm not.
+@opt: No, I'm not. I'm from Shenzhen.
+@opt: Yes, Shenzhen.
+@ans: B | 事实是「不是」→ No, I'm not。
+@fix: I'm very jet lag. | I'm very jet-lagged. / I have bad jet lag. | jet lag 是名词，形容人用 jet-lagged。
+@fix: If the customer not agree, how? | What if the customer doesn't agree? | 「要是……呢」→ What if…?
+@fix: Because I was tired, so I went to bed early. | I was tired, so I went to bed early. | 复习 Day 23：because 和 so 只用一个。

@@ -1,0 +1,167 @@
+@day: 11
+@week: 2
+@title_cn: 客户询价
+@title_en: An Inquiry Comes In
+@scene: 收到美国客户的第一封询价邮件
+@think_short: 量词与不可数名词
+@goal: 读懂一封**外贸询价邮件**：数量、起订量、单价、包装、贴牌
+@goal: 掌握外贸核心词：MOQ、unit price、carton、OEM、quote
+@goal: 搞清**可数 / 不可数**：information、advice、feedback 为什么不能加 s
+
+@warmup: 感谢您昨天的来电。 | Thank you for your call yesterday.
+@warmup: 附件是我们的目录，请查收。 | Please find attached our catalog.
+@warmup: 有任何问题请随时联系我。 | Please don't hesitate to contact me.
+@warmup: 期待与您合作。 | I look forward to working with you.
+@warmup: 你能帮我看一下这封邮件吗？ | Could you take a look at this email for me?
+@warmup: 请坐。 | Please have a seat.
+
+@story_title: Episode 11 · The First Inquiry
+@story_intro: 周四早上，Lily 的收件箱里出现了一封标题带「Inquiry」的邮件——这是她经手的第一封真正的询价。
+
+@p: On Thursday morning, Lily finds a new email from Sarah. The subject is "**Inquiry**: K17 Kettles". Her heart beats faster. This is a real business **opportunity**! She opens it and reads it **carefully**.
+@cn: 周四早上，Lily 收到了 Sarah 的一封新邮件，标题是「询价：K17 水壶」。她的心跳加快了——这是一个真正的商机！她打开邮件，仔仔细细地读了起来。
+@w: inquiry | n. | ˈɪnkwəri | 询价；询问 | 外贸第一步：customer inquiry 客户询盘。Thank you for your inquiry. 感谢您的询价。（英式拼写 enquiry）
+@w: opportunity | n. | ˌɑːpərˈtuːnəti | 机会 | business opportunity 商机。Thank you for this opportunity. 感谢给我们这个机会。
+@w: carefully | adv. | ˈkerfəli | 仔细地 | Please read the contract carefully. 请仔细阅读合同。
+
+@p: "Hi Lily, thanks for the catalog. We'd like a price for the K17. We're thinking of a **trial order** of 2,000 **units**. What's your **MOQ**? Also, what's the **unit price** for 2,000 **pieces** and for 5,000 pieces?"
+@cn: 「嗨 Lily，谢谢你发来的目录。我们想要 K17 的报价。我们在考虑下一个 2,000 台的试单。你们的最小起订量是多少？另外，2,000 台和 5,000 台的单价分别是多少？」
+@w: trial order | n. | ˈtraɪəl ˌɔːrdər | 试单 | 新客户先下小单试试质量和合作：Let's start with a trial order. 我们先下个试单吧。
+@w: unit | n. | ˈjuːnɪt | 台；个；件（计数单位） | 2,000 units 两千台。家电、机器常用 unit，小件常用 piece。
+@w: MOQ | n. | ˌem oʊ ˈkjuː | 最小起订量 | = minimum order quantity。What's your MOQ? 你们的起订量是多少？
+@w: unit price | n. | ˌjuːnɪt ˈpraɪs | 单价 | unit price × quantity = total 单价 × 数量 = 总价。
+@w: piece | n. | piːs | 件；个；片 | 缩写 pcs：500 pcs。也用来给不可数名词计数：a piece of information / advice。
+
+@p: "We'd also like to put our own **logo** on the kettles. Can you **customize** the **packaging**? We need a **color box** for each kettle, with English **instructions** inside. Of course, they need a US **plug** and 120V **voltage**. Please also tell me how many units are in one **carton**, and the carton **weight**."
+@cn: 「我们还想在水壶上印我们自己的 logo。包装可以定制吗？每台水壶需要一个彩盒，里面放英文说明书。当然，要美规插头和 120V 电压。另外请告诉我一箱装几台，以及每箱的重量。」
+@w: logo | n. | ˈloʊgoʊ | 标志；商标图案 | print the customer's logo on the box 在盒子上印客户的 logo。
+@w: customize | v. | ˈkʌstəmaɪz | 定制 | Can you customize the color? 颜色能定制吗？customized packaging 定制包装。
+@w: packaging | n. | ˈpækɪdʒɪŋ | 包装 | 不可数。gift packaging 礼品包装。动词 pack 打包。
+@w: color box | n. | ˈkʌlər ˌbɑːks | 彩盒 | each unit in a color box 每台一个彩盒。还有 white box 白盒、brown box 牛皮纸盒。
+@w: instructions | n. | ɪnˈstrʌkʃnz | 说明书；指示 | 常用复数。instruction manual 使用说明书；Follow the instructions. 按说明操作。
+@w: plug | n./v. | plʌg | 插头；插上 | US plug 美规插头；plug it in 插上电源。
+@w: voltage | n. | ˈvoʊltɪdʒ | 电压 | 美国 120V，中国 220V。What's the voltage? 电压是多少？
+@w: carton | n. | ˈkɑːrtn | （外包装）纸箱 | 外贸里装货的大纸箱叫 carton（缩写 CTN）：6 units per carton 每箱 6 台。
+@w: weight | n. | weɪt | 重量 | gross weight（G.W.）毛重；net weight（N.W.）净重。动词 weigh 称重。
+
+@p: Lily doesn't understand everything, so she asks David. "What's an MOQ?" "**Minimum** order **quantity**. It's the smallest number a customer can order. For the K17, it's 1,000 units." "And can we put HomeStar's **brand** on our kettles?" "Sure. That's called **OEM**. We do it **all the time**."
+@cn: 有些内容 Lily 看不懂，就去问 David。「MOQ 是什么？」「最小起订量，就是客户最少要订多少。K17 是 1,000 台。」「那我们能把 HomeStar 的品牌印在我们的水壶上吗？」「当然，这叫 OEM（贴牌生产），我们经常做。」
+@w: minimum | n./adj. | ˈmɪnɪməm | 最小（的）；最低（的） | minimum order 最低订量。反义 maximum 最大。
+@w: quantity | n. | ˈkwɑːntəti | 数量 | large quantities 大批量。别和 quality（质量）搞混！
+@w: brand | n. | brænd | 品牌 | brand name 品牌名；our own brand 我们自己的品牌。
+@w: OEM | n. | ˌoʊ iː ˈem | 贴牌生产 | 用客户的品牌生产：We accept OEM orders. 我们接 OEM 订单。（ODM：我们设计，客户贴牌）
+@w: all the time | phr. | ˌɔːl ðə ˈtaɪm | 经常；一直 | We do it all the time. 我们经常做这个。
+
+@p: "This is a **serious** inquiry," David says. "She gave us quantities, packaging **requirements**, everything. Let's work on a **quote** tomorrow. But first, reply to her today: 'Thank you for your inquiry. We'll send you our quote **within** two days.' That's the **next step**."
+@cn: 「这是个有诚意的询价，」David 说，「数量、包装要求，她全都给了。我们明天一起做报价。不过今天先回复她：『感谢您的询价，我们会在两天内给您报价。』这就是下一步。」
+@w: serious | adj. | ˈsɪriəs | 认真的；有诚意的；严重的 | a serious buyer 真心想买的客户；a serious problem 严重的问题。
+@w: requirement | n. | rɪˈkwaɪərmənt | 要求；需求 | packaging requirements 包装要求；meet your requirements 满足您的要求。
+@w: quote | n./v. | kwoʊt | 报价（单）；报价 | send a quote 发报价单；Could you quote me a price? 能给我报个价吗？正式说法 quotation。
+@w: within | prep. | wɪˈðɪn | 在……以内 | within two days 两天之内；within budget 在预算以内。
+@w: next step | n. | ˌnekst ˈstep | 下一步 | What's the next step? 下一步做什么？（会议结尾常问）
+
+@culture_title: 外贸缩写速查（第一批）
+@culture: **MOQ** 最小起订量 ｜ **pcs** 件（pieces）｜ **CTN** 纸箱（carton）｜ **G.W. / N.W.** 毛重 / 净重 ｜ **OEM / ODM** 贴牌 / 设计 + 贴牌。
+@culture: **PO** 采购订单（purchase order，客户发给你）｜ **PI** 形式发票（proforma invoice，你发给客户）｜ **ETD / ETA** 预计离港 / 到港时间。
+@culture: 美国客户说 We're thinking of… / We're considering… 意思是「在考虑」，还没下决定；说 Please send us a quote ASAP 才说明真的着急。询价邮件 **24 小时内**一定要回复，哪怕只是说「我们两天内报价」。
+
+@think_title: 没有量词，但有「可数」和「不可数」
+@think_intro: 中文用量词（一台、两个、三件），名词本身不变。英文没有量词，但名词会变：**一个以上就加 -s**：one kettle → two kettles。
+@think_intro: 更麻烦的是**不可数名词**：中文能说「一个信息、两条建议」，英文的 information、advice、feedback、equipment、luggage 却**不能加 s，也不能直接用 a 或 many**。这几个词在商务英语里出现得极其频繁，一定要记住。
+@pair: 两台水壶 | two kettle | two kettles | 一个以上就加 s
+@pair: 两千台 | 2,000 unit | 2,000 units / 2,000 pcs | 外贸计数用 units / pcs / sets
+@pair: 每箱 6 台 | one carton six kettle | 6 units per carton | 「每」→ per
+@pair: 您需要多少台？ | How much kettles do you need? | How many units do you need? | 可数用 how many，不可数用 how much
+@pair: 我们需要一些信息。 | We need some informations. | We need some information. | information 不可数
+@pair: 给你一个建议。 | Give you an advice. | Here's some advice. / Here's a piece of advice. | advice 不可数
+@pair: 感谢你们的反馈。 | Thanks for your feedbacks. | Thanks for your feedback. | feedback 不可数
+@pair: 很多设备 | many equipments | a lot of equipment | equipment、luggage、furniture 都不可数
+@think_tip: 数量多于一 → 名词加 **-s**；information / advice / feedback / equipment / luggage 这几个「商务高频不可数词」→ **不加 s，用 some / a lot of / a piece of**；问「多少台」→ **How many units?**
+
+@dlg_title: 和经理商量询价 · She Wants a Price for 2,000 Units
+@dlg_intro: Lily 拿着打印出来的询价邮件去找 David，两人快速过了一遍客户的要求。
+@line: Lily | David, Sarah sent‿us‿an **inquiry**! | David，Sarah 给我们发询价了！
+@line: David | **Fantastic**! What does she **need**? | 太好了！她需要什么？
+@line: Lily | She wants‿a **price** for **two thousand** units‿of the **K17**. | 她要 K17 两千台的报价。
+@line: David | Two thousand? That's‿a **trial** order. It's‿a**bove** our **MOQ**, so it's **fine**. | 两千台？那是个试单。高于我们的起订量，没问题。
+@line: Lily | She also‿asked‿about **five thousand** units. | 她还问了五千台的价格。
+@line: David | **Good**. The **more** she orders, the **lower** the price. We'll give her **two** prices. | 很好。订得越多价格越低，我们给她两个价格。
+@line: Lily | And she wants her **own logo** on the **color box**. | 她还想在彩盒上印她们自己的 logo。
+@line: David | No **problem**. We do **OEM** all the **time**. Did she say‿anything‿about the **plug**? | 没问题，我们经常做 OEM。她提到插头的要求了吗？
+@line: Lily | Yes. A **US** plug, **one twenty** volts. | 提了，美规插头，120 伏。
+@line: David | **OK**. How much infor**mation** do we still **need**? | 好。我们还缺多少信息？
+@line: Lily | Not **much**. Just the **carton** size and **weight**. I'll‿ask **Tom**. | 不多了，就差箱规和重量。我去问 Tom。
+@line: David | **Great**. Let's send her‿a **quote** by **Friday**. | 很好。我们周五前给她发报价。
+@line: Lily | Got‿it. I'll **reply** to her to**day** and tell her it's **coming**. | 明白。我今天先回复她，告诉她报价马上就到。
+
+@pron_title: 复数 -s 的三种读音
+@pron: `/s/`：前面是 p、t、k、f 这类**清辅音**时：units `/ˈjuːnɪts/`、books、weeks、chefs。
+@pron: `/z/`：前面是元音或 b、d、g、l、m、n、v 这类**浊辅音**时：kettles `/ˈketlz/`、colors、plugs、cartons、days。中国学生最常把这个读成 s。
+@pron: `/ɪz/`：前面是 s、z、sh、ch、ge 这类「嘶嘶」音时，多出一个音节：pieces `/ˈpiːsɪz/`、boxes、prices、packages、changes。
+@pron: 动词第三人称的 -s（she wants、it comes）和 -es 也是同样的规律。
+@pron_drill: 分类朗读：/s/ units, weeks, chips ｜ /z/ kettles, plugs, cartons, colors ｜ /ɪz/ pieces, boxes, prices, packages　　句子：Two **thousand** **units** in **color boxes**.
+
+@chunk: Thank you for your inquiry. | 感谢您的询价。 | 回复询盘的第一句。
+@chunk: What's your MOQ? | 你们的起订量是多少？ | 客户常问；你也可以主动说 Our MOQ is 1,000 units.
+@chunk: How many units do you need? | 您需要多少台？ | 报价前一定要问清数量。
+@chunk: We'd like to start with a trial order. | 我们想先下个试单。 | 客户常说；表示还在试探阶段。
+@chunk: Can you customize the packaging? | 包装可以定制吗？ | 定制颜色、logo、包装都能用 customize。
+@chunk: How many units per carton? | 每箱装几台？ | 物流、报价都需要这个数据。
+@chunk: We'll send you our quote within two days. | 我们两天内给您报价。 | 收到询价后先给客户一个时间点。
+@chunk: The more you order, the lower the price. | 订得越多，价格越低。 | 引导客户加大订量。
+
+@shadow: 重点练「大数字」：two thousand units / five thousand units / one thousand units。thousand 的 th 要咬舌 `/θ/`，而且 thousand 后面**不加 s**（two thousand，不是 two thousands）。再练 David 那句 The more she orders, the lower the price. 两个 the 后面的词读重。
+@say: 感谢您的询价。 | Thank you for your inquiry.
+@say: 你们的最小起订量是多少？ | What's your MOQ? / What's your minimum order quantity?
+@say: 我们想先下一个两千台的试单。 | We'd like to start with a trial order of 2,000 units.
+@say: 我们可以把您的 logo 印在彩盒上。 | We can print your logo on the color box.
+@say: 每箱装 6 台。 | There are 6 units per carton.
+@say: 我们需要更多信息。 | We need more information.
+@say: 谢谢您的反馈。 | Thank you for your feedback.
+@say: 我们会在两天内给您报价。 | We'll send you our quote within two days.
+@respond: 客户问："What's your MOQ for the K17?"（1,000 台） | Our MOQ for the K17 is 1,000 units.
+@respond: 客户问："Can you put our logo on the product?" | Yes, of course. We accept OEM orders.
+@respond: 客户问："How many units are in one carton?"（4 台） | There are 4 units per carton.
+@respond: 客户问："What's the voltage?" | It's 120 volts, with a US plug.
+@respond: 客户发来询价，你需要时间算价格。 | Thank you for your inquiry. We'll send you our quote within two days.
+@talk_topic: 读完一封询价邮件，用英文向经理汇报
+@frame: We got an inquiry from ______.
+@frame: They're interested in ______.
+@frame: They'd like a price for ______ units.
+@frame: They need ______ (packaging / logo / plug…).
+@frame: They also asked about ______.
+@frame: The next step is ______.
+@talk_sample: We got an inquiry from Sarah at HomeStar. They're interested in our K17 kettle. They'd like a price for 2,000 units and 5,000 units. They need a color box with their own logo and a US plug. They also asked about our MOQ and the carton weight. The next step is to send them a quote by Friday.
+
+@bank: inquiry, unit price, MOQ, customize, carton, quantity, requirement, within
+@fill: Thank you for your ______. We'll get back to you soon. | inquiry
+@fill: The ______ is $12.50, so 1,000 units cost $12,500. | unit price
+@fill: Our ______ is 500 pieces. We can't accept smaller orders. | MOQ
+@fill: Can you ______ the color of the handle? | customize
+@fill: There are six units in one ______. | carton
+@fill: What ______ do you need? — About 3,000 units. | quantity
+@fill: Please tell us your packaging ______. | requirements
+@fill: We'll reply ______ 24 hours. | within
+@choose: 「我们需要一些信息。」
+@opt: We need some informations.
+@opt: We need some information.
+@opt: We need an information.
+@ans: B | information 不可数。
+@choose: 「您需要多少台？」
+@opt: How much units do you need?
+@opt: How many units do you need?
+@opt: How many unit you need?
+@ans: B | 可数名词用 how many + 复数。
+@choose: 「每箱 6 台」最地道的写法是：
+@opt: 6 units per carton
+@opt: 6 units one carton
+@opt: one carton 6 unit
+@ans: A | 「每」用 per。
+@choose: 客户邮件说 "We're thinking of a trial order."，意思是：
+@opt: 他们在考虑先下一个小批量的试单
+@opt: 他们要试用产品然后退货
+@opt: 他们要起诉你
+@ans: A | trial order = 试单；thinking of = 正在考虑。
+@fix: Thank you for your feedbacks. | Thank you for your feedback. | feedback 不可数。
+@fix: We need 2,000 piece kettle. | We need 2,000 kettles. / We need 2,000 units. | 数量 > 1 加 s，不用「量词 + 名词」。
+@fix: Can you give me some advices? | Can you give me some advice? | advice 不可数。

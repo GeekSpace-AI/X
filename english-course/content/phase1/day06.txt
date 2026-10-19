@@ -1,0 +1,171 @@
+@day: 6
+@week: 1
+@title_cn: 了解产品
+@title_en: Product Training
+@scene: 会议室，经理拿着样机给你做产品培训
+@think_short: 「要」：want / need / going to
+@goal: 用 5–6 句话**介绍一款产品**：材质、容量、颜色、功能、保修
+@goal: 分清「要」的几种英文：want、would like、need to、be going to、Don't…
+@goal: 认识美国人用的单位：磅、夸脱、英寸、华氏度
+
+@warmup: 我会做湘菜。 | I can cook Hunan food.
+@warmup: 明天会下雨。 | It's going to rain tomorrow.
+@warmup: 她很会谈判。 | She's good at negotiating.
+@warmup: 这顿我请。 | It's my treat. / This one's on me.
+@warmup: 你推荐什么？ | What do you recommend?
+@warmup: 周末愉快！——你也是！ | Have a nice weekend! — You too!
+
+@story_title: Episode 6 · Know Your Products
+@story_intro: 周一，David 给 Lily 做产品培训。桌上摆满了水壶、空气炸锅和料理机——客户会问的问题，她都得答得上来。
+
+@p: On Monday morning, David gives Lily **product** training. On the table, there are kettles, air fryers and **blenders**. "You need to know our products **inside out**," David says. "Customers will ask you a lot of questions."
+@cn: 周一早上，David 给 Lily 做产品培训。桌上摆着电水壶、空气炸锅和料理机。「你要对我们的产品了如指掌，」David 说，「客户会问你很多问题。」
+@w: product | n. | ˈprɑːdʌkt | 产品 | 重音在前：PRO-duct。new product 新品；product line 产品线。
+@w: blender | n. | ˈblendər | 搅拌机；料理机 | 做果昔、打豆浆用的那种。hand blender 手持搅拌棒。
+@w: inside out | phr. | ˌɪnsaɪd ˈaʊt | 彻底地；了如指掌 | know sth inside out 对……了如指掌。另一个意思：衣服穿反了 Your shirt is inside out.
+
+@p: He **picks up** a kettle. "This is our best-selling **model**, the K17. It's **made of** **stainless steel**, so it's strong and easy to clean. The **capacity** is 1.7 **liters**. And here's the most important **feature**: it **turns off** **automatically** when the water boils."
+@cn: 他拿起一个水壶：「这是我们卖得最好的型号，K17。不锈钢做的，结实又好清洗。容量 1.7 升。最重要的功能是：水开了它会自动断电。」
+@w: pick up | phr. | ˌpɪk ˈʌp | 拿起；接（人）；取（货） | pick up a kettle 拿起水壶；I'll pick you up at the airport. 我去机场接你；pick up the goods 提货。
+@w: model | n. | ˈmɑːdl | 型号；模特 | Which model are you interested in? 您对哪个型号感兴趣？model number 型号。
+@w: made of | phr. | ˈmeɪd əv | 由……制成 | It's made of stainless steel. 是不锈钢做的。注意 Made **in** China 是「在中国制造」。
+@w: stainless steel | n. | ˌsteɪnləs ˈstiːl | 不锈钢 | 家电最常见材质。其他材质：plastic 塑料，glass 玻璃，aluminum 铝。
+@w: capacity | n. | kəˈpæsəti | 容量；产能 | The capacity is 1.7 liters. 容量 1.7 升。工厂常说 production capacity 产能。
+@w: liter | n. | ˈliːtər | 升 | 美式拼写 liter，英式 litre。美国人量液体更常用 quart 夸脱（≈0.95 升）。
+@w: feature | n. | ˈfiːtʃər | 特点；功能 | key features 主要卖点。介绍产品：The main feature is… 最大的特点是……
+@w: turn off | phr. | ˌtɜːrn ˈɔːf | 关掉 | turn off the light 关灯，反义 turn on 打开。不说 open / close the light。
+@w: automatically | adv. | ˌɔːtəˈmætɪkli | 自动地 | It turns off automatically. 会自动断电。产品卖点 auto shut-off 自动断电。
+
+@p: Then he shows her an air fryer. "This one is new. It **comes in** two **sizes** and three colors. It's **light**, only nine **pounds**, and it uses 80% less **oil**. Americans love it. It's our **best-seller** on Amazon and very **popular** with young families."
+@cn: 接着他给她看一台空气炸锅：「这款是新品，有两个尺寸、三种颜色。很轻，只有 9 磅，用油少 80%。美国人特别喜欢，是我们在亚马逊上的爆款，在年轻家庭里很受欢迎。」
+@w: come in | phr. | ˈkʌm ɪn | （产品）有……（颜色 / 尺寸） | It comes in three colors. 有三种颜色。介绍产品必备句型！
+@w: size | n. | saɪz | 尺寸；大小 | What size do you need? 您需要多大尺寸？It comes in two sizes. 有两个尺寸。
+@w: light | adj. | laɪt | 轻的；浅色的 | light and easy to carry 轻便好拿；light gray 浅灰色。反义 heavy 重。
+@w: pound | n. | paʊnd | 磅；英镑 | 1 磅 ≈ 0.45 公斤。美国说体重、货重都用磅，缩写 lb：9 lbs ≈ 4 kg。
+@w: oil | n. | ɔɪl | 油 | use less oil 少用油；oil-free 无油。注意发音是 `/ɔɪl/`，不是「哦」。
+@w: best-seller | n. | ˌbestˈselər | 畅销品；爆款 | This is our best-seller. 这是我们的爆款。形容词 best-selling：our best-selling model。
+@w: popular | adj. | ˈpɑːpjələr | 受欢迎的 | It's very popular in the US. 在美国很受欢迎。be popular with sb 受某人欢迎。
+
+@p: "What about **quality**?" Lily asks. "Good question. All our products have a two-year **warranty**, and they're **certified** for the US market. **Safety** is a big deal there." Lily takes notes fast. "Do I need to **remember** all these numbers?" "Yes. But don't worry. Everything is in the **catalog**."
+@cn: 「质量怎么样？」Lily 问。「问得好。我们所有产品都保修两年，而且都通过了美国市场的认证。在美国，安全是头等大事。」Lily 飞快地记笔记：「这些数字我都要记住吗？」「要。不过别担心，产品目录里都有。」
+@w: quality | n. | ˈkwɑːləti | 质量 | high quality 高质量；quality control（QC）质检。客户最关心的词之一。
+@w: warranty | n. | ˈwɔːrənti | 保修（期） | a two-year warranty 两年保修；It's still under warranty. 还在保修期内。
+@w: certified | adj. | ˈsɜːrtɪfaɪd | 经过认证的 | UL / ETL certified 通过美国 UL / ETL 安全认证。证书叫 certificate。
+@w: safety | n. | ˈseɪfti | 安全 | safety first 安全第一；safety standards 安全标准。形容词 safe。
+@w: remember | v. | rɪˈmembər | 记住；记得 | Remember to call the customer back. 记得给客户回电话。（remember to do 记得去做）
+@w: catalog | n. | ˈkætəlɔːg | 产品目录 | Could you send me your catalog? 能发一份产品目录给我吗？（客户询价第一句）
+
+@p: At the end, David gives her a **quiz**. "A customer needs a kettle for an office. It must be big and **easy to use**. Which one do you recommend?" "The K17. It's big, and it has only one **button**." "**Perfect**!" Lily **passes** her first quiz.
+@cn: 最后，David 给她出了个小测验：「有个客户要给办公室买水壶，要大、要好用。你推荐哪一款？」「K17。它容量大，而且只有一个按钮。」「完美！」Lily 通过了她的第一次小测。
+@w: quiz | n. | kwɪz | 小测验 | pop quiz 突击小测。比 test / exam 轻松得多。
+@w: easy to use | phr. | ˌiːzi tə ˈjuːz | 好用的；容易操作的 | It's easy to use. 很好用。（产品卖点）类似：easy to clean 好清洗。
+@w: button | n. | ˈbʌtn | 按钮；纽扣 | press the button 按按钮；one-button design 一键设计。tt 读成鼻音，不读「巴腾」。
+@w: perfect | adj. | ˈpɜːrfɪkt | 完美的；太好了 | Perfect! 太好了！（回应别人做得好）It's perfect for small kitchens. 非常适合小厨房。
+@w: pass | v. | pæs | 通过（考试）；递 | pass the test 通过测试（反义 fail）；Could you pass me the salt? 把盐递给我好吗？
+
+@culture_title: 美国人不用「公斤」和「升」
+@culture: 美国是少数几个还在用英制单位的国家。做美国市场，产品参数最好同时写两套：1.7 L（1.8 qt）、4 kg（9 lbs）。
+@culture: 常用换算：1 inch（英寸）= 2.54 厘米；1 foot（英尺）≈ 30 厘米；1 pound（磅，lb）≈ 0.45 公斤；1 quart（夸脱，qt）≈ 0.95 升；1 ounce（盎司，oz）≈ 28 克。
+@culture: 温度用华氏度 °F：水开 100°C = 212°F；空气炸锅常用 400°F ≈ 200°C。另外美国电压是 **120V / 60Hz**（中国是 220V / 50Hz），出口电器一定要用美规插头和电压。
+
+@think_title: 「要」：想要、需要、必须、即将……英文各不相同
+@think_intro: 「要」可能是中文里最「万能」的一个字：想要、需要、必须、将要、点单……英文没有一个词能全包。
+@think_intro: 职场最重要的两点：① 点东西、提要求时，别直接说 I want（听起来很冲），用 **I'd like / Can I get / Could I have**；② 「你要（必须）做某事」，用 **need to / have to**，不是 want。
+@pair: 我要一杯咖啡。 | I want coffee. / Give me coffee. | I'd like a coffee, please. / Can I get a coffee? | 点单、提要求，用 I'd like 更礼貌
+@pair: 你要记住这些数字。 | You want to remember these numbers. | You need to remember these numbers. | 「要」= 必须 → need to / have to
+@pair: 客户要一个大点的水壶。 | Customer want big kettle. | The customer wants a bigger kettle. | 想要 → want，第三人称加 s
+@pair: 要下雨了。 | Want to rain. | It's going to rain. | 「要……了」= 即将 → be going to
+@pair: 我下周要去工厂。 | I want go to factory next week. | I'm going to the factory next week. | 打算好的事 → be going to / be doing
+@pair: 这个要多少钱？ | This want how much money? | How much is this? | 问价固定说 How much is…?
+@pair: 你要不要试试？ | You want or not want try? | Would you like to try it? | 「要不要」→ Would you like to…?
+@pair: 不要碰！ | Don't want touch! | Don't touch it! | 「不要」做某事 → Don't + 动词
+@think_tip: 「要」= 想要 → **want / would like**；= 需要、必须 → **need to / have to**；= 即将、打算 → **be going to**；「不要做」→ **Don't + 动词**。
+
+@dlg_title: 角色扮演：介绍水壶 · Role-play: Selling the K17
+@dlg_intro: 培训结束后，Emma 主动扮演美国客户，让 Lily 练习介绍产品。这段对话就是你以后接待客户的「标准答案」。
+@line: Emma | OK, I'm the **customer**. Hi, I'm looking for an **electric kettle**. | 好，我来演客户。你好，我想找一款电热水壶。
+@line: Lily | **Sure**. How‿about **this** one? It's‿our **best-seller**, the **K17**. | 好的。这款怎么样？这是我们的爆款，K17。
+@line: Emma | What's‿it **made**‿of? | 它是什么做的？
+@line: Lily | It's made‿of **stainless steel**. It's **strong** and **easy** to clean. | 不锈钢的，结实又好清洗。
+@line: Emma | How **big** is‿it? | 它有多大？
+@line: Lily | The ca**pacity** is **one point seven** liters. That's‿about one point **eight quarts**. | 容量 1.7 升，大概 1.8 夸脱。
+@line: Emma | **Nice**, you know **quarts**! Does‿it turn **off** automatically? | 不错，你还知道夸脱！它会自动断电吗？
+@line: Lily | Yes, it **does**. It turns‿off when the water **boils**. | 会的，水开了就会自动断电。
+@line: Emma | What **colors** does‿it come‿in? | 有哪些颜色？
+@line: Lily | It comes‿in **silver** and **black**. | 有银色和黑色。
+@line: Emma | And the **warranty**? | 保修呢？
+@line: Lily | **Two** years. And it's **certified** for the **US** market. | 两年。而且通过了美国市场的认证。
+@line: Emma | **Great** job! You sound like‿a **real** salesperson! | 太棒了！你听起来就像个真正的销售！
+@line: Lily | **Really**? I still need **more** practice. | 真的吗？我还需要多练练。
+
+@pron_title: 单词重音：重音放错，老外就听不懂
+@pron: 英语单词有一个音节要读得**更重、更长、音调更高**，其他音节轻轻带过。中文每个字都一样重，所以我们说英语容易「平均用力」，老外反而听不懂。
+@pron: 今天的词：**PRO**duct、pro**DUC**tion、ca**PA**city、**QUAL**ity、**WAR**ranty、**CAT**alog、auto**MA**tically、re**MEM**ber、**POP**ular。
+@pron: 有些词重音一换，意思就变：**PRE**sent（礼物 / 现在）vs. pre**SENT**（展示）；**RE**cord（记录，名词）vs. re**CORD**（录制，动词）。
+@pron: 练习方法：读的时候用手在桌上「拍」一下重音节，拍的那一下声音最响。
+@pron_drill: 拍着读：**PRO**duct – pro**DUC**tion ｜ **COM**pany ｜ ca**PA**city ｜ **CAT**alog ｜ recom**MEND**　　句子：This **PRO**duct is very **POP**ular.
+
+@chunk: It's made of stainless steel. | 它是不锈钢做的。 | 介绍材质。
+@chunk: It comes in three colors / two sizes. | 有三种颜色 / 两个尺寸。 | 介绍规格的万能句。
+@chunk: It turns off automatically. | 它会自动断电。 | 介绍安全功能。
+@chunk: This is our best-seller. | 这是我们的爆款。 | 推荐产品的开场白。
+@chunk: It has a two-year warranty. | 保修两年。 | 打消客户的质量顾虑。
+@chunk: It's easy to use / easy to clean. | 好用 / 好清洗。 | 最常用的产品卖点表达。
+@chunk: I'd like a coffee, please. / Can I get a coffee? | 我要一杯咖啡。 | 点单时比 I want 礼貌得多。
+@chunk: You need to know our products inside out. | 你要对产品了如指掌。 | 「要」= 必须，用 need to。
+
+@shadow: 用 Lily 的角色跟读，重点是数字和单位：one point seven liters / one point eight quarts。小数点读 point，1.7 读 one point seven。然后把 K17 换成你身边的一件东西（手机、水杯），按同样的问题自问自答一遍。
+@say: 这是我们最畅销的型号。 | This is our best-selling model.
+@say: 它是不锈钢做的。 | It's made of stainless steel.
+@say: 它有黑白两种颜色。 | It comes in black and white.
+@say: 水开了它会自动断电。 | It turns off automatically when the water boils.
+@say: 我们所有产品都保修两年。 | All our products have a two-year warranty.
+@say: 我要一杯茶，谢谢。 | I'd like a cup of tea, please.
+@say: 你要记住这些数字。 | You need to remember these numbers.
+@say: 你要不要试试？ | Would you like to try it?
+@respond: 客户问："What's it made of?"（不锈钢） | It's made of stainless steel.
+@respond: 客户问："Does it come in other colors?"（还有白色和灰色） | Yes, it also comes in white and gray.
+@respond: 客户问："How big is it?"（1.7 升） | The capacity is 1.7 liters. That's about 1.8 quarts.
+@respond: 客户问："Is it safe?" | Yes. It turns off automatically, and it's certified for the US market.
+@respond: 咖啡店店员问："What can I get for you?" | Can I get a latte, please?
+@talk_topic: 介绍一件你熟悉的产品（可以是你们公司的产品，也可以是你的手机、水杯、电饭锅）
+@frame: This is ______. It's one of our best-sellers / my favorite ______.
+@frame: It's made of ______.
+@frame: It comes in ______ colors / sizes.
+@frame: The best feature is ______.
+@frame: It's easy to use. You just ______.
+@frame: I recommend it because ______.
+@talk_sample: This is our K17 electric kettle. It's one of our best-sellers. It's made of stainless steel, so it's strong and easy to clean. It comes in two colors, silver and black. The best feature is safety: it turns off automatically when the water boils. It's easy to use. You just press one button. I recommend it because it's simple, safe and good quality.
+
+@bank: made of, come in, feature, warranty, capacity, popular, turn off, catalog
+@fill: This kettle is ______ glass. | made of
+@fill: The air fryer ______ three colors. | comes in
+@fill: Don't forget to ______ the lights when you leave. | turn off
+@fill: What's the ______ of this kettle? — 1.7 liters. | capacity
+@fill: Could you send me your latest ______? | catalog
+@fill: The most important ______ of this model is auto shut-off. | feature
+@fill: It's still under ______, so the repair is free. | warranty
+@fill: This model is very ______ with young people. | popular
+@choose: 在咖啡店点单，最礼貌自然的是：
+@opt: I want a coffee.
+@opt: Give me a coffee.
+@opt: Can I get a coffee, please?
+@ans: C | 点单用 Can I get… / I'd like…
+@choose: 经理说「你要把这些数字记住」：
+@opt: You want to remember these numbers.
+@opt: You need to remember these numbers.
+@opt: You will remember these numbers.
+@ans: B | 「要」= 必须，用 need to。
+@choose: 「把灯打开。」
+@opt: Open the light.
+@opt: Turn on the light.
+@opt: Make the light.
+@ans: B | 电器开关用 turn on / turn off。
+@choose: 介绍产品「有三个尺寸」：
+@opt: It has three sizes come.
+@opt: It comes in three sizes.
+@opt: It is three sizes.
+@ans: B | 产品「有……颜色 / 尺寸」= comes in。
+@fix: This kettle is make of stainless steel. | This kettle is made of stainless steel. | be made of，用过去分词 made。
+@fix: Please close the light. | Please turn off the light. | 关灯是 turn off。
+@fix: How much money this one want? | How much is this one? | 问价格固定说 How much is…?

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>{{ phase.title }}</title>
+<link rel="stylesheet" href="style.css">
+<style>@page { @bottom-left { content: "{{ footer }}"; } }</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="tag">BUSINESS ENGLISH · 90 DAYS</div>
+  <h1>{{ phase.title }}</h1>
+  <div class="sub">{{ phase.subtitle }}</div>
+  <div class="en-title">{{ phase.title_en }}</div>
+  <div class="bar"></div>
+  <ul>
+    {% for b in phase.bullets %}<li>{{ b }}</li>{% endfor %}
+  </ul>
+  <div class="big-num">{{ phase.range }}</div>
+  <div class="foot">中文思维学商务英语 · 每天 2 小时 · 按天执行</div>
+</div>
+
+<section>
+  <h1 class="chapter">本阶段怎么学<span class="en-sub">How to Use This Book</span></h1>
+  <div class="lead">
+    {% for p in phase.howto %}<p>{{ p | md }}</p>{% endfor %}
+  </div>
+  <h2 class="sec"><span class="n">⏱</span>每天 2 小时的固定流程</h2>
+  <table class="grid">
+    <tr><th>环节</th><th>时间</th><th>具体怎么做</th></tr>
+    {% for r in phase.routine %}<tr><td class="c">{{ r[0] }}</td><td class="c">{{ r[1] }}</td><td>{{ r[2] | md }}</td></tr>{% endfor %}
+  </table>
+  <h2 class="sec"><span class="n">🔊</span>没有音频怎么跟读？</h2>
+  <ul class="dots">{% for a in phase.audio %}<li>{{ a | md }}</li>{% endfor %}</ul>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">本剧人物<span class="en-sub">Meet the Cast</span></h1>
+  <p class="lead">{{ phase.cast_intro | md }}</p>
+  <div class="cast">
+    {% for c in phase.cast %}
+    <div class="card"><div class="ct">{{ c[0] }}</div><div class="cs">{{ c[1] }}</div><div>{{ c[2] | md }}</div></div>
+    {% endfor %}
+  </div>
+  <h2 class="sec"><span class="n">📈</span>第一阶段结束时，你应该能做到</h2>
+  <ul class="dots">{% for g in phase.outcomes %}<li>{{ g | md }}</li>{% endfor %}</ul>
+</section>
+
+<section class="pagebreak">
+  <h1 class="chapter">目录<span class="en-sub">Contents</span></h1>
+  <table class="toc">
+    {% set ns = namespace(wk=0) %}
+    {% for d in days %}
+      {% if d.week != ns.wk %}{% set ns.wk = d.week %}
+      <tr class="wk"><td colspan="3">Week {{ d.week }} · {{ d.week_name }}</td></tr>
+      {% endif %}
+      <tr><td class="d">Day {{ d.day }}</td><td>{{ d.title_cn }}　<span class="muted en">{{ d.title_en }}</span>　<span class="muted" style="font-size:8.3pt">｜{{ d.think_short }}</span></td><td class="pg">{{ pages.get('DAY %02d' % d.day, '') }}</td></tr>
+    {% endfor %}
+    <tr class="wk"><td colspan="3">附录</td></tr>
+    <tr><td class="d">附录</td><td>本阶段词汇总表（按字母排序，标注出现在第几天）</td><td class="pg">{{ pages.get('INDEX', '') }}</td></tr>
+  </table>
+</section>
+
+{% for d in days %}
+{% include "day.html.j2" %}
+{% endfor %}
+
+<section class="pagebreak">
+  <h1 class="chapter">INDEX · 词汇总表<span class="en-sub">{{ index | length }} words &amp; phrases</span></h1>
+  <p class="muted">按字母排序；右侧 D 数字 = 出现在第几天的短剧里，回到那一天看完整语境和使用场景。</p>
+  <div class="index">
+    {% set ns2 = namespace(letter='') %}
+    {% for w in index %}
+      {% set L = w.sort_key[0] | upper %}
+      {% if L != ns2.letter %}{% set ns2.letter = L %}<span class="letter">{{ L }}</span>{% endif %}
+      <div class="it"><b>{{ w.word }}</b> {{ w.meaning_plain }} <span class="d">D{{ w.day }}</span></div>
+    {% endfor %}
+  </div>
+</section>
+
+</body>
+</html>

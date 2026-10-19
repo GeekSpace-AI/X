@@ -1,0 +1,174 @@
+@day: 29
+@week: 5
+@review: true
+@title_cn: 阶段总复习 · 转正考核
+@title_en: Phase 1 Review — The Probation Review
+@scene: 经理和你做试用期考核：优点、待改进、下阶段目标
+@think_short: 28 个中文思维点总复习
+@goal: 一口气复习**第一阶段全部 28 个「中文思维 → 英文」对照点**
+@goal: 学会在考核中**谈优点、听反馈、定目标**
+@goal: 用英文做一个「我的 30 天」学习总结，并和 Day 1 的录音对比
+
+@warmup: 我在倒时差。 | I'm still jet-lagged.
+@warmup: 这是我们出差的几个亮点。 | Here are the highlights of our trip.
+@warmup: 我最大的收获是…… | My biggest takeaway is…
+@warmup: 要是客户不同意呢？ | What if the customer says no?
+@warmup: 我挺好的，你呢？ | I'm good. And you?
+@warmup: 我在进步。 | I'm getting there.
+
+@story_title: Episode 29 · Starting Next Month…
+@story_intro: 三月底，Lily 迎来了试用期考核。这是决定她能不能转正的一天。（故事里的 29 集，是 Lily 入职五个月里的 29 个片段。）
+
+@p: At the end of March, Lily has her **probation** review with David. It's a big day. If it goes well, she'll become a **permanent** employee. She's nervous, but much less than on her first day.
+@cn: 三月底，Lily 和 David 进行试用期考核。这是重要的一天：如果顺利，她就能转为正式员工。她有点紧张，但比第一天上班时好多了。
+@w: probation | n. | proʊˈbeɪʃn | 试用期 | probation period 试用期；pass probation 通过试用期（转正）。
+@w: permanent | adj. | ˈpɜːrmənənt | 正式的；长期的；永久的 | permanent employee 正式员工。
+
+@p: "Let's start with your **strengths**," David says. "You're [[organized]], you [[double-check]] everything, and customers [[trust]] you. Sarah says you're the most **responsive** assistant she's ever worked with."
+@cn: 「我们先说说你的优点，」David 说，「你做事有条理，什么都会再核对一遍，客户也信任你。Sarah 说你是她合作过的回复最及时的助理。」
+@w: strength | n. | streŋkθ | 优点；长处；力量 | What are your strengths? 你的优点是什么？（面试必问）
+@w: responsive | adj. | rɪˈspɑːnsɪv | 反应快的；回复及时的 | She's very responsive. 她回复很及时。（外贸人最好的评价之一）
+
+@p: "Now, **areas for improvement**. Your English is much better, but you're still a bit **shy** in meetings. Speak up more. Your ideas are good." Lily nods. "I know. I want to be more **fluent** and more [[confident]]."
+@cn: 「再说说需要改进的地方。你的英语进步很大，但开会时还是有点害羞。多发言，你的想法都很好。」Lily 点点头：「我知道。我想说得更流利、更自信。」
+@w: area for improvement | phr. | ˌeriə fər ɪmˈpruːvmənt | 需要改进的地方 | 美国职场说「缺点」的委婉方式，比 weakness 更积极。
+@w: shy | adj. | ʃaɪ | 害羞的 | Don't be shy! 别害羞！
+@w: fluent | adj. | ˈfluːənt | 流利的 | fluent in English 英语流利。
+
+@p: "Here's my **decision**," David says. "You [[passed]] your probation. Starting next month, you'll handle HomeStar **independently**." Lily can't believe it. "Thank you so much, David. I won't let you down."
+@cn: 「我的决定是，」David 说，「你通过了试用期。从下个月开始，你独立负责 HomeStar。」Lily 简直不敢相信：「太谢谢你了，David。我不会让你失望的。」
+@w: decision | n. | dɪˈsɪʒn | 决定 | make a decision 做决定。（Day 2 decide 的名词）
+@w: independently | adv. | ˌɪndɪˈpendəntli | 独立地 | work independently 独立工作。
+
+@p: "I know. Now, let's **set** some **goals** for the next three months: run your own meetings, write monthly reports, and **deal with** customer **complaints**." Lily opens a new page in her notebook and writes: "Phase 2 starts now."
+@cn: 「我知道。现在我们来定几个接下来三个月的目标：自己主持会议、写月度报告、处理客户投诉。」Lily 翻开笔记本新的一页，写下：「第二阶段，现在开始。」
+@w: set a goal | phr. | ˌset ə ˈgoʊl | 设定目标 | Let's set some goals. 我们定几个目标吧。
+@w: deal with | phr. | ˈdiːl wɪð | 处理；应对 | deal with complaints 处理投诉。I'll deal with it. 我来处理。
+@w: complaint | n. | kəmˈpleɪnt | 投诉；抱怨 | customer complaint 客户投诉。（第二阶段的重点内容！）
+
+@culture_title: 美国职场怎么给「反馈」
+@culture: 美国经理给反馈常用「**三明治**」结构：先说优点（strengths）→ 再说需要改进的地方（areas for improvement）→ 最后鼓励。他们很少直接说 weakness（缺点），而是说 area for improvement 或 something to work on。
+@culture: 听到批评，不要辩解，也不要一个劲道歉。最专业的回应是：**Thank you for the feedback. I'll work on it.** 谢谢你的反馈，我会改进的。
+@culture: 主动要反馈是加分项：**Do you have any feedback for me?** / What can I do better? 美国经理很欣赏主动寻求成长的员工。
+
+@think_title: 第一阶段 28 个中文思维点总复习
+@think_intro: 这一个月，我们从中文出发，学了 28 个「中文这么说 → 英文这么说」的对照点。下面每一行对应一天。**遮住右边两列**，看着中文说英文，说不出来的就翻回那一天再看一遍。
+@pair: Day 1　我很忙。 | I very busy. | I'm busy. | 形容词前要有 be
+@pair: Day 2　我（今天）没吃早饭。 | I don't eat breakfast. | I didn't eat breakfast. | 「没」→ didn't
+@pair: Day 3　我在开会。 | I'm opening a meeting. | I'm in a meeting. | 「在」的四种说法
+@pair: Day 4　我饿了。 | I was hungry. | I'm hungry. | 「了」≠ 过去式
+@pair: Day 5　我会做饭。 | I will cook. | I can cook. | 「会」= can
+@pair: Day 6　我要一杯咖啡。 | Give me coffee. | Can I get a coffee, please? | 「要」→ 礼貌点单
+@pair: Day 7　我去过美国。 | I went to US before. | I've been to the US. | 「过」→ have been
+@pair: Day 8　桌上有本书。 | Table has a book. | There's a book on the table. | 某地有 → There is
+@pair: Day 9　给我打电话。 | Give me phone. | Call me. | 不需要「给」
+@pair: Day 10　请帮我看一下。 | Please help me look. | Could you take a look? | 礼貌靠问句
+@pair: Day 11　一些信息 | some informations | some information | 不可数名词
+@pair: Day 12　价格含运费吗？ | Price include shipping? | Does the price include shipping? | 助手词提前
+@pair: Day 13　我们开始吧。 | We start ba. | Let's get started. | 「吧」→ Let's
+@pair: Day 14　我看一下。 | I look one down. | Let me take a look. | 「一下」→ take a look
+@pair: Day 15　十万 | ten wan | a hundred thousand | 英文没有「万」
+@pair: Day 16　您介意等一下吗？ | You mind wait? | Would you mind waiting? | 礼貌阶梯
+@pair: Day 17　我们比他们贵。 | We than them expensive. | We're more expensive than them. | 比较级
+@pair: Day 18　如果明天下雨，就…… | If tomorrow will rain, so… | If it rains tomorrow, … | if 后用现在时，不加 so
+@pair: Day 19　他十点才来。 | He ten o'clock just come. | He didn't come until ten. | 「才」→ not … until
+@pair: Day 20　你昨天发的样品 | your yesterday sent samples | the samples you sent yesterday | 长修饰语放后面
+@pair: Day 21　货发出去了。 | The goods have sent. | The goods have been shipped. | 被动语态
+@pair: Day 22　我们明天在上海开会。 | We tomorrow in Shanghai meeting. | We have a meeting in Shanghai tomorrow. | 时间地点放后
+@pair: Day 23　因为太贵，所以…… | Because…, so… | It was too expensive, so… | 二选一
+@pair: Day 24　先直走，再左转。 | First straight, again left. | Go straight, then turn left. | 「再」= then
+@pair: Day 25　好冷！ | So cold! | It's so cold! | 补上主语 It
+@pair: Day 26　让我来付。 | Give me pay. | Let me pay. | 让 → let / have / ask
+@pair: Day 27　你不喝咖啡？——对。 | Yes, I don't. | No, I don't. | 只看事实
+@pair: Day 28　你呢？ | You ne? | And you? / What about you? | 「呢」→ And you?
+@think_tip: 这 28 个点，就是中国人说英语最常见的 28 个「坑」。**每周把这张表从头到尾说一遍**，坚持一个月，你会发现自己说英语时，已经不需要「先想中文再翻译」了。
+
+@dlg_title: 试用期考核 · Do You Have Any Feedback for Me?
+@dlg_intro: 这是 Lily 和 David 考核谈话的一部分。注意 Lily 是怎么谈自己的成绩、怎么接受反馈的。
+@line: David | So, Lily, how do you **feel** about the past few **months**? | Lily，你觉得过去这几个月怎么样？
+@line: Lily | **Honestly**, it's been the **best** experience of my **life**. I've learned so **much**. | 说实话，这是我人生中最好的经历。我学到了太多东西。
+@line: David | What are you most **proud** of? | 你最自豪的是什么？
+@line: Lily | The **HomeStar** order. From the first **phone call** to the re**order**. | HomeStar 的订单。从第一个电话到返单。
+@line: David | Me **too**. And what's still **hard** for you? | 我也是。那现在对你来说还有什么难的？
+@line: Lily | **Meetings**. When people talk **fast**, I need time to **think**, and then the topic **changes**. | 开会。大家说得快的时候，我需要时间想，可话题已经换了。
+@line: David | That's **normal**. Here's‿a **tip**: prepare one or two **points** before every meeting. | 很正常。给你个建议：每次开会前准备一两个要点。
+@line: Lily | That's‿a **great** idea. Do you have‿any **other** feedback for me? | 好主意。你对我还有别的建议吗？
+@line: David | **Yes**. Don't say "**sorry**" so much. You apologize even when it's **not** your **fault**. | 有。别老说「对不起」。不是你的错，你也道歉。
+@line: Lily | Oh! **Sorry**— I mean, thank you for the **feedback**. | 哦！对不起——我是说，谢谢你的反馈。
+@line: David | Ha! See? You're **getting** there. | 哈！看到没？你在进步。
+@line: Lily | I'll **work** on‿it. What are my **goals** for the next three **months**? | 我会改的。接下来三个月我的目标是什么？
+@line: David | Run your own **meetings**, write monthly re**ports**, and handle customer com**plaints**. | 自己主持会议、写月度报告、处理客户投诉。
+@line: Lily | **Complaints**? That sounds **scary**. | 投诉？听起来好可怕。
+@line: David | Don't **worry**. I'll **teach** you. | 别担心，我会教你的。
+
+@pron_title: 第一阶段发音自检表
+@pron: **th** 咬舌了吗？think, three, this ｜ **v** 咬唇了吗？**w** 没碰牙吗？very well
+@pron: **l / r** 分清了吗？light, right ｜ **/æ/** 嘴张够大了吗？bad, traffic
+@pron: **词尾辅音**没加「额」吗？good, book ｜ **-s / -ed** 读对了吗？boxes `/ɪz/`, asked `/t/`
+@pron: **单词重音**对吗？PRO-duct, ca-PA-ci-ty ｜ **小词弱读**了吗？a cup of tea ｜ **连读**了吗？hold‿on ｜ **问句语调**对吗？Yes/No ↗，Wh- ↘
+@pron_drill: 今日任务：用 Day 1 的「1 分钟自我介绍」再录一遍，和 Day 1 的录音放在一起听。对照上面的自检表，给自己打分。
+
+@chunk: Thank you for the feedback. I'll work on it. | 谢谢你的反馈，我会改进的。 | 接受批评的最佳回应。
+@chunk: Do you have any feedback for me? | 你对我有什么建议吗？ | 主动要反馈，经理会很欣赏。
+@chunk: What are you most proud of? | 你最自豪的是什么？ | 考核、面试常问。
+@chunk: I've learned so much. | 我学到了很多。 | 总结时常说。
+@chunk: It's been the best experience of my life. | 这是我人生中最好的经历。 | 真诚表达感受。
+@chunk: Here's a tip: … | 给你个建议：…… | 给别人建议。
+@chunk: It's not your fault. | 不是你的错。 | 安慰别人；fault 是「过错」。
+@chunk: I won't let you down. | 我不会让你失望的。 | 接受重任时的承诺。
+
+@shadow: 今天跟读 Lily 的考核对话，然后做一件事：翻回 Day 1，再跟读一遍那段茶水间对话。比较一下：现在的你，读 Day 1 的对话是不是轻松多了？这就是 30 天的进步。
+@say: 我在 BrightWay 上班，负责美国市场。 | I work at BrightWay. I'm in charge of the US market.
+@say: 我还没吃午饭。 | I haven't had lunch yet.
+@say: 请稍等，我帮您转接。 | Hold on a second, please. I'll put you through.
+@say: 附件是我们的报价单，30 天内有效。 | Please find attached our quote. It's valid for 30 days.
+@say: 只要定金下周到，我们 20 号就能开工。 | As long as the deposit arrives next week, we can start production on the 20th.
+@say: 货已经发出了，预计 1 月 2 日到港。 | The goods have been shipped. The ETA is January 2nd.
+@say: 去会展中心怎么走？ | How do I get to the convention center?
+@say: 谢谢你的反馈，我会改进的。 | Thank you for the feedback. I'll work on it.
+@respond: 你接起电话，对方找 David，可他在开会。 | I'm sorry, he's in a meeting right now. Can I take a message?
+@respond: 客户问："Can you do better on the price?" | If you increase the quantity, we can lower the price.
+@respond: 客户问："When will the goods arrive?" | The ETA in Los Angeles is January 2nd.
+@respond: 移民官问："What's the purpose of your visit?" | Business. I'm here for a trade show.
+@respond: 经理问："Do you have any questions for me?" | Yes. What are my goals for the next three months?
+@talk_topic: 我的第一阶段总结（My First 30 Days of English）
+@frame: Thirty days ago, I couldn't ______.
+@frame: Now I can ______.
+@frame: The most useful thing I learned is ______.
+@frame: My biggest challenge is still ______.
+@frame: I'm most proud of ______.
+@frame: In the next 30 days, I want to ______.
+@talk_sample: Thirty days ago, I couldn't introduce myself in English. Now I can answer the phone, write simple emails and talk about prices. The most useful thing I learned is the difference between "don't" and "didn't". My biggest challenge is still listening, because native speakers talk fast. I'm most proud of my one-minute recordings. When I listen to my Day 1 recording, I can hear the progress. In the next 30 days, I want to speak up in meetings and write longer emails.
+
+@bank: available, attached, MOQ, lead time, deposit, on schedule, reservation, exceed
+@fill: Is David ______? I need to talk to him. | available
+@fill: Please find ______ our latest catalog. | attached
+@fill: Our ______ is 1,000 units. | MOQ
+@fill: What's your ______? — About 35 days. | lead time
+@fill: Please pay a 30% ______ to start production. | deposit
+@fill: Don't worry. Production is ______. | on schedule
+@fill: I'd like to make a ______ for two nights. | reservation
+@fill: The sales ______ our expectations. | exceeded
+@choose: 「我（今天）没吃早饭。」
+@opt: I don't eat breakfast.
+@opt: I didn't eat breakfast.
+@opt: I no eat breakfast.
+@ans: B | Day 2：「没」+ 过去的事 → didn't。
+@choose: 在咖啡店点一杯咖啡，最礼貌的是：
+@opt: I want coffee.
+@opt: Can I get a coffee, please?
+@opt: Give me coffee.
+@ans: B | Day 6：点单用 Can I get…?
+@choose: 「十万」：
+@opt: ten thousand
+@opt: a hundred thousand
+@opt: one million
+@ans: B | Day 15：10 万 = 100 thousand。
+@choose: 「你不喝咖啡？」——「对，不喝。」
+@opt: Yes, I don't.
+@opt: No, I don't.
+@opt: Yes.
+@ans: B | Day 27：只看事实。
+@fix: I very busy today. | I'm very busy today. | Day 1：形容词前要有 am。
+@fix: Please send me some informations. | Please send me some information. | Day 11：information 不可数。
+@fix: If you will pay tomorrow, so we start production. | If you pay tomorrow, we'll start production. | Day 18：if 后用现在时，不加 so。

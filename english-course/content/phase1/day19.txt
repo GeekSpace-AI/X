@@ -1,0 +1,169 @@
+@day: 19
+@week: 3
+@title_cn: 生产与交期
+@title_en: At the Factory
+@scene: 去东莞工厂参观，了解生产进度，遇到延误
+@think_short: 「就」和「才」
+@goal: 说清楚**交期和生产进度**：lead time、on schedule、delay、catch up
+@goal: 学会**报告坏消息**：问题 + 影响 + 解决办法
+@goal: 「就」和「才」的英文：as soon as / not … until / only
+
+@warmup: 请确认细节。 | Please confirm the details.
+@warmup: 我注意到订单上的颜色写的是白色。 | I noticed that the color on the PO says white.
+@warmup: 眼真尖！ | Good catch!
+@warmup: 只要收到定金，我们就能开工。 | As long as we receive the deposit, we can start production.
+@warmup: 如果明天下雨，我们就不去了。 | If it rains tomorrow, we won't go.
+@warmup: 我们不会让您失望的。 | We won't let you down.
+
+@story_title: Episode 19 · On Schedule… Almost
+@story_intro: 定金到账，生产开始！Lily 第一次走进工厂车间。一切顺利——直到陈厂长的电话响起。
+
+@p: On Monday, Amy shares good news: HomeStar's deposit has arrived. Production can start! On Wednesday, David takes Lily on a **tour** of the factory in Dongguan. Mr. Chen meets them at the **gate** and gives them **earplugs**. "It's **loud** in the **workshop**," he says.
+@cn: 周一，Amy 带来好消息：HomeStar 的定金到账了，可以开工了！周三，David 带 Lily 去东莞参观工厂。陈厂长在大门口迎接他们，还给了他们耳塞：「车间里很吵。」
+@w: tour | n./v. | tʊr | 参观；游览 | factory tour 参观工厂；take sb on a tour 带某人参观。
+@w: gate | n. | geɪt | 大门；登机口 | at the gate 在大门口。机场的 gate 是「登机口」。
+@w: earplugs | n. | ˈɪrplʌgz | 耳塞 | wear earplugs 戴耳塞。（plug 是 Day 11 学过的「插头」）
+@w: loud | adj. | laʊd | 大声的；吵的 | It's loud in here. 这里很吵。Could you speak louder? 能大声点吗？
+@w: workshop | n. | ˈwɜːrkʃɑːp | 车间；工作坊 | production workshop 生产车间。也指「研讨会、工作坊」。
+
+@p: Inside, **hundreds of** **workers** stand along the **assembly line**. Big **machines** **press** steel into kettle bodies. Workers **assemble** the **parts**, and **inspectors** test every kettle. "This is where your K17s will be made," Mr. Chen says proudly.
+@cn: 车间里，几百名工人沿着流水线站着。大机器把钢板冲压成壶身，工人们组装零件，质检员逐一测试每一台水壶。「你们的 K17 就是在这里生产的。」陈厂长自豪地说。
+@w: hundreds of | phr. | ˈhʌndrədz əv | 数以百计的 | hundreds of workers 好几百名工人。这里 hundred 要加 s；thousands of 数以千计。
+@w: worker | n. | ˈwɜːrkər | 工人 | factory worker 工厂工人。hard worker 工作很努力的人。
+@w: assembly line | n. | əˈsembli ˌlaɪn | 装配线；流水线 | work on the assembly line 在流水线上工作。
+@w: machine | n. | məˈʃiːn | 机器 | 重音在后：ma-CHINE。washing machine 洗衣机。
+@w: press | v. | pres | 冲压；按；压 | press steel 冲压钢板；press the button 按按钮。
+@w: assemble | v. | əˈsembl | 组装 | assemble the parts 组装零件。名词 assembly 装配。
+@w: part | n. | pɑːrt | 零件；部分 | spare parts 备件；part of the plan 计划的一部分。
+@w: inspector | n. | ɪnˈspektər | 检验员；质检员 | QC inspector 质检员。
+
+@p: "What's the **lead time**?" Lily asks. "Thirty-five days," Mr. Chen explains. "There are three **stages**. The raw materials arrive this Friday. Production takes about 25 days. For **inspection** and packing, we **estimate** five days. Right now, we're **on schedule**."
+@cn: 「交期是多久？」Lily 问。「35 天。」陈厂长解释，「分三个阶段：原材料本周五到；生产大约 25 天；检验和包装我们估计要 5 天。目前进度正常。」
+@w: lead time | n. | ˈliːd ˌtaɪm | 交期；生产周期 | What's your lead time? 你们交期多久？（外贸高频！lead 读 `/liːd/`）
+@w: stage | n. | steɪdʒ | 阶段；舞台 | at this stage 在这个阶段；the final stage 最后阶段。
+@w: inspection | n. | ɪnˈspekʃn | 检验；验货 | pre-shipment inspection 出货前验货；third-party inspection 第三方验货。
+@w: estimate | v./n. | ˈestɪmeɪt | 估计 | We estimate five days. 我们估计要五天。名词读 `/ˈestɪmət/`：a rough estimate 粗略估计。
+@w: on schedule | phr. | ˌɑːn ˈskedʒuːl | 按计划；进度正常 | We're on schedule. 进度正常。提前 ahead of schedule；落后 behind schedule。
+
+@p: Then his phone rings, and his face changes. "Bad news. The color boxes will be three days late. It's **peak season**, and our box supplier is too busy." Lily looks **worried**. "Will that **delay** the shipment? We can't **miss** the **deadline**."
+@cn: 这时他的电话响了，脸色一变：「坏消息。彩盒要晚三天。现在是旺季，我们的纸盒供应商忙不过来。」Lily 一脸担心：「会耽误出货吗？我们不能错过截止日期啊。」
+@w: peak season | n. | ˈpiːk ˌsiːzn | 旺季 | 外贸旺季一般在下半年（圣诞节前）。淡季 low season / off-season。
+@w: worried | adj. | ˈwɜːrid | 担心的 | I'm worried about the delivery. 我担心交货。（worry 是动词，worried 是形容词）
+@w: delay | v./n. | dɪˈleɪ | 延误；推迟 | The shipment is delayed. 货物延误了。Sorry for the delay. 抱歉耽误了。
+@w: miss | v. | mɪs | 错过；想念 | miss the deadline 错过截止日期；miss the flight 误机。也是「想念」：I miss you.
+@w: deadline | n. | ˈdedlaɪn | 截止日期 | meet the deadline 按时完成。The deadline is Friday. 周五截止。
+
+@p: "Don't worry. We'll **work overtime** and **catch up** next week," Mr. Chen says. "The goods will be ready **in time**. I **guarantee** it." On the way back, David says, "Tell Sarah about the boxes today. Never **hide** problems from customers. **Bad news** doesn't get better with time."
+@cn: 「别担心，我们下周加班把进度赶回来。」陈厂长说，「货一定会及时准备好，我保证。」回去的路上，David 说：「今天就把纸盒的事告诉 Sarah。永远不要对客户隐瞒问题。坏消息不会因为拖着就变好。」
+@w: work overtime | phr. | ˌwɜːrk ˈoʊvərtaɪm | 加班 | The workers will work overtime this weekend. 工人们这周末加班。
+@w: catch up | phr. | ˌkætʃ ˈʌp | 赶上（进度）；叙旧 | catch up on work 赶工。朋友之间 Let's catch up! 找时间聚聚！
+@w: in time | phr. | ɪn ˈtaɪm | 及时；来得及 | in time for Christmas 赶在圣诞节之前。on time 是「准时」（按约定时间点），in time 是「来得及」。
+@w: guarantee | v./n. | ˌgærənˈtiː | 保证 | I guarantee it. 我保证。money-back guarantee 不满意退款。重音在最后。
+@w: hide | v. | haɪd | 隐藏；隐瞒 | Don't hide problems. 别隐瞒问题。过去式 hid。
+@w: bad news | n. | ˌbæd ˈnuːz | 坏消息 | news 不可数：The bad news is… 坏消息是…… I have some bad news. 我有个坏消息。
+
+@culture_title: 坏消息要早说，还要带着方案说
+@culture: 很多供应商遇到问题，习惯先瞒着，自己偷偷解决，等到瞒不住了才说。美国客户最讨厌这样——他们也要向自己的老板、门店交代。**越早说，越有信任**。
+@culture: 报告坏消息的美式结构：**问题 + 影响 + 解决办法 + 新时间**。I have some bad news. The boxes will be three days late. It won't affect the shipping date, because we'll work overtime. We're still on schedule for December 15th.
+@culture: 两个要提前告诉美国客户的「中国特色」：① **春节**（Chinese New Year）工厂会停工 2–4 周，节前节后交期都会变长；② 下半年是**旺季**（peak season），原料、纸箱、船期都紧张，订单要早下。
+
+@think_title: 「就」和「才」：一个嫌早，一个嫌晚
+@think_intro: 「就」和「才」是一对反义词：「就」表示**早、快、容易**（他八点就来了）；「才」表示**晚、慢、难或少**（他十点才来）。这层语气英文没有专门的词，要换个说法。
+@think_intro: 常用对应：「一……就……」→ **as soon as**；「……才……」（晚）→ **not … until**；「才」（少）→ **only**；「就这些」→ **That's all**；「马上就」→ **right away**。
+@pair: 我一到工厂就给你打电话。 | I one arrive factory, just call you. | I'll call you as soon as I get to the factory. | 「一……就」→ as soon as
+@pair: 他十点才来。 | He ten o'clock just come. | He didn't come until ten. | 「才」（晚）→ not … until
+@pair: 我们下周就能出货。 | We next week just can ship. | We can ship as early as next week. | 「就」（早）→ as early as
+@pair: 才用了三天就坏了。 | Only three days just broken. | It broke after only three days. | 「才」（少）→ only
+@pair: 她昨天才知道。 | She yesterday just know. | She only found out yesterday. | 「才知道」→ only found out
+@pair: 我马上就来。 | I immediately just come. | I'll be right there. | 「马上就到」→ right there
+@pair: 就差一点了。 | Just short a little. | We're almost there. / We're almost done. | 「快好了」→ almost
+@pair: 就这些。 | Just these. | That's all. / That's it. | 说完、点完单时
+@think_tip: 「一 A 就 B」→ **as soon as A, B**；「到 X 才……」→ **not … until X**；「才（只有）」→ **only**；「就这些」→ **That's all.**
+
+@dlg_title: 向客户报告坏消息 · I Have Some Good News and Some Bad News
+@dlg_intro: 按照 David 的建议，Lily 当天就给 Sarah 打了电话。注意她报告坏消息的顺序：问题 → 影响 → 解决办法。
+@line: Lily | Hi Sarah, it's **Lily**. Do you have‿a few **minutes**? | 嗨 Sarah，我是 Lily。您有几分钟时间吗？
+@line: Sarah | **Sure**. Is‿everything **OK**? | 有啊，一切都还好吗？
+@line: Lily | **Mostly**. I have some **good** news and some **bad** news. | 基本还好。我有一个好消息和一个坏消息。
+@line: Sarah | Give me the **bad** news first. | 先说坏消息吧。
+@line: Lily | Our **box** supplier is **three** days late, because‿it's **peak** season. | 我们的纸盒供应商要晚三天，因为现在是旺季。
+@line: Sarah | Hmm. Will that de**lay** the **shipment**? | 嗯，会耽误出货吗？
+@line: Lily | **No**. The factory will work **overtime** to catch **up**. We're still on **schedule** for De**cember fifteenth**. | 不会。工厂会加班赶进度，我们仍然按计划 12 月 15 号出货。
+@line: Sarah | OK, **good**. And the **good** news? | 好，那就好。那好消息呢？
+@line: Lily | We **visited** the factory today. Pro**duction** starts on **Friday**, and the **quality** looks **great**. | 我们今天去了工厂。周五开始生产，质量看起来很棒。
+@line: Sarah | Thanks for telling me **early**, Lily. I really ap**preciate** that. | 谢谢你这么早告诉我，Lily，我真的很感激。
+@line: Lily | Of **course**. I'll send you **photos** as **soon** as production **starts**. | 应该的。一开工我就给您发照片。
+@line: Sarah | **Perfect**. Keep me **posted**. | 太好了，有进展随时告诉我。
+@line: Lily | Will **do**! | 一定！
+
+@pron_title: 美式 t 的「浊化」：water 读成「哇的」
+@pron: 美国人说话时，**两个元音之间的 t**（或 t 后面跟着轻音节）会读成一个很快的、轻轻弹一下的 d 音，叫做「闪音」（flap t）。
+@pron: 例子：better → bedder，water → wadder，matter → madder，later → lader，city、thirty、meeting、computer。
+@pron: 跨词也一样：a lot of → a lodda，get it → geddit，what about → whadabout，put it on → pudidon。
+@pron: 这是「美音」最明显的特征之一。学会它，你一开口就有美式味道，也更容易听懂美剧。
+@pron_drill: 练习：better ｜ water ｜ matter ｜ later ｜ thirty ｜ meeting ｜ a lot of ｜ get it ｜ what about　　句子：It's a **lot** of **water**. ｜ **Bad** news **doesn't** get **better**.
+
+@chunk: What's the lead time? | 交期多久？ | 下单前客户一定会问。
+@chunk: We're on schedule. | 进度正常。 | 让客户放心的一句话。
+@chunk: I have some good news and some bad news. | 我有一个好消息和一个坏消息。 | 报告坏消息前的缓冲。
+@chunk: Sorry for the delay. | 抱歉耽误了。 | 延误、回复晚了都能用。
+@chunk: We'll work overtime to catch up. | 我们会加班赶进度。 | 说明解决办法。
+@chunk: The goods will be ready in time. | 货会及时准备好。 | 承诺不会耽误。
+@chunk: I'll send you photos as soon as production starts. | 一开工我就给您发照片。 | 主动更新进度。
+@chunk: Thanks for telling me early. | 谢谢你早点告诉我。 | 客户对坦诚的回应。
+
+@shadow: 重点跟读 Lily 报告坏消息的三句话：Our box supplier is three days late. / The factory will work overtime to catch up. / We're still on schedule for December fifteenth. 注意 schedule 美式读 `/ˈskedʒuːl/`（不是英式的 shed-yool）。
+@say: 你们的交期是多久？ | What's your lead time?
+@say: 我们的生产进度正常。 | Production is on schedule.
+@say: 我一到工厂就给你打电话。 | I'll call you as soon as I get to the factory.
+@say: 他十点才到。 | He didn't arrive until ten.
+@say: 这个水壶才用了三天就坏了。 | This kettle broke after only three days.
+@say: 因为是旺季，彩盒会晚三天。 | Because it's peak season, the color boxes will be three days late.
+@say: 我们会加班赶上进度。 | We'll work overtime to catch up.
+@say: 就这些，谢谢。 | That's all, thanks.
+@respond: 客户问："What's your lead time for 3,000 units?"（35 天） | It's about 35 days.
+@respond: 客户问："Are we still on schedule?" | Yes, we're still on schedule for December 15th.
+@respond: 客户问："Can you ship earlier?"（最早 12 月 10 日） | We can ship as early as December 10th.
+@respond: 经理问："When will you send the photos?"（一开工就发） | As soon as production starts.
+@respond: 你要告诉客户彩盒延误的坏消息。 | I'm sorry, but I have some bad news. The color boxes will be three days late. But don't worry, we'll catch up.
+@talk_topic: 向客户汇报生产进度（包括一个小问题）
+@frame: I'd like to give you an update on your order.
+@frame: Production started on ______. / will start on ______.
+@frame: The lead time is about ______.
+@frame: Right now, we're ______ (on schedule / a little behind).
+@frame: There's one small problem: ______. But ______.
+@frame: I'll send you ______ as soon as ______.
+@talk_sample: I'd like to give you an update on your order. Production will start this Friday. The lead time is about thirty-five days. Right now, we're on schedule. There's one small problem: the color boxes will be three days late, because it's peak season. But the factory will work overtime to catch up, so the goods will be ready in time. I'll send you photos as soon as production starts.
+
+@bank: lead time, on schedule, delay, deadline, catch up, guarantee, peak season, inspection
+@fill: Our normal ______ is 30 to 35 days. | lead time
+@fill: Don't worry. Everything is ______. | on schedule
+@fill: Sorry for the ______. The truck broke down. | delay
+@fill: The ______ for the report is Friday at 5 p.m. | deadline
+@fill: We're two days behind, but we'll ______ next week. | catch up
+@fill: October to December is ______ for Christmas products. | peak season
+@fill: The third-party ______ is on December 10th. | inspection
+@fill: We ______ the quality. If there's a problem, we'll replace it. | guarantee
+@choose: 「他十点才来。」
+@opt: He just came at ten.
+@opt: He didn't come until ten.
+@opt: He came before ten.
+@ans: B | 「才」（晚）= not … until。
+@choose: 「我一到就给你发消息。」
+@opt: I'll text you as soon as I arrive.
+@opt: I one arrive, text you.
+@opt: I arrive then just text you.
+@ans: A | 「一……就」= as soon as。
+@choose: 「我们会赶在圣诞节前完成（来得及）。」
+@opt: We'll finish on time for Christmas.
+@opt: We'll finish in time for Christmas.
+@opt: We'll finish at time Christmas.
+@ans: B | 「来得及」用 in time。
+@choose: 生产出了问题，最好的做法是：
+@opt: 先不说，等解决了再说
+@opt: 当天告诉客户，同时给出解决方案
+@opt: 等客户问了再说
+@ans: B | 坏消息早说，并且带着方案说。
+@fix: Sorry for the late. The boxes are delayed. | Sorry for the delay. The boxes are late. | 「抱歉耽误了」= Sorry for the delay。
+@fix: I will call you when I one arrive. | I'll call you as soon as I arrive. | 「一……就」= as soon as。
+@fix: The shipment is delay. | The shipment is delayed. | 「被延误」要用 delayed。

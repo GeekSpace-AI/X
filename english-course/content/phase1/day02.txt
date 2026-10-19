@@ -1,0 +1,175 @@
+@day: 2
+@week: 1
+@title_cn: 早晨日常
+@title_en: My Morning Routine
+@scene: 上班路上、地铁、公司茶水间
+@think_short: 「不」「没」「还没」「没有」
+@goal: 用 6 句话说清楚**自己每天早上的安排**
+@goal: 彻底分清「不 / 没 / 还没 / 没有」：don't、didn't、haven't…yet、don't have
+@goal: 用 usually / always / often / sometimes / never 说习惯
+
+@warmup: 我有点紧张。 | I'm a little nervous.
+@warmup: 叫我 David 就行。 | Just call me David.
+@warmup: 有需要随时跟我说。 | If you need anything, just let me know.
+@warmup: 我带你参观一下办公室。 | Let me show you around the office.
+@warmup: 你第一天过得怎么样？ | How's your first day going?
+@warmup: 你人真好。（谢谢你的帮忙） | That's very kind of you.
+
+@story_title: Episode 2 · I Didn't Eat Breakfast
+@story_intro: 上班第二天，Lily 就差点迟到。她平时的早晨是什么样的？今天又出了什么状况？
+
+@p: Lily **usually** **gets up** at 7:00. Her **alarm** goes off at 6:50, but she **always** stays in bed for ten more minutes. She lives **far** from the office, so her **commute** is long. She **takes** the **subway**, and the trip takes about an hour.
+@cn: Lily 平时 7 点起床。她的闹钟 6 点 50 响，但她总要在床上再赖十分钟。她住得离公司很远，所以通勤时间很长。她坐地铁，路上大约要一个小时。
+@w: usually | adv. | ˈjuːʒuəli | 通常；一般 | 说平时的习惯，放在动词前：I usually get up at seven. 我一般七点起。注意和 be 动词一起时放后面：I'm usually busy on Mondays.
+@w: get up | phr. | ˌget ˈʌp | 起床 | get up 是「从床上起来」；wake up 是「醒来」。I woke up at 6, but I didn't get up until 7. 我 6 点就醒了，7 点才起。
+@w: alarm | n. | əˈlɑːrm | 闹钟；警报 | My alarm goes off at 6:50. 闹钟 6:50 响。set an alarm 定闹钟；fire alarm 火警。
+@w: always | adv. | ˈɔːlweɪz | 总是；一直 | 频率最高（100%）。He's always late. 他总迟到。抱怨时常用 always。
+@w: far | adj./adv. | fɑːr | 远 | live far from the office 住得离公司远。问距离：How far is it? 有多远？
+@w: commute | n./v. | kəˈmjuːt | 通勤（上下班路程） | How long is your commute? 你通勤要多久？美国职场闲聊的高频话题。
+@w: subway | n. | ˈsʌbweɪ | 地铁 | 美国说 subway，英国说 underground / tube。乘地铁：take the subway。
+@w: take | v. | teɪk | ① 乘坐 ② 花（时间） | ① take the subway / a taxi / a bus 坐地铁/出租/公交 ② It takes about an hour. 要花一个小时左右。
+
+@p: The subway is always **crowded** in the morning, so Lily **often** stands all the way. She **sometimes** listens to English **podcasts** **on the way**. She **never** drives to work. **Traffic** in Shenzhen is **terrible**, and she doesn't have a car.
+@cn: 早上的地铁总是很挤，所以 Lily 经常一路站着。她有时会在路上听英语播客。她从来不开车上班——深圳的交通太糟糕了，而且她也没有车。
+@w: crowded | adj. | ˈkraʊdɪd | 拥挤的 | The subway was so crowded! 地铁太挤了！形容展会、餐厅人多也用它。
+@w: often | adv. | ˈɔːfn | 经常 | 频率约 70%。美国人 t 一般不发音，读「奥-芬」。How often...? 多久一次？
+@w: sometimes | adv. | ˈsʌmtaɪmz | 有时候 | 频率约 40%，可放句首：Sometimes I work from home. 有时我在家办公。
+@w: podcast | n. | ˈpɑːdkæst | 播客（音频节目） | 美国人通勤时最爱听。listen to a podcast 听播客；学英语的好工具。
+@w: on the way | phr. | ˌɑːn ðə ˈweɪ | 在路上；顺路 | I'm on the way! 我在路上了！（等人时超常用）I'll buy coffee on the way. 我顺路买咖啡。
+@w: never | adv. | ˈnevər | 从不 | 频率 0%。I never drive to work. 我从不开车上班。never 本身就是否定，不用再加 don't。
+@w: traffic | n. | ˈtræfɪk | 交通；车流 | Traffic is terrible. 路上特别堵。迟到理由：I got stuck in traffic. 我堵在路上了。
+@w: terrible | adj. | ˈterəbl | 糟糕的；可怕的 | 比 bad 程度更深：The weather is terrible. 天气糟透了。I feel terrible. 我很难受（或很内疚）。
+
+@p: But this morning was **different**. Lily **stayed up** late last night, and she didn't hear her alarm. She got up at 7:40! She didn't eat breakfast. She didn't **even** have time to do her hair. She **rushed** to the **station** and **caught** the 8:05 train.
+@cn: 但今天早上不一样。Lily 昨晚熬夜了，没听见闹钟，7 点 40 才起床！她没吃早饭，连头发都没来得及弄。她冲到地铁站，赶上了 8 点 05 分那班车。
+@w: different | adj. | ˈdɪfrənt | 不同的 | A is different from B. A 和 B 不一样。客户问区别：What's the difference? 区别是什么？
+@w: stay up | phr. | ˌsteɪ ˈʌp | 熬夜；不睡 | I stayed up late last night. 我昨晚熬夜了。stay up all night 通宵。
+@w: even | adv. | ˈiːvn | 甚至；连……都 | She didn't even say hello. 她连招呼都没打。用来加强语气。
+@w: rush | v./n. | rʌʃ | 赶；匆忙 | I rushed to the station. 我冲去车站。No rush. 不着急（回复别人的常用语）。rush hour 高峰期。
+@w: station | n. | ˈsteɪʃn | 站（地铁/火车） | subway station 地铁站，train station 火车站。Which station? 哪一站？
+@w: catch | v. | kætʃ | 赶上（车）；抓住 | catch the train 赶上火车（反义 miss the train 错过）。也可以说「听清」：Sorry, I didn't catch that. 抱歉没听清。
+
+@p: She got to the office at 8:58, just **on time**. She was **tired** and **hungry**. Emma was in the **break room** with a cup of coffee. "Rough morning?" she asked. "Yes. I didn't eat breakfast," Lily said. "Oh no! Here, have a bagel. I always **bring** an **extra** one."
+@cn: 她 8 点 58 分到了公司——刚好没迟到。她又累又饿。Emma 正端着一杯咖啡在茶水间。「早上不顺啊？」她问。「是啊，我没吃早饭。」Lily 说。「哎呀！来，吃个贝果吧，我总会多带一个。」
+@w: on time | phr. | ˌɑːn ˈtaɪm | 准时 | be on time 准时到。外贸常用：deliver on time 准时交货。
+@w: tired | adj. | ˈtaɪərd | 累的；疲倦的 | I'm so tired. 我好累。tired of sth 是「厌倦了」：I'm tired of waiting. 我等烦了。
+@w: hungry | adj. | ˈhʌŋgri | 饿的 | I'm hungry. 我饿了。非常饿：I'm starving!
+@w: break room | n. | ˈbreɪk ˌruːm | 茶水间；休息室 | 美国公司的「茶水间」叫 break room 或 kitchen。Let's grab a coffee in the break room.
+@w: bring | v. | brɪŋ | 带来 | bring 是「带过来（到说话人这里）」；take 是「带走」。Please bring your laptop to the meeting. 开会请带电脑。
+@w: extra | adj. | ˈekstrə | 额外的；多余的 | an extra one 多一个。外贸常用：extra cost 额外费用；at no extra charge 不额外收费。
+
+@p: "Thank you! You're a **lifesaver**!" Lily said. "Do you eat breakfast every day?" "Yes. I never **skip** breakfast. It's a **habit**," Emma said. "Do you drink coffee?" "Not really. I **prefer** tea." Back at her desk, Lily **decided** one thing: **from now on**, no more staying up late on **weekdays**.
+@cn: 「谢谢！你真是救了我！」Lily 说，「你每天都吃早饭吗？」「对，我从来不落下早饭，这是习惯。」Emma 说，「你喝咖啡吗？」「不怎么喝，我更喜欢茶。」回到工位，Lily 下了一个决心：从今以后，工作日晚上再也不熬夜了。
+@w: lifesaver | n. | ˈlaɪfseɪvər | 救星 | You're a lifesaver! 你真是救了我！别人帮了你大忙时的口语感谢，很地道。
+@w: skip | v. | skɪp | 跳过；不做 | skip breakfast 不吃早饭；skip a meeting 不去开会；Let's skip this part. 这部分跳过吧。
+@w: habit | n. | ˈhæbɪt | 习惯 | a good habit / a bad habit。It's a habit. 这是习惯。注意「习惯了某事」是 be used to：I'm used to it.
+@w: prefer | v. | prɪˈfɜːr | 更喜欢 | I prefer tea. 我更喜欢茶。prefer A to B：I prefer email to phone calls. 比起电话我更喜欢邮件。
+@w: decide | v. | dɪˈsaɪd | 决定 | I decided to... 我决定……；客户犹豫时：Take your time to decide. 慢慢考虑。
+@w: from now on | phr. | frəm ˈnaʊ ˌɑːn | 从现在起 | From now on, please send me a daily report. 从现在开始，请每天给我发一份日报。
+@w: weekday | n. | ˈwiːkdeɪ | 工作日（周一到周五） | on weekdays 工作日；on weekends 周末。We're open on weekdays only. 我们只在工作日营业。
+
+@culture_title: 「你脸色不好」「你胖了」——别评论外表
+@culture: 中国人见面说「你脸色不太好，没睡好吧？」「你最近胖了 / 瘦了」，是关心。美国人听了会觉得你在评论他的外表，有点冒犯，尤其是胖瘦和年龄。
+@culture: 想关心同事，美式说法是**问「事」，不说「人」**：Rough morning? 早上不顺吗？ / Long day? 今天累坏了吧？ / Everything OK? 一切都好吗？
+@culture: 夸人可以夸衣服、发型这类对方「选择」的东西：I like your shirt! Nice haircut! 但不要说胖瘦、年龄、脸色。
+
+@think_title: 「不」「没」「还没」「没有」——四个词，四种英文
+@think_intro: 这是中国人说英语最常出错的地方之一。中文用「不」和「没」就能区分时间，英文要靠 **don't / didn't / haven't** 来区分。记住一条线索：**「不」看习惯和意愿，「没」看这件事有没有发生。**
+@think_intro: 还有一个大陷阱：「没有 + 东西」（我没有车、我没有时间）说的是**现在不拥有**，英文是 don't have，和「过去」没关系，千万别说 didn't have。
+@pair: 我不吃早饭。 | I no eat breakfast. | I don't eat breakfast. | 「不」= 平时的习惯，用 don't
+@pair: 我（今天）没吃早饭。 | I don't eat breakfast today. | I didn't eat breakfast (today). | 「没」= 这件事没发生，用 didn't
+@pair: 我还没吃早饭。 | I don't eat breakfast yet. | I haven't eaten breakfast yet. | 「还没」= 到现在为止还没，haven't…yet
+@pair: 我没有车。 | I didn't have a car. | I don't have a car. | 「没有 + 东西」= 现在没有，用 don't have
+@pair: 我没听见闹钟。 | I don't hear my alarm. | I didn't hear my alarm. | 过去那一刻没听见
+@pair: 我不知道。 | I didn't know. | I don't know. | 现在不知道；「我之前不知道」才是 I didn't know.
+@pair: 他不来了。 | He doesn't come. | He's not coming. | 「不……了」= 计划改变了
+@pair: 我不是故意的。 | I'm not on purpose. | I didn't mean to. | 说的是刚才那件事，所以用 didn't
+@think_tip: 「不」→ 平时 / 现在 → **don't、doesn't、am not**；「没 + 动作」→ 过去没发生 → **didn't**；「还没」→ **haven't … yet**；「没有 + 东西」→ **don't have**。
+
+@dlg_title: 早上的寒暄 · How Was Your Commute?
+@dlg_intro: Lily 吃完贝果，碰到经理 David。美国同事早上见面，最常聊的就是「路上怎么样」。
+@line: David | Morning, Lily. How was your **commute**? | 早，Lily。路上还顺利吗？
+@line: Lily | **Terrible**! The subway was **so** crowded. | 太糟了！地铁挤死了。
+@line: David | Yeah, Line **One** is‿always **crazy** in the morning. Where do you **live**? | 是啊，1 号线早上总是爆满。你住哪儿？
+@line: Lily | In **Longhua**. It takes‿about‿an **hour**. | 龙华。大概要一个小时。
+@line: David | That's‿a **long** way. Do you **drive**? | 挺远的。你开车吗？
+@line: Lily | **No**, I don't have‿a **car**. And‿I don't really like **driving**. | 不开，我没有车。而且我也不太喜欢开车。
+@line: David | **Smart** choice. Traffic here is **terrible**. | 明智。这边交通太糟了。
+@line: Lily | How‿about **you**? How do you get to **work**? | 那你呢？你怎么上班？
+@line: David | I usually ride my **bike**. It‿only takes **fifteen** minutes. | 我一般骑自行车，只要十五分钟。
+@line: Lily | **Lucky** you! Did you have **breakfast**? | 你真幸运！你吃早饭了吗？
+@line: David | Not **yet**. I'm going to **grab** something now. Want‿anything? | 还没。我正要去买点吃的，你要带点什么吗？
+@line: Lily | No, **thanks**. I already had‿a **bagel**. Emma gave me **one**. | 不用了，谢谢。我已经吃了个贝果，Emma 给我的。
+@line: David | Ha! Emma **always** brings‿**extra**. She's the **office mom**. | 哈！Emma 总是多带，她就是我们办公室的「妈妈」。
+
+@pron_title: `/æ/` 和 `/e/`：bad 还是 bed？
+@pron: `/æ/`：嘴巴张大，下巴往下掉，舌头平放，像把「哎」压扁了往外推。很多中国学生读得太小，变成了 `/e/`。
+@pron: `/e/`：嘴巴半开，像普通话「诶」，比 `/æ/` 小很多。
+@pron: 今天的词里有很多 `/æ/`：traffic `/ˈtræfɪk/`、habit `/ˈhæbɪt/`、catch `/kætʃ/`、laptop `/ˈlæptɑːp/`、have、back、bad。
+@pron: 小技巧：读 `/æ/` 时，在镜子里看到自己下巴明显往下掉，就对了。
+@pron_drill: 对比朗读：bad – bed ｜ man – men ｜ had – head ｜ sad – said ｜ bag – beg　　句子：The **traffic** was **bad**. ｜ It's a **bad habit**.
+
+@chunk: How was your commute? | 路上还顺利吗？ | 早上见同事的寒暄；也可以问 How was your weekend?
+@chunk: It takes about an hour. | 大概要一个小时。 | 说花多长时间：It takes + 时间。
+@chunk: I usually take the subway. | 我一般坐地铁。 | 交通方式：take the subway / bus，drive，ride a bike，walk。
+@chunk: I got stuck in traffic. | 我堵在路上了。 | 迟到时最常用的理由。
+@chunk: Rough morning? | 早上不顺啊？ | 看到同事狼狈时关心一句，比 You look tired 礼貌。
+@chunk: You're a lifesaver! | 你真是救了我！ | 别人帮了你大忙，口语里的夸张感谢。
+@chunk: Not yet. / Not really. | 还没。/ 不太……；不怎么…… | Did you…? 没做就答 Not yet；Do you like…? 不太喜欢就答 Not really。
+@chunk: I'm on the way! | 我在路上了！ | 别人催你时的标准回答。
+
+@shadow: 重点跟读 David 和 Lily 的问答节奏：How was your commute? — Terrible! 以及 Did you have breakfast? — Not yet. 注意 Terrible 和 Not yet 要读得短、干脆、重。演完一遍后，换成你自己的真实情况再说一遍。
+@say: 我平时七点起床。 | I usually get up at seven.
+@say: 我今天没吃早饭。 | I didn't eat breakfast today.
+@say: 我不喝咖啡，我更喜欢茶。 | I don't drink coffee. I prefer tea.
+@say: 坐地铁大概要一个小时。 | It takes about an hour by subway.
+@say: 我昨晚熬夜了，没听见闹钟。 | I stayed up late last night, and I didn't hear my alarm.
+@say: 我还没吃午饭。 | I haven't had lunch yet.
+@say: 我从来不开车上班。 | I never drive to work.
+@say: 我现在没有时间。 | I don't have time right now.
+@respond: 同事早上问："How was your commute?"（地铁特别挤） | Terrible. The subway was really crowded.
+@respond: 同事问："Did you have breakfast?"（你还没吃） | Not yet. I'm so hungry!
+@respond: 同事问："Do you drink coffee?"（你平时不喝） | Not really. I prefer tea.
+@respond: 经理问："How do you get to work?" | I usually take the subway. It takes about an hour.
+@respond: 同事顺手给你带了早餐。 | Thank you so much! You're a lifesaver!
+@talk_topic: 我的早晨（My Morning Routine）
+@frame: I usually get up at ______.
+@frame: I always / often / sometimes ______ in the morning.
+@frame: I (don't) eat breakfast at home. I usually have ______.
+@frame: I take the ______ to work. It takes about ______.
+@frame: But this morning was different. I didn't ______.
+@frame: From now on, I want to ______.
+@talk_sample: I usually get up at 6:30. I always drink a glass of water first. I don't eat breakfast at home. I usually buy a sandwich on the way. I take the subway to work, and it takes about forty minutes. But this morning was different. I didn't hear my alarm, so I didn't have time for breakfast. From now on, I want to go to bed earlier.
+
+@bank: usually, commute, crowded, on time, skip, prefer, rush, habit
+@fill: My ______ is about an hour each way. | commute | 单程一小时
+@fill: Please be ______. The meeting starts at 9. | on time
+@fill: The train was so ______ that I couldn't move. | crowded
+@fill: I ______ email to phone calls. | prefer
+@fill: I ______ get up at seven, but today I got up at eight. | usually
+@fill: Don't ______ breakfast. It's bad for you. | skip
+@fill: Reading English every day is a good ______. | habit
+@fill: I ______ to the airport, but I still missed my flight. | rushed
+@choose: 同事问 "Do you eat breakfast?"，你平时都不吃，怎么回答？
+@opt: No, I didn't.
+@opt: No, I don't.
+@opt: No, I'm not.
+@ans: B | 问习惯用 Do，答 don't。
+@choose: 今天早上你没吃早饭，你说：
+@opt: I don't eat breakfast this morning.
+@opt: I didn't eat breakfast this morning.
+@opt: I no eat breakfast.
+@ans: B | 「没」+ 已经过去的这件事 = didn't。
+@choose: 「我没有车。」
+@opt: I didn't have a car.
+@opt: I don't have a car.
+@opt: I haven't car.
+@ans: B | 「没有 + 东西」= 现在没有，don't have。
+@choose: 「坐地铁要一个小时。」
+@opt: It takes an hour by subway.
+@opt: It spends an hour by subway.
+@opt: I take an hour subway.
+@ans: A | 说花时间，用 It takes + 时间。
+@fix: Sorry, I no hear my alarm. | Sorry, I didn't hear my alarm. | 过去没发生 = didn't + 动词原形。
+@fix: I don't eat lunch yet. | I haven't eaten lunch yet. / I haven't had lunch yet. | 「还没」= haven't … yet。
+@fix: I didn't have time now. | I don't have time now. | 「现在没有」用 don't have。

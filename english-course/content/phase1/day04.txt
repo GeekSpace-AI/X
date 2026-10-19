@@ -1,0 +1,169 @@
+@day: 4
+@week: 1
+@title_cn: 认识团队
+@title_en: Who Does What?
+@scene: 会议室，经理介绍各部门分工
+@think_short: 「了」不等于过去式
+@goal: 说清楚**谁负责什么**：in charge of / responsible for / take care of
+@goal: 搞懂「了」≠ 过去式：「我饿了、下雨了、我知道了」怎么说
+@goal: 用 6 句话介绍你的部门和你的职责
+
+@warmup: 打印机在门旁边。 | The printer is next to the door.
+@warmup: 我在开会。 | I'm in a meeting.
+@warmup: 他现在不在。 | He's not in right now.
+@warmup: 我能借一下你的充电器吗？ | Can I borrow your charger?
+@warmup: Wi-Fi 密码是多少？ | What's the Wi-Fi password?
+@warmup: 你有空吗？——当然，什么事？ | Do you have a minute? — Sure. What's up?
+
+@story_title: Episode 4 · Who Does What?
+@story_intro: 下午两点，David 在会议室给 Lily 画了一张「公司地图」：谁管什么、有事该找谁。
+
+@p: At two o'clock, Lily goes upstairs to Room 501. David is **drawing** a **chart** on the **whiteboard**. "Let me **explain** how our company works," he says. "We have about forty people. Each **department** does something different."
+@cn: 两点，Lily 上楼到了 501 会议室。David 正在白板上画图表：「我给你讲讲我们公司是怎么运作的。我们大概有四十个人，每个部门负责不同的事。」
+@w: draw | v. | drɔː | 画；吸引 | draw a chart 画图表。draw attention 吸引注意力。
+@w: chart | n. | tʃɑːrt | 图表 | org chart 组织架构图；sales chart 销售图表。开会常说 As you can see on this chart…
+@w: whiteboard | n. | ˈwaɪtbɔːrd | 白板 | Let me write it on the whiteboard. 我写在白板上。
+@w: explain | v. | ɪkˈspleɪn | 解释；说明 | Let me explain. 我解释一下。注意 explain sth **to** sb，不说 explain me：Can you explain it to me?
+@w: department | n. | dɪˈpɑːrtmənt | 部门 | Which department are you in? 你在哪个部门？sales / finance / HR department。
+
+@p: "Emma is **in charge of** marketing. Amy Chen is in **finance**. She **checks** every price before we send it out. Tom Wu is in **logistics**. He's **responsible for** **shipping** our products to customers."
+@cn: 「Emma 负责市场。陈静（Amy）在财务部，每个报价发出去之前她都要核对。吴涛（Tom）在物流部，负责把我们的产品发给客户。」
+@w: in charge of | phr. | ɪn ˈtʃɑːrdʒ əv | 负责；主管 | Who's in charge of this project? 这个项目谁负责？I'm in charge of the US market. 我负责美国市场。
+@w: finance | n. | ˈfaɪnæns | 财务；金融 | She's in finance. 她在财务部（部门前常省略 department）。
+@w: check | v./n. | tʃek | 检查；核对；查看 | Let me check. 我查一下。（超高频）check the price 核对价格；check my email 看邮件。
+@w: logistics | n. | ləˈdʒɪstɪks | 物流 | logistics company 物流公司；外贸必备词。重音在 JIS。
+@w: responsible for | phr. | rɪˈspɑːnsəbl fər | 对……负责 | He's responsible for shipping. 他负责发货。出了问题：Who's responsible for this? 这事谁负责？
+@w: shipping | n. | ˈʃɪpɪŋ | 运输；发货 | shipping cost 运费；free shipping 包邮。ship 作动词就是「发货」，不一定用船：We ship worldwide.
+
+@p: "And **HR**?" Lily asks. "That's Helen. She **takes care of** hiring and **training**. She's the one who **hired** you!" David says. "Our factory is in Dongguan. Mr. Chen **runs** it. He's in charge of **production**. You'll meet him next week."
+@cn: 「那人事呢？」Lily 问。「是 Helen，她负责招聘和培训——就是她把你招进来的！」David 说，「我们的工厂在东莞，陈厂长管工厂，负责生产。你下周会见到他。」
+@w: HR | n. | ˌeɪtʃ ˈɑːr | 人事部 | human resources 的缩写。Talk to HR about your vacation. 休假的事找人事。
+@w: take care of | phr. | ˌteɪk ˈker əv | 照顾；处理 | I'll take care of it. 这事交给我。（职场超高频）也指照顾人：take care of my kids。
+@w: training | n. | ˈtreɪnɪŋ | 培训 | new employee training 新员工培训；product training 产品培训。
+@w: hire | v. | ˈhaɪər | 雇用；招聘 | We're hiring! 我们在招人！He was hired last month. 他上个月入职。
+@w: run | v. | rʌn | 经营；管理；运行 | run a business 做生意；run a factory 管工厂；The machines run 24 hours a day. 机器 24 小时运转。
+@w: production | n. | prəˈdʌkʃn | 生产 | production line 生产线；mass production 大货生产（外贸说的「大货」）。
+
+@p: "So what's my **role**?" Lily asks. "Good question. You'll **work with** me on sales. You'll answer customer emails, **prepare** **documents** and **follow up** on **orders**. **Basically**, you'll **help** me **with** everything." "Everything?" "Don't worry. You'll learn fast."
+@cn: 「那我的职责是什么？」Lily 问。「问得好。你跟我一起做销售：回复客户邮件、准备单据、跟进订单。说白了，什么都要帮我干。」「什么都要？」「别担心，你会学得很快的。」
+@w: role | n. | roʊl | 角色；职责 | What's your role in the project? 你在项目里负责什么？
+@w: work with | phr. | ˈwɜːrk wɪð | 和……共事；合作 | I work with David. 我和 David 一起工作。对客户说：We'd love to work with you. 很希望和您合作。
+@w: prepare | v. | prɪˈper | 准备 | prepare documents 准备单据；prepare for a meeting 为会议做准备（注意 for）。
+@w: document | n. | ˈdɑːkjumənt | 文件；单据 | shipping documents 货运单据；Please sign the document. 请在文件上签字。
+@w: follow up | phr. | ˌfɑːloʊ ˈʌp | 跟进 | follow up on an order 跟进订单；follow-up email 跟进邮件。外贸人每天都在 follow up。
+@w: order | n./v. | ˈɔːrdər | 订单；订购 | place an order 下单；We got a big order! 我们接了个大单！
+@w: basically | adv. | ˈbeɪsɪkli | 基本上；说白了 | 口语里用来总结：Basically, we need more time. 说白了，我们需要更多时间。
+@w: help (sb) with | phr. | ˈhelp wɪð | 帮（某人）做（某事） | Can you help me with this email? 你能帮我弄下这封邮件吗？不说 help me this email。
+
+@p: After the meeting, Lily **introduces** herself to her new **colleagues**. Amy says, "Welcome! If you have any questions about prices, come to me." Tom has fifteen years of **experience** in shipping. "If a customer asks about **delivery**, I'm your guy," he says. Now Lily knows who does what. She feels much more **confident**.
+@cn: 散会后，Lily 向新同事们做了自我介绍。Amy 说：「欢迎！价格方面有任何问题就来找我。」Tom 有十五年的物流经验：「客户问交货的事，找我就对了。」现在 Lily 知道谁负责什么了，心里踏实多了。
+@w: introduce | v. | ˌɪntrəˈduːs | 介绍 | Let me introduce myself. 我先自我介绍一下。introduce A to B 把 A 介绍给 B。
+@w: colleague | n. | ˈkɑːliːg | 同事 | 偏正式；口语常说 coworker。This is my colleague, Amy. 这是我同事 Amy。
+@w: experience | n. | ɪkˈspɪriəns | 经验；经历 | ten years of experience 十年经验（不可数）；a great experience 一次很棒的经历（可数）。
+@w: delivery | n. | dɪˈlɪvəri | 交货；送货 | delivery time 交货时间；on-time delivery 准时交货；food delivery 外卖。
+@w: confident | adj. | ˈkɑːnfɪdənt | 自信的；有把握的 | I'm confident about our quality. 我对我们的质量很有信心。
+
+@culture_title: 美国公司的「扁平」：新人反而要多问
+@culture: 中国公司比较讲层级，新人开会通常多听少说。美国公司相对「扁平」，经理反而希望新人多提问——问问题说明你在思考、在投入。
+@culture: 不懂就直接问，一点都不丢人：Sorry, what does "MOQ" mean? 不好意思，MOQ 是什么意思？ / Could you explain that again? 能再解释一下吗？
+@culture: 职位怎么说：总经理 general manager / CEO；总监 director；经理 manager；主管 supervisor；助理 assistant。「王总」在英文里就叫名字，或者 Mr. Wang。
+
+@think_title: 「了」不等于过去式
+@think_intro: 很多人学英语时被告知「了 = 过去式」，这是一个**大误会**。中文的「了」有时表示动作完成，有时表示「情况变了」，有时只是感叹语气，跟「过去」没关系。
+@think_intro: 判断方法：**别看「了」，看时间**。事情发生在过去 → 过去式；说的是现在的状态 → 现在时；从过去一直到现在 → have been / have done。
+@pair: 我吃了。 | I eat. | I ate. / I've eaten. | 动作完成了，用过去式
+@pair: 我饿了。 | I was hungry. | I'm hungry. | 「了」表示状态变了，说的是现在
+@pair: 下雨了。 | It rained. | It's raining. | 现在正在下
+@pair: 我知道了。 | I knew. | Got it. / I see. | 「我明白了」，说的是现在
+@pair: 我到了。 | I'm arrive. | I'm here! | 微信「我到了」最地道的说法
+@pair: 我来这儿四天了。 | I come here four days. | I've been here for four days. | 「……多久了」= have been … for
+@pair: 太贵了！ | It was too expensive! | It's too expensive! | 「太……了」是感叹，用现在时
+@pair: 明天我吃了饭就去。 | Tomorrow I ate and go. | I'll go after I eat tomorrow. | 「了」也能用在将来
+@think_tip: 看到「了」先别急着用过去式，问自己：**这件事是过去发生的，还是现在的状态？** 「我饿了、下雨了、太贵了、我知道了」说的都是**现在**。
+
+@dlg_title: 认识物流部的 Tom · Meeting Tom from Logistics
+@dlg_intro: Lily 去物流部找 Tom 打招呼。老外前辈说话随和，几句话就能拉近距离。
+@line: Lily | Hi Tom, I'm **Lily**, the new sales **assistant**. | 嗨 Tom，我是 Lily，新来的销售助理。
+@line: Tom | Hey Lily! Welcome‿a**board**. How **long** have you been **here**? | 嘿 Lily！欢迎加入。你来多久了？
+@line: Lily | Just **four** days. Everything‿is still **new** to me. | 才四天。一切对我来说都还很新。
+@line: Tom | Don't **worry**. You'll get **used**‿to‿it. | 别担心，你会习惯的。
+@line: Lily | David said you're‿in **charge**‿of **shipping**. | David 说你负责发货。
+@line: Tom | That's **right**. I take **care**‿of everything after pro**duction**. | 对，生产完之后的事都归我管。
+@line: Lily | So if‿a customer asks, "When will my order‿ar**rive**?", I come to **you**? | 那如果客户问「我的货什么时候到？」，我就来找你？
+@line: Tom | **Exactly**. Just send me the **order number**. | 没错，把订单号发给我就行。
+@line: Lily | Got‿it. How **long** have you worked‿in lo**gistics**? | 明白了。你做物流多久了？
+@line: Tom | **Fifteen** years. Late **ships**, lost **boxes** — I've seen‿it **all**. | 十五年了。船晚到、箱子丢了——什么情况我都见过。
+@line: Lily | **Wow**. I'm sure I'll have **lots**‿of **questions**. | 哇。我肯定会有很多问题要问。
+@line: Tom | No **problem**. My **door** is‿always **open**. | 没问题，有事随时来找我。
+@line: Lily | **Thanks**, Tom. I'm **glad** I met you. | 谢谢你，Tom。很高兴认识你。
+
+@pron_title: `/v/` 和 `/w/`：very well 不是 wery vell
+@pron: `/v/`：**上牙轻轻咬住下唇**，送气让嘴唇振动，有点「麻」的感觉：very, video, deliver, service, review。
+@pron: `/w/`：**嘴唇圆起来往前撅**（像要吹蜡烛），牙齿不碰嘴唇，然后迅速张开：work, with, well, week, warehouse。
+@pron: 很多南方同学 v 和 w 不分，北方同学常把 v 读成「微」。只要记住：v 一定要**咬唇**，w 一定**不碰牙**。
+@pron_drill: 对比朗读：vest – west ｜ vine – wine ｜ V – we ｜ vet – wet　　句子：We have a **very** good **view**. ｜ I **work with** David **every week**.
+
+@chunk: Welcome aboard! | 欢迎加入！ | 欢迎新同事的地道说法（aboard 原意「上船」）。
+@chunk: How long have you been here? — Just four days. | 你来多久了？——才四天。 | 新同事之间最常见的对话。
+@chunk: Everything is still new to me. | 一切对我来说都还很新。 | 新人谦虚一下，对方会主动帮你。
+@chunk: You'll get used to it. | 你会习惯的。 | 安慰别人；自己说就是 I'm getting used to it.
+@chunk: I'm in charge of shipping. | 我负责发货。 | 介绍自己的职责。
+@chunk: I'll take care of it. | 交给我吧。/ 我来处理。 | 主动接活儿，老板最爱听的一句话。
+@chunk: That's right. / Exactly. | 对。/ 没错。 | 确认对方说得对；Exactly 语气更强。
+@chunk: My door is always open. | 有事随时来找我。 | 领导 / 前辈对新人说的客气话。
+
+@shadow: 重点跟读 Tom 的几句短句：Welcome aboard. / You'll get used to it. / Exactly. / My door is always open. 这些都是「一口气说完」的句块，注意 get used to it 读成 /get ˈjuːstə tɪt/，used to 里的 d 不发音。
+@say: 我负责美国市场。 | I'm in charge of the US market.
+@say: 她在财务部。 | She's in finance. / She works in the finance department.
+@say: 这件事交给我吧。 | I'll take care of it.
+@say: 我来这儿四天了。 | I've been here for four days.
+@say: 我知道了，谢谢。 | Got it, thanks.
+@say: 你能帮我准备一下这些文件吗？ | Can you help me prepare these documents?
+@say: 我会跟进这个订单。 | I'll follow up on this order.
+@say: 他有十年的物流经验。 | He has ten years of experience in logistics.
+@respond: 新同事问："Which department are you in?" | I'm in sales. / I work in the sales department.
+@respond: 经理交代完任务问："Is that clear?"（你明白了） | Got it. I'll take care of it.
+@respond: 别人问："How long have you been here?"（两周） | Just two weeks. Everything is still new to me.
+@respond: 客户问："Who's in charge of shipping?"（是 Tom） | Tom Wu is. He's responsible for shipping. I can connect you with him.
+@respond: 同事说："Welcome aboard!" | Thank you! I'm glad to be here.
+@talk_topic: 介绍你的公司 / 团队：谁负责什么
+@frame: There are about ______ people in my company / team.
+@frame: ______ is in charge of ______.
+@frame: ______ is responsible for ______.
+@frame: I work with ______ on ______.
+@frame: My role is to ______.
+@frame: I've been here for ______.
+@talk_sample: There are about forty people in my company. David is in charge of sales, and Emma is in charge of marketing. Amy is in finance. She checks all our prices. Tom is responsible for shipping. I work with David on the sales side. My role is to answer customer emails, prepare documents and follow up on orders. I've been here for four days, and I'm learning a lot.
+
+@bank: in charge of, responsible for, follow up, prepare, experience, take care of, department, hire
+@fill: Who's ______ the US market? | in charge of
+@fill: Don't worry about the documents. I'll ______ it. | take care of
+@fill: Please ______ on this order. The customer is waiting. | follow up
+@fill: Tom has fifteen years of ______ in logistics. | experience
+@fill: Which ______ are you in? — Sales. | department
+@fill: Can you ______ the documents for tomorrow's meeting? | prepare
+@fill: We're growing fast. We need to ______ two more salespeople. | hire
+@fill: The warehouse team is ______ packing the goods. | responsible for
+@choose: 你刚听明白同事的话，想说「我知道了」：
+@opt: I knew.
+@opt: Got it.
+@opt: I know it already.
+@ans: B | 「我明白了」是现在的状态，Got it / I see 最自然。
+@choose: 「下雨了，带把伞吧。」
+@opt: It rained. Take an umbrella.
+@opt: It's raining. Take an umbrella.
+@opt: It was rain. Take an umbrella.
+@ans: B | 现在正在下雨，用 It's raining。
+@choose: 经理交给你一件事，你想说「交给我吧」：
+@opt: Give me.
+@opt: I'll take care of it.
+@opt: Let me take it care.
+@ans: B | take care of it = 我来处理。
+@choose: 美国同事说 "My door is always open."，意思是：
+@opt: 我的门坏了关不上
+@opt: 有事随时来找我
+@opt: 我从来不关门
+@ans: B | 客气话，表示欢迎你随时来请教。
+@fix: I come here three days. | I've been here for three days. | 「……多久了」用 have been … for。
+@fix: Sorry, I was hungry. Can we eat now? | Sorry, I'm hungry. Can we eat now? | 「我饿了」说的是现在的状态。
+@fix: Can you help me this email? | Can you help me with this email? | help sb with sth。

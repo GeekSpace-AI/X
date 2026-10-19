@@ -1,0 +1,168 @@
+@day: 15
+@week: 3
+@title_cn: 发送报价
+@title_en: Sending the Quote
+@scene: 和财务一起算成本、定价格，给客户发正式报价
+@think_short: 万、十万、百万：英文没有「万」
+@goal: 看懂并说出一份**报价**：单价、总价、FOB、有效期、付款方式
+@goal: **大数字**脱口而出：万、十万、百万、亿在英文里怎么说
+@goal: 读价格：$12.80、$25,600、30%
+
+@warmup: 我看一下。 | Let me take a look.
+@warmup: 我跟经理确认一下。 | Let me check with my manager.
+@warmup: 简单汇报一下最新进展。 | Here's a quick update.
+@warmup: 最大的挑战是美国口音。 | The biggest challenge is the American accent.
+@warmup: 非常感谢你的支持。 | I really appreciate your support.
+@warmup: 继续保持！ | Keep up the good work!
+
+@story_title: Episode 15 · Twelve Dollars and Eighty Cents
+@story_intro: 第三周开始了。David、财务 Amy 和 Lily 坐在一起，给 HomeStar 算出了第一份正式报价。
+
+@p: On Monday, David, Amy and Lily sit down to **work out** the quote for HomeStar. Amy opens a big **spreadsheet**. "First, let's **calculate** our **costs**: **raw materials**, **labor**, packaging and the logo."
+@cn: 周一，David、Amy 和 Lily 坐下来给 HomeStar 算报价。Amy 打开一个很大的电子表格：「先算成本：原材料、人工、包装，还有 logo。」
+@w: work out | phr. | ˌwɜːrk ˈaʊt | 算出；想出；健身 | work out the price 把价格算出来；work out a plan 想出方案。另一个意思：I work out at the gym. 我去健身房锻炼。
+@w: spreadsheet | n. | ˈspredʃiːt | 电子表格 | an Excel spreadsheet。Put the numbers in a spreadsheet. 把数字放进表格里。
+@w: calculate | v. | ˈkælkjuleɪt | 计算 | calculate the cost 计算成本。计算器是 calculator。
+@w: cost | n./v. | kɔːst | 成本；花费 | production cost 生产成本。cost 是「成本」，price 是「售价」，别混。It costs $20. 它要 20 美元。
+@w: raw material | n. | ˌrɔː məˈtɪriəl | 原材料 | Raw material prices went up. 原材料涨价了。（外贸涨价最常见的理由）
+@w: labor | n. | ˈleɪbər | 人工；劳动力 | labor cost 人工成本。英式拼写 labour。
+
+@p: "The **total** cost for one K17 is about 75 yuan," Amy says. "With a **reasonable** **profit**, and **based on** today's **exchange rate**, our price is $12.80 per unit for 2,000 units, and $11.90 for 5,000 units." Lily writes it down: twelve dollars and eighty **cents**.
+@cn: 「一台 K17 的总成本大约 75 元。」Amy 说，「加上合理的利润，按今天的汇率算，2,000 台的价格是每台 12.80 美元，5,000 台是 11.90 美元。」Lily 记了下来：十二美元八十美分。
+@w: total | n./adj. | ˈtoʊtl | 总数；总的 | total cost 总成本；in total 一共。The total is $25,600. 总价是 25,600 美元。
+@w: reasonable | adj. | ˈriːznəbl | 合理的 | a reasonable price 合理的价格。（谈价格的高频词）
+@w: profit | n. | ˈprɑːfɪt | 利润 | make a profit 赚钱；profit margin 利润率。
+@w: based on | phr. | ˈbeɪst ɑːn | 基于；根据 | Based on 5,000 units, the price is $11.90. 按 5,000 台算，价格是 11.90 美元。
+@w: exchange rate | n. | ɪksˈtʃeɪndʒ ˌreɪt | 汇率 | The exchange rate changes every day. 汇率每天都在变。
+@w: cent | n. | sent | 美分 | 1 美元 = 100 美分。$12.80 读 twelve dollars and eighty cents，口语直接说 twelve eighty。
+
+@p: "Is that FOB?" David asks. "Yes. **FOB** Shenzhen. We pay for everything until the goods are on the ship at the **port**. The customer pays the **ocean freight**." Lily nods. FOB, EXW, CIF… Last week, these **terms** were a mystery. Now they **make sense**.
+@cn: 「这是 FOB 价吗？」David 问。「对，深圳离岸价。货物在港口装上船之前的费用都由我们付，海运费由客户付。」Lily 点点头。FOB、EXW、CIF……上周这些术语对她来说还像天书，现在都弄明白了。
+@w: FOB | n. | ˌef oʊ ˈbiː | 离岸价 | Free On Board：卖方负责把货装上船，之后的运费、保险由买方负责。FOB Shenzhen 深圳离岸价。
+@w: port | n. | pɔːrt | 港口 | port of loading 装货港；port of destination 目的港。
+@w: ocean freight | n. | ˌoʊʃn ˈfreɪt | 海运费 | freight 读 `/freɪt/`，gh 不发音。空运费是 air freight。
+@w: terms | n. | tɜːrmz | 条款；术语 | price terms 价格条款；terms and conditions 条款与条件。
+@w: make sense | phr. | ˌmeɪk ˈsens | 讲得通；明白 | That makes sense. 有道理 / 我明白了。Does that make sense? 我说清楚了吗？
+
+@p: Amy adds a few more lines: "Price **valid** for 30 days. **Payment terms**: 30% **deposit**, **balance** before shipment. Logo printing: a **one-time** **fee** of $300." "Why only 30 days?" Lily asks. "Because material prices go up and down. We need to **protect** ourselves."
+@cn: Amy 又加了几行：「报价有效期 30 天。付款方式：30% 定金，出货前付清余款。logo 印刷：一次性费用 300 美元。」「为什么只有 30 天？」Lily 问。「因为原材料价格会上下波动，我们得保护好自己。」
+@w: valid | adj. | ˈvælɪd | 有效的 | This price is valid for 30 days. 此价格 30 天内有效。有效期叫 validity。
+@w: payment terms | n. | ˈpeɪmənt ˌtɜːrmz | 付款方式；付款条件 | What are your payment terms? 你们的付款方式是什么？
+@w: deposit | n. | dɪˈpɑːzɪt | 定金；押金 | 30% deposit 30% 定金；pay a deposit 付定金。
+@w: balance | n. | ˈbæləns | 余款；余额；平衡 | pay the balance before shipment 出货前付清余款。
+@w: one-time | adj. | ˈwʌn ˌtaɪm | 一次性的 | a one-time fee 一次性费用（比如开模费、印版费）。
+@w: fee | n. | fiː | 费用（服务、手续类） | setup fee 设置费；bank fee 银行手续费。
+@w: protect | v. | prəˈtekt | 保护 | protect ourselves 保护我们自己；protect the product during shipping 运输中保护产品。
+
+@p: Lily puts everything into a clean PDF. The total for 2,000 units is $25,600. She reads the numbers **out loud**: "Twenty-five thousand six hundred dollars." David checks the **final** **version** one last time. "**Looks good**. Send it." Lily attaches the quote and clicks "Send". Now they wait.
+@cn: Lily 把所有内容整理成一份干净的 PDF。2,000 台的总价是 25,600 美元。她把数字大声读出来：「两万五千六百美元。」David 最后检查了一遍定稿：「没问题，发吧。」Lily 附上报价单，点了「发送」。现在，就等回复了。
+@w: out loud | phr. | ˌaʊt ˈlaʊd | 大声地（读出来） | read it out loud 大声读出来。练英语的好习惯！
+@w: final | adj. | ˈfaɪnl | 最终的 | final price 最终价格；final decision 最终决定。
+@w: version | n. | ˈvɜːrʒn | 版本 | the latest version 最新版；the final version 定稿。
+@w: looks good | phr. | ˌlʊks ˈgʊd | 看起来不错；可以 | Looks good to me. 我觉得可以。（审批、确认时的口语）
+
+@culture_title: 美国人怎么说钱
+@culture: 价格口语常常省掉 dollars 和 cents：$12.80 → **twelve eighty**；$3.99 → **three ninety-nine**。正式场合（报价、合同）才说 twelve dollars and eighty cents。
+@culture: 大数字的「缩写」：**K** = thousand（25K = 25,000），**M** = million（2M = 2,000,000）。口语里 **bucks** = dollars（20 bucks），**grand** = 1,000 美元（five grand = $5,000），这些很随意，不用在邮件里。
+@culture: 写法：美元符号放在数字**前面**（$25,600），小数点用「.」，千位用「,」。有些欧洲国家正好相反（25.600,00），和欧洲客户往来时要特别小心。
+
+@think_title: 英文没有「万」：大数字怎么说
+@think_intro: 中文按「四位」数：个、十、百、千、**万**；英文按「三位」数：thousand（千）、**million**（百万）、billion（十亿）。所以英文**没有「万」**，「一万」要说 ten thousand（十个千）。
+@think_intro: 秘诀：**看逗号读数**。英文数字每三位一个逗号：25**,**600 = twenty-five **thousand** six hundred；1**,**500**,**000 = one **million** five hundred **thousand**。
+@think_intro: 报价、谈判、看报表，数字说错就是真金白银的损失，今天一定要练熟。
+@pair: 一万 | one wan | ten thousand（10,000） | 1 万 = 10 个 thousand
+@pair: 两万五千六 | two wan five thousand six | twenty-five thousand six hundred（25,600） | 看逗号：25 ／ 600
+@pair: 十万 | ten wan | a hundred thousand（100,000） | 10 万 = 100 个 thousand
+@pair: 一百万 | one hundred wan | one million（1,000,000） | 100 万 = 1 million
+@pair: 一亿 | one yi | one hundred million（100,000,000） | 1 亿 = 100 million
+@pair: 两千台 | two thousands units | two thousand units | thousand 前面有数字时不加 s
+@pair: 12.80 美元 | twelve point eight zero dollars | twelve dollars and eighty cents / twelve eighty | 价格不用 point
+@pair: 增长了 20% | grew 20 percents | grew by 20 percent | percent 不加 s
+@think_tip: 英文没有「万」：**1 万 = 10 thousand，10 万 = 100 thousand，100 万 = 1 million，1 亿 = 100 million**。读数时看逗号：第一个逗号前是 thousand，第二个逗号前是 million。
+
+@dlg_title: 发报价前的最后核对 · Let's Double-Check the Numbers
+@dlg_intro: 发送之前，财务 Amy 拉着 Lily 把每个数字都核对了一遍。这段对话是练数字的最好材料。
+@line: Amy | Before you **send**‿it, let's **double-check** the **numbers**. | 发之前，我们把数字再核对一遍。
+@line: Lily | **Sure**. The unit price‿is **twelve** dollars‿and **eighty** cents. | 好的。单价是 12.80 美元。
+@line: Amy | For **how many** units? | 多少台的价格？
+@line: Lily | Two **thousand**. So the **total** is **twenty-five** thousand **six** hundred dollars. | 两千台。所以总价是 25,600 美元。
+@line: Amy | **Correct**. And for **five** thousand units? | 对。那五千台呢？
+@line: Lily | **Eleven ninety** per unit. That's **fifty-nine** thousand **five** hundred dollars. | 每台 11.90，总共 59,500 美元。
+@line: Amy | Let me **check**… Yes, that's **right**. Is the **logo** fee in**cluded**? | 我算一下……对。logo 费包含在里面吗？
+@line: Lily | **No**, it's‿a **one-time** fee‿of **three hundred** dollars. I put‿it‿in‿a **separate** line. | 不含，是一次性 300 美元，我单独列了一行。
+@line: Amy | **Good**. And the va**lidity**? | 很好。有效期呢？
+@line: Lily | **Thirty** days. And payment terms‿are **thirty** percent de**posit**, **balance** before **shipment**. | 30 天。付款方式是 30% 定金，出货前付余款。
+@line: Amy | **Perfect**. One more **thing**: is‿it **FOB** Shenzhen or **EXW**? | 完美。还有一件事：是深圳 FOB 还是 EXW？
+@line: Lily | **FOB** Shenzhen. | 深圳 FOB。
+@line: Amy | **Great**. It looks **good**. You can **send**‿it. | 很好，没问题了，可以发了。
+
+@pron_title: 数字的读法
+@pron: hundred `/ˈhʌndrəd/`、thousand `/ˈθaʊznd/`（th 咬舌！）、million `/ˈmɪljən/`。美式英语里，hundred 后面常常**不加 and**：250 = two hundred fifty（英式会说 two hundred and fifty）。
+@pron: 小数：1.7 = one point seven；0.5 = (zero) point five；百分比：30% = thirty percent（重音在 CENT）。
+@pron: 年份两位两位读：2026 = twenty twenty-six；2010 = twenty ten 或 two thousand ten。
+@pron_drill: 读出来：$12.80 ｜ $11.90 ｜ 2,000 ｜ 25,600 ｜ 59,500 ｜ 100,000 ｜ 1,500,000 ｜ 30% ｜ 2026　　句子：The **total** is **twenty-five thousand six hundred** dollars.
+
+@chunk: Let's work out the price. | 我们把价格算出来。 | 内部讨论报价时。
+@chunk: The unit price is $12.80. | 单价是 12.80 美元。 | 报价的核心句。
+@chunk: The total comes to $25,600. | 总价共计 25,600 美元。 | come to = 总计为。
+@chunk: The price is FOB Shenzhen. | 价格是深圳离岸价。 | 报价必须说清楚价格条款。
+@chunk: This quote is valid for 30 days. | 本报价 30 天内有效。 | 报价单上一定要写。
+@chunk: Our payment terms are 30% deposit, balance before shipment. | 付款方式：30% 定金，出货前付余款。 | 外贸最常见的付款方式之一。
+@chunk: The logo fee is not included. | 不含 logo 费用。 | 说明价格包含什么、不包含什么。
+@chunk: That makes sense. | 有道理。/ 明白了。 | 听懂别人的解释后回应。
+
+@shadow: 这段对话全是数字，是最好的「数字口语」训练。先慢速跟读，确保每个数字都读对；然后试着**不看文字**，只看数字（$12.80、2,000、$25,600、$11.90、$59,500、$300、30%）把它们读出来。
+@say: 一万台 | ten thousand units
+@say: 我们的单价是 12.80 美元。 | Our unit price is twelve dollars and eighty cents.
+@say: 两千台的总价是 25,600 美元。 | The total for 2,000 units is twenty-five thousand six hundred dollars.
+@say: 价格是深圳离岸价。 | The price is FOB Shenzhen.
+@say: 本报价 30 天内有效。 | This quote is valid for 30 days.
+@say: 付款方式是 30% 定金，出货前付清余款。 | Our payment terms are 30% deposit and the balance before shipment.
+@say: 原材料涨价了。 | Raw material prices have gone up.
+@say: 我们今年卖了一百万台。 | We sold one million units this year.
+@respond: 客户问："Is the price FOB or EXW?" | It's FOB Shenzhen.
+@respond: 客户问："How long is the quote valid?" | It's valid for 30 days.
+@respond: 客户问："What are your payment terms?" | 30% deposit, and the balance before shipment.
+@respond: 客户问："Does the price include the logo?" | The logo printing is a one-time fee of $300. It's not included in the unit price.
+@respond: 经理解释完 FOB 的意思，问你："Does that make sense?" | Yes, that makes sense. Thanks!
+@talk_topic: 用英文给客户报一次价
+@frame: Thank you for your inquiry. Here's our quote for ______.
+@frame: The unit price is ______ for ______ units.
+@frame: For ______ units, the price is ______.
+@frame: The price is FOB ______.
+@frame: The quote is valid for ______.
+@frame: Our payment terms are ______.
+@talk_sample: Thank you for your inquiry. Here's our quote for the K17 kettle. The unit price is twelve dollars and eighty cents for two thousand units. For five thousand units, the price is eleven ninety. The price is FOB Shenzhen. The quote is valid for thirty days. Our payment terms are thirty percent deposit, and the balance before shipment.
+
+@bank: valid, deposit, cost, profit, exchange rate, port, fee, total
+@fill: This price is ______ until the end of the month. | valid
+@fill: Please pay a 30% ______ to start production. | deposit
+@fill: The ______ is $25,600 for 2,000 units. | total
+@fill: Our ______ went up because of raw materials. | costs
+@fill: The ______ changes every day, so we quote in US dollars. | exchange rate
+@fill: The goods will leave from the ______ of Shenzhen. | port
+@fill: There's a one-time ______ of $300 for the logo. | fee
+@fill: If the price is too low, we can't make a ______. | profit
+@choose: 「十万台」：
+@opt: ten wan units
+@opt: one hundred thousand units
+@opt: ten thousand units
+@ans: B | 10 万 = 100 thousand。
+@choose: 25,600 的正确读法是：
+@opt: two wan five thousand six hundred
+@opt: twenty-five thousand six hundred
+@opt: two five six zero zero
+@ans: B | 看逗号：25 thousand + 600。
+@choose: 「两千台」：
+@opt: two thousands units
+@opt: two thousand units
+@opt: two thousand unit
+@ans: B | thousand 不加 s，units 要加 s。
+@choose: 「此价格 30 天内有效。」
+@opt: This price is valid for 30 days.
+@opt: This price is effective 30 days long.
+@opt: This price can use 30 days.
+@ans: A | 报价有效期的标准说法。
+@fix: Our sales grew 20 percents. | Our sales grew by 20 percent. | percent 不加 s；「增长了」用 by。
+@fix: The price is twelve point eight zero dollars. | The price is twelve dollars and eighty cents. / twelve eighty | 价格不用 point 读。
+@fix: We need one hundred wan units. | We need one million units. | 100 万 = 1 million。

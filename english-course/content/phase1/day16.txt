@@ -1,0 +1,167 @@
+@day: 16
+@week: 3
+@title_cn: 申请样品
+@title_en: Asking for Samples
+@scene: 客户下单前要样品，安排打样、寄快递
+@think_short: 「能 / 可以」：礼貌阶梯
+@goal: 说清楚**样品政策**：免费吗？快递费谁付？多久能到？
+@goal: 掌握请求的「礼貌阶梯」：Can you → Could you → Would you mind
+@goal: 会用快递相关的词：courier、tracking number、fragile
+
+@warmup: 一万台 | ten thousand units
+@warmup: 单价是 12.80 美元。 | The unit price is twelve dollars and eighty cents.
+@warmup: 价格是深圳离岸价。 | The price is FOB Shenzhen.
+@warmup: 本报价 30 天内有效。 | This quote is valid for 30 days.
+@warmup: 付款方式是 30% 定金，出货前付余款。 | Our payment terms are 30% deposit, balance before shipment.
+@warmup: 有道理。/ 明白了。 | That makes sense.
+
+@story_title: Episode 16 · Two Samples, Please
+@story_intro: Sarah 回复了报价：价格还是有点高，但她愿意往前推进——前提是先看到带 HomeStar logo 的样品。
+
+@p: On Wednesday, Sarah replies to the quote. "Thanks, Lily. The price is **still** a little high, but let's **move forward**. Before we place an order, could we get two **samples** with our logo? My boss needs to **approve** the quality first."
+@cn: 周三，Sarah 回复了报价：「谢谢你，Lily。价格还是有点高，不过我们继续往前推进吧。下单之前，能给我们寄两个带我们 logo 的样品吗？我老板要先确认质量。」
+@w: still | adv. | stɪl | 仍然；还 | The price is still high. 价格还是高。I'm still waiting for his reply. 我还在等他回复。
+@w: move forward | phr. | ˌmuːv ˈfɔːrwərd | 推进；继续往前 | Let's move forward with the order. 我们推进这个订单吧。（表示愿意继续合作）
+@w: sample | n. | ˈsæmpl | 样品 | free sample 免费样品；pre-production sample 产前样（大货生产前的确认样）。
+@w: approve | v. | əˈpruːv | 批准；确认 | approve the sample 确认样品。Once you approve it, we'll start production. 您确认后我们就开始生产。
+
+@p: Lily asks David, "What's our sample **policy**? Do we **charge** for samples?" "Usually, samples are **free of charge**, but the customer pays the **courier** fee. These samples need her logo, so there's a small **setup** cost." "Can we **waive** it?" "For HomeStar? Sure. We'll **deduct** it from her first order **anyway**."
+@cn: Lily 问 David：「我们的样品政策是什么？样品收费吗？」「一般样品免费，但快递费由客户付。这次要印她的 logo，所以有一点准备费用。」「能免掉吗？」「对 HomeStar？当然。反正我们会在她的首单里扣掉。」
+@w: policy | n. | ˈpɑːləsi | 政策；规定 | sample policy 样品政策；return policy 退货政策。
+@w: charge | v./n. | tʃɑːrdʒ | 收费；费用 | Do you charge for samples? 样品收费吗？extra charge 额外收费。
+@w: free of charge | phr. | ˌfriː əv ˈtʃɑːrdʒ | 免费 | Samples are free of charge. 样品免费。比 free 更正式，邮件里常用。
+@w: courier | n. | ˈkʊriər | 快递（公司）；快递员 | courier fee 快递费。DHL、FedEx、UPS 都是 courier。
+@w: setup | n. | ˈsetʌp | 准备；设置 | setup cost / setup fee 准备费用（开版、调机等）。
+@w: waive | v. | weɪv | 免除（费用、要求） | We can waive the setup fee. 准备费可以免掉。和 wave（挥手）同音。
+@w: deduct | v. | dɪˈdʌkt | 扣除 | We'll deduct the sample fee from your first order. 样品费在首单中扣除。（外贸常见做法）
+@w: anyway | adv. | ˈeniweɪ | 反正；无论如何；（转话题）好了 | We'll deduct it anyway. 反正会扣掉的。Anyway, let's move on. 好了，我们继续。
+
+@p: Lily writes back: "We'd **be happy to** send you two samples. They're free of charge, but **would you mind** paying the courier fee? If you have a FedEx account, we can use your account number." Sarah answers quickly: "Not at all. How long will it take?" "About seven days to make the samples, and three to five days by **express**."
+@cn: Lily 回信：「我们很乐意给您寄两个样品。样品免费，但您介意承担快递费吗？如果您有 FedEx 账号，我们可以用您的账号寄。」Sarah 很快回复：「完全不介意。要多长时间？」「做样品大约 7 天，快递 3 到 5 天。」
+@w: be happy to | phr. | ˌbiː ˈhæpi tə | 乐意（做某事） | We'd be happy to help. 我们很乐意帮忙。回复客户请求的万能开头。
+@w: would you mind | phr. | ˌwʊd jə ˈmaɪnd | 您介意……吗 | Would you mind paying the courier fee? 您介意付快递费吗？后面接 -ing。同意要回答 Not at all.
+@w: express | adj./n. | ɪkˈspres | 快递；快速的 | express delivery 快递；by express 走快递。
+
+@p: Lily emails Mr. Chen at the factory: "Could you make two K17 samples with the HomeStar logo? It's for a very important customer." Mr. Chen replies, "Sure. Let me **arrange** it." A week later, the samples are ready. Lily **packs** them carefully and puts a "**Fragile**" **label** on the box.
+@cn: Lily 给工厂的陈厂长发邮件：「能做两个印 HomeStar logo 的 K17 样品吗？是给一个非常重要的客户的。」陈厂长回复：「好，我来安排。」一周后，样品做好了。Lily 仔细打包，在箱子上贴了一张「易碎」标签。
+@w: arrange | v. | əˈreɪndʒ | 安排 | Let me arrange it. 我来安排。arrange a meeting / shipment 安排会议 / 发货。
+@w: pack | v. | pæk | 打包；装箱 | pack the samples carefully 仔细打包样品。装箱单叫 packing list。
+@w: fragile | adj. | ˈfrædʒl | 易碎的 | Fragile — handle with care. 易碎品，小心轻放。
+@w: label | n./v. | ˈleɪbl | 标签；贴标签 | shipping label 快递面单；put a label on the box 在箱子上贴标签。
+
+@p: She sends Sarah the **tracking number**. "You can **track** the **package** online." Four days later, Sarah writes: "The samples arrived **in good condition**. Our team is testing them now. I'll **get back to** you with our **feedback** next week." Lily smiles. One step closer!
+@cn: 她把快递单号发给了 Sarah：「您可以在网上追踪包裹。」四天后，Sarah 来信：「样品完好无损地到了。我们团队正在测试，下周给你们反馈。」Lily 笑了——离成功又近了一步！
+@w: tracking number | n. | ˈtrækɪŋ ˌnʌmbər | 快递单号；追踪号 | Here's the tracking number. 这是快递单号。
+@w: track | v. | træk | 追踪；跟踪 | track the package online 在网上查快递；keep track of… 随时掌握……
+@w: package | n. | ˈpækɪdʒ | 包裹 | The package arrived. 包裹到了。也可以说 parcel。
+@w: in good condition | phr. | ɪn ˌgʊd kənˈdɪʃn | 完好无损 | The goods arrived in good condition. 货物完好到达。
+@w: get back to | phr. | ˌget ˈbæk tə | 回复（某人） | I'll get back to you tomorrow. 我明天回复您。（职场超高频）
+@w: feedback | n. | ˈfiːdbæk | 反馈 | **不可数**！Thanks for your feedback. 感谢您的反馈。
+
+@culture_title: 样品里的门道
+@culture: 很多中国供应商习惯「样品免费、快递也包」，但对美国大客户来说，**付快递费甚至付样品费都很正常**，他们更在意样品的质量和速度。常见做法：样品免费 + 客户付快递（用客户的 FedEx / DHL 账号，叫 freight collect），或者先收样品费、下单后退还或抵扣。
+@culture: 美国零售商会把样品送去**实验室测试**（安全、性能、包装跌落测试），所以样品必须和大货一模一样。客户确认后的样品叫 **approved sample** 或 **golden sample**，是以后验货的标准。
+@culture: 小技巧：寄出样品时，**自己留一个一模一样的**（counter sample），以后客户有疑问时，双方可以对照着看。
+
+@think_title: 「能 / 可以」：英文的「礼貌阶梯」
+@think_intro: 中文用「能 / 可以」来请求别人、征求同意。英文按**礼貌程度**分了好几级，用错了不算语法错，但会显得**太随便**或者**太生硬**。
+@think_intro: 礼貌阶梯：**Can you…?**（熟人、同事）→ **Could you…?**（客户、上级，最常用）→ **Would you mind + -ing?**（麻烦别人做不太情愿的事）。请求许可：**Can I…?** → **May I…?**（更正式）。
+@think_intro: 小陷阱：别人问 Would you mind…? 你同意时要说 **No, not at all.**（不介意）——说 Yes 等于「我介意」！
+@pair: 你可以寄样品给我吗？ | You can send me sample? | Could you send me a sample? | 对客户默认用 Could you
+@pair: 你能帮我一下吗？（同事之间） | You can help me? | Can you help me with this? | 熟人之间用 Can you 就行
+@pair: 您介意等几天吗？ | You mind wait a few days? | Would you mind waiting a few days? | 最客气：Would you mind + -ing
+@pair: 我可以进来吗？ | I can come in? | May I come in? | 请求许可最礼貌：May I
+@pair: 我能明天再答复你吗？ | I can tomorrow answer you? | Can I get back to you tomorrow? | 争取时间的好句子
+@pair: 这里可以抽烟吗？ | Here can smoke? | Is smoking allowed here? | 问「允许吗」→ allowed
+@pair: （回答 Would you mind…?）不介意。 | Yes, I don't mind. | No, not at all. / Not at all. | 回答「介意吗」，同意 = No
+@pair: 能便宜点吗？ | Can cheap a little? | Could you do a better price? | 讲价的礼貌说法（明天细讲）
+@think_tip: 对客户、对上级，默认用 **Could you…?**；要麻烦别人时用 **Would you mind + -ing?**；请求许可用 **May I…?**。回答 Would you mind…? 表示同意要说 **Not at all.**
+
+@dlg_title: 和客户确认样品细节 · Could You Send Me Your Logo?
+@dlg_intro: 打样之前，Lily 给 Sarah 打电话确认细节。注意她用了各种「礼貌请求」。
+@line: Lily | Hi Sarah, it's **Lily** from **BrightWay**. Do you have‿a **minute**? | 嗨 Sarah，我是 BrightWay 的 Lily。您现在有空吗？
+@line: Sarah | **Sure**, Lily. Is this‿about the **samples**? | 有啊，Lily。是样品的事吗？
+@line: Lily | **Yes**. Could you send me your **logo** file? | 是的。您能把 logo 文件发给我吗？
+@line: Sarah | Of **course**. I'll send‿it‿in **high** reso**lution**. | 当然，我发高清版给你。
+@line: Lily | **Thank** you. Would you **mind** sending‿it‿as‿a **PDF**? | 谢谢。您介意发 PDF 格式吗？
+@line: Sarah | Not‿at‿**all**. Anything **else**? | 一点也不介意。还有别的吗？
+@line: Lily | Yes. May‿I‿ask which **color** you'd like for the samples? | 有。请问样品您想要什么颜色？
+@line: Sarah | **Silver**, please. That's‿our **best-selling** color. | 银色，那是我们卖得最好的颜色。
+@line: Lily | Got‿it. And could you send me your **FedEx** account **number**? | 明白。还有，您能把 FedEx 账号发给我吗？
+@line: Sarah | **Sure**. I'll email‿it to you right after this **call**. | 好，挂了电话我就发邮件给你。
+@line: Lily | **Perfect**. We'll ship the samples next **Wednesday**. | 太好了。我们下周三寄出样品。
+@line: Sarah | **Great**. Could you send me the **tracking** number when they **ship**? | 好。寄出的时候能把单号发给我吗？
+@line: Lily | Of **course**. I'll send‿it the **same** day. | 当然，当天就发给您。
+@line: Sarah | Thanks, Lily. You're very ef**ficient**! | 谢谢你，Lily，你效率真高！
+
+@pron_title: 音的「融合」：could you 读成 /ˈkʊdʒə/
+@pron: **d + y → `/dʒ/`**：could you `/ˈkʊdʒə/`、would you `/ˈwʊdʒə/`、did you `/ˈdɪdʒə/`。
+@pron: **t + y → `/tʃ/`**：meet you `/ˈmiːtʃə/`（Nice to meet you!）、don't you `/ˈdoʊntʃə/`、what you `/ˈwʌtʃə/`。
+@pron: **s + y → `/ʃ/`**：this year `/ðɪʃ jɪr/`、bless you。
+@pron: 今天的礼貌句里到处都是：Could you…? Would you mind…? 读顺了，你的请求听起来既礼貌又自然。
+@pron_drill: 融合练习：could you ｜ would you ｜ did you ｜ meet you ｜ don't you ｜ what you　　句子：**Could** you **send** me the **file**? ｜ **Would** you **mind waiting**? ｜ **Nice** to **meet** you!
+
+@chunk: Could you send me…? | 您能发给我……吗？ | 对客户、上级请求的默认句式。
+@chunk: Would you mind paying the courier fee? | 您介意付一下快递费吗？ | 提出对方可能不太愿意的要求。
+@chunk: Not at all. | 一点也不介意。/ 不客气。 | 回答 Would you mind…? 表示同意。
+@chunk: May I ask…? | 请问……？ | 礼貌地提问。
+@chunk: We'd be happy to send you samples. | 我们很乐意给您寄样品。 | 答应客户请求的开头。
+@chunk: Samples are free of charge. | 样品免费。 | 说明样品政策。
+@chunk: Here's the tracking number. | 这是快递单号。 | 寄出后马上发给客户。
+@chunk: I'll get back to you next week. | 我下周回复您。 | 需要时间时，给对方一个时间点。
+
+@shadow: 重点跟读 Lily 的 5 个请求句，体会礼貌程度的不同：Could you send me your logo file? / Would you mind sending it as a PDF? / May I ask which color…? 注意 could you、would you 的融合读音 `/dʒə/`。
+@say: 您能寄两个样品给我们吗？ | Could you send us two samples?
+@say: 样品免费，但快递费需要您承担。 | Samples are free of charge, but you'll need to pay the courier fee.
+@say: 您介意付一下快递费吗？ | Would you mind paying the courier fee?
+@say: 请问样品要多久？ | May I ask how long the samples will take?
+@say: 我们很乐意帮忙。 | We'd be happy to help.
+@say: 这是快递单号，您可以在网上追踪。 | Here's the tracking number. You can track the package online.
+@say: 样品完好无损地到了。 | The samples arrived in good condition.
+@say: 我下周给您回复。 | I'll get back to you next week.
+@respond: 客户问："Do you charge for samples?" | Samples are free of charge, but would you mind paying the courier fee?
+@respond: 客户问："Would you mind sending the photos first?"（你不介意） | Not at all. I'll send them today.
+@respond: 同事问："Can I use your charger for a minute?" | Sure, go ahead.
+@respond: 客户问："When will the samples arrive?" | In three to five days. I'll send you the tracking number.
+@respond: 客户说："The samples arrived. We'll test them this week." | Great! Please let us know your feedback.
+@talk_topic: 向客户说明你们的样品政策
+@frame: We'd be happy to send you ______.
+@frame: Samples are ______ (free of charge / $___ each).
+@frame: Would you mind ______?
+@frame: It takes about ______ to make the samples.
+@frame: We'll ship them by ______. I'll send you the tracking number.
+@frame: Once you approve the samples, ______.
+@talk_sample: We'd be happy to send you samples. Samples are free of charge, but would you mind paying the courier fee? If you have a FedEx account, we can use your account number. It takes about seven days to make samples with your logo. We'll ship them by express, and I'll send you the tracking number. Once you approve the samples, we can start production.
+
+@bank: sample, charge, courier, deduct, approve, track, fragile, get back to
+@fill: Can you send us a free ______? | sample
+@fill: We don't ______ for samples. | charge
+@fill: The ______ fee is about $60 by DHL. | courier
+@fill: We'll ______ the sample fee from your first order. | deduct
+@fill: Once you ______ the sample, we'll start production. | approve
+@fill: You can ______ your package online. | track
+@fill: Please be careful. The box is ______. | fragile
+@fill: Thanks for your email. I'll ______ you tomorrow. | get back to
+@choose: 给客户写邮件请求寄样品，最合适的是：
+@opt: Send me samples.
+@opt: Can you send me sample?
+@opt: Could you send us two samples?
+@ans: C | 对客户用 Could you，sample 要加 s。
+@choose: 客户问 "Would you mind waiting a few days?"，你愿意等：
+@opt: Yes, I mind.
+@opt: Not at all.
+@opt: Yes, please.
+@ans: B | 回答 Would you mind，同意 = Not at all。
+@choose: 想进经理办公室，敲门后最礼貌的说法是：
+@opt: I can come in?
+@opt: May I come in?
+@opt: I come in, OK?
+@ans: B | 请求许可用 May I。
+@choose: 正式邮件里说「样品免费」：
+@opt: Samples are free of charge.
+@opt: Samples no money.
+@opt: Samples are freedom.
+@ans: A | free of charge 是正式说法。
+@fix: Would you mind to send me the file? | Would you mind sending me the file? | Would you mind 后面接 -ing。
+@fix: You can send me the tracking number? | Could you send me the tracking number? | 请求要把 could 放句首。
+@fix: The samples arrived with good condition. | The samples arrived in good condition. | 固定搭配 in good condition。
