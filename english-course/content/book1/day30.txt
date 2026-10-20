@@ -1,0 +1,193 @@
+@day: 30
+@week: 5
+@review: true
+@title_cn: 第一册综合复习与测评
+@title_en: Book 1 Review: One Month at SwiftLink
+@topic: 入职一个月的团队月会：1 分钟英文总结、听反馈、定目标；第一册阶段测评与第二册衔接
+@think_short: 「多亏了」thanks to ≠ thanks for｜「为你骄傲」proud 是夸奖｜「目标是」My goal is to…｜第一册八大易混点总检查
+
+@goal_scene: 入职满一个月，团队开月会：你要用 1 分钟英文讲清这个月——出过什么问题、怎么解决的、多亏了谁；再听懂经理和同事的反馈，按事实回答一个否定问句，最后说出下个月的目标。
+@goal_expr: A month ago, I was… / Thanks to…, … / I'm really proud of you. / You're more confident now. / What's your goal? — I want to improve… / I'm going to… / You weren't nervous, right? — Yes, I was!
+@goal_vocab: 复现第 1–29 天的 25 个旧词（虚线标出）+ 5 个新词 + 1 个短语：month, improve, confident, goal, proud, thanks to；另有 12 项阶段成果评估 + 8 项薄弱项检查
+@done: 不看稿，用 1–1.5 分钟英文讲自己的一个月（我是谁、做什么、平时的一天、一个解决了的问题、下个月的目标），和 Day 1 的录音对比，说出至少 2 处进步
+@done: 【E】5 组易混表达（不 / 没 / 还没 / 去过；Sorry / Excuse me、borrow / lend、bored / boring；have to / don't have to / must not；a / the；否定问句）每组都能说出正确句子，并用中文讲出理由
+@done: 听懂月会里的 You weren't nervous today, right? — Yes, I was!，自己被问否定问句时也能按事实回答
+@done: 填完「阶段成果评估」12 项和「薄弱项目记录」，选出 2–3 个薄弱项，写进第二册前 7 天的热身
+
+@plan: 旧知识情境复习 | 10 | 遮住答案，用英文说出「热身」的 6 句中文提示——它们来自第一册的五个星期，每句是一个大知识点。说不出的打 ★，记下右边的 D#，第 8 步写进薄弱项。
+@plan: 新情境阅读 | 15 | 先读【B】弄清谁在开会、林晓要讲什么；再读【C】：第 1 遍遮住中文，看到虚线词就停下来回忆意思和第几天学的；第 2 遍逐句对照中文，配合【D】学 5 个新词和 thanks to。
+@plan: 听懂短对话 | 15 | 用手机朗读功能播放【C】S15–S24 的对话（张涛、Emma、Mike 的反馈和提问），按「四步听法」听 4 遍；最后不看文字回答【I】第 1、2 题，再听写【G】的 2 个句子。
+@plan: 中文意思 → 英文组织 | 15 | 【H】第 2、3 层：只看中文情境，用第一册学过的表达组织英文，先说再写，最后对照示范。第 3 层每题都混合了不同星期的知识点，说之前先想一想「这是哪一天学的」。
+@plan: 不看原文复述 | 15 | 合上书，按【H】第 1 层的 8 个中文提示，先用林晓的口吻（I…）、再用第三人称（She…）复述【C】，录音；回放时专门检查过去式和 she 后面的 -s。
+@plan: 易混表达检查 | 15 | 做【E】的 5 组易混表达：每组先遮住「自然英文」，自己说出正确说法和理由，再看答案、完成小任务；错的那组把对比例句读 5 遍，并翻回标题里注明的那一天重看【E】。
+@plan: 输出录音与阶段测评 | 25 | 完成【H】的「今日输出」：准备 5 分钟、录 1–1.5 分钟、和 Day 1 的录音对比（约 12 分钟）；再做【I】第 3–8 题，并逐条填写「阶段成果评估」表（约 13 分钟）。
+@plan: 薄弱项记录与第二册衔接 | 10 | 填「薄弱项目记录」：勾出你也有的项，按「补强方法」把要重做的日子写进日历；读「下阶段改善建议」，选 2–3 个薄弱项写进第二册 Day 31–36 的热身里。
+
+@warmup_hint: 这 6 句来自第一册的五个星期，每句都是一个「大知识点」。遮住答案，5 秒内说出英文；说不出的打 ★，记下右边的 D#——今天最后一步要把它写进薄弱项目记录。
+@warmup: 你吃早饭了吗？——还没。 | Did you have breakfast? — Not yet. | D2
+@warmup: 五号线出了事故，所以地铁停了二十分钟。 | There was an accident on Line 5, so the subway stopped for twenty minutes. | D9
+@warmup: 我去过北京和上海。我去年去北京旅游了一趟。 | I've been to Beijing and Shanghai. I went to Beijing on a trip last year. | D10
+@warmup: 能帮我个忙吗？我能借一下你的充电器吗？ | Could you do me a favor? Can I borrow your charger? | D15
+@warmup: 我本来打算今天上午做完，可是系统宕机了两个小时。 | I was going to finish it this morning, but the system was down for two hours. | D23
+@warmup: 你不用新的看板，对吧？——对，我不用。 | You don't use the new dashboard, right? — No, I don't. | D29
+
+@scene: 入职满一个月的那天上午九点，SwiftLink 深圳团队开月会，西雅图的 Mike 也视频参会（他那边是前一天傍晚六点）。会议的最后一项，张涛请林晓用 1 分钟讲讲自己的第一个月——一个月前，她在前台紧张得只会说 Hi, I'm Lily；这一次要讲的事多得多：迟到、忘密码、第一个电话、卡在海关的样品、「丢了」的包裹……讲完，大家会给她反馈，Mike 还要问她下个月的目标。
+@sp: 人物关系 | 林晓 → 经理张涛、美国同事 Emma、视频里的 Mike；吴佳和李凯也在会议室——这一个月，每个人都帮过她
+@sp: 沟通目的 | 1 分钟讲清这个月：出过什么问题、怎么解决的、多亏了谁；听懂大家的反馈；说出下个月具体的目标
+@sp: 已知信息 | 大家对这些事都不陌生（每件事都有人参与过），所以不用讲细节——挑重点、按时间顺序、一件事一两句
+@sp: 表达重点 | 一个月前（A month ago, I was…）→ 出过的问题（过去式 + so / but）→ 解决和进步（Thanks to…, …）→ 听反馈（proud / confident）→ 按事实回答否定问句（Yes, I was.）→ 下个月的目标（I want to improve… / I'm going to…）
+
+@story_title: Episode 30 · One Month Later
+@story_type: 叙述 + 对话（新情境 · 团队月会）
+@s: It's the end of Lily's first **month** at SwiftLink. | 林晓在 SwiftLink 的第一个月就要结束了。
+@s: At nine, the team has its monthly [[meeting]]. Mike [[joins]] by video. | 九点，团队开月会，Mike 视频参会。
+@s: Mike: Hi, everyone! Can you hear me? | Mike：大家好！能听到我说话吗？
+@s: Tom: Loud and clear. Lily, can you tell us about your first month? Just one minute. | 张涛：听得很清楚。林晓，给大家讲讲你的第一个月吧？一分钟就行。
+@br:
+@s: Lily: OK. A month [[ago]], I was so [[nervous]]. I didn't know where the [[restroom]] was! | 林晓：好的。一个月前，我特别紧张，连洗手间在哪儿都不知道！
+@s: Lily: [[Once]], there was an [[accident]] on Line 5, so I was late. | 林晓：有一次五号线出了事故，我迟到了。
+@s: Lily: I [[forgot]] my password, too! | 林晓：我还忘过密码！
+@s: Lily: I [[borrowed]] Grace's charger and [[wrote]] my first email with her help. | 林晓：我借过吴佳的充电器，还在她的帮助下写了第一封邮件。
+@s: Lily: I [[answered]] my first phone call and took a message. | 林晓：我接了第一个电话，帮同事留了言。
+@s: Lily: I [[made]] a few [[mistakes]], too. The samples for Seattle got [[stuck]] in customs. | 林晓：我也犯过错：寄往西雅图的样品卡在了海关。
+@s: Lily: But I [[compared]] three shipping options for the next box. | 林晓：不过下一箱，我比较了三种寄送方案。
+@s: Lily: Last week, a seller thought his package was lost. It was [[delivered]]! | 林晓：上周，一位卖家以为他的包裹丢了——其实已经送到了！
+@s: Lily: It was a [[busy]] month, but it was really [[fun]]. | 林晓：这个月很忙，但真的很有意思。
+@s: Lily: **Thanks to** all of you, my English got better. | 林晓：多亏了大家，我的英语进步了。
+@br:
+@s: Tom: Great [[progress]], Lily! You said the main point first. | 张涛：进步很大，林晓！你先说了重点。
+@s: Tom: I'm really **proud** of you. | 张涛：我真为你骄傲。
+@s: Emma: Me too! You're much more **confident** now. | Emma：我也是！你现在自信多了。
+@s: Emma: But you weren't nervous today, right? | Emma：不过你今天不紧张吧？
+@s: Lily: Yes, I was! A little. | 林晓：紧张啊！有一点。
+@s: Mike: So, what's your **goal** for next month? | Mike：那你下个月的目标是什么？
+@s: Lily: I want to **improve** my listening, so I can [[understand]] you, Mike! | 林晓：我想提高听力，这样就能听懂您说话了，Mike！
+@s: Mike: Ha! [[Got it]]. Sorry, I [[talk]] too fast. | Mike：哈！懂了。抱歉，我说话太快了。
+@s: Lily: And I'm [[going to]] listen to English every day. | 林晓：我还打算每天都听英语。
+@s: Tom: Good plan. And you [[don't have to]] be perfect. | 张涛：好计划。还有，你不用追求完美。
+@s: Lily sits down. She [[feels]] proud of herself, too. | 林晓坐了下来，她也为自己感到骄傲。
+
+@v: month | = | n. | mʌnθ | 月；一个月 | 说时间长短、入职多久、月度安排 | this month / next month / last month；a month ago；once a month；monthly meeting（月会） | I joined SwiftLink a month ago. | 我一个月前加入了 SwiftLink。 | this / next / last month 前面不加 in：✗ in next month（和 next week 一样，D6）；「一个月一次」说 once a month，不说 ✗ one time one month；th 读 `/θ/`，不读 mons。
+@v: Thanks to | thanks to | phr. | ˈθæŋks tə | 多亏了；由于（有……的帮助） | 说一个好结果是谁或什么带来的：总结、汇报时感谢团队 | thanks to you；thanks to Grace；thanks to the new system | Thanks to Kevin, my computer works again. | 多亏了 Kevin，我的电脑又能用了。 | thanks to 后面先跟「人 / 事」，再跟一个结果：Thanks to Grace, my emails are better.；当面谢谢对方用 Thanks for…（D19）：Thanks for your help.，不说 ✗ Thanks to your help.（后面没有结果，听起来话没说完）。
+@v: proud | = | adj. | praʊd | 自豪的；（为别人）感到骄傲 | 经理、家人、朋友夸你的进步；说自己完成了一件不容易的事 | proud of sb / sth；I'm proud of you.；be proud of yourself | I'm proud of our team. We did it! | 我为我们团队骄傲，我们做到了！ | 中文「骄傲」常带贬义（自满），英文 proud 在这里是真心的夸奖；介词用 of（和 happy for you 不一样）：✓ proud of you；别人说 I'm proud of you，回答 Thank you! That means a lot.，不要像中文那样谦虚说「没有没有」。
+@v: confident | = | adj. | ˈkɑːnfɪdənt | 自信的；有把握的 | 说一个人敢开口、敢做决定；对某件事有把握 | feel confident；more confident；confident about… | I feel more confident on the phone now. | 我现在打电话更有底气了。 | confident 是形容词，前面要有 am / is / are（D1）：✓ I'm confident. ✗ I confident.；名词是 confidence：✓ I have more confidence now. ✗ I have more confident.
+@v: goal | = | n. | goʊl | 目标 | 说下个月、今年想做到的事；工作计划、和经理一对一谈话 | my goal is to…；set a goal；a goal for next month | My goal is to reply to every email within 24 hours. | 我的目标是每封邮件都在 24 小时内回复。 | 「目标是……」说 My goal is to + 动词原形：✗ My goal is improve. ✓ My goal is to improve.；美国职场喜欢具体、能检查的 goal：「提高英语」太空，「每天听 10 分钟英语」才是一个好目标。
+@v: improve | = | v. | ɪmˈpruːv | 提高；改进 | 说能力、产品、服务变好 | improve my English；improve the system；improve a lot | Mike's team wants to improve the dashboard. | Mike 的团队想改进数据看板。 | improve 是动词：✓ My English improved. ✗ My English is improve.；「提高英语」直接说 improve my English，不说 ✗ raise my English；「我进步很大」也可以说 I've made a lot of progress（D22）。
+
+@diff: 「不 / 没 / 还没 / 去过」——时间藏在动词里（复习 D2、D8、D10、D22）
+@d_cn: 同一个「没」或「过」，中文靠时间词和语境区分：平时不做、那一次没做、到现在还没做、这辈子做过、哪年哪月做了。
+@d_en: I don't work on weekends. / I didn't eat breakfast today. / Not yet. — I haven't finished it yet. / I've been to Beijing. / I went to Beijing last year.
+@d_why: 中文的动词不变形，「不 / 没 / 过 / 了」加上「昨天、去年、还」就把时间说清楚了。英文要把时间放进动词里：**don't** 管平时（D2），**didn't** 管过去的某一次（D2、D8），**haven't … yet / Not yet** 管「到现在为止还没有」（D2、D22），**have been to** 管经历、不说哪一次（D10），**went + 具体时间** 管「哪一次」（D10）。第一册一半以上的错都出在这里，所以第二册会接着学现在完成时的「持续」：I've worked here for a month.
+@d_when: 开口前先问自己一句：我说的是「平时」「那一次」「到现在」，还是「有没有过」？句子里一出现 yesterday / last year / three weeks ago 这样的具体过去时间，就用过去式，不用 have。
+@d_vs: **I don't work on weekends.** 我（平时）周末不上班。\n**I didn't work last Saturday.** 我上周六没上班。\n**Not yet. / I haven't finished the report yet.** 还没（做完）。\n**I've been to Chengdu.** 我去过成都。\n**I went to Chengdu last year.** 我去年去了成都。\n✗ I've been to Chengdu last year. ✗ I don't eat breakfast this morning.
+@d_task: 用英文说：① 我平时不喝咖啡。② 我今天早上没喝咖啡。③ 报告我还没写完。④ 我去过上海，是去年和朋友去的。 | ① I don't drink coffee. ② I didn't drink coffee this morning. ③ I haven't finished the report yet.（或 Not yet.）④ I've been to Shanghai. I went there with my friends last year.
+@diff: 中文一个词，英文分两个：「对不起」「借」「无聊」（复习 D9、D15、D27）
+@d_cn: 「对不起 / 不好意思」可以是道歉、打扰、表示同情；「借」可以是借进来、借出去；「无聊」可以是我觉得无聊，也可以是这件事很无聊。
+@d_en: Excuse me, can I come in? / Sorry I'm late. / I'm sorry to hear that.；Can I borrow your pen? / Could you lend me your pen?；I'm bored. / The meeting was boring.
+@d_why: 中文一个词包了好几个方向，靠语境去懂；英文按「方向」分成不同的词。**Excuse me** 在打扰别人**之前**说（进门、借过、叫住人），**Sorry** 在添了麻烦**之后**说（迟到、出错），I'm sorry to hear that 是「替你难过」，不是道歉（D9、D27）。**borrow** 是东西往**我**这边来，**lend** 是东西从我这边**出去**（D15）。**bored** 是人**感到**无聊，**boring** 是事情**让人**无聊——说 ✗ I'm boring，意思是「我这个人很无趣」（D27）。说之前想一想：麻烦发生了没有？东西往哪走？感觉从哪来？
+@d_when: 进门、借过、打断 → Excuse me；迟到、出错 → Sorry；听到坏消息 → I'm sorry to hear that.。「我」向别人要 → Can I borrow…?；请别人给 → Could you lend me…?。说人的感受 → -ed；说事情本身 → -ing。
+@d_vs: **Excuse me**, can I come in? 打扰一下，我能进来吗？\n**Sorry** I'm late. 对不起，我迟到了。\nThat's too bad. **I'm sorry to hear that.** 真遗憾。（同情，不是道歉）\n**Can I borrow** your charger? = **Could you lend me** your charger?\n**I was bored.** 我很无聊。／**The meeting was boring.** 会很无聊。\n✗ Can you borrow me your pen? ✗ I'm boring in meetings.
+@d_task: 用英文说：① （同事站在打印机前挡住了路）不好意思，借过一下。② 你能借我五十块钱吗？（两种说法）③ 那个培训好无聊，我听得很没劲。 | ① Excuse me. Can I get by? ② Can I borrow fifty yuan? / Could you lend me fifty yuan? ③ The training was so boring. I was really bored.
+@diff: 「必须」「不用」「不准」——have to / don't have to / must not（复习 D24）
+@d_cn: 「必须做」「不用做（做不做都行）」「不准做」——三种完全不同的意思。
+@d_en: You have to wear your badge. / You don't have to work on weekends. / You must not share your password.
+@d_why: 中文「不用」和「不准」都带一个否定字，看起来像一对；英文里它们的意思正好相反：**don't have to** 是「不是必须」（你可以放心不做），**must not** 是「禁止」。把「你周末不用上班」说成 ✗ You must not work on weekends，新同事会以为周末来公司是违反规定。另外，口语里说「必须」，美国人多用 **have to**；must 更像写在墙上的规定或很强的语气；温和的建议用 **should**（D24）。今天张涛说 You don't have to be perfect.——「你不必完美」，是在给林晓减压。
+@d_when: 讲规定 → have to / must not；告诉对方「不必、可以不做」→ don't have to；给建议 → should / shouldn't。
+@d_vs: **You have to wear your badge.** 你必须戴工牌。\n**You don't have to work on weekends.** 你周末不用上班。（可以不来）\n**You must not share your password.** 不准把密码告诉别人。（禁止）\n**You should reply within 24 hours.** 最好 24 小时内回复。（建议）\n✗ You must not work on weekends.（意思变成「周末禁止上班」）
+@d_task: 给新来的实习生讲规定：① 你不用穿正装（formal clothes）。② 不准用手机拍客户资料。③ 下班前必须退出系统。 | ① You don't have to wear formal clothes. ② You must not take photos of customer data. ③ You have to log out before you go home.
+@diff: 「一个客户」「那个包裹」——a / an 还是 the（复习 D3、D28）
+@d_cn: 中文常常不说「一个」「那个」，听的人靠上下文就知道指的是哪一个。
+@d_en: A customer says the package didn't arrive. / There's a printer next to the kitchen. The printer is new.
+@d_why: 英文的单数名词前面几乎都要「表个态」：对方**还不知道是哪一个**（第一次提到、随便哪一个）→ **a / an**；对方**知道是哪一个**（前面说过、只有一个、大家都看得见）→ **the**（D28）。中文没有这个习惯，所以很多人到第一册结束还会漏掉 a / the，或者处处都用 the。一个简单的检查方法：说完一个名词，问自己「对方知道是哪一个吗？」今天的故事里，林晓说 a seller（第一次提到）、the samples for Seattle（大家都知道是哪批样品）。
+@d_when: 第一次提到 → a / an（元音开头用 an：an email、an hour）；再次提到、双方都知道的那一个 → the；序数词和办公室里唯一的东西前 → the：the fifth floor、the kitchen（D3）。可数名词单数不能「光着」：✗ I got email.
+@d_vs: I got **an** email from **a** seller. **The** email was about **a** late package.\n我收到一个卖家的邮件，邮件说的是一个晚到的包裹。\n**The** printer is next to **the** kitchen.（办公室里就那一台、那一间）\n✗ Customer says package didn't arrive.
+@d_task: 填 a / an / the：I have ___ meeting at ten. ___ meeting is in ___ big meeting room on ___ fifth floor.（这层只有一间大会议室） | a（第一次提到）／The（就是刚才说的那个会）／the（这层就那一间）／the（序数词前用 the）
+@diff: 「对，我不……」——否定问句看事实答 Yes / No（复习 D13、D29）
+@d_cn: 对方问「你不……吧？」「你没……吧？」，中文先评价对方说得对不对：「对，我没有」「不，我有」。
+@d_en: Aren't you hungry? — No, I'm not. / You don't use it, right? — No, I don't. / You weren't nervous, right? — Yes, I was!
+@d_why: 中文的「对 / 不对」是在回应对方的话；英文的 **Yes / No 只跟着事实走**：事实是肯定的（我饿、我用、我紧张）就说 **Yes**，事实是否定的就说 **No**，后面跟的 I am / I'm not 必须和 Yes / No 一致（D13、D29）。所以今天林晓说 **Yes, I was!**——意思是「我紧张了」，不是「对，我不紧张」。拿不准时，别只说一个 Yes / No：说完整句子，或者用 That's right. / Actually, … 开头再补一句，最保险。
+@d_when: 对方问 Aren't you…? / Don't you…? / Didn't you…? / You don't…, right? / You weren't…, right? 的时候。
+@d_vs: **You weren't nervous today, right?**\n— **Yes, I was!** （其实）我紧张了。\n— **No, I wasn't.** 对，我不紧张。\n**Didn't you get my email?** — **Yes, I did.** 收到了。\n✗ Yes, I wasn't. ✗ No, I was.
+@d_task: 按事实回答：① Mike 问 You haven't been to Seattle, right?（你确实没去过）② 吴佳问 Didn't you get my message?（你收到了，今天早上收到的） | ① No, I haven't. ② Yes, I did. I got it this morning.
+
+@core: Hi, I'm… I work in… / He's in charge of… | 来自 D1、D4：介绍自己、自己的工作和同事 | 名字 / 部门（customer service / operations）/ 负责的事（accounts / the weekly report） | 正式：I'm Lily Lin, an operations assistant at SwiftLink.｜随意：Hi, I'm Lily. I'm in operations.
+@core: I usually… / I didn't… / Not yet. | 来自 D2：平时的习惯、那一次没做、到现在还没做 | get up at seven / eat breakfast / finish the report | 正式：I haven't had a chance to finish it yet.｜随意：Nope, not yet.
+@core: There was…, so… / …because… | 来自 D9、D14：说明原因，because 和 so 只用一个 | an accident on Line 5 / a problem with the system / heavy rain | 正式：There was a problem with the system, so the report is a little late.｜随意：The subway stopped, so I'm late.
+@core: Could you…? / Can I borrow…? / Would you mind + -ing? | 来自 D15：礼貌地请人帮忙、借东西 | sign this / your charger / showing me how to print | 正式：Would you mind showing me how to do this?｜随意：Can I borrow your pen?
+@core: I'd love to, but… How about…? | 来自 D18：婉拒邀请，再提一个新时间 | I have a class / Saturday / next week | 正式：Thank you for inviting me. Unfortunately, I have a class on Friday.｜随意：Can't make Friday. How about Saturday?
+@core: I'm working on it. / It's almost done. / I was going to…, but… | 来自 D22、D23：向经理汇报进度、说明延误 | the report / the client list；the system was down | 正式：I'm a little behind schedule. Can I send it tomorrow morning?｜随意：Almost done!
+@core: Let me check. / I'll look into it. / Let's follow up by email. | 来自 D13、D28、D29：不能马上回答、需要跟进的时候 | check the status / contact the carrier / on Monday | 正式：I'll look into it and get back to you this afternoon.｜随意：One sec, let me check.
+@core: Thanks to…, … / I'm proud of… / My goal is to… | 来自 D30：总结一段时间、感谢别人、定下一个目标 | all of you / Grace / the new system；our team；improve my listening | 正式：Thanks to the team's support, my English has improved a lot.｜随意：Thanks, guys! I'm so proud of us.
+
+@pw: month | mʌnθ | 1 个音节 | o 读 `/ʌ/`，短促的「啊」；结尾 th 是 `/θ/`：舌尖放在上下齿之间轻轻送气，不读 mons / monf
+@pw: improve | ɪmˈpruːv | 2 个音节 im·PROVE | 重音在后；结尾 v 上齿轻碰下唇、声带振动，不要读成 im-proof 或 im-prow
+@pw: confident | ˈkɑːnfɪdənt | 3 个音节 CON·fi·dent | 重音在第一个音节，con 嘴巴张大 `/kɑːn/`；后两个音节又轻又快
+@pw: goal | goʊl | 1 个音节 | oa 读 `/oʊ/`，从「欧」滑到圆唇；结尾是暗 l：舌尖抵住上齿龈，不要读成「狗」，也不要加「儿」
+@pw: proud | praʊd | 1 个音节 | ou 读 `/aʊ/`（像「凹」）；和 of 连读成 proud‿of `/ˈpraʊdəv/`
+@ps: A **month**‿a**go**, / I was **so** **ner**vous. | month‿ago 连读：th 直接带出 a，像 mon-thə-go；so 和 nervous 读重，听的人才知道「当时真的很紧张」。
+@ps: **Thanks** to‿**all** of you, / my **Eng**lish got **bet**ter. | to 弱读成 `/tə/`，和 all 连成 tə-all；better 中间的 t 美式读成闪音 `/ˈbeɾər/`，听起来像轻轻的 d。
+@ps: You **weren't** nervous to**day**, / **right**? ↗ — **Yes**, I **was**! | weren't 读重，n 要清楚，不然听成 were；回答里 Yes 和 was 都读重，was 读强式 `/wʌz/`——对方马上明白「我确实紧张了」。
+@pnote: 第一册缩读总复习：I'm / you're / don't / didn't / can't / won't / I've / I'll / it's——说话时都用缩写，书面的 I did not 只在强调时用。听的时候主要靠元音分辨：don't `/oʊ/` 和 didn't `/ɪ/`；can 弱读 `/kən/`，can't 读 `/kænt/` 而且重读。
+@pnote: 讲 1 分钟的总结，「停顿」比「语速」更重要：每讲完一件事停半秒，用 But / So / Then / Thanks to… 开头讲下一件——听的人跟得上，你也有时间想下一句。林晓的总结就是一件事一两句。
+@lfocus: weren't 和 were 的区别：听 n 和重音
+@lfocus: Thanks to‿all of you：to 弱读、和 all 连读
+@lfocus: Got it 连成 /ˈgɑːɾɪt/，像「嘎迪特」
+@dict: S14
+@dict: S21
+@res: 在 youglish.com 输入 "proud of you"，选 US，听美国人在什么场合、用什么语气说这句话。
+
+@mimic: 合上书，不看【C】，按下面 8 个中文提示，先用林晓的口吻（I…）讲她的 1 分钟总结，再用第三人称（Lily… She…）把整个月会讲一遍，并录音：① 月底的月会，Mike 视频参会，张涛请林晓讲一分钟 ② 一个月前：特别紧张，连洗手间在哪都不知道 ③ 有一次五号线出事故，迟到了；还忘过密码 ④ 借吴佳的充电器、写第一封邮件、接第一个电话 ⑤ 犯过错：样品卡在海关 → 下一箱比较了三种方案 ⑥ 「丢了」的包裹其实送到了；很忙但很有意思；多亏大家，英语进步了 ⑦ 张涛和 Emma 的反馈；Emma 的否定问句和林晓的回答 ⑧ 下个月的目标、Mike 的反应、张涛最后一句话。第三人称版专门检查：was / were、过去式、she 后面的 -s（She feels…）。
+@swap: A month ago, I was so nervous. | 换时间和心情：A week ago / Last year；tired / confused / excited | A year ago, I was so confused at work.
+@swap: Thanks to all of you, my English got better. | 换原因和结果：Kevin → my computer works again；the new dashboard → our reports are faster | Thanks to Kevin, my computer works again.
+@swap: I'm really proud of you. | 换对象：our team / my son / myself；也可以 proud of + 事情 | I'm really proud of our team.
+@swap: I want to improve my listening. | 换成你想提高的方面，再加一句具体做法：my speaking / my emails；I'm going to… every day | I want to improve my speaking. I'm going to read English out loud every day.
+@free: 月会上经理问 How was your month?：你想说「这个月很忙，但很开心。上周五号线出了事故，我迟到了一次」。（D2、D9、D11） | It was busy, but it was fun. Last week, there was an accident on Line 5, so I was late once.
+@free: 经理问 You haven't sent the report yet, right?：你确实还没发，正在做，四点前能发。（D2、D22、D29） | No, I haven't. I'm working on it. I can send it by four.
+@free: 吴佳正在打电话，你急需借她的充电器：先礼貌地打断，再借，说明原因（手机没电了）。（D9、D15、D29） | Excuse me, Grace. Sorry to interrupt. Can I borrow your charger? My phone is dead.
+@free: 实习生问 Do I have to work on weekends?：告诉他不用；但不准把密码告诉别人，客户消息最好 24 小时内回复。（D24） | No, you don't have to work on weekends. But you must not share your password, and you should reply to customers within 24 hours.
+@free: Mike 问 Have you ever been to Seattle?：你没去过，但去年去北京出过差，希望有一天能去西雅图。（D10） | No, I haven't. But I went to Beijing on a business trip last year. I hope to visit Seattle someday.
+@free: 你带的实习生第一次独立接完一个很生气的客户的电话，处理得很好：夸夸他。（D25、D27、D30） | Great job! That customer was really angry, but you didn't get upset. I'm so proud of you.
+@output: 第一册录音测试（25 分钟里的前 12 分钟）。① 准备 5 分钟：纸上只写 5 组中文关键词，不写英文句子——我是谁 / 我的工作 / 我平时的一天 / 这个月（或最近）我解决的一个问题 / 下个月的目标。② 录 1–1.5 分钟，中间不停、不重来：介绍自己和工作（D1、D4）→ 平时的一天（usually / It takes about…，D2）→ 一个问题和你怎么解决的（过去式 + because / so / but，D9、D12、D23）→ 多亏了谁、你为什么骄傲（thanks to / proud）→ 下个月的目标（My goal is to… / I'm going to…）。③ 把 Day 1 的录音和今天的放在一起听，数一数：今天说了几句？用了几个 because / so / but？过去的事是不是都用了过去式？he / she 后面有没有 -s？把结果写在「阶段成果评估」表旁边。说实话：一个月不会让任何人说得像母语者——你要找的是「比 Day 1 长、连贯、敢说」。
+@output_sample: Hi, everyone. I'm Lily Lin, and I'm an operations assistant at SwiftLink. I work with the customer service team, and I report to Tom. I usually get up at seven and take the subway to work. It takes about an hour. Every day, I answer emails from sellers, track packages, and update the weekly shipment report. This month, I had a big problem. The samples for our Seattle team got stuck in customs, because I forgot to send a form. It was my fault. So I called the warehouse, and they sent the form the next morning. For the next box, I compared three options and chose the most reliable one. I'm proud of that. Thanks to my coworkers, I'm more confident now. My English isn't perfect, but it's much better than it was a month ago. My goal for next month is to improve my listening. I'm going to listen to English for fifteen minutes every day.
+
+@check: （听力，不看原文回答）Emma 问 But you weren't nervous today, right?，林晓回答 Yes, I was! A little.——她今天到底紧张了没有？如果她一点也不紧张，应该怎么回答？ | 紧张了（有一点）。Yes 跟着事实走：Yes, I was. = 我紧张了。不紧张要说 No, I wasn't.
+@check: （听力，不看原文回答）张涛夸了林晓哪两点？Mike 问了她什么？她的目标是什么，打算怎么做？ | 张涛：进步很大（Great progress），而且先说了重点（You said the main point first）。Mike 问她下个月的目标；她想提高听力，好听懂 Mike，打算每天都听英语。
+@check: 你想在周会上说「多亏了 Kevin，系统又能用了」。Thanks for Kevin, the system works again. 对吗？ | 不对。说 Thanks to Kevin, the system works again.（thanks to = 多亏了，后面跟结果）；当面谢 Kevin 才说 Thanks for your help, Kevin.
+@check: 新来的实习生第一天上班，很紧张。用 2–3 句话安慰她，提到一个月前的你。 | Don't worry. A month ago, I was so nervous, too. Everyone here is friendly.
+@check: 朋友问你 You haven't finished Book 1 yet, right?——你今天刚学完。按事实回答，再补一句什么时候学完的。 | Yes, I have! I finished it today.（事实是「学完了」，所以说 Yes；后一句有具体时间 today，用过去式 finished）
+@check: 改错并说明理由：① Can you borrow me your pen? ② The training was two hours. I was so boring. ③ （你想说「你周末不用来」）You must not come in on weekends. | ① Can I borrow your pen? / Could you lend me your pen?（borrow 借进、lend 借出）② I was so bored.（人的感受用 -ed）③ You don't have to come in on weekends.（must not 是「禁止」）
+@check: 会已经开了 10 分钟，你才到会议室门口（五号线出了问题，地铁停了一刻钟）。进门时说什么？会后向经理解释时说什么？ | 进门：Excuse me, can I come in? Sorry I'm late. 会后：There was a problem on Line 5, so the subway stopped for fifteen minutes. It won't happen again.
+@check: 用 a / an / the 说：「我今天早上收到一个卖家的邮件，邮件问的是一个晚到的包裹。我已经回复那封邮件了。」 | I got an email from a seller this morning. The email was about a late package. I've already replied to the email.（第一次提到用 a / an，再说到同一封邮件用 the）
+
+@assess: 不看稿连续说 1 分钟：介绍自己、自己的工作、同事和办公室（I work in… / He's in charge of… / There's a… next to…） | D1、D3、D4、D30
+@assess: 说清作息和时间：平时（don't）、那一次（didn't）、到现在还没（Not yet）；约时间用对 at / on / next | D2、D6
+@assess: 用过去式讲昨天、周末和这个月的 4–6 件事；分清 I went… 和 I've been to… | D8、D10、D11、D14
+@assess: 说明迟到、系统故障、包裹状态的原因和结果（There was…, so… / It's out for delivery. / It was delivered.） | D9、D12、D28
+@assess: 在线上回答客户的问题：问句把 is / do / can 提前，用 Yes, it is. / I'm afraid not. 简短回答 | D13
+@assess: 点餐、借东西、请人帮忙都说得礼貌（I'd like… / Can I borrow…? / Could you…? / Would you mind…?） | D5、D15
+@assess: 说计划和安排（I'm going to… / I'm meeting… / I'll…），接受或婉拒邀请，并提出另一个时间 | D16、D18
+@assess: 打一个简单的工作电话（自报家门、留言、请对方重复或拼写），写一条 3–5 句的工作消息 | D17、D19
+@assess: 问数量和价格（How many / How much），读出大数字；比较两三个选择并推荐一个 | D20、D26
+@assess: 向经理汇报进度（在做 / 做完了 / 快好了），说明延误（I was going to…, but… / was supposed to…） | D22、D23
+@assess: 说清规定和建议（have to / don't have to / must not / should），用对 make / do / take / get / have 的常见搭配 | D24、D25
+@assess: 用 -ed / -ing 说心情、回应好消息和坏消息；回答否定问句不把 Yes / No 答反；听懂 didn't / can't / gonna 等弱读 | D13、D27、D29
+
+@weak: 第三人称 -s 说快了就漏（✗ She work in IT. ✗ He don't know.） | 用第三人称（Lily… She…）复述【C】并录音，回放时专门听 -s；重做 D4【E】第 3 组和 D4 今日输出
+@weak: 过去的事忘了变过去式（✗ I go there yesterday. ✗ I forget my password last week.） | 每晚睡前用过去式说 3 件今天做的事；重做 D8【E】第 2 组（不规则过去式）、D14【E】第 1 组和 D11 今日输出
+@weak: 回答否定问句 Yes / No 答反（✗ Yes, I don't.） | 先在心里说出事实（我不用 → No），再开口；拿不准就说 That's right. + 完整句子；重做 D13【E】第 3 组、D29【E】第 1 组和今天【E】第 5 组
+@weak: a / the 不稳定；可数名词复数漏 -s（✗ I need box. ✗ two package） | 朗读【C】时用笔圈出所有 a / an / the 和复数 -s；重做 D28【E】第 1 组、D20【E】第 1 组（How many + 复数）和今天【E】第 4 组
+@weak: 听不出 didn't / can't，听不懂 gonna / wanna / kinda | 重做 D2【G】（don't / didn't）和 D29【G】（gonna / wanna）；每天听写 1 句含 didn't 或 can't 的句子；在 youglish.com 输入 "can't"，选 US，和 can 的读法对比
+@weak: 句子太短、一句一停，不用 because / so / but 连接 | 今日输出每讲一件事至少用一个连接词；把【C】S5–S14 的短句两两合并说一遍；重做 D9【E】第 3 组和 D14【E】第 4 组（because 和 so 只用一个）
+@weak: don't / didn't / Not yet 混用（✗ I don't eat breakfast this morning.） | 开口前先问「平时？那一次？到现在？」再选词；重做 D2【E】全部 3 组、D22【E】第 2 组和今天【E】第 1 组
+@weak: 有具体过去时间还用 have（✗ I've been to Beijing last year. ✗ I've finished it yesterday.） | 句子里有 yesterday / last year / ago 就用过去式；重做 D10【E】第 1 组、D14【E】第 2 组、D22【E】第 2 组——第二册会系统地学现在完成时
+
+@improve: 每天保持三件事：① 再忙也有 30 分钟保底（热身 10 + 朗读【C】10 + 【H】第 3 层 10），一天都不断；② 每天出声，至少 1 段录音按日期存档；③ 每周日用 1 分钟讲「我这一周」。实话实说：一个月不会让任何人说得像母语者，第一册的目标是「敢开口、说得清」；第二册的目标是能连续讲 1–2 分钟的小故事，靠的还是每天开口。
+@improve: 把薄弱项带进第二册的热身：从上面的「薄弱项目记录」里选 2–3 个你打了勾的（最常见的是第三人称 -s、过去式、否定问句、a / the），在第二册 Day 31–36 的热身旁边写下来，每天多说 1 句针对它的句子（比如 -s：She works in IT. He doesn't drive.）；Day 37 复习日检查它还在不在。
+@improve: 第二册新增①时间表达：现在完成时说经历和持续——I've lived in Shenzhen for two years. / I've worked here since May.（第一册的 I've been to… 和 I've finished… 就是它的基础）；过去进行时讲故事的背景——I was waiting for the subway when it started to rain.；used to 说「以前常常」——I used to take the bus.
+@improve: 第二册新增②对话能力：不只回答，还要接话——追问 What happened next? / How come?，回应 No way! / That makes sense. / Really?；目标是把今天这样的 1 分钟独白，变成 3–4 个来回的真实对话，再讲一个 1–2 分钟的小故事。
+@improve: 第二册新增③生活场景：林晓入职第二个月，故事从办公室走进生活——租房、看病、银行、网购退换、交通出行、兴趣爱好、家人朋友；语音上加入句子语调（惊讶、确认、列举）。第一册的办公室表达不会丢：它们会作为热身和复现词继续出现，只是不再从零讲。
+
+@next1: 不看书说出 S14、S16、S17、S19、S20、S21（thanks to / proud / confident / Yes, I was. / goal / improve）
+@next1: 把「薄弱项目记录」里打勾的 2–3 项抄到第二册 Day 31 的热身旁边
+@next7: 把 Day 1、Day 30 的录音放在一起再听一遍，然后再录一次 1 分钟「我这一周」，比较三次录音的长度和连接词
+@next7: 再做一遍【E】5 组易混表达的小任务；还会错的那组，写进 Day 37 复习日的薄弱项
