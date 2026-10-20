@@ -69,7 +69,7 @@
 @v: private | = | adj. | ˈpraɪvət | 保密的；私人的 | 客户信息、个人信息、私人谈话 | private information；keep sth private；a private room | Please keep this private. | 这件事请保密。 | 「隐私」是名词 privacy；「这是我的隐私」说 That's private.，不说 That's my privacy.
 @v: allow | = | v. | əˈlaʊ | 允许 | 说规定允许或不允许什么 | allow sb to…；be not allowed；Is it allowed? | We don't allow food in the meeting room. | 会议室不允许带食物。 | 「不允许」口语常用被动：You're not allowed to…；allow 后面接人再接 to do：allow you to use it。
 @v: make sure | = | phr. | ˌmeɪk ˈʃʊr | 一定要；确保 | 叮嘱别人别忘了；自己再确认一下 | make sure you…；make sure (that)…；Let me make sure. | Make sure you save the file. | 一定要记得保存文件。 | 「我确定 / 我肯定」是 I'm sure；「确保、一定要做到」是 make sure，两个别混。
-@v: log out | = | phr. | ˌlɔːg ˈaʊt | 退出登录 | 下班、离开电脑、用完公用电脑之后 | log out of the system；log out of your account | Don't forget to log out of your email. | 别忘了退出邮箱。 | 和 log in（Day 12）相反；「退出某个系统」用 log out of…；名词写成一个词 logout。
+@v: log out | = | phr. | ˌlɑːɡ ˈaʊt | 退出登录 | 下班、离开电脑、用完公用电脑之后 | log out of the system；log out of your account | Don't forget to log out of your email. | 别忘了退出邮箱。 | 和 log in（Day 12）相反；「退出某个系统」用 log out of…；名词写成一个词 logout。
 @v: necessary | = | adj. | ˈnesəseri | 必要的；必须的 | 问某事有没有必要；说没必要 | Is that necessary?；if necessary；not necessary | It's not necessary to print the email. | 没必要把邮件打印出来。 | 主语一般是 it / that：It's necessary to…；✗ I'm necessary to… 不对。
 @v: follow | = | v. | ˈfɑːloʊ | 遵守（规定）；按照（步骤）；跟着 | 遵守规定、按步骤操作 | follow the rules；follow the steps；follow me | Please follow the steps on the screen. | 请按屏幕上的步骤操作。 | 「遵守规定」= follow the rules，不说 keep the rules；follow up（跟进）是另一个短语（Day 29）。
 
