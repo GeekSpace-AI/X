@@ -1,0 +1,146 @@
+@day: 7
+@week: 1
+@review: true
+@title_cn: 第 1 周复习：第一周过得怎么样
+@title_en: How Was Your First Week?
+@topic: 复习第 1 周：说感受、讲一周的经历、给朋友发消息
+@think_short: 「不」don't／「没」didn't｜「有」There is／have｜I like／I'd like｜「在」in／on／at｜「我很累」I'm 不能丢
+
+@goal_scene: 周五下午，同事问你「第一周过得怎么样」：用这一周学过的表达，说出感受、哪里难哪里容易、记住了哪些人和地方；晚上再用一条消息向朋友讲讲这一周。
+@goal_expr: How was your first week? — Busy, but great! / I'm tired, but I'm not nervous anymore. / I learn something new every day. / That's easy to remember. / By the way, … / I like… / I'd like to…
+@goal_vocab: 6 个新词 + 1 个短语（tired, learn, remember, easy, hard, great；by the way）＋ 18 个第 1 周复现词
+@done: 不看原文，按【H】第 1 层的提示用 6–8 句英文复述【C】：Emma 问了什么、林晓怎么回答、她给朋友的消息里说了什么
+@done: 【E】5 组易混表达（don't / didn't；There is / have；I like / I'd like；in / on / at；I'm…）每组都能选对，并用一句中文说出理由
+@done: 录 1 分钟「我的第一周」，至少用到本周 5 天里的表达，没有 I very tired、Here has…、on next Monday 这类错误
+
+@warmup: 你好，我叫林晓，是新来的运营助理。 | Hi, I'm Lily Lin. I'm the new operations assistant. | D1
+@warmup: 她没吃早饭——没时间了。 | She didn't eat breakfast. She didn't have time. | D2
+@warmup: 茶水间里有免费咖啡。 | There's free coffee in the kitchen. | D3
+@warmup: 李凯在 IT 部，系统账号归他管。 | Kevin works in IT. He's in charge of accounts. | D4
+@warmup: 我要牛肉面，谢谢。别太辣。——真的吗？我可爱吃辣了。 | I'd like the beef noodles, please. Not too spicy. — Really? I like spicy food. | D5
+@warmup: 你下周三下午三点半有空吗？ | Are you available next Wednesday at three thirty? | D6
+
+@scene: 周五下午四点，林晓入职第一周的最后一个下午。中午团队刚一起吃过午饭（就是周四张涛说的那顿 team lunch）。Emma 端着两杯咖啡来到林晓的工位，问她这一周过得怎么样。当天晚上，林晓给大学同学小梅发了一条消息——两人约好每天用英语发消息，互相练习——讲讲这一周：办公室什么样、同事们做什么、早饭和午饭，还有下周的打算。
+@sp: 人物关系 | 林晓 ↔ Emma：一起工作了一周的同事，已经很熟，可以开开玩笑；林晓 → 小梅：大学同学兼英语练习搭子，语气最随意
+@sp: 沟通目的 | 回答「这一周怎么样」：说感受（累但开心）、难和容易的地方、记住了谁和什么；再向朋友简单讲讲这一周。美国人周五问 How was your week? 多半是寒暄：先给一个简短、积极的总评，再补一两个细节，不用像汇报工作那样从周一讲起
+@sp: 已知信息 | Emma 知道林晓这周很忙，但不知道她累不累、记不记得大家；小梅对林晓的公司、同事和这一周发生的事一无所知
+@sp: 表达重点 | 总评（Busy, but great!）→ 状态（I'm tired / I'm not nervous anymore）→ 难和容易（hard / easy to remember）→ 谁做什么（Kevin fixes… / Grace handles…，别漏 -s）→ 习惯 vs 那一次（never skip / didn't have time）→ 喜好 vs 愿望（I like / I'd like to）
+
+@story_title: Episode 7 · Busy, but Great!
+@story_type: 叙述 + 对话 + 消息
+@s: It's [[Friday]] afternoon. | 周五下午。
+@s: Lily's first week is almost over. | 林晓上班的第一周快结束了。
+@s: Emma comes to her [[desk]] with two coffees. | Emma 端着两杯咖啡来到她的工位。
+@br:
+@s: Emma: Happy Friday! How was your first week? | Emma：周五啦！第一周过得怎么样？
+@s: Lily: Busy, but **great**! Everyone here is so [[friendly]]. | 林晓：挺忙的，不过特别好！这里每个人都很友善。
+@s: Emma: You look **tired**. Is the new job **hard**? | Emma：你看着有点累。新工作难吗？
+@s: Lily: Some days are hard, but I **learn** something new every day. | 林晓：有几天挺难的，不过我每天都能学到新东西。
+@s: Emma: Do you **remember** everyone's name? | Emma：大家的名字你都记住了吗？
+@s: Lily: I think so! Kevin [[fixes]] computers, and Grace [[handles]] emails from [[sellers]]. | 林晓：应该都记住了！李凯修电脑，吴佳处理卖家发来的邮件。
+@s: Lily: And there's free coffee in the [[kitchen]]. That's **easy** to remember! | 林晓：还有，茶水间里有免费咖啡——这个最好记！
+@s: Emma: Ha! **By the way**, Tom wants to meet with you next week. | Emma：哈哈！对了，张涛下周想找你聊聊。
+@s: Lily: I know. It's next [[Wednesday]] at three thirty. It's in my [[calendar]]. | 林晓：我知道，是下周三三点半，已经记在日历里了。
+@br:
+@s: That evening, Lily texts her friend Mei. | 当天晚上，林晓给朋友小梅发了一条消息。
+@s: Hi Mei! I'm tired, but I'm not [[nervous]] [[anymore]]. | 小梅！我挺累的，不过已经不紧张了。
+@s: I have a [[quiet]] desk near the [[window]]. | 我的工位在窗户边上，很安静。
+@s: I never [[skip]] [[breakfast]], but on Tuesday I didn't have time! | 我从来不落下早饭，可周二那天真是没时间吃！
+@s: My [[favorite]] part? Lunch with my [[coworkers]]. I like [[spicy]] food now! | 最喜欢的时刻？和同事一起吃午饭。我现在都爱吃辣了！
+@s: Next week, I'd like to learn more about our company. | 下周我想多了解一下我们公司。
+
+@v: great | = | adj. | greɪt | 很棒的；特别好的 | 回答 How was…? / How's…?；回应别人的好消息、好安排 | Great!；That's great.；a great team | That's great news! Congratulations! | 这真是好消息！恭喜你！ | ea 在这里读 `/eɪ/`（和 day、eight 的元音一样），不读 greet `/griːt/`；great 本身就是「非常好」，不说 very great，要加强就说 really great / so great。
+@v: tired | = | adj. | ˈtaɪərd | 累的；疲倦的 | 说自己现在的状态；关心别人：You look tired. | so tired；a little tired；You look tired. | You look tired. Did you stay up late? | 你看着很累，昨晚熬夜了吗？ | 「我累了」是 I'm tired：✗ I tired（漏了 am，D1）✗ I'm tiring（tiring 是「让人累的」：This week is tiring.）。「累了」说的是现在的状态，不用过去式。
+@v: hard | = | adj. | hɑːrd | 难的；辛苦的 | 说工作、学习、某件事难不难 | hard work；a hard day；hard to remember | Is English hard for you? | 英语对你来说难吗？ | 「很难」的主语是事情：It's hard. / The job is hard.，不说 I'm hard。hard 还能作副词「努力地」：work hard；但 hardly 是「几乎不」：I hardly work. ＝ 我几乎不干活！
+@v: learn | = | v. | lɜːrn | 学；学到 | 说工作和生活中学到了新东西 | learn English；learn a lot；learn something new；learn from sb | I learn a lot from my coworkers. | 我从同事身上学到很多。 | learn 是自己「学」，teach 是「教」别人：「他教我英语」说 He teaches me English，✗ He learns me English。ear 读卷舌的 `/ɜːr/`，不读 lean `/liːn/`。
+@v: remember | = | v. | rɪˈmembər | 记得；记住 | 记名字、记地方、记时间 | remember sb's name；Do you remember…?；easy to remember | I can't remember his name. | 我想不起他叫什么了。 | 「记得、记住」是 remember；「提醒（别人）」是 remind：Please remind me at three.，✗ Please remember me at three.（意思变成「请记住我」）。
+@v: easy | = | adj. | ˈiːzi | 容易的；简单的 | 说一件事难不难、好不好记、好不好用 | easy to remember；easy to use；not easy | The new system is easy to use. | 新系统很好用。 | 「好记」「好用」= easy to + 动词，别漏 to：✗ easy remember；「这对我来说很容易」说 It's easy for me.，✗ I'm easy.（口语里 I'm easy 是「我都行」，D5 见过）。s 读 `/z/`，不读「伊西」。
+@v: By the way | by the way | phr. | ˌbaɪ ðə ˈweɪ | 对了；顺便说一下 | 聊天时换一个话题、补充一件刚想起来的事 | By the way, …；Oh, by the way…；BTW（消息里的缩写） | By the way, the meeting is at ten tomorrow. | 对了，明天的会是十点。 | 用来「转话题」，多放句首，后面加逗号；别和 D2 的 on the way（在路上）混。中文「顺便做某事」（顺便买杯咖啡）不能用 by the way，要说 Can you get me a coffee on the way?
+
+@diff: 「不」和「没」：don't 还是 didn't？（D2）
+@d_cn: 「我从来不落下早饭」说的是平时的习惯；「周二那天没时间」说的是过去某一次没发生。
+@d_en: I never skip breakfast. / I don't skip breakfast.（习惯）；On Tuesday, I didn't have time.（那一次）
+@d_why: 中文「不」和「没」一字之差，英文靠 **don't** 和 **didn't** 来区分。复习时最常见的两个错：① 说今天早上、昨天的事还用 don't：✗ I don't eat breakfast this morning.；② didn't 后面的动词也变成过去式：✗ I didn't ate breakfast. 「过去」已经由 didn't 说出来了，后面的动词要回到原形。下周 Day 8 正式学过去式，这一条是它的地基。
+@d_when: 平时、一般的情况 → don't / doesn't（常和 usually、never、every day 一起出现）；this morning、yesterday、on Tuesday 某一次没做 → didn't + 动词原形。
+@d_vs: ✓ **I don't drink coffee.** 我（平时）不喝咖啡。\n✓ **I didn't drink coffee this morning.** 我今天早上没喝咖啡。\n✗ I don't eat breakfast this morning. → ✓ I didn't eat breakfast this morning.\n✗ I didn't ate. → ✓ I didn't eat.
+@d_task: 选 don't、doesn't 还是 didn't 说出来：① 我平时不打车上班。② 我周二没带门禁卡。③ Emma 不吃牛肉。 | ① I don't take a taxi to work. ② I didn't bring my key card on Tuesday. ③ Emma doesn't eat beef.（主语是 she，用 doesn't）
+@diff: 「有」：There is 还是 have？（D3）
+@d_cn: 「茶水间里有免费咖啡」是某个地方存在某样东西；「我有一个安静的工位」是人拥有某样东西。
+@d_en: There's free coffee in the kitchen. / I have a quiet desk near the window.
+@d_why: 中文一个「有」管两件事，英文把它们分开：**某处有** → There is / There are + 东西 + 地点；**人（或公司）拥有** → have / has。到了周末，最顽固的还是这三个错：✗ Here has…（不能让「这里」去「有」东西）、✗ There have…（There 后面只接 is / are）、✗ There is two…（复数要用 are）。
+@d_when: 介绍地方有什么：There's a printer here. / There are two meeting rooms on this floor.；说谁有什么：I have a key card. / Kevin has a lot of work.；问地方用 Is there…?，问人用 Do you have…?
+@d_vs: ✓ **There's a printer next to the kitchen.** 茶水间旁边有台打印机。\n✓ **I have a printer at home.** 我家里有台打印机。\n✗ Here has free coffee. → ✓ There's free coffee here.\n✗ There have two meeting rooms. → ✓ There are two meeting rooms.
+@d_task: 用英文说：① 五楼有两间会议室。② 吴佳有很多客户邮件要回。③ 这层有洗手间吗？ | ① There are two meeting rooms on the fifth floor. ② Grace has a lot of customer emails to answer. ③ Is there a restroom on this floor?
+@diff: I like ≠ I'd like（D5）
+@d_cn: 「我现在爱吃辣了」说的是一贯的喜好；「下周我想多了解公司」说的是这一次的愿望。
+@d_en: I like spicy food now!（喜好）／ I'd like to learn more about our company.（想要）
+@d_why: I'd like = I would like，意思是「（现在、这一次）想要」，用来礼貌地点东西、提要求、说想做的事；I like 是「（一直）喜欢」。两者只差一个 'd，说快了几乎听不出来，所以说的时候要把 'd 读出来，听的时候看场合。还有一个新细节：I'd like 后面接东西直接加名词（I'd like a coffee），接动作要加 **to**（I'd like to learn…）。
+@d_when: 说喜好、习惯 → I like… / Do you like…?；点餐、提要求、说想做的事 → I'd like… / I'd like to… / Would you like…?
+@d_vs: ✓ **I like coffee.** 我喜欢喝咖啡。\n✓ **I'd like a coffee, please.** 请给我一杯咖啡。\n✓ **I'd like to learn more.** 我想多学一点。\n✗ I'd like learn more. → ✓ I'd like to learn more.\n✗（对服务员）I like the beef noodles. → ✓ I'd like the beef noodles.
+@d_task: 用英文说：① 我喜欢吃面条。② 我要一份鸡肉饭，谢谢。③ 我想多了解一下客服团队。 | ① I like noodles. ② I'd like the chicken with rice, please. ③ I'd like to learn more about the customer service team.
+@diff: 「在」：in / on / at（地点 D3 ＋ 时间 D6）
+@d_cn: 中文一个「在」走天下：在五楼、在茶水间、在工位；在三点半、在周三、在下午。
+@d_en: on the fifth floor / in the kitchen / at my desk；at three thirty / on Wednesday / in the afternoon；next Wednesday（不加介词）
+@d_why: 英文按「空间或时间的大小、形状」选介词，地点和时间是同一个思路：**at** = 一个点（工位、前台；几点、noon）；**on** = 一个面、某一天（楼层、左右；星期几）；**in** = 一个有边界的空间或一段时间（房间、抽屉、日历；上午 / 下午、月份）。时间前面已经有 this / next / last / every 时，什么介词都不加。
+@d_when: 地点：on + 楼层、方向；in + 房间、抽屉、日历；at + 工位、前台、走廊尽头。时间：at + 几点；on + 星期几、某一天的下午；in + the morning / the afternoon、月份；next / this / every + 时间，前面不加介词。
+@d_vs: **She's on the fifth floor / in the kitchen / at her desk.**\n**The meeting is at three thirty / on Wednesday / in the afternoon.**\n✓ **It's in my calendar.** 已经记在日历里了。\n✗ in the fifth floor ✗ on next Wednesday ✗ at Friday
+@d_task: 用英文说：「张涛在六楼的会议室里。下周一下午我们有个会，三点半开始。」 | Tom is in the meeting room on the sixth floor. We have a meeting next Monday afternoon. It starts at three thirty.
+@diff: 「我叫……」「我很累」：I'm 不能丢（D1）
+@d_cn: 介绍自己的名字；说自己现在的心情和状态：累、紧张、开心。
+@d_en: I'm Lily. / I'm tired, but I'm happy. / I'm not nervous anymore.
+@d_why: 中文说「我叫林晓」「我很累」，句子里都没有「是」，所以很多人一张嘴就说 I call Lily（＝ 我给 Lily 打电话）或 I very tired（漏了 am）。英文介绍名字用 **I'm + 名字**；形容词（tired、nervous、happy、busy）前面一定要有 **am / is / are**；否定是 I'm not…，不是 I don't…。这是第一天就学过的点，到周末还会冒出来，说明它是中文思维最顽固的地方之一。
+@d_when: 自我介绍：I'm + 名字；说心情、状态：I'm tired. / She's busy. / Everyone is friendly.；否定：I'm not nervous.
+@d_vs: ✗ I call Lily. → ✓ I'm Lily.\n✗ I very tired. → ✓ I'm very tired.\n✗ I don't nervous. → ✓ I'm not nervous.\n✗ I'm tiring. → ✓ I'm tired.（tiring 是「让人累的」）
+@d_task: 用英文说：「我叫王磊。我有点累，不过很开心。我已经不紧张了。」 | I'm Wang Lei. I'm a little tired, but I'm happy. I'm not nervous anymore.
+
+@core: Hi, I'm + 名字. I'm the new + 职位. | 第一次见面介绍自己（D1） | operations assistant / sales assistant；Today is my first day. | 正式：Good morning. My name is Lily Lin.｜随意：Hi, I'm Lily. I'm new here.
+@core: I usually… / I don't… / I didn't… | 说平时的习惯和某一次没做的事（D2） | usually → always / never；didn't + this morning / on Tuesday | 正式：I don't usually skip breakfast.｜随意：No breakfast today!
+@core: There's… / Is there a… on this floor? | 说、问某个地方有什么（D3） | a kitchen / free coffee / a restroom | 正式：Excuse me, is there a restroom on this floor?｜随意：Any coffee in the kitchen?
+@core: I work in… / He's in charge of… | 说自己和同事的工作（D4） | customer service / IT；accounts / the printers | 正式：I'm responsible for customer emails.｜随意：Accounts? That's Kevin.
+@core: I'd like…, please. / Let's… | 点餐、提要求、提议一起做事（D5） | the beef noodles / to learn more；get lunch / get coffee | 正式：I would like the beef noodles, please.｜随意：Let's grab lunch!
+@core: Are you available + 时间? | 约时间、问对方有没有空（D6） | next Wednesday at three thirty / tomorrow at noon | 正式：Would you be available next Wednesday at 3:30?｜随意：Are you free Wednesday?
+
+@pw: tired | ˈtaɪərd | 1 个音节（慢读像 2 个：TI·red） | 先发 `/aɪ/`，再卷舌收 `/rd/`；美国人常读成一个音节 `/taɪrd/`，不读「太尔德」
+@pw: learn | lɜːrn | 1 个音节 | ear 读卷舌的 `/ɜːr/`（和 work、first 的元音一样），不读 lean `/liːn/`
+@pw: remember | rɪˈmembər | 3 个音节 re·MEM·ber | 重音在中间；re 很轻；两个 m 都要闭上嘴唇，ber 卷舌收尾
+@pw: great | greɪt | 1 个音节 | ea 读 `/eɪ/`，和 day 的元音一样，不读 greet `/griːt/`；结尾 t 只做口型
+@pw: hard | hɑːrd | 1 个音节 | 嘴巴张大发 `/ɑː/` 再卷舌；别读成 heard `/hɜːrd/`（听到），那个嘴巴几乎不张开
+@ps: **Bus**y, / but **great**! / **Ev**eryone here is so **friend**ly. | Busy 和 great 都重读，中间停一下；great 句尾语调往下落，听起来真心、开心。so 也可以读重，表示「特别」。
+@ps: By the **way**, / Tom **wants**‿to **meet**‿with you / next **week**. | By the way 连成一串 `/ˌbaɪðəˈweɪ/`，重音只在 way；wants to 的 t 和 to 粘在一起；meet with 的 t 不爆破，直接接 with。
+@ps: That's **ea**sy‿to re**mem**ber! | easy 的 s 读 `/z/`，像「伊-zi」；easy to 连读，to 弱读成 `/tə/`；重音落在 EA 和 MEM 上。
+@pnote: 本周最容易听漏的两个小音：**I'd** 里的 `/d/`（I'd like vs I like，D5）和 **didn't** 的元音 `/ɪ/`（didn't vs don't `/oʊ/`，D2）。实在听不清就看场合：对服务员说的多半是 I'd like；句子里有 this morning、on Tuesday 的，多半是 didn't。
+@pnote: I'm、There's、It's、That's 这些缩写，口语里几乎都用，只有一个音节，一闪而过。复述和录音时也用缩写说，听起来更自然；听的时候，抓住后面的实词（tired、coffee、in my calendar）就能跟上。
+@lfocus: I'd like 和 I like 只差一个 /d/
+@lfocus: don't 和 didn't 的元音不同
+@lfocus: By the way 连成一串，重音在 way
+@dict: S7
+@dict: S12
+
+@mimic: 合上书，不看原文，按下面的提示用 6–8 句英文复述【C】，录音后再对照原文，看漏了哪些复现词：① 周五下午 · Emma · 两杯咖啡 ② 第一周怎么样（busy / great / friendly）③ 累不累、难不难（tired / hard / learn）④ 大家的名字（Kevin / Grace + 动词 -s）⑤ 茶水间的咖啡（easy to remember）⑥ 对了，张涛（next Wednesday / calendar）⑦ 给小梅的消息（tired / nervous / quiet desk）⑧ 早饭、午饭、下周（never skip / didn't / I like / I'd like to）
+@swap: How was your first week? — Busy, but great! | 换问的事和回答：your day / lunch / the meeting；good / a little hard / delicious | How was lunch? — Great! The noodles were delicious.
+@swap: I never skip breakfast, but on Tuesday I didn't have time. | 换习惯和「那一次」：drink coffee / take the subway / eat lunch at noon；this morning / yesterday / today | I usually eat lunch at noon, but today I didn't have time.
+@swap: There's free coffee in the kitchen, and I have a desk near the window. | 换成你的办公室或家：a printer / two meeting rooms（复数用 There are）；a computer / a quiet corner | There are two meeting rooms on our floor, and I have a desk in a quiet corner.
+@swap: I like spicy food. Next week, I'd like to learn more about our company. | 换喜好和愿望：noodles / coffee；learn more English / try the noodle place downstairs | I like noodles. Next week, I'd like to try the noodle place downstairs.
+@free: 周五下班前，Emma 问你 How was your week?（很忙，但很好；你现在已经不紧张了） | Busy, but great! I'm not nervous anymore.
+@free: 新同事问你：打印机坏了找谁？这层有茶水间吗？（李凯负责打印机；茶水间在走廊尽头，左手边） | Kevin is in charge of the printers. And there's a kitchen at the end of the hall, on the left.
+@free: 下午一点，同事问 Did you have lunch?（还没；你两点到三点有会，打算三点半再去吃） | Not yet. I have a meeting from two to three, so I'll have lunch at three thirty.
+@free: 和同事聊着聊着，你想换个话题：「对了，你下周三上午有空吗？我们一起去喝杯咖啡吧。」 | By the way, are you available next Wednesday morning? Let's get coffee.
+@free: 美国同事问你 Is English hard for you?（有点难，不过你每天都学点新东西；同事的名字都很好记） | It's a little hard, but I learn something new every day. And my coworkers' names are easy to remember!
+@output: 录 1 分钟「我的第一周」（My First Week）：一句总评（busy / great / tired）→ 我是谁、在哪儿上班、工位在哪儿（D1、D3）→ 两位同事做什么（D4，注意 -s）→ 一个平时的习惯和这周没做到的一次（D2：never / didn't）→ 午饭和喜好（D5：I like / I'd like to）→ 下周的一个安排（D6：next…, at…）。录完听一遍，对照【E】的 5 组易混表达逐条检查。
+@output_sample: My first week was busy, but great. I'm Lily Lin, the new operations assistant at SwiftLink. Our office is on the fifth floor, and I have a quiet desk near the window. Grace works in customer service. She answers emails from sellers. Kevin fixes computers. I never skip breakfast, but on Tuesday I didn't have time. Lunch with my coworkers is my favorite part of the day. I like spicy food now! Next Wednesday at three thirty, I have a meeting with Tom. I'd like to learn more about our company. I'm tired, but I'm not nervous anymore!
+
+@check: （听力，不看原文）Emma 问 Is the new job hard? 林晓是怎么回答的？ | Some days are hard, but I learn something new every day.（有几天挺难，但每天都能学到新东西）
+@check: （听力，不看原文）Emma 说了 By the way 之后，提到了什么事？林晓怎么回应？ | 张涛下周想找林晓聊聊。林晓说她知道：是下周三三点半，已经记进日历了（It's next Wednesday at three thirty. It's in my calendar.）
+@check: 你想请同事明天提醒你两点的会，用 remember 还是 remind？说出完整的句子。 | 用 remind：Can you remind me about the meeting at two tomorrow?（remember 是自己「记得」；Remember me 是「记住我」）
+@check: 朋友问 Do you like your new job?（你喜欢，但有点累；下周你想多学一点） | Yes, I do! I like it, but I'm a little tired. Next week, I'd like to learn more.
+@check: 同事问 Do you usually take the subway?（你平时坐地铁，但今天早上起晚了，没坐地铁） | Yes, I do. But I didn't take the subway this morning. I got up late.
+@check: 新同事问你周会在哪儿、几点开。告诉他：每周一上午十点，在五楼的会议室，最好提前几分钟到。 | It's every Monday at ten, in the meeting room on the fifth floor. Come a few minutes early!
+@improve: 如果【E】第 1 组（don't / didn't）出错：下周每天热身时，先用 I usually… / I don't… 说一个自己的习惯，再用 I didn't… yesterday 说一件昨天没做的事。Day 8 开始正式学过去式（met / wrote / was），「didn't + 动词原形」是它的地基，这一周一定要说顺。
+@improve: 如果 There is / have 或 in / on / at 还会选错：每天上班路上，用 There's… / There are… 说出看到的 3 样东西，再用 on / in / at 说出它们在哪儿；Day 9（地铁、车站：There was an accident on Line 5）和 Day 10（去过的城市）会大量用到地点和时间表达。
+@improve: 如果复述说不到 6 句，或者总在动词上卡住：先只看【H】第 1 层的 ①–⑧ 提示说，每天一遍，直到不看提示也能说完；把卡住的动词（fixes、handles、learn、remember）单独拍着重音读 5 遍，再放回句子里说。
+@improve: 下周预告：第 2 周讲「过去发生的事」和「遇到问题」——Day 8 昨天做了什么（过去式，「了」≠ 过去时）、Day 9 迟到时用 Sorry 还是 Excuse me、Day 10 去过哪里（have been to）、Day 11 周末过得怎么样（How was…?）。今天的 I'm tired（现在的状态）和 I didn't…（过去没做）会天天回来。
+
+@next1: 不看书说出【C】S5、S7、S9、S12，注意 fixes、handles 的 -s
+@next1: don't / didn't、I like / I'd like 各说一组关于你自己的对比句
+@next7: 再用【H】第 1 层的 ①–⑧ 提示复述一次【C】，和今天的录音比一比，看哪几句说得更顺了
+@next7: 把今天「我的第一周」的录音再听一遍，挑出 2 处可以说得更自然的地方，改好后重录
