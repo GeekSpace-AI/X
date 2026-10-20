@@ -1,0 +1,146 @@
+@day: 6
+@week: 1
+@title_cn: 几点开会
+@title_en: What Time Is the Meeting?
+@topic: 星期与时间、日程、约时间、时差
+@think_short: next Monday 前不加 on｜at 三点／on 周一／in 五月｜「三点半」「两点到三点」
+
+@goal_scene: 经理告诉你每周的固定会议，还想和你约个时间单独聊；西雅图和深圳有时差，你要把时间听清、算对，并记进日历。
+@goal_expr: We have a meeting every Monday at ten. / It starts at ten sharp. / Are you available next Wednesday at three thirty? / The meeting is from two to three. / It's 6 p.m. in Seattle now. / I'll put it in my calendar.
+@goal_vocab: 17 个重点词 + 4 个短语：星期、时间点、日程、时差
+@done: 能用英文说出你一周里 3 个固定安排（星期几 + 几点 + 做什么），at / on 用对
+@done: 别人问 Are you available…? 时，能确认时间，或说明冲突：I have a meeting from two to three.
+@done: 能用两种方式说出 3:30、8:15，并且 next / this / every 前面不再加 on
+
+@warmup: 我们去楼下吃午饭吧。 | Let's get lunch downstairs. | D5
+@warmup: 我要牛肉面，谢谢。别太辣。 | I'd like the beef noodles, please. Not too spicy. | D5
+@warmup: 能给我一瓶水吗？ | Can I get a bottle of water? | D5
+@warmup: 这顿我请。 | It's on me. | D5
+@warmup: 打印机在茶水间旁边。 | The printer is next to the kitchen. | D3
+@warmup: 我平时坐地铁上班，路上大约要一个小时。 | I usually take the subway to work. It takes about an hour. | D2
+
+@scene: 周四上午九点，张涛拿着一张日程表来到林晓的工位，给她讲团队每周固定的会议。SwiftLink 的工程团队在西雅图，现在深圳比西雅图快 15 个小时（美国冬令时期间是 16 个小时），所以开视频会之前一定要把时间算清楚。张涛还想下周和林晓单独聊聊她第一周的情况。
+@sp: 人物关系 | 林晓 ↔ 张涛：下属和经理；张涛说话直接、讲效率，林晓要听清每一个时间
+@sp: 沟通目的 | 张涛：告诉林晓固定会议的时间，再约一个下周的单独谈话；林晓：记下时间，确认自己有没有空
+@sp: 已知信息 | 林晓还不知道周会几点开，也不清楚西雅图现在几点；她下周三下午已经和吴佳约了一个会
+@sp: 表达重点 | 几点（at ten / at three thirty）→ 星期几（every Monday / next Wednesday）→ 从几点到几点（from two to three）→ 时差（It's 6 p.m. in Seattle now）
+
+@story_title: Episode 6 · Ten O'Clock Sharp
+@story_type: 叙述 + 对话
+@s: At nine **o'clock**, Tom comes to Lily's desk. | 九点整，张涛来到林晓的工位。
+@s: Tom: How's your first **week** going, Lily? | 张涛：林晓，第一周感觉怎么样？
+@s: Lily: Busy, but good! | 林晓：挺忙的，不过很好！
+@s: Tom: Here's our **weekly** **schedule**. | 张涛：这是我们每周的日程安排。
+@s: Tom: We have a team **meeting** every **Monday** at ten. | 张涛：每周一上午十点，我们开团队例会。
+@s: Tom: It starts at ten **sharp**. Come a few **minutes** **early**. | 张涛：十点整准时开始，你提前几分钟到。
+@s: Tom: Every **Friday** at a **quarter** past eight, I have a **video call** with Seattle. | 张涛：每周五早上八点一刻，我和西雅图那边开视频会。
+@s: Tom: They're in a different **time zone**. It's 6 p.m. in Seattle now. | 张涛：他们在另一个时区，西雅图现在是晚上六点。
+@s: Lily: Wow, so it's still yesterday there! | 林晓：哇，那他们那儿还是昨天呢！
+@br:
+@s: Tom: Let's meet **next week**. Are you **available** next **Wednesday** at three thirty? | 张涛：我们下周聊一聊吧。你下周三下午三点半有空吗？
+@s: Lily: Let me see. I have a meeting with Grace that **afternoon**. | 林晓：我看看。那天下午我和吴佳有个会。
+@s: Lily: The meeting is from two to three. So **half past** three is fine. | 林晓：会是两点到三点，所以三点半没问题。
+@s: Tom: Good. And **tomorrow** at **noon**, we have a team lunch. | 张涛：好。还有，明天中午十二点我们团队一起吃午饭。
+@s: Lily: Great! I'll put it in my **calendar**. | 林晓：太好了！我记到日历里。
+
+@v: o'clock | = | adv. | əˈklɑːk | ……点（整） | 说整点时间 | at nine o'clock；ten o'clock sharp；It's three o'clock. | The store opens at ten o'clock. | 商店十点开门。 | o'clock 只用在整点：✗ nine thirty o'clock → ✓ nine thirty；口语里常常省掉：at nine。
+@v: week | = | n. | wiːk | 星期；周 | 说一周的安排、入职第几周 | this week；every week；my first week | I have three meetings this week. | 我这周有三个会。 | this / next / last / every week 前面都不加 in 或 on：✗ in this week → ✓ this week；「周末」是 weekend。
+@v: weekly | = | adj. | ˈwiːkli | 每周的；一周一次的 | 说每周的会、周报、每周的安排 | weekly meeting；weekly report；weekly schedule | Please send me the weekly report. | 请把周报发给我。 | 「周会」「周报」直接用 weekly + 名词，不说 week meeting；「每周一次」也可以说 once a week。
+@v: schedule | = | n. | ˈskedʒuːl | 日程；安排；时间表 | 说工作安排、会议时间 | weekly schedule；a busy schedule；on schedule（按计划） | My schedule is full this week. | 我这周的日程排满了。 | 美式读 `/ˈskedʒuːl/`（sk 开头），英式常读 `/ˈʃedjuːl/`；美国同事说的是 sked-jool。
+@v: meeting | = | n. | ˈmiːtɪŋ | 会议 | 开会、约会议时间 | have a meeting；team meeting；in a meeting | Sorry, I'm in a meeting. | 不好意思，我在开会。 | 「开会」说 have a meeting，不说 open a meeting；「正在开会」说 in a meeting。
+@v: Monday | = | n. | ˈmʌndeɪ | 星期一 | 说一周的安排 | on Monday；every Monday；next Monday | See you on Monday! | 周一见！ | 星期的首字母要大写；on Monday 一般指「（这个）周一」，on Mondays 是「每个周一」。
+@v: sharp | = | adv. | ʃɑːrp | （几点）整；准时 | 强调准点开始，别迟到 | at ten sharp；nine o'clock sharp | The train leaves at 7:30 sharp. | 火车 7:30 准时开。 | sharp 要放在时间后面：at ten sharp，✗ at sharp ten；sharp 作形容词是「锋利的」。
+@v: minutes | minute | n. | ˈmɪnɪts | 分钟 | 说提前、迟到、要多长时间 | a few minutes；five minutes early；in ten minutes | I'll be there in ten minutes. | 我十分钟后到。 | 「十分钟后」说 in ten minutes，不说 after ten minutes；读 `/ˈmɪnɪt/`，不读「迈纽特」。
+@v: early | = | adv. | ˈɜːrli | 提前；早 | 提前到、早到、早起 | come early；a few minutes early；early in the morning | I got to the office early today. | 我今天很早就到公司了。 | 「提前五分钟到」说 come five minutes early，时间放在 early 前面：✗ come early five minutes。
+@v: Friday | = | n. | ˈfraɪdeɪ | 星期五 | 说一周的安排 | on Friday；every Friday；Friday afternoon | Let's have lunch on Friday. | 我们周五一起吃午饭吧。 | 「周五下午」说 on Friday afternoon，用 on，不用 in；Friday 前面不加 the。
+@v: quarter | = | n. | ˈkwɔːrtər | 一刻钟（15 分钟） | 说几点一刻、差一刻几点 | a quarter past eight；a quarter to ten；a quarter after… | It's a quarter to nine. | 现在差一刻九点（8:45）。 | quarter past = 过一刻，quarter to = 差一刻，别弄反；美国人也常直接说 eight fifteen / eight forty-five。
+@v: video call | = | phr. | ˈvɪdioʊ ˌkɔːl | 视频通话；视频会议 | 和海外同事开会、和家人视频 | have a video call；join a video call；on a video call | I'm on a video call. Can I call you back? | 我在开视频会，等下给你回电话好吗？ | 「开视频会」说 have a video call，不说 open a video；「在视频会上」用 on：on a video call；重音在 video 上。
+@v: time zone | = | phr. | ˈtaɪm ˌzoʊn | 时区 | 和海外同事约时间、说时差 | a different time zone；in the same time zone；time difference（时差） | We're in different time zones. | 我们在不同的时区。 | 「时差」说 time difference，或者直接说 Shenzhen is fifteen hours ahead of Seattle.；jet lag 是坐飞机后身体「倒时差」的不适，不是时区差。
+@v: next week | = | phr. | ˌnekst ˈwiːk | 下周 | 约时间、说下周的计划 | next week；next Monday；next week's meeting | I'm busy this week. How about next week? | 我这周很忙，下周怎么样？ | next / this / last 前面不加 on / in：✗ on next Monday ✗ in next week → ✓ next Monday / next week。
+@v: available | = | adj. | əˈveɪləbl | 有空的；（人）方便见面、接电话的 | 约时间、问对方有没有空 | Are you available…?；available on Monday；not available | Is Tom available this afternoon? | 张涛今天下午有空吗？ | 问同事、客户有没有空，available 比 free 更礼貌、更职场；回答「我有空」说 Yes, I'm available.，不说 I have available。
+@v: Wednesday | = | n. | ˈwenzdeɪ | 星期三 | 说一周的安排 | on Wednesday；next Wednesday；Wednesday morning | The training is on Wednesday. | 培训在周三。 | 第一个 d 不发音：读 `/ˈwenzdeɪ/`，只有两个音节，不读 Wed-nes-day。
+@v: afternoon | = | n. | ˌæftərˈnuːn | 下午 | 说下午的安排 | this afternoon；in the afternoon；on Monday afternoon | I'm free in the afternoon. | 我下午有空。 | 泛指「下午」用 in the afternoon；this / that afternoon 前面不加 in；具体某一天的下午用 on：on Friday afternoon。
+@v: half past | = | phr. | ˌhæf ˈpæst | （几点）半 | 说时间：half past three = 3:30 | half past three；half past nine | Let's meet at half past ten. | 我们十点半见。 | 美国人日常更常说 three thirty；half past three 也完全听得懂，只是听起来稍正式、稍英式一点。「三点半」✗ three and half。
+@v: tomorrow | = | adv. | təˈmɑːroʊ | 明天 | 约时间、说明天的安排 | tomorrow morning；tomorrow at noon；See you tomorrow! | We have a meeting tomorrow. | 我们明天有个会。 | tomorrow 前面不加 on / in；「明天开会」说 We have a meeting tomorrow.，✗ Tomorrow meeting.；拼写是一个 m、两个 r。
+@v: noon | = | n. | nuːn | 中午十二点 | 约午饭、说截止时间 | at noon；by noon；around noon | Let's meet at noon. | 我们中午十二点见。 | noon 就是 12:00 这个点，前面用 at：at noon；泛指「中午那段时间」说 around lunchtime / at lunch。
+@v: calendar | = | n. | ˈkælɪndər | 日历；（电脑、手机里的）日程表 | 记会议、查时间 | put it in my calendar；check my calendar；a calendar invite | Let me check my calendar. | 我看一下日程。 | 拼写是 calendar（-dar），不是 calender；「记进日历」说 put it in my calendar，美国人也常说 put it on my calendar。
+
+@diff: 「下周一」——next Monday 前面不加 on
+@d_cn: 说「下周一」「这个周五」「每个周三」「上周」。
+@d_en: next Monday / this Friday / every Wednesday / last week
+@d_why: 中文说「在下周一」也很自然，所以很多人会说 on next Monday。英文的规则是：时间前面已经有了 **this / next / last / every**，这几个词已经把「哪一天、哪一周」说清楚了，介词 on / in / at 就要拿掉。tomorrow、yesterday 也一样，前面不加介词。
+@d_when: next / this / last / every / tomorrow / yesterday + 时间 → 前面不加介词；只有光秃秃的 Monday、Friday 时才用 on。
+@d_vs: ✗ on next Monday → ✓ next Monday\n✗ in this week → ✓ this week\n✗ on tomorrow → ✓ tomorrow\n✓ on Monday（没有 next，就要 on）
+@d_task: 用英文说：「我们下周三开会，这个周五一起吃午饭。」 | We have a meeting next Wednesday. Let's have lunch this Friday.
+@diff: at 几点／on 星期几／in 几月
+@d_cn: 中文说时间只用一个「在」，甚至不用：「三点开会」「周一开会」「五月开会」。
+@d_en: at 3 p.m. / on Monday / in May
+@d_why: 英文按时间的「大小」选介词：**at** = 一个时间点（几点、noon）；**on** = 某一天（星期几、几月几号）；**in** = 一段较长的时间（上午 / 下午、月份、年份）。思路和 Day 3 的地点 at / on / in 相似：越小、越精确，越用 at。
+@d_when: at ten / at noon / at three thirty；on Monday / on May 5 / on Friday afternoon（具体某一天的下午也用 on）；in the afternoon / in May / in 2026。
+@d_vs: **at** 10 a.m. / **at** noon\n**on** Monday / **on** Friday afternoon\n**in** the morning / **in** May\n✗ in Monday ✗ on 3 p.m.
+@d_task: 用英文说：「会议在周一上午十点。Emma 的生日在五月。」 | The meeting is on Monday at 10 a.m. Emma's birthday is in May.
+@diff: 「三点半」「两点到三点」——three thirty / from two to three
+@d_cn: 说一个具体的时间点，或者一段时间。
+@d_en: three thirty / half past three；from two to three
+@d_why: 中文按「点 + 分」说：三点半、八点一刻。英文最简单的办法也一样：**直接读数字** three thirty、eight fifteen，美国人最常这样说。half past three、a quarter past eight 也对，但在美国日常对话里少一些。「两点到三点」不说 two to three o'clock，说 **from two to three**；between two and three 是「两点到三点之间的某个时候」，意思不一样。
+@d_when: 自己说时间：直接读数字最安全；听别人说：要能反应过来 half past、a quarter past / to。说会议时长、营业时间：from… to…。
+@d_vs: 3:30 = **three thirty** = half past three（✗ three and half）\n8:15 = **eight fifteen** = a quarter past eight\n8:45 = **eight forty-five** = a quarter to nine\n**The meeting is from two to three.** 会议从两点开到三点。
+@d_task: 用两种方式读出 10:30 和 4:15，再说「培训从九点到十一点」。 | ten thirty / half past ten；four fifteen / a quarter past four；The training is from nine to eleven.
+@diff: 「明天开会」——We have a meeting tomorrow.
+@d_cn: 说某个时间有什么安排：明天开会、周五视频会。
+@d_en: We have a meeting tomorrow. / I have a video call on Friday.
+@d_why: 中文把时间放在前面，后面直接接事情：「明天开会」「周五视频会」，常常没有主语和动词。英文要说完整：**谁 + have + 什么 + 什么时候**。时间一般放在句尾，也可以放在句首、后面加逗号：Tomorrow, we have a team lunch.
+@d_when: 说日程、提醒别人有什么安排：I have a meeting at three. / We have a video call on Friday.
+@d_vs: ✗ Tomorrow meeting. ✗ Tomorrow have meeting.\n✓ We have a meeting tomorrow.\n✓ Tomorrow at noon, we have a team lunch.
+@d_task: 用英文说：「我周三下午有培训，周五上午有视频会。」 | I have training on Wednesday afternoon. I have a video call on Friday morning.
+
+@core: We have a… every + 星期 + at + 时间. | 说固定的会议和安排 | team meeting / video call；Monday / Friday | 正式：Our team meeting is held every Monday at 10 a.m.｜随意：Team meeting's Mondays at ten.
+@core: It starts at + 时间 + sharp. | 强调准时开始 | nine / ten thirty | 正式：The meeting will begin promptly at ten.｜随意：Ten sharp. Don't be late!
+@core: Are you available + 时间? | 礼貌地问对方有没有空 | next Wednesday at three thirty / this afternoon / tomorrow | 正式：Would you be available next Wednesday at 3:30?｜随意：Are you free Wednesday?
+@core: I have a meeting from… to… | 说明自己某段时间没空 | two to three / ten to eleven | 正式：I have another meeting from two to three.｜随意：I'm in a meeting from two to three.
+@core: It's + 时间 + in + 城市 + now. | 说另一个时区现在几点 | 6 p.m. / midnight；Seattle / New York | 正式：It's currently 6 p.m. in Seattle.｜随意：It's six there now.
+@core: I'll put it in my calendar. | 确认已经记下时间 | calendar / phone | 正式：I'll add it to my calendar.｜随意：Got it. It's in my calendar.
+@core: What time is the meeting? | 问几点开会 | the meeting / the video call / lunch | 正式：What time does the meeting start?｜随意：When's the meeting?
+
+@pw: Wednesday | ˈwenzdeɪ | 2 个音节 WEDNES·day | 第一个 d 不发音！听起来像 wenz-day
+@pw: schedule | ˈskedʒuːl | 2 个音节 SCHED·ule | 美式 sk 开头：sked-jool
+@pw: calendar | ˈkælɪndər | 3 个音节 CAL·en·dar | 重音在第一个音节；a 嘴巴张大 `/æ/`
+@pw: available | əˈveɪləbl | 4 个音节 a·VAIL·a·ble | 重音在第二个音节；开头 a 很轻，结尾 -ble 很轻
+@pw: afternoon | ˌæftərˈnuːn | 3 个音节 af·ter·NOON | 主重音在最后，noon 拉长
+@pw: o'clock | əˈklɑːk | 2 个音节 o·CLOCK | 开头的 o 读很轻的 `/ə/`，像「呃」
+@pw: minute | ˈmɪnɪt | 2 个音节 MIN·ute | 读 `/ˈmɪnɪt/`，不读「迈纽特」
+@ps: We have a **team** meeting / every **Mon**day at **ten**. | team meeting 是复合名词，重音在 team 上；have a 连读成 `/ˈhævə/`；every 读两个音节 `/ˈevri/`。
+@ps: Are you a**vail**able / next **Wednes**day / at three **thir**ty? | next 的 t 被吞掉，next Wednesday 听起来像 `/neks ˈwenzdeɪ/`；问句结尾上扬。
+@ps: The **meet**ing is from **two** to **three**. | from、to 弱读成 `/frəm/`、`/tə/`；重读两个时间。
+@ps: It's **6 p.m.** in Se**at**tle **now**. | p.m. 读成两个字母 `/ˌpiː ˈem/`，重音在 m 上；Seattle 重音在第二个音节 `/siˈætl/`，tt 读成轻弹的 d。
+@pnote: thirty `/ˈθɜːrdi/` 和 thirteen `/ˌθɜːrˈtiːn/` 很容易听混：-ty 重音在前，t 读成轻弹的 d；-teen 重音在后，t 很清楚。听时间、听数字时特别注意。
+@pnote: a.m. / p.m. 读成字母 `/ˌeɪ ˈem/`、`/ˌpiː ˈem/`；口语里也常用 in the morning / in the evening 代替，比如 six in the evening。
+@lfocus: thirty 和 thirteen 的重音位置
+@lfocus: next Wednesday 里 next 的 t 被吞掉
+@lfocus: from two to three 里 from、to 很弱
+@dict: S5
+@dict: S10
+@res: 在 youglish.com 输入 "are you available"，选 US
+
+@mimic: 跟读【C】S2–S14：先用 0.8 倍速逐句跟读，重点模仿所有时间的读法（ten sharp、a quarter past eight、three thirty、half past three）；再你演林晓、手机朗读张涛的台词，完整对一遍并录音。
+@swap: We have a team meeting every Monday at ten. | 换安排和时间：a video call / training；every Friday / every Wednesday；at nine thirty | We have a video call every Friday at nine thirty.
+@swap: Are you available next Wednesday at three thirty? | 换时间：tomorrow at noon / this Friday at ten / next week | Are you available tomorrow at noon?
+@swap: The meeting is from two to three. | 换活动和时间：lunch / my training；twelve to one / nine to eleven | Lunch is from twelve to one.
+@swap: It's 6 p.m. in Seattle now. | 换城市和时间（先查一下真实的时差）：New York / London | It's 9 p.m. in New York now.
+@free: 同事问 What time is the team meeting?（每周一上午十点，准时开始） | It's every Monday at ten. It starts at ten sharp.
+@free: 经理问你 Are you available tomorrow at two?（你两点到三点有培训，三点半以后有空） | Sorry, I have training from two to three. Are you available at three thirty?
+@free: 美国同事想在深圳时间周五早上八点开视频会。你提醒他：那时西雅图是周四下午五点。 | That's 5 p.m. on Thursday in Seattle. Is that OK?
+@free: 有人约你下周三下午见面，你答应下来，并说会记进日历。 | Sure, next Wednesday afternoon is fine. I'll put it in my calendar.
+@output: 录 1 分钟「我的一周」：每周固定的 3–4 个安排（星期几 + 几点 + 做什么）→ 一件下周的事（next…）→ 明天的安排（We have… tomorrow）。录完检查：有没有说成 on next Monday、in Monday，三点半有没有说成 three and half。
+@output_sample: Here's my weekly schedule. We have a team meeting every Monday at ten. It starts at ten sharp, so I come a few minutes early. On Wednesdays, I have an English class from seven to nine in the evening. Next week, I have a video call with a customer in New York. It's at nine thirty in the morning. That's 9:30 p.m. in New York. And tomorrow, we have a team lunch at noon.
+
+@check: 为什么说 next Wednesday，而不说 on next Wednesday？ | 有了 next / this / last / every，就已经说清楚是哪一天，前面不再加 on / in / at。
+@check: 张涛说 It starts at ten sharp. 林晓几点到会议室比较好？ | 九点五十几分，提前几分钟到；sharp 表示十点整准时开始。
+@check: 用两种方式说 8:15。 | eight fifteen / a quarter past eight
+@check: 深圳上午 9 点时，西雅图是前一天晚上 6 点。那深圳中午 12 点时，西雅图是几点？用英文说出来。 | 前一天晚上 9 点：It's 9 p.m. in Seattle.（西雅图那边还是前一天）
+@check: 「明天下午三点开会」英文怎么说？ | We have a meeting tomorrow at 3 p.m. / We have a meeting at three tomorrow afternoon.
+@next1: 不看书说出 S5、S8、S10、S12、S14（锚点句）
+@next1: at / on / in 说时间各举一个例子
+@next1: 用 next / this / every 各说一个安排（前面不加 on）
+@next7: 用英文说出你下周一到周五每天的一个安排
+@next7: three thirty = half past three；a quarter past / a quarter to 的意思

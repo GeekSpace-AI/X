@@ -1,0 +1,153 @@
+@day: 5
+@week: 1
+@title_cn: 午饭吃什么
+@title_en: Lunch Time
+@topic: 点餐、说口味、请客与 AA
+@think_short: 「我要……」≠ I want…｜I like ≠ I'd like｜「随便」不是 casual
+
+@goal_scene: 美国同事约你去楼下吃午饭：你要提议一起去、回答「想吃什么」、礼貌地点餐、说清口味，最后弄明白谁买单。
+@goal_expr: Let's… / Anything is fine. / I'd like…, please. / Can I get…? / Not too spicy. / …to go / Can we split the bill? / It's on me.
+@goal_vocab: 17 个重点词 + 5 个短语：食物与口味、点餐、付钱
+@done: 能用 I'd like… / Can I get…? 点一份主食和一瓶饮料，并说清楚口味（不要太辣 / 特辣）
+@done: 分清 I like spicy food.（一直喜欢）和 I'd like the beef noodles.（现在要点）
+@done: 能主动用 Let's… 提议；被请客时会说 Thank you! Next time, it's on me.
+
+@warmup: 你是做什么的？——我做客服。 | What do you do? — I work in customer service. | D4
+@warmup: 我负责回复美国卖家的邮件。 | I answer emails from sellers in the U.S. | D4
+@warmup: 李凯在 IT 部，系统账号归他管。 | Kevin works in IT. He's in charge of accounts. | D4
+@warmup: Mike 是西雅图的工程师，他带领工程团队。 | Mike is an engineer in Seattle. He leads the engineering team. | D4
+@warmup: 你平时经常不吃早饭吗？——不，我从来不落下早饭。 | Do you usually skip breakfast? — No, I don't. I never skip it. | D2
+@warmup: 我在路上买了两个三明治。 | I bought two sandwiches on the way. | D2
+
+@scene: 周三中午，Emma 来到林晓和吴佳的工位，约她们去楼下的面馆吃午饭。Emma 来自西雅图，在深圳工作了两年，特别爱吃辣；这家面馆的服务员会说简单的英语，Emma 每次都用英语点餐。这是林晓第一次和美国同事一起吃饭：她想自己付钱，又不知道美国人习惯怎么买单。
+@sp: 人物关系 | 林晓、吴佳 ↔ Emma：同事，关系轻松；服务员：认识 Emma，客气友好
+@sp: 沟通目的 | 一起去吃饭；各自点餐、说清楚口味；吃完决定谁付钱
+@sp: 已知信息 | Emma 常来这家店；林晓第一次来，不知道 Emma 爱吃辣，也不知道今天谁买单
+@sp: 表达重点 | 提议（Let's…）→「随便」（Anything is fine）→ 点餐（I'd like… / Can I get…?）→ 口味（Not too spicy）→ 买单（Can we split the bill? / It's on me.）
+
+@story_title: Episode 5 · It's on Me
+@story_type: 对话
+@s: Emma: Hi, you two! **Let's** get **lunch** **downstairs**. | Emma：嗨，你们俩！我们去楼下吃午饭吧。
+@s: Emma: What do you feel like? | Emma：你们想吃什么？
+@s: Lily: Anything is fine. | 林晓：随便，都行。
+@s: Grace: Me too. You choose, Emma! | 吴佳：我也是。Emma，你来定吧！
+@s: Emma: OK. I know a good place. | Emma：好，我知道一家不错的店。
+@br:
+@s: Downstairs, the waiter brings a **menu**. | 到了楼下，服务员拿来一份菜单。
+@s: Waiter: Hi, Emma! Ready to **order**? | 服务员：Emma 你好！可以点餐了吗？
+@s: Lily: Yes. **I'd like** the **beef** **noodles**, please. Not too **spicy**. | 林晓：好的。我要牛肉面，谢谢。别太辣。
+@s: Emma: Really? I like spicy **food**. | Emma：真的吗？我可爱吃辣了。
+@s: Emma: I'll have the **chicken** with **rice**. Extra spicy, please! | Emma：我要鸡肉饭，特辣，谢谢！
+@s: Grace: A small **soup** for me. | 吴佳：我要一份小碗的汤。
+@s: Grace: **Can I get** a **bottle** of water? | 吴佳：能给我一瓶水吗？
+@s: Grace: And one more chicken rice **to go**. It's for Kevin. | 吴佳：再要一份鸡肉饭打包，是给李凯带的。
+@br:
+@s: Lily: Mmm, this is **delicious**! | 林晓：嗯，真好吃！
+@s: Emma: This place is my **favorite**. | Emma：这是我最喜欢的店。
+@s: Lily: How do we **pay**? Can we **split** the bill? | 林晓：怎么付钱？我们 AA 吧？
+@s: Lily: I have **cash**. | 林晓：我带了现金。
+@s: Emma: No, no. **It's on me**. Welcome to the team! | Emma：不用不用，这顿我请。欢迎加入团队！
+@s: Lily: Thank you! Next time, it's on me. | 林晓：谢谢！那下次我请。
+
+@v: Let's | let's | phr. | lets | 我们（一起）……吧 | 提议大家一起做某件事 | Let's go.；Let's get lunch.；Let's not… | Let's take a break. | 我们休息一下吧。 | Let's 后面直接跟动词原形：✗ Let's to go / ✗ Let's going → ✓ Let's go；Let's 包括说话人自己，Let me… 才是「让我来」。
+@v: lunch | = | n. | lʌntʃ | 午饭 | 约同事吃饭、说午休安排 | have lunch；get lunch；lunch break | What do you usually have for lunch? | 你中午一般吃什么？ | 和 breakfast 一样，前面一般不加 a / the：✗ have a lunch → ✓ have lunch；「去吃午饭」口语常说 get lunch。
+@v: downstairs | = | adv. | ˌdaʊnˈsterz | 在楼下；往楼下 | 说楼下的餐厅、店；请人下楼 | go downstairs；the café downstairs；wait downstairs | I'll wait for you downstairs. | 我在楼下等你。 | 和 Day 3 的 upstairs 一样是副词，前面不加 to / at：✗ go to downstairs → ✓ go downstairs。
+@v: menu | = | n. | ˈmenjuː | 菜单 | 点餐；电脑软件里的「菜单」也叫 menu | look at the menu；Can I see the menu?；an English menu | Do you have an English menu? | 你们有英文菜单吗？ | 读 `/ˈmenjuː/`，第二个音节像 new 去掉 n，不读「门怒」；「点菜」是 order，不说 order the menu。
+@v: order | = | v. | ˈɔːrdər | 点（菜）；订购 | 餐厅点餐、网上订东西 | ready to order；order food；order online | Let's order some food. | 我们点点吃的吧。 | 服务员问 Ready to order? / Are you ready to order? 意思是「可以点餐了吗」；order 也是名词「订单」：an online order。
+@v: I'd like | = | phr. | aɪd ˈlaɪk | 我想要；请给我（礼貌地点东西） | 点餐、买东西、提要求 | I'd like + 东西；I'd like to + 动作；I'd like the…, please. | I'd like a coffee, please. | 请给我一杯咖啡。 | I'd like = I would like，是「现在想要」；I like 是「一直喜欢」。点餐时千万别漏掉 'd。
+@v: beef | = | n. | biːf | 牛肉 | 点餐、说饮食习惯 | beef noodles；beef with rice；I don't eat beef. | I don't eat beef, but I love chicken. | 我不吃牛肉，不过很爱吃鸡肉。 | 牛肉不可数：✗ a beef / ✗ beefs → ✓ some beef；「牛」是 cow，「牛肉」是 beef，菜单上写 beef。
+@v: noodles | = | n. | ˈnuːdlz | 面条 | 点餐、说喜欢吃什么 | beef noodles；a bowl of noodles；noodle soup | I'd like a bowl of noodles. | 我要一碗面。 | 「面条」一般用复数 noodles；「一碗面」说 a bowl of noodles，a noodle 是「一根面条」。
+@v: spicy | = | adj. | ˈspaɪsi | 辣的 | 点餐说口味、说自己能不能吃辣 | spicy food；not too spicy；extra spicy | Is this soup spicy? | 这个汤辣吗？ | 「辣」用 spicy 或 hot；hot 也是「烫、热」，容易误会，点餐时说 spicy 最清楚。
+@v: food | = | n. | fuːd | 食物；（某一类）菜 | 说口味喜好、某个地方的菜 | spicy food；Chinese food；fast food | I love Hunan food. | 我很爱吃湘菜。 | food 一般不可数，不加 s；「中餐」说 Chinese food，不说 China food。
+@v: chicken | = | n. | ˈtʃɪkɪn | 鸡肉 | 点餐 | chicken with rice；fried chicken；chicken soup | The chicken soup here is great. | 这里的鸡汤很好喝。 | 作「鸡肉」讲不可数：✗ eat a chicken（吃掉一整只鸡）→ ✓ eat chicken；发音别和 Day 3 的 kitchen 搞反。
+@v: rice | = | n. | raɪs | 米饭；大米 | 点餐、说主食 | a bowl of rice；fried rice；chicken with rice | Can I have some more rice? | 能再给我来点米饭吗？ | rice 不可数：✗ two rices → ✓ two bowls of rice；r 开头要卷舌，别读成 lice（虱子）！
+@v: soup | = | n. | suːp | 汤 | 点餐 | a bowl of soup；chicken soup；noodle soup | This soup is too hot. | 这汤太烫了。 | 「喝汤」美国人一般说 have soup 或 eat soup（用勺子）；drink soup 只在端起杯子或碗直接喝时才说。
+@v: Can I get | = | phr. | kən aɪ ˈget | 能给我……吗？（点餐、要东西） | 点餐、在咖啡店或柜台要东西 | Can I get + 东西?；Can I get…, please?；Can I get the check? | Can I get a coffee to go? | 能给我一杯咖啡打包吗？ | 这里的 get 是「得到」，不是让你自己去拿；Can I have…? 也可以，Could I have…? 更正式。对服务员说 Give me… 很生硬。
+@v: bottle | = | n. | ˈbɑːtl | 瓶；一瓶 | 买水、点饮料 | a bottle of water；two bottles of…；a water bottle（水杯） | Can I get two bottles of water? | 能给我两瓶水吗？ | a bottle of water 是「一瓶水」，a water bottle 是「水瓶、水杯」，换个顺序意思就变了；美式 tt 读成轻弹的 d：`/ˈbɑːdl/`。
+@v: to go | = | phr. | tə ˈgoʊ | 打包；带走 | 餐厅、咖啡店说「外带」 | …to go, please；For here or to go?；a coffee to go | For here or to go? | 在这儿吃还是带走？ | to go 放在食物后面：a coffee to go；「打包」不说 pack it；吃剩的饭菜要打包，说 Can I get a box?（能给我个打包盒吗？）
+@v: delicious | = | adj. | dɪˈlɪʃəs | 很好吃的；美味的 | 夸饭菜好吃 | so delicious；delicious food；This looks delicious! | Thank you. Dinner was delicious. | 谢谢，晚饭很好吃。 | delicious 本身就是「非常好吃」，一般不加 very：✗ very delicious → ✓ really delicious / so delicious；口语也常说 This is so good!
+@v: favorite | = | n./adj. | ˈfeɪvərɪt | 最喜欢的（人 / 东西） | 说最爱的店、菜、颜色 | my favorite；favorite food；What's your favorite…? | What's your favorite Chinese food? | 你最喜欢哪道中国菜？ | favorite 已经是「最喜欢」，前面不加 most：✗ my most favorite → ✓ my favorite；美式拼写 favorite，英式 favourite。
+@v: pay | = | v. | peɪ | 付钱；买单 | 吃饭结账、买东西 | pay for…；pay by phone；pay in cash | Can I pay by WeChat? | 可以用微信付吗？ | 「付饭钱」要加 for：pay for lunch；过去式是 paid，不是 payed。
+@v: split | = | v. | splɪt | 分摊（费用）；平分 | AA 制、合点一份菜 | split the bill / the check；split it；split a pizza | Let's split the bill. | 我们 AA 吧。 | 「AA 制」是中国的说法，美国人听不懂 AA；说 split the bill，美国餐厅里的「账单」更常叫 the check。
+@v: cash | = | n. | kæʃ | 现金 | 说付款方式 | pay in cash；cash only；I don't have cash. | Sorry, I don't have any cash. | 不好意思，我没带现金。 | cash 不可数：✗ a cash / ✗ cashes；a 读 `/æ/`，嘴巴张大，不读「卡什」。
+@v: It's on me | = | phr. | ɪts ɑːn ˈmiː | 我请客；算我的 | 请朋友、同事吃饭喝东西 | It's on me.；Lunch is on me.；This one's on me. | Put your wallet away. Dinner's on me. | 把钱包收起来，晚饭我请。 | 不说 I invite you（英文听起来是「我邀请你」，不是「我付钱」）；被请客后可以说 Thanks! Next time, it's on me.
+
+@diff: 「我要一个……」——I'd like… / Can I get…?，少说 I want…
+@d_cn: 在餐厅、咖啡店、柜台点东西，告诉对方你要什么。
+@d_en: I'd like the beef noodles, please. / Can I get a bottle of water?
+@d_why: 中文说「我要一碗牛肉面」很自然，一点也不失礼。但英文的 **I want…** 是直接说出自己的愿望，对服务员这么说，听起来像在下命令，或者像小孩在要东西。美国人点餐最常用 **I'd like…**（礼貌、标准）和 **Can I get…?**（轻松、日常），再加一个 please 就更客气了。
+@d_when: 餐厅、咖啡店、前台、柜台：I'd like… / Can I get…? / I'll have…（我来一份……）。和朋友聊愿望时 I want… 完全没问题：I want a new phone.
+@d_vs: ✗ I want beef noodles.（对服务员说，生硬）\n✓ I'd like the beef noodles, please.\n✓ Can I get the beef noodles?\n✓ I'll have the beef noodles.
+@d_task: 在咖啡店用两种说法点：「一杯拿铁，打包。」 | I'd like a latte to go, please. / Can I get a latte to go?
+@diff: I like ≠ I'd like
+@d_cn: 「我爱吃辣」说的是一直以来的喜好；「我要牛肉面」说的是现在要点的东西。
+@d_en: I like spicy food.（一贯喜欢）/ I'd like the beef noodles.（现在想要）
+@d_why: I'd like 是 **I would like** 的缩写，意思是「我（现在 / 这一次）想要」，和 want 意思接近，但更礼貌。I like 是「我（一直）喜欢」。两者只差一个 'd，听起来很像，意思却完全不同：对服务员说 I like the beef noodles，对方会以为你在夸这道菜，而不是在点餐。
+@d_when: 说喜好、习惯：I like… / I don't like…；点餐、提要求：I'd like…。问别人时也分开：Do you like spicy food?（你爱吃辣吗）/ Would you like some water?（你要不要喝点水）
+@d_vs: **I like coffee.** 我喜欢喝咖啡。（平时）\n**I'd like a coffee, please.** 请给我一杯咖啡。（现在）\n**Do you like noodles?** 你喜欢吃面吗？\n**Would you like some noodles?** 你要不要来点面？
+@d_task: 用英文说：「我喜欢吃鸡肉，不过今天我要一份牛肉面。」 | I like chicken, but today I'd like the beef noodles.
+@diff: 「我们去……吧」——Let's…
+@d_cn: 提议大家一起做某件事：「我们去吃饭吧」「我们走吧」。
+@d_en: Let's get lunch. / Let's go. / Let's split the bill.
+@d_why: 中文靠句尾的「吧」表示提议；英文把提议放在句首：**Let's + 动词原形**。很多人直译成 We go to eat lunch?，听起来像在问计划，而不是在提议。Let's 是 let us 的缩写，但提议时口语里几乎没人说 let us。
+@d_when: 提议同事、朋友一起做事：Let's get coffee. / Let's start. 提议「别做」时说 Let's not…：Let's not take a taxi.
+@d_vs: ✗ We go to eat lunch? → ✓ Let's get lunch.\n✗ Let's to go. → ✓ Let's go.（Let's 后面直接跟动词）\n**Let's not** take a taxi. 我们别打车了。
+@d_task: 用 Let's 提议：「我们去楼下喝杯咖啡吧。」 | Let's get coffee downstairs.
+@diff: 「随便」——Anything is fine.
+@d_cn: 别人问你想吃什么、去哪里，你觉得都可以。
+@d_en: Anything is fine. / Anywhere is fine. / You choose!
+@d_why: 中文的「随便」很常用，但直译成 Casual. 意思不对；说 Whatever. 更糟——英文里它听起来像「随你，我无所谓」，带着不耐烦。英文说 **Anything is fine.**（吃什么都行）、**Anywhere is fine.**（去哪都行）。另外，只说一句 Anything is fine，美国人有时会觉得你把做决定的麻烦丢给了他；后面最好加一句 You choose! 或者给个小建议：Maybe noodles?
+@d_when: 别人问 What do you feel like? / Where do you want to go?，而你真的没有偏好。
+@d_vs: ✗ Casual.（意思不对）\n✗ Whatever.（像在说「随你，我不在乎」）\n✓ Anything is fine. Maybe noodles?\n✓ Anywhere is fine. You choose!
+@d_task: 同事问 Where do you want to go for lunch?（你去哪都行，让他来定） | Anywhere is fine. You choose!
+
+@core: Let's + 动作. | 提议一起做某事 | get lunch / get coffee / go / split the bill | 正式：Shall we have lunch together?｜随意：Lunch? Let's go!
+@core: I'd like…, please. | 点餐、礼貌地说「我要」 | the beef noodles / a coffee / the chicken with rice | 正式：I would like the beef noodles, please.｜随意：I'll have the beef noodles.
+@core: Can I get…? | 点餐、在柜台要东西 | a bottle of water / a small soup / the check | 正式：Could I have a bottle of water, please?｜随意：Can I get a water?
+@core: Not too spicy. / Extra spicy. | 说口味 | spicy / sweet / salty | 正式：Could you make it mild, please?｜随意：Not too spicy!
+@core: …to go, please. | 打包带走 | a coffee / one chicken rice / this soup | 正式：Could I get this to go, please?｜随意：To go, please.
+@core: It's on me. | 我请客 | It's on me. / Lunch is on me. / This one's on me. | 正式：Please, let me get this.｜随意：I got this!
+@core: Anything is fine. | 「随便」，吃什么都行 | Anything / Anywhere | 正式：I'm happy with anything.｜随意：I'm easy. You choose!
+
+@pw: menu | ˈmenjuː | 2 个音节 MEN·u | 第二个音节是 `/njuː/`，不读「门怒」
+@pw: delicious | dɪˈlɪʃəs | 3 个音节 de·LI·cious | 重音在中间；-cious 读 `/ʃəs/`
+@pw: favorite | ˈfeɪvərɪt | 3 个音节 FA·vor·ite（口语常缩成 2 个音节 FAV·rite） | 结尾 -ite 读 `/ɪt/`，不读 `/aɪt/`
+@pw: chicken | ˈtʃɪkɪn | 2 个音节 CHICK·en | 和 kitchen `/ˈkɪtʃɪn/`（Day 3）别读反：chicken 先 `/tʃ/` 后 `/k/`
+@pw: noodles | ˈnuːdlz | 2 个音节 NOO·dles | oo 拉长；结尾 -dles 舌尖顶住上齿龈，不加「欧」
+@pw: spicy | ˈspaɪsi | 2 个音节 SPI·cy | s 后面的 p 不送气，听起来接近 b：「斯摆-西」
+@pw: bottle | ˈbɑːtl | 2 个音节 BOT·tle | 美式 tt 读成轻轻弹一下的 d，听起来像 `/ˈbɑːdl/`
+@ps: **Let's** get **lunch** / down**stairs**. | Let's 一个音节 `/lets/`；get 的 t 只做口型不爆破，直接接 lunch。
+@ps: I'd **like** the **beef noo**dles, **please**. / Not too **spi**cy. | I'd 的 d 不爆破，直接接 like；Not too 两个 t 连在一起，只读一次。
+@ps: Can‿I **get**‿a **bot**tle‿of **wa**ter? | Can 弱读成 `/kən/`；get a 连读成 `/ˈgedə/`；bottle of 连成 `/ˈbɑːdləv/`，water 的 t 也变成轻弹的 d。一般疑问句结尾上扬。
+@ps: It's‿on **me**. | 重音落在 me 上，强调「我来付」；It's on 连读成 `/ɪtsɑːn/`。
+@pnote: I'd like 和 I like 只差一个 `/d/`，快速说话时 I'd 的 d 几乎听不见，要靠场合判断：对服务员说的，基本都是 I'd like。
+@pnote: Let's 读 `/lets/`，一个音节；书面上的 let us 在提议时几乎不用，口语一律说 Let's。
+@lfocus: I'd like 里很弱的 d
+@lfocus: Can I get a 连成一串
+@lfocus: It's on me 的重音在 me
+@dict: S8
+@dict: S12
+@res: 在 YouTube 频道 Rachel's English 内搜索 "ordering food"，听美国人点餐时 I'd like / Can I get 的语调和连读。
+
+@mimic: 跟读【C】S1–S19：先用 0.8 倍速逐句跟读，重点模仿 I'd like、Can I get a… 和 It's on me 的读法；再你演林晓、手机朗读 Emma、吴佳和服务员的台词，完整对一遍并录音。
+@swap: I'd like the beef noodles, please. Not too spicy. | 换菜和口味：the chicken with rice / a small soup；extra spicy / not too salty | I'd like the chicken with rice, please. Extra spicy.
+@swap: Can I get a bottle of water? | 换东西：a coffee / a small soup / some rice | Can I get a small soup?
+@swap: Let's get lunch downstairs. | 换活动：get coffee / take a break / go | Let's get coffee downstairs.
+@swap: I like spicy food. | 换成你真实的喜好：noodles / chicken / sweet food；也可以说 I don't like… | I like noodles, but I don't like spicy food.
+@free: 中午，你想约 Emma 和吴佳一起去楼下吃饭。 | Let's get lunch downstairs!
+@free: 在面馆，你想点一份鸡肉饭，不要太辣，再要一瓶水。 | I'd like the chicken with rice, please. Not too spicy. Can I get a bottle of water, too?
+@free: 同事问 What do you feel like for lunch?（你吃什么都行，想让他来定） | Anything is fine. You choose!
+@free: 吃完饭，美国同事说 It's on me. 你想道谢，并说下次你请。 | Thank you! Next time, it's on me.
+@output: 录 1 分钟「我的午饭」：平时中午吃什么（I usually… / I like…）→ 今天想吃什么（I'd like…）→ 模拟在餐厅点一次餐（主食 + 口味 + 饮料，可以加 to go）→ 谁付钱（split / It's on me）。录完检查：点餐时有没有说成 I want… 或漏掉 I'd 的 'd。
+@output_sample: I usually have lunch with my coworkers. I like noodles, and I like spicy food. Today, let's go to the noodle place downstairs! "Hi! I'd like the beef noodles, please. Extra spicy. Can I get a bottle of water, too?" After lunch, my coworker says, "It's on me." So next time, it's on me!
+
+@check: 服务员问 Ready to order? 你说 I like the beef noodles. 会有什么误会？应该怎么说？ | 对方会以为你在说「我（一直）喜欢牛肉面」，而不是在点餐。应该说 I'd like the beef noodles, please.
+@check: 「你爱吃辣吗？」和「你要不要来点辣酱？」英文分别怎么问？ | Do you like spicy food?（问一贯的喜好）/ Would you like some hot sauce?（问现在要不要）
+@check: 吴佳说 And one more chicken rice to go. 这里的 to go 是什么意思？ | 打包带走，不在店里吃（这份是给李凯带的）。
+@check: Emma 说 It's on me. 是什么意思？林晓可以怎么回应？ | 「这顿我请」。可以说 Thank you! Next time, it's on me.
+@check: 同事问你想吃什么，你回答 Whatever. 为什么不好？换一个自然的说法。 | Whatever 听起来像「随你，我无所谓」，有点不耐烦。可以说 Anything is fine. You choose! 或 Anything is fine. Maybe noodles?
+@next1: 不看书说出 S1、S8、S9、S12、S18（锚点句）
+@next1: I like…（一直喜欢）和 I'd like…（现在要）各说一句
+@next1: 用 Let's 提议 3 件事
+@next7: 模拟一次完整的点餐：主食 + 口味 + 饮料 + 打包 / 谁付钱
+@next7: 「随便」「我请客」「我们 AA 吧」的英文说法

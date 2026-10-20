@@ -364,10 +364,21 @@ def env(autoescape=True):
     return e
 
 
-def chrome_pdf(html_path, pdf_path):
+def chrome_pdf(html_path, pdf_path, attempts=3):
+    """Render with Chromium. Large documents are occasionally cut short, so every template ends
+    with a "THE END" marker and the render is retried until that marker is on the last page."""
+    import pypdfium2 as pdfium
     npm_root = subprocess.run(["npm", "root", "-g"], capture_output=True, text=True).stdout.strip()
-    subprocess.run(["node", str(ROOT / "tools" / "render.cjs"), str(html_path), str(pdf_path)],
-                   check=True, env={**os.environ, "NODE_PATH": npm_root})
+    for attempt in range(1, attempts + 1):
+        subprocess.run(["node", str(ROOT / "tools" / "render.cjs"), str(html_path), str(pdf_path)],
+                       check=True, env={**os.environ, "NODE_PATH": npm_root})
+        doc = pdfium.PdfDocument(str(pdf_path))
+        last = doc[len(doc) - 1].get_textpage().get_text_range()
+        doc.close()
+        if "THE END" in last:
+            return
+        print(f"render of {html_path.name} was cut short ({attempt}/{attempts}), retrying")
+    raise RuntimeError(f"{html_path.name}: Chromium kept producing an incomplete PDF")
 
 
 def find_pages(pdf_path, patterns):
@@ -503,7 +514,7 @@ def build_book(n):
     meta, days, index = check_book(n)
     stats = book_stats(days, index)
     meta = fill_counts(meta, stats)
-    ctx = {"book": meta, "days": days, "index": index, "stats": stats, "roadmap": roadmap,
+    ctx = {"book": meta, "days": days, "index": index, "stats": stats, "roadmap": roadmap, "day_titles": {d["day"]: d["title_cn"] for d in days},
            "alpha": sorted(index, key=lambda v: re.sub(r"[^a-z ]", "", v["head"].lower()) or v["head"]),
            "review_plan": REVIEW_PLAN, "regular_plan": REGULAR_PLAN}
     build_pdf("book.html.j2", ctx, meta["pdf_name"], meta["footer"],

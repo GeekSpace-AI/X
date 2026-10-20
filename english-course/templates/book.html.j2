@@ -103,8 +103,8 @@
     <tr><th>词 / 短语</th><th>音标</th><th>首次</th><th>复现</th><th>能识别</th><th>能主动用</th></tr>
     {% set ns3 = namespace(day=0) %}
     {% for v in index %}
-      {% if v.day != ns3.day %}{% set ns3.day = v.day %}<tr class="dh"><td colspan="6">Day {{ v.day }} · {{ days[v.day - 1].title_cn }}</td></tr>{% endif %}
-      <tr><td class="w">{{ v.head }}{% if v.pos == 'phr.' %} <span class="muted small">(短语)</span>{% endif %}</td><td class="p"><span class="ipa">/{{ v.ipa }}/</span></td><td class="f">D{{ v.day }}</td><td class="r">{% for r in v.recur %}D{{ r }}{% if not loop.last %} {% endif %}{% else %}<span class="muted">—（第二册复现）</span>{% endfor %}</td><td class="cb">☐</td><td class="cb">☐</td></tr>
+      {% if v.day != ns3.day %}{% set ns3.day = v.day %}<tr class="dh"><td colspan="6">Day {{ v.day }} · {{ day_titles[v.day] }}</td></tr>{% endif %}
+      <tr><td class="w">{{ v.head }}{% if v.form | lower != v.head | lower %} <span class="muted small">（原文 {{ v.form }}）</span>{% endif %}{% if v.pos == 'phr.' %} <span class="muted small">(短语)</span>{% endif %}</td><td class="p"><span class="ipa">/{{ v.ipa }}/</span></td><td class="f">D{{ v.day }}</td><td class="r">{% for r in v.recur %}D{{ r }}{% if not loop.last %} {% endif %}{% else %}<span class="muted">—（第二册复现）</span>{% endfor %}</td><td class="cb">☐</td><td class="cb">☐</td></tr>
     {% endfor %}
   </table>
   <h2 class="sec"><span class="n">A–Z</span>字母索引</h2>
@@ -164,5 +164,6 @@
   <pre class="prompt">{{ book.continue_prompt }}</pre>
 </section>
 
+<div class="end-mark">— 完 · THE END —</div>
 </body>
 </html>

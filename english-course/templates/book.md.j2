@@ -227,7 +227,7 @@ lang: zh-CN
 | 词 / 短语 | 音标 | 首次 | 复现 | 能识别 | 能主动用 |
 |---|---|---|---|---|---|
 {% for v in index %}
-| {{ v.head }} | /{{ v.ipa }}/ | D{{ v.day }} | {% for r in v.recur %}D{{ r }} {% endfor %} | ☐ | ☐ |
+| {{ v.head }}{% if v.form | lower != v.head | lower %}（原文 {{ v.form }}）{% endif %} | /{{ v.ipa }}/ | D{{ v.day }} | {% for r in v.recur %}D{{ r }} {% endfor %} | ☐ | ☐ |
 {% endfor %}
 
 # 附录 2 · 复习索引
