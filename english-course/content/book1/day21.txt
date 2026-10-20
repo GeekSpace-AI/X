@@ -1,0 +1,155 @@
+@day: 21
+@week: 3
+@review: true
+@title_cn: 第 3 周复习：张罗一顿欢迎午饭
+@title_en: Week 3 Review: A Welcome Lunch
+@topic: 为新实习生筹备欢迎午饭：打电话订位、发邀请、网上买礼物
+@think_short: borrow ≠ lend｜want to / going to / will｜say / tell / speak / talk｜How much ≠ How many｜Would you mind…? — No, not at all.
+
+@goal_scene: 经理请你为新来的实习生张罗一顿欢迎午饭：先答应请求，问清人数和预算；再打电话订位、问价格，发消息邀请同事，借东西做准备；临时有变时冷静处理。
+@goal_expr: Would you mind…? — No, not at all! / How many…? / How much is…? / Hi, this is… from… / Sorry, I didn't catch that. / We're going to… Would you like to join us? / Can I borrow…? / at the last minute
+@goal_vocab: 复现第 3 周和前几周的 19 个旧词（虚线标出）+ 5 个新词 + 1 个短语：intern, organize, budget, guest, perfect, at the last minute
+@done: 能不看原文，按【H】第 1 层的 8 个提示用英文复述新故事：谁请谁帮忙、怎么订位、怎么邀请、临时有什么变化
+@done: 能分清 borrow / lend、want to / be going to / will、say / tell / speak / talk、How much / How many，并会回答 Would you mind…?
+@done: 能把一件中文的筹备任务（人数、预算、订位、邀请、变动）组织成一通英文电话和一条英文工作消息
+
+@warmup: 能帮我个忙吗？ | Could you do me a favor? | D15
+@warmup: 我周三要见一个客户。 | I'm meeting a client on Wednesday. | D16
+@warmup: 她在开会。要我帮您留个言吗？ | She's in a meeting. Can I take a message? | D17
+@warmup: 我很想去，可是我周五有课。 | I'd love to, but I have a class on Friday. | D18
+@warmup: 有任何问题请告诉我。 | Please let me know if you have any questions. | D19
+@warmup: 我们每个月大约发三万个包裹。 | We send about thirty thousand packages a month. | D20
+
+@scene: 第三周的周五上午。下周一，团队要来一位新实习生陈乐（Leo）。张涛请林晓帮忙张罗一顿欢迎午饭：订餐厅、给大家发邀请、再给 Leo 准备一份小礼物，预算一千块。三周前，林晓自己也是那个紧张的新人；现在轮到她用这一周学的英文——请求、计划、电话、邀请、消息和数字——为别人做点事。可快下班时，餐厅打来了电话……
+@sp: 人物关系 | 张涛 → 林晓（经理请下属帮忙）；林晓 → 餐厅服务员（第一次通电话，对方不认识她）；林晓 ↔ 吴佳、李凯（熟悉的同事）
+@sp: 沟通目的 | 爽快地答应经理；订好位子、问清价格；邀请同事；遇到临时变动时冷静地重新安排
+@sp: 已知信息 | 张涛只交代了人数和预算；餐厅不知道 SwiftLink 是谁、要几个人；同事们还不知道有这顿午饭，李凯中午有会
+@sp: 表达重点 | 答应请求（No, not at all!）→ 问数量和价格（How many / How much）→ 电话自报家门、没听清时对方请你重复 → 发邀请（We're going to… Would you like to…?）→ 借东西（borrow）→ 临时变动（at the last minute）
+
+@story_title: Episode 21 · A Welcome Lunch for Leo
+@story_type: 叙述 + 对话 + 电话 + 消息（新情境）
+@s: Tom: Lily, our new **intern**, Leo, is starting on Monday. | 张涛：林晓，我们的新实习生 Leo 周一来报到。
+@s: Tom: [[Would you mind]] **organizing** a welcome lunch for him? | 张涛：你介意帮忙张罗一顿欢迎午饭吗？
+@s: Lily: No, not at all! [[How many]] people are coming? | 林晓：一点也不介意！有多少人参加？
+@s: Tom: Nine. Our **budget** is one thousand yuan. | 张涛：九个人。预算是一千块。
+@br:
+@s: Lily calls a restaurant. | 林晓给一家餐厅打了电话。
+@s: Lily: Hi, [[this is]] Lily from SwiftLink. Do you have a table for nine on Monday at noon? | 林晓：您好，我是 SwiftLink 的林晓。周一中午十二点，有九个人的桌吗？
+@s: Waiter: Sorry, I didn't [[catch]] that. Nine **guests**? | 服务员：不好意思，我没听清。九位客人吗？
+@s: Lily: Yes. [[How much]] is the lunch special? | 林晓：对。午市套餐多少钱？
+@s: Waiter: Eighty yuan per person. | 服务员：每位八十块。
+@s: Lily: **Perfect**. See you on Monday! | 林晓：太好了，那周一见！
+@br:
+@s: Then Lily sends the team a message: | 接着，林晓给团队发了一条消息：
+@s: "We're [[going to]] have a welcome lunch for Leo on Monday. [[Would you like to]] join us?" | 「我们周一要给 Leo 办一顿欢迎午饭。要不要一起来？」
+@s: Grace: [[Count me in]]! | 吴佳：算我一个！
+@s: Kevin: [[I'd love to]], but I have a meeting until twelve thirty. I'll come late. | 李凯：我很想去，可我有个会要开到十二点半。我晚点到。
+@br:
+@s: Lily and Grace buy Leo a gift online, with a [[discount]]! | 林晓和吴佳在网上给 Leo 买了一份礼物，正好在打折！
+@s: Lily: Grace, can I [[borrow]] some [[tape]] for the welcome sign? | 林晓：吴佳，能借我点胶带贴欢迎牌吗？
+@s: Grace: Sure! | 吴佳：当然！
+@br:
+@s: At five fifty, the restaurant calls back. | 五点五十，餐厅打回来了。
+@s: Waiter: Sorry, the big table isn't free at noon. [[How about]] twelve thirty? | 服务员：抱歉，中午十二点大桌没空了。改到十二点半怎么样？
+@s: Lily: Perfect! Now Kevin can be [[on time]]. | 林晓：正好！这样李凯也能准时到了。
+@s: Lily [[tells]] Tom about the change. | 林晓把这个变动告诉了张涛。
+@s: Tom: Plans often change **at the last minute**, but you stayed [[calm]]. | 张涛：计划常常临时有变，不过你一点也没慌。
+@s: Tom: [[Thanks for]] organizing everything! | 张涛：谢谢你把这些都张罗好了！
+@s: Lily: Happy to help. I remember my [[first day]]. I was so [[nervous]]! | 林晓：乐意帮忙。我还记得自己上班第一天，紧张得要命！
+
+@v: intern | = | n. | ˈɪntɜːrn | 实习生 | 公司来了实习生；介绍新同事 | a new intern；a summer intern；an intern on our team | We have two interns this summer. | 今年夏天我们有两个实习生。 | 重音在前：IN-tern；「实习（期）」是 internship：She has an internship at SwiftLink.；别和 internal（内部的）、internet 混。
+@v: organizing | organize | v. | ˈɔːrɡənaɪzɪŋ | 张罗；筹备；组织 | 张罗聚餐、聚会、活动、会议 | organize a lunch；organize a party；organize my desk（整理桌面） | Who's organizing the team dinner? | 团队聚餐是谁在张罗？ | 后面直接接活动，不加 for：✗ organize for a lunch → ✓ organize a lunch；跟在 Would you mind 后面要用 -ing：Would you mind organizing…?；美式拼 -ize，英式拼 -ise。
+@v: budget | = | n. | ˈbʌdʒɪt | 预算 | 办活动、采购、出差前说能花多少钱 | The budget is…；on a budget（钱不多）；over budget（超预算） | We're on a tight budget this month. | 这个月预算很紧。 | 「预算是一千块」说 The budget is one thousand yuan.；「超预算」是 over budget，✗ out of budget；u 读 /ʌ/，dg 读 /dʒ/，不读「巴吉特」。
+@v: guests | guest | n. | ɡests | 客人；来宾 | 餐厅、酒店、聚会对客人的称呼 | nine guests；a guest list；Be my guest.（请便） | How many guests are coming to the party? | 聚会有多少位客人？ | gu 里的 u 不发音，读 /ɡest/，和 guessed 同音；餐厅、酒店称客人为 guest，比 customer 更客气、更有「招待」的意味。
+@v: Perfect | perfect | adj. | ˈpɜːrfɪkt | 完美的；（回应安排）太好了、正合适 | 对方提出的时间、方案正合你意 | Perfect!；That's perfect.；perfect for sb | Friday at three? — Perfect! | 周五三点？——正好！ | 口语里单说 Perfect! 很常见，意思是「太好了、正合适」，不一定真的「完美」；形容词重音在前：PER-fect；谦虚地说自己英语不好：My English isn't perfect.
+@v: at the last minute | = | phr. | ət ðə ˌlæst ˈmɪnɪt | 在最后一刻；临时 | 计划临时有变、临时取消、临时加人 | change at the last minute；cancel at the last minute；a last-minute change | Sorry to cancel at the last minute. | 抱歉，临时取消了。 | 介词用 at：✗ in the last minute；放在名词前写成 last-minute：a last-minute change（临时变动）；last 的 t 碰上 m 几乎不发音：/læs ˈmɪnɪt/。
+
+@diff: borrow（借进）≠ lend（借出）（复习 D15）
+@d_cn: 「借」：我向你借，东西到我这儿；你借给我，东西从你那儿出去。
+@d_en: Can I borrow some tape? / Could you lend me some tape?
+@d_why: Day 15：中文一个「借」字两个方向都能用，英文必须分方向——**borrow = 借进**，主语是拿到东西的人；**lend = 借出**，主语是把东西给出去的人。故事里林晓开口借胶带，说的是 Can I borrow some tape?；换成吴佳的角度，就是 Grace lent Lily some tape.（lend 的过去式是 lent）。中国人最常见的错：「借我一下」说成 ✗ Can you borrow me…?
+@d_when: 自己开口借 → Can I borrow…?；请对方借给你 → Could you lend me…?；说谁借给了谁 → She lent me… / I lent him…
+@d_vs: **Can I borrow your pen?** 我能借你的笔吗？\n**Could you lend me your pen?** 你能把笔借给我吗？\n**Grace lent Lily some tape.** 吴佳借给林晓一些胶带。\n✗ Can you borrow me a pen?
+@d_task: 用英文说：① 能借一下你的充电器吗？（用 borrow）② 李凯把笔记本电脑借给了我。 | ① Can I borrow your charger? ② Kevin lent me his laptop.
+@diff: 「我想 / 我要 / 我来」：want to / be going to / will（复习 D16）
+@d_cn: 「我想周末去逛街」「我周一要请大家吃饭」「好，我去告诉他」——中文都是「想 / 要 / 去」，英文要看「决定到什么程度、什么时候决定的」。
+@d_en: I want to go shopping, but I'm not sure.（只是想）/ We're going to have a welcome lunch on Monday.（已经定了）/ I'll come late.（说话时当场决定）
+@d_why: Day 16：**want to** 只说愿望，还没决定；**be going to** 是说话之前就定好的计划——林晓订好餐厅以后发消息，用 We're going to have a welcome lunch…；**will（'ll）**是说话这一刻才做的决定或承诺——李凯看到消息、当场决定晚点到，说 I'll come late. 已经约好时间的安排，也常用 am / is / are + -ing：Leo is starting on Monday.
+@d_when: 只是想、还没定 → I want to…；早就定好的计划 → I'm going to… / I'm + -ing + 时间；当场答应、临时决定 → I'll…
+@d_vs: **I want to buy Leo a gift.** 我想给 Leo 买份礼物。（还没定买什么）\n**We're going to have lunch at twelve thirty.** 我们定了十二点半吃饭。\n**OK, I'll call the restaurant.** 好，我来给餐厅打电话。（当场答应）\n✗ I want go shopping.
+@d_task: 选 want to / be going to / will：① 同事说「会议室的投影坏了」，你当场说「我去叫李凯」。② 你下周一已经约好去看牙医（see the dentist）。③ 你想学做饭，但还没想好。 | ① I'll get Kevin. ② I'm going to see the dentist next Monday. / I'm seeing the dentist next Monday. ③ I want to learn to cook, but I'm not sure.
+@diff: 「说」：say / tell / speak / talk（复习 D17）
+@d_cn: 「再说一遍」「告诉张涛」「找经理说话」「我们聊聊预算」——中文一个「说」，英文分四个。
+@d_en: say that again / tell Tom / speak to the manager / talk about the budget
+@d_why: Day 17：**say** 后面接说的内容（say that again、say hello）；**tell** 后面直接接人（tell Tom、tell her）；**speak** 偏正式，电话里找人、说某种语言用它（Can I speak to…? / speak English）；**talk** 是两个人你来我往地聊（talk to sb、talk about sth）。故事里林晓 tells Tom about the change——后面紧跟着「人」，所以用 tell。最常见的错：✗ say me、✗ tell to her、✗ talk English。
+@d_when: 请对方重复、转述别人的话 → say；转告某人 → tell + 人；电话找人、说语言 → speak；商量、聊天 → talk to / talk about
+@d_vs: **Sorry, could you say that again?** 抱歉，您能再说一遍吗？\n**I'll tell Kevin.** 我去告诉李凯。\n**Can I speak to the manager?** 我能找一下经理吗？\n**Let's talk about the budget.** 我们聊聊预算吧。\n✗ Please say me. ✗ I'll tell to him.
+@d_task: 选 say / tell / speak / talk 填空：① Could you ___ him I'm here? ② Can I ___ to Mr. Chen, please? ③ What did the waiter ___? ④ We need to ___ about the menu. | ① tell ② speak ③ say ④ talk
+@diff: 「多少」：How many ≠ How much（复习 D20）
+@d_cn: 「有多少人参加？」「午市套餐多少钱？」「要多少胶带？」
+@d_en: How many people are coming? / How much is the lunch special? / How much tape do we need?
+@d_why: Day 20：先看后面的东西**能不能一个一个地数**：能数的（people、guests、boxes）用 **How many + 复数**；不能直接数的（tape、paper、information）用 **How much**；问价格永远用 **How much**，不用加 money。故事里林晓问人数用 How many people，问价格用 How much is the lunch special——一通电话里两个都用上了。别忘了大数字三位一组：一千块 = one thousand yuan，三万 = thirty thousand。
+@d_when: 订位、下单、盘点 → 能数的用 How many，不能数的用 How much；问价钱 → How much is it? / How much does it cost? / What's the total?
+@d_vs: **How many guests?** 几位客人？（guest 可数）\n**How much is it per person?** 每位多少钱？\n**How much tape do we need?** 要多少胶带？（tape 不可数）\n✗ How many money? ✗ How much is the price?
+@d_task: 帮团队订下午茶，用英文问：① 要几杯咖啡？② 一共多少钱？再说出 ③「总共一千二百五十块。」 | ① How many cups of coffee do we need? ② How much is it in total? / What's the total? ③ The total is one thousand two hundred and fifty yuan.
+@diff: Would you mind…? —— No, not at all. 才是「可以」（复习 D15）
+@d_cn: 别人很客气地请你帮忙：「你介意……吗？」你想说「不介意，没问题」。
+@d_en: Would you mind organizing a welcome lunch? — No, not at all! / No, I don't mind.
+@d_why: Day 15：mind 是「介意」，Would you mind…? 字面是「你介意……吗？」。愿意帮忙，就要说「不介意」：**No, not at all.** 中国人习惯先说「好的！」，脱口而出 Yes!——字面意思反而成了「是的，我介意」。故事里张涛用最客气的 Would you mind organizing…?（要占用林晓不少时间），林晓答 No, not at all!，答得又快又对。日常说 Sure! 美国人也懂，但 Yes, I do. 一定是拒绝。
+@d_when: 别人用 Would you mind…? / Do you mind…? 请你帮忙，你愿意 → No, not at all. / No, I don't mind.；你现在不方便 → Sorry, I'm busy right now. Can I help you in ten minutes?
+@d_vs: **Would you mind calling the restaurant? — No, not at all.** 你介意给餐厅打个电话吗？——一点也不介意。\n**Do you mind if I sit here? — No, go ahead.** 我坐这儿你介意吗？——不介意，坐吧。\n**Would you mind…? — Yes, I do.**（= 我介意，是拒绝）
+@d_task: 经理问你 Would you mind printing the schedule for everyone? 你愿意，而且马上就去打印。 | No, not at all. I'll print it right now.
+
+@core: Could you…? / Would you mind + -ing? | 来自 D15：请人帮忙，事情越大、对方越忙，就越客气 | sign this / organizing the lunch / showing me | 正式：Would you mind organizing a welcome lunch?｜随意：Can you sign this?
+@core: I'm going to… / I'll… | 来自 D16：说定好的计划 / 当场答应 | have a welcome lunch / call the restaurant / come late | 正式：We're planning to have a welcome lunch on Monday.｜随意：I'll be there!
+@core: Hi, this is + 名字 + from + 公司. / Sorry, I didn't catch that. | 来自 D17：打电话自报家门；没听清请对方重复 | Lily from SwiftLink；that / your name / the number | 正式：Good morning, this is Lily Lin from SwiftLink.｜随意：Hi, it's Lily.
+@core: Would you like to…? — I'd love to, but… / Count me in! | 来自 D18：礼貌地邀请；接受或委婉拒绝 | join us for lunch / come to the party | 正式：We'd be happy to have you join us.｜随意：Wanna come? — I'm in!
+@core: Please let me know if you have any questions. / Thanks for + -ing. | 来自 D19：工作消息的结尾；具体地道谢 | any questions / any changes；organizing everything / your help | 正式：Please feel free to contact me if you have any questions.｜随意：Any questions, just let me know!
+@core: How many…? / How much is it? | 来自 D20：问数量、问价格 | people / guests / boxes；the lunch special / the tape | 正式：Could you tell me the price per person?｜随意：How much?
+
+@pw: borrow | ˈbɑːroʊ | 2 个音节 BOR·row（D15） | 第一个 o 嘴巴张大 `/ɑː/`；row 卷舌读 `/roʊ/`，不读「波肉」
+@pw: Thursday | ˈθɜːrzdeɪ | 2 个音节 THURS·day（D16） | th 舌尖轻咬 `/θ/`，不读 s；ur 卷舌；和 Tuesday `/ˈtuːzdeɪ/` 一定要分开
+@pw: unfortunately | ʌnˈfɔːrtʃənətli | 5 个音节 un·FOR·tu·nate·ly（D18） | 重音在 for；tu 读 `/tʃə/`，像「吃」；后面三个音节又轻又快
+@pw: restaurant | ˈrestərɑːnt | 3 个音节 RES·tau·rant（D18） | 重音在第一个，后面两个音节都轻；口语常缩成 2 个音节 `/ˈrestrɑːnt/`
+@pw: thousand | ˈθaʊznd | 2 个音节 THOU·sand（D20） | th 咬舌送气，不读「骚」；sand 很轻，只剩 `/znd/`
+@ps: Would‿you **mind** **or**ganizing a **wel**come **lunch**? ↗ / — **No**, not‿at‿**all**! | would you 连读成 `/ˈwʊdʒə/`；not at all 三个词连成一串，两个 t 都弹成轻轻的 d：`/ˌnɑːɾəˈɾɔːl/`，听起来像 na-da-dall；No 读重，对方一听就知道「可以」。
+@ps: Hi, **this** is **Li**ly from **Swift**Link. / Do you have a **ta**ble for **nine**? ↗ | 电话开头先报名字和公司，中间稍停；Do you 弱读成 `/də jə/`；Yes / No 问句句尾上扬，nine 读得最重。
+@ps: Plans **of**ten **change** / at the **last** **min**ute. | often 的 t 不发音：`/ˈɔːfn/`；last minute 的 t 碰上 m 几乎被吞掉：`/læs ˈmɪnɪt/`。
+@pnote: 本周的连读一次复习：could you / would you → `/ˈkʊdʒə/`、`/ˈwʊdʒə/`；going to → gonna，want to → wanna（能听懂就行，写的时候写完整）；let me → lemme；got it → `/ˈɡɑːɾɪt/`。打电话、发语音时这些音最多，抓住重读的动词和名词就能听懂大意。
+@pnote: 今天几个新词的读音：intern 和 budget 重音都在前（IN-tern、BUD-get）；guest 的 u 不发音，读 `/ɡest/`；perfect 作形容词重音在前：PER-fect。说价格时 eighty 和 eighteen 要分清：-ty 重音在前，-teen 重音在后、拉长（D20）。
+@lfocus: Would you mind…? 的回答先听 No 还是 Yes：No = 可以
+@lfocus: How many 后面跟人数，How much 后面跟价格
+@lfocus: at the last minute 里 last 的 t 几乎听不见
+@dict: S6
+@dict: S22
+@res: 在 youglish.com 输入 "at the last minute"，选 US，听这个短语在真实对话里的读法。
+
+@mimic: 合上书，不看【C】，按下面 8 个提示用 8–10 句英文复述故事（用第三人称讲：Tom asked Lily…；也可以用林晓的口吻），并录音：① 周五上午／新实习生 Leo 周一来／张涛请林晓张罗欢迎午饭（Would you mind…?）② 林晓答应，问人数；九个人、预算一千块 ③ 打电话订餐厅：自报家门、问九个人的桌，服务员没听清 ④ 问午市套餐的价格：每位八十块 ⑤ 给团队发邀请：吴佳「算我一个」，李凯开会到十二点半、会晚到 ⑥ 网上给 Leo 买礼物，正好打折；向吴佳借胶带贴欢迎牌 ⑦ 五点五十餐厅回电：十二点没大桌，改到十二点半——李凯正好能准时到 ⑧ 张涛：计划总是临时变，你很冷静，谢谢；林晓想起自己的第一天。录完对照原文，检查 borrow / tell / How much 有没有用错。
+@swap: Would you mind organizing a welcome lunch? — No, not at all! | 换请求：calling the restaurant / sending the message / printing the schedule | Would you mind calling the restaurant? — No, not at all!
+@swap: Do you have a table for nine on Monday at noon? | 换人数和时间：six / twelve；Friday at seven / Saturday night | Do you have a table for six on Friday at seven?
+@swap: We're going to have a welcome lunch for Leo on Monday. Would you like to join us? | 换活动和时间：a birthday dinner for Emma / a team lunch；on Friday / next Tuesday | We're going to have a team lunch on Friday. Would you like to join us?
+@swap: Can I borrow some tape for the welcome sign? | 换东西和用途，再用 lend 说一遍：some paper / your pen / your charger | Can I borrow some paper for the printer? / Could you lend me some paper?
+@free: 经理问：Would you mind sending the agenda to everyone? 你愿意，而且现在就发。 | No, not at all. I'll send it right now.
+@free: 你打电话到餐厅找陈经理（Mr. Chen）确认订位，接电话的人说他不在。请对方转告他给你回电，并说清你是谁。 | Can I speak to Mr. Chen? … Could you ask him to call me back? This is Lily from SwiftLink.
+@free: 你在网上订办公用品，问同事：「笔要几盒？」「胶带多少钱？」 | How many boxes of pens do we need? How much is the tape?
+@free: 吴佳约你周六去吃火锅，可你周六要回家看爸妈（票已经买好了）。委婉拒绝，并提议改到周日。 | I'd love to, but I'm going to visit my parents on Saturday. How about Sunday?
+@free: 欢迎午饭改到了十二点半。给团队写一条简短的工作消息，告诉大家新时间，并请有问题的人告诉你。 | Hi everyone, quick update: the welcome lunch is at 12:30 now, not 12. Please let me know if you have any questions. Thanks!
+@output: 录 1–1.5 分钟「我来张罗一次聚会」（可以讲真实经历，也可以改编故事）：谁请你帮忙、是为谁办（Would you mind…? — No, not at all.）→ 多少人、预算多少（How many… / budget / thousand）→ 打电话订位、问价格（This is… / How much…?）→ 发邀请（We're going to… Would you like to…?）→ 有人来不了或会晚到（I'd love to, but…）→ 临时有什么变化、你怎么处理（at the last minute / I'll…）。录完检查：borrow / lend、say / tell 有没有用错？How many 后面的名词有没有加复数？
+@output_sample: Last month, my manager asked me, "Would you mind organizing a team dinner?" I said, "No, not at all!" There were twelve people, and our budget was two thousand yuan. I called a hot pot restaurant and said, "Hi, this is Lily from SwiftLink. Do you have a table for twelve on Friday?" They said yes. It was one hundred and twenty yuan per person, so the total was one thousand four hundred and forty yuan. Then I sent a message to the team: "We're going to have dinner on Friday. Would you like to join us?" Most people said, "Count me in!" At the last minute, two more coworkers wanted to come. I called the restaurant again, and they gave us a bigger table. It was a perfect night.
+
+@check: （听力，不看原文回答）欢迎午饭一共几个人？午市套餐每位多少钱？一千块的预算够不够？ | 九个人，每位八十块，一共七百二十块，在一千块的预算以内，还能买礼物。
+@check: （听力，不看原文回答）餐厅为什么又打来电话？林晓为什么说 Perfect!？ | 中午十二点没有大桌了，问能不能改到十二点半；李凯的会开到十二点半，改时间后他正好能准时到。
+@check: 外面下雨了，同事没带伞。你想主动说「我可以借你一把伞」；她要向你开口借，又该怎么说？ | I can lend you an umbrella. / Can I borrow your umbrella?
+@check: 张涛问 Would you mind staying a little late tonight? 你愿意，却回答 Yes, of course! 会有什么误会？应该怎么说？ | Yes 字面上是「是的，我介意」，听起来像拒绝。应该说 No, not at all. / No, I don't mind.（日常说 Sure! 也行）
+@check: 选 want to / be going to / will：① 同事说打印机又没纸了，你当场说「我去拿点纸」。② 你已经订好了下周五去上海的火车票。 | ① I'll get some paper. ② I'm going to visit Shanghai next Friday. / I'm going to Shanghai next Friday.
+@check: 一位美国卖家打电话说要找张涛，你想告诉她「我会转告他，请他给您回电话」。用 say 还是 tell？说出整句。 | 用 tell（后面直接接人）：I'll tell him. I'll ask him to call you back.
+
+@improve: 如果【E】第 1、3 组错得多（borrow / lend、say / tell / speak / talk）：做两张「方向卡」——borrow ←（借进）／lend →（借出）；tell + 人／say + 内容。下周每天热身时各造 2 句关于自己的句子。Day 25 会学 make / do / take / get / have，又是「中文一个字、英文好几个词」的思路，先把这两组练熟。
+@improve: 如果 want to / be going to / will 还会混：每天晚上用三句话说明天——一件已经定好的（I'm going to…）、一件只是想做的（I want to…）、一件现在临时决定的（I'll…）。Day 22–23 汇报进度时会用到 I'll finish it by four.，Day 23 还会学 I was going to…, but…（本来打算……但是……）。
+@improve: 如果电话里还是听不清名字和数字：每天让手机朗读一个电话号码和一个价格（按 3-3-4 分组，注意 -teen / -ty），听写下来再核对；没听清时先说 Sorry, I didn't catch that.，别只说 What?。Day 28 查包裹时会频繁出现单号和日期。
+@improve: 下周（Day 22–29）进入「工作中的基础沟通」：进度、延误、规定、比较、情绪、查包裹和第一次视频会。本周的 Could you…? / Let me know… / I've attached… / Thanks for… 会出现在几乎每一个工作场景里；Day 24 的 should / have to 也是在本周「礼貌请求」的基础上讲「建议和规定」。
+
+@next1: 按【H】第 1 层的 8 个提示，不看书再复述一遍故事，比较和今天的录音有什么进步
+@next1: 用 intern / organize / budget / guest / at the last minute 各说一句关于你们公司或团队的话
+@next7: 再做一遍【E】的 5 个小任务，错的那组把对比例句读 5 遍
+@next7: 一人分饰两角，演一遍「打电话订位 → 问人数和价格 → 临时改时间」

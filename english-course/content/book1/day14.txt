@@ -1,0 +1,153 @@
+@day: 14
+@week: 2
+@review: true
+@title_cn: 第 2 周复习：这周过得怎么样
+@title_en: Week 2 Review: How Was Your Week?
+@topic: 回顾一周：一件倒霉事、一次小失误、一个「第一次」
+@think_short: 「了」≠ 过去时｜went / have been / gone｜Sorry ≠ Excuse me｜because 和 so 只用一个｜Aren't you…? 按事实回答
+
+@goal_scene: 周五下午同事问你这周过得怎么样：按时间讲 3 件事——一件倒霉事、一次自己的失误、一个「第一次」，说清原因、结果和最后怎么样，再按事实回答对方的追问。
+@goal_expr: How was your week? / A lot happened. / There was…, so… / That was my mistake. / You solved the problem. / In the end, … / Aren't you tired? — Yes, I am.
+@goal_vocab: 复现第 2 周和前几天的 19 个旧词（虚线标出）+ 6 个新词 + 1 个短语：happen, terrible, lucky, mistake, solve, calm, in the end
+@done: 能不看原文，按【H】第 1 层的 8 个提示用英文复述新故事，讲过去的事动词全部用过去式
+@done: 能分清「了」和过去时、went / have been / gone、Sorry / Excuse me、because / so，会按事实回答 Aren't you…?，并说出理由
+@done: 能把一段中文经历（发生了什么 → 原因 → 结果 → 最后怎么样）组织成 5–6 句英文
+
+@warmup: 我昨天晚上看了培训文件。 | I read the training documents last night. | D8
+@warmup: 没关系。下次给我发个消息就行。 | No problem. Next time, just send me a message. | D9
+@warmup: 去年我去北京玩了一趟。 | I went to Beijing on a trip last year. | D10
+@warmup: 周末过得怎么样？——特别好！ | How was your weekend? — It was great! | D11
+@warmup: 我电脑坏了，登不上系统。 | My computer isn't working. I can't log in to the system. | D12
+@warmup: 我能改一下地址吗？——恐怕不行。 | Can I change the address? — I'm afraid not. | D13
+
+@scene: 第二周的周五下午。张涛还在西雅图出差，办公室比平时安静。IT 的李凯端着两杯咖啡走到林晓的工位，问她这一周过得怎么样。这周林晓经历了不少：周三下大雨迟到、密码输错被锁了账号（还是李凯帮她解决的）、第一次在线回复美国卖家。美国同事问 How was your week? 是真想听你讲几件事——现在，林晓要用这一周学的英文把它们讲清楚。
+@sp: 人物关系 | 林晓 ↔ 李凯：平级同事；这周李凯帮她解决过电脑问题，两人熟了不少，可以随意聊
+@sp: 沟通目的 | 回顾这一周：发生了什么、为什么、结果怎么样、现在感觉如何
+@sp: 已知信息 | 李凯知道密码那件事（是他重置的），也听吴佳说了林晓回复卖家的事；他不知道林晓周三迟到的经过
+@sp: 表达重点 | 讲过去的事全用过去式（was / missed / typed / solved）→ 原因和结果只用 because 或 so 中的一个 → 承认失误（That was my mistake.）→ 讲结局（In the end, …）→ 现在的状态用现在时（Yes, I am.）
+
+@story_title: Episode 14 · What a Week!
+@story_type: 叙述 + 对话（新情境）
+@s: It's Friday afternoon, the end of Lily's second week. | 周五下午，林晓入职的第二周就要结束了。
+@s: Tom has [[gone]] to Seattle, and the office is [[quiet]]. | 张涛去西雅图了，办公室里很安静。
+@s: Kevin comes over with coffee. | 李凯端着咖啡走了过来。
+@br:
+@s: Kevin: Here you go. [[How was]] your week? | 李凯：给你。这周过得怎么样？
+@s: Lily: Thanks! It was [[busy]]. A lot **happened**. | 林晓：谢谢！挺忙的，发生了好多事。
+@s: Lily: On Wednesday, I was [[late]] for work. | 林晓：周三我上班迟到了。
+@s: Lily: There was an [[accident]] on Line 5, so I [[missed]] the start of a meeting. | 林晓：五号线出了事故，结果我错过了一个会的开头。
+@s: Kevin: Oh no, that's **terrible**! What did Tom say? | 李凯：哎呀，太倒霉了！张涛说什么了？
+@s: Lily: I was **lucky**. He just said, "[[No problem]]." | 林晓：我运气好，他只说了一句「没关系」。
+@br:
+@s: Kevin: [[After that]], you couldn't [[log in]] to the system! | 李凯：后来你又登不上系统了！
+@s: Lily: Yes. I typed the [[wrong]] password three times, and my account was [[locked]]. | 林晓：对。我连着输错了三次密码，账号就被锁了。
+@s: Lily: That was my **mistake**. But you **solved** the problem in five minutes! | 林晓：那是我自己的错。不过你五分钟就把问题解决了！
+@s: Kevin: That's my job! | 李凯：这是我的工作嘛！
+@br:
+@s: Kevin: Grace says you answered seller questions in the [[chat]], too. | 李凯：吴佳说，你还在线上回复卖家的咨询了。
+@s: Lily: Yes, for the first time. I was a little [[nervous]]. | 林晓：对，第一次。我有点紧张。
+@s: Lily: But I stayed **calm** and checked everything [[twice]]. | 林晓：不过我没慌，每样信息都核对了两遍。
+@s: Lily: **In the end**, all my answers were [[correct]]. | 林晓：最后，我的回答全都对了。
+@s: Kevin: Nice work! Aren't you tired? | 李凯：干得漂亮！你不累吗？
+@s: Lily: Yes, I am! But it was a [[pretty]] good week. | 林晓：累啊！不过这周过得挺好的。
+@br:
+@s: Kevin: Get some [[rest]] this weekend. And no more old passwords! | 李凯：周末好好休息。还有，别再输旧密码了！
+@s: Lily: Don't [[worry]]. It won't happen again! | 林晓：放心，不会再有下次了！
+
+@v: happened | happen | v. | ˈhæpənd | 发生（happen 的过去式） | 讲一段时间里出了哪些事；问别人出了什么事 | A lot happened.；What happened?；happen to sb | What happened? You look tired. | 怎么了？你看起来好累。 | 「出了事故」不说 ✗ It happened an accident，说 There was an accident.（D9）；「某人出什么事了」用 happen to：What happened to Kevin?；happen 不用被动：✗ It was happened.
+@v: terrible | = | adj. | ˈterəbl | 糟糕透了的；很差的 | 回应别人的坏消息；说天气、交通、一天过得很糟 | That's terrible!；terrible traffic；a terrible day | The traffic was terrible this morning. | 今天早上堵得要命。 | 语气比 bad 重得多，相当于「太糟了」，别用在小事上；说自己「感觉很糟」是 I feel terrible.——✗ I'm terrible 是「我这个人很差劲」。
+@v: lucky | = | adj. | ˈlʌki | 幸运的；运气好的 | 说自己运气好、躲过了麻烦 | I was lucky.；lucky to + 动词；You're so lucky! | You're lucky. The printer is working again. | 你运气不错，打印机又能用了。 | lucky 是形容词，luck 是名词：✗ I'm luck. → ✓ I'm lucky.；「祝你好运」说 Good luck!，不说 ✗ Good lucky!
+@v: mistake | = | n. | mɪˈsteɪk | 错误；失误 | 承认自己的失误；指出别人的错 | make a mistake；my mistake；by mistake（不小心） | Sorry, my mistake. I sent the wrong file. | 抱歉，是我弄错了，我发错文件了。 | 「犯错」说 make a mistake，✗ do a mistake；人做错事用 mistake，系统报错用 error（D12）；重音在后：mis-TAKE。
+@v: solved | solve | v. | sɑːlvd | 解决（问题）（solve 的过去式） | 解决电脑故障、客户的麻烦 | solve a problem；solve it quickly；hard to solve | Can we solve this problem by Friday? | 这个问题我们周五前能解决吗？ | solve 搭配 problem，不搭配 question——回答问题用 answer（D4）；口语里也常说 fix（D4）：Kevin fixed it.；solve 的 l 要发出来：/sɑːlv/。
+@v: calm | = | adj. | kɑːm | 冷静的；镇定的 | 遇到急事、出了错、客户着急时 | stay calm；keep calm；a calm voice | Stay calm and check the address again. | 别慌，再核对一遍地址。 | l 不发音，读 /kɑːm/（和 walk、talk 的 l 一样）；对正在生气的人说 ✗ Calm down! 常常火上浇油，客服里说 I understand. 更稳妥。
+@v: In the end | in the end | phr. | ɪn ði ˈend | 最后；到头来 | 讲一件事的结局 | In the end, …；in the end it worked；It was OK in the end. | We tried three times. In the end, it worked. | 我们试了三次，最后成功了。 | 讲「结果、最后」用 in the end；at the end 后面要有 of：at the end of the hall（D3）、at the end of the week；the 在元音前读 /ði/。
+
+@diff: 「了」≠ 过去时：I was late / I'm tired（复习 D8、D9）
+@d_cn: 「我迟到了」「我累了」「问题解决了」——同样一个「了」，有的是过去那一次，有的是现在的状态。
+@d_en: I was late on Wednesday.（那一次）/ I'm tired.（现在的状态）/ Kevin solved the problem.（过去的动作）
+@d_why: Day 8 学过：中文的「了」不是时间标记，英文的时间藏在动词里。复习时最容易出错的是两头：一是看到「了」就用过去式——「我累了」说成 ✗ I was tired（意思变成「那时候我很累」）；二是讲过去的事忘了变——✗ On Wednesday, I am late. 判断只靠一个问题：**说的是那一次，还是现在？**故事里林晓讲周三用 **I was late**，回答「累不累」用 **Yes, I am**；Day 9 刚进门时说 Sorry I'm late，也是因为人「现在」刚到。
+@d_when: 讲周三、上周、刚才已经发生的事 → 过去式（was / missed / typed / solved）；说现在变成了什么样（累了、饿了、好了、到了）→ am / is / are。
+@d_vs: **I'm tired.** 我累了。（现在）✗ I was tired.\n**I was late on Wednesday.** 我周三迟到了。（那一次）✗ I'm late on Wednesday.\n**My account is locked.** 我账号被锁了。（现在还锁着）\n**My account was locked, but Kevin fixed it.** 当时被锁了，李凯修好了。（已经过去）
+@d_task: 用英文说：① 我饿了。② 我昨天给卖家写了三封邮件。③ 系统好了！（现在又能用了） | ① I'm hungry. ② I wrote three emails to sellers yesterday. ③ The system is working again!
+@diff: went / have been to / has gone to（复习 D10）
+@d_cn: 「我去年去了北京」「我去过北京」「他去北京了」——都是「去」，意思完全不一样。
+@d_en: I went to Beijing last year. / I've been to Beijing. / He's gone to Beijing.
+@d_why: Day 10 的三个「去」：**went** 讲具体那一次，句子里常有时间（last year、on Monday）；**have been to** 讲经历，「去过、早回来了」，不说具体时间；**has gone to** 说人「去了、还没回来」，所以他现在不在这儿。故事第一段 Tom has gone to Seattle——张涛人在西雅图，所以办公室才这么安静。最常见的两个错：✗ I've been to Beijing last year（经历和具体时间撞车）；想说「他不在」却说 ✗ He's been to Seattle。
+@d_when: 有具体时间 → went；聊经历、有没有去过 → have been to；有人找、说某人不在 → has gone to。
+@d_vs: **I went to Chengdu last May.** 我去年五月去了成都。\n**I've been to Chengdu twice.** 我去过成都两次。\n**Tom has gone to Seattle.** 张涛去西雅图了。（现在不在）\n✗ I've been to Chengdu last May.\n✗ Tom has been to Seattle.（想说「他不在」时）
+@d_task: 用英文说：① 吴佳不在，她回家了。② 我从来没出过国。③ 我上周去了广州。 | ① Grace isn't here. She's gone home. ② I've never been abroad. ③ I went to Guangzhou last week.
+@diff: Sorry ≠ Excuse me（复习 D9）
+@d_cn: 一句「不好意思」，可能是「打扰一下」，也可能是「对不起」。
+@d_en: Excuse me, can I come in?（打扰之前）/ Sorry I'm late.（添了麻烦之后）
+@d_why: Day 9：**Excuse me** 用在「我马上要打扰你」**之前**——进门、借过、打断、叫住人；**Sorry** 用在「已经给你添了麻烦」**之后**——迟到、碰到人、出了错。这周林晓两种都用到了：周三敲门进会议室先说 Excuse me，进门后说 Sorry I'm late；密码输错是自己的失误，说 Sorry, that was my mistake. 另外，Sorry 不是越多越好：道歉一次就够，接着说原因和下次怎么做。
+@d_when: 打扰之前 → Excuse me；麻烦已经发生 → Sorry；没听清对方 → Sorry? / Excuse me?（语调上扬，两个都行）
+@d_vs: **Excuse me, is Kevin here?** 打扰一下，李凯在吗？\n**Sorry, I sent the wrong file.** 抱歉，我发错文件了。\n**Excuse me, can I get by?** 不好意思，借过一下。\n✗ Excuse me, I'm late.（迟到要道歉，用 Sorry）
+@d_task: 你要打断两位正在聊天的同事，问打印机在哪儿；问完转身时，不小心碰倒了其中一位的咖啡杯。 | Excuse me, where's the printer? / Oh, sorry!
+@diff: 「因为……所以……」：because 和 so 只用一个（复习 D9）
+@d_cn: 「因为五号线出了事故，所以我错过了会议的开头。」
+@d_en: There was an accident on Line 5, so I missed the start of the meeting. / I missed the start of the meeting because there was an accident on Line 5.
+@d_why: 中文「因为……所以……」成对出现；英文的 because 和 so 都是用来连接两个句子的，一句话里**只能用一个**。讲经历时按时间顺序说：先讲发生了什么，再用 **so** 引出结果——故事里林晓就是这么讲的；别人问「为什么」时，先给结果，再用 **because** 补原因。还要记住：because 后面接句子，接名词要用 because of：because of the rain。
+@d_when: 讲经过、最后说结果 → …, so…；回答 Why…? 或解释原因 → …because…
+@d_vs: ✗ Because I forgot my password, so I couldn't log in.\n✓ I forgot my password, **so** I couldn't log in.\n✓ I couldn't log in **because** I forgot my password.\n✓ I was late **because of** the rain.
+@d_task: 用 so 和 because 各说一遍：「因为我连着输错了三次密码，所以账号被锁了。」 | I typed the wrong password three times, so my account was locked. / My account was locked because I typed the wrong password three times.
+@diff: 「你不累吗？」「累啊。」——Yes, I am.（复习 D13）
+@d_cn: 回答带「不」的问题：「你不累吗？」——「累啊」或「不累」。
+@d_en: Aren't you tired? — Yes, I am.（累）/ No, I'm not.（不累）
+@d_why: Day 13：中文跟着对方的问题答（「你不累吗？」「对，不累」），英文只看**事实**：累就说 **Yes, I am.**，不累就说 **No, I'm not.**。Yes 后面永远是肯定，No 后面永远是否定，不会出现 ✗ Yes, I'm not.。故事里 Kevin 问 Aren't you tired?，林晓答 Yes, I am!——她是真的累了。简短回答要和问句开头的词对上：Aren't you…? → I am / I'm not；Don't you…? → I do / I don't；Didn't you…? → I did / I didn't。
+@d_when: 对方用 Aren't you…? / Don't you…? / Isn't it…? / Didn't you…? 提问时——这种问法常带一点惊讶，或者是想确认。
+@d_vs: **Aren't you tired? — Yes, I am.** 你不累吗？——累啊。\n**Aren't you tired? — No, I'm not.** 你不累吗？——不累。\n**Didn't you get my email? — No, I didn't.** 你没收到我的邮件吗？——没收到。\n✗ Aren't you tired? — Yes, I'm not.
+@d_task: 按事实回答：① Isn't the system working?（确实用不了）② Don't you have a passport?（其实有）③ Didn't you go hiking last weekend?（确实去了） | ① No, it isn't. ② Yes, I do. ③ Yes, I did.
+
+@core: What did you do yesterday? — I + 过去式… | 来自 D8：讲昨天、这周做过的事 | yesterday / this week / last weekend；met / wrote / sent / read | 正式：What did you work on this week?｜随意：What did you get up to?
+@core: There was + 事情, so + 结果. | 来自 D9：先讲发生了什么，再说结果 | an accident on Line 5 / heavy rain / a problem with the system | 正式：There was an accident on Line 5, so I was delayed.｜随意：Line 5 stopped, so I was late.
+@core: Have you ever been to…? — No, I haven't. / I've been to… | 来自 D10：聊经历、去过哪里 | the U.S. / Seattle / Chengdu；once / twice | 正式：Have you ever had the chance to visit Seattle?｜随意：Ever been to Seattle?
+@core: How was your + 时间 / 事情? — It was great! / Not bad. And you? | 来自 D11：问已经过去的事怎么样，答完把问题问回去 | weekend / week / trip / the meeting | 正式：Did you have a good week?｜随意：How was the week?
+@core: My + 设备 + isn't working. Can you take a look? | 来自 D12：说故障、请人帮忙看一下 | computer / printer / the system | 正式：I'm having some trouble with my computer. Could you take a look?｜随意：My computer's acting weird. Can you look?
+@core: Let me check. — Yes, it is. / I'm afraid not. | 来自 D13：先查再答；用简短回答，礼貌地说不行 | Yes, it is. / No, I don't. / I'm afraid not. | 正式：Let me check that for you.｜随意：One sec, let me check.
+
+@pw: documents | ˈdɑːkjəmənts | 3 个音节 DOC·u·ments（D8） | do 嘴巴张大 `/ɑː/`；cu 读 `/kjə/`，有个 y 音；结尾 `/nts/` 三个辅音别丢
+@pw: crowded | ˈkraʊdɪd | 2 个音节 CROWD·ed（D9） | crow 在这里读 `/kraʊ/`（像 how），不是乌鸦 `/kroʊ/`；d 后面的 -ed 读 `/ɪd/`
+@pw: weather | ˈweðər | 2 个音节 WEA·ther（D10） | th 是浊音 `/ð/`：舌尖放在上下牙之间振动，不读 `/z/` 或 `/d/`
+@pw: error | ˈerər | 2 个音节 ER·ror（D12） | 两个 r 都要卷舌，不读「爱罗」；人犯的错是 mistake，系统报错是 error
+@pw: exactly | ɪɡˈzæktli | 3 个音节 ex·ACT·ly（D13） | ex 读 `/ɪɡz/`；中间的 t 常被吞掉，听起来像 ig-ZAK-lee
+@ps: There was‿an **ac**cident on Line **Five**, / so I **missed** the **start** of a **meet**ing. | was‿an 连成 `/wəzən/`；missed 的 -ed 只是一个 `/t/`，和后面的 the 连着说；so 前面停一下，so 后面是结果。
+@ps: That was my mis**take**. / But you **solved** the **prob**lem / in **five** **min**utes! | mistake 重音在后：mis-TAKE；solved 的 l 要发出来，-ed 读 `/d/`；five minutes 的 v 和 m 之间不要加元音。
+@ps: **Aren't**‿you **tired**? ↗ / — **Yes**, I **am**! | aren't‿you 连成 `/ˈɑːrntʃə/`；回答里 Yes 和 am 都读重。简短回答末尾的 am / do / is 永远读完整的强式：am 读 `/æm/`，不能弱读成 `/əm/`。
+@pnote: 本周的 -ed 一次复习：清辅音后读 `/t/`——missed、typed、locked、checked；浊辅音和元音后读 `/d/`——happened、solved、stayed；t / d 后读 `/ɪd/`，多一个音节——waited、started。只有第三种多出音节：happened 只有两个音节 `/ˈhæpənd/`，不读「海喷德」。
+@pnote: 今天的新词里藏着「哑巴字母」：calm 的 l 不发音，读 `/kɑːm/`；solve 的 l 却要发出来 `/sɑːlv/`。terrible 只有三个音节 `/ˈterəbl/`，结尾不要加「偶」。
+@lfocus: happened / solved 结尾是 /d/，missed / typed 结尾是 /t/
+@lfocus: Aren't you…? 的回答：听 Yes / No 后面跟的是 I am 还是 I'm not
+@lfocus: There was an 连读成 /ðərwəzən/
+@dict: S7
+@dict: S12
+@res: 在 youglish.com 输入 "what happened"，选 US，听美国人在真实对话里怎么问「怎么了」。
+
+@mimic: 合上书，不看【C】，按下面 8 个提示用 8–10 句英文复述故事（可以用第三人称：Lily was late on Wednesday…；也可以用林晓的口吻讲），过去的事一律用过去式，并录音：① 周五下午／张涛去了西雅图、办公室很安静／李凯端来咖啡 ② 这周很忙，发生了很多事 ③ 周三迟到：五号线出事故 → 错过会议开头 ④ 运气好：张涛只说了 No problem ⑤ 登不上系统：输错三次密码 → 账号被锁 → 自己的错，李凯五分钟解决 ⑥ 第一次在线回复卖家：有点紧张 → 保持冷静、核对两遍 ⑦ 最后全都答对；累，但这周挺好 ⑧ 周末好好休息，不会再犯。录完对照原文，把说错或漏掉的过去式标出来，再讲一遍。
+@swap: There was an accident on Line 5, so I missed the start of a meeting. | 换原因和结果，再改成 because 的说法：heavy rain / a problem with the bus；I was late for work | There was heavy rain, so I was late for work. / I was late for work because there was heavy rain.
+@swap: That was my mistake. But you solved the problem in five minutes! | 换成别的失误和解决的人：sent the wrong file / typed the wrong address；Grace / Tom | I sent the wrong file. That was my mistake. But Grace solved the problem quickly.
+@swap: I was a little nervous, but I stayed calm. | 换状态和做法：tired / busy；checked everything twice / asked Grace | I was really busy, but I stayed calm and asked Grace for help.
+@swap: Aren't you tired? — Yes, I am! | 换状态：hungry / busy / nervous；按你的真实情况回答 | Aren't you hungry? — No, I'm not. I had a big lunch.
+@free: 周一早上同事问你：How was your weekend?（挺好，你去看了爸妈），回答后把问题问回去。 | It was great! I visited my parents. How about you?
+@free: 美国同事问：Have you ever been to the U.S.?（没去过；但去过北京三次，最近一次是去年） | No, I haven't. But I've been to Beijing three times. I went there last year.
+@free: 会议已经开始了：你敲门进去、道歉；会后向经理说明原因（下大雨，公交晚了二十分钟）。 | Excuse me, can I come in? Sorry I'm late. … There was heavy rain, so the bus was twenty minutes late.
+@free: 卖家问：Can I change the delivery date? 包裹已经在派送路上了。礼貌地拒绝，再问对方还有没有别的问题。 | I'm afraid not. It's already on the way to you. Is there anything else?
+@free: 同事看你一直盯着屏幕，问：Isn't your computer working?（确实用不了，登不上系统），请他帮你看一下。 | No, it isn't. I can't log in to the system. Can you take a look?
+@output: 录 1–1.5 分钟「我的这一周」：讲 3 件这周（或最近）发生的事——一件倒霉事（There was…, so… / …because…）、一次自己的小失误和怎么解决的（That was my mistake. / … solved it. / In the end, …）、一件第一次做的事；中间至少用一次 I've been to… 或 I went to…；最后说说你现在的状态（I'm tired. / I'm happy.——现在的状态用现在时）。录完检查：过去的事是不是都用了过去式？because 和 so 有没有放在同一句里？
+@output_sample: It was a busy week, and a lot happened. On Monday, there was heavy rain, so the bus was really slow. I was twenty minutes late for work. I was lucky: my manager just said, "No problem." On Wednesday, I made a mistake. I sent the wrong file to a seller. I said sorry and sent the correct file right away. In the end, everything was fine. On Thursday, I talked to a seller in New York on the phone for the first time. I've never been to the U.S., and I was a little nervous. But I stayed calm, and I understood everything. Now I'm tired, but I'm happy. How was your week?
+
+@check: （听力，不看原文回答）林晓周三为什么错过了会议的开头？张涛知道后说了什么？ | 五号线出了事故（There was an accident on Line 5, so I missed the start of a meeting.）；张涛只说了一句 No problem.
+@check: （听力，不看原文回答）李凯问 Aren't you tired? 林晓答 Yes, I am!——她到底累不累？如果不累，应该怎么回答？ | 累。英文只看事实：Yes, I am. = 我累；不累要说 No, I'm not.
+@check: 下午五点半，一位卖家打电话找 Emma，可她已经下班回家了。用英文告诉对方。用 has gone 还是 has been？ | Sorry, Emma isn't here. She's gone home. 用 has gone：人已经走了、现在不在这里；has been 说的是经历。
+@check: 你给美国同事发报告时发错了文件，对方回信来问。用今天的新词承认失误，并说你马上再发一次。 | Sorry, that was my mistake. I'll send the correct file right away.
+@check: 改错：Because the subway stopped, so I'm late yesterday. | 两处错：because 和 so 只能用一个；说昨天要用 was。改成 The subway stopped, so I was late yesterday. / I was late yesterday because the subway stopped.
+@check: 同事问 Didn't you go to Beijing last year? 你确实去了，是五月去的。怎么回答？能说 Yes, I've been to Beijing last year. 吗？ | Yes, I did. I went there in May. 不能用 I've been…last year：有具体时间要用过去式 went；回答 Didn't you…? 只看事实——去了就是 Yes, I did.
+
+@improve: 如果【E】第 1、4 组或【I】第 5 题出错（「了」和过去式、was / were、because / so）：下周每天热身时，先用 3 句过去式讲「昨天」做的事，再开始当天的课。Day 15–20 的故事几乎每天都有过去式，Day 23 的 I was going to…, but… 也建立在它上面。
+@improve: 如果 went / have been / gone 还会混：在卡片上写三行——went + 具体时间／have been to = 经历／has gone to = 人不在，每天看一遍、各说一句。Day 19 的 I've attached…、Day 22 的 I've finished… 用的是同一个 have + 过去分词的结构，现在弄清楚，后面会轻松很多。
+@improve: 如果 Aren't you…? / Don't you…? 还会答反：每天让手机朗读 3 个这样的问题，不翻译、只想事实，马上用 Yes, I am. / No, I'm not. 回答。Day 29 的视频会上，Mike 会问 You don't use the new dashboard, right?——还是「只看事实」这个原则。
+@improve: 下周（Day 15–20）的主题是请求、计划、电话、邀请、邮件和数量。本周的问句语序（Is / Can / Do 放前面，D13）会天天用到：Could you…? / Would you mind…? / How many…? 都是它的变形；Sorry 也会继续出现在电话里：Sorry, I didn't catch that.
+
+@next1: 按【H】第 1 层的 8 个提示，不看书再复述一遍故事，比较和今天的录音有什么进步
+@next1: 用 mistake / solve / in the end 讲一次你自己犯过的小错和后来怎么解决的
+@next7: 再做一遍【E】的 5 个小任务，错的那组把对比例句读 5 遍（Day 21 复习日会再检查）
+@next7: 用 6 句话讲「我的一周」：倒霉事（There was…, so…）→ 一次失误 → 一个第一次 → 现在的状态（I'm…）
