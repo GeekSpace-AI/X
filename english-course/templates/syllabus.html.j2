@@ -22,15 +22,17 @@
 <section>
   <h1 class="chapter">目录<span class="en-sub">Contents</span></h1>
   <table class="toc">
-    {% for key, title in [('LETTER', '写给你的话'), ('WHO', '适合谁 · 180 天后的目标'), ('HOW', '课程原则 · 每天 120 分钟 · 每课 9 个部分'), ('MAP', '180 天路线图：6 册一览'), ('BOOKS', '各册详细规划：故事、每周主题、能力目标'), ('B1', '第一册逐日目录（Day 1–30）'), ('POINTS', '中文思维表达点的分布'), ('DIFF', '中文 vs 英文：10 个最大的差异'), ('TEST', '阶段测评怎么做'), ('IPA', '美式音标速查'), ('RES', '学习资源与核实情况'), ('TRACK', '180 天打卡表')] %}
+    {% for key, title in toc %}
     <tr><td class="d">{{ loop.index }}</td><td>{{ title }}</td><td class="pg">{{ pages.get(key, '') }}</td></tr>
     {% endfor %}
   </table>
   <div class="box tip" style="margin-top:6mm"><div class="bt">📦 本次交付的文件</div>
     <ul class="dots">
       <li><b>00-课程总纲-180天路线图.pdf</b>：就是你正在读的这份。</li>
-      <li><b>{{ b1.pdf_name }}</b>：第一册 Day 1–30 的完整教材（{{ b1stats.words }} 个重点词 + {{ b1stats.phrases }} 个短语），含复习索引、进度记录表、第二册衔接记录和续写指令。</li>
-      <li><b>{{ b1.editable_name }}.md / .docx</b>：第一册的可编辑版本（Markdown 与 Word）。</li>
+      {% for b in built %}
+      <li><b>{{ b.meta.pdf_name }}</b>：{{ b.cn }} Day {{ b.meta.range }} 的完整教材（{{ b.stats.words }} 个重点词 + {{ b.stats.phrases }} 个短语），含复习索引、进度记录表、下一册衔接记录和续写指令。</li>
+      <li><b>{{ b.meta.editable_name }}.md / .docx</b>：{{ b.cn }}的可编辑版本（Markdown 与 Word）。</li>
+      {% endfor %}
     </ul>
   </div>
 </section>
@@ -92,7 +94,8 @@
     <tr><th style="width:12%">分册</th><th>听力方式</th></tr>
     {% for b in s.books %}<tr><td class="c">{{ b.name }}</td><td>{{ b.listening }}</td></tr>{% endfor %}
   </table>
-  <p class="muted small">第一册已经完成；第二至第六册是规划，会按第一册的格式逐册编写。第一册附录 4、5 提供了第二册的衔接记录和可直接复制的续写指令。</p>
+  {% set last = built[-1] %}
+  <p class="muted small">已完成：{% for b in built %}{{ b.cn }}{% if not loop.last %}、{% endif %}{% endfor %}；其余各册是规划，会按同样的格式逐册编写。{{ last.cn }}附录 4、5 提供了下一册的衔接记录和可直接复制的续写指令。</p>
 </section>
 
 <section class="pagebreak">
@@ -110,18 +113,20 @@
   {% endfor %}
 </section>
 
+{% for b in built %}
 <section class="pagebreak">
-  <h1 class="chapter">第一册逐日目录<span class="en-sub">Book 1 Day by Day</span></h1>
+  <h1 class="chapter">{{ b.cn }}逐日目录<span class="en-sub">Book {{ b.n }} Day by Day</span></h1>
   <p class="muted small">右列是当天重点处理的中文思维点。阴影行是阶段复习日。</p>
   <table class="grid">
     <tr><th style="width:9%">Day</th><th style="width:30%">主题</th><th>中文思维点</th></tr>
     {% set ns = namespace(wk=0) %}
-    {% for d in b1days %}
+    {% for d in b.days %}
       {% if d.week != ns.wk %}{% set ns.wk = d.week %}<tr class="wk"><td colspan="3">Week {{ d.week }} · {{ d.week_name }}</td></tr>{% endif %}
       <tr{% if d.review %} class="rv"{% endif %}><td class="c">{{ d.day }}</td><td>{{ d.title_cn }}<br><span class="muted small en">{{ d.title_en }}</span></td><td>{{ d.think_short }}</td></tr>
     {% endfor %}
   </table>
 </section>
+{% endfor %}
 
 <section class="pagebreak">
   <h1 class="chapter">中文思维表达点的分布<span class="en-sub">Where Each Point Is Taught</span></h1>

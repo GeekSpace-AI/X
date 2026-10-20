@@ -559,7 +559,7 @@ def book_words(meta, days):
 
 
 def build_book(n):
-    roadmap = load_syllabus()[0]["books"]  # loads Book 1 too, so do it before this book's own load
+    roadmap = load_syllabus()[0]["books"]  # loads the finished books, so do it before this book's own load
     meta, days, index = check_book(n)
     stats = book_stats(days, index)
     meta = fill_counts(meta, stats)
@@ -573,25 +573,35 @@ def build_book(n):
 
 
 def load_syllabus():
-    """The 180-day roadmap; Book 1's vocabulary figures come from the finished lessons."""
+    """The 180-day roadmap. Finished books (all 30 lessons written) show their real vocabulary counts."""
     s = yaml.safe_load((CONTENT / "syllabus.yaml").read_text(encoding="utf-8"))
-    meta, days, index = load_book(1)
-    stats = book_stats(days, index)
-    for b in s["books"]:
-        b["words"] = b["words"].replace("{B1}", f"{stats['words']} 词 + {stats['phrases']} 短语")
-    return s, meta, days, stats
+    built = []
+    for k, b in enumerate(s["books"], 1):
+        if len(list((CONTENT / f"book{k}").glob("day*.txt"))) < 30:
+            continue
+        meta, days, index = load_book(k)
+        stats = book_stats(days, index)
+        b["words"] = f"{stats['words']} 词 + {stats['phrases']} 短语"
+        b["status"] = "已完成"
+        built.append({"n": k, "cn": f"第{CN_NUM[k]}册", "meta": meta, "days": days, "stats": stats})
+    return s, built
 
 
 def build_syllabus():
-    s, meta, days, stats = load_syllabus()
-    ctx = {"s": s, "b1": meta, "b1days": days, "b1stats": stats,
-           "regular_plan": REGULAR_PLAN, "review_plan": REVIEW_PLAN}
+    s, built = load_syllabus()
+    toc = [("LETTER", "写给你的话"), ("WHO", "适合谁 · 180 天后的目标"), ("HOW", "课程原则 · 每天 120 分钟 · 每课 9 个部分"),
+           ("MAP", "180 天路线图：6 册一览"), ("BOOKS", "各册详细规划：故事、每周主题、能力目标")]
+    toc += [(f"B{b['n']}", f"{b['cn']}逐日目录（Day {b['meta']['range']}）") for b in built]
+    toc += [("POINTS", "中文思维表达点的分布"), ("DIFF", "中文 vs 英文：10 个最大的差异"), ("TEST", "阶段测评怎么做"),
+            ("IPA", "美式音标速查"), ("RES", "学习资源与核实情况"), ("TRACK", "180 天打卡表")]
+    ctx = {"s": s, "built": built, "toc": toc, "regular_plan": REGULAR_PLAN, "review_plan": REVIEW_PLAN}
     build_pdf("syllabus.html.j2", ctx, s["pdf_name"], s["footer"],
               [("LETTER", r"A Letter from Your Teacher"), ("WHO", r"Who It.s For"), ("HOW", r"How the Course Works"),
-               ("MAP", r"The Six Books"), ("BOOKS", r"Book by Book"), ("B1", r"Book 1 Day by Day"),
-               ("POINTS", r"Where Each Point Is Taught"), ("DIFF", r"Ten Big Differences"),
-               ("TEST", r"Stage Assessments"), ("IPA", r"American English Sounds"),
-               ("RES", r"Resources . Verification"), ("TRACK", r"Progress Tracker")])
+               ("MAP", r"The Six Books"), ("BOOKS", r"Book by Book")]
+              + [(f"B{b['n']}", rf"Book {b['n']} Day by Day") for b in built]
+              + [("POINTS", r"Where Each Point Is Taught"), ("DIFF", r"Ten Big Differences"),
+                 ("TEST", r"Stage Assessments"), ("IPA", r"American English Sounds"),
+                 ("RES", r"Resources . Verification"), ("TRACK", r"Progress Tracker")])
 
 
 def main():
