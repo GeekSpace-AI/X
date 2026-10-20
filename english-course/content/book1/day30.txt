@@ -42,16 +42,16 @@
 @s: It's the end of Lily's first **month** at SwiftLink. | 林晓在 SwiftLink 的第一个月就要结束了。
 @s: At nine, the team has its monthly [[meeting]]. Mike [[joins]] by video. | 九点，团队开月会，Mike 视频参会。
 @s: Mike: Hi, everyone! Can you hear me? | Mike：大家好！能听到我说话吗？
-@s: Tom: Loud and clear. Lily, can you tell us about your first month? Just one minute. | 张涛：听得很清楚。林晓，给大家讲讲你的第一个月吧？一分钟就行。
+@s: Tom: Loud and clear. Lily, tell us about your first month. Just one minute. | 张涛：听得很清楚。林晓，给大家讲讲你的第一个月吧，一分钟就行。
 @br:
 @s: Lily: OK. A month [[ago]], I was so [[nervous]]. I didn't know where the [[restroom]] was! | 林晓：好的。一个月前，我特别紧张，连洗手间在哪儿都不知道！
 @s: Lily: [[Once]], there was an [[accident]] on Line 5, so I was late. | 林晓：有一次五号线出了事故，我迟到了。
 @s: Lily: I [[forgot]] my password, too! | 林晓：我还忘过密码！
-@s: Lily: I [[borrowed]] Grace's charger and [[wrote]] my first email with her help. | 林晓：我借过吴佳的充电器，还在她的帮助下写了第一封邮件。
+@s: Lily: I [[borrowed]] Grace's charger and [[wrote]] my first email. | 林晓：我借过吴佳的充电器，还写了第一封英文邮件。
 @s: Lily: I [[answered]] my first phone call and took a message. | 林晓：我接了第一个电话，帮同事留了言。
-@s: Lily: I [[made]] a few [[mistakes]], too. The samples for Seattle got [[stuck]] in customs. | 林晓：我也犯过错：寄往西雅图的样品卡在了海关。
-@s: Lily: But I [[compared]] three shipping options for the next box. | 林晓：不过下一箱，我比较了三种寄送方案。
-@s: Lily: Last week, a seller thought his package was lost. It was [[delivered]]! | 林晓：上周，一位卖家以为他的包裹丢了——其实已经送到了！
+@s: Lily: I [[made]] [[mistakes]], too. The samples for Seattle got [[stuck]] in customs. | 林晓：我也犯过错：寄往西雅图的样品卡在了海关。
+@s: Lily: But I [[compared]] three options for the next box. | 林晓：不过下一箱，我比较了三个寄送方案。
+@s: Lily: Last week, a customer thought her package was lost. It was [[delivered]]! | 林晓：上周，一位客户以为她的包裹丢了——其实已经送到了！
 @s: Lily: It was a [[busy]] month, but it was really [[fun]]. | 林晓：这个月很忙，但真的很有意思。
 @s: Lily: **Thanks to** all of you, my English got better. | 林晓：多亏了大家，我的英语进步了。
 @br:
@@ -63,8 +63,8 @@
 @s: Mike: So, what's your **goal** for next month? | Mike：那你下个月的目标是什么？
 @s: Lily: I want to **improve** my listening, so I can [[understand]] you, Mike! | 林晓：我想提高听力，这样就能听懂您说话了，Mike！
 @s: Mike: Ha! [[Got it]]. Sorry, I [[talk]] too fast. | Mike：哈！懂了。抱歉，我说话太快了。
-@s: Lily: And I'm [[going to]] listen to English every day. | 林晓：我还打算每天都听英语。
-@s: Tom: Good plan. And you [[don't have to]] be perfect. | 张涛：好计划。还有，你不用追求完美。
+@s: Lily: I'm [[going to]] listen to English every day. | 林晓：我打算每天都听英语。
+@s: Tom: Good plan. You [[don't have to]] be perfect. | 张涛：好计划。你不用追求完美。
 @s: Lily sits down. She [[feels]] proud of herself, too. | 林晓坐了下来，她也为自己感到骄傲。
 
 @v: month | = | n. | mʌnθ | 月；一个月 | 说时间长短、入职多久、月度安排 | this month / next month / last month；a month ago；once a month；monthly meeting（月会） | I joined SwiftLink a month ago. | 我一个月前加入了 SwiftLink。 | this / next / last month 前面不加 in：✗ in next month（和 next week 一样，D6）；「一个月一次」说 once a month，不说 ✗ one time one month；th 读 `/θ/`，不读 mons。

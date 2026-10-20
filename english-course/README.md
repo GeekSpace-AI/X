@@ -1,43 +1,42 @@
-# 中文思维学商务英语 · 90 天课程
+# 中文思维桥接英语 · 180 天课程
 
-A 90-day business-English course for Chinese learners, starting from a vocational-school (中专) level. Each day is a 2-hour lesson built around an episode of a workplace drama, with vocabulary taught in context and grammar taught by contrasting Chinese habits with English.
+A 180-day English course for Chinese adult learners starting from a vocational-school (中专) level, in six 30-day books. Every lesson starts from what the learner wants to say in Chinese, then teaches the natural English for it. Vocabulary sits in original stories with US IPA, contextual meaning, usage scene, collocations, an example and the typical Chinese-learner mistake. Each day is a 120-minute, 8-step plan.
 
 ## Download
 
 | File | Contents |
 | --- | --- |
-| [`output/00-课程总纲-90天商务英语路线图.pdf`](output/00-课程总纲-90天商务英语路线图.pdf) | Course overview (14 pages): method, daily 2-hour routine, 90-day roadmap, US IPA chart, Chinese-vs-English thinking, resources, check-in sheet |
-| [`output/01-第一阶段-开口期-Day01-30.pdf`](output/01-第一阶段-开口期-Day01-30.pdf) | Phase 1, Day 1–30 (224 pages): 30 lessons, 780 vocabulary cards, 240 chunks, word index |
+| [`output/00-课程总纲-180天路线图.pdf`](output/00-课程总纲-180天路线图.pdf) | Roadmap (19 pages): principles, the 8-step 120-minute day, the six books with weekly themes and measurable goals, where each Chinese-thinking point is taught, stage assessments, US IPA chart, resources with their verification status, 180-day tracker |
+| [`output/01-第一册-基础表达与中文思维转换-Day01-30.pdf`](output/01-第一册-基础表达与中文思维转换-Day01-30.pdf) | Book 1, Day 1–30 (317 pages, A4): 30 complete lessons (4 review days, Day 30 stage test), 462 key words + 111 phrases, vocabulary coverage record, review index, progress log, Book 2 handoff record, copyable prompt for writing Book 2 |
+| [`output/01-第一册-基础表达与中文思维转换-可编辑版.md`](output/01-第一册-基础表达与中文思维转换-可编辑版.md) / [`.docx`](output/01-第一册-基础表达与中文思维转换-可编辑版.docx) | Book 1 as editable Markdown and Word |
 
-Phases 2 (Day 31–60) and 3 (Day 61–90) are planned in the overview and will be written in the same format.
+Books 2–6 (Day 31–180) are planned in the roadmap and will be written in the same format.
 
-## What each day contains
+## What each lesson contains
 
-1. **热身复习**: say yesterday's sentences in English
-2. **今日短剧**: a story episode; every new word sits right under its paragraph with US IPA, meaning and usage scene
-3. **中文思维 → 英文表达**: one Chinese habit (不/没, 了, 在, 会, 要, 吧, 呢…) vs. natural English
-4. **场景对话 + 发音小课**: dialogue marked with sentence stress and linking (‿)
-5. **口语练习**: shadowing, Chinese→English, situational responses, 1-minute talk
-6. **词汇理解**: fill-in-context, situation judgement, Chinglish fixes, with answer key
+A 今日目标 (scene, key expressions, completion standard, 120-minute plan, warm-up) · B 中文场景导入 · C original story with sentence-aligned Chinese · D vocabulary notes in order of appearance · E 2–4 Chinese-vs-English differences with tasks · F core expressions · G pronunciation & four-step listening · H speaking in three levels + daily output · I checks, answers, checklist, next-day and seven-day review.
 
-## Building the PDFs
+## Building
 
-Requirements: Python 3 with `jinja2`, `pyyaml`, `pypdfium2`; Node with `playwright` (Chromium). Fonts are downloaded from Google Fonts on first build into `fonts/` (git-ignored).
+Requirements: Python 3 with `jinja2`, `pyyaml`, `pypdfium2`, `python-docx`; Node with `playwright` (Chromium); `pandoc` for the DOCX. Fonts are downloaded from Google Fonts on the first build into `fonts/` (git-ignored).
 
 ```bash
-python3 build.py --check     # validate lesson files (duplicate words, missing fields)
-python3 build.py             # build both PDFs into output/
-python3 build.py phase1      # build only Phase 1
+python3 build.py check      # validate lessons: duplicate headwords, unbolded words, 120-minute plans, counts
+python3 build.py            # roadmap + every book (PDF, Markdown, DOCX) into output/
+python3 build.py book1      # Book 1 only
+python3 build.py syllabus   # roadmap only
 ```
 
 ## Layout
 
 ```
 content/
-  syllabus.yaml           # overview content + Phase 2/3 day plan
-  phase1/phase.yaml       # Phase 1 cover, how-to, cast
-  phase1/dayNN.txt        # one lesson per file (see content/FORMAT.md)
-templates/                # Jinja2 HTML templates + print CSS
-tools/render.cjs          # Chromium HTML → PDF
-build.py                  # parse, validate, render, page-number the TOC
+  syllabus.yaml        # 180-day roadmap
+  FORMAT.md            # lesson file format
+  book1/book.yaml      # Book 1 front/back matter, handoff record, continuation prompt
+  book1/PLAN.md        # writing plan: each day's words, phrases, differences, anchor sentences
+  book1/dayNN.txt      # one lesson per file
+templates/             # Jinja2 HTML / Markdown templates + print CSS
+tools/render.cjs       # Chromium HTML → PDF
+build.py               # parse, validate, track vocabulary, render, number the contents
 ```
