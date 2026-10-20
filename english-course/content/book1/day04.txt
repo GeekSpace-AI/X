@@ -1,0 +1,147 @@
+@day: 4
+@week: 1
+@title_cn: 同事是做什么的
+@title_en: Who Does What?
+@topic: 介绍工作和职责、介绍同事
+@think_short: 「我是做客服的」≠ I am do…｜是 / 做 / 有：am、do、have｜他「做」要加 -s
+
+@goal_scene: 午休时，入职搭子吴佳给你介绍团队：你要听懂每个人是做什么的，也能说出自己的工作、负责什么、向谁汇报。
+@goal_expr: What do you do? — I work in… / I answer… / He's in charge of… / He fixes… / Does he work for…? / I report to…
+@goal_vocab: 17 个重点词 + 4 个短语：部门与职位、工作内容、「负责」
+@done: 能用 3–4 句英文说出自己（或想做）的工作：在哪个部门、具体做什么、向谁汇报
+@done: 介绍两位同事时用 He / She + 动词-s，不漏 -s
+@done: 被问 What do you do? 时，回答 I work in… / I'm a…，不再说 I am do…
+
+@warmup: 我们团队在五楼。 | Our team is on the fifth floor. | D3
+@warmup: 这层楼有两间会议室。 | There are two meeting rooms on this floor. | D3
+@warmup: 这层有洗手间吗？——有，在走廊尽头，左手边。 | Is there a restroom on this floor? — Yes, it's at the end of the hall, on the left. | D3
+@warmup: 你的工位就在窗户边上。 | Your desk is near the window. | D3
+@warmup: 我是湖南人，不过现在住在深圳。 | I'm from Hunan, but I live in Shenzhen now. | D1
+@warmup: 欢迎加入团队！ | Welcome to the team! | D1
+
+@scene: 周二中午，林晓和吴佳在茶水间一边吃午饭一边聊天。入职第二天，林晓已经记住了不少同事的名字，可还不清楚谁负责什么：吴佳每天在忙什么？IT 部的李凯管什么？Emma 是做什么的？那位还没见过面、只在邮件里看到过名字的 Mike 又是谁？吴佳把团队一个个介绍给她。
+@sp: 人物关系 | 林晓 ↔ 吴佳：同事兼入职搭子，昨天刚认识，已经可以随便问问题
+@sp: 沟通目的 | 林晓：弄清楚每个人做什么、以后遇到问题该找谁；吴佳：介绍自己的工作和其他同事的职责
+@sp: 已知信息 | 林晓知道大家的名字，但不知道各自的工作；Mike 在西雅图，林晓还没见过他
+@sp: 表达重点 | 我在哪个部门（I work in…）→ 我具体做什么（I answer… / I handle…）→ 他负责什么（He's in charge of…）→ 他做什么（He fixes… / He leads…，别漏 -s）
+
+@story_title: Episode 4 · Meet the Team
+@story_type: 叙述 + 对话
+@s: At lunch, Grace tells Lily about the **team**. | 午饭时，吴佳给林晓介绍团队里的人。
+@s: Lily: Hey, Grace. **What do you do?** | 林晓：吴佳，你是做什么的？
+@s: Grace: I **work** in **customer service**. | 吴佳：我做客服。
+@s: Grace: I **answer** **emails** from **sellers** in the U.S. | 吴佳：我负责回复美国卖家的邮件。
+@s: Grace: They're our **customers**. I **handle** their problems. | 吴佳：他们是我们的客户，他们遇到问题都由我来处理。
+@br:
+@s: Lily: What about Kevin? | 林晓：那李凯呢？
+@s: Grace: Kevin works in IT. He's **in charge of** **accounts**. | 吴佳：李凯在 IT 部，系统账号归他管。
+@s: Grace: He **fixes** computers. He's always busy. | 吴佳：他还负责修电脑，一天到晚都很忙。
+@s: Lily: Is Emma in your **department**? | 林晓：Emma 也在你们部门吗？
+@s: Grace: No. She's a **product** manager. She **designs** our app with Mike's team. | 吴佳：不在。她是产品经理，和 Mike 的团队一起设计我们的 App。
+@s: Lily: And Mike? Does he **work for** SwiftLink, too? | 林晓：那 Mike 呢？他也是 SwiftLink 的员工吗？
+@s: Grace: Yes. Our **company** has an office in Seattle. | 吴佳：是的，我们公司在西雅图也有办公室。
+@s: Grace: Mike is an **engineer** in Seattle. He **leads** the engineering team. | 吴佳：Mike 是西雅图那边的工程师，他带领工程团队。
+@br:
+@s: Lily: Everyone has a different **job**! | 林晓：每个人的工作都不一样啊！
+@s: Grace: Yes. And we both **report** to Tom. | 吴佳：对。还有，我们俩的上级都是张涛。
+@s: Lily: Great. Now I know who does what! | 林晓：太好了，现在我知道谁负责什么了！
+
+@v: team | = | n. | tiːm | 团队；（公司里的）组 | 介绍自己在哪个组、和谁一起工作 | our team；on the team；team meeting | I'm on the operations team. | 我在运营组。 | 「在某个组」美国人常说 on the team；把 team 当一个整体时，动词用单数：Our team is small.
+@v: What do you do? | = | phr. | ˌwʌt də jə ˈduː | 你是做什么（工作）的？ | 认识新朋友、新同事时问对方的职业 | What do you do?；What does he do?；What do you do at SwiftLink? | What does your sister do? — She's a nurse. | 你姐姐是做什么的？——她是护士。 | 这句问的是职业，不是「你现在在干什么」（那是 What are you doing?）。What's your job? 也能懂，但听起来像在填表；聊天时用 What do you do?
+@v: work | = | v. | wɜːrk | 工作；在（某个部门 / 城市）上班 | 介绍自己在哪个部门、哪座城市工作 | work in + 部门 / 城市；work at + 公司；work from home | I work in sales. | 我做销售。 | work 本身就是动词，前面不要再加 am：✗ I am work in sales. → ✓ I work in sales. work `/wɜːrk/` 和 walk `/wɔːk/` 要分清。
+@v: customer service | = | phr. | ˌkʌstəmər ˈsɜːrvɪs | 客服（部门 / 工作） | 介绍部门；打电话找客服 | work in customer service；call customer service；the customer service team | Please call customer service for help. | 请打客服电话寻求帮助。 | 「客服」不说 customer server；「我是做客服的」说 I work in customer service；说某一位客服人员可以用 a customer service rep。
+@v: answer | = | v. | ˈænsər | 回复（邮件、消息）；接（电话） | 客服、助理的日常工作 | answer emails；answer the phone；answer a question | Can you answer the phone? I'm busy. | 你能接一下电话吗？我在忙。 | answer 后面直接跟东西，不加 to：✗ answer to the email → ✓ answer the email；w 不发音，读 `/ˈænsər/`。
+@v: emails | email | n. | ˈiːmeɪlz | 电子邮件 | 工作沟通最常用的方式 | send an email；answer emails；by email | I get about fifty emails a day. | 我一天大概收五十封邮件。 | email 可数：一封是 an email，多封加 -s；也能直接当动词：Please email me.（请给我发邮件）
+@v: sellers | seller | n. | ˈselərz | 卖家；网店商家 | 跨境电商：在亚马逊等平台开店卖货的人 | online sellers；sellers in the U.S.；a seller account | Our sellers ship packages all over the U.S. | 我们的卖家把包裹发到美国各地。 | 「卖家」是 seller，「买家」是 buyer；sell 加 -er 就是 seller，不要写成 saler。
+@v: customers | customer | n. | ˈkʌstəmərz | 客户；顾客 | 说公司服务的对象 | our customers；a happy customer；customer service | Our customers are online sellers. | 我们的客户是网店卖家。 | 商店的「顾客」、用你服务的「客户」都可以叫 customer；律师、广告公司那种长期合作的「客户」常用 client（Day 16 会学）。
+@v: handle | = | v. | ˈhændl | 处理；负责（某一类事情） | 说自己负责处理哪类工作或问题 | handle problems；handle customer emails；I can handle it. | Don't worry. I can handle it. | 别担心，我能搞定。 | handle 后面直接跟要处理的事：handle the problem，不加 with（✗ handle with the problem）；结尾 -dle 读 `/dl/`，不读成「汉斗」。
+@v: in charge of | = | phr. | ɪn ˈtʃɑːrdʒ əv | 负责；主管 | 说某项工作、某个团队归谁管 | be in charge of + 事 / 团队；Who's in charge of…? | Who's in charge of the new project? | 谁负责这个新项目？ | 前面一定要有 be 动词：✗ He in charge of… → ✓ He's in charge of…；of 后面接名词或 -ing：in charge of hiring。
+@v: accounts | account | n. | əˈkaʊnts | （系统、网站的）账号 | 登录系统、开通权限、找 IT 帮忙 | a user account；open an account；account name | I need an account for the new system. | 我需要一个新系统的账号。 | 这里的 account 是「账号」，不是「会计」（会计是 accountant / accounting）；银行的「账户」也叫 account。
+@v: fixes | fix | v. | ˈfɪksɪz | 修理；解决（问题） | 修电脑、修打印机、解决系统问题 | fix a computer；fix a problem；fix it | Can you fix my printer? | 你能修一下我的打印机吗？ | 主语是 he / she 时要加 -es：He fixes…，-es 读 `/ɪz/`，多出一个音节；「修好了」口语说 It's fixed.
+@v: department | = | n. | dɪˈpɑːrtmənt | 部门 | 问对方在哪个部门 | the IT department；the sales department；Which department are you in? | Which department are you in? | 你在哪个部门？ | 「在某个部门」用 in：in the IT department；口语里常直接说 I'm in IT / I work in sales，不一定要说 department。
+@v: product | = | n. | ˈprɑːdʌkt | 产品 | 介绍职位 product manager（产品经理）；说公司的产品 | product manager；a new product；the product team | Our main product is a tracking app. | 我们的主要产品是一个物流跟踪 App。 | 重音在第一个音节 PROD-；o 读 `/ɑː/`，嘴巴张大，不读「普肉」。
+@v: designs | design | v. | dɪˈzaɪnz | 设计 | 说谁负责设计 App、网页、产品 | design an app；design a new page；the design team | She designs websites for small companies. | 她给小公司设计网站。 | s 读 `/z/`，g 不发音：`/dɪˈzaɪn/`；design 也是名词：I like the new design.
+@v: work for | = | phr. | ˈwɜːrk fər | 为（某公司 / 某人）工作；在……上班 | 说自己在哪家公司上班 | work for + 公司；work for a big company；Who do you work for? | I work for a small tech company. | 我在一家小科技公司上班。 | 公司前用 for 或 at：work for / at SwiftLink；部门、城市前用 in：work in IT / work in Seattle。✗ I work in SwiftLink. 听起来不自然。
+@v: company | = | n. | ˈkʌmpəni | 公司 | 介绍自己的公司、公司规模 | a tech company；our company；company name | Our company has about two hundred people. | 我们公司大约有两百人。 | 「去公司」不说 go to company，说 go to work / go to the office（Day 1 学过）；单数 company 前面要有 a / the / our。
+@v: engineer | = | n. | ˌendʒɪˈnɪr | 工程师 | 介绍技术岗位 | software engineer；an engineer；the engineering team | My brother is a software engineer. | 我哥哥是软件工程师。 | 重音在最后：en·gi·NEER；元音开头，前面用 an：He's an engineer.
+@v: leads | lead | v. | liːdz | 带领；领导（团队）；主持（会议） | 说某人是团队负责人 | lead a team；lead a meeting；team lead（组长） | Tom leads our weekly meeting. | 张涛主持我们的周会。 | 说「他是团队负责人」，He leads the team. 比 He is the leader of the team. 更自然；过去式是 led `/led/`。
+@v: job | = | n. | dʒɑːb | 工作；职位；职责 | 聊工作、找工作、说某人负责的事 | a new job；my job；find a job | It's my first job. | 这是我的第一份工作。 | job 可数：a job / two jobs；work 当「工作」讲时不可数：✗ a work / ✗ find a work → ✓ a job / find a job。
+@v: report | = | v. | rɪˈpɔːrt | 向（上级）汇报；直属上级是…… | 说自己的上级是谁 | report to sb；report a problem；write a report（名词：报告） | Who do you report to? | 你的直属上级是谁？ | 「向某人汇报」要加 to：report to Tom，✗ report Tom；report 也是名词「报告」：a weekly report。
+
+@diff: 「我是做客服的」——I work in customer service.
+@d_cn: 告诉别人自己是做什么工作的、在哪个部门。
+@d_en: I work in customer service. / I'm an engineer. / I work for SwiftLink.
+@d_why: 中文「我是做……的」里既有「是」又有「做」，很多人一张口就说 I am do customer service。英文一句话里一般只有一个主要动词：要么用动词 **work**（I work in…），要么用 **am + 职位**（I'm an engineer），am 和 do 不能叠在一起。
+@d_when: 说部门 / 行业：I work in + customer service / IT / sales；说职位：I'm a / an + 职位；说公司：I work for / at + 公司。
+@d_vs: ✗ I am do customer service. → ✓ I work in customer service.\n✗ I am work in IT. → ✓ I work in IT.\n✓ I'm a customer service rep.（说职位时才用 am）
+@d_task: 用两种说法介绍：「我是做销售的。」 | I work in sales. / I'm a salesperson.
+@diff: 是／做／有——I am、I do、I have 各管各的
+@d_cn: 「我是新人」「我回邮件」「我有一个账号」：中文的「是」「做」「有」随口就用，英文分得很清楚。
+@d_en: I'm new.（是）/ I answer emails.（做）/ I have an account.（有）
+@d_why: 英文里 **am / is / are** 后面接身份、状态（新人、经理、很忙）；**动作动词**（answer、handle、fix）直接说你做的事；**have** 接你拥有的东西。中国学习者常把 am 当成万能的「是」，放在每个动词前面：I am answer emails——这在英文里是两个动词撞车。
+@d_when: 身份、职位、状态 → I'm…；日常工作内容 → I + 动词；拥有 → I have…。提问时也分开：Are you…? / Do you…? / Do you have…?
+@d_vs: **I'm a manager.** 我是经理。\n**I manage the team.** 我管理这个团队。\n**I have a team of five.** 我手下有五个人。\n✗ I am manage the team.
+@d_task: 用英文说：「我是新人。我回复邮件。我有很多问题。」 | I'm new. I answer emails. I have a lot of questions.
+@diff: 他「做」要加 -s——He works / She answers
+@d_cn: 介绍别人（他 / 她 / 某个人名）平时做什么工作。
+@d_en: Kevin works in IT. / He fixes computers. / She answers emails.
+@d_why: 中文的动词不管谁做都不变：我工作、他工作。英文说「平时的事」时，主语是 **he / she / it 或一个人名**，动词要加 **-s / -es**。这个 -s 很小，说快了最容易漏；美国人能听懂，但一听就知道说错了。
+@d_when: 介绍同事、朋友、家人平时做什么：Kevin works… / My sister teaches…；提问时用 does，后面的动词不再加 -s：What does he do? / Does he work for SwiftLink?
+@d_vs: ✗ He work in IT. → ✓ He works in IT.\n✗ She answer emails. → ✓ She answers emails.\n✗ Does he works here? → ✓ Does he work here?
+@d_task: 用英文介绍：「张涛带领运营团队。Emma 设计我们的 App。李凯修电脑。」 | Tom leads the operations team. Emma designs our app. Kevin fixes computers.
+@diff: 「负责」——be in charge of / handle
+@d_cn: 说某人负责某项工作或某个团队，有问题就找他。
+@d_en: He's in charge of accounts. / I handle customer emails.
+@d_why: 「负责」在英文里没有一个万能的对应词。很多人把它当动词直接用：He responsible accounts，或者说成 He is responsible accounts（漏了 for）。口语里更常用两种说法：**be in charge of**（这件事归他管，他是负责人）；**handle**（具体去处理这类事情）。
+@d_when: 说「谁管这个」：Who's in charge of…? / He's in charge of…；说「这类事我来处理」：I handle… / I'll handle it. 比较正式的场合也可以说 be responsible for…
+@d_vs: **Kevin is in charge of accounts.** 账号的事归李凯管。\n**Grace handles customer emails.** 客户邮件由吴佳处理。\n✗ He responsible accounts. → ✓ He's responsible for accounts.
+@d_task: 用英文说：「打印机归谁管？——李凯。打印机的问题都是他来处理。」 | Who's in charge of the printers? — Kevin. He handles printer problems.
+
+@core: What do you do? — I work in + 部门. | 问 / 答对方是做什么的 | customer service / IT / sales / operations | 正式：What's your role here? — I'm in customer service.｜随意：So what do you do? — I'm in IT.
+@core: I'm a / an + 职位. | 直接说自己的职位 | engineer / product manager / assistant | 正式：I'm a product manager at SwiftLink.｜随意：I'm an engineer.
+@core: I + 动词 + 工作内容. | 说自己平时具体做什么 | answer emails / handle problems / fix computers | 正式：I'm responsible for answering customer emails.｜随意：I answer emails all day.
+@core: He's / She's in charge of… | 说某人负责什么 | accounts / the team / the printers | 正式：She's responsible for product design.｜随意：Accounts? That's Kevin.
+@core: He / She + 动词-s… | 介绍同事平时做什么（别漏 -s） | works / fixes / leads / designs | 正式：He leads the engineering team in Seattle.｜随意：He runs the engineering team.
+@core: I work for + 公司. / I report to + 人. | 说在哪家公司、上级是谁 | SwiftLink / a tech company；Tom / my manager | 正式：I report directly to Tom Zhang.｜随意：Tom's my boss.
+
+@pw: engineer | ˌendʒɪˈnɪr | 3 个音节 en·gi·NEER，重音在最后 | 中国学生常把重音放在开头读成 EN-gi-neer；neer 要卷舌
+@pw: department | dɪˈpɑːrtmənt | 3 个音节 de·PART·ment | part 卷舌、拉长；结尾 -ment 很轻，t 常常听不到
+@pw: customer | ˈkʌstəmər | 3 个音节 CUS·to·mer | 中间的 o 很弱 `/ə/`，几乎听不见，像 cus-t'mer
+@pw: answer | ˈænsər | 2 个音节 AN·swer | w 不发音！a 嘴巴张大 `/æ/`
+@pw: handle | ˈhændl | 2 个音节 HAN·dle | 结尾 -dle 舌尖顶住上齿龈发 `/dl/`，后面不加「欧」
+@pw: company | ˈkʌmpəni | 3 个音节 COM·pa·ny | o 读短促的 `/ʌ/`，和 come 的元音一样，不读 `/ɑː/`
+@ps: What do you **do**? / I **work** in **cus**tomer **ser**vice. | What do you 读得很快，连成 `/ˈwʌdəjə/`；重音落在最后的 do 上。回答时重读 work 和部门名。
+@ps: He's in **charge**‿of ac**counts**. | charge of 连读，of 弱读成 `/əv/`，听起来像 charge-uv。
+@ps: He **fix**es com**pu**ters. | fixes 两个音节 `/ˈfɪksɪz/`，-es 一定要读出来，这就是「第三人称」的标志。
+@ps: Mike is an‿engi**neer** in **Seat**tle. / He **leads** the engi**neer**ing team. | an engineer 连读成 `/ənˌendʒɪˈnɪr/`；engineering 的重音也在 neer 上。
+@pnote: 第三人称 -s 有三种读音：`/s/`（works）、`/z/`（leads、designs）、`/ɪz/`（fixes）。听的时候 -s 很轻，说的时候一定要读出来。
+@pnote: 口语里 What do you do? 常连成 `/ˈwʌdəjə ˈduː/`；What does he do? 连成 `/ˈwʌdəzi ˈduː/`，he 的 h 几乎不发音。
+@lfocus: works / fixes / leads 结尾的 -s
+@lfocus: What do you 连成 /ˈwʌdəjə/
+@lfocus: in charge of 的 of 很弱
+@dict: S7
+@dict: S13
+@res: 在 youglish.com 输入 "what do you do"，选 US
+
+@mimic: 跟读【C】S2–S16：先用 0.8 倍速逐句跟读，重点把 works、fixes、leads、designs 结尾的 -s 读清楚；再你演林晓、手机朗读吴佳的台词，完整对一遍并录音。
+@swap: I work in customer service. | 换成你的部门或行业：IT / sales / operations / HR | I work in sales.
+@swap: Kevin works in IT. He's in charge of accounts. | 换人和职责（注意 -s）：Grace / customer emails；Tom / the operations team | Tom works in operations. He's in charge of the operations team.
+@swap: He fixes computers. | 换动作（注意 -s / -es 的读音）：answer emails / design apps / teach English | She answers emails.
+@swap: Mike is an engineer in Seattle. He leads the engineering team. | 换成你认识的一个人：职位、城市、他带领或负责什么 | My sister is a teacher in Changsha. She teaches English.
+@free: 在一个聚会上，有人问你 What do you do?（你在一家科技公司做客服） | I work in customer service at a tech company.
+@free: 新同事问你：打印机坏了找谁？（找李凯，他负责电脑和打印机） | Ask Kevin. He's in charge of computers and printers.
+@free: 向朋友介绍你的经理：他叫张涛，带领运营团队，你直接向他汇报。 | My manager is Tom. He leads the operations team. I report to him.
+@free: 美国同事问：What does Emma do?（她是产品经理，和工程团队一起设计 App） | She's a product manager. She designs our app with the engineering team.
+@output: 录 1 分钟「我和我的同事」：我在哪家公司、哪个部门（I work for / in）→ 我平时具体做什么（2–3 件事）→ 我向谁汇报 → 介绍两位同事，每人说一句「他 / 她做什么」。录完听一遍，专门检查 he / she 后面的 -s。
+@output_sample: I work for SwiftLink, a tech company in Shenzhen. I work in operations. I check shipping data and answer emails. I report to Tom. He leads the operations team. My coworker Grace works in customer service. She answers emails from sellers in the U.S. Kevin works in IT. He fixes computers and handles accounts.
+
+@check: 吴佳说 I work in customer service. 为什么不说 I am do customer service？ | 英文一句话一般只有一个主要动词：说部门用 I work in…，说职位用 I'm a / an…，am 和 do 不能叠在一起。
+@check: 把 I fix computers. 改成说李凯。 | Kevin fixes computers. / He fixes computers.（主语是 he，动词加 -es）
+@check: 「你在哪家公司上班？」和「你在哪个部门？」英文分别怎么问？ | Who do you work for?（也可以问 Where do you work?）/ Which department are you in?
+@check: 美国同事问你 Who's in charge of accounts? 他想知道什么？ | 账号的事归谁管、谁是负责人（答案：Kevin is. / Kevin is in charge of accounts.）
+@check: 有人问 Does Mike work for SwiftLink? 先用简短回答说「是的」，再补一句「他在西雅图办公室工作」。 | Yes, he does. He works in the Seattle office.
+@next1: 不看书说出 S2–S4、S7–S8、S13（锚点句）
+@next1: works / answers / fixes / leads：主语是 he / she 时各说一句
+@next1: 用 I work in… / I work for… / I report to… 介绍你自己
+@next7: 用 5 句话介绍你的工作和两位同事，和今天的录音比一比
+@next7: in charge of 和 handle 各说一个关于你工作的句子

@@ -1,0 +1,154 @@
+@day: 15
+@week: 3
+@title_cn: 能帮个忙吗
+@title_en: Could You Do Me a Favor?
+@topic: 向同事借东西、礼貌地请人帮忙
+@think_short: 「请帮我……」≠ Please help me｜can / could / would you mind｜borrow 借进 vs lend 借出｜Would you mind…? — No, not at all.
+
+@goal_scene: 办公室里事事不顺：打印机没纸、手机没电、手边没笔。你要向同事和经理开口借东西、请人帮忙，并且按事情的大小和对象选择合适的礼貌程度。
+@goal_expr: Could you do me a favor? / Can I borrow your charger? / Would you mind showing me…? — No, not at all. / Of course. / I'm busy right now. Can I help you in ten minutes?
+@goal_vocab: 17 个重点词 + 5 个短语：借与还、打印和表格、礼貌请求
+@done: 能按礼貌程度分别用 Can I…? / Could you…? / Would you mind…? 提出 3 个不同的请求
+@done: 说「借我……」「我借给你……」时分清 borrow 和 lend，不再说 Can you borrow me…?
+@done: 别人问 Would you mind…? 时，愿意帮忙能马上回答 No, not at all.，不再答成 Yes
+
+@warmup: 我的包裹到美国了吗？ | Is my package in the U.S. yet? | D13
+@warmup: 我能改一下地址吗？——恐怕不行。 | Can I change the address? — I'm afraid not. | D13
+@warmup: 你不饿吗？——不饿。 | Aren't you hungry? — No, I'm not. | D13
+@warmup: “ETA”是什么意思？ | What does "ETA" mean? | D13
+@warmup: 我来看看。 | Let me take a look. | D12
+@warmup: 打扰一下，我能进来吗？ | Excuse me, can I come in? | D9
+
+@scene: 第三周的一个上午，林晓要在十一点前打印三十张快递面单。偏偏打印机没纸了，手机没电了，充电器也忘了带；张涛又拿着一张表过来，让她签字、复印一份……她只好一件一件向同事开口：借笔、借充电器，再请吴佳抽时间教她打印面单。
+@sp: 人物关系 | 林晓 → 张涛（经理，上级）；林晓 ↔ 吴佳（入职搭子，关系很好，但吴佳手上也有活儿）
+@sp: 沟通目的 | 借到需要的东西，请对方帮忙，同时不让对方觉得被使唤
+@sp: 已知信息 | 吴佳不知道林晓遇到了什么麻烦；林晓不知道吴佳现在有没有空
+@sp: 表达重点 | 先打招呼（Could you do me a favor?）→ 小事直接借（Can I borrow…?）→ 要占用对方时间的事更客气（Would you mind…?）→ 对方没空时约个时间（in ten minutes）
+@story_title: Episode 15 · One Small Favor After Another
+@story_type: 叙述 + 对话
+@s: Lily **needs** to **print** thirty shipping **labels** before eleven. | 林晓要在十一点前打印三十张快递面单。
+@s: But the printer has no **paper**. | 可是打印机没纸了。
+@s: Her phone is dead, and she didn't **bring** her **charger**. | 她的手机也没电了，偏偏又没带充电器。
+@s: Then Tom comes over with a **form**. | 这时，张涛拿着一张表走了过来。
+@s: Tom: Lily, **could you** **sign** this and make a **copy** for me? | 张涛：林晓，你能在这上面签个字，再帮我复印一份吗？
+@s: Lily: Sure. Um… can I **borrow** a **pen**? | 林晓：好的。呃……能借我一支笔吗？
+@s: Tom laughs and **lends** her his pen. | 张涛笑了，把自己的笔借给了她。
+@br:
+@s: Lily goes to Grace's desk. | 林晓走到吴佳的工位。
+@s: Lily: Hi, Grace. Could you **do me a favor**? | 林晓：嗨，吴佳。能帮我个忙吗？
+@s: Grace: **Of course**. What do you need? | 吴佳：当然可以。你需要什么？
+@s: Lily: Can I borrow your charger? | 林晓：能借一下你的充电器吗？
+@s: Grace: Sure. Here you go. | 吴佳：行，给你。
+@s: Lily: Thanks! I'll **return** it after lunch. | 林晓：谢谢！吃完午饭就还你。
+@s: Lily: One more thing. **Would you mind** showing me how to print the labels? | 林晓：还有一件事。你介不介意教我一下怎么打印面单？
+@s: Grace: No, I don't **mind** at all. | 吴佳：当然不介意。
+@s: Grace: But I'm busy **right now**. Can I help you in ten minutes? | 吴佳：不过我现在手上正忙。十分钟后再帮你行吗？
+@s: Lily: No problem. Thanks, Grace! | 林晓：没问题。谢谢你，吴佳！
+@br:
+@s: Ten minutes later, Grace comes over with a box of paper. | 十分钟后，吴佳抱着一箱纸过来了。
+@s: She shows Lily how to print the labels. | 她手把手教林晓打印面单。
+@s: Lily: You're so **kind**! | 林晓：你人真好！
+@s: Grace: Happy to help. And your **requests** were very **polite**! | 吴佳：乐意帮忙。而且你请人帮忙的方式很有礼貌！
+
+@v: needs | need | v. | niːdz | 需要；得（做某事） | 说自己必须做的事、需要的东西 | need to + 动词；need help；need sth before + 时间 | I need to finish this report before four. | 我得在四点前做完这份报告。 | 后面接动作要加 to：✗ I need print the labels. → ✓ I need to print the labels.；主语是 she / he 时别忘了 -s：She needs…
+@v: print | = | v. | prɪnt | 打印 | 打印文件、标签、报告 | print a file；print the labels；print two copies | Could you print this for me? | 你能帮我把这个打印出来吗？ | 打印（从电脑印出来）= print；复印（把一张纸再印一份）= make a copy。「打印机」是 printer（D3）。
+@v: labels | label | n. | ˈleɪbəlz | 标签；（快递）面单 | 物流、仓库、寄包裹时贴在箱子上的标签 | shipping label；print a label；put a label on… | Please put a shipping label on each box. | 请在每个箱子上贴一张快递面单。 | label 读 `/ˈleɪbəl/`，像「雷-波」，不读「拉贝尔」；「贴标签」说 put a label on，不说 paste a label。
+@v: paper | = | n. | ˈpeɪpər | 纸 | 打印纸、复印纸 | printer paper；a box of paper；out of paper | The printer is out of paper again. | 打印机又没纸了。 | 表示「纸」时不可数：✗ two papers → ✓ two pieces of paper；a paper 是「一份报纸」或「一篇论文」。
+@v: bring | = | v. | brɪŋ | 带来；带上（到说话人所在的地方） | 带充电器、带午饭、带文件来公司 | bring lunch；bring your laptop；bring sth to sb | Don't forget to bring your laptop to the meeting. | 别忘了带笔记本电脑来开会。 | bring 是「带过来」，take 是「带走」；过去式是 brought，✗ bringed。「我忘带了」可以说 I didn't bring it.
+@v: charger | = | n. | ˈtʃɑːrdʒər | 充电器 | 手机、电脑没电的时候 | phone charger；laptop charger；borrow a charger | Do you have an iPhone charger? | 你有苹果手机的充电器吗？ | 「手机没电了」说 My phone is dead. 或 My battery is dead.，✗ My phone has no electricity；「给手机充电」是 charge my phone。
+@v: form | = | n. | fɔːrm | 表格；表单 | 入职、报销、申请时要填的表 | fill out a form；sign a form；an online form | Please fill out this form and sign it at the bottom. | 请把这张表填好，在最下面签名。 | 「填表」说 fill out a form，✗ write a form；要填的「表格」是 form，不是 table（table 是桌子或数据表格）。
+@v: could you | = | phr. | ˈkʊdʒə | 你能……吗（礼貌地请求） | 请同事、上级、客户帮忙 | Could you + 动词…?；Could you please…?；Could you…for me? | Could you send me the file? | 你能把文件发给我吗？ | 这里的 could 不是过去式，只是比 can 更客气；后面跟动词原形：✗ Could you sending… → ✓ Could you send…
+@v: sign | = | v. | saɪn | 签字；签名 | 签表格、合同、收包裹 | sign the form；sign here；sign for a package | Could you sign here, please? | 麻烦您在这儿签个字。 | g 不发音，读 `/saɪn/`；「签名」名词是 signature，不是 sign（名词 sign 是「标志、牌子」）。
+@v: copy | = | n. | ˈkɑːpi | 复印件；（文件的）一份 | 复印文件、打印几份 | make a copy；two copies；a copy of the form | Can you make three copies of this? | 你能把这个复印三份吗？ | 「复印」说 make a copy (of…)；「打印两份」也用 copy：Print two copies.；复数是 copies。
+@v: borrow | = | v. | ˈbɑːroʊ | 借（别人的东西来用） | 向同事借笔、借充电器、借雨伞 | borrow a pen；borrow sth from sb；Can I borrow…? | Can I borrow your pen for a second? | 能借你的笔用一下吗？ | borrow 是「借进」：东西从别人那儿到我这儿；「借给别人」用 lend。✗ Can you borrow me a pen? → ✓ Can I borrow a pen?
+@v: pen | = | n. | pen | 笔（圆珠笔、签字笔） | 签字、记东西 | a pen；a black pen；borrow a pen | Do you have a pen I can use? | 你有笔能借我用一下吗？ | 美国人说 pen 一般指圆珠笔、签字笔，铅笔是 pencil；pen 的 e 读 `/e/`，别和 pan（平底锅 `/æ/`）读混。
+@v: lends | lend | v. | lendz | 借给（别人） | 把自己的东西借给同事 | lend sb sth；lend sth to sb；Could you lend me…? | I can lend you my umbrella. | 我可以把伞借给你。 | lend 是「借出」，过去式是 lent。中文「借」不分方向，英文一定要分：我向你借 = I borrow it from you；你借给我 = You lend it to me.
+@v: do me a favor | do sb a favor | phr. | ˌduː mi ə ˈfeɪvər | 帮我个忙 | 开口请人帮忙前，先打个招呼 | Could you do me a favor?；do sb a favor；ask sb a favor | Can you do me a favor and close the door? | 能帮个忙，把门关一下吗？ | ✗ Can you help me a favor? → ✓ Can you do me a favor?；对方说 Sure, what is it? 之后，你再说具体的事。美式拼写 favor，英式 favour。
+@v: Of course | of course | phr. | əv ˈkɔːrs | 当然（可以） | 爽快地答应别人的请求 | Of course.；Yes, of course.；Of course not. | Can I sit here? — Of course! | 我能坐这儿吗？——当然可以！ | 答应请求时 Of course 很热情；但别人问的是事实（Do you speak English?），只回 Of course 可能听起来像「这还用问？」，回答 Yes, I do. 更稳妥。
+@v: return | = | v. | rɪˈtɜːrn | 归还；还（东西） | 还借来的东西、退货 | return it after lunch；return sth to sb；return a book | Please return the key card when you leave. | 离开时请把门禁卡还回来。 | return 本身就是「还回去」，✗ return back；口语里也常说 give it back：I'll give it back after lunch.
+@v: Would you mind | would you mind | phr. | ˌwʊdʒə ˈmaɪnd | 你介意……吗（非常客气的请求） | 请别人花时间、费力气帮忙；对上级、客户 | Would you mind + -ing?；Would you mind if I…? | Would you mind closing the window? | 你介意把窗户关上吗？ | 后面接 -ing：✗ Would you mind to show me… → ✓ Would you mind showing me…；愿意帮忙时要回答 No（不介意），见【E】。
+@v: mind | = | v. | maɪnd | 介意；在乎 | 回应别人的请求；表示「我无所谓」 | I don't mind.；mind + -ing；Never mind.（算了，没事） | I don't mind working late tonight. | 今晚加班我不介意。 | I don't mind = 「我不介意，可以」；Never mind = 「算了 / 不重要了」，不是「别介意」。
+@v: right now | = | phr. | ˌraɪt ˈnaʊ | 现在；此刻（正在） | 说自己此刻在忙，或马上就去做 | right now；not right now；I'll do it right now. | I'm on a call right now. Can I call you back? | 我现在正在打电话，晚点回你行吗？ | right now 比 now 更强调「就在这一刻」；「现在不方便」说 Not right now.；「我马上做」说 I'll do it right now.
+@v: kind | = | adj. | kaɪnd | 好心的；友善的 | 感谢别人帮忙、夸人热心 | That's very kind of you.；so kind；a kind person | That's very kind of you. Thank you. | 你真好，谢谢你。 | 感谢别人说 That's very kind of you.，介词用 of，不用 for；kind 作名词是「种类」：What kind of…?
+@v: requests | request | n. | rɪˈkwests | 请求；要求 | 正式或书面地提要求；系统里的「申请」 | a polite request；make a request；a request from a seller | We got a request from a seller this morning. | 我们今天早上收到了一位卖家的请求。 | request 比 ask 正式，多用在书面和系统里；当面请人帮忙直接说 Could you…? 就行，✗ I request you to sign this.（像下命令）
+@v: polite | = | adj. | pəˈlaɪt | 有礼貌的；客气的 | 说话方式、请求的语气 | be polite；a polite request；polite to customers | Always be polite to customers, even angry ones. | 对客户永远要有礼貌，哪怕对方在生气。 | 英文的「有礼貌」不靠加很多 please，而是靠把命令变成问句：Could you…? / Would you mind…?
+
+@diff: 「请帮我……」≠ Please help me…
+@d_cn: 客气地请别人帮你做一件事：「请帮我复印一下」「麻烦你签个字」。
+@d_en: Could you make a copy for me? / Could you sign this, please? / Could you do me a favor?
+@d_why: 中文的「请」是礼貌的标志，一加上就客气了。英文的 **please** 却撑不起礼貌：**Please help me!** 听起来像「救命！」；**Please sign this.** 还是祈使句，语气像下指令（上级对下级、表格上的说明）。英文的礼貌主要靠**把命令变成问句**：Could you…? / Can you…?，please 只是放在句尾再加一点客气。另外，「帮我做某事」直接说要做的事就行，不用每次都加 help me。
+@d_when: 请同事、上级、客户帮忙 → Could you…?；真遇到紧急情况 → Help!；表格、告示上的说明文字 → Please sign here.
+@d_vs: **Could you sign this, please?** 麻烦你签个字。（礼貌请求）\n**Please sign this.** 签一下。（像指令）\n**Please help me!** 救救我！（像求救）\n✗ Please help me copy this. → ✓ Could you copy this for me?
+@d_task: 用英文客气地说：「麻烦你把这张表复印两份。」 | Could you make two copies of this form, please?
+@diff: Can / Could / Would you mind——请求的礼貌层级
+@d_cn: 请求的分量和对象不同，语气也要不同：借支笔，和请人花十分钟教你，不是一回事。
+@d_en: Can I borrow a pen? / Could you do me a favor? / Would you mind showing me…?
+@d_why: 中文多靠「麻烦你」「不好意思」「能不能」来调节语气；英文主要靠**换开头**：**Can you / Can I…?** 最随意，适合熟人之间的小事；**Could you…?** 更客气，适合大多数工作场合；**Would you mind + -ing?** 最客气，适合要占用对方时间、打断对方工作，或者对上级、客户。林晓借笔、借充电器用 Can I…?，请吴佳花时间教她用 Would you mind…?，就是这个道理。
+@d_when: 熟同事、小东西 → Can I…?；一般的工作请求 → Could you…?；麻烦别人、对方很忙、对上级和客户 → Would you mind…?
+@d_vs: **Can you pass me that pen?** 把那支笔递给我一下。（随意）\n**Could you send me the file?** 你能把文件发我吗？（礼貌）\n**Would you mind checking my email?** 你介意帮我看看这封邮件吗？（很客气）
+@d_task: 按礼貌程度，用 Can I / Could you / Would you mind 各说一句：① 借同事的充电器 ② 请经理签表 ③ 请很忙的同事教你用打印机 | ① Can I borrow your charger? ② Could you sign this form? ③ Would you mind showing me how to use the printer?
+@diff: 「借」——borrow（借进）vs lend（借出）
+@d_cn: 「借」：我向你借（东西到我这儿）；你借给我（东西从你那儿出去）。
+@d_en: Can I borrow your charger? / Could you lend me your charger?
+@d_why: 中文一个「借」字两个方向都能用：「借我一支笔」「我借你一支笔」「我跟他借了一支笔」。英文必须分方向：**borrow = 借进**，主语是拿到东西的人；**lend = 借出**，主语是把东西给出去的人。中国人最常见的错误是把「借我一下」说成 Can you borrow me…?
+@d_when: 自己开口借 → Can I borrow…?；请对方借给你 → Could you lend me…?；说自己借给了别人 → I lent him my pen.
+@d_vs: **Can I borrow your pen?** 我能借你的笔吗？\n**Could you lend me your pen?** 你能把笔借给我吗？\n**Tom lent me his pen.** 张涛把笔借给了我。\n✗ Can you borrow me a pen?
+@d_task: 外面下雨了，用两种说法向同事借雨伞。 | Can I borrow your umbrella? / Could you lend me your umbrella?
+@diff: Would you mind…?——No, not at all. 才是「可以」
+@d_cn: 别人问「你介意……吗」，你想表示「不介意，没问题」。
+@d_en: Would you mind showing me? — No, not at all. / No, I don't mind. / Sure, no problem.
+@d_why: mind 是「介意」，所以 Would you mind…? 字面是「你介意……吗？」。想答应，就要说「不介意」：**No, not at all.** 中国人习惯先说「好的！」，脱口而出 Yes!——字面意思反而成了「是的，我介意」，对方会愣一下。美国人日常也常用 Sure! 回答，大家都懂；但 Yes, I do. 一定是在拒绝。
+@d_when: 别人用 Would you mind…? / Do you mind…? 请你帮忙，你愿意 → No, not at all. / No, I don't mind.；对方问能不能做某事 → No, go ahead.；你现在不方便 → Sorry, I'm busy right now.
+@d_vs: **Would you mind helping me? — No, not at all.** 你介意帮我一下吗？——一点也不介意。（= 可以）\n**Do you mind if I sit here? — No, go ahead.** 我坐这儿你介意吗？——不介意，坐吧。\n**Would you mind helping me? — Yes.** 字面是「介意」，会被当成拒绝。
+@d_task: 同事问你 Would you mind closing the window? 你愿意帮忙。用两种说法回答。 | No, not at all. / No, I don't mind.（日常也可以说 Sure, no problem.）
+
+@core: Could you do me a favor? | 开口请人帮忙前先打个招呼 | do me a favor / help me with something | 正式：Could I ask you a favor?｜随意：Can you do me a favor?
+@core: Can I borrow + 东西? | 向熟同事借小东西 | your pen / your charger / your umbrella | 正式：Would it be OK if I borrowed your charger?｜随意：Mind if I borrow your charger?
+@core: Could you + 动作 + for me? | 一般的工作请求 | sign this / make a copy / print this | 正式：Could you please sign this form?｜随意：Can you sign this?
+@core: Would you mind + -ing? | 很客气地请别人花时间帮忙 | showing me / checking this / closing the door | 正式：Would you mind showing me how this works?｜随意：Mind showing me?
+@core: Of course. / No, not at all. | 答应别人的请求 | Of course. / Sure. / No problem. | 正式：Of course. I'd be happy to.｜随意：Sure thing!
+@core: I'm busy right now. Can I help you in + 时间? | 现在不方便，另约时间帮忙 | in ten minutes / after lunch / at three | 正式：I'm in the middle of something. Could I help you in ten minutes?｜随意：Give me ten minutes?
+@core: That's very kind of you. | 感谢别人帮忙 | kind / nice / sweet | 正式：That's very kind of you. Thank you.｜随意：You're the best!
+
+@pw: borrow | ˈbɑːroʊ | 2 个音节 BOR·row | 第一个 o 嘴巴张大 `/ɑː/`；row 卷舌读 `/roʊ/`，不读「波肉」
+@pw: label | ˈleɪbəl | 2 个音节 LA·bel | la 读 `/leɪ/`，像「雷」；bel 很轻，结尾舌尖抵住上牙床
+@pw: charger | ˈtʃɑːrdʒər | 2 个音节 CHAR·ger | 两处都要卷舌；ch 和 g 都要噘嘴
+@pw: favor | ˈfeɪvər | 2 个音节 FA·vor | v 是上牙轻咬下唇；结尾卷舌
+@pw: polite | pəˈlaɪt | 2 个音节 po·LITE | 重音在后，po 很轻；结尾 t 只做口型
+@pw: request | rɪˈkwest | 2 个音节 re·QUEST | 重音在后；qu 读 `/kw/`，嘴唇先收圆
+@pw: sign | saɪn | 1 个音节 | g 不发音，和 sine 同音
+@ps: Could‿you **do** me a **fa**vor? ↗ | could you 连读成 `/ˈkʊdʒə/`；重音落在 do 和 favor 上；Yes / No 问句，句尾上扬 ↗。
+@ps: Would‿you **mind** / **show**ing me how to **print** the **la**bels? ↗ | would you 连读成 `/ˈwʊdʒə/`；mind 后面稍停一下；how to 的 to 弱读成 `/tə/`。
+@ps: Can‿I **bor**row your **char**ger? ↗ | 这里的 can 弱读成 `/kən/`，Can‿I 连成 `/kənaɪ/`；重音给 borrow 和 charger。
+@ps: I'm **bus**y / **right now**. / Can‿I **help** you in **ten** minutes? | right now 两个词都读重；in ten minutes 里 ten 最重，minutes 的 t 轻轻带过：`/ˈmɪnɪts/`。
+@pnote: could you / would you 在口语里几乎总是连读：d 碰上 y，变成像「舅」的 `/dʒ/`，听起来是 `/ˈkʊdʒə/`、`/ˈwʊdʒə/`。自己说可以慢一点、清楚一点，但听到要能反应过来。
+@pnote: 请求句里的小词都弱读：can → `/kən/`，for → `/fər/`（a copy for me），to → `/tə/`（how to print）。听的时候抓重读的动词和名词：borrow、charger、print、labels。
+@lfocus: could you / would you 连成 /ˈkʊdʒə/、/ˈwʊdʒə/
+@lfocus: 请求句里 can 弱读成 /kən/
+@lfocus: in ten minutes 里 ten 读得最重
+@dict: S14
+@dict: S16
+@res: 在 youglish.com 输入 "would you mind"，选 US，听真实对话里 would you 怎么连读。
+
+@mimic: 跟读【C】S8–S17 的对话：先 0.8 倍速逐句跟读，重点模仿 could you / would you 的连读和问句的上扬语调；再你演林晓、手机朗读吴佳的台词，完整对一遍并录音。
+@swap: Could you do me a favor? | 换成具体的请求：sign this form / make a copy / print this for me | Could you print this for me?
+@swap: Can I borrow your charger? | 换东西：pen / umbrella / laptop | Can I borrow your umbrella?
+@swap: Would you mind showing me how to print the labels? | 换内容：use the printer / log in to the system / make copies | Would you mind showing me how to make copies?
+@swap: I'm busy right now. Can I help you in ten minutes? | 换时间：after lunch / at three / in five minutes | I'm busy right now. Can I help you after lunch?
+@free: 你手机没电了，想向坐在旁边的同事借充电器。 | Can I borrow your charger? My phone is dead.
+@free: 你想请经理在一张表上签字。 | Could you sign this form, please?
+@free: 你想请一位正在忙的同事抽空教你怎么复印。 | Would you mind showing me how to make copies?
+@free: 同事请你帮忙看一下他的邮件，可你正在回客户消息，想说「我现在在忙，二十分钟后可以吗？」 | I'm busy right now. Can I help you in twenty minutes?
+@output: 录 1 分钟「我在办公室请人帮忙」：设计 3 个请求——向熟同事借东西（Can I…?）、请经理做一件事（Could you…?）、麻烦很忙的同事花时间教你（Would you mind…?），每个请求后面配一句对方的回答，最后说一句感谢。
+@output_sample: Hi, Grace. Could you do me a favor? My phone is dead. Can I borrow your charger? — Sure, here you go. — Thanks! I'll return it after lunch. Tom, could you sign this form, please? — Of course. Kevin, would you mind showing me how to use the new printer? — No, not at all. But I'm busy right now. Can I help you in ten minutes? — No problem. That's very kind of you!
+
+@check: 你想请同事帮你打印一份文件，说 Please help me print this. 有什么问题？怎么说更好？ | Please help me… 听起来像求救或下指令；更自然的说法：Could you print this for me?
+@check: 「你能借我一支笔吗？」Can you borrow me a pen? 和 Can you lend me a pen? 哪句对？ | Can you lend me a pen?（lend = 借出）；也可以换个角度说 Can I borrow a pen?
+@check: 同事问 Would you mind helping me with this? 你愿意帮忙，却回答 Yes! 会有什么问题？ | Yes 字面上是「是的，我介意」；应该说 No, not at all. 或 No, I don't mind.（日常说 Sure! 也行）
+@check: 你想请很忙的经理花时间看一下你的报告，用 Can you…? / Could you…? / Would you mind…? 中哪一个最合适？说出整句。 | Would you mind taking a look at my report? 要占用上级时间的请求，用最客气的 Would you mind…?
+@check: 「我十分钟后帮你」用 in ten minutes 还是 after ten minutes？ | in ten minutes（从现在算起十分钟以后）；after 后面一般接事件或时间点：after lunch / after three.
+@next1: 不看书说出 S9、S11、S14、S16 四句
+@next1: borrow / lend 各说一个关于你自己的句子
+@next1: 别人问 Would you mind…?，愿意帮忙时回答 No, not at all.
+@next7: 用 Can I…? / Could you…? / Would you mind…? 各提一个工作中的请求（Day 21 复习会用到）
+@next7: 「请帮我……」不说 Please help me…，改成 Could you…?

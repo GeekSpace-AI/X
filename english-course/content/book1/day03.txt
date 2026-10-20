@@ -1,0 +1,140 @@
+@day: 3
+@week: 1
+@title_cn: 办公室里有什么
+@title_en: A Tour of the Office
+@topic: 办公室设施、位置与方向
+@think_short: 「这里有」≠ Here has｜「我有」vs「某处有」｜在：on 楼层／in 房间／at 前台
+
+@goal_scene: 入职第一天下午，「入职搭子」吴佳带你参观办公室：你要听懂会议室、打印机、洗手间、电梯在哪儿，也能自己开口问「这层有……吗？」
+@goal_expr: There is… / There are… / Is there a… on this floor? / It's next to… / It's at the end of the hall, on the left. / Our team is on the fifth floor.
+@goal_vocab: 17 个重点词 + 4 个短语：办公室设施、方位、楼层
+@done: 不看书，用 5 句英文介绍你的办公室（或家）：在几楼、有什么、每样东西在哪儿
+@done: 能用 Is there a… on this floor? 问设施，并听懂 at the end of the hall, on the left / on the right
+@done: 说「这里有……」时用 There is / There are，不再说 Here has…；说「在五楼」用 on，不用 in
+
+@warmup: 我平时七点起床。 | I usually get up at seven. | D2
+@warmup: 我没吃早饭，饿死了。 | I didn't eat breakfast. I'm so hungry. | D2
+@warmup: 你吃早饭了吗？——还没呢。 | Did you have breakfast? — Not yet. | D2
+@warmup: 她的通勤时间大约一个小时。 | Her commute is about an hour. | D2
+@warmup: 这是 Emma，她是美国人。 | This is Emma. She's from the US. | D1
+@warmup: 我是新来的，所以有很多问题。 | I'm new here, so I have a lot of questions. | D1
+
+@scene: 时间回到周一——林晓入职第一天的下午。吃完午饭，经理张涛请客服专员吴佳当林晓的「入职搭子」，带她熟悉办公室。SwiftLink 在一栋写字楼的五楼和六楼，林晓要记住会议室、打印机、茶水间、洗手间和电梯的位置，还要找到自己的工位和门禁卡。
+@sp: 人物关系 | 林晓（新人）↔ 吴佳（客服专员、入职搭子）：年龄相仿的同事，第一次正式聊天，友好随意
+@sp: 沟通目的 | 吴佳：带林晓认地方，说清楚「这里有什么、在哪儿」；林晓：问清楚自己马上要用的设施（洗手间、工位）
+@sp: 已知信息 | 林晓上午只到过前台和张涛的办公室；吴佳熟悉整层楼，也知道林晓的工位和门禁卡已经准备好了
+@sp: 表达重点 | 在几楼（on the fifth floor）→ 这里有什么（There is / There are）→ 在哪儿（next to / near / between / at the end of）→ 左右（on the left / on the right）
+
+@story_title: Episode 3 · Let Me Show You Around
+@story_type: 叙述 + 对话
+@s: It's Monday afternoon. | 周一下午。
+@s: Her coworker Grace comes over. | 同事吴佳走了过来。
+@s: Grace: Hi, Lily! I'm Grace. Let me **show you around**. | 吴佳：嗨，林晓！我是吴佳。我带你四处转转吧。
+@s: Grace: Our team is on the fifth **floor**. | 吴佳：我们团队在五楼。
+@s: Grace: **There are** two **meeting rooms** on this floor. | 吴佳：这层楼有两间会议室。
+@s: Grace: The **printer** is **next to** the **kitchen**. | 吴佳：打印机在茶水间旁边。
+@s: Grace: There's free coffee in the kitchen. | 吴佳：茶水间里有免费咖啡。
+@s: Lily: Is there a **restroom** on this floor? | 林晓：这层有洗手间吗？
+@s: Grace: Yes, it's **at the end of** the hall, on the **left**. | 吴佳：有，在走廊尽头，左手边。
+@s: Grace: And the **elevator** is on the **right**. | 吴佳：电梯在右手边。
+@s: Grace: The IT team is **upstairs**. | 吴佳：IT 部在楼上。
+@br:
+@s: Grace: Here we are. Your **desk** is **near** the **window**. | 吴佳：到了。你的工位就在窗户边上。
+@s: Lily: Nice! It's a **quiet** **corner**. | 林晓：真好！这个角落很安静。
+@s: Grace: My desk is **between** yours and Emma's. | 吴佳：我的工位在你和 Emma 的中间。
+@s: Grace: Your **key card** is in the top **drawer**. | 吴佳：你的门禁卡在最上面的抽屉里。
+@s: Grace: You need it for the elevator. | 吴佳：坐电梯要刷这张卡。
+@s: Lily: Thanks, Grace! | 林晓：谢谢你，吴佳！
+
+@v: show you around | show sb around | phr. | ˌʃoʊ ju əˈraʊnd | 带（你）四处看看、熟悉环境 | 带新同事认识办公室；带客户参观公司、仓库 | show sb around the office；Let me show you around.；show the visitors around | I'll show you around the office after lunch. | 午饭后我带你在办公室转转。 | 人要放在 show 和 around 中间：✓ show you around，✗ show around you；「带你参观」不说 take you to visit。
+@v: floor | = | n. | flɔːr | 楼层 | 说公司、部门在几楼；坐电梯时说去几楼 | on the fifth floor；What floor…?；the top floor | Our office is on the twelfth floor. | 我们公司在十二楼。 | 「在五楼」用 on：✗ in the fifth floor → ✓ on the fifth floor。美国的 first floor 就是中国的「一楼」（英国叫 ground floor）。
+@v: There are | there is / there are | phr. | ˈðer ɑːr | （某处）有…… | 介绍一个地方有什么：办公室、楼层、商场 | There is + 单数；There are + 复数；Is there…? / Are there…? | There are three printers on our floor. | 我们这层有三台打印机。 | 不能说 Here has… / There have…；单数用 There is（口语说 There's），复数用 There are；地点一般放在句尾。
+@v: meeting rooms | meeting room | n. | ˈmiːtɪŋ ˌruːmz | 会议室 | 订会议室、约人开会 | book a meeting room；in the meeting room；Meeting Room A | Let's talk in the meeting room. | 我们去会议室谈吧。 | 重音在 meeting 上，room 读得轻；「在会议室里」用 in。美国公司也常叫 conference room。
+@v: printer | = | n. | ˈprɪntər | 打印机 | 办公室日常：打印文件、发货标签 | the printer；use the printer；The printer is out of paper. | The printer is out of paper again. | 打印机又没纸了。 | 「打印」是动词 print，「打印机」是 printer，不要混用；美国人说 printer 时 t 很轻，常听起来像 `/ˈprɪnər/`。
+@v: next to | = | phr. | ˈnekst tə | 紧挨着；在……旁边 | 说房间、东西、座位的位置 | next to the kitchen；next to me；sit next to sb | Can I sit next to you? | 我可以坐你旁边吗？ | next to 是「紧挨着」。中文的「旁边」如果只是「附近、不远」，要用 near：There's a bank near the office.
+@v: kitchen | = | n. | ˈkɪtʃɪn | （办公室的）茶水间；厨房 | 美国公司的「茶水间」一般叫 kitchen 或 break room | in the kitchen；the office kitchen；break room | There's a microwave in the kitchen. | 茶水间里有微波炉。 | 「茶水间」不要直译成 tea room。kitchen 先发 /k/ 后发 /tʃ/，和 chicken（鸡肉）正好相反，别读混。
+@v: restroom | = | n. | ˈrestruːm | 洗手间（公共场所的） | 在公司、商场、餐厅问洗手间在哪儿 | Where's the restroom?；use the restroom；the men's / women's restroom | Excuse me, where's the restroom? | 打扰一下，洗手间在哪儿？ | 在美国的公共场所说 restroom 或 bathroom。toilet 在美式英语里主要指「马桶」，问路时说 toilet 显得太直白；WC 美国人基本不用。
+@v: at the end of | = | phr. | ət ði ˈend əv | 在……的尽头／末尾 | 指路：走廊尽头、这一排最后；也能说时间：月底 | at the end of the hall；at the end of the month；at the end of the day | My desk is at the end of this row. | 我的工位在这一排的最后。 | 别漏掉 the：at the end of…；也不要说 in the end of the hall——in the end 是「最后、终于」，意思完全不同。
+@v: left | = | n. | left | 左边 | 指路、说位置 | on the left；turn left；on your left | The meeting room is on your left. | 会议室在你左手边。 | 「在左边」用 on：✗ in the left → ✓ on the left；「向左转」直接说 turn left，不加 to。
+@v: elevator | = | n. | ˈelɪveɪtər | 电梯 | 写字楼、商场、酒店里坐电梯 | take the elevator；in the elevator；wait for the elevator | Let's take the elevator. | 我们坐电梯吧。 | 美国说 elevator，英国说 lift；重音在第一个音节 EL-，不要读成 e-le-VA-tor；「坐电梯」用 take，不用 sit。
+@v: right | = | n. | raɪt | 右边 | 指路、说位置 | on the right；turn right；on your right | The printer is on your right. | 打印机在你右手边。 | right 还有「对的」「正好」等意思，听的时候看搭配：on the right / turn right 一定是「右」。r 开头要卷舌，和 light 分清。
+@v: upstairs | = | adv. | ˌʌpˈsterz | 在楼上；往楼上 | 说别的部门在楼上；请人上楼 | go upstairs；the office upstairs；come upstairs | Can you come upstairs for a minute? | 你能上楼来一下吗？ | upstairs 本身就是副词，前面不加 to / at：✗ go to upstairs → ✓ go upstairs；✗ He's at upstairs. → ✓ He's upstairs.
+@v: desk | = | n. | desk | 办公桌；工位 | 说自己坐在哪儿、去找同事 | at my desk；your desk；the front desk（前台） | I'm at my desk. Come over anytime. | 我在工位上，随时过来。 | 「工位」英文就是 desk，不说 work position；「在工位上」用 at：at my desk。「前台」是 the front desk。
+@v: near | = | prep. | nɪr | 在……附近；离……近 | 说位置；说住得离公司近不近 | near the window；near here；live near the office | I live near the office. | 我住得离公司很近。 | near 后面直接跟地点，一般不加 of：✗ near of the window → ✓ near the window。near 比 next to 范围大，不一定紧挨着。
+@v: window | = | n. | ˈwɪndoʊ | 窗户 | 说座位位置；电脑屏幕上的「窗口」也是 window | near the window；a window seat；open the window | Is there a window seat? | 有靠窗的座位吗？ | 「靠窗的座位」说 a window seat，比 a seat near the window 更地道；结尾 -dow 读 `/doʊ/`，嘴唇收圆。
+@v: quiet | = | adj. | ˈkwaɪət | 安静的 | 说工位、会议室、餐厅安不安静 | a quiet corner；a quiet place；Please be quiet. | Is there a quiet room for phone calls? | 有没有安静的房间可以打电话？ | quiet（安静的，2 个音节 `/ˈkwaɪət/`）和 quite（相当，1 个音节 `/kwaɪt/`）拼写很像，读和写都容易混。
+@v: corner | = | n. | ˈkɔːrnər | 角落；拐角 | 说座位、房间、店铺的位置 | in the corner；a quiet corner；around the corner（拐角处；就在附近） | There's a coffee shop around the corner. | 拐角那儿有家咖啡店。 | 房间里的角落用 in：in the corner；街角用 on 或 around：on the corner / around the corner。
+@v: between | = | prep. | bɪˈtwiːn | 在（两者）中间 | 说座位、东西的位置；也能说时间：between two and three | between A and B；between the window and the door | The bank is between the hotel and the subway station. | 银行在酒店和地铁站中间。 | between 后面用 A and B，不用 A with B：✗ between you with me → ✓ between you and me；三者以上的「之中」用 among。
+@v: key card | = | n. | ˈkiː ˌkɑːrd | 门禁卡 | 进办公室、坐电梯、进停车场时刷卡 | swipe your key card；forget my key card；get a new key card | I forgot my key card. Can you open the door? | 我忘带门禁卡了，你能帮我开下门吗？ | 「刷卡」说 swipe / tap your card，不说 brush the card；美国公司也常把带照片的工牌叫 badge（Day 24 会学）。
+@v: drawer | = | n. | drɔːr | 抽屉 | 说东西放在哪里 | in the top drawer；open the drawer；desk drawer | The pens are in the top drawer. | 笔在最上面的抽屉里。 | 美式一般读成一个音节 `/drɔːr/`，像 draw 后面加个卷舌，不要读成 draw-er 两个音节；「在抽屉里」用 in。
+
+@diff: 「这里有……」——There is / There are，不说 Here has
+@d_cn: 告诉别人某个地方有什么东西、有什么设施。
+@d_en: There's a printer here. / There are two meeting rooms on this floor.
+@d_why: 中文的「有」可以直接放在地点后面：「这里有」「五楼有」。英文不让地点去「有」东西，而是用固定的句型 **There is / There are + 东西 + 地点**：先说「有什么」，地点放到句尾。这里的 There 没有「那里」的意思，只是一个开头。
+@d_when: 第一次告诉别人某处有什么：There's a kitchen on this floor. 单数和不可数（coffee、water）用 There is（口语 There's），复数用 There are。
+@d_vs: ✗ Here has a printer. → ✓ There's a printer here.\n✗ This floor have two meeting rooms. → ✓ There are two meeting rooms on this floor.\n✗ There have free coffee. → ✓ There's free coffee.
+@d_task: 用英文说：「我们公司有一个很大的茶水间，五楼有三台打印机。」 | There's a big kitchen in our office. There are three printers on the fifth floor.
+@diff: 「我有」vs「某处有」——I have 还是 There is？
+@d_cn: 同样一个「有」：「我有一张门禁卡」是拥有；「抽屉里有一张门禁卡」是某个地方存在某样东西。
+@d_en: I have a key card.（我拥有）/ There's a key card in the drawer.（某处存在）
+@d_why: 中文一个「有」管两件事，英文把它们分开：**人（或公司）拥有**某样东西 → have / has；**某个地方存在**某样东西 → There is / There are。问「有没有」也一样：问人用 Do you have…?，问地方用 Is there…? 把这两个混在一起，就会说出 There have… 或 Have a restroom here? 这样的句子。
+@d_when: 说「我 / 他 / 我们公司有」→ I have / He has / Our company has；说「这里 / 五楼 / 抽屉里有」→ There is / There are。
+@d_vs: **Do you have a pen?** 你有笔吗？（问人）\n**Is there a restroom on this floor?** 这层有洗手间吗？（问地方）\n✗ Have a restroom on this floor? ✗ Here have a restroom?
+@d_task: 分别用 have 和 There is 说：① 我有两台电脑。② 会议室里有一台电脑。 | ① I have two computers. ② There's a computer in the meeting room.
+@diff: 说地点：on the fifth floor／in the meeting room／at the front desk
+@d_cn: 中文都是一个「在」：在五楼、在会议室、在前台。
+@d_en: on the fifth floor / in the meeting room / at the front desk
+@d_why: 中文只要一个「在」，英文要看这个地方是什么「样子」：**on** = 在一个平面、一层上（楼层、左右两边）；**in** = 在一个有边界的空间里面（房间、抽屉、角落）；**at** = 在一个点、一个位置上（前台、工位、走廊尽头）。
+@d_when: 楼层、方向：on the fifth floor / on the left；房间、容器：in the kitchen / in the drawer；某个点或办公位置：at the front desk / at my desk / at the end of the hall。
+@d_vs: **She's on the fifth floor.** 她在五楼。\n**She's in the meeting room.** 她在会议室（里面）。\n**She's at the front desk.** 她在前台。\n✗ in the fifth floor ✗ on the meeting room
+@d_task: 用英文说：「张涛在会议室，Emma 在她的工位上，李凯在六楼。」 | Tom is in the meeting room. Emma is at her desk. Kevin is on the sixth floor.
+
+@core: There's a… / There are… + 地点. | 介绍某个地方有什么 | a kitchen / two meeting rooms / free coffee | 正式：There are two meeting rooms available on this floor.｜随意：There's coffee in the kitchen.
+@core: Is there a… on this floor? | 问某处有没有某样设施 | restroom / printer / quiet room | 正式：Excuse me, is there a restroom on this floor?｜随意：Any restrooms up here?
+@core: It's next to / near / between… | 说东西在哪里 | next to the kitchen / near the window / between A and B | 正式：It's located next to the kitchen.｜随意：It's right by the kitchen.
+@core: It's at the end of the hall, on the left. | 指路：走廊尽头、在左 / 右边 | left / right；hall / row | 正式：It's at the end of the hallway, on your left.｜随意：End of the hall, on the left.
+@core: Our team is on the + 序数 + floor. | 说公司、部门在几楼 | fifth / sixth / twelfth | 正式：Our department is located on the fifth floor.｜随意：We're on five.
+@core: Let me show you around. | 主动带新人或访客参观 | the office / the warehouse / our floor | 正式：Allow me to show you around.｜随意：Come on, I'll show you around.
+
+@pw: elevator | ˈelɪveɪtər | 4 个音节 EL·e·va·tor，重音在第一个 | 重音别放在 va 上；结尾 -tor 轻读 `/tər/`，美国人常把 t 读成轻轻弹一下的 d
+@pw: restroom | ˈrestruːm | 2 个音节 REST·room | 两个 r 都要卷舌；t 和后面的 r 连在一起，t 很轻
+@pw: drawer | drɔːr | 1 个音节 | 美式像 draw 加卷舌，不要拆成 draw-er 两个音节
+@pw: quiet | ˈkwaɪət | 2 个音节 QUI·et | 和 quite `/kwaɪt/`（1 个音节）分清楚
+@pw: between | bɪˈtwiːn | 2 个音节 be·TWEEN | 重音在后；tw 嘴唇先收圆，再发长音 `/iː/`
+@pw: upstairs | ˌʌpˈsterz | 2 个音节 up·STAIRS | p 只做口型不爆破；结尾是 `/z/`，声带要振动
+@ps: There are **two** **meet**ing rooms / on this **floor**. | There are 读得又轻又快，常常只剩 `/ˈðerər/`；重读数字 two、meeting 和 floor。在「/」处停一下。
+@ps: Is there‿a **rest**room / on this **floor**? | Is there a 连成一串 `/ɪz ˈðerə/`；一般疑问句结尾语调上扬。
+@ps: It's‿at the **end**‿of the **hall**, / on the **left**. | the 在元音 end 前读 `/ði/`；end of 连成 `/ˈendəv/`；left 的 l 舌尖顶住上齿龈。
+@ps: Your **desk** is **near** the **win**dow. | 四个实词读重，is、the 读轻；near 结尾的 r 要卷舌收住。
+@pnote: **There's** `/ðerz/` = There is，口语几乎都用缩写；There are 在快速口语里常读成 `/ˈðerər/`，听起来和 There's 很像，要靠后面的名词是单数还是复数来判断。
+@pnote: 美式发音里，元音之间或 n 后面的 t 常常变软：printer 像 `/ˈprɪnər/`，elevator 的 t 像轻轻弹一下的 d。书上写的 t，耳朵里不一定听得到。
+@lfocus: There are 读得很快，像 /ˈðerər/
+@lfocus: on the left / on the right：分清 l 和 r 开头
+@lfocus: at the end of 连成一串
+@dict: S5
+@dict: S9
+@res: 在 youglish.com 输入 "at the end of the hall"，选 US
+
+@mimic: 跟读【C】S3–S17：先用 0.8 倍速每句跟读 2 遍，重点模仿 There are 和 at the end of 的连读；再你演林晓、手机朗读吴佳的台词，完整对一遍并录音。
+@swap: Our team is on the fifth floor. | 换部门和楼层：the IT team / the sales team；sixth / tenth | The sales team is on the tenth floor.
+@swap: There are two meeting rooms on this floor. | 换数量和设施：three printers / a kitchen（单数用 There's） | There's a big kitchen on this floor.
+@swap: The printer is next to the kitchen. | 换位置词：near / between… and… | The printer is between the kitchen and the meeting room.
+@swap: Is there a restroom on this floor? — Yes, it's at the end of the hall, on the left. | 换设施和方向：printer / elevator；on the right | Is there a printer on this floor? — Yes, it's next to the elevator, on the right.
+@free: 你在一栋陌生的写字楼里，想问保安这层有没有洗手间（用 Excuse me 开头）。 | Excuse me, is there a restroom on this floor?
+@free: 新同事问你打印机在哪儿。（在茶水间旁边，走廊尽头右手边） | The printer is next to the kitchen. It's at the end of the hall, on the right.
+@free: 一位访客来找张涛。告诉他：张涛在楼上的会议室，可以坐电梯上去。 | Tom is in the meeting room upstairs. You can take the elevator.
+@free: 你带一位新同事参观：「我带你转转。我们团队在五楼，你的工位在窗户边上。」 | Let me show you around. Our team is on the fifth floor. Your desk is near the window.
+@output: 录 1 分钟「我的办公室（或我的家）」：在几楼 → 有什么（There is / There are）→ 每样东西在哪儿（next to / near / between / on the left）→ 你的座位在哪儿、怎么样。录完听一遍，检查有没有说 Here has… 或 in the fifth floor。
+@output_sample: My office is on the twelfth floor. There are about forty people on our team. There are three meeting rooms and a small kitchen. The printer is next to the kitchen. The restroom is at the end of the hall, on the left. My desk is near the window, between my manager's desk and a meeting room. It's a quiet corner.
+
+@check: 吴佳说 There are two meeting rooms on this floor. 如果这层只有一间会议室，这句话要怎么改？ | There's one meeting room on this floor. / There is a meeting room on this floor.（单数用 There is）
+@check: 「你有门禁卡吗？」和「抽屉里有门禁卡吗？」英文分别怎么问？ | Do you have a key card?（问人拥有）/ Is there a key card in the drawer?（问某处存在）
+@check: 「Emma 在茶水间，李凯在六楼，吴佳在工位上」——三个「在」英文分别用哪个介词？为什么？ | in the kitchen（房间里面）；on the sixth floor（楼层）；at her desk（一个位置点）。
+@check: 同事告诉你 It's at the end of the hall, on the right. 你应该怎么走？ | 沿着走廊一直走到尽头，要找的地方在右手边。
+@check: 有人说 Here has a printer. 美国同事能猜出意思，但不自然。自然的说法是什么？ | There's a printer here.
+@next1: 不看书说出 S4、S5、S6、S8–S9、S12（锚点句）
+@next1: There is + 单数 / There are + 复数；问地方用 Is there…?，问人用 Do you have…?
+@next1: on the floor / in the room / at the desk 各说一句
+@next7: 用 There is / There are 介绍你家或办公室里的 5 样东西和它们的位置
+@next7: next to / near / between / at the end of / on the left 的意思和用法

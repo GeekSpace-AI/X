@@ -1,0 +1,156 @@
+@day: 27
+@week: 4
+@title_cn: 心情与回应
+@title_en: How Do You Feel?
+@topic: 描述心情；回应别人的好消息和坏消息
+@think_short: 「我很无聊」I'm bored ≠ I'm boring｜I'm sorry ≠ 道歉｜「怎么了」What's wrong?
+
+@goal_scene: 同事被客户骂了很难过、另一位同事考试通过了、下午的会又长又闷——你要关心、安慰、祝贺，也要说出自己的感受。
+@goal_expr: What's wrong? / I'm upset. / That's too bad. I'm sorry to hear that. / Congratulations! / It was boring. I was bored.
+@goal_vocab: 17 个重点词 + 4 个短语：心情形容词（-ed / -ing）、好消息与坏消息、安慰和祝贺
+@done: 能用 -ed 说自己的 4 种感受（bored / confused / surprised / upset），用 -ing 评价 3 件事（boring / confusing / interesting）
+@done: 听到坏消息能马上说 That's too bad. I'm sorry to hear that.；听到好消息能马上说 Congratulations!
+@done: 想说「我好无聊」「你怎么了」时，不再说 I'm boring / What's wrong with you?
+
+@warmup: A 方案便宜一些，但是慢。 | Option A is cheaper, but it's slower. | D26
+@warmup: C 方案最快，但也是最贵的。 | Option C is the fastest, but it's also the most expensive. | D26
+@warmup: 你更倾向哪一个？ | Which one do you prefer? | D26
+@warmup: B 没有 A 便宜，但更可靠。 | B isn't as cheap as A, but it's more reliable. | D26
+@warmup: 你应该在 24 小时内回复客户。 | You should reply to customers within 24 hours. | D24
+@warmup: 对不起，是我的错。 | Sorry, it's my fault. | D23
+
+@scene: 入职第四周的一个下午。吴佳刚接完一个美国客户的电话——包裹晚到了，对方在电话里冲她发了一通火，她坐在工位上闷闷不乐。林晓走过去关心她。没过多久，IT 的 Kevin 带着好消息来了。四点，林晓又去开了一个又长又闷的会。
+@sp: 人物关系 | 林晓 ↔ 吴佳：入职搭子，关系很近；林晓 ↔ Kevin：同事，已经比较熟
+@sp: 沟通目的 | 关心难过的同事、祝贺有好消息的同事、下班前和同事吐槽一个无聊的会
+@sp: 已知信息 | 林晓不知道吴佳为什么不开心，也不知道 Kevin 去考了试
+@sp: 表达重点 | 先问「怎么了」→ 听到坏消息先表示同情 → 听到好消息马上祝贺 → 用 -ed 说自己的感受、用 -ing 说事情本身
+
+@story_title: Episode 27 · What's Wrong?
+@story_type: 叙述 + 对话
+@s: After lunch, Lily finds Grace at her desk. Grace looks sad. | 午饭后，林晓看到吴佳坐在工位上，一脸难过。
+@s: Lily: Hey, Grace. **What's wrong**? | 林晓：嘿，吴佳，怎么了？
+@s: Grace: A customer was **angry** with me. I'm **upset**. | 吴佳：有个客户冲我发火了，我心里挺难受的。
+@s: Grace: His package was late, so he shouted at me on the phone. | 吴佳：他的包裹晚到了，就在电话里冲我嚷嚷。
+@s: Grace: But the delay wasn't our fault. It was the weather. | 吴佳：可延误又不是我们的错，是天气的原因。
+@s: Lily: **That's too bad**. **I'm sorry to hear that**. | 林晓：太倒霉了，真替你难过。
+@s: Lily: How do you **feel** now? | 林晓：你现在感觉怎么样？
+@s: Grace: I'm OK. I'm just **disappointed**. I really tried to help him. | 吴佳：还好，就是有点失望。我是真心想帮他的。
+@s: Lily: You did your best. He was just in a bad **mood**. | 林晓：你已经尽力了，他只是心情不好。
+@br:
+@s: Just then, Kevin walks over with a big smile. | 就在这时，Kevin 满脸笑容地走了过来。
+@s: Kevin: Good **news**! I **passed** my security **exam**! | Kevin：好消息！我的信息安全考试通过了！
+@s: Lily: **Congratulations**! I'm so **glad** to hear that. | 林晓：恭喜恭喜！真为你高兴。
+@s: Grace: Wow! Maybe you'll get a **promotion**! | 吴佳：哇！说不定你要升职了！
+@s: Kevin: Ha, I hope so. I'm a little **surprised**, too. It was really hard. | Kevin：哈，希望吧。其实我自己也有点意外，那个考试真的很难。
+@s: Kevin: Next week, I'm teaching a short class about online security. Are you **interested**? | Kevin：下周我要讲一堂网络安全的小课，你们有兴趣吗？
+@s: Lily: Sure! That sounds **interesting**. | 林晓：当然！听起来挺有意思的。
+@s: Grace laughs. She feels much better now. | 吴佳笑了，心情好多了。
+@br:
+@s: At four, Lily goes to a long meeting about monthly data. | 四点，林晓去开了一个很长的会，讲每个月的数据。
+@s: Grace: How was your afternoon? | 吴佳：你下午过得怎么样？
+@s: Lily: The meeting was so boring. I was **bored**. | 林晓：那个会太无聊了，我听得好闷。
+@s: Lily: The charts were **confusing**, and I was **confused** the whole time. | 林晓：图表也看不懂，我从头到尾都是懵的。
+@s: Lily: And someone's phone kept ringing. It was so **annoying**! | 林晓：还有人的手机一直响，烦死了！
+@s: Grace: Ha! Welcome to office life. | 吴佳：哈！欢迎来到真实的职场。
+
+@v: What's wrong | what's wrong? | phr. | ˌwʌts ˈrɔːŋ | 怎么了？（看到对方不开心、出了状况时关心地问） | 同事脸色不好、在叹气；机器出了问题 | What's wrong?；What's wrong with the printer?；Is something wrong? | You look tired. What's wrong? | 你看起来很累，怎么了？ | 问人就说 What's wrong?；加上 with you 变成 What's wrong with you?，常常是「你有毛病吧」，语气很冲。with 后面接东西没问题：What's wrong with my computer?
+@v: angry | = | adj. | ˈæŋgri | 生气的；发火的 | 描述客户、老板或自己的情绪 | angry with / at sb；angry about sth；get angry | The customer was angry about the delay. | 客户因为延误很生气。 | 「生某人的气」用 angry with / at sb，「为某事生气」用 angry about sth；不说 ✗ angry to me。
+@v: upset | = | adj. | ʌpˈset | 难过的；心里不好受的 | 被批评、被骂、事情不顺之后的感受 | I'm upset.；upset about…；look upset | She was upset about the bad review. | 她因为那条差评很难受。 | upset 介于「生气」和「伤心」之间，是心里乱、不舒服；说自己用 I'm upset，不说 ✗ I'm upsetting（那是「我让人难受」）。重音在后：up·SET。
+@v: feel | = | v. | fiːl | 感觉；觉得（心情、身体状态） | 问别人心情、身体；说自己的感受 | How do you feel?；feel better；feel tired | I feel much better now. | 我现在感觉好多了。 | feel 是动词，前面不要再加 am：✗ I am feel tired. → ✓ I feel tired.；问「你感觉怎么样」说 How do you feel?，不说 ✗ How are you feel?
+@v: disappointed | = | adj. | ˌdɪsəˈpɔɪntɪd | 失望的 | 结果没达到期望：没升职、计划泡汤、努力没被认可 | disappointed with / in…；disappointed about…；a little disappointed | I was disappointed with the results. | 我对结果有点失望。 | 和 bored 同一个规律：人的感受用 -ed（I'm disappointed），让人失望的事用 -ing（The results are disappointing）。t 后面的 -ed 读 `/ɪd/`。
+@v: mood | = | n. | muːd | 心情；情绪 | 说某人今天心情好不好 | in a good mood；in a bad mood；not in the mood | The boss is in a good mood today. | 老板今天心情不错。 | 「心情好 / 不好」要用 be in a good / bad mood；不说 ✗ His heart is not good.（中文「心情」不能拆成 heart 直译）。
+@v: news | = | n. | nuːz | 消息（不可数）；新闻 | 宣布好消息、坏消息 | good news；bad news；I have some news. | I have some good news for you. | 我有个好消息要告诉你。 | news 结尾有 s，却是不可数名词：✗ a good news → ✓ some good news / great news；动词用 is：The news is great. 美式读 `/nuːz/`，s 读 `/z/`。
+@v: passed | pass | v. | pæst | 通过（考试、测试、检查） | 考试、资格认证、系统测试通过了 | pass an exam；pass a test；pass the check | Did you pass your driving test? | 你驾照考过了吗？ | 「考试通过」就用 pass，不说 ✗ through the exam；「没考过」用 fail。passed 和 past 读音完全一样，都是 `/pæst/`。
+@v: exam | = | n. | ɪgˈzæm | 考试 | 资格考试、学校考试 | take an exam；pass an exam；an IT exam | I have an exam next Saturday. | 我下周六有个考试。 | 「参加考试」说 take an exam，不说 ✗ join an exam；x 在这里读 `/gz/`，重音在后：ex·AM。
+@v: Congratulations | congratulations | phr. | kənˌgrætʃəˈleɪʃnz | 恭喜（对方有好事时） | 同事升职、考试通过、找到新工作、结婚 | Congratulations!；Congratulations on…；Congrats!（口语） | Congratulations on your new job! | 恭喜你找到新工作！ | 结尾一定有 s；「恭喜你做成了某事」用 on：Congratulations on passing the exam.；它只用于个人的成就和喜事，「恭喜发财」「新年快乐」不能用它，说 Happy New Year。
+@v: glad | = | adj. | glæd | 高兴的；欣慰的 | 听到好消息时回应；对结果表示欣慰 | I'm glad to hear that.；I'm glad (that)…；so glad | I'm glad you like it. | 你喜欢就好。 | glad 只放在 am / is / are 后面说「我高兴」，不放在名词前：✗ a glad girl → ✓ a happy girl。
+@v: promotion | = | n. | prəˈmoʊʃn | 升职；晋升 | 聊工作发展、祝贺同事 | get a promotion；a promotion to manager；ask for a promotion | She got a promotion last month. | 她上个月升职了。 | 「升职」说 get a promotion 或 get promoted，不说 ✗ rise my position；promotion 在商店里是「促销」，看上下文判断。
+@v: surprised | = | adj. | sərˈpraɪzd | 感到意外的；吃惊的 | 事情出乎意料，好事坏事都可以 | I'm surprised.；surprised to hear…；surprised by… | I was surprised to see him at the meeting. | 在会上见到他，我挺意外的。 | 「我很意外」说 I'm surprised；I'm surprising 是「我（这个人）让人意外」。-ed 读 `/d/`，sur 很轻：`/sər/`。
+@v: interested | = | adj. | ˈɪntrəstɪd | 感兴趣的 | 问对方想不想参加、说自己的兴趣 | interested in…；Are you interested?；not interested | I'm interested in cooking. | 我对做饭感兴趣。 | 后面用 in：✗ interested about / on；「我感兴趣」是 I'm interested，不是 ✗ I'm interesting。口语一般读 3 个音节，中间的 e 不发音。
+@v: interesting | = | adj. | ˈɪntrəstɪŋ | 有意思的；让人感兴趣的 | 评价课程、书、想法、新闻 | That sounds interesting.；an interesting idea；really interesting | That's an interesting idea. | 这个想法挺有意思。 | 说事情「有意思」用 -ing；注意美国人用平淡、拖长的语气说 Interesting… 时，有时只是客气，甚至带点怀疑，不一定是真夸。
+@v: bored | = | adj. | bɔːrd | 感到无聊的；发闷的 | 开会、等人、没事做的时候 | I'm bored.；bored with…；get bored | I get bored when I have nothing to do. | 一没事做我就觉得无聊。 | 「我很无聊」说 I'm bored；I'm boring 是「我这个人很无趣」。bored 和 board（木板；登机）读音一样：`/bɔːrd/`。
+@v: confusing | = | adj. | kənˈfjuːzɪŋ | 让人糊涂的；不好懂的 | 图表、说明、规定写得不清楚 | confusing charts；a confusing email；really confusing | The new form is a little confusing. | 新表格有点难懂。 | 说东西「让人看不懂」用 -ing：The chart is confusing.；说人「被搞糊涂了」用 -ed：I'm confused.
+@v: confused | = | adj. | kənˈfjuːzd | 糊涂的；搞不清楚的 | 没听懂、没看懂时说自己的状态 | I'm confused.；confused about…；a little confused | Sorry, I'm a little confused. Can you explain it again? | 抱歉，我有点没搞懂，能再解释一下吗？ | 中文「我有点懵」「我没看懂」，英文最自然的就是 I'm confused；不说 ✗ I'm confusing。-ed 读 `/d/`，不多加音节。
+@v: annoying | = | adj. | əˈnɔɪɪŋ | 烦人的；让人恼火的 | 吐槽噪音、手机响、反复出现的小毛病 | so annoying；an annoying noise；That's annoying. | The printer is broken again. It's so annoying. | 打印机又坏了，真烦人。 | 「我很烦」说 I'm annoyed（-ed）；I'm annoying 是「我这个人很烦人」。
+@v: That's too bad | that's too bad | phr. | ˌðæts tuː ˈbæd | 真糟糕；太遗憾了（回应坏消息） | 听到别人遇到不顺心的事 | That's too bad.；Oh, that's too bad.；Too bad. | You can't come to the party? That's too bad. | 你来不了聚会？太可惜了。 | 这里的 too bad 不是「太坏」，而是「真遗憾」；只说两个词 Too bad. 有时听起来像「那也没办法」，对同事最好说完整的 That's too bad.
+@v: I'm sorry to hear that | = | phr. | aɪm ˌsɑːri tə ˈhɪr ðæt | 听到这个我很难过（表示同情，不是道歉） | 别人说生病、被骂、失败、家里有事 | I'm sorry to hear that.；I'm so sorry to hear about… | I'm sorry to hear about your grandmother. | 听说你奶奶的事，我很难过。 | 这里的 sorry 是「为你难过」，不是「对不起」。别人对你这么说时，回 Thanks. 就好，不要回 It's OK.（那像在原谅对方）。
+
+@diff: -ed 还是 -ing：I'm bored vs It's boring
+@d_cn: 说「人心里的感受」，和说「事情给人的感觉」。
+@d_en: I'm bored. — The meeting is boring. / I'm confused. — The chart is confusing.
+@d_why: 中文「无聊、糊涂、有意思」一个词既能说人，也能说事。英文要分成两个词：**-ed 说人的感受**（我觉得……），**-ing 说事物带给人的感觉**（它让人……）。可以这样记：-ed 是「被影响的人」，-ing 是「产生影响的东西」。
+@d_when: 说自己或别人的心情 → bored / interested / confused / surprised / disappointed / annoyed；评价会议、电影、图表、消息 → boring / interesting / confusing / surprising / disappointing / annoying。
+@d_vs: **I was bored.** 我（觉得）很闷。——人的感受\n**The meeting was boring.** 那个会很无聊。——事情给人的感觉\n**I'm confused.** 我糊涂了。／**The chart is confusing.** 这张图让人看不懂。\n**I'm interested in the class.** 我对这门课感兴趣。／**The class is interesting.** 这门课有意思。
+@d_task: 选 -ed 还是 -ing 说出来：① 这个消息挺让人意外的。② 我很意外。③ 这封邮件真让人看不懂。 | ① The news is surprising. ② I'm surprised. ③ This email is really confusing.
+@diff: 「我好无聊」——I'm bored，千万别说 I'm boring
+@d_cn: 闲得没事干、会开得发闷时，说自己「好无聊」。
+@d_en: I'm bored. / I'm so bored. / I'm bored with this.
+@d_why: 中文「我好无聊」说的是此刻的感受；直译成 I'm boring，意思就变成了「我这个人很乏味、没意思」——你在评价自己的性格。同样，I'm interesting（我这人很有趣）、I'm confusing（我让人糊涂）、I'm annoying（我很烦人）也都在说「你给别人的感觉」。所以说自己的心情，几乎都用 -ed。
+@d_when: 等人、开会、周末没事做时说 I'm bored.；只有想自嘲「我是个无趣的人」时才说 I'm boring.
+@d_vs: ✓ **I'm bored.** 我好无聊（现在很闷）。\n✗ **I'm boring.** 我这个人很没意思。\n✓ **He's boring.** 他这个人很无趣。（评价别人，要小心用）\n✓ **I'm annoyed.** 我很烦。／**He's annoying.** 他很烦人。
+@d_task: 周末朋友发消息问你在干嘛，你想说「在家待着，好无聊啊」。 | I'm at home. I'm so bored.
+@diff: 听到坏消息——That's too bad. / I'm sorry to hear that.（sorry ≠ 道歉）
+@d_cn: 听到别人不顺利、不开心的事，先表示同情和关心。
+@d_en: That's too bad. / I'm sorry to hear that. / Oh no! Are you OK?
+@d_why: 中文听到坏消息常说「啊？那怎么办」「没事没事，别想了」，习惯直接给建议或劝对方别在意；英文习惯**先表达同情**，再关心对方。这里的 sorry 不是「对不起、是我的错」，而是「我为你难过」。很多中国学生以为 I'm sorry 就等于认错，所以不敢用；其实它是最常用的安慰。反过来，别人对你说 I'm sorry to hear that，回 Thanks. 就行。
+@d_when: 同事被骂、生病、考试没过、航班取消；关系很近可以说 Oh no! / That's terrible!；比较正式的场合用 I'm sorry to hear that.
+@d_vs: **A customer shouted at me. — That's too bad. I'm sorry to hear that.**（同情）\n**I passed the exam! — Congratulations! I'm so glad to hear that.**（好消息）\n**Sorry, it's my fault.** 对不起，是我的错。（这才是道歉）
+@d_task: 同事说 My flight was canceled.（航班取消了），你回应一下。 | Oh no, that's too bad. I'm sorry to hear that.
+@diff: 「你怎么了？」——What's wrong?，不说 What's wrong with you?
+@d_cn: 看到对方不开心、表情不对，关心地问一句。
+@d_en: What's wrong? / Is everything OK? / What happened?
+@d_why: 中文「你怎么了？」很自然，直译成 What's wrong with you? 却常常是「你有病吧」「你脑子有问题吗」，语气像在吵架。关心别人只说 **What's wrong?**，或者更客气的 **Is everything OK?**；想知道发生了什么，问 **What happened?** with 后面接「东西」就没问题：What's wrong with the printer?
+@d_when: 看到同事脸色不好、在叹气、眼睛红了；对不太熟的人用 Is everything OK? 更稳妥。
+@d_vs: ✓ **What's wrong?** 怎么了？（关心）\n✓ **Is everything OK?** 还好吗？（更客气）\n✗ **What's wrong with you?** 你有毛病吧？（像吵架）\n✓ **What's wrong with the printer?** 打印机怎么了？（问东西没问题）
+@d_task: 你看到 Kevin 一直盯着电脑叹气，想关心一下他。 | What's wrong, Kevin? / Is everything OK?
+
+@core: What's wrong? | 看到别人不开心时关心地问 | What's wrong? / What happened? / Is everything OK? | 正式：Is everything all right?｜随意：You OK?
+@core: I'm + -ed 形容词. | 说自己的感受 | bored / upset / confused / surprised / disappointed | 正式：I'm a little disappointed with the results.｜随意：I'm so bored.
+@core: It was so + -ing 形容词. | 评价事情给人的感觉 | boring / confusing / interesting / annoying | 正式：The presentation was rather confusing.｜随意：It was so boring!
+@core: That's too bad. I'm sorry to hear that. | 听到坏消息时表示同情 | That's too bad. / Oh no! / That's terrible. | 正式：I'm very sorry to hear that.｜随意：Oh no, that's too bad.
+@core: Congratulations! I'm so glad to hear that. | 听到好消息时祝贺 | Congratulations! / Great news! / Congrats! | 正式：Congratulations on your promotion.｜随意：Congrats! That's awesome!
+@core: How do you feel now? | 关心对方现在的状态 | feel / feel better | 正式：Are you feeling better now?｜随意：Feeling better?
+@core: Are you interested? | 邀请对方参加活动、问有没有兴趣 | interested / interested in the class | 正式：Would you be interested in joining?｜随意：Wanna come?
+
+@pw: bored | bɔːrd | 1 个音节 | -ed 读 `/d/`，不多加音节；和 board 同音，别读成「波-热-德」
+@pw: surprised | sərˈpraɪzd | 2 个音节 sur·PRISED | 重音在后；sur 很轻；结尾 -ed 读 `/d/`
+@pw: disappointed | ˌdɪsəˈpɔɪntɪd | 4 个音节 dis·ap·POINT·ed | t 后面的 -ed 读 `/ɪd/`，多出一个音节
+@pw: interested | ˈɪntrəstɪd | 口语读 3 个音节 IN·tres·ted | 重音在第一个音节，中间的 e 不发音；t 后面的 -ed 读 `/ɪd/`
+@pw: confused | kənˈfjuːzd | 2 个音节 con·FUSED | fu 读 `/fjuː/`，带一个 y 音；-ed 读 `/d/`
+@pw: upset | ʌpˈset | 2 个音节 up·SET | 重音在后，不要读成 UP-set
+@pw: annoying | əˈnɔɪɪŋ | 3 个音节 an·NOY·ing | 开头的 a 读很轻的 `/ə/`；oy 读 `/ɔɪ/`，嘴巴从圆到扁
+@ps: What's **wrong**? | wrong 读重，语调往下降，这是关心的语气；What's 结尾的 `/ts/` 别漏掉。
+@ps: A **cus**tomer was **an**gry with me. / I'm up**set**. | was 弱读成 `/wəz/`，with me 轻轻带过；upset 的重音在 set。
+@ps: That's **too bad**. / I'm **sor**ry to **hear** that. | to 弱读成 `/tə/`；语速放慢、语调往下，听起来才真诚。
+@ps: The meeting was **so bor**ing. / I was **bored**. | boring 和 bored 都读重；结尾 `/ɪŋ/` 和 `/d/` 要让人听得出区别。
+@pnote: -ed 结尾有三种读法：在 t、d 后面读 `/ɪd/`（interested、disappointed，多一个音节）；在 p、k、s、sh 这类清辅音后读 `/t/`（passed、stressed）；其他情况读 `/d/`（bored、surprised、confused）。
+@pnote: 口语里 Congratulations 常缩成 **Congrats!** `/kənˈgræts/`；I'm sorry to hear that 里的 to 只剩 `/tə/`，听起来像 sorry-ta-hear-that。
+@lfocus: bored 和 boring 的结尾：/d/ 还是 /ɪŋ/
+@lfocus: interested、disappointed 结尾多一个 /ɪd/ 音节
+@lfocus: 安慰人时语速慢、语调往下；祝贺时语调高、有劲
+@dict: S3
+@dict: S20
+@res: 在 youglish.com 输入 "I'm sorry to hear that"，选 US，听真人说这句话时的语速和语气。
+
+@mimic: 跟读【C】S2–S9：先用 0.8 倍速逐句跟读，体会安慰人时放慢、放柔的语气；再跟读 S11–S16，模仿 Congratulations! 的兴奋语气；最后由你演林晓、手机朗读其他人的台词，完整对一遍并录音。
+@swap: A customer was angry with me. I'm upset. | 换人和心情：my manager / the seller；sad / disappointed | The seller was angry with me. I'm a little disappointed.
+@swap: That's too bad. I'm sorry to hear that. | 换成对别的坏消息的回应：生病、航班取消 | Oh no, you're sick? That's too bad. I'm sorry to hear that.
+@swap: Congratulations! I'm so glad to hear that. | 换好消息：new job / promotion / passed the test | You got a promotion? Congratulations! I'm so glad to hear that.
+@swap: The meeting was so boring. I was bored. | 换一对 -ing / -ed：movie + interesting / interested；email + confusing / confused | The email was so confusing. I was confused.
+@free: 同事趴在桌上一动不动，你想关心地问一句。 | What's wrong? Is everything OK?
+@free: 吴佳告诉你：My grandma is in the hospital.（她奶奶住院了） | Oh no. I'm sorry to hear that. I hope she gets better soon.
+@free: Kevin 告诉你他下个月要升职了。 | Congratulations! That's great news. I'm so glad to hear that.
+@free: 朋友问你周末看的电影怎么样（很无聊，你从头闷到尾）。 | It was so boring. I was bored the whole time.
+@output: 录 1 分钟「我这一周的心情」：说 3 件事——一件让你开心的（glad / surprised）、一件让你难过或生气的（upset / angry / disappointed）、一件很无聊或让人糊涂的（boring / confusing）。每件事用 -ed 说你的感受，用 -ing 说事情本身。
+@output_sample: This week was busy. On Monday, I passed my English test. I was surprised, and I was really glad. On Wednesday, a seller was angry with me because his package was late. I was upset. On Friday, we had a long meeting. It was so boring, and the charts were confusing. But now it's the weekend, and I'm in a good mood!
+
+@check: 林晓说 The meeting was so boring. I was bored. 为什么一句用 boring、一句用 bored？ | boring 说会议本身给人的感觉；bored 说林晓自己的感受。
+@check: 你想说「我好无聊」，说成 I'm so boring，美国同事会怎么理解？ | 「我这个人太没意思了」。应该说 I'm so bored.
+@check: 吴佳说 A customer was angry with me.，林晓回 I'm sorry to hear that.。林晓是在道歉吗？ | 不是。这里的 sorry 是「为你难过」，表示同情，不是认错。
+@check: 同事看起来不太对劲，你说 What's wrong with you? 合适吗？应该怎么说？ | 不合适，听起来像「你有毛病吧」。说 What's wrong? 或 Is everything OK?
+@check: Kevin 说 I passed my exam!，你怎么回应？如果他说考试没过呢？ | Congratulations! I'm so glad to hear that. / Oh no, that's too bad. I'm sorry to hear that.
+@next1: 不看书说出 S2、S3、S6、S12、S20 五句（锚点句）
+@next1: 用 bored / boring、confused / confusing 各说一对句子
+@next1: 好消息和坏消息各用一句话回应
+@next7: 说出 5 对 -ed / -ing 形容词，各造一个句子
+@next7: What's wrong? 和 What's wrong with you? 的区别

@@ -1,0 +1,155 @@
+@day: 19
+@week: 3
+@title_cn: 一条工作消息
+@title_en: A Quick Message
+@topic: 写简短的工作邮件、回复「收到」、具体地道谢
+@think_short: 「附件是……」= I've attached…｜「收到」≠ Received｜「辛苦了」→ Thanks for…
+
+@goal_scene: 经理让你把每周发货报告发给美国同事：写一封简短自然的邮件，请同事帮你改得不那么生硬，再看懂对方的回复、确认细节。
+@goal_expr: I've attached… / The deadline is… / Please let me know if you have any questions. / Got it, thanks! / Thanks for your help. / as soon as possible
+@goal_vocab: 17 个重点词 + 4 个短语：邮件与附件、文件版本、截止与提醒、语气的正式与随意
+@done: 能写一封 4–6 句的工作邮件：问候 → 附件 → 一句说明 → 结尾 Let me know… → 署名
+@done: 收到消息能回 Got it, thanks!；想说「辛苦了」时，能用 Thanks for… 具体道谢
+@done: 能看出一封邮件太正式还是太随意，并把 The attachment is… / Received. 这类中式说法改自然
+
+@warmup: 周五要不要和我们一起吃晚饭？ | Would you like to join us for dinner on Friday? | D18
+@warmup: 我很想去，可是我周五有课。 | I'd love to, but I have a class on Friday. | D18
+@warmup: 周六怎么样？ | How about Saturday? | D18
+@warmup: 算我一个！ | Count me in! | D18
+@warmup: 我想去逛街，不过还没定。 | I want to go shopping, but I'm not sure. | D16
+@warmup: 我现在正忙，十分钟后再帮你可以吗？ | I'm busy right now. Can I help you in ten minutes? | D15
+
+@scene: 第三周的一天下午，张涛让林晓把每周发货报告发给 Emma。林晓做完报告，认认真真写了一封邮件——结果写得又长又正式，像在给客户写公函。吴佳看了看，帮她改成一封简短、自然的同事邮件。邮件发出去没多久，Emma 就回复了，还请林晓尽快确认一个细节。
+@sp: 人物关系 | 张涛 → 林晓（经理布置任务）；林晓 → Emma（同事，平级、关系友好）；吴佳 → 林晓（入职搭子，帮忙改邮件）
+@sp: 沟通目的 | 把报告发给 Emma，说清楚附件是什么、有问题可以找谁；收到回复后确认细节
+@sp: 已知信息 | Emma 每周都要看这份报告，知道截止时间是周五；她还没看到这周的数据
+@sp: 表达重点 | 简短、友好：Hi Emma → I've attached… → 一句说明 → Let me know if… → Thanks!
+
+@story_title: Episode 19 · "Keep It Short"
+@story_type: 叙述 + 对话 + 邮件
+@s: Tom: Lily, can you send the weekly **shipment** report to Emma? | 张涛：林晓，你能把每周发货报告发给 Emma 吗？
+@s: Tom: The **deadline** is Friday. | 张涛：截止时间是周五。
+@br:
+@s: Lily finishes the report and writes an email. | 林晓做完报告，写了一封邮件。
+@s: But her first draft is long and very **formal**. | 可她的初稿又长又正式。
+@s: Grace: Good start! But Emma is a coworker, not a customer. | 吴佳：开头不错！不过 Emma 是同事，不是客户。
+@s: Grace: Emails to coworkers can be **short** and **casual**. | 吴佳：给同事的邮件可以简短、随意一点。
+@s: Grace helps her **edit** it. She also finds a **typo**. | 吴佳帮她改了改，还发现了一个错别字。
+@s: Grace: And don't forget the **subject**: "Weekly Shipment Report." | 吴佳：还有，别忘了写主题：「每周发货报告」。
+@br:
+@s: Here's the new **version**: | 改好的版本是这样的：
+@s: "Hi Emma, I've **attached** the weekly shipment report." | 「Emma 你好，本周的发货报告在附件里。」
+@s: "It has the **latest** numbers for this week." | 「里面是这周最新的数据。」
+@s: "Please **let me know** if you have any questions." | 「有任何问题请告诉我。」
+@s: "Thanks! Lily" | 「谢谢！林晓」
+@s: Lily adds the **file** and clicks Send. | 林晓加上附件，点了发送。
+@br:
+@s: Ten minutes later, she **receives** a **reply**. | 十分钟后，她收到了回复。
+@s: "**Got it**, thanks! Could you **confirm** the **details** for the Seattle orders?" | 「收到，谢谢！西雅图那几个订单的具体信息，你能确认一下吗？」
+@s: "Mike needs them **as soon as possible**." | 「Mike 那边需要尽快拿到。」
+@s: Lily checks the orders and replies right away. | 林晓核对了那几个订单，马上回了邮件。
+@s: Lily: Grace, this is so much better. **Thanks for** your help. | 林晓：吴佳，这样好多了。谢谢你帮忙！
+@s: Grace: Anytime! | 吴佳：随时找我！
+@s: Then Lily sets a **reminder** for next week's report. | 然后，林晓给下周的报告设了一个提醒。
+
+@v: shipment | = | n. | ˈʃɪpmənt | （一批）货物；发货 | 物流、外贸、跨境电商的高频词 | weekly shipment report；a new shipment；track a shipment | The shipment left Shenzhen on Monday. | 这批货周一从深圳发出了。 | shipment 不只指海运，空运、快递发出的货都可以叫 shipment；「发货报告」说 shipment report，不说 send goods report。
+@v: deadline | = | n. | ˈdedlaɪn | 截止时间；最后期限 | 交报告、交文件、项目节点 | The deadline is…；meet the deadline；miss the deadline | We can't miss the deadline. | 我们不能错过截止时间。 | 「按时完成」说 meet the deadline，不说 catch the deadline；「赶 deadline」说 work on a tight deadline。
+@v: formal | = | adj. | ˈfɔːrml | 正式的 | 说邮件、语气、穿着正式 | a formal email；too formal；formal language | This email is a little too formal. | 这封邮件有点太正式了。 | 中国学习者写英文邮件常常过于正式（Dear…, I am writing to inform you that…）；写给熟悉的同事，太正式反而显得有距离。
+@v: short | = | adj. | ʃɔːrt | 简短的 | 说邮件、消息、会议要简短 | short and simple；keep it short；a short message | Let's keep the meeting short. | 我们把会开得短一点吧。 | 英文工作邮件讲究先说重点、越短越好，不需要中文那样的客套铺垫；「长话短说」= to make a long story short。
+@v: casual | = | adj. | ˈkæʒuəl | 随意的；不拘礼节的 | 说语气、穿着、聚会轻松随意 | a casual message；casual clothes；a casual tone | Our office is pretty casual. | 我们办公室挺随意的。 | casual 不是「随便、不认真」，而是「轻松、不拘束」；casual 的邮件照样要写清楚、没有错字。
+@v: edit | = | v. | ˈedɪt | 修改；编辑 | 修改邮件、文件、报告 | edit a message；edit the report；edit sth for sb | Can you edit my email before I send it? | 我发之前，你能帮我改改邮件吗？ | 「改邮件」用 edit 或 make some changes，不说 change my email（change 是「换掉」）。
+@v: typo | = | n. | ˈtaɪpoʊ | 打字错误；错别字 | 检查邮件、文件里的拼写错误 | a typo；fix a typo；There's a typo in… | Sorry, that was a typo. I meant Friday. | 抱歉，刚才打错了，我是说周五。 | typo 口语、书面都常用；发现自己打错了，补一句 Sorry, typo! 就行，不用长篇道歉。
+@v: subject | = | n. | ˈsʌbdʒɪkt | （邮件的）主题 | 写邮件时填主题行 | subject line；in the subject；change the subject（换个话题） | Please put the order number in the subject line. | 请把订单号写在邮件主题里。 | 主题要短、具体，比如 Weekly Shipment Report – Week 3；不要空着，也不要写成一整句话。
+@v: version | = | n. | ˈvɜːrʒn | 版本 | 文件改了好几次，说新版、旧版、最终版 | the new version；the latest version；the final version | Is this the final version? | 这是最终版吗？ | 「最终版」是 final version；文件名里常写 v2、v3，就是 version 2、version 3。
+@v: attached | attach | v. | əˈtætʃt | 附上（文件） | 邮件里发附件 | I've attached…；attach a file；the attached report | I've attached the photos. Please take a look. | 照片在附件里，请看一下。 | 用 I've attached… 开头，不说 The attachment is…；名词「附件」是 attachment；attached 结尾读 `/t/`。
+@v: latest | = | adj. | ˈleɪtɪst | 最新的 | 最新数据、最新版本、最新消息 | the latest numbers；the latest version；the latest news | Here are the latest numbers from Seattle. | 这是西雅图最新的数据。 | latest 是「最新的」，last 是「最后一个；上一个」，别混：the last version 可能是「上一版」。
+@v: let me know | = | phr. | ˌlet mi ˈnoʊ | 告诉我；跟我说一声 | 邮件结尾；请对方有消息时通知你 | let me know if…；let me know when…；Just let me know! | Let me know when you're free. | 你有空了跟我说一声。 | 「有问题找我」不说 find me，说 let me know；口语里 let me 常连读成 lemme `/ˈlemi/`。
+@v: file | = | n. | faɪl | （电脑）文件 | 邮件附件、电脑里的文件 | attach a file；open the file；an Excel file | I can't open the file. Can you send it again? | 我打不开这个文件，你能再发一次吗？ | 中文「文件」既指电脑文件，也指纸质材料；电脑里的叫 file，纸质的材料常说 document 或 paper。
+@v: receives | receive | v. | rɪˈsiːvz | 收到 | 收到邮件、包裹、付款 | receive an email；receive a package；receive a reply | Did you receive my email? | 你收到我的邮件了吗？ | receive 偏书面，口语更常说 get：Did you get my email?；回复「收到」只写 Received. 很生硬，说 Got it, thanks!
+@v: reply | = | n./v. | rɪˈplaɪ | 回复 | 回邮件、回消息 | a quick reply；reply to sb；Reply All | Thanks for the quick reply! | 谢谢你回复得这么快！ | 作动词要加 to：✗ reply the email → ✓ reply to the email；点 Reply All 之前想想，是不是每个人都需要看。
+@v: Got it | got it | phr. | ˈgɑːt ɪt | 收到；明白了 | 回复同事的消息；确认听懂了安排 | Got it, thanks!；Got it. I'll…；I've got it. | Got it. I'll send it by five. | 明白，我五点前发过去。 | 比 Received. / I have received it. 自然得多；对上级也可以说，后面最好加一句你接下来要做什么。
+@v: confirm | = | v. | kənˈfɜːrm | 确认 | 确认数据、时间、订单、地址 | confirm the details；confirm the time；Can you confirm…? | Can you confirm the meeting time? | 你能确认一下开会时间吗？ | confirm 后面直接接要确认的事，不加 about：✗ confirm about the time → ✓ confirm the time。
+@v: details | detail | n. | ˈdiːteɪlz | 细节；具体信息 | 订单、会议、问题的具体内容 | the details；more details；details about sth | I'll send you the details later. | 具体信息我晚点发给你。 | 说「具体信息」常用复数 details；美国人也常读成 `/dɪˈteɪlz/`，两种都对。
+@v: as soon as possible | = | phr. | əz ˌsuːn əz ˈpɑːsəbl | 尽快 | 请对方尽快回复、处理 | as soon as possible；ASAP；as soon as you can | Please reply as soon as possible. | 请尽快回复。 | 书面常写成 ASAP；对同事用多了显得在催，不急的事可以换成 when you get a chance（你方便的时候）。
+@v: Thanks for | thanks for… | phr. | ˈθæŋks fər | 谢谢你（做了某事） | 具体地感谢别人，代替中文的「辛苦了」 | Thanks for your help.；Thanks for + -ing；Thanks for the quick reply. | Thanks for staying late tonight. | 今晚辛苦你留下来了，谢谢。 | for 后面接名词或 -ing：✗ Thanks for help me. → ✓ Thanks for helping me.
+@v: reminder | = | n. | rɪˈmaɪndər | 提醒；提醒事项 | 手机日程提醒；邮件里提醒对方截止时间 | set a reminder；a quick reminder；a friendly reminder | Just a quick reminder: the meeting is at three. | 提醒一下：会议三点开始。 | 提醒别人要客气：Just a quick reminder… / A friendly reminder…；不说 I remind you…，听起来像在教训人。
+
+@diff: 「附件是……」——I've attached…
+@d_cn: 在邮件、消息里告诉对方：我把文件放在附件里了。
+@d_en: I've attached the weekly shipment report. / Here's the report.
+@d_why: 中文习惯拿「附件」做主语：「附件是本周报告」「附件请查收」。直译成 The attachment is the report. / Please check and receive the attachment. 英文读者会觉得别扭。英文更习惯拿「人」做主语：**I've attached…**（我附上了……）。用 I've（现在完成时），是因为「附上」这个动作刚做完，对方现在就能看到。随意一点，直接说 **Here's the report.**
+@d_when: 工作邮件、消息里发文件；附了好几个文件：I've attached two files.；稍正式一点：Please see the attached report.
+@d_vs: ✗ The attachment is the weekly report. → ✓ **I've attached the weekly report.**\n✗ Please check and receive. → ✓ **Please take a look.**\n**Here's the report.** 报告在这儿。（随意）
+@d_task: 用英文写一句：「附件是新版的培训文件。」 | I've attached the new version of the training document.
+@diff: 「收到」——Got it, thanks!
+@d_cn: 别人发来消息、文件或安排，你回复「收到」。
+@d_en: Got it, thanks! / Thanks, I got it. / Thanks! I'll take a look.
+@d_why: 中文职场回「收到」两个字就够了，干脆又礼貌；可直译成 **Received.**，在英文里像系统自动回复，冷冰冰的。美国同事一般说 **Got it, thanks!**——got it 既是「收到了」，也是「明白了」，后面加 thanks 显得友好。如果对方需要知道你接下来做什么，再加一句：I'll take a look today.
+@d_when: 同事发来文件、通知、会议安排；领导交代任务后回复「好的，收到」→ Got it. I'll do it today.
+@d_vs: ✗ Received. → ✓ **Got it, thanks!**\n**Thanks, I got the file. I'll take a look today.** 文件收到了，谢谢，我今天看。\n**I have received your email.**（写给同事太正式、太长）
+@d_task: 张涛在群里说：「明天的会改到下午三点。」用英文回复「收到」。 | Got it, thanks! / Got it. See you at three.
+@diff: 「有问题随时找我」——Let me know if you have any questions.
+@d_cn: 发完东西，客气地补一句：有什么问题随时告诉我。
+@d_en: Please let me know if you have any questions. / Let me know if you need anything else.
+@d_why: 「有问题随时找我」直译成 If you have any problem, please find me. 有两处不对：problem 在英文里是「麻烦、故障」，这里要的是 **questions**（疑问）；「找我」不是 find me（像「来找到我」），而是 **let me know**（告诉我、跟我说一声）。这句话是英文工作邮件结尾的「标配」，几乎每封邮件都能用。
+@d_when: 发文件、做完一件事、回答完问题之后的结尾；对客户可以更正式：Please feel free to contact me if you have any questions.
+@d_vs: ✗ If you have any problem, please find me. → ✓ **Let me know if you have any questions.**\n**Let me know if you need anything else.** 还需要什么就告诉我。\n**Let me know when you're free.** 你有空了跟我说一声。
+@d_task: 你帮 Kevin 改好了一份文件，发给他时用英文加一句：「如果还要改，告诉我。」 | Let me know if you need any changes.
+@diff: 「辛苦了」——没有直译，说 Thanks for…
+@d_cn: 感谢别人的付出：「辛苦了」「麻烦你了」。
+@d_en: Thanks for your help. / Thanks for doing this. / Thanks for the quick reply.
+@d_why: 「辛苦了」是中文职场的万能感谢，英文没有对应的一句话。直译 You're hard. / You're tired. 意思完全不对；Thank you for your hard work. 语法没错，但偏正式，更像领导表扬下属。美国人的习惯是**具体说出谢什么**：**Thanks for + 名词 / -ing**——Thanks for your help. / Thanks for staying late. / Thanks for the quick reply.
+@d_when: 同事帮你改了邮件 → Thanks for your help.；对方回复得快 → Thanks for the quick reply.；同事加班帮你 → Thanks for staying late.
+@d_vs: ✗ You're hard. / You're tired.（想说「辛苦了」）\n✓ **Thanks for your help.** 谢谢你帮忙。\n✓ **Thanks for the quick reply.** 谢谢你回复得这么快。\n✗ Thanks for help me. → ✓ Thanks for helping me.
+@d_task: Kevin 下班后留下来帮你修好了电脑。用英文表达「辛苦了，谢谢！」 | Thanks for staying late to fix my computer! / Thanks so much for your help!
+
+@core: I've attached + 文件. | 发邮件、消息时附上文件 | the report / the photos / two files | 正式：Please see the attached report.｜随意：Here's the report.
+@core: The deadline is + 时间. | 说明截止时间 | Friday / 5 p.m. today / next Monday | 正式：The deadline for the report is this Friday.｜随意：It's due Friday.
+@core: Got it, thanks! | 回复「收到」 | Got it, thanks! / Thanks, I got it. | 正式：Thank you, I've received the file.｜随意：Got it!
+@core: Please let me know if you have any questions. | 邮件、消息的结尾 | any questions / anything else / any changes | 正式：Please feel free to contact me if you have any questions.｜随意：Any questions, just let me know!
+@core: Thanks for + 名词 / -ing. | 具体地道谢，代替「辛苦了」 | your help / the quick reply / staying late | 正式：Thank you very much for your help.｜随意：Thanks a lot!
+@core: Could you confirm + 事情 + as soon as possible? | 请对方尽快确认 | the details / the time / the address | 正式：Could you please confirm the details at your earliest convenience?｜随意：Can you check this ASAP?
+@core: Just a quick reminder: + 事情. | 客气地提醒别人 | the deadline is Friday / the meeting is at three | 正式：This is a friendly reminder that the report is due on Friday.｜随意：Reminder: report due Friday!
+
+@pw: attach | əˈtætʃ | 2 个音节 a·TTACH | 重音在后；开头 a 很轻 `/ə/`；tach 嘴巴张大 `/æ/`；attached 结尾 -ed 读 `/t/`
+@pw: deadline | ˈdedlaɪn | 2 个音节 DEAD·line | dead 的尾音 d 只做口型，直接接 line，中间不要加「的」
+@pw: version | ˈvɜːrʒn | 2 个音节 VER·sion | v 上牙轻咬下唇；sion 读 `/ʒn/`，不读「迅」
+@pw: typo | ˈtaɪpoʊ | 2 个音节 TY·po | y 读 `/aɪ/`，像「太」；不读「替破」
+@pw: casual | ˈkæʒuəl | 3 个音节 CAS·u·al | s 读 `/ʒ/`（像轻轻的「日」），不读 s；口语常缩成 2 个音节
+@pw: confirm | kənˈfɜːrm | 2 个音节 con·FIRM | 重音在后；con 很轻，firm 卷舌、拉长
+@pw: shipment | ˈʃɪpmənt | 2 个音节 SHIP·ment | sh 嘴唇撅起；p 只闭嘴不爆开，直接接 m
+@ps: I've at**tached** the **week**ly **ship**ment re**port**. | I've 只有一个音节 `/aɪv/`，v 很轻；attached 结尾读 `/t/`，和后面的 the 连着说。
+@ps: Please **let** me **know** / if you have any **ques**tions. | let me 口语常连读成 lemme `/ˈlemi/`；在 know 后面稍停；if、you、any 都读得轻。
+@ps: **Got**‿it, **thanks**! | got it 连读，中间的 t 读成轻轻弹一下的 d：`/ˈgɑːɾɪt/`，听起来像「嘎 dit」。
+@ps: **Thanks** for your **help**. | for 弱读成 `/fər/`，your 弱读成 `/jər/`，重音只落在 thanks 和 help 上。
+@pnote: 书面可以写 I have attached，但口语和邮件里几乎都用 **I've** `/aɪv/`。听的时候 I've 很短，容易漏掉，可正是它告诉你「已经附上了」。
+@pnote: ASAP 有两种读法：一个字母一个字母读 A-S-A-P，或者读成一个词 `/ˈeɪsæp/`，两种美国人都用；写邮件时 ASAP 偏随意，正式邮件写全 as soon as possible。
+@lfocus: I've 只听到短短的 `/aɪv/`
+@lfocus: let me 连读成 lemme
+@lfocus: got it 中间的 t 像轻轻的 d
+@dict: S10
+@dict: S12
+@res: 在 youglish.com 输入 "let me know if you have any questions"，选 US，听这句结尾「标配」在真实语境里怎么读。
+
+@mimic: 跟读【C】全文：先 0.8 倍速逐句跟读，重点模仿 I've attached… 和 Got it, thanks! 的读法；再把 S10–S13 这封邮件当成语音消息，用自然、友好的语气读给「Emma」听，并录音。
+@swap: I've attached the weekly shipment report. | 换文件：the photos / the new price list / two files | I've attached the photos from today's meeting.
+@swap: Please let me know if you have any questions. | 换结尾：anything else / any changes / when you're free | Please let me know if you need any changes.
+@swap: Thanks for your help. | 换成具体要谢的事：the quick reply / staying late / fixing my computer | Thanks for the quick reply!
+@swap: The deadline is Friday. | 换时间，并在前面加一句提醒 | Just a quick reminder: the deadline is 5 p.m. today.
+@free: 吴佳把明天开会要用的资料发给你，你回复「收到，谢谢！」 | Got it, thanks!
+@free: 你要把今天的会议记录发给 Tom，写邮件的第一句。 | Hi Tom, I've attached the notes from today's meeting.
+@free: Kevin 帮你装好了新软件，你发消息感谢他（不要说 You're hard）。 | Thanks for your help with the new software, Kevin!
+@free: 你请一位美国卖家尽快确认收货地址。 | Could you confirm the address as soon as possible?
+@output: 写一封 4–6 句的工作邮件，再大声读一遍、录音：给同事发一个文件 → 一句话说明内容 → 截止时间或提醒 → 结尾 Let me know… → 署名。要求：不用 The attachment is… / Received. / You're hard.；写完检查有没有 typo。
+@output_sample: Subject: Meeting Notes – Monday\nHi Grace,\nI've attached the notes from Monday's meeting. They have the latest numbers from Seattle. Just a quick reminder: the deadline for the shipment report is Friday. Please let me know if you have any questions.\nThanks!\nLily
+
+@check: 林晓的初稿被吴佳说「太正式」。给熟悉的美国同事写邮件，开头用 Dear Emma 还是 Hi Emma？ | Hi Emma。Dear… 用于很正式的信件，或第一次联系的客户；同事之间用 Hi… 就好。
+@check: 「附件是本周的发货报告」英文怎么写？为什么不用 The attachment is…？ | I've attached the weekly shipment report. 英文习惯用「人」做主语，说「我附上了」；The attachment is… 是中式结构，读起来很生硬。
+@check: Emma 回的是 Got it, thanks!。如果她只回 Received.，会给人什么感觉？ | 像系统自动回复，冷冰冰的，没有人情味。
+@check: 同事加班帮你改报告，你想说「辛苦了」，英文怎么说？ | Thanks for your help! / Thanks for staying late to help me.（具体说谢什么，不说 You're hard.）
+@check: latest 和 last 有什么不同？用英文说「这是最新版本」。 | latest = 最新的；last = 最后一个 / 上一个。This is the latest version.
+@next1: 不看书写出 S10–S13 这封邮件
+@next1: 「收到」「有问题随时找我」「辛苦了」各用英文说一句
+@next1: I've attached… / Thanks for… 各造一个句子
+@next7: 写一封 4–6 句的工作邮件：附件 → 内容 → 截止时间 → 结尾
+@next7: 邮件三件「标配」：Got it, thanks! / Let me know if… / Thanks for…

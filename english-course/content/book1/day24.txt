@@ -1,0 +1,153 @@
+@day: 24
+@week: 4
+@title_cn: 规定和建议
+@title_en: Rules and Advice
+@topic: 公司规定、信息安全、给新人的建议
+@think_short: 「必须」口语多用 have to｜「不必」don't have to ≠「不准」must not｜should = 建议｜「你最好」≠ You'd better
+
+@goal_scene: 同事给你讲客服和信息安全的规定：你要听懂哪些是「必须」、哪些「绝对不能」、哪些「不用」、哪些只是「建议」，也能把这些规定讲给新来的人听。
+@goal_expr: You have to… / You must not… / You don't have to… / You should… / You shouldn't… / Make sure you…
+@goal_vocab: 17 个重点词 + 4 个短语：规定与制度、工牌与密码、链接与工单、回复时限
+@done: 能用 have to / must not / don't have to / should 各说一条真实的规定或建议
+@done: 听到 You don't have to… 知道是「不必」，听到 You must not… 知道是「不准」，不再弄反
+@done: 给同事提建议时用 should，不再用带警告语气的 You'd better
+
+@warmup: 我本来打算上午做完的，可是系统宕机了两个小时。 | I was going to finish it this morning, but the system was down for two hours. | D23
+@warmup: 我明天上午发给你可以吗？ | Can I send it to you tomorrow morning? | D23
+@warmup: 样品本来应该今天到的。 | The samples were supposed to arrive today. | D23
+@warmup: 对不起，是我的错。 | Sorry, it's my fault. | D23
+@warmup: 我忘了密码。 | I forgot my password. | D12
+@warmup: 你的账号被锁了，我来重置你的密码。 | Your account is locked. I'll reset your password. | D12
+
+@scene: 周三上午。林晓一早就把客户名单发给了张涛，今天下午他约的客户要来公司（张涛之前就提过）。在电梯口，吴佳发现林晓没戴工牌。到了工位，吴佳又给她讲了回复美国卖家消息的规定；后来 IT 的 Kevin 来检查她的电脑，顺便讲了信息安全的规定。规定很多，林晓要分清：哪些必须做，哪些绝对不能做，哪些不用做，哪些只是建议。
+@sp: 人物关系 | 林晓 ↔ 吴佳（入职搭子，像师姐一样带她）；林晓 ↔ Kevin（IT 支持，话不多但很负责）
+@sp: 沟通目的 | 吴佳和 Kevin 把规定讲清楚；林晓要听懂，并在不确定时提问确认
+@sp: 已知信息 | 林晓知道公司有规定，但不清楚细节；吴佳和 Kevin 很熟悉规定，也知道新人最容易在哪里出错
+@sp: 表达重点 | 必须（have to）→ 不准（must not）→ 不必（don't have to）→ 建议（should / shouldn't）→ 叮嘱（make sure）
+
+@story_title: Episode 24 · "You Have to Wear Your Badge."
+@story_type: 叙述 + 对话
+@s: It's Wednesday. Tom's client is visiting the office today. | 周三，张涛的客户今天要来公司。
+@s: Grace sees Lily at the elevator. | 吴佳在电梯口碰到林晓。
+@s: Grace: Morning, Lily. Where's your **badge**? | 吴佳：早，林晓。你的工牌呢？
+@s: Lily: It's in my bag. | 林晓：在我包里。
+@s: Grace: You **have to** **wear** your badge. That's the **rule**. | 吴佳：工牌必须戴着，这是规定。
+@s: Grace: Our **security** **policy** is very strict, especially on client days. | 吴佳：我们的安全制度很严，有客户来的日子更是这样。
+@br:
+@s: At her desk, Grace explains the rules for customer messages. | 到了工位，吴佳给她讲回复客户消息的规定。
+@s: Grace: You **should** reply to customers **within** 24 hours. | 吴佳：客户的消息，最好在 24 小时内回复。
+@s: Grace: If a message is **urgent**, tell me right away. | 吴佳：如果是急事，马上告诉我。
+@s: Lily: What about weekends? | 林晓：那周末呢？
+@s: Grace: You **don't have to** work on weekends. The weekend team handles those messages. | 吴佳：周末你不用上班，周末值班的同事会处理那些消息。
+@br:
+@s: Later, Kevin comes to check Lily's computer. | 后来，Kevin 过来检查林晓的电脑。
+@s: Kevin: You **must** not **share** your password. Not even with me. | 凯文：你的密码绝对不能告诉别人，连我也不行。
+@s: Lily: OK. I got a **strange** email this morning. It has a **link**. | 林晓：好的。我今天早上收到一封奇怪的邮件，里面有个链接。
+@s: Kevin: Don't click it! You shouldn't click strange links. | 凯文：别点！奇怪的链接都别点。
+@s: Kevin: Just open a **ticket**, and I'll check it. | 凯文：开个工单就行，我来查。
+@s: Lily: Can I save customer files on my phone? | 林晓：我能把客户文件存到手机上吗？
+@s: Kevin: No. Customer data is **private**. We don't **allow** that. | 凯文：不行。客户数据是保密的，公司不允许这么做。
+@s: Kevin: And **make sure** you **log out** before you go home. | 凯文：还有，下班回家前一定要退出登录。
+@s: Lily: Every day? Is that **necessary**? | 林晓：每天都要吗？有这个必要吗？
+@s: Kevin: Yes. If we all **follow** the rules, our data stays safe. | 凯文：有必要。只要大家都遵守规定，我们的数据就安全。
+
+@v: badge | = | n. | bædʒ | 工牌；胸牌 | 进办公楼、刷门禁、有访客的时候 | wear a badge；name badge；visitor badge | Please show your badge at the front desk. | 请在前台出示你的工牌。 | 美国公司把挂在胸前、带名字和照片的工牌叫 badge（很多工牌同时也是门禁卡 key card）；「戴工牌」用 wear，不用 take。
+@v: have to | = | phr. | ˈhæftə | 必须；不得不 | 口头说明规定；说自己必须做的事 | have to go；has to work；had to wait | I have to leave at five today. | 我今天五点得走。 | she / he 用 has to，过去用 had to；读作 `/ˈhæftə/`、`/ˈhæstə/`，不要一个词一个词地读 have-to。
+@v: wear | = | v. | wer | 戴；穿（在身上） | 工牌、口罩、衣服、眼镜 | wear a badge；wear a mask；wear glasses | You don't have to wear a suit here. | 在这里不用穿西装。 | 中文「穿衣服」「戴工牌」「戴眼镜」英文都用 wear（说状态）；put on 是「穿上 / 戴上」这个动作：Put on your badge.
+@v: rule | = | n. | ruːl | 规定；规则 | 说公司、团队的规矩 | follow the rules；That's the rule.；break a rule | It's a new rule. Everyone has to follow it. | 这是新规定，每个人都要遵守。 | 「遵守规定」用 follow the rules；obey the rules 也对，但语气更像对孩子、士兵下命令。
+@v: security | = | n. | sɪˈkjʊrəti | 安全（防盗、防泄密）；安保 | 信息安全、大楼安保 | security policy；IT security；security guard | Call security if you see a stranger in the office. | 在办公室看到陌生人就叫保安。 | security 指防止被偷、被攻击、被泄密的「安全」；人身、用电、消防的「安全」用 safety：safety rules。
+@v: policy | = | n. | ˈpɑːləsi | （公司的）制度；规定；政策 | 公司规定、退货政策、隐私政策 | company policy；security policy；return policy | Sorry, it's company policy. | 抱歉，这是公司的规定。 | 拒绝别人时说 It's company policy. 很常见，比 It's our rule 自然；policy 读 PO·li·cy，不读「破里西」。
+@v: should | = | modal v. | ʃʊd | 应该（建议）；（推测）应该会 | 给建议、提醒好的做法 | You should…；You shouldn't…；Should I…? | You should ask Grace. She knows everything. | 你应该去问吴佳，她什么都知道。 | should 后面接动词原形：✗ should to reply / should replied → ✓ should reply；「本来应该（结果没有）」用 was supposed to（Day 23）。
+@v: within | = | prep. | wɪˈðɪn | 在……之内（不超过一段时间或范围） | 说回复时限、送达时间 | within 24 hours；within a week；within two days | We'll reply within two business days. | 我们会在两个工作日内回复。 | 「24 小时内回复」用 within 24 hours；in 24 hours 常被理解成「24 小时以后」，说时限时容易产生歧义。
+@v: urgent | = | adj. | ˈɜːrdʒənt | 紧急的；急的 | 标记急事、请人优先处理 | an urgent message；It's urgent.；urgent order | Sorry to bother you, but it's urgent. | 抱歉打扰你，但这件事很急。 | 「很急」说 It's urgent.，不说 It's very hurry.；hurry 是动词或名词：I'm in a hurry.
+@v: don't have to | = | phr. | ˌdoʊnt ˈhæftə | 不必；不用 | 告诉对方某事不是必须的 | don't have to worry；doesn't have to；didn't have to | You don't have to print it. Just email it to me. | 不用打印，直接发邮件给我就行。 | 意思是「不必」，不是「不准」！「不准」用 must not / can't；she / he 说 doesn't have to。
+@v: must | = | modal v. | mʌst | 必须（多用于书面规定和强调） | 公司制度、标牌、正式通知 | must not；must be；All staff must… | All visitors must sign in. | 所有访客必须登记。 | 口语说「必须」更常用 have to；must not 是「禁止」，不是「不必」。
+@v: share | = | v. | ʃer | 告诉（别人）；分享；共用 | 说密码、文件、信息能不能给别人 | share a file；share your password；share a desk | Can you share the file with me? | 你能把文件共享给我吗？ | 「和谁分享」要加 with：share it with me；✗ share me the file。
+@v: strange | = | adj. | streɪndʒ | 奇怪的；可疑的 | 可疑邮件、陌生链接、奇怪的声音 | a strange email；strange links；That's strange. | That's strange. The system was fine this morning. | 奇怪，今天上午系统还好好的。 | strange 是「奇怪的」；「陌生人」是 stranger，不说 strange people。
+@v: link | = | n. | lɪŋk | 链接 | 邮件、消息、网页里的链接 | click a link；send sb a link；the link below | Can you send me the link? | 你能把链接发给我吗？ | 「点链接」最常说 click (on) the link；link 结尾的 /k/ 要发出来，不读成「林」。
+@v: ticket | = | n. | ˈtɪkɪt | （IT）工单；问题单 | 向 IT 报问题、申请权限 | open a ticket；IT ticket；submit a ticket | I opened a ticket for my printer problem. | 我为打印机的问题开了一个工单。 | ticket 最常见的意思是「票」；在公司里 IT ticket 是「工单」，「提交工单」说 open / submit a ticket。
+@v: private | = | adj. | ˈpraɪvət | 保密的；私人的 | 客户信息、个人信息、私人谈话 | private information；keep sth private；a private room | Please keep this private. | 这件事请保密。 | 「隐私」是名词 privacy；「这是我的隐私」说 That's private.，不说 That's my privacy.
+@v: allow | = | v. | əˈlaʊ | 允许 | 说规定允许或不允许什么 | allow sb to…；be not allowed；Is it allowed? | We don't allow food in the meeting room. | 会议室不允许带食物。 | 「不允许」口语常用被动：You're not allowed to…；allow 后面接人再接 to do：allow you to use it。
+@v: make sure | = | phr. | ˌmeɪk ˈʃʊr | 一定要；确保 | 叮嘱别人别忘了；自己再确认一下 | make sure you…；make sure (that)…；Let me make sure. | Make sure you save the file. | 一定要记得保存文件。 | 「我确定 / 我肯定」是 I'm sure；「确保、一定要做到」是 make sure，两个别混。
+@v: log out | = | phr. | ˌlɔːg ˈaʊt | 退出登录 | 下班、离开电脑、用完公用电脑之后 | log out of the system；log out of your account | Don't forget to log out of your email. | 别忘了退出邮箱。 | 和 log in（Day 12）相反；「退出某个系统」用 log out of…；名词写成一个词 logout。
+@v: necessary | = | adj. | ˈnesəseri | 必要的；必须的 | 问某事有没有必要；说没必要 | Is that necessary?；if necessary；not necessary | It's not necessary to print the email. | 没必要把邮件打印出来。 | 主语一般是 it / that：It's necessary to…；✗ I'm necessary to… 不对。
+@v: follow | = | v. | ˈfɑːloʊ | 遵守（规定）；按照（步骤）；跟着 | 遵守规定、按步骤操作 | follow the rules；follow the steps；follow me | Please follow the steps on the screen. | 请按屏幕上的步骤操作。 | 「遵守规定」= follow the rules，不说 keep the rules；follow up（跟进）是另一个短语（Day 29）。
+
+@diff: 「必须」——口语多用 have to
+@d_cn: 表达「必须做」：规定、要求，没有选择。
+@d_en: You have to wear your badge. / All staff must wear badges.（书面规定）
+@d_why: 中国学生课本里先学 must，所以一说「必须」就是 must。但美国人日常说话更常用 **have to**：它只是说明「这是规定 / 情况要求这样」，语气平和。**must** 更正式、更强硬，多出现在书面规定、标牌、员工手册里；当面对同事说 You must…，有点像在下命令。说自己「不得不」也用 have to：I have to go.
+@d_when: 口头告诉同事规定 → You have to…；写在制度、通知、标牌上 → must；说自己必须做的事 → I have to…
+@d_vs: **You have to wear your badge.** 工牌必须戴着。（口头说明规定）\n**Visitors must sign in at the front desk.** 访客必须在前台登记。（书面）\n**I have to go. I have a meeting.** 我得走了，有个会。\n**She has to work late.** 她得加班。（she / he 用 has to）
+@d_task: 用口语告诉新同事：「每周五必须把发货报告发给 Emma。」 | You have to send the shipment report to Emma every Friday.
+@diff: 「不必」don't have to ≠「不准」must not
+@d_cn: 「不用、不必」= 可以不做，做也行；「不准、绝对不能」= 禁止。
+@d_en: You don't have to work on weekends. / You must not share your password.
+@d_why: 中文「必须」的否定有两个：「不必」和「不准」，意思差得很远。很多人以为 don't have to 就是 have to 的反面「不能做」，结果把「周末不用上班」听成了「周末不准上班」。记住：**don't have to = 没有必要**（选择权在你）；**must not / mustn't = 禁止**（没有选择）。口语里说「不准」，美国人也常用 **can't** 或直接说 **Don't…**
+@d_when: 告诉别人「不用麻烦」「不是必须的」→ don't have to；说规定禁止的事 → must not（书面、强调）/ can't / Don't…（口语）
+@d_vs: **You don't have to work on weekends.** 周末不用上班。（想来也行）\n**You must not share your password.** 不准把密码告诉别人。\n**You can't save customer files on your phone.** 不能把客户文件存到手机里。（口语的「不准」）
+@d_task: 用英文说：① 你不用打印这份文件。② 你不准把客户的电话号码告诉别人。 | ① You don't have to print this file. ② You must not share customers' phone numbers.
+@diff: should = 建议（语气比 have to 软）
+@d_cn: 中文「应该」常见两个意思：①建议：你应该早点回复；②推测：包裹应该到了。
+@d_en: You should reply within 24 hours. / It should be there by now.
+@d_why: **should** 最常用来给建议：「这样做比较好」，语气比 have to 软得多——不是硬性规定，是经验和提醒。should 也能表示推测（It should be there by now. 现在应该到了），但「本来应该（结果没有）」要用 Day 23 的 **was supposed to**。还有一点：中国学生说「你应该……」时爱加重语气，用 must 或 have to，听起来像在训人；给同事建议，should 就够了，想更客气可以说 Maybe you should…
+@d_when: 给新人建议、提醒好的做法 → You should… / You shouldn't…；根据经验推测 → It should arrive today.
+@d_vs: **You should reply to customers within 24 hours.** 最好在 24 小时内回复客户。（建议）\n**You shouldn't click strange links.** 奇怪的链接最好别点。\n**The package should be there by now.** 包裹现在应该到了。（推测）\n**It was supposed to arrive yesterday.** 本来应该昨天到。（结果没到）
+@d_task: 用 should / shouldn't 给新同事两条建议：早点到公司；别把咖啡放在电脑旁边。 | You should come in a little early. You shouldn't put your coffee next to your computer.
+@diff: 「你最好……」≠ You'd better
+@d_cn: 中文「你最好……」很多时候只是客气的建议。
+@d_en: You should… / It's a good idea to… / You'd better…（带警告：不这样就有麻烦）
+@d_why: 课本把 had better 翻成「最好」，于是很多人拿它来客气地提建议：You'd better try this restaurant. 可是在美国人听来，**You'd better…** 是「你最好……，不然有你好受的」，带着提醒加警告、甚至上级对下级的味道。普通建议用 **should** 或 **It's a good idea to…**；只有真有后果（迟到、被罚、出问题）时才用 had better，而且更多用来说自己：**I'd better go.**
+@d_when: 说自己得赶紧做某事：I'd better go. My meeting starts in five minutes.；明确提醒对方有后果：You'd better wear your badge, or you can't get in.
+@d_vs: **You should try the beef noodles.** 你可以尝尝牛肉面。（友好推荐）\n**You'd better try the beef noodles.** 你最好给我尝尝牛肉面。（很怪，像在威胁）\n**I'd better go now.** 我得赶紧走了。（说自己，很自然）
+@d_task: 同事周末想去爬山，你推荐他去梧桐山（Wutong Mountain）。用 should 还是 had better？说出来。 | You should go to Wutong Mountain. The view is amazing.（用 should：这是友好推荐，没有警告的意思）
+
+@core: You have to + 动作. | 口头说明规定、要求 | wear your badge / log out / reply in English | 正式：All employees are required to wear their badges.｜随意：You've got to wear your badge.
+@core: You must not + 动作. | 强调禁止（规定、安全） | share your password / save files on your phone | 正式：Employees must not share their passwords.｜随意：Never share your password.
+@core: You don't have to + 动作. | 告诉对方不必做 | work on weekends / print it / come in early | 正式：It isn't necessary to come in on weekends.｜随意：No need to come in on weekends.
+@core: You should / shouldn't + 动作. | 给建议、提醒好的做法 | reply within 24 hours / click strange links | 正式：We recommend replying within 24 hours.｜随意：Maybe reply the same day.
+@core: Make sure you + 动作. | 叮嘱对方一定别忘了 | log out / lock your screen / double-check the address | 正式：Please make sure that you log out.｜随意：Don't forget to log out.
+@core: Do I have to…? / Is that necessary? | 问某件事是不是必须做 | Do I have to / Do I need to | 正式：Is it necessary for me to attend?｜随意：Do I really have to?
+@core: We don't allow… / You're not allowed to… | 说公司不允许的事 | that / food in the meeting room / personal apps | 正式：Personal devices are not allowed in this area.｜随意：You can't do that here.
+
+@pw: security | sɪˈkjʊrəti | 4 个音节 se·CU·ri·ty | 重音在 cu `/ˈkjʊr/`；结尾 -ty 的 t 常弹成轻轻的 d：se-CUR-a-dee
+@pw: policy | ˈpɑːləsi | 3 个音节 PO·li·cy | po 嘴巴张大发 /ɑː/；中间 li 读得很轻 `/lə/`
+@pw: necessary | ˈnesəseri | 4 个音节 NE·ces·sar·y | 重音在第一个音节；美式结尾 -sary 读 `/seri/`，比英式清楚
+@pw: urgent | ˈɜːrdʒənt | 2 个音节 UR·gent | ur 卷舌拖长；g 读 `/dʒ/`（像「知」）
+@pw: private | ˈpraɪvət | 2 个音节 PRI·vate | 结尾 -vate 读 `/vət/`，不读 `/veɪt/`
+@pw: allow | əˈlaʊ | 2 个音节 a·LLOW | ow 读 `/aʊ/`（像「凹」），不读 `/oʊ/`
+@pw: badge | bædʒ | 1 个音节 | a 嘴巴张大发 /æ/；结尾 dge `/dʒ/` 收住，不要加「之」
+@ps: You **have to wear** your **badge**. | have to 读 `/ˈhæftə/`：v 受后面 t 的影响变成 /f/，to 弱读成 /tə/，听起来像 hafta wear。
+@ps: You **must** not **share** your **pass**word. | 强调禁止时 must not 分开读、语气坚决；缩写 mustn't 读 `/ˈmʌsnt/`，中间的 t 不发音，只在结尾有个 t。
+@ps: You should re**ply** to **cus**tomers / with**in** twenty-four **hours**. | should 在句中常弱读成 `/ʃəd/`，l 永远不发音；customers 后面稍停。
+@ps: You **don't** have to **work** on **week**ends. | don't 一定要读重——它决定意思是「不用」；have to 照样读 `/ˈhæftə/`。
+@pnote: have to 读 `/ˈhæftə/`，has to 读 `/ˈhæstə/`：She has to work late. 听起来像 she hasta work late。这两个读法在美剧和会议里天天听到，要能马上反应过来。
+@pnote: 书面规定常写 must not；口语里美国人很少说 mustn't，更多说 can't / Don't… / You're not allowed to… 听到 mustn't `/ˈmʌsnt/` 要能认出来：中间的 t 不发音。
+@lfocus: have to → hafta；has to → hasta
+@lfocus: don't have to 里 don't 读得重
+@lfocus: should 弱读 `/ʃəd/`，shouldn't 结尾的 t 很轻
+@dict: S8
+@dict: S13
+@res: 在 youglish.com 输入 "have to"，选 US，听 hafta 在真实对话里的读法。
+
+@mimic: 跟读【C】S3–S21：先 0.8 倍速逐句跟读，重点模仿 have to 的 hafta 读法和 don't 的重读；再由你演林晓、手机朗读吴佳和 Kevin 的台词，完整对一遍并录音。
+@swap: You have to wear your badge. | 换成你公司或学校的规定：log out every day / reply in English / lock your screen | You have to log out every day.
+@swap: You don't have to work on weekends. | 换「不必做」的事：print the report / come in early / wear a suit | You don't have to print the report.
+@swap: You should reply to customers within 24 hours. | 换建议：double-check the address / ask Grace / save your work | You should double-check the address before you send it.
+@swap: You shouldn't click strange links. | 换「最好别做」的事：skip lunch / stay too late / drink coffee at night | You shouldn't skip lunch.
+@free: 新同事问：Do I have to come in on Saturday?（不用，周末不上班） | No, you don't have to. We don't work on weekends.
+@free: 新同事想把自己的密码告诉朋友，让朋友帮他登录系统。你提醒他：绝对不行，这是公司的安全制度。 | You must not share your password. That's our security policy.
+@free: 同事问你，一封奇怪邮件里的链接能不能点。你建议他别点，开个工单让 Kevin 查。 | You shouldn't click it. Just open a ticket, and Kevin will check it.
+@free: 给新来的实习生两条建议：24 小时内回复客户；下班前一定要退出登录。 | You should reply to customers within 24 hours. And make sure you log out before you go home.
+@output: 录 1 分钟「给新同事讲规定」：用 have to / must not / don't have to / should / shouldn't / make sure 各说一句，讲你公司（或学校、家里）的真实规定。
+@output_sample: Welcome to the team! Here are a few rules. First, you have to wear your badge in the office. You must not share your password with anyone. You don't have to work on weekends, but you should reply to customers within 24 hours. You shouldn't click strange links in emails. If something looks strange, open a ticket. And make sure you log out before you go home.
+
+@check: 吴佳说 You don't have to work on weekends. 林晓周末想来公司把工作做完，算不算违反规定？ | 不算。don't have to 是「不必」，不是「不准」；她想来也可以。
+@check: Kevin 为什么说 You must not share your password，而不是 You don't have to share your password？ | don't have to 是「不必」，听起来好像分享也可以；must not 才是「禁止」。
+@check: 你想推荐同事去楼下的面馆，说 You'd better try the noodles downstairs. 有什么问题？ | had better 带警告语气（不这样就有麻烦），像在下命令。友好推荐用 You should try…
+@check: 「她每天都得写报告」用 have to 怎么说？has to 怎么读？ | She has to write a report every day.；has to 读 `/ˈhæstə/`。
+@check: 包裹昨天就从洛杉矶发出了，你推测今天应该到了。用英文怎么说？ | It should be there today. / It should arrive today.（这里的 should 是推测）
+@next1: 不看书说出 S5、S11、S13、S15
+@next1: 用 have to / don't have to / must not 各说一条你公司或学校的规定
+@next7: don't have to 和 must not 的区别，各举一例
+@next7: should 的两种用法：建议 / 推测；以及为什么不随便说 You'd better

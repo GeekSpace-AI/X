@@ -1,0 +1,155 @@
+@day: 18
+@week: 3
+@title_cn: 邀请与拒绝
+@title_en: Invitations
+@topic: 邀请、接受、委婉拒绝、改时间
+@think_short: Would you like to…? 比 Do you want to…? 礼貌｜拒绝不只说 No：I'd love to, but…｜「算我一个」Count me in
+
+@goal_scene: Emma 过生日，邀请同事周五一起吃晚饭；你周五有课，要先表达谢意和心意、再委婉拒绝，接着主动提议另一个时间，最后爽快答应。
+@goal_expr: Would you like to…? / I'd love to, but… / Maybe next time. / How about…? / Are you free on…? / Count me in!
+@goal_vocab: 17 个重点词 + 5 个短语：生日与聚会、星期与时间、邀请、接受与拒绝
+@done: 能用 Would you like to…? 礼貌地邀请别人，并知道什么时候可以用 Do you want to…?
+@done: 去不了的时候，能用「I'd love to, but + 原因 + 另一个选择」委婉拒绝，不再只说 No / I can't
+@done: 别人邀请你，能马上用 I'd love to! / Count me in! 接受，不说 Yes, I would like.
+
+@warmup: 您好，这里是 SwiftLink，我是林晓。有什么可以帮您？ | Hello, SwiftLink. This is Lily speaking. How can I help you? | D17
+@warmup: 她在开会。要我帮您留个言吗？ | She's in a meeting. Can I take a message? | D17
+@warmup: 请稍等。 | Hold on, please. | D17
+@warmup: 请让她给我回个电话。 | Please ask her to call me back. | D17
+@warmup: 能帮我个忙吗？ | Could you do me a favor? | D15
+@warmup: 我能借一下你的充电器吗？ | Can I borrow your charger? | D15
+
+@scene: 第三周的一天中午，Emma 在办公室里宣布：这周五是她的生日，她想请大家去一家川菜馆吃晚饭。可林晓每周五晚上都有英语课。她很想去，又不能不去上课，更不想让 Emma 觉得自己被生硬地拒绝了。
+@sp: 人物关系 | Emma → 林晓、吴佳：关系友好的同事，Emma 是邀请人；吴佳是林晓的入职搭子，两人很熟
+@sp: 沟通目的 | Emma：正式邀请大家来吃生日晚饭；林晓：表达感谢和想去的心意，委婉拒绝周五，再提议换一天
+@sp: 已知信息 | Emma 不知道林晓周五有课，也不知道吴佳周五有事；林晓知道 Emma 爱吃辣
+@sp: 表达重点 | 感谢邀请 → 我很想去（I'd love to）→ 但是有原因（but…）→ 提议另一个时间（How about…?）→ 爽快答应（Count me in!）
+
+@story_title: Episode 18 · "I'd Love to, But…"
+@story_type: 叙述 + 对话
+@s: Friday is Emma's **birthday**, and she wants to **celebrate** with the team. | 周五是 Emma 的生日，她想和团队一起庆祝一下。
+@s: She **loves** spicy food, so she picks a Sichuan **restaurant**. | 她爱吃辣，所以挑了一家川菜馆。
+@br:
+@s: Emma: Lily, I'm having a small birthday **party**. | Emma：林晓，我想办个小小的生日聚会。
+@s: Emma: **Would you like to** **join** us for **dinner** on Friday? | Emma：周五要不要和我们一起吃晚饭？
+@s: Lily: Oh, thank you for **inviting** me! | 林晓：哇，谢谢你邀请我！
+@s: Lily: **I'd love to**, but I have a **class** on Friday. | 林晓：我很想去，可是我周五有课。
+@s: Lily: It's my English class. **Unfortunately**, I can't skip it. | 林晓：是英语课。很遗憾，这课我不能不去。
+@s: Emma: That's OK. **Maybe next time**. | Emma：没关系，那就下次吧。
+@br:
+@s: Then Grace and Kevin say they're busy on Friday, too. | 接着吴佳和李凯也说他们周五有事。
+@s: Emma: Hmm. Maybe I should just **cancel** it. | Emma：嗯……要不干脆取消算了。
+@s: Lily: Don't cancel! **How about** **Saturday**? | 林晓：别取消呀！周六怎么样？
+@s: Emma: Good idea! Let's have dinner on Saturday **instead**. | Emma：好主意！那就改到周六吃。
+@s: Grace: Saturday works for me. **Sunday** doesn't. | 吴佳：周六我可以，周日就不行了。
+@s: Emma: Lily, are you **free** on Saturday? | Emma：林晓，你周六有空吗？
+@s: Lily: Yes! **Count me in**! | 林晓：有空！算我一个！
+@s: Kevin: Me too! | 李凯：我也去！
+@br:
+@s: After work, Grace has an idea. | 下班后，吴佳想到一个主意。
+@s: Grace: Do you want to get Emma a **gift** **together**? | 吴佳：要不要我们俩一起给 Emma 买份礼物？
+@s: Lily: Sure! How about some Hunan chili sauce? | 林晓：好啊！送她湖南的辣椒酱怎么样？
+@s: Grace: Great idea! She'll love it. | 吴佳：好主意！她肯定喜欢。
+
+@v: birthday | = | n. | ˈbɜːrθdeɪ | 生日 | 同事过生日、送祝福、办聚会 | birthday party；birthday dinner；Happy birthday! | When is your birthday? | 你生日是哪天？ | 可以问美国同事 When's your birthday?，但别追问 How old are you?——在美国问成年人年龄很冒犯；th 是咬舌音 `/θ/`，不读 s。
+@v: celebrate | = | v. | ˈseləbreɪt | 庆祝 | 生日、项目完成、节日 | celebrate a birthday；celebrate with sb；Let's celebrate! | We finished the project. Let's celebrate! | 项目做完了，我们庆祝一下吧！ | celebrate 后面直接接要庆祝的事：✗ celebrate for her birthday → ✓ celebrate her birthday。
+@v: loves | love | v. | lʌvz | 非常喜欢；热爱 | 说很喜欢某种食物、活动、东西 | love + 名词；love doing sth；I love it! | My parents love Sichuan food. | 我爸妈特别爱吃川菜。 | 中文「爱」听起来很重，很多人不敢用；其实美国人说 I love this coffee. / I love your idea. 很平常，就是「很喜欢」。
+@v: restaurant | = | n. | ˈrestərɑːnt | 餐厅；饭馆 | 约饭、推荐餐厅 | a Sichuan restaurant；go to a restaurant；a restaurant near the office | Do you know a good restaurant near here? | 你知道这附近有什么好吃的餐厅吗？ | 重音在第一个音节 RES；拼写容易漏掉中间的 au。
+@v: party | = | n. | ˈpɑːrti | 聚会 | 生日聚会、团队聚餐、节日聚会 | birthday party；have a party；a small party | We're having a small party for Kevin. | 我们要给 Kevin 办个小聚会。 | 英文 party 不一定是大派对，几个人吃顿饭也可以叫 party；「办聚会」说 have a party，不说 open a party。
+@v: Would you like to | would you like to…? | phr. | ˌwʊdʒə ˈlaɪk tə | 你想不想……？要不要……？（礼貌邀请） | 邀请同事、客户参加活动 | Would you like to join us?；Would you like to come?；Would you like some tea? | Would you like to have lunch with us? | 你要不要和我们一起吃午饭？ | 回答不能说 Yes, I would like.；自然的回答是 I'd love to! / Sure! 或 I'd love to, but…
+@v: join | = | v. | dʒɔɪn | 加入；和（别人）一起（做某事） | 邀请别人一起吃饭、开会、参加活动 | join us；join the team；join a meeting | Can you join the meeting at three? | 你三点能来参加会议吗？ | join 后面直接接人或活动，不加 with：✗ join with us → ✓ join us。
+@v: dinner | = | n. | ˈdɪnər | 晚饭；正餐 | 约晚饭、请客吃饭 | have dinner；dinner with sb；a birthday dinner | Let's have dinner after work. | 下班后一起吃晚饭吧。 | 三餐前一般不加 a / the：✗ have a dinner → ✓ have dinner；前面有形容词时才加：a nice dinner。
+@v: inviting | invite | v. | ɪnˈvaɪtɪŋ | 邀请 | 请别人参加聚会、会议、活动 | invite sb to…；Thanks for inviting me.；invite sb for dinner | Thanks for inviting me to the meeting. | 谢谢你邀请我参加这个会。 | invite 只是「邀请」，不一定是「请客付钱」：「我请客」说 It's on me. / My treat.
+@v: I'd love to | = | phr. | ˌaɪd ˈlʌv tə | 我很想（去 / 做） | 热情地接受邀请；或先表态再拒绝 | I'd love to!；I'd love to, but…；I'd love to come. | I'd love to come. What time? | 我很想去！几点？ | I'd love to（我很想）和 I love to（我一向很爱）不一样；拒绝时先说 I'd love to, but…，对方听着舒服得多。
+@v: class | = | n. | klæs | 课；（一节）课 | 说自己下班后上课、参加培训 | have a class；English class；take a class | I have a yoga class on Tuesday nights. | 我每周二晚上有瑜伽课。 | 「我有课」说 I have a class；「下课后」说 after class，不说 down class；class 的 a 读 `/æ/`，嘴巴张大。
+@v: Unfortunately | unfortunately | adv. | ʌnˈfɔːrtʃənətli | 很遗憾；不巧 | 礼貌地说坏消息、拒绝 | Unfortunately, I can't…；but unfortunately…；Unfortunately, no. | Unfortunately, Tom is out of the office today. | 不巧，Tom 今天不在公司。 | 中文「不好意思」「可惜」很多时候就是 unfortunately；不要每个坏消息都用 Sorry 开头，Sorry 太多听起来像在认错。
+@v: Maybe next time | maybe next time | phr. | ˌmeɪbi ˌnekst ˈtaɪm | 下次吧；改天吧 | 拒绝邀请时留余地；回应别人的拒绝 | Maybe next time.；Next time, then.；Let's do it another time. | That's OK. Maybe next time! | 没关系，下次吧！ | 和中文「改天吧」一样常是客气话，不等于约好了；真想约要给具体时间：How about next Friday?
+@v: cancel | = | v. | ˈkænsl | 取消 | 取消会议、聚餐、订单、计划 | cancel the meeting；cancel an order；cancel plans | Sorry, I have to cancel our meeting. | 抱歉，我得取消我们的会。 | 「取消」不说 delete（删除）；美式过去式 canceled 只有一个 l，英式写 cancelled。
+@v: How about | how about…? | phr. | ˌhaʊ əˈbaʊt | ……怎么样？（提建议） | 建议另一个时间、地点或选择 | How about Saturday?；How about + -ing？；How about this one? | How about meeting at two instead? | 改成两点见面怎么样？ | How about 后面接名词或 -ing：✗ How about go? → ✓ How about going?
+@v: Saturday | = | n. | ˈsætərdeɪ | 星期六 | 约周末活动 | on Saturday；this Saturday；Saturday night | Are you free this Saturday? | 你这周六有空吗？ | 某一天前用 on：on Saturday；this / next Saturday 前不加 on。中间的 t 美式读成轻轻弹一下的 d。
+@v: instead | = | adv. | ɪnˈsted | 改为；换成 | 改时间、换选择 | …instead.；instead of…；Let's do Saturday instead. | I don't drink coffee. I'll have tea instead. | 我不喝咖啡，给我杯茶吧。 | 单独用时放句尾；后面接东西要加 of：instead of Friday。中文「改成……」「换成……」常常就是 … instead。
+@v: Sunday | = | n. | ˈsʌndeɪ | 星期日 | 说周末安排 | on Sunday；Sunday morning；every Sunday | I usually visit my parents on Sunday. | 我一般周日去看爸妈。 | 星期几首字母永远大写：✗ sunday；美国的日历和很多软件一周从 Sunday 开始，看日程时别看错列。
+@v: free | = | adj. | friː | 有空的 | 约人时问对方有没有空 | Are you free…?；free on Saturday；free time | Are you free for a quick call? | 你有空打个简短的电话吗？ | 「我有空」说 I'm free，不说 I have free；free 还有「免费」的意思，Is it free? 要看语境。
+@v: Count me in | count me in | phr. | ˌkaʊnt mi ˈɪn | 算我一个 | 爽快地答应参加活动 | Count me in!；Count me in, too.；Count me out.（别算我） | Team lunch on Friday? Count me in! | 周五团队午饭？算我一个！ | 很口语，适合同事、朋友之间；对客户或正式邀请说 I'd be happy to join.；不去就说 Count me out.
+@v: gift | = | n. | gɪft | 礼物 | 生日、节日、送客户礼物 | a birthday gift；buy sb a gift；gift card | This is a small gift for you. | 这是给你的一点小礼物。 | gift 和 present 都可以；美国人收到礼物通常当面打开、马上道谢，不像中国习惯先收起来。
+@v: together | = | adv. | təˈgeðər | 一起 | 约人一起做事 | work together；go together；get together（聚一聚） | Let's go together after work. | 下班后一起去吧。 | together 一般放在动作后面：✓ Let's eat together.，不说 Let's together eat.
+
+@diff: 「你想不想……？」——Do you want to…? 还是 Would you like to…?
+@d_cn: 邀请别人一起做某事，问对方愿不愿意。
+@d_en: Would you like to join us for dinner? / Do you want to get lunch?
+@d_why: 中文「你想不想……」「要不要……」对谁都能说；英文里 **Do you want to…?** 很直接，熟人之间随便用（口语里常读成 wanna）；**Would you like to…?** 用 would 把语气放软，是礼貌、正式的邀请。中国学习者常把 want 用在所有场合，对客户说 Do you want to…? 会显得太随便，有时甚至像在问「你到底想不想」。
+@d_when: 对不太熟的同事、客户、上级，或者正式请人参加活动 → Would you like to…?；和好朋友随口商量 → Do you want to…? 拿不准的时候，用 Would you like to 永远不会错。
+@d_vs: **Would you like to join us for dinner?** 要不要和我们一起吃晚饭？（礼貌邀请）\n**Do you want to grab lunch?** 一起去吃个午饭？（熟人之间）\n回答：**I'd love to!** / **Sure!**　✗ Yes, I would like.
+@d_task: 分别用英文说：① 邀请来访的美国客户周三和你们一起吃午饭。② 问好朋友吴佳下班后要不要去喝奶茶。 | ① Would you like to have lunch with us on Wednesday? ② Do you want to get bubble tea after work?
+@diff: 拒绝邀请，不要只说 No / I can't
+@d_cn: 想去但去不了，要拒绝对方的邀请。
+@d_en: I'd love to, but I have a class on Friday. / Thanks for asking, but I'm busy that night. How about Saturday?
+@d_why: 中文拒绝常常很含蓄：「哎呀，那天可能不太方便……」。可一到英文，很多人又走到另一个极端，只说一句 **No.** 或 **I can't.**——在英文里这显得很冷，像对邀请本身没兴趣。美国人拒绝有个固定的「三明治」：**先表态（I'd love to / Thanks for asking）→ but + 简短原因 → 给另一个选择（How about…? / Maybe next time）**。原因一句话就够，不用解释得太详细。
+@d_when: 同事约饭、聚会、周末活动，你去不了的时候；对客户或上级，可以把开头换成 Thank you so much for inviting me, but…
+@d_vs: ✗ No. / I can't. / I have no time.\n✓ **I'd love to, but I have a class on Friday. How about Saturday?**\n✓ **Thanks for asking, but I'm busy that night. Maybe next time.**
+@d_task: 吴佳约你周日去爬山，可你那天要去看爸妈。用英文委婉拒绝，并提议改到下周日。 | I'd love to, but I'm visiting my parents on Sunday. How about next Sunday?
+@diff: 「改天吧」「没关系」——Maybe next time. / That's OK.
+@d_cn: 这次去不了，或者对方这次来不了，留个余地：下次再说。
+@d_en: Maybe next time. / Next time, then! / Let's do it another time.
+@d_why: 中文「改天吧」「下次再约」常常是客气话；英文的 **Maybe next time** 也一样，自己拒绝时可以说，别人拒绝你时也可以用来回应。但如果你真心想再约，美国人会马上给一个具体时间（How about next Friday?），否则对方会把它当成客气话。另外，回应别人的拒绝时，「没关系」不要说 **It doesn't matter.**——它听起来像「无所谓、我不在乎」；说 **That's OK.** / **No problem.** 更友好。
+@d_when: 拒绝邀请时收尾；别人拒绝了你，回应「没关系，下次吧」；真心想约 → 直接给出时间。
+@d_vs: **That's OK. Maybe next time.** 没关系，下次吧。\n**Let's do it another time. How about next week?** 改天吧，下周怎么样？（真心想约）\n✗ It doesn't matter. → ✓ That's OK. / No problem.
+@d_task: 你邀请 Kevin 周五去唱 K，他说那天要加班。用英文回应：「没关系，下次吧！」 | That's OK. Maybe next time! / No problem. Next time, then!
+@diff: 「算我一个」——Count me in!
+@d_cn: 别人在组织活动，你爽快地表示要参加。
+@d_en: Count me in! / I'm in! / Sounds great. I'll be there.
+@d_why: 「算我一个」里的「算」不是计算，而是「把我算进名单里」，直译 Calculate me one 完全不通。英文正好有对应的说法 **Count me in**——count 是「数人数」，in 是「在里面」。它很口语、很热情，适合同事、朋友之间；对客户或正式场合，说 I'd be happy to join. 更稳妥。不参加就说 **Count me out.**（别算我了）。
+@d_when: 同事约饭、团建、周末活动，你想参加 → Count me in! / I'm in!；正式邀请 → I'd be happy to join. / I'd love to come.
+@d_vs: **Count me in!** 算我一个！\n**Count me out.** 别算我了。\n**I'd be happy to join.** 我很乐意参加。（正式）\n✗ Calculate me one.　✗ Count me one.
+@d_task: 吴佳在群里问：「周六谁一起去吃火锅？」用英文爽快地回复，再问几点。 | Count me in! What time? / I'm in! What time?
+
+@core: Would you like to + 动作? | 礼貌地邀请别人 | join us for dinner / come to the party / have lunch with us | 正式：We'd be happy to have you join us for dinner.｜随意：Wanna come to dinner?
+@core: I'd love to! | 爽快地接受邀请 | I'd love to! / Sure! / Sounds great! | 正式：Thank you, I'd be happy to.｜随意：Sure, why not?
+@core: I'd love to, but + 原因. | 委婉地拒绝 | I have a class / I'm busy that night / I have plans | 正式：Thank you for inviting me, but unfortunately I can't make it.｜随意：Aw, I can't. I've got a class.
+@core: Maybe next time. | 拒绝时留余地，或回应别人的拒绝 | Maybe next time. / Next time, then. | 正式：Perhaps another time.｜随意：Next time for sure!
+@core: How about + 时间 / 地点? | 提出另一个选择 | Saturday / next week / the place downstairs | 正式：Would Saturday work for you?｜随意：Saturday?
+@core: Are you free on + 时间? | 问对方有没有空 | Saturday / Friday night / this weekend | 正式：Are you available on Saturday?｜随意：You free Saturday?
+@core: Count me in! | 爽快地表示要参加 | Count me in! / I'm in! | 正式：I'd be happy to join.｜随意：I'm in!
+
+@pw: celebrate | ˈseləbreɪt | 3 个音节 CEL·e·brate | 重音在第一个；中间的 e 轻读 `/ə/`，几乎听不见
+@pw: restaurant | ˈrestərɑːnt | 3 个音节 RES·tau·rant | 重音在第一个，后面两个音节都轻；口语常缩成 2 个音节 `/ˈrestrɑːnt/`
+@pw: unfortunately | ʌnˈfɔːrtʃənətli | 5 个音节 un·FOR·tu·nate·ly | 重音在 for；t 和 u 合成 `/tʃ/`，像「吃」；后面三个音节又轻又快
+@pw: birthday | ˈbɜːrθdeɪ | 2 个音节 BIRTH·day | bir 卷舌；th 舌尖轻咬、送气，不读 s 也不读 f
+@pw: Saturday | ˈsætərdeɪ | 3 个音节 SAT·ur·day | sat 嘴巴张大 `/æ/`；t 读成轻轻弹一下的 d，像 sa-der-day
+@pw: invite | ɪnˈvaɪt | 2 个音节 in·VITE | 重音在后；v 是上牙轻咬下唇，不要读成 w
+@pw: instead | ɪnˈsted | 2 个音节 in·STEAD | 重音在后；ead 读短的 `/e/`，不读 `/iː/`
+@ps: Would‿you **like** to **join** us for **din**ner on **Fri**day? | Would you 连读成 `/ˈwʊdʒə/`，像「无者」；to、us、for 都弱读；邀请的问句末尾语调上扬。
+@ps: I'd **love** to, / but I have a **class** on **Fri**day. | I'd 只有一个音节 `/aɪd/`；love 读重、拉长，表示真心想去；在 but 前停一下，后半句语调下降，说明原因。
+@ps: How a**bout** **Sat**urday? | 提建议的问句，语调上扬；about 重音在后，开头的 a 几乎听不见。
+@ps: **Count** me **in**! | count 和 in 都读重，in 拉长，听起来很热情；count 的 t 在 me 前几乎不发音，像 `/ˈkaʊn mi/`。
+@pnote: 熟人之间 want to 常读成 **wanna** `/ˈwɑːnə/`：Do you wanna come? 听到 wanna，要知道就是 want to。和同事、朋友说话可以这样用，对客户和上级还是说完整的 Would you like to…?
+@pnote: I'd 在 I'd love to / I'd like 里只有一个音节 `/aɪd/`，语速一快，d 几乎被吞掉，听起来和 I 很像。可以靠后面判断：I'd love **to** + 动作 是「我很想」；I love + 东西 是「我很喜欢」。
+@lfocus: Would you 连读成 `/ˈwʊdʒə/`
+@lfocus: want to 常读成 wanna
+@lfocus: I'd 的 d 很轻，要靠后面的 love to / like 判断
+@dict: S4
+@dict: S6
+@res: 在 youglish.com 输入 "would you like to"，选 US，注意听 would you 的连读。
+
+@mimic: 跟读【C】S3–S16 的对话：先 0.8 倍速逐句跟读，重点模仿 Would you like to… 的连读和 I'd love to, but… 的语气；再由你演林晓、手机朗读 Emma、Grace 和 Kevin 的台词，完整对一遍并录音。
+@swap: Would you like to join us for dinner on Friday? | 换活动和时间：have lunch / come to the party；Wednesday / Saturday night | Would you like to have lunch with us on Wednesday?
+@swap: I'd love to, but I have a class on Friday. | 换原因：I'm visiting my parents / I have to work late / I have plans | I'd love to, but I have to work late on Friday.
+@swap: How about Saturday? | 换时间或地点：next Friday / Sunday afternoon / the place downstairs | How about next Friday?
+@swap: Are you free on Saturday? — Yes! Count me in! | 换时间，并换一种接受的说法：I'm in! / I'd love to! | Are you free on Sunday afternoon? — Yes, I'd love to!
+@free: Emma 问你：Would you like to come to my party on Saturday? 你有空，很想去。 | I'd love to! What time?
+@free: 经理 Tom 约大家周四晚上团队聚餐，可你那天要上课。委婉拒绝，并说改天吧。 | I'd love to, but I have a class on Thursday night. Maybe next time!
+@free: 你想约好朋友吴佳周日一起逛街，用随意的方式问她。 | Do you want to go shopping on Sunday?
+@free: 同事在群里发：Hot pot on Friday night, anyone? 你想参加。 | Count me in! / I'm in!
+@output: 一人分饰两角，录一段约 1 分钟的「邀请 → 拒绝 → 改时间」对话：A 礼貌地邀请 B 参加一个活动 → B 先表态、说原因、婉拒 → A 回应「没关系」→ B 提出另一个时间 → A 答应，B 说 Count me in!。录完检查：有没有只说 No / I can't？有没有说 Yes, I would like？
+@output_sample: Hi, Kevin. Would you like to join us for hot pot on Thursday night? — Thanks for asking! I'd love to, but I have to work late on Thursday. — That's OK. Maybe next time. — Wait, how about Friday? I'm free on Friday. — Sure, Friday works! — Great. Count me in!
+
+@check: Emma 对林晓用 Would you like to…?，吴佳对林晓用 Do you want to…?。为什么不一样？ | Emma 是正式邀请大家参加生日晚饭，用更礼貌的 Would you like to；吴佳和林晓是好朋友，随口商量，用 Do you want to 更自然。
+@check: 别人问 Would you like to join us? 你想去，能回答 Yes, I would like. 吗？应该怎么说？ | 不能。说 I'd love to! / Sure! / Yes, I'd like that.
+@check: 林晓拒绝 Emma 的周五晚饭时，用了哪几步？ | ① 先感谢、表态：Thank you for inviting me! I'd love to… ② 说原因：but I have a class on Friday. ③ 后来主动给出另一个时间：How about Saturday?
+@check: 同事邀请你，你回答 No, I can't. 有什么问题？怎么改？ | 太直接，听起来冷淡、像没兴趣。改成 I'd love to, but I'm busy that day. Maybe next time!
+@check: 「算我一个！」和「别算我了」英文怎么说？给客户正式回复呢？ | Count me in! / Count me out.；正式：I'd be happy to join.
+@next1: 不看书说出 S4、S6、S11、S15
+@next1: 用「I'd love to, but… + 原因 + How about…?」拒绝一次邀请
+@next1: Would you like to…? 和 Do you want to…? 各说一句
+@next7: 用 Would you like to…? 邀请别人，再分别用接受和拒绝两种方式回答
+@next7: Count me in / Maybe next time / How about…? 的用法；「没关系」不说 It doesn't matter

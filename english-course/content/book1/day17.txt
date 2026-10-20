@@ -35,11 +35,11 @@
 @s: Lily: Sorry, I can't **hear** you very well. Could you **say** that again? | 林晓：不好意思，我听不太清楚。您能再说一遍吗？
 @s: Caller: Sorry! Grace Wu, please. | 来电者：抱歉！我找吴佳。
 @s: Now his voice is **loud** and clear. | 这回他的声音又大又清楚。
-@s: Lily: Thanks. And sorry, I didn't **catch** your name. | 林晓：谢谢。还有，不好意思，刚才没听清您的名字。
+@s: Lily: Sorry, I didn't **catch** your name. | 林晓：不好意思，刚才没听清您的名字。
 @s: Caller: Dan Miller, from Bright Home. | 来电者：我是 Bright Home 的 Dan Miller。
 @s: Lily: OK. **Hold on**, please. | 林晓：好的，请稍等。
 @br:
-@s: Lily looks into the meeting room. Grace is still busy. | 林晓往会议室里看了看，吴佳还在忙。
+@s: Lily checks. Grace is still busy. | 林晓去看了一眼，吴佳还在忙。
 @s: Lily: She's in a meeting. Can I **take a message**? | 林晓：她在开会。要我帮您留个言吗？
 @s: Caller: Yes. Please ask her to **call me back**. | 来电者：好的。请让她给我回个电话。
 @s: Caller: It's about a late package. She can **reach** me at 213-555-0147. | 来电者：是一个包裹延误的事。她打 213-555-0147 就能找到我。

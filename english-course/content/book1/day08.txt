@@ -1,0 +1,148 @@
+@day: 8
+@week: 2
+@title_cn: 昨天做了什么
+@title_en: What Did You Do Yesterday?
+@topic: 讲述昨天做的事、向经理汇报培训进展
+@think_short: 「了」≠ 过去时｜「昨天晚上」= last night｜「我昨天很忙」要用 was
+
+@goal_scene: 经理问你昨天做了什么：按先后顺序说出昨天做的 4–5 件事，动词全部用过去式，最后说说自己昨天忙不忙。
+@goal_expr: What did you do yesterday? / I met… and watched… / After that, … / Then I… / I spent two hours on… / I was pretty busy yesterday.
+@goal_vocab: 17 个重点词 + 4 个短语：昨天和上周的时间、培训与工作、常用不规则过去式、讲事情的先后顺序
+@done: 不看书，用 5 句英文按顺序讲出你昨天做的事，动词全部用过去式（started / met / wrote / sent…）
+@done: 说「昨天晚上」脱口而出 last night，说「我昨天很忙」用 I was busy yesterday，不再说 yesterday night / I busy yesterday
+@done: 看到「了」先想一想：是过去的动作（I ate）还是现在的状态（I'm hungry）
+
+@warmup: 我们每周一上午十点开团队会。 | We have a team meeting every Monday at ten. | D6
+@warmup: 你下周三三点半有空吗？ | Are you available next Wednesday at three thirty? | D6
+@warmup: 我会把它记到日历里。 | I'll put it in my calendar. | D6
+@warmup: 我要牛肉面，谢谢。别太辣。 | I'd like the beef noodles, please. Not too spicy. | D5
+@warmup: 这顿我请。 | It's on me. | D5
+@warmup: 你是做什么的？——我做客服。 | What do you do? — I work in customer service. | D4
+
+@scene: 第二周的周二早上。昨天（周一）林晓正式开始了新员工培训：认识了客服团队，看了培训视频，还在吴佳的指导下给美国卖家写了第一封英文邮件；晚上回家，她又把培训文件看了一遍。今天一早，经理张涛端着咖啡来到她的工位，问她昨天做了什么、培训进行得怎么样。
+@sp: 人物关系 | 林晓 → 张涛：下属对经理，已经共事一周，气氛轻松，但这是在汇报工作
+@sp: 沟通目的 | 让经理清楚地知道：昨天的培训做了哪几件事、进展怎么样
+@sp: 已知信息 | 张涛知道林晓昨天开始培训，但不知道具体做了什么；林晓不确定自己的进度算快还是慢
+@sp: 表达重点 | 按时间顺序讲：先（started / met / watched）→ 之后（After that / then）→ 晚上（last night）；动词全部用过去式；最后说自己的状态（I was pretty busy）
+
+@story_title: Episode 8 · A Busy Monday
+@story_type: 叙述 + 对话
+@s: It's Tuesday morning in Lily's second week at SwiftLink. | 林晓到 SwiftLink 上班的第二周，周二早上。
+@s: Tom stops by her desk with a cup of coffee. | 张涛端着一杯咖啡，走到她的工位旁。
+@s: Tom: Morning, Lily. What did you do **yesterday**? | 张涛：早，林晓。你昨天都做了些什么？
+@s: Lily: I **started** my **training** at nine. | 林晓：我九点开始培训。
+@s: Lily: I **met** the customer service team and **watched** two training **videos**. | 林晓：我见了客服团队，还看了两个培训视频。
+@br:
+@s: Lily: **After that**, I sat with Grace the **whole** afternoon. | 林晓：之后，我整个下午都跟着吴佳学。
+@s: Lily: I **wrote** my first email to a seller. | 林晓：我给一位卖家写了第一封邮件。
+@s: Lily: Grace checked it, and **then** I **sent** it. | 林晓：吴佳帮我看了一遍，然后我就发出去了。
+@s: Tom: Nice! Can you show me **later**? | 张涛：不错！待会儿给我看看？
+@s: Tom: That's **a lot of** work for one day. | 张涛：一天做了这么多事啊。
+@s: Lily: Yes. I was **pretty** busy yesterday. | 林晓：是啊，我昨天挺忙的。
+@br:
+@s: Tom: Busier than **last** week, right? | 张涛：比上周忙多了吧？
+@s: Lily: Much busier! I **read** the training **documents** **last night**. | 林晓：忙多了！我昨天晚上还看了培训文件。
+@s: Lily: I **spent** two hours on them. | 林晓：花了我两个小时。
+@s: Tom: Two hours? Don't work **all day** and all night! | 张涛：两个小时？可别白天上班、晚上还接着干啊！
+@s: Tom: Today, **practice** answering emails with Grace. You're doing great. | 张涛：今天就跟着吴佳练练回邮件吧。你做得很好。
+
+@v: yesterday | = | adv. | ˈjestərdeɪ | 昨天 | 说昨天做过的事；经理、同事问你昨天的工作 | yesterday morning；yesterday afternoon；the day before yesterday（前天） | I sent the report to Emma yesterday afternoon. | 我昨天下午把报告发给 Emma 了。 | yesterday 前面不加 in / at / on：✗ at yesterday；「昨天晚上」要说 last night，不说 yesterday night。
+@v: started | start | v. | ˈstɑːrtɪd | 开始（start 的过去式） | 说培训、工作、会议是几点开始的 | start work；start a new job；start at nine | The meeting started at ten, not nine. | 会议是十点开始的，不是九点。 | 说昨天的事，动词一定要变：✗ I start my training yesterday. → ✓ I started…；-ed 跟在 t 后面读 /ɪd/，多出一个音节。
+@v: training | = | n. | ˈtreɪnɪŋ | 培训 | 新员工入职培训、系统操作培训 | new hire training；a training video；a training session | Our new hire training takes two weeks. | 我们的新员工培训要两周。 | training 一般不可数：✗ a training / two trainings → ✓ two training sessions；「培训生」是 trainee，不是 training。
+@v: met | meet | v. | met | 见到；认识（meet 的过去式） | 说见了谁、认识了哪些同事、和谁开了会 | meet the team；meet a client；meet with sb（约好见面谈事） | I met Emma on my first day. | 我第一天就认识了 Emma。 | 过去式是 met，不是 meeted；约好见面谈工作常说 meet with：I met with Tom this morning.（我今天早上和张涛谈了一下）
+@v: watched | watch | v. | wɑːtʃt | 看（视频、电视、演示）（watch 的过去式） | 看视频、看电视、看别人操作 | watch a video；watch TV；watch sb do sth | I watched a training video on the subway. | 我在地铁上看了一个培训视频。 | 中文都是「看」，英文要分开：看视频、电视用 watch；看文件、书、邮件用 read；看一眼图片、屏幕用 look at。✗ watch the email → ✓ read the email。
+@v: videos | video | n. | ˈvɪdioʊz | 视频 | 培训视频、产品演示、网上短视频 | a training video；watch a video；a video call（视频通话） | Can you send me the link to the video? | 你能把视频链接发给我吗？ | 重音在第一个音节 VID-ee-oh，不要读成平均用力的「维迪奥」；复数直接加 s。
+@v: After that | after that | phr. | ˌæftər ˈðæt | 在那之后；然后 | 按先后顺序讲事情 | After that, …；Right after that, …（紧接着） | We had a meeting at ten. After that, I wrote the report. | 我们十点开了个会，之后我写了报告。 | 「之后」放在句首要说 After that，不能只说 ✗ After, I…；讲一串事情时 After that、Then、Later 换着用，别句句都是 and then。
+@v: whole | = | adj. | hoʊl | 整个的；全部的 | 说一整段时间、一整个团队 | the whole afternoon；the whole day；the whole team | I was in meetings the whole morning. | 我一整个上午都在开会。 | 前面要有 the：✗ whole afternoon → ✓ the whole afternoon；w 不发音，读 /hoʊl/，和 hole（洞）同音。
+@v: wrote | write | v. | roʊt | 写（write 的过去式） | 写邮件、写报告、写消息 | write an email；write to sb；write a report | I wrote to the seller this morning. | 我今天早上给那位卖家写了邮件。 | 过去式是 wrote，不是 writed；开头的 w 不发音；「给某人写邮件」说 write to sb 或 write sb an email。
+@v: then | = | adv. | ðen | 然后；接着 | 讲先后顺序、教别人操作步骤 | and then；First…, then…；Then I… | First, log in. Then click "Reports." | 先登录，然后点「报表」。 | then 不能直接把两个句子连起来：✗ I checked it then I sent it. → ✓ I checked it, and then I sent it.；th 读 /ð/，舌尖轻放在上下牙之间。
+@v: sent | send | v. | sent | 发送；寄（send 的过去式） | 发邮件、发消息、寄包裹 | send an email；send sb a message；send a package | I sent you the file this morning. | 我今天早上把文件发给你了。 | 过去式是 sent，不是 sended；「发给某人」两种说法都对：send sb sth / send sth to sb。
+@v: later | = | adv. | ˈleɪtər | 待会儿；以后 | 把事情往后放一放：待会儿再看、回头再聊 | later today；talk later；See you later. | I'm busy now. Can we talk later? | 我现在有点忙，我们待会儿再聊好吗？ | 「待会儿」直接说 later，不说 ✗ after a while later；说将来「两天后」用 in two days，later 多用在讲过去：two days later（两天之后）。
+@v: a lot of | = | phr. | ə ˈlɑːt əv | 很多 | 说工作、东西、问题多 | a lot of work；a lot of emails；a lot of questions | I have a lot of questions about the system. | 我对这个系统有很多问题。 | 后面可数（emails）、不可数（work）都能接；放句尾时去掉 of：✗ I like it a lot of. → ✓ I like it a lot.；口语里读成 a-lot-ta /əˈlɑːdə/。
+@v: pretty | = | adv. | ˈprɪti | 挺；相当 | 口语里代替 very，语气更随意 | pretty busy；pretty good；pretty tired | The training was pretty good. | 培训挺好的。 | 放在形容词前，pretty 不是「漂亮」，而是「挺」：pretty good = 挺好；语气比 very 弱一点，比 a little 强；正式书面语里少用。
+@v: last | = | adj. | læst | 上一个（周、月）；最后的 | 说过去的时间：上周、上个月、上周一 | last week；last month；last Monday | I joined SwiftLink last week. | 我上周加入的 SwiftLink。 | last week 前不加 in / on：✗ in last week；the last page 才是「最后一页」——last 后面跟时间词时是「上一个」。
+@v: read | = | v. | red | 读；看（文件、邮件、书）（这里是过去式） | 看文件、读邮件、看说明 | read an email；read the instructions；read about sth | Did you read my message? | 你看我的消息了吗？ | 过去式拼写不变，读音却变成 /red/（和 red 同音）；原形读 /riːd/。看文字用 read，不说 ✗ see the document / ✗ watch the email。
+@v: documents | document | n. | ˈdɑːkjəmənts | 文件；文档 | 培训资料、合同、系统里的说明文档 | training documents；a Word document；share a document | Please read this document before the meeting. | 开会前请先看一下这份文件。 | 可数名词，多份要加 s；电脑里泛指的「文件」常说 file，有内容的资料、文档用 document；cu 读 /kjə/，有个 y 音。
+@v: last night | = | phr. | ˌlæst ˈnaɪt | 昨天晚上；昨晚 | 说昨晚做了什么、睡得怎么样 | last night；late last night | I didn't sleep well last night. | 我昨晚没睡好。 | 不说 ✗ yesterday night；前面不加介词：✗ in last night；「今晚」是 tonight，不说 today night。
+@v: spent | spend | v. | spent | 花（时间、钱）（spend 的过去式） | 说某件事花了多少时间、多少钱 | spend time on sth；spend two hours doing sth；spend money | I spent an hour on this email. | 这封邮件我花了一个小时。 | 人做主语用 spend，事情做主语用 take：It took me an hour.；✗ I spent two hours to read it. → ✓ I spent two hours reading it.
+@v: all day | = | phr. | ˌɔːl ˈdeɪ | 一整天 | 说一整天都在做某件事 | all day；all day long；all morning | I was in meetings all day. | 我一整天都在开会。 | 中间不加 the：✗ all the day；也不说 ✗ whole day；同样的结构还有 all morning、all night、all week。
+@v: practice | = | v. | ˈpræktɪs | 练习 | 练口语、练写邮件、练系统操作 | practice English；practice answering emails；practice with sb | I practice English on the subway every day. | 我每天在地铁上练英语。 | 后面接 -ing：✗ practice to answer → ✓ practice answering；美式动词、名词都拼 practice（英式动词拼 practise）。
+
+@diff: 「了」≠ 过去时
+@d_cn: 中文的「了」既表示动作完成（我吃了饭），也表示情况有了变化（我饿了、下雨了、我好了）。
+@d_en: I ate lunch.（吃了——过去的动作）/ I'm hungry.（饿了——现在的状态）
+@d_why: 中文的「了」不是时间标记：它能用在过去（昨天吃了），也能用在现在（我饿了），甚至将来（明天吃了饭再走）。英文没有「了」，时间藏在动词里：过去发生的动作用**过去式**（ate / met / watched）；「饿了」「累了」「到了」说的是**现在**的新状态，用 **I'm hungry / I'm tired / I'm here**。所以既不要一看到「了」就用过去式，也不要以为没有「了」就不用过去式——「我昨天看培训视频」没有「了」，英文照样是 watched。
+@d_when: 说昨天、上周、刚才已经做完的动作 → 过去式；说「现在变成了……」（饿了、累了、好了、到了）→ am / is / are。
+@d_vs: **I ate lunch.** 我吃了午饭。（动作已经完成）\n**I'm hungry.** 我饿了。（现在的状态，不说 I was hungry）\n**I'm ready.** 我好了。\n**I watched the training videos yesterday.** 我昨天看培训视频。（中文没有「了」，英文照样用过去式）
+@d_task: 用英文说：① 我累了。② 我昨天写了一封邮件。③ 我昨天见经理。 | ① I'm tired. ② I wrote an email yesterday. ③ I met my manager yesterday.
+@diff: 不规则过去式：met / read / wrote / sent / spent
+@d_cn: 说昨天做过的事，偏偏最常用的那些动词不加 -ed。
+@d_en: meet → met / read → read / write → wrote / send → sent / spend → spent
+@d_why: 中文动词永远不变形，所以中国学习者讲过去的事最容易犯两种错：一是**忘了变**（I meet the team yesterday），二是**一律加 -ed**（meeted、writed、sended）。英文里越常用的动词越容易不规则，因为它们天天被说、老形式保留了下来。好消息是：工作中高频的不规则动词只有二三十个，每天用它们讲一遍自己做过的事，几周就顺口了。规则动词照常加 -ed：start → started，watch → watched，practice → practiced。
+@d_when: 讲昨天、上周、刚才做过的事；写工作日报、周报；回答 What did you do…?
+@d_vs: ✗ I meeted the team. → ✓ I **met** the team.\n✗ I sended the email. → ✓ I **sent** the email.\n**I read it last night.** 拼写不变，但读 `/red/`，不读 `/riːd/`\n注意：问句和否定句里动词回到原形：Did you **send** it? / I didn't **write** it.
+@d_task: 把这三件事改成「昨天做的」说出来：meet Grace / write two emails / spend an hour on the report | I met Grace. I wrote two emails. I spent an hour on the report.
+@diff: 「昨天晚上」——last night，不说 yesterday night
+@d_cn: 昨天晚上；昨天早上；昨天下午
+@d_en: last night / yesterday morning / yesterday afternoon / yesterday evening
+@d_why: 中文「昨天」后面可以加任何时段，英文 yesterday 也基本可以：yesterday morning、yesterday afternoon。唯独「昨天晚上」，美国人几乎只说 **last night**，yesterday night 听起来很别扭。还有一点：last night、yesterday、last week 前面都**不加介词**——中文说「在昨天晚上」，英文不说 in last night。
+@d_when: 说昨晚做了什么、昨晚睡得好不好：I didn't sleep well last night. 说「今晚」用 tonight，同样不说 today night。
+@d_vs: **last night** 昨天晚上（✗ yesterday night）\n**yesterday evening** 昨天傍晚（下班后到睡前，稍正式）\n**tonight** 今天晚上（✗ today night）\n✗ I read it in last night. → ✓ I read it last night.
+@d_task: 用英文说：「我昨天晚上看了两个视频，今天早上又读了培训文件。」 | I watched two videos last night, and I read the training documents this morning.
+@diff: 「我昨天很忙」——I was busy yesterday.
+@d_cn: 说过去某个时间的状态、心情、地点：昨天很忙、上周有点紧张、昨天在家。
+@d_en: I was busy yesterday. / We were busy. / The training was great.
+@d_why: Day 1 学过：英文形容词前一定要有 am / is / are。说**过去**的状态，就把它们换成 **was / were**：I / he / she / it 用 was；you / we / they 用 were。中国学习者常见两种错：一是漏掉 be（✗ I busy yesterday），二是用 did 来否定（✗ I didn't busy）——形容词前的否定要用 wasn't / weren't。
+@d_when: 说「昨天 / 上周 / 刚才」的状态：忙、累、紧张、在哪里、怎么样（The meeting was long.）。
+@d_vs: ✗ I busy yesterday. → ✓ I **was** busy yesterday.\n✗ We was late. → ✓ We **were** late.\n✗ I didn't busy. → ✓ I **wasn't** busy.\n**How was the training?** 培训怎么样？
+@d_task: 用英文说：「上周我有点紧张，不过同事们都很友好。」 | Last week I was a little nervous, but my coworkers were very friendly.
+
+@core: What did you do yesterday? | 问别人昨天做了什么（经理、同事都常这样开场） | yesterday → last night / last weekend / on Monday | 正式：What did you work on yesterday?｜随意：What did you get up to yesterday?
+@core: I + 过去式…, and + 过去式… | 一句话说两件做过的事 | met / watched / wrote / sent / read | 正式：I met the customer service team and reviewed two training videos.｜随意：Met the team, watched some videos.
+@core: After that, … / Then … | 按先后顺序讲事情 | After that / Then / Later | 正式：After that, I worked on my first email to a seller.｜随意：Then I sat with Grace.
+@core: I spent + 时间 + on… | 说某件事花了多少时间 | two hours / the whole afternoon / an hour | 正式：I spent about two hours on the training documents.｜随意：It took me two hours.
+@core: I was pretty + 状态 + yesterday. | 说过去的状态和感受 | busy / tired / nervous / happy | 正式：I was quite busy yesterday.｜随意：Yesterday was crazy!
+@core: …last night. | 说昨晚做了什么 | last night / yesterday afternoon / last week | 正式：I reviewed the documents yesterday evening.｜随意：Read them last night.
+
+@pw: yesterday | ˈjestərdeɪ | 3 个音节 YES·ter·day，重音在第一个 | ter 很轻、要卷舌；口语里结尾也常读成 `/di/`
+@pw: watched | wɑːtʃt | 1 个音节，不是 watch-ed 两个 | 结尾的 -ed 只是一个轻轻的 `/t/`，千万别读成「沃吃德」
+@pw: started | ˈstɑːrtɪd | 2 个音节 STAR·ted | t 后面的 -ed 要多读一个音节 `/ɪd/`；美式常把中间的 t 弹成轻 d：`/ˈstɑːrdɪd/`
+@pw: documents | ˈdɑːkjəmənts | 3 个音节 DOC·u·ments | do 嘴巴张大读 `/ɑː/`；cu 读 `/kjə/`，有个 y 音，不读「多久门」
+@pw: whole | hoʊl | 1 个音节 | w 不发音，和 hole 同音；结尾的 l 舌尖抵住上齿龈
+@pw: practice | ˈpræktɪs | 2 个音节 PRAC·tice | 结尾读 `/tɪs/`，不读「泰斯」；过去式 practiced 读 `/ˈpræktɪst/`
+@pw: pretty | ˈprɪti | 2 个音节 PRET·ty | pre 读 `/prɪ/`，不读 `/pre/`；美式 tt 弹成轻 d：`/ˈprɪdi/`
+@ps: I **met** the customer **ser**vice team / and **watched** two **train**ing videos. | 两个过去式动词是重点：met 的 t 收住不爆破；watched 结尾只有一个轻 `/t/`。and 弱读成 `/ən/`，在「/」处换气。
+@ps: I **read** the training **doc**uments / **last**‿**night**. | 这里的 read 是过去式，读 `/red/`；last night 的 t 碰到 n 几乎不发音：`/læs naɪt/`。
+@ps: I was **pret**ty **bus**y **yes**terday. | was 弱读成 `/wəz/`，几乎被吞掉；重音落在 pretty、busy、yesterday 上，像打拍子：da-DA-da-DA-da-DA-da。
+@ps: **What** did‿you **do** yesterday? | did you 连读成 `/ˈdɪdʒə/`：what-dija-do；重音在 What 和 do，yesterday 读得稍轻，句尾降调。
+@pnote: -ed 有三种读法：清辅音后（watched、practiced、checked）读 `/t/`；浊辅音和元音后（learned、stayed、called）读 `/d/`；t 和 d 后（started、needed）读 `/ɪd/`，多一个音节。只有第三种多出一个音节，前两种都不能读成「-德」。
+@pnote: 书面的 I was / We were，口语里弱读成 `/wəz/`、`/wər/`；did you 常连成 `/ˈdɪdʒə/`。只有强调或单独回答时才读完整：Yes, I **was**. `/wʌz/`
+@lfocus: watched 结尾只有一个 /t/，started 多一个音节 /ɪd/
+@lfocus: was 弱读 /wəz/，一闪而过
+@lfocus: 过去式 read 读 /red/，听起来像 red
+@dict: S5
+@dict: S13
+@res: 在 YouTube 频道 Rachel's English 内搜索 "ed endings"，听 -ed 三种读法的口型示范。
+
+@mimic: 跟读【C】S3–S16：先用 0.8 倍速逐句跟读 2 遍，重点模仿过去式的结尾（started、watched）和 read `/red/` 的读音；再由你演林晓、手机朗读张涛的台词，完整对一遍并录音。
+@swap: I met the customer service team and watched two training videos. | 换成你昨天做的两件事：met / wrote / read / sent | I met my new manager and read two reports.
+@swap: I spent two hours on them. | 换时间和事情：the whole morning / an hour；emails / the report | I spent the whole morning on emails.
+@swap: I was pretty busy yesterday. | 换状态和时间：tired / nervous；last week / last night | I was pretty tired last night.
+@swap: Grace checked it, and then I sent it. | 换人和动作：Tom read it / I fixed it | My manager read it, and then I sent it.
+@free: 早上经理问你：What did you do yesterday?（你昨天开了个会，还写了两封邮件） | I had a meeting, and then I wrote two emails.
+@free: 同事问你昨晚做了什么（你在家看了培训文件，看了一个小时） | I read the training documents at home. I spent an hour on them.
+@free: 朋友问：Were you busy yesterday?（很忙，一整天都在开会） | Yes, I was pretty busy. I was in meetings all day.
+@free: 中午 12 点，你对同事说：「我饿了，我们去吃午饭吧。」（注意：「饿了」不是过去式） | I'm hungry. Let's get lunch.
+@output: 录 1 分钟「我的昨天」：按时间顺序说 4–6 件昨天做的事（用 First / Then / After that / Later 串起来），至少用 3 个不规则过去式（met / wrote / read / sent / spent），最后说说昨天忙不忙（I was…）。录完检查：有没有说 yesterday night？有没有动词忘了变过去式？
+@output_sample: Yesterday was a busy day. I started work at nine. First, I had a team meeting. Then I wrote three emails to sellers. After that, I spent the whole afternoon on a report. After work, I met a friend for dinner. Last night, I read some English for half an hour. I was pretty busy yesterday, but I'm not tired today.
+
+@check: 林晓说 I read the training documents last night. 这里的 read 怎么读？你是怎么判断的？ | 读 `/red/`。read 的过去式拼写不变，但读音变了；句尾有 last night，说明说的是过去。
+@check: 「我昨天晚上发了一封邮件」怎么说？说 yesterday night 可以吗？ | I sent an email last night. 不说 yesterday night。
+@check: 中午同事问你饿不饿，你想说「我饿了」。说 I was hungry 对吗？ | 不对。「饿了」是现在的状态：I'm hungry. I was hungry 说的是「（那时候）我很饿」。
+@check: 把 I'm busy today. 改成「我昨天很忙」，再改成「我们昨天很忙」。 | I was busy yesterday. / We were busy yesterday.
+@check: 张涛问 Did you send it? 林晓已经发了，怎么回答？问句里为什么是 send 不是 sent？ | Yes, I did. / Yes, I sent it. did 已经表示过去，后面的动词用原形 send。
+@next1: 不看书说出 S5、S7、S11、S13
+@next1: 说出 meet / read / write / send / spend 的过去式，各造一个关于自己的句子
+@next1: 「昨天晚上」= last night；「我昨天很忙」= I was busy yesterday.
+@next7: 用 5 句话讲你「昨天」做的事（Day 14 复习日会用到）
+@next7: watched / learned / started 三个词的 -ed 分别怎么读

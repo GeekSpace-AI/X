@@ -1,0 +1,144 @@
+@day: 16
+@week: 3
+@title_cn: 下周的安排
+@title_en: Plans for Next Week
+@topic: 说工作安排和周末计划
+@think_short: 「我想」want to ≠「我要」going to｜当场答应用 will｜「周三要见客户」I'm meeting…｜I'm not sure
+
+@goal_scene: 周五下午，经理交代下周的工作安排，美国同事又问你周末打算做什么：你要分清「只是想想」「已经决定」「已经约好」和「现在答应你」。
+@goal_expr: I'm meeting a client on Wednesday. / OK, I'll send you the schedule. / What are you doing this weekend? — I'm going to visit my parents. / I want to go shopping, but I'm not sure.
+@goal_vocab: 17 个重点词 + 4 个短语：日程与会议、计划与决定、周末打算
+@done: 用 3 句话说出下周已经约好的安排：I'm + -ing + 时间
+@done: 在 want to / be going to / will 之间选对：只是想 / 已经决定 / 当场答应
+@done: 听到 gonna、wanna 能马上反应出是 going to、want to
+
+@warmup: 能帮我个忙吗？ | Could you do me a favor? | D15
+@warmup: 能借一下你的充电器吗？ | Can I borrow your charger? | D15
+@warmup: 你介意教我一下怎么打印面单吗？ | Would you mind showing me how to print the labels? | D15
+@warmup: 我现在在忙。十分钟后再帮你行吗？ | I'm busy right now. Can I help you in ten minutes? | D15
+@warmup: 我查一下。到了，今天早上到的洛杉矶。 | Let me check. Yes, it is. It arrived in Los Angeles this morning. | D13
+@warmup: 你试过重启吗？ | Have you tried restarting it? | D12
+
+@scene: 第三周的周五下午，张涛来到林晓的工位，交代下周的安排：周三有一位重要客户来访，周二要一起准备演示，周四团队要开会复盘。林晓赶紧列了一张待办清单。快下班时，Emma 过来问林晓周末有什么打算——林晓早就买好了回湖南的车票，Emma 却还在犹豫要不要去逛街。
+@sp: 人物关系 | 林晓 ↔ 张涛（上级，交代工作）；林晓 ↔ Emma（同事，周五下班前闲聊）
+@sp: 沟通目的 | 听懂、记下下周的工作安排；和 Emma 聊聊各自的周末计划
+@sp: 已知信息 | 林晓还不知道下周有哪些安排；Emma 不知道林晓周末要回家
+@sp: 表达重点 | 已经约好的安排（I'm meeting… on…）→ 已经决定的计划（I'm going to…）→ 只是想、还没定（I want to…, but I'm not sure.）→ 当场答应（I'll…）
+
+@story_title: Episode 16 · Next Week and This Weekend
+@story_type: 叙述 + 对话
+@s: It's Friday afternoon. Tom stops by Lily's desk. | 周五下午，张涛来到林晓的工位。
+@s: Tom: Lily, here's the **plan** for next week. | 张涛：林晓，跟你说一下下周的安排。
+@s: Tom: I'm meeting a **client** on Wednesday. It's very **important**. | 张涛：我周三要见一位客户，这次会面很重要。
+@s: Tom: Could you help me **prepare** the **presentation** on **Tuesday**? | 张涛：周二你能帮我一起准备演示吗？
+@s: Lily: Sure. Is the **agenda** **ready**? | 林晓：好的。议程定好了吗？
+@s: Tom: Not yet. I'll finish it **soon**. | 张涛：还没有，我很快就弄完。
+@s: Tom: Then on **Thursday**, we're **discussing** the meeting with the team. | 张涛：然后周四，我们和团队一起复盘这次会面。
+@s: Lily: Can I see the schedule for next week? | 林晓：我能看看下周的日程吗？
+@s: Tom: OK, I'll send you the schedule. | 张涛：行，我把日程发给你。
+@s: Lily makes a **to-do list**. There are six **tasks** on it! | 林晓列了一张待办清单——上面有六项任务！
+@br:
+@s: At five thirty, Emma comes over. | 五点半，Emma 走了过来。
+@s: Emma: Hey, Lily! What are you doing **this weekend**? | Emma：嘿，林晓！你这周末干什么？
+@s: Lily: I'm **going to** visit my parents. I bought the train ticket last week. | 林晓：我要回去看我爸妈，上周就买好车票了。
+@s: Emma: Nice! Are your parents in Hunan? | Emma：真好！你爸妈在湖南吗？
+@s: Lily: Yes. I'll **probably** take an early train. | 林晓：对。我大概会坐早一点的车。
+@s: Lily: How about you? | 林晓：你呢？
+@s: Emma: I **want** to go shopping, but **I'm not sure**. | Emma：我想去逛街，不过还没想好。
+@s: Emma: **Maybe** I'll just stay home and rest. I can't **decide**! | Emma：也许就在家歇着吧。我拿不定主意！
+@s: Lily: Shop on Saturday and rest on Sunday! | 林晓：周六逛街，周日休息呗！
+@s: Emma: Good **idea**! I'll do that. | Emma：好主意！就这么办。
+
+@v: plan | = | n. | plæn | 计划；安排 | 说下周的工作安排、周末打算 | the plan for next week；make plans；Do you have any plans? | Do you have any plans for the weekend? | 你周末有什么安排吗？ | 问「有什么打算」用复数：Do you have any plans?；plan 也能当动词：plan to + 动词。
+@v: client | = | n. | ˈklaɪənt | 客户（多指企业客户、接受服务的一方） | 见客户、客户来访、客户会议 | meet a client；an important client；a client meeting | We have a client meeting at ten. | 我们十点有个客户会议。 | client 和 customer 都是「客户」：client 多指长期合作、需要专业服务的客户（公司之间、律师、设计）；customer 多指来买东西的顾客（D4）。
+@v: important | = | adj. | ɪmˈpɔːrtənt | 重要的 | 说会议、客户、任务很重要 | an important meeting；very important；It's important to… | It's important to reply to clients quickly. | 及时回复客户很重要。 | 美式读音里 -tant 的 t 常常只是喉咙里顿一下，像 im-POR-'nt；「非常重要」说 very important，✗ very much important。
+@v: prepare | = | v. | prɪˈper | 准备 | 准备会议、演示、资料 | prepare a presentation；prepare for a meeting；be prepared | I need to prepare for the meeting tomorrow. | 我得为明天的会做准备。 | prepare sth = 准备某样东西（prepare the slides）；prepare for sth = 为某件事做准备（prepare for the meeting）；「我准备好了」说 I'm ready，✗ I'm prepare.
+@v: presentation | = | n. | ˌprezənˈteɪʃn | 演示；（带幻灯片的）汇报 | 给客户、团队做汇报 | give a presentation；prepare a presentation；a short presentation | She gave a great presentation to the client. | 她给客户做了一次很棒的汇报。 | 「做汇报」说 give a presentation，不说 make a report speech；幻灯片文件美国人常叫 slides，不常说 PPT。
+@v: Tuesday | = | n. | ˈtuːzdeɪ | 星期二 | 说日程、约时间 | on Tuesday；next Tuesday；Tuesday morning | Let's meet on Tuesday morning. | 我们周二上午碰一下吧。 | 星期几首字母大写，前面用 on：on Tuesday；next Tuesday 前不加 on（D6）。美式 tu 读 `/tuː/`，不读「秋」。
+@v: agenda | = | n. | əˈdʒendə | 议程；会议要讨论的事项 | 开会前列出要讨论的内容 | the meeting agenda；on the agenda；send the agenda | What's on the agenda today? | 今天的会要讨论哪些事？ | agenda 是会议的讨论清单，不是个人日程（个人日程用 schedule 或 calendar）；「在议程上」用 on the agenda。
+@v: ready | = | adj. | ˈredi | 准备好的；做好了的 | 问人准备好了没有、东西做好了没有 | be ready；ready for…；ready to + 动词 | Are you ready for the meeting? | 你准备好开会了吗？ | ready 是形容词，前面要有 am / is / are：✗ I ready. → ✓ I'm ready.；东西做好了也能说：The report is ready.
+@v: soon | = | adv. | suːn | 很快；不久 | 说某事马上会发生、马上会做好 | very soon；See you soon!；as soon as possible | The report will be ready soon. | 报告很快就好。 | soon 一般放句尾；soon 是「不久以后」，比它更急的「马上、立刻」用 right away 或 right now。
+@v: Thursday | = | n. | ˈθɜːrzdeɪ | 星期四 | 说日程、约时间 | on Thursday；this Thursday；Thursday afternoon | The client is coming on Thursday. | 客户周四来。 | th 要咬舌读 `/θ/`，不要读成 s；Tuesday 和 Thursday 最容易听混：一个开头是 `/tuː/`，一个是 `/θɜːr/`。
+@v: discussing | discuss | v. | dɪˈskʌsɪŋ | 讨论 | 开会讨论计划、问题、结果 | discuss the plan；discuss sth with sb；discuss it at the meeting | Let's discuss it at the meeting. | 我们开会时再讨论这件事吧。 | discuss 后面直接跟内容，不加 about：✗ discuss about the plan → ✓ discuss the plan（talk about 才要加 about）。
+@v: to-do list | = | phr. | təˈduː ˌlɪst | 待办事项清单 | 列出要做的工作，一项一项划掉 | make a to-do list；on my to-do list；a long to-do list | It's on my to-do list for Monday. | 这件事在我周一的待办清单上。 | to-do 中间有连字符；「列清单」说 make a list，不说 open a list；「我记下了」可以说 It's on my list.
+@v: tasks | task | n. | tæsks | 任务；（一项具体的）工作 | 分配工作、列待办事项 | a task；daily tasks；finish a task | My first task today is to answer seller emails. | 我今天的第一项任务是回复卖家邮件。 | task 是可数的一项项工作：three tasks；「工作」总称 work 不可数：✗ a lot of works → ✓ a lot of work。
+@v: this weekend | = | phr. | ˌðɪs ˈwiːkend | 这个周末 | 问周末计划、说周末安排 | this weekend；next weekend；on the weekend | What are you doing this weekend? | 你这周末干什么？ | this weekend 前面不加 in / on / at（和 this morning 一样，D2）；美国人说 on the weekend，英国人说 at the weekend。
+@v: going to | be going to | phr. | ˈɡoʊɪŋ tə | 打算；（已经决定）要 | 说事先已经定好的计划 | be going to + 动词；I'm going to…；What are you going to do? | I'm going to call the client after lunch. | 午饭后我要给客户打个电话。 | 后面跟动词原形：✗ I'm going to visiting… → ✓ I'm going to visit…；口语常读成 gonna，但写的时候要写 going to；going to 后面是地点时（I'm going to Beijing）是「去北京」，不能读成 gonna。
+@v: probably | = | adv. | ˈprɑːbəbli | 很可能；大概 | 说没有百分之百把握、但八成会发生的事 | will probably；probably not；Probably. | I'll probably be a little late. | 我大概会晚到一会儿。 | 位置：在 will 后面（I'll probably…），在 won't 前面（I probably won't…）；probably 大约八成把握，maybe 大约五成。
+@v: want | = | v. | wɑːnt | 想要；想（做某事） | 说愿望、想做的事 | want to + 动词；want sth；want sb to… | I want to learn more about the system. | 我想多了解一下这个系统。 | 「想做」要加 to：✗ I want go shopping. → ✓ I want to go shopping.；want 只说愿望，不表示已经决定（见【E】）；向别人要东西用 I'd like…（D5）更礼貌。
+@v: I'm not sure | i'm not sure | phr. | ˌaɪm nɑːt ˈʃʊr | 我不确定；我还没想好 | 计划还没定；不确定答案 | I'm not sure.；I'm not sure yet.；I'm not sure if… | I'm not sure. Let me ask Tom. | 我不太确定，我问问张涛。 | sure 是形容词，前面要用 am：✗ I don't sure. → ✓ I'm not sure.；不知道答案时，I'm not sure 比 I don't know 委婉。
+@v: Maybe | maybe | adv. | ˈmeɪbi | 也许；可能 | 说没把握的打算、委婉地提建议 | Maybe I'll…；Maybe later.；Maybe not. | Maybe we can have lunch together next week. | 也许我们下周可以一起吃个午饭。 | maybe 是一个词，一般放句首；分开写的 may be 是「可能是」：He may be busy.
+@v: decide | = | v. | dɪˈsaɪd | 决定；拿定主意 | 做选择、拿主意 | decide to + 动词；can't decide；decide between A and B | I can't decide between the red one and the blue one. | 红的和蓝的，我拿不定主意选哪个。 | 「决定做某事」用 decide to：I decided to stay home.；名词是 decision（D25）。
+@v: idea | = | n. | aɪˈdiːə | 主意；想法 | 赞同别人的建议、提出自己的想法 | Good idea!；I have an idea.；No idea.（完全不知道） | That's a great idea! Let's do it. | 好主意！就这么办。 | idea 有三个音节，重音在中间：i-DE-a，不读「爱迪儿」；结尾 `/ə/` 不卷舌，别加 r。
+
+@diff: 「我想……」——I want to（愿望）vs I'm going to（已经决定）
+@d_cn: 「我想去……」——可能只是想想，也可能已经决定了、票都买好了。
+@d_en: I want to go shopping.（想，但还没定）/ I'm going to visit my parents.（已经决定了）
+@d_why: 中文的「我想」「我要」「我打算」边界很模糊：「我周末想回家」可能只是想想，也可能车票都买好了。英文分得很清楚：**want to** 只表达愿望，没说到底做不做；**be going to** 表示已经决定、有了安排。所以 Emma 说 I want to go shopping, but I'm not sure.（想去，还没定），林晓说 I'm going to visit my parents.（票都买了）。如果计划早定了你却说 I want to…，对方会以为你还在犹豫。
+@d_when: 只是想、还没决定 → I want to… / I'd like to…；已经决定、做了准备 → I'm going to…
+@d_vs: **I want to visit my parents.** 我想去看我爸妈。（愿望）\n**I'm going to visit my parents.** 我要去看我爸妈。（已经定了）\n**I want to go shopping, but I'm not sure.** 我想去逛街，但还没定。\n✗ I want go shopping.
+@d_task: 用英文说：①「我想学开车，不过还没想好。」②「我下个月要去北京，票已经买了。」 | ① I want to learn to drive, but I'm not sure. ② I'm going to visit Beijing next month. I already have the ticket.
+@diff: 「我发给你」——当场答应用 will，早有计划用 be going to
+@d_cn: 「我（会）给你发」——是说话这一刻才决定、答应你的，还是早就计划好的？
+@d_en: OK, I'll send you the schedule.（当场答应）/ I'm going to visit my parents.（早就计划好）
+@d_why: 中文的「会」「要」「就」不太区分「什么时候决定的」。英文要分：**will**（常缩成 'll）用于**说话这一刻才做的决定**，或者**答应、承诺**对方——林晓问能不能看日程，Tom 当场说 OK, I'll send you the schedule.；Emma 听了林晓的建议，当场说 I'll do that.。**be going to** 用于**说话之前就已经决定的计划**。没把握的打算，常说 I'll probably… / Maybe I'll…
+@d_when: 别人提出请求，你当场答应 → I'll…；临时想到要做 → I'll…；说早就定好的打算 → I'm going to…
+@d_vs: **Can I see the schedule? — OK, I'll send it to you.** 当场答应\n**I'm going to send the schedule on Monday.** 早就打算好的\n**Maybe I'll stay home.** 也许就待在家吧。（临时的想法）\nCan I see the schedule? — OK, I'm going to send it.（不自然：像是早就打算好了）
+@d_task: 同事说「打印机又没纸了」，你当场说：「我去拿点纸。」 | I'll get some paper.
+@diff: 「我周三要见客户」——I'm meeting a client on Wednesday.
+@d_cn: 说已经约好、定了时间的安排：「我周三要见客户」「周四我们开会讨论」。
+@d_en: I'm meeting a client on Wednesday. / We're discussing it on Thursday.
+@d_why: 中文用「要 + 时间」就够了，很多人直译成 I will meet a client on Wednesday.——不算错，但美国人说**和别人约好、日历上写着的安排**，最常用 **am / is / are + -ing**，再加上具体时间。句子里的 on Wednesday 告诉对方你说的是将来，不是「现在正在见」。问别人的安排也常这样问：What are you doing this weekend?
+@d_when: 已经约好时间、地点、人的安排：见客户、开会、出差、看医生、和朋友吃饭。
+@d_vs: **I'm meeting a client on Wednesday.** 我周三要见客户。（已经约好）\n**What are you doing this weekend?** 你这周末干什么？\n**I'm meeting a client now.** 我正在见客户。（没有将来的时间，就是「现在正在」）\nI meet a client on Wednesday.（容易听成每周三的习惯）
+@d_task: 用英文说：「我周五下午要和 Emma 吃午饭。」再问同事：「你今晚干什么？」 | I'm having lunch with Emma on Friday afternoon. / What are you doing tonight?
+
+@core: What are you doing this weekend? | 问别人周末或某个时间的计划 | this weekend / tonight / after work | 正式：Do you have any plans for the weekend?｜随意：Any plans this weekend?
+@core: I'm going to + 动作. | 说已经决定的计划 | visit my parents / clean my room / see a movie | 正式：I'm planning to visit my parents.｜随意：I'm gonna visit my parents.（只在口语里说）
+@core: I'm + -ing + 时间. | 说已经约好的安排 | meeting a client on Wednesday / having lunch with Emma on Friday | 正式：I have a meeting with a client on Wednesday.｜随意：Meeting a client Wednesday.
+@core: I want to…, but I'm not sure. | 有想法，但还没决定 | go shopping / take a trip / buy a new phone | 正式：I'd like to…, but I haven't decided yet.｜随意：Thinking about going shopping. Not sure yet.
+@core: OK, I'll + 动作. | 当场答应、承诺 | send you the schedule / call you back / get some paper | 正式：Certainly. I'll send you the schedule this afternoon.｜随意：Sure, will do!
+@core: Maybe I'll… / I'll probably… | 说没把握的打算 | stay home / take an early train / go shopping | 正式：I'll most likely stay home.｜随意：Probably just stay home.
+@core: Good idea! | 赞同别人的建议 | Good idea! / Great idea! / That's a good idea. | 正式：That sounds like a good plan.｜随意：Love it!
+
+@pw: Tuesday | ˈtuːzdeɪ | 2 个音节 TUES·day | 美式 tu 读 `/tuː/`，不读「秋」；s 读 `/z/`
+@pw: Thursday | ˈθɜːrzdeɪ | 2 个音节 THURS·day | th 舌尖轻咬 `/θ/`；ur 卷舌；s 读 `/z/`
+@pw: agenda | əˈdʒendə | 3 个音节 a·GEN·da | 重音在中间；开头的 a 很轻 `/ə/`
+@pw: presentation | ˌprezənˈteɪʃn | 4 个音节 pre·sen·TA·tion | 主重音在 ta；开头读 `/prez/`，不读「普瑞」
+@pw: probably | ˈprɑːbəbli | 3 个音节 PROB·a·bly | 口语常缩成两个音节 `/ˈprɑːbli/`，像 prob-ly
+@pw: client | ˈklaɪənt | 2 个音节 CLI·ent | 是两个音节，不要读成一个音节 `/klaɪnt/`
+@pw: idea | aɪˈdiːə | 3 个音节 i·DE·a | 重音在中间；结尾 `/ə/` 不要卷舌加 r
+@ps: What are you **do**ing / this **week**end? ↘ | wh- 问句，句尾下降 ↘。What are you 快读时连成 `/ˈwʌdərjə/`，听起来像 whaddaya。
+@ps: I'm **go**ing to **vis**it my **par**ents. | 口语里 going to 常说成 gonna `/ˈɡʌnə/`：I'm gonna visit my parents. 能听懂就行，自己说 going to 完全没问题。
+@ps: I **want** to go **shop**ping, / but I'm **not sure**. | want to 口语常读成 wanna `/ˈwɑːnə/`；but 前面稍停；not sure 读重、sure 拉长。
+@ps: OK, I'll **send** you the **sched**ule. | I'll 只有一个音节 `/aɪl/`，很轻；send‿you 连读成 `/ˈsendʒu/`；schedule 美式读 `/ˈskedʒuːl/`。
+@pnote: going to → **gonna** `/ˈɡʌnə/`，want to → **wanna** `/ˈwɑːnə/`：美国人说话时几乎都这样缩读，听力里一定会遇到。只要求听得懂；写邮件、写作业仍然写 going to / want to。going to 后面是地点（I'm going to Beijing）时不能缩成 gonna。
+@pnote: 书面 I will，口语说 **I'll** `/aɪl/`，轻得只剩一个 l 的尾音，I'll send… 和 I send… 听起来很像，要靠语境判断。同样，we're、you're 也常常一带而过。
+@lfocus: gonna = going to，wanna = want to
+@lfocus: I'll 很轻，只剩 /aɪl/
+@lfocus: What are you doing…? 句尾下降
+@dict: S3
+@dict: S17
+@res: 在 YouTube 频道 Rachel's English 内搜索 "gonna wanna"，听美国人日常口语里的缩读。
+
+@mimic: 跟读【C】S11–S20 的对话：先 0.8 倍速逐句跟读，注意 What are you doing this weekend? 的降调和 I'll 的轻读；再你演林晓、手机朗读 Emma 的台词，完整对一遍并录音。最后把 S2–S9 张涛的话完整读 2 遍。
+@swap: What are you doing this weekend? | 换时间：tonight / on Saturday / after work | What are you doing after work?
+@swap: I'm going to visit my parents. | 换成你真实的计划：clean my apartment / see a movie / go hiking | I'm going to clean my apartment.
+@swap: I want to go shopping, but I'm not sure. | 换成你还没决定的事：take a trip / learn to cook / buy a new phone | I want to buy a new phone, but I'm not sure.
+@swap: I'm meeting a client on Wednesday. | 换人和时间：Emma / my friends；on Friday / tomorrow | I'm meeting my friends on Saturday.
+@free: 周五下午，你想问美国同事这个周末有什么安排。 | What are you doing this weekend?
+@free: 你已经买好了周六的电影票，告诉同事你周末要去看电影。 | I'm going to see a movie on Saturday. I already have the tickets.
+@free: 经理问：「下周的日程能发我一份吗？」你当场答应。 | Sure. I'll send you the schedule.
+@free: 同事问你五一假期去哪儿，你想去成都，但还没决定。 | I want to go to Chengdu, but I'm not sure.
+@output: 录 1 分钟「我的下周和这个周末」：下周有哪些已经约好的安排（I'm + -ing + 时间）→ 要准备哪些任务 → 这个周末已经决定做什么（I'm going to…）→ 有什么想做但还没决定的事（I want to…, but I'm not sure.）。
+@output_sample: Next week is busy. I'm meeting a client on Tuesday, so I need to prepare a presentation. On Thursday, we're discussing the meeting with the team. I have a long to-do list! This weekend, I'm going to visit my parents. I already bought the train ticket. On Sunday, I want to go shopping, but I'm not sure. Maybe I'll just stay home and rest.
+
+@check: Emma 说 I want to go shopping, but I'm not sure. 林晓说 I'm going to visit my parents. 两人的计划「定」到什么程度？ | Emma 只是想去，还没决定；林晓已经决定了，车票都买好了。
+@check: 林晓问能不能看下周的日程，Tom 说 OK, I'll send you the schedule. 为什么用 I'll，不用 I'm going to？ | 这是说话当下才做的决定、对林晓的答应，用 will；be going to 用于之前就定好的计划。
+@check: 「我周三要见客户」用英文怎么说？为什么不说 I meet a client on Wednesday？ | I'm meeting a client on Wednesday. 约好的安排用 am / is / are + -ing；I meet… 容易听成每周三的习惯。
+@check: 同事说 I'm gonna call the seller. 这里的 gonna 写出来是什么？ | going to：I'm going to call the seller.
+@check: 你想说「我还不确定」，I don't sure. 哪里错了？ | sure 是形容词，前面要用 am：I'm not sure.
+@next1: 不看书说出 S3、S9、S12、S13、S17
+@next1: 用 I want to… / I'm going to… / I'll… 各说一句你自己的打算
+@next7: 说出你下周已经约好的 3 个安排（I'm + -ing + 时间），Day 21 复习会用到
+@next7: want to / be going to / will 的区别：只是想 / 已有计划 / 当场决定

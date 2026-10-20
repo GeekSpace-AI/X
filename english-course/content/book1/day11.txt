@@ -1,0 +1,150 @@
+@day: 11
+@week: 2
+@title_cn: 周末过得怎么样
+@title_en: How Was Your Weekend?
+@topic: 周一寒暄：聊周末做了什么、感觉怎么样
+@think_short: 「怎么样」How was…? ≠ How about…?｜「还行」Not bad｜fun 好玩 ≠ funny 好笑
+
+@goal_scene: 周一早上在咖啡机旁，同事问你周末过得怎么样：先说感受，再说一两件做过的事，最后把问题问回去；别人讲周末时，你能自然地接话。
+@goal_expr: How was your weekend? / It was great! / Not bad. And you? / I went hiking with… / I stayed home and… / Sounds fun!
+@goal_vocab: 17 个重点词 + 4 个短语：周末活动、家人朋友、感受与评价
+@done: 被问 How was your weekend? 时，能用「感受 + 1–2 件事 + 反问」三步回答
+@done: 分清 How was…?（问过去的事怎么样）和 How about…?（提建议 / 你呢），不再说 How about your weekend?
+@done: 分清 fun（好玩）和 funny（好笑）；知道 Not bad 是「挺好」，so-so 听起来偏负面
+
+@warmup: 你去过美国吗？——没去过。 | Have you ever been to the U.S.? — No, I haven't. | D10
+@warmup: 我去过北京和上海。 | I've been to Beijing and Shanghai. | D10
+@warmup: 张涛不在，他去西雅图了。 | Tom isn't here. He's gone to Seattle. | D10
+@warmup: 我去过成都两次。 | I've been to Chengdu twice. | D10
+@warmup: 我给一位卖家写了第一封邮件。 | I wrote my first email to a seller. | D8
+@warmup: 我喜欢吃辣。 | I like spicy food. | D5
+
+@scene: 周一早上，咖啡机前排起了小队，Emma 和 IT 的李凯也在等咖啡。美国同事周一见面几乎一定会问 How was your weekend?——这不只是客套，对方是真想听你说一两件事。林晓周六和朋友去爬了梧桐山，正好可以聊聊；话不多的李凯，这次被 Emma 追着问了。
+@sp: 人物关系 | 林晓、Emma、李凯：同事之间的轻松闲聊，没有上下级压力
+@sp: 沟通目的 | 互相聊周末：说感受、说做了什么，让聊天接得下去
+@sp: 已知信息 | 大家都不知道别人周末做了什么；李凯话少，回答常常只有两三个词
+@sp: 表达重点 | 感受（It was great / Not bad）→ 做了什么（I went… / I stayed…）→ 反问（And you?）→ 回应别人（Sounds fun!）
+
+@story_title: Episode 11 · Monday at the Coffee Machine
+@story_type: 叙述 + 对话
+@s: It's Monday morning. Lily, Emma and Kevin are at the coffee machine. | 周一早上，林晓、Emma 和李凯都在咖啡机旁。
+@s: Emma: Morning, Lily! **How was** your **weekend**? | Emma：早，林晓！周末过得怎么样？
+@s: Lily: It was great! | 林晓：特别好！
+@s: Lily: I went **hiking** with my **friends**. | 林晓：我和朋友去爬山了。
+@s: Lily: We climbed Wutong Mountain, and the **view** from the top was **amazing**. | 林晓：我们爬了梧桐山，山顶的风景美极了。
+@s: Emma: **Sounds fun**! | Emma：听起来真好玩！
+@s: Lily: It was really **fun**. On Sunday, I just got some **rest**. | 林晓：真的很好玩。周日我就好好休息了一天。
+@br:
+@s: Emma: Good idea. Kevin, how was your weekend? | Emma：明智。李凯，你周末过得怎么样？
+@s: Kevin: **Not bad**. And you? | 李凯：还不错。你呢？
+@s: Emma: Wait, you first! What did you do? | Emma：等等，你先说！你都干什么了？
+@s: Kevin: I visited my **parents** in Dongguan. My mom **cooked** all day. | 李凯：我回东莞看爸妈了。我妈做了一整天的饭。
+@s: Kevin: The whole **family** was there. I ate too much! | 李凯：一大家子人都在，我吃撑了！
+@br:
+@s: Emma: Mine was **lazy**, but not **boring**. | Emma：我的周末懒洋洋的，不过一点也不无聊。
+@s: Emma: I just wanted to **relax**. | Emma：我就想放松一下。
+@s: Emma: I **stayed** home and watched a **funny** **movie**. | Emma：我宅在家里看了一部很搞笑的电影。
+@s: Emma: On Sunday, I **went shopping** and walked in the **park**. | Emma：周日去逛了逛街，还在公园里散了散步。
+@s: Kevin: Next weekend, let's all go hiking! | 李凯：下个周末，咱们一起去爬山吧！
+
+@v: How was | how was…? | phr. | ˈhaʊ wəz | ……怎么样？（问已经过去的事） | 问周末、旅行、会议、电影过得 / 进行得怎么样 | How was your weekend?；How was the trip?；How was it? | How was your first week at SwiftLink? | 你在 SwiftLink 的第一周过得怎么样？ | 问已经过去的事用 How was…?，不说 ✗ How about your weekend?；问正在进行的事用 How's … going?：How's the training going?
+@v: weekend | = | n. | ˈwiːkend | 周末 | 周一寒暄、约周末活动 | on the weekend；this weekend；last weekend | What did you do last weekend? | 你上周末做了什么？ | 美式说 on the weekend（英式 at the weekend）；this / last / next weekend 前面不加介词。
+@v: hiking | hike | v. | ˈhaɪkɪŋ | 徒步；爬山 | 周末户外活动 | go hiking；hike up a mountain；a hiking trail（登山步道） | We go hiking almost every month. | 我们差不多每个月都去爬一次山。 | 「去爬山」说 go hiking，不说 ✗ go to hiking / ✗ go to climb mountain；go + -ing 表示去做某项活动：go shopping、go swimming。
+@v: friends | friend | n. | frendz | 朋友 | 说和谁一起做了什么 | my friends；a good friend；make friends（交朋友） | I had dinner with some friends. | 我和几个朋友吃了顿饭。 | 「和朋友一起」说 with my friends / with some friends，复数的 s 别丢；「和某人交朋友」是 make friends with sb，不说 ✗ make a friend with sb。
+@v: view | = | n. | vjuː | 风景；（从某处看到的）景色 | 爬山、坐飞机、高楼窗外 | a great view；the view from the top；a room with a view | Our office has a nice view of the city. | 我们办公室能看到很美的城市景色。 | 「从山顶看到的风景」是 the view from the top；scenery 指一个地方整体的自然风光，日常说「从这儿看出去的景色」用 view。
+@v: amazing | = | adj. | əˈmeɪzɪŋ | 太棒了；令人惊叹的 | 夸风景、食物、经历 | an amazing view；amazing food；That's amazing! | The hot pot last night was amazing! | 昨晚那顿火锅太好吃了！ | amazing 的语气比 good、great 强得多；美国人爱用，但什么都说 amazing 会显得夸张，普通的好用 great / nice 就行。
+@v: Sounds fun | sounds fun | phr. | ˌsaʊndz ˈfʌn | 听起来很好玩 | 回应别人的经历或计划，表示有兴趣 | Sounds fun!；That sounds fun.；Sounds like fun. | We're going to the beach on Saturday. — Sounds fun! | 我们周六去海边。——听起来真好玩！ | 口语里常省掉 That / It，直接说 Sounds fun!；sounds 后面接形容词（fun / great / nice），接名词要加 like：Sounds like a plan.
+@v: fun | = | n./adj. | fʌn | 好玩；乐趣 | 说活动、经历让人开心 | a lot of fun；fun to do；have fun | Have fun on your trip! | 旅途愉快，玩得开心！ | fun 是「好玩、开心」，funny 是「好笑」；「我玩得很开心」说 I had a lot of fun，不说 ✗ I had a lot of funny。
+@v: rest | = | n. | rest | 休息 | 说累了需要休息、周末在家休息 | get some rest；a day of rest；the rest of…（剩下的） | You look tired. Get some rest. | 你看起来很累，休息一下吧。 | 「好好休息」说 get some rest；工作中途「歇一会儿」更常说 take a break；the rest of the day 是「这一天剩下的时间」。
+@v: Not bad | not bad | phr. | ˌnɑːt ˈbæd | 还不错；挺好的 | 回答「怎么样」——低调地说「挺好」 | Not bad.；Not bad at all.；Not too bad. | How's the new job? — Not bad! | 新工作怎么样？——还不错！ | Not bad 字面是「不坏」，意思偏正面，接近「挺好」；so-so 听起来是「不怎么样」，美国人很少用；说完 Not bad 最好再加一句细节。
+@v: parents | = | n. | ˈperənts | 父母；爸妈 | 说回家看父母、和父母同住 | my parents；visit my parents；live with my parents | I call my parents every Sunday. | 我每个周日都给爸妈打电话。 | 「我爸妈」最常说 my parents，很少说 my father and mother；单数 parent 只指父亲或母亲一方。
+@v: cooked | cook | v. | kʊkt | 做饭；烧（菜） | 说谁做饭、做了什么菜 | cook dinner；cook for sb；cook at home | I cooked noodles for lunch. | 我午饭煮了面条。 | -ed 读 /t/：/kʊkt/；cook 作名词是「厨师」：My dad is a great cook.——不是 cooker，cooker 是「炊具」。
+@v: family | = | n. | ˈfæməli | 家人；家庭 | 说回家、和家人一起 | my family；the whole family；family dinner | I spent the weekend with my family. | 我周末是和家人一起过的。 | 说「家」这个地方用 home，不用 family：✗ go back to my family → ✓ go home；「家里人都在」说 The whole family was there.
+@v: lazy | = | adj. | ˈleɪzi | 懒散的；（日子）悠闲的 | 说周末过得很悠闲、什么都没干 | a lazy weekend；a lazy morning；feel lazy | It was a lazy Sunday. I stayed in bed till noon. | 那是个懒洋洋的周日，我在床上躺到中午。 | 说人 lazy 是批评（懒）；说 a lazy weekend / a lazy morning 却是正面的「悠闲」。别当面说同事 You're lazy。
+@v: boring | = | adj. | ˈbɔːrɪŋ | 无聊的；没意思的 | 说事情、活动、电影没意思 | a boring movie；boring work；kind of boring | The meeting was a little boring. | 会开得有点无聊。 | 说事情无聊用 boring；说自己觉得无聊用 bored：I'm bored.——✗ I'm boring 是「我这个人很无趣」（Day 27 细讲）。
+@v: relax | = | v. | rɪˈlæks | 放松；休息 | 说周末想放松、劝别人别紧张 | relax at home；just relax；relax for a while | I like to relax with a good book. | 我喜欢看本好书放松一下。 | relax 后面不加 myself：✗ relax myself → ✓ relax；劝人别紧张直接说 Relax! 或 Take it easy.
+@v: stayed | stay | v. | steɪd | 待在；留在 | 说周末在家没出门、住在某处 | stay home；stay at a hotel；stay late（加班到很晚） | I stayed home all weekend. | 我整个周末都宅在家里。 | 美式「待在家」说 stay home，home 前不加 at（加 at 偏英式）；-ed 在元音后读 /d/：/steɪd/，不读「斯带特」。
+@v: funny | = | adj. | ˈfʌni | 好笑的；搞笑的；（也指）奇怪的 | 说电影、笑话、人很逗 | a funny movie；a funny story；That's funny. | Kevin told a funny story at lunch. | 李凯午饭时讲了个很好笑的故事。 | funny 是「好笑」，不是「好玩」：✗ The trip was funny.（想说好玩用 fun）；funny 还能表示「怪怪的」：The printer is making a funny noise.
+@v: movie | = | n. | ˈmuːvi | 电影 | 聊周末、聊爱好 | watch a movie；see a movie；a funny movie | Do you want to see a movie on Friday? | 周五想去看电影吗？ | 美国说 movie，英国多说 film；在家看用 watch a movie，去电影院看常说 see a movie / go to the movies。
+@v: went shopping | go shopping | phr. | ˌwent ˈʃɑːpɪŋ | 去购物；逛街 | 说周末活动 | go shopping；go shopping for clothes；go grocery shopping（去买菜） | I usually go shopping on Saturday. | 我一般周六去逛街。 | 不说 ✗ go to shopping / ✗ go to shop；「逛街买衣服」说 go shopping for clothes；在店里只看不买，店员问起时说 I'm just looking.
+@v: park | = | n. | pɑːrk | 公园 | 说散步、跑步、周末去哪儿玩 | in the park；a walk in the park；Lianhuashan Park | There's a small park near my home. | 我家附近有个小公园。 | 在公园「里面」散步、跑步用 in the park；park 作动词是「停车」：Where can I park?；parking lot 是「停车场」。
+
+@diff: 「周末过得怎么样？」——How was…?，不说 How about…?
+@d_cn: 问别人一件已经过去的事感觉如何：周末、旅行、电影、会议。
+@d_en: How was your weekend? / How was the trip? / How was the movie?
+@d_why: 中文「……怎么样」，很多人顺手翻成 How about…?（Day 10 刚学过 How about you?）。但英文的 **How about…?** 只有两个用法：把问题抛回给对方（How about you?），或者提建议（How about Friday? 周五怎么样？）。问一件**已经过去**的事过得好不好，要用 **How was + 名词?**；问正在进行的事，用 How's … going?
+@d_when: 周一见到同事 → How was your weekend? 同事出差、旅行、开完会回来 → How was your trip / the meeting? 想约时间 → How about Saturday?
+@d_vs: **How was your weekend?** 你周末过得怎么样？（已经过去）\n**How about this weekend?** 这个周末怎么样？（约时间、提建议）\n**How's your week going?** 这周过得怎么样？（还在进行）\n✗ How about your weekend?（想问「周末过得怎样」时）
+@d_task: 张涛从西雅图出差回来，你想问「这趟出差怎么样？」；同事刚开完会出来，你想问「会开得怎么样？」 | How was your trip? / How was the meeting?
+@diff: 「还行」——Not bad / It was OK（so-so 偏负面）
+@d_cn: 「还行」「还可以」「凑合」
+@d_en: Not bad.（挺好的）/ It was OK.（一般）/ Pretty good.（不错）
+@d_why: 很多人在学校学过 so-so =「马马虎虎」，但美国人很少说 so-so，说了听起来是「**不怎么样**」，对方可能会追问出了什么事。**Not bad** 字面是「不坏」，意思却偏正面，接近「挺好的、还不错」；**It was OK** 才是真正的「一般般」。另外，美国人问 How was your weekend? 是真想听你说点什么，只回一句 Not bad 就停下，对话就断了——所以故事里 Emma 会追问李凯。说完再加一两句细节。
+@d_when: 回答 How was…? / How are you? 时：很好 → It was great!；正面但低调 → Not bad / Pretty good；真的一般 → It was OK / Nothing special。
+@d_vs: **It was great!** 特别好！\n**Pretty good. / Not bad.** 挺好的、还不错。\n**It was OK.** 一般般。\n**So-so.** 不怎么样。（偏负面，少用）
+@d_task: 同事问 How was your weekend?：① 你周末过得挺好，去看了爸妈；② 你周末过得一般，只在家打扫了卫生（clean my apartment）。 | ① Not bad. I visited my parents. ② It was OK. I just cleaned my apartment.
+@diff: fun（好玩）≠ funny（好笑）
+@d_cn: 「好玩」vs「好笑」
+@d_en: Hiking was fun.（好玩、开心）/ The movie was funny.（好笑、逗）
+@d_why: 中文「好玩」和「好笑」很好分，可英文 fun 和 funny 只差两个字母，中国学习者常把「好玩」说成 funny。**fun** = 让人玩得开心、享受（爬山、聚会、游戏）；**funny** = 让人发笑（电影、笑话、一个人说话很逗）。说 The trip was funny，美国人会以为旅途中发生了什么搞笑的事。funny 还有「奇怪」的意思：That's funny… 可能是「这就怪了……」。
+@d_when: 活动、经历让你开心 → fun；内容、人让你发笑 → funny；回应别人的计划或经历 → Sounds fun!
+@d_vs: **The party was fun.** 聚会很好玩。\n**Emma is really funny.** Emma 很逗。\n**I had a lot of fun.** 我玩得很开心。（fun 是名词，不说 a lot of funny）\n✗ Hiking was very funny.（想说「好玩」时）
+@d_task: 用英文说：「上周的团队聚餐很好玩，Emma 讲了个很好笑的故事。」 | The team dinner last week was really fun. Emma told a very funny story.
+@diff: 「你呢？」——And you? / How about you?
+@d_cn: 回答完别人的问题，把同样的问题问回去：「你呢？」
+@d_en: Not bad. And you? / It was great. How about you? / How was yours?
+@d_why: 中文一个「你呢？」就够了，英文也有现成的短句，不需要把整个问题重复一遍：**And you?** 最短，常跟在寒暄的回答后面；**How about you? / What about you?**（Day 10 学过）稍完整，适合聊天时把话题交给对方；**How was yours?** 专门接 How was your…? 这类问题。美国人寒暄几乎一定会把问题问回去——只回答不反问，会显得你不想聊。
+@d_when: 别人问 How are you? / How was your weekend? / Have you been to…? → 先回答，再加 And you? / How about you?
+@d_vs: **Good, thanks. And you?** 挺好的，谢谢。你呢？\n**I've been to Chengdu twice. How about you?** 我去过成都两次。你呢？\n**It was great. How was yours?** 挺好的。你的周末呢？
+@d_task: 同事问 How was your weekend?（你在家休息了，过得还不错。回答完把问题问回去。） | Not bad. I stayed home and got some rest. How about you?
+
+@core: How was your weekend? | 周一见到同事的固定寒暄 | weekend / trip / the movie / the meeting | 正式：Did you have a nice weekend?｜随意：How was the weekend?
+@core: It was great! / Not bad. / It was OK. | 回答「怎么样」，从好到一般 | great / pretty good / not bad / OK | 正式：It was very nice, thank you.｜随意：Pretty good!
+@core: I went + -ing + with… | 说周末做了什么活动、和谁一起 | hiking / shopping / swimming；my friends / my family | 正式：I went hiking with some friends.｜随意：Went hiking!
+@core: I stayed home and + 过去式. | 说宅在家做了什么 | watched a movie / cooked / got some rest | 正式：I stayed in and relaxed.｜随意：Just stayed home.
+@core: The view / food was amazing. | 挑经历里最好的一点来说 | view / food / weather；amazing / beautiful / great | 正式：The view from the top was spectacular.｜随意：Amazing view!
+@core: Sounds fun! | 回应别人的经历或计划，表示有兴趣 | Sounds fun / Sounds great / Sounds nice | 正式：That sounds wonderful.｜随意：Fun!
+@core: …And you? / How about you? | 回答之后把问题问回去 | And you? / How about you? / How was yours? | 正式：And how was yours?｜随意：You?
+
+@pw: weekend | ˈwiːkend | 2 个音节 WEEK·end | 美式重音在 week（英式常在 end）；ee 读长音 `/iː/`
+@pw: relax | rɪˈlæks | 2 个音节 re·LAX | 重音在后；lax 的 a 嘴巴张大 `/æ/`
+@pw: family | ˈfæməli | 3 个音节 FAM·i·ly | 口语常缩成两个音节 `/ˈfæmli/`
+@pw: parents | ˈperənts | 2 个音节 PAR·ents | pa 读 `/pe/`（像 pair），不读「帕」
+@pw: movie | ˈmuːvi | 2 个音节 MO·vie | o 读长音 `/uː/`，不读「莫」
+@pw: amazing | əˈmeɪzɪŋ | 3 个音节 a·MA·zing | 重音在中间，读得高而长，才有惊喜的感觉
+@pw: fun / funny | fʌn / ˈfʌni | fun 1 个音节；funny 2 个音节 FUN·ny | 元音都是短 `/ʌ/`；funny 只多一个 `/i/`，意思完全不同
+@ps: **How** was your **week**end? / — It was **great**! | was 弱读 `/wəz/`，your 弱读 `/jər/`；回答里的 great 读得高、长、有热情。
+@ps: I went **hik**ing / with my **friends**. | went 的 t 和 hiking 之间几乎不爆破；friends 结尾 `/ndz/` 不能丢，否则听起来像单数。
+@ps: **Sounds fun**! | sounds 结尾是 `/ndz/`；fun 重读、拉长，语调先升后降，听起来才有兴趣。
+@ps: I **stayed** home / and **watched** a **fun**ny **mov**ie. | 一句话里两种 -ed：stayed 读 `/d/`，watched 读 `/t/`；and 弱读成 `/ən/`。
+@pnote: 寒暄里有大量弱读：How was your 连起来像 `/haʊ wəz jər/`；It was 里的 t 常弹成轻 d：`/ɪdwəz/`。
+@pnote: Not bad 的 t 不爆破，听起来像 `/nɑː bæd/`。语调轻快、句尾下降，是「挺好」；拖长、平平地说，就变成「还凑合吧」——语气比单词本身更能说明意思。
+@lfocus: How was your 的弱读和连读
+@lfocus: stayed 的 -ed 是 /d/，watched 的 -ed 是 /t/
+@lfocus: Not bad 的 t 被吞掉
+@dict: S4
+@dict: S15
+@res: 在 youglish.com 输入 "sounds fun"，选 US，听美国人回应别人时的语调。
+
+@mimic: 跟读【C】S2–S17：先用 0.8 倍速逐句跟读 2 遍，重点模仿 How was your weekend 的弱读和 Sounds fun! 的语调；再由你演林晓、手机朗读 Emma 和李凯的台词，完整对一遍并录音。
+@swap: I went hiking with my friends. | 换活动和人：shopping / swimming；my family / my coworkers | I went shopping with my sister.
+@swap: I stayed home and watched a funny movie. | 换在家做的事：cooked dinner / got some rest / read a book | I stayed home and cooked dinner for my parents.
+@swap: The view from the top was amazing. | 换成你周末最好的一点：the food / the weather / the movie | The food was amazing.
+@swap: Not bad. And you? | 换回答：It was great / Pretty good / It was OK；换反问：How about you? | Pretty good. How about you?
+@free: 周一早上，美国同事问：How was your weekend?（很好，你和家人去了海边） | It was great! I went to the beach with my family.
+@free: 同事说：I went hiking on Sunday. 你想回应「听起来很好玩！」，再问他去了哪儿。 | Sounds fun! Where did you go?
+@free: 同事问你周末怎么样（一般般，在家休息了一天），回答后把问题问回去。 | It was OK. I just stayed home and got some rest. How about you?
+@free: 你想告诉同事：「昨晚我看了一部很搞笑的电影，不过结尾有点无聊。」 | I watched a funny movie last night, but the ending was a little boring.
+@output: 录 1 分钟「我的周末」：先回答 How was your weekend?（感受）→ 说 2–3 件做过的事（I went… / I stayed… / I visited…）→ 最好的一点（The … was amazing）→ 最后把问题问回去（How about you?）。录完检查：fun 和 funny 有没有用混？
+@output_sample: My weekend was great! On Saturday, I went hiking with my friends. We climbed a small mountain near Shenzhen. The view was amazing, and it was a lot of fun. On Sunday, I visited my parents. My mom cooked my favorite food. In the evening, I stayed home and watched a funny movie. It was a nice, relaxing weekend. How about you?
+
+@check: 你想问同事「你周末过得怎么样？」，说 How about your weekend? 可以吗？ | 不可以。问已经过去的事用 How was your weekend?；How about…? 是提建议或问「你呢」。
+@check: 李凯说 Not bad，他的周末过得好还是不好？ | 挺好的。Not bad 偏正面，相当于「还不错」；只是他话少，Emma 才追问细节。
+@check: 你和朋友去爬山，玩得很开心。说 Hiking was very funny. 对吗？ | 不对。「好玩」是 fun：Hiking was really fun. funny 是「好笑」。
+@check: Emma 说 I stayed home and watched a funny movie. 这里 stayed 和 watched 的 -ed 各怎么读？ | stayed 读 `/d/`，watched 读 `/t/`，都不多加音节。
+@check: 同事说 We're going to Hong Kong this weekend. 你想说「听起来真好玩」，怎么说？ | Sounds fun!
+@next1: 不看书说出 S2、S3、S4、S6、S9、S15
+@next1: 用「感受 + 1–2 件事 + 反问」回答 How was your weekend?
+@next1: fun 和 funny 各造一个句子
+@next7: How was…?（问过去的事）和 How about…?（提建议 / 你呢）的区别（Day 14 复习日会用到）
+@next7: 「还行」的几种说法和语气：great / pretty good / not bad / OK / so-so

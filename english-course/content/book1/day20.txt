@@ -1,0 +1,153 @@
+@day: 20
+@week: 3
+@title_cn: 网上买办公用品
+@title_en: Ordering Office Supplies
+@topic: 数量、价格、折扣、大数字
+@think_short: 「多少」：How many 还是 How much｜advice / information 不加 s｜「三万」= thirty thousand
+
+@goal_scene: 帮团队在网上订办公用品：问清楚每样要多少、多少钱，比较便宜的和贵的、看折扣，算出总价；顺便聊聊公司每个月发多少包裹。
+@goal_expr: How many…? / How much is it? / Is that enough? / I need some advice. / We send about thirty thousand packages a month. / The total is…
+@goal_vocab: 17 个重点词 + 4 个短语：办公用品与网购、价格与折扣、百 / 千 / 百万、不可数名词
+@done: 能分清 How many 和 How much，问清楚数量和价格
+@done: 能用英文读出 2,350、30,000、1,000,000 这样的数字，知道中文的「万」怎么换算
+@done: 说 advice、information 时不加 s，需要数的时候会用 a piece of…
+
+@warmup: 本周的发货报告在附件里。 | I've attached the weekly shipment report. | D19
+@warmup: 有任何问题请告诉我。 | Please let me know if you have any questions. | D19
+@warmup: 收到，谢谢！ | Got it, thanks! | D19
+@warmup: 截止时间是周五。 | The deadline is Friday. | D19
+@warmup: 请问吴佳在吗？ | Can I speak to Grace Wu? | D17
+@warmup: 你介意教我怎么打印标签吗？ | Would you mind showing me how to print the labels? | D15
+
+@scene: 第三周快结束了，吴佳让林晓在网上给办公室订一批办公用品：打印纸、打包胶带……林晓第一次用这个采购网站，要问清楚每样要多少、多少钱、哪个划算、有没有折扣，最后报出总价。聊到为什么要买那么多胶带，吴佳说出了一个让林晓吃惊的数字。
+@sp: 人物关系 | 林晓 ↔ 吴佳：入职搭子，关系很熟，说话随意；吴佳熟悉采购流程
+@sp: 沟通目的 | 弄清楚买什么、买多少、多少钱，挑性价比高的，算出总价
+@sp: 已知信息 | 吴佳知道办公室每个月大概用多少东西；林晓不知道该买哪种纸、买多少才够
+@sp: 表达重点 | 可数的东西问 How many，不可数的东西和价格问 How much；大数字三位一组读；请对方给建议（advice 不加 s）
+
+@story_title: Episode 20 · "How Much Is It?"
+@story_type: 叙述 + 对话
+@s: Grace: Lily, can you order some **office supplies** **online**? | 吴佳：林晓，你能在网上订一些办公用品吗？
+@s: Grace: Here's the **website** we always use. | 吴佳：这是我们一直用的网站。
+@br:
+@s: Lily: **How many** **boxes** of printer paper do we need? | 林晓：打印纸我们要几箱？
+@s: Grace: Five. And we need some packing **tape**, too. | 吴佳：五箱。还要一些打包胶带。
+@s: Grace: That one looks good. **How much** is it? | 吴佳：那款看着不错。多少钱？
+@s: Lily: Eighty yuan for twelve rolls. Is that **enough**? | 林晓：十二卷八十块。够吗？
+@s: Grace: No, get thirty-six. We send about thirty **thousand** packages a month. | 吴佳：不够，买三十六卷吧。我们每个月要发大约三万个包裹。
+@s: Lily: Thirty thousand? That's a lot! | 林晓：三万个？好多啊！
+@s: Grace: And our system tracks over a **million** packages a year. | 吴佳：我们的系统一年追踪的包裹还超过一百万个呢。
+@br:
+@s: Lily: This paper is **cheap**, but that one is **expensive**. | 林晓：这款纸很便宜，那款就贵了。
+@s: Lily: I need some **advice**. | 林晓：我想听听你的建议。
+@s: Grace: Here's **a piece of** advice: cheap paper is bad for our printer. | 吴佳：给你一个建议：便宜的纸对我们的打印机不好。
+@s: Lily: OK. And the good one has a **discount** this week. | 林晓：好。而且好的那款这周正好打折。
+@s: Grace: Great. Check the delivery **information**, too. | 吴佳：太好了。再看看配送信息。
+@s: Grace: How much does delivery **cost**? | 吴佳：运费多少钱？
+@s: Lily: It's free for orders over a thousand yuan. | 林晓：订单满一千块就免运费。
+@br:
+@s: Lily adds a few more things to the **cart**. | 林晓又往购物车里加了几样东西。
+@s: Lily: The **total** is two thousand three **hundred** and fifty yuan. | 林晓：总共两千三百五十块。
+@s: Grace: That's a good **price**. Thanks, Lily! | 吴佳：价格挺划算。谢谢你，林晓！
+
+@v: office supplies | = | phr. | ˈɔːfɪs səˌplaɪz | 办公用品 | 公司采购纸、笔、胶带、文件夹等 | order office supplies；buy office supplies；an office supplies store | We're out of office supplies. Can you order some? | 办公用品用完了，你能订一些吗？ | supplies 用复数；「办公用品」不说 office things 或 office goods。
+@v: online | = | adv./adj. | ˌɑːnˈlaɪn | 在网上；网上的 | 网购、线上会议、上网查东西 | buy sth online；order online；online shopping | I usually buy books online. | 我一般在网上买书。 | 「在网上买」说 buy online，online 前面不加 on 或 in：✗ buy on online → ✓ buy online。
+@v: website | = | n. | ˈwebsaɪt | 网站 | 网购、查信息、公司官网 | on the website；our website；visit the website | You can find the price on our website. | 价格在我们网站上可以查到。 | 「在网站上」用 on：on the website，不说 in the website；w 嘴唇撅圆，不读成 v。
+@v: boxes | box | n. | ˈbɑːksɪz | 箱；盒 | 买东西论箱；打包发货 | a box of paper；two boxes；shipping boxes | We need ten boxes for the samples. | 我们需要十个箱子装样品。 | 复数加 -es，多出一个音节 `/ɪz/`；「一箱纸」说 a box of paper，of 不能省。
+@v: How many | how many…? | phr. | ˌhaʊ ˈmeni | 多少（个） | 问可数东西的数量 | How many + 复数？；How many people…?；How many do we need? | How many people are coming to the meeting? | 有多少人来开会？ | 后面接可数名词复数：✗ How many box → ✓ How many boxes；不可数的东西和钱用 How much。
+@v: tape | = | n. | teɪp | 胶带 | 打包、封箱、贴通知 | packing tape；a roll of tape；tape the box（用胶带封箱） | Can I borrow some tape? | 能借我点胶带吗？ | 「胶带」是不可数名词：some tape / a roll of tape，不说 a tape 或 tapes。
+@v: How much | how much…? | phr. | ˌhaʊ ˈmʌtʃ | 多少（钱 / 量） | 问价格；问不可数东西的量 | How much is it?；How much does it cost?；How much tape…? | How much is the shipping? | 运费多少钱？ | 问价格不用加 money：✗ How much money is it? → ✓ How much is it?
+@v: enough | = | adj./adv. | ɪˈnʌf | 足够的；足够地 | 确认数量够不够 | enough paper；Is that enough?；not enough time | Do we have enough chairs for everyone? | 椅子够大家坐吗？ | 修饰名词放前面：enough time；修饰形容词放后面：big enough，不说 enough big；gh 读 `/f/`。
+@v: thousand | = | num. | ˈθaʊznd | 千 | 说包裹量、价格、人数 | two thousand；thirty thousand；thousands of… | The new laptop is about seven thousand yuan. | 新笔记本电脑大约七千块。 | 前面有具体数字时不加 s：✗ two thousands → ✓ two thousand；只有说「好几千」时才用 thousands of packages。
+@v: million | = | num. | ˈmɪljən | 百万 | 大数字：订单量、用户数、金额 | a million；two million；millions of… | Our sellers ship over two million packages a year. | 我们的卖家每年发货超过两百万件。 | 中文「一百万」= one million，「一千万」= ten million；前面有数字时同样不加 s：three million。
+@v: cheap | = | adj. | tʃiːp | 便宜的；（东西）廉价的 | 比价格、说东西的质量 | cheap paper；really cheap；too cheap | This pen is cheap, but it works well. | 这支笔很便宜，但挺好用。 | cheap 有时带「便宜没好货」的意思；夸价格划算说 a good price；说一个人 cheap 是「小气」。
+@v: expensive | = | adj. | ɪkˈspensɪv | 贵的 | 比价格 | too expensive；a little expensive；more expensive | Shipping to the U.S. is expensive. | 寄到美国的运费很贵。 | 「价格很贵」说 The price is high，不说 The price is expensive；只有说东西本身才用 expensive：It's expensive.
+@v: advice | = | n. | ədˈvaɪs | 建议；意见 | 请别人帮忙出主意 | some advice；a piece of advice；give sb advice | Can you give me some advice about this email? | 这封邮件你能给我提点建议吗？ | 不可数：✗ an advice / advices → ✓ some advice；动词是 advise `/ədˈvaɪz/`，拼写和读音都不同。
+@v: a piece of | = | phr. | ə ˈpiːs əv | 一条 / 一张 / 一件（不可数名词的量词） | 数不可数的东西：建议、信息、纸 | a piece of advice；a piece of paper；a piece of information | Can I have a piece of paper? | 能给我一张纸吗？ | 和中文量词很像：一张纸 = a piece of paper；但它只配不可数名词，能数的直接数：✗ a piece of pen → ✓ a pen。
+@v: discount | = | n. | ˈdɪskaʊnt | 折扣；优惠 | 网购、批量采购、给客户报价 | a 10% discount；get a discount；discount code | Can we get a discount for a big order? | 大单能打个折吗？ | 中文「打八折」英文说减掉的部分：20% off / a 20% discount；直译成 80% discount 就变成「减掉八成」了。
+@v: information | = | n. | ˌɪnfərˈmeɪʃn | 信息；资料 | 产品信息、配送信息、客户资料 | delivery information；more information；a piece of information | You can find more information on our website. | 更多信息可以在我们网站上找到。 | 不可数：✗ informations / an information → ✓ some information；口语常缩成 info。
+@v: cost | = | v. | kɔːst | 花费；（价钱）是 | 问价格、说东西卖多少钱 | How much does it cost?；It costs…；cost a lot | How much does it cost to ship a box to Seattle? | 寄一箱到西雅图要多少钱？ | 主语是东西，不是人：✓ It costs eighty yuan. ✗ I cost eighty yuan.；人花钱用 spend：I spent eighty yuan.
+@v: cart | = | n. | kɑːrt | （网购）购物车；手推车 | 网购下单之前 | add to cart；in the cart；shopping cart | I put three things in my cart, but I haven't paid yet. | 我往购物车里放了三样东西，但还没付款。 | 网站上的 Add to Cart 就是「加入购物车」；英式英语叫 basket；car 和 cart 只差一个 t，别读漏了。
+@v: total | = | n. | ˈtoʊtl | 总数；总价 | 结账、算总价 | the total；in total；What's the total? | What's the total for this order? | 这个订单一共多少钱？ | 「一共多少钱」说 What's the total?；「总共」放句尾用 in total：We need fifty boxes in total.
+@v: hundred | = | num. | ˈhʌndrəd | 百 | 说价格、数量 | two hundred；three hundred and fifty；hundreds of… | We have about two hundred customers in Texas. | 我们在得州大约有两百个客户。 | 前面有数字时不加 s：✗ three hundreds → ✓ three hundred；英式在 hundred 后面加 and，美国人口语常省略。
+@v: price | = | n. | praɪs | 价格 | 比价、报价 | a good price；the price of…；price list | The price is good, but delivery takes a week. | 价格不错，可是配送要一周。 | 「价格高 / 低」说 The price is high / low，不说 The price is expensive / cheap。
+
+@diff: 「多少」——How many 还是 How much？
+@d_cn: 问数量：「要几箱纸？」「要多少胶带？」「多少钱？」
+@d_en: How many boxes do we need? / How much tape do we need? / How much is it?
+@d_why: 中文一个「多少」，后面什么都能接；英文要先看后面的东西**能不能一个一个地数**：能数的（boxes、packages、people）用 **How many + 复数**；不能直接数的（tape、paper、water、time）用 **How much**。问价格永远用 **How much**，因为钱在这里是「金额」，不是一个个的东西。
+@d_when: 下单、盘点、问人数、问价格。拿不准时，看这个英文名词能不能加 s：boxes 能 → many；tape 不能 → much。
+@d_vs: **How many boxes do we need?** 要几箱？（box 可数）\n**How much tape do we need?** 要多少胶带？（tape 不可数）\n**How much is it?** 多少钱？\n✗ How many money? → ✓ How much money?
+@d_task: 用 How many 或 How much 问：① 我们有多少个客户？② 打印纸还剩多少？③ 这个多少钱？ | ① How many customers do we have? ② How much printer paper is left? ③ How much is this? / How much does this cost?
+@diff: 不可数名词：some advice / some information，不加 s
+@d_cn: 「给我一些建议」「一些信息」「一些胶带」。
+@d_en: I need some advice. / Here's some information. / a piece of advice / a roll of tape
+@d_why: 中文名词没有单复数，「一些建议」「几条信息」都很自然；英文里 **advice、information、paper（纸张）、tape** 这类词被看成「一团」而不是「一个个」，是**不可数名词**：不加 s，前面也不用 a / an。要数它们，就借一个「量词」：**a piece of advice、two pieces of information、a box of paper、a roll of tape**——这和中文「一条建议」「一卷胶带」的思路其实很像。
+@d_when: 请别人给建议、提供信息、说办公用品的数量。
+@d_vs: ✗ an advice / advices → ✓ some advice / a piece of advice\n✗ informations → ✓ some information\n**a box of paper / a roll of tape** 一箱纸 / 一卷胶带
+@d_task: 用英文说：「我能给你一条建议吗？」「网站上有很多信息。」 | Can I give you a piece of advice? / There's a lot of information on the website.
+@diff: 「三万」——thirty thousand（英文三位一组）
+@d_cn: 说大数字：三万、三十六万、两千三百五十。
+@d_en: thirty thousand (30,000) / three hundred sixty thousand (360,000) / two thousand three hundred and fifty (2,350)
+@d_why: 中文四位一组：个、十、百、千、**万**、亿；英文三位一组：thousand（千）、**million**（百万）、billion（十亿）。英文里没有「万」，所以「三万」要先换算成「三十个千」= **thirty thousand**；「十万」= one hundred thousand；「一百万」= one million。最省事的办法是看书写时的逗号：30,000 → 逗号前是 30 → thirty thousand。
+@d_when: 说包裹量、销售额、价格、人数的时候。2,350 美国人常读 two thousand three hundred fifty，英式会加 and，两种都能听懂。
+@d_vs: 三万 = 30,000 = **thirty thousand**（✗ three ten thousand）\n三十六万 = 360,000 = **three hundred sixty thousand**\n两百万 = 2,000,000 = **two million**\n✗ two thousands → ✓ two thousand
+@d_task: 用英文读出：① 5 万 ② 12 万 ③ 150 万 | ① fifty thousand ② one hundred twenty thousand ③ one million five hundred thousand / one and a half million
+@diff: 「这个多少钱？」——How much is it? / How much does it cost?
+@d_cn: 问价格。
+@d_en: How much is it? / How much does it cost? / What's the price?
+@d_why: 中文「多少钱」直译成 How much money is it? 语法上说得通，但美国人几乎不这么说——问价格时 money 是多余的，**How much** 本身就是「多少钱」。还有两个常见错：「价格是多少」不说 How much is the price?（price 已经是「价格」了）；「这个要多少钱」用 **cost** 时，主语是东西：It costs eighty yuan.，说成 I cost eighty yuan. 就变成「我值八十块」了。
+@d_when: 网购、问同事东西多少钱买的、问报价；问一共多少钱：What's the total?
+@d_vs: ✓ **How much is it?** / **How much does it cost?** 这个多少钱？\n✓ **What's the price?** 价格是多少？\n✗ How much money is it?　✗ How much is the price?\n**It costs eighty yuan.** 它卖八十块。（✗ I cost eighty yuan.）
+@d_task: 同事新买了一个充电器，你问：「这个多少钱？在哪儿买的？」 | How much was it? Where did you buy it? / How much did it cost?
+
+@core: How many + 可数名词复数 + do we need? | 问需要的数量 | boxes / pens / chairs | 正式：How many boxes should I order?｜随意：How many?
+@core: How much is it? / How much does it cost? | 问价格 | it / this / the shipping | 正式：Could you tell me the price?｜随意：How much?
+@core: Is that enough? | 确认数量够不够 | enough / too much / too many | 正式：Will that be enough for the month?｜随意：Enough?
+@core: I need some advice. | 请别人给建议 | advice / information / help | 正式：Could I ask for your advice?｜随意：What do you think?
+@core: We send about + 数字 + packages a month. | 说数量和频率 | thirty thousand / a million；a month / a year | 正式：We ship approximately thirty thousand packages per month.｜随意：About thirty thousand a month.
+@core: The total is + 金额. | 说总价 | two thousand three hundred and fifty yuan / 99 dollars | 正式：The total comes to 2,350 yuan.｜随意：It's 2,350 total.
+@core: It has a discount this week. | 说折扣、优惠 | this week / today / for big orders | 正式：There's a 10% discount this week.｜随意：It's on sale!
+
+@pw: thousand | ˈθaʊznd | 2 个音节 THOU·sand | th 舌尖轻咬、送气，不读 s（不是「骚」）；sand 很轻，只剩 `/znd/`
+@pw: hundred | ˈhʌndrəd | 2 个音节 HUN·dred | dred 很轻；快速说时常听到 `/ˈhʌnərd/`
+@pw: million | ˈmɪljən | 2 个音节 MIL·lion | lion 读 `/ljən/`，不读「狮子」那个 lion `/ˈlaɪən/`
+@pw: expensive | ɪkˈspensɪv | 3 个音节 ex·PEN·sive | 重音在中间；结尾 v 上牙轻咬下唇，不要吞掉
+@pw: information | ˌɪnfərˈmeɪʃn | 4 个音节 in·for·MA·tion | 重音在 ma；for 弱读成 `/fər/`
+@pw: discount | ˈdɪskaʊnt | 2 个音节 DIS·count | 名词重音在前；count 的 `/aʊ/` 嘴巴从大到小
+@pw: website | ˈwebsaɪt | 2 个音节 WEB·site | w 嘴唇撅圆，不读 v；b 只闭嘴不爆开，直接接 s
+@ps: We send a**bout** **thir**ty **thou**sand **pack**ages a **month**. | thirty 重音在前，t 读成轻轻弹一下的 d：`/ˈθɜːrdi/`；thousand 的 th 要咬舌；a month 的 a 弱读 `/ə/`。
+@ps: The **to**tal is / **two** thousand / **three** hundred and **fif**ty **yuan**. | 大数字按「千 / 百」分组停顿；数字本身读重，thousand、hundred 读轻一点；and 弱读成 `/ən/`。
+@ps: How **much**‿is‿it? | much is it 连成一串：`/mʌtʃɪzɪt/`；问价格是特殊疑问句，语调下降，不用上扬。
+@ps: I **need** some ad**vice**. | some 弱读 `/səm/`；advice 重音在后，结尾是清辅音 `/s/`（动词 advise 结尾是 `/z/`）。
+@pnote: thirteen / thirty、fourteen / forty、fifteen / fifty 最容易听错。-teen 重音在后、拉长，t 读得清楚：`/θɜːrˈtiːn/`；-ty 重音在前，t 读成轻轻的 d：`/ˈθɜːrdi/`。谈价格、记数量时拿不准，就问一句：Did you say thirteen or thirty?
+@pnote: 英文数字三位一组：1,000 = one thousand，10,000 = ten thousand，100,000 = one hundred thousand，1,000,000 = one million。听大数字时，先抓 thousand / million 前面的那个数，再听后面的零头。
+@lfocus: thirty 重音在前，thirteen 重音在后
+@lfocus: 大数字先抓 thousand / million 前面的数
+@lfocus: How much is it 连成一串
+@dict: S7
+@dict: S18
+@res: 在 YouTube 频道 Rachel's English 内搜索 "thirteen thirty"，听 -teen 和 -ty 的重音区别。
+
+@mimic: 跟读【C】S3–S19：先 0.8 倍速逐句跟读，重点模仿数字的读法（thirty thousand、two thousand three hundred and fifty）和 How much is it 的连读；再由你演林晓、手机朗读吴佳的台词，完整对一遍并录音。
+@swap: How many boxes of printer paper do we need? | 换东西：pens / chairs / bottles of water | How many bottles of water do we need?
+@swap: How much is it? | 换成 How much does … cost?，问运费或别的东西 | How much does the shipping cost?
+@swap: I need some advice. | 换不可数名词：information / help | I need some information about the order.
+@swap: The total is two thousand three hundred and fifty yuan. | 换金额：1,480 / 12,600 / 36,000 | The total is twelve thousand six hundred yuan.
+@free: 同事让你给明天的会议订矿泉水，你问「要几瓶？」 | How many bottles of water do we need?
+@free: 你在网上看中一把椅子，但拿不准价格合不合适，请同事给点建议。 | What do you think of the price? I need some advice.
+@free: 美国同事问你公司每个月发多少包裹（大约 3 万个）。 | We send about thirty thousand packages a month.
+@free: 你告诉同事：订单一共 1,860 元，而且打了折。 | The total is one thousand eight hundred (and) sixty yuan. We got a discount, too.
+@output: 录 1 分钟「帮团队买东西」：要买什么、各要多少（How many / How much）→ 价格贵不贵、有没有折扣 → 总价 → 再说一个和你工作有关的大数字（比如每月的订单量）。录完检查：大数字有没有按三位一组读？有没有说 advices / informations？
+@output_sample: Today I ordered some office supplies online. We needed five boxes of printer paper and some tape. The good paper is a little expensive, but it has a discount this week. The tape is cheap: eighty yuan for twelve rolls. The total was two thousand three hundred and fifty yuan. We need a lot of tape because we send about thirty thousand packages a month.
+
+@check: 「我们需要多少胶带？」和「我们需要几箱纸？」分别用 How much 还是 How many？为什么？ | How much tape（tape 不可数）；How many boxes（box 可数）。
+@check: 为什么不能说 I need some advices.？如果想说「一条建议」呢？ | advice 是不可数名词，不加 s；「一条建议」说 a piece of advice。
+@check: 「三万」为什么是 thirty thousand，而不是 three ten thousand？ | 英文三位一组，没有「万」；30,000 是三十个 thousand。
+@check: 问价格时说 How much is the price? 有什么问题？ | price 已经是「价格」，意思重复了；说 How much is it? 或 What's the price?
+@check: 听到 thirteen 和 thirty，怎么分辨？ | thirteen 重音在后、拉长（thir-TEEN）；thirty 重音在前（THIR-ty），t 像轻轻的 d。
+@next1: 不看书说出 S3、S5、S7、S18
+@next1: 用 How many / How much 各问一个问题
+@next1: 读出这些数字：13 / 30 / 3,000 / 30,000 / 2,350
+@next7: How many vs How much；advice / information 不加 s，用 a piece of 来数
+@next7: 把中文的「万」换成英文：三万、十二万、一百万

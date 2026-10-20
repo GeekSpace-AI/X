@@ -1,0 +1,144 @@
+@day: 10
+@week: 2
+@title_cn: 你去过吗
+@title_en: Have You Been There?
+@topic: 聊去过的地方和旅行经历；说明同事不在、去了哪里
+@think_short: 「去过」I've been to ≠「去年去了」I went…｜been to ≠ gone to｜「没去过」No, I haven't.
+
+@goal_scene: 午饭时同事问你去过哪些地方：先说经历（去过哪儿、去过几次），再挑一次讲具体时间；同事问起不在的经理，你能说清他去了哪里。
+@goal_expr: Have you ever been to…? / No, I haven't. / I've been to… / I went to… last year. / He's gone to… / How about you?
+@goal_vocab: 17 个重点词 + 4 个短语：旅行与出行、城市与国家、次数、愿望
+@done: 用 I've been to… 说出你去过的 3 个地方，再用 I went to… + 时间讲其中一次
+@done: 别人问 Have you ever been to…? 能马上回答 No, I haven't. / Yes, once. / Yes, twice.
+@done: 同事不在时能说 He's gone to…，并能说出 been to 和 gone to 的区别
+
+@warmup: 抱歉，我来晚了。 | Sorry I'm late. | D9
+@warmup: 五号线出了事故，所以地铁停了二十分钟。 | There was an accident on Line 5, so the subway stopped for twenty minutes. | D9
+@warmup: 没关系。下次给我发个消息就行。 | No problem. Next time, just send me a message. | D9
+@warmup: 因为下雨，路上堵得厉害。 | The traffic was really bad because it was raining. | D9
+@warmup: 西雅图现在是晚上六点。 | It's 6 p.m. in Seattle now. | D6
+@warmup: Mike 是西雅图的工程师，他带领工程团队。 | Mike is an engineer in Seattle. He leads the engineering team. | D4
+
+@scene: 第二周的周四中午，林晓和 Emma 在楼下吃午饭。经理张涛昨晚飞去了西雅图，要和那边的工程团队开会，下周才回来。Emma 一上午没见到他，就问林晓；接着两人聊起了各自去过的地方——Emma 是西雅图人，林晓还没出过国。
+@sp: 人物关系 | 林晓 ↔ Emma：同事，也是聊得来的饭搭子，气氛轻松
+@sp: 沟通目的 | 告诉 Emma 张涛去哪儿了；互相聊去过的地方，让聊天接下去
+@sp: 已知信息 | Emma 不知道张涛出差了；林晓知道 Emma 来自西雅图，但不知道她在中国去过哪里
+@sp: 表达重点 | 经理不在：He's gone to Seattle → 经历：I've been to… / No, I haven't. → 具体那一次：I went to… last year → 次数：once / twice → 把问题问回去：How about you?
+
+@story_title: Episode 10 · Places We've Been
+@story_type: 叙述 + 对话
+@s: It's Thursday, and Lily is having lunch with Emma. | 周四，林晓和 Emma 一起吃午饭。
+@s: Emma: Where's Tom? I didn't see him this morning. | Emma：张涛呢？今天上午都没看见他。
+@s: Lily: Tom isn't here. He's **gone** to Seattle. | 林晓：张涛不在，他去西雅图了。
+@s: Lily: He's on a **business trip**. He **flew** there last night. | 林晓：他出差了，昨天晚上飞过去的。
+@s: Emma: Oh, I miss Seattle! | Emma：哎，好想念西雅图啊！
+@s: Emma: It rains a lot, but it's a **beautiful** **city**. | Emma：那儿经常下雨，不过是座很美的城市。
+@s: Emma: Have you **ever** **been to** the U.S.? | Emma：你去过美国吗？
+@s: Lily: No, I haven't. | 林晓：没去过。
+@s: Lily: I've never been **abroad**. I don't even have a **passport**! | 林晓：我从来没出过国，连护照都没有！
+@br:
+@s: Emma: What about China? It's a big **country**. | Emma：那国内呢？中国这么大。
+@s: Emma: What **places** have you been to? | Emma：你都去过哪些地方？
+@s: Lily: I've been to Beijing and Shanghai. | 林晓：我去过北京和上海。
+@s: Lily: I went to Beijing on a **trip** **last year**. | 林晓：去年我去北京玩了一趟。
+@s: Lily: It's a **famous** city, but the **weather** was so cold! | 林晓：北京很有名，可我去的时候天气太冷了！
+@s: Lily: I've been to Chengdu **twice**. **How about you**? | 林晓：成都我去过两次。你呢？
+@s: Emma: Yes, just **once**. I loved the hot pot! | Emma：去过，就一次。那里的火锅我太爱了！
+@br:
+@s: Emma: You should **visit** Seattle **someday**. | Emma：以后你一定要去西雅图看看。
+@s: Lily: I **hope** so! But first, I need a passport. | 林晓：希望有这么一天！不过我得先办个护照。
+
+@v: gone | go | v. | gɔːn | 去了（人还没回来）（go 的过去分词） | 说某人不在、去了别的地方 | He's gone to…；She's gone home.；has gone to lunch | Grace isn't here. She's gone to lunch. | 吴佳不在，她吃午饭去了。 | go 的三种形式：go → went → gone；He's gone to Seattle = 他现在人在西雅图；He's been to Seattle = 他去过西雅图（早就回来了）。
+@v: business trip | = | phr. | ˈbɪznəs ˌtrɪp | 出差 | 说同事出差、自己要出差 | on a business trip；go on a business trip；a business trip to Seattle | Emma is on a business trip this week. | Emma 这周出差了。 | 「出差」不说 ✗ go out for business；「正在出差」用 on：He's on a business trip.；business 只读两个音节 /ˈbɪznəs/，中间的 i 不发音。
+@v: flew | fly | v. | fluː | 坐飞机去；飞（fly 的过去式） | 说坐飞机去哪儿、什么时候飞的 | fly to Seattle；fly back；fly from Shenzhen | I flew to Shanghai for the meeting. | 我是坐飞机去上海开的会。 | 「坐飞机去」一个 fly 就够了，不说 ✗ take a plane to fly to…；过去式是 flew，不是 flied；flew 和 flu（流感）同音。
+@v: beautiful | = | adj. | ˈbjuːtɪfl | 美丽的；（风景、城市）很美的 | 夸城市、风景、天气 | a beautiful city；beautiful weather；a beautiful day | Hangzhou is a beautiful city. | 杭州是座很美的城市。 | 拼写容易错：beau-ti-ful，结尾只有一个 l；夸男人帅不用 beautiful，用 handsome / good-looking。
+@v: city | = | n. | ˈsɪti | 城市 | 聊去过哪里、住在哪里 | a big city；my favorite city；the city center | Shenzhen is a young city. | 深圳是一座年轻的城市。 | 前面要有 a / the 或其他修饰：✗ It's beautiful city. → ✓ It's a beautiful city.；美式 t 弹成轻 d：/ˈsɪdi/。
+@v: ever | = | adv. | ˈevər | 曾经；（问句里）有没有……过 | 问别人的经历 | Have you ever…?；never ever；the best … ever | Have you ever tried hot pot? | 你吃过火锅吗？ | ever 主要用在问句里；肯定回答不加 ever：✗ Yes, I have ever been there. → ✓ Yes, I've been there.
+@v: been to | have been to | phr. | ˈbɪn tə | 去过（某地） | 说自己的经历：去过哪些地方 | have been to…；have never been to…；Have you been to…? | I've been to Hong Kong three times. | 我去过香港三次。 | 「去过」不说 ✗ I have gone to Beijing（那是「去了还没回来」）；句子里有具体时间（last year）就不能用 have been，要用 went。
+@v: abroad | = | adv. | əˈbrɔːd | 在国外；到国外 | 说出国、留学、在国外工作 | go abroad；study abroad；travel abroad | My cousin works abroad. | 我表哥在国外工作。 | abroad 是副词，前面不加 to：✗ go to abroad → ✓ go abroad；也不说 ✗ in abroad。
+@v: passport | = | n. | ˈpæspɔːrt | 护照 | 出国、办手续、订机票 | get a passport；passport number；passport photo | Don't forget your passport! | 别忘了带护照！ | 「办护照」说 get a passport 或 apply for a passport，不说 ✗ do a passport；「签证」是 visa /ˈviːzə/。
+@v: country | = | n. | ˈkʌntri | 国家 | 聊去过哪些国家、来自哪个国家 | a big country；another country；my home country | How many countries have you been to? | 你去过多少个国家？ | 复数是 countries；ou 在这里读 /ʌ/（像 come 的元音），不读「康」里的 /aʊ/。
+@v: places | place | n. | ˈpleɪsɪz | 地方 | 聊去过的地方、推荐好去处 | a nice place；places to visit；my place（我家） | What places should I visit in Shenzhen? | 在深圳我应该去哪些地方看看？ | my place / your place 是「我家 / 你家」：Let's meet at my place.；复数 -ces 读 /sɪz/，多一个音节。
+@v: trip | = | n. | trɪp | 旅行；（短途）出行 | 说一次出游、一次出差 | a trip to Beijing；on a trip；a short trip | How was your trip? | 这趟出去玩得怎么样？ | 「去旅行」说 go on a trip / take a trip，不说 ✗ go to trip；trip 指一次具体的出行，travel 多作动词「旅行」。
+@v: last year | = | phr. | ˌlæst ˈjɪr | 去年 | 说去年发生的事 | last year；last summer；last month | I joined the company last year. | 我是去年加入这家公司的。 | 和 last night 一样，前面不加 in：✗ in last year；「前年」是 the year before last。
+@v: famous | = | adj. | ˈfeɪməs | 有名的；著名的 | 介绍城市、景点、美食、品牌 | famous for sth；a famous place；world-famous | Chengdu is famous for its food. | 成都以美食出名。 | 「因……而出名」用 famous for，不说 ✗ famous of / famous by。
+@v: weather | = | n. | ˈweðər | 天气 | 聊天开场、出差前问天气 | nice weather；the weather in Seattle；How's the weather? | How's the weather in Seattle today? | 西雅图今天天气怎么样？ | weather 不可数：✗ a nice weather → ✓ nice weather；和 whether（是否）同音不同义。
+@v: twice | = | adv. | twaɪs | 两次 | 说次数、频率 | twice；twice a week；twice a year | We have video calls with Seattle twice a week. | 我们每周和西雅图开两次视频会。 | 「两次」口语里 twice 比 two times 常用；三次以上才用 times：three times；「一周两次」是 twice a week，不说 ✗ twice one week。
+@v: How about you | how about you | phr. | ˌhaʊ əˌbaʊt ˈjuː | 你呢？ | 说完自己的情况，把同样的问题问回去 | How about you?；And you?；What about you? | I'm from Hunan. How about you? | 我是湖南人。你呢？ | How about 后面接人是「你呢」，接时间、活动是提建议：How about Friday?（周五怎么样？）；不能用来问「过得怎么样」：✗ How about your trip? → ✓ How was your trip?
+@v: once | = | adv. | wʌns | 一次 | 说次数、频率 | once；once a week；only once | I've only been to Hong Kong once. | 我只去过香港一次。 | 读 /wʌns/，开头有 w 音，不读「昂斯」；「一次」口语里多说 once，one time 也能听懂，但不如 once 自然。
+@v: visit | = | v. | ˈvɪzɪt | 去（某地）看看；拜访 | 说去某个城市、拜访客户或家人 | visit Seattle；visit a customer；visit my parents | I want to visit my parents this weekend. | 这个周末我想去看看爸妈。 | visit 后面直接跟地方或人，不加 to：✗ visit to Seattle → ✓ visit Seattle；s 读 /z/：/ˈvɪzɪt/。
+@v: someday | = | adv. | ˈsʌmdeɪ | 将来某一天；总有一天 | 说愿望、不确定什么时候实现的计划 | someday；I hope to … someday. | I want to live by the sea someday. | 我希望有一天能住在海边。 | someday 只指「将来」的某天；讲过去的「有一天」用 one day：One day last week, …
+@v: hope | = | v. | hoʊp | 希望 | 说愿望、祝福别人 | I hope so.；hope to do sth；I hope you… | I hope you have a great trip! | 祝你旅途愉快！ | 「我希望如此」说 I hope so，不说 ✗ I hope it；hope 后面接 to do 或一个句子，不能说 ✗ hope sb to do。
+
+@diff: 「我去过北京」≠「我去年去了北京」
+@d_cn: 「去过」说的是一种经历，不在乎哪一次；「去年去了」说的是某个具体时间发生的事。
+@d_en: I've been to Beijing.（去过——经历）/ I went to Beijing last year.（去年去的——具体那一次）
+@d_why: 中文用「过」表示经历，用「了」加时间词说那一次。英文对应两种动词形式：说经历用 **have been to**（I've been to…），句子里不出现具体时间；一旦说出具体时间（last year、in 2023、yesterday），就要换成过去式 **went**。✗ I've been to Beijing last year 是中国学习者最常见的错误——last year 和 I've been 不能放在一起。
+@d_when: 聊「你去过哪里」「有没有……过」→ have been to；接着讲那次是什么时候、和谁、做了什么 → went / was / ate… 美国人聊天常这样：先用 have been 引出话题，再用过去式讲细节。
+@d_vs: **I've been to Beijing.** 我去过北京。（经历，不说时间）\n**I went to Beijing last year.** 我去年去了北京。（具体时间）\n✗ I've been to Beijing last year.\n**Have you been to Beijing? — Yes. I went there in 2023.** 先说经历，再讲具体那一次
+@d_task: 用英文说：「我去过上海，是去年五月去的。」 | I've been to Shanghai. I went there last May.
+@diff: been to（去过、回来了）≠ gone to（去了、还没回来）
+@d_cn: 「他去西雅图了」（人现在在那儿）vs「他去过西雅图」（去过，已经回来了）
+@d_en: He's gone to Seattle.（去了，现在不在这里）/ He's been to Seattle.（去过，说的是经历）
+@d_why: 中文「去了」「去过」一字之差，英文的差别在 gone 和 been：**has gone to** = 人已经去了那里，现在还没回来——所以同事找他时说 He's gone to Seattle；**has been to** = 去过、早就回来了，说的是经历。林晓说 Tom isn't here. He's gone to Seattle.，意思就是「他现在人在西雅图」。
+@d_when: 有人找同事、同事不在 → He's gone to… / She's gone home.（她已经回家了）；聊经历 → I've been to… 说自己一般不用 I've gone to…——你人就站在这里说话呢。
+@d_vs: **Tom has gone to Seattle.** 张涛去西雅图了。（现在在西雅图）\n**Tom has been to Seattle.** 张涛去过西雅图。（现在在哪儿不一定）\n**Grace has gone home.** 吴佳已经回家了。\n**I've been to Chengdu twice.** 我去过成都两次。
+@d_task: 一位卖家打电话找吴佳，可她已经下班回家了。用英文告诉对方。 | Sorry, Grace isn't here. She's gone home.
+@diff: 「你去过……吗？——没去过。」怎么回答
+@d_cn: 「你去过美国吗？——没去过。/ 去过一次。」
+@d_en: Have you ever been to the U.S.? — No, I haven't. / Yes, once. / Yes, I have. Twice.
+@d_why: 中文回答「去过」「没去过」，把动词重复一遍就行。英文的简短回答要用问句里的 **have**：No, I haven't. / Yes, I have.——不能说 ✗ No, I didn't.（问的不是某一次）。想说次数，用 **once**（一次）、**twice**（两次）、three times（三次及以上用 times）。只说 No, I haven't. 就停下来，聊天容易冷场，美国人通常会补一句：No, I haven't. But I hope to go someday.
+@d_when: 别人问 Have you ever…? / Have you been to…? 时。回答完再加一句细节或反问（How about you?），聊天就接下去了。
+@d_vs: **Have you ever been to Japan? — No, I haven't.** 没去过。\n**— Yes, I have. I went there last year.** 去过，去年去的。\n**— Yes, twice.** 去过两次。\n✗ No, I didn't.（回答经历问题时不能用 didn't）
+@d_task: 用英文回答：① Have you ever been to Hong Kong?（去过一次）② Have you ever been abroad?（没出过国） | ① Yes, once. / Yes, I have. Once. ② No, I haven't.
+
+@core: Have you ever been to + 地方? | 问别人去没去过某地 | the U.S. / Beijing / Chengdu；abroad 前不加 to | 正式：Have you ever had the chance to visit the U.S.?｜随意：Ever been to the States?
+@core: No, I haven't. / Yes, once. / Yes, twice. | 回答经历问题 | once / twice / three times / many times | 正式：No, I haven't had the chance yet.｜随意：Nope, never.
+@core: I've been to + 地方. | 说自己去过哪些地方 | Beijing / Shanghai / Chengdu | 正式：I've had the chance to visit Beijing and Shanghai.｜随意：I've been to Beijing, Shanghai… a few places.
+@core: I went to + 地方 + 时间. | 讲具体哪一次 | last year / in 2023 / last summer | 正式：I visited Beijing on a trip last year.｜随意：Went to Beijing last year.
+@core: He's gone to + 地方. | 告诉别人某人不在、去了哪里 | Seattle / lunch / a meeting；home 前不加 to | 正式：He's away on a business trip in Seattle.｜随意：He's in Seattle this week.
+@core: …How about you? | 说完自己，把同样的问题问回去 | How about you? / And you? / What about you? | 正式：And yourself?｜随意：You?
+@core: I hope to + 动作 + someday. | 说一个还没实现的愿望 | visit the U.S. / go abroad / see Seattle | 正式：I hope to visit Seattle one day.｜随意：Someday, I hope!
+
+@pw: abroad | əˈbrɔːd | 2 个音节 a·BROAD | oa 读 `/ɔː/`，像 talk 的元音；不读「阿布柔德」
+@pw: beautiful | ˈbjuːtɪfl | 3 个音节 BEAU·ti·ful | 开头 `/bjuː/` 有个 y 音；美式 t 弹成轻 d：`/ˈbjuːdɪfl/`
+@pw: famous | ˈfeɪməs | 2 个音节 FA·mous | a 读 `/eɪ/`；-mous 很轻，读 `/məs/`，不读「冒斯」
+@pw: weather | ˈweðər | 2 个音节 WEA·ther | th 是 `/ð/`：舌尖放在上下牙之间振动，不读 `/z/` 或 `/d/`
+@pw: passport | ˈpæspɔːrt | 2 个音节 PASS·port | 第一个 a 嘴巴张大 `/æ/`；port 要卷舌
+@pw: someday | ˈsʌmdeɪ | 2 个音节 SOME·day | 重音在 some；写成一个词
+@pw: twice | twaɪs | 1 个音节 | tw 一起发，嘴唇先圆起来；结尾是清音 `/s/`，不读 `/z/`
+@ps: Have you **ev**er been to the **U.S.**? / — **No**, I **ha**ven't. | 问句开头的 have 弱读成 `/həv/`；been 弱读 `/bɪn/`；回答里 haven't 要读重，结尾的 t 几乎不爆破。
+@ps: Tom **is**n't here. / He's **gone** to Se**at**tle. | He's 很短 `/hiːz/`；gone `/gɔːn/` 读重——它告诉你「人去了、还没回来」；Seattle 的重音在第二个音节：`/siˈætl/`。
+@ps: I've been to Bei**jing** / and Shang**hai**. | I've 只有一个音节 `/aɪv/`，v 轻轻带过；been to 连成 `/bɪntə/`；美式读 Beijing、Shanghai，重音都在后面。
+@ps: I **went** to Bei**jing** on a **trip** / last‿**year**. | went to 的 t 只做口型：`/wen tə/`；last year 的 t 和 y 连成 `/tʃ/`，听起来像 `/læsˈtʃɪr/`。
+@pnote: 口语里 I have been、He has gone 几乎都缩成 **I've** `/aɪv/`、**He's** `/hiːz/`。注意 He's 可能是 He is，也可能是 He has：He's gone = He has gone；He's here = He is here——看后面跟的是什么。
+@pnote: been 在美式口语里通常读 `/bɪn/`（像 bin），不读 `/biːn/`；to 弱读 `/tə/`，所以 been to 听起来像一个词 `/bɪntə/`。
+@lfocus: I've 的 /v/ 很轻，听起来几乎像 I been
+@lfocus: He's gone 里的 's 是 has
+@lfocus: been to 连读成 /bɪntə/
+@dict: S3
+@dict: S13
+@res: 在 youglish.com 输入 "have you ever been to"，选 US，听美国人怎么问、怎么回答。
+
+@mimic: 跟读【C】S2–S18：先用 0.8 倍速逐句跟读 2 遍，重点模仿 I've、He's gone 的缩读和 been `/bɪn/` 的读音；再由你演林晓、手机朗读 Emma 的台词，完整对一遍并录音。
+@swap: I've been to Beijing and Shanghai. | 换成你去过的两个地方 | I've been to Guangzhou and Xiamen.
+@swap: I went to Beijing on a trip last year. | 换地方和时间：last summer / in 2022 / last month | I went to Xiamen on a trip last summer.
+@swap: Tom isn't here. He's gone to Seattle. | 换人和去处：Grace / lunch；Kevin / a meeting | Grace isn't here. She's gone to lunch.
+@swap: I've been to Chengdu twice. | 换地方和次数：once / three times | I've been to Hong Kong once.
+@free: 美国同事问：Have you ever been to the U.S.?（你没去过，但希望有一天能去） | No, I haven't. But I hope to go someday.
+@free: 新同事问你去过国内哪些城市（你去过广州和杭州，杭州是去年去的），说完再问问对方。 | I've been to Guangzhou and Hangzhou. I went to Hangzhou last year. How about you?
+@free: 客户打电话找张涛，他去西雅图出差了。 | Sorry, Tom isn't here. He's gone to Seattle on a business trip.
+@free: 朋友问你去过成都没有（你去过三次，很喜欢那里的火锅）。 | Yes, I've been to Chengdu three times. I love the hot pot there.
+@output: 录 1 分钟「我去过的地方」：说出 2–3 个你去过的城市（I've been to…）→ 挑一次讲细节：什么时候、和谁、感觉怎么样（I went… / It was…）→ 一个你还没去过、但想去的地方（I've never been to…, but I hope to… someday）。录完检查：有没有把 last year 和 I've been 放在一句里？
+@output_sample: I've been to a few cities in China. I've been to Guangzhou, Xiamen and Chengdu. I've been to Chengdu twice. I went there with my friends last year. The food was spicy and delicious. I've never been abroad, and I don't have a passport yet. But I hope to visit the U.S. someday.
+
+@check: 林晓先说 I've been to Beijing，又说 I went to Beijing on a trip last year。第二句为什么不用 I've been？ | 第二句有具体时间 last year，要用过去式 went；I've been to 只说经历，不能和 last year 放在一起。
+@check: Emma 问 Where's Tom? 林晓回答 He's been to Seattle. 可以吗？ | 不可以。He's been to Seattle 是「他去过西雅图」，没说他现在在哪儿；人不在、去了西雅图，要说 He's gone to Seattle.
+@check: 有人问 Have you ever been to Japan? 你没去过，回答 No, I didn't. 对吗？ | 不对。问句用的是 have，回答也用 have：No, I haven't.
+@check: 「我出过两次国」怎么说？abroad 前面要加 to 吗？ | I've been abroad twice. abroad 本身就有「到国外」的意思，前面不加 to。
+@check: He's gone to Seattle. 里的 He's 是 He is 还是 He has？你怎么判断？ | He has。后面是 gone（过去分词），前面只能是 has。
+@next1: 不看书说出 S3、S8、S12、S13、S15
+@next1: 用 I've been to… 说你去过的 3 个地方，再用 I went to… 讲其中一次
+@next1: been to 和 gone to 各说一句
+@next7: I've been to（经历）和 I went to + 时间（具体一次）的区别（Day 14 复习日会检查）
+@next7: 回答 Have you ever…? 的三种方式：No, I haven't. / Yes, once. / Yes, twice.

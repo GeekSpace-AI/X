@@ -1,0 +1,153 @@
+@day: 13
+@week: 2
+@title_cn: 问与答
+@title_en: Questions and Answers
+@topic: 在线回复客户咨询；提问和简短回答
+@think_short: 问句要把 is / do / can 提前｜Yes, it is. 不只说 Yes｜「你不饿吗？——不饿」= No, I'm not.｜What does … mean?
+
+@goal_scene: 第一次在线回复美国卖家的咨询：看懂对方的问题，查完信息后用简短、清楚的英文回答；遇到看不懂的缩写，马上问同事是什么意思。
+@goal_expr: Is my package in the U.S. yet? — Let me check. Yes, it is. / Can I change the address? — I'm afraid not. / What does "ETA" mean? / Aren't you hungry? — No, I'm not.
+@goal_vocab: 17 个重点词 + 4 个短语：提问与回答、包裹与地址、在线客服
+@done: 能把一句陈述句变成英文问句：把 is / can / do 放到最前面，不再只在句尾加问号
+@done: 回答 Yes / No 问题时用简短回答 Yes, it is. / No, I don't.，不只说一个 Yes
+@done: 听到 Aren't you…? / Don't you…? 能按事实回答，不再把 Yes / No 答反
+
+@warmup: 我电脑坏了，登不上系统。 | My computer isn't working. I can't log in to the system. | D12
+@warmup: 你试过重启吗？ | Have you tried restarting it? | D12
+@warmup: 我把密码忘了。 | I forgot my password. | D12
+@warmup: 你的账号被锁了。我帮你重置一下密码。 | Your account is locked. I'll reset your password. | D12
+@warmup: 张涛不在，他去西雅图了。 | Tom isn't here. He's gone to Seattle. | D10
+@warmup: 我去过北京和上海。 | I've been to Beijing and Shanghai. | D10
+
+@scene: 第二周的一天上午，吴佳第一次让林晓自己在线回复美国卖家的咨询，她坐在旁边看着。卖家的问题五花八门：包裹到哪儿了、能不能改地址、具体哪天到……林晓还在系统里看到一个不认识的缩写。一直忙到十二点半，吴佳问她：Aren't you hungry?
+@sp: 人物关系 | 林晓 → 美国卖家（客户，第一次打交道，只在网上文字聊天）；林晓 ↔ 吴佳（入职搭子，可以随时请教）
+@sp: 沟通目的 | 准确、礼貌地回答卖家的问题；看不懂的地方马上问吴佳
+@sp: 已知信息 | 卖家只知道自己寄了包裹，不知道它现在到了哪儿；林晓能在系统里查到状态，但还不熟悉里面的缩写
+@sp: 表达重点 | 先查（Let me check）→ 用简短回答说清楚（Yes, it is.）→ 办不到的事礼貌地拒绝（I'm afraid not.）→ 不懂就问（What does … mean?）
+
+@story_title: Episode 13 · A Quick Question
+@story_type: 叙述 + 在线对话
+@s: Lily **opens** the online **chat**. | 林晓打开在线客服的聊天窗口。
+@s: Today, she answers seller **questions** for the first time. | 今天是她第一次回答卖家的问题。
+@s: Grace sits next to her. | 吴佳坐在她旁边。
+@br:
+@s: Seller: Hi! **Quick** question. Is my **package** in the U.S. yet? | 卖家：你好！问个小问题：我的包裹到美国了吗？
+@s: Lily: **Let me check**. Yes, it is. It arrived in Los Angeles this morning. | 林晓：我查一下。到了，今天早上到的洛杉矶。
+@s: Seller: Great! Can I **change** the **address**? | 卖家：太好了！我能改一下地址吗？
+@s: Lily: **I'm afraid not**. It's already on the way to you. | 林晓：恐怕不行，包裹已经在送往您那里的路上了。
+@s: Seller: I **understand**. Do you **know** **exactly** when? | 卖家：明白了。那你知道具体哪天到吗？
+@s: The screen says "ETA: Friday." Lily **asks** Grace. | 屏幕上写着“ETA: Friday”。林晓转头问吴佳。
+@s: Lily: What does "ETA" **mean**? | 林晓：“ETA”是什么意思？
+@s: Grace: It means "estimated time of arrival." | 吴佳：意思是“预计到达时间”。
+@s: Lily: The ETA is Friday. Is there **anything else**? | 林晓（回复卖家）：预计周五送到。您还有别的问题吗？
+@s: Seller: No, that's all. Thanks! | 卖家：没有了，谢谢！
+@br:
+@s: Grace: Good job! You were **careful**, and your answers were **correct**. | 吴佳：干得好！你很仔细，回答得也都对。
+@s: Grace: **For example**, you didn't just say "Yes." You said "Yes, it is." | 吴佳：比如，你没有只回一个“Yes”，而是说了“Yes, it is.”
+@br:
+@s: At 12:30, Lily is **still** working. | 十二点半了，林晓还在忙。
+@s: Grace: Aren't you hungry? | 吴佳：你不饿吗？
+@s: Lily: No, I'm not. I had a big breakfast. | 林晓：不饿，我早饭吃得很饱。
+@s: Grace: Are you **sure**? The noodle place is **closed** after one. | 吴佳：真的吗？楼下那家面馆一点以后就关门了哦。
+@s: Lily: OK, let's go! | 林晓：好吧，那走吧！
+
+@v: opens | open | v. | ˈoʊpənz | 打开（窗口、文件、邮件、门） | 打开聊天窗口、文件、App | open a file；open the chat；open an email | Can you open the file I sent you? | 你能打开我发给你的文件吗？ | 「打开电脑 / 开灯」用 turn on，不说 open；open 也是形容词「营业中的」：Is the store open?——不说 Is the store opened?
+@v: chat | = | n. | tʃæt | （网上的）聊天；在线客服对话 | 客服在线聊天窗口、同事之间发消息 | online chat；live chat；chat with sb | Most sellers ask us questions in the chat. | 大多数卖家都在线上聊天窗口里问我们问题。 | chat 是轻松地聊或在网上打字聊，正式的商谈、开会不叫 chat；「和某人聊」说 chat with sb。
+@v: questions | question | n. | ˈkwestʃənz | 问题（要问的） | 客户咨询、开会提问、请教同事 | ask a question；a quick question；Any questions? | Do you have any questions? | 大家还有什么问题吗？ | 「问问题」是 ask a question，✗ ask a problem；problem 是「故障、麻烦」（D12），question 是「要问的问题」。
+@v: Quick | quick | adj. | kwɪk | 快的；简短的；花时间少的 | 「问个小问题」「很快看一眼」 | a quick question；a quick look；a quick reply | Can I ask a quick question? | 我能问个小问题吗？ | Quick question 是美国人打扰别人时的常用开场白：「就一个小问题，不占你多少时间」；quick 强调花的时间短，fast 强调速度快：✗ a fast question。
+@v: package | = | n. | ˈpækɪdʒ | 包裹 | 物流、快递、网购 | send a package；track a package；a package from China | Your package arrived this morning. | 您的包裹今天早上到了。 | 美国人说「包裹 / 快递」多用 package（parcel 偏英式）；「我的快递到了」说 My package is here.，不说 My express is here.
+@v: Let me check | let me check | phr. | ˌlet mi ˈtʃek | 我查一下 | 需要先查资料、看系统，再回答对方 | Let me check.；Let me check for you.；Let me check and get back to you. | Let me check and get back to you in five minutes. | 我查一下，五分钟后回复您。 | 「我查一下」不说 I check a little.；客服里先说 Let me check，比直接沉默去查更礼貌，对方知道你在处理。
+@v: change | = | v. | tʃeɪndʒ | 改；更改 | 改地址、改时间、改密码 | change the address；change the date；change A to B | Can we change the meeting to three? | 我们能把会改到三点吗？ | 「改成……」用 change … to …；改正错误常用 fix 或 correct，不一定用 change。
+@v: address | = | n. | ˈædres | 地址 | 收货地址、邮箱地址 | shipping address；email address；the wrong address | What's your email address? | 你的邮箱地址是什么？ | 美国地址从小写到大：门牌号 → 街道 → 城市 → 州 → 邮编，和中文顺序相反；拼写是两个 d、两个 s。
+@v: I'm afraid not | i'm afraid not | phr. | ˌaɪm əˌfreɪd ˈnɑːt | 恐怕不行；恐怕不是（礼貌地说 No） | 客服、同事之间拒绝请求，或告诉对方一个坏消息 | I'm afraid not.；I'm afraid so.（恐怕是的）；I'm afraid I can't. | Is the office open on Sunday? — I'm afraid not. | 周日办公室开门吗？——恐怕不开。 | 这里的 afraid 不是「害怕」，只是让「不」听起来柔和；中国人常直接说 No, you can't.，在客服场合显得生硬。
+@v: understand | = | v. | ˌʌndərˈstænd | 理解；明白 | 听懂、看懂；表示理解对方的情况 | I understand.；understand English；Do you understand? | Sorry, I don't understand. Can you say that again? | 不好意思，我没听懂，能再说一遍吗？ | 「我懂了」说 I understand. 或 I see.，✗ I'm understand；对上级、客户问 Do you understand? 像老师考学生，可以改问 Is that clear?
+@v: know | = | v. | noʊ | 知道 | 问对方知不知道某个信息 | Do you know…?；I don't know.；know exactly | Do you know where the printer is? | 你知道打印机在哪儿吗？ | k 不发音；「我不知道」说 I don't know，✗ I no know；注意 Do you know 后面的语序：where the printer is，不说 where is the printer。
+@v: exactly | = | adv. | ɪɡˈzæktli | 确切地；具体地 | 问具体时间、数字；单独用表示「完全正确」 | exactly when；exactly how many；Exactly! | I don't know exactly when he'll be back. | 我不清楚他具体什么时候回来。 | 「具体哪天」不说 specific when，说 exactly when；单说 Exactly! 是「对，就是这个意思！」，不是在问问题。
+@v: asks | ask | v. | æsks | 问；请教 | 向同事请教、问客户信息 | ask a question；ask sb about sth；ask for help | Ask Grace. She knows everything about the system. | 去问吴佳吧，系统的事她都知道。 | 「问某人」直接 ask sb，不加 to：✗ ask to Grace → ✓ ask Grace；asks 末尾 /sks/ 三个辅音连在一起，不要加元音读成「阿斯克斯」。
+@v: mean | = | v. | miːn | 意思是 | 问词、缩写或某句话是什么意思 | What does … mean?；It means…；What do you mean? | What does this word mean? | 这个词是什么意思？ | 问的时候用 does + mean，回答用 means：✗ What is "ETA" mean? → ✓ What does "ETA" mean? — It means…
+@v: anything else | = | phr. | ˌeniθɪŋ ˈels | 别的（事情、东西） | 客服、店员在结束对话前问对方还需要什么 | Is there anything else?；anything else I can help with；Anything else? | Is there anything else I can help you with? | 还有什么我能帮您的吗？ | 「还有别的吗」不说 Have other things?；回答「没有了」：No, that's all. / That's it, thanks.
+@v: careful | = | adj. | ˈkerfəl | 仔细的；小心的 | 工作认真；提醒别人注意 | be careful；careful with…；a careful worker | Be careful with the address. One wrong number can send the package to the wrong city. | 地址要仔细，写错一个数字，包裹就可能被送到别的城市。 | 「小心！」说 Be careful!；Take care 是道别时的「保重」，不是「小心」；careful 只有一个 l。
+@v: correct | = | adj. | kəˈrekt | 正确的；没错的 | 核对信息、确认答案 | That's correct.；the correct address；the correct answer | Is this the correct address? | 这个地址对吗？ | 口语里 right 更随意，correct 更正式，适合工作中确认信息；correct 也能当动词「改正」：correct a typo。
+@v: For example | for example | phr. | fər ɪɡˈzæmpəl | 例如；比如 | 举例说明 | for example；…, for example, … | Some sellers use short forms, for example, "ETA" or "ASAP." | 有些卖家会用缩写，比如 ETA 或 ASAP。 | 不要用 such as 开头一个句子：✗ Such as, you… → ✓ For example, you…；such as 只放在名词后面列举：short forms such as "ETA"。
+@v: still | = | adv. | stɪl | 还；仍然 | 说某事到现在还在继续 | still working；still here；still not ready | Are you still at the office? | 你还在公司吗？ | 位置：放在动作前、am / is / are 后：She's still working.；「还没」一般说 not yet（D2），still not 语气更重：「到现在居然还没……」。
+@v: sure | = | adj. | ʃʊr | 确定的；（回答请求）当然、好啊 | 确认对方是否确定；爽快答应别人 | Are you sure?；I'm sure.；Sure! | Can you help me with this? — Sure! | 你能帮我弄一下这个吗？——没问题！ | 答应请求时 Sure! 最常用、最自然；「我确定」是 I'm sure，✗ I sure；sure 读 `/ʃʊr/`，不读「秀」。
+@v: closed | = | adj. | kloʊzd | 关门的；不营业的 | 商店、餐厅、办公室不开门 | closed on Sundays；closed for lunch；The store is closed. | The bank is closed on Sundays. | 银行周日不营业。 | 「关门了」说的是状态，用 is closed：✗ The shop is close. → ✓ The shop is closed.；close 作形容词读 `/kloʊs/`，意思是「近的」。
+
+@diff: 「……吗？」——把 is / do / can 放到最前面
+@d_cn: 在一句话后面加个「吗」，把它变成问题：包裹到美国了吗？我能改地址吗？你知道吗？
+@d_en: Is my package in the U.S. yet? / Can I change the address? / Do you know exactly when?
+@d_why: 中文提问很省事：陈述句语序不变，句尾加「吗」就行。英文要把 **is / are / can** 搬到主语前面：The package **is** in the U.S. → **Is** the package in the U.S.? 句子里本来没有 is、can 的（比如 You know…），要请 **do / does** 来帮忙：**Do** you know…? 只在句尾加问号、语调上扬（You can help me?），美国人听起来像吃惊或者再确认一遍，不是正常提问。
+@d_when: 句子里有 am / is / are → 直接提前；有 can / will → 直接提前；只有普通动词（know、have、want）→ 前面加 do / does，问过去的事加 did。
+@d_vs: **The package is in L.A.** → **Is** the package in L.A.?\n**I can change it.** → **Can** I change it?\n**You know the ETA.** → **Do** you know the ETA?\n✗ You can help me? ✗ The package is in L.A. or not?
+@d_task: 把这三句变成问句：① The printer is on this floor. ② You have a charger. ③ She can speak Chinese. | ① Is the printer on this floor? ② Do you have a charger? ③ Can she speak Chinese?
+@diff: 「到了。」——Yes, it is. 不只说 Yes
+@d_cn: 回答「是不是 / 有没有 / 能不能」这类问题。
+@d_en: Yes, it is. / No, it isn't. / Yes, I do. / No, you can't.
+@d_why: 中文回答时常重复问题里的动词：「到了吗？——到了。」「知道吗？——知道。」英文的习惯是 **Yes / No + 主语 + 问句开头的那个词**：问 Is…? 就答 it is；问 Do you…? 就答 I do；问 Can…? 就答 I can。只说一个 Yes 不算错，但在客服和工作中显得冷淡、像没认真听；加上短短的 it is / I do，回答就清楚又确定。注意：肯定的简短回答不能缩写，✗ Yes, it's. → ✓ Yes, it is.
+@d_when: 回答客户、经理的 Yes / No 问题时，特别是文字聊天；说完简短回答，最好再补一句信息：Yes, it is. It arrived this morning.
+@d_vs: **Is it in L.A.? — Yes, it is.**\n**Do you have the tracking number? — No, I don't.**\n**Can I change it? — No, you can't.** / **I'm afraid not.**（更礼貌）\n✗ Yes, it's.
+@d_task: 用简短回答回复卖家：① Is my package in Los Angeles?（在）② Do you work on weekends?（不）③ Can I call you?（可以） | ① Yes, it is. ② No, I don't. ③ Yes, you can.
+@diff: 「你不饿吗？」「不饿。」——No, I'm not.
+@d_cn: 回答带「不」的问题：「你不饿吗？」——「不饿」或「饿啊」。
+@d_en: Aren't you hungry? — No, I'm not.（不饿）/ Yes, I am.（饿）
+@d_why: 中文是**跟着对方的话**回答：「你不饿吗？」——「对，（我）不饿。」英文不管问题里有没有 not，**只看事实**：事实是「不饿」，就说 No, I'm not.；事实是「饿」，就说 Yes, I am.。Yes 后面一定是肯定，No 后面一定是否定，不会出现 Yes, I'm not. 这种组合。很多中国人在这里答反，美国同事就会听糊涂。
+@d_when: 对方用 Aren't you…? / Don't you…? / Isn't it…? 提问时——这种问法常带一点惊讶：「你居然不饿？」
+@d_vs: **Aren't you hungry? — No, I'm not.** 你不饿吗？——不饿。\n**Aren't you hungry? — Yes, I am!** 你不饿吗？——饿啊！\n**Don't you know the ETA? — No, I don't.** 你不知道预计到达时间吗？——不知道。\n✗ Aren't you hungry? — Yes, I'm not.
+@d_task: 同事问 Don't you like coffee?（你确实不喜欢）；又问 Isn't the office closed today?（其实开着） | No, I don't. / No, it isn't. It's open today.
+@diff: 「……是什么意思？」——What does … mean?
+@d_cn: 看到不认识的词、缩写，或没听懂别人的话，问是什么意思。
+@d_en: What does "ETA" mean? / What does this word mean? — It means…
+@d_why: 中文「是什么意思」里有个「是」，很多人就说 What is "ETA" mean?——is 和 mean 两个动词撞在一起了。英文的 mean 本身就是「意思是」，提问时请 **does** 来帮忙：What **does** + 词 + **mean**? 回答用 **It means…**（means 要加 s）。也可以简单地问 What's "ETA"?，但这时就不要再加 mean。
+@d_when: 看到邮件、聊天记录里的缩写（ETA、ASAP、FYI）和新词；没听懂对方的话：What do you mean?
+@d_vs: **What does "ETA" mean? — It means "estimated time of arrival."**\n**What's "ETA"?**（也可以，不加 mean）\n✗ What is "ETA" mean? ✗ What means "ETA"?\n**What do you mean?** 你这话是什么意思？
+@d_task: 你在邮件里看到 "FYI"，问吴佳是什么意思；她告诉你是 "for your information"（供你参考）。写出这两句。 | What does "FYI" mean? — It means "for your information."
+
+@core: Is / Can / Do + 主语 + …? | 问 Yes / No 问题 | Is it…? / Can I…? / Do you…? | 正式：Could you tell me if my package is in the U.S. yet?｜随意：Is it in the U.S. yet?
+@core: Yes, it is. / No, I don't. | 简短、清楚地回答 Yes / No 问题 | it is / I do / you can / I'm not | 正式：Yes, it is. It arrived this morning.｜随意：Yep, it is.
+@core: Let me check. | 需要先查一下再回答 | Let me check. / Let me take a look. / Let me see. | 正式：Let me check that for you.｜随意：One sec, let me check.
+@core: I'm afraid not. | 礼貌地说「不行 / 不是」 | I'm afraid not. / I'm afraid I can't. / I'm afraid so. | 正式：I'm afraid that's not possible.｜随意：Sorry, no.
+@core: What does … mean? — It means… | 问词语、缩写的意思 | "ETA" / this word / "FYI" | 正式：Could you tell me what "ETA" means?｜随意：What's "ETA"?
+@core: Is there anything else? | 客服结束对话前问对方还需要什么 | anything else I can help with / you need | 正式：Is there anything else I can help you with?｜随意：Anything else?
+
+@pw: package | ˈpækɪdʒ | 2 个音节 PACK·age | a 嘴巴张大 `/æ/`；-age 读 `/ɪdʒ/`，不读「诶奇」
+@pw: address | ˈædres | 2 个音节 AD·dress | 名词「地址」美国人多把重音放前面；也有人读 `/əˈdres/`，两种都对
+@pw: question | ˈkwestʃən | 2 个音节 QUES·tion | -tion 在 s 后面读 `/tʃən/`，像 kwes-chən，不读「快神」
+@pw: exactly | ɪɡˈzæktli | 3 个音节 ex·ACT·ly | ex 读 `/ɪɡz/`；中间的 t 常常被吞掉，听起来像 ig-ZAK-lee
+@pw: understand | ˌʌndərˈstænd | 3 个音节 un·der·STAND | 重音在最后；der 很轻、卷舌
+@pw: careful | ˈkerfəl | 2 个音节 CARE·ful | care 舌头往后卷；ful 很轻，不读「福」
+@pw: closed | kloʊzd | 1 个音节 | s 读 `/z/`，-ed 读 `/d/`；不要读成 clo-sed 两个音节
+@ps: **Is** my **pack**age‿in the **U**.**S**. yet? ↗ | 能用 Yes / No 回答的问题，句尾往上扬 ↗。package‿in 连成 `/ˈpækɪdʒɪn/`；U.S. 两个字母都读，重音在 S 上。
+@ps: **What** does "E-T-**A**" **mean**? ↘ | wh- 开头的问题，句尾下降 ↘。does 弱读成 `/dəz/`，几乎被吞掉；缩写逐个字母读，重音在最后一个字母上。
+@ps: **Can**‿I **change** the **ad**dress? ↗ — I'm a**fraid**‿**not**. ↘ | 问句开头的 can 弱读，Can‿I 连成 `/kənaɪ/`；回答里 not 读得重而干脆，句尾下降，语气礼貌但很清楚。
+@ps: **Aren't**‿you **hun**gry? — **No**, I'm **not**. | aren't‿you 连成 `/ˈɑːrntʃə/`；回答时 No 和 not 都读重，让对方一听就知道是「不饿」。
+@pnote: 问句里的 do / does / can 常常弱读：Do you → `/də jə/`，快的时候像 d'ya；What does → `/wʌt dəz/`；Can I → `/kənaɪ/`。听不清开头没关系，抓住后面的动词和句尾语调。
+@pnote: 中文靠「吗」表示疑问，所以很多中国人说英文问句时语调是平的，美国人可能听不出你在提问。记住：Yes / No 问题（Is…? Can…? Do…?）句尾上扬 ↗；wh- 问题（What…? When…? Where…?）句尾下降 ↘。
+@lfocus: Is…? / Can…? 问句句尾上扬
+@lfocus: What does … mean? 句尾下降，does 几乎听不见
+@lfocus: aren't you 连成 /ˈɑːrntʃə/
+@dict: S5
+@dict: S17
+@res: 在 youglish.com 输入 "aren't you"，选 US，听美国人在真实对话里怎么读 aren't you。
+
+@mimic: 跟读【C】S4–S13 的在线对话：先 0.8 倍速逐句跟读，Yes / No 问题句尾上扬、wh- 问题句尾下降；再你演林晓、手机朗读卖家和吴佳的台词，完整对一遍并录音。最后单独练 S17–S18 的「Aren't you hungry? — No, I'm not.」
+@swap: Is my package in the U.S. yet? | 换地点：in Los Angeles / in New York / in Shenzhen | Is my package in New York yet?
+@swap: Can I change the address? — I'm afraid not. | 换请求：change the date / change the phone number | Can I change the date? — I'm afraid not.
+@swap: What does "ETA" mean? | 换缩写：FYI / ASAP；再用 It means… 回答 | What does "ASAP" mean? — It means "as soon as possible."
+@swap: Aren't you hungry? — No, I'm not. | 换状态：tired / busy / cold；按你的真实情况回答 | Aren't you tired? — Yes, I am. I stayed up late.
+@free: 卖家问：Is my package in New York yet? 你查了一下：到了，今天下午到的。 | Let me check. Yes, it is. It arrived in New York this afternoon.
+@free: 卖家问能不能改收货地址，可包裹已经在派送的路上了。 | I'm afraid not. It's already on the way to you.
+@free: 你在邮件里看到 "FYI"，不懂，去问同事。 | What does "FYI" mean?
+@free: 同事看你一直在喝茶，问 Don't you drink coffee?（你确实不喝咖啡） | No, I don't. I only drink tea.
+@output: 写一段 6–8 句的「在线客服对话」：卖家问 2–3 个问题（用 Is…? / Can…? / Do you…?），你先 Let me check，再用简短回答 + 一句补充信息回复，最后问 Is there anything else? 写完把对话大声读一遍，注意问句的升调和降调。
+@output_sample: Seller: Hi! Quick question. Is my package in the U.S. yet?\nLily: Let me check. Yes, it is. It arrived in Chicago yesterday.\nSeller: Great! Can I change the delivery date?\nLily: I'm afraid not. It's already on the way to you.\nSeller: OK. Do you know exactly when?\nLily: Yes, I do. The ETA is Friday. Is there anything else?\nSeller: No, that's all. Thanks!
+
+@check: 「这个地址对吗？」用英文怎么问？为什么不说 This address is correct? | Is this address correct? / Is this the correct address? 英文问句要把 is 放到主语前面；只在句尾加问号，听起来像吃惊或再确认，不是正常提问。
+@check: 卖家问 Do you work on Saturdays? 你周六不上班，怎么用简短回答？ | No, I don't.（问 Do…? 就用 do / don't 回答）
+@check: 吴佳问 Aren't you hungry? 如果林晓其实很饿，应该怎么回答？ | Yes, I am! 英文只看事实：饿就说 Yes, I am.，不饿就说 No, I'm not.
+@check: What is this word mean? 和 What does this word mean? 哪句对？怎么回答？ | What does this word mean? 回答用 It means…（means 加 s）。
+@check: 客户问周日能不能来公司取包裹，你们周日不开门。用今天学的表达礼貌地拒绝。 | I'm afraid not. We're closed on Sundays.
+@next1: 不看书说出 S5、S7、S10 和 S17–S18
+@next1: 把 3 个陈述句变成问句：The meeting is at ten. / You have a charger. / I can sit here.
+@next1: 用 Yes, it is. / No, I don't. / No, I'm not. 各回答一个问题
+@next7: Aren't you…? / Don't you…? 按事实回答：饿 → Yes, I am.；不饿 → No, I'm not.（Day 14 复习会再考）
+@next7: 问句语调：Yes / No 问题句尾上扬，wh- 问题句尾下降

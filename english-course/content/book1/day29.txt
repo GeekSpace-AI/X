@@ -1,0 +1,161 @@
+@day: 29
+@week: 5
+@title_cn: 第一次视频会
+@title_en: First Video Call with Mike
+@topic: 视频会议：打招呼、回答确认问题、给反馈、处理网络问题
+@think_short: 「对，我不用」No, I don't.｜「……吧」…, right?｜「……呢」What about…?｜礼貌打断 Sorry to interrupt.
+
+@goal_scene: 第一次和西雅图同事开视频会：打招呼、回答对方的确认问题、说出你对系统的反馈；网络卡了、对方说得太快时，礼貌地请他重复。
+@goal_expr: Can you hear me? / You're new, right? — Yes, I joined three weeks ago. / You don't use…, right? — No, I don't. / What about…? / Sorry, you're breaking up. / Sorry to interrupt. / Let's follow up by email.
+@goal_vocab: 17 个重点词 + 4 个短语：视频会议用语、网络问题、系统与反馈
+@done: 被问 You don't…, right? 时，按事实回答 No, I don't. 或 Yes, I do.，不再把「对，我不用」说成 Yes, I don't.
+@done: 视频会上能说出 3 句救急话：You're on mute. / Sorry, you're breaking up. / Could you say that again?
+@done: 能用 2–3 句话反馈一个系统或页面的问题：哪里慢、什么时候发现的、有什么建议
+
+@warmup: 有位客户说包裹没到。 | A customer says the package didn't arrive. | D28
+@warmup: 单号是 SL20491。 | The tracking number is SL20491. | D28
+@warmup: 包裹周一到了洛杉矶，现在正在派送。 | The package arrived in Los Angeles on Monday. It's out for delivery now. | D28
+@warmup: 我来跟进这件事。 | I'll look into it. | D28
+@warmup: 这两个差不多。 | These two are about the same. | D26
+@warmup: 我十点有个会。 | I have a meeting at ten. | D25
+
+@scene: 周五早上 9 点（西雅图还是周四傍晚 6 点），林晓第一次参加和西雅图工程团队的视频会。工程经理 Mike 语速很快、特别友好，开会前总爱先聊几句天气和周末。今天他想听听深圳团队对新版数据看板（dashboard）的反馈——偏偏他那边的网络不太稳定。
+@sp: 人物关系 | 林晓 → Mike：第一次见面，Mike 是西雅图的工程经理，资历比林晓深得多，但很随和；张涛也在会上
+@sp: 沟通目的 | 给 Mike 留下好印象；如实反馈新看板的问题，再提一个建议
+@sp: 已知信息 | Mike 知道深圳来了个新人，但不确定她用不用新看板；林晓最近注意到新页面特别慢
+@sp: 表达重点 | 回答确认问句：是新人（Yes）、不用新看板（No, I don't）→ 说明问题：新页面慢、十秒才加载出来 → 对方太快、网络卡时礼貌地请他重复 → 提建议，约好会后邮件跟进
+
+@story_title: Episode 29 · Can You Hear Me?
+@story_type: 叙述 + 对话
+@s: At 9 a.m., Lily joins her first video call with the Seattle team. She's a little nervous. | 上午 9 点，林晓第一次参加和西雅图团队的视频会，她有点紧张。
+@s: Mike: Hi, **everyone**. **Can you hear me**? | Mike：大家好。能听到我说话吗？
+@s: Tom: Yes, loud and clear. | 张涛：能，听得很清楚。
+@s: Mike: Great! It's raining here again. How's the weather in Shenzhen? | Mike：太好了！我们这儿又下雨了。深圳天气怎么样？
+@s: Tom: Hot and sunny, as always. | 张涛：老样子，又热又晒。
+@s: Mike: Lucky you! Oh, hi there. You're new, right? | Mike：真羡慕！哦，你好呀。你是新来的吧？
+@s: Lily answers, but nobody can hear her. | 林晓回答了，可是谁也听不见。
+@s: Tom: Lily, you're on **mute**. | 张涛：林晓，你静音了。
+@s: Lily: Oh, sorry! Yes, I joined three weeks **ago**. | 林晓：啊，不好意思！是的，我三周前入职的。
+@s: Mike: Welcome! Can you turn on your **camera**? Ha, nice **background**! | Mike：欢迎！你能打开摄像头吗？哈，背景不错！
+@br:
+@s: Mike: OK, I wanna get your **feedback** on the new **dashboard**. | Mike：好，我想听听大家对新版数据看板的反馈。
+@s: Mike: Lily, quick question. You don't use the new dashboard, right? | Mike：林晓，问你个小问题。你不用新的看板，对吧？
+@s: Lily: No, I don't. The new **page** **seems** slow. | 林晓：对，我不用。新页面好像挺慢的。
+@s: Lily: It takes about ten seconds to **load**. I **noticed** it **recently**. | 林晓：打开要十秒左右，我是最近才发现的。
+@s: Mike: Huh. What about the old one? | Mike：嗯？那旧的呢？
+@s: Lily: It's fine. | 林晓：旧的没问题。
+@s: Mike: So the **issue** is only on the new page? | Mike：所以问题只出在新页面上？
+@s: Lily: **That's right**. | 林晓：没错。
+@s: Mike: OK, so we're gonna check the server and make the charts smaller and— | Mike：好，那我们会先查一下服务器，再把图表做小一点，然后……
+@s: Lily: Sorry to **interrupt**. Could you say that again, a little slower? | 林晓：抱歉打断一下。您能再说一遍吗？稍微慢一点。
+@s: Mike: Ha, sure. Sorry, I talk too fast! | Mike：哈，当然。抱歉，我说话太快了！
+@s: Suddenly, Mike's video **freezes**. | 突然，Mike 的画面卡住了。
+@s: Lily: Sorry, you're **breaking up**. | 林晓：抱歉，您的声音断断续续的。
+@s: Mike: Is this better? My **connection** is kinda bad today. | Mike：现在好点了吗？我今天网络有点差。
+@br:
+@s: Mike: Anything else, Lily? | Mike：林晓，还有别的吗？
+@s: Lily: Yes. Can I **suggest** something? The search box is too small. | 林晓：有。我能提个建议吗？搜索框太小了。
+@s: Mike: Good idea. Let's **follow up** by email. Have a great weekend! | Mike：好主意。我们邮件里再跟进吧。祝大家周末愉快！
+
+@v: everyone | = | pron. | ˈevriwʌn | 大家；每个人 | 会议开场、群发消息、和一群人打招呼 | Hi, everyone.；Thanks, everyone.；everyone on the team | Thanks, everyone. See you next week. | 谢谢大家，下周见。 | everyone 后面的动词用单数：✓ Everyone is here. ✗ Everyone are here.；写成一个词，分开写的 every one 是「每一个（东西）」。
+@v: Can you hear me | can you hear me? | phr. | kən jə ˈhɪr mi | 能听到我说话吗？ | 视频会、电话一开始，检查声音 | Can you hear me?；Can you hear me now?；Can everyone hear me? | Can you hear me now? I changed my headphones. | 现在能听到我吗？我换了个耳机。 | 回答说 Yes, I can hear you. 或 Loud and clear.（听得很清楚）；不要只在镜头前点头——对方可能根本看不到你。
+@v: mute | = | n./v. | mjuːt | 静音；把（麦克风）关掉 | 视频会议里最常用的词之一 | on mute；mute yourself；unmute | Please mute yourself when you're not talking. | 不说话的时候请把自己静音。 | 「你静音了」说 You're on mute.，不说 ✗ You are mute.（那是「你是哑巴」）；「取消静音」是 unmute。
+@v: ago | = | adv. | əˈgoʊ | ……以前 | 说某件事是多久以前发生的 | three weeks ago；two days ago；a long time ago | I sent the email two hours ago. | 我两个小时前发了那封邮件。 | ago 放在时间段后面：three weeks ago，不说 ✗ before three weeks；句子要用过去时：✓ I joined three weeks ago. ✗ I have joined three weeks ago.
+@v: camera | = | n. | ˈkæmərə | 摄像头；相机 | 视频会议开关摄像头 | turn on your camera；turn off the camera；camera on / off | Can you turn on your camera? | 你能打开摄像头吗？ | 「开 / 关摄像头」用 turn on / turn off，不说 ✗ open the camera / close the camera（中文「打开」「关上」的直译）。
+@v: background | = | n. | ˈbækgraʊnd | 背景；（视频画面里）身后的景 | 视频会议背景、照片背景；也指一个人的经历 | a nice background；a virtual background；background noise | There's a lot of background noise. Can you mute? | 背景噪音很大，你能静音一下吗？ | background 也常指「经历、出身」：What's your background? 是问「你以前是做什么的」，不是问你身后有什么。
+@v: feedback | = | n. | ˈfiːdbæk | 反馈；意见 | 问别人对产品、报告、工作的看法 | get feedback；give feedback on…；any feedback | Thanks for your feedback. | 谢谢你的反馈。 | feedback 不可数：✗ a feedback / feedbacks → ✓ some feedback；「对……的反馈」用 on：feedback on the dashboard。
+@v: dashboard | = | n. | ˈdæʃbɔːrd | 数据看板（把关键数据集中在一个页面上） | 系统里汇总数据的页面；也指汽车的仪表盘 | the new dashboard；a sales dashboard；on the dashboard | You can see all the numbers on the dashboard. | 所有数字都能在看板上看到。 | 中文说「看板」「仪表盘」「数据大屏」，英文都可以叫 dashboard；「在看板上」用 on：on the dashboard。
+@v: page | = | n. | peɪdʒ | （网站、系统的）页面；（书的）页 | 网页、系统页面、文件第几页 | the new page；the home page；on page 3 | The numbers are on page 3. | 那些数字在第 3 页。 | 「第 3 页」说 page 3 或 the third page，不说 ✗ the 3 page；「在第几页」用 on：on page 3。
+@v: seems | seem | v. | siːmz | 好像；看起来（似乎） | 委婉地说出自己的观察，不把话说死 | seem slow；seem to…；It seems… | The new system seems easy to use. | 新系统看起来挺好用的。 | seem 后面直接跟形容词：It seems slow.；给反馈时用 seem 比直接说 It's slow 更客气。主语是 it / he / she 时别忘了 -s。
+@v: load | = | v. | loʊd | （网页、文件）加载；打开 | 说网页、图片、系统慢或打不开 | take ten seconds to load；load slowly；won't load | The page won't load. Can you check? | 页面加载不出来，你能看看吗？ | 「网页打不开、一直转圈」最地道的说法是 The page won't load.，不说 ✗ The page can't open.；download 才是「下载」。
+@v: noticed | notice | v. | ˈnoʊtɪst | 注意到；发现 | 说自己观察到的问题或变化 | notice a problem；notice that…；I didn't notice. | Did you notice anything strange? | 你有没有注意到什么奇怪的地方？ | notice 是「看到、发现」，不是「通知」：「通知大家」说 let everyone know，不说 ✗ notice everyone。-ed 读 `/t/`。
+@v: recently | = | adv. | ˈriːsntli | 最近；近来 | 说最近发生、最近才开始的事 | recently；I recently…；until recently | I recently moved to Shenzhen. | 我最近搬到了深圳。 | recently 说的是「最近已经发生的事」，句子多用过去时；说「最近（马上）要做」不能用它：✗ I will recently… → ✓ I'll … soon.
+@v: issue | = | n. | ˈɪʃuː | 问题（尤指需要处理的技术或工作问题） | 开会讨论故障、报 bug、和客户沟通 | a known issue；fix the issue；an issue with… | We have an issue with the printer. | 打印机出了点问题。 | 工作中说「出了问题」，issue 比 problem 听起来更中性、更专业；但「有疑问吗？」要问 Any questions?，不问 ✗ Any issues?（那是问「有故障吗」）。
+@v: That's right | that's right | phr. | ˌðæts ˈraɪt | 对；没错（确认对方说的话） | 对方复述、确认信息时 | That's right.；Yes, that's right.；That's not right. | So the meeting is at ten? — That's right. | 会是十点开吧？——对。 | 对方用否定句确认时也能用：You don't use it, right? — That's right. 意思是「对，我不用」；拿不准 Yes / No 时，它最保险。
+@v: interrupt | = | v. | ˌɪntəˈrʌpt | 打断（别人说话） | 会议中插话、提问 | Sorry to interrupt.；interrupt sb；Can I interrupt for a second? | Sorry to interrupt, but we have a call at three. | 抱歉打断一下，我们三点还有个电话会。 | 礼貌插话先说 Sorry to interrupt.；中文会上常说「等一下等一下」，直译 ✗ Wait, wait! 在英文里显得急躁。重音在最后：in·ter·RUPT。
+@v: freezes | freeze | v. | ˈfriːzɪz | （画面、电脑）卡住不动；死机 | 视频会画面卡住、电脑卡死 | The video freezes.；My screen froze.；freeze up | My computer froze, so I restarted it. | 我电脑死机了，就重启了一下。 | 画面「卡住不动」用 freeze；声音「断断续续」用 break up；系统「慢」用 slow。过去式是 froze `/froʊz/`，不是 freezed。
+@v: breaking up | break up | phr. | ˌbreɪkɪŋ ˈʌp | （电话、视频里的声音）断断续续 | 网络不好，听不清对方 | You're breaking up.；The call keeps breaking up. | Sorry, you're breaking up. Can you say that again? | 抱歉，你声音断断续续的，能再说一遍吗？ | 中文「你卡了」直译成 ✗ You're stuck. 美国人听不懂；声音断断续续说 You're breaking up.；break up 在别的场合是「分手」，要看上下文。
+@v: connection | = | n. | kəˈnekʃn | （网络）连接；网络信号 | 网速慢、视频卡、掉线 | a bad connection；internet connection；lose connection | My connection is bad. Can I turn off my camera? | 我网不好，我能把摄像头关掉吗？ | 「我网不好」说 My connection is bad. 或 My internet is slow.，不说 ✗ My net is bad.
+@v: suggest | = | v. | səgˈdʒest | 建议；提出（想法） | 会议中提建议、给反馈 | Can I suggest something?；suggest a new idea；I suggest we… | I suggest we meet on Monday. | 我建议我们周一碰一下。 | suggest 后面不用「人 + to do」：✗ I suggest you to… → ✓ I suggest (that) you…；用 Can I suggest something? 开头，提建议听起来更客气。
+@v: follow up | = | phr. | ˌfɑːloʊ ˈʌp | 跟进；（会后）继续沟通 | 会议结束、事情还没处理完 | follow up by email；follow up on…；follow up with sb | I'll follow up with the carrier tomorrow. | 我明天再跟承运商跟进一下。 | 「跟进」不说 ✗ follow it（那是「跟着它走」）；follow up 是动词短语，名词、形容词写成 follow-up：a follow-up email。
+
+@diff: 「你不用它，对吧？」——「对，我不用」要说 No, I don't.
+@d_cn: 对方用否定句来确认（你不……吧？），你要回答「对，我不……」。
+@d_en: You don't use the new dashboard, right? — No, I don't. / That's right.
+@d_why: 中文回答时看的是「对方说得对不对」：对方说「你不用吧？」，我们说「对（你说得对），我不用」。英文看的是「事实本身是肯定还是否定」：我不用 → 就说 **No**；我用 → 就说 **Yes**。所以「对，我不用」翻成英文是 **No, I don't.**；说成 Yes, I don't，美国人会完全糊涂。实在拿不准时，用 **That's right.** 再加一个完整的句子，最保险。（Day 13 的 Aren't you hungry? — No, I'm not. 是同一个道理。）
+@d_when: 对方用 You don't…, right? / You're not…, right? / Isn't it…? 确认信息的时候。
+@d_vs: **You don't use it, right?**\n— **No, I don't.** 对，我不用。\n— **Yes, I do.** 不，我用的。\n— **That's right. I don't use it.** 对，我不用。\n✗ Yes, I don't.
+@d_task: Mike 问：You're not in the office tomorrow, right?（你明天确实不在办公室）用两种方式回答。 | No, I'm not. / That's right. I'm not in the office tomorrow.
+@diff: 「你是新来的吧？」——句尾加 right?
+@d_cn: 自己大概知道答案，想向对方确认一下。
+@d_en: You're new, right? / The meeting is at ten, right? / You don't use it, right?
+@d_why: 中文在句尾加个「吧」，就表示「我猜是这样，你确认一下」；英文最简单的办法是在陈述句后面加 **, right?**，句尾语调往上扬。句子本身不用变成疑问句，不用把 are / do 提到前面。课本里的 isn't it? / aren't you? 也对，但要跟着前面的动词变，说快了很容易错；right? 万能，美国人口语里用得最多。
+@d_when: 开会、打电话时确认时间、身份、信息；right? 前面的句子可以是肯定的，也可以是否定的。
+@d_vs: **You're new, right?** ↗ 你是新来的吧？\n**The call is at nine, right?** ↗ 电话会是九点吧？\n**You're new, aren't you?**（也对，稍正式）\n✗ You are new, yes?（「是吧」直译，不自然）
+@d_task: 用 right? 确认：① 包裹明天到吧？② 你在深圳办公室吧？ | ① The package arrives tomorrow, right? ② You're in the Shenzhen office, right?
+@diff: 「那旧的呢？」——What about…?
+@d_cn: 话题从一样东西转到另一样，问「那……呢？」。
+@d_en: What about the old one? / What about you? / What about Tom's team?
+@d_why: 中文只要说「那 + 东西 + 呢？」就行；英文没有「呢」这样的小词，要在前面加 **What about…?**。只说 The old one? 有时也能懂，但在会上容易让人不确定你是在问问题还是在自言自语。注意：What about…? 多用来**问情况**；How about…? 更常用来**提建议**（Day 18 学过 How about Saturday?）。
+@d_when: 会上一个一个问情况：What about the Seattle team?；聊天时把问题抛回给对方：I'm fine. What about you?
+@d_vs: **The new page is slow. — What about the old one?** 新页面慢。——那旧的呢？（问情况）\n**I'm tired. What about you?** 我累了，你呢？\n**How about Friday?** 周五怎么样？（提建议）
+@d_task: 张涛说：The shipment report is done.，你想问「那客户名单呢？」 | What about the customer list?
+@diff: 「等一下」「再说一遍」——Sorry to interrupt. / Could you say that again?
+@d_cn: 对方说得太快、没听清，或者你有话必须马上插进来。
+@d_en: Sorry to interrupt. / Could you say that again? / Sorry, you're breaking up.
+@d_why: 中文会上常说「等一下等一下」「啊？再说一遍」，很直接；在英文会议里直接说 Wait! 或 What?，会显得急躁，甚至不礼貌。美国人插话前会先说一句 **Sorry to interrupt.**（抱歉打断），请对方重复用 **Could you say that again?**（Day 17 学过）；如果是网络的问题，就把原因说出来：**Sorry, you're breaking up.**——对方就知道不是他说得不清楚。
+@d_when: 对方说话太快、用了你不懂的词、网络卡了；或者你有重要信息必须马上说。
+@d_vs: ✗ **Wait, wait! What?**（太冲）\n✓ **Sorry to interrupt. Could you say that again?** 抱歉打断一下，能再说一遍吗？\n✓ **Could you speak a little slower?** 能说慢一点吗？\n✓ **Sorry, you're breaking up.** 抱歉，你的声音断断续续的。
+@d_task: 视频会上，Mike 说了一个你没听懂的词。你想礼貌地打断，请他慢一点再说一遍。 | Sorry to interrupt. Could you say that again, a little slower?
+
+@core: Can you hear me? | 视频会、电话开头检查声音 | hear me / see my screen / see me | 正式：Could everyone confirm that you can hear me?｜随意：Can you hear me OK?
+@core: You're on mute. | 提醒对方没开麦 | on mute / Your camera is off. | 正式：I think you might be on mute.｜随意：You're muted!
+@core: …, right? | 陈述句 + right?，确认信息 | You're new / The call is at nine / You don't use it | 正式：You joined recently, is that correct?｜随意：You're new, right?
+@core: No, I don't. / That's right. | 回答否定确认句：「对，我不……」 | No, I don't. / No, I'm not. / That's right. | 正式：That's correct. I don't use it.｜随意：Nope.
+@core: What about…? | 话题转到另一样东西：「那……呢？」 | the old one / you / Tom's team | 正式：And how is the old dashboard working?｜随意：What about the old one?
+@core: Sorry to interrupt. Could you say that again? | 礼貌打断、请对方重复 | say that again / speak a little slower / repeat the last part | 正式：Sorry to interrupt. Would you mind repeating that?｜随意：Sorry, say that again?
+@core: Sorry, you're breaking up. | 网络不好，听不清对方 | You're breaking up. / Your video froze. / My connection is bad. | 正式：I'm sorry, your audio is breaking up.｜随意：You're breaking up!
+@core: Let's follow up by email. | 会议快结束时，约好会后跟进 | by email / next week / on Monday | 正式：I'll follow up with an email after the meeting.｜随意：Let's take it to email.
+
+@pw: everyone | ˈevriwʌn | 3 个音节 EV·ery·one | 重音在第一个音节；中间的 e 很轻，像 ev-ri-one
+@pw: recently | ˈriːsntli | 3 个音节 RE·cent·ly | 重音在前；cent 弱读成 `/sn/`，几乎听不到元音
+@pw: issue | ˈɪʃuː | 2 个音节 IS·sue | ss 读 `/ʃ/`（像「诗」的声母），不读 `/s/`
+@pw: suggest | səgˈdʒest | 2 个音节 sug·GEST | 重音在后；gg 读 `/gdʒ/`，也有不少美国人只读 `/dʒ/`
+@pw: interrupt | ˌɪntəˈrʌpt | 3 个音节 in·ter·RUPT | 主重音在最后；rupt 的 u 读 `/ʌ/`
+@pw: connection | kəˈnekʃn | 3 个音节 con·NEC·tion | 重音在 nec；con 弱读成 `/kə/`
+@pw: feedback | ˈfiːdbæk | 2 个音节 FEED·back | 重音在前；d 后面紧跟 b，d 只做个口型
+@ps: Hi, **ev**eryone. / Can you **hear** me? ↗ | Can 弱读成 `/kən/`，you 弱读成 `/jə/`；hear 读重，句尾语调上扬。
+@ps: You're **new**, / **right**? ↗ | 确认问句：right 明显往上扬，意思是「我猜是这样，对吗？」；如果往下降，就像在下结论。
+@ps: You **don't** use the new **dash**board, / **right**? ↗ — **No**, I **don't**. | 回答时 No 和 don't 都读重，干脆利落，对方一下就明白。
+@ps: **Sor**ry, / you're **break**ing‿**up**. | you're 弱读成 `/jər/`；breaking up 连读成 break-ing-up。
+@pnote: Mike 说话快，会用很多缩读：**gonna** = going to，**wanna** = want to，**kinda** = kind of。先做到**听得懂**；自己说话、写邮件时，仍然用 going to / want to / kind of。
+@pnote: 确认问句 …, right? 句尾上扬 ↗；What about the old one? 这类特殊疑问句，句尾一般往下降 ↘。语调反了，对方可能听不出你是在提问。
+@lfocus: right? 句尾上扬
+@lfocus: gonna / wanna / kinda 听出原形
+@lfocus: Can you 弱读成 /kənjə/
+@dict: S12
+@dict: S23
+@res: 在 YouTube 频道 Rachel's English 内搜索 "gonna wanna"，听美国人怎么缩读 going to 和 want to。
+
+@mimic: 跟读【C】S2–S27：先用 0.8 倍速逐句跟读，重点模仿 right? 的上扬语调和 No, I don't. 的干脆读法；再由你演林晓、手机朗读 Mike 和张涛的台词，完整对一遍并录音。
+@swap: You're new, right? — Yes, I joined three weeks ago. | 换身份和时间：in sales / two months ago；from Shanghai / last year | You're in sales, right? — Yes, I joined two months ago.
+@swap: You don't use the new dashboard, right? — No, I don't. | 换动作：work on weekends / drink coffee；按你的真实情况回答 | You don't work on weekends, right? — No, I don't.
+@swap: Sorry, you're breaking up. | 换网络问题：Your video froze. / You're on mute. / My connection is bad. | Sorry, your video froze. Can you hear me?
+@swap: Let's follow up by email. | 换时间和方式：on Monday / next week；in our next meeting | Let's follow up on Monday.
+@free: 视频会刚开始，你想确认大家能不能听到你。 | Hi, everyone. Can you hear me?
+@free: Mike 问：You're not on the engineering team, right?（你确实不在工程团队） | No, I'm not. I'm on the operations team.
+@free: Mike 说得太快，你没听清，想礼貌地请他再说一遍。 | Sorry to interrupt. Could you say that again, a little slower?
+@free: 会快结束了，问题还没讨论完，你建议会后用邮件继续沟通。 | We're almost out of time. Let's follow up by email.
+@output: 录 1 分钟「我的第一次视频会」：开场检查声音 → 回答一个否定确认问句（You don't…, right?）→ 反馈一个系统或 App 的问题（seems slow / takes … to load / I noticed it recently）→ 提一个建议（Can I suggest something?）→ 约好会后跟进。
+@output_sample: Hi, everyone. Can you hear me? Great. You asked about the new dashboard. No, I don't use it. The new page seems slow. It takes about ten seconds to load. I noticed it recently. Can I suggest something? The search box is too small. Maybe we can make it bigger. Let's follow up by email. Thanks, everyone!
+
+@check: Mike 问 You don't use the new dashboard, right?。如果你确实不用，回答 Yes 还是 No？如果你其实在用呢？ | 不用：No, I don't.（也可以说 That's right.）／在用：Yes, I do.
+@check: 用 right? 说「你是新来的吧？」。right 的语调是升还是降？ | You're new, right? 句尾上扬。
+@check: 「那旧的呢？」怎么说？What about…? 和 How about…? 有什么不同？ | What about the old one? What about 多用来问情况；How about 多用来提建议。
+@check: 视频会上对方的声音断断续续，你说 You're stuck. 对吗？应该怎么说？ | 不对。说 Sorry, you're breaking up.；画面卡住不动可以说 Your video froze.
+@check: 会上你想插一句话，说 Wait, wait! 合适吗？应该怎么说？ | 显得急躁、不礼貌。先说 Sorry to interrupt.，再说你的问题。
+@next1: 不看书说出 S2、S6、S9、S12、S13、S23、S27（锚点句）
+@next1: 用 No, I don't. / No, I'm not. 回答三个 …, right? 否定确认问句
+@next1: 视频会救急三句：You're on mute. / Sorry, you're breaking up. / Could you say that again?
+@next7: 「对，我不……」用英文怎么回答，为什么和中文相反
+@next7: 视频会常用句：Can you hear me? / You're on mute. / Sorry to interrupt. / Let's follow up by email.

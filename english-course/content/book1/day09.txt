@@ -1,0 +1,144 @@
+@day: 9
+@week: 2
+@title_cn: 上班迟到了
+@title_en: Sorry I'm Late
+@topic: 迟到道歉、说明原因、进入正在开的会
+@think_short: Sorry ≠ Excuse me｜I'm late（现在）vs I was late（那次）｜because 和 so 只用一个
+
+@goal_scene: 上班迟到、会议已经开始：先礼貌地敲门进会议室、简短道歉，会后再向经理说清楚原因和下次怎么做。
+@goal_expr: Excuse me, can I come in? / Sorry I'm late. / There was…, so… / …because… / It won't happen again. / No problem. Next time, …
+@goal_vocab: 17 个重点词 + 4 个短语：天气与交通、迟到与等待、原因与结果、道歉与回应
+@done: 进门、借过时用 Excuse me，为迟到道歉时用 Sorry，并能说出两者的区别
+@done: 用 There was…, so… 和 …because… 各说一遍迟到的原因，不再说 Because…, so…
+@done: 在路上能用英文给经理发一条消息：I'll be fifteen minutes late.
+
+@warmup: 你昨天都做了些什么？ | What did you do yesterday? | D8
+@warmup: 我见了客服团队，还看了两个培训视频。 | I met the customer service team and watched two training videos. | D8
+@warmup: 我昨天晚上看了培训文件。 | I read the training documents last night. | D8
+@warmup: 我昨天挺忙的。 | I was pretty busy yesterday. | D8
+@warmup: 会议是两点到三点。 | The meeting is from two to three. | D6
+@warmup: 我们组在五楼。 | Our team is on the fifth floor. | D3
+
+@scene: 第二周的周三，深圳下了一早上的大雨。林晓和平时一样 7:50 出门，可地铁站里挤满了人，五号线又出了事故，列车停了 20 分钟。9:30 的会已经开始，她 9:50 才赶到会议室门口。她要先礼貌地进门、简短道歉，不打断会议；会后再向张涛说明原因。
+@sp: 人物关系 | 林晓 → 张涛（经理）和会议室里的同事；Emma 也在会上
+@sp: 沟通目的 | 进门时：不打断会议，一句话道歉；会后：说清原因，表示下次会注意
+@sp: 已知信息 | 张涛只知道林晓没来，不知道五号线出了事故；林晓不知道迟到时该怎么提前跟经理说
+@sp: 表达重点 | 进门：Excuse me + Sorry I'm late（会上不长篇解释）→ 会后：发生了什么（There was an accident…, so…）→ 下次怎么做
+
+@story_title: Episode 9 · A Rainy Wednesday
+@story_type: 叙述 + 对话
+@s: It's Wednesday, and there's **heavy** **rain** in Shenzhen. | 周三，深圳下着大雨。
+@s: Lily is always **on time**, but not today. | 林晓一向很准时，可今天没有。
+@s: The meeting started at 9:30. It's 9:50 now. | 会议九点半就开始了，现在已经九点五十。
+@s: She knocks on the meeting room door. | 她敲了敲会议室的门。
+@s: Lily: **Excuse me**, can I come in? | 林晓：不好意思，我可以进来吗？
+@s: Tom: Sure, come in. | 张涛：当然，进来吧。
+@s: Lily: Sorry I'm **late**. | 林晓：抱歉，我来晚了。
+@s: Tom: It's OK. Have a seat. | 张涛：没事，坐吧。
+@br:
+@s: After the meeting, Lily explains the **reason** to Tom. | 会后，林晓向张涛解释迟到的原因。
+@s: Lily: I **left** home at 7:50, as usual. | 林晓：我和平时一样，七点五十就出门了。
+@s: Lily: But the **station** was really **crowded**. | 林晓：可是地铁站里人特别多。
+@s: Lily: There was an **accident** on Line 5, **so** the subway **stopped** for twenty minutes. | 林晓：五号线出了事故，地铁停了二十分钟。
+@s: Lily: I **waited** and waited. I **missed** the start of the meeting. | 林晓：我等了又等，结果错过了会议的开头。
+@s: Lily: I **apologize**. It won't happen **again**. | 林晓：真的很抱歉，下次不会了。
+@s: Tom: **No problem**. **Next time**, just send me a **message**. | 张涛：没关系。下次给我发个消息就行。
+@br:
+@s: Emma: Don't worry, Lily. I was late, too. | Emma：别担心，林晓，我也迟到了。
+@s: Emma: The **traffic** was really bad **because** it was raining. | Emma：因为下雨，路上堵得厉害。
+@s: Lily: Really? Then I don't feel so bad! | 林晓：真的吗？那我心里好受多了！
+
+@v: heavy | = | adj. | ˈhevi | （雨）大的；（车流）多的；重的 | 说雨下得大、路上车多、东西重 | heavy rain；heavy traffic；a heavy box | There was heavy traffic on the way to the airport. | 去机场的路上车很多。 | 「大雨」说 heavy rain，不说 ✗ big rain；「车多、堵」说 heavy traffic，不说 ✗ big traffic / many traffic。
+@v: rain | = | n. | reɪn | 雨 | 说天气、解释迟到 | heavy rain；in the rain；It's raining.（正在下雨） | We had a lot of rain last week. | 上周雨下得很多。 | 名词 rain 不可数：✗ a big rain；「下雨了」要用动词：It's raining.（正在下）/ It was raining.（那时在下），不说 ✗ It's rain.
+@v: on time | = | phr. | ˌɑːn ˈtaɪm | 准时 | 上班、开会、交货是否准时 | be on time；arrive on time；on time for work | The package arrived on time. | 包裹准时到了。 | 中间不加 the：✗ on the time；「准时参加某事」用 for：on time for the meeting。
+@v: Excuse me | excuse me | phr. | ɪkˈskjuːz mi | 打扰一下；借过；不好意思 | 进门、打断别人、借过、叫住陌生人 | Excuse me, can I…?；Excuse me, is this seat taken? | Excuse me, can I ask a question? | 打扰一下，我能问个问题吗？ | Excuse me 用在「打扰别人之前」，Sorry 用在「已经给人添了麻烦之后」——别因为中文都叫「不好意思」就混着用。
+@v: late | = | adj. | leɪt | 迟到的；晚的 | 上班、开会、交东西迟了 | be late for work；ten minutes late；a late lunch | Sorry, I'm ten minutes late. | 抱歉，我迟到了十分钟。 | 迟到几分钟：数字放在 late 前面（ten minutes late）；「上班迟到」是 late for work，介词用 for；lately 不是「迟」，而是「最近」。
+@v: reason | = | n. | ˈriːzn | 原因；理由 | 解释迟到、请假、没完成工作 | the reason for sth；a good reason；for some reason（不知道为什么） | What's the reason for the delay? | 延误的原因是什么？ | 「……的原因」用 the reason for，不说 ✗ the reason of；口语里解释原因直接说 I'm late because…，比 The reason is… 自然得多。
+@v: left | leave | v. | left | 离开；出发（leave 的过去式） | 说几点出门、几点下班 | leave home；leave the office；leave for work | I left the office at seven last night. | 我昨晚七点离开公司。 | 「出门」说 leave home，home 前不加 the / my；「动身去某地」用 leave for：leave for Shanghai；left 也是「左边」，靠上下文区分。
+@v: station | = | n. | ˈsteɪʃn | 站（地铁站、火车站） | 说在哪儿等车、在哪儿见面 | subway station；train station；at the station | Let's meet at the subway station. | 我们在地铁站见吧。 | 在车站用 at：at the station；公交、地铁沿线的一个「站点」常说 stop：get off at the next stop（下一站下车）。
+@v: crowded | = | adj. | ˈkraʊdɪd | 拥挤的；人很多的 | 地铁、车站、餐厅人多 | a crowded train；really crowded；crowded with people | The subway is always crowded at eight. | 八点的地铁总是很挤。 | 「人很多、很挤」直接说 It's crowded，不说 ✗ There are many people very crowded；crowd 是名词「人群」，形容「挤」要用 crowded。
+@v: accident | = | n. | ˈæksɪdənt | 事故；意外 | 地铁、交通事故；不小心发生的事 | a car accident；an accident on Line 5；by accident（不小心；偶然） | There was a car accident on the highway. | 高速公路上出了车祸。 | 元音开头，前面用 an；「出了事故」说 There was an accident，不说 ✗ It happened an accident。
+@v: so | = | conj. | soʊ | 所以 | 先说原因，再说结果 | …, so…；so I'm late；so I took a taxi | It was raining, so I took a taxi. | 下雨了，所以我打了车。 | 「因为……所以……」英文只用一个：because 和 so 不能在同一句里同时出现；so 前面一般加逗号。
+@v: stopped | stop | v. | stɑːpt | 停；停止（stop 的过去式） | 车、地铁、机器停了；停止做某事 | stop for ten minutes；stop working；stop talking | The printer stopped working again. | 打印机又罢工了。 | 过去式要双写 p：stopped；-ed 只读一个轻轻的 /t/；「停止做某事」是 stop doing：stop talking。
+@v: waited | wait | v. | ˈweɪtɪd | 等 | 等车、等人、等回复 | wait for sb/sth；wait a minute；wait in line | I waited for the bus for half an hour. | 我等公交等了半个小时。 | 「等某人 / 某物」要加 for：✗ wait the bus → ✓ wait for the bus；-ed 在 t 后面读 /ɪd/，多一个音节。
+@v: missed | miss | v. | mɪst | 错过；没赶上；（电话）没接到 | 错过车、错过会议、没接到电话 | miss the bus；miss a meeting；miss a call | Sorry, I missed your call. | 抱歉，我没接到你的电话。 | 「没赶上车」说 missed the bus，不说 ✗ didn't catch up the bus；miss 还有「想念」的意思：I miss my family，要看上下文；missed 读 /mɪst/，和 mist 同音。
+@v: apologize | = | v. | əˈpɑːlədʒaɪz | 道歉（比较正式） | 正式场合、写邮件、客服对客户 | apologize for sth；apologize to sb；I apologize for the delay. | We apologize for the delay. | 很抱歉给您带来延误。 | apologize 比 sorry 正式得多；当面对同事、经理说 Sorry 就够了，反复道歉反而让人尴尬；「为……道歉」用 for，「向某人道歉」用 to。
+@v: again | = | adv. | əˈgen | 再；又一次 | 承诺不再犯；请对方再说一遍 | It won't happen again.；try again；Sorry again. | Can you say that again? | 你能再说一遍吗？ | again 放在句尾：✗ again say it → ✓ say it again；「再来一次」不说 ✗ one more again，说 one more time 或 again。
+@v: No problem | no problem | phr. | ˌnoʊ ˈprɑːbləm | 没关系；没问题；不客气 | 回应别人的道歉、感谢或请求 | No problem.；No problem at all. | Thanks for your help! — No problem. | 谢谢你帮忙！——不客气。 | 中国学生回应道歉常说 ✗ Never mind，美国人更常说 No problem / That's OK / Don't worry about it；Never mind 多用于「算了，不用说了」。
+@v: Next time | next time | phr. | ˌnekst ˈtaɪm | 下次 | 提建议、做承诺 | Next time, …；next time you…；See you next time. | Next time, I'll leave home earlier. | 下次我会早点出门。 | 前面不加介词：✗ in next time / at next time；说话时 next 的 t 常被吞掉：/neks taɪm/。
+@v: message | = | n. | ˈmesɪdʒ | 消息；信息 | 发微信、短信、工作软件里的消息 | send sb a message；text message；leave a message（留言） | I'll send you a message when I get there. | 我到了给你发消息。 | 可数名词，前面要有 a：✗ send me message → ✓ send me a message；-age 读 /ɪdʒ/，不读「麦塞奇」。
+@v: traffic | = | n. | ˈtræfɪk | 交通；路上的车流 | 说路上堵不堵 | heavy traffic；in traffic；The traffic is bad. | I was stuck in traffic for an hour. | 我堵车堵了一个小时。 | traffic 不可数：✗ a traffic / many traffics；「路上很堵」说 The traffic is bad / There's heavy traffic，不说 ✗ The traffic is crowded。
+@v: because | = | conj. | bɪˈkɔːz | 因为 | 解释原因 | because + 句子；because of + 名词 | I'm tired because I stayed up late. | 我很累，因为昨晚熬夜了。 | 不要说 ✗ Because…, so…；后面接名词要用 because of：because of the rain；口语常弱读成 /bɪˈkəz/，甚至只说 'cause。
+
+@diff: Sorry（道歉）≠ Excuse me（打扰一下）
+@d_cn: 中文一句「不好意思」，既可以是「打扰一下」，也可以是「对不起」。
+@d_en: Excuse me, can I come in?（还没打扰，先打招呼）/ Sorry I'm late.（已经添了麻烦，道歉）
+@d_why: 中文「不好意思」几乎包打天下：借过、问路、进门、迟到都能用。英文分得很清楚：**Excuse me** 用在「我马上要打扰你」**之前**——借过、打断、叫住别人、进门；**Sorry** 用在「我已经给你添了麻烦」**之后**——迟到、撞到人、说错话。林晓进门前说 Excuse me，进门后为迟到说 Sorry，两个都用对了。
+@d_when: 借过、问路、进会议室、打断别人说话 → Excuse me；迟到、踩到别人、发错邮件 → Sorry。没听清对方的话，两个都能用，语调上扬：Sorry? / Excuse me?
+@d_vs: **Excuse me, can I get by?** 不好意思，借过一下。\n**Sorry, I stepped on your foot.** 对不起，踩到你了。\n**Excuse me, is this seat taken?** 打扰一下，这儿有人坐吗？\n**Sorry? / Excuse me?**（语调上扬）您说什么？我没听清。
+@d_task: 你要从两个正在聊天的同事中间穿过去拿打印好的文件，怎么说？拿的时候不小心碰掉了一个同事的笔呢？ | Excuse me, can I get by? / Oh, sorry!
+@diff: 「我迟到了」：I'm late（人刚到）vs I was late（说那一次）
+@d_cn: 中文「我迟到了」，不管是刚进门时说，还是下午跟人说起早上那次，都一样。
+@d_en: Sorry I'm late.（我现在到了，来晚了）/ I was late this morning.（说早上那一次）
+@d_why: 这又是 Day 8 学过的「了 ≠ 过去时」。刚进门时，你人就在这里，「迟到」是你**现在的状态**，所以用 **I'm late**；说起已经过去的那一次，才用 **I was late**。故事里 Emma 说 I was late, too，因为她早就坐在会议室里了，迟到已经是之前的事。
+@d_when: 刚到、当面道歉 → Sorry I'm late. 事后提起某一次 → I was late this morning / last Friday. 还在路上、提前发消息 → I'll be ten minutes late.
+@d_vs: **Sorry I'm late.** 抱歉，我来晚了。（人刚到）\n**Sorry I was late this morning.** 早上迟到了，抱歉。（下午再跟经理道歉）\n**I'll be ten minutes late.** 我会晚到十分钟。（在路上发消息）\n✗ I'm late yesterday. → ✓ I was late yesterday.
+@d_task: 地铁停了，你在车上给经理发消息说「我会晚到 15 分钟」；到公司进门时说「抱歉，我来晚了」。 | I'll be fifteen minutes late. / Sorry I'm late.
+@diff: 「因为……所以……」——because 和 so 只用一个
+@d_cn: 「因为下雨，所以路上很堵。」
+@d_en: The traffic was bad because it was raining. / It was raining, so the traffic was bad.
+@d_why: 中文习惯「因为……所以……」成对出现，少一个都觉得不完整。英文的 because 和 so 都是连接两个句子的词，**一句话里只能用一个**：because 放在原因前面，so 放在结果前面。两个一起用，就像把两个句子连了两次。中国学习者写邮件、说话时最常见的就是 ✗ Because…, so…。
+@d_when: 先说结果、再补原因 → because（解释时常用）；先讲经过、最后说结果 → so（讲故事时常用）。
+@d_vs: ✗ Because it was raining, so the traffic was bad.\n✓ **Because** it was raining, the traffic was bad.\n✓ It was raining, **so** the traffic was bad.\n✓ The traffic was bad **because** it was raining.
+@d_task: 用两种说法说：「因为地铁停了，所以我迟到了。」 | I was late because the subway stopped. / The subway stopped, so I was late.
+
+@core: Excuse me, can I come in? | 进正在开的会、敲经理办公室的门 | come in / ask a question / get by | 正式：Excuse me, may I come in?｜随意：Hey, can I come in?
+@core: Sorry I'm late. | 人刚到，当面道歉 | Sorry I'm late. / Sorry I'm a little late. | 正式：I apologize for being late.｜随意：Sorry, sorry!
+@core: There was + 事情, so + 结果. | 先讲发生了什么，再说结果 | an accident / heavy rain / a problem with the bus | 正式：There was an accident on Line 5, so I was delayed.｜随意：Line 5 stopped, so I'm late.
+@core: …because + 原因. | 先说结果，再补充原因 | it was raining / the subway stopped / I missed the bus | 正式：I was late because of the heavy rain.｜随意：It was the rain.
+@core: It won't happen again. | 道歉之后表个态：下次会注意 | It won't happen again. / I'll leave earlier next time. | 正式：I'll make sure it doesn't happen again.｜随意：Won't happen again!
+@core: No problem. Next time, just… | 经理、同事回应道歉，顺便给个建议 | send me a message / call me / let me know | 正式：That's quite all right. In the future, please let me know.｜随意：No worries. Just text me next time.
+@core: I'll be + 时间 + late. | 在路上提前发消息通知对方 | ten minutes / a little / twenty minutes | 正式：I'm afraid I'll be about ten minutes late.｜随意：Running 10 minutes late!
+
+@pw: heavy | ˈhevi | 2 个音节 HEA·vy | ea 读短音 `/e/`，不读 `/iː/`；v 是上牙轻咬下唇
+@pw: accident | ˈæksɪdənt | 3 个音节 AC·ci·dent | 开头 `/æ/` 嘴巴张大；cc 读 `/ks/`，不读「阿西灯」
+@pw: crowded | ˈkraʊdɪd | 2 个音节 CROW·ded | crow 在这里读 `/kraʊ/`，不是乌鸦 crow `/kroʊ/`；d 后面的 -ed 读 `/ɪd/`
+@pw: apologize | əˈpɑːlədʒaɪz | 4 个音节 a·POL·o·gize | 重音在第二个音节；开头的 a 很轻
+@pw: message | ˈmesɪdʒ | 2 个音节 MES·sage | -age 读 `/ɪdʒ/`，嘴巴放松，不读「麦塞奇」
+@pw: stopped | stɑːpt | 1 个音节 | -ed 只加一个轻轻的 `/t/`，不读「斯道普德」
+@pw: waited | ˈweɪtɪd | 2 个音节 WAIT·ed | t 后面的 -ed 多一个音节 `/ɪd/`；美式中间的 t 弹成轻 d：`/ˈweɪdɪd/`
+@ps: Ex**cuse** me, / can I come **in**? | excuse 的重音在 cuse：`/ɪkˈskjuːz/`；句尾 in 读重、语调上扬，是礼貌的请求。
+@ps: There was‿an **ac**cident on Line **Five**, / so the **sub**way **stopped** / for **twen**ty **min**utes. | was an 连读成 `/wəzən/`；stopped 的 -ed 只是 `/t/`；美式 twenty 常读成 `/ˈtweni/`，第二个 t 几乎不发音。
+@ps: The **traf**fic was **real**ly **bad** / be**cause** it was **rain**ing. | 两个 was 都弱读成 `/wəz/`；because 常弱读成 `/bɪˈkəz/`。
+@ps: **No prob**lem. / **Next** time, / just **send** me a **mes**sage. | next time 的 t 被吞掉：`/neks taɪm/`；send me 的 d 几乎不爆破：`/sen mi/`。
+@pnote: 口语里 because 常弱读成 `/bɪˈkəz/`，说得快时只剩 'cause `/kəz/`；was 也弱读成 `/wəz/`。听到 `/kəz/` 就要反应过来：后面是原因。
+@pnote: won't `/woʊnt/` 和 want `/wɑːnt/` 很容易听混：It won't happen again 是「不会再发生」，元音是 `/oʊ/`（像「欧」）；want 的元音是 `/ɑː/`（像「啊」）。
+@lfocus: because 弱读成 /bɪkəz/ 或 'cause /kəz/
+@lfocus: won't /woʊnt/ 和 want /wɑːnt/ 的元音不同
+@lfocus: stopped、missed 的 -ed 只是一个 /t/
+@dict: S12
+@dict: S17
+@res: 在 youglish.com 输入 "sorry I'm late"，选 US，听不同的人在真实场合怎么说。
+
+@mimic: 跟读【C】S5–S18：先用 0.8 倍速逐句跟读 2 遍，重点模仿 Excuse me 的上扬语调和 because、was 的弱读；再由你演林晓、手机朗读张涛和 Emma 的台词，完整对一遍并录音。
+@swap: Sorry I'm late. | 加上迟到了多久：five minutes / a little | Sorry I'm ten minutes late.
+@swap: There was an accident on Line 5, so the subway stopped for twenty minutes. | 换原因和结果：heavy rain / a problem with the bus；I missed the bus | There was heavy rain, so I missed the bus.
+@swap: The traffic was really bad because it was raining. | 改成 so 的说法，或者换一个原因 | It was raining, so the traffic was really bad.
+@swap: Next time, just send me a message. | 换建议：call me / tell Grace / leave earlier | Next time, just call me.
+@free: 地铁停了，你在车厢里给经理发消息：「五号线出了事故，我会晚到 20 分钟。」 | There was an accident on Line 5. I'll be twenty minutes late. Sorry!
+@free: 会议已经开始，你敲门要进去，并为迟到道歉。 | Excuse me, can I come in? Sorry I'm late.
+@free: 经理问你：Why were you late this morning?（下大雨，你没赶上公交） | Sorry. There was heavy rain, so I missed the bus.
+@free: 同事迟到了 5 分钟，向你道歉。你想说「没关系，我们也刚开始」。 | No problem. We just started.
+@output: 录 1 分钟「我迟到的那一次」：什么时候 → 发生了什么（There was…）→ 结果（so…）→ 你怎么道歉 → 下次怎么做（Next time, I'll…）。because 和 so 都要用到，但不要放在同一句里。
+@output_sample: Last month, I was late for work. It was raining, and the subway station was really crowded. There was a problem on Line 3, so the train stopped for fifteen minutes. I was twenty minutes late. I said "Sorry I'm late" to my manager, and he said, "No problem." Next time, I'll leave home earlier and send him a message.
+
+@check: 林晓进会议室时先说 Excuse me，再说 Sorry I'm late。这两句能换个位置吗？为什么？ | 不能。Excuse me 是打扰之前的客气话（我要进来了）；Sorry 是为已经发生的事道歉（我迟到了）。
+@check: Emma 说 I was late, too，林晓却说 Sorry I'm late。为什么一个用 was，一个用 am？ | 林晓刚进门，「迟到」是她现在的状态；Emma 早就到了会议室，她迟到是之前的事。
+@check: 这句话哪里不对？Because the subway stopped, so I was late. | because 和 so 只能用一个：The subway stopped, so I was late. / I was late because the subway stopped.
+@check: 包裹延误了，你要给美国卖家写邮件道歉。用 Sorry 还是 apologize 更合适？ | 写给客户的邮件用 apologize 更正式：We apologize for the delay. 当面对同事说 Sorry 就够了。
+@check: 用英文说：「下次我会早点出门。」 | Next time, I'll leave home earlier.
+@next1: 不看书说出 S5、S7、S12、S15
+@next1: Sorry 和 Excuse me 各用在什么时候？各说一个例子
+@next1: 用 because 和 so 各说一句迟到的原因
+@next7: because 和 so 不能放在同一句里（Day 14 复习日会检查）
+@next7: 讲一次你迟到的经历：There was…, so… / …because…

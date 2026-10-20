@@ -1,0 +1,156 @@
+@day: 28
+@week: 4
+@title_cn: 包裹在哪儿
+@title_en: Where's My Package?
+@topic: 查单号、说明包裹状态、处理客户的投诉
+@think_short: a customer / the package｜「包裹丢了」is missing｜「送到了」was delivered｜「我帮您查」look into
+
+@goal_scene: 美国卖家打来电话，说客户没收到包裹：你要问单号、在系统里查状态、用英文说清楚包裹在哪儿，并承诺跟进。
+@goal_expr: A customer says… / What's the tracking number? / It's in transit. / It's out for delivery now. / The package was delivered today. / I'll look into it.
+@goal_vocab: 17 个重点词 + 4 个短语：物流状态、查件、退款与补发、客服用语
+@done: 能读出、听懂一个单号（字母 + 数字），并用 3 句话说明包裹现在的状态
+@done: 能分清 a customer 和 the package：第一次提到用 a，双方都知道是哪个用 the
+@done: 说「包裹丢了」「包裹送到了」时，不再说 The package lost / The package delivered
+
+@warmup: 怎么了？ | What's wrong? | D27
+@warmup: 有个客户冲我发火了，我心里挺难受的。 | A customer was angry with me. I'm upset. | D27
+@warmup: 太倒霉了，真替你难过。 | That's too bad. I'm sorry to hear that. | D27
+@warmup: 那个会太无聊了，我听得好闷。 | The meeting was so boring. I was bored. | D27
+@warmup: 我来做笔记。 | I'll take notes. | D25
+@warmup: 我明天上午发给你，可以吗？ | Can I send it to you tomorrow morning? | D23
+
+@scene: 入职第四周，林晓已经能自己接一些客服电话了。今天吴佳在开会，一位加州卖家打来电话：他的客户说包裹没收到，担心已经丢了。林晓要在系统里查单号、说明包裹现在的状态，并承诺跟进处理。
+@sp: 人物关系 | 林晓（SwiftLink 运营助理）→ 美国卖家（公司的客户，第一次打交道）：要专业、礼貌、让人放心
+@sp: 沟通目的 | 查清包裹在哪儿，安抚卖家；如果有问题，说清楚下一步怎么处理、什么时候回复
+@sp: 已知信息 | 卖家只知道客户没收到包裹，手里有单号；林晓能在系统里看到包裹每一次扫描的时间和地点
+@sp: 表达重点 | 先表示同情 → 要单号 → 说明状态（哪天发货、运输了几天、现在正在派送）→ 承诺跟进 → 下午回电话确认已送达
+
+@story_title: Episode 28 · Where's My Package?
+@story_type: 叙述 + 对话
+@s: Grace is in a meeting, so Lily answers a call from a seller in California. | 吴佳在开会，林晓就接起了一位加州卖家的电话。
+@s: Seller: Hi. A customer says the package didn't arrive. She thinks it's **lost**. | 卖家：你好。有位客户说包裹没到，她觉得是丢了。
+@s: Lily: I'm sorry to hear that. | 林晓：很抱歉听到这个情况。
+@s: Lily: I can **track** it for you. What's the **tracking number**? | 林晓：我帮您查一下，单号是多少？
+@s: Seller: The tracking number is SL20491. | 卖家：单号是 SL20491。
+@s: Lily: Thanks. Let me check the **status**. | 林晓：谢谢，我查一下状态。
+@br:
+@s: Lily: OK. You **shipped** it from Shenzhen last Tuesday. | 林晓：好的。您是上周二从深圳发的货。
+@s: Lily: It was **in transit** for six days. | 林晓：在路上运了六天。
+@s: Lily: The package arrived in Los Angeles on Monday. It's **out for delivery** now. | 林晓：包裹周一到了洛杉矶，现在正在派送。
+@s: Seller: Really? So it isn't **missing**? | 卖家：真的吗？那就是没丢？
+@s: Lily: No. The last **scan** was at 7:40 this morning. | 林晓：没丢。最后一次扫描是今天早上 7 点 40。
+@s: Lily: You can see its **location** on our map. | 林晓：您可以在我们的地图上看到它的位置。
+@s: Seller: OK. But if it's really lost, I have to give her a **refund** or **replace** the item. | 卖家：好吧。可要是真丢了，我就得给她退款，或者补发一件。
+@s: Lily: I understand. I'll **look into** it. | 林晓：明白，我来跟进这件事。
+@s: Lily: I'll **contact** the **carrier** and call you back this afternoon. | 林晓：我会联系承运商，今天下午给您回电话。
+@s: Lily: Sorry for the **inconvenience**. | 林晓：给您添麻烦了，抱歉。
+@br:
+@s: At three, Lily checks the delivery **record** again. The status has changed! | 下午三点，林晓又查了一遍派送记录——状态变了！
+@s: The **driver** took a photo as **proof**. | 派送员拍了一张照片作为凭证。
+@s: Lily calls the seller back right away. | 林晓马上给卖家回了电话。
+@s: Lily: Hi, this is Lily from SwiftLink. The package was **delivered** today. | 林晓：您好，我是 SwiftLink 的林晓。包裹今天已经送到了。
+@s: Lily: It's at the customer's front door. I'll email you the photo. | 林晓：放在客户家门口了，照片我用邮件发给您。
+@s: Seller: Great! And it isn't **damaged**? | 卖家：太好了！箱子没坏吧？
+@s: Lily: No, the box looks fine. | 林晓：没有，箱子看起来好好的。
+@s: Seller: Thank you so much, Lily! | 卖家：太感谢你了，林晓！
+
+@v: lost | = | adj. | lɔːst | 丢失的；找不到了的（确定丢了） | 包裹、行李、钥匙丢了 | be lost；a lost package；get lost（迷路） | My luggage was lost on the flight. | 我的行李在航班上丢了。 | 「包裹丢了」说 The package is lost.，一定要有 is；✗ The package lost. 听起来像「包裹弄丢了什么东西」。lost 也是 lose 的过去式：I lost my keys.
+@v: track | = | v. | træk | 追踪；查（包裹的位置和状态） | 查快递、跟踪订单、记录进度 | track a package；track an order；track progress | You can track your order on our website. | 您可以在我们的网站上查订单。 | 「查快递」不说 ✗ check the express，说 track the package 或 check the tracking；track 作名词是「轨道、跑道」。
+@v: tracking number | = | phr. | ˈtrækɪŋ ˌnʌmbər | 快递单号；运单号 | 查件、客服核对信息 | the tracking number；a tracking number for…；send sb the tracking number | Could you send me the tracking number? | 你能把单号发给我吗？ | 「单号」不说 ✗ order number（那是订单号，下单时生成）；物流的单号是 tracking number，美国人也简称 tracking：Can you send me the tracking?
+@v: status | = | n. | ˈsteɪtəs | 状态；（事情的）进展情况 | 查包裹、订单、项目现在到哪一步了 | check the status；order status；the status of… | What's the status of my order? | 我的订单现在什么情况？ | 问「到哪一步了」直接问 What's the status?，不说 ✗ What's the situation of…（situation 偏指「局面」，通常是出了问题的情况）。
+@v: shipped | ship | v. | ʃɪpt | 发货；寄出（不一定用船） | 说订单、包裹什么时候发出 | ship an order；ship sth to…；be shipped | We ship all orders within 48 hours. | 所有订单我们都在 48 小时内发货。 | ship 原义是「船」，作动词就是「发货」，飞机、卡车运都可以用；过去式双写 p：shipped，读 `/ʃɪpt/`，-ed 读 `/t/`。
+@v: in transit | = | phr. | ɪn ˈtrænzɪt | 运输途中；在路上 | 物流状态：已发出、还没到 | in transit；be in transit for… days；still in transit | Your package is still in transit. | 您的包裹还在运输途中。 | 这是物流系统和客服的正式说法；和朋友聊天说 It's on the way. 就行。transit 在美国也指「公共交通」：public transit。
+@v: out for delivery | = | phr. | ˌaʊt fər dɪˈlɪvəri | 正在派送；（快递员）已出发送件 | 物流状态：今天就会送到 | It's out for delivery.；be out for delivery today | Good news. Your package is out for delivery. | 好消息，您的包裹正在派送中。 | 中文「派送中」不要直译成 ✗ in sending；美国快递的这个状态固定说 out for delivery，通常意味着当天送到。
+@v: missing | = | adj. | ˈmɪsɪŋ | 找不到的；不见了的（还在找） | 包裹没到、文件找不到、少了一件 | be missing；a missing package；go missing | One box is missing from the order. | 这个订单少了一个箱子。 | missing 只说「现在找不到」，不一定真丢了，所以客服刚开始查的时候多用 missing；确定丢了才说 lost。
+@v: scan | = | n./v. | skæn | 扫描（记录）；扫描 | 包裹每到一个站点都会被扫描一次 | the last scan；scan a package；scan a barcode | The driver scans every package. | 派送员会扫描每一个包裹。 | scan 既是动词也是名词：the last scan（最后一次扫描）；读 `/skæn/`，a 嘴巴张大，不读「斯看」。
+@v: location | = | n. | loʊˈkeɪʃn | 位置；地点 | 查包裹在哪儿、说明办公地点 | current location；the location of…；share your location | Can you share your location with me? | 你能把位置发给我吗？ | 「位置」用 location，不说 ✗ position（position 多指「职位」或「姿势」）；重音在 ca：lo·CA·tion。
+@v: refund | = | n. | ˈriːfʌnd | 退款 | 客户没收到货、货坏了、退货时 | give sb a refund；get a refund；ask for a refund | The customer asked for a refund. | 客户要求退款。 | 名词重音在前 RE-fund；作动词（to refund the money）重音在后 re-FUND。「退款」不说 ✗ return money。
+@v: replace | = | v. | rɪˈpleɪs | 更换；补发（一件新的） | 东西坏了、丢了，换一个新的给客户 | replace the item；replace A with B；replace a part | We'll replace the broken printer. | 我们会把坏的打印机换掉。 | 「把 A 换成 B」用 replace A with B，不说 ✗ replace A to B；只是「换个东西」也可以说 change，但给客户补发、更换商品用 replace 更准确。
+@v: look into | = | phr. | ˈlʊk ˌɪntuː | 调查；查清楚并跟进 | 客户反映问题、需要时间去查 | look into it；look into the problem；I'll look into this. | Thanks for telling me. I'll look into it. | 谢谢告诉我，我会去查清楚。 | look into 不是「往里看」，是「调查、跟进」；要花时间去查才用它。马上就能查到用 Let me check.；中文「我帮您查一下」不说 ✗ I help you check.
+@v: contact | = | v. | ˈkɑːntækt | 联系 | 联系承运商、客户、同事 | contact the carrier；contact sb by email；contact us | Please contact me if you have any questions. | 有任何问题请联系我。 | contact 作动词后面直接跟人，不加 with：✗ contact with the carrier → ✓ contact the carrier。重音在前：CON·tact。
+@v: carrier | = | n. | ˈkæriər | 承运商；快递公司（负责运送的那家） | 物流行业说负责运输和派送的公司 | the carrier；contact the carrier；shipping carrier | Which carrier are you using? | 你们用的是哪家快递？ | 中文常说「快递公司」，物流和电商行业里正式说 carrier；聊天时也可以说 the shipping company。
+@v: inconvenience | = | n. | ˌɪnkənˈviːniəns | 不便；麻烦 | 客服、通知里向客户道歉 | Sorry for the inconvenience.；We apologize for any inconvenience.；cause inconvenience | We're sorry for the inconvenience. | 给您带来不便，我们深表歉意。 | 这是客服、通知里的固定说法，前面要有 the：Sorry for the inconvenience.；和同事之间说 Sorry about that. 就够了，太正式反而显得疏远。
+@v: record | = | n. | ˈrekərd | 记录 | 系统里的派送记录、通话记录、工作记录 | delivery record；keep a record；check the record | Please keep a record of every call. | 请把每通电话都记录下来。 | 名词重音在前 RE-cord；作动词「录音、记录」时重音在后 re-CORD：record a video。
+@v: driver | = | n. | ˈdraɪvər | 司机；派送员 | 快递员、卡车司机、出租车司机 | delivery driver；truck driver；the driver | The delivery driver called me this morning. | 快递员今天早上给我打了电话。 | 美国的「快递员」一般就叫 delivery driver 或 driver；courier 也对，但更正式，多用于加急件。
+@v: proof | = | n. | pruːf | 证明；凭证 | 送达照片、签收单、付款截图 | proof of delivery；as proof；proof of payment | Please send a photo as proof. | 请发一张照片作为凭证。 | proof 是不可数名词：✗ a proof → ✓ some proof / a photo as proof；动词「证明」是 prove `/pruːv/`。
+@v: delivered | deliver | v. | dɪˈlɪvərd | 送到；派送 | 说包裹、外卖、文件送到了 | be delivered；deliver a package；deliver to the door | Your food will be delivered in 30 minutes. | 您的外卖 30 分钟内送到。 | 包裹自己不会「送」，所以说「送到了」要用 was delivered：✗ The package delivered today. → ✓ The package was delivered today.
+@v: damaged | = | adj. | ˈdæmɪdʒd | 损坏的；破损的 | 收到的货、箱子有破损 | a damaged box；be damaged；arrive damaged | The box arrived damaged. | 箱子到的时候就破了。 | 「东西坏了」说 It's damaged / broken，不说 ✗ It's bad；结尾 -aged 读 `/ɪdʒd/`，不读 age `/eɪdʒ/`。
+
+@diff: 「一个客户」「那个包裹」——a / an 和 the
+@d_cn: 第一次提到某个人或某样东西，和说双方都知道的那一个。
+@d_en: A customer says the package didn't arrive.
+@d_why: 中文名词前面常常什么都不加：「客户说包裹没到」，听的人自己会判断是哪个。英文的单数可数名词前面几乎**必须**有一个小词：第一次提到、对方不知道是哪一个 → **a / an**（a customer，某位客户）；双方都知道是哪一个 → **the**（the package，就是这位客户的那个包裹）。很多中国学生不是用错，而是**整个漏掉**：Customer says package didn't arrive，听起来像发电报。
+@d_when: 讲一件新事情时先用 a，后面再提到就用 the：A seller called. The seller was angry.；说大家都知道的那一个也用 the：the system / the driver / the tracking number。
+@d_vs: **A customer called.** 有个客户打电话来。（第一次提到）\n**The customer was angry.** 那位客户很生气。（刚才说的那位）\n**Can you check the package?** 你能查一下那个包裹吗？（双方都知道是哪个）\n✗ Customer says package didn't arrive.（漏了 a / the）
+@d_task: 用英文说：「今天上午有个卖家打电话来。那个卖家想要退款。」 | A seller called this morning. The seller wants a refund.
+@diff: 「包裹丢了」——The package is missing / lost
+@d_cn: 东西找不到了、没到它该到的地方。
+@d_en: The package is missing. / The package is lost. / The carrier lost the package.
+@d_why: 中文「包裹丢了」：包裹在前，「丢」直接跟在后面。英文直译成 The package lost.，意思就乱了——像是「包裹弄丢了什么东西」。说东西现在的状态，要用 **be + lost / missing**。两个词还有区别：**missing** 是「现在找不到、没在该在的地方」，不一定真丢了，客服刚开始查时常用这个更稳妥的词；**lost** 是「确定丢了」。要说「是谁弄丢的」，才用 lose 作动词：The carrier lost the package.
+@d_when: 客户说没收到、系统里一时查不到时，先说 missing；确认找不回来了，才说 lost。
+@d_vs: ✗ **The package lost.**\n✓ **The package is missing.** 包裹找不到了。（还在查）\n✓ **The package is lost.** 包裹丢了。（确定丢了）\n✓ **The carrier lost the package.** 承运商把包裹弄丢了。
+@d_task: 用英文说：「有一个箱子找不到了，我们还在查。」 | One box is missing. We're still checking.
+@diff: 「已经送到了」——The package was delivered.（中文常省略「被」）
+@d_cn: 说东西「被」处理了，而且不在乎是谁做的。
+@d_en: The package was delivered today. / It was shipped last Tuesday. / The box was damaged.
+@d_why: 中文很少用「被」：「包裹送到了」「货发出去了」，听起来很自然。可包裹自己不会「送」，是派送员送的。英文里东西做主语、动作是别人做的，就要用 **was / were + 过去分词**（delivered / shipped / damaged）。说成 The package delivered today，听起来像「包裹今天去送了（别的东西）」。
+@d_when: 说包裹、文件、订单的状态，而做动作的人不重要或不知道：was delivered / was shipped / was scanned / was damaged。
+@d_vs: ✗ **The package delivered today.**\n✓ **The package was delivered today.** 包裹今天送到了。\n✓ **The driver delivered the package.** 派送员把包裹送到了。（说出是谁做的，用主动句）\n✓ **Your order was shipped yesterday.** 您的订单昨天发货了。
+@d_task: 用英文说：① 您的订单今天上午发货了。② 箱子坏了（被弄坏了）。 | ① Your order was shipped this morning. ② The box was damaged.
+@diff: 「我帮您查一下」——Let me check. / I'll look into it.
+@d_cn: 告诉对方你会去查、去处理他的问题。
+@d_en: Let me check. / I'll look into it. / I'll get back to you.
+@d_why: 中文「我帮您查一下」很客气，直译成 I help you check. 却是个病句（缺了 will 或 let me），还像在说一个习惯。英文按**要花多长时间**来选：马上就能查到、对方在线等 → **Let me check.**（Day 13 学过）；问题比较复杂、要花时间调查、过后再回复 → **I'll look into it.**，后面最好说清楚什么时候回复：I'll get back to you this afternoon.
+@d_when: 电话里、在线聊天里客户提出问题时。Let me check 之后一般马上给答案；I'll look into it 之后要说清楚下一步和时间。
+@d_vs: **Let me check.** 我查一下。（几秒钟，马上回答）\n**I'll look into it.** 我去查清楚、跟进处理。（要花时间）\n**I'll look into it and call you back this afternoon.**（加上下一步和时间，更让人放心）\n✗ I help you check.
+@d_task: 卖家说：Ten packages didn't arrive.（十个包裹没到）你要先和承运商核实，明天回复他。 | I'm sorry to hear that. I'll look into it and get back to you tomorrow.
+
+@core: A customer says + 事情. | 第一次转述一个新问题 | customer / seller / driver | 正式：One of our customers reported that the package did not arrive.｜随意：A customer says it didn't come.
+@core: What's the tracking number? | 向对方要单号 | tracking number / order number / address | 正式：Could you give me the tracking number, please?｜随意：What's the tracking?
+@core: It's in transit. / It's out for delivery now. | 说明包裹现在的状态 | in transit / out for delivery / at the warehouse | 正式：The package is currently out for delivery.｜随意：It's on the truck now.
+@core: The package was + 过去分词. | 说包裹被怎么处理了 | delivered / shipped / scanned / damaged | 正式：The package was delivered at 2:15 p.m.｜随意：It got delivered today.
+@core: I'll look into it. | 承诺去查清楚、跟进 | look into it / contact the carrier / call you back | 正式：I'll look into this right away and get back to you.｜随意：I'll check and let you know.
+@core: Sorry for the inconvenience. | 给客户添了麻烦时道歉 | inconvenience / delay / trouble | 正式：We apologize for the inconvenience.｜随意：Sorry about that!
+
+@pw: status | ˈsteɪtəs | 2 个音节 STA·tus | 美式多读 `/ˈsteɪtəs/`，也有人读 `/ˈstætəs/`，两种都对
+@pw: carrier | ˈkæriər | 3 个音节 CAR·ri·er | car 在这里读 `/kæ/`，嘴巴张大，不读 car `/kɑːr/`
+@pw: location | loʊˈkeɪʃn | 3 个音节 lo·CA·tion | 重音在 ca；开头的 lo 读 `/loʊ/`
+@pw: delivered | dɪˈlɪvərd | 3 个音节 de·LI·vered | 重音在 li；-ed 只是轻轻的 `/d/`，不多加音节
+@pw: refund | ˈriːfʌnd | 2 个音节 RE·fund | 名词重音在前；动词 to refund 重音在后 `/rɪˈfʌnd/`
+@pw: inconvenience | ˌɪnkənˈviːniəns | 5 个音节 in·con·VE·ni·ence | 主重音在 ve，读 `/viː/`；其他音节都轻
+@pw: damaged | ˈdæmɪdʒd | 2 个音节 DAM·aged | 结尾 -aged 读 `/ɪdʒd/`，不读 age `/eɪdʒ/`
+@ps: A **cus**tomer says the **pack**age / didn't ar**rive**. | a 弱读成 `/ə/`；the 在辅音前读 `/ðə/`；重音给 customer、package 和 arrive。
+@ps: The **track**ing number is / **S**-**L** / **two**-**oh**-**four** / **nine**-**one**. | 单号一个字母、一个数字地读，每个都读清楚；0 常读成 oh `/oʊ/`；分组停顿，对方才记得住。
+@ps: It's **out** for de**li**very / **now**. | for 弱读成 `/fər/`；out、li 和 now 读重。
+@ps: I'll **look** into‿it. | into it 连读成 `/ˈɪntu‿ɪt/`；I'll 只有一个音节 `/aɪl/`。
+@pnote: the 有两种读法：在辅音前读 `/ðə/`（the package），在元音前读 `/ði/`（the address、the email）。a 在辅音前读 `/ə/`；在元音音素前要换成 an：an email、an hour、an SL number（S 读 `/es/`，元音开头）。
+@pnote: 读单号、电话号码时，美国人一个一个地读数字，0 多读成 oh；容易听混的字母用单词确认：B as in boy、D as in dog、M as in Mike。
+@lfocus: a 和 the 都很轻：/ə/、/ðə/、/ði/
+@lfocus: 单号里的字母和数字：S /es/、L /el/、0 读 oh
+@lfocus: delivered、shipped 的 -ed：/d/ 和 /t/，都不多加音节
+@dict: S2
+@dict: S9
+@res: 在 youglish.com 输入 "out for delivery"，选 US，听这个短语在真实语流里怎么连读。
+
+@mimic: 跟读【C】S2–S16：先用 0.8 倍速逐句跟读，重点模仿单号的读法和 a / the 的弱读；再由你演林晓、手机朗读卖家的台词，完整对一遍并录音。
+@swap: A customer says the package didn't arrive. | 换人和问题：seller / driver；the box was damaged / the address is wrong | A seller says the box was damaged.
+@swap: The tracking number is SL20491. | 换成另一个单号，按「字母 / 三位 / 两位」分组读 | The tracking number is SL38207.
+@swap: The package arrived in Los Angeles on Monday. It's out for delivery now. | 换城市、日子和状态：Chicago / Tuesday；in transit | The package left Shenzhen on Tuesday. It's in transit now.
+@swap: I'll look into it. | 加上下一步和时间：contact the carrier / call you back / this afternoon | I'll look into it. I'll contact the carrier and call you back this afternoon.
+@free: 一位卖家在线上问：Where's my package?（你需要先要单号） | Let me check. What's the tracking number?
+@free: 你查到包裹昨天到了芝加哥，现在正在派送，告诉卖家。 | The package arrived in Chicago yesterday. It's out for delivery now.
+@free: 卖家说包裹找不到了。你要去联系承运商，明天回复他，并为给他添的麻烦道歉。 | Sorry for the inconvenience. I'll look into it. I'll contact the carrier and get back to you tomorrow.
+@free: 你查到包裹今天上午已经送到了，派送员还拍了照片作为凭证。 | The package was delivered this morning. The driver took a photo as proof.
+@output: 录 1 分钟「客服电话」：一人分饰两角——卖家说客户没收到包裹（a customer / the package）；你要单号、读出单号、说明状态（in transit / out for delivery / was delivered），承诺跟进（I'll look into it），最后道歉并说明下一步。
+@output_sample: Seller: Hi. A customer says the package didn't arrive. Me: I'm sorry to hear that. What's the tracking number? Seller: It's SL38207. Me: Thank you. Let me check. The package was shipped last Friday. It was in transit for five days, and it arrived in Chicago yesterday. It's out for delivery now. I'll look into it and call you back this afternoon. Sorry for the inconvenience.
+
+@check: A customer says the package didn't arrive. 为什么 customer 前用 a，package 前用 the？ | 客户是第一次提到的「某位客户」，用 a；包裹就是这位客户的那个、双方都知道是哪个，用 the。
+@check: 「包裹丢了」说成 The package lost. 有什么问题？ | 缺了 is，而且听起来像「包裹弄丢了什么」。应该说 The package is lost. / The package is missing.
+@check: 客服刚开始查的时候，说 missing 还是 lost 更合适？为什么？ | missing。它只表示「现在找不到」，不确定真的丢了；lost 是确定丢了。
+@check: 用英文说「包裹今天送到了」「订单昨天发货了」。 | The package was delivered today. / The order was shipped yesterday.
+@check: 客户问了两个问题：一个你马上能查到，另一个要联系承运商。两种情况分别怎么回答？ | 马上能查：Let me check.／要花时间：I'll look into it (and get back to you).
+@next1: 不看书说出 S2、S5、S9、S14、S20 五句（锚点句）
+@next1: 把单号 SL20491 分组读三遍，再自己编一个单号读出来
+@next1: was delivered / was shipped / was damaged 各说一句
+@next7: 用 a 和 the 讲一件小事：先 a，再 the（A seller called. The seller…）
+@next7: 包裹的五种状态：shipped / in transit / out for delivery / delivered / missing

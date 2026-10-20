@@ -1,0 +1,155 @@
+@day: 22
+@week: 4
+@title_cn: 进度如何
+@title_en: How's It Going?
+@topic: 向经理汇报工作进度
+@think_short: 「我在做了」I'm working on it｜「做完了」I've finished｜「快好了」almost done｜「四点前」by ≠ until
+
+@goal_scene: 周一上午，经理走到你的工位前，问你手上两项工作的进度：你要先给结论，再说清楚做完了哪部分、还差什么、几点前能交。
+@goal_expr: I'm working on it. / I've finished the first part. / It's almost done. I just need to… / I can finish it by four. / So far, everything is on track. / I'll keep you posted.
+@goal_vocab: 17 个重点词 + 4 个短语：进度、完成程度、数据与表格、截止时间
+@done: 被问 How's … going? 时，能用 3 句话说清：在做 / 做完了哪部分 / 还差什么、几点前交
+@done: 能分清 I've finished it（现在已经好了）和 I finished it yesterday（说过去某个时间做完的），并按情境选对
+@done: 说交期用 by four，说持续到某时用 until four，不再混用
+
+@warmup: 我把每周发货报告附上了。 | I've attached the weekly shipment report. | D19
+@warmup: 有任何问题请告诉我。 | Please let me know if you have any questions. | D19
+@warmup: 截止日期是周五。 | The deadline is Friday. | D19
+@warmup: 我们需要多少箱打印纸？ | How many boxes of printer paper do we need? | D20
+@warmup: 我们每个月大约发三万个包裹。 | We send about thirty thousand packages a month. | D20
+@warmup: 我周三要见一个客户。 | I'm meeting a client on Wednesday. | D16
+
+@scene: 第四周的周一上午十点。上周五，张涛给林晓布置了两项工作：每周发货报告（Emma 今天下午要用）和一份美国卖家客户名单（周二交）。张涛开完周会，走到林晓的工位旁。他说话直接，最喜欢别人「先说重点」：哪项在做、哪部分做完了、能不能按时交。
+@sp: 人物关系 | 林晓（运营助理）→ 张涛（直属经理）：上下级，关系不错；张涛说话直接，想先听结论
+@sp: 沟通目的 | 让经理快速知道两项工作的进度和交付时间，让他放心
+@sp: 已知信息 | 张涛知道任务内容和截止时间，但不知道做到了哪一步；林晓清楚所有细节，但要挑重点说
+@sp: 表达重点 | 先给结论（在做 / 快好了）→ 做完了哪部分 → 还差什么 → 几点前能交 → 有变化会随时告诉他
+
+@story_title: Episode 22 · "I'm Working on It."
+@story_type: 叙述 + 对话
+@s: It's Monday, the start of Lily's fourth week at SwiftLink. | 周一，林晓在 SwiftLink 的第四周开始了。
+@s: At ten, Tom comes to her desk to check her **progress**. | 十点，张涛来到她的工位，看看她的工作进度。
+@s: Lily remembers his advice: say the main point first. | 林晓记得他的建议：先说重点。
+@br:
+@s: Tom: Morning, Lily. How's the shipment report going? | 张涛：早，林晓。发货报告做得怎么样了？
+@s: Lily: I'm **working on** it. | 林晓：正在做。
+@s: Lily: I've **finished** the first **part**. | 林晓：第一部分已经做完了。
+@s: Lily: I've **already** put last week's numbers in the **spreadsheet**. | 林晓：上周的数字我已经填进表格里了。
+@s: Tom: How do they look? | 张涛：数字怎么样？
+@s: Lily: Pretty good. Ninety-four **percent** of our packages arrived on time. | 林晓：挺好的。94% 的包裹都准时送到了。
+@s: Lily: The late ones were **mostly** in New York. | 林晓：晚到的大多在纽约。
+@s: Tom: Great. When can Emma have it? | 张涛：很好。Emma 什么时候能拿到？
+@s: Lily: It's **almost** **done**. I just need to **double-check** the **data**. | 林晓：快好了，我只需要再核对一下数据。
+@s: Lily: I can finish it **by** four. | 林晓：我四点前能做完。
+@br:
+@s: Tom: Perfect. And the client list? | 张涛：好极了。那客户名单呢？
+@s: Lily: That's a bigger **project**. I'm about **halfway** through. | 林晓：那个工作量大一些，我大概做了一半。
+@s: Tom: What's the next **step**? | 张涛：下一步做什么？
+@s: Lily: I need to add the sellers' email addresses. Then the list will be **complete**. | 林晓：我要把卖家的邮箱地址加进去，然后名单就齐了。
+@s: Lily: **So far**, everything is **on track**. You'll have it tomorrow afternoon. | 林晓：到目前为止，一切都按计划进行。明天下午你就能拿到。
+@s: Tom: Good. Thanks for the **update**. | 张涛：好，谢谢你及时汇报。
+@s: Lily: Sure. I'll **keep you posted**. | 林晓：好的，有新进展我随时告诉你。
+@br:
+@s: Tom nods and walks back to his office. | 张涛点点头，走回了自己的办公室。
+@s: Main point first, then the details. Lily did it! | 先说重点，再说细节——林晓做到了！
+
+@v: progress | = | n. | ˈprɑːgres | 进度；进展 | 经理问工作情况、汇报项目 | make progress；check sb's progress；good progress | We made good progress this week. | 我们这周进展不错。 | progress 不可数：✗ a progress / progresses → ✓ some progress / good progress；「有进展」说 make progress，不说 have progress。
+@v: working on | work on | phr. | ˈwɜːrkɪŋ ɑːn | 在做；在处理（一项要花一段时间的工作） | 汇报进度：已经开始了、还没做完 | work on a report；work on it；What are you working on? | What are you working on today? | 你今天在忙什么？ | 后面接工作内容时不能漏掉 on：✗ I'm working the report. → ✓ I'm working on the report.
+@v: finished | finish | v. | ˈfɪnɪʃt | 完成；做完 | 说一项工作或其中一部分做完了 | finish the report；finish work；finish + -ing | I finished writing the email at five. | 我五点把邮件写完了。 | finish 后面接动作用 -ing：✗ finish to write → ✓ finish writing；「我做完了」也可以说 I'm finished / I'm done。
+@v: part | = | n. | pɑːrt | 部分 | 把一项工作分成几块来汇报 | the first part；part of…；the hard part | The hardest part is the data. | 最难的部分是数据。 | 「第一部分」要加 the：the first part；「其中一部分」用 part of：part of the list，不说 a part list。
+@v: already | = | adv. | ɔːlˈredi | 已经 | 说某事已经做了（往往比对方想的早） | I've already…；already done；already here | I've already sent the email. | 我已经把邮件发出去了。 | already 放在 have 和动词中间：I've already sent…；否定句「还没」用 yet，不用 already。
+@v: spreadsheet | = | n. | ˈspredʃiːt | 电子表格（如 Excel 表） | 整理数据、清单、报表 | in the spreadsheet；an Excel spreadsheet；update the spreadsheet | All the numbers are in the spreadsheet. | 所有数字都在表格里。 | 「Excel 表格」英文说 spreadsheet；要人填写的「表格」是 form（Day 15），「图表」是 chart，三者别混。
+@v: percent | = | n. | pərˈsent | 百分之…… | 报告里说比例、完成度、折扣 | 94 percent；ten percent off；a hundred percent | Ten percent of the packages were late. | 有 10% 的包裹晚到了。 | 中文「百分之九十四」先说「百分之」，英文数字在前：ninety-four percent；percent 不加 s：✗ 94 percents。
+@v: mostly | = | adv. | ˈmoʊstli | 大部分；主要（是） | 说大部分情况、主要原因 | mostly in…；mostly done；mostly because… | Our customers are mostly in the U.S. | 我们的客户大多在美国。 | mostly 是副词；「大多数人」说 most people，不说 mostly people。
+@v: almost | = | adv. | ˈɔːlmoʊst | 几乎；差不多（快要） | 说工作快完成了、人快到了 | almost done；almost ready；almost there | I'm almost there. See you in five minutes. | 我快到了，五分钟后见。 | almost 不能直接放在名词前表示「几乎所有」：✗ almost people → ✓ almost everyone / most people。
+@v: done | = | adj. | dʌn | 做完的；（事情）好了 | 口语里最常用的「好了」「搞定了」 | It's done.；I'm done.；almost done | Is the report done? — Yes, it's done. | 报告好了吗？——好了。 | It's done = 事情做好了；I'm done = 我做完了；不要说 It's finish（finish 是动词，要说 It's finished）。
+@v: double-check | = | v. | ˌdʌblˈtʃek | 再核对一遍；复查 | 交东西前再确认数字、地址、时间 | double-check the data；double-check the address；Let me double-check. | Let me double-check the address before I send it. | 我发之前再核对一下地址。 | 平时「检查」说 check；「再仔细核对一遍」说 double-check，不用说 check again and again。
+@v: data | = | n. | ˈdeɪtə | 数据 | 报告、表格、系统里的数字和信息 | the data；enter data；customer data | Please enter the data in the system. | 请把数据录入系统。 | 日常职场英语把 data 当不可数名词：The data is ready.；不说 a data / datas。
+@v: by | = | prep. | baɪ | 不迟于；最晚在……之前（截止） | 说交期、截止时间 | by four；by Friday；by tomorrow morning | Please reply by Friday. | 请在周五前回复。 | by 表示「最晚到这个时间完成」；表示「一直持续到」用 until：I'll be here until six.
+@v: project | = | n. | ˈprɑːdʒekt | 项目；（一项较大的）工作 | 说手上的大任务、团队的项目 | a big project；work on a project；project manager | I'm working on a new project with Emma. | 我在和 Emma 做一个新项目。 | 中文「项目」用得很广；英文 project 指有目标、有期限、要花一段时间的工作，回一封邮件这样的小事叫 task（Day 16）。
+@v: halfway | = | adv. | ˌhæfˈweɪ | 到一半；在中途 | 说工作做了一半、路走了一半 | halfway through；halfway there；halfway done | We're halfway through the project. | 这个项目我们做了一半了。 | halfway 里的 l 不发音；「做了一半」说 I'm halfway through (it)，不说 I did a half。
+@v: step | = | n. | step | 步骤；一步 | 说流程、下一步做什么 | the next step；step by step；the first step | What's the next step? | 下一步是什么？ | 「下一步」要加 the：the next step；「一步一步来」是 step by step。
+@v: complete | = | adj. | kəmˈpliːt | 完整的；齐全的 | 说名单、资料、信息都齐了 | a complete list；The list is complete.；complete information | Is the address complete? | 这个地址完整吗？ | complete 也能做动词（complete the form 填完表格），比 finish 正式；口语说「做完了」更常用 done / finished。
+@v: So far | so far | phr. | ˌsoʊ ˈfɑːr | 到目前为止 | 汇报阶段性情况；聊新工作的感受 | so far, so good；so far today；How's it going so far? | How's your new job so far? | 新工作到目前为止感觉怎么样？ | so far 说的是「到现在为止」，常和现在完成时一起用：So far, I've finished two parts.
+@v: on track | = | phr. | ˌɑːn ˈtræk | 按计划进行；进度正常 | 汇报项目没有延误 | be on track；back on track；keep sth on track | The project is on track. | 项目按计划进行。 | 「很顺利」不要直译成 The project is smooth；说 It's on track. 或 It's going well.
+@v: update | = | n. | ˈʌpdeɪt | 最新情况；进度汇报 | 向经理同步进展；系统更新 | a quick update；Thanks for the update.；give sb an update | Can you give me a quick update? | 你能简单说一下最新进展吗？ | 名词重音在前 UP·date，动词常读 up·DATE；「我会告诉你最新情况」可以说 I'll give you an update.
+@v: keep you posted | keep sb posted | phr. | ˌkiːp ju ˈpoʊstɪd | 随时告诉你（最新情况） | 汇报结尾，承诺有进展会通知对方 | I'll keep you posted.；Keep me posted.；keep the team posted | Please keep me posted on the shipment. | 那批货有消息请随时告诉我。 | posted 在这里不是「贴出来」，整个短语表示「让你随时知道」；别人对你说 Keep me posted，可以回答 Will do.
+
+@diff: 「我在做了」——I'm working on it.
+@d_cn: 告诉对方：这件事我已经开始做了，现在还没做完。
+@d_en: I'm working on it. / I'm working on the client list.
+@d_why: 中文「在做了」「正在弄」很笼统，很多人直译成 I'm doing it.，可这句话常带「我这就做 / 别催了」的语气，也没说清进度。英文汇报进度最常用 **work on**：一项需要一段时间的工作已经开始、还在进行中——不一定是此时此刻正在动手。刚接到任务、表示「交给我，马上办」，美国人还常说 **I'm on it.**
+@d_when: 经理、同事问 How's … going? / Is … ready? 而你还没做完时；可以接着补一句做到哪了：I'm working on the second part now.
+@d_vs: **I'm working on it.** 在做了（已经开始，还没完）。\n**I'm on it.** 交给我，马上办。（刚接到任务时）\n**I'm doing it now!** 我这就做！（常有「别催了」的语气）\n✗ I'm working it.（漏了 on）
+@d_task: 用英文回答经理：「客户名单我在做了，现在在做第二部分。」 | I'm working on it. I'm working on the second part now.
+@diff: 「我做完了」——I've finished it. / It's done.
+@d_cn: 说某件事已经完成，重点是「现在的结果」：东西已经好了，可以交、可以看了。
+@d_en: I've finished the first part. / It's done. / I finished it last night.（说具体什么时候做完的）
+@d_why: 中文一个「了」就够了，不管什么时候做完的。英文要看你想强调什么：强调「现在已经好了」，用 **I've finished**（have + 过去分词），不提具体时间；一旦说出 yesterday、last night、at three 这样的过去时间，就要改用一般过去时 **I finished**。最口语、最省事的说法是 **It's done.**
+@d_when: 经理问 Is it ready? / Have you finished…? → I've finished it. / Yes, it's done.；讲什么时候做完的 → I finished it last night.
+@d_vs: **I've finished the first part.** 第一部分已经做完了。（结果：现在就能看）\n**I finished it last night.** 我昨晚做完的。（有过去时间）\n✗ I've finished it yesterday.（有 yesterday 就不能用 I've）\n**It's done.** 好了 / 搞定了。
+@d_task: 用英文说：① 报告已经写完了。② 我昨天下午就写完了。 | ① I've finished the report. / The report is done. ② I finished it yesterday afternoon.
+@diff: 「快好了」——It's almost done.
+@d_cn: 事情接近完成，只差一点。
+@d_en: It's almost done. / I'm almost finished. / Almost there.
+@d_why: 「快……了」常被直译成 It's fast done. 或 The report will finish soon.——前者不成立，后者也不对：报告不会自己「完成」，是你完成它（I'll finish it soon.）。英文用 **almost**（差不多、几乎）+ 结果状态 done / finished / ready。另外，美国经理听到 almost done 常会追问「还差什么」，所以最好主动补一句：I just need to…
+@d_when: 被问进度、对方在等你时。只做了一半，说 I'm about halfway through.
+@d_vs: **It's almost done.** 快好了。\n**I just need to double-check the data.** 只差再核对一下数据。\n**I'm about halfway through.** 大概做了一半。\n✗ It's fast done. / ✗ The report will finish soon.
+@d_task: 同事问你 Is the spreadsheet ready? 你想说「快好了，我只需要再把邮箱地址加上」。 | It's almost done. I just need to add the email addresses.
+@diff: 「四点前」by four（截止）≠「到四点」until four（持续）
+@d_cn: 「四点前（交）」= 最晚不超过四点；「（工作）到四点」= 一直持续到四点。
+@d_en: I can finish it by four. / I'll be in a meeting until four.
+@d_why: 中文的「前」「到」很灵活，英文却分得很清：**by** = 「最晚在这个时间点完成」，跟一次性的动作（finish、send、reply）；**until** = 「一直持续到这个时间点才停」，跟持续的状态（work、wait、stay）。把交期说成 I can finish it until four，美国人会觉得别扭。before four 也能说，但说交期时 by 最常用——by four 包括四点整。
+@d_when: 交期、截止：by Friday / by 5 p.m. / by tomorrow；持续：wait until three / stay until six / work until late
+@d_vs: **I can finish it by four.** 四点前能做完（最晚四点）。\n**I'll work on it until four.** 我会一直做到四点。\n✗ I can finish it until four.\n**Can you wait until four?** 你能等到四点吗？
+@d_task: 用 by 或 until 说：① 请周五前把文件发给我。② 明天我一直开会，开到中午。 | ① Please send me the file by Friday. ② I'll be in a meeting until noon tomorrow.
+
+@core: How's … going? — I'm working on it. | 被问进度时先给结论：在做 | the report / the client list / the project | 正式：I'm currently working on it.｜随意：Working on it!
+@core: I've finished + 部分 / 任务. | 说已经完成的部分 | the first part / the spreadsheet / the data | 正式：I've completed the first part.｜随意：First part's done.
+@core: It's almost done. I just need to + 动作. | 快完成了，主动说明只差哪一步 | double-check the data / add the emails / fix a typo | 正式：It's nearly complete. I just need to check the data.｜随意：Almost there!
+@core: I'm about halfway through. | 说完成了一半左右 | halfway / about 60 percent / mostly done | 正式：I'm about fifty percent done.｜随意：I'm halfway there.
+@core: I can finish it by + 时间. | 承诺交付时间 | four / noon / Friday / tomorrow morning | 正式：I'll have it ready by 4 p.m.｜随意：You'll have it by four.
+@core: So far, everything is on track. | 汇报整体情况正常、能按时完成 | everything / the project / we | 正式：At this point, the project is on schedule.｜随意：So far, so good.
+@core: I'll keep you posted. | 结尾承诺：有新情况会及时告知 | you / Tom / the team | 正式：I'll keep you updated on my progress.｜随意：I'll let you know.
+
+@pw: progress | ˈprɑːgres | 2 个音节 PRO·gress，名词重音在前 | pro 嘴巴张大读 /ɑː/，不读「普肉」；作动词时重音在后 pro·GRESS
+@pw: almost | ˈɔːlmoʊst | 2 个音节 AL·most | l 轻轻带过；almost done 里 t 几乎不发音：`/ˈɔːlmoʊs dʌn/`
+@pw: halfway | ˌhæfˈweɪ | 2 个音节 half·WAY | l 不发音，half 读 `/hæf/`；嘴巴张大发 /æ/
+@pw: data | ˈdeɪtə | 2 个音节 DA·ta | 美国人多读 `/ˈdeɪtə/`，中间的 t 常弹成轻轻的 d，像 DAY-da
+@pw: percent | pərˈsent | 2 个音节 per·CENT，重音在后 | per 很轻，舌头微卷；不读成「PER-cent」
+@pw: spreadsheet | ˈspredʃiːt | 2 个音节 SPREAD·sheet | d 和 sh 之间不加元音；sheet 是长音 /iː/，嘴角往两边拉
+@pw: double-check | ˌdʌblˈtʃek | 3 个音节 dou·ble·CHECK | dou 读短促的 /ʌ/；动词的主重音在 check
+@ps: I'm **work**ing‿on‿it. | working on it 三个词连成一串：wor-king-o-nit。重音只在 work 上，on 和 it 又轻又快。
+@ps: I've **fin**ished the **first part**. | I've 读 `/aɪv/`：v 很短，上牙轻碰下唇就行；漏掉 v 就成了 I finished（过去某时做完的）。finished 的 -ed 读 /t/：`/ˈfɪnɪʃt/`。
+@ps: It's **al**most **done**. / I just need to double-**check** the **da**ta. | almost 的 t 在 done 前几乎听不到；need to 两个辅音合成一个：`/ˈniːtə/`。
+@ps: **So far**, / **ev**erything is on **track**. | So far 后面停一下；everything is 连读：`/ˈevriθɪŋɪz/`；track 读重，句尾语调往下走，听起来让人放心。
+@pnote: 书面写 I have finished，口语几乎都说 **I've finished**。I've `/aɪv/` 的 v 很短，快说时容易听丢：finished 前面有一点轻轻的 v 音，就是 I've（现在已经好了）；没有，就是 I finished（过去某时做完）。
+@pnote: 口头汇报时美国人常省掉主语：Working on it. / Almost done. / Done! 听起来干脆利落；但写正式邮件时要写完整句子。
+@lfocus: I've 的 v 很轻：I've finished vs I finished
+@lfocus: working on it 连成一个音块
+@lfocus: by four 的 by 读得轻，重音在 four
+@dict: S6
+@dict: S12
+@res: 在 youglish.com 输入 "I'm working on it"，选 US，听真人怎么连读。
+
+@mimic: 跟读【C】S4–S20 的对话：先 0.8 倍速逐句跟读，重点模仿 working on it 的连读和 I've 里轻轻的 v；再由你演林晓、手机朗读张涛的台词，完整对一遍并录音。
+@swap: I'm working on the shipment report. | 换成你手上的工作：the client list / my weekly report / an email to a seller | I'm working on an email to a seller.
+@swap: I've finished the first part. | 换完成的内容：the spreadsheet / the data / the first two steps | I've finished the spreadsheet.
+@swap: I can finish it by four. | 换截止时间：noon / Friday / tomorrow morning | I can finish it by tomorrow morning.
+@swap: It's almost done. I just need to double-check the data. | 换「还差的一步」：add the emails / fix a typo / ask Grace a question | It's almost done. I just need to fix a typo.
+@free: 经理问你：How's the client list going?（你做了一半左右，明天中午前能交） | I'm working on it. I'm about halfway through. I can finish it by noon tomorrow.
+@free: 同事问：Is the spreadsheet ready?（你已经做完了，马上发给他） | Yes, it's done. I've finished it. I'll send it to you now.
+@free: 经理问你报告什么时候能交。你想说「四点前，有变化我会随时告诉你」。 | I can finish it by four. I'll keep you posted.
+@free: 同事想下午找你聊。你开会开到三点，想说「我开会开到三点，三点以后聊可以吗？」 | I'm in a meeting until three. Can we talk after that?
+@output: 录 1 分钟「向经理汇报进度」：说两项工作——一项快好了（做完了哪部分、还差什么、几点前交），一项刚做了一半（下一步是什么）——最后用 So far… 和 I'll keep you posted 收尾。记住：先说结论，再说细节。
+@output_sample: Hi Tom, here's a quick update. The weekly report is almost done. I've finished the first part, and I've already put the data in the spreadsheet. I just need to double-check the numbers. I can finish it by four. The client list is a bigger project. I'm about halfway through. The next step is to add the email addresses. So far, everything is on track. I'll keep you posted.
+
+@check: 张涛问 How's the report going? 如果林晓回答 I'm doing it. 有什么问题？更好的说法是什么？ | I'm doing it 常带「我这就做 / 别催了」的语气，也没说清进度。汇报用 I'm working on it.，最好再补一句做到了哪一步。
+@check: 「我昨天就把报告做完了」能不能说 I've finished the report yesterday？ | 不能。有 yesterday 这样的过去时间，要说 I finished the report yesterday.；不提时间、强调「现在已经好了」，才用 I've finished the report.
+@check: 经理说 Please send it to me by Friday. 你周四晚上发，可以吗？周六发呢？ | 周四可以（最晚周五）；周六不行——by Friday 是截止时间。
+@check: 「我会一直在办公室待到七点」用 by 还是 until？ | until：I'll stay in the office until seven.（持续到七点）
+@check: 林晓最后说 I'll keep you posted. 是什么意思？还能怎么说？ | 有新进展我会随时告诉你。也可以说 I'll let you know. / I'll keep you updated.
+@next1: 不看书说出 S5、S6、S12、S13
+@next1: 「我在做了 / 第一部分做完了 / 快好了 / 四点前能做完」用英文各说一遍
+@next7: 用 by 和 until 各说 2 句关于你自己工作或学习的话
+@next7: I've finished… 和 I finished… yesterday 的区别

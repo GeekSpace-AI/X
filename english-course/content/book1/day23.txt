@@ -1,0 +1,151 @@
+@day: 23
+@week: 4
+@title_cn: 没按时完成
+@title_en: It's Not Ready Yet
+@topic: 说明延误原因、提出新的时间、承认自己的问题
+@think_short: 「本来打算」I was going to…｜「应该今天到的」was supposed to｜on time ≠ in time｜「是我的错」It's my fault
+
+@goal_scene: 工作没按时完成、货物没按时到：你要向经理说明原来的计划、出了什么情况、新的时间是什么；如果是自己的疏忽，简短地认错，再说怎么补救。
+@goal_expr: I was going to…, but… / Can I send it to you tomorrow morning? / It was supposed to… / They're stuck in customs. / Sorry, it's my fault. / We expect…
+@goal_vocab: 17 个重点词 + 4 个短语：延误与原因、海关与仓库、新的时间、道歉与承诺
+@done: 能用 I was going to…, but… 说清一件没做成的事：原计划 + 原因
+@done: 能用 was / were supposed to 说「本来应该……（结果没有）」，并分清 on time 和 in time
+@done: 出了自己的错时，能简短认错（It's my fault.），并马上说出现在的情况和下一步
+
+@warmup: 发货报告做得怎么样了？——正在做。 | How's the shipment report going? — I'm working on it. | D22
+@warmup: 第一部分我已经做完了。 | I've finished the first part. | D22
+@warmup: 快好了，我只需要再核对一下数据。 | It's almost done. I just need to double-check the data. | D22
+@warmup: 我四点前能做完。 | I can finish it by four. | D22
+@warmup: 五号线出了事故，所以地铁停了二十分钟。 | There was an accident on Line 5, so the subway stopped for twenty minutes. | D9
+@warmup: 我打算去看我爸妈。 | I'm going to visit my parents. | D16
+
+@scene: 周二下午四点。昨天林晓答应张涛今天下午交客户名单，可今天上午公司系统宕机了两个小时，名单还差一部分。更糟的是，寄给西雅图 Mike 团队的产品样品本来应该今天到，现在却卡在了美国海关——原因是林晓寄件时漏了一张表格。她决定主动去找张涛，把两件事一次说清楚。
+@sp: 人物关系 | 林晓 → 张涛（直属经理）：张涛说话直接但很耐心，最不喜欢到最后一刻才知道坏消息
+@sp: 沟通目的 | 说明两件事为什么没按计划进行，提出新的时间，并为自己的疏忽负责
+@sp: 已知信息 | 张涛知道上午系统出了问题，但不知道名单还没好，也不知道样品卡在了海关
+@sp: 表达重点 | 先说结论（没好 / 卡住了）→ 原计划和原因（I was going to…, but…）→ 新的时间 → 是自己的错就直接承认 → 现在的情况和下一步
+
+@story_title: Episode 23 · "Sorry, It's My Fault."
+@story_type: 叙述 + 对话
+@s: It's Tuesday afternoon. Lily needs to **explain** two problems to Tom. | 周二下午，林晓要向张涛说明两个问题。
+@s: Lily: Tom, the client list isn't ready yet. I'm a little **behind schedule**. | 林晓：张涛，客户名单还没做好，我的进度有点落后了。
+@s: Lily: **I was going to** finish it this morning, but the system was **down** for two hours. | 林晓：我本来打算上午做完的，可是系统宕机了两个小时。
+@s: Tom: I know. Kevin told me **earlier**. | 张涛：我知道，Kevin 早些时候跟我说了。
+@s: Lily: I need about three more hours. Can I send it to you tomorrow morning? | 林晓：我还需要大概三个小时。明天上午发给你可以吗？
+@s: Tom: Sure. My client meeting is at two tomorrow, so I'll still get it **in time**. | 张涛：可以。我和客户的会在明天下午两点，所以还来得及。
+@s: Lily: Thanks. I'll work on it **until** seven **tonight**. | 林晓：谢谢。我今晚会一直做到七点。
+@s: Tom: OK, but don't stay too late. | 张涛：好，不过别待太晚。
+@br:
+@s: Lily: **Actually**, there's another problem. It's about the samples for Mike's team. | 林晓：其实，还有一个问题，是寄给 Mike 团队的样品。
+@s: Lily: The samples **were supposed to** arrive today. | 林晓：样品本来应该今天到的。
+@s: Lily: But there's a **delay**. They're **stuck** in **customs**. | 林晓：但是出现了延误，它们卡在海关了。
+@s: Tom: Customs? Why? | 张涛：海关？为什么？
+@s: Lily: I forgot to send one form with the box. Sorry, it's my **fault**. | 林晓：寄箱子的时候我漏了一张表格。对不起，是我的错。
+@s: Tom: Thanks for telling me. What's the **situation** now? | 张涛：谢谢你直接告诉我。现在情况怎么样？
+@s: Lily: The **warehouse** sent the form to customs this morning. | 林晓：仓库今天上午已经把表格发给海关了。
+@s: Lily: We **expect** the samples to **clear** customs on Thursday. | 林晓：我们预计样品周四能清关。
+@s: Tom: Is it **possible** to get them to Seattle by Friday? | 张涛：有没有可能周五前送到西雅图？
+@s: Lily: Yes, but it will cost a little **extra**. | 林晓：可以，不过要多花一点钱。
+@s: Lily: I **promise** it won't happen again. | 林晓：我保证不会再发生这种事了。
+@s: Tom: OK. Mistakes happen. Let's tell Mike now. | 张涛：好。谁都会犯错。我们现在就告诉 Mike 吧。
+
+@v: explain | = | v. | ɪkˈspleɪn | 说明；解释（原因、情况） | 向经理说明问题、向客户解释延误 | explain the problem；explain sth to sb；Let me explain. | Let me explain the situation. | 我来说明一下情况。 | explain 后面直接接事情，要接人得加 to：✗ explain me the problem → ✓ explain the problem to me.
+@v: behind schedule | = | phr. | bɪˌhaɪnd ˈskedʒuːl | 进度落后；比计划晚 | 汇报项目、工作没按计划完成 | a little behind schedule；two days behind schedule；fall behind schedule | The project is two days behind schedule. | 这个项目比计划晚了两天。 | 落后多少要放在前面：two days behind schedule，不说 behind schedule two days；反义是 on schedule（按计划）。
+@v: I was going to | = | phr. | aɪ wəz ˈgoʊɪŋ tə | 我本来打算……（结果没做成） | 说明原来的计划为什么没实现 | I was going to…, but…；We were going to…；It was going to… | I was going to call you, but I forgot. | 我本来想给你打电话的，但是忘了。 | to 后面跟动词原形：✗ I was going to finished → ✓ I was going to finish；口语里常读成 was gonna。
+@v: down | = | adj. | daʊn | （系统、网站）宕机的；暂时不能用的 | 说系统、网站、网络出故障 | The system is down.；be down for two hours；go down | The website was down all morning. | 网站整个上午都打不开。 | 系统、网站暂时不能用，说 down 或 not working（Day 12），不说 The system is broken（broken 多指东西摔坏了）。
+@v: earlier | = | adv. | ˈɜːrliər | 早些时候；刚才 | 提到今天更早的时候发生的事 | earlier today；earlier this week；as I said earlier | Kevin called you earlier. | Kevin 刚才给你打过电话。 | earlier 是 early（Day 6）的比较级，也常单独用：「刚才 / 早些时候」= earlier；「明天早点来」说 come early tomorrow。
+@v: in time | = | phr. | ɪn ˈtaɪm | 来得及；及时（赶在某事之前） | 说赶不赶得上会议、航班、截止时间 | in time for…；just in time；get there in time | We got to the airport just in time. | 我们刚好赶到机场。 | 和 on time（准点，Day 9）不同：on time 强调「按预定时间」，in time 强调「没太晚、来得及」。
+@v: until | = | prep. | ənˈtɪl | 直到（某个时间才停） | 说一直做到某个时间、等到某个时间 | until six；wait until…；not until… | The office is open until seven. | 办公室开到七点。 | until 表示持续到某时；截止时间用 by（Day 22）：finish it by six，不说 finish it until six。
+@v: tonight | = | adv. | təˈnaɪt | 今晚 | 说今天晚上的安排 | tonight；tonight at eight；tonight's dinner | Are you free tonight? | 你今晚有空吗？ | tonight 前面不加 in / at / this：✗ in tonight / this night → ✓ tonight。
+@v: Actually | actually | adv. | ˈæktʃuəli | 其实；说实话（引出对方没想到的情况，或委婉纠正） | 补充新情况、纠正对方的理解 | Actually, …；Well, actually…；I actually… | Actually, the meeting is at three, not two. | 其实会议是三点，不是两点。 | actually 不等于「实际上 / 确实」的强调；它的意思是「其实（和你想的不一样）」。每句都加，听起来像在反驳别人。
+@v: were supposed to | be supposed to | phr. | wər səˈpoʊst tə | 本来应该（结果没有）；按规定 / 安排应该 | 说延误、和计划不一致的事 | be supposed to arrive；was supposed to start；What am I supposed to do? | The meeting was supposed to start at two. | 会议本来应该两点开始。 | supposed 后面的 to 不能丢：✗ They were supposed arrive → ✓ They were supposed to arrive；读的时候 d 不发音：`/səˈpoʊstə/`。
+@v: delay | = | n./v. | dɪˈleɪ | 延误；推迟 | 物流、航班、项目延误 | a delay；Sorry for the delay.；be delayed | Sorry for the delay. | 抱歉耽误了。 | 名词说 a delay；动词常用被动：The flight was delayed.，不说 The flight delayed.
+@v: stuck | = | adj. | stʌk | 卡住的；被困住的 | 货卡在海关、人堵在路上、事情卡住了 | stuck in customs；stuck in traffic；I'm stuck. | I'm stuck in traffic. I'll be late. | 我堵在路上了，会晚到。 | 用法是 be stuck in…；做事卡住、不知道怎么办，也可以直接说 I'm stuck.
+@v: customs | = | n. | ˈkʌstəmz | 海关 | 跨境物流、出入境 | clear customs；customs form；stuck in customs | The package is in customs now. | 包裹现在在海关。 | 「海关」一定带 s：customs，前面一般不加 the；custom（单数）是「风俗习惯」。
+@v: fault | = | n. | fɔːlt | （出错的）责任；过错 | 承认问题是自己造成的；安慰别人不怪他 | my fault；It's not your fault.；Whose fault is it? | It's not your fault. The system was down. | 这不怪你，是系统宕机了。 | 不说 It's my wrong.；fault 说「责任在谁」，mistake 说「做错的那件事」：I made a mistake.
+@v: situation | = | n. | ˌsɪtʃuˈeɪʃn | 情况；局面 | 询问或说明目前（有问题的）状况 | the situation；explain the situation；What's the situation? | What's the situation with the samples? | 样品那边现在什么情况？ | 中文「情况」用得很多，英文不一定都翻成 situation：「最近情况怎么样？」说 How's it going?；situation 多指有问题、要处理的状况。
+@v: warehouse | = | n. | ˈwerhaʊs | 仓库 | 物流公司存货、打包、发货的地方 | in the warehouse；warehouse team；ship from the warehouse | The warehouse ships about a thousand orders a day. | 仓库每天大约发一千个订单。 | 不说 store house；store 在美国是「商店」。
+@v: expect | = | v. | ɪkˈspekt | 预计；预期（会发生） | 说预计到达、完成的时间 | expect sth to…；expect it on Friday；as expected | We expect the package to arrive on Monday. | 我们预计包裹周一到。 | expect 是「预计会发生」，不是中文「期待（盼着）」；「我很期待」说 I'm looking forward to it. / I'm excited.
+@v: clear | = | v. | klɪr | 通过（海关）；清关 | 物流：货物办完海关手续 | clear customs；clear security（过安检） | The shipment cleared customs this morning. | 这批货今天上午清关了。 | clear 平时多作形容词「清楚的」；clear customs 直接接 customs，不加 from / through：✗ clear from customs。
+@v: possible | = | adj. | ˈpɑːsəbl | 可能的；办得到的 | 问「有没有可能」、提出请求 | Is it possible to…?；as soon as possible；if possible | Is it possible to change the time? | 有可能改个时间吗？ | 主语一般是 it：It's possible to…；「我可能会……」不说 I'm possible to…，说 Maybe I… / I might…
+@v: extra | = | adj./adv. | ˈekstrə | 额外的；另外（付费） | 说多出来的费用、时间、东西 | an extra cost；cost extra；extra time | Weekend delivery costs extra. | 周末送货要另外收费。 | cost extra 已经是「另外收钱」，不用再加 money；「额外的」不说 more extra。
+@v: promise | = | v. | ˈprɑːmɪs | 保证；答应 | 道歉后承诺改进；答应别人做某事 | I promise…；promise to…；make a promise | I promise I'll send it by noon. | 我保证中午前发出去。 | promise 后面接动作用 to：promise to call；ise 读 `/ɪs/`，不读「普罗麦斯」。
+
+@diff: 「我本来打算……」——I was going to…, but…
+@d_cn: 说出原来的计划，以及计划为什么没实现。
+@d_en: I was going to finish it this morning, but the system was down.
+@d_why: 中文靠「本来」两个字就说清了「计划没实现」。很多人会说 I originally wanted to…，wanted to 只说「想」，听不出那是已经定好的计划。I planned to… 也对，但口语里美国人最常用的是 **was / were going to**：把 Day 16 学的 be going to（已决定的计划）放到过去，意思就是「当时的计划是……」，后面几乎总跟着 **but + 原因**。
+@d_when: 解释工作没按时完成、计划被打乱、临时改了主意：I was going to call you, but I forgot.
+@d_vs: **I was going to finish it this morning, but the system was down.** 我本来打算上午做完，但是系统宕机了。\n**I'm going to finish it tomorrow.** 我明天会做完。（现在的计划）\n✗ I originally will finish it this morning.（will 不能这样说过去）
+@d_task: 用英文说：「我本来打算昨天给你打电话的，但是我忘了。」 | I was going to call you yesterday, but I forgot.
+@diff: 「应该今天到的」——was supposed to
+@d_cn: 按照安排、约定或规定，事情「本来应该」发生（但实际上没有）。
+@d_en: The samples were supposed to arrive today. / I'm supposed to send the report by Friday.
+@d_why: 中文的「应该」有好几个意思：建议（你应该休息）、推测（他应该到了）、按安排本该如此（应该今天到的）。英文把它们分开：建议用 should（Day 24 详细讲），**按安排、按计划本该如此**用 **be supposed to**。说成过去时 was / were supposed to，几乎就等于「本来应该……结果没有」。如果说 The samples should arrive today.，美国人听到的是「样品今天应该会到」（推测），听不出「没到」。
+@d_when: 说延误、和计划不一致的情况：The meeting was supposed to start at two.；也能说现在的安排或要求：I'm supposed to meet Emma at three.
+@d_vs: **They were supposed to arrive today.** 本来应该今天到。（结果没到）\n**They should arrive today.** 今天应该会到。（推测）\n**I'm supposed to send it by Friday.** 按要求，我周五前要发出去。
+@d_task: 用英文说：「会议本来应该三点开始，但是 Tom 迟到了。」 | The meeting was supposed to start at three, but Tom was late.
+@diff: 准点 on time ≠ 来得及 in time
+@d_cn: 「准时、按时」和「赶得上、来得及」是两个不同的意思。
+@d_en: The samples didn't arrive on time. / I'll still get it in time for my meeting.
+@d_why: 中文「准时」「按时」「及时」都带一个「时」，英文只差一个介词，意思却不同：**on time** = 按预定的时间点，不早不晚（准点）；**in time** = 在某件事之前、还没太晚（来得及），常说 in time for + 事情。中国学生常把两种意思都说成 on time。
+@d_when: 说航班、会议、交货是否准点 → on time；说赶不赶得上某件事 → in time (for…)；刚好赶上 → just in time
+@d_vs: **The samples didn't arrive on time.** 样品没有按时到。\n**I'll still get it in time for my meeting.** 开会前还来得及拿到。\n**We got to the station just in time.** 我们刚好赶上。
+@d_task: 选 on time 或 in time 说：① 会议准时开始了。② 你明天上午发给我，开会前还来得及。 | ① The meeting started on time. ② If you send it tomorrow morning, I'll get it in time for the meeting.
+@diff: 「是我的错」——It's my fault.
+@d_cn: 主动承认问题是自己造成的。
+@d_en: Sorry, it's my fault. / That was my mistake.
+@d_why: 很多人直译成 It's my wrong. 或 I'm wrong.——wrong 是形容词，不能放在 my 后面当名词；I'm wrong 是「我（说 / 想）错了」，指观点、判断。「责任在我」用 **fault**；「我弄错了」用 **mistake**。在美国职场，简短、直接地认错，马上说出补救办法，会被看作专业、可靠；不用一遍遍道歉，也不用先讲一长串理由。
+@d_when: 自己漏了东西、弄错了信息、造成了延误；别人向你道歉时安慰对方：It's not your fault.
+@d_vs: **Sorry, it's my fault.** 抱歉，是我的错。\n**That was my mistake. I'll fix it.** 是我弄错了，我来改。\n**It's not your fault.** 不怪你。\n✗ It's my wrong.
+@d_task: 你把卖家的地址写错了，向经理承认，并说你马上改。 | Sorry, it's my fault. I wrote the wrong address. I'll fix it right now.
+
+@core: I was going to…, but… | 说明原计划和没做成的原因 | finish it / call you / send it + this morning / yesterday | 正式：I had planned to finish it this morning, but…｜随意：I was gonna do it, but…
+@core: Can I send it to you + 新时间? | 主动提出新的交付时间 | tomorrow morning / by noon / on Thursday | 正式：Would it be OK if I sent it tomorrow morning?｜随意：Tomorrow morning OK?
+@core: … was / were supposed to + 动作. | 说本该发生却没发生的事 | arrive today / start at two / be ready | 正式：The shipment was scheduled to arrive today.｜随意：It was supposed to be here today.
+@core: They're stuck in + 地方. | 说东西或人卡在某个环节 | customs / the warehouse / traffic | 正式：The shipment is being held in customs.｜随意：They're stuck in customs.
+@core: Sorry, it's my fault. | 承认是自己的问题 | fault → mistake | 正式：I apologize. That was my mistake.｜随意：My bad.
+@core: We expect … to + 动作. | 说预计的时间或结果 | clear customs / arrive / be ready | 正式：We expect them to clear customs on Thursday.｜随意：Should be Thursday.
+@core: I'm a little behind schedule. | 说进度落后 | a little / a bit / two days | 正式：We're about two days behind schedule.｜随意：I'm running a bit late on it.
+
+@pw: explain | ɪkˈspleɪn | 2 个音节 ex·PLAIN | 重音在后；开头的 ex 读 `/ɪk/`，很轻
+@pw: customs | ˈkʌstəmz | 2 个音节 CUS·toms | cus 读短促的 `/kʌs/`；结尾 `/təmz/` 很轻，最后的 z 要带出来
+@pw: warehouse | ˈwerhaʊs | 2 个音节 WARE·house | ware 读 `/wer/`，和 where 一样；house 结尾是 /s/
+@pw: fault | fɔːlt | 1 个音节 | 嘴形圆、拖长 /ɔː/；舌尖抵住上牙床发 l，再轻轻带出 t，不读「否特」
+@pw: situation | ˌsɪtʃuˈeɪʃn | 4 个音节 si·tu·A·tion | t 在这里变成「吃」的音，tu 读 `/tʃu/`；主重音在 a
+@pw: actually | ˈæktʃuəli | 4 个音节 AC·tu·al·ly | 快说时常缩成 3 个音节 `/ˈæktʃəli/`；第一个 a 嘴巴张大发 /æ/
+@pw: supposed | səˈpoʊzd | 2 个音节 sup·POSED | 重音在后；后面跟 to 时 d 消失：`/səˈpoʊstə/`
+@ps: I was **go**ing to **fin**ish it this **morn**ing, / but the **sys**tem was **down** for two **hours**. | 口语里 was going to 常说成 `/wəz ˈgɑnə/`（was gonna）：was 弱读，going to 合成 gonna。逗号处停一下；down 读重——它就是原因。
+@ps: The **sam**ples were sup**posed**‿to ar**rive** to**day**. | supposed to 读成 `/səˈpoʊstə/`：d 和 t 合在一起，只听到一个 t；were 弱读成 `/wər/`。
+@ps: They're **stuck**‿in **cus**toms. | stuck in 连读成 stu-kin；They're 读 `/ðer/`，和 there 同音。
+@ps: **Sor**ry, / it's **my fault**. | my 和 fault 都读重，表示「是我，不是别人」；Sorry 后停一下，语气真诚、不拖沓。
+@pnote: was going to 在快速口语里几乎都是 **was gonna** `/wəz ˈgɑnə/`。书面上不写 gonna，但听力里要认得出来：听到 gonna 前面有个轻轻的 /wəz/，就是「本来打算」。
+@pnote: 过去式 -ed 有三种读法：`/t/`（finished、stopped）、`/d/`（delayed、explained）、`/ɪd/`（expected、waited）。只有 t、d 结尾的动词才多出一个音节 /ɪd/，所以 delayed 是 2 个音节，不读「迪雷伊德」。
+@lfocus: was going to → was gonna
+@lfocus: supposed to 里 d 不发音
+@lfocus: -ed 的读法：delayed /d/、expected /ɪd/
+@dict: S3
+@dict: S11
+@res: 在 YouTube 频道 Rachel's English 内搜索 "gonna"，听 going to 在口语里怎么变成 gonna。
+
+@mimic: 跟读【C】S2–S20：先 0.8 倍速逐句跟读，重点模仿 was going to 的弱读和 supposed to 里消失的 d；再由你演林晓、手机朗读张涛的台词，完整对一遍并录音。
+@swap: I was going to finish it this morning, but the system was down. | 换计划和原因：call you / I forgot；send it / the internet was slow | I was going to call you, but I forgot.
+@swap: The samples were supposed to arrive today. | 换主语和事情：the package / the meeting start at two / the report be ready on Monday | The meeting was supposed to start at two.
+@swap: Can I send it to you tomorrow morning? | 换时间：by noon / on Thursday / tonight | Can I send it to you by noon tomorrow?
+@swap: We expect the samples to clear customs on Thursday. | 换事情和时间：the package arrive / the report be ready | We expect the package to arrive on Friday.
+@free: 你答应经理今天交报告，可电脑一直出问题，没写完。说明原因，问能不能明天上午交。 | I was going to finish the report today, but my computer wasn't working. Can I send it to you tomorrow morning?
+@free: 卖家发消息：Where's my package? It was supposed to arrive yesterday.（你查到包裹卡在海关，预计周五清关） | I'm sorry for the delay. Your package is stuck in customs. We expect it to clear customs on Friday.
+@free: 你把客户的电话号码记错了，经理问怎么回事。 | Sorry, it's my fault. I wrote down the wrong number. I'll fix it now.
+@free: 同事问：明天上午再把文件发给客户，还来得及吗？（客户的会是下午三点） | Yes, that's fine. Their meeting is at three, so they'll get it in time.
+@output: 录 1 分钟「说明延误」：一件你没按时完成的事（I was going to…, but…）→ 一件本该发生却没发生的事（was supposed to…）→ 如果是你的问题，简短认错 → 现在的情况和新的时间。
+@output_sample: Hi Tom, I'm sorry, but the client list isn't ready. I was going to finish it this morning, but the system was down for two hours. Can I send it to you tomorrow morning? Also, the samples for Seattle were supposed to arrive today, but they're stuck in customs. I forgot to send one form with the box. Sorry, it's my fault. The warehouse sent the form this morning, and we expect the samples to clear customs on Thursday. I promise it won't happen again.
+
+@check: 林晓说 I was going to finish it this morning. 她上午做完了吗？你怎么知道？ | 没有。was going to 表示「当时的计划」，通常意味着计划没实现；后面的 but… 说的就是原因。
+@check: The samples should arrive today. 和 The samples were supposed to arrive today. 哪一句说明样品「没到」？ | 第二句。were supposed to = 本来应该，结果没有；should arrive today 是推测「今天应该会到」。
+@check: 张涛明天下午两点开会，林晓上午发名单，张涛说 I'll still get it in time. 能不能换成 on time？为什么？ | 不能。in time 是「赶在会议前、来得及」；on time 是「按预定的时间点」，意思不一样。
+@check: 同事因为系统宕机没按时交表，向你道歉。你想说「这不怪你」。 | It's not your fault. The system was down.
+@check: 林晓说 Actually, there's another problem. 这里的 actually 是什么意思？ | 「其实 / 还有」：用来引出对方没想到的新情况，或者委婉纠正对方，不是「事实上的、真的」那种强调。
+@next1: 不看书说出 S3、S10、S11、S13
+@next1: 用 I was going to…, but… 说一件你最近本来打算做、却没做成的事
+@next7: on time 和 in time 各说一句关于你自己的话
+@next7: 「应该」的两种英文：was supposed to（本来应该）和 should（推测 / 建议）

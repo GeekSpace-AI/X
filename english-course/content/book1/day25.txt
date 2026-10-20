@@ -1,0 +1,154 @@
+@day: 25
+@week: 4
+@title_cn: 「做」「拿」「得到」「有」
+@title_en: Make, Do, Take, Get, Have
+@topic: 高频动词搭配：一天里的各种「做」「拿」「有」
+@think_short: 「做」make 还是 do｜take notes / take a break｜「拿杯咖啡」get｜「开会」have a meeting
+
+@goal_scene: 忙碌的一天：开会、记笔记、查资料、打电话、帮团队挑礼物，下班后还有作业和家务——你要用对 make / do / take / get / have，把一天里的事说清楚。
+@goal_expr: I have a meeting at ten. / I'll take notes. / I need to make a decision. / Take a break! / I'm going to get some coffee. / That makes sense. / Have fun!
+@goal_vocab: 16 个重点词 + 4 个短语：make / do / take / get / have 的高频搭配
+@done: 能按 make / do 分好类，各说出 4 个常用搭配（make a decision、do research……）
+@done: 能用 take / get / have 说出一天里的 6 件事：开会、记笔记、休息、拿咖啡、洗澡、玩得开心
+@done: 说「开会」「拿咖啡」「洗澡」时，不再说 open a meeting / take a coffee / wash a shower
+
+@warmup: 工牌必须戴着。 | You have to wear your badge. | D24
+@warmup: 你的密码绝对不能告诉别人。 | You must not share your password. | D24
+@warmup: 周末你不用上班。 | You don't have to work on weekends. | D24
+@warmup: 奇怪的链接都别点。 | You shouldn't click strange links. | D24
+@warmup: 快好了，我只需要再核对一下数据。 | It's almost done. I just need to double-check the data. | D22
+@warmup: 我们去楼下吃午饭吧。 | Let's get lunch downstairs. | D5
+
+@scene: 周四，林晓这周最忙的一天：十点开会，张涛不在，由她做会议记录；接着要给 Emma 的演示查资料，下午还要给三个美国卖家打电话。Emma 这个周末搬家，团队想送她一份礼物，让林晓拿主意。到了下午三点，她连午饭都还没吃。IT 的 Kevin 路过，实在看不下去了。
+@sp: 人物关系 | 林晓 ↔ Kevin（IT 同事，平级；认识快一个月了，越来越熟，会开玩笑）
+@sp: 沟通目的 | 林晓说清楚今天要做的一串事情；Kevin 劝她停下来休息一下
+@sp: 已知信息 | Kevin 只看到林晓很忙，不知道她今天具体要做什么；林晓自己还没意识到有多累
+@sp: 表达重点 | 用对动词：have（会议、预约）→ make（决定、电话）→ do（调查、作业、家务）→ take（笔记、休息、洗澡）→ get（咖啡）
+
+@story_title: Episode 25 · "Take a Break!"
+@story_type: 叙述 + 对话
+@s: It's Thursday, and Lily's to-do list is very long. | 周四，林晓的待办清单特别长。
+@s: Kevin: Morning, Lily. Busy day? | 凯文：早，林晓。今天很忙？
+@s: Lily: Very busy! I **have** a meeting at ten. | 林晓：特别忙！我十点有个会。
+@s: Lily: Tom is out today. I'll take **notes**. | 林晓：张涛今天不在，我来做会议记录。
+@s: Lily: Then I need to **do** some **research** for Emma's presentation. | 林晓：然后我要为 Emma 的演示查些资料。
+@s: Kevin: Anything else? | 凯文：还有别的吗？
+@s: Lily: Emma is moving this weekend, so the team wants to buy her a gift. | 林晓：Emma 这周末搬家，团队想给她买份礼物。
+@s: Lily: A plant or a **photo** of the team? I need to **make** a **decision**. | 林晓：一盆绿植，还是一张团队合影？我得做个决定。
+@s: Kevin: Easy **choice**. The photo! | 凯文：这还用选？合影！
+@s: Lily: And I have a dentist **appointment** at five. | 林晓：还有，我五点约了牙医。
+@br:
+@s: At three, Kevin comes back. Lily is still typing. | 三点，Kevin 又过来了。林晓还在打字。
+@s: Kevin: Did you eat lunch? | 凯文：你吃午饭了吗？
+@s: Lily: Not yet. I still have to make three calls. My brain isn't working. | 林晓：还没。我还得打三个电话。我的脑子已经转不动了。
+@s: Kevin: Have you tried restarting it? **Take a break**! | 凯文：试过「重启」吗？歇会儿吧！
+@s: Kevin: You don't make more **money** by skipping lunch. | 凯文：不吃午饭又不会多赚钱。
+@s: Lily: That **makes sense**. I'm going to **get** some **coffee**. | 林晓：有道理。我去弄杯咖啡。
+@s: Kevin: Coffee? You need some **exercise**. Let's take a walk. | 凯文：咖啡？你需要活动活动。我们出去走走吧。
+@br:
+@s: Outside, it's quiet. No phones, no **noise**. | 外面很安静，没有电话，也没有吵闹声。
+@s: Lily: Thanks, Kevin. I feel much better. | 林晓：谢谢你，Kevin，我感觉好多了。
+@s: Kevin: So, what are you doing tonight? | 凯文：那你今晚干什么？
+@s: Lily: English **homework**. Then I have to **do the dishes** and take a **shower**. | 林晓：写英语作业。然后还得洗碗、洗澡。
+@s: Kevin: That's not a plan. That's another to-do list! | 凯文：这哪是计划，这是又一张待办清单！
+@s: Kevin: This weekend, go out and **have fun**. | 凯文：这个周末出去玩玩，开心一下。
+
+@v: have | = | v. | hæv | 有（安排）；吃 / 喝；进行（会议、电话） | 说日程（有个会）、吃饭喝东西 | have a meeting；have lunch；have a call | Let's have lunch together tomorrow. | 我们明天一起吃午饭吧。 | 「开会」说 have a meeting，不说 open a meeting；she / he 用 has：She has a meeting at two.
+@v: notes | note | n. | noʊts | 笔记；（会议）记录 | 开会、上课、打电话时记要点 | take notes；meeting notes；a quick note | Can you send me your notes from the meeting? | 你能把会议记录发给我吗？ | 「记笔记」是 take notes（用复数），不说 write notes；a note 常指「一张便条」：I left a note on your desk.
+@v: do | = | v. | duː | 做（任务、工作、活动） | 做作业、做调查、做家务、把工作做好 | do research；do homework；do a good job | You did a great job today. | 你今天做得很棒。 | 「做决定 / 打电话 / 做饭」用 make，不用 do：make a decision / make a call / make dinner；do 是完成一件事，make 是做出一个结果。
+@v: research | = | n. | ˈriːsɜːrtʃ | 调查；研究；查资料 | 工作中查信息、比较方案 | do research；some research；market research | I did some research on shipping prices. | 我查了一下运费。 | research 不可数：✗ a research / researches → ✓ some research；「做调查」用 do，不用 make。
+@v: photo | = | n. | ˈfoʊtoʊ | 照片 | 拍照、发照片、团队合影 | take a photo；a team photo；a photo of… | Can you take a photo of us? | 能帮我们拍张照吗？ | 「拍照」用 take a photo，不说 make a photo；shoot 一般是摄影师的说法；「照片里」用 in the photo。
+@v: make | = | v. | meɪk | 做出；造成；产生（一个结果） | 做决定、打电话、做计划、赚钱 | make a decision；make a call；make money | I need to make a quick call. | 我得打个电话。 | make 做出原来没有的东西或结果（决定、计划、噪音）；do 完成任务（作业、调查）。规律不是 100%，整块记搭配最保险。
+@v: decision | = | n. | dɪˈsɪʒn | 决定 | 选方案、做选择 | make a decision；a big decision；a quick decision | It's a big decision. Let me think about it. | 这是个大决定，让我想想。 | 「做决定」是 make a decision，不说 do a decision；动词是 decide（Day 16）。
+@v: choice | = | n. | tʃɔɪs | 选择；选中的那个 | 在几个选项里挑一个 | an easy choice；make a choice；a good choice | That's a good choice. | 选得好。 | choice 是名词，动词是 choose：✗ I have no choose. → ✓ I have no choice.
+@v: appointment | = | n. | əˈpɔɪntmənt | （和医生、银行等的）预约 | 看牙、看病、办业务要提前约好的时间 | a dentist appointment；make an appointment；have an appointment | I have a doctor's appointment at four. | 我四点约了医生。 | 和朋友「约了」不用 appointment，说 plans：I have plans tonight.；appointment 多指和医生、律师、银行等的预约。
+@v: Take a break | take a break | phr. | ˌteɪk ə ˈbreɪk | 休息一下 | 工作累了、会开得太久 | take a break；take a ten-minute break；take a coffee break | Let's take a ten-minute break. | 我们休息十分钟吧。 | 美国职场说「歇会儿」最常用 take a break；have a rest 偏英式，也更书面。
+@v: money | = | n. | ˈmʌni | 钱 | 赚钱、花钱、省钱 | make money；save money；spend money | Buying online can save money. | 网上买能省钱。 | 「赚钱」口语最常说 make money；money 不可数：「很多钱」a lot of money，不说 many money / moneys。
+@v: makes sense | make sense | phr. | ˌmeɪks ˈsens | 有道理；说得通；能理解 | 表示听懂了、认同对方的理由 | That makes sense.；Does that make sense?；It doesn't make sense. | Does that make sense? — Yes, it makes sense. | 我说清楚了吗？——清楚了，有道理。 | 主语一般是事情（That / It）：That makes sense.；不说 I make sense（那是「我说的话有道理」）。
+@v: get | = | v. | get | 去拿；去买；弄到 | 去买咖啡、拿午饭、收到消息 | get coffee；get lunch；get a message | I'll get lunch for both of us. | 我去给我们俩买午饭。 | 「去拿 / 去买」用 get，不用 take：take some coffee 是「把咖啡带走 / 带过去」；get 口语里还能表示「收到 / 到达 / 变得」。
+@v: coffee | = | n. | ˈkɔːfi | 咖啡 | 办公室日常、约人聊天 | get some coffee；a cup of coffee；coffee break | Let's get a coffee and talk. | 我们去喝杯咖啡聊聊吧。 | 美式读 `/ˈkɔːfi/`，重音在前，不读「咖-啡」；「来杯咖啡」常说 get / have a coffee。
+@v: exercise | = | n. | ˈeksərsaɪz | 运动；锻炼 | 劝人多活动、聊健康习惯 | get some exercise；daily exercise；need exercise | I try to get some exercise every day. | 我每天都尽量运动一下。 | 「做运动」口语常说 get some exercise 或 work out；作「运动」讲不可数，exercises 多指「练习题」。
+@v: noise | = | n. | nɔɪz | 噪音；吵闹声 | 办公室太吵、机器发出声音 | make noise；a lot of noise；a strange noise | The printer is making a strange noise. | 打印机发出奇怪的声音。 | 「发出声音」用 make (a) noise，不说 have a noise；形容词是 noisy（吵的）。
+@v: homework | = | n. | ˈhoʊmwɜːrk | （课程的）作业 | 上课、培训布置的作业 | do homework；English homework；a lot of homework | I have a lot of homework this week. | 我这周有很多作业。 | homework 不可数：✗ a homework / homeworks → ✓ some homework；「做作业」用 do，不用 make / write。
+@v: do the dishes | = | phr. | ˌduː ðə ˈdɪʃɪz | 洗碗 | 家务分工、晚上的安排 | do the dishes；wash the dishes；I'll do the dishes. | You cooked, so I'll do the dishes. | 你做的饭，那我来洗碗。 | 美国人口语说 do the dishes 最常见；dishes 泛指所有碗盘，不说 wash the bowls。
+@v: shower | = | n. | ˈʃaʊər | 淋浴；洗澡 | 说晚上的安排、日常作息 | take a shower；a hot shower；in the shower | I usually take a shower at night. | 我一般晚上洗澡。 | 「洗澡」是 take a shower，不说 wash a shower / wash my body；shower 的 ow 读 `/aʊ/`，不读 show。
+@v: have fun | = | phr. | ˌhæv ˈfʌn | 玩得开心 | 祝福别人、说周末计划 | Have fun!；have fun with…；We had fun. | Have fun at the party! | 聚会玩得开心！ | fun 是不可数名词：✗ have a fun → ✓ have fun；「玩得很开心」= have a lot of fun，不说 have very fun。
+
+@diff: 「做」——make 还是 do？
+@d_cn: 中文一个「做」：做决定、做选择、做作业、做调查、做家务……
+@d_en: make a decision / make a call / make money / do research / do my homework / do the dishes
+@d_why: 中文「做」几乎什么都能搭，英文却分成两个词。大致规律：**make** = 做出、造出一个原来没有的东西或结果（决定、电话、计划、噪音、钱、咖啡）；**do** = 完成一项任务、工作或活动（作业、调查、家务、工作本身）。规律不是 100%，最好的办法是**整块记搭配**：make a decision，不说 do a decision；do homework，不说 make homework。
+@d_when: make：a decision / a choice / a call / a plan / a mistake / money / noise / coffee；do：research / homework / the dishes / a good job / your best
+@d_vs: **I need to make a decision.** 我得做个决定。\n**I need to do some research.** 我得查些资料。\n✗ do a decision → ✓ make a decision\n✗ make homework → ✓ do homework
+@d_task: 选 make 或 do 说：① 我今晚要做作业。② 我得打个电话。③ 别再犯同样的错误。 | ① I have to do my homework tonight. ② I need to make a call. ③ Don't make the same mistake again.
+@diff: take——不只是「拿」
+@d_cn: 记笔记、休息一下、拍照、洗澡、坐地铁、花时间……
+@d_en: take notes / take a break / take a photo / take a shower / take the subway / It takes an hour.
+@d_why: 中文用的是不同的动词：「记」笔记、「休息」、「拍」照、「洗」澡、「坐」地铁。英文这些全都可以用 **take**——take 的核心意思是「拿来、占用、进行一次」：拿一段时间来休息，「拿」下一张照片。中国学生常按中文去找动词，说出 write notes、have a rest、wash a shower：前两个能懂但不地道，最后一个完全不对。
+@d_when: 开会时负责记录 → take notes；累了 → take a break；拍照 → take a photo；洗澡 → take a shower；交通 → take the bus / the subway（Day 2）
+@d_vs: **I'll take notes.** 我来做会议记录。\n**Take a break!** 歇会儿吧！\n**Can you take a photo of us?** 能帮我们拍张照吗？\n✗ I need to wash a shower. → ✓ I need to take a shower.
+@d_task: 用 take 说：① 我们休息十分钟吧。② 能帮我们拍张合影吗？ | ① Let's take a ten-minute break. ② Can you take a photo of us?
+@diff: get——拿、买、收到、到达
+@d_cn: 去拿杯咖啡、去买午饭、收到邮件、几点到公司……
+@d_en: I'm going to get some coffee. / Did you get my message? / I get to work at nine.
+@d_why: 中文要用「拿 / 买 / 收到 / 到」好几个动词，美国人口语里一个 **get** 全包了，核心意思是「（从没有到）有了 / 到了」。中国学生常按「拿」直译成 take：I'm going to take some coffee.——在英文里这是「我把咖啡带走 / 带过去」。另外，大家爱用课本里的书面词：I received your email. / I arrived at the office at nine.——都没错，但日常说话太正式，用 get 更自然。
+@d_when: 去买 / 去拿：get coffee / get lunch；收到：get an email / a message；到达：get to work / get home；做运动、休息：get some exercise / get some rest
+@d_vs: **I'm going to get some coffee.** 我去弄杯咖啡。\n**I'm going to take some coffee to Tom.** 我去给张涛送杯咖啡。（take = 带过去）\n**Did you get my message?** 你收到我的消息了吗？\n**What time do you get home?** 你几点到家？
+@d_task: 用 get 说：① 我去买午饭。② 你收到我的邮件了吗？③ 我一般八点五十到公司。 | ① I'm going to get lunch. ② Did you get my email? ③ I usually get to the office at 8:50.
+@diff: have——不只是「有」
+@d_cn: 有个会、吃午饭、喝咖啡、约了牙医、玩得开心……
+@d_en: I have a meeting at ten. / Let's have lunch. / I have a dentist appointment. / Have fun!
+@d_why: 中文说「我十点开会」「我们吃午饭吧」，动词是「开」「吃」。英文常用 **have**：have a meeting、have lunch、have coffee、have fun。很多人把「开会」直译成 open a meeting——open a meeting 是主持人「宣布会议开始」，不是「参加一个会」。「吃午饭」说 eat lunch 也对，但 have lunch 更常用、更委婉。好消息是：中文「我有个会」里有个「有」，英文正好也用 have。
+@d_when: 安排：have a meeting / a call / an appointment；吃喝：have lunch / coffee / a sandwich；经历：have fun / have a good weekend / have a problem
+@d_vs: **I have a meeting at ten.** 我十点有个会。\n✗ I open a meeting at ten.\n**Let's have lunch.** 一起吃午饭吧。\n**Have fun this weekend!** 周末玩得开心！
+@d_task: 用 have 说：① 我下午三点有个视频会。② 周末玩得开心！ | ① I have a video call at three this afternoon. ② Have fun this weekend!
+
+@core: I have a + 安排 + at + 时间. | 说日程安排 | a meeting / a call / an appointment | 正式：I have a meeting scheduled at 10 a.m.｜随意：Got a meeting at ten.
+@core: I'll take notes. | 开会时主动承担记录 | take notes / take a photo | 正式：I'll take notes and send them after the meeting.｜随意：I've got notes.
+@core: I need to make a decision. | 说要做决定、做选择 | a decision / a choice / a call | 正式：I need to make a decision by noon.｜随意：I've got to decide.
+@core: Take a break! | 劝别人休息一下 | Take a break / Let's take a ten-minute break | 正式：Shall we take a short break?｜随意：Go take a break!
+@core: I'm going to get some + 东西. | 说「我去拿 / 买点……」 | coffee / lunch / water | 正式：I'm going to get a coffee. Would you like one?｜随意：Coffee run. Want anything?
+@core: That makes sense. | 表示「有道理 / 我明白了」 | That makes sense. / Does that make sense? | 正式：I see. That's a good point.｜随意：Makes sense.
+@core: Have fun! | 祝别人玩得开心 | Have fun / Have a good weekend / Have a nice day | 正式：Enjoy your weekend.｜随意：Have fun!
+
+@pw: decision | dɪˈsɪʒn | 3 个音节 de·CI·sion | si 读 `/sɪʒ/`，ʒ 像轻轻的「日」，不读 `/ʃ/`
+@pw: research | ˈriːsɜːrtʃ | 2 个音节 RE·search | 名词美国人多把重音放前面；也有人读 re·SEARCH `/rɪˈsɜːrtʃ/`，两种都对
+@pw: appointment | əˈpɔɪntmənt | 3 个音节 a·POINT·ment | point 后面的 t 几乎不发音：a-POIN-ment
+@pw: exercise | ˈeksərsaɪz | 3 个音节 EX·er·cise | 结尾 cise 读 `/saɪz/`（和 size 一样），不读「赛斯」
+@pw: choice | tʃɔɪs | 1 个音节 | oi 读 `/ɔɪ/`（像「哦一」连起来）；和 choose `/tʃuːz/` 区分开
+@pw: shower | ˈʃaʊər | 2 个音节 SHOW·er（快读接近 1 个音节） | ow 读 `/aʊ/`（像「凹」），不读 show `/ʃoʊ/`
+@pw: homework | ˈhoʊmwɜːrk | 2 个音节 HOME·work | 重音在 home；work 要卷舌，不读「沃克」
+@ps: I **have**‿a **meet**ing at **ten**. | have a 连读成 `/ˈhævə/`；at 弱读成 `/ət/`，t 几乎不爆破。
+@ps: I need to **make**‿a de**ci**sion. | make a 连读成 may-ka；need to 两个辅音合成一个：`/ˈniːtə/`。
+@ps: **Take**‿a **break**! | take a 连成 tay-ka；break 读重、读长，语气热情，像在关心人。
+@ps: I'm going to **get** some **cof**fee. | 口语里 I'm going to 常说成 I'm gonna `/aɪm ˈgɑnə/`；get 的 t 在 some 前面不爆破，只做口型。
+@pnote: I'm going to 口语几乎都说 **I'm gonna** `/aɪm ˈgɑnə/`。注意 gonna 只用于「going to + 动词」：I'm gonna get some coffee.；「我要去北京」I'm going to Beijing 不能说成 I'm gonna Beijing。
+@pnote: make / take / have 后面跟 a 时都要连读：make‿a、take‿a、have‿a，听起来像一个词；get 的 t 在辅音前常常不爆破：get some → `/ge(t) sʌm/`。
+@lfocus: I'm going to → I'm gonna
+@lfocus: make a / take a / have a 连成一个音块
+@lfocus: get some 的 t 只做口型
+@dict: S3
+@dict: S16
+@res: 在 youglish.com 输入 "take a break"，选 US，听不同的人怎么说这句话。
+
+@mimic: 跟读【C】S2–S23：先 0.8 倍速逐句跟读，重点模仿 have a / make a / take a 的连读和 gonna；再由你演林晓、手机朗读 Kevin 的台词，完整对一遍并录音。
+@swap: I have a meeting at ten. | 换安排：a call / a dentist appointment / an English class + 时间 | I have an English class at seven.
+@swap: I need to make a decision. | 换 make 搭配：make a call / make a plan / make a choice | I need to make a call.
+@swap: I'm going to get some coffee. | 换 get 的东西：lunch / some water / a sandwich | I'm going to get lunch. Do you want anything?
+@swap: I'll take notes. | 换 take 搭配：take a photo / take a break / take the subway | I'll take a photo of the team.
+@free: 同事问你今天下午有没有空。你两点有个会，四点约了牙医。 | Sorry, I have a meeting at two and a dentist appointment at four.
+@free: 会已经开了两个小时，大家都累了。你提议休息十分钟。 | Let's take a ten-minute break.
+@free: 同事给你解释了一个新流程，你听懂了，想说「有道理，谢谢」。 | That makes sense. Thanks.
+@free: 朋友说周末要去爬山。你祝她玩得开心，并请她帮你拍几张照片。 | Have fun! Take some photos for me.
+@output: 录 1 分钟「我忙碌的一天」：用 have（会议 / 预约）、make（决定 / 电话）、do（工作 / 作业 / 家务）、take（笔记 / 休息 / 洗澡）、get（咖啡 / 午饭）至少各说一句。
+@output_sample: Today was really busy. I had a meeting at ten, and I took notes for my manager. Then I did some research for a coworker. In the afternoon, I made three calls to sellers. I also had to make a decision about a gift for Emma. At three, I took a break and got some coffee. Tonight I have to do my homework and do the dishes. Then I'll take a shower and go to bed.
+
+@check: 「做决定」「做作业」「做调查」分别用 make 还是 do？ | make a decision；do homework；do research。
+@check: Kevin 说 Take a break! 你想说「我去拿杯咖啡」，说 I'm going to take some coffee. 对吗？ | 不自然。「去拿 / 去买」用 get：I'm going to get some coffee.；take some coffee 是「把咖啡带走 / 带过去」。
+@check: 「我十点开会」用英文怎么说？为什么不说 I open a meeting at ten？ | I have a meeting at ten.；open a meeting 是主持人「宣布会议开始」，不是「有个会、参加一个会」。
+@check: 「洗澡」「拍照」「休息一下」分别怎么说？ | take a shower；take a photo；take a break。
+@check: Emma 讲完一个新流程，问你 Does that make sense? 她在问什么？你可以怎么回答？ | 她在问「我说清楚了吗 / 你听明白了吗」。可以回答 Yes, that makes sense. / Not really. Could you explain it again?
+@next1: 不看书说出 S3、S4、S8、S14、S16
+@next1: make / do 各说 3 个搭配，各造一个关于你自己的句子
+@next7: 用 take、get、have 各说 2 句关于你自己一天的话
+@next7: 「开会 / 拿咖啡 / 洗澡 / 做决定」的英文

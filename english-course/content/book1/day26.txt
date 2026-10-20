@@ -1,0 +1,155 @@
+@day: 26
+@week: 4
+@title_cn: 比较与选择
+@title_en: Which One Is Better?
+@topic: 比较价格、速度和可靠性，给出选择和建议
+@think_short: 「A 比 B 便宜」cheaper than｜「更贵」more expensive｜「我更喜欢」prefer｜「差不多」about the same
+
+@goal_scene: Emma 要把一箱样品寄到西雅图，请你比较三家快递：哪个便宜、哪个快、哪个更可靠，最后给出你的建议。
+@goal_expr: A is cheaper than B. / C is the fastest, but it's the most expensive. / B isn't as cheap as A, but… / Which one do you prefer? — I prefer B. / These two are about the same.
+@goal_vocab: 17 个重点词 + 4 个短语：方案与比较、价格与速度、尺寸与重量、选择与推荐
+@done: 用 4 句话比较三个选项的价格、速度和可靠性，用上 cheaper / faster / more reliable / the most expensive
+@done: 别人问 Which one do you prefer? 时，能说出选择 + 一个理由：I prefer B. It's more reliable.
+@done: 说「更便宜」「更好」「一样」时，不再说 more cheaper / more good / They are same
+
+@warmup: 我十点有个会。 | I have a meeting at ten. | D25
+@warmup: 我得做个决定。 | I need to make a decision. | D25
+@warmup: 休息一下吧！ | Take a break! | D25
+@warmup: 我去倒杯咖啡。 | I'm going to get some coffee. | D25
+@warmup: 样品卡在海关了。 | They're stuck in customs. | D23
+@warmup: 这个多少钱？ | How much is it? | D20
+
+@scene: 入职第四周，林晓已经能独立处理不少小事了。Emma 要给西雅图团队再寄一箱样品——上一箱在海关卡了一个星期，这次她不想再出任何问题。她请林晓比较几家快递的价格、速度和可靠性，帮她拿个主意。
+@sp: 人物关系 | 林晓 ↔ Emma：平级同事，关系友好；这次是 Emma 请林晓帮忙出主意，林晓的意见很重要
+@sp: 沟通目的 | 把三个选项比较清楚，帮 Emma 做决定，并给出自己的推荐和理由
+@sp: 已知信息 | Emma 知道箱子多大、多重，西雅图那边下周五才用得上样品；林晓查到了三家快递的价格、时效和物流跟踪情况
+@sp: 表达重点 | A 便宜但慢 → C 最快但最贵 → B 没 A 便宜但更可靠 → B 和 C 差不多 → 我推荐 B，因为不急着用
+
+@story_title: Episode 26 · Which One Is Better?
+@story_type: 叙述 + 对话
+@s: Emma needs to send a box of samples to the Seattle team. | Emma 要给西雅图团队寄一箱样品。
+@s: The last box got stuck in customs for a week. | 上一箱在海关卡了一个星期。
+@s: Emma: Can you help me **choose** a shipping company? I don't want any problems this time. | Emma：你能帮我挑一家快递吗？这次我可不想再出问题了。
+@s: Lily: Sure. I'll **compare** a few **options**. | 林晓：没问题，我来比较几个方案。
+@s: Lily: What **size** is the box? | 林晓：箱子多大？
+@s: Emma: It's small, and it's pretty **light**. About two kilos. | Emma：不大，挺轻的，两公斤左右。
+@s: Lily: Good. The price depends on the **weight**. | 林晓：那就好，运费是按重量算的。
+@br:
+@s: Twenty minutes later, Lily shows Emma a simple table. | 二十分钟后，林晓给 Emma 看了一张简单的对比表。
+@s: Lily: Option A is cheaper, but it's slower. It takes about ten days. | 林晓：A 方案便宜一些，但是慢，大概要十天。
+@s: Lily: Option C is the **fastest**, but it's also **the most expensive**. | 林晓：C 方案最快，但也是最贵的。
+@s: Lily: It's an **express** service, so it only takes two days. | 林晓：它是特快服务，只要两天。
+@s: Emma: Wow, it's a lot **more expensive than** A. What about B? | Emma：哇，比 A 贵多了。那 B 呢？
+@s: Lily: B **isn't as cheap as** A, but it's more **reliable**. | 林晓：B 没有 A 便宜，但更靠得住。
+@s: Lily: Their prices are **similar**, but A's tracking is **worse**. Sometimes it doesn't update for days. | 林晓：两家价格差不多，可是 A 的物流跟踪差一些，有时候好几天都不更新。
+@s: Emma: Ha! We sell tracking software. We can't use bad tracking! | Emma：哈！我们自己就是做物流跟踪软件的，可不能用跟踪这么差的快递！
+@br:
+@s: Emma: So it's B or C. Is C **better**? | Emma：那就是在 B 和 C 里选了。C 更好吗？
+@s: Lily: Not really. Both have good service **quality**. | 林晓：也不见得。两家的服务质量都不错。
+@s: Lily: These two are about the **same**. | 林晓：这两个差不多。
+@s: Emma: OK. **Which one** do you **prefer**? | Emma：好。那你更倾向哪一个？
+@s: Lily: I prefer B. Mike's team doesn't need the samples until next Friday. | 林晓：我更倾向 B。Mike 的团队下周五才用得上这些样品。
+@s: Lily: So I **recommend** B. It's the **best** choice for us. | 林晓：所以我推荐 B，对我们来说这是最合适的选择。
+@s: Emma: Perfect. Let's go with B. Thanks, Lily! | Emma：太好了，就选 B。谢谢你，林晓！
+
+@v: choose | = | v. | tʃuːz | 选；挑（从几个里面定一个） | 选方案、选供应商、选日期 | choose a company；choose between A and B；choose from… | It's hard to choose between these two. | 这两个真难选。 | 过去式是 chose `/tʃoʊz/`，名词是 choice；「选 A 不选 B」说 choose A over B，不说 choose A than B。
+@v: compare | = | v. | kəmˈper | 比较；对比 | 比价格、比方案、比数据 | compare prices；compare A with B；compare options | Let's compare the prices first. | 我们先比一下价格吧。 | compare 是动词，不要说 ✗ make a compare；「把 A 和 B 比」用 compare A with / to B，不用 than。
+@v: options | option | n. | ˈɑːpʃənz | 选项；可选的方案 | 给别人几个方案让他选、讨论方案 | two options；Option A；the best option | We have three options. | 我们有三个方案可以选。 | 「方案」不一定翻成 plan：从几个里挑一个，美国人说 option；plan 更像「计划、安排」。
+@v: size | = | n. | saɪz | 大小；尺寸；尺码 | 问箱子、文件、衣服有多大 | What size…?；the size of the box；a small size | What size is the box? | 箱子多大？ | 问「多大」说 What size is it? 或 How big is it?，不说 ✗ How much size is it?
+@v: light | = | adj. | laɪt | 轻的 | 说包裹、行李、电脑重不重 | pretty light；light enough；lighter than… | This laptop is very light. | 这台笔记本电脑很轻。 | light 作名词是「灯、光」；说「轻」时前面要有 is：✗ The box very light. → ✓ The box is very light. 放在颜色前是「浅」：light blue 浅蓝。
+@v: weight | = | n. | weɪt | 重量 | 寄快递、算运费、说行李限重 | the weight of…；weight limit；by weight | The shipping cost depends on the weight. | 运费取决于重量。 | gh 不发音，读音和 wait 一样；动词「称、有多重」是 weigh `/weɪ/`：How much does it weigh?
+@v: fastest | fast | adj. | ˈfæstɪst | 最快的（fast 的最高级） | 在几个选项里说哪个速度最快 | the fastest way；the fastest option；faster than… | What's the fastest way to the airport? | 去机场怎么走最快？ | 最高级前面要加 the：✗ C is fastest one. → ✓ C is the fastest (one). fast 也能当副词：He talks fast.（没有 fastly 这个词）
+@v: the most expensive | the most … | phr. | ðə ˌmoʊst ɪkˈspensɪv | 最贵的 | 三个或更多选项里比价格；the most + 长形容词 = 最…… | the most expensive；the most reliable；the most important | This is the most important part of the report. | 这是报告里最重要的部分。 | 长形容词说「最」用 the most，不加 -est：✗ the expensivest；也不能两个都用：✗ the most fastest。
+@v: express | = | adj. | ɪkˈspres | 特快的；加急的 | 选快递服务：普通还是特快 | express shipping；express delivery；an express service | This order needs express shipping. | 这个订单要发特快。 | 中文「快递」是所有快递服务的统称，英文说 shipping / courier；express 只指「加急、特快」那一档。「寄快递」不说 ✗ send express，说 send a package / ship it。
+@v: more expensive than | more … than | phr. | ˌmɔːr ɪkˈspensɪv ðən | 比……更贵；more + 长形容词 + than = 比……更…… | 两样东西比价格、比可靠性 | more expensive than；more reliable than；a lot more… than | Express shipping is a lot more expensive than regular shipping. | 特快比普通快递贵多了。 | -er 和 more 二选一：✗ more cheaper → ✓ cheaper；「贵多了」在 more 前加 a lot / much，不说 ✗ very more expensive。
+@v: isn't as cheap as | not as … as | phr. | ˌɪznt əz ˈtʃiːp əz | 没有……那么便宜；not as + 形容词 + as = 没有……那么…… | 委婉地比较：先承认一个缺点，再说优点 | not as cheap as；not as fast as；not as big as | The new laptop isn't as heavy as the old one. | 新电脑没有旧的那么重。 | 中间的形容词用原形：✗ not as cheaper as；比直接说 more expensive 听起来更客气、更委婉。
+@v: reliable | = | adj. | rɪˈlaɪəbl | 可靠的；靠得住的 | 评价快递公司、系统、同事 | a reliable company；reliable service；very reliable | Kevin is very reliable. He always fixes problems fast. | Kevin 特别靠谱，问题总是很快就解决。 | 中文「靠谱」就用 reliable；比较级是 more reliable，不是 ✗ reliabler。
+@v: similar | = | adj. | ˈsɪmələr | 相似的；差不多的 | 价格、功能、想法接近，但不完全一样 | similar to…；similar prices；very similar | Your idea is similar to mine. | 你的想法和我的差不多。 | 「和……相似」用 similar to，不说 ✗ similar with；similar 是「像」，same 才是「一样」。
+@v: worse | = | adj. | wɜːrs | 更差的；更糟的（bad 的比较级） | 比较质量、服务、天气、情况 | worse than…；get worse；even worse | The traffic is worse than yesterday. | 今天比昨天还堵。 | bad 的比较级是 worse，不是 ✗ badder / more bad；最高级是 the worst，注意 worse 结尾没有 t。
+@v: better | = | adj. | ˈbetər | 更好的（good 的比较级） | 比较两个方案、问哪个更好 | better than…；much better；Which one is better? | Option B is better for us. | 对我们来说 B 方案更好。 | 「更好」不说 ✗ more good / gooder；「好多了」说 much better，不说 ✗ very better。美式 tt 读成轻轻一弹，像 `/ˈbedər/`。
+@v: quality | = | n. | ˈkwɑːləti | 质量；品质 | 评价产品和服务 | good quality；high quality；service quality | This printer paper is good quality. | 这种打印纸质量很好。 | quality 本身不带「好」的意思，「质量好」要说 good / high quality，「质量差」说 poor quality；别和长得很像的 quantity（数量）混：quality 管「好不好」，quantity 管「多不多」。
+@v: same | = | adj. | seɪm | 相同的；一样的 | 说两样东西一样或差不多 | the same；about the same；the same as… | My phone is the same as yours. | 我的手机和你的一样。 | same 前面几乎总要加 the：✗ They are same. → ✓ They're the same.；「和……一样」用 the same as，不说 ✗ same with。
+@v: Which one | which one…? | phr. | ˌwɪtʃ ˈwʌn | 哪一个 | 请对方在几个选项里挑一个 | Which one is better?；Which one do you want?；Which one of these…? | Which one is your desk? | 哪个是你的工位？ | 中文「你喜欢哪个」把「哪个」放句尾；英文 which one 要放句首：✗ You prefer which one? → ✓ Which one do you prefer?
+@v: prefer | = | v. | prɪˈfɜːr | 更喜欢；更倾向于 | 说偏好、在两个方案里做选择 | prefer A to B；I'd prefer…；prefer to… | I prefer morning meetings. | 我更喜欢上午开会。 | prefer 本身就有「更」的意思：✗ I more prefer B. 和谁比用 to：✓ I prefer B to C.（不说 ✗ than C）；过去式要双写 r：preferred。
+@v: recommend | = | v. | ˌrekəˈmend | 推荐；建议（选某个） | 给别人建议选哪个，推荐餐厅、产品 | I recommend…；recommend sth to sb；highly recommend | Can you recommend a good restaurant near here? | 你能推荐一家附近不错的餐厅吗？ | 拼写是一个 c、两个 m；「给我推荐」更规范的说法是 recommend sth to me，或者直接问 What do you recommend?
+@v: best | = | adj. | best | 最好的（good 的最高级） | 选出最合适的方案；夸人、夸东西 | the best choice；the best way；the best option | This is the best way to do it. | 这是最好的做法。 | best 前面要有 the 或 my / your 等：✗ It's best choice. → ✓ It's the best choice.
+
+@diff: 「A 比 B 便宜」——形容词加 -er，再用 than
+@d_cn: 拿两样东西比较，说其中一个「更……」。
+@d_en: A is cheaper than B. / C is faster than A. / Option A is cheaper, but it's slower.
+@d_why: 中文把「比 B」放在形容词前面，形容词本身不变：A 比 B 便宜。英文正好反过来：先把形容词变个样（cheap → cheap**er**），再用 **than** 把比较的对象放到后面。照中文语序说 A than B cheap，或者漏掉 -er 说 A is cheap than B，美国人都要愣一下。如果对方已经知道在和谁比，than 后面那部分可以直接省掉。
+@d_when: 一个音节的短形容词（cheap / fast / slow / light / big）和以 -y 结尾的词（easy → easier，busy → busier）加 -er；比价格、速度、大小、重量时最常用。
+@d_vs: **A is cheaper than B.** A 比 B 便宜。\n✗ A than B cheap. ✗ A is cheap than B.\n**Option A is cheaper, but it's slower.**（大家都知道在和别的方案比，省掉 than）\n**This box is bigger.**（big → bigger，要双写 g）
+@d_task: 用英文说：① 这个箱子比那个轻。② C 比 A 快多了。 | ① This box is lighter than that one. ② C is much faster than A. / C is a lot faster than A.
+@diff: 「更贵」——more expensive，不是 expensiver
+@d_cn: 用比较长的形容词说「更……」「最……」。
+@d_en: B is more reliable than A. / C is the most expensive.
+@d_why: 中文的「更」「最」可以放在任何形容词前面；英文要看形容词长短：短词加 **-er / -est**，长词（大多数两个音节以上的词）前面加 **more / the most**。两种办法只能选一种，中国学生最常见的错误是「上双保险」：more cheaper、the most fastest。另外有几个最常用的词不按规则变：good → better → best，bad → worse → worst，要单独记住。
+@d_when: expensive / reliable / important / interesting / difficult 这类长词用 more / the most；三个或更多选项里选「第一名」用 the -est / the most。
+@d_vs: cheap → **cheaper** → **the cheapest**\nexpensive → **more expensive** → **the most expensive**\ngood → **better** → **the best**；bad → **worse** → **the worst**\n✗ more cheaper ✗ the most fastest ✗ more good
+@d_task: 用英文说：① B 比 A 可靠。② C 是三个里面最贵的。③ 这个方案比那个好。 | ① B is more reliable than A. ② C is the most expensive of the three. ③ This option is better than that one.
+@diff: 「我更喜欢 B」——I prefer B (to C).
+@d_cn: 在几个选项里，说自己更倾向哪一个。
+@d_en: I prefer B. / I prefer B to C. / I like B better.
+@d_why: 中文是「更 + 喜欢」两个词；英文的 **prefer** 一个词就包含了「更喜欢」，所以前面不要再加 more：✗ I more prefer B。要说「和谁比」，用 **to** 而不是 than：I prefer B to C。觉得 prefer 不好用时，口语也可以说 I like B better (than C)。工作中给建议时，美国同事还常说 I'd go with B.（要是我就选 B），或者 I recommend B.，听起来更像在给专业意见。
+@d_when: 别人问 Which one do you prefer? / Which one do you like? 时回答；开会时说出自己的倾向，最好紧接着给一个理由：It's more reliable. / It's cheaper.
+@d_vs: **I prefer B.** 我更倾向 B。\n**I prefer B to C.** 比起 C，我更喜欢 B。\n**I like B better than C.**（口语，意思同上）\n✗ I more prefer B. ✗ I prefer B than C.
+@d_task: 同事问你 Coffee or tea?，你想说「我更喜欢茶，谢谢」，再说一遍「比起咖啡我更喜欢茶」。 | I prefer tea, thanks. / I prefer tea to coffee.
+@diff: 「差不多」——about the same / similar / almost
+@d_cn: 两样东西几乎一样；或者事情快做完了；或者数字大约是多少。
+@d_en: These two are about the same. / Their prices are similar. / It's almost done.
+@d_why: 中文一个「差不多」包办了好几种意思：价格差不多、做得差不多了、差不多五点了。英文要按意思分开说：几乎一样 → **about the same**；接近、有点像 → **similar**；快完成了 → **almost**（Day 22 学过 It's almost done）；数字、时间大约 → **about / around**。另外 same 前面几乎总要带 the。
+@d_when: 比较价格、质量、大小用 about the same / similar；汇报进度用 almost；说时间、数量用 about / around。
+@d_vs: **These two are about the same.** 这两个差不多（几乎一样）。\n**Their prices are similar.** 两家价格差不多（很接近）。\n**It's almost done.** 差不多做完了。\n**It's about five o'clock.** 差不多五点了。\n✗ They are same. → ✓ They're the same.
+@d_task: 用英文说：① 这两个箱子大小差不多。② 报告差不多写完了。 | ① These two boxes are about the same size. ② The report is almost done.
+
+@core: A is + 形容词-er + than B. | 比较两样东西（短形容词） | cheaper / faster / lighter / slower | 正式：Option A is less expensive than Option B.｜随意：A's cheaper.
+@core: A is more + 形容词 + than B. | 比较两样东西（长形容词） | expensive / reliable / important | 正式：Option B is significantly more reliable than A.｜随意：B's way more reliable.
+@core: C is the fastest / the most expensive. | 在三个或更多选项里说「最……」 | the cheapest / the best / the most reliable | 正式：Option C is the fastest of the three.｜随意：C's the fastest.
+@core: B isn't as + 形容词 + as A, but it's… | 先承认缺点，再说优点，语气委婉 | cheap / fast / light | 正式：B is not as inexpensive as A, but it is more reliable.｜随意：B's not as cheap, but it's better.
+@core: Which one do you prefer? | 请对方在几个选项里做选择 | prefer / like / recommend | 正式：Which option would you prefer?｜随意：Which one do you like?
+@core: I prefer B. / I recommend B. | 说出自己的选择或建议，最好再加一个理由 | B / the second one / Option B | 正式：I would recommend Option B.｜随意：I'd go with B.
+@core: These two are about the same. | 说两个选项差不多 | about the same / similar / pretty much the same | 正式：The two options are very similar.｜随意：They're pretty much the same.
+
+@pw: compare | kəmˈper | 2 个音节 com·PARE，重音在后 | com 很轻，像 `/kəm/`；pare 读 `/per/`，和 pair 同音
+@pw: prefer | prɪˈfɜːr | 2 个音节 pre·FER，重音在后 | 不要读成 PRE-fer；fer 卷舌、拖长
+@pw: reliable | rɪˈlaɪəbl | 4 个音节 re·LI·a·ble | 重音在 li，读 `/laɪ/`；结尾 -ble 只轻轻带一个 `/bl/`
+@pw: similar | ˈsɪmələr | 3 个音节 SI·mi·lar | 重音在第一个音节；后两个音节都很轻，不要读成「C-米-拉」
+@pw: recommend | ˌrekəˈmend | 3 个音节 re·com·MEND | 主重音在最后的 mend；com 弱读成 `/kə/`
+@pw: quality | ˈkwɑːləti | 3 个音节 QUA·li·ty | qua 读 `/kwɑː/`，嘴巴张大；美式 t 常读成轻轻的 d：`/ˈkwɑːlədi/`
+@pw: worse | wɜːrs | 1 个音节 | 先圆唇发 w，再卷舌 `/ɜːr/`；结尾是 `/s/`，别和 worst 混
+@ps: Option **A** is **cheap**er, / but it's **slow**er. | 形成对比的 cheaper 和 slower 都读重，中间「/」处稍停，像天平的两头。-er 只是轻轻的卷舌 `/ər/`，不读「额」。
+@ps: It's a **lot** more ex**pen**sive than‿**A**. | than 弱读成 `/ðən/`，和后面的 A 连成 `/ðəneɪ/`；重音落在 lot、pen 和 A 上。
+@ps: B **is**n't as **cheap** as‿**A**, / but it's more re**li**able. | 两个 as 都弱读成 `/əz/`；重音在 cheap、A 和 li 上，逗号处停一下。
+@ps: These **two** are‿about the **same**. | are about 连读成 `/ərəˈbaʊt/`；the 读 `/ðə/`；same 读重、拖长。
+@pnote: 比较句里的 than 几乎从不重读，读成 `/ðən/`，说快了只剩 `/ðn/`；重音留给被比较的东西：**cheaper** than **A**。
+@pnote: 书面上 A is / It is，口语里常缩读：A's cheaper.（A is）B's more reliable.（B is）It's the best.（It is）
+@lfocus: than 弱读，几乎只听到 /ðn/
+@lfocus: -er 结尾是轻轻的卷舌：cheaper、slower、better
+@lfocus: the most / the fastest 里的 the 读 /ðə/
+@dict: S10
+@dict: S13
+@res: 在 youglish.com 输入 "more expensive than"，选 US，听 than 在真人语流里怎么弱读。
+
+@mimic: 跟读【C】S9–S21：先用 0.8 倍速逐句跟读，重点模仿 cheaper / slower 的对比重音和 than、as 的弱读；再由你演林晓、手机朗读 Emma 的台词，完整对一遍并录音。
+@swap: Option A is cheaper, but it's slower. | 换比较的两个方面：faster / more expensive；lighter / smaller | Option C is faster, but it's more expensive.
+@swap: C is the fastest, but it's also the most expensive. | 换成你上班的方式：taxi / subway / bus | A taxi is the fastest, but it's also the most expensive.
+@swap: B isn't as cheap as A, but it's more reliable. | 换形容词：fast / light；cheap / comfortable | The bus isn't as fast as the subway, but it's cheaper.
+@swap: I prefer B. It's more reliable. | 换成你真实的偏好和理由：the subway / the bus；tea / coffee | I prefer the subway to the bus. It's faster.
+@free: 张涛让你比较两家快递：A 家 30 元、三天到；B 家 45 元、第二天就到。 | A is cheaper, but B is faster. B only takes one day.
+@free: 同事给你看两台笔记本电脑，问 Which one do you prefer?（你更喜欢轻一点的那台） | I prefer this one. It's lighter.
+@free: 同事问你两个方案哪个好，你觉得差不多。 | These two are about the same. They're pretty similar.
+@free: Emma 问你推荐哪家快递。你推荐 B：没有 A 便宜，但更可靠。 | I recommend B. It isn't as cheap as A, but it's more reliable.
+@output: 录 1 分钟「帮我选一个」：比较你生活中的三个选择（三种上班方式 / 三家外卖 / 三款手机），每个说一个优点和缺点（cheaper / faster / the most…），最后说 I prefer… 和理由。
+@output_sample: I can go to work by bus, by subway, or by taxi. The bus is the cheapest, but it's also the slowest. A taxi is the fastest, but it's the most expensive. The subway isn't as cheap as the bus, but it's much faster and more reliable. So I prefer the subway. It's the best choice for me.
+
+@check: 林晓说 B isn't as cheap as A。A 和 B 哪个更便宜？ | A 更便宜。not as cheap as = 「没有 A 那么便宜」。
+@check: 「更贵」为什么不能说 expensiver 或 more expensiver？ | expensive 是长形容词，比较级只能用 more expensive；-er 和 more 二选一，不能同时用。
+@check: 同事问 Which one do you prefer?，你想说「比起 A，我更倾向 B」。 | I prefer B to A.（不说 I prefer B than A，也不说 I more prefer B）
+@check: 「这两个差不多」怎么说？「报告差不多写完了」呢？ | These two are about the same. / The report is almost done.
+@check: 用今天的词说：「这是最好的选择，因为它最可靠。」 | It's the best choice because it's the most reliable.
+@next1: 不看书说出 S9、S10、S13、S18、S19 五句（锚点句）
+@next1: cheap / fast / expensive / good / bad 的比较级和最高级各说一遍
+@next1: 用 prefer A to B 和 about the same 各说一个关于你自己的句子
+@next7: 用 4 句话比较三个你熟悉的选项（上班方式 / 外卖 / 手机），最后说 I prefer… 和理由
+@next7: 「差不多」的四种说法：about the same / similar / almost / about
