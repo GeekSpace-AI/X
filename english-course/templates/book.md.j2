@@ -148,7 +148,7 @@ lang: zh-CN
 - {{ p | mdtext }}
 {% endfor %}
 
-听力（四步听法：看英文听 → 只看中文听 → 什么都不看听 → 听写）。听辨要点：{% for f in d.listen_focus %}{{ f | mdtext }}{% if not loop.last %}；{% endif %}{% endfor %}
+听力（四步听法：{% for t, x in listen_steps %}{{ t }}{% if not loop.last %} → {% endif %}{% endfor %}）。听辨要点：{% for f in d.listen_focus %}{{ f | mdtext }}{% if not loop.last %}；{% endif %}{% endfor %}
 
 听写句：{% for x in d.dictation %}{{ x }}{% if not loop.last %}、{% endif %}{% endfor %}
 
@@ -254,7 +254,7 @@ lang: zh-CN
 | {{ d.day }}{% if d.review %}（复习）{% endif %} |  |  | ☐ |  |  |  |
 {% endfor %}
 
-# 附录 4 · 第二册衔接记录
+# 附录 4 · {{ next_cn }}衔接记录
 
 - 课程天数：{{ stats.days }}；重点词 {{ stats.words }} 个 + 短语 {{ stats.phrases }} 个；对比点 {{ stats.diffs }} 组；核心表达 {{ stats.core }} 个；阅读量约 {{ stats.story_words }} 词。
 

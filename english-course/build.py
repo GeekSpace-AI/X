@@ -62,6 +62,14 @@ REVIEW_PLAN = [
     ("下阶段改善", 10, "读本课最后的「下阶段改善建议」，从薄弱项里选 2 个，写进下周每天的热身时间里。"),
 ]
 
+LISTEN_STEPS = [
+    ("① 看英文听", "0.8 倍速，眼睛跟着英文，听每个词怎么连在一起。"),
+    ("② 只看中文听", "遮住英文，看中文听，脑子里对上英文。"),
+    ("③ 什么都不看", "正常速度听，听懂大意即可，记下没听清的地方。"),
+    ("④ 听写", "听写下面的句子，再对照原文找差别。"),
+]
+CN_NUM = "零一二三四五六七八九"
+
 SCALARS = {
     "day", "week", "review", "title_cn", "title_en", "topic", "think_short",
     "goal_scene", "goal_expr", "goal_vocab", "scene", "story_title", "story_type",
@@ -178,6 +186,7 @@ def parse_day(path):
         raise LessonError(f"{path.name}: missing {missing}")
     d["day"], d["week"] = int(d["day"]), int(d["week"])
     d["review"] = str(d["review"]).lower() in ("1", "true", "yes")
+    d["custom_plan"] = bool(d["plan"])
     if d["plan"]:
         d["plan"] = [(p["name"], int(p["min"]), p["how"]) for p in d["plan"]]
     else:
@@ -252,16 +261,20 @@ def track_vocab(days):
     return index
 
 
-def validate(days):
+def headword_key(head):
+    return re.sub(r"\s+", " ", re.sub(r"\(.*?\)", "", head.lower())).strip()
+
+
+def validate(days, earlier=()):
     problems, warnings = [], []
-    seen = {}
+    seen = {headword_key(v["head"]): f"Day {v['day']}" for v in earlier}
     for d in days:
         tag = f"day{d['day']:02d}"
         total = sum(m for _, m, _ in d["plan"])
         if total != 120:
             problems.append(f"{tag}: plan adds up to {total} minutes, not 120")
         for v in d["vocab"]:
-            key = re.sub(r"\s+", " ", re.sub(r"\(.*?\)", "", v["head"].lower())).strip()
+            key = headword_key(v["head"])
             if key in seen:
                 problems.append(f"duplicate headword '{v['head']}' in {v['src']} (first in {seen[key]})")
             seen.setdefault(key, v["src"])
@@ -364,7 +377,7 @@ def env(autoescape=True):
     return e
 
 
-def chrome_pdf(html_path, pdf_path, attempts=3):
+def chrome_pdf(html_path, pdf_path, attempts=4):
     """Render with Chromium. Large documents are occasionally cut short, so every template ends
     with a "THE END" marker and the render is retried until that marker is on the last page."""
     import pypdfium2 as pdfium
@@ -450,11 +463,35 @@ def make_reference_docx(path):
 # ---------------------------------------------------------------------------
 # Books
 # ---------------------------------------------------------------------------
+def earlier_vocab(n):
+    """Every word taught in books 1..n-1 (with its day), for duplicate checks and [[recycled]] look-ups."""
+    out = []
+    for k in range(1, n):
+        for f in sorted((CONTENT / f"book{k}").glob("day*.txt")):
+            d = parse_day(f)
+            for v in d["vocab"]:
+                v["day"] = d["day"]
+                out.append(v)
+    return out
+
+
+def book_plans(meta):
+    plan = lambda key, default: [tuple(x) for x in meta[key]] if meta.get(key) else default
+    return plan("regular_plan", REGULAR_PLAN), plan("review_plan", REVIEW_PLAN)
+
+
 def load_book(n):
     folder = CONTENT / f"book{n}"
     meta = yaml.safe_load((folder / "book.yaml").read_text(encoding="utf-8"))
     days = [parse_day(f) for f in sorted(folder.glob("day*.txt"))]
+    regular, review = book_plans(meta)
+    for d in days:
+        if not d["custom_plan"]:
+            d["plan"] = review if d["review"] else regular
     FORM_DAY.clear()
+    for v in earlier_vocab(n):
+        FORM_DAY.setdefault(v["form"].lower(), v["day"])
+        FORM_DAY.setdefault(v["head"].lower(), v["day"])
     for d in days:
         for v in d["vocab"]:
             FORM_DAY.setdefault(v["form"].lower(), d["day"])
@@ -480,7 +517,7 @@ def book_stats(days, index):
 
 def check_book(n):
     meta, days, index = load_book(n)
-    problems, warnings = validate(days)
+    problems, warnings = validate(days, earlier_vocab(n))
     for w in warnings:
         print("warn:", w)
     for p in problems:
@@ -509,6 +546,18 @@ def fill_counts(obj, stats):
     return obj
 
 
+def book_words(meta, days):
+    """Template variables that depend on which book this is."""
+    regular, review = book_plans(meta)
+    n = meta["number"]
+    return {"regular_plan": regular, "review_plan": review,
+            "book_cn": f"第{CN_NUM[n]}册", "next_cn": f"第{CN_NUM[n + 1]}册", "next_n": n + 1,
+            "review_days": " / ".join(str(d["day"]) for d in days if d["review"] and not d["custom_plan"]),
+            "all_review_days": " / ".join(str(d["day"]) for d in days if d["review"]),
+            "review_count": sum(1 for d in days if d["review"]),
+            "listen_steps": [tuple(x) for x in meta.get("listen_steps", LISTEN_STEPS)]}
+
+
 def build_book(n):
     roadmap = load_syllabus()[0]["books"]  # loads Book 1 too, so do it before this book's own load
     meta, days, index = check_book(n)
@@ -516,7 +565,7 @@ def build_book(n):
     meta = fill_counts(meta, stats)
     ctx = {"book": meta, "days": days, "index": index, "stats": stats, "roadmap": roadmap, "day_titles": {d["day"]: d["title_cn"] for d in days},
            "alpha": sorted(index, key=lambda v: re.sub(r"[^a-z ]", "", v["head"].lower()) or v["head"]),
-           "review_plan": REVIEW_PLAN, "regular_plan": REGULAR_PLAN}
+           **book_words(meta, days)}
     build_pdf("book.html.j2", ctx, meta["pdf_name"], meta["footer"],
               [("INDEX", r"Vocabulary Coverage"), ("RINDEX", r"Review Index"), ("LOG", r"Progress Log"),
                ("HANDOFF", r"Handoff to Book"), ("PROMPT", r"Prompt for Writing Book")])

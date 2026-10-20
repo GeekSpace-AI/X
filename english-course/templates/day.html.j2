@@ -120,10 +120,7 @@
   {% if d.pron_notes %}<ul class="dots small">{% for p in d.pron_notes %}<li>{{ p | md }}</li>{% endfor %}</ul>{% endif %}
   <h3>听力：四步听法（用手机朗读功能播放【C】）</h3>
   <div class="steps">
-    <div><b>① 看英文听</b>0.8 倍速，眼睛跟着英文，听每个词怎么连在一起。</div>
-    <div><b>② 只看中文听</b>遮住英文，看中文听，脑子里对上英文。</div>
-    <div><b>③ 什么都不看</b>正常速度听，听懂大意即可，记下没听清的地方。</div>
-    <div><b>④ 听写</b>听写下面的句子，再对照原文找差别。</div>
+    {% for t, x in listen_steps %}<div><b>{{ t }}</b>{{ x }}</div>{% endfor %}
   </div>
   {% if d.listen_focus %}<div class="small"><b class="muted">听辨要点：</b>{% for f in d.listen_focus %}{{ f | md }}{% if not loop.last %}　｜　{% endif %}{% endfor %}</div>{% endif %}
   {% for x in d.dictation %}<div class="small" style="margin-top:1.4mm">听写 {{ loop.index }}（答案见 {{ x }}）<span class="dict-line"></span></div>{% endfor %}
