@@ -1,0 +1,170 @@
+@day: 86
+@week: 4
+@title_cn: 写事故报告
+@title_en: Writing an Incident Report
+@topic: 写面向卖家的事故说明：发生了什么、影响多大、原因、怎么修复、今后怎么防
+@think_short: 事故经过用过去时 + 被动：was detected / was restored｜「截至目前」as of now｜「今后」going forward｜「影响了 2% 的订单」About two percent of orders were affected.
+
+@goal_scene: 系统宕机之后，你要和工程师一起，把一份满是时间戳和技术细节的内部报告，改写成一份卖家一看就懂的事故说明：发生了什么、影响多大、原因是什么、怎么修好的、今后怎么防。
+@goal_expr: The outage was detected at 2:10 p.m. / Service was restored forty minutes later. / About two percent of orders were affected. / The outage was triggered by a database update. / As of now, everything is back to normal. / Going forward, we'll send an alert within ten minutes.
+@goal_vocab: 20 个重点词 + 5 个短语：事故与影响、处理与修复、报告的种类与结构、今后的改进
+@done: 能用过去时 + 被动交代事故经过：was detected / was triggered by / was restored / were affected
+@done: 能分清内部报告和对外说明（internal / external / customer-facing），给卖家写时少用技术词，多说对他们的影响
+@done: 能写一封 8–10 句的事故说明：发生了什么 → 影响 → 原因 → 修复 → As of now… → Going forward…
+
+@warmup: 有三个包裹正被海关扣着。 | Three packages are being held at customs. | D85
+@warmup: 有一个包裹被退回给发件人了。 | One package was returned to sender. | D85
+@warmup: 我们可以把它改送到一个自提点。 | We can reroute it to a pickup point. | D85
+@warmup: 对接下个月上线。 | The integration will go live next month. | D83
+@warmup: 所以是延期了，不是取消。 | So it's been postponed, not canceled. | D42
+@warmup: 我本来打算上午做完的，可是系统宕机了两个小时。 | I was going to finish it this morning, but the system was down for two hours. | D23
+
+@scene: 西雅图时间周二下午 2:10，SwiftLink 的物流跟踪系统宕机了，整整四十分钟。那时深圳已经是周三凌晨，林晓还在睡觉。早上一到公司，她就看到几个卖家的消息：他们是从自己的顾客那儿才知道出了事。Mike 的团队已经回滚了更新、发布了补丁，也写好了一份内部事故报告——按时间顺序排列、每一步都有时间戳，还有技术调查发现和结论。可卖家既看不懂、也不需要这些。上午九点（西雅图还是周二傍晚六点），Mike 打来电话，请林晓在两边都在线的这一小时里，一起把它改成一份对外的事故说明。
+@sp: 人物关系 | 林晓 ↔ Mike：跨时区合作的同事，地位平等；Mike 清楚事故经过和技术细节，林晓清楚卖家关心什么、对外邮件该怎么写
+@sp: 沟通目的 | 把写给工程师的内部报告改写成卖家看得懂的对外说明；承认没有及时通知卖家，并给出具体、能检查的改进措施
+@sp: 已知信息 | 2:10 p.m.（太平洋时间）发现宕机，2:35 开始回滚，2:50 恢复，共四十分钟；约 2% 的订单受影响，没有数据丢失；起因是一次数据库更新，补丁已经发布；卖家是从顾客那儿听说出事的
+@sp: 表达重点 | 区分 internal / external / customer-facing → 事故经过用过去时 + 被动（was detected / was triggered by / was restored / were affected）→ 截至目前（As of now…）→ 道歉 + 今后的具体措施（Going forward…）→ 少堆技术词，多说对卖家的影响
+
+@story_title: Episode 86 · What Sellers Need to Know
+@story_type: 对话 + 对外事故说明邮件
+@s: On Tuesday afternoon in Seattle, SwiftLink's tracking system went down. | 西雅图时间周二下午，SwiftLink 的物流跟踪系统宕机了。
+@s: In Shenzhen, it was early Wednesday morning, and Lily was asleep. | 那时深圳已经是周三凌晨，林晓还在睡觉。
+@s: At nine, Mike calls her from Seattle. | 九点，Mike 从西雅图给她打来电话。
+@s: Mike: Sellers want an explanation. Can you help me write an **incident** report for them? | Mike：卖家们想要一个说法。你能帮我给他们写一份事故说明吗？
+@s: Lily: Of course. What's in your **internal** report? | 林晓：没问题。你们内部的报告里都写了什么？
+@s: Mike: A **chronological** timeline, with a **timestamp** for every step. | Mike：一条按时间顺序排列的时间线，每一步都有精确的时间记录。
+@s: Mike: Plus our technical **findings** and a **conclusion**. | Mike：还有我们的技术调查发现和结论。
+@s: Lily: That's too much for a **customer-facing** report. | 林晓：给客户看的报告，这些就太多了。
+@s: Lily: In an **external** report, sellers need the basics: what happened, the impact, the cause and the fix. | 林晓：对外的报告，卖家只需要几样基本的：发生了什么、影响多大、原因是什么、怎么修好的。
+@s: Mike: Right. A database update **triggered** the problem. | Mike：对。问题是一次数据库更新引发的。
+@s: Mike: At 2:35, we started a **rollback** to **mitigate** the impact. | Mike：两点三十五分，我们开始回滚，先把影响降下来。
+@s: Mike: An hour ago, we released a **patch** that fixes the real cause. | Mike：一个小时前，我们发布了一个补丁，把根本原因修好了。
+@s: Lily: What was the total **duration**? | 林晓：一共持续了多久？
+@s: Mike: Forty minutes of **downtime**. Our **uptime** this quarter is still above 99.9 percent. | Mike：宕机四十分钟。我们这个季度的在线率仍然在 99.9% 以上。
+@s: Mike: Also, here's one of our **lessons learned**: sellers heard about it from their customers, not from us. | Mike：另外，我们总结的一条教训是：卖家是从他们的顾客那儿听说出事的，而不是从我们这儿。
+@s: Lily: That's the **critical** part. Let's tell them what we'll change. | 林晓：这才是最关键的。我们要告诉他们以后会怎么改。
+@br:
+@s: Lily writes the email to sellers: | 林晓给卖家们写邮件：
+@s: Hi everyone, | 各位好：
+@s: Here's what happened during Tuesday's **outage**. | 下面说明一下周二宕机的经过。
+@s: All times are Pacific Time. | 文中时间均为美国太平洋时间。
+@s: The outage was **detected** at 2:10 p.m. | 宕机是在下午 2:10 被发现的。
+@s: Tracking pages didn't load, and status updates were delayed. | 物流跟踪页面打不开，状态更新也延迟了。
+@s: About two percent of orders were affected. | 大约 2% 的订单受到了影响。
+@s: No data was lost. | 没有任何数据丢失。
+@s: The outage was triggered by a database update. | 这次宕机是由一次数据库更新引发的。
+@s: We rolled back the update. | 我们回滚了这次更新。
+@s: Service was **restored** forty minutes later. | 四十分钟后，服务恢复了。
+@s: We've also released a permanent fix. | 我们还发布了一个彻底的修复。
+@s: **As of** now, everything is **back to normal**. | 截至目前，一切已恢复正常。
+@s: We're sorry we didn't update you sooner. | 很抱歉没有更早通知大家。
+@s: **Going forward**, we'll send an **alert** within ten minutes. | 今后，我们会在十分钟之内发出提醒。
+@s: We'll also post live updates on our **status page**. | 我们还会在状态页面上实时发布最新进展。
+@s: Best regards,\nThe SwiftLink Team | 祝好，\nSwiftLink 团队
+
+@v: incident | = | n. | ˈɪnsɪdənt | （系统）事故；事件 | 事故报告、安全事件、服务中断 | an incident report；a security incident；handle an incident | Please report any safety incident to your manager. | 任何安全事故都请报告给你的经理。 | IT 里的 incident 指影响服务的意外事件，不一定很严重；「事故」别都说 accident——accident 多指车祸、受伤之类的意外；重音在前 IN-ci-dent。
+@v: internal | = | adj. | ɪnˈtɜːrnl | 内部的 | 区分公司内部文件和对外文件 | an internal report；for internal use only；internal emails | This document is for internal use only. | 本文件仅供内部使用。 | 「内部报告」说 an internal report，不说 ✗ an inside report；文件上常标 Internal 或 For internal use only；反义词是 external；重音在 ter。
+@v: chronological | = | adj. | ˌkrɑːnəˈlɑːdʒɪkl | 按时间顺序的 | 时间线、简历、事故报告 | in chronological order；a chronological timeline；reverse chronological order | List your jobs in reverse chronological order. | 按时间倒序列出你的工作经历。 | 「按时间顺序」说 in chronological order，不说 ✗ in time order；美国简历通常用 reverse chronological order（最近的工作放最前面）；ch 读 `/k/`。
+@v: timestamp | = | n. | ˈtaɪmstæmp | 时间戳；精确的时间记录 | 日志、聊天记录、事故时间线 | a timestamp for every step；add a timestamp；check the timestamps | The timestamps show that the error started at 2:10. | 时间戳显示，错误是 2:10 开始的。 | 连写成一个词，复合名词重音在 time；对外报告一般不列出每一个 timestamp，只写关键时间点：detected at…, restored at…
+@v: findings | finding | n. | ˈfaɪndɪŋz | 调查发现；调查结果 | 事故报告、研究报告、审计 | our findings；key findings；the main finding | The report shares three key findings. | 这份报告列出了三个主要发现。 | 作「调查结果」时常用复数 findings，和「找东西」的 find 不是一回事；报告里先写 findings（发现了什么），再写 conclusion（说明了什么）。
+@v: conclusion | = | n. | kənˈkluːʒn | 结论；结尾 | 报告、会议、讨论的最后部分 | reach a conclusion；come to a conclusion；in conclusion | We came to the same conclusion. | 我们得出了同样的结论。 | 「得出结论」说 reach / come to a conclusion，不说 ✗ get a conclusion；口头汇报时用 In conclusion 会像在念论文，美国人更常说 So, overall, … 或 To sum up, …；s 读 `/ʒ/`。
+@v: customer-facing | = | adj. | ˈkʌstəmər ˌfeɪsɪŋ | 面向客户的；给客户看的 | 区分对外的内容和岗位 | a customer-facing report；customer-facing roles；customer-facing teams | Grace has a customer-facing role. | 吴佳的岗位是直接面对客户的。 | 中文的「对客」「前台岗位」都可以说 customer-facing；放在名词前要加连字符；同样的构词还有 client-facing、public-facing。
+@v: external | = | adj. | ɪkˈstɜːrnl | 外部的；对外的 | 对外文件、外部合作方 | an external report；external partners；for external use | We work with an external designer. | 我们和一位外部设计师合作。 | 反义词 internal；「对外发布」说 for external use，不说 ✗ outside report；重音在 ter。
+@v: triggered | trigger | v./n. | ˈtrɪɡərd | 引发；触发 | 说明事故、报警由什么引起 | be triggered by…；trigger an alert；the trigger | One small mistake triggered a big problem. | 一个小错误引发了一个大问题。 | trigger 本义是枪的「扳机」，强调「一下子引发了一连串反应」；说事故原因时常用被动：The outage was triggered by a database update.；cause（D72）更一般。
+@v: rollback | = | n. | ˈroʊlbæk | 回滚（退回到上一个版本） | 系统发布出问题、撤销更新 | do a rollback；start a rollback；roll back an update（动词） | The rollback took fifteen minutes. | 回滚花了十五分钟。 | 名词连写 rollback，动词分开写 roll back：We rolled back the update.；给卖家的对外说明里用动词说一句就够了，别堆技术词。
+@v: mitigate | = | v. | ˈmɪtɪɡeɪt | 减轻；缓解（影响、风险） | 事故处理、风险管理 | mitigate the impact；mitigate the risk；mitigate the damage | We added extra staff to mitigate the delays. | 我们增加了人手来缓解延误。 | mitigate 是「先把坏影响降下来」，不等于「解决」：回滚是 mitigate（止损），补丁才是 fix（根治）；比较正式，口语说 reduce / limit the damage。
+@v: patch | = | n./v. | pætʃ | 补丁；（软件的）修复更新 | 发布修复、系统更新 | release a patch；a security patch；patch the bug | The patch fixes two security problems. | 这个补丁修复了两个安全问题。 | 软件的「打补丁」说 release / install a patch；本义是衣服上的「补丁」；a 读 `/æ/`，嘴张大。
+@v: duration | = | n. | dʊˈreɪʃn | 持续时间；时长 | 事故、会议、合同、视频的时长 | the total duration；the duration of…；for the duration of… | The duration of the training is two hours. | 培训时长两小时。 | 比 how long 正式，常用在报告和表格里；口语问 How long did it last?；「持续时间」不说 ✗ continue time。
+@v: downtime | = | n. | ˈdaʊntaɪm | 停机时间；宕机时间 | 系统事故、维护窗口 | forty minutes of downtime；planned downtime；reduce downtime | The update will cause about ten minutes of downtime. | 这次更新会导致大约十分钟的停机。 | 不可数：forty minutes of downtime；down 就是第一册的 The system was down.；口语里 downtime 也指「休息、放空的时间」：I need some downtime this weekend.
+@v: uptime | = | n. | ˈʌptaɪm | （系统）正常运行时间；在线率 | 说系统的稳定性、服务承诺 | 99.9 percent uptime；guaranteed uptime；high uptime | The service promises 99.9 percent uptime. | 这项服务承诺 99.9% 的在线率。 | 和 downtime 相对，常和百分比连用；99.9 percent 读 ninety-nine point nine percent。在线率再高，也抵不上一次没通知的宕机——林晓就没把它写进给卖家的邮件。
+@v: lessons learned | = | phr. | ˌlesnz ˈlɜːrnd | 经验教训 | 事故复盘、项目总结 | lessons learned；share lessons learned；one of our lessons learned | Let's write down our lessons learned from this project. | 我们把这个项目的经验教训写下来吧。 | 固定说法：lessons 用复数，learned 放在后面；说成 ✗ learned lessons 就成了「学过的课」；说其中一条：One of our lessons learned is…
+@v: critical | = | adj. | ˈkrɪtɪkl | 关键的；极其重要的；（问题）最严重的 | 说最重要的部分、事故或 bug 的级别 | the critical part；critical for…；a critical bug | Good communication is critical in a crisis. | 危机中，良好的沟通至关重要。 | critical 常见三个意思：「关键的」（That's the critical part.）、「最严重级别的」（a critical bug）、「批评的」（a critical comment），看上下文；语气比 important 强得多。
+@v: outage | = | n. | ˈaʊtɪdʒ | （系统、电力的）中断；宕机 | 事故报告、停电通知 | a system outage；a power outage；during the outage | There was a power outage in our area last night. | 昨晚我们这片停电了。 | 「系统宕机」正式说 an outage，口语说 The system went down.；-age 读 `/ɪdʒ/`，不读 age `/eɪdʒ/`；「停电」也叫 power outage（第二册 D38 学过 the power went out）。
+@v: detected | detect | v. | dɪˈtektɪd | 发现；检测到 | 监控系统发现问题、报告事故 | be detected at…；detect an error；detect a problem early | Our system detected an unusual login. | 我们的系统检测到一次异常登录。 | detect 强调「通过监控、检查发现」，比 find 正式，报告里常用被动：The outage was detected at 2:10 p.m.；漏掉 was 就成了 ✗ The outage detected…（宕机「发现」了别的东西）；-ed 读 `/ɪd/`。
+@v: restored | restore | v. | rɪˈstɔːrd | 恢复（服务、供电、数据） | 事故报告、停电后来电 | restore service；be restored；restore data from a backup | Power was restored after two hours. | 两小时后恢复了供电。 | 「恢复服务」说 restore service，被动 Service was restored.；service 泛指整体服务时不加 the；不说 ✗ Service was recovered.（recover 多指人康复、找回东西）。
+@v: As of | as of | phr. | ˈæz əv | 截至（某个时间点）；自……起 | 状态更新、报告、政策生效 | as of now；as of 3 p.m.；as of Monday | As of today, we have 520 sellers. | 截至今天，我们有 520 个卖家。 | 「截至目前」说 as of now，不说 ✗ until now（until now 暗示「到现在为止一直这样，现在要变了」）；as of + 将来的日期是「从……起」：As of Monday, the new rule applies.；在 as of now 里重音落在 now 上。
+@v: back to normal | = | phr. | ˌbæk tə ˈnɔːrml | 恢复正常 | 事故恢复、生活和工作回到原样 | be back to normal；get back to normal；Things are back to normal. | After the holiday, our delivery times are back to normal. | 假期过后，我们的派送时效恢复正常了。 | 「恢复正常」不说 ✗ recover normal / ✗ return normal；前面用 be 或 get；to 弱读成 `/tə/`。
+@v: Going forward | going forward | phr. | ˌɡoʊɪŋ ˈfɔːrwərd | 今后；从现在起 | 说改进措施、新的做法 | Going forward, …；going forward, we'll…；from now on（更口语） | Going forward, all reports are due on Friday. | 今后，所有报告都在周五前交。 | 商务英语的常用开头，后面要接具体、能检查的做法；有人觉得它用多了像套话，一封邮件用一次就好；不说 ✗ In the future, we will forever…
+@v: alert | = | n./v. | əˈlɜːrt | 提醒；警报；紧急通知 | 系统警报、给用户发紧急通知 | send an alert；get an alert；alert sb to sth（动词） | I got an alert from my bank about a large payment. | 我收到银行发来的一条大额支付提醒。 | alert 是「要马上看的紧急通知」，比 notification（D63）急；作动词：We'll alert you if anything changes.；重音在后 a-LERT。
+@v: status page | = | phr. | ˈsteɪtəs ˌpeɪdʒ | （系统的）状态页面 | 宕机时公布进展、查看服务是否正常 | check the status page；post updates on the status page；our status page | Check the status page to see if the system is down. | 看看状态页面，就知道系统是不是宕机了。 | 很多软件公司都有一个公开的 status page，实时显示各项服务是否正常；复合名词重音在 status；status 美式多读 `/ˈsteɪtəs/`，也有人读 /ˈstætəs/。
+
+@diff: 事故经过：过去时 + 被动——The outage was detected at 2:10 p.m.
+@d_cn: 中文事故通报常写「14:10 发现故障，14:50 恢复服务」，不写主语，也看不出时态。
+@d_en: The outage was detected at 2:10 p.m. / Service was restored forty minutes later. / The outage was triggered by a database update.
+@d_why: 中文可以没有主语、动词也不变形；英文每句都要有主语和时态。事故报告关注的是**事情本身**，不是谁发现、谁修好，所以讲经过用**过去时 + 被动**：was detected、was triggered by、was restored、were affected——事情已经结束，用 was / were。常见错误有三种：漏掉 be 动词（✗ The outage detected at 2:10.，意思成了「宕机发现了什么」）；时态没变（✗ Service is restored forty minutes later.）；给不及物动词加被动（✗ The outage was happened.，happen 和 D84 的 occur 一样不能用被动）。但说「我们做了什么」时，英文常换回主动：We rolled back the update. / We've released a permanent fix.——用 we 做主语，显得敢于承担。被动讲事实，主动讲行动，一封好的事故说明两种都有。
+@d_when: 写事故报告、故障通报、事后复盘；向经理口头汇报一件已经结束的事。
+@d_vs: **The outage was detected at 2:10 p.m.** 宕机于下午 2:10 被发现。\n**Service was restored forty minutes later.** 四十分钟后服务恢复。\n**We rolled back the update.** 我们回滚了更新。（主动：我们的行动）\n✗ The outage detected at 2:10.\n✗ Service is restored forty minutes later.\n✗ The outage was happened.
+@d_task: 用过去时 + 被动写两句：问题是上午 9:05 被发现的，10:20 修好了。 | The problem was detected at 9:05 a.m. It was fixed at 10:20 a.m.
+@diff: 「截至目前」——As of now, …
+@d_cn: 说到某个时间点为止的情况；之后情况可能还会更新。
+@d_en: As of now, everything is back to normal. / As of 3 p.m., about 200 orders have been affected. / As of Monday, the new rule applies.
+@d_why: 中文「截至」很正式，学生常译成 ✗ Until now, everything is normal. 或 ✗ Up to now time, …。可 until now 的意思是「到现在为止一直……（现在要变了）」：Until now, I've never been to Seattle.，放在这里反而像在说「现在要出事了」。**as of + 时间点** 才是「按这个时间点的情况」，暗示信息可能还会更新，所以状态更新、事故报告、数据报表里特别常见。as of now 后面用一般现在时；as of + 过去时间常配现在完成时（As of 3 p.m., about 200 orders have been affected.）；as of + 将来日期则是「从……起」：As of Monday, the new rule applies.
+@d_when: 发状态更新、写报告里的数据、通知新规定的生效时间。
+@d_vs: **As of now, everything is back to normal.** 截至目前，一切已恢复正常。\n**As of 3 p.m., about 200 orders have been affected.** 截至下午三点，约 200 个订单受到影响。\n**As of Monday, the new rule applies.** 从周一起，新规定生效。\n✗ Until now, everything is back to normal.\n✗ Up to now time, …
+@d_task: 写一句状态更新：「截至今天上午十点，已有 95% 的延迟订单恢复了物流更新。」 | As of 10 a.m. today, 95 percent of the delayed orders have tracking updates again.
+@diff: 「今后」——Going forward, we'll …
+@d_cn: 出了问题以后，说今后会怎么改进、怎么做。
+@d_en: Going forward, we'll send an alert within ten minutes. / We'll also post live updates on our status page. / From now on, I'll check the dashboard twice a day.
+@d_why: 中文习惯表决心：「今后我们一定加强管理」「保证不再发生」。直译成 ✗ In the future, we will forever… 或 ✗ We promise this will never happen again.，美国读者反而不信——谁也保证不了「永不」（D77 学过：不轻易说 never）。英文事故报告的写法是 **Going forward + 一个具体、能检查的动作**：send an alert within ten minutes、post live updates on our status page。卖家下次就能检验你有没有做到，这才让人放心。**going forward** 偏商务，**from now on** 更日常、语气更坚决，**in the future** 最模糊。
+@d_when: 事故说明、道歉邮件、复盘会议的结尾；跟经理说你以后怎么避免同样的错误。
+@d_vs: **Going forward, we'll send an alert within ten minutes.** 今后，我们会在十分钟内发出提醒。（具体、能检查）\n**From now on, I'll check the dashboard twice a day.** 从现在起，我每天看两次看板。（日常）\n✗ In the future, we will forever not have this problem.\n✗ We promise this will never happen again.（承诺不了的事不说）
+@d_task: 用 going forward 写一句改进措施：今后每次数据库更新都先在沙盒里测试。 | Going forward, we'll test every database update in the sandbox first.
+@diff: 「影响了 2% 的订单」——About two percent of orders were affected.
+@d_cn: 说明影响范围：多少订单、多少卖家、多大比例。
+@d_en: About two percent of orders were affected. / The outage affected about two percent of orders. / No data was lost.
+@d_why: 中文「影响了 2% 的订单」，主语是没说出来的「故障」；英文可以用主动（The outage affected about two percent of orders.），但对外说明更常让卖家关心的东西做主语：**orders were affected**。这句话里藏着三个常见错误：affect 是及物动词，后面不加 to（✗ affected to orders，D72）；percent 没有复数（✗ two percents）；数字和名词之间要有 of（✗ two percent orders）。另外别用 influence——它是「潜移默化的影响」，不是故障造成的影响。精确数字不确定时加 About / Roughly，精确数字留在内部报告里；再补一句让人安心的事实：No data was lost.
+@d_when: 事故报告、周报、向经理说明一个问题的影响有多大。
+@d_vs: **About two percent of orders were affected.** 大约 2% 的订单受到了影响。\n**The outage affected about two percent of orders.** 这次宕机影响了约 2% 的订单。\n**No data was lost.** 没有数据丢失。\n✗ It affected to two percent orders.\n✗ About two percents of orders were influenced.
+@d_task: 说：「大约 5% 的卖家受到了影响，没有数据丢失。」 | About five percent of sellers were affected. No data was lost.
+
+@core: The outage was detected at …, and service was restored at … | 用过去时 + 被动交代事故的起止时间 | detected / reported；restored / back up | 正式：The issue was identified at 2:10 p.m. PT and fully resolved at 2:50 p.m. PT.｜随意：It went down at 2:10 and came back at 2:50.
+@core: About … percent of orders were affected. | 说明影响范围 | two percent of orders / about 300 sellers / all mobile users | 正式：Approximately two percent of orders were impacted.｜随意：Only a small number of orders were hit.
+@core: The outage was triggered by … | 说明原因 | a database update / a server problem / a bad release | 正式：The root cause was a faulty database update.｜随意：A database update broke it.
+@core: As of now, everything is back to normal. | 说明截至某个时间点的状态 | now / 3 p.m. / this morning | 正式：As of 3:00 p.m. PT, all services are operating normally.｜随意：We're back up and running.
+@core: Going forward, we'll … | 承诺具体、能检查的改进措施 | send an alert within ten minutes / test every update in the sandbox / call our biggest sellers | 正式：Going forward, we will notify all affected sellers within ten minutes of detection.｜随意：Next time, you'll hear from us right away.
+@core: We'll also post live updates on our status page. | 告诉对方去哪儿看最新进展 | our status page / this email thread / our help center | 正式：Real-time updates will be available on our status page.｜随意：Check the status page for updates.
+@core: That's too much for a customer-facing report. | 区分内部和对外的内容 | customer-facing / external / internal | 正式：This level of detail is better suited to the internal report.｜随意：Sellers don't need all that.
+@core: One of our lessons learned is that … | 总结教训 | we need to tell sellers sooner / we should test with real data | 正式：A key lesson learned is that seller communication must start as soon as an issue is detected.｜随意：Lesson learned: tell sellers first.
+
+@pw: chronological | ˌkrɑːnəˈlɑːdʒɪkl | 5 个音节 chron·o·LOG·i·cal | 主重音在 log；ch 读 `/k/`，不读 /tʃ/
+@pw: mitigate | ˈmɪtɪɡeɪt | 3 个音节 MIT·i·gate | 重音在前；中间的 t 闪音，像轻轻的 d：MID-i-gate
+@pw: outage | ˈaʊtɪdʒ | 2 个音节 OUT·age | 重音在前；-age 读 `/ɪdʒ/`，不读 age；t 闪音，听起来像 OW-dij
+@pw: incident | ˈɪnsɪdənt | 3 个音节 IN·ci·dent | 重音在前；c 读 `/s/`；结尾 -dent 很轻
+@pw: duration | dʊˈreɪʃn | 3 个音节 du·RA·tion | 重音在 ra；du 读 `/dʊ/`，不读「丢」
+@pw: critical | ˈkrɪtɪkl | 3 个音节 CRIT·i·cal | 重音在前；第二个 t 闪音：CRID-i-cal
+@pw: customer-facing | ˈkʌstəmər ˌfeɪsɪŋ | 5 个音节 CUS·tom·er-FAC·ing | 主重音在 cus，facing 带次重音；中间别停顿
+@ps: The **out**age was de**tect**ed / at two-**ten** p.**m**. | was 弱读成 `/wəz/`；detected 的 -ed 读 `/ɪd/`；2:10 读 two ten，p.m. 读 pee-EM，重音在 m。
+@ps: **Ser**vice was re**stored** / **for**ty minutes **la**ter. | forty 重音在前 FOR-ty，t 闪音像 for-dy，别和 four**teen** 混；later 的 t 也闪音。
+@ps: A**bout two** percent‿of **or**ders / were af**fect**ed. | percent 重音在 cent，和 of 连读；were 弱读成 `/wər/`，几乎和 orders 黏在一起。
+@ps: **Go**ing **for**ward, / we'll **send**‿an a**lert** / within **ten min**utes. | we'll 只有一个音节 `/wiːl/`；send an 连读成 sen-dan；alert 重音在后 a-LERT。
+@pnote: 时间和数字是事故报告的骨架，听错一个就全错：2:10 读 two ten，2:35 读 two thirty-five，2:50 读 two fifty——FIF-ty 重音在前，two fif**teen** 重音在后；forty 和 four**teen** 也一样。99.9 percent 读 ninety-nine point nine percent。写和说的不同：书面写 PT、2:10 p.m.，嘴上说 Pacific Time、two ten in the afternoon。
+@pnote: 被动句里的 was / were 几乎都弱读：was detected `/wəz/`、were affected `/wər/`、was triggered、was restored。正常语速下它们只剩一个轻音，听的时候抓住后面的过去分词（detected / restored / affected）就知道是「被……」。写和说的不同：书面报告写 Service was restored.，口头更常说 We got it back up. / Everything's back up.
+@lfocus: 时间与数字：two ten、two thirty-five、forty（不是 fourteen）、ninety-nine point nine percent
+@lfocus: 被动句里弱读的 was / were：was detected、were affected、was triggered、was restored
+@lfocus: 复合名词重音：ˈstatus ˌpage、ˈincident reˌport、ˈdatabase ˌupdate
+@dict: S11–S14
+@dict: S25–S29
+@res: 在 youglish.com 输入 "going forward"，选 US，听美国人在会议和汇报里怎么用它引出今后的做法。
+
+@mimic: 跟读【C】S1–S16：先正常语速逐句跟读，重点模仿 Mike 读时间和数字的方式（two thirty-five、forty minutes、ninety-nine point nine percent）；再由你演林晓、手机朗读 Mike 的台词，完整对一遍并录音。最后把邮件 S17–S33 当成你自己写的事故说明，用沉稳、诚恳的语气读一遍。
+@swap: The outage was detected at 2:10 p.m. | 换事件和时间：the problem／the error；9:05 a.m.／11:30 p.m. | The problem was detected at 9:05 a.m.
+@swap: About two percent of orders were affected. | 换范围：five percent of sellers／about 300 packages／all mobile users | About 300 packages were affected.
+@swap: As of now, everything is back to normal. | 换时间点和状态：as of 3 p.m.／as of this morning；most pages are working again | As of 3 p.m., most pages are working again.
+@swap: Going forward, we'll send an alert within ten minutes. | 换措施：test every update in the sandbox／post updates on our status page／call our biggest sellers | Going forward, we'll test every update in the sandbox first.
+@free: 张涛问你周二的宕机是怎么回事，用三句话说清：什么时候、影响多大、现在怎样 | Our tracking system was down for forty minutes on Tuesday afternoon, Seattle time. About two percent of orders were affected. As of now, everything is back to normal.
+@free: Daniel 发邮件抱怨：「你们宕机了，我还是从顾客那儿知道的！」你道歉，并说今后怎么做 | You're right, and I'm sorry you heard about it from your customers first. Going forward, we'll send an alert within ten minutes, and we'll post live updates on our status page.
+@free: Leo 问：内部报告和给卖家的报告有什么不一样？ | The internal report is for our engineers, so it has every timestamp and all the technical findings. The customer-facing version only covers what happened, the impact, the cause and the fix.
+@free: 下午三点给卖家发一条进展更新：问题还在修；截至目前约 100 个订单受影响；一小时内再更新 | We're still working on the issue. As of 3 p.m., about 100 orders have been affected. We'll send another update within an hour.
+@output: 写一封 6–10 句的事故说明邮件（发给卖家或你的客户）：一句话说明来意 → 时区 → 什么时候发现、什么现象 → 影响范围 → 原因 → 怎么修好的、什么时候恢复 → As of now… → 道歉 → Going forward…（具体、能检查）。可以写本课的宕机，也可以写你工作中处理过的一次小事故（比如打印机坏了半天、群发邮件发错了人）。
+@output_sample: Hi everyone,\nHere's what happened with label printing this morning.\nAll times are Pacific Time.\nThe problem was detected at 9:40 a.m., when sellers couldn't print shipping labels.\nAbout five percent of sellers were affected, and no orders were lost.\nThe problem was triggered by a settings change on our label server.\nWe undid the change, and printing was restored at 10:25 a.m.\nAs of now, everything is back to normal.\nWe're sorry for the trouble.\nGoing forward, we'll test every settings change before it goes live, and we'll post updates on our status page.\nBest regards,\nLily
+
+@check: 听力：宕机是西雅图时间什么时候发现的？一共持续了多久？那时深圳是什么时间？ | 周二下午 2:10（太平洋时间）发现，持续四十分钟（2:50 恢复）；那时深圳已经是周三凌晨，林晓还在睡觉。
+@check: 听力：Mike 说的那条「教训」是什么？邮件里承诺了哪两条改进措施？ | 卖家是从自己的顾客那儿听说出事的，而不是从 SwiftLink 这里；改进措施：今后十分钟内发出提醒（alert），并在状态页面（status page）上实时发布进展。
+@check: 改错：✗ The outage detected at 2:10, and the service is restored at 2:50. | The outage was detected at 2:10, and service was restored at 2:50.（被动要有 was；事情已经结束，用过去时；泛指服务时 service 不加 the）
+@check: 改错：✗ It affected to 2 percents orders. | It affected about two percent of orders.（affect 后面不加 to；percent 不加 s；要有 of）
+@check: 「截至目前」和「从下周一起」都能用 as of 说，分别怎么说？ | As of now, … / As of next Monday, …
+@check: 换个场景：你负责的标签打印功能今天上午坏了半小时。给卖家写一句 going forward 的改进承诺（不要用 never）。 | Going forward, we'll test every change before it goes live.
+@next1: 不看书说出 5 个锚点句：S21、S23、S27、S29、S31
+@next1: 按「发生了什么 → 影响 → 原因 → 修复 → 今后」口头把周二的宕机说一遍（5–6 句）
+@next7: 事故说明的结构，以及过去时被动 was detected / was triggered by / was restored / were affected
+@next7: as of now、going forward、back to normal 各造一句关于你自己工作的话

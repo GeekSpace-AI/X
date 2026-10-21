@@ -1,0 +1,168 @@
+@day: 70
+@week: 2
+@title_cn: 看懂图表
+@title_en: Reading a Chart
+@topic: 周会上讲图表：柱状图、饼图和表格；说清图例、坐标轴和颜色，用「占……%」「大多数」「其余的」讲比例，接住同事对数字和数据来源的追问
+@think_short: 「占 40%」account for / make up（不说 occupy）｜「如图所示」As you can see, …｜the majority of + 复数名词 + 复数动词｜chart / graph / table 各管什么
+
+@goal_scene: 第一次在周会上讲图表：先用一句话说这张图是什么，再说清图例、坐标轴、颜色分别代表什么；用 account for / make up / the majority of / the rest of 讲比例；视频那头的同事听不清数字、问数据从哪来时，能马上答清楚。
+@goal_expr: As you can see, this chart shows… / The legend is at the top. / The blue bars represent… / The horizontal axis shows… / … accounts for forty percent of the total. / The majority of packages arrive… / The rest of the orders come from… / Thirteen, one-three.
+@goal_vocab: 20 个重点词 + 5 个短语：图表的种类、图表的组成部分（图例、坐标轴、行和列）、比例与占比、讲图常用的动词
+@done: 能用 As you can see, this chart shows… 开场，再用 2–3 句说清图例、横轴、纵轴和颜色分别代表什么
+@done: 能用 account for / make up / the majority of / the rest of 讲一张饼图的比例，不说 ✗ occupy；the majority of + 复数名词后面的动词用复数
+@done: 能分清 thirteen / thirty 这类数字，没听清时会追问，确认时会逐个读数字（Thirteen, one-three.）
+
+@warmup: 这个月订单量增长了 15%。 | Orders increased by fifteen percent this month. | D69
+@warmup: 三月份退货率大幅下降。 | The return rate dropped sharply in March. | D69
+@warmup: 配送时效一直很稳定。 | Delivery times have remained stable. | D69
+@warmup: 退款由财务团队负责处理。 | Refunds are handled by the finance team. | D64
+@warmup: 我来这儿两年了，可第一个夏天真的很难熬。 | I've been here for two years, but my first summer was really difficult. | D53
+@warmup: Mike 是西雅图那边的工程师，他带领工程团队。 | Mike is an engineer in Seattle. He leads the engineering team. | D4
+
+@scene: 每周一次的团队例会。前几天林晓把上个月的数据整理好了（Day 68），张涛让她这周在会上讲一讲。她做了三页幻灯片：一张柱状图，比较今年和去年同月四个地区的订单量；一张饼图，看每个地区各占多少；一张表格，看包裹多久能送到。她负责的 20 个卖家分布在加州、纽约、俄亥俄和得州四个地区。西雅图的 Mike 也在视频里——两边每天只有一个小时的重叠时间，他是在下班前上线的。共享屏幕上的小字他看不清，听到数字也会马上追问；林晓得一边讲图，一边接住他的问题。
+@sp: 人物关系 | 林晓 ↔ 张涛、Mike 和团队：周会上的同事关系；张涛是她的经理，Mike 是西雅图的工程经理，说话直接，听不清就马上打断问
+@sp: 沟通目的 | 林晓要让大家一眼看懂三张图：订单涨了多少、哪个地区占得最多、包裹多久能到；Mike 想弄清颜色、坐标轴、数字和数据来源
+@sp: 已知信息 | 大家都知道上个月订单涨了，但没见过按地区拆开的数字；Mike 在视频里看不清图例，也不知道林晓说的「四个地区」是哪四个
+@sp: 表达重点 | As you can see… 先说这张图是什么 → 图例、颜色、坐标轴 → 用 account for / make up / the rest of 讲饼图 → 说出数据来源 → 用 the majority of 讲配送时效 → 数字被追问时逐个读出来（Thirteen, one-three.）
+
+@story_title: Episode 70 · What Do the Colors Mean?
+@story_type: 会议对话（视频会议 · 讲图表）
+@s: It's the weekly team meeting, and Lily is presenting her first **chart**. | 每周的团队例会上，林晓第一次讲图表。
+@s: Mike joins on video from Seattle at the end of his day. | 西雅图的 Mike 在下班前通过视频加入会议。
+@br:
+@s: Lily: Let's start with this **bar** chart. | 林晓：我们先看这张柱状图。
+@s: Lily: **As you can see**, this chart shows our orders by region. | 林晓：大家可以看到，这张图是按地区统计的订单量。
+@s: Lily: My twenty sellers are in four regions: California, New York, Ohio and Texas. | 林晓：我负责的二十个卖家分布在四个地区：加州、纽约、俄亥俄和得州。
+@s: Mike: Sorry, Lily. What do the colors mean? | Mike：不好意思，林晓，这些颜色代表什么？
+@s: Lily: The **legend** is **at the top**. The blue bars **represent** last year. | 林晓：图例在最上面。蓝色柱子代表去年。
+@s: Lily: The green bars are this year. | 林晓：绿色柱子是今年。
+@s: Mike: Got it. And what does each **axis** show? | Mike：明白了。那两条坐标轴分别表示什么？
+@s: Lily: The **horizontal** one shows the regions. | 林晓：横轴是地区。
+@s: Lily: The **vertical** one shows the number of orders, in thousands. | 林晓：纵轴是订单数，单位是千。
+@s: Lily: Every region grew. California went from twelve to sixteen thousand. | 林晓：每个地区都有增长。加州从一万二涨到了一万六。
+@br:
+@s: Lily: On the next **slide**, this **pie** chart shows the same data as percentages. | 林晓：下一页的饼图，用百分比来看同样的数据。
+@s: Lily: Each **segment** is one region. | 林晓：每一块代表一个地区。
+@s: Lily: California **accounts for** forty percent of the total. | 林晓：加州占总量的百分之四十。
+@s: Lily: New York makes up thirty percent, and Ohio makes up ten. | 林晓：纽约占百分之三十，俄亥俄占百分之十。
+@s: Lily: **The rest of** the orders come from Texas. | 林晓：其余的订单来自得州。
+@s: Mike: Quick question. What's the **source** of the data? | Mike：问一下，数据来源是哪里？
+@s: Lily: Our seller dashboard, for last month. | 林晓：我们的卖家看板，是上个月的数据。
+@br:
+@s: Lily: Finally, this table shows delivery times. | 林晓：最后，这张表格是配送时效。
+@s: Lily: Each **row** is a region, and each **column** is a time **category**. | 林晓：每一行是一个地区，每一列是一个时效区间。
+@s: Lily: **The majority of** packages arrive within a week. | 林晓：大多数包裹在一周之内送达。
+@s: Lily: That's seventy percent, a clear **majority**. | 林晓：占百分之七十，是明显的多数。
+@s: Lily: Only a small **portion** takes more than ten days: thirteen percent. | 林晓：只有一小部分要十天以上：百分之十三。
+@s: Mike: Sorry, thirteen or thirty? | Mike：不好意思，是十三还是三十？
+@s: Lily: Thirteen, one-three. I've **highlighted** those numbers in red. | 林晓：十三，一、三。这些数字我都用红色标出来了。
+@s: Lily: In this table, red **indicates** a problem. | 林晓：在这张表里，红色表示有问题。
+@s: Tom: Nice work. Your **visuals** are very clear. | 张涛：讲得不错，你的图做得很清楚。
+@s: Tom: Next week, let's add a line **graph** to show the trend. | 张涛：下周再加一张折线图，看看变化趋势。
+
+@v: chart | = | n. | tʃɑːrt | 图表（统称：柱状图、饼图等数据图） | 周会、月报、做幻灯片 | a bar chart；a pie chart；This chart shows… | This chart shows our sales by month. | 这张图是我们每个月的销售额。 | 中文一个「图」可以指照片、地图、数据图；工作汇报里的「数据图」说 chart，不说 ✗ picture；chart 是统称，柱状图、饼图都是 chart；ch 读 `/tʃ/`，ar 要卷舌。
+@v: bar | = | n. | bɑːr | （柱状图里的）柱子；条 | 讲柱状图 | a bar chart；the blue bars；the tallest bar | The tallest bar is California. | 最高的那根柱子是加州。 | 「柱状图」= bar chart，竖着的、横着的都叫 bar chart，不说 ✗ column picture；bar 还是「酒吧」「一条（巧克力）」，看上下文；bar chart 是复合名词，重音在前：ˈBAR ˌchart。
+@v: As you can see | as you can see | phr. | æz ju kən ˈsiː | 大家可以看到；如图所示 | 讲图、讲幻灯片时引导听众看某个地方 | As you can see, …；as you can see in the chart；as you can see here | As you can see, sales went up in May. | 大家可以看到，五月的销售额上升了。 | 「如图所示」不说 ✗ As the picture shows / ✗ Like you see；can 在这里弱读成 `/kən/`；它只是个引子，后面一定要跟具体内容；一张图说一次就够，也可以换成 If you look at… / Here you can see…
+@v: legend | = | n. | ˈledʒənd | 图例（说明颜色、符号代表什么的小方框） | 讲图、看图时问颜色和符号 | the legend；check the legend；the legend at the top | The legend shows what each color means. | 图例说明了每种颜色代表什么。 | 很多人只知道 legend 是「传说、传奇人物」，图表里的「图例」也叫 legend；g 读 `/dʒ/`，不读 /ɡ/；重音在前：LEG-end。
+@v: at the top | = | phr. | ət ðə ˈtɑːp | 在最上面；在顶部 | 告诉别人看图、看页面的哪个位置 | at the top of the slide；at the top right；at the top of the list | The date is at the top of the slide. | 日期在这页幻灯片的最上面。 | 「在上面」不说 ✗ in the top / ✗ on the up；位置短语成套记：at the top / at the bottom / on the left / on the right / in the middle；at the top of the list 还可以表示「排第一」。
+@v: represent | = | v. | ˌreprɪˈzent | 代表；表示 | 讲图里的颜色、符号、线条代表什么 | represent last year；Each dot represents…；What does the red line represent? | Each dot represents one warehouse. | 每个点代表一个仓库。 | 说颜色、符号「代表」用 represent，口语也说 stand for 或 mean；不说 ✗ The blue bars are on behalf of last year（on behalf of 是「代表某人做事」，Day 63）；重音在最后：rep-re-SENT，s 读 `/z/`。
+@v: axis | = | n. | ˈæksɪs | （图表的）坐标轴 | 讲柱状图、折线图 | the horizontal axis；the vertical axis；the x-axis / the y-axis | The vertical axis shows the number of packages. | 纵轴表示包裹数量。 | 复数是 axes `/ˈæksiːz/`，拼写和 axe（斧头）的复数一样，读音不同；美国人也常说 x-axis（横轴）、y-axis（纵轴）；「横轴」不说 ✗ the horizontal line。
+@v: horizontal | = | adj. | ˌhɔːrəˈzɑːntl | 水平的；横的 | 说横轴、横条、横向排列 | the horizontal axis；a horizontal line；horizontal bars | The months are on the horizontal axis. | 月份在横轴上。 | 重音在 zon：hor-i-ZON-tal，不在第一个音节；名词 horizon `/həˈraɪzn/`（地平线）重音完全不同，别跟着它读。
+@v: vertical | = | adj. | ˈvɜːrtɪkl | 垂直的；竖的 | 说纵轴、竖排、竖线 | the vertical axis；a vertical line；vertical bars | The vertical axis starts at zero. | 纵轴从零开始。 | 横 horizontal、竖 vertical 是一对，讲图时常连着说：The horizontal one shows…, and the vertical one shows…；重音在前：VER-ti-cal，ver 要卷舌。
+@v: slide | = | n. | slaɪd | （演示文稿里的）一页幻灯片 | 做汇报、开会讲 PPT | on the next slide；the last slide；go back to slide three | Can you go back to the last slide? | 能翻回上一页吗？ | 中文说「PPT」「这一页」，美国人很少把演示文稿叫 PPT，说 slides 或 the presentation；翻页说 Next slide, please.，不说 ✗ next page；「在这一页上」用 on：on this slide。
+@v: pie | = | n. | paɪ | 馅饼（饼图里的「饼」） | 讲饼图、讲占比 | a pie chart；a slice of the pie；the whole pie | This pie chart shows our costs. | 这张饼图展示的是我们的成本构成。 | 「饼图」= pie chart，pie 是美国人爱吃的「派」，一块一块切开，正好像饼图；pie chart 重音在前：ˈPIE ˌchart；饼图一般不叫 ✗ pie graph。
+@v: segment | = | n. | ˈseɡmənt | （饼图里的）一块；一部分；（客户的）细分群体 | 讲饼图、讲客户分类 | each segment；the biggest segment；a customer segment | The biggest segment is New York. | 最大的一块是纽约。 | 讲饼图时也常说 slice（一块）；「细分市场」说 market segment；作名词重音在前 SEG-ment，g 后面紧跟 m，别加元音读成「赛格门特」。
+@v: accounts for | account for | phr. | əˈkaʊnts fər | 占（总数的多少） | 说比例、占比 | account for 40% of the total；account for most of…；account for the rest | Online orders account for sixty percent of our sales. | 线上订单占我们销售额的六成。 | 「占」不说 ✗ occupy（occupy 是「占据空间、占用」：The room is occupied.）；部分做主语：California accounts for…，第三人称的 -s 别丢；account for 还有「解释（原因）」的意思：That accounts for the delay.
+@v: The rest of | the rest of | phr. | ðə ˈrest əv | 其余的……；剩下的…… | 列举完主要部分后，说剩下的 | the rest of the orders；the rest of the team；the rest of the day | The rest of the team works in Seattle. | 团队其余的人在西雅图上班。 | 动词跟着 of 后面的名词走：the rest of the orders **come**（复数），the rest of the money **is**（不可数）；「剩下的订单」不说 ✗ the left orders；也可以单说 the rest：The rest come from Texas.
+@v: source | = | n. | sɔːrs | （数据、信息的）来源 | 汇报时说明数据从哪里来 | the source of the data；a data source；a reliable source | Always add the source at the bottom of the chart. | 一定要在图的下方注明数据来源。 | 「数据来源」说 the source of the data / data source，不说 ✗ data from where；美国人看到一张图，常常先问 What's the source?；source 有卷舌 `/sɔːrs/`，和 sauce（酱）读音不同。
+@v: row | = | n. | roʊ | （表格的）行；一排 | 讲表格、电子表格 | each row；the first row；row 5 | Each row is one seller. | 每一行是一个卖家。 | 行 row、列 column 中国学习者常记反：row 是横着的一排（像电影院的一排座位），column 是竖着的一列（像一根柱子）；row 读 `/roʊ/`，和 low 押韵。
+@v: column | = | n. | ˈkɑːləm | （表格的）列；（报纸的）专栏 | 讲表格、电子表格 | each column；column B；add a column | Please add a column for the delivery date. | 请加一列「送达日期」。 | 结尾的 n 不发音：COL-umn `/ˈkɑːləm/`；Excel 里说 column B、row 5；「列」不要说 ✗ line（line 是一行字或一条线）。
+@v: category | = | n. | ˈkætəɡɔːri | 类别；类型；区间 | 给数据分类、讲表格的分组 | a time category；three categories；product categories | We sort tickets into three categories. | 我们把工单分成三类。 | 复数 categories；「分成三类」说 sort / divide … into three categories，不说 ✗ divide to three kinds；重音在第一个音节：CAT-e-go-ry，美式 go 读 `/ɡɔːr/`，要卷舌。
+@v: The majority of | the majority of | phr. | ðə məˈdʒɔːrəti əv | ……中的大多数 | 说某个部分超过一半 | the majority of packages；the majority of our sellers；the vast majority of | The majority of our sellers are in California. | 我们的大多数卖家都在加州。 | 后面接复数名词时，动词用复数：The majority of packages **arrive**…，不说 ✗ arrives；比 most 正式一点，汇报、报告里常用；「绝大多数」说 the vast majority of。
+@v: majority | = | n. | məˈdʒɔːrəti | 多数；过半数 | 说比例、投票结果 | a clear majority；a small majority；the majority | Seventy percent is a clear majority. | 百分之七十是明显的多数。 | majority 必须「超过一半」：加州只占 40%，是 the largest region，不能叫 majority；反义词 minority（少数）；重音在 jor：ma-JOR-i-ty，ma 弱读成 `/mə/`。
+@v: portion | = | n. | ˈpɔːrʃn | 一部分 | 说一小部分、一大部分 | a small portion；a large portion of；a portion of the orders | Only a small portion of our budget goes to marketing. | 我们只有一小部分预算用在营销上。 | 比 part 书面，常和 small / large 连用；a small portion 单独做主语时动词用单数：A small portion takes more than ten days.；吃饭的「一份」也叫 portion：The portions are huge.；tion 读 `/ʃn/`。
+@v: highlighted | highlight | v. | ˈhaɪlaɪtɪd | 用颜色标出；突出强调 | 在图表、表格、文件里把重点标颜色；汇报时强调重点 | highlight … in red；highlight the key numbers；I'd like to highlight… | I've highlighted the late orders in yellow. | 迟到的订单我都用黄色标出来了。 | 中文「标红」「标黄」说 highlight … in red / in yellow，不说 ✗ mark red；口头汇报时 I'd like to highlight two things. 是「我想强调两点」；名词 highlights 是「亮点」：the highlights of the week。
+@v: indicates | indicate | v. | ˈɪndɪkeɪts | 表示；表明 | 说图表里的颜色、符号或数据说明了什么 | red indicates…；The data indicates…；indicate a problem | A green dot indicates that the package was delivered. | 绿点表示包裹已经签收。 | 比 show / mean 正式，写报告常用；后面直接接名词或 that 从句，不说 ✗ indicate to a problem；名词 indicator 是「指标」，明天要学的 KPI 里的 I 就是 indicator。
+@v: visuals | visual | n. | ˈvɪʒuəlz | 图表、图片等视觉材料 | 评价幻灯片和汇报材料 | clear visuals；use visuals；a visual aid | Use simple visuals in your report. | 报告里用简单明了的图表。 | 作名词常用复数 visuals，统指幻灯片上的图表、图片；作形容词：visual design（视觉设计）；s 读 `/ʒ/`，和 usual 里的 s 一样。
+@v: graph | = | n. | ɡræf | （有坐标轴的）曲线图、折线图 | 表现随时间的变化、趋势 | a line graph；on the graph；The graph shows… | This line graph shows our orders by week. | 这张折线图是我们每周的订单量。 | graph 多指有横纵轴、用线或点表示变化的图，最常见的是 line graph（折线图）；chart 是更广的统称；ph 读 `/f/`，a 是张大嘴的 `/æ/`。
+
+@diff: 「占……%」——account for / make up（不说 occupy）
+@d_cn: 饼图里加州那一块是四成，想说「加州占总量的 40%」。
+@d_en: California accounts for forty percent of the total. / New York makes up thirty percent. / Forty percent of our orders come from California.
+@d_why: 中文一个「占」字，学生最容易查到 occupy，可 occupy 是「占据（空间）、占用、占领」：The meeting room is occupied.（会议室有人。）说比例，英文用 **account for** 或 **make up**：部分做主语，后面接百分比 + of the total。两者意思几乎一样，account for 稍正式，写报告常用；make up 更口语。还有一种最简单的说法：把百分比放在主语位置——Forty percent of our orders come from California. 快速说话时，California account**s** for… 的第三人称 -s 很容易丢，这正是第一册就开始练的弱项。
+@d_when: 讲饼图、讲比例；写周报、月报里的「占比」。
+@d_vs: ✓ **California accounts for forty percent of the total.** 加州占总量的 40%。\n✓ **New York makes up thirty percent.** 纽约占 30%。\n✓ **Forty percent of our orders come from California.** 四成订单来自加州。\n✗ California occupies forty percent.\n✗ California takes forty percent of the total.
+@d_task: 用两种说法告诉 Mike：「俄亥俄占总订单量的 10%。」 | Ohio accounts for ten percent of the total. ／ Ohio makes up ten percent of our orders.
+@diff: 「如图所示」——As you can see, …
+@d_cn: 讲图时提醒大家看图：「如图所示」「大家可以看到」「从图上看」。
+@d_en: As you can see, this chart shows our orders by region. / If you look at the green bars, every region grew. / As shown in the chart below, …
+@d_why: 「如图所示」是书面语，直译成 ✗ As the picture shows 或 ✗ Like you see 都不自然。英文讲图有个固定节奏：**先说这张图是什么**（this chart shows…），**再告诉大家看哪里**（If you look at the green bars…），**最后说结论**（Every region grew.）。As you can see 只是引子，后面一定要跟具体内容；每句都加会显得很机械。视频会议里对方看不清时，主动说位置：The legend is at the top. / On the left, you can see…。写报告时换成书面说法：As shown in the chart below, …（如下图所示）。
+@d_when: 周会、月会讲幻灯片；视频会议共享屏幕；写带图的报告或邮件。
+@d_vs: **As you can see, this chart shows our orders by region.** 大家可以看到，这张图是按地区统计的订单量。（口头）\n**If you look at the green bars, every region grew.** 看绿色柱子，每个地区都在涨。（指位置）\n**As shown in the chart below, …** 如下图所示……（书面）\n✗ As the picture shows, … ✗ Like you see, …
+@d_task: 你在共享屏幕，想让大家看饼图里最大的那一块（加州），用两句话引导大家。 | As you can see, this pie chart shows our orders by region. If you look at the biggest segment, that's California.
+@diff: 「大多数包裹」——the majority of + 复数名词 + 复数动词
+@d_cn: 说一大半的东西怎么样：「大多数包裹一周内送达」「其余的订单来自得州」。
+@d_en: The majority of packages arrive within a week. / The rest of the orders come from Texas. / Most of our sellers are in California.
+@d_why: majority 看起来是个单数名词，学生常顺手用单数动词：✗ The majority of packages arrives…。英文这里看的是 of 后面的**名词**：packages 是复数，动词就用复数 arrive；the rest of the orders 也一样，用 come。of 后面是不可数名词时用单数：The rest of the money **is** for training. 另外，majority 必须「超过一半」，中文的「大部分」有时只是「最大的一块」——加州占 40%，只能说 California is our largest region，不能说 ✗ The majority of orders come from California。
+@d_when: 讲比例、写报告里的结论句；汇报调查结果。
+@d_vs: ✓ **The majority of packages arrive within a week.** 大多数包裹一周内送达。\n✓ **The rest of the orders come from Texas.** 其余的订单来自得州。\n✓ **The rest of the money is for training.** 剩下的钱用于培训。（不可数 → 单数）\n✗ The majority of packages arrives…\n✗ The majority of orders come from California.（只占 40%，不过半）
+@d_task: 用英文说：① 我们的大多数客户在美国。② 其余的在加拿大。 | ① The majority of our customers are in the U.S. ② The rest of them are in Canada.
+@diff: 「图」和「表」——chart / graph / table
+@d_cn: 中文「图表」「数据图」「表格」常混着说，做 PPT 时一句「看这个图」就行。
+@d_en: a bar chart / a pie chart / a line graph / a table
+@d_why: 英文分得比较清：**chart** 是统称，柱状图 bar chart、饼图 pie chart 都是 chart；**graph** 多指有横纵轴、用线或点表示变化的图，最常见的是 line graph（折线图）——想看「趋势」就用它，这就是张涛最后让林晓加一张 line graph 的原因；**table** 是表格，只有行（row）和列（column）里的数字，没有图形。各有分工：比大小用 bar chart，看占比用 pie chart，看随时间的变化用 line graph，要精确数字用 table。另外，「图片」是 picture / image，「示意图、流程图」是 diagram，都不能用来指数据图。
+@d_when: 做幻灯片、写周报、在会上指着某一页说话时。
+@d_vs: **bar chart** 柱状图：比较大小（四个地区的订单）\n**pie chart** 饼图：看占比（加州占 40%）\n**line graph** 折线图：看趋势（每周的配送时效）\n**table** 表格：看精确数字（行 row × 列 column）\n✗ Look at this picture.（指数据图时）
+@d_task: 你要做三张图：① 每个月订单量的变化趋势；② 四个地区各占多少；③ 每个卖家准确的订单数。分别用哪种？ | ① a line graph ② a pie chart ③ a table
+
+@core: As you can see, this chart shows… | 讲图时的第一句：先说这张图是什么 | our orders by region / delivery times / last month's returns | 正式：As shown in the chart, our orders grew in every region.｜随意：So here's what this shows.
+@core: The blue bars represent… | 解释颜色、线条代表什么 | the blue bars / the red line / the dotted line；last year / our target / the average | 正式：The blue bars indicate last year's figures.｜随意：Blue is last year, green is this year.
+@core: The horizontal axis shows…, and the vertical axis shows… | 解释坐标轴 | the months / the regions；the number of orders / days | 正式：The x-axis represents the months, and the y-axis represents orders.｜随意：Along the bottom are the months, and up the side are the orders.
+@core: … accounts for / makes up … percent of the total. | 说占比 | California / New York；forty / thirty | 正式：California accounts for forty percent of total orders.｜随意：California's about forty percent.
+@core: The majority of … / The rest of … | 说「大多数」「其余的」 | packages arrive within a week / orders come from Texas | 正式：The vast majority of packages arrive within seven days.｜随意：Most packages get there in a week. The rest take longer.
+@core: What's the source of the data? — It's from… | 问、答数据来源 | our dashboard / the carrier / last month's report | 正式：The data comes from our seller dashboard.｜随意：It's from the dashboard.
+@core: Sorry, thirteen or thirty? — Thirteen, one-three. | 确认容易听错的数字 | thirteen / thirty；fifteen / fifty；sixteen / sixty | 正式：Just to confirm, was that thirteen percent?｜随意：Thirteen? Or thirty?
+@core: I've highlighted … in red. | 引导大家看重点 | those numbers / the late packages / Texas | 正式：I'd like to highlight two points on this slide.｜随意：The red ones are the problems.
+
+@pw: horizontal | ˌhɔːrəˈzɑːntl | 4 个音节 hor·i·ZON·tal | 主重音在 zon；第一个音节是次重音；结尾 tal 很轻，几乎只剩 `/tl/`
+@pw: vertical | ˈvɜːrtɪkl | 3 个音节 VER·ti·cal | 重音在前，ver 卷舌 `/ɜːr/`；美式 t 常闪音，听起来像 VER-di-cal
+@pw: majority | məˈdʒɔːrəti | 4 个音节 ma·JOR·i·ty | 重音在 jor；ma 弱读成 `/mə/`；ty 闪音，像轻轻的「迪」
+@pw: category | ˈkætəɡɔːri | 4 个音节 CAT·e·go·ry | 重音在第一个音节，`/æ/` 嘴张大；美式 go 卷舌，不要吞掉
+@pw: represent | ˌreprɪˈzent | 3 个音节 rep·re·SENT | 主重音在最后；s 读 `/z/`
+@pw: legend | ˈledʒənd | 2 个音节 LEG·end | 重音在前；g 读 `/dʒ/`，不读 /ɡ/
+@pw: column | ˈkɑːləm | 2 个音节 COL·umn | 结尾的 n 不发音；第一个音节 `/ɑː/` 嘴张大
+@ps: **As**‿you can **see**, / this **chart** shows‿our **or**ders / by **re**gion. | can 弱读成 `/kən/`，几乎听不见；As you 连读成 a-zyou；by region 是一个意群，别在 by 后面停。
+@ps: Cali**for**nia ac**counts**‿for / **for**ty per**cent** / of the **to**tal. | accounts for 连读，for 弱读成 `/fər/`；forty 重音在前，t 闪音像 FOR-dy；percent 重音在后：per-CENT，后面不加 s。
+@ps: The ma**jor**ity‿of **pack**ages / ar**rive** with‿in‿a **week**. | of 弱读成 `/əv/`，和 majority 连在一起；within a 连成 wi-thi-na；arrive 不加 s，主语是复数 packages。
+@ps: **Sor**ry, / thir**teen** ↗ / or **thir**ty? ↘ | 选择疑问句：前一个选项上扬，后一个下降。thir**teen** 重音在后、ee 拉长；**thir**ty 重音在前，t 闪音像 THIR-dy。
+@pnote: 数字：-teen 和 -ty 是会议里最容易听错的地方。thir**teen** `/θɜːrˈtiːn/` 重音在后、`/iː/` 拉长、t 读得清楚；**thir**ty `/ˈθɜːrti/` 重音在前，美式 t 闪音，听起来像 THIR-dy。没听清就像 Mike 那样马上问，确认时最保险的是**逐个读数字**：Thirteen, one-three. / Fifty, five-zero. 本课的数字：twelve thousand → sixteen thousand（12,000 → 16,000），forty / thirty / ten / seventy / thirteen percent。
+@pnote: 复合名词的重音落在第一个词上：ˈbar ˌchart、ˈpie ˌchart、ˈline ˌgraph、ˈdata ˌsource。写 vs 说：报告里写 As shown in the chart below，嘴上说 As you can see；幻灯片上写 40%，嘴上说 forty percent（percent 永远不加 s）；纵轴上标着「(000s)」，口头说 in thousands。
+@lfocus: thirteen vs thirty：听重音位置和 t 的读法
+@lfocus: As you can see 里弱读的 can `/kən/`；accounts for、majority of 里弱读的 for / of
+@lfocus: 复合名词重音：ˈbar ˌchart、ˈpie ˌchart、ˈline ˌgraph
+@dict: S15–S17
+@dict: S22–S24
+@res: 在 youglish.com 输入 "as you can see"，选 US，听美国人讲幻灯片时 can 弱读得有多轻。
+
+@mimic: 跟读【C】S3–S29：先逐句跟读林晓讲图的句子，模仿 As you can see 轻快的开头、ˈbar ˌchart / ˈpie ˌchart 的重音和 thirteen 的读法；再你演林晓、手机朗读 Mike 和张涛的台词，正常语速完整对一遍并录音。最后合上书，只看三张图的中文描述（柱状图、饼图、表格），用自己的话讲 1 分钟。
+@swap: As you can see, this chart shows our orders by region. | 换内容：our returns by month / delivery times by carrier / tickets by type | As you can see, this chart shows our returns by month.
+@swap: California accounts for forty percent of the total. | 换主语和数字，再换成 make up：New York / thirty；Ohio / ten；Texas / twenty | Texas makes up twenty percent of the total.
+@swap: The blue bars represent last year. | 换颜色和意思：the red line / our target；the green bars / this year；the dotted line / the average | The red line represents our target.
+@swap: The majority of packages arrive within a week. | 换主语和谓语，动词保持复数：our sellers / are in California；tickets / are closed within a day；buyers / pay online | The majority of tickets are closed within a day.
+@free: 共享屏幕后，同事说看不懂你的饼图（你解释：每一块是一个产品类别，最大的一块是家居用品，占 45%） | This pie chart shows our orders by product category. Each segment is one category. The biggest one is home goods, and it accounts for forty-five percent of the total.
+@free: Mike 在视频里问 What do the colors mean?（蓝色是上个月，橙色是这个月，图例在右边） | The blue bars represent last month, and the orange bars represent this month. The legend is on the right.
+@free: 经理问配送时效怎么样（结论：大部分很快；70% 一周内到，只有 13% 超过十天，已用红色标出） | Most packages arrive quickly. The majority of them arrive within a week — that's seventy percent. Only thirteen percent take more than ten days, and I've highlighted those in red.
+@free: 视频会议里，你没听清对方说的是 15% 还是 50%（先确认数字，再说一句为什么要问） | Sorry, was that fifteen or fifty? I want to get the number right in my notes.
+@output: 写一条 6–10 句的消息（邮件或聊天都行）：Mike 说会上网络卡，没看清你的图。用文字把图讲清楚：这张图是什么 → 颜色和坐标轴代表什么 → 最大的占比（account for / make up）→ 大多数 / 其余的（the majority of / the rest of）→ 数据来源 → 下一步。可以用本课的数据，也可以用你自己工作里的一张图。
+@output_sample: Hi Mike,\nThanks for joining the meeting today. Here's a quick summary of my charts, in case the video was unclear. The bar chart shows our orders by region for last month. The blue bars represent last year, and the green bars represent this year. Every region grew, and California went from 12,000 to 16,000 orders. California accounts for 40% of the total, and New York makes up 30%. The majority of packages arrive within a week, but 13% take more than ten days. The data comes from our seller dashboard. Next week, I'll add a line graph to show the trend.\nBest regards,\nLily
+
+@check: 听力：Mike 第一个问题问的是什么？林晓怎么回答的？ | 他问颜色代表什么（What do the colors mean?）。林晓说图例在最上面，蓝色柱子代表去年，绿色柱子代表今年。
+@check: 听力：要十天以上才送到的包裹占多少？Mike 为什么追问？ | 13%（thirteen percent）。Mike 没听清是 thirteen 还是 thirty，林晓用 Thirteen, one-three. 逐个读数字来确认。
+@check: 改错：California occupies forty percent of the total. | occupy 不能表示「占比例」：California accounts for (makes up) forty percent of the total.
+@check: 改错：The majority of our sellers is in California. | of 后面是复数名词 sellers，动词用复数：The majority of our sellers are in California.（前提是确实超过一半。）
+@check: 换个场景：你要给经理看过去 12 个月退货率的变化，用 bar chart、pie chart、line graph 还是 table？开场第一句怎么说？ | 用 line graph（看趋势）。As you can see, this line graph shows our return rate over the last twelve months.
+@check: 换个场景：一张饼图显示上周的工单来源：邮件占 50%，电话占 30%，剩下的来自在线聊天。用三句话讲给同事听。 | Emails account for fifty percent of last week's tickets. Phone calls make up thirty percent. The rest of the tickets come from live chat.
+@next1: 不看书说出 5 个锚点句：S4、S7、S15、S17、S22
+@next1: 指着本课的三张图，用 As you can see / represent / account for / the majority of / the rest of 各说一句
+@next7: 「占……%」：用 account for 和 make up 各说两句关于你公司或生活的比例（不说 occupy）
+@next7: chart / graph / table 怎么选；thirteen / thirty、fifteen / fifty 的重音和确认方法

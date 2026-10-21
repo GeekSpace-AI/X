@@ -1,0 +1,170 @@
+@day: 71
+@week: 2
+@title_cn: 周报
+@title_en: The Weekly Report
+@topic: 第一次写周报：第一句就给结论，再写数据、未完成的事和风险，最后写下一步；用 pending / ongoing / on hold / at risk 说清每件事的状态
+@think_short: 先说结论 Overall, … / In short, …｜「这周已解决」We've resolved…（不带过去时间）vs Last week we resolved…｜「还在弄」分清 ongoing / pending / on hold / overdue｜「有风险」at risk；「卡住了」blocked by…
+
+@goal_scene: 给经理写一份周报，或在周会上口头汇报一周的工作：第一句就说总体情况，然后是关键数字、还没解决的事和风险，最后是下一步——不按「周一做了什么、周二做了什么」记流水账。
+@goal_expr: Overall, it was a good week. / We achieved all three of our KPIs. / We've resolved eighteen of the twenty tickets. / Two tickets are still pending. / The new label project is at risk. / The main blocker is… / … is on hold until… / … is ahead of schedule. / Here are the next steps.
+@goal_vocab: 20 个重点词 + 5 个短语：周报的结构、工作状态（待处理 / 进行中 / 已解决 / 超期 / 暂停）、绩效指标、风险与阻碍
+@done: 能按「总体情况 → 数据 → 问题和风险 → 下一步」的顺序写一份 8–12 句的周报，第一句就是结论
+@done: 能用 pending / ongoing / on hold / overdue / ahead of schedule / at risk 准确说出一件事的状态，并用 The main blocker is… 说清卡在哪里
+@done: 能分清 We've resolved…（到现在为止的成果，不带具体过去时间）和 Last week, we resolved…（带具体过去时间）
+
+@warmup: 大家可以看到，这张图是按地区统计的订单量。 | As you can see, this chart shows our orders by region. | D70
+@warmup: 加州占总量的百分之四十。 | California accounts for forty percent of the total. | D70
+@warmup: 大多数包裹在一周之内送达。 | The majority of packages arrive within a week. | D70
+@warmup: 我写信是想确认一下新的配送时效。 | I'm writing to confirm the new delivery times. | D65
+@warmup: 我以前在快递站上班。 | I used to work at a courier station. | D52
+@warmup: 94% 的包裹都准时送到了。 | Ninety-four percent of our packages arrived on time. | D22
+
+@scene: 周五下午，林晓写了她独立负责卖家以来的第一份周报。她写得很认真：周一回了多少邮件、周二开了什么会、周三处理了哪张工单……整整一屏。十分钟后，张涛来到她的工位：内容都对，可读起来像日记——他每周要看十几份周报，想在 30 秒内知道这周好不好、哪里有问题、下周要做什么。林晓按他说的顺序重写：总体情况 → 数据 → 没解决的事和风险 → 下一步。这周的情况是：团队的三个 KPI（平均响应时间 4 小时以内、跟踪准确率 99.5% 以上、准时率 95% 以上）全部达标；20 张工单解决了 18 张；新面单项目卡在承运商对面单格式的审批上；Leo 的培训提前完成；卖家常见问题页（FAQ，就是林晓试用期整理的那份清单）正在更新。
+@sp: 人物关系 | 林晓 ↔ 张涛：员工和直属经理；张涛时间很紧，最怕在周报里找不到重点，但他愿意手把手教
+@sp: 沟通目的 | 林晓要让张涛 30 秒内看懂这一周：好不好、数字怎么样、哪里卡住了、下一步谁做什么；张涛要能直接拿去向上汇报
+@sp: 已知信息 | 张涛知道有新面单项目，但不知道它卡在承运商那里；他也不知道还有两张工单没解决，其中一张已经超期
+@sp: 表达重点 | Overall, … 一句话结论 → KPI 和关键数字 → 已解决 / 待处理 / 超期 → 大问题：at risk + blocker → 其他项目的状态：ahead of schedule / ongoing / on hold → Here are the next steps. + 我的 action item
+
+@story_title: Episode 71 · A Recap, Not a Diary
+@story_type: 叙述 + 对话 + 周报邮件
+@s: On Friday, Lily sends Tom her first weekly report. | 周五，林晓把她的第一份周报发给了张涛。
+@s: Tom: Thanks, Lily. But this reads like a diary. | 张涛：谢谢，林晓。不过这读起来像日记。
+@s: Tom: I need a **recap**, not every task you did. | 张涛：我要的是一份总结，不是你做过的每一件事。
+@s: Lily: So, main point first? | 林晓：所以要先说结论？
+@s: Tom: Exactly. Then the numbers, then anything **outstanding**. | 张涛：没错。然后是数字，再然后是还没办完的事。
+@s: Tom: Point out every **risk**, and end with what happens next. | 张涛：把每个风险都点出来，最后写下一步怎么做。
+@s: Lily rewrites the report: | 林晓把周报重写了一遍：
+@br:
+@s: Hi Tom, | 张涛，你好：
+@s: Overall, it was a good week. | 总体来说，这周不错。
+@s: We **achieved** all three of our **KPIs**. | 三项关键绩效指标我们全部达成。
+@s: Average **response** time was 2.5 hours. | 平均响应时间是 2.5 小时。
+@s: Tracking **accuracy** was 99.6%. | 物流跟踪准确率是 99.6%。
+@s: The on-time **rate** was 95%, up one percentage point. | 准时率是 95%，上升了一个百分点。
+@s: Another key **metric**, seller **satisfaction**, stayed at 4.7 out of 5. | 另一项重要指标——卖家满意度——保持在 4.7 分（满分 5 分）。
+@s: We've **resolved** eighteen of the twenty tickets. | 二十张工单，我们已经解决了十八张。
+@s: Two tickets are still **pending**. | 还有两张在等待处理。
+@s: Both are **minor**, but one is a day **overdue**, so I've escalated it to Mike. | 两张都是小问题，不过有一张已经超期一天，所以我已经上报给 Mike 了。
+@s: His **estimate** for the **remaining** work is two days. | 他估计剩下的工作还要两天。
+@br:
+@s: There's one **major** issue. The new label project is **at risk**. | 有一个大问题：新面单项目有延期的风险。
+@s: The main **blocker** is the carrier's approval of our new label format. | 主要卡在承运商还没批准我们的新面单格式。
+@s: Without it, we can't start testing. | 没有这个批准，我们就没法开始测试。
+@s: In other news, Leo's training is **ahead of schedule**. | 其他方面，Leo 的培训比计划提前了。
+@s: The FAQ update is **ongoing**, and the first **deliverable** is due next Friday. | FAQ 的更新还在进行中，第一项交付成果下周五到期。
+@s: The seller survey is **on hold** until next month. | 卖家问卷调查暂停到下个月。
+@br:
+@s: Here are the **next steps**. | 下一步安排如下。
+@s: On Monday, I'll call the carrier and ask for a decision. | 周一我会给承运商打电话，请他们给个明确答复。
+@s: My **action item** for Tuesday is a backup plan for the label project. | 我周二的待办事项是给面单项目做一个备用方案。
+@s: Thanks, | 谢谢！
+@s: Lily | 林晓
+@br:
+@s: Ten minutes later, Tom replies: | 十分钟后，张涛回复：
+@s: Much better! I read it in thirty seconds, and I know where you need my help. | 好多了！我三十秒就看完了，也知道你哪里需要我帮忙。
+
+@v: recap | = | n. | ˈriːkæp | 概括；总结（把要点重新说一遍） | 周报、会议结尾、邮件开头的回顾 | a quick recap；a weekly recap；Let me recap.（动词） | Here's a quick recap of today's meeting. | 下面简单回顾一下今天的会议。 | 周报、会议纪要里的「总结」口语常说 recap，比 summary（Day 65）随意一些；也能作动词：Let me recap.（我简单总结一下。）；张涛说 a recap, not a diary：总结要按重要性挑重点，不按时间记流水账。
+@v: outstanding | = | adj. | aʊtˈstændɪŋ | 未解决的；未办完的；（也指）杰出的 | 工作汇报、待办事项、账单 | outstanding issues；outstanding items；an outstanding payment | We still have three outstanding issues. | 我们还有三个没解决的问题。 | outstanding 有两个意思：「杰出的」（an outstanding student）和工作里常用的「还没解决、还没付的」（outstanding tickets / an outstanding invoice），看上下文；张涛说 anything outstanding 不是「任何出色的事」，而是「任何还没办完的事」。
+@v: risk | = | n. | rɪsk | 风险 | 汇报项目问题、做计划 | a big risk；point out a risk；There's a risk that… | The biggest risk is the deadline. | 最大的风险是截止日期。 | 说「有风险」要具体：There's a risk that we'll miss the launch.，不说 ✗ It has risk.；risk of + -ing：the risk of missing the deadline；也能作动词：We can't risk losing this seller.
+@v: achieved | achieve | v. | əˈtʃiːvd | 达成；实现（目标） | 写周报、绩效总结 | achieve a goal；achieve our KPIs；achieve good results | We achieved our sales target in June. | 我们六月达成了销售目标。 | achieve 后面接目标、结果；口语常说 hit / meet a target（第二册）；不说 ✗ achieve the work，「完成工作」用 finish / complete；名词是 achievement（第二册）。
+@v: KPIs | KPI | n. | ˌkeɪ piː ˈaɪz | 关键绩效指标 | 周报、月报、团队目标 | hit our KPIs；our main KPI；KPI targets | Our main KPI is response time. | 我们最主要的 KPI 是响应时间。 | KPI = key performance indicator，按字母读 K-P-I，重音在最后的 I；复数写 KPIs，不写 ✗ KPI's；英文里 KPI 多指团队或项目的几个关键数字，每个都有目标值。
+@v: response | = | n. | rɪˈspɑːns | 回复；响应 | 客服、工单、邮件的回复速度 | response time；a quick response；first response | Thanks for your quick response. | 谢谢你这么快回复。 | 动词是 respond：respond to an email（别丢 to）；「响应时间」说 response time，不说 ✗ answer time；邮件里常见 in response to your question（关于您问的问题）；重音在 spon：re-SPONSE。
+@v: accuracy | = | n. | ˈækjərəsi | 准确率；准确性 | 数据、跟踪信息、报告质量 | tracking accuracy；data accuracy；99% accuracy | Data accuracy is very important in our reports. | 报告里数据的准确性非常重要。 | 形容词是 accurate；「准确率 99.6%」说 Accuracy was 99.6%.，不说 ✗ accurate rate；重音在第一个音节：AC-cu-ra-cy，cu 读 `/kjə/`。
+@v: rate | = | n. | reɪt | 率；比率；费率 | 说准时率、退货率等指标 | the on-time rate；the return rate；shipping rates | Our return rate is only two percent. | 我们的退货率只有百分之二。 | 中文「……率」多数是 … rate：on-time rate、return rate、response rate；但「准确率」通常说 accuracy，「满意度」说 satisfaction，不硬加 rate；rate 也指「价格、费率」：shipping rates（运费标准）。
+@v: metric | = | n. | ˈmetrɪk | 指标；衡量标准 | 数据汇报、产品分析 | a key metric；track our metrics；the most important metric | Response time is our most important metric. | 响应时间是我们最重要的指标。 | metric 是「拿来衡量工作的任何数字」，KPI 是其中最关键、有目标值的几个——所有 KPI 都是 metric，反过来不一定；常用复数 metrics；the metric system 是「公制」，别混。
+@v: satisfaction | = | n. | ˌsætɪsˈfækʃn | 满意度；满意 | 客户、卖家调查和评分 | customer satisfaction；a satisfaction score；high satisfaction | Customer satisfaction went up this quarter. | 这个季度客户满意度上升了。 | 「满意度」直接说 satisfaction 或 satisfaction score，不说 ✗ satisfaction degree；人「感到满意」用形容词 satisfied：Our sellers are satisfied.；重音在 fac：sat-is-FAC-tion。
+@v: resolved | resolve | v. | rɪˈzɑːlvd | 解决（问题、工单、投诉） | 客服工单、系统问题、投诉处理 | resolve a ticket；resolve an issue；be resolved | The issue was resolved in two hours. | 这个问题两小时就解决了。 | 比 solve（第一册）正式，常用于工单、投诉、争议；solve 多用于难题、谜题（solve a puzzle）；工单系统里的状态 Resolved 就是「已解决」；s 读 `/z/`：re-ZOLVD。
+@v: pending | = | adj. | ˈpendɪŋ | 待处理的；在等（审批、修复、回复）的 | 工单、审批、付款、订单的状态 | still pending；pending approval；a pending order | Your refund is still pending. | 您的退款还在处理中。 | pending 是「在等别人或在排队」，还没有结果；ongoing 是「正在做」；pending approval =「等待审批」；中文「挂起」「待定」「审核中」都可以用它。
+@v: minor | = | adj. | ˈmaɪnər | 小的；次要的；不严重的 | 说问题、改动、延误的大小 | a minor issue；minor changes；a minor delay | It's just a minor typo. | 只是个小拼写错误。 | major / minor 是一对：大问题 a major issue，小问题 a minor issue；说问题「小」时 minor 比 small 更专业；minor 作名词是「未成年人」。
+@v: overdue | = | adj. | ˌoʊvərˈduː | 过期的；超期的 | 工单、账单、任务过了截止时间 | a day overdue；overdue tickets；an overdue payment | This invoice is two weeks overdue. | 这张发票已经超期两周了。 | 「超期一天」说 a day overdue，时间放前面，不说 ✗ overdue one day；due（到期）+ over（超过）；重音在最后：o-ver-DUE。
+@v: estimate | = | n. | ˈestɪmət | 估计；预估（时间、费用） | 估工期、估费用、估数量 | a rough estimate；Mike's estimate；give an estimate | Can you give me an estimate for the fix? | 你能估一下修好要多久吗？ | 名词结尾读 `/ət/`，动词结尾读 `/eɪt/`：We estimate it'll take two days.；「我估计」口语说 My guess is…，汇报里说 Our estimate is…，听起来更有依据。
+@v: remaining | = | adj. | rɪˈmeɪnɪŋ | 剩下的；其余的 | 说还没做完的工作、剩下的时间或数量 | the remaining work；the remaining two tickets；remaining time | The remaining tickets will be closed by Friday. | 剩下的工单周五前都会关掉。 | 放在名词前：the remaining work，不说 ✗ the remain work；动词 remain 是「保持」（Day 69）；和 the rest of（Day 70）意思接近：the remaining tickets ≈ the rest of the tickets。
+@v: major | = | adj. | ˈmeɪdʒər | 重大的；主要的 | 说问题、变化、客户的大小 | a major issue；a major change；major customers | We made a major change to the process. | 我们对流程做了一个重大调整。 | 「大问题」说 a major issue，比 a big problem 专业；major 作名词是大学的「专业」：What was your major?；j 读 `/dʒ/`。
+@v: at risk | = | phr. | ət ˈrɪsk | 有风险；面临（延期、失败等）危险 | 周报、项目状态 | be at risk；at risk of + -ing；put … at risk | The deadline is at risk. | 截止日期可能保不住了。 | 项目状态常分三色：on track（正常）、at risk（有风险）、behind schedule（已落后）；介词是 at，不说 ✗ in risk；at risk of missing the deadline =「有赶不上截止日期的风险」。
+@v: blocker | = | n. | ˈblɑːkər | 阻碍；卡点（让工作没法往下做的问题） | 项目周报、站会、和工程团队沟通 | the main blocker；a blocker for…；remove a blocker | Are there any blockers on your side? | 你那边有什么卡住的地方吗？ | 「被卡住了」说 We're blocked by… 或 The blocker is…，不说 ✗ We are stuck by…；blocker 是科技公司的常用词，越具体越好：The blocker is the carrier's approval.
+@v: ahead of schedule | = | phr. | əˌhed əv ˈskedʒuːl | 比计划提前 | 汇报进度 | two days ahead of schedule；finish ahead of schedule；be ahead of schedule | We finished the project a week ahead of schedule. | 我们比计划提前一周完成了项目。 | 和 behind schedule（第一册）、on track 是一组；「提前两天」说 two days ahead of schedule，时间放最前；schedule 美式读 `/ˈskedʒuːl/`，开头是 sk。
+@v: ongoing | = | adj. | ˈɑːnɡoʊɪŋ | 正在进行的；持续的 | 说项目、工作、问题还没结束 | an ongoing project；ongoing work；The work is ongoing. | Testing is still ongoing. | 测试还在进行中。 | ongoing ≈ still in progress，强调「一直在做、还没结束」；要连写，不写 ✗ on going；和 pending 不同：ongoing 是正在做，pending 是在等别人。
+@v: deliverable | = | n. | dɪˈlɪvərəbl | 交付成果；（项目要交出的）产出 | 项目管理、和客户约定交付内容 | the first deliverable；key deliverables；deliverables for this week | The main deliverable is a new help page. | 主要的交付成果是一个新的帮助页面。 | 中文「交付物」「产出」都可以说 deliverable，指看得见、交得出去的东西（文件、页面、报告），不是动作；常用复数 deliverables；重音在 liv：de-LIV-er-a-ble。
+@v: on hold | = | phr. | ɑːn ˈhoʊld | 暂停；搁置 | 项目、订单、打电话时让对方等 | be on hold until…；put … on hold；on hold for now | The project is on hold until next quarter. | 项目暂停到下个季度。 | 「暂停」不说 ✗ stop for now（听起来像不做了）；on hold 表示以后还会继续；打电话时 put sb on hold 是「让对方在线等」；别和第一册的 hold on（请稍等）混。
+@v: next steps | = | phr. | ˌnekst ˈsteps | 下一步（的安排） | 周报、会议、邮件的最后一部分 | Here are the next steps.；What are the next steps?；agree on next steps | Let's agree on the next steps before we leave. | 散会前我们把下一步定下来。 | 常用复数 next steps，哪怕只有一两件；后面列的内容要写清「谁、做什么、什么时候」，不要只写 ✗ We will follow up.
+@v: action item | = | phr. | ˈækʃn ˌaɪtəm | 待办事项；（会议定下来的）行动项 | 会议纪要、周报 | my action item；action items from the meeting；assign an action item | I'll send out the action items after the meeting. | 会后我把行动项发给大家。 | 指分给某个人、有截止时间的具体任务；比 to-do list（第一册）正式，常出现在会议纪要里；复合名词，重音在前：ˈACTION ˌitem。
+
+@diff: 汇报先说结论——Overall, … / In short, …
+@d_cn: 中文写总结常常按时间顺序：「周一……周二……」，或者先铺垫过程，最后才说「总的来说，这周还不错」。
+@d_en: Overall, it was a good week. / In short, we're on track, but one project is at risk. / The bottom line is…
+@d_why: 中文汇报习惯「先过程、后结论」，好像先把来龙去脉讲清楚，结论才有分量；美国经理读周报的习惯正好相反：**第一句就要知道结论**，细节留给想看的人往下看。张涛说 a recap, not a diary：周报不按时间记流水账，而按**重要性**排：总体情况 → 数据 → 没办完的事和风险 → 下一步。开头最常用 **Overall, …**（总体来说）和 **In short, …**（简单说）；口语里也常听到 The bottom line is…（核心就是……）。结论句要有信息量：Overall, it was a good week. 而不是 ✗ This week I did a lot of things.
+@d_when: 周报、月报、给经理的邮件第一句；会议上被问 How's it going? 时的第一句。
+@d_vs: ✓ **Overall, it was a good week.** 总体来说，这周不错。（结论先行）\n✓ **In short, we're on track, but the label project is at risk.** 简单说：整体正常，但面单项目有风险。\n✗ On Monday, I answered 40 emails. On Tuesday, I…（流水账，经理找不到重点）\n✗ This week I did many things.（没有信息量）
+@d_task: 用一句话给你这周的工作下结论（这周很忙，大部分任务完成了，但有一个截止日期可能赶不上）。 | Overall, it was a busy but good week. Most tasks are done, but one deadline is at risk.
+@diff: 「这周解决了 18 张」——We've resolved… vs Last week, we resolved…
+@d_cn: 周报里说「已经解决了 18 张工单」「上周解决了 15 张」——中文都是「解决了」。
+@d_en: We've resolved eighteen of the twenty tickets. / Last week, we resolved fifteen. / So far, we've onboarded three new sellers.
+@d_why: 这是第二册的老问题在工作里的新面孔。周报说的是「到现在为止的成果」，而且没有具体的过去时间，用现在完成时：**We've resolved eighteen…**——重点是现在的状态：18 张已经解决了。一旦出现具体的过去时间（last week / on Monday / yesterday），就只能用一般过去时：**Last week, we resolved fifteen.**，✗ Last week we've resolved fifteen. 是中国学习者最常见的错误之一。This week 两种都行：周五下午回顾一整周常用过去时（This week, we resolved eighteen.），强调「截至此刻」用完成时。听的时候注意 We've 的 've 很轻，几乎只剩一个 v。
+@d_when: 周报的数据部分、项目进度汇报、回答 What have you done so far?
+@d_vs: ✓ **We've resolved eighteen of the twenty tickets.** 二十张里已经解决了十八张。（到现在为止）\n✓ **Last week, we resolved fifteen.** 上周解决了十五张。（具体过去时间）\n✓ **So far, we've onboarded three new sellers.** 到目前为止，已经接入了三个新卖家。\n✗ Last week we've resolved fifteen tickets.\n✗ We resolve eighteen tickets.（像是每周固定这么多）
+@d_task: 用英文写两句：① 到现在为止，我们已经回复了 120 封卖家邮件。② 周一我们回复了 35 封。 | ① So far, we've answered 120 seller emails. ② On Monday, we answered 35.
+@diff: 「还在弄」——ongoing / pending / on hold / overdue
+@d_cn: 中文说「还没弄完」「在走流程」「先放一放」「已经超时了」，一句「还在弄」能概括很多种状态。
+@d_en: The FAQ update is ongoing. / Two tickets are still pending. / The seller survey is on hold until next month. / One ticket is a day overdue.
+@d_why: 英文周报里的「状态词」分得很细，选对了，经理一眼就知道要不要担心：**ongoing**（正在做，还没完）、**pending**（在等别人：等审批、等修复、等回复）、**on hold**（主动暂停，以后再做）、**overdue**（已经过了截止时间）、**ahead of schedule / on track / behind schedule**（和计划比的进度）。中文一句「还在弄」，英文要先问自己：是在做、在等、停了，还是超时了？口语里笼统的说法是 It's still in progress. / We're working on it.，但写周报时越具体越好。
+@d_when: 周报、项目看板、回答 What's the status of…?
+@d_vs: **ongoing** 正在进行：The FAQ update is ongoing.\n**pending** 在等别人：Two tickets are still pending.（等 Mike 的团队修复）\n**on hold** 暂停：The seller survey is on hold until next month.\n**overdue** 超期：One ticket is a day overdue.\n✗ The survey is stopping.（听起来像要取消）
+@d_task: 用状态词各说一句：① 新功能的测试正在进行；② 退款在等财务审批；③ 培训项目暂停到七月。 | ① Testing for the new feature is ongoing. ② The refund is pending approval from finance. ③ The training program is on hold until July.
+@diff: 「有点悬」「卡住了」——at risk / The blocker is… / blocked by…
+@d_cn: 项目可能要延期，原因是在等别人：「这个项目有点悬」「我们被卡住了，承运商一直没批」。
+@d_en: The new label project is at risk. / The main blocker is the carrier's approval. / We're blocked by the carrier.
+@d_why: 中文说「有点悬」「卡住了」很口语，也常常不点明卡在谁那里，怕显得在推卸责任。英文周报恰恰要把风险**提前、具体**地说出来：**… is at risk**（有延期或失败的风险）+ **The main blocker is … / We're blocked by …**（卡在哪里、卡在谁）+ 后果（Without it, we can't start testing.）+ 你的应对（下一步）。美国经理最怕「最后一天才知道要延期」——提前说 at risk 是专业，不是诉苦。注意介词：at risk（✗ in risk），blocked **by** sb / sth（✗ stuck by）。
+@d_when: 周报的风险部分；站会、项目会议上被问 Any blockers?
+@d_vs: ✓ **The new label project is at risk.** 新面单项目有延期风险。\n✓ **The main blocker is the carrier's approval.** 主要卡在承运商的审批。\n✓ **We're blocked by the carrier.** 我们被承运商卡住了。\n✗ The project is in risk. ✗ We are stuck by the carrier.\n✗ The project has a little problem.（太模糊）
+@d_task: 写两句话：新网站上线有风险，主要卡在设计稿还没定。 | The website launch is at risk. The main blocker is the final design, which isn't approved yet.
+
+@core: Overall, it was a good week. / In short, … | 周报和汇报的第一句：先给结论 | a good week / a busy week / a tough week | 正式：Overall, the team met all of its targets this week.｜随意：All in all, pretty good week.
+@core: We achieved all three of our KPIs. | 说指标完成情况 | all three of our KPIs / two of our three targets / our response-time goal | 正式：We achieved all three of our key performance indicators.｜随意：We hit all our numbers.
+@core: We've resolved … of the … tickets. … are still pending. | 说已完成和待处理的数量 | eighteen of the twenty tickets / thirty of the thirty-five requests | 正式：Eighteen of the twenty tickets have been resolved.｜随意：Eighteen down, two to go.
+@core: … is a day overdue, so I've escalated it to… | 说超期，并说明自己已经做了什么 | a day / two days；Mike / Tom / the carrier | 正式：One ticket is past its deadline and has been escalated to engineering.｜随意：One's a day late, so I pinged Mike.
+@core: … is at risk. The main blocker is… | 提前说风险和卡点 | the label project / the launch；the carrier's approval / the final design | 正式：The label project is at risk because the carrier has not approved the format.｜随意：The label project might slip. We're stuck waiting on the carrier.
+@core: … is ahead of schedule / ongoing / on hold until… | 说其他项目的状态 | Leo's training / the FAQ update / the seller survey | 正式：The seller survey has been put on hold until next month.｜随意：The survey's paused for now.
+@core: Here are the next steps. My action item is… | 结尾：下一步谁做什么、什么时候 | call the carrier on Monday / a backup plan by Tuesday | 正式：The next steps are listed below, with owners and dates.｜随意：Here's what's next.
+
+@pw: satisfaction | ˌsætɪsˈfækʃn | 4 个音节 sat·is·FAC·tion | 主重音在 fac，次重音在 sat；tion 读 `/ʃn/`
+@pw: accuracy | ˈækjərəsi | 4 个音节 AC·cu·ra·cy | 重音在第一个音节，`/æ/` 嘴张大；cu 读 `/kjə/`
+@pw: deliverable | dɪˈlɪvərəbl | 5 个音节 de·LIV·er·a·ble | 重音在 liv；后面三个音节都很轻，快说时像 de-LIV-ruh-bl
+@pw: overdue | ˌoʊvərˈduː | 3 个音节 o·ver·DUE | 重音在最后；due 美式读 `/duː/`，不读 /djuː/
+@pw: ongoing | ˈɑːnɡoʊɪŋ | 3 个音节 ON·go·ing | 重音在 on；n 和 g 直接连上，中间不停
+@pw: schedule | ˈskedʒuːl | 2 个音节 SCHED·ule | 美式开头是 `/sk/`；ahead of schedule 连成 a-HE-dof-SKED-jool
+@pw: KPI | ˌkeɪ piː ˈaɪ | 3 个字母 K·P·I | 按字母读，重音在最后的 I；复数 KPIs 读 `/ˌkeɪ piː ˈaɪz/`
+@ps: Over**all**, / it was‿a **good week**. | Overall 作副词重音在后：o-ver-ALL，后面稍停；was 弱读成 `/wəz/`，和 a 连成 wə-zə。
+@ps: We've re**solved** / eigh**teen** of the **twen**ty **tick**ets. | We've 的 've 只剩一个很轻的 v；eighteen 重音在 teen，t 读清楚；twenty 美式常读成 TWEN-ny，t 几乎消失。
+@ps: **Two** tickets are still **pend**ing. | are 弱读成 `/ər/`，紧贴着 tickets；still pending 中间不停顿。
+@ps: The new **la**bel project / is‿at **risk**. | label project 是复合名词，重音在 label；is at 连读成 i-zat，at 的 t 碰到 risk 只做口型；句子重音落在最后的 risk 上。
+@pnote: 写 vs 说：周报里写 2.5 hours、99.6%、95%、4.7 out of 5，读出来是 two point five hours、ninety-nine point six percent、ninety-five percent、four point seven out of five。小数点一律读 point，点后的数字逐个读（99.6 不读 ninety-nine point sixty）；percent 不加 s。口头汇报时也可以说得更「圆」：about two and a half hours。
+@pnote: 弱读和缩读：We've resolved、I've escalated 的 've 都只剩一个很轻的 v——听不出来就分不清「已经解决了」和「解决」。can't 美式读 `/kænt/`，元音饱满，t 常常只做口型；弱读的 can 是 `/kən/`，靠元音区分：we can't start testing。复合名词重音在前：ˈaction ˌitem、ˈlabel ˌproject、reˈsponse ˌtime。
+@lfocus: 小数和百分比：two point five hours、ninety-nine point six percent
+@lfocus: We've / I've 里很轻的 've
+@lfocus: can't `/kænt/` vs can `/kən/`：we can't start testing
+@dict: S15–S18
+@dict: S19–S21
+@res: 在 youglish.com 输入 "action items"，选 US，听美国人开会时怎么用这个词、重音落在哪里。
+
+@mimic: 跟读【C】：先跟读张涛的 S2–S6，模仿他短句、直接的语气；再把 S9–S27 的周报当作口头汇报大声读两遍，第二遍不看中文，注意 Overall 后面的停顿、小数和百分比的读法、We've 的弱读。最后合上书，只看「总体 → 数据 → 问题 → 下一步」这四个词，用 1 分钟口头复述这份周报。
+@swap: Overall, it was a good week. | 换评价，再补一句理由：a busy week / a tough week / a great month | Overall, it was a tough week. Two big sellers had delivery problems.
+@swap: We've resolved eighteen of the twenty tickets. | 换动词和数字：answered / thirty of the thirty-five emails；onboarded / three of the four new sellers | We've answered thirty of the thirty-five emails.
+@swap: The new label project is at risk. | 换项目，再补一句 The main blocker is…：the website launch / the final design；the data report / missing numbers from the carrier | The website launch is at risk. The main blocker is the final design.
+@swap: The seller survey is on hold until next month. | 换项目和状态：the FAQ update / ongoing；Leo's training / ahead of schedule；one ticket / a day overdue | Leo's training is ahead of schedule.
+@free: 经理在走廊上问你 How was your week?（结论：很好；三个指标都达成了，还提前完成了一个小项目） | It was a great week. We hit all three of our KPIs, and we finished a small project ahead of schedule.
+@free: 周会上被问到新面单项目的进度（结论：有风险；卡在承运商的审批上，你周一会打电话跟进） | The label project is at risk. The main blocker is the carrier's approval. I'll call them on Monday and ask for a decision.
+@free: 经理问为什么有一张工单还没关（结论：在等工程团队修复；已经超期一天，你已经上报，预计周三修好） | It's still pending because we're waiting for a fix from the engineering team. It's a day overdue, so I've escalated it. Mike's estimate is Wednesday.
+@free: 同事问卖家问卷怎么还没发（结论：暂停了；要等新的问卷表格做好，下个月再发） | The survey is on hold for now. We're waiting for the new form, so we'll send it next month.
+@output: 录一段 1.5–2 分钟的口头周报：想象周一例会上张涛说 Give us a quick update.。按「总体情况（Overall, …）→ 2–3 个关键数字 → 已完成 / 待处理（We've… / pending / overdue）→ 一个风险或卡点（at risk / blocker）→ 其他项目的状态 → 下一步（Here are the next steps.）」的顺序说。没有正式工作，就汇报你这一周的学习或一个个人项目。
+@output_sample: Overall, it was a good week. We achieved all three of our KPIs. Our average response time was two point five hours, well under our four-hour target. Tracking accuracy was ninety-nine point six percent, and our on-time rate was ninety-five percent, up one percentage point from last week. We've resolved eighteen of the twenty tickets. The two remaining tickets are both minor, but one of them is a day overdue, so I've escalated it to Mike. His estimate is two more days. Now, one major issue: the new label project is at risk. The main blocker is the carrier's approval of our new label format. Without it, we can't start testing, and the launch may be late. On the positive side, Leo's training is ahead of schedule, and the FAQ update is ongoing. The seller survey is on hold until next month. Here are the next steps. On Monday, I'll call the carrier and ask for a decision by Wednesday. By Tuesday, I'll send Tom a backup plan for the label project. That's all from me. Any questions?
+
+@check: 听力：张涛觉得林晓的第一版周报有什么问题？他让她按什么顺序重写？ | 读起来像日记（it reads like a diary），把做过的每件事都写了。他要她先说结论，然后是数字，再是还没办完的事（anything outstanding）和风险，最后写下一步。
+@check: 听力：两张没解决的工单是什么情况？ | 两张都是小问题（minor），其中一张已经超期一天（a day overdue），林晓已经上报给 Mike；Mike 估计剩下的工作还要两天。
+@check: 改错：Last week we've resolved fifteen tickets. | 有具体过去时间 last week，用一般过去时：Last week, we resolved fifteen tickets.
+@check: 改错：The project is in risk because we are stuck by the carrier. | 介词用错：The project is at risk because we're blocked by the carrier.（或：The main blocker is the carrier.）
+@check: 换个场景：你负责筹办公司年会，经理问进度。用 3 句话汇报：总体顺利；场地已经订好；节目单还在等老板确认。 | Overall, everything is on track. We've booked the venue. The program is still pending the boss's approval.
+@check: 换个场景：你给一个培训项目做状态更新：课程比计划提前、宣传视频正在做、问卷暂停了。各用一句话说。 | The course is ahead of schedule. The promo video is ongoing. The survey is on hold.
+@next1: 不看书说出 5 个锚点句：S9、S15、S16、S19、S25
+@next1: 用「总体 → 数据 → 问题 → 下一步」说说你今天的工作，每部分一句
+@next7: 状态词 ongoing / pending / on hold / overdue / ahead of schedule / at risk 各造一句关于你自己工作的句子
+@next7: We've resolved… vs Last week, we resolved…：各说两句，注意有具体过去时间就不用完成时

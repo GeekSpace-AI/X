@@ -19,7 +19,7 @@
 @warmup: 我已经给她发消息了。 | I've already sent her a message. | D33
 @warmup: 有位客户说包裹没到，她觉得是丢了。 | A customer says the package didn't arrive. She thinks it's lost. | D28
 
-@scene: 下午一点，林晓刚吃完午饭回到工位，电话就响了。打来的是得州球鞋店 Ross Kicks 的老板 Daniel——得州那边已经是深夜。他有 200 个订单在合作仓库里放了整整四天，物流信息一直不动，客户在网上抱怨、给差评，可没有任何人通知过他。Daniel 本来就脾气急，前两天还刚被林晓婉拒了定制功能（Day 78），这一次一开口就是吼。林晓要做的不是辩解，而是：先听、接住情绪、复述问题、承诺下一步并给出具体时间，让他平静下来；挂了电话，再给张涛发一条消息说明情况。
+@scene: 下午一点，林晓刚吃完午饭回到工位，电话就响了。打来的是得州球鞋店 Ross Kicks 的老板 Daniel——得州那边已经是深夜。他有 200 个订单在合作仓库里放了整整四天，物流信息一直不动，客户在网上抱怨、给差评，可没有任何人通知过他。Daniel 本来就脾气急，不久前还刚被林晓婉拒了定制功能（Day 78），这一次一开口就是吼。林晓要做的不是辩解，而是：先听、接住情绪、复述问题、承诺下一步并给出具体时间，让他平静下来；挂了电话，再给张涛发一条消息说明情况。
 @sp: 人物关系 | 林晓 ↔ Daniel：客户经理和一位要求多、脾气急的老客户，Daniel 正在气头上；林晓 → 张涛：员工给经理发工作消息，要简短、先说结论
 @sp: 沟通目的 | 让 Daniel 觉得自己被听见、被重视；把问题说准；承诺今天解决并给出回电时间；事后让经理知情
 @sp: 已知信息 | Daniel 只知道货没动、客户在投诉，不知道原因；林晓挂了电话查系统才发现：有 40 张面单缺申报价值，数据来自 Daniel 自己上传的文件，可仓库扣下货以后没有通知任何人
@@ -33,7 +33,7 @@
 @s: Daniel: Two hundred orders have been stuck in your warehouse for four days! | Daniel：两百个订单在你们仓库里卡了四天了！
 @s: Daniel: My customers are **complaining** online. I've had thirty **complaints** today! | Daniel：我的客户都在网上抱怨，光今天我就收到三十条投诉！
 @s: Lily **listens**. She doesn't interrupt. | 林晓认真听着，没有打断他。
-@s: Lily: I hear you, Daniel. | 林晓：我明白，Daniel。
+@s: Lily: **I hear you**, Daniel. | 林晓：我明白，Daniel。
 @s: Lily: So, if I understand correctly, your shipment hasn't left the warehouse. | 林晓：也就是说，如果我没理解错，您这批货到现在还没出仓库。
 @s: Daniel: Exactly! I've been a **loyal** customer for two years. Am I being **unreasonable**? | Daniel：没错！我当了你们两年的老客户。我的要求过分吗？
 @s: Daniel: This is hurting my **reputation**. Maybe I need a **lawyer**! | Daniel：这在毁我的信誉。也许我该找律师了！
@@ -45,14 +45,14 @@
 @s: Lily: I can ask my manager to join. But I can fix this faster. | 林晓：我可以请我的经理加进来，不过我自己处理会更快。
 @s: Lily: **Leave it with me**. I'll call you back by three o'clock. | 林晓：交给我吧。我三点之前给您回电话。
 @s: Lily: That's the middle of the night for you. Is a call OK, or should I text? | 林晓：那时候您那边是半夜。打电话可以吗？还是我发短信？
-@s: Daniel: Call me. A real time. OK, I **respect** that. | Daniel：打电话。给了个确切的时间，好，这我服气。
-@s: Daniel: And sorry I **yelled**. I was **rude**. Thanks for not telling me to **calm down**. | Daniel：还有，抱歉刚才冲你吼，我太冲了。谢谢你没叫我「冷静点」。
+@s: Daniel: Call me. A real time. I **respect** that. | Daniel：打电话。给了个确切的时间，好，这我服气。
+@s: Daniel: Sorry I **yelled**. I was **rude**. Thanks for not telling me to **calm down**. | Daniel：抱歉刚才冲你吼，我太冲了。谢谢你没叫我「冷静点」。
 @br:
-@s: After he **hangs up**, Lily checks the system and messages Tom: | 他挂了电话，林晓查了一下系统，给张涛发了条消息：
-@s: Daniel Ross's 200 orders have been on hold at the warehouse for four days. | Daniel Ross 的 200 个订单在仓库被扣了四天。
+@s: After he **hangs up**, Lily messages Tom: | 他挂了电话，林晓给张涛发了一条消息：
+@s: Daniel's 200 orders have been on hold for four days. | Daniel 的 200 个订单在仓库被扣了四天。
 @s: Forty labels are missing the declared value, and nobody told him. | 有四十张面单缺申报价值，可是没有人通知他。
 @s: The data came from his file, but it doesn't **matter** whose fault it is. | 数据是从他上传的文件里来的，不过现在追究是谁的错没有意义。
-@s: I'm fixing the labels with the warehouse now, and I'll call him by 3 p.m. | 我正在和仓库一起改面单，下午三点前给他回电话。
+@s: I'm fixing the labels with the warehouse, and I'll call him by 3 p.m. | 我正在和仓库一起改面单，下午三点前给他回电话。
 @s: He **threatened** to call a lawyer, but his requests are **reasonable**. | 他说要找律师，不过他的要求是合理的。
 @br:
 @s: Tom replies: "Great **empathy**, and very **professional**." | 张涛回复：「同理心做得很好，也非常专业。」
@@ -160,7 +160,7 @@
 @check: 用 So, if I understand correctly, … 复述：客户说他被扣了两次款，可只收到一个包裹。 | So, if I understand correctly, you were charged twice, but you only received one package.
 @check: 改错（客户在美国）：I'll call you back until five. / I'll call you back as soon as possible. | I'll call you back by five o'clock, Shenzhen time. by = 最晚在……之前，until = 一直到；要给具体时间，跨时区还要说清是谁的时间。
 @check: 客户的地址其实是他自己填错的。电话里哪些话不要说？应该怎么说？ | 不说 It's not our fault. / You entered the wrong address.；只说能做什么：What I can do right now is update the address with the carrier. I'll call you back by four o'clock.
-@next1: 不看书说出 5 个锚点句：S6、S7、S12、S15、S15 的后半句（I hear you, Daniel. / So, if I understand correctly… / That's not acceptable… / Leave it with me. / I'll call you back by three o'clock.）
+@next1: 不看书说出 5 个锚点句：S6、S7、S12 和 S15 的两句（Leave it with me. / I'll call you back by three o'clock.）
 @next1: 用 I hear you + So, if I understand correctly… 处理一个你自己想象的投诉，说给自己听
 @next7: 接投诉电话四步：I hear you → So, if I understand correctly… → That's not acceptable, and I'll make sure… → I'll call you back by + 时间
 @next7: 不推卸责任的两句话：What I can do right now is… / I can ask my manager to join. But I can fix this faster.

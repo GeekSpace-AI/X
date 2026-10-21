@@ -1,0 +1,168 @@
+@day: 82
+@week: 4
+@title_cn: 账号权限
+@title_en: Access and Permissions
+@topic: 开权限：说清「我进不去」、替别人申请权限、管理员和普通用户的区别、两步验证、权限被收回
+@think_short: 「我没有权限」I don't have access to…（✗ I have no right）｜「给他开个权限」Could you give him access to…?（✗ open the permission）｜「权限被收回了」His access was removed / revoked.｜admin vs user；read-only
+
+@goal_scene: 实习生打不开卖家后台的报表页面：你先判断是权限问题，再给 IT 发一条清楚的申请（给谁、开什么、只要多大的权限、为什么），听懂 IT 讲的两步验证、验证码有效期和账号锁定，最后用「退出再登录」解决问题，并能说明权限什么时候会被收回。
+@goal_expr: I don't have access to the reports page. / Could you give Leo access to the seller dashboard? / He only needs read-only access. / The code expires in five minutes. / You'll be locked out for fifteen minutes. / Log out and log back in. / His access was revoked the same day.
+@goal_vocab: 20 个重点词 + 5 个短语：账号与权限、登录与两步验证、开通与收回
+@done: 能用 I don't have access to… / I don't have permission to… 说清自己进不去或不能操作，不再说 I have no right
+@done: 能写一条 3–4 句的权限申请：Could you give… access to…? + 需要的权限范围（read-only）+ 原因
+@done: 能听懂并转述两步验证、验证码有效期、账号锁定的规则；能用被动说「权限被收回了」（was removed / will be removed）
+
+@warmup: 怕它被淹没在您的收件箱里，我把附件再附上一次。 | In case it got buried in your inbox, I've attached it again. | D80
+@warmup: 交给我吧。 | Leave it with me. | D79
+@warmup: 这不在我们今年的产品路线图上。 | It's not on our roadmap this year. | D78
+@warmup: 这次的错误我们承担全部责任。 | We take full responsibility for the mistake. | D77
+@warmup: 你习惯早起了吗？ | Are you used to getting up early? | D53
+@warmup: 李凯在 IT 部，系统账号归他管。 | Kevin works in IT. He's in charge of accounts. | D4
+
+@scene: 早上，实习生 Leo 在帮林晓整理 Sarah 的月度派送数据，可卖家后台里的报表页面怎么都打不开，屏幕上只有一行「Access denied」。林晓一看就明白：Leo 的账号是普通用户，报表页面里有卖家的账单和合同数据，默认是受限的；林晓自己也不是管理员，开不了权限。她给 IT 的李凯（Kevin）发消息替 Leo 申请。Kevin 很快开好了，又顺便给 Leo 上了一课：管理员和普通用户有什么区别、两步验证怎么用、验证码几分钟失效、输错几次会被锁、为什么不能把登录信息告诉任何人——还有，实习结束那天，他的权限会被收回。
+@sp: 人物关系 | 林晓 ↔ Leo：师傅带实习生；林晓 → Kevin：跨部门找 IT 帮忙，同事之间客气、简洁；Kevin ↔ Leo：IT 给新人讲规矩，半开玩笑但原则很硬
+@sp: 沟通目的 | 林晓：把问题判断准，替 Leo 申请刚好够用的权限；Kevin：开权限，并让 Leo 了解登录和安全规则；Leo：弄明白自己为什么进不去、以后怎么申请
+@sp: 已知信息 | Leo 只知道页面显示 Access denied；林晓知道报表页面默认受限、只有管理员能开；Kevin 知道开完权限后，旧的登录令牌（token）不会自动更新
+@sp: 表达重点 | 说清进不去（I don't have access to…）→ 查原因（user / restricted / by default）→ 申请：给谁、开什么、多大权限、为什么（give… access to… / read-only）→ 两步验证（code / expires / locked out）→ 退出重登（log back in）→ 权限会被收回（will be removed / was revoked）
+
+@story_title: Episode 82 · Access Denied
+@story_type: 对话 + 工作消息
+@s: Leo is checking Sarah's delivery data, but one page won't open. | Leo 在查 Sarah 的派送数据，可有一个页面就是打不开。
+@s: Leo: Lily, I don't **have access to** the reports page. It just says "**Access** denied." | Leo：林晓，我没有报表页面的权限，上面只写着「拒绝访问」。
+@s: Lily checks his **profile**. Leo is a basic **user**, and the reports page is **restricted**. | 林晓查了一下他的账号资料：Leo 是普通用户，而报表页面是受限的。
+@s: Lily: By **default**, new users can't see seller reports. Only an **admin** can **grant** access. | 林晓：新用户默认是看不到卖家报表的，只有管理员才能开权限。
+@s: Lily: I'm not an admin, so let's **request access** from Kevin. | 林晓：我不是管理员，我们找 Kevin 申请吧。
+@br:
+@s: Lily sends Kevin a message: | 林晓给 Kevin 发了一条消息：
+@s: Hi Kevin, | Kevin，你好：
+@s: Could you **give Leo access to** the seller dashboard? | 能帮 Leo 开一下卖家后台的权限吗？
+@s: He only needs **read-only** access. | 他只需要只读权限。
+@s: He's helping me with Sarah's monthly report, and he won't change anything. | 他在帮我做 Sarah 的月度报告，不会改动任何东西。
+@s: Thanks, Lily | 谢谢！林晓
+@s: Kevin replies: "On it. Next time, please use the helpdesk form." | Kevin 回复：「马上办。下次请走 IT 服务台的申请表。」
+@br:
+@s: Ten minutes later, Kevin comes over. | 十分钟后，Kevin 走了过来。
+@s: Kevin: Done. I've **added** you to the Viewers group, Leo. | Kevin：好了。Leo，我已经把你加进「查看者」组了。
+@s: Leo: What's the difference between an admin and a user? | Leo：管理员和普通用户有什么区别？
+@s: Kevin: Admins can add users and change settings. Users only see what they need. | Kevin：管理员能加用户、改设置；普通用户只能看到工作需要的东西。
+@s: Kevin: One more thing. We use **two-factor** **authentication**. | Kevin：还有一件事，我们用的是两步验证。
+@s: Kevin: After your password, we text a **code** to your phone. | Kevin：输完密码以后，系统会给你手机发一条验证码。
+@s: Kevin: The code **expires** in five minutes. | Kevin：验证码五分钟内有效。
+@s: Leo: What if I type the wrong code? | Leo：要是我输错了呢？
+@s: Kevin: After three tries, you'll **be locked out** for fifteen minutes. | Kevin：输错三次，账号会被锁十五分钟。
+@s: Kevin: And never share your **credentials**, not even with me. | Kevin：还有，千万别把登录信息告诉任何人，连我也不行。
+@br:
+@s: Leo refreshes the page, but it still says "Access denied." | Leo 刷新了页面，可还是显示「拒绝访问」。
+@s: Kevin: Your **login** **token** still has your old **permissions**. | Kevin：你这次登录的令牌里，存的还是原来的权限。
+@s: Kevin: Log out and **log back in**. | Kevin：先退出，再重新登录。
+@s: The reports appear. Leo grins. | 报表出来了，Leo 咧嘴笑了。
+@s: Leo: Can I get admin **privileges**, too? | Leo：那我能拿管理员权限吗？
+@s: Kevin: Ha! No. And when your internship ends, your access will be **removed**. | Kevin：哈！不行。还有，你实习结束那天，权限会被收回。
+@s: Lily: That's normal. When Jack left, his access was **revoked** the same day. | 林晓：这很正常。Jack 离职那天，他的权限当天就被收回了。
+
+@v: have access to | = | phr. | ˌhæv ˈækses tə | 有（进入、查看某系统 / 页面 / 文件的）权限 | 说自己能不能进某个系统、看某个文件 | have access to the system；don't have access to…；have full access to… | Do you have access to the shared folder? | 你有那个共享文件夹的权限吗？ | 「我没有权限」说 I don't have access to…，不说 ✗ I have no right（right 是法律、道德上的「权利」）；to 后面接地方或东西：access **to** the page，不说 ✗ access of the page。
+@v: Access | access | n. | ˈækses | 访问权限；进入的权利 | 系统权限、文件权限、门禁 | read-only access；admin access；Access denied | New employees get access on their first day. | 新员工入职第一天就能拿到权限。 | 不可数名词，不加 a：✗ an access；系统弹出的 Access denied 就是「拒绝访问 / 没有权限」；作动词「访问、打开」偏正式：I can't access the page.；重音在前：AC-cess。
+@v: profile | = | n. | ˈproʊfaɪl | （账号的）个人资料；用户信息页 | 在系统里查看、修改自己的账号信息 | user profile；update your profile；profile picture | You can change your phone number in your profile. | 你可以在个人资料里改手机号。 | 系统里的「个人资料 / 个人主页」都叫 profile，不说 ✗ personal data page；profile 还有「侧脸」「简介」的意思：a company profile（公司简介）。
+@v: user | = | n. | ˈjuːzər | 用户；（系统里的）普通用户 | 说账号类型、用户数量 | a basic user；add a user；user account | Every user needs a strong password. | 每个用户都需要一个够强的密码。 | user 开头是辅音 `/j/`，所以前面用 **a**：a user，不说 ✗ an user；「普通用户」常说 a basic user / a regular user，和 admin 相对。
+@v: restricted | = | adj. | rɪˈstrɪktɪd | 受限制的；（只对部分人）开放的 | 说页面、文件、区域只有特定的人能进 | restricted access；a restricted area；restricted to admins | This folder is restricted to the finance team. | 这个文件夹只对财务团队开放。 | 「只对……开放」说 restricted to…，to 后面接人：restricted to managers；比 limited 更强调「有规定、不让进」。
+@v: default | = | n. | dɪˈfɔːlt | 默认（设置） | 说系统、账号的默认状态 | by default；the default setting；change the default | By default, the report shows the last thirty days. | 报表默认显示最近三十天的数据。 | 「默认」最常用 by default，放句首或句尾；美国人说 IT 意思时也常读成 `/ˈdiːfɔːlt/`，两种都对；default 在金融里是「违约」，看上下文。
+@v: admin | = | n. | ˈædmɪn | 管理员（administrator 的简称） | 说谁能加人、改设置、开权限 | an admin；admin access；admin privileges | Only an admin can reset your password. | 只有管理员能重置你的密码。 | 开头是元音，用 **an** admin；admin 是口语和系统界面里的说法，正式文件写 administrator；美国人说 admin 也可以指「行政工作」：admin work。
+@v: grant | = | v. | ɡrænt | 给予；授予（权限） | 正式地说「开权限」 | grant access；grant permission；grant sb access to sth | Kevin granted her access to the finance folder. | Kevin 给她开了财务文件夹的权限。 | grant 比 give 正式，常见于系统通知和规定：Access granted.（权限已开通）；结构 grant sb access to sth，和 give sb access to sth 一样；不说 ✗ grant to her access。
+@v: request access | = | phr. | rɪˌkwest ˈækses | 申请权限 | 通过系统按钮、表单或找 IT 申请 | request access to…；request access from IT；a Request access button | You can request access from the helpdesk. | 你可以通过 IT 服务台申请权限。 | request（第一册 Day 15）作动词时后面直接跟宾语：request access，不说 ✗ request for access（名词才用 for：a request for access）；很多系统里没权限时会出现一个 Request access 按钮。
+@v: give Leo access to | give sb access to | phr. | ˌɡɪv ˈliːoʊ ˈækses tə | 给某人开（某系统的）权限 | 请 IT、管理员给人开权限 | give sb access to the dashboard；give me access；give him read-only access | Could you give me access to the shared drive? | 能帮我开一下共享盘的权限吗？ | 中文「开权限」不说 ✗ open the permission / open the access；sb 放在 give 后面：give **Leo** access，不说 ✗ give access Leo；要的权限范围紧跟在后面说清楚：He only needs read-only access.
+@v: read-only | = | adj. | ˌriːd ˈoʊnli | 只读的（只能看，不能改） | 申请权限、设置文件时说权限范围 | read-only access；a read-only file；make it read-only | I'll share the report as read-only. | 我把报表设成只读分享出去。 | read 在这里读现在时 `/riːd/`，不读 /red/；放名词前要有连字符：read-only access；「可编辑」是 edit access，「完全权限」是 full access。
+@v: added | add | v. | ˈædɪd | 添加；（把人）加进（组、群、系统） | 加用户、加进群组、加进抄送 | add sb to a group；add a user；add sb to the chat | Can you add me to the project group? | 能把我加进项目群吗？ | 「把某人加进某组」用 add sb **to** sth，不说 ✗ add sb into the group；-ed 读 `/ɪd/`，因为 add 以 d 结尾。
+@v: two-factor | = | adj. | ˌtuː ˈfæktər | 双重的；两步的（验证） | 说登录安全设置 | two-factor authentication；two-factor login；set up two-factor | Please set up two-factor authentication on your phone. | 请在手机上设置两步验证。 | 中文「两步验证」「双重认证」都说 two-factor authentication，书面常缩写成 2FA（读 two-F-A）；two-factor 有连字符，factor 不加 s。
+@v: authentication | = | n. | ɔːˌθentɪˈkeɪʃn | 身份验证；认证 | 登录、安全设置 | two-factor authentication；authentication code；authentication failed | Authentication failed. Please try again. | 身份验证失败，请重试。 | authentication 是「证明你是你」，authorization（授权）是「你能做什么」，两个词很像；5 个音节，主重音在 ca：au-then-ti-CA-tion。
+@v: code | = | n. | koʊd | 验证码；代码 | 两步验证、短信验证 | a verification code；enter the code；a six-digit code | Enter the six-digit code we sent to your phone. | 输入我们发到你手机上的六位验证码。 | 「验证码」说 code 或 verification code；读验证码时一个个数字读，0 常读成 oh：4-0-8 → four-oh-eight；code 还指程序代码：write code（不可数）。
+@v: expires | expire | v. | ɪkˈspaɪərz | 失效；过期 | 说验证码、链接、合同、证件的有效期 | expire in five minutes；expire on…；an expired link | The link expires in 24 hours. | 这个链接 24 小时后失效。 | 「五分钟内有效」英文常反过来说 It expires in five minutes.；in + 一段时间 =「……之后」，不说 ✗ expires after five minutes later；食品「过期」也用 expired，但「保质期到」常说 best before。
+@v: be locked out | = | phr. | bi ˌlɑːkt ˈaʊt | 被锁在外面；（账号）被锁定 | 密码或验证码输错太多次、钥匙忘带 | be locked out of my account；get locked out；I'm locked out. | I typed the wrong password three times, and now I'm locked out. | 我密码输错了三次，现在账号被锁了。 | 「账号被锁」说 I'm locked out (of my account).，主语是人，不说 ✗ My account locked me.；也可以说 My account is locked.；忘带钥匙进不了家也是 I'm locked out.
+@v: credentials | credential | n. | krəˈdenʃlz | 登录信息（用户名 + 密码）；资质证明 | 安全提醒、IT 规定 | login credentials；share your credentials；enter your credentials | Never send your credentials by email. | 千万别用邮件发送你的登录信息。 | 表示「登录信息」时总用复数 credentials；它还有「资历、证书」的意思：She has strong credentials.；不说 ✗ my login informations（information 不可数）。
+@v: login | = | n. | ˈlɑːɡɪn | 登录（名词）；登录信息 | 系统登录、登录页面 | a login page；your login；login details | I forgot my login for the old system. | 我忘了旧系统的登录信息。 | 名词、形容词写成一个词 login（a login page），动词写成两个词 log in（第一册 Day 12）：✓ Log in to the system. ✗ Login to the system.；名词重音在前 LOG-in，动词重音在后 log IN。
+@v: token | = | n. | ˈtoʊkən | 令牌（登录后系统发的临时凭证） | 解释为什么权限改了还要重新登录 | a login token；the token expires；refresh the token | Your token expired, so you need to log in again. | 你的令牌过期了，所以要重新登录。 | 可以把 token 理解成「临时通行证」：登录时发一张，上面写着你当时的权限，所以权限改了要退出重登，换一张新的；token 平时也指「代币、象征」：a token of thanks。
+@v: permissions | permission | n. | pərˈmɪʃnz | （账号的）权限设置；许可 | 说一个账号能做哪些操作 | user permissions；edit permissions；permission to do sth | You don't have permission to delete this file. | 你没有删除这个文件的权限。 | permission 偏「被允许做某个动作」：permission to edit；access 偏「能不能进去、看到」；指账号的一整套权限设置时用复数 permissions；不说 ✗ give me a permission。
+@v: log back in | = | phr. | ˌlɑːɡ ˌbæk ˈɪn | 重新登录 | 改了权限、系统更新、卡住时 | log out and log back in；log back in later；try logging back in | The update is done. You can log back in now. | 更新完成了，你现在可以重新登录了。 | 「重新登录」不说 ✗ login again back；back 放在 log 和 in 之间；IT 最常给的建议就是 Log out and log back in.，也说 sign out and sign back in。
+@v: privileges | privilege | n. | ˈprɪvəlɪdʒɪz | （较高级的）权限；特权 | 说管理员、高级用户的权限 | admin privileges；full privileges；remove privileges | Only three people have admin privileges. | 只有三个人有管理员权限。 | 系统里 privileges 一般指「比普通用户高的权限」，常用复数；平时 privilege 是「特权、荣幸」：It's a privilege to work with you.；不读 ✗ pri-VI-lege，重音在第一个音节。
+@v: removed | remove | v. | rɪˈmuːvd | 移除；（权限）被取消 | 删人、删文件、收回权限 | remove sb from a group；remove access；be removed | Please remove me from this email list. | 请把我从这个邮件列表里删掉。 | 「把某人移出」用 remove sb **from** sth；「权限被收回」用被动：His access was removed.；remove 比 delete 宽：人、权限、东西都能 remove，delete 多指删除文件、数据。
+@v: revoked | revoke | v. | rɪˈvoʊkt | 撤销；收回（权限、许可） | IT、合同、证件的正式说法 | revoke access；revoke a license；be revoked | Her access was revoked after she left the company. | 她离职后，权限被收回了。 | revoke 比 remove 更正式，常见于 IT 和法律文件；常用被动：was revoked / has been revoked；-ed 读 `/t/`。
+
+@diff: 「我没有权限」——I don't have access to… / I don't have permission to…
+@d_cn: 打不开某个系统、页面、文件，或者能看但不能改、不能删。
+@d_en: I don't have access to the reports page. / I don't have permission to edit it.
+@d_why: 中文一个「权限」，英文分两种说法。**access** 说的是「能不能进去、看到」，后面接 **to + 地方 / 东西**：I don't have access to the reports page.（进不去）；**permission** 说的是「被允许做某个动作」，常用 **permission to + 动词**：I don't have permission to edit it.（能看，但不能改）。系统里两种提示都常见：Access denied. / You don't have permission to view this page. 很多学习者直译成 ✗ I have no right to open it.——right 是法律、道德上的「权利」，听起来像在争取人权；✗ I have no authority 也太重（authority 是「职权」）。另外，指一个账号整套的「权限设置」用复数 permissions：Your login token still has your old permissions.
+@d_when: 找 IT、找管理员、跟同事说明自己为什么做不了某件事的时候。
+@d_vs: ✓ **I don't have access to the reports page.** 我没有报表页面的权限。（进不去）\n✓ **I don't have permission to edit this file.** 我没有编辑这个文件的权限。（不能做某动作）\n✓ **I can't access the shared folder.** 我打不开共享文件夹。\n✗ I have no right to open this page. ✗ I have no access of the page.
+@d_task: 你能打开财务的共享文件夹，但删不了里面的旧文件。用英文告诉 Kevin。 | I can open the finance folder, but I don't have permission to delete the old files.
+@diff: 「给他开个权限」——Could you give Leo access to…?
+@d_cn: 请 IT 或管理员给自己或别人开通某个系统、页面的权限。
+@d_en: Could you give Leo access to the seller dashboard? / He only needs read-only access. / I'd like to request access to the finance folder.
+@d_why: 中文的「开权限」很口语，「开」字最容易被直译成 ✗ open the permission / open the access for him。英文用 **give sb access to sth**（最常用），正式一点用 **grant sb access to sth**，自己主动申请叫 **request access**（很多系统里就有一个 Request access 按钮）。注意词序：give 后面先跟**人**，再跟 access：give Leo access to…，不说 ✗ give access Leo。一条好的权限申请要说清四件事：**给谁、开什么、要多大的权限、为什么**——林晓的消息只有三四句，却全都有：Could you give Leo access to the seller dashboard? He only needs read-only access. He's helping me with Sarah's monthly report, and he won't change anything. 只要「刚好够用」的权限，是 IT 最喜欢、批得最快的申请。
+@d_when: 给 IT、管理员发消息或填申请表；新同事、实习生入职的时候。
+@d_vs: ✓ **Could you give Leo access to the seller dashboard?** 能帮 Leo 开一下卖家后台的权限吗？\n✓ **He only needs read-only access.** 他只需要只读权限。\n✓ **I'd like to request access to the finance folder.** 我想申请财务文件夹的权限。（正式）\n✗ Could you open the permission for Leo? ✗ Please give access Leo.
+@d_task: 新同事 Amy 下周一入职，要用跟踪系统，但只需要查看。替她向 Kevin 申请。 | Could you give Amy access to the tracking system? She only needs read-only access. She starts next Monday.
+@diff: 「权限被收回了」——His access was removed / revoked.
+@d_cn: 某人的权限被取消了：离职、实习结束、换部门，或者因为安全原因被关掉。
+@d_en: His access was revoked the same day. / Your access will be removed when your internship ends. / My access has been removed.
+@d_why: 中文「权限被收回了」「账号被关了」，英文用**被动**：**His access was removed.**（日常）/ **His access was revoked.**（正式，IT 和合同里常见）。用被动是因为重点在「权限」这件事上，不在谁动的手。时态要跟上：已经发生用 **was removed**，将要发生用 **will be removed**（Kevin：your access will be removed），刚被收回、到现在还用不了用 **has been revoked**。这些 be 动词在快速口语里很弱：was removed 读成 `/wəz rɪˈmuːvd/`，will be removed 里 will 缩成 'll，be 一带而过——听的时候抓住后面的过去分词 removed / revoked。「账号被锁」也是同样的思路，但主语是人：I'm locked out. / I've been locked out.，不说 ✗ My account locked me.
+@d_when: 说明同事离职、实习结束、换岗之后的账号情况；解释自己为什么突然登不进去了。
+@d_vs: ✓ **When Jack left, his access was revoked the same day.** Jack 离职那天，权限当天就被收回了。\n✓ **Your access will be removed when your internship ends.** 实习结束时，你的权限会被收回。\n✓ **I'm locked out of my account.** 我的账号被锁了。\n✗ His access was revoke. ✗ The system removed his access yesterday by IT.
+@d_task: 同事问你：为什么上个月调去市场部的 Ben 看不到客户报表了？用被动回答。 | His access was removed when he moved to the marketing team.
+@diff: admin、user、read-only——管理员、普通用户和「只读」
+@d_cn: 说明一个账号能做什么：能不能加人、改设置，还是只能看。
+@d_en: Admins can add users and change settings. Users only see what they need. / He only needs read-only access.
+@d_why: 中文说「管理员」「普通用户」「只读」，英文分别是 **admin**（administrator 的简称：能加人、改设置、开权限）、**user**（只能用分给自己的功能）和 **read-only**（只能看，不能改、不能删）。很多公司遵循「最小权限」原则（least privilege）：每个人只拿工作需要的那部分权限，所以 Kevin 用一个 Ha! No. 就回绝了 Leo 想要 admin privileges 的玩笑——这不是不信任他，而是规矩。两个小语法点：admin 开头是元音，说 **an** admin；user 开头是 `/j/` 音，说 **a** user。read-only 放在名词前要加连字符：read-only access，read 读现在时的 `/riːd/`。
+@d_when: 申请权限、给新人讲系统、解释为什么某人能或不能做某件事的时候。
+@d_vs: ✓ **Admins can add users and change settings.** 管理员能加用户、改设置。\n✓ **Users only see what they need.** 普通用户只看得到工作需要的东西。\n✓ **She has read-only access.** 她只有只读权限。\n✗ He is a manager user. ✗ She has only-read access.
+@d_task: 给 Leo 解释：你能看所有卖家的报表，但不能加新用户，因为你不是管理员。 | I can see all the seller reports, but I can't add new users, because I'm not an admin.
+
+@core: I don't have access to + 系统 / 页面. | 说自己进不去 | the reports page / the shared folder / Sarah's account | 正式：I'm unable to access the reports page.｜随意：I can't get into the reports page.
+@core: Could you give + 人 + access to + 系统? | 替别人或自己申请权限 | Leo / me / Amy；the seller dashboard / the shared drive | 正式：Could you please grant Leo access to the seller dashboard?｜随意：Can you add Leo to the dashboard?
+@core: He only needs read-only access. | 说明需要的权限范围 | read-only / edit / admin | 正式：Read-only access would be sufficient.｜随意：He just needs to see it.
+@core: I'd like to request access to… | 正式申请权限 | the reports page / the finance folder / the test account | 正式：I'd like to request access to the finance folder.｜随意：Can I get access to the finance folder?
+@core: The code expires in + 时间. | 说明验证码、链接的有效期 | five minutes / 24 hours / at midnight | 正式：The link will expire in 24 hours.｜随意：It's only good for five minutes.
+@core: I'm locked out of my account. | 说自己被锁了 | my account / the system / the dashboard | 正式：My account has been locked.｜随意：I'm locked out.
+@core: Log out and log back in. | 最常见的 IT 建议 | log out / restart / clear the cache | 正式：Please sign out and sign back in.｜随意：Just log out and back in.
+@core: His access was removed / revoked. | 说权限被收回 | was removed / was revoked / will be removed | 正式：His access has been revoked.｜随意：They turned off his access.
+
+@pw: authentication | ɔːˌθentɪˈkeɪʃn | 5 个音节 au·then·ti·CA·tion | 次重音在 then，主重音在 ca；th 是咬舌的 `/θ/`
+@pw: credentials | krəˈdenʃlz | 3 个音节 cre·DEN·tials | 重音在 den；tials 读 `/ʃlz/`，像「肖」+ lz
+@pw: privileges | ˈprɪvəlɪdʒɪz | 4 个音节 PRIV·i·leg·es | 重音在第一个音节；中间的 i 弱读成 `/ə/`，结尾 ges 读 `/dʒɪz/`
+@pw: restricted | rɪˈstrɪktɪd | 3 个音节 re·STRIC·ted | 重音在 stric；str 三个辅音连着读，中间不加元音
+@pw: revoke | rɪˈvoʊk | 2 个音节 re·VOKE | 重音在后；voke 读 `/voʊk/`，和 joke 押韵
+@pw: access | ˈækses | 2 个音节 AC·cess | 重音在前，`/æ/` 嘴张大；两个 c 读 `/ks/`
+@pw: login | ˈlɑːɡɪn | 2 个音节 LOG·in | 名词重音在前；动词 log in 重音在后：log IN
+@ps: I **don't** have‿**ac**cess to the re**ports** page. | don't 重读；have access 连成 `/hævˈækses/`；reports page 是复合名词，重音落在 reports 上，page 读得轻。
+@ps: He **on**ly needs / **read**-only‿**ac**cess. | read-only 里 read 读 `/riːd/`；only 和 access 连读：`/oʊnliˈækses/`。
+@ps: The **code** ex**pires** / in **five** **min**utes. | expires 读 `/ɪkˈspaɪərz/`；five minutes 的 v 和 m 之间不要加元音。
+@ps: Log **out** / and log **back**‿**in**. | 动词短语重音在小词上：log OUT、log back IN；back in 连读成 ba-kin。
+@pnote: 数字和验证码：验证码一般一个数字一个数字地读，0 常读成 **oh**：408162 → four-oh-eight, one-six-two（三个一组更好记）。fifteen 和 fifty 别听混：fif-**TEEN** 重音在后，t 清楚；**FIF**-ty 重音在前，t 常是闪音。写和说也不一样：书面写 2FA，嘴上说 two-factor 或 two-F-A；名词 login 一个词、重音在前，动词 log in 两个词、重音在后。
+@pnote: can / can't 和被动里的弱读：Only an admin **can** grant access 里的 can 弱读成 `/kən/`；new users **can't** see seller reports 里的 can't 重读、元音饱满 `/kænt/`。被动句里的 be 动词几乎听不见：your access will be removed → `/jər ˈækses əl bi rɪˈmuːvd/`；his access was revoked → `/wəz rɪˈvoʊkt/`。抓住后面的过去分词，就知道是「被……」。
+@lfocus: can `/kən/` 和 can't `/kænt/`
+@lfocus: will be removed / was revoked 里弱读的 be 动词
+@lfocus: fifteen / fifty 和验证码数字的读法
+@dict: S3–S5
+@dict: S17–S21
+@res: 在 youglish.com 输入 "log back in"，选 US，注意 back in 是怎么连在一起读的。
+
+@mimic: 跟读【C】：先正常语速逐句跟读 S1–S5 和 S13–S29 的对话，模仿 Kevin 讲规则时清楚、干脆的语气，特别注意 can / can't、fifteen 和 will be removed 的读法；再把 S7–S11 的消息当成你自己发给 IT 的申请读一遍。最后由你演 Kevin，手机朗读 Leo 的台词，对一遍并录音。
+@swap: I don't have access to the reports page. | 换系统或页面：the shared folder / the tracking system / Sarah's account | I don't have access to the shared folder.
+@swap: Could you give Leo access to the seller dashboard? | 换人和系统：Amy / me；the finance folder / the test account | Could you give Amy access to the finance folder?
+@swap: He only needs read-only access. | 换人和权限范围：she / I；edit access / access for two weeks | She only needs edit access for two weeks.
+@swap: The code expires in five minutes. | 换东西和时间：the link / the password reset email；24 hours / one hour | The password reset link expires in one hour.
+@free: 新同事 Amy 问你为什么看不到卖家报表（说明默认权限，再教她怎么申请） | By default, new users can't see seller reports. You can request access through the helpdesk form, and Kevin will grant it.
+@free: 你验证码输错了三次，账号被锁了。给 Kevin 发消息 | I'm locked out of my account. I typed the wrong code three times. Should I just wait fifteen minutes, or can you unlock it?
+@free: Leo 问：admin 和 user 有什么区别？ | Admins can add users, change settings and grant access. Users can only use the features they're given.
+@free: Leo 实习的最后一天，他问自己的账号会怎么样 | Your access will be removed today. That's our standard process, so it's nothing personal.
+@output: 写一条 6–10 句的权限申请（邮件或 IT 服务台消息）：替一位新同事或实习生申请某个系统的权限。说清：给谁 → 开什么 → 只要多大的权限 → 为什么 → 什么时候要 → 什么时候可以收回（用被动）→ 安全方面已经做了什么（two-factor）→ 结尾。
+@output_sample: Hi Kevin,\nI'm writing to request access to the finance shared folder for our new intern, Amy. She's helping me with the monthly billing report, so she needs to see the invoice files. She only needs read-only access, and she won't edit or delete anything. Could you give her access by Thursday? Her internship ends at the end of December, so her access can be removed after that. She's already set up two-factor authentication on her phone. I've also submitted the helpdesk form, in case you need a record. Thanks for your help!\nBest regards,\nLily
+
+@check: 听力：Leo 打不开哪个页面？页面上显示的是什么？ | 报表页面（the reports page）；显示 Access denied.（拒绝访问）
+@check: 听力：验证码多久失效？输错几次会被锁？锁多久？ | 五分钟失效；输错三次会被锁十五分钟（fifteen，重音在后，不是 fifty）。
+@check: 你打得开财务的共享文件夹，但不能改里面的表。用英文向 Kevin 说明，并申请编辑权限。 | I can open the finance folder, but I don't have permission to edit the files. Could you give me edit access?
+@check: 改错：I have no right to open this page. Can you open the permission for me? | I don't have access to this page. Could you give me access to it?（right 是「权利」；「开权限」用 give sb access to）
+@check: 为什么权限开好了，Leo 刷新页面还是 Access denied？Kevin 让他做什么？ | 他这次登录拿到的令牌（login token）里还是旧的权限；要先退出再重新登录：Log out and log back in.
+@check: 同事问你：调去市场部的 Ben 为什么看不到客户报表了？用被动回答。 | His access was removed when he moved to the marketing team.
+@next1: 不看书说出 5 个锚点句：S2、S8、S9、S19、S25
+@next1: 用 access 和 permission 各说一句：一个页面你进不去，一个文件你不能改
+@next7: 权限申请三句话：Could you give… access to…? / … only needs read-only access. / He's helping me with…
+@next7: 被动说权限变化：His access was revoked. / Your access will be removed. / I'm locked out.

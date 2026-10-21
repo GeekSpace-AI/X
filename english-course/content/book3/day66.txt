@@ -1,0 +1,168 @@
+@day: 66
+@week: 1
+@title_cn: 您的意思是……？
+@title_en: Just to Confirm
+@topic: 接任务时把需求问清楚：求证、复述、确认时间和范围，再用一条消息写下自己的理解
+@think_short: 「你的意思是……吗？」Do you mean…?（不说 Your meaning is…）｜「我确认一下」Just to confirm, …｜「换句话说」In other words, …｜「我以为」I thought… vs「我先这样理解」I assume…
+
+@goal_scene: 接到一个说得很模糊的任务时，不硬着头皮去做，而是用「求证、复述、确认」把需求问清楚：猜对方的意思（Do you mean…?），用自己的话复述（So what you're saying is… / In other words…），确认时间和范围（Just to confirm…），最后发一条消息把自己的理解写下来。
+@goal_expr: Do you mean…? / Can you give me some context? / In other words, … / So what you're saying is… / Can you be more precise? / Just to confirm, …? / I want to get it right the first time. / I assume…
+@goal_vocab: 20 个重点词 + 5 个短语：说得清不清楚（vague / unclear / obvious / precise）、意思与理解（meaning / literal / intend / understanding）、需求与范围（requirement / scope / feature / field / format）
+@done: 对方说得模糊时，能用 Do you mean…? 和 So what you're saying is… 求证、复述，不再说 ✗ Your meaning is…
+@done: 能用 Just to confirm, …? 核对时间、数字、范围这几样最容易出错的信息，句末语调上扬
+@done: 能分清 I thought…（我以为，其实不是）和 I assume…（我先这样理解），并用一条消息写下自己对任务的理解
+
+@warmup: 我写这封邮件，是想跟您确认新的配送时效。 | I'm writing to confirm the new delivery times. | D65
+@warmup: 上一封邮件提到过，这次调整从周一开始。 | As mentioned in my last email, the change starts on Monday. | D65
+@warmup: 方便的话，请您尽早回复。 | Could you please reply at your earliest convenience? | D65
+@warmup: 每一步都会通知您的客户。 | Your customer is notified at every step. | D63
+@warmup: 意思是「预计到达时间」。 | It means "estimated time of arrival." | D13
+@warmup: 这种热我现在已经习惯了。 | I'm used to the heat now. | D53
+
+@scene: 周一早上。Emma 在聊天工具里给林晓发了一条只有两句话的消息：「这周能帮忙测一下新的搜索功能吗？想办法把它弄坏。」新功能是卖家后台的订单搜索：卖家可以按跟踪号或客户姓名查订单，西雅图 Mike 的团队计划下周一上线。消息很友好，却很模糊：测哪一部分、「弄坏」是什么意思、什么时候要结果，都没说。林晓知道，糊里糊涂地接下来、做完再返工，最浪费时间。她走到 Emma 的工位，把需求一项一项问清楚；回到座位后，再发一条消息，把自己的理解写下来。
+@sp: 人物关系 | 林晓 ↔ Emma：平级的同事；Emma 是产品经理，负责这个新功能，说话随意、热情，常常默认别人知道背景
+@sp: 沟通目的 | 林晓要弄清楚测什么、测到什么程度、什么时候交；再用文字确认一遍，免得返工
+@sp: 已知信息 | Emma 知道上线日期和日期格式的问题；林晓只看到一条两句话的消息，不知道背景、范围和截止时间
+@sp: 表达重点 | 求证（Do you mean…?）→ 问背景（Can you give me some context?）→ 换个说法复述（In other words… / So what you're saying is…）→ 确认时间和范围（Just to confirm…）→ 发消息写下理解（I assume… / Let me know if I've misunderstood anything.）
+
+@story_title: Episode 66 · Try to Break It
+@story_type: 聊天消息 + 对话
+@s: On Monday, Emma sends Lily a chat message. | 周一早上，Emma 给林晓发了一条聊天消息。
+@s: Hi Lily! Can you test the new search thing? Try to break it! | 林晓你好！能帮忙测一下新的搜索功能吗？想办法把它弄坏！
+@s: The message is **vague**. | 这条消息说得很模糊。
+@s: Lily knows the **literal** **meaning** of "break it," but what does Emma **intend**? | 林晓知道 break it 字面上是什么意思，可 Emma 到底想让她做什么呢？
+@br:
+@s: Lily: **Do you mean** the new search **feature**? | 林晓：你是说新的搜索功能吗？
+@s: Emma: Yes. Sellers can search by tracking number or customer name. | Emma：对，卖家可以按跟踪号或客户姓名搜索。
+@s: Lily: Can you give me some **context**? | 林晓：能跟我说说背景吗？
+@s: Emma: Mike's team releases it next Monday. | Emma：Mike 的团队下周一上线。
+@s: Lily: **In other words**, we test it before Mike's team releases it. | 林晓：也就是说，我们要在 Mike 的团队上线之前把它测完。
+@s: Lily: And "break it"? I don't want to **misunderstand**. | 林晓：那 break it 是指什么？我不想理解错。
+@s: Emma: Not literally! Let me **rephrase**. | Emma：不是真的弄坏啦！我换个说法。
+@s: Emma: Try different searches and check **whether** the results are right. | Emma：多试各种搜索，看看结果对不对。
+@s: Lily: A **general** check, or one part? | 林晓：是全面检查，还是只看某一部分？
+@s: Emma: Focus on the date **field**. It looks odd. | Emma：重点看日期那一栏，它看着不太对劲。
+@s: Lily: Odd how? Can you be more **precise**? | 林晓：怎么不对劲？能说得再准确一点吗？
+@s: Emma: It shows the day first. 04/03 means March fourth. | Emma：它把日放在前面。04/03 表示 3 月 4 日。
+@s: Emma: US sellers will read April third. | Emma：美国卖家会读成 4 月 3 日。
+@s: Lily: So **what you're saying is** the **format** is wrong. | 林晓：所以你的意思是，格式不对。
+@s: Emma: Right. I thought it was **obvious**. Sorry, I was **unclear**. | Emma：对。我以为这很明显。不好意思，是我没说清楚。
+@s: Lily: **Just to confirm**, you need it by Friday? | 林晓：我确认一下，你周五前要，对吧？
+@s: Emma: Yes, by noon. | Emma：对，周五中午前。
+@s: Lily: And the **scope** is search only? | 林晓：测试范围只是搜索，对吧？
+@s: Emma: Right. | Emma：对，别的都不用测。
+@s: Lily: I want to **get it right** the first time. | 林晓：我想一次就做对。
+@br:
+@s: Later, Lily writes to **summarize** her **understanding**. | 回到工位后，林晓发了条消息，总结一下自己的理解。
+@s: Hi Emma, I'll test search by tracking number and customer name. | Emma 你好，我会测按跟踪号和按客户姓名两种搜索。
+@s: The main **requirement** is correct results, with US dates (MM/DD/YYYY). | 最主要的要求是搜索结果准确，日期用美式格式（月/日/年）。
+@s: I **assume** Mike's team needs screenshots, so I'll add them. | 我想 Mike 的团队会需要截图，所以我都会附上。
+@s: Results by noon Friday. Let me know if I've misunderstood anything. | 周五中午前给你结果。如果我哪里理解错了，请告诉我。
+@s: Emma replies: "Perfect. That's what I meant!" | Emma 回复：「完美，我就是这个意思！」
+
+@v: vague | = | adj. | veɪɡ | 模糊的；含糊不清的 | 说要求、回答、计划不够具体 | a vague message；a vague answer；a bit vague | His answer was a bit vague, so I asked again. | 他的回答有点含糊，所以我又问了一遍。 | vague 是「说得不具体、让人抓不住要点」；当面批评时常加 a bit 缓和：It's a bit vague.；不说 ✗ It's very not clear.；ue 不发音，只有一个音节 `/veɪɡ/`。
+@v: literal | = | adj. | ˈlɪtərəl | 字面上的 | 区分字面意思和真正想说的意思 | the literal meaning；a literal translation；literally（副词） | "Break a leg" has nothing to do with its literal meaning. | "Break a leg"（祝你好运）跟它的字面意思「摔断一条腿」毫无关系。 | 中文「直译」是 a literal translation；副词 literally 在口语里也常用来加强语气（I literally ran here.），所以 Emma 说 Not literally! 是「不是字面那个意思」；t 闪音成轻 d：LI-der-ul。
+@v: meaning | = | n. | ˈmiːnɪŋ | 意思；含义 | 说一个词、一句话本身的意思 | the meaning of…；the literal meaning；a different meaning | "Ship" has a special meaning in our industry. | 「ship」这个词在我们这行有特殊的意思。 | 中文「你的意思是……」不能说 ✗ Your meaning is…；meaning 多用来说词句本身，问「某人想表达什么」用动词 mean：What do you mean?（D13）/ Do you mean…?
+@v: intend | = | v. | ɪnˈtend | 打算；本来想要（做某事） | 说某人真正的用意、原来的打算 | intend to do；what sb intends；That's not what I intended. | I didn't intend to upset him. | 我本来没想惹他不高兴。 | intend 比 plan、mean 正式，常用 intend to + 动词原形；「我本意不是这样」说 That's not what I intended. 或更口语的 That's not what I meant.；重音在后：in-TEND。
+@v: Do you mean | do you mean…? | phr. | də jə ˈmiːn | 你是说……吗？你指的是……吗？ | 猜到对方大概的意思后求证 | Do you mean…?；Do you mean today?；Do you mean the new one? | Do you mean the meeting on Friday or the one on Monday? | 你是说周五那个会，还是周一那个？ | 不说 ✗ Your meaning is…? / ✗ Is your meaning…?；Do you mean…? 后面接你猜的具体答案，对方说 Yes / No 就行；Do you 口语里常弱读成 d'you `/djə/`。
+@v: feature | = | n. | ˈfiːtʃər | （产品的）功能 | 谈软件、产品的功能和更新 | a new feature；the search feature；add a feature | The app has a new feature for tracking returns. | 这个应用新增了一个跟踪退货的功能。 | 产品的「功能」说 feature，不说 ✗ function（function 偏「作用、函数」）；「上线新功能」说 release a new feature；ea 读长音 `/iː/`。
+@v: context | = | n. | ˈkɑːntekst | 背景；来龙去脉；上下文 | 接任务时问为什么、在什么情况下 | some context；give sb context；out of context | Can you give me some context? Who asked for this report? | 能说说背景吗？这份报告是谁要的？ | 中文「背景」很多时候不是 background（个人经历、背景知识），而是 context（这件事的来龙去脉）；理解一个词也要看 context（上下文）；重音在前：CON-text。
+@v: In other words | in other words | phr. | ɪn ˈʌðər ˌwɜːrdz | 换句话说；也就是说 | 把刚才的话换一种更简单的说法；说出对方的话意味着什么 | In other words, …；or, in other words, … | The system was down for two hours. In other words, no labels were printed all morning. | 系统宕了两个小时，也就是说，整个上午一张面单都没打出来。 | words 一定是复数：✗ in other word / ✗ in another words；后面应该是**同一个意思**的另一种说法，不是新信息；不说 ✗ change a sentence to say。
+@v: misunderstand | = | v. | ˌmɪsʌndərˈstænd | 误解；理解错 | 怕自己理解错时先说一句；承认理解错了 | misunderstand sb；I don't want to misunderstand.；if I've misunderstood… | Sorry, I misunderstood your question. | 抱歉，我把你的问题理解错了。 | 过去式和过去分词是 misunderstood（和 understand 一样变）；「你误会我了」说 You misunderstood me.；名词「误会」是 misunderstanding：It was just a misunderstanding.；主重音在最后：mis-un-der-STAND。
+@v: rephrase | = | v. | ˌriːˈfreɪz | 换个说法；重新措辞 | 对方没听懂时换一种说法；改邮件里的句子 | Let me rephrase.；rephrase the question；Could you rephrase that? | Let me rephrase the question. | 我换个方式问吧。 | 自己没说清楚时说 Let me rephrase (that).，比 ✗ I say again 自然得多；请对方换个说法：Could you rephrase that?；re- 是「再」，phrase 是「措辞」，ph 读 /f/。
+@v: whether | = | conj. | ˈweðər | 是否 | 检查、确认、询问某事是不是这样 | check whether…；whether or not；I'm not sure whether… | Please check whether the address is correct. | 请核对一下地址是否正确。 | 后面用陈述语序：✓ check whether the results are right ✗ check whether are the results right；口语里常用 if 代替：check if…；和 weather（天气）读音一样。
+@v: general | = | adj. | ˈdʒenrəl | 全面的；大致的；笼统的 | 区分整体检查和只看某一部分 | a general check；a general question；in general（一般来说） | I have a general question about the new process. | 关于新流程，我有个大方向上的问题。 | general 有时是「全面的、整体的」（a general check），有时是「笼统、不具体」（too general），要看语境；in general 是「一般来说」；口语常读两个音节 `/ˈdʒenrəl/`。
+@v: field | = | n. | fiːld | （系统页面、表格里的）栏；字段 | 说系统页面、表单里的某一栏 | the date field；a required field；an empty field | The phone number field is empty. | 电话号码那一栏是空的。 | 系统里的「栏位、字段」叫 field；表格里的「列」是 column（D70），别混；「必填项」是 a required field；field 的本义是「田地；领域」。
+@v: precise | = | adj. | prɪˈsaɪs | 精确的；确切的 | 请对方说清楚、给出准确的信息 | be more precise；a precise time；precise numbers | Can you be more precise? What time exactly? | 你能说得再准确一点吗？具体几点？ | precise 比 specific（D59）更强调「准确、不含糊」；请人说清楚：Can you be more precise? / Could you be more specific?；口语里 Precisely! 是「一点没错！」；重音在后：pre-CISE。
+@v: what you're saying is | = | phr. | ˌwʌt jər ˈseɪɪŋ ɪz | 你的意思是…… | 用自己的话复述对方的意思，确认理解 | So what you're saying is…；What you're saying is… | So what you're saying is the price includes shipping? | 所以您的意思是价格里含运费？ | 常以 So 开头；复述要用**自己的话**，不是把原话重复一遍；语气要平和，别带「你到底想说什么」的不耐烦；what you're 连读成 `/ˈwʌtʃər/`。
+@v: format | = | n. | ˈfɔːrmæt | 格式 | 说日期、文件、数据的格式 | the date format；the wrong format；in PDF format | Please send the file in Excel format. | 请把文件按 Excel 格式发过来。 | 「格式不对」说 The format is wrong. 或 It's in the wrong format.；「以……格式」用 in：in PDF format；重音在前：FOR-mat，第二个音节 `/mæt/` 嘴张大。
+@v: obvious | = | adj. | ˈɑːbviəs | 明显的；显而易见的 | 说某件事（本以为）谁都看得出来 | It's obvious.；an obvious mistake；I thought it was obvious. | It was an obvious mistake, but nobody saw it. | 这个错误很明显，可是谁都没发现。 | 对别人说 Isn't it obvious? 会显得不耐烦、不客气；Emma 说 I thought it was obvious 是在道歉：我以为大家都明白，其实我没说清楚；重音在前：OB-vi-ous。
+@v: unclear | = | adj. | ˌʌnˈklɪr | 不清楚的；没说明白的 | 承认自己没说清；指出哪里不明白 | Sorry, I was unclear.；unclear instructions；It's unclear whether… | Some of the instructions are unclear. | 有几条说明写得不清楚。 | 「我没说清楚」说 Sorry, I was unclear. / I wasn't clear.；「我对某一点还不太明白」可以说 I'm unclear about the deadline.，但只是想说「我不知道」，用 I'm not sure.；un- 表示「不」。
+@v: Just to confirm | just to confirm | phr. | ˌdʒʌst tə kənˈfɜːrm | 我确认一下 | 接任务、约时间、核对数字时 | Just to confirm, …?；Just to confirm, the meeting is at ten?；just to double-check | Just to confirm, the call is at nine, Shenzhen time? | 我确认一下，电话会是深圳时间九点，对吧？ | 后面可以直接接陈述句，用上扬语调变成问句；不说 ✗ Let me confirm you.（confirm 的宾语是事情，不是人）；Just 让语气变轻：只是确认一下，不是不信任对方。
+@v: scope | = | n. | skoʊp | （工作、项目、测试的）范围 | 接任务时问做什么、不做什么 | the scope of…；in scope；out of scope | Mobile phones are out of scope for this test. | 手机端不在这次测试的范围内。 | 工作的「范围」说 scope，不说 ✗ range（range 多指数字的范围，D73）；常说 in scope（要做）/ out of scope（不做）；只有一个音节，o 读 `/oʊ/`。
+@v: get it right | = | phr. | ˌɡet ɪt ˈraɪt | 把事情做对；弄准确 | 说明多问几句、多检查一遍是为了一次做对 | get it right；get it right the first time；get the details right | It's a big order, so let's get it right. | 这是个大订单，咱们一定要做对。 | 「一次做对」说 get it right the first time，不说 ✗ do it right one time；反义是 get it wrong；三个词连读：ge-di-RIGHT，两个 t 都闪音成轻 d。
+@v: summarize | = | v. | ˈsʌməraɪz | 总结；概括 | 开会、接任务后用几句话概括要点 | summarize the meeting；To summarize, …；summarize my understanding | Let me summarize the main points. | 我来总结一下要点。 | 名词是 summary（D65）；美式拼写 -ize，英式 -ise；To summarize, … 放在句首表示「总结一下」；不说 ✗ make a summarize。
+@v: understanding | = | n. | ˌʌndərˈstændɪŋ | 理解；（对某事的）认识 | 用消息、邮件写下自己的理解，请对方确认 | my understanding；My understanding is that…；Thanks for your understanding. | My understanding is that the price includes shipping. | 我的理解是价格里包含运费。 | My understanding is that… 很得体：把可能的误会说成「我的理解」，对方纠正你也不尴尬；「谢谢理解」说 Thanks for your understanding.，不说 ✗ Thanks for your understand.
+@v: requirement | = | n. | rɪˈkwaɪərmənt | 要求；需求 | 说任务、功能必须满足的条件 | the main requirement；meet the requirements；a basic requirement | The main requirement is a fast search. | 最主要的要求是搜索要快。 | 产品和测试里的「需求」就是 requirements（常用复数）；「满足要求」常说 meet the requirements；「提需求」说 send requirements，不说 ✗ raise a need；动词是 require（D62）。
+@v: assume | = | v. | əˈsuːm | 假定；（还没确认就）先这样认为 | 说出自己的推测，让对方有机会纠正 | I assume…；assume that…；Don't assume. | I assume you've seen the new schedule. | 我想你已经看过新的时间表了吧。 | I assume… 是「我先这样理解，还没核实」，说出来是为了让对方纠正你；美国职场常说 Don't assume—ask.（别瞎猜，去问）；美式读 `/əˈsuːm/`，不读 /əˈsjuːm/。
+
+@diff: 「你的意思是……吗？」——Do you mean…? / So what you're saying is…
+@d_cn: 对方说得不清楚，你想说出你理解的意思，请对方确认。
+@d_en: Do you mean the new search feature? / So what you're saying is the format is wrong. / Sorry, what do you mean by "break it"?
+@d_why: 中文「你的意思是……」主语是「意思」，直译成 ✗ Your meaning is… 或 ✗ What's your meaning?，英文听起来很别扭。英文用**动词 mean**，主语是人。三种问法各有用处：**Do you mean…?**（你是说……吗？）——你已经猜到一个具体答案，对方只要说 Yes 或 No；**So what you're saying is…**（所以你的意思是……）——用自己的话复述对方一大段话的要点；**What do you mean by "…"?**（你说的「……」是指什么？）——问某一个具体说法。名词 meaning 一般只用在词句本身：the meaning of this word。还要注意语气：What do you mean?! 用降调、重读 mean，听起来像「你这话什么意思？！」；前面加 Sorry，后面加 by "…"，就变成单纯地问了。
+@d_when: 接任务、开会、打电话时，对方说得笼统，或者用了你不熟悉的说法。
+@d_vs: ✓ **Do you mean the new search feature?** 你是说新的搜索功能吗？\n✓ **So what you're saying is the format is wrong.** 所以你的意思是格式不对。\n✓ **Sorry, what do you mean by "break it"?** 不好意思，你说的「弄坏它」是指什么？\n✗ Your meaning is the format is wrong? / ✗ What's your meaning?
+@d_task: 张涛说 "Let's do it next week."，你不确定是不是指下周一。用两种方式求证。 | Do you mean next Monday? ／ Sorry, what do you mean by "next week"? Which day?
+@diff: 「我确认一下」——Just to confirm, …?
+@d_cn: 对方已经说了截止时间、数字或范围，你再核对一遍，免得做错。
+@d_en: Just to confirm, you need it by Friday? / Just to confirm, the scope is search only? / Just to double-check, …
+@d_why: 很多中国学习者不好意思「再问一遍」，怕显得自己没听懂，或者像不信任对方；也有人直译成 ✗ Let me confirm you.（confirm 的宾语应该是事情，不是人）。在美国职场，把关键信息复述一遍是**负责任的表现**，能避免返工，几乎没有人会觉得被冒犯。**Just to confirm, + 陈述句?** 是最常用的格式：Just 让语气变轻（只是确认一下），后面直接用陈述句，靠**句末上扬**变成问题：you need it by Friday? ↗。最值得确认的是四样东西：**时间、数字、范围、谁负责**。写进邮件、消息也很常见：Just to confirm, the call is at 9 a.m. Shenzhen time?
+@d_when: 接任务、约会议、记数字和地址；对方一口气说完一长串安排之后。
+@d_vs: ✓ **Just to confirm, you need it by Friday?** ↗ 我确认一下，你周五前要，对吧？\n✓ **Just to confirm, the call is at nine, Shenzhen time?**\n✓ **Just to double-check, it's search only?**（double-check D22）\n✗ Let me confirm you. / ✗ I confirm with you the deadline.
+@d_task: Priya 在电话里说要把 300 个包裹改寄到新地址。挂电话前，确认一下数量和地址。 | Just to confirm, it's three hundred packages, and they all go to the new address?
+@diff: 「换句话说」——In other words, …
+@d_cn: 换个说法，把刚才的话说得更简单、更直白；或者说出对方的话对你意味着什么。
+@d_en: In other words, we test it before Mike's team releases it. / In other words, it's not ready yet.
+@d_why: 「换句话说」直译成 ✗ change a sentence to say 或 ✗ in another word 都不对；固定说法是 **In other words**，words 一定用复数。它后面是**同一个意思**的另一种说法，通常更简单、更具体：Emma 说「Mike 的团队下周一上线」，林晓用 In other words 说出这对她意味着什么——要在上线之前测完。注意这句的时态：中文「在 Mike 团队上线之前」没有时态，英文在 **before / after / when / once**（D62）后面用**一般现在时表示将来**：✓ before Mike's team releases it ✗ before Mike's team will release it；releases 还要加第三人称 -s，因为 team 是单数。
+@d_when: 解释复杂的信息、把技术语言翻成大白话、复述对方的意思时。
+@d_vs: ✓ **In other words, we test it before Mike's team releases it.** 也就是说，要在 Mike 的团队上线之前测完。\n✓ **In other words, it's not ready yet.** 换句话说，还没准备好。\n✗ In other word, … / ✗ In another words, …\n✗ before Mike's team will release it
+@d_task: Mike 说 "The fix will go out after the weekend."，你用 In other words 把意思说得更直白：下周一之前修不好。 | In other words, the problem won't be fixed before next Monday.
+@diff: 「我以为」I thought… vs「我先这样理解」I assume…
+@d_cn: 「我以为……」（结果不是这样）；「我想 / 我猜……」（还没确认，先这样理解）。
+@d_en: I thought it was obvious. / I thought the meeting was at three. / I assume Mike's team needs screenshots.
+@d_why: 中文「我以为」专门表示「想错了」，英文没有对应的一个词，靠**过去时**表达：**I thought + 过去时**＝我当时以为（事实并非如此）。Emma 说 I thought it was obvious，意思是「我以为大家都明白（其实我没说清）」。很多学生说成 ✗ I think it was obvious，意思就变成「我认为它就是很明显」，像在怪对方没看出来。**I assume + 现在时**是另一回事：我先这样理解，还没核实——林晓在消息里写 I assume Mike's team needs screenshots，就是把推测摆出来，让 Emma 有机会纠正。美国职场常说 Don't assume—ask.：重要的事别靠猜；真要先按推测去做，就**把推测说出来**。
+@d_when: I thought：发现理解错了、道歉或解释误会时；I assume：信息不全又得先动手时，在消息里写明你的推测。
+@d_vs: ✓ **I thought it was obvious.** 我以为这很明显。（其实不明显）\n✓ **I thought the meeting was at three.** 我以为会是三点开。（其实是两点）\n✓ **I assume you need screenshots, so I'll add them.** 我想你需要截图，所以我会附上。（还没确认）\n✗ I think the meeting was at three.（想说「我以为」时）
+@d_task: 用英文说：①「我以为你已经发出去了。」（其实还没发）②「我想你需要中英文两个版本，所以两个都做了。」 | ① I thought you already sent it. ② I assume you need both English and Chinese versions, so I've made both.
+
+@core: Do you mean…? | 猜到对方的意思后求证 | the new search feature / next Monday / the US dashboard | 正式：Are you referring to the new search feature?｜随意：You mean the search thing?
+@core: Sorry, what do you mean by "…"? | 问某个说法具体指什么 | "break it" / "soon" / "a few changes" | 正式：Could you clarify what you mean by "soon"?｜随意：Meaning what?
+@core: Can you give me some context? | 请对方说说来龙去脉 | some context / a bit more background / an example | 正式：Could you give me a bit more background on this?｜随意：What's the story?
+@core: In other words, … | 换一种说法，把意思说得更直白 | we test it first / it's not ready yet / we need more time | 正式：To put it another way, …｜随意：So basically, …
+@core: So what you're saying is… | 用自己的话复述对方的意思 | the format is wrong / we need more time / the seller wants a refund | 正式：If I understand correctly, …｜随意：So, the format's wrong?
+@core: Just to confirm, …? | 核对时间、数字、范围 | you need it by Friday / the meeting is at ten / it's search only | 正式：Could you confirm that the deadline is Friday?｜随意：Friday, right?
+@core: I assume…, so I'll… | 把自己的推测说出来，让对方纠正 | you need screenshots / Mike's team needs a report | 正式：My understanding is that you need screenshots.｜随意：I'm guessing you need screenshots.
+@core: I want to get it right the first time. | 说明你为什么多问几句 | the first time / this time | 正式：I'd like to make sure I get it right.｜随意：Don't want to mess it up.
+
+@pw: requirement | rɪˈkwaɪərmənt | 3 个音节 re·QUIRE·ment | 重音在 quire；quire 读 `/kwaɪər/`，和 choir（合唱团）的读音一样
+@pw: misunderstand | ˌmɪsʌndərˈstænd | 4 个音节 mis·un·der·STAND | 主重音在最后的 stand，mis 带次重音；别把重音放在 un 上
+@pw: vague | veɪɡ | 1 个音节 | ue 不发音，读 `/veɪɡ/`；v 要上齿碰下唇，别读成 /w/
+@pw: precise | prɪˈsaɪs | 2 个音节 pre·CISE | 重音在后；结尾是清辅音 `/s/`，和 nice 押韵
+@pw: obvious | ˈɑːbviəs | 3 个音节 OB·vi·ous | 重音在前；b 和 v 挨在一起，v 别吞掉
+@pw: whether | ˈweðər | 2 个音节 WHETH·er | 和 weather 同音；th 是浊音 `/ð/`，舌尖轻咬
+@pw: literal | ˈlɪtərəl | 3 个音节 LIT·er·al | 重音在前；t 闪音成轻 d，像 LI-der-ul；literally 常读成 `/ˈlɪtərəli/`
+@ps: **Just** to con**firm**, / you **need**‿it by **Fri**day? ↗ | Just to 的 t 只做口型：jus-tə；need it 连成 nee-dit；陈述句当问句用，句末上扬。
+@ps: Do you **mean** / the new **search** feature? ↗ | Do you 弱读成 `/də jə/`，快说几乎是 d'ya；search feature 是复合名词，重音落在前面的 search 上。
+@ps: So what you're **say**ing is / the **for**mat is **wrong**. ↘ | what you're 连读成 `/ˈwʌtʃər/`（t 和 y 合成 /tʃ/）；is 弱读得几乎只剩 /z/；复述用降调，表示「我理解的是这样」。
+@ps: In **oth**er words, / we **test**‿it be**fore** Mike's team re**leas**es‿it. | test it 连成 tes-tit；releases it 连成 re-lee-si-zit；Mike's team 的 s 和 t 之间不要加元音。
+@pnote: 本课的问句语调：Do you mean…? 是一般疑问句，句末上扬；Just to confirm, you need it by Friday? 语法上是陈述句，全靠上扬的语调变成问句，口语和聊天消息里都很常见，正式邮件写成 Could you confirm that…? 更稳妥。What do you mean? 如果用降调、重读 mean，会像「你什么意思？！」；加上 Sorry, 和 by "…"，再用平和的语调，就是单纯地询问。
+@pnote: 日期的写法和读法：美国写 03/04 表示 March 4，读作 **March fourth**（读序数词，不读 March four）；英国和很多其他国家写 04/03 表示同一天；中国习惯写「3月4日」或「年-月-日」。所以给美国客户写日期，最好直接用月份单词：March 4 或 Mar 4，就不会读错。听的时候注意：April third 的 third `/θɜːrd/` 要咬舌、卷舌，别和 thirty 混。
+@lfocus: Do you / what you're / Just to 的连读和弱读
+@lfocus: 陈述句 + 上扬语调 = 问句：you need it by Friday? ↗
+@lfocus: 日期：04/03 是 March fourth 还是 April third？
+@dict: S16–S18
+@dict: S20–S24
+@res: 在 youglish.com 输入 "just to confirm"，选 US
+
+@mimic: 跟读【C】S5–S24（林晓和 Emma 的对话）：先逐句跟读，重点模仿林晓几个问句的语调——Do you mean…? 和 Just to confirm, …? 句末上扬，So what you're saying is… 用降调；再由你演林晓、手机朗读 Emma 的台词，正常语速完整对一遍并录音。最后只看 Emma 的第一条消息（S2），合上书，把林晓问过的五个问题按顺序说出来。
+@swap: Do you mean the new search feature? | 换：the US dashboard / next Friday / the old version | Do you mean the US dashboard?
+@swap: Just to confirm, you need it by Friday? | 换要确认的内容：the meeting is at ten / it's search only / Leo can join the call | Just to confirm, the meeting is at ten, Shenzhen time?
+@swap: So what you're saying is the format is wrong. | 换：the numbers are wrong / we need more time / the seller wants a refund | So what you're saying is the seller wants a refund.
+@swap: In other words, we test it before Mike's team releases it. | 换：we check the address before the label is printed / Grace reviews it before finance sees it | In other words, we check the address before the label is printed.
+@free: 张涛说 "Can you send me the numbers soon?"，你不确定 soon 是多快（先求证，再说你什么时候能给） | Do you mean today? I can send them by four this afternoon.
+@free: Daniel 在电话里说了一大堆，意思是他的跟踪页面三天没更新了（先复述，再说下一步） | So what you're saying is your tracking page hasn't changed for three days. Let me check with the warehouse and get back to you today.
+@free: Emma 让你「把那个表弄好」，可你不知道是哪张表（先问清楚，再说你为什么问） | Do you mean the seller list or the weekly report? I just want to get it right the first time.
+@free: Leo 按周五的截止时间在做，其实张涛把截止时间提前到了周四（先说结论，再解释） | The deadline is actually Thursday, not Friday. I thought it was Friday too, but Tom moved it.
+@output: 写一条 6–10 句的消息，发给给你布置任务的人（经理或同事），确认你对任务的理解：先说明你在确认（Just to confirm my understanding）→ 任务是什么、范围多大（scope）→ 最主要的要求（requirement）→ 换个说法说清楚交付什么（In other words）→ 你的一个推测（I assume…）→ 截止时间 → 请对方指出你理解错的地方。用你自己工作里的一个真实任务，或用示范里的情境。
+@output_sample: Hi Tom, just to confirm my understanding of the report task. You need a summary of last month's orders for my twenty sellers. The scope is US orders only, not UK orders. The main requirement is clear numbers: total orders, late orders and refunds for each seller. In other words, it's a one-page table, not a full report. I assume you need it before the monthly meeting, so I'll send it by noon on Thursday. For your reference, I'll also put the raw data in our shared folder. Could you let me know if I've misunderstood anything? Thanks, Lily
+
+@check: 听力：Emma 第一条消息让林晓做什么？这条消息哪里不清楚？ | 让她测试新的搜索功能，还说 try to break it。消息很模糊：没说 break it 具体指什么，也没说要测哪一部分、什么时候要结果。
+@check: 听力：日期那一栏有什么问题？测试结果最晚什么时候要？ | 它把日放在月前面：04/03 表示 3 月 4 日，美国卖家会读成 4 月 3 日，也就是格式不对；结果周五中午前要。
+@check: 迁移：客户说 "We need it ASAP."，你想确认是不是指今天。用两种方式说。 | Do you mean today? ／ Just to confirm, you need it today?
+@check: 改错：Your meaning is the price is too high? | Do you mean the price is too high? ／ So what you're saying is the price is too high.
+@check: 迁移：①「我以为会议是三点」（结果是两点）②「我想你需要截图，所以都加上了」，分别怎么说？ | ① I thought the meeting was at three. ② I assume you need screenshots, so I've added them.
+@check: 为什么美国同事常说 Just to confirm…？很多中国人不好意思这样问，结果容易出什么问题？ | 在美国职场，把时间、数字、范围复述一遍是负责任的表现，能避免返工；很多人怕多问显得没听懂或者不信任对方，干脆不问，结果按自己的猜测去做，常常要返工。
+@next1: 不看书说出 5 个锚点句：S5、S9、S18、S20、S24
+@next1: 想一个你最近接到的任务，用 Do you mean…? 和 Just to confirm…? 各问一个问题
+@next7: 求证三句：Do you mean…? / So what you're saying is… / Just to confirm, …?
+@next7: I thought…（我以为）和 I assume…（我先这样理解）各说一句关于你工作的话

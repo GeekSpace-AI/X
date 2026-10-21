@@ -1,0 +1,165 @@
+@day: 62
+@week: 1
+@title_cn: 一步一步来
+@title_en: Step by Step
+@topic: 带实习生走一遍新卖家开户流程：用顺序词讲步骤，说清上传、提交、审批和激活
+@think_short: 「先……然后……最后」To begin with / Next / Once that's done / Finally｜「上传到」upload to；「提交」submit｜「需要」It requires… / You need to…｜「一……就……」once + 现在时
+
+@goal_scene: 带新同事走一遍工作流程：用清楚的顺序词把五个阶段讲明白，说清哪一步要上传、提交、截图，谁来审批，哪一步不能跳；最后帮他给客户写一封请对方补资料的短邮件。
+@goal_expr: Let's go through it step by step. / To begin with, … / Next, upload … to … / Then we configure … / Once that's done, … / Finally, … / It requires… / You need to… / Could you send over…?
+@goal_vocab: 20 个重点词 + 5 个短语：流程与阶段、系统操作、审批与规定、手册与说明
+@done: 能用 To begin with / Next / Then / Once that's done / Finally 讲清一个 4–5 步的流程，不说 ✗ At first… ✗ At last…
+@done: 能正确说出 upload sth to… / submit sth / It requires… / You need to…，不说 ✗ It needs you to…
+@done: 能用 once + 一般现在时说「一……就……」，并写出一封 3–4 句、请对方补发资料的短邮件
+
+@warmup: 我负责二十个美国卖家。 | I'm responsible for twenty sellers in the U.S. | D61
+@warmup: 我是他们的对接人。 | I'm their point of contact. | D61
+@warmup: 如果有大问题，我会上报给张涛。 | If there's a big problem, I escalate it to Tom. | D61
+@warmup: 日常工作我已经习惯了，大部分邮件我都能自己回。 | I'm used to the daily work now, and I answer most emails on my own. | D59
+@warmup: 我六岁就开始弹钢琴了。 | I've played since I was six. | D55
+@warmup: 吴佳帮我看了一遍，然后我就发出去了。 | Grace checked it, and then I sent it. | D8
+
+@scene: 周二上午，佛罗里达州一家小宠物用品店在 SwiftLink 注册了账号。新卖家的入驻开通（onboarding）是林晓的工作之一，她决定借这个机会，手把手教实习生 Leo 走一遍开通流程：核实资料、上传产品模板、配置设置并提交、张涛审批、最后激活。Leo 一看系统里有五个阶段就慌了；林晓要用清楚的顺序词把每一步讲明白，还要提醒他哪里要截图、哪一步不能跳。卖家偏偏漏填了网站，Leo 要给她写自己的第一封工作邮件。
+@sp: 人物关系 | 林晓 → Leo：带教关系，林晓耐心，一步一步示范；Leo → 卖家 Lopez 女士：第一次给客户写邮件，要礼貌、简短
+@sp: 沟通目的 | 林晓：让 Leo 记住开通账号的五个阶段和先后顺序，知道哪里要截图、谁来审批；Leo：请卖家把网店链接发过来
+@sp: 已知信息 | Leo 知道新卖家要开账号，但不知道具体流程，也没看过六十页的操作手册；卖家注册时漏填了网站
+@sp: 表达重点 | 先说整体（five stages / step by step）→ To begin with（核实资料）→ Next（上传模板）→ Then（配置设置、截图、提交）→ Once that's done（张涛审批）→ Finally（激活）→ 别跳步（sequence）→ 请对方发资料（Could you send over…?）
+
+@story_title: Episode 62 · Five Stages
+@story_type: 对话 + 邮件
+@s: On Tuesday, a small pet store in Florida signs up for SwiftLink. | 周二，佛罗里达州的一家小宠物用品店在 SwiftLink 注册了账号。
+@s: Lily is training Leo on the account setup **process**. | 林晓正在教 Leo 开通账号的流程。
+@s: Leo: Five **stages**? That looks hard. | Leo：五个阶段？看着好难啊。
+@s: Lily: Don't worry. Let's **go through** it **step by step**. | 林晓：别担心，我们一步一步过一遍。
+@br:
+@s: Lily: **To begin with**, we **verify** the seller's information. | 林晓：首先，我们要核实卖家的资料。
+@s: Lily: Check the store name, address and website against this **checklist**. | 林晓：对照这份清单，核对店名、地址和网站。
+@s: Leo: What if the website is missing? | Leo：要是没填网站呢？
+@s: Lily: Then ask the seller to **send over** a link. | 林晓：那就请卖家把链接发过来。
+@s: Lily: Next, **upload** the product **template** to the system. | 林晓：下一步，把产品模板上传到系统里。
+@s: Lily: The seller fills it out first. You'll find it in this **folder**. | 林晓：模板是卖家先填好的，就在这个文件夹里。
+@s: Leo: Got it. What's after that? | Leo：明白了。再然后呢？
+@s: Lily: Then we **configure** the **settings**: carriers, time zone and tracking page colors. | 林晓：然后配置各项设置：承运商、时区，还有追踪页面的颜色。
+@s: Lily: Our setup **tool** does most of the work. Just take a **screenshot** of each page. | 林晓：大部分活儿由我们的设置工具完成，你只要每一页截个图。
+@s: Lily: When everything looks right, **submit** the request. | 林晓：都确认无误了，就提交申请。
+@s: Lily: **Once that's done**, the account needs Tom's **approval**. | 林晓：这一步完成后，账号还需要张涛审批。
+@s: Leo: Do all new accounts **require** his approval? | Leo：所有新账号都要他批吗？
+@s: Lily: Yes. It's company **procedure**. He usually **approves** them within an hour. | 林晓：对，这是公司规定的流程。他一般一个小时之内就批了。
+@s: Lily: Finally, we **activate** the account. | 林晓：最后，我们激活账号。
+@s: Lily: Once it's active, the seller can track every order. | 林晓：账号一激活，卖家就能追踪每一个订单了。
+@s: Leo: Is there a **manual** for all this? | Leo：这些有操作手册吗？
+@s: Lily: Yes, sixty pages of **instructions**! Just remember the **sequence**, and don't skip a step. | 林晓：有，足足六十页的说明！你只要记住顺序，一步都别跳。
+@br:
+@s: The pet store's website is missing, so Leo writes his first email to the seller. | 宠物店的网站确实没填，于是 Leo 给卖家写了他的第一封邮件。
+@s: Hi Ms. Lopez, | Lopez 女士，您好：
+@s: Welcome to SwiftLink! Could you send over a link to your online store? | 欢迎加入 SwiftLink！能麻烦您把网店的链接发给我们吗？
+@s: We need it to verify your account. | 我们需要用它来核实您的账户。
+@s: Thanks, Leo | 谢谢！Leo
+@s: Lily: Short and clear. Tom will love it! | 林晓：简短又清楚，张涛肯定喜欢！
+
+@v: process | = | n. | ˈprɑːses | 流程；（一整套）过程 | 讲工作流程、办手续 | the setup process；a simple process；follow the process | The refund process takes about a week. | 退款流程大约要一周。 | 中文「走流程」可以说 go through the process 或 follow the process；process 是整套流程，stage 是其中的阶段，step 是更小的一步；美式读 PRAH-sess，英式读 PROH-sess；复数 processes 读 `/ˈprɑːsesɪz/`。
+@v: stages | stage | n. | ˈsteɪdʒɪz | 阶段 | 说一个流程分几段、现在进行到哪儿 | five stages；at this stage；the final stage | The project is still at an early stage. | 项目还在早期阶段。 | stage 比 step 大：一个阶段里可以有好几个步骤；「现阶段」常说 at this stage；stage 也是「舞台」：on stage；a 读 `/eɪ/`，结尾 ge 读 `/dʒ/`，复数加 `/ɪz/`。
+@v: go through | = | phr. | ˌɡoʊ ˈθruː | （从头到尾）过一遍；仔细讲解或检查 | 带新人过流程、开会前过材料 | go through the process；go through it together；go through the checklist | Let's go through the report before the meeting. | 开会前我们把报告过一遍吧。 | 中文「过一遍」不说 ✗ pass it once；through 是介词，代词放在后面：✓ go through it ✗ go it through——这和 take over（take them over）正好相反；go through 还有「经历（困难）」的意思：She went through a hard time.
+@v: step by step | = | phr. | ˌstep baɪ ˈstep | 一步一步地 | 教人操作、讲流程、做难事 | step by step；a step-by-step guide；explain it step by step | The app shows you step by step how to set up your account. | 这个 App 会一步一步教你设置账户。 | 作副词时不加连字符：go through it step by step；放在名词前做形容词要加连字符：a step-by-step guide；第一册 D22 学过 step（步骤）：the next step。
+@v: To begin with | to begin with | phr. | tə bɪˈɡɪn wɪð | 首先；第一步 | 讲流程的第一步；列理由的第一条 | To begin with, …；to start with；first | To begin with, log in to your account. | 首先，登录你的账户。 | 放句首，后面加逗号；讲步骤时和 First 意思一样，稍正式一点；不要说成 ✗ At first, …——at first 是「起初（后来变了）」：At first, I was nervous.；也常用来列第一条理由：To begin with, it's too expensive.
+@v: verify | = | v. | ˈverɪfaɪ | 核实；验证 | 核对资料、身份、地址、邮箱 | verify the information；verify your identity；verify your email | Please verify your email address. | 请验证您的邮箱地址。 | verify 强调「确认是真的、是对的」，比 check 正式；第一册的 confirm 是「确认（时间、安排）」，verify 是「核实（真假、对错）」；名词 verification；重音在第一个音节 VER-i-fy。
+@v: checklist | = | n. | ˈtʃeklɪst | 核对清单；检查表 | 按清单逐项检查、打勾 | a checklist；go through the checklist；check off an item | Use this checklist before you submit the form. | 提交表格前，按这份清单检查一遍。 | 第一册的 to-do list 是「待办清单」，checklist 是「核对用的清单」，做完一项勾一项；「打勾」美式说 check off，勾号叫 a check mark；重音在 check。
+@v: send over | = | phr. | ˌsend ˈoʊvər | 把（文件、资料）发过来 / 发过去 | 请对方发资料、链接、文件 | send over the file；send it over；Could you send over…? | Could you send over the photos this afternoon? | 你下午能把照片发过来吗？ | 中文「发过来」不说 ✗ send to here；over 表示「从你那边到我这边」，比单用 send 更口语、更随和；代词放中间：✓ send it over ✗ send over it。
+@v: upload | = | v. | ˈʌploʊd | 上传 | 把文件放到系统、网站、共享盘 | upload sth to…；upload a file；upload photos | Upload your photos to the shared folder. | 把你的照片上传到共享文件夹。 | 「上传到」用 to：✓ upload the file to the system ✗ upload the file on the system；反义词 download（下载）；作名词也是 upload：The upload failed.（上传失败）；重音在 up。
+@v: template | = | n. | ˈtemplət | 模板 | 填产品资料、写邮件、做报告 | a product template；an email template；fill out a template | I use the same email template for every new seller. | 每个新卖家我都用同一个邮件模板。 | 「模板」不说 ✗ model（模型、型号）；美式常读 `/ˈtemplət/`，也有人读 `/ˈtempleɪt/`，两种都对；重音在 tem。
+@v: folder | = | n. | ˈfoʊldər | 文件夹 | 在电脑、共享盘里找文件、存文件 | a shared folder；in the folder；create a folder | The contract is in the "Sellers" folder. | 合同在「卖家」那个文件夹里。 | 「在文件夹里」用 in；第一册的 file 是「文件」，folder 是装文件的「夹子」，别混；ol 读 `/oʊl/`，不读「佛」。
+@v: configure | = | v. | kənˈfɪɡjər | 配置；设置（系统参数和选项） | 开通系统、装软件时设置各种选项 | configure the settings；configure a system；configure sth for… | Kevin configured my new laptop on my first day. | 我上班第一天，李凯帮我把新电脑配置好了。 | configure 比第二册的 set up 更技术化，多指设置参数、选项；跟非技术的人说 set up 就行；美式结尾读 `/ɡjər/`（con-FIG-yer）；名词 configuration（配置）。
+@v: settings | setting | n. | ˈsetɪŋz | （系统、手机的）设置；选项 | 改语言、时区、显示方式 | the settings；change the settings；account settings | You can change the language in Settings. | 你可以在「设置」里改语言。 | 软件里的「设置」菜单几乎总用复数 Settings；「设置某样东西」用动词 set up / configure / change，不说 ✗ setting the time zone（这里 setting 是名词）；美式 t 闪音，听起来像 SED-ingz。
+@v: tool | = | n. | tuːl | （软件里的）工具；（干活的）工具 | 说用哪个软件或功能完成某事 | a setup tool；an online tool；a useful tool | This tool checks every address for you. | 这个工具会帮你检查每一个地址。 | 英文 tool 既指锤子扳手，也指软件里的小功能；是可数名词：a tool / tools；结尾是暗 l，`/tuːl/` 读完舌尖抬起，不读「兔偶」。
+@v: screenshot | = | n. | ˈskriːnʃɑːt | 屏幕截图 | 留记录、报问题、给同事看 | take a screenshot；send a screenshot；a screenshot of… | Can you send me a screenshot of the error? | 你能把报错的截图发给我吗？ | 「截图」动词用 take：✓ take a screenshot ✗ cut a picture（「截」别直译）；口语也直接当动词用：Screenshot it.；复合名词，重音在 screen。
+@v: submit | = | v. | səbˈmɪt | 提交 | 交表格、交申请、交报告 | submit a request；submit a form；submit sth to sb | Please submit your report by Friday. | 请在周五前提交报告。 | 「提交」不说 ✗ commit（那是程序员提交代码的说法）；submit 后面不加 up；交给谁用 to：submit it to Tom；口语交作业、交表也常说 hand in；重音在后 sub-MIT，过去式 submitted 双写 t。
+@v: Once that's done | once that's done | phr. | ˌwʌns ðæts ˈdʌn | 这一步完成后；做完这个以后 | 讲流程时承上启下 | Once that's done, …；Once you've done that, …；When that's done, … | Fill out the form. Once that's done, send it to Grace. | 先把表填好，填完以后发给吴佳。 | that 指上一步；这里的 once 是连词「一旦……就」，不是第一册 D10 的「一次」；后面用一般现在时：✗ Once that will be done…
+@v: approval | = | n. | əˈpruːvl | 批准；审批 | 开通、报销、请假要经理批 | need sb's approval；get approval；approval from sb | You need your manager's approval for overtime. | 加班需要经理批准。 | 名词 approval，动词 approve；「需要某人审批」说 need sb's approval，不说 ✗ need sb to approval；美国职场口语也说 get Tom's OK 或 get Tom's sign-off。
+@v: require | = | v. | rɪˈkwaɪər | 需要；要求（规定上必须有） | 说公司规定、系统要求、申请条件 | require sth；require sb to do sth；be required | The form requires a signature. | 这张表需要签名。 | require 比 need 正式，多用于规定和系统要求；两种结构：require + 名词（requires approval），require sb to do（The system requires you to log in again.）；不说 ✗ It requires to log in.；Day 76 还会学 be required to（按规定必须）。
+@v: procedure | = | n. | prəˈsiːdʒər | （规定的）程序；规程 | 公司规定、安全规程、标准做法 | company procedure；follow the procedure；standard procedure | It's standard procedure to check every address twice. | 每个地址核对两遍是标准流程。 | procedure 强调「规定好的、必须照做的做法」，比 process 更正式；「按规程走」follow the procedure；在医院里还指「手术、治疗」；重音在 ce：pro-CE-dure。
+@v: approves | approve | v. | əˈpruːvz | 批准；同意 | 经理批申请、批开通 | approve a request；approve sth；approve of sb | Tom approved my leave request this morning. | 张涛今天上午批了我的请假申请。 | approve + 事情直接接宾语：approve the request；approve of 是「赞成、认可（某人或做法）」：My parents don't approve of my plan.；oo 是长音 `/uː/`，结尾 v 要振动。
+@v: activate | = | v. | ˈæktɪveɪt | 激活；开通 | 开通账号、激活新卡 | activate an account；activate a card；activate your SIM card | You need to activate your new card before you use it. | 新卡用之前要先激活。 | 「激活」「开通」都可以用 activate；反义词 deactivate（停用）；形容词 active：The account is active.；重音在第一个音节 AC-ti-vate。
+@v: manual | = | n. | ˈmænjuəl | 操作手册；说明书 | 查操作步骤、新人培训 | a user manual；a training manual；check the manual | Check the user manual if the printer stops working. | 打印机出了问题就查一下使用手册。 | manual 作名词是「手册」，作形容词是「手工的、手动的」：manual work（体力活）；Day 63 还会学 manually（手动地）；三个音节 MAN-u-al，u 读 `/ju/`。
+@v: instructions | instruction | n. | ɪnˈstrʌkʃnz | 说明；操作指示 | 看说明书、按提示操作 | follow the instructions；clear instructions；instructions for… | Follow the instructions on the screen. | 按屏幕上的提示操作。 | 「说明」「操作步骤」常用复数 instructions；「按说明做」说 follow the instructions，不说 ✗ do it according to the instructions（太绕）；第一册学过 instructor（教练），一个是人、一个是说明；重音在 struc。
+@v: sequence | = | n. | ˈsiːkwəns | 顺序；先后次序 | 强调步骤不能乱、不能跳 | the right sequence；in sequence；a sequence of steps | Do the steps in the right sequence. | 按正确的顺序做这些步骤。 | 日常说「顺序」用 order 就行（in the right order）；sequence 更强调「一环扣一环的固定次序」，多用于流程和技术说明；重音在 se，qu 读 `/kw/`。
+
+@diff: 「先……然后……再……最后」——To begin with / Next / Then / Once that's done / Finally
+@d_cn: 教别人做一件事，按顺序说：先核实资料，然后上传模板，再配置设置，最后激活账号。
+@d_en: To begin with, we verify the seller's information. / Next, upload the product template to the system. / Then we configure the settings. / Once that's done, the account needs Tom's approval. / Finally, we activate the account.
+@d_why: 中文讲步骤靠「先、然后、再、最后」，「然后」可以一路用下去；英文一连串 then 听着很单调，讲流程要换着用几个**路标词**：To begin with / First → Next → Then → Once that's done / After that → Finally。每个都放句首，说的时候后面停一下，写的时候加逗号。动词常用**祈使句**（Upload…, Check…）或 **we + 动词**（we verify…），很少说 ✗ You should first…, then you should…。两个大坑：①「首先」不说 ✗ **At first**——at first 是「起初……（后来变了）」：At first, I was nervous.；②「最后（一步）」说 **Finally**，不说 ✗ **At last**（「等了很久，终于」），也不说 ✗ In the end（第二册学过，「结果、到头来」）。
+@d_when: 带新人、写操作说明、讲开户 / 报销 / 退货等任何流程。
+@d_vs: ✓ **To begin with, we verify the seller's information.** 首先核实卖家资料。\n✓ **Next, upload the product template to the system.** 下一步上传产品模板。\n✓ **Once that's done, the account needs Tom's approval.** 这一步完成后，账号需要张涛审批。\n✓ **Finally, we activate the account.** 最后激活账号。\n✗ At first, we verify… ／ ✗ At last, we activate the account.
+@d_task: 用英文讲「订会议室」的三步：先登录系统，然后选时间，最后点 Book。 | To begin with, log in to the system. Next, choose a time. Finally, click "Book."
+@diff: 「上传」「提交」——upload sth to… / submit
+@d_cn: 把文件放到系统里（上传）；把填好的申请、表格、报告正式交上去（提交）。
+@d_en: Upload the product template to the system. / When everything looks right, submit the request. / Please submit the form to Tom.
+@d_why: 「上传到系统」的「到」用 **to**：upload the template **to** the system，不说 ✗ upload it on the system。「提交」是 **submit**：submit a request / a form / a report，交给谁也用 to：submit it to Tom。做技术的同学容易把「提交」说成 ✗ commit（程序员提交代码才这么说），也有人加个多余的 up（✗ submit up）。两个词的分工也要清楚：upload 只是「把文件传上去」，submit 是「正式交上去、等别人处理」——林晓的流程里，先 upload 模板，等设置都做好了，才 submit 整个申请。日常交作业、交表格，口语也常说 hand in。
+@d_when: 操作系统、交表格和申请、给同事写操作说明。
+@d_vs: ✓ **Upload the template to the system.** 把模板上传到系统。\n✓ **When everything looks right, submit the request.** 确认无误后提交申请。\n✓ **Please submit your report to Tom by Friday.** 请在周五前把报告交给张涛。\n✗ Upload the template on the system. ／ ✗ Commit the form. ／ ✗ Submit up the request.
+@d_task: 告诉 Leo：「先把截图上传到共享文件夹，然后提交申请。」 | First, upload the screenshots to the shared folder. Then submit the request.
+@diff: 「需要……」——It requires… / You need to…（不说 It needs you to…）
+@d_cn: 「这个账号需要张涛审批」「你需要每页截个图」「新账号都需要经理批」。
+@d_en: The account needs Tom's approval. / You need to take a screenshot. / Do all new accounts require his approval? / The system requires you to log in again.
+@d_why: 中文「需要」前面放什么都行：账号需要审批、你需要截图。英文要看后面接什么：① 后面是**名词**，东西可以做主语：The account **needs** Tom's approval.／New accounts **require** a manager's approval.（require 更正式，多用于规定）。② 后面是**动作**，主语要换成**做事的人**：**You need to** take a screenshot.，不说 ✗ It needs you to take a screenshot.——「东西需要你去做」在英文里很别扭。人做主语时 need sb to do 没问题：I need you to sign this.；真想用东西做主语，就用 require sb to do：The system requires you to log in again.。另一个常见错：✗ It requires to log in.——require 后面要么接名词，要么接「人 + to do」。
+@d_when: 说规定、说系统要求、告诉别人要做什么。
+@d_vs: ✓ **The account needs Tom's approval.** 账号需要张涛审批。（东西 + need + 名词）\n✓ **You need to take a screenshot.** 你需要截个图。（人 + need to + 动词）\n✓ **The system requires you to log in again.** 系统要求你重新登录。\n✗ It needs you to take a screenshot. ／ ✗ It requires to log in.
+@d_task: 用英文说：①「这张表需要你签名。」②「所有退款都需要经理批准。」 | ① You need to sign this form.（或 This form needs your signature.）② All refunds require a manager's approval.
+@diff: 「一……就……」——once + 一般现在时
+@d_cn: 前一件事一完成，后一件事就跟着发生：「账号一激活，卖家就能追踪订单了。」
+@d_en: Once it's active, the seller can track every order. / Once that's done, the account needs Tom's approval. / Once you submit the request, Tom gets an email.
+@d_why: 中文「一……就……」英文常用 **once**，也可以用第一册学过的 as soon as。这里的 once 是**连词**，意思是「一旦……（完成了）就」，和第一册 D10 的 once（一次）不是一回事。关键是时态：说的虽然是将来的事，once 后面却用**一般现在时**（或现在完成时），不用 will：✓ Once it's active… ✗ Once it will be active…。once 和 as soon as 的分别：as soon as 强调「马上、立刻」，once 强调「前一步做完了，下一步才能开始」，所以讲流程特别常用 once。
+@d_when: 讲流程里的先后条件；告诉对方「等……好了就……」。
+@d_vs: ✓ **Once it's active, the seller can track every order.** 账号一激活，卖家就能追踪订单。\n✓ **Once you've uploaded the template, tell me.** 模板传好了就告诉我。\n✓ **I'll call you as soon as I hear from Tom.** 张涛一回复，我马上打给你。\n✗ Once it will be active, …
+@d_task: 用 once 说：「你一提交申请，张涛就会收到一封邮件。」 | Once you submit the request, Tom gets an email.（也可以说 Tom will get an email.）
+
+@core: To begin with, … | 讲流程的第一步 | we verify… / log in to… / check… | 正式：The first step is to verify the seller's information.｜随意：OK, so first, …
+@core: Next, + 祈使句 / Then we… | 讲中间的步骤 | upload the template / configure the settings / take a screenshot | 正式：The next step is to upload the product template.｜随意：After that, just upload it.
+@core: Once that's done, … | 承上启下：这一步完成后 | the account needs… / you can… / send it to… | 正式：When this step is complete, the request goes to Tom.｜随意：After that, Tom checks it.
+@core: Finally, … | 讲最后一步 | we activate the account / submit the form / send the welcome email | 正式：The final step is to activate the account.｜随意：Last thing, we switch it on. That's it!
+@core: Let's go through it step by step. | 带人从头到尾过一遍 | it / the process / the checklist | 正式：Let me explain the process one stage at a time.｜随意：Let's do it together.
+@core: Upload … to … / Submit … | 说系统操作 | the template → the system；the screenshots → the shared folder；the request | 正式：Please upload the completed template to the system.｜随意：Just put it in the folder.
+@core: … needs / requires … ／ You need to … | 说规定和要求 | Tom's approval / a manager's approval / take a screenshot | 正式：All new accounts require a manager's approval.｜随意：You've got to get Tom's OK.
+@core: Could you send over …? | 请对方把东西发过来 | a link / the file / your store logo | 正式：Could you please send us a link to your store?｜随意：Can you send it over?
+
+@pw: process | ˈprɑːses | 2 个音节 PRO·cess | 重音在前；美式 o 读 `/ɑː/`（像「趴」），不读 PROH-cess
+@pw: procedure | prəˈsiːdʒər | 3 个音节 pro·CE·dure | 重音在中间，`/iː/` 拉长；dure 读 `/dʒər/`
+@pw: verify | ˈverɪfaɪ | 3 个音节 VER·i·fy | 重音在第一个音节；结尾 fy 读 `/faɪ/`
+@pw: configure | kənˈfɪɡjər | 3 个音节 con·FIG·ure | 重音在 fig；ure 读 `/jər/`，不读 GURE
+@pw: approval | əˈpruːvl | 3 个音节 ap·PROV·al | 重音在 prov，`/uː/` 拉长；结尾 val 只剩 `/vl/`
+@pw: activate | ˈæktɪveɪt | 3 个音节 AC·ti·vate | 重音在第一个音节，`/æ/` 嘴张大；vate 读 `/veɪt/`
+@pw: sequence | ˈsiːkwəns | 2 个音节 SE·quence | 重音在 se；quence 读 `/kwəns/`，嘴唇先收圆再发 w
+@ps: To be**gin** with, / we **ver**ify the **sell**er's infor**ma**tion. | To 弱读成 `/tə/`；begin with 连在一起，with 很轻；seller's 的 's 读 `/z/`。
+@ps: **Next**, / **up**load the **prod**uct **tem**plate / to the **sys**tem. | next 的 xt 轻轻带过，后面停一下；product template 重音在 prod；to the 弱读成 `/tə ðə/`。
+@ps: **Once** that's **done**, / the ac**count** needs **Tom's** ap**prov**al. | once 读 `/wʌns/`，开头有 w；that's done 里 s 和 d 紧挨着，别加元音；needs、Tom's 结尾的 `/z/` 都要有。
+@ps: **Fi**nally, / we **ac**tivate‿the ac**count**. | finally 三个音节 FI-na-lly，别吞成两个；activate the 连读，t 碰到 th 只做口型不爆破。
+@pnote: 数字：Lily 说 **sixty** pages（六十），不是 sixteen（十六）。sixty 重音在前 SIX-ty，结尾短而轻，美式 t 闪音，像 SIX-dee；sixteen 的结尾是长长的 `/iːn/`，t 清楚。数数时 -teen 重音在后（six-TEEN），但后面紧跟名词时重音会前移（SIXteen pages），所以最可靠的是听**结尾**：有长长的 teen 就是十几，短短的 ty / dy 就是几十。within an hour 里 hour 的 h 不发音，所以前面用 an，an hour 连读成 `/ənaʊər/`。
+@pnote: 写 vs 说：手册里写的是编号加祈使句（1. Verify… 2. Upload…）；嘴上讲流程，美国人很少一路 Firstly, Secondly, Thirdly，而是 First / Next / Then / Once that's done / Finally 换着用，常常用 we 或直接用祈使句，开头一句 OK, so first… 最口语。To begin with 在邮件和正式讲解里很常见，和同事随口说时用 First 也完全可以。
+@lfocus: sixty vs sixteen：听结尾长短
+@lfocus: 路标词后面的停顿：To begin with, / Next, / Once that's done, / Finally,
+@lfocus: to / the / with 的弱读，go through it、activate the 的连读
+@dict: S5–S6
+@dict: S14–S17
+@res: 在 youglish.com 输入 "once that's done"，选 US，听美国人讲流程时怎么用它承上启下。
+
+@mimic: 跟读【C】S3–S21：先逐句跟读，重点模仿每个路标词后面的停顿（To begin with, / Next, / Then / Once that's done, / Finally,）和 sixty 的读法；再你演林晓、手机朗读 Leo 的台词，正常语速完整对一遍并录音。最后合上书，只看这 5 个路标词，把开户的五个阶段完整讲一遍。
+@swap: To begin with, we verify the seller's information. | 换第一步：check the seller's address / log in to the system / read the handover notes | To begin with, we check the seller's address.
+@swap: Next, upload the product template to the system. | 换上传的东西和地方：the screenshots → the shared folder；the contract → the seller's account | Next, upload the screenshots to the shared folder.
+@swap: Once that's done, the account needs Tom's approval. | 换后面的事：you can submit the request / the seller gets a welcome email / Grace checks it | Once that's done, the seller gets a welcome email.
+@swap: Finally, we activate the account. | 换最后一步：send the welcome email / update the checklist / tell the seller | Finally, we send the welcome email.
+@free: 新同事问你：How do I get a new laptop?（先说结论：要走三步——填申请表、经理批、Kevin 配置） | It takes three steps. To begin with, fill out the request form. Next, your manager needs to approve it. Once that's done, Kevin configures the laptop for you.
+@free: Leo 问为什么激活前一定要等张涛（规定：所有新账号都需要经理审批；他一般一小时内就批） | Because all new accounts require a manager's approval. It's company procedure. Don't worry, Tom usually approves them within an hour.
+@free: 卖家问 When can I start tracking my orders?（账号一激活就可以；现在只差张涛审批） | As soon as your account is active. We're just waiting for Tom's approval now, and once that's done, you can track every order.
+@free: 你发现 Leo 跳过了截图那一步（先说结论：要退回去补；再说原因：手册要求每一页都截图） | We need to go back one step. The manual requires a screenshot of each page, so please take them before you submit the request.
+@output: 写一封 6–10 句的工作邮件或消息，给一位新同事讲清楚一个你熟悉的流程（开通账号、报销、请假、交周报都可以）。第一句先说结论（这件事要几步、大概多久），再用 To begin with / Next / Then / Once that's done / Finally 讲步骤，至少用上 upload / submit / require / approval 中的三个，最后一句告诉对方有问题随时问你。
+@output_sample: Hi Leo, Here's how to submit an expense report. It only takes four steps. To begin with, take a photo of your receipt. Next, upload the photo to the expense system and fill out the form. Then check the amount and the date carefully. Once that's done, submit the report to your manager. Every report requires a manager's approval, so this part usually takes two or three days. Finally, the money arrives in your bank account with your next salary. Let me know if you have any questions. Thanks, Lily
+
+@check: 听力：开通新卖家账号一共分几个阶段？第一步和最后一步各是什么？ | 五个阶段；第一步是核实卖家资料（verify the seller's information），最后一步是激活账号（activate the account）。
+@check: 听力：Leo 为什么要给卖家写邮件？操作手册有多少页？ | 卖家没填网站，Leo 请她把网店链接发过来，好核实账户；手册有六十页（sixty，不是 sixteen）。
+@check: 改错：At first, upload the template on the system. At last, submit it. | To begin with（或 First）, upload the template to the system. Finally, submit it.——at first 是「起初」，at last 是「终于」；上传到系统用 to。
+@check: 改错：It needs you to take a screenshot once the page will load. | You need to take a screenshot once the page loads.——动作要用人做主语；once 后面用一般现在时。
+@check: 换个场景：同事问你怎么订会议室（先登录预订系统，再选房间和时间；一选好，系统就会给所有参会的人发邮件） | To begin with, log in to the booking system. Next, choose a room and a time. Once that's done, the system emails everyone.
+@check: 换个场景：卖家问 Do I need to do anything else?（还需要她把店铺 logo 发过来；收到后你们就能完成设置） | Yes, just one thing. Could you send over your store logo? Once we have it, we can finish the setup.
+@next1: 不看书说出 5 个锚点句：S4、S5、S9、S15、S18
+@next1: 用 To begin with / Next / Once that's done / Finally 讲一遍你早上出门前的流程
+@next7: 路标词和两个坑：To begin with ≠ At first；Finally ≠ At last
+@next7: upload … to / submit / require / You need to 各造一句工作中的句子

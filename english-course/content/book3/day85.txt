@@ -1,0 +1,171 @@
+@day: 85
+@week: 4
+@title_cn: 物流异常
+@title_en: Shipment Exceptions
+@topic: 物流异常：海关扣留、地址不全派送失败、退回发件人；查清原因、通知卖家、给出补救办法
+@think_short: 「被海关扣了」It's being held at customs.｜「派送失败」The delivery attempt failed.｜美国地址：从小到大，unit / suite / apt、zip code｜「退回发件人」It was returned to sender.
+
+@goal_scene: 周一早上，看板上冒出一串物流异常：包裹被海关扣留、地址不全派送失败、地址错误被退回。你要一个个查清状态和原因，给实习生讲明白，再给卖家写邮件，说清问题并给出两个补救办法。
+@goal_expr: Three packages are being held at customs. / The address is incomplete, so the delivery attempt failed. / The unit number is missing. / One package was returned to sender. / We can reroute it to a pickup point. / The carrier can redeliver it tomorrow.
+@goal_vocab: 20 个重点词 + 5 个短语：清关与关税、派送失败与地址、退件与改派
+@done: 能用被动语态说清包裹的状态：are being held at customs / was opened for inspection / was returned to sender
+@done: 能按「状态 → 原因 → 下一步」说明一个物流异常，并给卖家两个可选的补救办法
+@done: 能按美国的顺序读写地址，分清 Apt / Unit / Suite，并指出缺了什么：The unit number is missing.
+
+@warmup: 页面一直转圈，怎么都打不开。 | The page keeps spinning and never loads. | D84
+@warmup: 我期望得到一个文件，结果却报了超时错误。 | I expected a file, but I got a timeout error. | D84
+@warmup: 我这边是好的。 | It works fine on my end. | D84
+@warmup: 我没有报表页面的权限。 | I don't have access to the reports page. | D82
+@warmup: 我以前在快递站上班。 | I used to work at a courier station. | D52
+@warmup: 有位客户说包裹没到。 | A customer says the package didn't arrive. | D28
+
+@scene: 周一早上九点，林晓打开看板，周末攒下的五个物流异常全标成了红色：大卖家 BrightNest 有三个包裹被美国海关扣下；Daniel 的一个包裹被退回；Sarah 的一个包裹周六派送失败。实习生 Leo 第一次见到「异常」，什么都想问：关税是不是税？Unit 是什么？林晓要一个个查清状态和原因、讲给 Leo 听，再给 Sarah 写邮件——美国那边还是周日晚上，最好让顾客今天就做出选择，不然包裹明天可能又送不到。
+@sp: 人物关系 | 林晓 ↔ Leo：师傅带实习生，边查边讲；林晓 ↔ Sarah：老客户，关系友好，Sarah 需要拿到清楚的选项去问她的顾客
+@sp: 沟通目的 | 查清每个异常的状态和原因，安排下一步；让 Sarah 帮忙确认顾客想要哪种补救办法，避免包裹被退回
+@sp: 已知信息 | BrightNest：两张发票缺原产国，报关行在补文件；一箱有香薰精油，被开箱查验。Daniel：邮编错误，包裹被标为无法投递并退回。Sarah：顾客地址缺公寓号，周六派送失败；附近有自提点（快递柜）
+@sp: 表达重点 | 说状态用被动（are being held / was returned）→ 说原因（The zip code was incorrect. / The unit number is missing.）→ 解释术语（tariff = a tax on imported goods；Apt / Unit / Suite）→ 邮件：先说结论、再说原因、给两个选项和后果、请对方选择
+
+@story_title: Episode 85 · Red Flags on Monday
+@story_type: 对话 + 给卖家的邮件
+@s: On Monday morning, Lily's dashboard shows five shipment exceptions. | 周一早上，林晓的看板上显示有五个物流异常。
+@s: Leo: What counts as an exception? | Leo：什么样的算「异常」？
+@s: Lily: Anything that doesn't go as planned. Let's start with BrightNest. | 林晓：只要没按计划走的都算。我们先看 BrightNest 的。
+@s: Lily: Three packages are being **held at customs**. | 林晓：有三个包裹正被海关扣着。
+@s: Lily: Two invoices don't show the country of **origin**. | 林晓：其中两张发票上没写原产国。
+@s: Lily: Without it, customs can't calculate the **tariff**. | 林晓：没有原产国，海关就算不了关税。
+@s: Leo: Is a tariff a kind of **tax**? | Leo：关税也是一种税吗？
+@s: Lily: Yes, a tax on imported goods. Our **broker** is fixing the paperwork for customs **clearance**. | 林晓：对，是对进口商品征的税。我们的报关行正在补清关要用的文件。
+@s: Lily: Once that's done, the **hold** is usually lifted within two days. | 林晓：文件一补好，扣留一般两天之内就会解除。
+@s: Leo: And the third one? | Leo：那第三个呢？
+@s: Lily: It was opened for **inspection** because it contains **liquid**. | 林晓：它被开箱查验了，因为里面有液体。
+@s: Lily: It's scented oil. If an item is **prohibited**, customs can **seize** it. | 林晓：是香薰精油。如果是违禁品，海关可以没收。
+@s: Lily: I don't think it is, but I'll check the **regulations** with the broker. | 林晓：我觉得不是，不过我会跟报关行核对一下相关规定。
+@br:
+@s: Lily: Next, Daniel. One package was **returned to sender**. | 林晓：接下来是 Daniel。他有一个包裹被退回给发件人了。
+@s: Lily: The **zip code** was **incorrect**, so the carrier marked it **undeliverable**. | 林晓：邮编写错了，所以快递公司把它标成了「无法投递」。
+@s: Lily: Last, Sarah's customer forgot her **unit** number. | 林晓：最后是 Sarah 的，她的顾客忘了写公寓号。
+@s: Leo: Unit? Like an apartment number? | Leo：Unit？就是门牌号那种？
+@s: Lily: Exactly. Apartments use "Apt" or "Unit." | 林晓：没错。公寓地址用 Apt 或 Unit。
+@s: Lily: Offices usually use "**Suite**." | 林晓：写字楼一般用 Suite。
+@br:
+@s: Lily writes to Sarah: | 林晓给 Sarah 写邮件：
+@s: Hi Sarah, | Sarah 你好：
+@s: One of your packages couldn't be delivered on Saturday. | 您的一个包裹周六没能送到。
+@s: The address is **incomplete**, so the **delivery attempt** failed. | 地址不全，所以派送失败了。
+@s: The unit number is missing. | 地址里少了公寓号。
+@s: There are two options. | 现在有两个办法。
+@s: We can **reroute** it to a **pickup point**. | 我们可以把它改送到一个自提点。
+@s: The nearest one is a parcel **locker** two blocks from her building. | 最近的是离她那栋楼两个街区的一个快递柜。
+@s: Or, if your customer sends us her unit number today, the carrier can **redeliver** it tomorrow. | 或者，如果您的顾客今天把公寓号发给我们，快递公司明天可以重新派送。
+@s: If the next **attempt** fails, it may go back to your warehouse. | 如果下一次派送还失败，包裹可能会退回您的仓库。
+@s: Could you let me know which option she prefers? | 能告诉我她选哪个办法吗？
+@s: Best regards,\nLily | 祝好，\n林晓
+@br:
+@s: Twenty minutes later, Sarah replies, "The locker is perfect. Thanks, Lily!" | 二十分钟后，Sarah 回复：「快递柜就很好。谢谢你，林晓！」
+
+@v: held at customs | = | phr. | ˌheld ət ˈkʌstəmz | 被海关扣着（还没放行） | 说明包裹卡在清关环节 | be held at customs；be being held at customs；get held at customs | My order was held at customs for a week. | 我的订单在海关被扣了一个星期。 | 「被海关扣了」用被动：be held at customs；「正被扣着」是 are being held（被动进行时），「扣过、已放行」是 was held；customs（海关）总带 s，前面一般不加 the；口语也常说 stuck in customs。
+@v: origin | = | n. | ˈɔːrədʒɪn | 原产地；来源 | 报关单、发票上写货物在哪儿生产 | country of origin；the origin of…；of Chinese origin | The invoice should show the country of origin. | 发票上应该写明原产国。 | 「原产国」的固定说法是 country of origin，不说 ✗ origin country / ✗ produce country；重音在第一个音节 OR-i-gin；形容词 original（原来的、原创的）重音移到第二个音节 o-RIG-i-nal。
+@v: tariff | = | n. | ˈtærɪf | 关税 | 跨境电商、进口成本、清关 | pay a tariff；tariffs on…；a tariff rate | Higher tariffs usually mean higher prices for shoppers. | 关税一高，消费者买东西通常就更贵。 | 「关税」常说 tariff，海关文件里也写 duty（duty 另一个意思是「职责」）；「对……征关税」用 on：tariffs on shoes；不少美国人把 a 读成 `/e/`，听起来像 TERR-if。
+@v: tax | = | n./v. | tæks | 税；征税 | 说进口要交的税、价格里含不含税 | import tax；pay tax；sales tax | Is sales tax included in the price? | 价格里含销售税吗？ | 美国的价签一般不含销售税（sales tax），结账时才加上，各州税率还不一样，第一次在美国买东西的人常以为被多收了钱；「交税」说 pay tax，不说 ✗ hand in tax。
+@v: broker | = | n. | ˈbroʊkər | （报关）代理；经纪人 | 清关、进出口；房产、保险等中间人 | a customs broker；through a broker；an insurance broker | We use a customs broker for all our imports. | 我们所有的进口货都交给报关行处理。 | 「报关行」「清关代理」叫 customs broker；租房、买房的中介也可以叫 broker（D45 学过 agent）；o 读 `/oʊ/`，不读「布肉克」。
+@v: clearance | = | n. | ˈklɪrəns | （海关）放行；清关 | 跨境物流、进口流程 | customs clearance；get clearance；clearance takes… | Customs clearance usually takes one to three days. | 清关一般需要一到三天。 | 「清关」说 customs clearance，动词说 clear customs：The package cleared customs.；商店里的 clearance sale 是「清仓甩卖」，同一个词、不同场景；重音在前 CLEAR-ance。
+@v: hold | = | n./v. | hoʊld | 扣留；暂停处理 | 物流状态、清关、账户冻结 | a customs hold；put a hold on…；lift a hold | The bank put a hold on my account. | 银行把我的账户冻结了。 | 作名词说 a hold / the hold，「解除扣留」说 lift the hold 或 release the hold；动词的过去式、过去分词都是 held；on hold（D71）是「暂缓、搁置」，别混。
+@v: inspection | = | n. | ɪnˈspekʃn | 查验；检查 | 海关开箱、质检、验房 | customs inspection；open sth for inspection；pass inspection | Some boxes are opened for inspection at random. | 有些箱子会被随机开箱查验。 | 正式的「查验」「检查」用 inspection，日常「检查一下」还是 check；被抽中开箱说 It was selected for inspection.；动词是 inspect。
+@v: liquid | = | n./adj. | ˈlɪkwɪd | 液体；液体的 | 寄件、安检、清关时的受限物品 | contain liquid；liquid soap；liquids（复数） | You can't bring large bottles of liquid in your carry-on. | 大瓶的液体不能放在随身行李里带上飞机。 | 寄快递、坐飞机时，液体常被单独限制；「含液体」说 It contains liquid.，不说 ✗ It has water things.；qu 读 `/kw/`：LIK-wid。
+@v: prohibited | = | adj. | proʊˈhɪbɪtɪd | 被禁止的；违禁的 | 规则、法规、物流里的违禁品 | prohibited items；be prohibited from…；strictly prohibited | Smoking is prohibited in the building. | 楼内禁止吸烟。 | 比 not allowed（D76 的 be allowed to）正式得多，常见于告示和法规；restricted（D82）是「受限制、有条件才行」，prohibited 是「完全禁止」；动词是 prohibit，h 要发出来。
+@v: seize | = | v. | siːz | 没收；扣押 | 海关、警察依法没收物品 | seize goods；be seized by customs；seize the chance（抓住机会） | Customs seized the fake handbags. | 海关没收了那批假包。 | 读 `/siːz/`，和 sees 同音；拼写是 ei，是 i before e 规则的例外；被没收用被动：It was seized.；「没收」不说 ✗ take away by customs。
+@v: regulations | regulation | n. | ˌreɡjəˈleɪʃnz | 规定；法规 | 说各国对进口、运输的规定 | customs regulations；follow the regulations；safety regulations | Every country has its own customs regulations. | 每个国家都有自己的海关规定。 | 指一整套规定时常用复数；公司内部的规定多说 policy（D76）或 rules，政府、行业的法规说 regulations；重音在 la：reg-u-LA-tions。
+@v: returned to sender | return to sender | phr. | rɪˌtɜːrnd tə ˈsendər | 退回发件人 | 包裹送不出去，原路退回 | be returned to sender；Return to Sender（邮戳上的字）；mark sth return to sender | The letter was returned to sender because the address was wrong. | 那封信因为地址错误被退回了。 | 固定说法，sender 前不加 the；中文「退」字在英文里分得很清：退款 refund、退货 return an item、退回发件人 return to sender，别把包裹说成 ✗ refunded；被退回用被动 was returned。
+@v: zip code | = | phr. | ˈzɪp ˌkoʊd | （美国的）邮政编码 | 填写、核对地址 | the zip code；a five-digit zip code；What's your zip code? | What's the zip code for this address? | 这个地址的邮编是多少？ | 美国说 zip code，英国说 postcode；写在地址最后、州名缩写后面：Columbus, OH 43215；数字逐个读：four three two one five；复合名词重音在 zip。
+@v: incorrect | = | adj. | ˌɪnkəˈrekt | 错误的；不正确的 | 书面通知里指出信息有误 | an incorrect address；incorrect information；That's incorrect. | The phone number on the order is incorrect. | 订单上的电话号码不对。 | 比 wrong 正式，书面通知常用；指出对方的信息有误时，用 incorrect 描述「信息」，比说 You're wrong. 客气得多：The zip code seems to be incorrect.
+@v: undeliverable | = | adj. | ˌʌndɪˈlɪvərəbl | 无法投递的 | 物流状态、退件原因、退信提示 | mark sth undeliverable；undeliverable mail；an undeliverable address | My email came back as undeliverable. | 我的邮件被退回来了，显示无法投递。 | un- + deliver + -able：「不能被投递的」；常见于物流状态和退信通知，口头说 They couldn't deliver it. 就行；5 个音节，主重音在 liv。
+@v: unit | = | n. | ˈjuːnɪt | （公寓的）户号；一户 | 美国地址里的公寓号、楼里的一套房 | unit number；Unit 12；a two-bedroom unit | I live in Unit 5C. | 我住 5C 那户。 | 美国地址里 Apt / Unit / # 后面跟户号，写在街道门牌后面；中文的「2 单元」（一栋楼里的一个楼梯口）在美国没有对应，别写成 ✗ Unit 2；u 读 `/juː/`，所以说 a unit，不说 ✗ an unit。
+@v: Suite | suite | n. | swiːt | （写字楼里的）室；套房 | 美国写字楼地址；酒店套房 | Suite 400；a hotel suite；a two-room suite | Our office is in Suite 210. | 我们办公室在 210 室。 | 读 `/swiːt/`，和 sweet 同音，不读 suit `/suːt/`；写字楼地址里的「某某室」写 Suite 210，不写 ✗ Room 210；地址里常缩写成 Ste。
+@v: incomplete | = | adj. | ˌɪnkəmˈpliːt | 不完整的；不全的 | 地址、资料、表格缺东西 | an incomplete address；incomplete information；The form is incomplete. | Your application is incomplete. Please add your phone number. | 您的申请资料不全，请补上电话号码。 | 「不全」不说 ✗ not full / ✗ uncomplete；说完 incomplete 再说具体缺什么，对方才知道怎么补：The address is incomplete. The unit number is missing.
+@v: delivery attempt | = | phr. | dɪˈlɪvəri əˌtempt | （一次）派送尝试 | 物流状态、派送失败通知 | a failed delivery attempt；the first delivery attempt；after three delivery attempts | We'll make a second delivery attempt tomorrow. | 我们明天会第二次派送。 | 「派送失败」说 The delivery attempt failed.，fail 不用被动：✗ The delivery is failed.；物流状态里常写 Delivery attempted；复合名词，重音在 delivery 上。
+@v: reroute | = | v. | ˌriːˈruːt | 改道；改送（到别的地址） | 改派送地址、改航线 | reroute a package；reroute it to…；be rerouted | Our flight was rerouted because of the storm. | 我们的航班因为暴风雨改了航线。 | re-（重新）+ route（路线）；中文「改地址」「转寄」都可以说 reroute；route 在美国有 `/ruːt/` 和 `/raʊt/` 两种读法，都对。
+@v: pickup point | = | phr. | ˈpɪkʌp ˌpɔɪnt | 自提点 | 派送失败后改送、顾客自己去取 | a pickup point；the nearest pickup point；pick it up at a pickup point | You can collect your package at the pickup point near the station. | 你可以去车站旁边的自提点取包裹。 | 名词 pickup 连写，动词 pick up 分开（第一册）：Pick it up at the pickup point.；国内的快递驿站也可以叫 pickup point；复合名词重音在 pick。
+@v: locker | = | n. | ˈlɑːkər | 储物柜；快递柜 | 快递柜取件、健身房存东西 | a parcel locker；a package locker；a gym locker | Your package is in Locker 12. Here's your code. | 你的包裹在 12 号柜，这是取件码。 | 「快递柜」说 parcel locker 或 package locker（就像国内小区里的智能快递柜）；lock（锁）+ -er；o 读 `/ɑː/`。
+@v: redeliver | = | v. | ˌriːdɪˈlɪvər | 重新派送 | 第一次没送到，再送一次 | redeliver a package；schedule a redelivery（名词）；be redelivered | The carrier will redeliver it on Monday. | 快递公司周一会重新派送。 | re- + deliver；美国邮政的网站上可以自己约 redelivery；「再送一次」别说 ✗ send it again——send again 容易被理解成「再寄一个新的」。
+@v: attempt | = | n./v. | əˈtempt | 尝试；（派送的）一次尝试 | 派送次数；正式地说「试」 | the next attempt；make an attempt；attempt delivery | After three failed attempts, the package usually goes back to the sender. | 三次派送失败后，包裹通常会退回发件人。 | 比 try 正式，物流、系统提示里常用：Delivery attempted.；作动词后面直接接名词或 to do：attempt delivery / attempt to deliver，不加 for；重音在后 at-TEMPT。
+
+@diff: 「被海关扣了」——It's being held at customs.
+@d_cn: 包裹现在正卡在海关，还没放行。
+@d_en: Three packages are being held at customs. / It's being inspected. / It was held at customs for three days.（已经放行了）
+@d_why: 中文「被扣了」可能指「现在还扣着」，也可能是「之前被扣过」，全靠上下文。英文用时态说清楚：**are being held** 是被动进行时（be + being + 过去分词），说的是**此刻正被扣着**；**was held … for three days** 是已经结束的事。包裹做主语、海关是动作的执行者但不必说出来，所以用被动（D63 学过）。常见错误：✗ The package is holding at customs.（主动语态，意思成了「包裹在扣着别的东西」）；✗ The package is held by the customs.（customs 指海关时一般不加 the，也很少说 by customs）。口语里美国人也常说 It's stuck in customs.
+@d_when: 给卖家、经理说明包裹当前的状态；看物流状态栏时。
+@d_vs: **Three packages are being held at customs.** 三个包裹正被海关扣着。（现在）\n**It was held at customs for three days.** 它在海关被扣了三天。（已放行）\n**It's being inspected.** 正在被查验。\n**It's stuck in customs.** 卡在海关了。（口语）\n✗ The package is holding at customs.
+@d_task: 告诉卖家：「您的两个包裹正在海关被查验；另一个上周在海关被扣了两天，昨天已经放行了。」 | Two of your packages are being inspected at customs. The other one was held at customs for two days last week, and it was released yesterday.
+@diff: 「派送失败」——The delivery attempt failed.
+@d_cn: 快递员去送了，但没送成：家里没人、地址不对、进不了楼。
+@d_en: The address is incomplete, so the delivery attempt failed. / The carrier attempted delivery on Saturday. / They'll make another attempt tomorrow.
+@d_why: 中文「派送失败」是一个四字状态；英文要把「尝试」和「结果」分开：**delivery attempt**（一次派送尝试）是名词短语，**failed** 是结果，物流系统里常写 Delivery attempted。fail 是不及物动词，不能用被动：✗ The delivery is failed. → ✓ The delivery attempt failed.。英文报告习惯先说原因、再用 so 接结果，一句话就把来龙去脉说清了：The address is incomplete, so the delivery attempt failed. 后面紧跟具体缺什么（The unit number is missing.）和下一步（They'll make another attempt tomorrow.），卖家读完就知道该做什么。
+@d_when: 看物流状态、给卖家或顾客解释包裹为什么没到。
+@d_vs: **The address is incomplete, so the delivery attempt failed.** 地址不全，所以派送失败了。\n**The carrier attempted delivery on Saturday.** 快递公司周六尝试过派送。\n**They'll make another attempt tomorrow.** 明天会再送一次。\n✗ The delivery is failed.\n✗ The package delivered failed.
+@d_task: 告诉卖家：「快递员周五去送过，但家里没人，所以派送失败了。明天会再送一次。」 | The carrier attempted delivery on Friday, but no one was home, so the delivery attempt failed. They'll make another attempt tomorrow.
+@diff: 美国地址：从小到大写——unit / suite / apt、zip code
+@d_cn: 中文地址从大到小：省、市、区、街道、小区、楼栋、门牌号。
+@d_en: 125 Maple Street, Apt 4B, Columbus, OH 43215 / The unit number is missing. / Offices usually use "Suite."
+@d_why: 英文地址的**顺序正好相反**：门牌号 + 街道 → 公寓或办公室号 → 城市 → 州（两个字母的缩写）→ zip code（五位数邮编）。最容易漏的是公寓号：在中文里「3 栋 302」是地址的核心，在美国地址里它排在街道后面，写成 **Apt 4B / Unit 12 / #302**，看起来像个附加信息，顾客下单时就常常忘了写。少了它，司机找到楼也送不到人——Sarah 那件包裹就是这样。写字楼里的「某某室」叫 **Suite 400**（不叫 room）。另外，美国说 **zip code**（英国说 postcode）；中国小区的「几栋几单元」在美国没有固定说法，按实际写 Building C, Apt 302 就行。
+@d_when: 核对顾客地址、填写收件信息、给卖家指出地址里缺了什么。
+@d_vs: **125 Maple Street, Apt 4B, Columbus, OH 43215** 公寓地址\n**200 Oak Avenue, Suite 400, Austin, TX 78701** 写字楼地址\n**The unit number is missing.** 少了公寓号。\n✗ Ohio, Columbus, Maple Street 125（照搬中文的顺序）\n✗ Room 400（写字楼应写 Suite 400）
+@d_task: 按美国格式写出这个地址：得州奥斯汀，橡树大道 200 号，400 室，邮编 78701。 | 200 Oak Avenue, Suite 400, Austin, TX 78701
+@diff: 「退回发件人」——It was returned to sender.
+@d_cn: 包裹送不出去，原路退回给寄件的人（卖家）。
+@d_en: One package was returned to sender. / The carrier marked it undeliverable. / It's on its way back to your warehouse.
+@d_why: **return to sender** 是邮政和快递的固定说法（美国邮局退信时盖的章就是 RETURN TO SENDER），所以 sender 前**不加 the**。中文一个「退」字管很多事：退款 refund、退货 return an item、退回发件人 return to sender——中国学习者常把包裹说成 ✗ The package was refunded.，卖家会以为钱退了。被退回用被动 **was returned**，原因常常是 **undeliverable**（无法投递）：地址错误（incorrect）、地址不全（incomplete）、多次派送失败或拒收。跟卖家说完状态和原因，最好再加一句对他有用的信息：It's on its way back to your warehouse.
+@d_when: 跟卖家解释包裹为什么回到了仓库；看到物流状态 Returned to Sender 时。
+@d_vs: **One package was returned to sender.** 有一个包裹被退回给发件人了。\n**The carrier marked it undeliverable.** 快递公司把它标成了无法投递。\n**It's on its way back to your warehouse.** 它正在退回您仓库的路上。\n✗ It was back to sender.（缺动词）\n✗ The package was refunded.（refund 是「退款」）
+@d_task: 告诉 Daniel：「您的一个包裹因为邮编错误被退回了，现在正在退回您仓库的路上。」 | One of your packages was returned to sender because the zip code was incorrect. It's on its way back to your warehouse now.
+
+@core: … packages are being held at customs. | 说明包裹此刻的状态（被动进行时） | held at customs / inspected / processed | 正式：Three shipments are currently being held by U.S. Customs.｜随意：Three packages are stuck in customs.
+@core: The address is incomplete, so the delivery attempt failed. | 先说原因、再说结果 | incomplete / incorrect；no one was home / the building was locked | 正式：The delivery could not be completed because the address is incomplete.｜随意：The driver couldn't find the right door.
+@core: The … is missing. / The zip code was incorrect. | 指出地址具体缺什么、错在哪 | unit number / suite number / zip code | 正式：The address is missing a unit number.｜随意：There's no apartment number.
+@core: One package was returned to sender. | 说明包裹被退回 | returned to sender / marked undeliverable | 正式：The shipment has been returned to the sender as undeliverable.｜随意：It's going back to the seller.
+@core: We can reroute it to a pickup point. / The carrier can redeliver it tomorrow. | 给出补救选项 | a pickup point / a parcel locker / a new address | 正式：We can arrange for the package to be rerouted to a nearby pickup point.｜随意：We can send it to a locker instead.
+@core: Our broker is fixing the paperwork for customs clearance. | 说明清关进展、谁在处理 | the paperwork / the invoice / the country of origin | 正式：Our customs broker is resolving the documentation issue.｜随意：Our broker's on it.
+@core: If an item is prohibited, customs can seize it. | 用一般现在时的条件句解释规则和风险 | prohibited / restricted；seize it / return it | 正式：Prohibited items may be seized by customs.｜随意：If it's not allowed, customs can keep it.
+@core: Could you let me know which option she prefers? | 请对方在几个选项里做选择 | which option / which address / when she's home | 正式：Please let us know your customer's preferred option.｜随意：Which one works for her?
+
+@pw: tariff | ˈtærɪf | 2 个音节 TAR·iff | 重音在前；不少美国人把 a 读成 `/e/`：TERR-if；别读成「塔瑞夫」
+@pw: clearance | ˈklɪrəns | 2 个音节 CLEAR·ance | 重音在前；-ance 弱读成 `/əns/`
+@pw: undeliverable | ˌʌndɪˈlɪvərəbl | 5 个音节 un·de·LIV·er·able | 主重音在 liv；-able 很轻，只剩 `/əbl/`
+@pw: prohibited | proʊˈhɪbɪtɪd | 4 个音节 pro·HIB·i·ted | 重音在 hib，h 要发出来；-ted 的 t 闪音，像轻轻的 d
+@pw: suite | swiːt | 1 个音节 SUITE | 和 sweet 同音，不读 suit `/suːt/`
+@pw: reroute | ˌriːˈruːt | 2 个音节 re·ROUTE | 重音在 route；美国人也常读 `/ˌriːˈraʊt/`，两种都对
+@pw: inspection | ɪnˈspekʃn | 3 个音节 in·SPEC·tion | 重音在 spec；-tion 读 `/ʃn/`
+@ps: **Three** packages are being **held**‿at **cus**toms. | are being 读得很轻：are 只剩 `/ər/`；held at 连读成 hel-dat。
+@ps: The **ad**dress is‿in**com**plete, / so the de**liv**ery‿attempt **failed**. | 名词 address 美式重音在前 AD-dress；delivery attempt 是复合名词，重音落在 de-LIV-ery，attempt 轻一些；failed 结尾的 /ld/ 别丢。
+@ps: One **pack**age / was re**turned** to **send**er. | was 弱读成 `/wəz/`；to 弱读成 `/tə/`；sender 结尾的 -er 要卷舌。
+@ps: We can re**route**‿it / to a **pick**up point. | can 弱读成 `/kən/`，听起来几乎只有 k-n——和 can't 的饱满元音区分开；pickup point 是复合名词，重音在 pick。
+@pnote: 被动句里的 be 动词几乎都弱读：are being held 的 are → `/ər/`；was returned、was opened 的 was → `/wəz/`；the hold is usually lifted 的 is 和前一个词黏在一起。正常语速下，你只能靠 being 和后面的过去分词判断这是被动——听到 held / opened / returned 前面那一串轻音，就要反应过来是「被……」。
+@pnote: 地址和数字：Apt 4B 读 apartment four B；邮编 43215 逐个数字读 four three two one five；门牌号 125 读 one twenty-five，200 读 two hundred。写和说的不同：地址、系统里写缩写 Apt / Ste / St / OH，嘴上要说全 apartment / suite / street / Ohio。can 和 can't：customs **can't** calculate 是 `/kænt/`，customs **can** seize it 和 We can reroute it 里的 can 是 `/kən/`，意思正好相反，要靠元音听清。
+@lfocus: 被动句的弱读：are being held、was opened、was returned、couldn't be delivered
+@lfocus: can `/kən/` vs can't `/kænt/`：customs can't calculate / customs can seize it / We can reroute it
+@lfocus: 复合名词重音：ˈzip ˌcode、deˈlivery atˌtempt、ˈpickup ˌpoint、ˈparcel ˌlocker
+@dict: S4–S6
+@dict: S26–S29
+@res: 在 youglish.com 输入 "held at customs"，选 US，留意 held 前面的 is / was / been 怎么被读轻。
+
+@mimic: 跟读【C】S1–S19：先正常语速逐句跟读，重点模仿 are being held、was returned 的弱读和 delivery attempt 的重音；再由你演林晓、手机朗读 Leo 的台词，完整对一遍并录音。最后把 S20–S31 的邮件当成你自己写给卖家的信，用清楚、友好的语气读一遍。
+@swap: Three packages are being held at customs. | 换数量和状态：inspected / processed / sorted | Two packages are being inspected at customs.
+@swap: The address is incomplete, so the delivery attempt failed. | 换原因：the zip code is incorrect／no one was home／the building was locked | No one was home, so the delivery attempt failed.
+@swap: The unit number is missing. | 换缺的内容：the suite number／the zip code／the customer's phone number | The suite number is missing.
+@swap: We can reroute it to a pickup point. | 换去处：a parcel locker／the customer's office／a new address | We can reroute it to a parcel locker near her home.
+@free: 卖家问为什么包裹三天没动静（状态：正被海关扣着；原因：发票上没写原产国；报关行正在处理） | Your package is being held at customs. The invoice doesn't show the country of origin, so our broker is fixing the paperwork now. It should clear in a day or two.
+@free: Leo 问你 Suite 和 Apt 有什么区别 | Apt is for apartments, and Suite is for offices. Both go right after the street address, for example 200 Oak Avenue, Suite 400.
+@free: 顾客的包裹派送失败了，你在电话里给她两个选择：明天重新派送，或者改送到附近的自提点 | There are two options. The carrier can redeliver it tomorrow, or we can reroute it to a pickup point near your home. Which one works better for you?
+@free: 张涛问你 Daniel 的包裹为什么被退回了 | It was returned to sender because the zip code was incorrect. The carrier marked it undeliverable, so it's on its way back to Daniel's warehouse.
+@output: 录一段 1.5–2 分钟的口头汇报：向张涛汇报周一早上的物流异常。先说结论（一共几个、大部分什么时候能解决）→ 逐个说：状态（用被动）、原因、下一步 → 最后说唯一的风险和你会怎么跟进。可以用本课的五个异常，也可以换成你工作中遇到的问题。
+@output_sample: Good morning, Tom. Here's a quick update on this morning's shipment exceptions. Overall, we have five, and most of them should be solved this week. First, three BrightNest packages are being held at customs. Two invoices don't show the country of origin, so customs can't calculate the tariff. Our broker is fixing the paperwork, and the hold is usually lifted within two days after that. The third box was opened for inspection because it contains scented oil. I don't think it's prohibited, but I'm checking the regulations with the broker. Second, one of Daniel's packages was returned to sender. The zip code was incorrect, so the carrier marked it undeliverable. I'll call Daniel today and ask him to confirm the address before he ships it again. Finally, one of Sarah's packages couldn't be delivered on Saturday, because the unit number was missing. We rerouted it to a parcel locker near the customer's building, so she can pick it up tomorrow. So, the only real risk is the box with the oil. If customs seizes it, I'll let you know right away. That's all from me. Any questions?
+
+@check: 听力：BrightNest 的三个包裹为什么被扣？ | 两个是因为发票上没写原产国（country of origin），海关算不了关税；第三个里面有液体（香薰精油），被开箱查验。
+@check: 听力：Sarah 的包裹为什么没送到？林晓给了哪两个办法？Sarah 最后选了哪个？ | 地址里少了公寓号，派送失败。办法一：改送到自提点（离顾客那栋楼两个街区的快递柜）；办法二：顾客今天补上公寓号，明天重新派送。Sarah 选了快递柜。
+@check: 「包裹正在被查验」和「包裹上周在海关被扣了三天」分别怎么说？ | It's being inspected. / It was held at customs for three days last week.
+@check: 改错：✗ The delivery is failed because address is not complete. | The address is incomplete, so the delivery attempt failed.（fail 不用被动；address 前要加 the）
+@check: Leo 按中文习惯写了一个地址：OH 43215, Columbus, Maple Street 125, Apt 4B。按美国格式改过来。 | 125 Maple Street, Apt 4B, Columbus, OH 43215
+@check: 卖家问 Is a tariff the same as a tax?，用一两句话解释。 | Yes, a tariff is a tax on imported goods. The amount usually depends on the product and its country of origin.
+@next1: 不看书说出 5 个锚点句：S4、S14、S23、S24、S26
+@next1: 按「状态 → 原因 → 下一步」各说一句：被海关扣留、派送失败、退回发件人
+@next7: 被动进行时 are being held / is being inspected 和过去时被动 was held / was returned 的区别，各造一句
+@next7: 美国地址的顺序；Apt / Unit / Suite 和 zip code 的写法与读法

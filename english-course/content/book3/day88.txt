@@ -1,0 +1,171 @@
+@day: 88
+@week: 4
+@title_cn: 退货流程
+@title_en: How Returns Work
+@topic: 退货流程：退货许可和面单、检查分级、重新上架、退回厂家、捐赠回收、退货费用
+@think_short: 「质量问题」defective / faulty ≠ quality problem｜「无理由退货」no questions asked｜「扣钱」deduct A from B｜「不再」no longer + 动词
+
+@goal_scene: 给客户讲清「退货是怎么运作的」：顾客怎么寄回、退回来以后怎么检查分级、不同状况的商品去哪儿、费用怎么算；能说清「质量问题」到底是哪一种，并用英文解释「无理由退货」。
+@goal_expr: The customer prints a return label and sends the item back. / Every returned item is checked and graded. / Unused items are restocked and resold. / Defective items are sent back to the manufacturer. / Some sellers deduct a restocking fee from the refund. / It can no longer be sold. / 30-day returns, no questions asked
+@goal_vocab: 20 个重点词 + 5 个短语：退货流程、商品状况与分级、处理去向、费用与政策
+@done: 能用 4–5 个被动句按顺序讲清退货流程（is checked and graded / are restocked / are sent back）
+@done: 能分清 defective / faulty / damaged，不再说 ✗ It has quality problem.
+@done: 能用英文解释「七天无理由退货」，会用 deduct … from 和 no longer 写一封 6–10 句的退货说明邮件
+
+@warmup: 我们两边的工作时间只重叠一个小时。 | Our working hours only overlap for one hour. | D87
+@warmup: 我每天下班前给你发一份总结，按深圳时间。 | I'll send you a summary by end of day, Shenzhen time. | D87
+@warmup: 你们团队可以接着我们的进度往下做。 | Your team can pick up where we left off. | D87
+@warmup: 地址不全，所以派送失败了。 | The address is incomplete, so the delivery attempt failed. | D85
+@warmup: 我以前在快递站上班。 | I used to work at a courier station. | D52
+@warmup: 上一箱在海关卡了一个星期。 | The last box got stuck in customs for a week. | D26
+
+@scene: 周五。Sarah 的网店 Pine & Pebble 卖家居用品：台灯、花瓶、蜡烛、靠垫。她想在旺季前推出「30 天无理由退货」来吸引顾客，可从来没仔细想过：东西退回来以后去哪儿？谁来检查？坏了的怎么办？运费和损耗谁出？她在俄亥俄的周四晚上给林晓发了封邮件。林晓在深圳周五晚上（俄亥俄周五早上）给她打电话，从退货许可、退货面单讲到检查分级、重新上架、退回厂家，最后讲费用——SwiftLink 的系统负责把退货包裹一路跟踪到退货中心。下周一 Sarah 就要飞到深圳拜访，这是她出发前和林晓的最后一次通话——两人合作以来一直只是通邮件、打电话，还没见过面。
+@sp: 人物关系 | 林晓 ↔ Sarah：服务方和老客户，合作快三年，关系友好、说话随意；林晓是专业的一方，要讲得清楚、实在，不替卖家做决定
+@sp: 沟通目的 | Sarah 想弄懂退货的全过程和成本，再决定要不要推出 30 天无理由退货；林晓要把流程按顺序讲清楚，并提醒她费用上的取舍
+@sp: 已知信息 | Sarah 知道宽松的退货政策能吸引顾客，但不知道退回来的东西怎么处理、成本多少；林晓熟悉退货中心的分级规则，也知道便宜的商品退回来往往不划算
+@sp: 表达重点 | 读懂邮件 → 按顺序讲流程（被动：is checked and graded / are restocked / are sent back）→ 各等级的去向 → 不能再卖的怎么处理（no longer）→ 费用（deduct a restocking fee / cost-effective）→ 给一句建议
+
+@story_title: Episode 88 · What Happens to a Return?
+@story_type: 邮件 + 电话
+@s: Sarah writes to Lily: | Sarah 给林晓写了一封邮件：
+@s: Hi Lily, | 林晓你好：
+@s: I'm thinking about offering 30-day returns, no questions asked. | 我在考虑推出 30 天无理由退货。
+@s: But I don't really understand **reverse** logistics. | 可我不太懂逆向物流。
+@s: What happens to an item after the customer sends it back? | 顾客把东西寄回来以后，东西会怎么样？
+@s: And who usually pays for it? | 费用一般又是谁出？
+@s: Could we talk tomorrow? | 我们明天能聊聊吗？
+@s: Thanks, Sarah | 谢谢！Sarah
+@br:
+@s: Lily calls her that evening, Shenzhen time. | 当天晚上（深圳时间），林晓给她打了电话。
+@s: Lily: First, the customer asks your store for a return **authorization**. | 林晓：第一步，顾客先向你的店申请退货许可。
+@s: Lily: The customer prints a **return label** and sends the item back. | 林晓：顾客打印退货面单，把东西寄回来。
+@s: Lily: Our system tracks the package all the way to the returns center. | 林晓：我们的系统会一路跟踪这个包裹，直到它到达退货中心。
+@s: Sarah: And then what happens? | Sarah：然后呢？
+@s: Lily: Every returned item is checked and **graded**. | 林晓：每件退回来的商品都要检查、分级。
+@s: Lily: Grade A means **unopened**. Grade B means opened, but still **in good shape**. | 林晓：A 级是没拆封的；B 级是拆过封、但东西完好的。
+@s: Lily: Each grade goes into its own **bin**. | 林晓：每个等级放进各自的料箱。
+@s: Lily: **Unused** items are **restocked** and **resold**. | 林晓：没用过的商品会重新入库，再卖出去。
+@s: Lily: Items with some **wear and tear** go to an **outlet** at a lower price. | 林晓：有些磨损的商品放到折扣店，便宜一点卖。
+@s: Sarah: What about broken ones? | Sarah：那坏了的呢？
+@s: Lily: **Defective** items are sent back to the **manufacturer**. | 林晓：有质量问题的商品退回给厂家。
+@s: Lily: If they're under **warranty**, the manufacturer covers the cost. | 林晓：如果还在保修期内，费用由厂家承担。
+@s: Lily: Some **faulty** lamps are repaired and sold as **refurbished**. | 林晓：有些开关、线路出毛病的台灯，修好以后可以当翻新品卖。
+@s: Sarah: And if something can **no longer** be sold? | Sarah：要是东西已经没法再卖了呢？
+@s: Lily: Then it's **donated** or **recycled**. Broken glass is just **scrapped**. | 林晓：那就捐掉或者回收。碎玻璃就直接报废。
+@s: Lily: Anything unsafe is **disposed** of properly. | 林晓：不安全的东西会按规定妥善处理掉。
+@br:
+@s: Sarah: OK. So who pays for all this? | Sarah：明白了。那这些费用谁出？
+@s: Lily: Usually the seller pays for the label. | 林晓：退货面单的运费一般是卖家出。
+@s: Lily: Some sellers **deduct** a **restocking fee** from the refund. | 林晓：有些卖家会从退款里扣一笔重新入库费。
+@s: Lily: But with "no questions asked," customers may not expect a fee. | 林晓：不过既然写了「无理由退货」，顾客可能想不到还要扣钱。
+@s: Lily: Also, for items under fifteen dollars, a return often isn't **cost-effective**. | 林晓：还有，十五美元以下的商品，退回来往往不划算。
+@s: Lily: Many sellers just refund the customer and let them keep the item. | 林晓：很多卖家干脆直接退款，东西让顾客留着。
+@s: Lily: My advice? Keep your policy short and clear. | 林晓：我的建议是：政策写得简短、清楚。
+@s: Sarah: That's really helpful. See you in Shenzhen on Monday! | Sarah：太有帮助了。周一深圳见！
+
+@v: reverse | = | adj. | rɪˈvɜːrs | 反向的；逆向的（reverse logistics 逆向物流：把货从买家手里退回卖家的整套流程） | 退货、回收、售后物流 | reverse logistics；in reverse order；reverse a decision（动词：撤销） | Reverse logistics can cost more than shipping the item out. | 逆向物流的成本可能比发货还高。 | 「逆向物流」业内最常说 reverse logistics，✗ back logistics；reverse 还能作动词「撤销、扭转」：reverse a charge（撤销一笔扣款）；重音在后 re-VERSE。
+@v: authorization | = | n. | ˌɔːθərəˈzeɪʃn | 授权；（退货）许可 | 退货前先申请许可、付款授权 | return authorization；get authorization；RMA（return merchandise authorization） | You need a return authorization before you send anything back. | 寄回任何东西之前，都得先拿到退货许可。 | 很多美国网店要求顾客先在网上申请 return authorization（常缩写 RMA），拿到编号才能寄回；动词是 authorize；th 是咬舌的 `/θ/`，不读 s；主重音在 ZA。
+@v: return label | = | phr. | rɪˈtɜːrn ˌleɪbl | 退货面单；退货运单 | 顾客退货时打印、贴在包裹上 | print a return label；a prepaid return label；email a return label | We'll email you a prepaid return label. | 我们会把预付好运费的退货面单发到您邮箱。 | 中文「面单」「快递单」是 shipping label，退货用的是 return label；prepaid 表示「运费已付」；复合名词重音在第一个词：reTURN label，label 轻读 `/ˈleɪbl/`，别读成「拉贝尔」。
+@v: graded | grade | v. | ˈɡreɪdɪd | 给……分级；评定等级 | 退货检查后按新旧程度分类 | grade an item；be graded A or B；a grade（名词：等级） | Returned phones are graded from A to D. | 退回来的手机按 A 到 D 分级。 | 中文「分级」「定等级」用 grade，✗ classify level；grade 在学校里是「年级、成绩」：in sixth grade / get a good grade；-ed 读 `/ɪd/`。
+@v: unopened | = | adj. | ʌnˈoʊpənd | 没拆封的 | 退货、二手商品、食品说明 | unopened items；an unopened box；still unopened | Unopened items can be returned within 30 days. | 未拆封的商品 30 天内可以退。 | 「没拆封」不说 ✗ not open；英文常用 un- + 过去分词：unopened、unused、unwashed；美国退货政策还常写 in its original packaging（原包装）；-ed 读 `/d/`。
+@v: in good shape | = | phr. | ɪn ˌɡʊd ˈʃeɪp | 状况良好；（东西）完好 | 说退回来的商品、二手东西、身体状态 | in good shape；in bad shape；in great shape | The box was open, but the vase was in good shape. | 盒子开了，不过花瓶完好无损。 | 「完好」「成色好」不说 ✗ in good situation；in good shape 也能说人「身体好」：He's in great shape.；反义是 in bad shape。
+@v: bin | = | n. | bɪn | （仓库里的）料箱；货位；回收桶 | 仓库分拣、按等级存放 | a storage bin；put it in the bin；a recycling bin | Put the damaged boxes in the red bin. | 把破损的箱子放进红色料箱里。 | 美式里 bin 多指仓库的「料箱、货位」（每个都有 bin number）或 recycling bin（回收桶）；「垃圾桶」美式更常说 trash can，英式才说 bin。
+@v: Unused | unused | adj. | ˌʌnˈjuːzd | 没用过的 | 退货、二手买卖、礼品卡 | unused items；an unused gift card；opened but unused | Unused tickets can be refunded. | 没用过的票可以退款。 | 这里的 s 读 `/z/`：un-USED `/ˌʌnˈjuːzd/`；「不习惯」日常说 not used to（第二册 Day 53），s 读 `/s/`，别和 unused 混；opened but unused = 拆了封、但没用过。
+@v: restocked | restock | v. | ˌriːˈstɑːkt | 重新入库；补货 | 退货重新上架、网店补货 | restock an item；restock the shelves；be restocked | The blue lamp will be restocked next week. | 蓝色那款台灯下周补货。 | re- 表示「再一次」：restock（重新入库）、resell（再卖）、reship（重发，Day 77）；网店「到货了」写 back in stock；-ed 读 `/t/`。
+@v: resold | resell | v. | ˌriːˈsoʊld | 再次出售；转卖 | 退货再卖、二手转卖 | resell an item；be resold；resell at a discount | Some returned items are resold online. | 一些退货会在网上重新卖出去。 | resell 跟 sell 一样是不规则动词：resell – resold – resold，✗ reselled；名词是 resale（转售）。
+@v: wear and tear | = | phr. | ˌwer ən ˈter | （正常使用造成的）磨损；损耗 | 退货检查、租房退押金、保修条款 | normal wear and tear；signs of wear and tear；not covered for wear and tear | The warranty doesn't cover normal wear and tear. | 保修不包括正常使用造成的磨损。 | wear 和 tear 都读 `/er/`（这里的 tear 是「撕」，不是「眼泪」`/tɪr/`）；顺序固定，✗ tear and wear；租房退押金时也常听到：normal wear and tear 一般不扣押金。
+@v: outlet | = | n. | ˈaʊtlet | 折扣店；奥特莱斯；（销售）渠道 | 二等品、尾货的去处 | an outlet store；an online outlet；sell through an outlet | We sell open-box items in our online outlet. | 拆过封的商品我们放在网上折扣店卖。 | 「奥特莱斯」就是 outlet 的音译；outlet 在美国家里还是「电源插座」：an electrical outlet；重音在前 OUT-let。
+@v: Defective | defective | adj. | dɪˈfektɪv | 有缺陷的；（出厂时就）有质量问题的 | 退货、索赔、和厂家沟通 | a defective item；defective products；replace a defective item | If the item is defective, we'll replace it for free. | 如果商品有质量问题，我们免费给您换。 | 「质量问题」不说 ✗ It has quality problem.，一件商品有问题说 It's defective. / It's faulty.；运输中摔坏的是 damaged（第一册），不是 defective；名词 defect（缺陷）重音在前 DE-fect。
+@v: manufacturer | = | n. | ˌmænjəˈfæktʃərər | 生产商；厂家 | 退回厂家、保修、供应链 | contact the manufacturer；the manufacturer's warranty；a manufacturer in Ningbo | We sent the broken lamps back to the manufacturer. | 我们把坏了的台灯退回给了厂家。 | 「厂家」不说 ✗ factory owner；manufacturer 是公司，factory 是厂房；producer 多指影视制片人或农产品生产者；5 个音节，重音在 FAC。
+@v: warranty | = | n. | ˈwɔːrənti | 保修；（厂家的）质量保证 | 买电器、退换货、维修 | under warranty；a one-year warranty；the warranty covers… | The fridge is still under warranty. | 这台冰箱还在保修期内。 | 「在保修期内」说 under warranty，✗ in warranty period；「保修一年」a one-year warranty（year 不加 s）；guarantee 意思相近，warranty 更常用于书面的保修条款。
+@v: faulty | = | adj. | ˈfɔːlti | 有故障的；（零件、线路）坏了的 | 电器、零件出毛病 | a faulty switch；faulty wiring；a faulty cable | The lamp has a faulty switch. | 这盏台灯的开关有问题。 | faulty 多指「某个部件不能正常工作」，常用于电器、机器；defective 更偏「出厂就有缺陷」；名词 fault 是「过错」（第一册 It's my fault.），但 faulty 不能说人：✗ I'm faulty.
+@v: refurbished | = | adj. | ˌriːˈfɜːrbɪʃt | 翻新的；（修好后）重新出售的 | 电子产品、电器、二手商品 | a refurbished laptop；sold as refurbished；certified refurbished | I bought a refurbished phone, and it works like new. | 我买了一部翻新机，用起来跟新的一样。 | 「翻新机」就是 refurbished，口语常缩成 refurb；美国商家一般会明确标出 refurbished，不会当新品卖；-ed 读 `/t/`，不要多加一个音节。
+@v: no longer | = | phr. | noʊ ˈlɔːŋɡər | 不再 | 说状态改变：不再出售、不再提供、不能再用 | no longer available；can no longer be sold；We no longer offer… | This model is no longer available. | 这个型号已经不再销售了。 | 位置和 often 一样：放在 be 动词、情态动词之后，实义动词之前：It can no longer be sold. / We no longer ship to…；口语常说 not … anymore，两个不能一起用：✗ It no longer works anymore.
+@v: donated | donate | v. | ˈdoʊneɪtɪd | 捐赠；捐 | 卖不掉的退货捐给慈善机构；捐款 | donate to charity；donate clothes；be donated | We donate unsold clothes to a local charity. | 我们把卖不掉的衣服捐给当地的慈善机构。 | 「捐给某机构」是 donate sth to…，✗ donate sb sth（不能接双宾语）；名词是 donation；-ed 读 `/ɪd/`。
+@v: recycled | recycle | v. | ˌriːˈsaɪkld | 回收；再利用 | 包装、坏掉的商品、环保 | recycle boxes；be recycled；a recycling bin | Please recycle the boxes. | 这些箱子请拿去回收。 | 「回收」不说 ✗ take back（那是「收回、退回」）；recycle 是「回收再利用」；cycle 读 `/ˈsaɪkl/`，不读「赛扣」。
+@v: scrapped | scrap | v. | skræpt | 报废；废弃；取消（计划） | 处理没法修、没法卖的东西 | be scrapped；scrap the plan；sell for scrap（名词：废料） | We scrapped the old printers. | 我们把旧打印机都报废了。 | 「报废」说 scrap，✗ make it waste；scrap 也常用于「取消计划」：They scrapped the project.；过去式要双写 p：scrapped。
+@v: disposed | dispose | v. | dɪˈspoʊzd | 处理掉；丢弃（dispose of） | 处理危险品、电池、不能卖的退货 | dispose of sth；dispose of batteries safely；be disposed of | Please dispose of old batteries safely. | 旧电池请妥善处理。 | dispose 后面一定要有 of：✗ dispose the batteries → ✓ dispose of the batteries；被动是 be disposed of，of 留在后面；日常「扔掉」用 throw away 就行，dispose of 偏正式，多用于规定和流程。
+@v: deduct | = | v. | dɪˈdʌkt | 扣除 | 从退款、工资、押金里扣钱 | deduct a fee from…；deduct it from your salary；be deducted | The shipping cost will be deducted from your refund. | 运费会从您的退款里扣除。 | 「扣钱」是 deduct A from B：A 是被扣的钱，B 是总数；✗ deduct the refund（把退款整个扣了）；给顾客的通知常用被动：A fee is deducted.；名词 deduction。
+@v: restocking fee | = | phr. | riˈstɑːkɪŋ ˌfiː | 重新入库费；退货手续费 | 退货政策里写明的扣费 | charge a restocking fee；a 15% restocking fee；no restocking fee | There's a 15% restocking fee on opened electronics. | 拆封的电子产品退货要收 15% 的手续费。 | 不说 ✗ return handling money；收不收、收多少，一般由商家在 return policy 里写明，有的商家会特意写 No restocking fees 来吸引顾客；复合名词重音在 restocking 上。
+@v: cost-effective | = | adj. | ˌkɔːst ɪˈfektɪv | 划算的；成本效益高的 | 比较方案、算物流成本 | a cost-effective way to…；more cost-effective；not cost-effective | Shipping in bulk is more cost-effective. | 批量发货更划算。 | 中文「划算」：说方案、做法用 cost-effective，说商品价钱合适用 good value；✗ high cost performance 是中式说法；连字符不能丢；重音在 FEC：cost-ef-FEC-tive。
+
+@diff: 「质量问题」——defective / faulty，不说 quality problem
+@d_cn: 顾客说东西「有质量问题」：可能是出厂就有缺陷、某个零件坏了，也可能是运输中摔坏的。
+@d_en: The item is defective. / The lamp has a faulty switch. / The vase arrived damaged.
+@d_why: 中文「质量问题」什么都能装。英文不说 ✗ It has quality problem.——quality issues 在英文里多用来说一个厂家、一批货的整体情况（We've had quality issues with this supplier.），具体到一件商品，要说清楚是哪一种：**defective**（有缺陷，出厂时就有问题）、**faulty**（某个部件、线路不能正常工作，多用于电器）、**damaged**（第一册：运输中弄坏的），最口语的是 It doesn't work.。这个区分在退货里直接决定找谁：defective / faulty 通常退给 manufacturer、走 warranty；damaged 是运输造成的，要向承运方索赔（file a claim，Day 76）。
+@d_when: 处理退货、写退货原因、和厂家或快递公司沟通。
+@d_vs: **The item is defective.** 这件商品有质量问题（出厂缺陷）。\n**The lamp has a faulty switch.** 台灯的开关坏了。\n**The vase arrived damaged.** 花瓶到的时候就摔坏了。\n**We've had quality issues with this supplier.** 这家供应商的货质量一直有问题。（说整体）\n✗ This lamp has quality problem.
+@d_task: 顾客退回一个电水壶：插上电不加热，也不是摔的。用英文告诉 Sarah 这属于哪种情况、该怎么处理。 | The kettle is faulty. It doesn't heat up, and it wasn't damaged in shipping. We can send it back to the manufacturer under warranty.
+@diff: 「七天无理由退货」——a 7-day no-questions-asked return policy
+@d_cn: 顾客收到货以后，在规定的天数内不需要说明理由就可以退货。
+@d_en: I'm thinking about offering 30-day returns, no questions asked. / We have a 30-day no-questions-asked return policy.
+@d_why: 「无理由」直译成 ✗ no-reason return，美国人听着别扭。英文的固定说法是 **no questions asked**（不问原因），可以放在句尾：30-day returns, no questions asked；也可以加连字符放在名词前：a no-questions-asked return policy。「30 天」放在名词前同样要加连字符，而且 day 不加 s：✓ a 30-day return policy ✗ a 30-days return policy。背景也不一样：在中国网购，「七天无理由退货」是很多人默认的规矩；美国没有一个统一的「无理由退货」天数，能不能退、几天内退，大多由商家在 return policy 里写明，30 天很常见，节日期间不少商家还会延长。
+@d_when: 写店铺退货政策、回答顾客「能不能退」、向外国朋友解释中国网购规矩。
+@d_vs: **We offer 30-day returns, no questions asked.** 30 天无理由退货。\n**We have a no-questions-asked return policy.** 我们支持无理由退货。\n**七天无理由退货 = a 7-day no-questions-asked return policy**\n✗ no-reason return\n✗ a 30-days return policy
+@d_task: 用英文写一句店铺公告：「本店支持 14 天无理由退货，商品需未使用。」 | We offer 14-day returns, no questions asked. Items must be unused.
+@diff: 「扣钱」——deduct a fee from the refund
+@d_cn: 退款时少退一部分，比如扣掉运费或手续费。
+@d_en: Some sellers deduct a restocking fee from the refund. / The return shipping cost is deducted from your refund.
+@d_why: 中文「扣钱」「扣掉」，英文是 **deduct A from B**：A 是被扣的钱（a fee、five dollars），from 后面是被扣的总数（the refund、your salary）。常见错误是 ✗ deduct the refund（意思成了把退款整个扣掉），还有查词典查出来的 ✗ buckle money（buckle 是「扣子、扣上」）。给顾客写通知时多用被动，把重点放在钱上、不点名是谁扣的：A five-dollar fee will be deducted from your refund. 口语更随意：They took five dollars off my refund. 林晓还提醒了 Sarah 一个文化点：既然打出 no questions asked 的旗号，再扣 restocking fee，顾客可能觉得被「套路」，政策里一定要写清楚。
+@d_when: 写退货政策、退款通知、工资和押金说明。
+@d_vs: **Some sellers deduct a restocking fee from the refund.** 有些卖家会从退款里扣重新入库费。\n**A five-dollar fee will be deducted from your refund.** 您的退款将扣除五美元手续费。\n**They took five dollars off my refund.** 他们从我的退款里扣了五块钱。（口语）\n✗ We will deduct your refund five dollars.\n✗ buckle money
+@d_task: 用英文写一句退款通知：「退货运费 6.5 美元将从您的退款中扣除。」 | The return shipping cost of $6.50 will be deducted from your refund.
+@diff: 「不再……」——no longer + 动词
+@d_cn: 以前可以，现在不行了：不再出售、不再提供、不能再卖。
+@d_en: And if something can no longer be sold? / We no longer ship to Canada. / This model is no longer available.
+@d_why: 中文「不再」放在动词前，学生常说成 ✗ We no more ship… 或 ✗ It no longer can be sold.。英文 **no longer** 的位置和 often、always 一样：放在 be 动词和情态动词**之后**、实义动词**之前**：It is no longer available. / It can no longer be sold. / We no longer offer this service. 口语里更常说 not … anymore：We don't ship to Canada anymore.——两个不能一起用：✗ We no longer ship there anymore. no longer 偏书面，适合写政策、公告和邮件。
+@d_when: 写政策变化、产品下架、服务调整；说东西坏到不能再用。
+@d_vs: **It can no longer be sold.** 它已经不能再卖了。\n**We no longer offer free returns.** 我们不再提供免费退货。\n**We don't offer free returns anymore.** 我们不提供免费退货了。（口语）\n✗ It no longer can be sold.\n✗ We no more offer free returns.
+@d_task: 用两种说法告诉顾客：「这个型号已经不再生产了。」（生产 = make） | This model is no longer made. ／ They don't make this model anymore.
+
+@core: How does … work? / Here's how it works. | 问流程、开始讲流程 | returns / a refund / the returns center | 正式：Could you explain how the returns process works?｜随意：So how does that work?
+@core: The customer prints a return label and sends the item back. | 讲退货的第一步 | prints a return label / drops it off at the post office / ships it back | 正式：The customer receives a prepaid return label by email and ships the item back.｜随意：They print the label and mail it back.
+@core: Every returned item is checked and graded. | 用被动讲「东西被怎么处理」 | checked / graded / sorted / tested | 正式：All returned items are inspected and graded on arrival.｜随意：We check every return.
+@core: … items are restocked and resold. / … are sent back to the manufacturer. | 说不同等级的去向 | unused / defective / damaged；restocked / donated / recycled | 正式：Items in new condition are returned to inventory for resale.｜随意：New stuff goes back on the shelf.
+@core: Some sellers deduct a … fee from the refund. | 说退货费用 | restocking / shipping / handling | 正式：A 15% restocking fee will be deducted from your refund.｜随意：They take a few bucks off the refund.
+@core: … can no longer be sold. | 说东西不能再卖、服务不再提供 | can no longer be sold / is no longer available / we no longer offer… | 正式：This item is no longer eligible for resale.｜随意：You can't sell it anymore.
+@core: For items under …, a return often isn't cost-effective. | 说成本上划不划算 | fifteen dollars / ten dollars；a return / shipping it back | 正式：For low-value items, a refund without a return may be more cost-effective.｜随意：For cheap stuff, it's not worth shipping back.
+@core: We offer 30-day returns, no questions asked. | 说退货政策 | 30-day / 14-day / 60-day | 正式：We offer a 30-day no-questions-asked return policy.｜随意：Send it back within 30 days, no questions asked.
+
+@pw: authorization | ˌɔːθərəˈzeɪʃn | 5 个音节 au·thor·i·ZA·tion | 主重音在 za；th 是咬舌的 `/θ/`，不读 s；中间的 i 弱读成 `/ə/`
+@pw: manufacturer | ˌmænjəˈfæktʃərər | 5 个音节 man·u·FAC·tur·er | 主重音在 fac；tur 读 `/tʃər/`，结尾的 er 很轻，两个 r 都要卷舌
+@pw: warranty | ˈwɔːrənti | 3 个音节 WAR·ran·ty | 重音在前；war 读 `/wɔːr/`；后两个音节轻而快，别平均用力
+@pw: defective | dɪˈfektɪv | 3 个音节 de·FEC·tive | 重音在 fec；de 弱读成 `/dɪ/`；结尾的 v 要轻轻咬唇，别丢
+@pw: refurbished | ˌriːˈfɜːrbɪʃt | 3 个音节 re·FUR·bished | 重音在 fur，要卷舌；-ed 读 `/t/`，不要多加一个音节
+@pw: deduct | dɪˈdʌkt | 2 个音节 de·DUCT | 重音在后；结尾 ct 轻轻带出，别加元音读成「得达克特」
+@pw: cost-effective | ˌkɔːst ɪˈfektɪv | 4 个音节 cost·ef·FEC·tive | 主重音在 fec；cost 的 t 和 effective 连起来：cos-tɪ-FEC-tive
+@ps: The **cus**tomer prints a re**turn** label / and **sends**‿the item **back**. | return label 是复合名词，重音落在 return 上，label 轻读；sends the 里 s 和 th 挨着，舌尖从齿龈滑到齿间，别吞掉 th。
+@ps: **Ev**ery re**turned**‿item / is **checked** and **grad**ed. | is 弱读成 `/ɪz/`，几乎贴在 item 后面；checked 读 `/tʃekt/`，graded 读 `/ˈɡreɪdɪd/`——两个 -ed 读法不同。
+@ps: **Un**used items / are re**stocked**‿and re**sold**. | are 弱读成 `/ər/`；restocked and 连成 `/riˈstɑːktən/`；被动句里的 be 动词很轻，重音落在过去分词上。
+@ps: Some **sell**ers de**duct**‿a re**stock**ing fee / from the **re**fund. | deduct a 连成 `/dɪˈdʌktə/`；restocking fee 重音在 stock；refund 作名词重音在前 RE-fund。
+@pnote: 被动句的弱读：is checked、are restocked、are sent back、is deducted 里的 is / are 弱读成 `/ɪz/`、`/ər/`，说快了几乎只剩一个 z 或 r 的音。听的时候抓住后面的过去分词（checked / sent / deducted），就知道是「东西被怎么处理」。-ed 的三种读音本课都有：checked `/t/`、unused `/d/`、graded / donated `/ɪd/`。
+@pnote: 数字的写和说：30-day 读 thirty-day（day 不加 s）；thirty 和 thirteen 要分清：THIR-ty 重音在前，thir-TEEN 重音在后，退货天数听错就差了半个多月；fifteen dollars 和 fifty dollars 同理。写的 15% 读 fifteen percent；RMA 嘴上读 R-M-A，或者干脆说 return authorization。
+@lfocus: 被动句里弱读的 is / are
+@lfocus: -ed 的三种读音：checked / unused / graded
+@lfocus: thirty vs thirteen；fifteen vs fifty dollars
+@dict: S14–S17
+@dict: S28–S31
+@res: 在 youglish.com 输入 "restocking fee"，选 US
+
+@mimic: 先把【C】里 Sarah 的邮件（S2–S8）读一遍；再逐句跟读通话部分 S9–S33，重点模仿 5 个锚点句里弱读的 is / are 和 restocked / graded 的 -ed；然后你演林晓、手机朗读 Sarah 的台词，正常语速对一遍并录音。最后合上书，按 return label → checked and graded → restocked / outlet / manufacturer / donated → 费用 的顺序，用自己的话把退货流程讲一遍。
+@swap: Every returned item is checked and graded. | 换主语和动作：every package / all damaged boxes；scanned and sorted / photographed and reported | Every package is scanned and sorted.
+@swap: Defective items are sent back to the manufacturer. | 换东西和去处：unused items / damaged boxes；restocked / sent to the outlet / recycled | Damaged boxes are recycled.
+@swap: Some sellers deduct a restocking fee from the refund. | 换费用和总数：a shipping fee / a five-dollar fee；the refund / the deposit | Some landlords deduct a cleaning fee from the deposit.
+@swap: It can no longer be sold. | 换：is no longer available / we no longer offer… / can no longer be used | We no longer offer free returns.
+@free: 顾客问：拆了包装但没用过，还能退吗？（能，30 天内都行，全额退款） | Yes, you can still return it. As long as it's unused, we accept returns within 30 days, and you'll get a full refund.
+@free: Sarah 问：一支 8 美元的蜡烛被退货，要不要让顾客寄回来？（不划算，建议直接退款、让顾客留着） | I wouldn't ask the customer to send it back. For an eight-dollar candle, a return isn't cost-effective. Just refund the customer and let them keep it.
+@free: 同事问你：退回来的台灯开关坏了，怎么处理？（这是 faulty，还在保修期内，退给厂家） | It should go back to the manufacturer. The switch is faulty, and the lamp is still under warranty.
+@free: 你在店铺公告里通知顾客：从下个月起，拆封的电子产品不再免费退货，退款时扣 10% 的手续费。 | Starting next month, opened electronics are no longer eligible for free returns. A 10% restocking fee will be deducted from the refund.
+@output: 写一封 6–10 句的邮件：通话之后，林晓（或你）给 Sarah 发一份书面总结——先说目的（I'm writing to summarize…），再按顺序讲退货流程（return label → checked and graded → 各等级的去向），最后说费用（restocking fee / cost-effective）和下一步。没有这个工作场景，就给一位外国朋友写邮件，解释你常用的网店怎么退货。
+@output_sample: Hi Sarah, Thanks for the great call today. I'm writing to summarize how returns work, so you can plan your new policy. First, your customer requests a return authorization, prints a return label, and sends the item back. At the returns center, every returned item is checked and graded. Unused items are restocked and resold, items with some wear and tear go to an outlet, and defective items are sent back to the manufacturer. Anything that can no longer be sold is donated or recycled. For items under fifteen dollars, a return often isn't cost-effective, so you could simply refund the customer. If you decide to charge a restocking fee, please mention it clearly in your policy. Let me know if you'd like to go through any of this again on Monday. Best regards, Lily
+
+@check: 听力：Sarah 想推出什么样的退货政策？她在邮件里问了哪两个问题？ | 30 天无理由退货（30-day returns, no questions asked）。她问：顾客把东西寄回来以后东西会怎么样（What happens to an item after the customer sends it back?），以及费用一般谁出（Who usually pays for it?）。
+@check: 听力：林晓说，没用过的商品、有磨损的商品和有质量问题的商品分别去哪儿？ | 没用过的：重新入库再卖（restocked and resold）；有磨损的：放到折扣店便宜卖（go to an outlet at a lower price）；有质量问题的：退回厂家（sent back to the manufacturer）。
+@check: 顾客收到的花瓶在路上摔碎了，他在退货原因里写 It's defective.，准确吗？应该怎么写？ | 不准确。defective 指出厂时就有缺陷；运输中摔坏的是 damaged：The vase arrived damaged.（这种情况通常要向承运方索赔。）
+@check: 改错：① We will deduct your refund five dollars. ② This product no longer can be sold anymore. | ① We will deduct five dollars from your refund. ② This product can no longer be sold.（或 This product can't be sold anymore.）
+@check: 换个场景：美国朋友问你国内网购的「七天无理由退货」是什么意思，用两句英文解释。 | In China, many online stores offer 7-day returns, no questions asked. You can send an item back within seven days without giving a reason, as long as it's unused.
+@check: 你帮一家卖 9 美元手机壳的网店提建议：退货不划算，直接退款、让顾客留着。用两句话说。 | For a nine-dollar phone case, a return isn't cost-effective. It's better to refund the customer and let them keep it.
+@next1: 不看书说出 5 个锚点句：S11、S14、S17、S20、S28
+@next1: 用 deduct … from 和 no longer 各说一句关于你工作或生活的话
+@next7: 退货流程五步：return label → checked and graded → restocked and resold → sent back to the manufacturer → deducted from the refund
+@next7: 「质量问题」三个词：defective / faulty / damaged，各造一句

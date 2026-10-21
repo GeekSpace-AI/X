@@ -6,7 +6,7 @@
 @think_short: 「下班前给你」by end of day + 谁的时区｜「明天一早」first thing tomorrow morning｜「对齐一下」make sure we're on the same page｜「提前打个招呼」give sb a heads-up
 
 @goal_scene: 和西雅图的同事约定跨时区的交接方式：说清两边的工作时间在哪儿重叠，承诺「下班前、按哪边的时间」交总结，让对方接着往下做；约好紧急情况怎么联系，最后确认理解一致，再把约定写成一条清楚的频道消息。
-@goal_expr: Our working hours only overlap for one hour. / I'll send you a summary by end of day, Shenzhen time. / That's 3 a.m. for you. / Your team can pick up where we left off. / You can read it first thing in the morning. / Let's make sure we're on the same page. / Thanks for the heads-up.
+@goal_expr: Our working hours only overlap for one hour. / I'll send you a summary by end of day, Shenzhen time. / That's 3 a.m. for you. / Your team can pick up where we left off. / You'll get our update first thing in the morning. / Let's make sure we're on the same page. / Thanks for the heads-up.
 @goal_vocab: 20 个重点词 + 5 个短语：时间与时区、异步协作、交接与碰头会、工作聊天工具里的沟通
 @done: 能说清两地的时差和重叠时间，并主动帮对方换算一个时间（That's 3 a.m. for you.）
 @done: 承诺交付时会用 by end of day / first thing in the morning，并且每次都加上「谁的时区」
@@ -31,36 +31,34 @@
 @s: After Tuesday's outage, Lily and Mike want a better handover **workflow**. | 经过周二那次宕机，林晓和 Mike 想把两边的交接流程理顺。
 @br:
 @s: Mike: Our working hours only **overlap** for one hour. | Mike：我们两边的工作时间只重叠一个小时。
-@s: Mike: So most of our work has to be **asynchronous**. | Mike：所以大部分工作只能异步进行。
+@s: Mike: So most of our work is **asynchronous**. | Mike：所以我们大部分工作都是异步进行的。
 @s: Lily: Right. My **morning** is your **evening**. | 林晓：没错，我的早上就是你的晚上。
-@s: Lily: And when you **wake** up, my team has already gone home. | 林晓：等你们醒来，我们团队早就下班回家了。
+@s: Lily: And when you **wake** up, my team has gone home. | 林晓：等你们醒来，我们团队已经下班回家了。
 @s: Lily: I'll send you a summary by **end of day**, Shenzhen time. | 林晓：我每天下班前给你发一份总结，按深圳时间。
 @s: Lily: That's 3 a.m. for you. Your team can **pick up where we left off**. | 林晓：那是你那边凌晨 3 点。你们团队一上班，就能接着我们的进度往下做。
-@s: Mike: Great. A bug you report in the afternoon can be fixed **overnight**. | Mike：好。你下午报的 bug，过一夜就能修好。
-@s: Mike: For most issues, our **turnaround** will be under a day. | Mike：大多数问题，我们的处理周期都能控制在一天以内。
-@s: Mike: And we'll post an update before we log off. You can read it **first thing in the morning**. | Mike：我们下班前也会发一条进展，你早上一上班就能看到。
+@s: Mike: Great. Then most bugs can be fixed **overnight**, with a **turnaround** of under a day. | Mike：好。这样大多数 bug 过一夜就能修好，处理周期不到一天。
+@s: Mike: And you'll get our update **first thing in the morning**. | Mike：我们的进展，你早上一上班就能看到。
 @br:
-@s: Lily: Can we keep it all in one **channel**? Long email threads get lost. | 林晓：能不能都放在一个频道里？长长的邮件串很容易被漏看。
+@s: Lily: Let's keep it all in one **channel**. Emails get lost. | 林晓：都放在一个频道里吧，邮件容易被漏看。
 @s: Mike: Sure. For **clarity**, every request needs a **timeframe** with a time zone. | Mike：当然。为了清楚起见，每个请求都要写明时限，还要带上时区。
 @s: Mike: "Tomorrow" means a different day for each of us. | Mike：「明天」对我们俩来说可不是同一天。
 @s: Lily: Good point. I'll **convert** my deadlines to Seattle time. | 林晓：说得对。我会把截止时间都换算成西雅图时间。
-@s: Mike: Let's also use our one hour for a short **huddle**. | Mike：两边都在线的那一个小时，我们也用起来，开个简短的碰头会。
+@s: Mike: Let's use our one hour for a short **huddle**. | Mike：两边都在线的那一个小时，我们用来开个简短的碰头会。
 @s: Mike: I'll record it, and the **transcript** will go in the channel. | Mike：我会录下来，把文字记录发到频道里。
-@s: Lily: Perfect. Fifteen minutes on video is more **efficient** than ten emails. | 林晓：太好了。视频聊十五分钟，比来回发十封邮件效率高多了。
-@s: Mike: And if something is going to be late, tell us early. **Transparency** saves everyone time. | Mike：还有，要是什么事会晚，早点说。信息透明，大家都省时间。
+@s: Lily: Perfect. That's more **efficient** than ten emails. | 林晓：太好了。这比来回发十封邮件效率高多了。
+@s: Mike: And if anything is late, tell us early. **Transparency** saves time. | Mike：还有，什么事要晚了，早点说。信息透明，大家都省时间。
 @br:
 @s: Mike: Oh, and in November, **daylight** saving time ends in the U.S. | Mike：哦，对了，美国的夏令时十一月结束。
 @s: Mike: Then we'll be sixteen hours apart, not fifteen. | Mike：到时候我们的时差就是十六个小时，不是十五个了。
 @s: Lily: Thanks for the **heads-up**. Let's make sure we're **on the same page**. | 林晓：谢谢你提前告诉我。那我们把约定对一遍，确保理解一致。
 @br:
-@s: After the call, Lily posts in the channel: | 视频会一结束，林晓就在频道里发了一条消息：
-@s: Here's our new handover plan. | 这是我们新的交接方式。
+@s: Lily posts the plan in the channel: | 林晓把约定发到了频道里：
 @s: Shenzhen sends a summary by 6 p.m., Shenzhen time. | 深圳：每天深圳时间晚上 6 点前发总结。
 @s: Seattle posts an update before logging off. | 西雅图：下班前发一条进展。
 @s: The huddle is at 9 a.m. Shenzhen time. Let's keep it short and **productive**. | 碰头会定在深圳时间上午 9 点，尽量开得短、开得有成效。
-@s: Urgent problems? Call Mike, even if it's 3 a.m. in Seattle. | 遇到急事？直接给 Mike 打电话，哪怕西雅图是凌晨 3 点。
+@s: Urgent problems? Call Mike, even at 3 a.m. Seattle time. | 遇到急事？直接给 Mike 打电话，哪怕是西雅图凌晨 3 点。
 @s: Please add a **reaction** when you've read this. | 看完请点个表情回应一下。
-@s: A minute later, Mike adds a thumbs-up and a coffee **emoji**. | 一分钟后，Mike 点了个「赞」，又加了一个咖啡表情。
+@s: Mike replies with a thumbs-up and a coffee **emoji**. | Mike 回了个「赞」，又加了一个咖啡表情。
 
 @v: workflow | = | n. | ˈwɜːrkfloʊ | 工作流程；（一件事在几个人、几个工具之间的）流转方式 | 说团队怎么分工、交接、审批 | a handover workflow；improve our workflow；fit into the workflow | We changed our workflow, and now nothing gets lost. | 我们调整了工作流程，现在什么事都不会漏掉了。 | 中文一个「流程」，英文有好几个词：process（Day 62）是一件事的步骤，procedure 是正式规定的步骤，workflow 强调「活儿在人和工具之间怎么流转」，多用于团队协作和软件；「流程图」是 flowchart，不说 ✗ workflow picture。
 @v: overlap | = | v./n. | ˌoʊvərˈlæp | （时间）重叠；（工作）有交叉 | 说两个时区、两份日程、两个人的职责有重合 | overlap for one hour；overlap with…；an hour of overlap | Our lunch breaks overlap, so let's eat together. | 我们的午休时间重叠，一起吃饭吧。 | 「重叠」不要说 ✗ coincide（偏「碰巧同时发生」）；动词重音在后 over-LAP，名词重音在前 OVER-lap：We have one hour of overlap.；「只重叠一小时」，only 放在动词前：Our hours only overlap for one hour.
@@ -97,8 +95,8 @@
 @d_task: 用英文告诉 Mike：「我深圳时间周五中午前把报告发给你，那是你那边周四晚上 9 点。」 | I'll send you the report by noon on Friday, Shenzhen time. That's 9 p.m. on Thursday for you.
 @diff: 「明天一早」——first thing tomorrow morning
 @d_cn: 明天上班后第一件事就做：不是凌晨，也不是「上午什么时候」，而是「优先、马上」。
-@d_en: You can read it first thing in the morning. / I'll call the warehouse first thing tomorrow. / I'll do it first thing.
-@d_why: 中文「一早」强调「优先、一上班就做」。英文最贴切的是 **first thing**（第一件事）：first thing in the morning / first thing tomorrow / first thing Monday，前面不加介词。逐字翻成 ✗ tomorrow early morning，词序不对；**early tomorrow morning** 语法没错，但强调「明天清早」，美国人可能以为你要五六点起来做。跨时区还要注意谁的早上：Mike 说 You can read it first thing in the morning，指的是林晓的早上。另外 tomorrow morning、this morning 前面都不加 in：✗ in tomorrow morning。
+@d_en: You'll get our update first thing in the morning. / I'll call the warehouse first thing tomorrow. / I'll do it first thing.
+@d_why: 中文「一早」强调「优先、一上班就做」。英文最贴切的是 **first thing**（第一件事）：first thing in the morning / first thing tomorrow / first thing Monday，前面不加介词。逐字翻成 ✗ tomorrow early morning，词序不对；**early tomorrow morning** 语法没错，但强调「明天清早」，美国人可能以为你要五六点起来做。跨时区还要注意谁的早上：Mike 说 You'll get our update first thing in the morning，指的是林晓的早上。另外 tomorrow morning、this morning 前面都不加 in：✗ in tomorrow morning。
 @d_when: 今天来不及、承诺明天优先处理；回复客户「明天一早给您答复」。
 @d_vs: **I'll check it first thing in the morning.** 我明天一早就查。\n**I'll call you first thing Monday.** 我周一一上班就给你打电话。\n**early tomorrow morning** 明天清早（强调时间早）\n✗ tomorrow early morning\n✗ I'll check it in tomorrow morning.
 @d_task: 卖家下午 5 点半发来一个问题，你今天来不及查了。用英文回复：「收到，我明天一早就查，中午前给您答复。」 | Got it. I'll look into it first thing tomorrow morning and get back to you by noon.
@@ -143,13 +141,13 @@
 @lfocus: 时间读法：9 a.m. / 6 p.m. / 3 a.m. / Shenzhen time
 @lfocus: 连读：send you / end of / pick up / left off
 @dict: S7–S9
-@dict: S20–S22
+@dict: S19–S21
 @res: 在 youglish.com 输入 "on the same page"，选 US
 
-@mimic: 跟读【C】S3–S22：先逐句跟读，重点模仿 by end of day, Shenzhen time 前的停顿和 sixteen / fifteen 的重音；再你演林晓、手机朗读 Mike 的台词，正常语速完整对一遍并录音。最后把 S24–S29 的频道消息当成自己写的，大声读一遍。
+@mimic: 跟读【C】S3–S21：先逐句跟读，重点模仿 by end of day, Shenzhen time 前的停顿和 sixteen / fifteen 的重音；再你演林晓、手机朗读 Mike 的台词，正常语速完整对一遍并录音。最后把 S23–S27 的频道消息当成自己写的，大声读一遍。
 @swap: I'll send you a summary by end of day, Shenzhen time. | 换内容和时区：the report / the numbers；Seattle time / your time / Pacific Time | I'll send you the numbers by end of day, Seattle time.
 @swap: Your team can pick up where we left off. | 换人：Leo / the night team / I；we / Grace / you | Leo can pick up where Grace left off.
-@swap: You can read it first thing in the morning. | 换动作和时间：check the dashboard / call Sarah；tomorrow / Monday | I'll call Sarah first thing Monday.
+@swap: You'll get our update first thing in the morning. | 换动作和时间：check the dashboard / call Sarah；tomorrow / Monday | I'll call Sarah first thing Monday.
 @swap: Just a heads-up, daylight saving time ends in November. | 换提醒内容：the system update is tonight / I'm off on Friday / the huddle moved to 9:30 | Just a heads-up, I'm off on Friday.
 @free: Mike 问你：深圳和西雅图现在差几个小时、哪段时间两边都在线？（美国夏令时期间差 15 小时，深圳上午 9–10 点重叠） | We're fifteen hours apart right now. Our hours overlap from 9 to 10 a.m. Shenzhen time, which is 6 to 7 p.m. for you.
 @free: 你下午 4 点发现一个 bug，想让西雅图团队在他们的白天接着查。写条消息：你会在深圳时间下班前发详细说明。 | I'll send you the full details by end of day, Shenzhen time. That way, your team can pick up where we left off in your morning.
@@ -164,7 +162,7 @@
 @check: 改错：① Let's align a bit. ② I'll check it in tomorrow early morning. | ① Let's make sure we're on the same page.（正式一点：Let's align on the plan.）② I'll check it first thing tomorrow morning.
 @check: 同事说 Just a heads-up, the client call moved to Friday.，你怎么回应？heads-up 在这里是什么意思、什么词性？ | Thanks for the heads-up. heads-up 是「提前打的招呼、预先提醒」，是名词，所以前面有 a / the。
 @check: 换个场景：你在上海，合作方在伦敦（英国夏令时期间比上海晚 7 小时，两边只在上海的下午重叠）。用英文告诉他重叠时间，请他伦敦时间下班前发总结，你上海时间明早一上班就看。 | Our working hours only overlap in my afternoon, which is your morning. Could you send me a summary by end of day, London time? I'll read it first thing in the morning.
-@next1: 不看书说出 5 个锚点句：S3、S7、S8、S22（两句）
+@next1: 不看书说出 5 个锚点句：S3、S7、S8、S21（两句）
 @next1: 用 by end of day + 时区、first thing in the morning 各说一句关于你明天工作的话
 @next7: 跨时区五句：Our working hours only overlap for… / by end of day, … time / That's … for you. / pick up where we left off / Thanks for the heads-up.
 @next7: 「对齐」和「打招呼」：make sure we're on the same page / give sb a heads-up，各造两句关于自己工作的话

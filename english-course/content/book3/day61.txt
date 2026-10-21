@@ -56,8 +56,7 @@
 @br:
 @s: Leo: So you're **covering** for Jack? | Leo：所以你是在替 Jack 顶班？
 @s: Lily: Not covering. Jack left the company, so I'm **taking over**. | 林晓：不是顶班。Jack 已经离职了，所以是我正式接手。
-@s: Lily: These sellers are mine now. | 林晓：这些卖家现在归我了。
-@s: Leo: Wow. That's a lot of responsibility! | Leo：哇，责任好大啊！
+@s: Leo: That's a lot of responsibility! | Leo：那责任可不小啊！
 @s: Lily: It is. But I'm really looking forward to it. | 林晓：是啊。不过我特别期待。
 
 @v: inbox | = | n. | ˈɪnbɑːks | （邮箱的）收件箱 | 上班第一件事看邮件、说邮件多到回不完 | check my inbox；in your inbox；a full inbox | I have forty new emails in my inbox this morning. | 今天早上我的收件箱里有四十封新邮件。 | 「收件箱」是一个词 inbox，不说 ✗ receive box；「在收件箱里」用 in：It's in your inbox.；My inbox is never empty. 是职场人常用的半开玩笑说法——邮件永远回不完；重音在 in。
@@ -144,7 +143,7 @@
 @dict: S21–S23
 @res: 在 youglish.com 输入 "point of contact"，选 US，听美国人怎么在会议和电话里介绍「对接人」。
 
-@mimic: 跟读【C】S9–S28：先逐句跟读，模仿林晓「先一句话概括、再列具体工作」的节奏，注意 twenty、account manager、dashboard 的读法；再你演林晓、手机朗读 Leo 的台词，正常语速完整对一遍并录音。最后合上书，只看 Leo 的 5 个问题（What does it involve? / Can you give me a quick overview? / So what are your daily duties? / What's your top priority? / So you're covering for Jack?），用自己的话回答。
+@mimic: 跟读【C】S9–S27：先逐句跟读，模仿林晓「先一句话概括、再列具体工作」的节奏，注意 twenty、account manager、dashboard 的读法；再你演林晓、手机朗读 Leo 的台词，正常语速完整对一遍并录音。最后合上书，只看 Leo 的 5 个问题（What does it involve? / Can you give me a quick overview? / So what are your daily duties? / What's your top priority? / So you're covering for Jack?），用自己的话回答。
 @swap: I'm responsible for twenty sellers in the U.S. | 换职责：the weekly report / onboarding new sellers / two interns | I'm responsible for onboarding new sellers.
 @swap: My main job is to keep them happy. | 换核心工作：answer their questions / make sure packages arrive on time / train new interns | My main job is to make sure packages arrive on time.
 @swap: I check the dashboard on a daily basis. | 换对象和频率：my inbox / the delivery report；on a weekly / monthly basis | I update the delivery report on a weekly basis.

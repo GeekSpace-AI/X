@@ -1,0 +1,174 @@
+@day: 84
+@week: 4
+@title_cn: 描述系统报错
+@title_en: Describing a Bug
+@topic: 写 bug 报告：说清做了什么、期望什么、实际发生什么、多久一次、在什么设备上
+@think_short: 「系统崩了」→ 说具体：The page isn't loading.｜「老是出错」It keeps failing. / every time｜报 bug 四要素：did / expected / actually happened / how often｜「我这边没问题」It works fine on my end.
+
+@goal_scene: 好几个卖家说报表页面一直转圈、打不开。你先自己测试、找出规律，再在每天唯一的重叠时间里跟西雅图的工程师说明情况，最后写一份工程师一看就能复现的 bug 报告。
+@goal_expr: The page keeps spinning and never loads. / It happens every time I click "Export." / Here are the steps to reproduce the bug. / I expected a file, but I got a timeout error. / It works fine on my end. / With smaller accounts, the problem is intermittent. / I'd rate the severity as high.
+@goal_vocab: 20 个重点词 + 5 个短语：故障现象、出现频率、设备与浏览器、bug 报告的固定说法
+@done: 能把「系统崩了」说具体：哪个页面、做了什么、看到什么（keeps spinning / a timeout error / isn't loading）
+@done: 能用 every time / consistently / intermittent / randomly 说清问题出现的频率和条件
+@done: 能写一份结构清楚的 bug 报告：一句话结论 → steps to reproduce → I expected…, but… → 频率 → 设备和已试办法 → 严重程度 → 截图
+
+@warmup: 你们的系统发出请求，我们的系统再把数据传回去。 | Your system sends a request, and our system sends back the data. | D83
+@warmup: 物流状态是实时更新的。 | The tracking status updates in real time. | D83
+@warmup: 我们先在沙盒环境里测试。 | We'll test it in the sandbox first. | D83
+@warmup: 跟进一下我周一发的那封邮件。 | Just following up on my email from Monday. | D80
+@warmup: 妈，我搬进来了！Kevin 帮我把 Wi-Fi 弄好了。 | Mom, I've moved in! Kevin helped me set up the Wi-Fi. | D46
+@warmup: 她把电脑重启了一遍，还是不行。 | She restarts the computer, but it still doesn't work. | D12
+
+@scene: 周四早上八点半，林晓一到公司就看到五条卖家消息，说的都是报表页面：Sarah 说页面一直在转圈；Daniel 的话就难听多了——「你们的系统又崩了！」可是林晓打开别的页面，一切正常。她和实习生 Leo 先自己测：大账号一点「导出」就超时，小账号时好时坏，刷新、清缓存、换浏览器都没用。九点到十点是她和西雅图的 Mike 每天唯一能同时在线的一小时（Mike 那边已经是前一天傍晚），她赶紧打给 Mike。Mike 用自己的测试账号一试——没问题。想让西雅图团队趁深圳的夜里（西雅图的白天）开始修，林晓必须写一份清清楚楚的 bug 报告。
+@sp: 人物关系 | 林晓 ↔ 卖家：她是卖家的对接人，Daniel 一着急就说「系统又崩了」；林晓 ↔ Leo：她带实习生一起排查；林晓 ↔ Mike：跨部门、跨时区的同事，Mike 是工程负责人，说话直接、讲效率
+@sp: 沟通目的 | 把卖家笼统的抱怨变成工程师用得上的信息：做了什么、期望什么、实际发生什么、多久一次，让西雅图团队一上班就能复现、查日志
+@sp: 已知信息 | 林晓知道：别的页面都正常；大账号每次都失败，小账号时好时坏；刷新和清缓存都没用，手机上也一样。Mike 只用自己的小测试账号试过，所以在他那边一切正常
+@sp: 表达重点 | 把「崩了」说具体（keeps spinning / timeout error）→ 说频率（consistently / every time / intermittent）→ 回应 It works fine on my end.（指出两边的差别）→ 邮件：一句话结论 → steps to reproduce → I expected…, but… → 设备、已试办法、严重程度、截图
+
+@story_title: Episode 84 · Steps to Reproduce
+@story_type: 卖家消息 + 对话 + bug 报告邮件
+@s: On Thursday morning, five sellers report the same problem. | 周四早上，五个卖家反映了同一个问题。
+@s: Sarah says the reports page just **spins**. Daniel's message is less polite: | Sarah 说报表页面一直在转圈。Daniel 的消息就没那么客气了：
+@s: Your system **crashed** again! | 你们的系统又崩了！
+@s: **Out of nowhere**, the reports page stopped working. | 报表页面莫名其妙就用不了了。
+@s: The page **keeps spinning** and never loads. | 页面一直转圈，怎么都打不开。
+@br:
+@s: Leo: Maybe it's just a **glitch**? | Leo：会不会只是个小故障？
+@s: Lily: Maybe, but the system isn't down. Other pages load fine. | 林晓：有可能。不过系统并没有崩，别的页面都打得开。
+@s: Lily opens a large test account on her **desktop** and clicks "Export." | 林晓在台式机上打开一个数据量很大的测试账号，点了「导出」。
+@s: The page spins for a minute, and then a **timeout** error appears. | 页面转了一分钟，然后弹出一个超时错误。
+@s: She **refreshes** the page, clears the **cache** and tries another **browser**. | 她刷新了页面、清了缓存，又换了一个浏览器。
+@s: Leo: Does it fail **randomly**? | Leo：它是随机出错吗？
+@s: Lily: No, big accounts fail **consistently**. Small ones sometimes work. | 林晓：不是。大账号每次都失败，小账号有时候能成功。
+@s: Lily: So it's not a glitch. It's a **bug**. | 林晓：所以这不是小故障，是个 bug。
+@br:
+@s: At nine, Lily calls Mike before he logs off in Seattle. | 九点，林晓赶在西雅图的 Mike 下线前给他打了个电话。
+@s: Mike: Weird. It works fine **on my end**. | Mike：奇怪，我这边是好的。
+@s: Mike: Can you **reproduce** it? | Mike：你能复现吗？
+@s: Lily: Yes, with any big account. Your test account is probably small. | 林晓：能，随便哪个大账号都行。你的测试账号可能数据太少了。
+@s: Mike: Good point. Write it up: what you did, the expected **behavior**, the **actual** behavior and how often. | Mike：有道理。你写下来吧：做了什么、期望的结果、实际的结果，还有多久出现一次。
+@s: Mike: I'll check the **logs** when my team gets in. | Mike：等我的团队上班了，我就查日志。
+@br:
+@s: Lily writes to Mike: | 林晓给 Mike 写邮件：
+@s: The subject line is "Export fails for large accounts." | 邮件标题是「大账号导出失败」。
+@s: Hi Mike, | Mike 你好：
+@s: Sellers with large accounts can't export reports. | 大账号的卖家导不出报表。
+@s: Here are the **steps to reproduce** the bug. | 下面是复现这个 bug 的步骤。
+@s: 1. On a desktop browser, log in to an account with over 5,000 orders. | 1. 在电脑浏览器上登录一个订单量超过 5,000 的账号。
+@s: 2. Open the reports page and select "Last 30 days." | 2. 打开报表页面，选择「最近 30 天」。
+@s: 3. Click "Export." | 3. 点击「导出」。
+@s: I expected a file, but I got a timeout error. | 我期望得到一个文件，结果却报了超时错误。
+@s: It happens **every time** I click "Export." | 每次点「导出」都会这样。
+@s: With smaller accounts, the problem is **intermittent**. | 小一些的账号则时好时坏。
+@s: It also **occurs** on **mobile**, so it's not a **device** problem. | 手机上也会出现，所以不是设备的问题。
+@s: Clearing the cache doesn't help. | 清缓存也没用。
+@s: I'd rate the **severity** as high. Sellers need these reports at month-end. | 我把严重程度定为「高」，因为卖家月底要用这些报表。
+@s: Two screenshots are attached. | 附上两张截图。
+@s: Thanks,\nLily | 谢谢，\n林晓
+
+@v: spins | spin | v. | spɪnz | （加载图标）转圈；旋转 | 描述页面、App 一直在加载、出不来 | the page spins；keep spinning；a spinning wheel（转圈的图标） | The app just spins when I open my orders. | 我一打开订单，App 就一直转圈。 | 「一直转圈」直接用 spin：The page just spins. / It keeps spinning.，不说 ✗ The page is turning circles.；主语是 the page / it 时别丢第三人称的 -s；过去式是不规则的 spun `/spʌn/`；那个转圈的图标美国人常叫 spinner 或 loading wheel。
+@v: crashed | crash | v./n. | kræʃt | （程序、系统）崩溃；闪退；死机 | 用户投诉、口头说系统出了问题 | the app crashed；crash every time；a crash | My laptop crashed, and I lost the file. | 我的笔记本死机了，文件也没了。 | crash 是程序突然停掉、退出；页面只是加载不出来，算不上 crash，说 The page isn't loading. 更准确。中文「崩了」什么都能指，给工程师写报告时别只写 ✗ The system crashed.，要说清是哪个页面、什么现象。-ed 读 `/t/`。
+@v: Out of nowhere | out of nowhere | phr. | ˌaʊt əv ˈnoʊwer | 突然；毫无征兆地；莫名其妙地 | 说一件事没有任何预兆就发生了 | out of nowhere；come out of nowhere；stop working out of nowhere | The storm came out of nowhere. | 那场暴风雨来得毫无征兆。 | 口语、带情绪，卖家抱怨时常用；写给工程师的报告里最好换成具体时间：It stopped working at 3 p.m. on Monday.，工程师才能对照日志。nowhere 读 `/ˈnoʊwer/`，不要读成 now-here。
+@v: keeps spinning | keep doing | phr. | ˌkiːps ˈspɪnɪŋ | 一直……；老是……（反复或持续，让人烦） | 描述一直存在或反复出现的问题 | keep failing；keep crashing；keep logging me out | The app keeps logging me out. | 这个 App 老是把我踢下线。 | keep 后面接 -ing：✗ keeps spin / ✗ keeps to spin → ✓ keeps spinning；主语是单数时别忘了 keeps 的 -s：✗ The page keep spinning.；「还在转」是 It's still spinning.，keep doing 更强调「停不下来、一次又一次」。
+@v: glitch | = | n. | ɡlɪtʃ | 小故障；暂时的小毛病 | 说系统偶尔出点小问题，刷新一下可能就好了 | a small glitch；a technical glitch；just a glitch | Sorry, we had a small glitch this morning. It's fixed now. | 抱歉，今天上午出了个小故障，现在已经好了。 | glitch 是轻描淡写的「小毛病」，来得快去得快；bug 是代码里真正的错误，不修就一直在。卖家抱怨一个严重问题时，你回一句 It's just a glitch.，会显得不当回事。
+@v: desktop | = | n./adj. | ˈdesktɑːp | 台式电脑；电脑端（相对手机） | 说在什么设备上出现问题 | on desktop；a desktop computer；the desktop version | The website looks fine on desktop, but not on my phone. | 网站在电脑上显示正常，在手机上就不行。 | 和 mobile 相对时，desktop 泛指「电脑端」（包括笔记本），常说 on desktop / on mobile，不加 the；电脑「桌面」也叫 desktop：Save it to your desktop.
+@v: timeout | = | n. | ˈtaɪmaʊt | （请求）超时 | 系统报错、写 bug 报告 | a timeout error；get a timeout；The request timed out.（动词 time out） | I got a timeout error when I uploaded the file. | 我上传文件时报了超时错误。 | 名词连写成 timeout，动词分开写 time out：The request timed out.；「超时了」不说 ✗ It's over time.；复合名词重音在前：ˈtimeout ˌerror。
+@v: refreshes | refresh | v. | rɪˈfreʃɪz | 刷新（页面） | 让用户刷新试试；报告里写自己试过什么 | refresh the page；hit refresh；refresh your browser | Try refreshing the page. | 试试刷新一下页面。 | 「刷新」是 refresh，不说 ✗ renew the page；重启电脑是 restart（第一册），重置密码是 reset，三个 re- 别混；试过的办法都写进报告：I've refreshed the page and cleared the cache.
+@v: cache | = | n. | kæʃ | 缓存 | 网页、App 出问题时让用户清缓存 | clear the cache；clear your browser cache；a cache issue | Clearing your cache may fix the problem. | 清一下缓存也许就好了。 | cache 读 `/kæʃ/`，和 cash（现金）同音，结尾的 e 不发音，不读「卡谢」；「清缓存」说 clear the cache，不说 ✗ clean the cache / ✗ delete the cache。
+@v: browser | = | n. | ˈbraʊzər | 浏览器 | 说问题出现在什么环境里 | a web browser；try another browser；Which browser are you using? | Which browser are you using, Chrome or Safari? | 你用的是哪个浏览器，Chrome 还是 Safari？ | 「在浏览器里」用 in：in the browser / in Chrome；「换个浏览器试试」Try another browser.；ow 读 `/aʊ/`，s 读 `/z/`。
+@v: randomly | = | adv. | ˈrændəmli | 随机地；毫无规律地 | 说问题出现得没有规律 | fail randomly；happen randomly；randomly chosen | The app crashes randomly, maybe twice a day. | 这个 App 会毫无规律地闪退，一天大概两次。 | 中文的「偶尔」「随机」不要都说 randomly：randomly 强调「看不出规律」；「有时候」是 sometimes；「时好时坏」是 intermittent。工程师最怕 randomly，因为没法复现，所以报告前尽量找出规律（像林晓发现的「大账号必现」）。
+@v: consistently | = | adv. | kənˈsɪstəntli | 每次都；一贯地；稳定地 | 说问题必现；也可以夸人表现稳定 | fail consistently；consistently high；consistently on time | Our packages consistently arrive within seven days. | 我们的包裹一直稳定在七天内送达。 | 在 bug 报告里 consistently = every time（必现），工程师最爱听这个词，因为能复现就好修；形容词 consistent 是「一致的、稳定的」，别和 constant（不停的）混用。
+@v: bug | = | n. | bʌɡ | （程序里的）错误；bug | 报告系统问题、和工程师沟通 | report a bug；fix a bug；a bug report | We found a bug in the new version. | 我们在新版本里发现了一个 bug。 | 中文也说「bug」，但英文读 `/bʌɡ/`，元音像「巴」不像「布」；它是可数名词：✓ There's a bug in… ✗ It has bug.；bug 本义是「小虫子」。
+@v: on my end | = | phr. | ˌɑːn maɪ ˈend | 在我这边；我这儿（的电脑、账号、系统） | 一起排查问题时说自己这边的情况 | on my end；on your end；on our end | Everything looks fine on our end. Can you try again? | 我们这边一切正常，您能再试一次吗？ | 「我这边没问题」不说 ✗ My side is no problem.；问对方：Is it working on your end?；和对方对比时重音移到 my / your 上：It works fine on MY end.
+@v: reproduce | = | v. | ˌriːprəˈduːs | 复现（问题）；让问题再出现一次 | 工程师排查 bug | reproduce the bug；reproduce the problem；can't reproduce it | We can't reproduce the issue on our end. | 我们这边复现不了这个问题。 | 工程师第一句常问 Can you reproduce it?——能复现，才好修；技术圈口语常缩成 repro；re- 读 `/riː/`，主重音在最后：re-pro-DUCE。
+@v: behavior | = | n. | bɪˈheɪvjər | （系统的）表现；运行结果 | bug 报告里写期望 vs 实际 | expected behavior；actual behavior；strange behavior | The app's behavior changed after the update. | 更新以后，这个 App 的表现就不一样了。 | 在 bug 报告里，behavior 指「系统做了什么」，不是人的「行为举止」；一般不加 s；美式拼写 behavior，英式 behaviour。
+@v: actual | = | adj. | ˈæktʃuəl | 实际的；真实的 | 对比期望结果和实际结果 | the actual result；the actual behavior；the actual number | The actual cost was higher than we expected. | 实际花费比我们预想的高。 | actual 是「实际的」，不是「目前的」：「目前的价格」是 the current price，不是 ✗ the actual price；副词 actually 是「其实、实际上」；读 `/ˈæktʃuəl/`，tu 读 `/tʃu/`。
+@v: logs | log | n. | lɑːɡz | 日志（系统的运行记录） | 工程师查问题、找报错 | check the logs；error logs；server logs | Mike checked the logs and found the error. | Mike 查了日志，找到了那个错误。 | 「查日志」说 check the logs，常用复数；log 也是动词「记录」：log every error；第一册的 log in / log out、本课的 logs off 里，log 都是动词。o 读 `/ɑː/`。
+@v: steps to reproduce | = | phr. | ˌsteps tə ˌriːprəˈduːs | 复现步骤 | bug 报告里一步步写出怎么让问题出现 | the steps to reproduce the bug；list the steps to reproduce；clear steps to reproduce | Please include the steps to reproduce in your report. | 请在报告里写上复现步骤。 | 这是 bug 报告的固定栏目名；步骤用编号 + 祈使句，每步一个动作：1. Log in… 2. Open… 3. Click…；to 弱读成 `/tə/`。
+@v: every time | = | phr. | ˌevri ˈtaɪm | 每次；每当……就…… | 说问题出现的频率；后面可以直接接句子 | every time I…；every single time；not every time | Every time I call him, he's in a meeting. | 每次我给他打电话，他都在开会。 | 是两个词，不写成 ✗ everytime；后面直接接句子，不加 when：✗ every time when I click；中文「每次……都……」里的「都」不用翻译。
+@v: intermittent | = | adj. | ˌɪntərˈmɪtənt | 间歇性的；时有时无的 | 说问题时好时坏 | an intermittent problem；intermittent errors；The issue is intermittent. | The Wi-Fi problem is intermittent, so it's hard to fix. | Wi-Fi 的问题时好时坏，所以很难修。 | 中文「时好时坏」「偶发」写进报告用 intermittent，比 sometimes 专业；最好再补一个大概的频率：about one time in five；第二个 t 在美式口语里常变成喉塞音：`/ˌɪntərˈmɪʔnt/`。
+@v: occurs | occur | v. | əˈkɜːrz | 发生；出现（较正式） | 书面报告、邮件里描述问题 | the error occurs；occur on mobile；occur when… | The error only occurs when the file is large. | 只有文件很大时才会出错。 | occur 是 happen 的正式说法：嘴上说 happen，报告里常写 occur；它是不及物动词，不能用被动：✗ The error was occurred. → ✓ The error occurred.；过去式双写 r：occurred。
+@v: mobile | = | adj./n. | ˈmoʊbl | 手机端（的）；移动设备 | 说在手机上是否出现问题 | on mobile；the mobile app；mobile devices | Most of our customers check tracking on mobile. | 我们大多数客户都用手机查物流。 | 美国人日常说「手机」是 phone 或 cell phone，mobile phone 偏英式；但「手机端」说 on mobile、the mobile app 很常见；美式读 `/ˈmoʊbl/`，英式读 /ˈməʊbaɪl/。
+@v: device | = | n. | dɪˈvaɪs | 设备（手机、电脑、平板等） | 排查是不是设备的问题 | on any device；a mobile device；Which device are you using? | You can log in on up to three devices. | 你最多可以在三台设备上登录。 | device 是名词，结尾读 `/s/`；动词 devise `/dɪˈvaɪz/`（想出、设计）拼写和读音都不同；「设备问题」说 a device problem / a device issue。
+@v: severity | = | n. | səˈverəti | 严重程度 | bug 报告、事故分级 | high severity；low severity；the severity of the problem | Every bug gets a severity level from one to four. | 每个 bug 都会被定一个 1 到 4 级的严重程度。 | 形容词是 severe（严重的）；「严重程度高」说 The severity is high. / I'd rate the severity as high.，不说 ✗ The serious level is high.；severity 说「有多严重」，priority（D61）说「先做哪个」，两者不一定一样。
+
+@diff: 「系统崩了」——说具体：It crashed. / It's down. / The page isn't loading.
+@d_cn: 系统出了问题，中文一句「系统崩了」「系统有问题」就打发了：不管是整个打不开、某个页面打不开，还是点了按钮没反应。
+@d_en: The system is down. / The app crashed. / The reports page isn't loading. / The page keeps spinning and never loads.
+@d_why: 中文「崩了」是个筐，什么都能装；英文几个说法差别很大：**be down** 是整个系统、网站都用不了（第一册 the system was down）；**crash** 是程序突然停掉、退出（App 闪退、电脑死机）；**isn't loading / keeps spinning** 是某个页面一直加载不出来；**an error appears** 是弹出报错。Daniel 说 Your system crashed again!，其实系统没崩——别的页面都正常，只是导出报表时一直转圈、最后超时。对工程师说 ✗ The system has a problem. 等于什么都没说，他一定会追问 What exactly happened? 所以要用最准确的那个说法，再加上「哪个页面、做了什么」。卖家可以说得笼统，你转给工程师时要把它翻译成具体的现象。
+@d_when: 给 IT 或工程师报问题、回复客户投诉、在群里通知同事时。
+@d_vs: **The system is down.** 整个系统都用不了。\n**The app crashed.** App 闪退了。\n**The reports page isn't loading.** 报表页面打不开。\n**The page keeps spinning and never loads.** 页面一直转圈，怎么都打不开。\n✗ The system has some problem.（太笼统）\n✗ The system is broken down.（break down 说的是车、机器抛锚）
+@d_task: 把这句话改具体：The system has a problem.（情况：今天上午十点起，订单页面一点「Print」就报错，别的页面正常） | Since 10 a.m., the orders page shows an error every time I click "Print." Other pages are fine.
+@diff: 「老是出错」——It keeps failing. / every time / intermittent
+@d_cn: 一个问题反复出现：是每次都出（必现），还是有时候出（偶发），还是看不出规律。
+@d_en: It keeps failing. / It happens every time I click "Export." / Big accounts fail consistently. / The problem is intermittent. / It crashes randomly.
+@d_why: 中文的「老是」「一直」「总是」听不出频率，工程师却最关心频率，因为它决定能不能复现。英文分得很细：**keep + -ing** 是「一直、反复」，带点烦躁；**every time / consistently** 是「每次都」——必现，最好修；**intermittent**（时好时坏）和 **randomly**（毫无规律）最难修，所以要尽量补上条件或比例：only with large accounts / about one time in five。林晓就是这样做的：她没有停在「有时候能用」，而是找出了「大账号必现、小账号偶发」的规律。语法上注意两点：keep 后面接 -ing（✗ keeps fail）；every time 后面直接接句子，不加 when（✗ every time when I click）。
+@d_when: 写 bug 报告的「频率」一栏；向客户、同事描述一个问题出现得多不多。
+@d_vs: **It happens every time I click "Export."** 每次点「导出」都会出现。（必现）\n**Big accounts fail consistently.** 大账号每次都失败。\n**With smaller accounts, the problem is intermittent.** 小账号时好时坏。\n**It crashes randomly, maybe twice a day.** 毫无规律地闪退，一天两次左右。\n✗ It always keep fail.\n✗ every time when I click
+@d_task: 告诉 Mike：「手机上每次都出错；电脑上时好时坏，大概五次出一次。」 | On mobile, it fails every time. On desktop, the problem is intermittent. It fails about one time in five.
+@diff: 报 bug 四要素——what I did / what I expected / what actually happened / how often
+@d_cn: 中文习惯先讲来龙去脉，最后来一句「麻烦帮忙看看」；对方读完还得回头问：你到底点了什么？
+@d_en: Sellers with large accounts can't export reports. / Here are the steps to reproduce the bug. 1. … 2. … 3. … / I expected a file, but I got a timeout error. / It happens every time I click "Export."
+@d_why: 美国工程团队的 bug 报告有一套几乎固定的结构，Mike 在电话里一口气就说出来了：**what you did**（复现步骤，编号 + 祈使句：Log in… Open… Click…）→ **the expected behavior**（I expected…）→ **the actual behavior**（but I got… / Instead, …）→ **how often**（every time / intermittent）。再补上设备和浏览器、你已经试过的办法（refresh、clear the cache）、严重程度和截图。标题和第一句先说结论：Sellers with large accounts can't export reports.——Mike 一眼就知道哪里坏了、影响谁。时态也有分工：步骤用祈使句，期望和实际用过去时（expected / got），频率用一般现在时（It happens…）。
+@d_when: 给工程师、IT 报问题；在工单系统里填写问题描述；转述卖家的投诉时。
+@d_vs: ✗ **Hi Mike, some sellers said report has problem, can you help check? Thanks!**\n✓ **Sellers with large accounts can't export reports.**（结论）\n✓ **Here are the steps to reproduce the bug. 1. … 2. … 3. …**（做了什么）\n✓ **I expected a file, but I got a timeout error.**（期望 vs 实际）\n✓ **It happens every time I click "Export."**（频率）
+@d_task: 用「期望 vs 实际」说：点「保存」以后，你以为会看到确认提示，结果页面变成了空白。 | I expected a confirmation message, but I got a blank page.
+@diff: 「我这边没问题」——It works fine on my end.
+@d_cn: 一起排查问题时，说自己这里（自己的电脑、账号、网络）的情况，或者请对方在他那里试一下。
+@d_en: It works fine on my end. / Is it working on your end? / Everything looks normal on our end.
+@d_why: 中文「我这边」「你那边」很顺口，直译出来就成了 ✗ My side is no problem. / ✗ In my side, it's OK.——英文要先说出「什么东西正常」（It works fine），再用 **on my end** 表示「在我这头」；end 是一条线的一端，就像打电话时的 on my end / on your end。这句话常常是排查的第一步，但不是结论：Mike 说 It works fine on my end. 以后，林晓没有争论，而是马上指出两边的差别（Your test account is probably small.）。「你那边正常」不等于问题不存在，要找出两边哪里不一样。
+@d_when: 和 IT、工程师、客户一起排查问题；视频会议里说自己这边的状况：Sorry, there's a lot of noise on my end.
+@d_vs: **It works fine on my end.** 我这边是好的。\n**Is it working on your end?** 你那边能用吗？\n**Everything looks normal on our end.** 我们这边一切正常。\n✗ My side is no problem.\n✗ In my side, it's OK.
+@d_task: 卖家说追踪页面打不开。你这边一切正常，请他清一下缓存再试。 | It works fine on my end. Could you clear your cache and try again?
+
+@core: The … page keeps + -ing and never loads. | 描述一直存在的故障现象 | spinning / showing an error / logging me out；the reports page / the app | 正式：The reports page does not load; the loading icon keeps spinning.｜随意：It just keeps spinning.
+@core: It happens every time I … | 说明问题必现、在哪个操作之后出现 | click "Export" / upload a file / log in on my phone | 正式：The error occurs consistently when I click "Export."｜随意：Every time I hit Export, I get an error.
+@core: Here are the steps to reproduce the bug. 1. … 2. … 3. … | bug 报告里一步步写出复现方法 | the bug / the issue / the error | 正式：The steps to reproduce are listed below.｜随意：Here's how to make it happen.
+@core: I expected …, but I got … | 对比期望结果和实际结果 | a file / a confirmation email；a timeout error / a blank page | 正式：Expected behavior: a CSV file. Actual behavior: a timeout error.｜随意：It should give me a file, but I just get an error.
+@core: It works fine on my end. Is it working on your end? | 排查时说明自己这边的情况、请对方确认 | my end / your end / our end | 正式：We are unable to reproduce the issue on our end.｜随意：Works for me!
+@core: Big accounts fail consistently. / The problem is intermittent. | 说明出现的频率和条件 | consistently / intermittent / randomly；large accounts / mobile | 正式：The issue is intermittent; it occurs in about one in five attempts.｜随意：It's hit or miss.
+@core: I'd rate the severity as high, because … | 给出严重程度和理由 | high / medium / low | 正式：Severity: high. Month-end reporting is blocked for affected sellers.｜随意：This one's pretty urgent.
+@core: Clearing the cache doesn't help. Two screenshots are attached. | 交代已经试过的办法和附件 | refreshing the page / trying another browser；two screenshots / the error message | 正式：I have already cleared the cache and tested two browsers. Please see the attached screenshots.｜随意：Already tried clearing the cache. Screenshots attached.
+
+@pw: reproduce | ˌriːprəˈduːs | 3 个音节 re·pro·DUCE | 主重音在最后的 duce；re 带次重音读长音 `/riː/`；pro 弱读成 `/prə/`
+@pw: intermittent | ˌɪntərˈmɪtənt | 4 个音节 in·ter·MIT·tent | 重音在 mit；结尾 -ttent 美式常吞成 `/ʔnt/`，t 几乎听不见
+@pw: consistently | kənˈsɪstəntli | 4 个音节 con·SIS·tent·ly | 重音在 sis；con 弱读成 `/kən/`；-tently 里的 t 很轻
+@pw: severity | səˈverəti | 4 个音节 se·VER·i·ty | 重音在 ver；结尾 -ty 的 t 闪音，像轻轻的 d：se-VER-a-dee
+@pw: behavior | bɪˈheɪvjər | 3 个音节 be·HAV·ior | 重音在 hav，读 `/heɪ/`；结尾 -ior 读 `/jər/`，不读「哈维尔」
+@pw: cache | kæʃ | 1 个音节 CACHE | 和 cash 同音；e 不发音
+@pw: timeout | ˈtaɪmaʊt | 2 个音节 TIME·out | 复合名词，重音在前；timeout error 里 error 只带次重音
+@ps: The **page** keeps‿**spin**ning / and **nev**er **loads**. | keeps 结尾的 s 和 spinning 开头的 s 连成一个长一点的 /s/；loads 结尾是 /dz/，别丢掉。
+@ps: It **hap**pens / **ev**ery **time** I click‿Ex**port**. | every time 两个词都要清楚；按钮上的 Export 是动词，重音在后 ex-PORT；名词「出口」才读 EX-port。
+@ps: I ex**pect**ed‿a **file**, / but I **got**‿a **time**out‿error. | expected 的 -ed 读 `/ɪd/`，和 a 连成 ex-PEC-ti-da；got a 的 t 闪音，像 ga-da；timeout error 重音在 time。
+@ps: It **works** fine / on my **end**. | 一般说法重音在 end；想强调「我这边（不是你那边）」时，重音移到 my 上：on **my** end。
+@pnote: 复合名词的重音在第一个词：**time**out error、re**ports** page、**test** account、**bug** report、**screen**shot、**month**-end。对比「形容词 + 名词」，重音在名词上：a large ac**count**、a small **prob**lem。听的时候，前重后轻的两个词就是一个「词组名」，别把它拆开理解。
+@pnote: can 和 can't：Sellers **can't** export 里的 can't 读完整的 `/kænt/`，元音饱满，t 常常只做口型不爆破；Can you reproduce it? 里的 can 弱读成 `/kən/`。听的时候靠元音分辨，不要等那个 t。数字：Last **30** days 读 **THIR**ty，重音在前，不是 thir**TEEN**；5,000 = five thousand。写和说的不同：邮件里写 Two screenshots are attached.（are 弱读成 `/ər/`），嘴上更常说 I sent you two screenshots.
+@lfocus: can't `/kænt/` vs can `/kən/`：Sellers can't export… / Can you reproduce it?
+@lfocus: 复合名词重音：timeout error、reports page、test account
+@lfocus: 数字和时间：thirty（Last 30 days）、five thousand、At nine
+@dict: S15–S18
+@dict: S28–S31
+@res: 在 youglish.com 输入 "on my end"，选 US，听美国人排查问题时怎么说自己这边的情况。
+
+@mimic: 跟读【C】S1–S19：先正常语速逐句跟读，重点模仿 keeps spinning 的连读和 It works fine on my end. 的重音；再由你演林晓、手机朗读 Leo 和 Mike 的台词，完整对一遍并录音。最后把邮件 S20–S35 当成你自己写的报告，用平稳、清楚的汇报语气读一遍。
+@swap: The page keeps spinning and never loads. | 换现象：logging me out／showing the same error／crashing；换主语：the app／the label page | The app keeps logging me out.
+@swap: It happens every time I click "Export." | 换操作：upload a file／log in on my phone／print a label | It happens every time I print a label.
+@swap: I expected a file, but I got a timeout error. | 换期望和实际：a confirmation email → nothing；the new data → last week's numbers | I expected the new data, but I got last week's numbers.
+@swap: It works fine on my end. | 换：our end／your end；或问对方、或说两边都不行：Is it working…?／It doesn't work… either | Is it working on your end?
+@free: 同事在群里只说了一句「系统崩了！」你想让他说具体：哪个页面、做了什么、看到了什么 | I need a bit more detail. Which page isn't loading, and what did you click right before it happened? A screenshot would really help.
+@free: 卖家说物流追踪页面打不开；你在自己电脑上试了一切正常，请他刷新、清缓存再试 | It works fine on my end, so it might be a cache issue. Could you refresh the page, clear your cache and try again?
+@free: 给 Mike 写报告的「频率」部分：手机上每次都出错，电脑上时好时坏（大概五次出一次） | On mobile, it fails every time. On desktop, the problem is intermittent. It fails about one time in five.
+@free: 张涛问你这个 bug 严不严重（你认为很严重：你负责的 20 个卖家都受影响，月底要用报表） | I'd rate the severity as high. All twenty of my sellers are affected, and they need these reports at month-end.
+@output: 写一封 6–10 句的 bug 报告邮件（发给 Mike 或你公司的 IT）：一句话结论 → Here are the steps to reproduce… → I expected…, but I got… → 多久一次（every time / intermittent）→ 设备和浏览器、已经试过的办法 → 严重程度和理由 → 截图。可以写工作中真实遇到的问题，也可以写手机上某个 App 的毛病（比如一上传照片就闪退）。
+@output_sample: Hi Kevin,\nThe expense app crashes every time I upload a photo of a receipt.\nHere are the steps to reproduce the bug: open the app on my phone, tap "New expense" and upload a photo.\nI expected to see the photo in the form, but the app closed.\nIt happens every time with photos from my camera, but screenshots upload fine.\nIt also occurs in my desktop browser, so it's not a device problem.\nI've restarted my phone and cleared the cache, but it doesn't help.\nI'd rate the severity as medium, because I can still email my receipts to finance.\nTwo screenshots are attached.\nThanks,\nLily
+
+@check: 听力：卖家们遇到的到底是什么问题？林晓为什么说系统其实没崩？ | 在报表页面点「导出」后，页面一直转圈，最后报超时错误；别的页面都能正常打开（Other pages load fine.），所以不是整个系统崩了。
+@check: 听力：Mike 那边为什么一切正常？他让林晓在报告里写哪几项？ | 他的测试账号可能数据量太小，而问题只在大账号上必现；他要四项：做了什么、期望的结果（expected behavior）、实际的结果（actual behavior）、多久出现一次。
+@check: 同事在群里只说了一句 The app crashed!，你要追问哪三个问题？用英文问。 | What were you doing when it happened? What did you expect, and what actually happened? Does it happen every time?
+@check: 改错：✗ Every time when I click "Save", the page keep spinning. | Every time I click "Save," the page keeps spinning.（every time 后面直接接句子，不加 when；the page 是单数，keeps 要加 -s）
+@check: 用哪个词：① 每次都出错 ② 时好时坏 ③ 毫无规律 | ① consistently（或 every time）② intermittent ③ randomly
+@check: 把这个 bug 报告标题改得具体一些：Export doesn't work. | 例如：Export times out for accounts with over 5,000 orders.（说清什么功能、什么现象、在什么条件下）
+@next1: 不看书说出 5 个锚点句：S5、S15、S24、S28、S29
+@next1: 用「做了什么 → 期望什么 → 实际发生了什么 → 多久一次」口头描述一个你手机上遇到过的小问题
+@next7: bug 报告的结构：结论 → steps to reproduce → I expected…, but… → every time / intermittent → 设备 → 已试办法 → severity → 截图
+@next7: keep + -ing、every time、on my end 各造一句关于你自己工作的话

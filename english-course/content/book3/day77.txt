@@ -1,0 +1,173 @@
+@day: 77
+@week: 3
+@title_cn: 道歉与补救
+@title_en: We're Sorry — Here's What We're Doing
+@topic: 系统漏发了约 300 条派送通知：问清原因，给受影响的卖家写道歉邮件——道歉、说明原因、承担责任、补救、防止再发生
+@think_short: 道歉分轻重：Sorry about that. / I apologize for… / We sincerely apologize for…｜道歉后必须说「我们在做什么」（不说 Please understand）｜「是我们的问题」This is on us. / We take full responsibility.｜不轻易说 never：put measures in place to prevent…
+
+@goal_scene: 公司的系统出了错，影响了很多客户：你要先问清原因和修复情况，再以公司名义写一封道歉邮件——真诚道歉、一句话说清发生了什么、承担责任、给出具体补救、说明防止再发生的措施；对最生气的客户，再单独写几句。
+@goal_expr: We sincerely apologize for… / I completely understand your frustration. / We take full responsibility for the mistake. / This is on us. / Here's how we'll make it right. / As a goodwill gesture, we've added… / The root cause was… / We're putting new measures in place to prevent this from happening again.
+@goal_vocab: 20 个重点词 + 5 个短语：道歉与情绪、原因与调查、补救与补偿、预防措施
+@done: 能按事情大小选道歉的轻重：Sorry about that. / I apologize for… / We sincerely apologize for…
+@done: 能写一封 6–8 句的道歉邮件：道歉 → 一句原因 → 承担责任 → 具体补救 → 预防措施，不写 ✗ Please understand. 或 ✗ This will never happen again.
+@done: 能分清 frustrated / frustration / frustrating，会用 prevent … from + -ing
+
+@warmup: 只要有货值证明，我们就会受理。 | As long as you have proof of value, we'll process it. | D76
+@warmup: 除非寄件时买了保险，否则赔偿上限是一百美元。 | Unless the package was insured, the maximum is one hundred dollars. | D76
+@warmup: 这样的话，恐怕我们没法破例。 | In that case, I'm afraid we can't make an exception. | D76
+@warmup: 这对我们的客户有什么影响？ | How did this affect our customers? | D72
+@warmup: 寄箱子的时候我漏了一张表格。对不起，是我的错。 | I forgot to send one form with the box. Sorry, it's my fault. | D23
+@warmup: 我等了好久了！你怎么不回消息？ | I've been waiting for ages! Why didn't you answer? | D34
+
+@scene: 周三早上。昨天（周二）SwiftLink 的通知服务出了问题：大约 300 条「正在派送」「已签收」的通知没有发给买家，很多买家以为包裹丢了，纷纷去问卖家。受影响最大的是 BrightNest：60 个客户没收到更新，客服接了 40 个愤怒的电话。Priya 一早就发来邮件，话说得很重。林晓先利用和西雅图唯一重叠的那一小时（深圳上午 9 点，西雅图傍晚 6 点）跟 Mike 视频，问清原因和修复情况；再找张涛商量怎么补偿；然后以公司名义给所有受影响的卖家写道歉邮件，并单独回复 Priya。
+@sp: 人物关系 | 林晓 ↔ Priya：客户经理和一位讲数据、此刻很生气的大客户；林晓 ↔ Mike：跨时区的同事，Mike 负责系统和事故；林晓 ↔ 张涛：员工和经理，补偿方案要张涛拍板
+@sp: 沟通目的 | 向所有受影响的卖家正式道歉，说清发生了什么、我们负责、怎么补救、以后怎么防；单独安抚 Priya，让她看到具体行动
+@sp: 已知信息 | 原因：周一晚上的一次更新弄坏了通知服务，周二大约十二个小时没有通知；已经修好，还在调查为什么测试没发现；补偿：每个受影响的卖家一个月的服务抵扣额；真丢的包裹免费补发，晚到的免费加急
+@sp: 表达重点 | We sincerely apologize for… → 一句话原因（A software update stopped them…）→ We take full responsibility… → Here's how we'll make it right. → As a goodwill gesture, … → We're putting new measures in place… → 给 Priya：I completely understand your frustration. + 我亲自做什么
+
+@story_title: Episode 77 · This Is on Us
+@story_type: 邮件 + 对话
+@s: On Tuesday, about three hundred delivery notifications never went out. | 周二，大约三百条派送通知没有发出去。
+@s: Many shoppers thought their packages were lost. | 很多买家以为自己的包裹丢了。
+@s: On Wednesday morning, Priya writes: | 周三早上，Priya 来信：
+@s: Lily, sixty of our customers got no updates yesterday. | 林晓，昨天我们有六十个客户没收到任何物流更新。
+@s: Our support team took forty angry calls. | 我们的客服接了四十个愤怒的电话。
+@s: Everyone here is **frustrated**. Frankly, this is **unacceptable**. | 这边每个人都很恼火。说实话，这是不能接受的。
+@br:
+@s: At nine, Lily has a video call with Mike. It's 6 p.m. in Seattle. | 九点，林晓和 Mike 开视频会，西雅图那边是傍晚六点。
+@s: Mike: We've found the **root cause**. Monday night's update broke the notification service. | Mike：我们找到根本原因了：周一晚上的更新把通知服务弄坏了。
+@s: Mike: We fixed it **immediately**, but we're still **investigating** why our tests missed it. | Mike：我们马上就修好了，不过还在调查测试为什么没发现。
+@s: Mike: To avoid a **recurrence**, every update will now be tested twice. | Mike：为了避免再次发生，以后每次更新都要测试两遍。
+@s: Mike: That should **ensure** we catch problems before sellers do. | Mike：这样应该能保证我们比卖家先发现问题。
+@br:
+@s: Then Lily talks to Tom. | 然后林晓去找张涛。
+@s: Tom: Priya's anger is **understandable**. **Acknowledge** the problem first. | 张涛：Priya 生气是可以理解的。先承认问题。
+@s: Tom: But an **apology** alone isn't enough. Sellers want a **solution**. | 张涛：但光道歉不够，卖家要的是解决办法。
+@s: Lily: What **remedy** can we offer? | 林晓：我们能给什么补救？
+@s: Tom: A one-month **credit** for every seller affected. | 张涛：每个受影响的卖家，给一个月的服务抵扣额。
+@s: Tom: And we'll **reship** lost packages and **expedite** late ones. | 张涛：另外，真丢了的包裹我们补发，晚到的我们加急。
+@br:
+@s: Lily writes to all affected sellers: | 林晓给所有受影响的卖家写邮件：
+@s: Dear SwiftLink sellers, | 各位 SwiftLink 卖家：
+@s: We **sincerely** apologize for the missing notifications. | 对于通知漏发一事，我们深表歉意。
+@s: A software update stopped them for about twelve hours on Tuesday. | 周二的一次软件更新导致通知中断了大约十二个小时。
+@s: We **take full responsibility** for the mistake. | 这次失误，我们负全部责任。
+@s: Here's how we'll **make it right**. | 下面是我们的补救办法。
+@s: **As a goodwill gesture**, we've added a credit to your account. | 为表诚意，我们已经在您的账户里加了一笔服务抵扣额。
+@s: Lost packages will be reshipped, and late ones will be expedited, at no cost. | 真丢失的包裹会免费补发，晚到的会免费加急。
+@s: We're putting new **measures** in place to **prevent** this from happening again. | 我们正在落实新的措施，防止类似情况再次发生。
+@s: Best regards, Lily Lin, SwiftLink | 祝好！SwiftLink 林晓
+@br:
+@s: Lily also writes to Priya **personally**: | 林晓还单独给 Priya 写了几句：
+@s: Priya, **I completely understand** your **frustration**. | Priya，您的恼火我完全理解。
+@s: I'll check all sixty orders myself today. | 那六十个订单，我今天亲自逐一核查。
+@s: An hour later, Priya replies: | 一小时后，Priya 回复：
+@s: Thanks, Lily. Apology **accepted**. | 谢谢你，林晓。道歉我接受了。
+
+@v: frustrated | = | adj. | ˈfrʌstreɪtɪd | 恼火的；憋屈的（事情不顺、努力没结果） | 客户、同事因为延误、出错、没人回复而烦躁 | feel frustrated；frustrated with / about…；get frustrated | I get frustrated when the Wi-Fi keeps dropping. | Wi-Fi 老断的时候我特别恼火。 | frustrated 不是「沮丧、受挫」那么文：它就是中文的「烦死了」「憋屈」「火大」；形容人用 frustrated，形容事用 frustrating：✗ I'm frustrating. → ✓ I'm frustrated. / ✓ It's frustrating.；重音在前 FRUS-tra-ted。
+@v: unacceptable | = | adj. | ˌʌnəkˈseptəbl | 不能接受的；不可容忍的 | 客户投诉、经理批评时，说问题很严重 | totally unacceptable；an unacceptable delay；That's unacceptable. | Waiting three weeks for a reply is unacceptable. | 等三个星期才回复，这是不能接受的。 | 语气很重，客户说这句话就是在正式表达不满，回复时要先承认、再给行动，不要辩解；自己说别人时少用；5 个音节 un-ac-CEP-ta-ble，主重音在 cep。
+@v: root cause | = | phr. | ˈruːt ˌkɔːz | 根本原因 | 排查问题、写事故说明、开复盘会 | find the root cause；the root cause of…；root cause analysis | We need to find the root cause, not just fix the symptoms. | 我们要找到根本原因，而不只是治标。 | 中文「根本原因」「根源」都可以说 root cause；和 D72 的 cause、reason 比，root cause 专指「最底层、真正的那个原因」；复合名词，重音在 root：ROOT cause。
+@v: immediately | = | adv. | ɪˈmiːdiətli | 立刻；马上 | 说处理得很快、要求马上行动 | fix it immediately；immediately after…；reply immediately | Please call me immediately if anything changes. | 有任何变化请马上给我打电话。 | 比 right away / at once 正式，写进邮件和报告很合适；口语说 right away 更自然；immediately 放在动词后或句尾，不放在 be 前面：✗ We immediately are fixing…；5 个音节 im-ME-di-ate-ly。
+@v: investigating | investigate | v. | ɪnˈvestɪɡeɪtɪŋ | 调查；查明（原因） | 排查事故、处理投诉、查找问题原因 | investigate the issue；investigate why…；We're investigating. | We're investigating why the payment failed. | 我们正在调查付款为什么失败。 | 客服和事故通知里最常见的一句：We're investigating the issue.（我们正在调查）；investigate 后面直接接宾语，不加 about：✗ investigate about the problem；名词是 investigation；重音在 VES：in-VES-ti-gate。
+@v: recurrence | = | n. | rɪˈkɜːrəns | 再次发生；复发 | 事故报告、道歉信里说「防止再发生」 | prevent a recurrence；avoid a recurrence；the recurrence of… | We've taken steps to avoid a recurrence of the problem. | 我们已经采取措施，避免问题再次发生。 | 很正式，多见于事故报告和正式邮件；口语说 so it doesn't happen again 就行；动词是 recur（再次发生）；拼写两个 r：re-cur-rence；重音在 CUR。
+@v: ensure | = | v. | ɪnˈʃʊr | 确保；保证 | 说措施的目的：让某事一定发生或不发生 | ensure that…；ensure quality；to ensure… | Please check the address twice to ensure it's correct. | 请把地址核对两遍，确保没有错。 | ensure（确保某事发生）和 insure（给……上保险，D76）、assure（向某人保证）读音几乎一样，意思不同：ensure the data is correct / insure the package / I assure you…；第一册学过的 make sure 更口语，ensure 更书面。
+@v: understandable | = | adj. | ˌʌndərˈstændəbl | 可以理解的；情有可原的 | 表示理解对方的情绪或做法 | It's understandable.；completely understandable；an understandable mistake | Your concern is completely understandable. | 您的担心完全可以理解。 | 用来肯定「对方这样反应是合理的」：Her anger is understandable.；不说 ✗ I'm understandable.（那是「我是能被理解的」）；对客户说 That's completely understandable. 是很好的缓冲句；重音在 STAND。
+@v: Acknowledge | acknowledge | v. | əkˈnɑːlɪdʒ | 承认（问题、错误）；确认收到 | 道歉时先承认问题；邮件里确认收到 | acknowledge the problem；acknowledge a mistake；acknowledge receipt of… | We acknowledge that the delay caused problems for your team. | 我们承认这次延误给您的团队带来了麻烦。 | 中文「承认」不只是 admit：admit 常是被追问后「不情愿地承认」，acknowledge 是主动、坦然地承认，客服和管理里更常用；还有「确认收到」：Please acknowledge this email.；k 不发音，重音在 KNOW：ac-KNOW-ledge `/ɑː/`。
+@v: apology | = | n. | əˈpɑːlədʒi | 道歉 | 正式地说「道歉」这件事 | an apology；a sincere apology；accept sb's apology | Please accept my apology for the late reply. | 回复晚了，请接受我的道歉。 | 名词 apology，动词 apologize（第一册）：✗ I apology. → ✓ I apologize. / My apologies.；「接受道歉」是 accept sb's apology；正式邮件常用复数 Please accept our apologies.；重音在 POL：a-POL-o-gy。
+@v: solution | = | n. | səˈluːʃn | 解决办法；方案 | 客户要的是办法，不只是道歉；讨论方案 | a solution to…；find a solution；a quick solution | We need a solution to the late-delivery problem. | 我们需要一个解决晚到问题的办法。 | 「……的解决办法」用 solution **to**，不用 of / for：a solution to the problem；只是临时的办法叫 a workaround（D78）；重音在 LU：so-LU-tion。
+@v: remedy | = | n. | ˈremədi | 补救办法；（正式）补偿措施 | 正式地谈怎么弥补客户的损失 | a remedy for…；offer a remedy；the best remedy | A full refund is the usual remedy for a damaged item. | 货品损坏时，通常的补救办法是全额退款。 | 偏正式，多见于合同和客服规定；日常也指「偏方、疗法」：a home remedy for a cold；和 solution 比：solution 是解决问题本身，remedy 是对受影响的人做出弥补；重音在前 REM-e-dy。
+@v: credit | = | n. | ˈkredɪt | （账户里的）抵扣额；余额 | 补偿客户：下次付款时直接抵扣 | a credit to your account；a $50 credit；store credit | We've added a $20 credit to your account. | 我们已经在您的账户里加了 20 美元的抵扣额。 | credit 不是现金退款（refund，第一册）：它留在账户里，下次付费时自动扣掉；「信用卡」是 credit card；「功劳」也是 credit：Grace deserves the credit.；重音在前 CRED-it。
+@v: reship | = | v. | ˌriːˈʃɪp | 补发；重新寄出 | 包裹丢失或损坏后再寄一件 | reship the item；reship for free；be reshipped | We'll reship the order if it doesn't arrive by Friday. | 如果周五前还没到，我们就补发这一单。 | re- 表示「再一次」：reship / resend / reschedule；中文「补发」不说 ✗ send again a new one；被动很常见：Lost packages will be reshipped.；读音 ree-SHIP，re 读 `/riː/`。
+@v: expedite | = | v. | ˈekspədaɪt | 加急；加快处理 | 物流加急、加快审批或处理 | expedite the order；expedite shipping；expedited delivery | Can you expedite my order? I need it by Monday. | 我的订单能加急吗？我周一就要用。 | 中文「加急」说 expedite，不说 ✗ make it urgent；网购时常见 expedited shipping（加急配送）；比 speed up 正式；重音在第一个音节 EX-pe-dite，结尾 dite 读 `/daɪt/`。
+@v: sincerely | = | adv. | sɪnˈsɪrli | 真诚地；诚挚地 | 正式道歉、正式感谢；也是正式信件的落款 | sincerely apologize；sincerely hope；Sincerely, | I sincerely hope the new plan works for you. | 我真心希望新方案对您有用。 | We sincerely apologize for… 是公司层面最正式的道歉；落款 Sincerely,（此致）用于很正式的信，日常工作邮件用 Best regards, 就好；不说 ✗ very sincerely apologize（太重）；重音在 CERE。
+@v: take full responsibility | = | phr. | ˌteɪk ˌfʊl rɪˌspɑːnsəˈbɪləti | 承担全部责任；负全责 | 正式地承认是自己或公司的错 | take full responsibility for…；take responsibility；accept full responsibility | I take full responsibility for the delay. | 这次延误，我负全部责任。 | responsibility 第二册学过（职责）；「负责任」用 take responsibility，不说 ✗ bear the responsibility of…（太书面）或 ✗ be responsible to the mistake；口语更常说 That's on me. / This is on us.。
+@v: make it right | = | phr. | ˌmeɪk ɪt ˈraɪt | 弥补；把事情纠正过来 | 道歉之后说补救办法，语气真诚 | make it right；make things right；Here's how we'll make it right. | We made a mistake, and we want to make it right. | 我们犯了错，想好好弥补。 | 中文「弥补」「给个说法」，英文最自然的就是 make it right；它承诺的是「行动」，后面一定要跟具体做法；make it 连读成 `/meɪkɪt/`，重音落在 right。
+@v: As a goodwill gesture | as a goodwill gesture | phr. | əz ə ˌɡʊdˈwɪl ˈdʒestʃər | 为表诚意；作为善意的表示 | 规定之外主动给客户补偿 | as a goodwill gesture；a goodwill credit；a gesture of goodwill | As a goodwill gesture, we've upgraded your shipping for free. | 为表诚意，我们免费给您升级了配送。 | 意思是「不是规定必须给，而是我们主动给」——和 D76 的 According to our policy（规定该给的）正好相反；gesture 是「姿态、表示」，不是手势的那个意思；不说 ✗ to show our sincerity, we give you…
+@v: measures | measure | n. | ˈmeʒərz | 措施；办法 | 说为解决、预防问题采取的具体行动 | put measures in place；safety measures；take measures to… | The company has taken new measures to protect customer data. | 公司已经采取了新措施保护客户数据。 | 「措施」常用复数 measures；「采取措施」说 take measures 或 put measures in place，不说 ✗ do measures；measure 作动词是「测量」：measure the box；s 读 `/ʒ/`：MEA-sures。
+@v: prevent | = | v. | prɪˈvent | 防止；预防 | 说措施的目的：不让问题再发生 | prevent sth from -ing；prevent problems；help prevent… | Backing up your files can prevent a lot of trouble. | 备份文件能避免很多麻烦。 | 结构是 prevent + 宾语 + from + -ing：✗ prevent this happen again / ✗ prevent this to happen → ✓ prevent this from happening again；名词 prevention；重音在后 pre-VENT。
+@v: personally | = | adv. | ˈpɜːrsənəli | 亲自；就我个人而言 | 表示是我本人来做、我本人负责 | personally check；I'll personally…；Personally, I think… | I'll personally make sure your order ships today. | 我会亲自确保您的订单今天发出。 | 两个意思：「亲自」（I'll personally call him.）和「就我个人而言」（Personally, I prefer email.）；单独给客户写一封，说明你重视他：write to sb personally；四个音节 PER-son-al-ly，别读成三个。
+@v: I completely understand | i completely understand | phr. | aɪ kəmˌpliːtli ˌʌndərˈstænd | 我完全理解 | 先接住对方的情绪或处境，再说事 | I completely understand your frustration；I completely understand why…；I totally understand. | I completely understand why you're upset. | 我完全理解您为什么不高兴。 | 后面接名词或 why / that 从句；说完一定要接行动，不能接 but 再辩解（✗ I completely understand, but it's not our fault.）；口语也说 I totally get it.；completely 重音在 PLETE。
+@v: frustration | = | n. | frʌˈstreɪʃn | 恼火；不满；挫败感 | 承认对方的情绪：您的恼火、团队的不满 | your frustration；understand sb's frustration；in frustration | I understand your frustration with the slow reply. | 回复太慢，我理解您为此恼火。 | 名词：your frustration；形容人用 frustrated，形容事用 frustrating；道歉时说 I completely understand your frustration. 比 ✗ Please don't be angry. 好得多；重音在 STRA：frus-TRA-tion。
+@v: accepted | accept | v. | əkˈseptɪd | 接受（道歉、提议、条件） | 回应道歉、接受邀请或报价 | Apology accepted.；accept an offer；accept the terms | We're happy to accept your offer. | 我们很乐意接受您的报价。 | Apology accepted. 是简短而正式的「道歉我接受了」，Priya 这样说，代表这件事算过去了；accept 和 except（除了）读音很像：accept `/əkˈsept/` 开头是 ə，except `/ɪkˈsept/` 开头是 ɪ。
+
+@diff: 道歉的三个级别——Sorry about that. / I apologize for… / We sincerely apologize for…
+@d_cn: 中文从轻到重：「不好意思」「抱歉」「非常抱歉，深表歉意」。
+@d_en: Sorry about that! / I apologize for the confusion. / We sincerely apologize for the missing notifications.
+@d_why: 英文道歉也分轻重，要和**事情的大小、对象、场合**相配。**Sorry about that!** 用于小事、熟人、口头：发错了附件、开会晚到两分钟。**I apologize for…** 认真一些，是「我个人」的道歉，适合邮件和正式一点的对话。**We sincerely apologize for…** 最正式，以公司名义、为影响了很多客户的大问题道歉——比如今天三百条通知没发出去。中国学习者常见两个问题：一是小事用了大道歉，同事之间写 ✗ We sincerely apologize for sending the wrong file.，反而显得生分、夸张；二是结构错：apologize 后面接 for + 名词 / -ing，向某人道歉是 apologize **to** sb：✗ apologize you → ✓ apologize to you for the delay。另外，sincerely 放在 apologize 前面是「真诚地」，和正式信件的落款 Sincerely,（此致）不是一回事。
+@d_when: Sorry about that：小失误、同事和熟人之间；I apologize for…：个人的、认真的道歉；We sincerely apologize for…：公司对客户、影响面大的问题。
+@d_vs: **Sorry about that!**（发错附件，同事之间）\n**I apologize for the confusion.**（说错了时间，给客户）\n**We sincerely apologize for the missing notifications.**（公司层面，影响了三百个订单）\n✗ I apologize you for… → ✓ I apologize to you for…
+@d_task: 按轻重各说一句：① 你给 Leo 发错了文件 ② 你在给 Sarah 的邮件里写错了日期 ③ 公司系统出问题，影响了所有卖家 | ① Sorry about that, Leo! Here's the right file. ② I apologize for the wrong date in my last email. ③ We sincerely apologize for yesterday's system problem.
+@diff: 道歉之后——一定要说「我们在做什么」
+@d_cn: 中文道歉信常以「给您带来不便，敬请谅解」结尾，具体怎么办往往一笔带过。
+@d_en: We take full responsibility for the mistake. Here's how we'll make it right. As a goodwill gesture, we've added a credit to your account.
+@d_why: 「敬请谅解」直译成 ✗ Please understand. 或 ✗ We hope you can understand.，美国客户听起来像「请你接受现实、别再抱怨了」，有推脱的味道。英文道歉信的核心就是张涛那句话：An apology alone isn't enough. Sellers want a solution. 一封好的道歉邮件有五步：**① 道歉**（We sincerely apologize for…）**② 一句话说清发生了什么**（A software update stopped them…）**③ 承担责任**（We take full responsibility…）**④ 补救**（Here's how we'll make it right. / As a goodwill gesture, …）**⑤ 防止再发生**（We're putting new measures in place…）。原因要说，但**一句就够**，别写成长长的技术说明，更不能变成找借口。补救要具体：一个月的抵扣额、免费补发、免费加急，比 ✗ We will try our best to compensate you. 有分量得多。as a goodwill gesture 还告诉客户：这不是规定必须给的，是我们主动给的。
+@d_when: 给客户写道歉邮件、电话里道歉、向经理汇报一个问题时。
+@d_vs: ✗ We are sorry for the inconvenience caused. Please understand.\n✓ **We sincerely apologize for the missing notifications.**（道歉）**A software update stopped them on Tuesday.**（原因）**We take full responsibility.**（责任）**As a goodwill gesture, we've added a credit to your account.**（补救）\n**as a goodwill gesture** 主动给的 ≠ **according to our policy** 规定该给的（D76）
+@d_task: 给 Sarah 写三句：昨天发给她的周报数据错了（道歉 → 已经改好、重新发了 → 以后发之前会再核对一遍）。 | I apologize for the wrong numbers in yesterday's report. I've fixed them and sent you a new version. From now on, I'll double-check every report before I send it.
+@diff: 「这是我们的问题」——This is on us. / We take full responsibility.
+@d_cn: 公司犯了错，直接承认：「这是我们的问题，我们负全责。」
+@d_en: We take full responsibility for the mistake. / This is on us. / I completely understand your frustration.
+@d_why: 中文道歉时常把原因说成「系统原因」「第三方原因」，好像谁都没错；直译成 ✗ It's because of the system.，美国客户会觉得你在推卸——系统也是你们的。另一个坑是 ✗ It's our problem.——That's our problem. 有时听起来像「这是我们的事，跟你无关」。想说「是我们的错、我们负责」，书面用 **We take full responsibility for…**，口头用 **This is on us.**（on us = 算在我们头上）。在美国，干脆地承认错误通常会**增加**信任，Priya 这样讲数据的客户最怕的是含糊其辞。还有一步要放在最前面：**先接住对方的情绪**——I completely understand your frustration.，说完直接接行动，不接 but 再辩解。注意词形：frustrated 形容人（Everyone here is frustrated.），frustration 是名词（your frustration），frustrating 形容让人恼火的事（The delay was frustrating.）。
+@d_when: 确实是自己或公司的错时；客户已经很生气、需要你先表态时。
+@d_vs: ✓ **We take full responsibility for the mistake.**（书面）\n✓ **This is on us.**（口头）\n✓ **I completely understand your frustration.**（先接住情绪）\n✗ It's the system's problem. / ✗ I understand, but it's not our fault.\n**frustrated** 人恼火 ｜ **frustration** 恼火（名词）｜ **frustrating** 事情让人恼火
+@d_task: 你在电话里跟 Priya 说：「我完全理解您为什么恼火。这是我们的问题。」（用口头说法） | I completely understand why you're frustrated. This is on us.
+@diff: 「以后不会再发生」——不轻易说 never
+@d_cn: 道歉信最后一句，中文常写「保证以后不会再发生类似问题」。
+@d_en: We're putting new measures in place to prevent this from happening again. / To avoid a recurrence, every update will now be tested twice.
+@d_why: 直译成 ✗ We promise this will never happen again.，在美国职场反而**减分**：系统总会出问题，never 是兑现不了的保证，下次再出事，客户会拿这句话来质问你。英文的做法是**不保证结果，而是说措施**：We're putting new measures in place to prevent this from happening again.，最好再跟一个具体的措施（every update will now be tested twice）——讲数据的 Priya 最想看到的就是这个。结构要注意：**prevent + 宾语 + from + -ing**：✗ prevent this happen again / ✗ prevent this to happen → ✓ prevent this from happening again。put … in place 是「落实、建立」（措施、制度）。recurrence（再次发生）很正式，多用在事故报告里，口语说 so it doesn't happen again 就行。
+@d_when: 道歉邮件和事故说明的最后一段；向经理汇报问题时说改进办法。
+@d_vs: ✗ We promise this will never happen again.\n✓ **We're putting new measures in place to prevent this from happening again.**\n✓ **From now on, every update will be tested twice.**（具体措施）\n✓ **We'll do everything we can so it doesn't happen again.**（口语）\n✗ prevent this happen again
+@d_task: 你把一位卖家的退款金额算错了。写一句「我们正在落实新措施，防止再发生」，再加一个具体措施（以后每笔退款都由两个人核对）。 | We're putting new measures in place to prevent this from happening again. From now on, every refund will be checked by two people.
+
+@core: We sincerely apologize for … | 以公司名义正式道歉 | the missing notifications / the delay / the wrong invoices | 正式：Please accept our sincere apologies for…｜随意：Sorry about that!
+@core: I completely understand your frustration. | 先接住对方的情绪，再说事 | frustration / concern / why you're upset | 正式：Your frustration is completely understandable.｜随意：I totally get it.
+@core: We take full responsibility for the mistake. | 承认是我们的错 | the mistake / the delay / the confusion | 正式：We accept full responsibility for…｜随意：This is on us.
+@core: The root cause was … | 一句话说清根本原因 | a bad update / a wrong setting / a missing step | 正式：Our investigation found that the root cause was…｜随意：Turns out it was…
+@core: Here's how we'll make it right. | 引出具体的补救办法 | make it right / fix this | 正式：We'd like to offer the following remedy.｜随意：Here's what we're doing about it.
+@core: As a goodwill gesture, we've added … | 规定之外主动补偿 | a credit to your account / a free month / free express shipping | 正式：As a gesture of goodwill, we would like to offer…｜随意：We've added a free month, on us.
+@core: Lost packages will be reshipped, and late ones will be expedited. | 说补发和加急 | reshipped / expedited；at no cost | 正式：…at no additional cost to you.｜随意：We'll send a new one and rush it.
+@core: We're putting new measures in place to prevent this from happening again. | 说预防措施，不说 never | measures；this / the same mistake | 正式：We have taken steps to prevent a recurrence.｜随意：We're making sure it doesn't happen again.
+
+@pw: sincerely | sɪnˈsɪrli | 3 个音节 sin·CERE·ly | 重音在 cere；ce 读 `/sɪr/`，卷舌
+@pw: apology | əˈpɑːlədʒi | 4 个音节 a·POL·o·gy | 重音在 pol，`/ɑː/` 嘴张大；gy 读 `/dʒi/`
+@pw: frustration | frʌˈstreɪʃn | 3 个音节 frus·TRA·tion | 重音在 tra；fr 和 str 都是辅音连缀，中间别加元音
+@pw: unacceptable | ˌʌnəkˈseptəbl | 5 个音节 un·ac·CEP·ta·ble | 主重音在 cep；un 有次重音，ac 弱读成 `/ək/`
+@pw: recurrence | rɪˈkɜːrəns | 3 个音节 re·CUR·rence | 重音在 cur，卷舌 `/ɜːr/`；re 弱读成 `/rɪ/`
+@pw: expedite | ˈekspədaɪt | 3 个音节 EX·pe·dite | 重音在第一个音节；结尾 dite 读 `/daɪt/`，像 dight
+@pw: acknowledge | əkˈnɑːlɪdʒ | 3 个音节 ac·KNOW·ledge | k 不发音；know 在这里读 `/nɑː/`，不读 /noʊ/
+@ps: We sin**cere**ly a**pol**ogize / for the **miss**ing notifi**ca**tions. | for the 弱读成 `/fər ðə/`；notifications 主重音在 ca：no-ti-fi-CA-tions；missing 的 ing 轻读。
+@ps: I com**plete**ly under**stand** / your frus**tra**tion. | completely 重音在 plete；understand 重音在最后的 stand；your 弱读成 `/jər/`。
+@ps: We've **found** the **root** cause. / **Mon**day night's **up**date / **broke** the notifi**ca**tion service. | root cause 和 notification service 都是复合名词，重音在前一个词；We've 的 've 很轻，几乎只剩一个 v。
+@ps: As a **good**will **ges**ture, / we've **add**ed a **cred**it / to your ac**count**. | As a 弱读成 `/əz ə/`；added a 连读成 `/ædɪdə/`；credit 的 t 碰到 to 只做口型。
+@pnote: 数字：three hundred notifications、sixty customers、forty calls、twelve hours——sixty `/ˈsɪksti/` 和 sixteen `/ˌsɪksˈtiːn/`、forty 和 fourteen 只差重音和尾音：-ty 重音在前、t 发得像轻 d；-teen 重音在后、ee 拉长。注意 forty 的拼写没有 u（✗ fourty）。Mike 说的 6 p.m. 读 six p-m，不说 ✗ six o'clock p.m.。
+@pnote: 被动句里的 be 都弱读：every update will **be** tested twice `/wl bi/`、late ones will **be** expedited——will be 说快了像一个音节 `/wəlbi/`。写 vs 说：邮件里写 We take full responsibility for the mistake.，电话里说 This is on us.；邮件里写 We're investigating the issue.，同事之间说 We're still looking into it.；We've / We're 这样的缩写在道歉邮件里很正常，并不会显得不够郑重。
+@lfocus: 数字 sixty / forty / three hundred / twelve hours
+@lfocus: 复合名词重音：ROOT cause、notifiCAtion service
+@lfocus: We've / we're 的缩读和 will be 的弱读
+@dict: S8–S11
+@dict: S20–S26
+@res: 在 YouTube 频道 Rachel's English 内搜索 "apologize"，跟着练 apology / apologize 的重音。
+
+@mimic: 跟读【C】S8–S17 和 S19–S27：先逐句跟读 Mike 和张涛的话，模仿 Mike 讲原因时平稳、具体的语气；再把林晓的道歉邮件当成一段正式的电话说明，正常语速读下来，注意 sincerely、responsibility 的重音和 root cause 的复合名词重音，录音。最后合上书，只看 Priya 的三句邮件，用「接住情绪 → 承担责任 → 补救 → 预防」口头回复她。
+@swap: We sincerely apologize for the missing notifications. | 换：the late reply / the wrong invoices / yesterday's delay | We sincerely apologize for the wrong invoices.
+@swap: We take full responsibility for the mistake. | 换：the delay / the wrong labels / the confusion | We take full responsibility for the wrong labels.
+@swap: As a goodwill gesture, we've added a credit to your account. | 换补偿：a free month to your subscription / free express shipping on your next order | As a goodwill gesture, we've added a free month to your subscription.
+@swap: We're putting new measures in place to prevent this from happening again. | 再加一个具体措施：every invoice is checked twice / we get an alert within minutes | We're putting new measures in place to prevent this from happening again. From now on, every invoice is checked twice.
+@free: 你答应 Sarah 周一发数据报告，结果周三才发：道歉，附上报告，说下周会准时。 | I apologize for the late report, Sarah. It's attached, and next week's report will arrive on Monday as promised.
+@free: Daniel 生气地说：你们的面单打错了，害他 50 个包裹被退回。先接住情绪、承认责任，再说补救。 | I completely understand your frustration, Daniel. This is on us. We'll reship all fifty packages today and expedite them at no cost.
+@free: 张涛问：通知漏发这件事，我们怎么防止再发生？ | We're putting two new measures in place. Every update will be tested twice, and Mike's team will get an alert if notifications stop for more than ten minutes.
+@free: Priya 的月度报表晚了两天，你主动给一个补偿（一个月免费高级版）。 | As a goodwill gesture, we've upgraded your account to premium for a month, free of charge. I know the late reports made your week harder.
+@output: 录 1.5–2 分钟「电话里向客户道歉」：想象你们公司犯了一个影响客户的错（重复扣费、发错货、报告数据错了……），你打电话给客户。按「说明来意 → 道歉（I apologize for… / We sincerely apologize for…）→ 接住情绪（I completely understand…）→ 一句话原因（The root cause was…）→ 承担责任 → 补救（Here's how we'll make it right… As a goodwill gesture…）→ 预防措施（不说 never）→ 下一步」来说，录音存档。
+@output_sample: Hi Jenny, this is Lily from SwiftLink. I'm calling about your invoice for March. I'm afraid we charged you twice for the same month, and I want to apologize personally. I completely understand your frustration. Nobody likes to see a double charge. This was our mistake, and we take full responsibility for it. Here's what happened. Last week, our billing system ran the same payment twice. The root cause was a wrong setting, and our finance team fixed it immediately. Here's how we'll make it right. First, we've already refunded the second payment. You should see the money in your bank account within three business days. Second, as a goodwill gesture, we've added a fifty-dollar credit to your account. It'll come off your next invoice automatically. We're also putting new measures in place to prevent this from happening again. From now on, every invoice is checked by a person before it goes out. Again, I'm really sorry about this. I'll send you an email with all the details in the next hour. If anything else looks wrong, please call me directly. Thanks for your patience, Jenny.
+
+@check: 听力：周二出了什么问题？Priya 那边受了什么影响？ | 大约三百条派送通知没发出去，很多买家以为包裹丢了。BrightNest 有六十个客户没收到更新，客服接了四十个愤怒的电话。
+@check: 听力：Mike 说根本原因是什么？以后怎么防止？ | 周一晚上的一次更新把通知服务弄坏了。以后每次更新都要测试两遍，好在卖家发现之前先发现问题。
+@check: 改错并说明原因：We are very sorry for the inconvenience caused. This will never happen again, please understand. | 太像模板、没有具体内容；never 是兑现不了的保证；please understand 听起来像推脱。改成：We sincerely apologize for the delay. Here's how we'll make it right: … We're putting new measures in place to prevent this from happening again.
+@check: 换个场景：你把开会时间发错了，Mike 白等了半小时（同事之间，道歉轻一点，再说以后怎么做）。 | Sorry about that, Mike! That was my mistake. From now on, I'll put both time zones in every invite.
+@check: 填 frustrated / frustration / frustrating：① Priya is ___. ② I completely understand your ___. ③ Waiting for updates is ___. | ① frustrated ② frustration ③ frustrating
+@check: as a goodwill gesture 和 D76 的 according to our policy，说到给客户的补偿时有什么不同？ | according to our policy 是规定里本来就该给的（比如丢件赔偿）；as a goodwill gesture 是规定之外、主动给的，用来表示诚意（比如一个月的服务抵扣额）。
+
+@next1: 不看书说出 5 个锚点句：S20、S22、S24、S26、S29
+@next1: 用「道歉 → 一句原因 → 承担责任 → 补救 → 预防」口头给一位客户道歉
+@next7: 道歉的三个级别：Sorry about that. / I apologize for… / We sincerely apologize for…，各配一个场景
+@next7: prevent … from + -ing、as a goodwill gesture、This is on us. 各造一句关于自己工作的话

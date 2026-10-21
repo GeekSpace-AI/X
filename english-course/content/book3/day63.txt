@@ -1,0 +1,166 @@
+@day: 63
+@week: 1
+@title_cn: 订单已经发出
+@title_en: The Order Has Been Shipped
+@topic: 给卖家写邮件讲清订单的全过程：从下单、仓库处理到运输、派送和通知（被动语态入门）
+@think_short: 「订单发出去了」The order has been shipped.（东西做主语用被动）｜时态变在 be 上：is / was / has been / will be｜「自动生成」is generated automatically｜by… 只在需要时加
+
+@goal_scene: 客户问「下单以后到底发生了什么」：你要先回答她最关心的那个订单（已经发出），再按顺序、用被动语态写清楚一个订单从下单到派送的全过程，让她能拿去给自己的顾客解释。
+@goal_expr: The order has been shipped. / Once an order is placed, a shipping label is created automatically. / A tracking number is generated at the same time. / Each item is packed by hand. / The package is picked up from your warehouse. / It's sorted and loaded onto a truck. / Your customer is notified at every step. / … on behalf of your store
+@goal_vocab: 20 个重点词 + 5 个短语：订单生命周期、仓库与库存、运输与交接、系统通知
+@done: 能用被动语态（be + 过去分词）按顺序讲出一个订单的 6–8 个环节
+@done: 能根据时间选对被动的时态：is created（每次都这样）／ was picked up at nine（过去某个时间）／ has been shipped（已经完成）／ will be delivered（将来）
+@done: 能分清 automatically / manually / by hand，知道被动句什么时候要加 by…、什么时候不加
+
+@warmup: 首先，我们要核实卖家的资料。 | To begin with, we verify the seller's information. | D62
+@warmup: 这一步完成后，账号还需要张涛审批。 | Once that's done, the account needs Tom's approval. | D62
+@warmup: 最后，我们激活账号。 | Finally, we activate the account. | D62
+@warmup: 他退休以后就一直留着（胡子）。 | He's had it since he retired. | D56
+@warmup: 我以前在快递站上班。 | I used to work at a courier station. | D52
+@warmup: 您是上周二从深圳发的货。 | You shipped it from Shenzhen last Tuesday. | D28
+
+@scene: 周三上午，林晓负责的卖家 Sarah Miller（俄亥俄州家居网店 Pine & Pebble 的老板）发来邮件：她的顾客总问「我的订单到哪儿了」，她想弄清楚一个订单从顾客下单到送到家门口，中间到底经过哪些环节；顺便问了 4721 号订单的状态。林晓先找 Leo 确认那个订单已经出库，再给 Sarah 回信：先说好消息，再按顺序讲订单的全过程——货从供应商成批进到深圳仓库，下单后系统自动生成面单和单号，仓库人工打包，快递取件、分拣、装车、空运到美国、清关、交给当地快递派送，每一步顾客都会收到通知。信里讲的都是「订单、包裹」经历了什么，所以几乎每句都要用被动语态。
+@sp: 人物关系 | 林晓 → Sarah：客户经理和老客户，关系友好；书面回复要清楚、专业，但不必太正式
+@sp: 沟通目的 | 回答 Sarah 的两个问题：先说 4721 号订单的状态，再按顺序讲一个订单从下单到派送的全过程，让她能转述给自己的顾客
+@sp: 已知信息 | Sarah 知道自己的货放在深圳的仓库，但不清楚下单以后的各个环节；Leo 刚查到 4721 号订单九点已经出库
+@sp: 表达重点 | 好消息先说（has been shipped）→ 进货（in bulk / inventory）→ 下单后自动生成（is created / generated automatically）→ 仓库人工处理（by hand）→ 取件、分拣、运输、卸货、交接（is picked up / sorted / transported / unloaded / passed on）→ 每一步都有通知（is notified / on behalf of）
+
+@story_title: Episode 63 · From Click to Doorstep
+@story_type: 邮件 + 对话
+@s: On Wednesday, Lily gets an email from Sarah Miller at Pine & Pebble. | 周三，林晓收到 Pine & Pebble 的 Sarah Miller 发来的邮件。
+@s: Hi Lily, | 林晓，你好：
+@s: My customers keep asking, "Where's my order?" | 我的顾客总是问：「我的订单到哪儿了？」
+@s: What actually happens after they **place an order**? | 顾客下单以后，到底会经过哪些环节？
+@s: Also, what's the status of order 4721? | 另外，4721 号订单现在是什么状态？
+@s: Thanks, Sarah | 谢谢！Sarah
+@br:
+@s: Lily checks with Leo first. | 林晓先找 Leo 确认了一下。
+@s: Leo: The order has been shipped. It left the warehouse at nine. | Leo：订单已经发出了，九点离开的仓库。
+@s: Lily: Great. Now I can explain the whole **lifecycle** of an order. | 林晓：太好了。这下我可以给她讲讲一个订单从头到尾的全过程了。
+@br:
+@s: Lily writes back: | 林晓回信写道：
+@s: Hi Sarah, | Sarah，你好：
+@s: Good news first. Order 4721 has been shipped. | 先说好消息：4721 号订单已经发出了。
+@s: Here's the **flow** of a typical order. | 下面是一个普通订单的流程。
+@s: Your **supplier** sends products to your warehouse in Shenzhen **in bulk**. That's your **inventory**. | 你的供应商把货成批送到你在深圳的仓库，这就是你的库存。
+@s: Once an order is placed, a shipping label is **created** **automatically**. | 订单一下好，快递面单就会自动生成。
+@s: A tracking number is **generated** at the same time. | 追踪单号也同时生成。
+@s: Next, your warehouse **fulfills** the order. Each **item** is packed **by hand**. | 接着，仓库处理这个订单，每件商品都是人工打包的。
+@s: **Fulfillment** usually takes less than a day. | 仓库处理一般用不了一天。
+@s: The package is picked up from your warehouse. | 然后，快递到你的仓库取走包裹。
+@s: It's **sorted** and loaded onto a truck. Then it's **transported** to the airport. | 包裹经过分拣、装上卡车，再被运到机场。
+@s: There, packages are grouped into **batches** and flown to the U.S. on **pallets**. | 在机场，包裹按批次分好，放在托盘上空运到美国。
+@s: After customs, they're **unloaded** and **passed on** to a local carrier. | 清关以后，包裹被卸下来，交给当地的快递公司。
+@s: From there, each package is **dispatched** for final delivery. | 再从那里派送出去，走完最后一段路。
+@s: Our system **collects** updates from every carrier. | 我们的系统会从每一家承运商那里收集最新动态。
+@s: Your customer is **notified** at every step. | 每到一个环节，你的顾客都会收到通知。
+@s: Each **notification** is sent **on behalf of** your store. | 每条通知都以你店铺的名义发出。
+@s: You don't need to do anything **manually**. | 你不需要手动做任何事。
+@s: Best, Lily | 祝好！林晓
+
+@v: place an order | = | phr. | ˌpleɪs ən ˈɔːrdər | 下单 | 网购、向供应商订货、电话订货 | place an order；place an order online；place a large order | You can place an order on our website or by phone. | 您可以在我们网站上下单，也可以打电话下单。 | 「下单」不说 ✗ down an order；make an order 也有人说，但 place an order 最地道、最商务；被动是 An order is placed.；第一册学过的 order 是「点菜、订购」，place an order 是更正式的说法。
+@v: lifecycle | = | n. | ˈlaɪfsaɪkl | （订单、产品的）生命周期；从头到尾的全过程 | 讲一个订单或产品从开始到结束经历了什么 | the lifecycle of an order；the product lifecycle；the whole lifecycle | We track every package through its whole lifecycle. | 我们追踪每个包裹从头到尾的全过程。 | 也可以分开写成 life cycle，意思一样；中文「全流程」「从下单到签收」都可以说 the lifecycle of an order；重音在 life，cycle 读 `/saɪkl/`，不读 /sɪkl/。
+@v: flow | = | n. | floʊ | 流程；（事情或东西的）流动 | 讲一个订单、一项工作怎么一环接一环往下走 | the flow of an order；a simple flow；the order flow | This chart shows the flow of a typical order. | 这张图展示了一个普通订单的流程。 | flow 比 process 更口语，更强调「一步接一步地往下走」；也是动词「流动」：Traffic is flowing again.；ow 读 `/oʊ/`，和 slow 押韵，不读 flower 的 `/aʊ/`。
+@v: supplier | = | n. | səˈplaɪər | 供应商；供货方 | 说货从哪里来、和工厂对接 | a supplier；a local supplier；find a new supplier | Our main supplier is in Guangdong. | 我们的主要供应商在广东。 | 动词是 supply（供应）；分清三方：supplier 给卖家供货，seller 把货卖给顾客，carrier（第一册）负责运输；重音在 pli。
+@v: in bulk | = | phr. | ɪn ˈbʌlk | 大批量地；成批地 | 进货、采购、运输大量的东西 | buy in bulk；ship in bulk；order in bulk | It's cheaper to buy paper in bulk. | 纸成批买更便宜。 | 中文「批量」「大批」都可以用 in bulk，放在动词短语后面：buy it in bulk；bulk 单独用多作形容词：a bulk order（大宗订单）；u 读 `/ʌ/`，结尾是暗 l 加 k。
+@v: inventory | = | n. | ˈɪnvəntɔːri | 库存；存货 | 仓库、电商说现在有多少货 | check the inventory；low inventory；keep inventory | We check our inventory every Monday. | 我们每周一核对一次库存。 | 美式多说 inventory，英式常说 stock（美国也用：out of stock）；「库存不足」low inventory；「盘点库存」take inventory；4 个音节 IN-ven-to-ry，美式 to 读 `/tɔːr/`。
+@v: created | create | v. | kriˈeɪtɪd | 创建；生成 | 系统建账号、生成面单、新建文件 | create an account；create a label；be created automatically | Your account was created on March 3. | 您的账户创建于 3 月 3 日。 | 「新建」「创建」都用 create：create a new folder；主语是人或系统时用主动，东西做主语用被动：A label is created.；ea 分开读 cre-ATE，不读成一个音。
+@v: automatically | = | adv. | ˌɔːtəˈmætɪkli | 自动地 | 说系统自动完成的事 | be created automatically；update automatically；happen automatically | The report is sent automatically every Friday. | 报告每周五自动发出。 | 副词 automatically 修饰动词，形容词 automatic 修饰名词：an automatic email；✗ It's automatic created.；拼写 -ically，读的时候 al 不发音，只读 `/ɪkli/`；重音在 mat。
+@v: generated | generate | v. | ˈdʒenəreɪtɪd | （系统）生成；产生 | 生成单号、报告、数据；产生收入 | generate a report；generate a tracking number；generate income | The system generates a sales report every morning. | 系统每天早上生成一份销售报告。 | 系统语境里 generate 和 create 都行，generate 更技术化，常用于数字、报告、代码；它还有「产生（收入、电力）」的意思：generate income；重音在第一个音节 GEN-er-ate。
+@v: fulfills | fulfill | v. | fʊlˈfɪlz | （仓库）处理并发出（订单）；履行 | 电商仓库拣货、打包、发货 | fulfill an order；fulfill a promise；fulfill a request | We fulfill most orders within twenty-four hours. | 大部分订单我们在二十四小时内处理发货。 | 电商里的 fulfill an order 是「拣货、打包、发出」整个过程；日常也指「履行、实现」：fulfill a promise；美式拼写 fulfill，英式 fulfil；重音在后 ful-FILL。
+@v: item | = | n. | ˈaɪtəm | 一件商品；（清单上的）一项 | 订单里的商品、清单上的条目 | each item；three items；the last item on the list | There are three items in this order. | 这个订单里有三件商品。 | 订单里「一件商品」说 an item，比 a product 更具体（指那一件实物）；清单、议程上的「一项」也是 item；美式 t 闪音，听起来像 I-dum。
+@v: by hand | = | phr. | baɪ ˈhænd | 用手；人工（不用机器） | 手工打包、手写、手洗 | packed by hand；made by hand；write it by hand | All our candles are made by hand. | 我们所有的蜡烛都是手工做的。 | 中间不加 the 或 my：✗ by my hand；by hand 是真的「用手」做；下面的 manually 偏「人来操作，不靠系统」——打包是 by hand，在电脑里一条条改数据是 manually。
+@v: Fulfillment | fulfillment | n. | fʊlˈfɪlmənt | （电商）订单履约：拣货、打包、发货 | 说仓库处理订单的环节 | order fulfillment；a fulfillment center；fulfillment time | Our fulfillment center is open twenty-four hours a day. | 我们的履约中心全天二十四小时运转。 | 电商里 fulfillment 是一整个环节，很多卖家把它交给第三方仓库；a fulfillment center 就是「发货仓 / 履约中心」；英式拼写 fulfilment；重音在 fill。
+@v: sorted | sort | v. | ˈsɔːrtɪd | 分拣；分类 | 快递在分拣中心按目的地分开；表格排序 | sort packages；sort by…；be sorted | Packages are sorted by city. | 包裹按城市分拣。 | sort 是「按类别分开」；表格里「按日期排序」说 sort by date；口语 sort out 是「解决、理清」：Let's sort it out.；-ed 读 `/ɪd/`。
+@v: transported | transport | v. | trænsˈpɔːrtɪd | 运输；运送 | 物流：货从一个地方运到另一个地方 | transport goods；be transported to…；transport sth by truck | The goods are transported by sea. | 这批货走海运。 | 动词 transport 重音在后 trans-PORT，名词 transport 重音在前 TRANS-port；美式口语说「交通、运输」名词更常用 transportation；日常说「运过去」用 ship / take 就够了。
+@v: batches | batch | n. | ˈbætʃɪz | 一批；批次 | 成批处理、成批运输 | in batches；a batch of…；the next batch | We send packages to the airport in two batches a day. | 我们每天分两批把包裹送到机场。 | 中文「一批货」可以说 a batch of goods 或 a shipment；「分批」in batches；复数 -es 读 `/ɪz/`；a 读 `/æ/`，嘴张大。
+@v: pallets | pallet | n. | ˈpæləts | 托盘；货板 | 仓库、空运、海运装货 | on a pallet；a pallet of boxes；load pallets | Each pallet holds about forty boxes. | 每个托盘大约能放四十箱。 | 「托盘」在仓库里叫 pallet（叉车叉的那种木板或塑料板）；别和 palette（调色板）弄混，两个词读音一样；重音在前 PAL-let。
+@v: unloaded | unload | v. | ʌnˈloʊdɪd | 卸（货） | 卡车、飞机、集装箱卸货 | unload a truck；unload the boxes；be unloaded | The workers unloaded the truck in an hour. | 工人们一个小时就把卡车卸完了。 | 第一册学过 load 的「加载」，它的本义是「装（货）」：loaded onto a truck；un- 表示反方向，unload 是「卸」；卸货、卸车都能说：unload the boxes / unload the truck；重音在 load。
+@v: passed on | pass on | phr. | ˌpæst ˈɑːn | 转交；传给（下一个人） | 物流交接、转达消息 | pass sth on to sb；pass on a message；pass it on | Could you pass this message on to Tom? | 你能把这个消息转告张涛吗？ | 结构是 pass sth on to sb；宾语是代词时放中间：✓ pass it on ✗ pass on it；passed 读 `/pæst/`，和 past 同音；「转告」不说 ✗ turn to tell。
+@v: dispatched | dispatch | v. | dɪˈspætʃt | 发出；派送（货物）；派（车、人） | 物流通知、派件、派车、派维修人员 | be dispatched；dispatch a package；dispatch a driver | Your order will be dispatched within two days. | 您的订单将在两天内发出。 | dispatch 比 send 正式，常见于物流通知和派车派人；英式网店通知多写 dispatched，美式多写 shipped；重音在后 dis-PATCH，-ed 读 `/t/`。
+@v: collects | collect | v. | kəˈlekts | 收集；（上门）收取 | 系统收集数据、收集反馈 | collect data；collect feedback；collect packages | We collect feedback from every new seller. | 我们会收集每位新卖家的反馈。 | 「收集数据」collect data；英式英语「取件、接孩子」也说 collect，美式更常说 pick up（第二册）；重音在 lect。
+@v: notified | notify | v. | ˈnoʊtɪfaɪd | 通知 | 公司、系统正式通知某人 | notify sb；notify sb of sth；be notified | We'll notify you when the package arrives. | 包裹到了我们会通知您。 | notify 比 tell 正式，主语多是公司或系统；人做宾语：notify sb of sth，不说 ✗ notify the news to you；重音在第一个音节 NO-ti-fy，-ied 读 `/aɪd/`。
+@v: notification | = | n. | ˌnoʊtɪfɪˈkeɪʃn | （系统、App 的）通知 | 手机推送、物流通知、系统消息 | get a notification；a push notification；turn off notifications | I turned off notifications for that app. | 我把那个 App 的通知关了。 | 手机上弹出的「通知」就是 notification；5 个音节 no-ti-fi-CA-tion，重音从动词的 NO 移到了 CA。
+@v: on behalf of | = | phr. | ɑːn bɪˈhæf əv | 代表；以……的名义 | 替公司或别人发邮件、讲话、做事 | on behalf of sb；on behalf of the team；on my behalf | I'm writing on behalf of my manager. | 我代表我的经理写这封邮件。 | 不说 ✗ on the behalf of / ✗ represent of；也可以说 on my behalf / on your behalf；behalf 里的 l 不发音：`/bɪˈhæf/`。
+@v: manually | = | adv. | ˈmænjuəli | 手动地；人工地 | 说不是系统自动完成，而是人来操作 | update sth manually；enter data manually；check manually | When the system is down, we enter orders manually. | 系统宕机时，我们就手动录入订单。 | manually 和 automatically 是一对；和 by hand 的区别：by hand 是真的用手（packed by hand），manually 是「人来做，不靠系统」；Day 62 的 manual 作名词是「手册」。
+
+@diff: 「订单发出去了」——The order has been shipped.（东西做主语 → 被动）
+@d_cn: 「订单发了」「货已经发出去了」「包裹被取走了」——东西做主语，中文常常连「被」字都不用。
+@d_en: The order has been shipped. / The package is picked up from your warehouse. / Your customer is notified at every step.
+@d_why: 中文里「订单发了」「标签生成了」，东西直接做主语，动词不变，很少用「被」——「被」字多用在倒霉事上（被偷了、被骂了）。英文不一样：订单自己不会「发货」，它是**被发出**的，所以东西做主语时要用**被动**：**be + 过去分词**。英文被动是中性的，没有「倒霉」的味道，讲流程、写通知、做报告到处都在用，因为我们关心的是订单和包裹，不是谁动的手。常见错误是漏掉 be 或用错分词：✗ The order has sent. ✗ The order is ship.。你在美国网店的自动通知里也会看到 Your order has shipped!——那是电商的固定说法；自己写邮件、跟客户解释时，用被动 has been shipped 最稳妥。
+@d_when: 讲订单、包裹、文件、申请的状态；描述一个流程；写系统通知和工作邮件。
+@d_vs: ✓ **The order has been shipped.** 订单已经发出了。\n✓ **The package is picked up from your warehouse.** 快递到你的仓库取件。\n✓ **Your customer is notified at every step.** 每一步顾客都会收到通知。\n✗ The order has sent. ／ ✗ The package is pick up.
+@d_task: 用被动说：①「报告已经发给张涛了。」②「每个订单都会检查两遍。」 | ① The report has been sent to Tom. ② Every order is checked twice.
+@diff: 被动的时态——时态变在 be 上：is / was / has been / will be
+@d_cn: 「每次都会生成」「九点被取走的」「已经发出了」「周五会送到」——中文靠「会」「了」「已经」，动词本身不变。
+@d_en: A label is created automatically. / It was picked up at nine. / The order has been shipped. / It will be delivered on Friday.
+@d_why: 被动 = **be + 过去分词**，过去分词（created、picked up、shipped）**永远不变**，时态全部体现在 **be** 上：每次都这样 → **is / are**；过去某个时间 → **was / were**；已经完成、结果还在 → **has / have been**；将来 → **will be**。第二册的老规则在被动里照样适用：有具体的过去时间（at nine、yesterday）就用过去时，不用完成时——Leo 说 The order has been shipped. It left the warehouse at nine.，换成被动就是 It was picked up at nine.，不说 ✗ It has been picked up at nine.。
+@d_when: 跟客户说订单进展：哪些已经完成、哪些什么时候完成、哪些以后会发生。
+@d_vs: **A label is created automatically.** 标签都是自动生成的。（一贯如此）\n**The package was picked up at nine.** 包裹九点被取走了。（过去时间点）\n**The order has been shipped.** 订单已经发出。（完成，结果还在）\n**It will be delivered on Friday.** 周五会送到。（将来）\n✗ It has been picked up at nine.
+@d_task: Daniel 问他的包裹。用被动说三句：昨天上午被取走了；已经在洛杉矶卸货了；下周一会送到。 | It was picked up yesterday morning. It has already been unloaded in Los Angeles. It will be delivered next Monday.
+@diff: 「系统自动生成」——It's generated automatically.
+@d_cn: 「系统会自动生成面单」「不用手动更新」「每件都是人工打包的」。
+@d_en: A shipping label is created automatically. / A tracking number is generated at the same time. / Each item is packed by hand. / You don't need to do anything manually.
+@d_why: 中文喜欢把「系统」放在主语：系统自动生成面单。英文当然也能说 The system creates a label automatically.，但更常见的是让**东西做主语**、用被动：A label is created automatically.——系统做的，大家都知道，不必说。词性要分清：**automatically** 是副词，修饰动词（is created automatically）；**automatic** 是形容词，修饰名词（an automatic email），不说 ✗ It's automatic created.。和「自动」相对的有两个：**by hand** 是真的用手做（packed by hand）；**manually** 是「人来操作，不靠系统」（update the status manually）。
+@d_when: 介绍系统功能、对客户解释哪些步骤是自动的、哪些要人工处理。
+@d_vs: ✓ **A shipping label is created automatically.** 快递面单是自动生成的。\n✓ **We send an automatic email.** 我们会发一封自动邮件。（形容词）\n✓ **Each item is packed by hand.** 每件商品都是人工打包。\n✓ **You don't need to update anything manually.** 你不用手动更新任何东西。\n✗ The label is automatic created.
+@d_task: 告诉 Leo：「追踪单号是自动生成的，可是如果系统宕机了，我们就得手动录入。」 | The tracking number is generated automatically. But if the system is down, we have to enter it manually.
+@diff: 被动句什么时候加 by…？——只在「谁做的」是重要信息时
+@d_cn: 「标签是系统生成的」「包裹是我们合作的快递公司取的，不是你的员工」。
+@d_en: The package is picked up from your warehouse. / It's picked up by our partner carrier, not by your staff. / Refunds are handled by the finance team.
+@d_why: 中国学习者一学被动，就习惯在后面补一个 by…：✗ The label is created automatically by the system. ✗ Your order has been shipped by us.。其实英文的被动句**大多数不带 by**：做事的人不重要、很明显，或者不知道是谁，就不说——这正是用被动的原因。只有当「谁做的」是对方想知道的**新信息**时才加 by：It's picked up **by our partner carrier**, not by your staff.；明天（Day 64）还会学 Refunds are handled **by the finance team**.。如果你就是想强调「我们」做了，干脆用主动句：We've shipped your order.。
+@d_when: 讲流程时说明分工；对方关心「谁负责这一步」时。
+@d_vs: ✓ **The package is picked up from your warehouse.** （谁取的不重要）\n✓ **It's picked up by our partner carrier, not by your staff.** （「谁」正是重点）\n✓ **We've shipped your order.** （想强调「我们」，就用主动）\n✗ Your order has been shipped by us. ／ ✗ The label is created automatically by the system.
+@d_task: Sarah 问：Do my warehouse workers need to drive the packages to the airport?（不用：包裹由我们合作的快递公司运到机场） | No, they don't. The packages are transported to the airport by our partner carrier.
+
+@core: The order has been shipped. | 告诉对方一件事已经完成 | shipped / delivered / approved / refunded | 正式：Your order has been shipped and is on its way.｜随意：Good news, it's on its way!
+@core: Once an order is placed, … | 讲流程的起点和条件 | an order is placed / an account is activated / a request is approved | 正式：As soon as an order is placed, the warehouse is notified.｜随意：When someone orders, …
+@core: … is created / generated automatically. | 说系统自动完成的事 | a shipping label / a tracking number / a weekly report | 正式：A tracking number is generated automatically for every order.｜随意：The system does it for you.
+@core: The package is picked up from … | 说东西被取走、运走 | picked up / transported / unloaded；your warehouse / the airport | 正式：The package is collected from your warehouse.｜随意：The driver picks it up from your warehouse.
+@core: It's sorted and loaded onto a truck. | 一句话连说两个被动动作 | sorted and loaded / checked and packed / scanned and labeled | 正式：Each package is sorted and then loaded onto a truck.｜随意：They sort it and put it on a truck.
+@core: Your customer is notified at every step. | 说对方会收到通知 | your customer / you / the seller；at every step / when it's delivered | 正式：Customers are notified automatically at every stage.｜随意：Your customer gets a message every time it moves.
+@core: … on behalf of your store | 说以谁的名义发出或去做 | your store / the team / my manager | 正式：I'm writing on behalf of the SwiftLink team.｜随意：It comes from your store, not from us.
+@core: … by hand / manually | 说人工完成 | packed by hand / entered manually / checked manually | 正式：Each item is carefully packed by hand.｜随意：Somebody does it by hand.
+
+@pw: lifecycle | ˈlaɪfsaɪkl | 3 个音节 LIFE·cy·cle | 重音在 life；cycle 读 `/saɪkl/`，结尾 l 自成一个弱音节
+@pw: automatically | ˌɔːtəˈmætɪkli | 5 个音节 au·to·MAT·i·cally | 重音在 mat；-ically 只读 `/ɪkli/`，al 不发音；t 闪音
+@pw: inventory | ˈɪnvəntɔːri | 4 个音节 IN·ven·to·ry | 重音在第一个音节；美式 to 读 `/tɔːr/`，不吞掉
+@pw: fulfillment | fʊlˈfɪlmənt | 3 个音节 ful·FILL·ment | 重音在 fill；两个 l 都是暗 l，舌尖抬起
+@pw: notification | ˌnoʊtɪfɪˈkeɪʃn | 5 个音节 no·ti·fi·CA·tion | 主重音在 ca；动词 NO-ti-fy 重音在前，变成名词后移到 ca
+@pw: supplier | səˈplaɪər | 3 个音节 sup·PLI·er | 重音在 pli；第一个音节弱读成 `/sə/`
+@pw: pallet | ˈpælət | 2 个音节 PAL·let | 重音在前；和 palette（调色板）读音完全一样
+@ps: **Once** an **or**der is **placed**, / a **ship**ping label is cre**at**ed‿auto**mat**ically. | order is 连读成 `/ˈɔːrdərɪz/`，is 很轻；shipping label 是复合名词，重音在 ship；第二个 is 也弱读，created automatically 连成一串。
+@ps: The **pack**age is **picked**‿up / from your **ware**house. | package is 连读，is 几乎听不见；picked up 连成 pick-tup；warehouse 重音在 ware。
+@ps: It's **sort**ed / and **load**ed onto a **truck**. | It's 只有一个音节；sorted、loaded 的 -ed 读 `/ɪd/`；and 弱读成 `/ən/`；onto a 连读。
+@ps: The **or**der has been **shipped**. | has been 弱读成 `/əz bɪn/`，口语常缩成 The order's been shipped；shipped 的 -ed 读 `/t/`，结尾别加元音。
+@pnote: 被动句里的 be 动词听起来都很弱：is 常只剩 `/z/` 或 `/s/`（the package's picked up），was 读 `/wəz/`，has been 读 `/əz bɪn/` 或缩成 's been，will be 读 `/əl bi/`。盲听时别指望听清这些小词，要抓住后面的**过去分词**（shipped、sorted、notified），再靠时间词判断时态；但写的时候 be 一个都不能漏。
+@pnote: 数字和书面 vs 口语：订单号 4721 美国人常两位两位读——forty-seven twenty-one，也可以一位一位读 four-seven-two-one；邮件里常写 order #4721，# 读作 number。邮件里林晓写 Order 4721 has been shipped.，跟同事说话时 Leo 更可能说 It's been shipped. 或 It went out at nine.。
+@lfocus: 被动句里弱读的 is / has been：抓住后面的过去分词
+@lfocus: -ed 的三种读音：shipped `/t/`、notified `/d/`、sorted / loaded `/ɪd/`
+@lfocus: 订单号的读法：4721 = forty-seven twenty-one
+@dict: S15–S16
+@dict: S19–S20
+@res: 在 youglish.com 输入 "has been shipped"，选 US，留意 has been 在快速语流里有多轻。
+
+@mimic: 跟读【C】S12–S27（林晓的回信）：先逐句跟读，重点模仿被动句里 is / has been 的弱读和过去分词结尾的 -ed；再录一遍完整的回信，和手机朗读版对比。最后合上书，只看这 8 个过去分词，按顺序把订单的全过程讲一遍：placed → created → packed → picked up → sorted → transported → unloaded → notified。
+@swap: The order has been shipped. | 换动词：delivered / approved / refunded | The order has been delivered.
+@swap: Once an order is placed, a shipping label is created automatically. | 换前后两件事：an account is activated → a welcome email is sent；a package is delivered → a photo is taken | Once an account is activated, a welcome email is sent automatically.
+@swap: The package is picked up from your warehouse. | 换动作和地点：unloaded at the airport / sorted at the sorting center / dispatched from a local station | The package is unloaded at the airport.
+@swap: Your customer is notified at every step. | 换对象和时间：you / the seller；when it's delivered / every morning | You're notified when the package is delivered.
+@free: Daniel 打电话问 Has my order left yet?（先说结论：已经发出；昨天下午三点被取走，预计下周二送到） | Yes, it has been shipped. It was picked up from the warehouse at three yesterday afternoon, and it should be delivered next Tuesday.
+@free: 新同事问 Who makes the shipping labels?（没人手工做：顾客一下单，面单就自动生成） | Nobody makes them by hand. Once an order is placed, the label is created automatically.
+@free: Sarah 问 Will my customers know the messages are from my store?（会：所有通知都以她店铺的名义发出，顾客看到的是她的店名） | Yes, they will. Every notification is sent on behalf of your store, so your customers see your store name, not ours.
+@free: 朋友问你寄到美国的包裹为什么要好几天（先说结论：环节很多；再用被动按顺序说 3–4 个环节） | Because there are a lot of steps. The package is picked up and sorted in Shenzhen, and then it's flown to the U.S. After customs, it's passed on to a local carrier for delivery.
+@output: 录 1.5–2 分钟口头说明「一件东西是怎么到你手里的」：选一个你熟悉的流程——网购的快递、外卖、公司的一个订单——开头先用一句话说结论（大概多久、经过几步），再用被动语态按顺序讲 6–8 个环节（is placed / is generated / is packed / is picked up / is sorted / is delivered），中间至少用一次 has been 和一次 by…，最后说说哪一步最容易出问题。
+@output_sample: A package from an online store usually reaches me in two or three days, and it goes through about seven steps. First, I place an order on my phone. Once the order is placed, a tracking number is generated automatically, and the seller's warehouse is notified. Next, my items are picked and packed. In big warehouses, a lot of this is done by machines, but small shops still pack everything by hand. Then the package is picked up by a courier and taken to a sorting center. There, it's sorted by city and loaded onto a truck. Trucks usually drive at night, so by the next morning, the package has already arrived in my city. After that, it's passed on to a local driver. Finally, it's delivered to the courier station near my apartment, and I get a text message with a code. In my experience, the last step causes the most problems. Sometimes a package has been delivered, but nobody tells me, so I only find it three days later.
+
+@check: 听力：Sarah 在邮件里问了哪两件事？ | 一个订单从顾客下单到送达，中间会经过哪些环节；4721 号订单现在是什么状态。
+@check: 听力：4721 号订单现在怎么样了？包裹里的商品是机器打包还是人工打包？ | 已经发出了（has been shipped），九点离开仓库；每件商品都是人工打包的（packed by hand）。
+@check: 改错：Once an order place, the label automatic create. | Once an order is placed, the label is created automatically.——东西做主语要用 be + 过去分词；修饰动词用副词 automatically。
+@check: 下面哪句该加 by…？为什么？①「面单是自动生成的。」②「包裹是我们合作的快递公司运到机场的，不是你的员工。」 | ② 要加：The packages are transported to the airport by our partner carrier, not by your staff.——「谁运的」正是对方想知道的新信息；① 不用加：A shipping label is created automatically.（谁生成的不重要，也很明显）。
+@check: 换个场景：同事问你周报发了没有（已经发给张涛了；是今天早上九点发的） | Yes, it has been sent to Tom. It was sent at nine this morning.——说「已经完成」用 has been sent，说具体时间用 was sent。
+@check: 换个场景：卖家问 Do I have to update the tracking status myself?（不用：系统会从各家承运商那里收集动态，状态自动更新） | No, you don't. Our system collects updates from every carrier, so the status is updated automatically.
+@next1: 不看书说出 5 个锚点句：S8、S15、S19、S20、S25
+@next1: 只看 8 个过去分词（placed / created / packed / picked up / sorted / transported / unloaded / notified），用被动语态把订单流程讲一遍
+@next7: 被动的四种时态：is created / was picked up / has been shipped / will be delivered，各造一句关于工作的句子
+@next7: automatically / manually / by hand 各说一句；说说被动句什么时候要加 by…

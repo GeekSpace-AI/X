@@ -1,0 +1,167 @@
+@day: 78
+@week: 3
+@title_cn: 礼貌地说「不」
+@title_en: Saying No Politely
+@topic: 客户要求下周就为他单独开发一个功能：和产品经理商量后委婉拒绝，说明原因，提出替代方案和折中，不随口承诺
+@think_short: 「这个做不了」→ 理解 + 原因 + 替代方案｜I'm afraid… / Unfortunately… 开头｜「我们会考虑」We'll consider it. ≠ 答应了｜「我尽量」I'll do my best, but I can't promise…
+
+@goal_scene: 客户提出一个做不到的要求，还很着急：你要先表示理解，再清楚地说「不行」，用一句话讲原因，马上给出现在就能用的替代方案和一个折中的提议；把需求转给产品团队，但不让对方以为你已经答应了。
+@goal_expr: I'm afraid we can't… / It's not on our roadmap this year. / … is not something we can do. / What we can do is… / Can we meet you halfway? / My proposal is to… / I'll share your suggestion with our product team. / I'll do my best, but I can't promise…
+@goal_vocab: 20 个重点词 + 5 个短语：拒绝与限制、替代方案与折中、产品路线图、承诺与考虑
+@done: 能按「理解 → 不行 → 原因 → 替代方案 → 下一步」写一封 6–8 句的拒绝邮件，不写 ✗ We refuse your request.
+@done: 能用 What we can do is… / Can we meet you halfway? / My proposal is to… 把对话从「不行」转到「可以这样」
+@done: 能分清 We'll consider it. 和答应，会用 I can't commit to a date. / I'll do my best, but I can't promise… 管理对方的期待
+
+@warmup: 对于通知漏发一事，我们深表歉意。 | We sincerely apologize for the missing notifications. | D77
+@warmup: 您的恼火我完全理解。 | I completely understand your frustration. | D77
+@warmup: 我们正在落实新的措施，防止类似情况再次发生。 | We're putting new measures in place to prevent this from happening again. | D77
+@warmup: 我们计划明年把服务扩展到英国。 | We're planning to expand to the UK next year. | D75
+@warmup: 我更倾向 B。Mike 的团队下周五才用得上这些样品。 | I prefer B. Mike's team doesn't need the samples until next Friday. | D26
+@warmup: 那是因为我的第一份工作。我以前在快递站上班。 | That's because of my first job. I used to work at a courier station. | D52
+
+@scene: 周四上午。Daniel 又发来一封急件：他要 SwiftLink 在下周五之前给他单独做一个按钮，让他的买家在发货之后也能自己改收货地址，还特意加了一句「别跟我说做不到」。这个要求确实做不到：包裹一发出，地址就在快递公司的系统里，SwiftLink 改不了；这个功能今年不在产品路线图上，更不可能为一个卖家单独开发。林晓拿着邮件去找产品经理 Emma。Emma 说：拒绝可以，但不能光说「不」——要给理由、给替代方案，态度要好、立场要稳，而且绝不随口承诺日期。其实现在就有能用的办法：发货前卖家随时可以改地址；发货后的急件，由吴佳的客服团队打电话联系快递公司。
+@sp: 人物关系 | 林晓 ↔ Daniel：客户经理和一位要求多、脾气急的老客户，说「不」要清楚但不能伤关系；林晓 ↔ Emma：同事，Emma 管产品功能和路线图，有没有、什么时候做，她说了算
+@sp: 沟通目的 | 让 Daniel 明白：下周做不了，今年也不在计划里；但他的买家现在就有办法改地址；先试一个月、再一起看结果；他的建议会转给产品团队，但这不是承诺
+@sp: 已知信息 | 发货后地址由快递公司控制，这是系统的限制；发货前卖家可以自己改；吴佳的团队可以替急件联系快递公司；明年做不做完整功能还不确定，Emma 不能给日期
+@sp: 表达重点 | 先理解（I understand why…）→ 清楚地说不（I'm afraid we can't…）→ 一句原因（It's not on our roadmap this year.）→ 替代方案（What we can do is…）→ 折中（Can we meet you halfway? / My proposal is…）→ 转达但不承诺（I'll share your suggestion…）
+
+@story_title: Episode 78 · What We Can Do
+@story_type: 邮件 + 对话
+@s: On Thursday, Daniel sends Lily another urgent email: | 周四，Daniel 又给林晓发来一封急件：
+@s: My customers need to change their address after an order ships. | 我的客户需要在发货之后还能改地址。
+@s: Build me a button for that by next Friday. Don't tell me it's **impossible**. | 下周五之前给我做个按钮。别跟我说做不到。
+@br:
+@s: Lily shows the email to Emma. | 林晓把邮件拿给 Emma 看。
+@s: Emma: By next Friday? That's not **realistic**. | Emma：下周五？这不现实。
+@s: Emma: After a package ships, the carrier controls the address. That's a big **limitation**. | Emma：包裹一发出，地址就归快递公司管了，这是个很大的限制。
+@s: Lily: So should I just **refuse**? | 林晓：那我直接拒绝他？
+@s: Emma: Don't just **deny** the request. Give him a reason and an **alternative**. | Emma：别光是驳回。给他一个理由，再给一个替代方案。
+@s: Emma: A custom build for one seller is **not something we can do**. | Emma：只为一个卖家单独开发，这我们做不到。
+@s: Emma: But sellers can already change an address before shipping. | Emma：不过发货之前，卖家本来就能改地址。
+@s: Emma: That's a **partial** fix. As an **interim** step, Grace's team can call the carrier. | Emma：这只能解决一部分问题。作为过渡，吴佳的团队可以打电话给快递公司。
+@s: Lily: And if he **pushes back**? | 林晓：要是他不接受、继续坚持呢？
+@s: Emma: Be kind, but be **firm**. And don't **commit** to a date. | Emma：态度要好，但立场要稳。还有，别承诺日期。
+@s: Emma: Is the full feature **feasible** next year? Maybe. We'll **consider** it. | Emma：完整的功能明年能不能做？有可能。我们会考虑。
+@s: Emma: But "we'll consider it" isn't a yes. Make that clear. | Emma：但「我们会考虑」不等于答应，这一点要跟他说清楚。
+@br:
+@s: Lily writes back: | 林晓回信：
+@s: Hi Daniel, | Daniel 你好：
+@s: I understand why your customers need this. | 我理解您的客户为什么需要这个功能。
+@s: **I'm afraid we can't** build a custom feature by next week. | 恐怕我们没办法在下周之前做出一个定制功能。
+@s: Once a package ships, we're **unable** to change the address. It's not on our **roadmap** this year. | 包裹一旦发出，我们就无法修改地址；这个功能也不在我们今年的产品路线图上。
+@s: **What we can do is** offer a **workaround**. | 我们能做的是提供一个变通的办法。
+@s: You can change any address before shipping, and Grace's team will handle urgent cases after that. | 发货前，任何地址您都可以改；发货后的急件，由吴佳的团队来处理。
+@s: I know this only **partially** solves the problem. Can we **meet you halfway**? | 我知道这只能解决一部分问题。我们各让一步，可以吗？
+@s: My **proposal** is to try this for a month and then review it together. | 我的提议是：先试一个月，然后我们一起看看效果。
+@s: I'll share your **suggestion** with our product team. | 我会把您的建议转给我们的产品团队。
+@s: They'll **reconsider** it for next year, but I can't promise anything. | 他们会在规划明年时重新考虑，不过我没法做任何保证。
+@s: Best, Lily | 祝好！林晓
+@br:
+@s: Daniel replies an hour later: | 一小时后，Daniel 回信：
+@s: Fine. One month. Then we talk. | 行，就一个月。到时候再谈。
+
+@v: impossible | = | adj. | ɪmˈpɑːsəbl | 不可能的；办不到的 | 说一件事根本做不到 | almost impossible；impossible to…；Nothing is impossible. | It's almost impossible to get a taxi in the rain. | 下雨天几乎打不到车。 | 对客户直接说 ✗ It's impossible. 很生硬，像把门关上，工作里常换成 I'm afraid we can't… / That's not realistic.；「不可能做某事」说 It's impossible to…，不说 ✗ I'm impossible to…；第一册学过 possible，前缀 im- 表示否定。
+@v: realistic | = | adj. | ˌriːəˈlɪstɪk | 现实的；切实可行的 | 评估时间、目标、要求合不合理 | a realistic deadline；be realistic；not realistic | Is two weeks a realistic deadline? | 两周是个现实的截止时间吗？ | That's not realistic. 比 That's impossible. 委婉，意思是「按现在的条件做不到」；中文「不现实」正好对应；反义 unrealistic；4 个音节 re-a-LIS-tic，开头是 `/riːə/` 两个音，别读成 /rɪ/。
+@v: limitation | = | n. | ˌlɪmɪˈteɪʃn | 限制；局限 | 说系统、产品、资源的限制，解释为什么做不到 | a big limitation；technical limitations；the limitations of… | The free plan has some limitations. | 免费版有一些限制。 | 说系统「有局限、做不到某事」用 limitation，比 problem 客观；D75 的 limit 是具体的「上限、额度」（a limit of 500 orders），limitation 是「能力上的限制」；重音在 TA：li-mi-TA-tion。
+@v: refuse | = | v. | rɪˈfjuːz | 拒绝（做某事、接受某物） | 描述拒绝这个动作；明确不肯 | refuse to…；refuse a request；flatly refuse | He refused to sign the contract. | 他拒绝签那份合同。 | 语气很硬，适合「描述」别人拒绝，不适合当面对客户说：✗ We refuse your request.；结构是 refuse to do，不说 ✗ refuse doing；作名词 refuse `/ˈrefjuːs/` 是「垃圾」，重音和读音都不同。
+@v: deny | = | v. | dɪˈnaɪ | 驳回（请求）；否认 | 正式地拒绝申请、请求；否认说法 | deny a request；deny access；deny that… | The bank denied his loan application. | 银行驳回了他的贷款申请。 | 两个意思：「驳回、拒绝给予」（deny a request / deny access）和「否认」（He denied taking the money.）；和 refuse 一样硬，是描述用词，不当面对客户说；「否认」后接 -ing 或 that 从句。
+@v: alternative | = | n./adj. | ɔːlˈtɜːrnətɪv | 替代方案；可供选择的另一个办法 | 拒绝时给对方另一条路 | an alternative；offer an alternative；an alternative to… | If the train is full, the bus is a good alternative. | 如果火车满了，坐大巴也是个不错的选择。 | 「……的替代方案」用 alternative **to**：an alternative to the custom button；中文「替代方案」「备选」都可以说 alternative；拒绝时的黄金搭配：No + reason + alternative；重音在 TER：al-TER-na-tive。
+@v: not something we can do | = | phr. | ˌnɑːt ˈsʌmθɪŋ wi kən ˈduː | 这不是我们能做的；这个我们做不到 | 委婉但坚定地说某件事不在能力或规定范围内 | That's not something we can do.；…is not something we can offer；not something I can decide | Changing the contract is not something I can decide. | 改合同不是我能决定的。 | 比直接说 We can't do that. 柔和，又比 We'll see. 清楚，没有商量余地；主语可以是一件事：A custom build for one seller is not something we can do.；not 和 something 都要重读。
+@v: partial | = | adj. | ˈpɑːrʃl | 部分的；不完全的 | 说方案、退款、付款只覆盖一部分 | a partial fix；a partial refund；partial payment | We can offer you a partial refund. | 我们可以给您退一部分款。 | 「部分退款」说 a partial refund，不说 ✗ a part refund；副词是 partially（这一课也学）；t 读 `/ʃ/`：PAR-tial，两个音节。
+@v: interim | = | adj. | ˈɪntərɪm | 临时的；过渡期的 | 正式方案出来之前先用的办法、临时负责人 | an interim step；an interim solution；an interim manager | We hired an interim manager until June. | 我们请了一位临时经理，到六月为止。 | 比 temporary（D67）正式，常见于商务和报告：an interim solution（过渡方案）；口语说 for now 就行；重音在第一个音节 IN-te-rim，别读成 in-TE-rim。
+@v: pushes back | push back | phr. | ˌpʊʃɪz ˈbæk | 反对；不接受（别人的决定或说法）；推迟 | 客户、同事不同意，继续坚持自己的要求 | push back on…；push back hard；push back the deadline | The team pushed back on the new schedule. | 团队对新排期提出了反对。 | 职场高频词：push back on sth = 对某事提出异议、不接受；另一个意思是「推迟」：push back the meeting to Friday——要看上下文；说自己不同意时也可以用：I'd like to push back on that a little.（委婉地表达不同意见）。
+@v: firm | = | adj. | fɜːrm | 坚定的；（立场）不动摇的 | 拒绝时态度好，但不让步 | be firm；a firm no；firm but polite | Be polite, but be firm about the deadline. | 态度要客气，但截止日期上不能松口。 | firm but polite / kind but firm 是客户沟通里常说的原则；a firm date 是「确定的日期」；firm 也是名词「公司」（a law firm），注意上下文；er 卷舌 `/ɜːr/`。
+@v: commit | = | v. | kəˈmɪt | 承诺；（对日期、方案）做出保证 | 说能不能保证一个日期、一项工作 | commit to a date；commit to + -ing；be committed to… | I can't commit to a date yet. | 我现在还不能承诺日期。 | to 是介词，后面接名词或 -ing：✗ commit to finish → ✓ commit to finishing；中文「答应」「保证」在工作里常说 commit；不能保证时说 I can't commit to…，比 I'll try my best 更诚实；重音在后 com-MIT。
+@v: feasible | = | adj. | ˈfiːzəbl | 可行的；做得到的 | 评估方案、功能在技术和成本上能不能做 | technically feasible；a feasible plan；Is it feasible? | Is it feasible to finish the project in two months? | 两个月做完这个项目可行吗？ | 比 possible 更专业，强调「考虑了时间、成本、技术之后能不能做」；产品和工程会议的高频词；s 读 `/z/`：FEA-si-ble，重音在前。
+@v: consider | = | v. | kənˈsɪdər | 考虑；认真想一想 | 说会不会把一个建议、请求纳入考虑 | consider it；consider + -ing；consider sb's suggestion | We're considering opening an office in Seattle. | 我们正在考虑在西雅图开个办公室。 | consider 后面接 -ing，不接 to：✗ consider to open → ✓ consider opening；We'll consider it. 只是「会考虑」，不等于答应；重音在中间 con-SID-er。
+@v: I'm afraid we can't | i'm afraid we can't | phr. | aɪm əˌfreɪd wi ˈkænt | 恐怕我们不能……；很抱歉我们做不到…… | 礼貌而清楚地说「不行」 | I'm afraid we can't…；I'm afraid not.；I'm afraid that… | I'm afraid we can't change the date. | 恐怕我们没法改日期。 | I'm afraid 在这里是「恐怕、很遗憾」，不是「害怕」；第一册学过 I'm afraid not.；后面直接接坏消息，不再加 sorry：✗ I'm afraid we are sorry that…；can't 要读饱满、重读。
+@v: unable | = | adj. | ʌnˈeɪbl | 不能的；无法的 | 书面、正式地说做不到 | be unable to…；unable to attend；We're unable to… | I'm unable to attend the meeting on Friday. | 周五的会我无法参加。 | 比 can't 正式，常见于邮件和通知：We're unable to change the address.；口语说 can't 就行；结构 be unable to + 动词原形，不说 ✗ unable to changing；un 有轻重音，able 读 `/eɪbl/`。
+@v: roadmap | = | n. | ˈroʊdmæp | 产品路线图；（未来一段时间的）规划 | 说产品计划什么时候做什么功能 | the product roadmap；on our roadmap；next year's roadmap | Text alerts are on our roadmap for next year. | 短信提醒在我们明年的规划里。 | 「在规划里」说 on the roadmap，不说 ✗ in the roadmap；It's not on our roadmap. 是产品团队拒绝需求最常用的说法；复合词，重音在 road。
+@v: What we can do is | what we can do is | phr. | ˌwʌt wi ˈkæn duː ɪz | 我们能做的是…… | 说完「不行」，马上转到替代方案 | What we can do is…；What I can do is…；Here's what we can do. | What I can do is send you a draft by Friday. | 我能做的是周五前先发您一份草稿。 | 拒绝之后的「转身」句，把重点从 can't 换到 can；后面接动词原形（offer / send），不加 to；can 要重读成 `/kæn/`，和前面的 can't 形成对比。
+@v: workaround | = | n. | ˈwɜːrkəraʊnd | 变通的办法；临时绕过问题的办法 | 系统暂时做不到时，用别的方法达到目的 | a workaround；find a workaround；a temporary workaround | Until the bug is fixed, here's a workaround. | 在问题修好之前，可以先用这个变通办法。 | workaround 是「绕过去」的办法，问题本身还在；真正解决问题的是 solution（D77）、fix；一个词，也写作 work-around；重音在 work。
+@v: partially | = | adv. | ˈpɑːrʃəli | 部分地；不完全地 | 说方案只解决了一部分问题 | partially solve；partially agree；partially complete | I partially agree with you. | 我部分同意你的看法。 | 和 D72 的 partly 意思接近：partly 多说原因（partly because…），partially 多说程度（partially solves / partially done）；形容词是 partial；三个音节 PAR-tial-ly。
+@v: meet you halfway | meet sb halfway | phr. | ˌmiːt ju ˌhæfˈweɪ | 各让一步；折中 | 双方都不完全满意，各退一步达成一致 | meet sb halfway；Can we meet you halfway?；meet in the middle | I can't do Friday, but I can meet you halfway—how about Wednesday? | 周五我不行，咱们各让一步，周三怎么样？ | 中文「各让一步」「折中一下」，不说 ✗ each step back；问句 Can we meet you halfway? 是在商量，后面要马上说出具体的折中方案；halfway 的 l 不发音 `/ˌhæfˈweɪ/`。
+@v: proposal | = | n. | prəˈpoʊzl | 提议；方案；建议书 | 正式地提出一个具体做法 | my proposal；make a proposal；a proposal to… | Here's my proposal for the new schedule. | 这是我对新排期的提议。 | proposal 比 suggestion 正式、具体，常有步骤和时间；动词 propose：I propose that we…；也指「求婚」，看上下文；重音在 PO：pro-PO-sal。
+@v: suggestion | = | n. | səˈdʒestʃən | 建议；意见 | 客户、同事提出的想法和需求 | a good suggestion；make a suggestion；share sb's suggestion | Thanks for the suggestion. I'll try it. | 谢谢你的建议，我试试看。 | 可数名词：a suggestion / some suggestions；「提建议」说 make a suggestion，不说 ✗ give a suggestion to…（不算错，但不地道）；动词 suggest 后面不接 sb to do：✗ suggest him to…；不少美国人读 `/səɡˈdʒestʃən/`，带个 g。
+@v: reconsider | = | v. | ˌriːkənˈsɪdər | 重新考虑 | 以后再评估一个被拒绝或暂缓的请求 | reconsider it；reconsider the decision；reconsider later | Please reconsider our offer. | 请重新考虑一下我们的报价。 | re- 表示「再一次」：reconsider / reship / reschedule；和 consider 一样只是「考虑」，不是答应；Please reconsider. 是请对方改变主意，语气较正式；重音在 SID。
+
+@diff: 「这个做不了」——理解 + 原因 + 替代方案
+@d_cn: 客户提了一个做不到的要求，中文常常要么直接说「这个做不了」「不支持」，要么不正面回答，说「我们研究一下」，拖着。
+@d_en: I understand why your customers need this. I'm afraid we can't build a custom feature by next week. It's not on our roadmap this year. What we can do is offer a workaround.
+@d_why: 这两种中文习惯放进英文邮件都会出问题。① 一句干巴巴的 ✗ We can't do it. / ✗ We refuse your request.，美国客户会觉得门被「砰」地关上了——refuse、deny、impossible 是**描述**拒绝的词，Emma 用它们跟林晓商量没问题，但不当面对客户说。② 含糊地拖着，客户会以为还有希望，下周来要结果时更生气。英文的「不」要**清楚**，同时**包装好**：**① 理解**（I understand why your customers need this.）**② 清楚地说不**（I'm afraid we can't…）**③ 一句原因**（It's not on our roadmap this year.）**④ 替代方案**（What we can do is…）**⑤ 下一步**（My proposal is… / I'll share your suggestion…）。原因只要一句，说多了像在找借口；替代方案是关键——它把对话从「不行」转到「可以这样」，Daniel 最后能接受，就是因为他手里有了一个现在就能用的办法。
+@d_when: 客户提出做不到的需求、要求破例、要求不合理的期限；同事请你帮一个你没时间帮的忙。
+@d_vs: ✗ We can't do it.（门关上了）\n✗ We will study it.（含糊，对方以为还有希望）\n✓ **I understand why your customers need this.**（理解）**I'm afraid we can't build it by next week.**（不行）**It's not on our roadmap this year.**（原因）**What we can do is offer a workaround.**（替代方案）
+@d_task: 同事 Leo 请你周末帮他改完报告（你周末有事）。用「理解 + 不行 + 替代方案」回答。 | I'd love to help, but I'm afraid I can't this weekend. What I can do is go through it with you first thing Monday morning.
+@diff: 拒绝的开头——I'm afraid… / Unfortunately…
+@d_cn: 中文说坏消息前常加「不好意思」「很遗憾」「恐怕」，给对方一个心理准备。
+@d_en: I'm afraid we can't build a custom feature by next week. / Unfortunately, we're unable to change the address. / A custom build is not something we can do.
+@d_why: 英文也有这样的「缓冲词」，放在坏消息的最前面：**I'm afraid…** 口语、邮件都能用，语气温和（这里的 afraid 是「恐怕」，不是「害怕」）；**Unfortunately, …** 更书面，邮件里最常见；**… is not something we can do.** 是委婉但没有商量余地的说法，Emma 用它表明「这件事不在讨论范围内」。三个常见错误：一是堆砌，✗ Unfortunately, I'm afraid we are very sorry that we can't…——一个缓冲词就够了；二是缓冲后又说得不清楚，✗ I'm afraid it may be a little difficult…——美国人会理解成「难，但也许能做」；三是 can't 读得太轻，对方听成 can。还要分清「对谁说」：跟客户说 We're unable to… / I'm afraid we can't…；跟同事描述时才说 He wants us to… but we refused.。如果对方继续坚持（push back），不用换更硬的词，重复原因、回到替代方案就好——Emma 说的 Be kind, but be firm.
+@d_when: 邮件或电话里说「不」、说坏消息的第一句。
+@d_vs: ✓ **I'm afraid we can't build a custom feature by next week.**（温和、清楚）\n✓ **Unfortunately, we're unable to change the address after shipping.**（书面）\n✓ **A custom build is not something we can do.**（委婉但没商量）\n✗ I'm afraid it may be a little difficult.（太含糊，对方以为能做）\n✗ Unfortunately, I'm afraid we are sorry that…（堆砌）
+@d_task: 用两种开头告诉 Priya：她要的「明天上线新报表」做不到。 | I'm afraid we can't launch the new report tomorrow. ／ Unfortunately, a launch tomorrow isn't realistic.
+@diff: 「我们会考虑」——We'll consider it. ≠ 答应了
+@d_cn: 中文「我们考虑考虑」「研究研究」常常是客气的拒绝，双方心照不宣。
+@d_en: We'll consider it for next year, but I can't commit to a date. / I'll share your suggestion with our product team. / They'll reconsider it for next year, but I can't promise anything.
+@d_why: 美国客户更容易**照字面理解**：你说 We'll consider it.，他会认为你们真的会认真考虑，过几周可能就来问「考虑得怎么样了」。所以 Emma 特别提醒：「我们会考虑」不是 yes，要说清楚。办法是在后面加一句管理期待的话：**but I can't commit to a date / but I can't promise anything / To be clear, this isn't a yes.**。反过来，美国人对你说 We'll consider it. 时，一般是真的会考虑，但同样**不是承诺**。转达需求时，I'll share your suggestion with our product team. 很好用：它表示「你的声音会被听到」，但没有替你的同事答应任何事。注意结构：consider + -ing（✗ consider to build），commit to + 名词 / -ing（✗ commit to finish）。
+@d_when: 客户提了一个以后也许会做的需求；你不能代替别的团队答应时；会议上别人问「能不能加上……」。
+@d_vs: ✗ We'll consider it.（只说这一句，对方会等你的答复）\n✓ **We'll consider it for next year, but I can't commit to a date.**\n✓ **I'll share your suggestion with our product team.**（转达，不是答应）\n✓ **To be clear, that's not a yes.**（必要时直接说清）\n✗ We'll consider to build it.
+@d_task: Sarah 希望你们以后支持英国的退货跟踪。告诉她：你会把建议转给产品团队，他们会考虑，但你现在没法承诺时间。 | I'll share your suggestion with our product team, and they'll consider it. But I can't commit to a date right now.
+@diff: 「我尽量」——I'll do my best, but I can't promise…
+@d_cn: 想帮忙但没把握时，中文常说「我尽量」「我争取」，听的人一般明白这不是保证。
+@d_en: I'll do my best, but I can't promise anything. / I can't commit to a date. / I'll try, but no promises.
+@d_why: 「我尽量」直译成 I'll try my best. 本身不算错，但只说这一句，美国客户常常把它听成「八成能做到」，到时候做不到，他会觉得你失信了。更诚实、也更专业的说法是把「尽力」和「不能保证」放在一起说：**I'll do my best, but I can't promise anything.** / **I'll try, but no promises.**（口语）。能给的承诺要具体（My proposal is to try this for a month and then review it together.——有时间、有动作）；不能给的承诺要明说（don't commit to a date）。这样对方心里有数，你的信用也保住了。另外，和 D77 的 never 一样，别为了让客户高兴随口说 ✗ Don't worry, it will definitely be ready next week.——definitely（D73）只用在你真有把握的事上。
+@d_when: 对方要一个你没把握的期限或结果；你要替别的团队转达需求时。
+@d_vs: ✗ I'll try my best.（单说一句，对方当成承诺）\n✓ **I'll do my best, but I can't promise anything.**\n✓ **I can't commit to a date yet.**\n✓ **I'll try, but no promises.**（口语，熟人之间）\n✗ Don't worry, it will definitely be ready next week.（没把握就别说）
+@d_task: Daniel 问：下周三之前能把他的 200 个包裹都查清楚吗？（你尽量，但不能保证） | I'll do my best to check all two hundred packages by Wednesday, but I can't promise. I'll update you on Tuesday either way.
+
+@core: I'm afraid we can't … | 礼貌而清楚地说「不行」 | build a custom feature by next week / offer a 24/7 phone line | 正式：Unfortunately, we're unable to…｜随意：Sorry, we can't do that.
+@core: It's not on our roadmap this year. | 说明产品计划里没有这一项 | this year / this quarter / right now | 正式：This isn't part of our current product plan.｜随意：It's not in the plans right now.
+@core: … is not something we can do. | 委婉但坚定地说做不到 | a custom build for one seller / a full refund after sixty days | 正式：…is not something we're able to offer.｜随意：We can't do that one, sorry.
+@core: What we can do is … | 说完「不行」，马上转到替代方案 | offer a workaround / give you priority support / call the carrier for you | 正式：As an alternative, we can…｜随意：Here's what we can do.
+@core: Can we meet you halfway? | 提出各让一步 | meet you halfway / meet in the middle | 正式：Would you be open to a compromise?｜随意：How about we meet in the middle?
+@core: My proposal is to … | 提出一个具体的折中做法 | try this for a month / review it together in June | 正式：I'd like to propose that we…｜随意：How about we…?
+@core: I'll share your suggestion with our product team. | 转达需求，但不替别人答应 | our product team / the Seattle engineers / Tom | 正式：I'll pass your suggestion on to our product team.｜随意：I'll let Emma know.
+@core: I'll do my best, but I can't promise anything. | 「我尽量」+ 说清不能保证 | anything / a date / that it'll be ready by Friday | 正式：I'm not able to commit to a date at this point.｜随意：I'll try, but no promises.
+
+@pw: alternative | ɔːlˈtɜːrnətɪv | 4 个音节 al·TER·na·tive | 重音在 ter，卷舌；al 读 `/ɔːl/`；na 弱读成 `/nə/`
+@pw: workaround | ˈwɜːrkəraʊnd | 3 个音节 WORK·a·round | 重音在 work；a 弱读成 `/ə/`，和 work 连在一起
+@pw: limitation | ˌlɪmɪˈteɪʃn | 4 个音节 li·mi·TA·tion | 重音在 ta；前两个音节短而轻
+@pw: feasible | ˈfiːzəbl | 3 个音节 FEA·si·ble | 重音在前，`/iː/` 拉长；s 读 `/z/`
+@pw: realistic | ˌriːəˈlɪstɪk | 4 个音节 re·a·LIS·tic | 主重音在 lis；开头 re-a 是两个音 `/riːə/`
+@pw: interim | ˈɪntərɪm | 3 个音节 IN·ter·im | 重音在第一个音节；er 弱读成 `/ər/`
+@pw: roadmap | ˈroʊdmæp | 2 个音节 ROAD·map | 复合词重音在前；d 碰到 m 只做口型
+@ps: I'm a**fraid** we **can't** / build a **cus**tom **fea**ture / by **next** **week**. | can't 重读 `/kænt/`，t 碰到 build 几乎不爆破——听的时候靠饱满的 `/æ/` 和重音判断是否定。
+@ps: It's **not** on‿our **road**map / this **year**. | not 重读，是这句的信息重点；on our 连读；roadmap 重音在 road。
+@ps: **What** we **can** do / is **of**fer a **work**around. | 这里的 can 和前面的 can't 形成对比，要重读成 `/kæn/`，不能弱读；offer a 连读成 `/ɔːfərə/`。
+@ps: Can we **meet** you **half**way? ↗ | 句首的 Can 弱读成 `/kən/`；halfway 的 l 不发音 `/ˌhæfˈweɪ/`；句尾上扬，是商量的语气。
+@pnote: can 和 can't 是今天最重要的听辨点。① 平常的 can 弱读成 `/kən/`，几乎听不见（Can we meet you halfway?）；② can't 永远重读、元音饱满 `/kænt/`，结尾的 t 常常不爆破（I'm afraid we can't build…）；③ 对比时 can 也要重读：What we **can** do is…。所以别等那个 t，听元音和重音：轻而短的是 can，重而长的是 can't。
+@pnote: 写 vs 说：邮件里写 We're unable to… / My proposal is to… / I'll share your suggestion with…；电话里同样的意思常说 We can't… / How about we…? / I'll pass it on to Emma.。push back 是美国职场口语里的高频词，听到 He pushed back 要反应过来是「他不同意、不接受」，不是「他往回推」。Daniel 的回信 Fine. One month. Then we talk. 全是短句，写邮件时别模仿这种语气，但要听得懂：他同意了。
+@lfocus: can `/kən/` vs can't `/kænt/`；对比时重读的 can
+@lfocus: halfway 的 l 不发音；roadmap / workaround 重音在前
+@lfocus: by next Friday / for a month / next year：听清时间和承诺
+@dict: S5–S8
+@dict: S19–S23
+
+@mimic: 跟读【C】S5–S15 和 S17–S27：先逐句跟读 Emma 的话，模仿她讲原则时冷静、肯定的语气（Be kind, but be firm.）；再把林晓的回信读成一通电话，正常语速，特别注意 can't 和 can 的对比重音、halfway 的读音和 Can we meet you halfway? 的上扬语调，录音。最后合上书，只看 Daniel 的三句邮件，按「理解 → 不行 → 原因 → 替代方案 → 折中」口头回复他。
+@swap: I'm afraid we can't build a custom feature by next week. | 换：offer a 24/7 phone line / give a fifty percent discount；for one seller / this month | I'm afraid we can't offer a 24/7 phone line for one seller.
+@swap: It's not on our roadmap this year. | 换时间：this quarter / for now；或换主语：Spanish support / a mobile app | A mobile app isn't on our roadmap this quarter.
+@swap: What we can do is offer a workaround. | 换替代方案：give you priority support / send you a weekly report / call the carrier for you | What we can do is give you priority support.
+@swap: I'll share your suggestion with our product team. | 换对象：the Seattle engineers / Tom / Emma | I'll share your suggestion with the Seattle engineers.
+@free: Sarah 问能不能把她的月费减半（不行；但可以改成年付，送两个月）。 | I'm afraid we can't cut the price in half. What we can do is move you to an annual plan, which gives you two months free.
+@free: Priya 要你们明天就上线新报表（不现实；下周可以先给她一个测试版）。 | I'm afraid tomorrow isn't realistic. What we can do is give you an early version to test next week.
+@free: Daniel 不接受（push back），要你保证新功能下个月就上线。不要承诺，说清楚只是转达和考虑。 | I understand, Daniel, but I can't commit to next month. I'll share your suggestion with our product team, and they'll consider it for next year's roadmap.
+@free: 张涛让你这周再接两个新卖家（你已经满负荷），提出折中：这周先接一个。 | I'd like to help, but two more sellers this week isn't realistic for me. Can we meet halfway? I can take one now and the other next week.
+@output: 写一封 6–10 句的邮件「礼貌地拒绝一个要求」：想象一位客户（或同事、上级）提出一个你们做不到的要求（单独开发、特别折扣、不现实的期限……）。按「感谢 / 理解 → I'm afraid we can't… → 一句原因 → What we can do is… → 折中提议（Can we meet you halfway? / My proposal is…）→ 转达但不承诺（I'll share your suggestion… but I can't promise…）→ 结尾」来写。
+@output_sample: Hi Priya,\nThanks for your request, and I understand why a direct phone line would help your team. I'm afraid we can't offer a 24/7 phone line just for BrightNest. Our support teams in Shenzhen and Seattle aren't large enough to cover every hour for one seller. What we can do is give your team priority support. Your emails will go to the top of our queue, and we'll reply within two hours, day or night. For real emergencies, you can also call my mobile during Shenzhen business hours. I know this only partially solves the problem, so here's my proposal: let's try it for one month and then review the numbers together. I'll share your suggestion with our product team, but I can't promise anything. Please let me know what you think.\nBest regards,\nLily
+
+@check: 听力：Daniel 要什么？什么时候要？ | 他要一个按钮，让他的买家在发货之后也能自己改收货地址；下周五之前就要。
+@check: 听力：林晓给 Daniel 的替代方案和折中提议是什么？Daniel 最后怎么回答？ | 发货前任何地址都可以改；发货后的急件由吴佳的团队联系快递公司；先试一个月，再一起看效果。Daniel 同意先试一个月，之后再谈。
+@check: 改错并说明原因：We refuse your request because it is impossible. | refuse 和 impossible 太硬，像把门关上，也没有理解和替代方案。改成：I understand why you need this. I'm afraid we can't build it by next week. What we can do is…
+@check: 换个场景：同事请你明天替他去见一个客户（你明天整天培训），用「理解 + 不行 + 替代方案」回答。 | I'd love to help, but I'm afraid I can't. I'm in training all day tomorrow. What I can do is call the client with you on Thursday morning.
+@check: 美国客户说 We'll consider it.，你应该怎么理解？你自己说这句话时要注意什么？ | 意思是会认真考虑，但不是答应。自己说时如果其实没把握，要加一句管理期待：We'll consider it, but I can't commit to a date. / To be clear, that's not a yes.
+@check: 「我尽量下周给你」怎么说，才不会让对方当成承诺？ | I'll do my best to get it to you next week, but I can't promise. 或 I'll try, but I can't commit to a date yet.
+
+@next1: 不看书说出 5 个锚点句：S19、S20、S21、S23、S25
+@next1: 用「理解 → I'm afraid we can't… → 原因 → What we can do is… → 折中」口头拒绝一个要求
+@next7: 拒绝的五步：I understand why… / I'm afraid we can't… / It's not on our roadmap… / What we can do is… / Can we meet you halfway?
+@next7: consider + -ing、commit to + -ing、I'll do my best, but I can't promise… 各造一句关于自己工作的话

@@ -1,0 +1,166 @@
+@day: 80
+@week: 3
+@title_cn: 跟进与催促
+@title_en: Just Following Up
+@topic: 礼貌地跟进：不说「你没回我」，用跟进、委婉提问、给台阶、约通话把事情往前推
+@think_short: 「催一下」✗ You didn't reply. → Just following up on…｜「不知道您……」I was wondering if…｜「您方便的时候」when you get a chance（别用 Kindly…ASAP）｜「给台阶」In case it got buried in your inbox, …
+
+@goal_scene: 合同条款发给客户三天没有回音，经理希望周五前定下来：写一封礼貌的跟进邮件——不指责、给对方台阶、把附件再发一次、委婉地问进度，再约一个通话时间，并给对方改期的余地。
+@goal_expr: Just following up on my email from Monday. / In case it got buried in your inbox, I've attached it again. / I was wondering if you've had a chance to review the terms. / Any update on the timeline? / Could we touch base on Thursday? / If that doesn't work, I'm happy to reschedule. / … when you get a chance.
+@goal_vocab: 20 个重点词 + 5 个短语：跟进与提醒、邮件与附件、约时间与改期
+@done: 能用 Just following up on… 和 In case it got buried in your inbox, … 开头写跟进邮件，不再写 You didn't reply. / Kindly reply ASAP.
+@done: 能用 I was wondering if… / Any update on…? 委婉地问进度，if 后面用陈述语序
+@done: 能约一个通话（touch base / invitation / slot），并用 I'm happy to reschedule. Just let me know your availability. 给对方余地；能写一封 6–10 句的跟进邮件
+
+@warmup: 也就是说，如果我没理解错，您这批货到现在还没出仓库。 | So, if I understand correctly, your shipment hasn't left the warehouse. | D79
+@warmup: 这确实不应该发生，我保证今天就解决。 | That's not acceptable, and I'll make sure it's fixed today. | D79
+@warmup: 我三点之前给您回电话。 | I'll call you back by three o'clock. | D79
+@warmup: 您的不满我完全理解。 | I completely understand your frustration. | D77
+@warmup: 我在 SwiftLink 工作五周了。 | I've worked at SwiftLink for five weeks. | D31
+@warmup: 林晓加上附件，点了发送。 | Lily adds the file and clicks Send. | D19
+
+@scene: 上周的通知事故（Day 77）里，BrightNest 受影响最大，林晓道了歉，Priya 也接受了补偿。这周一上午，林晓把明年的续约条款发给了 Priya：新的价格档位、服务范围，都等她确认。Priya 平时回邮件很快，可这一次从周一等到周三下午，一点回音都没有。张涛有点担心 BrightNest 还在为上周的事不高兴，在工作群里问了一句，希望周五前把条款定下来。实习生 Leo 自告奋勇要去「催一下」，开口就是「你们没回我们的邮件」「烦请尽快回复」。林晓拦住了他：先确认邮件没被退回，再写一封礼貌的跟进邮件，顺手把附件重发一次，再约一个周四的通话。
+@sp: 人物关系 | 林晓 ↔ Priya：客户经理和大客户的运营经理，合作顺利、彼此尊重；林晓 ↔ Leo：带实习生，边做边教
+@sp: 沟通目的 | 让 Priya 看到条款并给出时间表；约一个通话把问题当面谈清；整个过程不让对方难堪
+@sp: 已知信息 | 林晓知道邮件没被退回，但不知道 Priya 有没有看到；张涛希望周五前定稿；Priya 那边其实是邮件进了垃圾箱，财务对价格还有一个问题
+@sp: 表达重点 | 不指责（✗ You didn't reply）→ Just following up on… → 给台阶 + 重发附件（In case it got buried…）→ 委婉问进度（I was wondering if…）→ 说明自己的时间要求 + Any update on…? → 约通话（touch base / invitation / slot）→ 给改期余地（reschedule / availability）
+
+@story_title: Episode 80 · Just Following Up
+@story_type: 对话 + 工作消息 + 邮件往来
+@s: Lily sent Priya the new contract terms on Monday. Now it's Wednesday afternoon. | 林晓周一把新的合同条款发给了 Priya。现在已经是周三下午了。
+@s: Tom messages her: | 张涛给她发来一条消息：
+@s: Still **awaiting** BrightNest's **confirmation**? We need to **finalize** the terms by Friday. | BrightNest 还没确认吗？条款得在周五前定下来。
+@s: Leo: Should we **chase** her? I can write, "You didn't reply to our email." | Leo：要不要催一下？我可以写「你们没回我们的邮件」。
+@s: Lily: That sounds like we're blaming her. Let's **nudge** her **politely**. | 林晓：那听起来像在怪她。我们礼貌地提醒她一下。
+@s: Leo: Maybe the email **bounced**? | Leo：会不会是邮件被退回了？
+@s: Lily: No, it didn't bounce. But it might be in her **spam** folder. | 林晓：没有退信。不过可能进了她的垃圾邮件。
+@s: Leo: OK. Should I **resend** the **attachment**? And write, "**Kindly** reply ASAP"? | Leo：好。那要不要把附件重发一遍？再写一句「烦请尽快回复」？
+@s: Lily: Resend it, yes. But "kindly" can sound bossy. Try "when you get a chance." | 林晓：附件要重发。不过 kindly 听起来可能有点像在下命令，换成「您方便的时候」。
+@s: Lily: And one email is enough. Being too **persistent** can annoy people. | 林晓：而且发一封就够了。催得太紧会让人烦。
+@br:
+@s: Lily writes: | 林晓写道：
+@s: Hi Priya, | Priya 你好：
+@s: **Just following up on** my email from Monday. | 跟进一下我周一发的邮件。
+@s: In case it got buried in your inbox, I've attached it again. | 怕它被淹没在您的收件箱里，我把附件再附上一次。
+@s: **I was wondering if** you've had a chance to review the terms. | 想问一下，您有没有时间看过这些条款？
+@s: We'd love to finalize them by Friday. | 我们希望能在周五前定下来。
+@s: **Any update on** the **timeline**? | 时间上有什么新进展吗？
+@s: Could we **touch base** on Thursday? | 我们周四能简单通个话吗？
+@s: I've sent an **invitation** for a 30-minute **slot** at 9 a.m. your time. | 我已经发了会议邀请，时间是您那边上午 9 点，30 分钟。
+@s: If that doesn't work, I'm happy to **reschedule**. Just let me know your **availability**. | 如果时间不合适，我很乐意改期，告诉我您什么时候有空就行。
+@s: Best regards, Lily | 祝好！林晓
+@br:
+@s: The next morning, Priya replies: | 第二天一早，Priya 回信了：
+@s: Thanks for the nudge, Lily! Your first email went to my spam folder. | 谢谢提醒，Lily！你的第一封邮件进了我的垃圾邮件文件夹。
+@s: Sorry I didn't reply more **promptly**. | 抱歉没能早点回复。
+@s: Our finance team has one question about the pricing. I'll **circle back** with them today. | 我们财务团队对价格还有一个问题，我今天跟他们确认一下再回复你。
+@s: Thursday at 9 works. See you then! | 周四 9 点可以，到时候聊！
+@s: Leo: Wow, that was a **prompt** reply. | Leo：哇，回得真快。
+@s: Lily: See? Sometimes people just need us to **remind** them. | 林晓：看到了吧？有时候对方只是需要我们提醒一下。
+
+@v: awaiting | await | v. | əˈweɪtɪŋ | 等待（正式） | 工作消息、状态说明、邮件里说「还在等……」 | awaiting confirmation；awaiting approval；We're still awaiting… | The order is awaiting approval from the finance team. | 这个订单还在等财务批准。 | await 是 wait for 的正式说法，后面直接接宾语，不加 for：✓ await your reply ✗ await for your reply；口语里说 We're still waiting for…；系统状态里常见 Awaiting payment（待付款）。
+@v: confirmation | = | n. | ˌkɑːnfərˈmeɪʃn | 确认；确认函 | 等客户、同事确认条款、订单、时间 | get confirmation；confirmation email；written confirmation | We need written confirmation before we can start. | 我们得先拿到书面确认才能开始。 | 动词是 confirm（第一册 Day 19）：Please confirm the time. → 名词 Please send your confirmation.；「确认邮件」叫 a confirmation email，不说 ✗ a confirm email。
+@v: finalize | = | v. | ˈfaɪnəlaɪz | 定稿；最终敲定 | 合同、方案、日程最后定下来 | finalize the terms；finalize the details；finalize the plan | Let's finalize the schedule by Wednesday. | 我们周三前把日程定下来吧。 | 「定下来」不说 ✗ make it final down；finalize 强调「最后一步、之后不再改」，还在讨论时说 discuss / agree on；英式拼写 finalise，美式用 z。
+@v: chase | = | v. | tʃeɪs | 催（某人回复、交东西） | 同事之间说「要不要催一下」 | chase sb for sth；chase a payment；chase it up | I had to chase him three times for the report. | 那份报告我催了他三次。 | chase 原义是「追赶」，表示「催」在英式职场更常见，美国人也懂，但更常说 follow up with sb；对客户本人不要说 ✗ I'm chasing you.，听起来像在追债。
+@v: nudge | = | v./n. | nʌdʒ | 轻轻提醒一下；（名词）善意的提醒 | 跟进、提醒对方，不给压力 | nudge sb；a gentle nudge；Thanks for the nudge! | I'll give Kevin a gentle nudge about the password reset. | 我去轻轻提醒一下 Kevin 重置密码的事。 | 原义是「用胳膊肘轻轻碰一下」，所以 nudge 自带「轻」的意思；对方回 Thanks for the nudge! 说明提醒得刚好、不招人烦。u 读 `/ʌ/`，不读 /u/。
+@v: politely | = | adv. | pəˈlaɪtli | 礼貌地；客气地 | 描述说话、拒绝、提醒的方式 | ask politely；politely decline；remind sb politely | She politely said no and offered another date. | 她礼貌地拒绝了，又提出了另一个日期。 | 形容词 polite，副词 politely：✓ ask politely ✗ ask polite；「礼貌地提醒」英文常直接用一个轻的动词表达，比如 nudge，不必每次都加 politely。
+@v: bounced | bounce | v. | baʊnst | （邮件）被退回 | 邮件地址错误、对方邮箱满了 | the email bounced；bounce back；a bounced email | My email bounced, so I checked the address again. | 我的邮件被退回了，所以我又核对了一遍地址。 | 「退信」说 The email bounced (back).，不说 ✗ The email was returned back；bounce 也指支票被退票：The check bounced.；-ed 读 `/t/`。
+@v: spam | = | n. | spæm | 垃圾邮件 | 邮件没收到、可能被系统拦截 | the spam folder；go to spam；mark as spam | Please check your spam folder for our confirmation email. | 请查看一下垃圾邮件文件夹，找找我们的确认邮件。 | 「进了垃圾箱」说 It went to spam. 或 It's in my spam folder.，不说 ✗ It's in my rubbish box；spam 是不可数名词，也可以作动词：Stop spamming the group chat!
+@v: resend | = | v. | ˌriːˈsend | 重新发送 | 对方没收到或找不到文件、邮件 | resend the email；resend the link；Could you resend…? | Could you resend the invoice? I can't find it. | 你能把发票再发一遍吗？我找不到了。 | 过去式和过去分词是 resent（和「怨恨」resent `/rɪˈzent/` 拼写一样，读音不同）；不说 ✗ send again it，可以说 send it again 或 resend it。
+@v: attachment | = | n. | əˈtætʃmənt | 附件 | 邮件里提到附带的文件 | open the attachment；see the attachment；a large attachment | The attachment is too large, so I'll share a link instead. | 附件太大了，我改发链接吧。 | 动词 attach（第一册 Day 19）：I've attached the file. / Please find the file attached.；不说 ✗ Please check the annex.；「附件里」说 in the attachment。
+@v: Kindly | kindly | adv. | ˈkaɪndli | 烦请；请（正式、偏生硬） | 正式通知、模板邮件里的客气话 | kindly note；kindly reply；Kindly let us know… | Kindly note that the office will be closed on Friday. | 请注意，办公室周五不上班。 | 很多中文邮件模板爱用 Kindly + 动词，在美国职场常显得生硬、像通知单，甚至带点命令口气；请人帮忙时换成 Could you…? / …when you get a chance。描述别人的态度时 kindly 是正面的：She kindly helped me.（她好心帮了我）
+@v: persistent | = | adj. | pərˈsɪstənt | 坚持不懈的；（催得）没完没了的 | 评价一个人坚持、或者催得太紧 | be persistent；a persistent problem；persistent calls | Be persistent, but give people a few days to reply. | 要坚持跟进，但要给对方几天时间回复。 | 褒贬看语境：形容人做事坚持是好话；催人催得太勤就是 too persistent。形容问题「老是出现」也用它：a persistent error。重音在中间：per-SIS-tent。
+@v: Just following up on | just following up on | phr. | ˌdʒʌst ˈfɑːloʊɪŋ ˈʌp ɑːn | 跟进一下……；想问问……的进展 | 跟进邮件的第一句，代替「你还没回我」 | Just following up on my email；Just following up on the quote；I'm following up on… | Just following up on the invoice I sent last week. | 跟进一下我上周发的发票。 | 第一册 Day 29 学过 follow up（跟进），这里 follow up on + 事情；句首省掉了 I'm，是邮件里很自然的省略；不说 ✗ You didn't reply to my email.，也不说 ✗ I want to urge you。
+@v: I was wondering if | = | phr. | aɪ wəz ˈwʌndərɪŋ ɪf | 不知道您是否……；想问一下…… | 委婉地提请求、问进度 | I was wondering if you could…；I was wondering if you've had a chance to…；I was just wondering… | I was wondering if you could join the call on Thursday. | 不知道您周四能不能参加这个电话会。 | 用过去进行时说现在的请求，语气更软；if 后面用陈述语序：✓ if you could ✗ if could you；wonder 是「想知道」，不是「惊奇」（wonderful 才是「好极了」）。
+@v: Any update on | any update on | phr. | ˌeni ˈʌpdeɪt ɑːn | ……有什么新进展吗？ | 简短地问进度：邮件、消息、会议 | Any update on the timeline?；any update on the refund；Is there any update on…? | Any update on Daniel's refund? | Daniel 的退款有什么新进展吗？ | update 第二册学过（Day 22）；问进展用 on：update **on** sth，不说 ✗ update of the contract；Any update? 是省略句，邮件里很常见，但前面最好先有一句客气的铺垫，单独发显得有点冲。
+@v: timeline | = | n. | ˈtaɪmlaɪn | 时间表；时间安排 | 问项目、合同、交付什么时候完成 | the timeline for…；a tight timeline；share the timeline | What's the timeline for the new feature? | 新功能的时间表是怎样的？ | 中文「时间节点」「排期」都可以说 timeline；deadline（第一册）是一个截止时间点，timeline 是一整段的安排；不说 ✗ time line（两个词）。
+@v: touch base | = | phr. | ˌtʌtʃ ˈbeɪs | 简单沟通一下；碰个头 | 约一个短通话或短会，对齐情况 | touch base on Thursday；touch base with sb；Let's touch base next week. | Let's touch base after the meeting. | 会后我们碰一下。 | 来自棒球（跑垒时碰一下垒包），意思是「短暂联系一下」，不是长会；后面接人用 with：touch base with Mike；base 不加 the，也不加 s。
+@v: invitation | = | n. | ˌɪnvɪˈteɪʃn | 邀请；（日历里的）会议邀请 | 约会议、约通话、发日历邀请 | send an invitation；a calendar invitation；accept the invitation | I've accepted your calendar invitation for Monday. | 我已经接受了您周一的日历邀请。 | 口语里会议邀请常说 an invite（名词，重音在前 IN-vite）；「发邀请」说 send an invitation，不说 ✗ send an invite letter；动词是 invite。
+@v: slot | = | n. | slɑːt | （日程里的）时间段；空档 | 约会议、预约时说可选的时间 | a 30-minute slot；a time slot；the 9 a.m. slot | There's an open slot at two o'clock. | 两点有一个空档。 | 「时间段」说 time slot 或 slot，不说 ✗ time section；a 30-minute slot 里 minute 不加 s（连字符形容词）。
+@v: reschedule | = | v. | ˌriːˈskedʒuːl | 改期；重新安排时间 | 会议、通话、送货时间要改 | reschedule the call；reschedule to Friday；reschedule for next week | Can we reschedule our call to Friday morning? | 我们的电话能改到周五上午吗？ | 「改期到……」用 reschedule to / for + 时间；美式 schedule 读 `/ˈskedʒuːl/`，英式读 /ˈʃedjuːl/；主动提出 I'm happy to reschedule. 是给对方余地，很显礼貌。
+@v: availability | = | n. | əˌveɪləˈbɪləti | （人的）空闲时间；（东西的）可用性 | 约时间时问对方什么时候有空 | your availability；check availability；limited availability | Please let me know your availability next week. | 请告诉我您下周什么时候有空。 | 「您什么时候方便」不说 ✗ When are you convenient?（Day 45），说 Let me know your availability. 或 What time works for you?；形容词 available：Are you available on Thursday?
+@v: promptly | = | adv. | ˈprɑːmptli | 及时地；迅速地 | 说回复、处理得快 | reply promptly；promptly fixed；start promptly at nine | Thank you for replying so promptly. | 谢谢您这么快就回复了。 | promptly 带「及时、不拖」的意思，比 quickly 更正式；start promptly at 9 是「9 点准时开始」。
+@v: circle back | = | phr. | ˌsɜːrkl ˈbæk | 回头再沟通；（问清楚后）再回复 | 先去问别人或查清楚，之后再回来答复 | circle back with sb；circle back on sth；Let me circle back. | I'll circle back with Mike and let you know tomorrow. | 我跟 Mike 确认一下，明天告诉你。 | 美国职场常用，像 Day 64 的 get back to you，但多了「我先去处理 / 问一圈」的意思；说多了会显得「套话」，一封邮件用一次就够。
+@v: prompt | = | adj. | prɑːmpt | 及时的；迅速的 | 感谢对方回得快、处理得快 | a prompt reply；prompt action；prompt payment | Thanks for your prompt reply! | 感谢您的及时回复！ | Thanks for your prompt reply. 是邮件里的常用感谢语；prompt 也是动词「促使」和名词「提示」（电脑上的 prompt），看词性判断意思。
+@v: remind | = | v. | rɪˈmaɪnd | 提醒 | 提醒别人做某事、提醒某个时间 | remind sb to do sth；remind sb about sth；Just a reminder… | Can you remind me to call Sarah at four? | 你能提醒我四点给 Sarah 打电话吗？ | 中文「提醒他开会」不说 ✗ remind him the meeting，要说 remind him **about** the meeting 或 remind him **to** join the meeting；名词 reminder 第一册学过（Day 19）。
+
+@diff: 「催一下」——不说 You didn't reply，说 Just following up on…
+@d_cn: 发出去的邮件几天没回音，想催对方一下。
+@d_en: Just following up on my email from Monday. / Just checking in on the new terms. / Any update on the timeline?
+@d_why: 中文同事之间说「你还没回我邮件呢」很平常，对客户也会写「麻烦尽快回复」。直译成 **You didn't reply to my email.** 或 **Why haven't you replied?**，英文读者看到的是**在指出对方的错**，像抱怨，甚至像告状——Lily 一听 Leo 的草稿就说 That sounds like we're blaming her. 英文的跟进把重点从「你没做」换成「我在跟进」：**Just following up on my email from Monday.** 主语是我，动作是 follow up，就事论事、不带情绪；just 是「只是、顺便问问」，把语气放轻；句首省掉了 I'm，是邮件里很自然的省略。第一册 Day 29 学过 follow up（跟进），这里是 follow up **on** + 事情。还要注意频率：一封跟进就够了，两三个工作日再没消息再发第二封，或者改打电话；同一天连发几封就成了 too persistent。
+@d_when: 邮件、报价、合同发出去两三个工作日没有回音的时候；也可以用在消息、工单上。
+@d_vs: ✓ **Just following up on my email from Monday.** 跟进一下我周一发的邮件。\n✓ **Just checking in on the new terms.** 想问问新条款的进展。\n✗ You didn't reply to my email. ✗ Why haven't you answered me? ✗ Please reply quickly!
+@d_task: 你上周五给 Sarah 发了一份报价，到现在没回音。写跟进邮件的第一句。 | Just following up on the quote I sent last Friday.
+@diff: 「不知道您……」——I was wondering if…
+@d_cn: 想问对方一件事或请对方做一件事，又不想显得在逼人。
+@d_en: I was wondering if you've had a chance to review the terms. / I was wondering if you could send me the file.
+@d_why: 中文的委婉靠「请问」「不知道……」「方便的话」，动词本身不变。英文一个很重要的办法是**把时态往后退一步**：**I was wondering if…** 是过去进行时，说的却是**现在**的请求——过去时让请求和对方之间隔开一点距离，意思是「我在想……不知道您……」，给对方留了说不的余地。if 后面用**陈述语序**：I was wondering if you've had a chance…，不说 ✗ I was wondering if have you had a chance…。后半句 **you've had a chance to…** 是现在完成时，问「到现在为止有没有空做」，比直接问 Did you review the terms? 更体贴，也不暗示对方偷懒。这里的 wonder 是「想知道」，不是「惊奇」。
+@d_when: 给客户、上级、不熟的同事写邮件提请求或问进度；当面请人帮忙也可以说 I was wondering if you could…
+@d_vs: ✓ **I was wondering if you've had a chance to review the terms.** 想问一下您有没有时间看过条款。\n✓ **I was wondering if you could send me the file.** 不知道您能不能把文件发给我。\n✗ I was wondering if have you reviewed the terms?\n✗ I wonder you can send me the file.
+@d_task: 委婉地问 Mike：他能不能在周五前看一下你的报告。 | I was wondering if you could take a look at my report before Friday.
+@diff: 「您方便的时候」——when you get a chance（别用 Kindly…ASAP）
+@d_cn: 请对方做事时加一句「烦请」「您方便的时候」，显得客气。
+@d_en: Could you take a look when you get a chance? / Please reply at your convenience. / Just let me know your availability.
+@d_why: 很多中文邮件模板爱用「烦请」「敬请」，翻成英文就成了 **Kindly reply ASAP.** 这里有两个问题：① kindly + 祈使句在美国职场常显得生硬，像通知单，有人还会读出命令的口气（Lily：kindly can sound bossy）；② ASAP 和「方便的时候」本来就矛盾。美国人更常说 **when you get a chance**（友好，邮件、口语都行），正式一点用 **at your convenience**（Day 65 的 at your earliest convenience 更偏「尽早」）。如果真着急，就说出日期和原因：We'd love to finalize them by Friday.——比 ASAP 清楚，也更礼貌。约时间时，「您什么时候方便」说 **Just let me know your availability.** 或 What time works for you?，不说 ✗ When are you convenient?（Day 45：convenient 不用人做主语）。
+@d_when: 邮件里提请求、约时间、请对方回复的时候。
+@d_vs: ✓ **Could you take a look when you get a chance?** 您方便的时候帮忙看一下？\n✓ **Just let me know your availability.** 告诉我您什么时候有空就行。\n✓ **We'd love to finalize them by Friday.** 我们希望周五前定下来。（着急就给日期）\n✗ Kindly reply ASAP. ✗ When are you convenient?
+@d_task: 把 Leo 写的这句改得自然、礼貌，并说明你周五要用：Kindly send the invoice ASAP. | Could you send the invoice when you get a chance? We need it by Friday.
+@diff: 给对方台阶——In case it got buried in your inbox, …
+@d_cn: 对方没回，可能是忘了、太忙，也可能根本没看到；催的时候想替他找个理由，不让他难堪。
+@d_en: In case it got buried in your inbox, I've attached it again. / In case you missed it, here's the link again.
+@d_why: 中文也讲「给人台阶下」，常说「可能您太忙了」「可能邮件没收到」。英文邮件里最常见的台阶是 **In case it got buried in your inbox, …**：buried 是「被埋住」，把没回的原因归到「邮件太多、被淹没了」，谁都没错；后半句马上**把东西再附上一次**（I've attached it again），对方不用翻旧邮件，回复的成本降到最低。**in case** 是「万一、以防」，后面接句子：in case it got buried / in case you missed it。不要写 ✗ Maybe you forgot my email.（点明对方忘了）或 ✗ Did you see my email?（像在质问）。林晓先确认邮件没有被退回（it didn't bounce），再猜可能进了垃圾邮件——Priya 的回信证明她猜对了，而 Priya 一开口就是 Thanks for the nudge!，没有一点尴尬。
+@d_when: 跟进邮件的第二句；对方可能没看到你的邮件、文件、链接的时候。
+@d_vs: ✓ **In case it got buried in your inbox, I've attached it again.** 怕它被淹没在收件箱里，我再附上一次。\n✓ **In case you missed it, here's the link again.** 万一您没看到，链接在这儿。\n✗ Maybe you forgot my email. ✗ Did you even see my email?
+@d_task: 两周前你给 Daniel 发过一份索赔表格，他一直没填。给他一个台阶，再把表格附上。 | In case it got buried in your inbox, I've attached the claim form again.
+
+@core: Just following up on + 名词. | 礼貌地跟进、催回复 | my email from Monday / the quote I sent last week / our call on Tuesday | 正式：I'm following up on my email from Monday regarding the new terms.｜随意：Just checking in on this!
+@core: In case it got buried in your inbox, I've attached it again. | 给对方台阶，顺手重发 | attached it again / pasted the details below / resent the link | 正式：For your convenience, I've attached the document again.｜随意：Here it is again, just in case.
+@core: I was wondering if you've had a chance to + 动词原形 | 委婉地问进度 | review the terms / look at the quote / talk to your team | 正式：I would appreciate it if you could review the terms this week.｜随意：Have you had a chance to look?
+@core: Any update on + 名词? | 简短地问进展 | the timeline / the contract / the refund | 正式：Could you share an update on the timeline?｜随意：Any news?
+@core: Could we touch base on + 时间? | 约一个简短的通话或碰头 | Thursday / this afternoon / next week | 正式：Would you be available for a brief call on Thursday?｜随意：Can we chat Thursday?
+@core: If that doesn't work, I'm happy to reschedule. Just let me know your availability. | 约时间时给对方余地 | reschedule / move it to Friday / find another slot | 正式：Please let me know a time that suits you.｜随意：Happy to move it if needed!
+@core: Could you … when you get a chance? | 代替 Kindly… ASAP | take a look / send the invoice / confirm the time | 正式：Could you … at your convenience?｜随意：…whenever you can.
+@core: I'll circle back with … | 答应先去问别人，再回来答复 | my team / finance / Mike | 正式：I'll check with our finance team and get back to you.｜随意：Let me check and circle back.
+
+@pw: availability | əˌveɪləˈbɪləti | 6 个音节 a·vai·la·BIL·i·ty | 次重音在 vai，主重音在 bil；节奏「轻 次重 轻 最重 轻 轻」
+@pw: confirmation | ˌkɑːnfərˈmeɪʃn | 4 个音节 con·fir·MA·tion | 主重音在 ma；fir 弱读成 `/fər/`，别读成 con-FIRM-ation
+@pw: persistent | pərˈsɪstənt | 3 个音节 per·SIS·tent | 重音在中间；s 读 `/s/`，不读 /z/
+@pw: reschedule | ˌriːˈskedʒuːl | 3 个音节 re·SCHED·ule | 美式 sch 读 `/sk/`；dule 读 `/dʒuːl/`，像「久」+ l
+@pw: finalize | ˈfaɪnəlaɪz | 3 个音节 FI·nal·ize | 重音在第一个音节；nal 弱读成 `/nə/`
+@pw: attachment | əˈtætʃmənt | 3 个音节 at·TACH·ment | 重音在 tach，`/æ/` 嘴张大；ment 很轻
+@pw: invitation | ˌɪnvɪˈteɪʃn | 4 个音节 in·vi·TA·tion | 主重音在 ta；动词 in-VITE 的重音位置不一样
+@ps: **Just** following‿**up**‿on my‿e**mail** / from **Mon**day. | following up on 连成一串：fol-lo-wing-u-pon；up 重读，on 很轻。
+@ps: In **case**‿it got **bur**ied‿in your **in**box, / I've at**tached**‿it a**gain**. | buried 读 `/ˈberid/`，和 berry 开头一样，不读「布瑞德」；attached it 连成 `/əˈtætʃtɪt/`。
+@ps: I was **won**dering‿if / you've **had**‿a **chance** / to re**view** the **terms**. | was 弱读成 `/wəz/`；you've 的 've 很轻，但别丢——它说明是「到现在为止」。
+@ps: Could we **touch** **base** / on **Thurs**day? | Could we 弱读成 `/kəd wi/`；touch base 两个词都重读，ch 和 b 之间不要加元音。
+@pnote: 写和说不一样：邮件里写 a 30-minute slot、9 a.m.，读出来是 a thirty-minute slot（minute 不加 s，因为整个词组作形容词）、nine a.m.；thirty 重音在前，别和 thirteen 混。名词 **ˈfollow-up**（重音在前：a quick follow-up）和动词 **follow ˈup**（重音在后：I'll follow up）——复合名词重音前移，和 ˈspam ˌfolder、ˈtracking ˌnumber 一样。
+@pnote: 本课的弱读：I was wondering 里的 was 只剩 `/wəz/`；you've had、I've attached 的 've 很轻，听起来像 you had / I attached，但意思是现在完成时；Could we 读成 `/kəd wi/`。bounced 结尾的 -ed 读 `/t/`：`/baʊnst/`。
+@lfocus: was `/wəz/`、you've、I've 的弱读
+@lfocus: 名词 ˈfollow-up 和动词 follow ˈup 的重音
+@lfocus: thirty-minute、nine a.m. 这类时间和数字
+@dict: S13–S17
+@dict: S23–S26
+@res: 在 youglish.com 输入 "just following up"，选 US，留意 just 和 up 是怎么重读的。
+
+@mimic: 跟读【C】：先正常语速跟读 S4–S10 的对话，模仿 Lily 不急不躁的语气；再把 S12–S21 的邮件当成语音留言读一遍，注意 buried、was wondering、touch base 的读法；最后合上书，只看中文把邮件说出来，并录音。
+@swap: Just following up on my email from Monday. | 换跟进的对象：the quote I sent last week / our call on Tuesday / the invoice | Just following up on the quote I sent last week.
+@swap: In case it got buried in your inbox, I've attached it again. | 换台阶和动作：In case you missed it；here's the link again / I've pasted the details below | In case you missed it, here's the link again.
+@swap: I was wondering if you've had a chance to review the terms. | 换动作：look at the report / talk to your finance team / test the new feature | I was wondering if you've had a chance to talk to your finance team.
+@swap: Could we touch base on Thursday? | 换时间和长度：this afternoon / next Monday；for fifteen minutes | Could we touch base next Monday for fifteen minutes?
+@free: 你周二请 Kevin 帮实习生开权限，到周四还没动静。给他发一条消息（先说重点，不指责） | Just following up on Leo's access request from Tuesday. I was wondering if you've had a chance to look at it.
+@free: 你想约 Sarah 周五通个话，聊英国订单的事；给她改期的余地 | Could we touch base on Friday about the UK orders? If that doesn't work, I'm happy to reschedule. Just let me know your availability.
+@free: Leo 要发：Kindly confirm the price ASAP. 帮他改成自然、礼貌的说法（你们周三前要定价格） | Could you confirm the price when you get a chance? We'd love to finalize it by Wednesday.
+@free: 客户问了一个关于价格的问题，你得先问财务，答应明天回复 | Good question. I'll circle back with our finance team and get back to you by tomorrow.
+@output: 写一封 6–10 句的跟进邮件：你一周前给客户或同事发过一份东西（报价、合同、报告、数据），到现在没回音。按顺序写：Just following up on… → 给台阶并重发附件 → I was wondering if… → 说明你的时间要求 + Any update on…? → 约一个通话（touch base / invitation / slot）→ 给改期余地 → 结尾。不写 Kindly，不写 ASAP。
+@output_sample: Hi Anna,\nJust following up on the quote I sent last Friday. In case it got buried in your inbox, I've attached it again. I was wondering if you've had a chance to review it with your team. The special price is valid until the end of the month, so we'd love to finalize the order by next Wednesday. Any update on the timeline? Could we touch base on Monday? I've sent an invitation for a fifteen-minute slot at 10 a.m. your time. If that doesn't work, I'm happy to reschedule, so just let me know your availability. Thanks, and I look forward to hearing from you.\nBest regards,\nLily
+
+@check: 听力：林晓是星期几把合同条款发给 Priya 的？张涛希望什么时候之前定下来？ | 周一发的（my email from Monday）；张涛希望周五前定下来（by Friday）。
+@check: 听力：Priya 为什么一直没回？她们约在什么时候通话、多长时间？ | 林晓的第一封邮件进了 Priya 的垃圾邮件文件夹（spam folder）；约在周四上午 9 点（Priya 那边的时间），30 分钟。
+@check: Leo 想写：You didn't reply to our email. Kindly reply ASAP. 为什么不好？改成两句礼貌的跟进。 | 第一句在指责对方，kindly + 祈使句显得生硬，ASAP 给人压力。改成：Just following up on my email from Monday. Could you take a look when you get a chance?
+@check: 改错：I was wondering if could you send me the report. | I was wondering if you could send me the report.（if 后面用陈述语序）
+@check: 你两周前把新的价格表发给了 Daniel，他没回。写跟进邮件的前两句（给台阶，重发附件）。 | Just following up on my email from two weeks ago. In case it got buried in your inbox, I've attached the new price list again.
+@check: 你约 Mike 周四通话，但怕他时间不合适。用两句话给他改期的余地。 | If that doesn't work, I'm happy to reschedule. Just let me know your availability.
+@next1: 不看书说出 5 个锚点句：S13、S14、S15、S17、S18
+@next1: 把 You didn't reply. / Kindly reply ASAP. / When are you convenient? 各改成礼貌的英文说法
+@next7: 跟进邮件五件套：Just following up on… / In case it got buried… / I was wondering if… / Any update on…? / Could we touch base…?
+@next7: 约时间与改期：invitation / a 30-minute slot / I'm happy to reschedule / Just let me know your availability.

@@ -1,0 +1,169 @@
+@day: 65
+@week: 1
+@title_cn: 写一封清楚的工作邮件
+@title_en: Writing a Clear Work Email
+@topic: 工作邮件：第一句说目的、细节分点列在下面、礼貌地提一个要求、一句话收尾
+@think_short: 「写信是想……」I'm writing to…｜「麻烦您……」Could you please…?｜「具体如下」Please see below.｜结尾 Best regards,（不堆客套）
+
+@goal_scene: 给美国卖家写一封「通知 + 请求」的邮件：第一句就说目的，细节用要点列在下面，容易误会的地方补一句说明，礼貌又清楚地提一个要求，再用一句话加 Best regards 收尾；还能听懂经理和同事对邮件结构、语气的修改意见。
+@goal_expr: I'm writing to confirm… / As mentioned in my last email, … / Please see below for the details. / To clarify, … / Could you please reply at your earliest convenience? / For your reference, I've attached… / Best regards,
+@goal_vocab: 20 个重点词 + 5 个短语：邮件结构（目的、段落、问候、要点、概括）、收发双方、语气与长度、邮件常用词（following / below / above / regarding）
+@done: 能用 I'm writing to… 写出邮件的第一句，让收件人一眼看到目的，不再先寒暄、再自我介绍
+@done: 能用 Please see below / bullet points / To clarify 把细节放在下面，用 Could you please…? 礼貌地提一个要求
+@done: 能用一句收尾句 + Best regards 结束邮件，知道给客户和给同事的结尾有什么不同
+
+@warmup: 退款由财务部负责处理。 | Refunds are handled by the finance team. | D64
+@warmup: 我找一下负责的人，然后回复你。 | Let me find the right person and get back to you. | D64
+@warmup: 有问题随时直接联系我。 | Feel free to reach out to me directly. | D64
+@warmup: 这一步做完以后，账号还需要张涛审批。 | Once that's done, the account needs Tom's approval. | D62
+@warmup: 吴佳帮她改了改，还发现了一个错别字。 | Grace helps her edit it. She also finds a typo. | D19
+@warmup: 我已经给她发消息了。 | I've already sent her a message. | D33
+
+@scene: 这天上午。SwiftLink 的物流合作方调整了航线，从下周一起，美国订单的预计配送时效会缩短。林晓上周已经发邮件预告过这件事；今天她要给 Daniel Ross 发一封确认邮件，并请他决定要不要在自家店铺的物流跟踪页面上显示新时效。Daniel 脾气急、邮件多，林晓却按中文书信的习惯写了满满五段：先问候、再自我介绍、再讲背景，真正的问题放在第四段。张涛把草稿退了回来，只说了一句：「先说目的。」林晓重写之后，又请吴佳帮她看看语气。
+@sp: 人物关系 | 林晓 ↔ 张涛：员工和经理，张涛一向要求「先说结论」，改起邮件来很直接；林晓 ↔ 吴佳：关系亲近的同事，吴佳帮她把握语气；林晓 ↔ Daniel：服务方和要求很多、很忙的客户
+@sp: 沟通目的 | 确认新的配送时效从周一开始执行；请 Daniel 回复要不要在他的跟踪页面上显示新时效
+@sp: 已知信息 | Daniel 上周已经收到过一封预告邮件，也早就认识林晓；他还不知道具体的新时效，也不知道时效从哪天开始算
+@sp: 表达重点 | 第一句说目的（I'm writing to…）→ 提醒之前说过的事（As mentioned…）→ 细节分点放在下面（Please see below）→ 补充说明（To clarify…）→ 礼貌地提一个要求（Could you please…?）→ 一句话收尾 + Best regards
+
+@story_title: Episode 65 · Main Point First
+@story_type: 叙述 + 对话 + 邮件
+@s: Lily is emailing Daniel Ross about the new delivery times. | 林晓在给 Daniel Ross 写邮件，说新的配送时效。
+@s: She shows Tom her **draft**. It starts with the **following** line: | 她先把草稿拿给张涛看。草稿是这样开头的：
+@s: "Dear Mr. Ross, I hope this email finds you well." | 「尊敬的 Ross 先生：您好！希望您收到这封邮件时一切安好。」
+@br:
+@s: Tom: It's polite, but too long. What's the **purpose**? | 张涛：写得很客气，可是太长了。这封邮件的目的是什么？
+@s: Lily: I need Daniel's answer about his tracking page. | 林晓：我需要 Daniel 回复我，他的物流跟踪页面要不要显示新时效。
+@s: Tom: Then why is that in the fourth **paragraph**? | 张涛：那为什么放在第四段？
+@s: Tom: Your **greeting** takes three lines. He already knows you. | 张涛：光问候就占了三行。他早就认识你了。
+@s: Tom: Think about the **recipient**. He gets two hundred emails a day. | 张涛：想想收件人。他一天要收两百封邮件。
+@s: Tom: He sees the **sender**, the subject line and one sentence. | 张涛：他能看到的只有发件人、主题行和一句话。
+@s: Tom: Your first sentence should be a **summary** of your main **point**. | 张涛：你的第一句话就要把重点概括出来。
+@s: Tom: Put the times **below** in **bullet** points. Keep it **brief**. | 张涛：时效放在下面，分点列出来。整封邮件写短一点。
+@br:
+@s: Lily rewrites it and asks Grace to check the **tone**. | 林晓重写了一遍，请吴佳帮她看看语气。
+@s: Grace: It's clear and **concise** now. | 吴佳：现在清楚又简洁了。
+@s: Grace: But you **mention** Monday three times. Once is enough. | 吴佳：不过「周一」你提了三次，说一次就够了。
+@s: Grace: "Reply today" sounds like an order. Ask for one **action**, politely. | 吴佳：还有，「请今天回复」听起来像在下命令。只提一个要求，而且要客客气气地提。
+@br:
+@s: Lily's new subject line is "New delivery times from Monday." | 林晓新写的主题行是「新配送时效：周一起执行」。
+@s: Hi Daniel, | Daniel 你好：
+@s: **I'm writing to** confirm the new delivery times. | 写这封邮件，是想跟您确认新的配送时效。
+@s: **As mentioned** in my last email, the change starts on Monday. | 上一封邮件提到过，这次调整从周一开始。
+@s: **Please see below** for the details. | 具体如下：
+@s: • Standard shipping: 6–9 business days (down from 8–12) | • 标准配送：6–9 个工作日（原为 8–12 个）
+@s: • Express shipping: 4–5 business days (down from 5–7) | • 快速配送：4–5 个工作日（原为 5–7 个）
+@s: To **clarify**, the times **above** start from pickup. | 需要说明的是，以上时效从揽收那天开始算。
+@s: Would you like them on your tracking page? | 您希望在您的物流跟踪页面上显示新时效吗？
+@s: Could you please reply **at your earliest convenience**? | 方便的话，请您尽早回复。
+@s: For your **reference**, I've attached the full schedule. | 完整的时效表已附上，供您参考。
+@s: Let me know if you have questions **regarding** the change. | 如果对这次调整有任何疑问，请告诉我。
+@s: **Best regards**, Lily | 祝好！林晓
+@br:
+@s: Tom reads it in ten seconds. | 张涛十秒钟就读完了。
+
+@v: draft | = | n./v. | dræft | 草稿；初稿 | 写邮件、报告，发出去之前先请人看 | a first draft；a draft email；draft a reply（动词：起草） | Can you look at my draft before I send it? | 我发出去之前，你能帮我看看草稿吗？ | 中文「草稿」听起来像随手写的，英文 draft 是正式的工作用语：给经理看的初稿就叫 a draft / a first draft；也能作动词「起草」：I'll draft a reply.；邮箱里的「草稿箱」叫 Drafts。a 读 `/æ/`，嘴张大。
+@v: following | = | adj. | ˈfɑːloʊɪŋ | 下面的；以下的 | 引出下面要列的内容 | the following line；the following steps；Please note the following: | Please complete the following steps before Friday. | 请在周五前完成以下步骤。 | 前面一定有 the：✓ the following steps ✗ following steps are…；也可以单独当名词用：Please note the following:（请注意以下几点：）；following 放在名词**前**，below 放在名词**后**：the following table ＝ the table below。
+@v: purpose | = | n. | ˈpɜːrpəs | 目的；用意 | 问或说明一封邮件、一个会议为什么要有 | the purpose of…；the main purpose；on purpose（故意） | The purpose of this meeting is to plan next month's work. | 这次会议的目的是安排下个月的工作。 | 中文「目的是为了……」，英文不要再加 for：✗ The purpose is for to plan… → ✓ The purpose is to plan…；on purpose 是「故意」：He did it on purpose.；pose 弱读成 `/pəs/`，不读「泡斯」。
+@v: paragraph | = | n. | ˈpærəɡræf | 段落 | 讨论邮件、文章的结构 | the first paragraph；a short paragraph；in the fourth paragraph | Put your main question in the first paragraph. | 把你最主要的问题放在第一段。 | 「在第四段」用 in：✓ in the fourth paragraph ✗ on the fourth paragraph；英文工作邮件的段落很短，常常一两句就是一段，段与段之间空一行，不用首行缩进两格。
+@v: greeting | = | n. | ˈɡriːtɪŋ | 问候语；（邮件开头的）称呼和寒暄 | 邮件开头、见面打招呼 | a short greeting；a friendly greeting；holiday greetings | A short greeting like "Hi Sarah" is fine. | 用 "Hi Sarah" 这样简短的问候就可以了。 | 英文邮件的 greeting 通常只有一行：Hi Daniel,（最常用）/ Dear Mr. Ross,（很正式，多用于第一次联系）；中文的「您好！冒昧打扰」「祝您工作顺利」大多省掉，最多加一句 Hope you're doing well.；「贺卡」是 greeting card。
+@v: recipient | = | n. | rɪˈsɪpiənt | 收件人；接收者 | 写邮件、发通知时，想想读的人是谁 | the recipient；email recipients；add a recipient | Check the recipients before you click Send. | 点「发送」之前，先检查一下收件人。 | recipient 是书面词，口语里说「他收到以后」用 when he gets it 就行；邮箱里「收件人」一栏是 To，「抄送」是 Cc（D64），「密送」是 Bcc；重音在第二个音节：re-CIP-i-ent。
+@v: sender | = | n. | ˈsendər | 发件人；寄件人 | 收件箱、快递面单 | the sender；the sender's name；an unknown sender | I didn't know the sender, so I didn't open the email. | 我不认识发件人，所以没打开那封邮件。 | 收件箱里最先看到的是 sender 和 subject line（主题行），所以发件人的名字要让人一眼认出来：Lily Lin, SwiftLink 比只写 Lily 清楚得多；快递单上的「寄件人」也是 sender。
+@v: summary | = | n. | ˈsʌməri | 概括；摘要 | 邮件第一句、报告开头、会议结尾 | a short summary；a one-line summary；a summary of… | Here's a quick summary of today's meeting. | 下面是今天会议的简要总结。 | 中文「总结」有两种：概括内容是 summary；年终「总结」（回顾成绩和问题）更常说 review 或 report。动词 summarize 明天（D66）学；mm 只读一个 /m/：SUM-ma-ry。
+@v: point | = | n. | pɔɪnt | 要点；重点；（想说的）意思 | 说话、写邮件时的核心意思 | the main point；get to the point；That's a good point. | Let's get to the point. We need a decision today. | 咱们直接说重点吧，今天得做个决定。 | 「说重点」是 get to the point，不说 ✗ say the point；别人说得有道理，说 That's a good point.（不是「好的要点」）；数字里的「点」也是 point：6.5 = six point five（D68），不读 dot。
+@v: bullet | = | n. | ˈbʊlɪt | （列表前的）圆点；要点 | 邮件、报告里分点列内容 | bullet points；in bullets；a bulleted list | I'll send you the key dates in bullet points. | 我把几个关键日期分点发给你。 | 「分点写」说 put … in bullet points / use bullets，不说 ✗ write in points；bullet 本义是「子弹」，列表前的小黑点像子弹头，所以叫 bullet；u 读 `/ʊ/`，和 book 里的 oo 一样。
+@v: below | = | adv. | bɪˈloʊ | 在下面；在下文 | 邮件里指下文、下方的表格 | below it；the table below；see below | The new prices are in the table below. | 新价格在下面的表格里。 | 修饰名词时放在名词**后面**：✓ the table below ✗ the below table；和 above 相对；「低于」也是 below：below ninety percent。重音在后：be-LOW。
+@v: brief | = | adj. | briːf | 简短的；简要的 | 要求邮件、发言、会议简短 | keep it brief；a brief email；a brief update | Keep your update brief. Two minutes is enough. | 你的汇报简短一点，两分钟就够了。 | brief 比 short（D19）稍正式，常用在 keep it brief、a brief meeting；ie 读长音 `/iː/`，和 believe 里的 ie 一样。
+@v: tone | = | n. | toʊn | 语气；口吻 | 看邮件、消息给人的感觉 | the tone of the email；a friendly tone；a polite tone | The tone of your message is a bit too direct. | 你这条消息的语气有点太直接了。 | 文字的「语气」就是 tone，不说 ✗ mood（mood 是心情）；「语气太冲」可以说 It sounds rude. / The tone is too harsh.；同一句话换个 tone，客户的感受完全不同。
+@v: concise | = | adj. | kənˈsaɪs | 简洁的；言简意赅的 | 夸邮件、报告写得好 | clear and concise；a concise summary；keep it concise | Her reports are always clear and concise. | 她的报告总是清楚又简洁。 | concise 是「短，但该说的都说了」，是夸奖；short 只说长度，有时还暗示「太短、没说清」；clear and concise 是固定搭配。c 读 `/s/`，结尾 se 读 `/s/`：con-CISE。
+@v: mention | = | v. | ˈmenʃn | 提到；说起 | 邮件里提到某事、会上顺便说一句 | mention sth；mention it to sb；as mentioned（如前所述） | Did Tom mention the meeting time? | 张涛提到开会时间了吗？ | mention 后面直接接事情，不加 about：✗ mention about the change → ✓ mention the change；别人道谢时说 Don't mention it.（不客气）；tion 读 `/ʃn/`。
+@v: action | = | n. | ˈækʃn | （需要对方做的）一项行动；要处理的事 | 邮件里说清楚要对方做什么 | take action；action needed；no action needed | No action is needed on your side. | 您那边不需要做任何操作。 | 工作邮件里常见 Action needed（需要您处理）和 No action needed（仅告知）；「采取行动」说 take action，不说 ✗ do action；一封邮件最好只要求一个 action，要求一多，对方往往一个都不做。
+@v: I'm writing to | I'm writing to… | phr. | aɪm ˈraɪtɪŋ tə | 写这封邮件是想…… | 邮件第一句说明目的 | I'm writing to confirm…；I'm writing to ask about…；I'm writing to let you know… | I'm writing to ask about your order from last week. | 写信是想问一下您上周的那个订单。 | 用进行时 I'm writing，不说 ✗ I write to…；to 后面接动词原形，动词本身就点明了目的；不要写成 ✗ I'm writing this email to tell you that…（又长又绕）；给熟悉的同事发短消息，直接说事就行。
+@v: As mentioned | as mentioned | phr. | əz ˈmenʃnd | 正如（之前）提到的 | 邮件里回顾之前说过的信息 | as mentioned earlier；as mentioned in my last email；as mentioned above | As mentioned on the phone, the meeting is now on Friday. | 电话里说过，会议改到周五了。 | as mentioned 本身就是「如前所述」，后面直接接逗号和句子，不说 ✗ As I mentioned before that…；它带一点「提醒」的意思，对客户用一次就好；口语里更常说 Like I said, …。
+@v: Please see below | please see below | phr. | ˌpliːz siː bɪˈloʊ | 详见下文；请看下面 | 邮件里引出下面的细节、表格、要点 | Please see below for…；Please see the details below.；See below. | Please see below for the new schedule. | 新的时间表详见下文。 | 后面接 for + 名词：Please see below for the details.；不说 ✗ Please see the below.，也不说 ✗ as below；同事之间常只写 Details below: 或 See below.
+@v: clarify | = | v. | ˈklærəfaɪ | 说明；澄清 | 补充说明容易误会的地方；请对方说清楚 | To clarify, …；clarify the details；Could you clarify…? | Could you clarify what you mean by "soon"? | 你能说明一下「很快」具体是多久吗？ | To clarify, … 放在句首，意思是「需要说明的是」，提前把误会堵住；问对方时说 Could you clarify…?，比 What do you mean? 客气；重音在第一个音节：CLAR-i-fy。
+@v: above | = | adv. | əˈbʌv | 在上面；上述 | 指邮件、文件的前文 | the times above；see above；as mentioned above | Please check the numbers above before you reply. | 回复之前，请先核对一下上面的数字。 | 指上文时放在名词后：the times above；「高于」也是 above：above expectations（D59）；o 读 `/ʌ/`，和 love 里的 o 一样，不读 /ɑː/。
+@v: at your earliest convenience | = | phr. | ət jər ˌɜːrliəst kənˈviːniəns | 在您方便时尽早 | 礼貌地请客户、上级尽快回复或处理 | reply at your earliest convenience；call me back at your earliest convenience | Please call me back at your earliest convenience. | 方便时请尽早给我回个电话。 | 意思是「越快越好，但以您方便为准」，比 ASAP（D19）客气得多，但比较正式，适合客户和上级；同事之间说 when you get a chance 就够了；convenience 是 convenient（D45）的名词。
+@v: reference | = | n. | ˈrefrəns | 参考；查阅 | 附上资料供对方参考 | for your reference；for future reference；a reference number | For your reference, I've attached last month's report. | 附上上个月的报告，供您参考。 | 「供您参考」说 for your reference，不说 ✗ for your refer；一般读两个音节 `/ˈrefrəns/`；找工作时的 reference 是「推荐人」或「推荐信」。
+@v: regarding | = | prep. | rɪˈɡɑːrdɪŋ | 关于；就……而言 | 邮件、正式通知里引出话题 | questions regarding…；regarding your order；regarding the change | I have a question regarding the invoice. | 关于这张发票，我有个问题。 | regarding 比 about 正式，口语用 about 就行；很多中国人爱在主题行写 ✗ Regarding the delivery time，美国人更常直接写话题：New delivery times from Monday；「关于」也可以说 with regard to，不说 ✗ regard to。
+@v: Best regards | best regards | phr. | ˌbest rɪˈɡɑːrdz | 祝好；此致（邮件结尾敬语） | 工作邮件的最后一行，后面换行写名字 | Best regards,；Kind regards,；Best, | I end most client emails with "Best regards." | 给客户的邮件，我大多用 "Best regards" 结尾。 | regards 一定要有 s：✗ Best regard；后面加逗号，换行再写名字；它已经是全部的客套，前面不用再堆 ✗ Thank you very much for your time and wish you all the best…；和熟悉的同事可以简化成 Best, 或 Thanks,。
+
+@diff: 开头先说目的——I'm writing to…
+@d_cn: 给客户写邮件：先问候、介绍自己、交代背景，最后才说「所以想请您……」。
+@d_en: Hi Daniel, I'm writing to confirm the new delivery times. / I'm writing to ask about… / I'm writing to let you know that…
+@d_why: 中文书信讲究「先礼后事」：先寒暄、再铺垫背景，最后才提出请求，一上来就说事会显得唐突。美国职场的邮件正好反过来：对方一天收几十上百封邮件，打开后多半只看**发件人、主题行和第一句话**，所以**第一句就要说目的**——这正是张涛「先说结论」的意思。I'm writing to + 动词原形 是最稳妥的开头，动词本身就点明了目的：confirm（确认）、ask about（询问）、let you know（告知）。这不是不礼貌：在英文里，**节省对方的时间本身就是礼貌**。寒暄最多一句（Hope you're doing well.），也可以完全不写；对方早就认识你，就别再自我介绍了。林晓草稿的开头 I hope this email finds you well 很常见，但不少美国人觉得它是套话；对一天收两百封邮件的 Daniel，它只会把真正的问题挤到后面去。
+@d_when: 给客户、上级、其他部门写邮件，或在邮件里开启一个新话题时；和熟悉的同事发短消息，连 I'm writing to 都可以省掉，直接说事。
+@d_vs: ✓ **Hi Daniel, I'm writing to confirm the new delivery times.**（第一句就是目的）\n✗ Dear Mr. Ross, I hope this email finds you well. My name is Lily, and I work at SwiftLink. As you know, …（目的藏在第四段）\n✓ **I'm writing to ask about your order from last week.**\n✗ I write this email to tell you that…（时态不对，也太绕）
+@d_task: 你要给 Sarah 写邮件，问她下周二能不能开个视频会。写出邮件的第一句。 | Hi Sarah, I'm writing to ask if you're free for a video call next Tuesday.
+@diff: 「麻烦您……」——Could you please…?
+@d_cn: 请对方做事时加一句「麻烦您」「劳驾」「烦请」，显得客气。
+@d_en: Could you please reply at your earliest convenience? / Could you please confirm the address by Friday? / Would you like us to…?
+@d_why: 「麻烦您回复」直译成 ✗ Trouble you to reply. 或 ✗ Sorry to trouble you, please reply.，英文里都不自然。英文的客气不靠「麻烦」这个词，而靠**问句的形式**：Could you please…? 把命令变成请求，给对方留了「可以说不」的余地，听起来就礼貌了。直接写 Reply today. 或 Reply ASAP. 是祈使句，像在下命令——吴佳说 "Reply today" sounds like an order 就是这个意思。要催时间，可以用 at your earliest convenience（正式，适合客户），或者给一个具体又客气的期限：by Friday, if possible。另外分清两种问句：**Could you please…?** 是请对方做事；**Would you like us to…?** 是问对方想不想让我们做某事，林晓用它请 Daniel 做选择。
+@d_when: 请客户确认、回复、提供信息；请上级审批；请其他部门帮忙。
+@d_vs: ✓ **Could you please reply at your earliest convenience?** 方便的话，请您尽早回复。\n✓ **Could you please confirm the address by Friday?** 能否请您在周五前确认一下地址？\n✓ **Would you like us to show the new times?** 您希望我们显示新时效吗？\n✗ Trouble you to reply. / ✗ Reply ASAP.（像命令）\n**Please reply today.**（语法没错，但对客户太硬）
+@d_task: 把这句话改得礼貌一些再发给客户：Send me the tracking number today. | Could you please send me the tracking number today?
+@diff: 「具体如下」——Please see below. / the following
+@d_cn: 「具体如下」「详见下表」「情况如下：」——用一句话引出下面的要点或表格。
+@d_en: Please see below for the details. / Please note the following: / The new times are as follows: / See the table below.
+@d_why: 中文公文爱用「如下」，学生常写成 ✗ as below 或 ✗ Please see the below.。英文常用三种说法：① **Please see below for + 名词**（详见下文），最常用；② **the following + 名词**，或者单独一个 **the following:**（以下几点）；③ **as follows:**（如下），比较正式，后面直接接冒号和列表。下文的细节最好用 **bullet points**：一点一行、句子短、关键数字放在前面，对方扫一眼就看清。前文提到的内容用 **above**：the times above / as mentioned above。below 和 above 修饰名词时都放在名词**后面**。
+@d_when: 邮件里要列出时间表、价格、步骤或好几个问题时。
+@d_vs: ✓ **Please see below for the details.** 具体如下。\n✓ **Please note the following:** 请注意以下几点：\n✓ **The new times are as follows:** 新时效如下：\n✓ **the table below / the times above**（放在名词后）\n✗ Please see the below. / ✗ as below details
+@d_task: 写一句话引出下面列出的三个会议时间（「可选的时间如下」），再写出第一个要点：周二上午 9 点。 | Please see below for the available times: • Tuesday at 9 a.m.（也可以：The available times are as follows:）
+@diff: 结尾——一句话 + Best regards,（不堆砌客套）
+@d_cn: 中文邮件结尾常有好几句：「以上，烦请查收」「如有任何问题请随时联系」「再次感谢您的支持与配合」「祝工作顺利，生活愉快！」
+@d_en: Let me know if you have any questions regarding the change. / Best regards, Lily / Thanks, Lily
+@d_why: 中文结尾一句接一句地客气，翻成英文就成了 ✗ Thank you very much for your time and support. Wish you a happy life and smooth work!——美国人读了会觉得夸张，甚至奇怪（wish you a happy life 听起来像永别）。英文工作邮件结尾**一句收尾 + 一个敬语**就够了：收尾句可以是 Let me know if you have any questions.（D19），请对方做事时可以写 Thanks in advance.；敬语最常见的是 **Best regards,** / **Best,** / **Thanks,**，后面加逗号，换行写名字。正式程度大致是：Sincerely,（正式信函、求职信）＞ Best regards, ＞ Best, ＞ Thanks,。给客户写 Best regards, 最稳妥；同事之间 Thanks, 就行。聊天工具里的消息不需要敬语。
+@d_when: 每一封工作邮件的结尾。
+@d_vs: ✓ **Let me know if you have any questions. Best regards, Lily**（客户）\n✓ **Thanks, Lily**（同事）\n✓ **Sincerely, Lily Lin**（正式信函）\n✗ Thank you very much for your time and support. Wish you a happy life!\n✗ Best regard,（漏了 s）
+@d_task: 把这个结尾改得简洁自然：Thank you so much for reading my long email. Wish you all the best and have a nice day every day! | Thanks for your time. Best regards, Lily（给同事也可以只写 Thanks, Lily）
+
+@core: I'm writing to + 动词… | 邮件第一句说目的 | confirm the new delivery times / ask about your order / let you know about… | 正式：I'm writing to inform you about the new delivery times.｜随意：Just a quick note about the new delivery times.
+@core: As mentioned in my last email, … | 提醒对方之前说过的信息 | in my last email / on the phone / in our meeting | 正式：As mentioned in my previous email, …｜随意：Like I said in my last email, …
+@core: Please see below for the details. | 引出下面的要点或表格 | the details / the new schedule / the full list | 正式：Please find the details below.｜随意：Details below:
+@core: To clarify, … | 补充说明，提前避免误会 | the times start from pickup / the price includes tax | 正式：To clarify, the times above are in business days.｜随意：Just so you know, …
+@core: Could you please … at your earliest convenience? | 礼貌地请对方尽快做一件事 | reply / confirm the address / sign the form | 正式：We would appreciate your reply at your earliest convenience.｜随意：Could you get back to me when you get a chance?
+@core: For your reference, I've attached… | 附上参考资料 | the full schedule / last month's report / the invoice | 正式：Please find the full schedule attached for your reference.｜随意：I've attached the schedule, just in case.
+@core: Let me know if you have any questions regarding… | 一句话收尾 | the change / the invoice / your account | 正式：Should you have any questions regarding the change, please let me know.｜随意：Any questions, just let me know.
+@core: Best regards, + 名字 | 邮件最后一行 | Best regards, / Best, / Thanks, | 正式：Kind regards, Lily Lin｜随意：Thanks, Lily
+
+@pw: purpose | ˈpɜːrpəs | 2 个音节 PUR·pose | 重音在前；pur 要卷舌 `/ɜːr/`；pose 弱读成 `/pəs/`，不读「泡斯」
+@pw: recipient | rɪˈsɪpiənt | 4 个音节 re·CIP·i·ent | 重音在第二个音节；ci 读 `/sɪ/`；结尾 ent 很轻
+@pw: paragraph | ˈpærəɡræf | 3 个音节 PAR·a·graph | 重音在第一个音节；第一个和最后一个 a 都是嘴张大的 `/æ/`，中间的 a 弱读；ph 读 /f/
+@pw: concise | kənˈsaɪs | 2 个音节 con·CISE | 重音在后；con 弱读成 `/kən/`；结尾读清辅音 `/s/`，不读 /z/
+@pw: regarding | rɪˈɡɑːrdɪŋ | 3 个音节 re·GAR·ding | 重音在 gar，要卷舌；re 很轻，像「瑞」一带而过
+@pw: clarify | ˈklærəfaɪ | 3 个音节 CLAR·i·fy | 重音在第一个音节；`/æ/` 嘴张大；fy 读 `/faɪ/`
+@pw: convenience | kənˈviːniəns | 4 个音节 con·VEN·i·ence | 重音在 ven，`/iː/` 拉长；和 D45 的 convenient 重音位置一样
+@ps: I'm **writ**ing to con**firm** / the **new** delivery **times**. | writing 的 t 在两个元音之间闪音成轻 d：`/ˈraɪdɪŋ/`；to 弱读成 `/tə/`；重音落在动词 confirm 和关键信息 new、times 上。
+@ps: As **men**tioned‿in my **last**‿email, / the **change** starts‿on **Mon**day. | As 弱读成 `/əz/`；mentioned in 连成 men-shun-din；last email 的 t 几乎不爆破；starts on 连成 star-tson。
+@ps: Could you **please** re**ply** / at your **ear**liest con**ven**ience? ↗ | Could you 连读成 `/kʊdʒu/`（像「酷久」）；your 弱读成 `/jər/`；礼貌的请求句末轻轻上扬，听起来更客气。
+@ps: **Stan**dard **ship**ping: / **six** to **nine** **bus**iness days. | 邮件里写 6–9，读出来是 six to nine；business 只有两个音节 `/ˈbɪznəs/`，中间的 i 不发音。
+@pnote: 写 vs 说：邮件里的 6–9 读作 **six to nine**，8–12 读作 **eight to twelve**；括号里的内容读的时候放低声音、稍微快一点。美国的工作邮件普遍用缩写（I'm、I've、don't），显得自然友好，只有非常正式的信函才写 I am。Please see below 是书面语，当面讲的时候说 Here are the details.；As mentioned 在口语里常变成 Like I said。
+@pnote: 本课的弱读小词：I'm writing **to** `/tə/`、**for** the details `/fər ðə/`、**at your** earliest `/ət jər/`、**as** mentioned `/əz/`。把邮件读出来时，这些小词都一带而过，重音落在 confirm、details、earliest、Monday 这些实词上——如果每个词都读得一样重，听起来就像在背课文。
+@lfocus: to / for / at / your / as 的弱读
+@lfocus: 邮件里的数字区间：6–9 读作 six to nine
+@lfocus: 张涛的四条建议：purpose / recipient / summary / brief
+@dict: S8–S11
+@dict: S23–S25
+@res: 在 youglish.com 输入 "I'm writing to"，选 US
+
+@mimic: 跟读【C】S4–S15（张涛和吴佳的修改意见）和 S17–S28（定稿邮件）：先正常语速逐句跟读，模仿张涛 What's the purpose? 的降调和吴佳委婉的语气；再把定稿邮件当成一段语音留言完整读一遍并录音，注意 6–9 读作 six to nine、To clarify 后面稍作停顿。最后合上书，只看张涛的四个关键词（purpose / recipient / summary / brief），用自己的话复述他的建议。
+@swap: I'm writing to confirm the new delivery times. | 换目的：ask about your last invoice / let you know about a system update / confirm our call on Thursday | I'm writing to let you know about a system update this weekend.
+@swap: As mentioned in my last email, the change starts on Monday. | 换信息来源和内容：on the phone / in our meeting；the price changes in July / our office is closed on Friday | As mentioned on the phone, our office is closed on Friday.
+@swap: Could you please reply at your earliest convenience? | 换要求：confirm the address / send me the invoice / check the numbers | Could you please confirm the address at your earliest convenience?
+@swap: For your reference, I've attached the full schedule. | 换附件：last month's report / the invoice / a screenshot | For your reference, I've attached a screenshot of the error.
+@free: 给 Sarah 写邮件的前两句：告诉她下周一系统要升级，跟踪页面上午 9 点到 11 点（深圳时间）可能会很慢 | I'm writing to let you know about a system update next Monday. Your tracking page may be slow from 9 to 11 a.m., Shenzhen time.
+@free: 上周你已经在邮件里告诉过 Daniel 新时效，他今天又来问。礼貌地提醒他，并告诉他详情在下面 | As mentioned in my last email, the new delivery times start on Monday. Please see below for the details.
+@free: 请大客户 Priya 尽快确认她的新仓库地址，并说明原因（语气要正式） | Could you please confirm your new warehouse address at your earliest convenience? We need it to update your pickup schedule.
+@free: Leo 的邮件结尾是 Thank you very much for your time and wish you a happy life!，你告诉他怎么改、为什么 | Just end it with "Best regards" and your name. One line of thanks is enough, and "wish you a happy life" sounds strange in a work email.
+@output: 录一段 1.5–2 分钟的讲解：「给 Leo 讲讲怎么写一封清楚的工作邮件」。先说最重要的一条（main point first），再按顺序讲：第一句怎么写（I'm writing to…）→ 细节放在哪里（Please see below / bullet points / To clarify）→ 怎么礼貌地提要求（Could you please…?）→ 怎么结尾（Best regards）→ 用林晓今天给 Daniel 写的邮件当例子。
+@output_sample: Leo, here's the most important rule for work emails: put your main point first. Our sellers get hundreds of emails a day, so they often read only the subject line and the first sentence. That first sentence should be a summary of the whole email. Start with "I'm writing to" and a verb, for example, "I'm writing to confirm the new delivery times." Don't write three lines of greetings, and don't introduce yourself again. Next, put the details below in bullet points. Short lines are easier to read, especially with numbers. If something might be confusing, add one sentence with "To clarify." Then ask for one clear action, and ask politely. Don't write "Reply today." It sounds like an order. Write "Could you please reply at your earliest convenience?" or give a date, like "by Friday, if possible." Finally, keep the ending short. One sentence is enough, for example, "Let me know if you have any questions." Then write "Best regards" and your name. This morning, my first draft to Daniel had five paragraphs, and Tom sent it back. My new version has a few short lines, and Tom read it in ten seconds. Before you click Send, read your email again and check the tone.
+
+@check: 听力：张涛说 Daniel 一天收多少封邮件？Daniel 打开收件箱时，能看到哪几样东西？ | 大约两百封（two hundred emails a day）。他看到的只有发件人（the sender）、主题行（the subject line）和一句话，所以第一句就要说目的。
+@check: 听力：新的标准配送和快速配送各是几个工作日？时效从哪天开始算？ | 标准配送 6–9 个工作日，快速配送 4–5 个工作日；从揽收（pickup）那天开始算。
+@check: 迁移：你要通知所有卖家：下周五系统升级，请他们周四前下载好报表。写出邮件的前两句。 | I'm writing to let you know about a system update next Friday. Could you please download your reports before Thursday?
+@check: 改错：Leo 写了 Please see the below details. Trouble you to reply ASAP. 改成自然、礼貌的英文。 | Please see below for the details. Could you please reply at your earliest convenience?
+@check: 迁移：你给张涛发上个月的数据，只是让他参考，不需要他做什么。这两层意思怎么写？ | For your reference, I've attached last month's numbers. No action is needed.
+@check: 给同事 Emma 和给客户 Priya 的邮件，结尾分别怎么写比较合适？ | 给 Emma：Thanks, Lily（或 Best, Lily）；给 Priya：Best regards, Lily。都只要一句收尾 + 一个敬语，不用堆客套话。
+@next1: 不看书说出 5 个锚点句：S18、S19、S20、S25、S28
+@next1: 把你最近写的一封中文工作邮件的第一句，改写成 I'm writing to… 开头的英文
+@next7: 邮件四件套：I'm writing to… / Please see below for… / Could you please…? / Best regards,
+@next7: 用 As mentioned、To clarify、For your reference 各写一句和你的工作有关的话
