@@ -1,0 +1,162 @@
+@day: 41
+@week: 2
+@title_cn: 真的假的
+@title_en: No Way!
+@topic: 听同事分享好消息和奇遇：表示惊讶、追问细节、夸奖和羡慕
+@think_short: 「真的假的？」No way!｜「太厉害了」That's amazing! / Way to go!｜重复关键词 + 追问｜「好羡慕」I'm so jealous!
+
+@goal_scene: 周一早上，同事分享周末跑完半程马拉松、在机场偶遇明星、比赛得奖的好消息。你要用自然的英文反应接住每一句：惊讶、追问、夸奖、开玩笑地羡慕，让对话越聊越热闹。
+@goal_expr: No way! / Are you kidding? That's amazing! / How long did it take? / Tell me more! / I can't believe… / Way to go! / That's impressive. / I'm so jealous!
+@goal_vocab: 20 个重点词 + 5 个短语：跑步比赛、明星偶遇、得奖，以及惊讶和夸奖的反应语
+@done: 听到好消息时，能用 3 种不同强度的反应（Really? / Seriously? / No way!）接话，不再说 ✗ True or false?
+@done: 能用「重复关键词 + 追问」接住对方的话，连续追问 2–3 次
+@done: 能分清夸事情（That's amazing / impressive）和夸人（Way to go!），并用 I'm so jealous! 开玩笑地表示羡慕
+
+@warmup: 然后呢？ | What happened next? | D40
+@warmup: 首先，我把电源关了。 | First of all, I turned off the power. | D40
+@warmup: 结果我们一直干到了半夜。 | We ended up working until midnight. | D40
+@warmup: 后来，大家都管我叫英雄。 | Afterward, everyone called me a hero. | D40
+@warmup: 我正在做晚饭，突然停电了。 | I was cooking dinner when the power went out. | D38
+@warmup: 你不饿吗？——不饿，我早饭吃得很饱。 | Aren't you hungry? — No, I'm not. I had a big breakfast. | D13
+
+@scene: 周一早上，Emma 一瘸一拐地走进办公室——周六她在昆明跑完了人生第一个半程马拉松，周日飞回深圳时，还在机场碰到了一位当红演员。林晓第一次听同事分享这么「炸」的周末，想学着像美国人那样接话：惊讶、追问、夸奖、开玩笑。刚聊完，吴佳也抱着一个大盒子进来，宣布了她自己的好消息。
+@sp: 人物关系 | 林晓 ↔ Emma、吴佳：很熟的同事，周一早上闲聊，可以开玩笑、说得夸张一点
+@sp: 沟通目的 | Emma、吴佳：分享周末的好消息；林晓：用丰富的反应让对方越讲越起劲，而不是只说 Oh. / Really.
+@sp: 已知信息 | 林晓知道 Emma 爱跑步，但不知道她去跑了半马，更不知道她遇到了明星；吴佳参加比赛的事谁都不知道
+@sp: 表达重点 | 惊讶：No way! / Are you kidding? / Seriously? → 重复关键词 + 追问：Twenty-one kilometers? How long did it take? → 鼓励多讲：Tell me more! → 夸奖：Way to go! / That's impressive. → 羡慕：I'm so jealous!
+
+@story_title: Episode 41 · Guess Who I Met?
+@story_type: 对话（分享好消息 + 反应）
+@s: It's Monday morning. Emma walks into the office very slowly. | 周一早上，Emma 慢吞吞地走进办公室。
+@s: Lily: Morning, Emma! Are you OK? | 林晓：早，Emma！你没事吧？
+@s: Emma: My **legs** are so **sore**. I **ran** my first half **marathon**! | Emma：我腿酸死了。我跑了人生第一个半程马拉松！
+@s: Lily: **No way**! | 林晓：真的假的！
+@s: Emma: Yep. Twenty-one kilometers in Kunming on Saturday. | Emma：真的。周六在昆明，二十一公里。
+@s: Lily: Twenty-one kilometers? **Are you kidding**? That's amazing! | 林晓：二十一公里？开玩笑吧？太厉害了！
+@s: Lily: How long did it take? | 林晓：跑了多长时间？
+@s: Emma: Two hours and ten minutes. I've been training for six months. | Emma：两小时十分钟。我已经练了半年了。
+@s: Emma: At the end, I was **exhausted**. But people **cheered** for us all the way. | Emma：跑到最后我累瘫了。不过一路上都有人给我们加油。
+@s: Lily: That sounds **awesome**! Did you get a **medal**? | 林晓：听起来太棒了！有奖牌吗？
+@s: Emma: Of course! Everyone who finishes the **race** gets one. | Emma：当然有！跑完全程的人都有一块。
+@br:
+@s: Emma: But the **crazy** part happened at the **airport**. | Emma：不过最疯狂的事发生在机场。
+@s: Lily: The airport? **Tell me more**! | 林晓：机场？快说说！
+@s: Emma: You know the **actor** from "Night Delivery," that show about a delivery guy? | Emma：你知道《夜间派送》里的那个演员吧？就是讲快递小哥的那部剧。
+@s: Lily: I love that show! | 林晓：我超爱那部剧！
+@s: Emma: He was in line right behind me. We took a **selfie**, and he gave me his **autograph**. | Emma：他就排在我后面。我们拍了张合影，他还给我签了名。
+@s: Lily: **Seriously**? Show me! | 林晓：真的假的？给我看看！
+@s: Lily: Wow, it's really him! **I can't believe** you met him at the airport. | 林晓：哇，真的是他！真不敢相信你在机场碰到他了。
+@s: Lily: I'm so **jealous**! | 林晓：好羡慕啊！
+@br:
+@s: Just then, Grace comes in with a big box. | 就在这时，吴佳抱着一个大盒子走了进来。
+@s: Grace: I have news, too. I **won** first **prize** in a baking contest! | 吴佳：我也有好消息。我在一个烘焙比赛里拿了一等奖！
+@s: Lily: **Unbelievable**! What a weekend for you two! | 林晓：太不可思议了！你们俩这个周末也太精彩了！
+@s: Emma: **Way to go**, Grace! That's really **impressive**. | Emma：干得好，吴佳！真厉害。
+@s: Grace: Thanks! I made a cake for everyone. Who wants some? | 吴佳：谢谢！我给大家做了个蛋糕，谁要吃？
+@s: Emma: Me! I ran twenty-one kilometers. I need it! | Emma：我！我跑了二十一公里，得好好补补！
+
+@v: legs | leg | n. | legz | 腿 | 说身体部位、运动后的感觉 | my legs hurt；break a leg；leg day | My legs hurt after the hike. | 爬完山我腿疼。 | 英文分得细：leg 是整条腿，foot 是脚，knee 是膝盖；Break a leg! 是祝演出顺利，不是咒人断腿。
+@v: sore | = | adj. | sɔːr | （肌肉）酸痛；（伤处）疼 | 运动后肌肉酸痛、身体某处疼 | sore legs；My back is sore.；feel sore | I'm still sore from yesterday's workout. | 昨天健身完，我现在还浑身酸疼。 | 中文「腿酸」直译成 ✗ My legs are sour. 是「腿是酸味的」；肌肉酸痛用 sore；Day 47 还会学 sore throat（嗓子疼）。
+@v: ran | run | v. | ræn | 跑（run 的过去式）；跑步 | 说跑步、参加长跑比赛 | run a marathon；go for a run；run every morning | I ran five kilometers this morning. | 我今天早上跑了五公里。 | 过去式是 ran，不是 ✗ runned；「跑了一个马拉松」直接说 run a marathon，不用加 in；run 还有「经营」的意思：She runs a small café.
+@v: marathon | = | n. | ˈmærəθɑːn | 马拉松 | 说长跑比赛；也比喻耗时很长的事 | a half marathon；run a marathon；a full marathon | She ran her first marathon last year. | 她去年跑了人生第一个马拉松。 | 半程马拉松是 half marathon（约 21 公里），全程是 full marathon（约 42 公里）；th 读 `/θ/`，舌尖轻咬，不要读成 `/s/`。
+@v: No way | no way! | phr. | ˌnoʊ ˈweɪ | 真的假的！不会吧！ | 听到让人吃惊的消息（多半是好消息）时的反应 | No way!；No way, really?；No way! That's great! | You got the job? No way! | 你拿到那份工作了？真的假的！ | 语调往下降、拉长，听起来是惊喜；No way 还可以表示「绝对不行」：Can I borrow your car? — No way!——两种意思靠语气和上下文区分。
+@v: Are you kidding | are you kidding? | phr. | ɑːr jə ˈkɪdɪŋ | 开什么玩笑？不会吧？ | 对太意外的消息表示惊讶，好消息、坏消息都能用 | Are you kidding?；Are you kidding me?；You're kidding! | The meeting is canceled again? Are you kidding me? | 会又取消了？开什么玩笑！ | 这不是真的问「你在开玩笑吗」，而是表达惊讶，对方不必回答；kid 当动词是「开玩笑」：I'm just kidding.（我开玩笑的）。
+@v: exhausted | = | adj. | ɪɡˈzɔːstɪd | 累坏了；筋疲力尽 | 说比 tired 累得多的状态 | totally exhausted；I'm exhausted.；feel exhausted | After the move, I was totally exhausted. | 搬完家我彻底累瘫了。 | exhausted 本身就是「非常累」，前面不加 very：✗ very exhausted → ✓ totally exhausted；x 读 `/ɡz/`，h 不发音。
+@v: cheered | cheer | v. | tʃɪrd | 欢呼；给……加油 | 比赛时为人加油，看到好结果时欢呼 | cheer for sb；cheer sb on；cheer up | We cheered for our team all night. | 我们一整晚都在给我们队加油。 | 中文「加油」直译 ✗ Add oil! 很多美国人听不懂；给比赛的人加油说 cheer for sb，当面鼓励说 You can do it! / Go, go, go!；cheer up 是「振作起来」。
+@v: awesome | = | adj. | ˈɔːsəm | 太棒了；超赞 | 美国人日常最常用的夸奖词之一 | That's awesome!；an awesome trip；Awesome, thanks! | You fixed it already? Awesome! | 你已经修好了？太棒了！ | 非常口语，正式邮件里换成 great / excellent；美国人连「好的」也常说 Awesome, thanks!，不一定是特别激动。
+@v: medal | = | n. | ˈmedl | 奖牌 | 体育比赛、跑步比赛 | a gold medal；get a medal；a finisher's medal | He won a gold medal at the Olympics. | 他在奥运会上拿了金牌。 | 读音和 metal（金属）几乎一样，美式都读 `/ˈmedl/`；「拿奖牌」说 win / get a medal。
+@v: race | = | n. | reɪs | 比赛（赛跑、游泳等比速度的比赛） | 说跑步、游泳、赛车 | finish the race；a 10K race；win a race | The race starts at seven a.m. | 比赛早上七点开始。 | race 只指「比快慢」的比赛；比分数、比技巧用 game / match / contest；race 还有「种族」的意思，看上下文。
+@v: crazy | = | adj. | ˈkreɪzi | 疯狂的；离谱的；不可思议的 | 说意想不到、很夸张的事 | That's crazy!；the crazy part；crazy busy | The traffic was crazy this morning. | 今天早上的交通太离谱了。 | 说事情 crazy 多是「太夸张了」，不是骂人；但说一个人 He's crazy. 要小心，可能是「他疯了」；crazy about sth 是「特别迷……」。
+@v: airport | = | n. | ˈerpɔːrt | 机场 | 出行、接人送人 | at the airport；airport security；pick sb up at the airport | I'll pick you up at the airport. | 我去机场接你。 | 「在机场」用 at the airport；air 读 `/er/`，不读「爱」；重音在前：AIR·port。
+@v: Tell me more | tell me more | phr. | ˌtel mi ˈmɔːr | 快说说；多讲点 | 对别人的话题很感兴趣，请他继续讲 | Tell me more!；Tell me everything!；I want to hear more. | A new job? Tell me more! | 换新工作了？快跟我说说！ | 中文「快说快说」直译成 ✗ Say quickly! 很生硬；英文用 Tell me more! 或 Tell me everything!，语气热情，对方会很高兴往下讲。
+@v: actor | = | n. | ˈæktər | 演员 | 聊电影、电视剧、明星 | a famous actor；a TV actor；my favorite actor | Who's your favorite actor? | 你最喜欢的演员是谁？ | 中文常说「明星」，具体说「演员」就用 actor；现在 actor 也可以指女演员，actress 仍然常用；「歌手」是 singer。
+@v: selfie | = | n. | ˈselfi | 自拍（照） | 拍照、发朋友圈 | take a selfie；a group selfie；a selfie with sb | Let's take a selfie! | 我们来张自拍吧！ | 「自拍」是 take a selfie，不说 ✗ make a selfie / ✗ self-take；和别人一起拿手机自拍也叫 selfie：a selfie with him。
+@v: autograph | = | n. | ˈɔːtəɡræf | （名人的）亲笔签名 | 找明星、运动员要签名 | ask for an autograph；get sb's autograph；sign an autograph | Can I have your autograph? | 能给我签个名吗？ | 名人给粉丝的签名是 autograph；合同、文件上的「签名」是 signature（Day 48 会学），动词「签字」是 sign。
+@v: Seriously | seriously | adv. | ˈsɪriəsli | 真的吗？说真的？ | 惊讶、不敢相信时的反应；也表示「说正经的」 | Seriously?；Seriously, …；take sth seriously | Seriously? You finished it already? | 真的吗？你已经做完了？ | 单独用、句尾上扬 Seriously? ↗ 是惊讶；放句首 Seriously, … 是「说真的」；语气重的时候还能表示不满：Seriously? Again?（又来？）
+@v: I can't believe | i can't believe… | phr. | aɪ ˌkænt bɪˈliːv | 真不敢相信…… | 又惊又喜（或又惊又气）时说 | I can't believe it!；I can't believe (that) + 句子；I can't believe it's Friday. | I can't believe it's already Friday! | 真不敢相信已经周五了！ | 用现在时 I can't believe，哪怕事情已经发生：✓ I can't believe you met him.；can't 要读重、元音饱满 `/kænt/`，否则会被听成 I can believe。
+@v: jealous | = | adj. | ˈdʒeləs | （开玩笑地）羡慕；嫉妒 | 朋友之间半开玩笑地说「好羡慕」 | I'm so jealous!；jealous of sb | You're going to Bali? I'm so jealous! | 你要去巴厘岛？好羡慕啊！ | 朋友间笑着说 I'm so jealous! 是友好的「好羡慕」；认真说 He's jealous of her. 就是「嫉妒」，带贬义；ea 读 `/e/`。
+@v: won | win | v. | wʌn | 赢；获得（奖） | 说比赛、抽奖里赢了、得奖了 | win a prize；win a game；win first prize | Our team won the game last night. | 我们队昨晚赢了比赛。 | won 和 one 读音完全一样 `/wʌn/`；「赢了某人」用 beat：We beat them.，不说 ✗ We won them.
+@v: prize | = | n. | praɪz | 奖；奖品 | 比赛、抽奖得奖 | first prize；win a prize；a prize for… | She won first prize in a photo contest. | 她在一个摄影比赛里拿了一等奖。 | 「一等奖」是 first prize，一般不加 the；prize（奖）和 price（价格）只差结尾：一个读 `/z/`，一个读 `/s/`。
+@v: Unbelievable | unbelievable | adj. | ˌʌnbɪˈliːvəbl | 难以置信的；太不可思议了 | 对好消息或离谱的事的强烈反应 | Unbelievable!；an unbelievable story；It's unbelievable. | The view from the top was unbelievable. | 山顶的风景美得难以置信。 | 可以单独当一句话：Unbelievable!；既能夸（太棒了），也能抱怨（太离谱了），听语气；5 个音节，重音在 lie。
+@v: Way to go | way to go! | phr. | ˌweɪ tə ˈɡoʊ | 干得好！真棒！ | 夸别人做成了一件事 | Way to go!；Way to go, Grace!；Way to go, team! | You passed the test? Way to go! | 你考过了？干得漂亮！ | 夸的是「人做到了什么」，不是夸东西好看；中文「你好厉害」直译 ✗ You're so powerful. 不对，用 Way to go! / Good for you!；to 弱读成 `/tə/`。
+@v: impressive | = | adj. | ɪmˈpresɪv | 令人佩服的；了不起的 | 夸别人的成绩、能力、作品 | very impressive；an impressive result；That's impressive. | Your presentation was really impressive. | 你的演示真让人佩服。 | 中文「厉害」说成 impressive 很地道，可以单独说 Impressive!；「我很佩服」是 I'm impressed.，不说 ✗ I'm impressive.（那是「我很了不起」）。
+
+@diff: 「真的假的？」——No way! / Really? / Seriously?
+@d_cn: 听到让人吃惊的消息，表示「不会吧！太意外了！」，并不是真的要对方证明真假。
+@d_en: No way! / Really? / Seriously? / Are you kidding?
+@d_why: 中文的「真的假的」只是惊讶的感叹；直译成 ✗ True or false? 像在出判断题，✗ Are you lying? 更像在指责对方撒谎，很不礼貌。英文按惊讶的程度选：**Really?** 最中性；**Seriously?** 带一点「不敢相信」；**No way!** 和 **Are you kidding?** 最强烈、最口语。语调比用词更重要：No way! 往下降、拉长是惊喜；Really? 往上扬是「真的吗」，如果平平地说 Really.，就成了「哦，是吗」——听起来没兴趣。
+@d_when: 同事、朋友分享好消息或奇遇的时候；对客户、领导，用 Really? That's great news. 就够了。
+@d_vs: **I ran my first half marathon! — No way!** ↘（惊喜）\n**— Really?** ↗（真的吗？）\n**— Seriously? That's amazing!**（不敢相信）\n✗ True or false?\n✗ Are you lying?
+@d_task: 小梅告诉你：I passed my driving test!（我驾照考过了！）用两种不同强度的说法回应。 | Really? That's great! / No way! Congratulations!
+@diff: 「太厉害了」——That's amazing! / Way to go!
+@d_cn: 夸别人做到了一件不容易的事。
+@d_en: That's amazing! / That's impressive! / Way to go!
+@d_why: 中文「厉害」什么都能夸；直译成 ✗ You're so powerful. 意思变成「你权力很大 / 力气很大」，像在说老板或超级英雄；✗ You're so terrible.（「厉害」= 凶）更是意思完全相反。英文分两类：夸**这件事** → That's amazing! / That's awesome! / That's impressive!；夸**这个人做到了** → Way to go! / Good for you!（Day 33）/ You did it! 美国人夸人很直接，而且常常两句连着说：Way to go! That's really impressive.
+@d_when: 同事跑完比赛、拿了奖、考过了试、做成了一个很难的项目。
+@d_vs: **That's amazing!** 太厉害了！（夸事情）\n**Way to go, Grace!** 干得好，吴佳！（夸人）\n**That's really impressive.** 真让人佩服。\n✗ You're so powerful!
+@d_task: Kevin 说：I won a prize in the company photo contest!（我在公司摄影比赛里得奖了！）先表示惊讶，再夸他。 | No way! Way to go, Kevin! That's really impressive.
+@diff: 表示感兴趣——重复关键词 + 追问
+@d_cn: 不只是「嗯嗯」「是吗」，而是让对方知道「我在认真听，我还想知道更多」。
+@d_en: Twenty-one kilometers? How long did it take? / The airport? Tell me more!
+@d_why: 中文听人说话，常用「嗯」「对」「是吗」接话；英文聊天里只说 Uh-huh 或 Oh，会显得心不在焉。美国人有个很自然的习惯：先把对方话里的**关键词**用升调重复一遍——Twenty-one kilometers? ↗ / The airport? ↗——意思是「我听到了，我很惊讶」；再马上跟一个**具体的问题**：How long did it take? / Who was it? / Did you get a medal? 对方就知道你真的感兴趣，会讲得更多。注意问一件已经结束的事要用过去时：How long **did** it take?，不说 ✗ How long does it take?
+@d_when: 别人讲经历、分享消息时，每隔两三句就接一次话。
+@d_vs: **I ran a half marathon.**\n— **Oh.** ✗（像没兴趣）\n— **A half marathon? How long did it take?** ✓\n— **In Kunming? Was it hard?** ✓
+@d_task: 同事说：I went to Japan last week.（我上周去了日本。）先重复关键词，再追问一个问题。 | Japan? Wow! How long were you there?
+@diff: 「好羡慕」——I'm so jealous!
+@d_cn: 朋友有好事，半开玩笑地说「好羡慕你啊」，其实是替对方高兴，不是真的嫉妒。
+@d_en: I'm so jealous! / Lucky you!
+@d_why: 中文「羡慕」是褒义，「嫉妒」是贬义，两个词分得清清楚楚；英文 **jealous** 一个词有两种意思，全靠语气：朋友之间笑着说 **I'm so jealous!** 就是「好羡慕」，对方听了会很开心；认真地说 He's jealous of her. 就是「嫉妒」。中国学生常说 ✗ I admire you.——admire 是「敬佩」，太重，像在说人生榜样；I envy you. 语法没错，但比较正式、略重。最轻松的还有 **Lucky you!**（Day 29 Mike 说过）。
+@d_when: 朋友见到明星、去旅行、中了奖、放长假；对别人辛苦得来的成绩，先夸（Way to go!）再开玩笑说羡慕。
+@d_vs: **You met him? I'm so jealous!** 你见到他了？好羡慕！（开玩笑）\n**Lucky you!** 你真幸运！\n**He's jealous of his brother.** 他嫉妒他哥哥。（贬义）\n✗ I admire you.（太重）
+@d_task: 吴佳说她下周要去三亚度假一周。用两种轻松的说法表示羡慕。 | I'm so jealous! / Lucky you! Have fun!
+
+@core: No way! | 听到让人惊讶的好消息 | No way! / Really? / Seriously? | 正式：Really? That's wonderful news.｜随意：No way!
+@core: Are you kidding? That's amazing! | 先表示惊讶、再夸 | amazing / awesome / impressive | 正式：That's very impressive.｜随意：Are you kidding me? That's awesome!
+@core: 关键词? + How long did it take? | 重复关键词，再追问细节 | A marathon? How long did it take? / The airport? Who was it? | 正式：How long did the race take?｜随意：Wait, twenty-one kilometers? How long?
+@core: I can't believe + 句子. | 又惊又喜 | you met him / you won / it's Friday already | 正式：I find that hard to believe.｜随意：I can't believe it!
+@core: Tell me more! | 鼓励对方继续讲 | Tell me more! / Tell me everything! / What was he like? | 正式：I'd love to hear more about it.｜随意：Tell me everything!
+@core: Way to go! | 夸别人做到了一件事 | Way to go! / Good for you! / You did it! | 正式：Congratulations on your win.｜随意：Way to go!
+@core: I'm so jealous! | 开玩笑地说「好羡慕」 | I'm so jealous! / Lucky you! | 正式：That sounds wonderful. I'd love to do that.｜随意：Ugh, I'm so jealous!
+@core: My legs are so sore. | 说运动后浑身酸痛 | legs / arms / back | 正式：My muscles are quite sore.｜随意：I can hardly walk!
+
+@pw: marathon | ˈmærəθɑːn | 3 个音节 MAR·a·thon | 重音在第一个音节；th 读 `/θ/`，thon 读 `/θɑːn/`
+@pw: autograph | ˈɔːtəɡræf | 3 个音节 AU·to·graph | 美式 t 读成轻轻的 d：aw-da-graf；ph 读 `/f/`
+@pw: unbelievable | ˌʌnbɪˈliːvəbl | 5 个音节 un·be·LIEV·a·ble | 主重音在 lie，un 带次重音；结尾 able 弱读成 `/əbl/`
+@pw: exhausted | ɪɡˈzɔːstɪd | 3 个音节 ex·HAUST·ed | x 读 `/ɡz/`，h 不发音：ig-ZAW-stid
+@pw: seriously | ˈsɪriəsli | 4 个音节 SE·ri·ous·ly | 重音在第一个音节；口语里常缩成 3 个音节 `/ˈsɪrjəsli/`
+@pw: jealous | ˈdʒeləs | 2 个音节 JEAL·ous | ea 读短的 `/e/`，ous 弱读成 `/əs/`
+@pw: impressive | ɪmˈpresɪv | 3 个音节 im·PRES·sive | 重音在中间；结尾 v 要轻轻咬唇，不要吞掉
+@ps: I **ran** my first half **mar**athon! — **No way**! ↘ | No 和 way 都重读、拉长，way 往下降：又惊又喜；如果平平地说，就像不相信。
+@ps: **Are** you **kid**ding? ↗ / That's a**maz**ing! | are you 弱读成 `/ər jə/`；kidding 的 -ing 口语里常读成 `/ɪn/`：kiddin'；amazing 重音在 maz。
+@ps: How **long** did‿it **take**? ↘ | did it 连读成 `/dɪdɪt/`，最后的 t 只做口型；重音落在 long 和 take。
+@ps: I **can't** be**lieve** / you **met**‿him at the **air**port. | can't 读饱满的 `/kænt/`；met him 里 him 的 h 脱落，连成 `/ˈmetɪm/`。
+@pnote: can 和 can't 怎么分：I **can't** believe… 里的 can't 读 `/kænt/`，元音饱满、重读，结尾的 t 常常只做口型；肯定的 can 在句中弱读成 `/kən/`，又短又轻。所以分辨 can / can't 主要听元音和重音，不要等那个 t。
+@pnote: 弱读和缩读：Emma 说 I've been training for six months.——I've 读 `/aɪv/`，been 弱读成 `/bɪn/`，for 弱读成 `/fər/`，连起来像 ive-bin-training-fer。him / his 在句中常丢掉 h：met him → `/ˈmetɪm/`，gave me his autograph 里 his 读 `/ɪz/`。另外第三人称 -s 要说出来：Everyone who finishes the race gets one.
+@lfocus: No way! 的降调和拉长
+@lfocus: can't 的饱满元音 vs can 的弱读
+@lfocus: I've been / for 的弱读
+@dict: S8–S9
+@dict: S20–S21
+@res: 在 YouTube 频道 Rachel's English 内搜索 "can can't"，听美国人怎么区分 can 和 can't。
+
+@mimic: 跟读【C】S2–S19：先用正常语速逐句跟读，重点模仿 No way! 的降调、Seriously? 的升调和 can't 的重读；再由你演林晓、手机朗读 Emma 的台词，把每一句反应都说得有表情；最后录一遍，听听自己的反应是不是「有兴趣」。
+@swap: I ran my first half marathon! — No way! | 换好消息：got a new job / passed my driving test / won a prize；换反应：Really? / Seriously? | I passed my driving test! — Seriously? That's awesome!
+@swap: Twenty-one kilometers? How long did it take? | 换关键词和追问：Japan? → How long were you there?；A new job? → When do you start? | A new job? When do you start?
+@swap: I can't believe you met him at the airport. | 换成让你吃惊的事：you won first prize / it's Friday already / you ran twenty-one kilometers | I can't believe you ran twenty-one kilometers!
+@swap: Way to go, Grace! That's really impressive. | 换人和夸法：Kevin / Mei；amazing / awesome | Way to go, Kevin! That's awesome.
+@free: 同事说他昨天在商场碰到了一位很有名的歌手。 | No way! Who was it? Did you get an autograph?
+@free: 朋友说她第一次跑完了十公里。你先惊讶，再追问。 | Ten kilometers? That's amazing! How long did it take?
+@free: 朋友说他下周去纽约出差，还能顺便玩两天。你半开玩笑地表示羡慕。 | New York? I'm so jealous! Take lots of photos for me.
+@free: 吴佳说她烤的蛋糕在比赛里拿了一等奖。你夸她，再请她多讲讲。 | Way to go, Grace! That's really impressive. Tell me more. What kind of cake was it?
+@output: 录 1.5 分钟（或写 8–10 句话）一段对话：朋友告诉你一个好消息或一次奇遇，你至少用 5 种反应接话——惊讶（No way! / Seriously?）→ 重复关键词 + 追问（How long did it take?）→ 鼓励多讲（Tell me more!）→ 夸奖（Way to go! / That's impressive.）→ 羡慕（I'm so jealous!）。可以自己一人分饰两角。
+@output_sample: Mei: Guess what? I passed my driving test this morning! Me: No way! On your first try? Mei: Yes! The test only took fifteen minutes. Me: Fifteen minutes? Seriously? Tell me more! Was it hard? Mei: A little. My hands were shaking the whole time, but the instructor was really nice. Me: Way to go, Mei! That's really impressive. You've been practicing for months. Mei: Thanks! And my dad says I can drive his car this weekend. Me: I can't believe it! I'm so jealous. Can you drive me to the beach? Mei: Sure, but you have to buy the bubble tea!
+
+@check: 朋友说 I won first prize! 你回一句 True or false? 合适吗？应该怎么说？ | 不合适，像在出判断题。说 No way! / Really? / Seriously? That's amazing!
+@check: 夸人「你太厉害了」说 You're so powerful! 对吗？ | 不对，powerful 是「有权势、力气大」。夸事情说 That's amazing / impressive!，夸人做到了说 Way to go!
+@check: Emma 说 I ran a half marathon in Kunming. 用「重复关键词 + 追问」接一句。 | A half marathon? How long did it take? / Kunming? Was it hard?
+@check: I'm so jealous! 什么时候是「好羡慕」，什么时候是「嫉妒」？ | 朋友有好事时笑着说 = 好羡慕（友好）；认真地说某人 is jealous of 别人 = 嫉妒（贬义）。
+@check: I can't believe you met him. 里的 can't 怎么读，才不会被听成 can？ | 重读、元音饱满 `/kænt/`；肯定的 can 在句中弱读成 `/kən/`。
+@next1: 不看书说出 S3–S4、S6、S7、S13、S18（锚点句）
+@next1: 对同一个好消息，用 No way! / Seriously? / Are you kidding? 三种方式回应
+@next7: 夸事情（That's amazing / impressive）和夸人（Way to go!）的区别，各说一句
+@next7: 「重复关键词 + 追问」的接话方法，给两个例子

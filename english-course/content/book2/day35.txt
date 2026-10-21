@@ -1,0 +1,161 @@
+@day: 35
+@week: 1
+@title_cn: 最近在忙什么
+@title_en: What Have You Been Up To?
+@topic: 和家人视频：寒暄、说近况、听家里的新消息、告别
+@think_short: 「最近在忙什么」What have you been up to?｜「最近」lately / these days｜「照顾」take care of｜「我想你了」I miss you.
+
+@goal_scene: 周日晚上和老家的妈妈视频：妈妈问你最近在忙什么，你要说出这段时间一直在做的事；再听懂家里的新消息（爸爸刚退休、奶奶天天跳广场舞），最后自然地道别。
+@goal_expr: Long time no see! / What have you been up to lately? / I've been really busy at work. / Your dad has just retired. / Grandma has been dancing every evening. / Take care of yourself. / Take care, Mom. I miss you.
+@goal_vocab: 20 个重点词 + 5 个短语：家人和亲戚、退休生活、健康、节日、寒暄与告别
+@done: 被问 What have you been up to lately? 时，不只说一个 Busy，而是用 2–3 句说出最近一直在做的事（I've been… lately.）
+@done: 用 has just… 和 has been -ing 讲一条家里的新消息、一位家人最近的新习惯
+@done: 视频结束时自然地说 Take care. / I miss you.，并分清 take care of（照顾）和 Take care.（保重）
+
+@warmup: 我已经等了二十分钟了。 | I've been waiting for twenty minutes. | D34
+@warmup: 抱歉，我要晚点到。 | Sorry, I'm running late. | D34
+@warmup: 我手机没电了，所以没法给你打电话。 | My phone died, so I couldn't call you. | D34
+@warmup: 自从入职 SwiftLink，我每天都在练英语。 | I've been practicing English every day since I joined SwiftLink. | D34
+@warmup: 你吃过臭豆腐吗？——没吃过。 | Have you ever tried stinky tofu? — No, I haven't. | D32
+@warmup: 我要回去看我爸妈，上周就买好车票了。 | I'm going to visit my parents. I bought the train ticket last week. | D16
+
+@scene: 周日晚上 8 点，林晓窝在合租屋的小房间里，和长沙老家的妈妈视频。上周日她实在太累，早早就睡着了，错过了每周一次的视频，所以妈妈一接通就「抱怨」好久不见。妈妈攒了一肚子家里的新鲜事：爸爸刚办完退休、奶奶天天晚上去跳广场舞，亲戚们都在问林晓春节回不回家。
+@sp: 人物关系 | 林晓 ↔ 妈妈：母女，每周日视频一次，说话最随意；妈妈最操心女儿的身体和睡觉
+@sp: 沟通目的 | 互相「补课」：林晓说说这两周在忙什么，妈妈讲讲家里的变化；最后说定春节回家
+@sp: 已知信息 | 妈妈只知道林晓在深圳上班，不清楚她最近具体忙什么；林晓知道爸爸今年要退休，但不知道已经办完了，更不知道他退休后天天在家干什么
+@sp: 表达重点 | 寒暄（Long time no see / What have you been up to lately?）→ 说近况（I've been… / I caught up with…）→ 听家里的新消息（has just retired / has been dancing）→ 用 No, he doesn't. 回答否定问句 → 告别（Take care of yourself / Take care, Mom. I miss you.）
+
+@story_title: Episode 35 · The Sunday Video Call
+@story_type: 视频通话对话
+@s: Every Sunday evening, Lily has a video call with her **mom** in Changsha. | 每个周日晚上，林晓都会和在长沙的妈妈视频。
+@s: Last Sunday, she fell asleep early and missed it. | 上周日她早早就睡着了，没打成。
+@br:
+@s: Mom: Lily! **Long time no see**! | 妈妈：晓晓！好久不见！
+@s: Lily: Mom, it's only been two weeks! | 林晓：妈，才两个星期而已！
+@s: Mom: Two weeks is a long time for a mom. **What have you been up to** **lately**? | 妈妈：对当妈的来说，两个星期就很久了。你最近在忙什么？
+@s: Lily: I've been really busy at work. We have a big new client. | 林晓：我最近工作特别忙，公司来了个大客户。
+@s: Lily: Yesterday, I **caught up** with Mei over bubble tea. | 林晓：昨天我还和小梅一边喝奶茶，一边聊了好久。
+@s: Mom: Good. But don't forget your **health**. Are you sleeping enough? | 妈妈：那挺好。不过别忘了身体，觉睡够了吗？
+@s: Lily: Yes, Mom. Don't worry. How's **Dad**? | 林晓：够了，妈，别担心。我爸怎么样？
+@s: Mom: Your dad has just **retired**. Now he does all the **housework**! | 妈妈：你爸刚退休，现在家务全归他了！
+@s: Lily: Really? Doesn't he feel **lonely** at home? | 林晓：真的？他在家不觉得孤单吗？
+@s: Mom: No, he doesn't. He **grows** tomatoes in the **garden**. | 妈妈：不孤单。他现在在楼下的小菜园里种西红柿呢。
+@s: Mom: And **Grandma** has been **dancing** in the **square** every evening. | 妈妈：还有，你奶奶这阵子每天晚上都去广场跳舞。
+@s: Lily: Every evening? She's so **healthy**! | 林晓：每天晚上？她身体真好！
+@s: Mom: **Grandpa** says she has more friends than he does! | 妈妈：你爷爷说，她的朋友比他还多！
+@br:
+@s: Mom: Oh, your **aunt** and **uncle** came over yesterday. | 妈妈：哦对了，你姑姑和姑父昨天来家里了。
+@s: Mom: Your **cousin** just got a job in Guangzhou. | 妈妈：你表妹刚在广州找到工作。
+@s: Mom: Your little **nephew** keeps asking, "Where's Auntie Lily?" | 妈妈：你小外甥天天问：「小姨呢？」
+@s: Mom: Are you coming home for the Spring **Festival**? All the **relatives** will be here. | 妈妈：春节你回来吗？亲戚们都会来。
+@s: Lily: Mom, that's months away! But yes, I will. | 林晓：妈，那还早着呢！不过会回的。
+@s: Mom: Good. **Take care of** yourself, OK? | 妈妈：好。照顾好自己，啊？
+@s: Lily: I will. **Take care**, Mom. I miss you. | 林晓：会的。保重，妈。我想你。
+@s: Mom: We miss you, too! | 妈妈：我们也想你！
+
+@v: mom | = | n. | mɑːm | 妈妈；妈（美式口语） | 称呼自己的妈妈、和别人聊起家人 | my mom；call Mom；Mom and Dad | My mom calls me every Sunday night. | 我妈每周日晚上都给我打电话。 | 美式写 mom，英式写 mum；直接称呼、当名字用时首字母大写（Take care, Mom.），前面有 my / her 时小写（her mom）；说妈妈「打电话」别忘了第三人称：My mom **calls**…
+@v: Long time no see | = | phr. | ˌlɔːŋ taɪm noʊ ˈsiː | 好久不见 | 很久没见的家人、朋友、熟同事见面或视频时 | Long time no see!；Hey, long time no see.；Wow, long time no see! | Hey, Kevin! Long time no see. How was your trip? | 嘿，李凯！好久不见，出差顺利吗？ | 这句本来就是从中文「好久不见」来的，后来成了地道的英文口语，但只用在熟人之间；见客户或正式场合说 It's great to see you again.；后面不要再加 you：✗ Long time no see you.
+@v: What have you been up to | what have you been up to? | phr. | ˌwʌt əv jə bɪn ˈʌp tuː | 最近在忙什么？最近都在干什么？ | 一段时间没见的人寒暄，问对方这段时间的生活 | What have you been up to?；What have you been up to lately?；What are you up to?（你现在 / 这周末干什么） | Hi, Grace! What have you been up to? — Not much. Just planning the wedding. | 嗨，吴佳！最近忙什么呢？——没忙什么，就是在筹备婚礼。 | 不要直译成 ✗ What are you busy with recently?；回答时说具体的事（I've been working a lot.），没什么特别的就说 Not much.；句末的 to 读完整的 `/tuː/`，不弱读。
+@v: lately | = | adv. | ˈleɪtli | 最近（从前一阵一直到现在） | 说最近一段时间的状态、最近一直在做的事 | lately；I've been … lately；Have you … lately? | Have you talked to Mei lately? | 你最近和小梅聊过吗？ | lately 不是「更晚」，也不是 late 的副词：✗ I got up lately. → ✓ I got up late.（我起晚了）；lately 多放句尾，配现在完成时：I've been tired lately.
+@v: caught up | catch up | phr. | ˌkɔːt ˈʌp | （朋友见面）叙旧；聊聊彼此的近况 | 和很久没见的朋友吃饭、喝咖啡、视频 | catch up with sb；catch up over coffee；Let's catch up soon. | Let's catch up over lunch next week. | 下周一起吃个午饭聊聊吧。 | 过去式是 caught `/kɔːt/`，gh 不发音，不是 catched；catch up 还有「赶进度」的意思：I need to catch up on my emails.（我得把落下的邮件补上）；「叙旧」不说 ✗ talk about old things。
+@v: health | = | n. | helθ | 健康；身体（状况） | 叮嘱家人注意身体、说健康习惯 | your health；good health；health is important | Health is more important than money. | 健康比钱更重要。 | health 是名词，healthy 是形容词：✗ She is very health. → ✓ She's very healthy.；health 不可数，前面不加 a；结尾 th 咬舌 `/θ/`，不读成 s。
+@v: Dad | dad | n. | dæd | 爸爸；爸（美式口语） | 称呼自己的爸爸、聊家人 | my dad；Mom and Dad；ask Dad | My dad doesn't like hot weather. | 我爸不喜欢热天。 | 和 mom 一样：当名字称呼时大写（How's Dad?），前面有 my / your 时小写（your dad）；father 比较正式，聊天时美国人说 dad；说爸爸「不……」用 doesn't，不用 don't。
+@v: retired | retire | v. | rɪˈtaɪərd | 退休 | 说家人、同事不再上班了 | retire from…；retire at sixty；be retired | My uncle retired last year. | 我舅舅去年退休了。 | 「他刚退休」说 He has just retired.；「他退休了（现在的状态）」说 He's retired.；说出具体时间就用过去时 He retired last year.；✗ He is retire.；名词是 retirement。
+@v: housework | = | n. | ˈhaʊswɜːrk | 家务活（做饭、打扫、洗衣服） | 说家里谁干活、怎么分工 | do the housework；help with the housework；a lot of housework | My dad does most of the housework now. | 我爸现在干大部分家务。 | 不可数：✗ a housework / houseworks；「做家务」用 do，不用 make：✓ do the housework；homework 是「作业」，别说混了。
+@v: lonely | = | adj. | ˈloʊnli | 孤单的；寂寞的 | 关心刚退休、一个人住、在外地的人 | feel lonely；a little lonely；get lonely | Do you ever feel lonely in a new city? | 你在新城市会觉得孤单吗？ | lonely 虽然以 -ly 结尾，却是形容词：feel lonely；lonely 说的是「心里孤单」，alone 说的是「一个人（客观上）」：I live alone, but I'm not lonely.
+@v: grows | grow | v. | groʊz | 种（菜、花）；（植物、孩子）长 | 说退休后种菜种花、孩子长得快 | grow vegetables；grow flowers；Kids grow so fast. | My grandpa grows chili peppers. He loves spicy food. | 我爷爷种辣椒，他爱吃辣。 | 主语是 he / she 时别忘了 -s：He grows…；过去式是 grew `/gruː/`，不是 growed；「长大」是 grow up（D31）。
+@v: garden | = | n. | ˈgɑːrdn | （种菜、种花的）园子；菜园 | 说在院子里、楼下种东西 | in the garden；a vegetable garden；a small garden | We have a small vegetable garden behind our building. | 我们楼后面有个小菜园。 | 美国人说的 garden 就是「种东西的那块地」，不一定又大又漂亮；房子周围的「院子」一般叫 yard；「在园子里」用 in：in the garden。
+@v: Grandma | grandma | n. | ˈgrænmɑː | 奶奶；外婆 | 聊起或称呼祖母、外祖母 | my grandma；Grandma and Grandpa；visit Grandma | My grandma is eighty, and she still walks every day. | 我奶奶八十岁了，还每天走路锻炼。 | 英文不分「奶奶」和「外婆」，都是 grandma（正式说 grandmother）；一定要分清就说 my dad's mom / my mom's mom；中间的 d 通常不发音。
+@v: dancing | dance | v. | ˈdænsɪŋ | 跳舞 | 说爱好、广场舞、聚会 | dance in the square；go dancing；a dance class | My mom goes dancing with her friends after dinner. | 我妈晚饭后和朋友去跳舞。 | 「广场舞」别直译成 ✗ square dance——在美国那是一种几对舞伴一起跳的乡村舞；说 dancing in the square 或 public square dancing；美式 a 读 `/æ/`，嘴巴张大。
+@v: square | = | n. | skwer | 广场 | 说城市、小区里的公共广场，在哪儿活动 | in the square；the town square；a big square | Let's meet in the square near the station. | 我们在车站旁边的广场见吧。 | 「在广场上」用 in the square，不说 ✗ on the square；square 也是「正方形」：a square table。
+@v: healthy | = | adj. | ˈhelθi | 健康的；身体好的 | 夸老人身体好、说饮食和生活习惯 | stay healthy；healthy food；a healthy diet | Walking after dinner keeps you healthy. | 饭后散步能让你保持健康。 | 「她身体很好」说 She's very healthy.，不说 ✗ Her body is very good.；healthy 前面要有 is / am / are：✗ She healthy.
+@v: Grandpa | grandpa | n. | ˈgrænpɑː | 爷爷；外公 | 聊起或称呼祖父、外祖父 | my grandpa；Grandma and Grandpa；call Grandpa | My grandpa tells great stories. | 我爷爷讲故事特别好听。 | 和 grandma 一样，英文不分爷爷和外公；d 通常不发音；S15 的 Grandpa says she has… 里，says 和 has 都是第三人称形式，✗ Grandpa say she have…
+@v: aunt | = | n. | ænt | 姑姑；姨；舅妈；婶婶；伯母 | 聊起父母的姐妹，或叔伯舅舅的妻子 | my aunt；Aunt Li；my aunt and uncle | My aunt lives in Guangzhou. | 我姨住在广州。 | 中文的姑、姨、婶、舅妈、伯母，英文全是 aunt；美式读 `/ænt/`，和 ant（蚂蚁）同音，英式才读 `/ɑːnt/`；称呼时可以说 Aunt Li。
+@v: uncle | = | n. | ˈʌŋkl | 叔叔；舅舅；伯伯；姑父；姨父 | 聊起父母的兄弟，或姑姑阿姨的丈夫 | my uncle；Uncle Wang；my aunt and uncle | My uncle has a small restaurant. | 我舅舅开了家小饭馆。 | 中文的叔、伯、舅、姑父、姨父，英文都是 uncle；中国小孩管邻居、陌生人叫「叔叔」，英文不对陌生人说 uncle，一般说 sir 或直接打招呼。
+@v: cousin | = | n. | ˈkʌzn | 堂兄弟姐妹；表兄弟姐妹 | 聊起叔伯姑舅姨家的孩子 | my cousin；a cousin in…；cousins on my mom's side | My cousin and I grew up together. | 我和我表姐是一起长大的。 | 堂哥、表姐、表妹……英文全是 cousin，不分男女、大小、爸爸这边还是妈妈这边；ou 读 `/ʌ/`，s 读 `/z/`，像 cuz-n，不读「靠森」。
+@v: nephew | = | n. | ˈnefjuː | 外甥；侄子 | 聊起兄弟姐妹的儿子 | my nephew；my little nephew；nieces and nephews | My nephew is five, and he loves dinosaurs. | 我外甥五岁了，特别喜欢恐龙。 | nephew 只指兄弟姐妹的儿子（女儿是 niece `/niːs/`）；堂兄弟、表姐妹的孩子严格说不叫 nephew；ph 读 `/f/`，不读 p。
+@v: Festival | festival | n. | ˈfestəvl | 节；节日；（大型）节庆活动 | 说春节、中秋节，或音乐节、美食节 | the Spring Festival；the Mid-Autumn Festival；a music festival | What do you usually eat for the Mid-Autumn Festival? | 中秋节你们一般吃什么？ | 中国传统节日的英文名前要加 the：the Spring Festival；「过节」不说 ✗ pass the festival，说 spend / celebrate the Spring Festival；美国的节假日一般叫 holiday：Christmas is a big holiday.
+@v: relatives | relative | n. | ˈrelətɪvz | 亲戚 | 说过年走亲戚、家里来客人 | all my relatives；visit relatives；a close relative | We visit our relatives every Spring Festival. | 我们每年春节都走亲戚。 | 「走亲戚」说 visit relatives，不说 ✗ walk relatives；relative 可数：a lot of relatives；重音在第一个音节 REL。
+@v: Take care of | take care of | phr. | ˌteɪk ˈker əv | 照顾；照料；（把事情）处理好 | 叮嘱家人、说谁照顾谁、接手一件事 | take care of yourself；take care of my grandma；I'll take care of it. | Don't worry about the report. I'll take care of it. | 报告的事别担心，交给我。 | of 不能丢：✗ Take care yourself.；of 弱读成 `/əv/`，和 care 连成 `/ˈkerəv/`；主语是 she / he 时说 She takes care of…
+@v: Take care | take care | phr. | ˌteɪk ˈker | 保重；（告别时）回头见 | 挂电话、分别、短信或邮件结尾 | Take care!；Take care, Mom.；OK, take care. | Thanks for calling. Take care! | 谢谢你打来，保重！ | 这是告别语，后面不接宾语，别说成 ✗ Take care of!；它比 Bye 多一份关心，对家人、朋友、同事都能用，邮件结尾也可以写 Take care,
+
+@diff: 「最近在忙什么？」——What have you been up to?
+@d_cn: 一段时间没见的家人、朋友，第一句关心：「最近在忙什么？」其实不是问你工作忙不忙，而是「这段时间你过得怎么样、都做了些什么」。
+@d_en: What have you been up to (lately)? — I've been really busy at work. / Not much.
+@d_why: 中文的「忙」几乎是万能寒暄，直译成 ✗ What are you busy with recently? 美国人会觉得你在追问「你到底在忙什么」，语气很怪。英文用 **be up to**（在做、在干）；前面的 **have been** 把时间范围定在「从上次见面到现在」，所以这句话天然带着「这段时间以来」的意思，不用再加 recently。回答也一样：不说 I'm busy.，而是说这段时间一直在做的事：**I've been** busy at work. / **I've been** learning to drive.；真没什么特别的，就说 **Not much.**，再反问 What about you?
+@d_when: 几天到几年没见的人：家人视频、老同学聚会、同事休假回来。昨天才见过的同事一般问 How was your weekend?（D11）
+@d_vs: **What have you been up to lately?** 你最近在忙什么？（这段时间）\n**What are you up to this weekend?** 你这周末干嘛？（接下来）\n**— I've been really busy at work.** 我最近工作特别忙。\n**— Not much. What about you?** 没忙啥，你呢？\n✗ What are you busy with recently?
+@d_task: 你两个月没见 Kevin 了，问他最近在忙什么；他回答「没忙啥，就是加了很多班」。 | What have you been up to lately? — Not much. I've been working a lot.
+@diff: 「最近」——lately / recently / these days
+@d_cn: 中文一个「最近」全包了：最近发生的一件事、最近一直在做的事、如今的生活常态。
+@d_en: I've been really busy lately. / I recently met an old friend. / These days, Dad cooks every day.
+@d_why: 英文按时间范围分开说。**lately** 说「从前一阵一直到现在」的持续情况，配现在完成时：I've been busy lately.；**recently** 也能这样用，还能说「不久前发生的某一件事」，这时用过去时：I recently moved.（D29）；**these days** 说「如今、现在这段日子的常态」，最常配一般现在时：These days, Grandma dances every evening.（Day 52 会再用到）。中文动词不变，所以中国人常说 ✗ Recently I am very busy.——英文的动词要跟着「最近」的意思变。
+@d_when: 说最近一直怎样、一直在做什么 → lately + have been；说前不久的一件事 → recently + 过去时；说如今的习惯 → these days + 一般现在时（主语是第三人称别忘了 -s）。
+@d_vs: **I've been really busy lately.** 我最近一直很忙。（持续到现在）\n**I recently met an old friend.** 我前不久见了个老朋友。（一件事）\n**These days, Dad cooks every day.** 如今我爸天天做饭。（现在的常态）\n✗ Recently I am very busy.
+@d_task: 用英文说：① 我最近一直在学做饭。② 如今我奶奶每天晚上都跳舞。 | ① I've been learning to cook lately. ② These days, my grandma dances every evening.
+@diff: 「照顾」take care of；「保重」Take care.
+@d_cn: 「照顾好自己」「照顾老人和孩子」；分别时说一句「保重」。
+@d_en: Take care of yourself. / My aunt takes care of Grandpa. / Take care, Mom.
+@d_why: 中文「照顾」是一个动词，后面直接跟人；英文 care 本身是「在乎」，要表示「照顾」得说 **take care of + 人 / 事**，of 不能丢。把 of 去掉的 **Take care.** 是一句固定的告别语，意思是「保重」，后面什么都不接。所以叮嘱人用 Take care of yourself.，挂电话用 Take care.——✗ Take care yourself. 正好卡在两者中间，是最常见的错。take care of 还能说「处理事情」：I'll take care of it.（这事交给我），在办公室特别常用。
+@d_when: 叮嘱家人朋友、说谁照顾谁 → take care of；接手一件工作 → I'll take care of it.；挂电话、分别、邮件结尾 → Take care.
+@d_vs: **Take care of yourself.** 照顾好自己。\n**My aunt takes care of Grandpa.** 我姑姑照顾我爷爷。（第三人称 takes）\n**I'll take care of it.** 这事交给我。\n**Take care, Mom.** 保重，妈。（告别）\n✗ Take care yourself. ✗ My aunt cares Grandpa.
+@d_task: ① 张涛问谁来回复新客户，你说「这个客户交给我」。② 和外婆视频结束时说「外婆，保重」。 | ① I'll take care of the new client. ② Take care, Grandma.
+@diff: 「我想你了」——I miss you.
+@d_cn: 想念一个人，而且此刻心里正想着。
+@d_en: I miss you. / We miss you, too. / I miss home.
+@d_why: 中文「想你了」带个「了」，很多人就以为要用过去时 ✗ I missed you.。其实这个「了」表示心里的状态（D8 讲过「了 ≠ 过去式」），想念是**现在**的心情，英文用一般现在时 **I miss you.**。I missed you. 是**见面的时候**说的：「分开的那段时间我很想你」。另外，中文「想」有两个意思——「认为、考虑」是 think，「想念」是 **miss**，✗ I think you. 意思完全不通。
+@d_when: 视频、电话、短信结尾表达想念 → I miss you.；终于见到面 → I missed you!；想家、想吃家里的菜 → I miss home. / I miss Mom's cooking.
+@d_vs: **I miss you.** 我想你了。（现在的心情）\n**I missed you!** 我好想你啊！（见面时，说分开那段时间）\n**I miss my mom's cooking.** 我想我妈做的菜。\n✗ I think you. ✗ I'm very miss you.
+@d_task: ① 林晓在车站见到妈妈，想说「好久不见，好想你啊！」② 视频结束时想说「我想你，也想你做的菜」。 | ① Long time no see! I missed you! ② I miss you and your cooking.
+
+@core: What have you been up to lately? | 很久没见的家人、朋友寒暄 | lately / this month / since the summer | 正式：How have things been with you lately?｜随意：What've you been up to?
+@core: I've been really busy + at work / with… lately. | 回答近况：说一段时间以来的状态 | busy at work / tired / learning to drive | 正式：Things have been quite busy at work lately.｜随意：Super busy lately!
+@core: Not much. I've just been + -ing. | 没忙什么特别的事，但还是给一个细节 | working / resting at home / practicing English | 正式：Nothing special, really. I've mostly been working.｜随意：Not much. You?
+@core: 人 + has just + 过去分词. | 说身边刚发生的一件大事 | retired / moved to Guangzhou / got a new job | 正式：My father has recently retired.｜随意：Dad just retired!
+@core: 人 + has been + -ing + every evening. | 说一个人最近一直在做的事 | dancing / cooking dinner / walking in the park | 正式：She has been attending dance classes regularly.｜随意：She's been dancing every night!
+@core: Take care of yourself. | 叮嘱家人、朋友照顾好自己 | yourself / Grandma / the kids | 正式：Please look after your health.｜随意：Don't work too hard, OK?
+@core: Take care. I miss you. | 视频、电话结尾告别 | Take care, Mom. / I miss you guys. / Talk soon. | 正式：Please take care. I hope to see you soon.｜随意：Take care! Miss you!
+@core: Let's catch up soon. | 约很久没见的朋友聊聊 | soon / over coffee / this weekend | 正式：It would be lovely to catch up sometime.｜随意：We should catch up!
+
+@pw: lately | ˈleɪtli | 2 个音节 LATE·ly | t 后面紧跟 l，舌尖顶住上牙床停一下就直接发 l，不读成「雷特利」
+@pw: housework | ˈhaʊswɜːrk | 2 个音节 HOUSE·work | 重音在 house；work 卷舌读 `/wɜːrk/`，和 walk `/wɔːk/` 分开
+@pw: nephew | ˈnefjuː | 2 个音节 NEPH·ew | ph 读 `/f/`；ew 读 `/juː/`，像「纽」的韵母
+@pw: relatives | ˈrelətɪvz | 3 个音节 REL·a·tives | 重音在第一个音节；中间 a 弱读成 `/ə/`；结尾 v 上牙轻碰下唇，再带出 z
+@pw: festival | ˈfestəvl | 3 个音节 FES·ti·val | 重音在前；ti 弱读，val 只剩 `/vl/`
+@pw: aunt | ænt | 1 个音节 | 美式嘴巴张大读 `/æ/`，和 ant 同音；不读「阿恩特」
+@pw: cousin | ˈkʌzn | 2 个音节 COU·sin | ou 读短促的 `/ʌ/`；s 读 `/z/`；sin 几乎没有元音，像 cuz-n
+@ps: **What** have you been **up** to / **late**ly? | have 弱读成 `/əv/`，you 弱读成 `/jə/`，been 弱读成 `/bɪn/`：what-əv-yə-bin-UP-to；在句末或停顿前的 to 不弱读，读完整的 `/tuː/`。
+@ps: I've been **real**ly **bu**sy‿at **work**. | I've 的 v 很轻，been 读 `/bɪn/`；busy at 连成 bu-zy-at；重音落在 really、busy、work 三个实词上。
+@ps: Your **dad** has just re**tired**. | has 弱读成 `/əz/`，挂在 dad 后面像 dad-əz；just 的 t 在 retired 前几乎听不到：jus-re-TIRED。
+@ps: **Grand**ma has been **dan**cing‿in the **square** / **ev**ery **eve**ning. | 口语里 Grandma has been 常缩成 Grandma's been `/ˈgrænmɑːz bɪn/`，has 只剩一个 `/z/`；dancing in 连读成 dan-sing-in。
+@pnote: 书面 vs 口语：书上写 I have been / She has been / What have you been up to，美国人说出来是 I've been `/aɪv bɪn/`、She's been `/ʃiːz bɪn/`、What've you been `/ˈwʌtəv jə bɪn/`；been 几乎总是弱读成 `/bɪn/`，不读 bean `/biːn/`。听到 she's 时看后面：she's been = she has been，she's healthy = she is healthy。
+@pnote: have 和 of 弱读后都是 `/əv/`：What **have** you been… 和 Take care **of** yourself 里那个小小的 `/əv/` 听起来一模一样，要靠前后文判断。所以 Take care 和 Take care of 的区别就在这一个弱音上：care 后面还有 `/əv/`，后面一定跟着人或事。
+@lfocus: What have you been 连成一串 /ˈwʌtəvjəbɪn/，句末 up to 读清楚
+@lfocus: has 弱读成 /əz/：Your dad has just retired；Grandma has been dancing
+@lfocus: Take care 和 Take care of：care 后面有没有 /əv/
+@dict: S10–S12
+@dict: S21–S22
+@res: 在 youglish.com 输入 "what have you been up to"，选 US，听美国人在真实对话里怎么把 have you been 连读、弱读。
+
+@mimic: 跟读【C】S3–S23：先用正常语速逐句跟读，重点模仿 What have you been up to 的连读、has / have 的弱读和 Take care, Mom. 的语调；再由你演林晓、手机朗读妈妈的台词，完整对一遍并录音。
+@swap: What have you been up to lately? — I've been really busy at work. | 换回答：learning to drive / practicing English every day / working late | What have you been up to lately? — I've been practicing English every day.
+@swap: Your dad has just retired. | 换人和事：my cousin / started a new job；my aunt / moved to Guangzhou | My cousin has just started a new job.
+@swap: Grandma has been dancing in the square every evening. | 换人和活动：Dad / cooking dinner；my uncle / walking in the park | Dad has been cooking dinner every evening.
+@swap: Take care, Mom. I miss you. | 换对象：Grandma / Mei；再加一句细节：I miss your cooking. | Take care, Grandma. I miss you and your dumplings.
+@free: 两个月没联系的大学同学打来视频，问你最近在忙什么（你在新公司上班，工作挺忙，但很喜欢）。 | I've been really busy at work. I started a new job last month, and I really like it. What about you?
+@free: Emma 问你家里人最近怎么样（你爸刚退休，现在天天做饭）。 | My dad has just retired. Now he cooks every day, and my mom says his food is better than hers!
+@free: 妈妈问：Don't you feel lonely in Shenzhen?（你不孤单，同事都很好，周末还常和小梅见面） | No, I don't. My coworkers are really nice, and I often see Mei on weekends.
+@free: 和外婆视频快结束了，你想说「外婆照顾好自己，我想您了，春节见」。 | Take care of yourself, Grandma. I miss you. See you at the Spring Festival!
+@output: 录 1.5 分钟「我和家人的周日视频」（或写 8–10 句）：寒暄（Long time no see / What have you been up to lately?）→ 你最近在忙什么（I've been… lately）→ 家里刚发生的一件事（has just…）→ 一位家人最近一直在做的事（has been -ing）→ 亲戚和节日安排 → 用 Take care / I miss you 结束。
+@output_sample: Every Sunday, I have a video call with my family. Last night, my mom said, "Long time no see!" Then she asked, "What have you been up to lately?" I told her I've been really busy at work. I've also been practicing English every day, and I caught up with an old friend yesterday. Then Mom told me some big news: my dad has just retired! Now he does most of the housework, and he grows vegetables in the garden. My grandma is very healthy. She's been dancing in the square every evening with her friends. My aunt and uncle came over last week, and my little nephew keeps asking about me. I'm going home for the Spring Festival, so I'll see all my relatives then. At the end of the call, I said, "Take care, Mom. I miss you."
+
+@check: 林晓说 Mom, it's only been two weeks!，妈妈为什么还说 Long time no see？这句话可以对客户说吗？ | 妈妈是在开玩笑：对她来说两周没见就很久了。Long time no see 是熟人之间的随意说法；对客户或在正式场合说 It's great to see you again.
+@check: 同事问 What have you been up to lately?，你最近一直在学做饭。怎么回答？能说 I'm busy with cooking recently. 吗？ | I've been learning to cook lately.（或 Not much. I've just been learning to cook.）不能那样说：「最近一直在做」要用现在完成时，不用 I'm busy with… recently。
+@check: 林晓问 Doesn't he feel lonely at home?，妈妈答 No, he doesn't.。爸爸孤单还是不孤单？如果他其实有点孤单，妈妈该怎么说？ | 不孤单。如果孤单，要按事实说 Yes, he does. A little.——不管问句是不是否定的，「孤单」就用 Yes（D13、D29）。
+@check: 「我姑姑照顾我爷爷」和「这件事交给我吧」怎么说？ | My aunt takes care of my grandpa.（第三人称 takes，of 不能丢）／I'll take care of it.
+@check: 和朋友视频快挂断时，你说 I missed you.，合适吗？为什么？ | 不太合适。视频时说现在的心情用 I miss you.；I missed you. 是见面时说「分开那段时间我很想你」。
+@next1: 不看书说出 S5、S6、S10、S13、S22（锚点句）
+@next1: 用 What have you been up to lately? 问两个人，再分别用 I've been… lately. 替他们回答
+@next1: 看中文说出 8 个亲属词：妈、爸、奶奶、爷爷、姑姑、叔叔、表妹、外甥
+@next7: lately / recently / these days 的区别，各说一句关于你自己的话
+@next7: take care of（照顾、处理）和 Take care.（保重）各说两句

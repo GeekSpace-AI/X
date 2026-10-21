@@ -1,0 +1,157 @@
+@day: 49
+@week: 3
+@title_cn: 退换货
+@title_en: Returning Something
+@topic: 网购衣服不合身：联系客服、到门店换货、缺货、改主意退货
+@think_short: 「不合身」doesn't fit ≠ doesn't suit｜「退 / 换」return / send it back / exchange it for｜「试穿」try it on｜「缺货」out of stock
+
+@goal_scene: 网购的外套太紧：先在网上问客服能不能退，再去门店换大一号；没货时听懂店员的话，改主意、把货退掉。
+@goal_expr: The jacket doesn't fit. It's too tight. / Can I try it on? / Can I send it back? / Can I exchange it for a larger size? / Sorry, the large is out of stock. / I changed my mind. I'd like to return it.
+@goal_vocab: 20 个重点词 + 5 个短语：衣服鞋子、尺码与松紧、网购评价、退换货规则
+@done: 能用 2–3 句话说清楚一件衣服哪里不合身：doesn't fit / too tight / a little loose / the sleeves are too short
+@done: 能分清 fit（尺码）和 suit（好不好看），并且说出 try it on、send it back、exchange it for 的正确语序
+@done: 能在店里完成一次完整的换货 / 退货对话：问尺码、听懂 out of stock、改主意、要求退货
+
+@warmup: 我想开个户。 | I'd like to open an account. | D48
+@warmup: 请填一下这张表。 | Please fill out this form. | D48
+@warmup: 国际汇款的手续费是多少？ | How much is the fee for an international transfer? | D48
+@warmup: 我想取两千块钱。 | I want to take out two thousand yuan. | D48
+@warmup: 包水电吗？ | Are utilities included? | D45
+@warmup: 有位客户说包裹没到。 | A customer says the package didn't arrive. | D28
+
+@scene: 周五晚上，林晓网购的外套终于到了。这件外套评分 4.9、有两千多条好评，她照着平时的尺码下单了 M 码，结果一试，紧得胳膊都抬不起来，袖子也短。她先在网店上找客服，问能不能寄回去；客服说也可以去门店换货，但要保留吊牌和原包装。周六，她带着外套和小票去了商场里的品牌门店，想换大一号……
+@sp: 人物关系 | 林晓 ↔ 网店客服、门店店员：陌生的服务人员，礼貌客气即可，不用寒暄太多
+@sp: 沟通目的 | 说清楚衣服哪里不合身；先问能不能退、能不能换；没货时做决定，最后把钱拿回来
+@sp: 已知信息 | 客服能看到订单，但不知道哪里不合适；店员知道库存，但不知道林晓要什么尺码、想换还是想退
+@sp: 表达重点 | 不合身（doesn't fit / too tight）→ 能寄回吗（send it back）→ 能换大一号吗（exchange it for）→ 听懂缺货（out of stock）→ 改主意、退货（changed my mind / return it）
+
+@story_title: Episode 49 · It Doesn't Fit
+@story_type: 叙述 + 网店客服聊天 + 门店对话
+@s: Last week, Lily bought a **jacket** online. | 上周，林晓在网上买了一件外套。
+@s: It had a 4.9 **rating** and over two thousand **reviews**. | 它评分 4.9，有两千多条评价。
+@s: On Friday evening, it finally arrived, and she **tried it on** right away. | 周五晚上，外套终于到了，她马上就试穿了一下。
+@s: Lily: Oh no. The jacket doesn't **fit**. It's too **tight**. | 林晓：糟了，这件外套不合身，太紧了。
+@s: Lily: I can't even move my arms! | 林晓：胳膊都抬不起来！
+@s: The **sleeves** were too short, too. | 袖子也太短了。
+@s: She always wears a **medium**, but in this **style**, she needs a **large**. | 她一直穿 M 码，可这个款她得穿 L 码。
+@br:
+@s: She sent a message to the online **store**. | 她给网店发了一条消息。
+@s: Lily: Hi, my jacket is too small. Can I **send it back**? | 林晓：你好，我的外套太小了，可以寄回去吗？
+@s: Support: Of course. Or you can **exchange** it at any of our stores. | 客服：当然可以。您也可以去我们任何一家门店换货。
+@s: Support: Please keep the **tags** and the **original** packaging. | 客服：请保留吊牌和原包装。
+@s: Support: The jacket needs to be in new **condition**. | 客服：外套需要保持全新的状态。
+@br:
+@s: On Saturday, Lily went to their store at the mall. | 周六，林晓去了商场里的品牌门店。
+@s: She brought the jacket in a paper **bag**, with the **receipt**. | 她把外套装在纸袋里，还带上了小票。
+@s: Lily: Hi. Can I **exchange it for** a larger size? | 林晓：你好，我能把它换成大一号的吗？
+@s: Clerk: Let me check… Sorry, the large is **out of stock**. | 店员：我查一下……抱歉，L 码缺货了。
+@s: Clerk: But this one is a **loose** style. A medium is fine. | 店员：不过这一款是宽松版型，穿 M 码就够了。
+@s: Lily tried it on, but she didn't like the color. | 林晓试穿了一下，可她不喜欢那个颜色。
+@s: Clerk: How about this **shirt**? Or these **pants**? They're thirty percent off. | 店员：那这件衬衫呢？或者这条裤子？现在打七折。
+@s: Lily: Thanks, but I **changed my mind**. I'd like to return it. | 林晓：谢谢，不过我改主意了，我想退货。
+@s: Clerk: No problem. You'll get your money back in three days. | 店员：没问题，三天之内钱就退回去了。
+@s: Lily smiled. Now she had money for the running **shoes** she wanted! | 林晓笑了：这下有钱买她一直想要的那双跑鞋了！
+
+@v: jacket | = | n. | ˈdʒækɪt | 外套；夹克（较短的上衣外套） | 买衣服、天气转凉、办公室空调太冷 | a light jacket；a denim jacket；put on a jacket | Bring a jacket. It's cold in the meeting room. | 带件外套吧，会议室里挺冷的。 | 中文「外套」范围很大；英文 jacket 指到腰或臀部的短外套，长到膝盖的大衣叫 coat；西装上衣也叫 jacket（a suit jacket）。
+@v: rating | = | n. | ˈreɪtɪŋ | 评分；（几颗星的）打分 | 网购、App、餐厅的星级评分 | a 4.9 rating；a high / low rating；a five-star rating | This restaurant has a really high rating. | 这家餐厅评分特别高。 | 「评分 4.9」说 a 4.9 rating 或 It's rated 4.9.，不说 ✗ The score is 4.9.（score 多指考试、比赛的得分）。
+@v: reviews | review | n. | rɪˈvjuːz | （顾客写的）评价；评论 | 网购前看评价、买完写评价 | read the reviews；good / bad reviews；leave a review | I always read the reviews before I buy something. | 我买东西之前总要先看评价。 | 「好评 / 差评」说 good / bad reviews，不说 ✗ good comments；「给个好评」说 leave a good review；review 作动词还有「复习、检查」的意思。
+@v: tried it on | try on | phr. | ˌtraɪd ɪt ˈɑːn | 试穿（一下） | 买衣服、鞋之前，或网购到货后穿上看看 | try it on；try on a jacket；try these shoes on | Can I try these jeans on? | 这条牛仔裤我能试一下吗？ | 代词必须夹在中间：try it on / try them on，✗ try on it；名词放两边都行：try on the jacket / try the jacket on。
+@v: fit | = | v. | fɪt | （尺寸）合身；大小合适 | 说衣服、鞋的尺码对不对 | It doesn't fit.；fit well；fit perfectly | These shoes fit perfectly. | 这双鞋穿着正合脚。 | fit 只管「尺寸」；说颜色、款式适不适合你（好不好看）用 suit 或 look good on：It doesn't suit me.；✗ It isn't suitable for me. 是「不适合（某种场合、用途）」。
+@v: tight | = | adj. | taɪt | 紧的；（衣服）瘦小、勒得慌 | 衣服、鞋太紧；时间、预算很紧 | too tight；a little tight；a tight schedule | My schedule is really tight this week. | 我这周的日程排得特别紧。 | 衣服「紧、瘦」用 tight，不说 ✗ narrow（narrow 说路、门窄）；tight 也能说时间、钱紧：a tight budget。
+@v: sleeves | sleeve | n. | sliːvz | 袖子 | 买衣服说袖子长短、挽袖子 | long / short sleeves；roll up your sleeves；the left sleeve | I like shirts with short sleeves in summer. | 夏天我喜欢穿短袖衬衫。 | 「一件短袖」说 a short-sleeved shirt 或 a T-shirt，不说 ✗ a short sleeve；结尾的 v 要轻轻咬唇发出来，别读成 sleep。
+@v: medium | = | n./adj. | ˈmiːdiəm | 中号；M 码 | 买衣服、点饮料时选大小 | a medium；size medium；a medium coffee | I'll have a medium latte, please. | 请给我一杯中杯拿铁。 | 美国人说尺码，直接把 small / medium / large 当名词：I wear a medium.，不说 ✗ I wear M size.；点饮料也一样：a medium coffee。
+@v: style | = | n. | staɪl | 款式；风格 | 买衣服挑款式、说一个人的穿衣或做事风格 | this style；a different style；in style | I like your style. Where did you get that jacket? | 我喜欢你的穿衣风格，那件外套在哪儿买的？ | 衣服的「款」就是 style，不说 ✗ model（那是车、手机的「型号」，或者「模特」）；「这款偏小」可以说 This style runs small.
+@v: large | = | n./adj. | lɑːrdʒ | 大号；L 码；大的 | 买衣服、饮料选尺寸；说数量大 | a large；size large；a large order | Do you have this in a large? | 这件有 L 码吗？ | 说尺寸、数量时 large 比 big 更常用：a large size、a large order；「大一号」说 a size up 或 one size larger。
+@v: store | = | n. | stɔːr | 商店；（品牌）门店 | 美国人日常说「店」 | an online store；a clothing store；go to the store | Is there a grocery store near your apartment? | 你家附近有超市吗？ | 美式「商店」多说 store，英式多说 shop；「网店」= online store；「到店里」说 in the store / in store。
+@v: send it back | send back | phr. | ˌsend ɪt ˈbæk | 寄回去；退回 | 网购退货、退回寄错的东西 | send it back；send back an order；send sth back to… | The color was wrong, so I sent it back. | 颜色不对，我就寄回去了。 | 代词放中间：send it back，✗ send back it；网购寄回去常说 send it back，到店里当面退说 return it。
+@v: exchange | = | v./n. | ɪksˈtʃeɪndʒ | 换货；交换 | 商店里换尺码、换颜色 | exchange it；make an exchange；exchange gifts | You can exchange it within thirty days. | 三十天内可以换货。 | 「换货」不说 ✗ change goods；店员问 Exchange or refund? 是「换货还是退款？」；「换零钱」说 get change，不用 exchange；换外币才用 exchange（Day 48 的 exchange rate）。
+@v: tags | tag | n. | tægz | 吊牌；标签 | 退换货要保留吊牌；价签、名牌、行李牌 | keep the tags；a price tag；a name tag | Don't cut off the tags before you try it on. | 试穿之前别把吊牌剪掉。 | 衣服上挂的「吊牌」是 tag，「价签」是 price tag；贴在箱子上的标签、面单是 label（第一册学过）。g 是浊音，别读成 tack。
+@v: original | = | adj. | əˈrɪdʒənl | 原来的；原始的 | 原包装、原价、原计划 | the original packaging；the original price；the original plan | The original price was five hundred yuan. | 原价是五百块。 | 「原包装」「原价」「原计划」都用 original；重音在第二个音节 o·RIG·i·nal，不要重读开头的 o。
+@v: condition | = | n. | kənˈdɪʃn | 状态；状况 | 退货要求、二手东西的新旧程度 | in new condition；in good condition；in bad condition | The bike is old, but it's in good condition. | 车子旧了，但状况还不错。 | 「状态完好」用介词 in：in good condition，✗ with good condition；复数 conditions 常指「条件、环境」：working conditions。
+@v: bag | = | n. | bæg | 袋子；包 | 购物袋、包装袋、手提包 | a paper bag；a plastic bag；a shopping bag | Do you need a bag? | 您需要袋子吗？ | 中文「包」和「袋子」英文都可以是 bag；双肩包是 backpack（Day 39）。a 读 `/æ/`，嘴要张大，别读成 beg（乞求）。
+@v: receipt | = | n. | rɪˈsiːt | 小票；收据 | 退换货、报销、付款以后 | keep the receipt；a receipt for…；Can I get a receipt? | Can I get a receipt, please? | 能给我一张小票吗？ | p 不发音！读 `/rɪˈsiːt/`；退换货、报销时美国人说的都是 receipt；「给你开张收据」说 I'll give you a receipt.
+@v: exchange it for | = | phr. | ɪksˈtʃeɪndʒ ɪt fər | 把它换成…… | 换尺码、换颜色、换款式 | exchange it for a larger size；exchange A for B；exchange it for a medium | Can I exchange this for a different color? | 这个能换成别的颜色吗？ | 「换成」要用 for：exchange it for a large；✗ exchange it to a large，✗ change it to large。
+@v: out of stock | = | phr. | ˌaʊt əv ˈstɑːk | 缺货；没有库存 | 店里或网上暂时没有某个商品、某个尺码 | out of stock；back in stock；almost out of stock | Sorry, that phone is out of stock right now. | 抱歉，那款手机现在缺货。 | 反义是 in stock（有货）；「又有货了」说 It's back in stock.；sold out 是「卖光了」，out of stock 只说「暂时没货」。
+@v: loose | = | adj. | luːs | 宽松的；松的 | 衣服宽松、鞋子松、螺丝松了 | a loose style；a little loose；loose pants | These pants are a little loose. Do you have a smaller size? | 这条裤子有点松，有小一号的吗？ | 别和 lose（丢失）混：loose `/luːs/` 结尾是清音 s，lose `/luːz/` 结尾是浊音 z；✗ These pants are too lose.
+@v: shirt | = | n. | ʃɜːrt | 衬衫 | 买衣服、上班穿着 | a white shirt；a long-sleeved shirt；a T-shirt | He always wears a shirt and tie to client meetings. | 他见客户总是穿衬衫打领带。 | 中文「衬衫」= shirt（有领、有扣子）；圆领套头的是 T-shirt；ir 读卷舌的 `/ɜːr/`，不读成「舍特」。
+@v: pants | = | n. | pænts | 裤子（美式） | 买衣服、说穿着 | a pair of pants；long pants；work pants | I need a new pair of pants for work. | 我需要一条上班穿的新裤子。 | 美式 pants = 裤子；英式 pants 是「内裤」，英式「裤子」说 trousers。永远用复数：These pants are…；「一条裤子」= a pair of pants，✗ a pant。
+@v: changed my mind | change one's mind | phr. | ˌtʃeɪndʒd maɪ ˈmaɪnd | 改主意；改变想法 | 原来打算做 A，后来不想了 | change my mind；change your mind；I've changed my mind. | Call me if you change your mind. | 你要是改主意了，就给我打电话。 | mind 前面的物主代词要跟主语一致：I changed **my** mind / She changed **her** mind；✗ I changed my idea.
+@v: shoes | = | n. | ʃuːz | 鞋 | 买鞋、说穿着 | running shoes；a pair of shoes；take off your shoes | Please take off your shoes at the door. | 进门请脱鞋。 | 一般用复数：These shoes fit.；「一双鞋」= a pair of shoes；「鞋码」说 shoe size：What's your shoe size?
+
+@diff: 「不合身」——It doesn't fit.（不说 It isn't suitable.）
+@d_cn: 衣服、鞋子的大小、长短、松紧不对：穿不上、太紧、太松、太短。
+@d_en: It doesn't fit. / It's too tight. / It's a little loose. / It doesn't suit me.（不好看）
+@d_why: 中文一个「不合适」管两件事：尺码不合适，或者款式、颜色不适合你。英文分得很清楚：**fit** 只说**尺寸**——大小、长短、松紧；**suit**（或 look good on）说的是**好不好看、配不配你**。很多人查词典把「合适」换成 suitable，说 ✗ It isn't suitable.，美国人会以为你在说「它不适合某个场合或用途」，比如不适合穿去面试。所以试完衣服，尺码问题先说 It doesn't fit.，再补一句具体哪里不对：It's too tight. / The sleeves are too short.
+@d_when: 尺码问题 → doesn't fit / too tight / too loose；颜色、款式不衬你 → doesn't suit me / doesn't look good on me；场合不合适 → not suitable for…（不常用在衣服尺码上）。
+@d_vs: **The jacket doesn't fit. It's too tight.** 外套不合身，太紧了。（尺寸）\n**This color doesn't suit me.** / **It doesn't look good on me.** 这个颜色不适合我。（好不好看）\n**Jeans aren't suitable for a job interview.** 牛仔裤不适合穿去面试。（场合）\n✗ The size isn't suitable for me.
+@d_task: 用英文说：① 这双鞋不合脚，太紧了。② 这件衬衫的颜色不适合我。 | ① These shoes don't fit. They're too tight. ② The color of this shirt doesn't suit me.（或 This shirt doesn't look good on me.）
+@diff: 「退货」「换货」——return / send it back；exchange it for…
+@d_cn: 「退」= 把东西还回去、把钱拿回来；「换」= 把东西还回去，换一件别的。
+@d_en: I'd like to return it. / Can I send it back? / Can I exchange it for a larger size?
+@d_why: 中文「退货」「换货」是固定的名词说法；英文日常直接用动词，而且宾语要说出来：return **it** / return **this jacket**，不说 ✗ I want to return goods.（像外贸单据）。「换成……」一定要带 **for**：exchange A **for** B；中国学生最容易说 ✗ change it to a large。另外分清两个动作：网购寄回去常说 **send it back**；到店里当面退说 **return it**；return 只是「把东西退回去」，退「钱」是 refund（第一册学过）。
+@d_when: 网上客服、门店、电话里处理不满意的商品：寄回 → send it back；当面退 → return it；换尺码、换颜色 → exchange it for…；要钱 → Can I get a refund?
+@d_vs: **I'd like to return this.** 我想退货。\n**Can I send it back?** 我能寄回去吗？（网购）\n**Can I exchange it for a large?** 能换成 L 码吗？\n**Can I get a refund?** 能退款吗？\n✗ I want to change it to large.
+@d_task: 网购的鞋太大，你想换小一号的。店员问 Do you want a refund?，你说不要退款，只想换。 | No, thanks. Can I exchange them for a smaller size?
+@diff: 「试穿」——try it on
+@d_cn: 买衣服、鞋之前先穿上看看合不合适。
+@d_en: Can I try it on? / I tried it on at home. / Would you like to try it on?
+@d_why: 中文有「试穿」「试戴」「试鞋」好几个说法；英文统一用 **try on**——try 是「试」，on 是「穿到身上」。只说 Can I try it? 意思不清楚，在店里可能被理解成「试用、试吃」。最容易错的是语序：宾语是 it / them 这种代词时，必须放在 try 和 on **中间**：try **it** on，✗ try on it；宾语是名词时两种都行：try on the jacket / try the jacket on。send it back、pick it up 也是同样的规则。
+@d_when: 服装店、鞋店；店员常问 Would you like to try it on?；网购到货后说 I tried it on at home.
+@d_vs: **Can I try it on?** 我能试穿吗？\n**Can I try on these shoes?** / **Can I try these shoes on?** 名词两种位置都行\n✗ Can I try on it? → ✓ Can I try it on?\n**Can I try it?** 只说 try，像「试用 / 试吃」
+@d_task: 你在鞋店看中一双鞋，问店员能不能试穿；穿上以后告诉她「有点松」。 | Can I try them on? … They're a little loose.
+@diff: 「缺货 / 没货了」——out of stock
+@d_cn: 店里或网上暂时没有某个商品、某个尺码。
+@d_en: Sorry, the large is out of stock. / It's sold out. / Do you have this in a medium?
+@d_why: 「没货」直译成 ✗ There is no goods. 或 ✗ No stock. 都不自然。美国店员会说 **It's out of stock.**（暂时没库存，可能会补货）或 **It's sold out.**（卖光了）。还要注意尺码的说法：「L 码」在美国就叫 **the large / a large**，「M 码」叫 **a medium**——形容词直接当名词用；问「有没有 L 码」说 **Do you have this in a large?**，用介词 in。说 size L 别人也能懂，但没有 a large 自然。
+@d_when: 问店员、网店客服有没有货；看到网页上写 Out of stock；问什么时候补货。
+@d_vs: **Do you have this in a large?** 这件有 L 码吗？\n**Sorry, the large is out of stock.** 抱歉，L 码缺货。\n**It's back in stock.** 又有货了。\n✗ The large has no stock. ✗ There is no L size.
+@d_task: 你想问店员：「这件外套有 M 码吗？什么时候到货？」 | Do you have this jacket in a medium? When will it be back in stock?
+
+@core: It doesn't fit. It's too + 形容词. | 说衣服、鞋不合身，再说具体哪里不对 | tight / loose / short / long / small | 正式：Unfortunately, it doesn't fit. It's too tight.｜随意：Doesn't fit. Way too tight!
+@core: Can I try it on? | 问能不能试穿 | it / them / this jacket / these shoes | 正式：Would it be possible to try this on?｜随意：Mind if I try it on?
+@core: Do you have this in a + 尺码 / 颜色? | 问有没有别的尺码、颜色 | a large / a medium / black / a size 38 | 正式：Is this available in a large?｜随意：Got this in a large?
+@core: Can I exchange it for…? | 换货：换尺码、换颜色 | a larger size / a smaller size / a different color | 正式：I'd like to exchange this for a larger size, please.｜随意：Can I swap it for a large?
+@core: Can I send it back? / I'd like to return it. | 退货：网购寄回 / 到店退 | send it back / return it / get a refund | 正式：I'd like to return this item, please.｜随意：I'm gonna send it back.
+@core: Sorry, … is out of stock. | 听懂或告诉别人缺货 | the large / this color / this style | 正式：I'm afraid that size is currently out of stock.｜随意：We're all out of larges.
+@core: I changed my mind. | 改主意，说出新的决定 | I changed my mind. / I've changed my mind. | 正式：I've decided not to keep it.｜随意：Actually, never mind.
+
+@pw: receipt | rɪˈsiːt | 2 个音节 re·CEIPT | p 不发音！ceipt 读 `/siːt/`，和 seat 同音
+@pw: loose | luːs | 1 个音节 | 结尾是清音 `/s/`，像蛇的「嘶」；lose 结尾是浊音 `/z/`，声带要振动
+@pw: original | əˈrɪdʒənl | 4 个音节 o·RIG·i·nal | 重音在第二个音节；结尾 nal 弱读成 `/nl/`
+@pw: exchange | ɪksˈtʃeɪndʒ | 2 个音节 ex·CHANGE | 重音在后；x 读 `/ks/`，ch 读 `/tʃ/`，连起来是 iks-cheinj
+@pw: medium | ˈmiːdiəm | 3 个音节 ME·di·um | 重音在第一个音节，me 读长音 `/miː/`
+@pw: condition | kənˈdɪʃn | 3 个音节 con·DI·tion | 重音在中间；con 弱读成 `/kən/`，tion 读 `/ʃn/`
+@ps: The **jack**et doesn't **fit**. / It's too **tight**. | doesn't 在 fit 前只剩 `/ˈdʌzn/`，t 几乎听不到；fit 和 tight 结尾的 t 只做口型、不爆破。
+@ps: Can I ex**change**‿it for a **lar**ger **size**? ↗ | Can I 弱读成 `/kənaɪ/`；exchange it 连读成 ex-chan-jit；for 弱读成 `/fər/`。
+@ps: **Sor**ry, / the **large** is **out**‿of **stock**. | out of 连读，t 发成快速的闪音，像 ou-də-v；large is 连读成 lar-jiz。
+@ps: I **changed** my **mind**. / I'd **like** to re**turn**‿it. | I'd 的 d 很轻；to 弱读成 `/tə/`；return it 连读成 re-tur-nit。
+@pnote: 本课的弱读：to 读 `/tə/`（I'd like to return it），for 读 `/fər/`（exchange it for），can 读 `/kən/`（Can I…?），and 读 `/ən/`（tags and the original packaging）。正常语速下这些小词都很轻，听力时别指望听到完整的 `/tuː/` `/fɔːr/`。
+@pnote: 书面 vs 口语：I would like → **I'd like**，You will → **You'll**，It is → **It's**。店员说得快时，Do you want to try it on? 常常变成 **D'you wanna try it on?**——wanna = want to，听懂就行，自己说话、写消息仍然用 want to。
+@lfocus: doesn't fit / too tight 结尾的 t 几乎不出声
+@lfocus: 听到 a large / the medium 要马上反应过来是「尺码」
+@lfocus: exchange it for 连读成一串 ex-chan-ji-fer
+@dict: S9–S11
+@dict: S20–S21
+@res: 在 youglish.com 输入 "out of stock"，选 US，听美国人在店里、视频里怎么说缺货。
+
+@mimic: 跟读【C】S9–S12 和 S15–S22：先正常语速逐句跟读，重点模仿 doesn't fit 的尾音 t 和 exchange it for 的连读；再由你演林晓，手机朗读客服和店员的台词，完整对一遍并录音。
+@swap: The jacket doesn't fit. It's too tight. | 换衣物和问题：these shoes / these pants；loose / long / short | These pants don't fit. They're too long.
+@swap: Can I exchange it for a larger size? | 换成你要的：a smaller size / a different color / a medium | Can I exchange it for a different color?
+@swap: Do you have this in a large? | 换尺码和颜色：a medium / black / a size 38 | Do you have these shoes in a size 38?
+@swap: I changed my mind. I'd like to return it. | 换成别的决定：I'll keep it / I'd like a refund / I'll take the black one | I changed my mind. I'll take the black one.
+@free: 网购的鞋到了，太紧，你在线上问客服能不能寄回去。 | Hi. The shoes I ordered are too tight. Can I send them back?
+@free: 店员问 How does it fit?（衣服有点松，你想要小一号的） | It's a little loose. Do you have it in a smaller size?
+@free: 店员说 Sorry, the medium is out of stock.（你想问什么时候有货、能不能网上订） | Oh, that's too bad. When will it be back in stock? Can I order it online?
+@free: 朋友问你为什么把新买的衬衫退了（颜色不适合你，而且袖子太长）。 | The color didn't suit me, and the sleeves were too long. So I changed my mind and returned it.
+@output: 录 1.5 分钟语音（或写 8–10 句话）「我的一次退换货」：买了什么、在哪儿买的（看了评分和评价吗）→ 哪里不合身（doesn't fit / too tight / loose）→ 怎么联系客服、对方有什么要求（tags / receipt / original packaging）→ 想换成什么（exchange it for…）、结果怎样（out of stock?）→ 最后退了还是留下了，为什么。
+@output_sample: Last month, I bought a pair of running shoes online. They had a 4.8 rating and lots of good reviews. When they arrived, I tried them on right away, but they didn't fit. They were too tight in the front. I sent a message to customer service. They said I could exchange them at a store, but I had to keep the tags and the original box. So on Saturday, I took them to a store near my office with the receipt. I asked, "Can I exchange them for a larger size?" Sadly, the larger size was out of stock. The clerk showed me a different style, but it didn't suit me. In the end, I changed my mind and returned them. I got my money back three days later.
+
+@check: The jacket doesn't fit. 和 The jacket doesn't suit me. 有什么不同？ | doesn't fit = 尺码不合适（太紧、太松、太短）；doesn't suit me = 颜色、款式不适合我（不好看）。
+@check: 「我能试穿一下吗？」怎么说？为什么不能说 Can I try on it? | Can I try it on? 宾语是 it / them 这类代词时，要放在 try 和 on 中间。
+@check: 店员说 Sorry, the large is out of stock. 是什么意思？the large 指什么？ | 抱歉，L 码暂时没货了。the large = 大号（L 码），美国人直接把 small / medium / large 当名词用。
+@check: 你想把外套换成黑色的，怎么跟店员说？如果你想直接退货呢？ | Can I exchange it for a black one? ／ I'd like to return it.（网购寄回去：Can I send it back?）
+@check: loose 和 lose 的读音、意思有什么不同？ | loose `/luːs/` 宽松的；lose `/luːz/` 丢失、输。✓ These pants are too loose.
+@next1: 不看书说出 S4、S11、S15、S16、S20（锚点句）
+@next1: 用 doesn't fit / too tight / a little loose 描述你今天穿的一件衣服或一双鞋
+@next7: fit 和 suit 各造一句，说出区别
+@next7: 退换货四句：Can I try it on? / Can I exchange it for…? / Is it out of stock? / I'd like to return it.

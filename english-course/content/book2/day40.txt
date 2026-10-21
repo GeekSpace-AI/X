@@ -1,0 +1,161 @@
+@day: 40
+@week: 2
+@title_cn: 然后呢
+@title_en: What Happened Next?
+@topic: 听同事讲一件突发事故：追问后续、讲清先后顺序、说出结果
+@think_short: 「后来」then / later / afterward｜「然后呢？」What happened next?｜「结果……」ended up -ing｜「总算……」managed to
+
+@goal_scene: 午饭时，同事讲他入职第一天机房漏水的经历。你要不停追问「然后呢？」「那你怎么办的？」，让他讲下去；轮到你讲自己的经历时，要按顺序说出先做了什么、后来怎样、结果如何。
+@goal_expr: What happened next? / And then? / So what did you do? / First of all, … Then … / … later, … / Luckily, I managed to… / We ended up -ing. / Afterward, …
+@goal_vocab: 20 个重点词 + 5 个短语：漏水与应急、讲故事的顺序词、结果和反应
+@done: 听别人讲经历时，能用至少 3 种说法追问（What happened next? / And then? / So what did you do?），不再只说 Oh. 或 ✗ Then?
+@done: 能用 First of all → Then → … later → Afterward 讲清一件事的先后顺序，不说 ✗ After, …
+@done: 能用 managed to 说「好不容易做成了」，用 ended up -ing 说「结果却……」，各说出一句自己的真实经历
+
+@warmup: 我把背包落在地铁上了。 | I left my backpack on the subway. | D39
+@warmup: 我在打电话的时候，把它放在了座位上。 | While I was talking on the phone, I put it on the seat. | D39
+@warmup: 它长什么样？ | What does it look like? | D39
+@warmup: 有人今天早上把它交上来了。 | Someone handed it in this morning. | D39
+@warmup: 你最近在忙什么？ | What have you been up to lately? | D35
+@warmup: 吴佳帮我看了一遍，然后我就发出去了。 | Grace checked it, and then I sent it. | D8
+
+@scene: 周四中午，林晓、Emma、吴佳和 Kevin 在公司楼下吃饭。林晓刚讲完昨天把背包落在地铁上、后来在失物招领处找回来的经过。Kevin 笑着说：「这算什么，我入职第一天那才叫惨。」——三年前，他上班第一天就碰上机房的水管破裂。吴佳和 Emma 早就听过这个故事，还是催他再讲一遍。Kevin 讲故事特别有画面感，最爱在关键处停一下，等大家问「然后呢？」。
+@sp: 人物关系 | Kevin（IT 支持，进公司三年）→ 林晓、Emma、吴佳：很熟的同事，午饭闲聊，气氛轻松；吴佳和 Emma 听过这个故事，林晓是第一次听
+@sp: 沟通目的 | Kevin：把一件惊险的事讲得有头有尾、有画面；听的人：不停追问、及时给反应，让故事讲下去
+@sp: 已知信息 | 林晓只知道 Kevin 管 IT，不知道他第一天出过事；Kevin 知道大家爱听，故意在关键处停下来等人追问
+@sp: 表达重点 | 追问：What happened next? / And then? / So what did you do? → 讲顺序：First of all → Then → Two hours later → Afterward → 讲结果：managed to（好不容易做到）、ended up -ing（结果却……）
+
+@story_title: Episode 40 · Kevin's First Day
+@story_type: 对话（讲故事 + 追问）
+@s: At lunch on Thursday, Lily finishes her backpack story. | 周四午饭时，林晓刚讲完她找回背包的经过。
+@s: Kevin: Great **story**! But my first day here was a real **nightmare**. | Kevin：讲得好！不过我在这儿上班的第一天，那才叫一场噩梦。
+@s: Grace: Oh, the water story? Lily, you gotta hear this. | 吴佳：哦，是漏水那次吧？林晓，你一定得听听这个。
+@br:
+@s: Kevin: It was three years ago. I was alone in the **server** room. | Kevin：那是三年前。当时我一个人待在机房里。
+@s: Kevin: Suddenly, I heard water. A **pipe** in the ceiling was **broken**. | Kevin：突然，我听到了水声——天花板里的一根水管破了。
+@s: Lily: Oh no! Was it a big **leak**? | 林晓：天哪！漏得厉害吗？
+@s: Kevin: Huge. Water was coming down right next to the servers. | Kevin：特别厉害。水就在服务器旁边往下流。
+@s: Lily: **What happened next**? | 林晓：然后呢？
+@s: Kevin: Well, I didn't **panic**. OK, maybe a little. | Kevin：嗯，我没慌。好吧，可能有一点点慌。
+@s: Kevin: **First of all**, I turned off the power. | Kevin：首先，我把电源关了。
+@s: Emma: Smart. **And then**? | Emma：聪明。然后呢？
+@s: Kevin: Then I called my **boss**, but he didn't answer. He was on a plane! | Kevin：然后我给老板打电话，可他没接——他在飞机上！
+@s: Lily: On your first day? **So what did you do**? | 林晓：第一天就碰上这种事？那你怎么办的？
+@s: Kevin: I called the building's **emergency** number. Then I grabbed a **bucket** and a **mop**. | Kevin：我打了大楼的紧急电话，然后抓起一个桶和一把拖把。
+@s: Kevin: The floor was so **wet**. I almost fell twice! | Kevin：地上全是水，我差点摔了两跤！
+@s: Grace: Tell her about the trash bags. | 吴佳：跟她讲讲垃圾袋的事。
+@s: Kevin: Oh, right. **Luckily**, I **managed** to cover all the servers with trash bags. | Kevin：哦对。幸好，我想办法用垃圾袋把所有服务器都罩住了。
+@s: Emma: Ha! You **saved** the **entire** company with trash bags. | Emma：哈！你用几个垃圾袋救了整个公司。
+@br:
+@s: Kevin: Two hours later, a repairman came, and we cleaned everything up. | Kevin：两个小时后，维修工来了，我们一起把现场收拾干净。
+@s: Kevin: We **ended up** working until midnight. | Kevin：结果我们一直干到了半夜。
+@s: Lily: Wow. What did your boss say? | 林晓：哇。那你老板怎么说？
+@s: Kevin: At first, he was in **shock**. Then he started to **laugh**. | Kevin：一开始他惊呆了，后来就笑了起来。
+@s: Kevin: **Afterward**, everyone called me a **hero**. | Kevin：后来，大家都管我叫英雄。
+@s: Emma: Our trash bag hero! | Emma：我们的垃圾袋英雄！
+
+@v: story | = | n. | ˈstɔːri | 故事；（亲身经历的）一件事 | 聊天时讲自己遇到的事；夸别人讲得好 | tell a story；a funny story；It's a long story. | It's a long story. I'll tell you at lunch. | 说来话长，午饭时再跟你讲。 | 「讲故事」用 tell a story，不说 ✗ say a story / speak a story；中文「这事说来话长」正好就是 It's a long story.
+@v: nightmare | = | n. | ˈnaɪtmer | 噩梦；（比喻）糟透了的经历 | 夸张地形容一件极其糟糕、让人头疼的事 | a real nightmare；a total nightmare；have a nightmare | The traffic this morning was a nightmare. | 今天早上的交通简直是噩梦。 | 口语里 nightmare 多用来夸张地说「糟透了」，前面要加 a：It was a nightmare.；「做噩梦」是 have a nightmare，不说 ✗ do a nightmare。
+@v: server | = | n. | ˈsɜːrvər | 服务器 | 说 IT 系统、网站、机房 | server room；The server is down.；a cloud server | The server is down, so nobody can log in. | 服务器宕机了，所以谁都登不上去。 | 「宕机」最地道的说法是 The server is down.；「机房」一般说 server room，不说 ✗ machine room；server 在餐厅里还指「服务员」。
+@v: pipe | = | n. | paɪp | 管子；水管 | 说漏水、修水管 | a water pipe；a broken pipe；The pipe is leaking. | A pipe under the sink is leaking. | 水槽下面有根水管在漏水。 | 「水管」说 pipe 或 water pipe；浇花用的软水管叫 hose；pipe 还指「烟斗」，看上下文。
+@v: broken | = | adj. | ˈbroʊkən | 坏了的；破了的 | 说东西坏了、裂了、不能用了 | a broken pipe；broken glass；My phone is broken. | My phone is broken. I need a new one. | 我手机坏了，得换个新的。 | 中文「坏了」说 It's broken.，不说 ✗ It's bad.（bad 指「质量差」或「（食物）变质」）；机器、系统「不工作」也常说 It isn't working.
+@v: leak | = | n./v. | liːk | 漏（水、气）；漏洞 | 说水管、屋顶漏水；消息泄露 | a big leak；a water leak；The roof leaks. | There's a leak in the bathroom ceiling. | 卫生间的天花板漏水了。 | 中文的「漏」还指「遗漏」，那个意思不能用 leak：「漏了一个字」是 I missed a word.，不说 ✗ I leaked a word.；leak 和 leek（大葱）读音一样。
+@v: What happened next | what happened next? | phr. | ˌwʌt ˌhæpənd ˈnekst | 然后（后来）怎么样了？ | 听别人讲故事时追问，让对方接着讲 | What happened next?；So what happened?；What happened after that? | What happened next? Did you find your keys? | 后来呢？你钥匙找到了吗？ | 不要说 ✗ What's next?（那是「下一项是什么」，开会、排日程时用）；happened 只有两个音节 `/ˈhæpənd/`，-ed 不单独成音节。
+@v: panic | = | v./n. | ˈpænɪk | 慌；惊慌失措 | 遇到突发情况时说自己慌没慌；安慰别人别慌 | Don't panic.；panic about…；in a panic | Don't panic. We still have an hour. | 别慌，我们还有一个小时。 | 中文「我慌了」说 I panicked.，不说 ✗ I was panic.；过去式和 -ing 要加 k：panicked `/ˈpænɪkt/`、panicking。
+@v: First of all | first of all | phr. | ˌfɜːrst əv ˈɔːl | 首先；第一件事 | 讲步骤：按顺序说你做了什么、要做什么 | First of all, …；First of all, … Then … | First of all, check the address. Then call the customer. | 首先核对地址，然后给客户打电话。 | 只用在第一步，后面接 then / after that / next，不要每一步都说 first of all；它也常用来开始反驳：First of all, that wasn't my fault.（首先，那不是我的错）——语气要注意。
+@v: And then | and then? | phr. | ˌænd ˈðen | 然后呢？ | 听别人讲事情时，催对方往下讲 | And then?；And then what?；… and then … | And then? Did he call you back? | 然后呢？他给你回电话了吗？ | 只说一个 ✗ Then? 像在自言自语；催人往下讲用 And then? 或 And then what?，句尾上扬 ↗，语气要带着好奇。
+@v: boss | = | n. | bɔːs | 老板；上司；领导 | 说自己的直属领导 | my boss；the big boss；ask my boss | I need to ask my boss first. | 我得先问问我领导。 | 美国人说 my boss 多指「我的直属上司」，不一定是公司老板；当面不称呼 ✗ Boss，直接叫名字（Tom）就好。
+@v: So what did you do | so what did you do? | phr. | ˌsoʊ ˌwʌt dɪdʒə ˈduː | 那你怎么办的？ | 听到对方遇到麻烦，追问他当时怎么处理 | So what did you do?；What did you do then?；What would you do? | Your phone died? So what did you do? | 你手机没电了？那你怎么办的？ | 中文「那你怎么办的」直译成 ✗ So how did you do? 意思就变了（像在问「你考得 / 做得怎么样」）；问「怎么处理的」用 what did you do，did you 常连读成 `/dɪdʒə/`。
+@v: emergency | = | n. | ɪˈmɜːrdʒənsi | 紧急情况；突发事件 | 报警求助、说事情非常紧急 | an emergency；emergency number；in an emergency | In an emergency, call this number. | 遇到紧急情况，就打这个电话。 | 「紧急出口」是 emergency exit，美国的报警急救电话是 911；只有真正紧急（有危险、有损失）才说 It's an emergency.，一般的急事说 It's urgent.（第一册学过）。
+@v: bucket | = | n. | ˈbʌkɪt | 桶；水桶 | 打扫卫生、接水 | a bucket of water；a mop and bucket；an ice bucket | Can you get me a bucket of water? | 能帮我打一桶水来吗？ | u 读 `/ʌ/`，不读 `/uː/`；「一桶水」是 a bucket of water；垃圾桶不叫 bucket，美国人叫 trash can。
+@v: mop | = | n./v. | mɑːp | 拖把；拖（地） | 打扫卫生 | a mop；mop the floor；a mop and bucket | I mopped the kitchen floor last night. | 我昨晚把厨房的地拖了。 | 「拖地」说 mop the floor，不说 ✗ drag the floor；mop 本身就能当动词，过去式双写 p：mopped。
+@v: wet | = | adj. | wet | 湿的 | 说地面、衣服、头发湿了 | get wet；a wet floor；soaking wet | Be careful. The floor is wet. | 小心，地是湿的。 | 商场里「小心地滑」的英文标牌是 Caution: Wet Floor；「被雨淋湿了」是 I got wet in the rain.，不说 ✗ I was wetted by the rain.
+@v: Luckily | luckily | adv. | ˈlʌkɪli | 幸好；幸运的是 | 讲故事时说「还好……」 | Luckily, …；luckily for me；Luckily, nobody was hurt. | Luckily, I had an umbrella. | 幸好我带了伞。 | 多放在句首、后面加逗号；lucky（第一册）是形容词：I'm lucky.；不要说 ✗ Lucky, I had an umbrella.
+@v: managed | manage | v. | ˈmænɪdʒd | 设法做成；（好不容易）做到了 | 说克服困难完成了一件事 | manage to + 动作；I managed it.；barely managed to… | I managed to finish the report on time. | 我总算按时把报告写完了。 | 后面接 to + 动词原形：✗ managed finishing / ✗ managed finish；manage 还有「管理」的意思，manager 就是从这里来的；age 读 `/ɪdʒ/`，不读 `/eɪdʒ/`。
+@v: saved | save | v. | seɪvd | 救；挽救；保住 | 说救了人、救了东西、救了场 | save sb's life；save the day；save time / money | Thanks for the charger. You saved my life! | 谢谢你的充电器，你可救了我的命！ | save 还表示「存（钱）」「保存（文件）」「省（时间）」：save money、save the file、save time；「保存文件」不说 ✗ keep the file。
+@v: entire | = | adj. | ɪnˈtaɪər | 整个的；全部的 | 强调「整个、一个不落」 | the entire company；the entire day；the entire team | I spent the entire weekend at home. | 我整个周末都待在家里。 | 前面一般要有 the / my 等：the entire team；意思和 whole（第一册）差不多，entire 语气更强；重音在后：en·TIRE。
+@v: ended up | end up | phr. | ˌendɪd ˈʌp | 最后（结果）……了 | 说没有计划、事情发展下去却变成了这样 | end up + -ing；end up in / at + 地方；end up with… | We wanted to eat out, but we ended up cooking at home. | 我们本来想出去吃，结果在家做了饭。 | 后面接 -ing：✗ ended up to work → ✓ ended up working；它带着「本来没打算」的意思，比 finally 更贴近中文的「结果……」。
+@v: shock | = | n. | ʃɑːk | 震惊；惊呆 | 说听到消息、看到场面时惊呆了 | in shock；What a shock!；a big shock | The news was a big shock to everyone. | 这个消息让大家都很震惊。 | 「我惊呆了」说 I was in shock. 或 I was shocked.，不说 ✗ I was shock.（shock 是名词，形容词是 shocked）。
+@v: laugh | = | v. | læf | 笑；笑出声 | 说某人笑了、什么事好笑 | start to laugh；laugh at…；make sb laugh | His jokes always make me laugh. | 他的笑话总能把我逗笑。 | gh 读 `/f/`；laugh 是笑出声，不出声的「微笑」是 smile；laugh at sb 是「嘲笑某人」，说别人时要小心。
+@v: Afterward | afterward | adv. | ˈæftərwərd | 后来；（那件事）之后 | 讲完一件事，说它结束以后的情况或影响 | Afterward, …；soon afterward；right afterward | We had dinner, and afterward we went for a walk. | 我们吃了晚饭，之后去散了个步。 | 美式多写 afterward，英式多写 afterwards；不要只说 ✗ After, …——after 后面要跟东西（after that / after lunch）。
+@v: hero | = | n. | ˈhɪroʊ | 英雄；（关键时刻）救场的人 | 夸别人帮了大忙 | a hero；my hero；a real hero | You fixed my computer? You're my hero! | 你把我电脑修好了？你真是我的救星！ | 美国人常半开玩笑地说 You're my hero! 表示感谢，不一定是什么大事；复数是 heroes。
+
+@diff: 「后来」——then / later / afterward 怎么选
+@d_cn: 讲故事时说「然后、后来、之后」：紧接着做了什么，过了多久又怎样，整件事结束以后怎样。
+@d_en: Then I called my boss. / Two hours later, a repairman came. / Afterward, everyone called me a hero.
+@d_why: 中文一个「后来」或「然后」几乎能管所有情况；英文按「隔了多久」分得更细：**then** 是紧接着的下一步，一步一步往下讲；**… later** 前面带一段时间（two hours later、a week later），告诉对方「过了多久」；**afterward**（≈ after that）说「整件事结束以后」，常用在故事快结束时说结果和影响。中国学生最常见的错误是把 after 单独放句首：✗ After, everyone called me a hero.——after 是介词，后面必须跟东西（after that / after lunch）。
+@d_when: 一步一步讲经过 → then；交代过了多长时间 → … later；事情处理完以后的结果 → afterward / after that。
+@d_vs: **First of all, I turned off the power. Then I called my boss.** 先……然后……（紧接着）\n**Two hours later, a repairman came.** 两个小时后……（过了一段时间）\n**Afterward, everyone called me a hero.** 后来（事后）……\n✗ After, everyone called me a hero.
+@d_task: 用 then / later / afterward 把三件事连起来说：我先给 Kevin 打了电话 → 十分钟后他来了 → 事后我请他喝了杯咖啡。 | First, I called Kevin. Ten minutes later, he came. Afterward, I bought him a coffee.
+@diff: 「然后呢？」——What happened next? / And then?
+@d_cn: 别人讲故事讲到一半，你想让他接着讲，同时表示「我在听，我很想知道」。
+@d_en: What happened next? / And then? / So what did you do?
+@d_why: 中文听人讲故事，一句「然后呢？」「后来呢？」就够了；英文没有「呢」，直译成 ✗ Then? 或 ✗ And after? 都不自然。英文最常用三种追问：**What happened next?** 问「事情接下来怎么发展」；**And then?** 最短，就是「然后呢」；**So what did you do?** 问「你当时怎么处理的」。在美国人的聊天里，听的人不停追问、给反应是一种礼貌——说明你在认真听。只回一个 Oh. 或者一直沉默，对方会以为你不感兴趣，故事就讲不下去了。
+@d_when: 朋友、同事讲自己的经历，说到关键处停下来、看着你的时候。
+@d_vs: **What happened next?** 后来怎么样了？（问事情的发展）\n**So what did you do?** 那你怎么办的？（问对方的行动）\n**And then?** ↗ 然后呢？\n✗ What's next?（下一项是什么——开会、排日程时用）
+@d_task: 同事说：My phone died in the taxi, and I didn't have any cash.（我在出租车上手机没电了，身上又没现金。）用两种方式追问。 | So what did you do? / What happened next?
+@diff: 「结果……了」——We ended up -ing
+@d_cn: 本来没这么打算，事情一步步发展下去，最后变成了这样。
+@d_en: We ended up working until midnight. / I ended up at the wrong station.
+@d_why: 中文把「结果」「最后」放在句子前面就行，中国学生常直译成 ✗ The result is we worked until midnight.，或者一律用 finally。其实 **finally** 是「终于」——等了很久、盼着的事总算发生了（Finally, the repairman came!）；**in the end**（第一册）是「最后」，用来总结整件事；**end up + -ing / 地点** 才是「结果却……」，带着「没想到」「不是计划好的」的味道。注意 end up 后面接 -ing，不接 to。
+@d_when: 讲故事时说出意外的结局：加班到半夜、坐过了站、买多了东西、本来不想去最后还是去了。
+@d_vs: **We ended up working until midnight.** 结果我们一直干到半夜。（没想到）\n**Finally, the repairman came.** 维修工终于来了。（盼了很久）\n**In the end, everything was OK.** 最后一切都好。（总结）\n✗ We ended up to work until midnight.
+@d_task: 用 ended up 说：我们本来打算去吃火锅，结果点了外卖。 | We were going to have hot pot, but we ended up ordering takeout.
+@diff: 「总算 / 好不容易……」——I managed to…
+@d_cn: 事情很难、差一点就做不成，但最后还是做到了。
+@d_en: Luckily, I managed to cover all the servers. / Did you manage to save them?
+@d_why: 中文用「总算」「好不容易」「想办法」来表达；中国学生常说 ✗ I tried to cover the servers.——但 tried to 只说「试了」，没说成没成功；或者说 ✗ I could cover the servers in time.——英文的 could 多指「一般的能力」（I could swim when I was five.），讲**某一次**成功做成了一件难事，要用 **managed to**（或 was able to）。否定的 couldn't 没有这个限制：I couldn't find a bucket. 完全正确。
+@d_when: 讲经历时说「虽然难，但还是做到了」：赶上了末班车、修好了、按时交了、找到了。
+@d_vs: **I tried to call him.** 我试着给他打电话。（打没打通不知道）\n**I managed to call him.** 我总算打通了他的电话。\n**I could swim when I was five.** 我五岁就会游泳。（一般能力）\n✗ I could catch the last train last night. → ✓ I managed to catch the last train last night.
+@d_task: 用 managed to 说：昨天地铁停运了，不过我好不容易打到了一辆车。 | The subway stopped yesterday, but I managed to get a taxi.
+
+@core: What happened next? | 听别人讲事情时追问后续 | What happened next? / What happened after that? / And then? | 正式：What happened after that?｜随意：And then what?
+@core: So what did you do? | 追问对方当时怎么处理的 | So what did you do? / What did you do then? / How did you fix it? | 正式：How did you handle it?｜随意：So what'd you do?
+@core: First of all, … Then … | 按顺序讲自己做了什么 | First of all / Then / After that / … later | 正式：First, … Next, … Finally, …｜随意：So first I…, and then I…
+@core: Luckily, I managed to + 动作. | 说「还好，我总算做到了」 | cover the servers / catch the last train / fix it | 正式：Fortunately, I was able to fix it in time.｜随意：Somehow I got it done!
+@core: We ended up + -ing. | 说出乎意料的结果 | working until midnight / taking a taxi / staying home | 正式：In the end, we worked until midnight.｜随意：We ended up staying till midnight.
+@core: Afterward, … | 说事情结束以后的结果和影响 | Afterward / After that / Two hours later | 正式：After the incident, …｜随意：After that, …
+@core: It was a real nightmare. | 夸张地说一段经历很糟糕 | a real nightmare / a total nightmare / crazy | 正式：It was a very difficult day.｜随意：It was a total nightmare!
+
+@pw: nightmare | ˈnaɪtmer | 2 个音节 NIGHT·mare | night 的 t 只做口型、不爆破，直接接 m
+@pw: emergency | ɪˈmɜːrdʒənsi | 4 个音节 e·MER·gen·cy | 重音在第二个音节；gen 弱读成 `/dʒən/`，几乎听不到元音
+@pw: entire | ɪnˈtaɪər | 2 个音节 en·TIRE | 重音在后；tire 从 `/aɪ/` 滑到卷舌的 `/ər/`
+@pw: luckily | ˈlʌkɪli | 3 个音节 LUCK·i·ly | u 读短促的 `/ʌ/`，不读「卢」
+@pw: laugh | læf | 1 个音节 | gh 读 `/f/`；a 读 `/æ/`，嘴要张大
+@pw: afterward | ˈæftərwərd | 3 个音节 AF·ter·ward | 重音在第一个音节；ward 弱读成 `/wərd/`，不读 `/wɔːrd/`
+@pw: managed | ˈmænɪdʒd | 2 个音节 MAN·aged | age 读 `/ɪdʒ/`；结尾的 d 很轻，和后面的 to 连在一起
+@ps: What **hap**pened **next**? ↘ | 重音在 hap 和 next；happened 只有两个音节 `/ˈhæpənd/`；特殊疑问句句尾下降，next 稍微拉长，听起来就很有兴趣。
+@ps: **First**‿of‿**all**, / I turned‿off the **pow**er. | first of all 连成一串，of 弱读成 `/əv/`：firs-ta-vall；turned off 连读成 turn-doff。
+@ps: So **what** did you **do**? ↘ | did you 连读成 `/dɪdʒə/`，正常语速下 so what did you 几乎连成 so-wha-didja，重音落在 what 和 do。
+@ps: We **end**ed‿up **work**ing until **mid**night. | ended up 连读成 end-di-dup；until 弱读，重音落在 work 和 mid。
+@pnote: 讲故事时 was / were 一般弱读：I was alone → was 只剩一个很轻的 `/wəz/`；Water was coming down 里的 was 也一样。只有在句尾或强调时（Yes, it was.）才读成 `/wʌz/`。听 Kevin 讲故事，先抓住重读的实词（alone, server room, water），弱读的 was / to / and 不用慌。
+@pnote: 吴佳说的 You **gotta** hear this. = You've got to hear this.（你一定得听听）。口语里 have got to 常缩成 gotta，t 读成轻轻的 d：gah-da。同样，managed to 的 to 弱读成 `/tə/`，didn't 只剩 `/ˈdɪdn/`。这些缩读要听得懂；写邮件仍然写 have to / didn't。
+@lfocus: did you 连成 /dɪdʒə/
+@lfocus: was / were 的弱读
+@lfocus: gotta = have got to
+@dict: S17–S19
+@dict: S22–S23
+@res: 在 youglish.com 输入 "ended up"，选 US，听美国人讲故事时怎么说「结果……」。
+
+@mimic: 跟读【C】S4–S23：先用正常语速逐句跟读，重点模仿 What happened next? 的降调和 did you 的连读；再由你演 Kevin、手机朗读林晓和 Emma 的追问，完整讲一遍故事并录音；最后换过来，你只负责追问。
+@swap: What happened next? — First of all, I turned off the power. | 换事件和第一步：停电了 → found a flashlight；水管漏水 → turned off the water | What happened next? — First of all, I found a flashlight.
+@swap: So what did you do? — I called the emergency number. | 换处理办法：asked my neighbor for help / called the lost and found / took a taxi | So what did you do? — I asked my neighbor for help.
+@swap: Luckily, I managed to cover all the servers. | 换成你的经历：catch the last subway / find my keys / finish the report on time | Luckily, I managed to catch the last subway.
+@swap: We ended up working until midnight. | 换意外的结果：waiting for two hours / eating at home / staying in the office | We ended up waiting for two hours.
+@free: 同事说：I was stuck in the elevator for twenty minutes yesterday.（我昨天在电梯里困了二十分钟。）你想让他接着讲。 | Twenty minutes? That's scary! So what did you do?
+@free: 朋友问你上次停电时你怎么办的（你先找到了手电筒，然后去敲了邻居的门）。 | First of all, I found my flashlight. Then I knocked on my neighbor's door. Her power was out, too.
+@free: 你想说：本来打算坐地铁，可是雨太大了，结果打车去的。 | I was going to take the subway, but it was raining really hard. So I ended up taking a taxi.
+@free: 朋友帮你修好了漏水的水管，你夸他、谢谢他。 | Thank you so much! You saved my weekend. You're my hero!
+@output: 录 1.5 分钟（或写 8–10 句话）「我遇到过的一次小意外」：开头（什么时候、在哪儿、在做什么）→ 突然发生了什么 → 你先做了什么、然后做了什么（First of all / Then）→ 过了多久、谁来帮忙（… later）→ 结果（managed to / ended up -ing）→ 事后（Afterward）。至少用一次 Luckily。
+@output_sample: Last winter, I had a small accident at home. It was Saturday night, and I was taking a shower. Suddenly, I heard water in the kitchen. A pipe under the sink was broken, and the floor was all wet. I didn't panic. Well, maybe a little. First of all, I turned off the water. Then I called the building manager, but nobody answered. So I grabbed a bucket and a mop and started cleaning. Luckily, my neighbor heard the noise and came to help. Half an hour later, a repairman came and fixed the pipe. We ended up cleaning the kitchen until one in the morning. Afterward, I bought my neighbor a big box of fruit. Now she's my best friend in the building!
+
+@check: Kevin 讲到「水管破了」就停了下来，你想让他接着讲，可以说哪三句？ | What happened next? / And then? / So what did you do?
+@check: 追问「然后呢」能不能说 What's next?？为什么？ | 不能。What's next? 是「下一项是什么」，开会、排日程时用；追问故事要说 What happened next? 或 And then?
+@check: 「我们本来想走路回家，结果打车回去的」用 ended up 怎么说？ended up 后面接什么形式？ | We were going to walk home, but we ended up taking a taxi. end up 后面接 -ing。
+@check: 「我昨晚好不容易赶上了最后一班地铁」说 I could catch the last subway last night. 自然吗？ | 不自然。讲某一次成功做成难事用 managed to：I managed to catch the last subway last night.（could 多指一般的能力）
+@check: 填 then / later / afterward：I turned off the power. ___ I called my boss. Two hours ___, a repairman came. ___, everyone called me a hero. | Then / later / Afterward
+@next1: 不看书说出 S8、S10、S13、S20、S23（锚点句）
+@next1: 用 What happened next? / And then? / So what did you do? 各追问一次
+@next1: 用 First of all → Then → … later → Afterward 讲一件你处理过的小麻烦
+@next7: then / later / afterward 的区别，并各造一个句子
+@next7: managed to + 动词原形 和 ended up + -ing 各说 2 句自己的经历

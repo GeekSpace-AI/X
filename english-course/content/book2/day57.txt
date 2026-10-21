@@ -1,0 +1,163 @@
+@day: 57
+@week: 4
+@title_cn: 周末出游
+@title_en: A Weekend Trip
+@topic: 讲一次周末旅行：订房、入住、爬山看日出、退房、下次的打算
+@think_short: 「订房」book ≠ order｜「办入住 / 退房」check in / check out｜「值了」It was worth it.｜讲旅行：过去时 → I've never… → Next time, I'm going to…
+
+@goal_scene: 周一早上，美国同事问你周末出游玩得怎么样：你要讲清楚订了什么、几点入住、看了什么、最难忘的一刻和自己的感受，再说说「下次我要……」，同时接住对方的追问。
+@goal_expr: We booked a homestay near… / We checked in at three. / There were lots of tourists, but… / I've never seen such a… / It was a long hike, but it was worth it. / Wasn't it tiring? — Yes, it was! / Next time, I'm going to…
+@goal_vocab: 20 个重点词 + 5 个短语：订房与住宿、景点与风景、天气与山路
+@done: 能用 book / make a reservation / check in / check out 说清楚一次住宿的经过，不再说 ✗ order a hotel、✗ return the room
+@done: 能按「经过（过去时）→ 经历（I've never seen…）→ 感受（worth it）→ 下次（Next time, I'm going to…）」连续讲 6–8 句旅行经历，时态不乱
+@done: 被问 Wasn't it tiring? / Would you go again? 时，按事实回答（Yes, it was! / Definitely.），再补一个细节
+
+@warmup: 你长得像谁？ | Who do you look like? | D56
+@warmup: 我长得像我爸，但性格更像我妈。 | I look like my dad, but I'm more like my mom. | D56
+@warmup: 你姐姐是个什么样的人？ | What's your sister like? | D56
+@warmup: 我们关系特别好。 | We get along really well. | D56
+@warmup: 请问深圳湾公园怎么走？ | How do I get to Shenzhen Bay Park? | D50
+@warmup: 我们爬了梧桐山，山顶的风景美极了。 | We climbed Wutong Mountain, and the view from the top was amazing. | D11
+
+@scene: 周一早上 9 点，公司茶水间。上周末林晓和吴佳去了惠州的罗浮山：吴佳在网上订了山脚下的一家民宿，两人周六坐大巴过去，下午三点办好入住，逛了道观和瀑布，晚上泡了温泉；周日凌晨三点摸黑爬山，在山顶看到了日出。下山后下起了雨，她们中午就退房回了深圳。爱跑步、爱攀岩的 Emma 一看到她俩，就追着问个不停。
+@sp: 人物关系 | 林晓、吴佳 ↔ Emma：关系很好的同事，周一早上随便聊天；Emma 自己热爱户外运动，对爬山特别感兴趣
+@sp: 沟通目的 | 把周末出游讲得有头有尾、有画面；回应 Emma 的追问和玩笑
+@sp: 已知信息 | Emma 只知道她俩去了罗浮山，不知道住在哪儿、怎么去的、有没有看到日出
+@sp: 表达重点 | 计划和经过（booked / checked in / saw，过去时）→ 最难忘的经历（I've never seen such a beautiful sunrise）→ 感受（It was worth it）→ 下次的打算（Next time, I'm going to…）
+
+@story_title: Episode 57 · Was It Worth It?
+@story_type: 对话
+@s: On Monday morning, Emma finds Lily and Grace in the kitchen. | 周一早上，Emma 在茶水间碰到了林晓和吴佳。
+@s: Emma: Hey, you two! How was Luofu Mountain? | Emma：嘿，你们俩！罗浮山怎么样？
+@s: Grace: Amazing! We **booked** a **homestay** near the mountain. | 吴佳：太棒了！我们在山脚附近订了一家民宿。
+@s: Lily: Grace made the **reservation**. A **hotel** was too expensive. | 林晓：是吴佳订的。酒店太贵了。
+@s: Emma: Smart! How did you get there? | Emma：聪明！你们怎么过去的？
+@s: Lily: By bus. We didn't bring much **luggage**, just two backpacks. | 林晓：坐大巴。我们没带多少行李，就两个背包。
+@s: Grace: We **checked in** at three. The owner gave us a **map**. | 吴佳：我们三点办的入住，老板给了我们一张地图。
+@s: Lily: That afternoon, we saw an old **temple**, a **waterfall** and a **lake**. | 林晓：那天下午，我们去看了一座老道观、一个瀑布，还有一个湖。
+@s: Lily: There were lots of **tourists**, but the **scenery** was **stunning**. | 林晓：游客特别多，不过风景美得惊人。
+@s: Grace: Then we relaxed at a **hot spring**. It was perfect! | 吴佳：然后我们去泡了温泉，简直完美！
+@br:
+@s: Emma: So did you climb to the top? | Emma：那你们爬到山顶了吗？
+@s: Lily: Yes! We wanted to watch the **sunrise** from the **peak**, so we started at three in the morning. | 林晓：爬了！我们想在山顶看日出，所以凌晨三点就出发了。
+@s: Emma: Three in the morning? Are you kidding? | Emma：凌晨三点？你开玩笑吧？
+@s: Grace: Nope. The **trail** was dark and really **steep**. | 吴佳：没开玩笑。山路又黑又陡。
+@s: Lily: At first, there was thick **fog**. We couldn't see a thing. | 林晓：一开始雾特别大，什么都看不见。
+@s: Lily: Then the sun came out. I've never seen such a beautiful sunrise. | 林晓：后来太阳出来了。我从没见过这么美的日出。
+@s: Emma: Wow! Wasn't it tiring? | Emma：哇！不累吗？
+@s: Lily: Yes, it was! My legs still hurt. | 林晓：累啊！我的腿现在还疼呢。
+@s: Lily: It was a long hike, but it was **worth it**. | 林晓：爬了很久，但真的值了。
+@br:
+@s: Emma: And the rest of Sunday? | Emma：那周日剩下的时间呢？
+@s: Grace: It was **rainy**, so we **checked out** at noon and took the bus home. | 吴佳：一直在下雨，所以我们中午就退了房，坐大巴回来了。
+@s: Grace: Oh, and we got you a **souvenir**. It's local tea! | 吴佳：哦，对了，我们给你带了个小纪念品——当地的茶！
+@s: Emma: Aw, thanks! Would you go again? | Emma：哎呀，谢谢！你们还会再去吗？
+@s: Lily: Definitely. Next time, I'm going to take the **cable car**. | 林晓：肯定会。下次我要坐缆车。
+@s: Emma: Ha! Can you see the sunrise from a cable car? | Emma：哈！坐缆车能看到日出吗？
+@s: Lily: Good point. Then I'll go for the **sunset**! | 林晓：有道理。那我就去看日落吧！
+
+@v: booked | book | v. | bʊkt | 预订（房间、票、座位） | 订酒店、民宿、机票、火车票、餐厅位子 | book a hotel；book a table for four；be fully booked | I booked two train tickets for Friday. | 我订了两张周五的火车票。 | 订房、订票、订位子都用 book，不用 order（order 是点菜、下单买东西）；book 作名词是「书」，作动词是「预订」；-ed 读 `/t/`：booked `/bʊkt/`，不读 book-ed。
+@v: homestay | = | n. | ˈhoʊmsteɪ | 民宿；家庭旅馆 | 旅游时住当地人经营的小旅馆 | book a homestay；stay at a homestay；a homestay near the lake | The homestay owner cooked dinner for us. | 民宿老板给我们做了晚饭。 | 在中国和东南亚的旅游语境里，homestay 就是「民宿」；但在美国，homestay 多指留学生「住寄宿家庭」，美国人说「民宿」更常用 a B&B、a guesthouse，或者直接说 an Airbnb。
+@v: reservation | = | n. | ˌrezərˈveɪʃn | 预订；预约 | 订房、订餐厅，到了前台报名字 | make a reservation；have a reservation；a reservation under Lin | Hi, I have a reservation under Lin. | 你好，我用「林」这个名字订过。 | book 是动词，reservation 是名词：✗ I reservationed a room → ✓ I made a reservation.；「用……的名字订的」用 under；看病、办事的「预约」多用 appointment（第一册）。
+@v: hotel | = | n. | hoʊˈtel | 酒店；宾馆 | 出差、旅游住宿 | book a hotel；stay at a hotel；a hotel near the station | We stayed at a hotel near the station. | 我们住在车站附近的一家酒店。 | 重音在后：ho-TEL，不读 HO-tel；「住酒店」说 stay at a hotel，不说 ✗ live in a hotel（live 指长期居住）。
+@v: luggage | = | n. | ˈlʌɡɪdʒ | 行李 | 出行时带的箱子、包 | a lot of luggage；a piece of luggage；carry-on luggage | How much luggage are you bringing? | 你带了多少行李？ | luggage 不可数：✗ two luggages → ✓ two pieces of luggage / two bags；美国人口语里也常直接说 bags：Let me grab my bags.
+@v: checked in | check in | phr. | ˌtʃekt ˈɪn | 办理入住（登记、拿房卡） | 到酒店、民宿前台；也用于机场办值机 | check in at three；check in online；check-in time | You can check in after 2 p.m. | 下午两点以后可以办入住。 | 「办入住」一个 check in 就够了，不说 ✗ do the check-in procedure；名词要加连字符：What time is check-in?；checked in 连读成 check-tin。
+@v: map | = | n. | mæp | 地图 | 找路、景区导览、手机导航 | a map of the area；on the map；a map app | Can you show me on the map? | 你能在地图上指给我看吗？ | 「在地图上」用 on，不用 in：✓ on the map；a 读 `/æ/`，嘴要张大，不读成「卖普」。
+@v: temple | = | n. | ˈtempl | 寺庙；道观 | 旅游景点、宗教场所 | an old temple；visit a temple；a Buddhist / Taoist temple | There's a famous temple at the foot of the mountain. | 山脚下有一座很有名的寺庙。 | 中文分「寺、庙、观、宫」，英文一般都叫 temple；结尾 ple 是成音节 `/pl/`，舌尖抵住上齿龈，不读「坦剖」。
+@v: waterfall | = | n. | ˈwɔːtərfɔːl | 瀑布 | 讲景点、风景 | a big waterfall；hike to the waterfall；at the waterfall | The trail ends at a small waterfall. | 这条步道的尽头是一个小瀑布。 | 一个词，不分开写；美式 t 在元音之间读成快速的闪音，听起来像 wa-der-fall。
+@v: lake | = | n. | leɪk | 湖 | 讲风景、散步的地方 | a small lake；by the lake；walk around the lake | We walked around the lake after dinner. | 晚饭后我们绕着湖走了一圈。 | 「在湖边」说 by the lake；湖的名字前一般不加 the：West Lake（西湖）、Lake Michigan。
+@v: tourists | tourist | n. | ˈtʊrɪsts | 游客 | 景区、旅游城市 | lots of tourists；a tourist spot；tourist season | The old town is full of tourists in summer. | 夏天古城里到处都是游客。 | ou 读 `/ʊ/`（和 tour 一样），不读「涛」；「游客很多」说 There were lots of tourists. 或 It was crowded.，不说 ✗ The tourists were very many.
+@v: scenery | = | n. | ˈsiːnəri | 风景；景色（一大片自然风光） | 讲旅行、山水 | beautiful scenery；enjoy the scenery；the scenery along the way | We drove slowly to enjoy the scenery. | 我们开得很慢，好好欣赏风景。 | 不可数：✗ sceneries；scenery 是整片山水，view（第一册）是从某个位置看出去的画面：the view from the top。
+@v: stunning | = | adj. | ˈstʌnɪŋ | 美得惊人的；令人惊叹的 | 形容风景、照片、人特别漂亮 | stunning views；absolutely stunning；look stunning | You look stunning in that dress! | 你穿那条裙子美极了！ | 语气比 beautiful 强得多，本身已经是「极美」，不加 very：✗ very stunning → ✓ absolutely stunning / really stunning。
+@v: hot spring | = | phr. | ˌhɑːt ˈsprɪŋ | 温泉 | 旅行放松、度假 | relax at a hot spring；go to a hot spring；a hot spring resort | There's a hot spring resort near the mountain. | 山附近有一个温泉度假村。 | 「泡温泉」不要直译成 ✗ soak the hot spring，说 go to a hot spring / relax at a hot spring 就行；spring 也是「春天」，靠上下文区分。
+@v: sunrise | = | n. | ˈsʌnraɪz | 日出 | 爬山看日出、旅行 | watch the sunrise；at sunrise；a beautiful sunrise | We got up at five to watch the sunrise. | 我们五点起床看日出。 | 「看日出」说 watch / see the sunrise，不说 ✗ look the sunrise；「这么美的日出」是 such a beautiful sunrise（such a + 形容词 + 名词），不说 ✗ so beautiful sunrise。
+@v: peak | = | n. | piːk | 山顶；山峰 | 爬山、看风景 | the peak；reach the peak；the highest peak | We reached the peak at six. | 我们六点到了山顶。 | 和 pick `/pɪk/`（挑选）分清：peak 是长音 `/iː/`；peak 也表示「高峰」：peak season（旺季）、peak hours（高峰时段）。
+@v: trail | = | n. | treɪl | 山路；步道 | 徒步、爬山、公园散步 | a hiking trail；a steep trail；stay on the trail | This trail goes all the way to the peak. | 这条步道一直通到山顶。 | trail 是山里、公园里供人走的小路；城市里的路是 road / street；ai 读 `/eɪ/`，结尾的 l 舌尖要抬起来。
+@v: steep | = | adj. | stiːp | 陡的；陡峭的 | 形容山路、楼梯、坡 | a steep trail；really steep；steep stairs | Be careful. These stairs are really steep. | 小心，这段台阶很陡。 | 和 step `/step/`（第一册：步骤、台阶）分清：steep 是长音 `/iː/`；口语里 steep 还能形容价格「贵得离谱」：The prices are steep.
+@v: fog | = | n. | fɑːɡ | 雾 | 说天气，山里、海边看不清 | thick fog；in the fog；The fog cleared. | The fog cleared, and we could see the whole city. | 雾散了，我们能看到整座城市。 | 「雾很大」说 thick fog / heavy fog，不说 ✗ big fog；形容词是 foggy：It's foggy today.；「雾霾」是 smog。
+@v: worth it | = | phr. | ˈwɜːrθ ɪt | 值得；值 | 辛苦、花钱、排队之后说感受；给别人推荐 | It was worth it.；totally worth it；not worth it | The tickets were expensive, but it was worth it. | 票挺贵的，但值了。 | worth 不是动词：✗ It worths. → ✓ It's worth it.；worth 后面必须跟东西：worth it / worth the money / worth visiting，不能单说 ✗ It's worth.
+@v: rainy | = | adj. | ˈreɪni | 下雨的；多雨的 | 说天气 | a rainy day；rainy season；It was rainy. | It's going to be rainy all weekend. | 整个周末都会下雨。 | rain 是名词或动词，rainy 是形容词：✗ It was rain. → ✓ It was rainy. / It rained.；「雨季」是 the rainy season。
+@v: checked out | check out | phr. | ˌtʃekt ˈaʊt | 退房 | 离开酒店、民宿时 | check out at noon；late check-out；check out of the hotel | Can we check out an hour late? | 我们能晚一个小时退房吗？ | 「退房」不说 ✗ return the room（return 是退货）；check out 在口语里还有「看看、瞧瞧」的意思：Check out this photo!
+@v: souvenir | = | n. | ˌsuːvəˈnɪr | 纪念品；旅行带回的小礼物 | 旅游时买给自己或别人 | buy souvenirs；a souvenir shop；a souvenir from Hong Kong | I bought this magnet as a souvenir. | 我买了这个冰箱贴当纪念品。 | 中文「带点特产回去」也可以说 a local specialty 或 a little gift from…；重音在最后：sou-ve-NIR，结尾卷舌。
+@v: cable car | = | phr. | ˈkeɪbl ˌkɑːr | 缆车 | 景区上下山 | take the cable car；ride the cable car；the cable car station | We took the cable car down the mountain. | 我们坐缆车下的山。 | 「坐缆车」用 take / ride，不说 ✗ sit the cable car；复合名词重音在前：CA-ble car。
+@v: sunset | = | n. | ˈsʌnset | 日落 | 看风景、拍照 | watch the sunset；at sunset；a beautiful sunset | Let's go to the beach at sunset. | 我们傍晚去海边看日落吧。 | 「在日落时」说 at sunset（不加 the）；「看日落」说 watch the sunset（加 the）；和 sunrise 一样，不说 ✗ look the sunset。
+
+@diff: 「订酒店」——book a hotel，不说 order a hotel
+@d_cn: 提前把房间、座位、票留好，到时候去用。
+@d_en: We booked a homestay near the mountain. / Grace made the reservation. / I'd like to book a table for four.
+@d_why: 中文一个「订」字通吃：订餐、订货、订房、订票、订位子。英文分得很清楚：**order** 是「点、下单买东西」（order food / order a jacket online），东西会送到你手里；房间、座位、票这类「先占住、到时候去用」的东西，用 **book** 或 **make a reservation**。说 ✗ I ordered a hotel，美国人听着像你在网上下单买了一家酒店。book 是口语里最常用的动词；reservation 是名词，到前台、给餐厅打电话时常用：I have a reservation under Lin.
+@d_when: 酒店、民宿、机票、火车票、餐厅位子、会议室、景区门票。
+@d_vs: ✓ **I booked a hotel / a table / a train ticket.** 我订了酒店 / 位子 / 火车票。\n✓ **I made a reservation for Saturday night.** 我订了周六晚上。\n✓ **I ordered a pizza / a new jacket.** 我点了披萨 / 网上买了件新外套。\n✗ I ordered a hotel. / ✗ I reservationed a room.
+@d_task: 用英文说：①「我在网上订了两晚民宿。」②（打电话给餐厅）「我想订周六晚上七点的位子，四个人。」 | ① I booked a homestay for two nights online. ② I'd like to book a table for four at seven on Saturday. / I'd like to make a reservation for four at seven on Saturday.
+@diff: 「办入住」「退房」——check in / check out
+@d_cn: 到了酒店去前台登记、拿房卡（办入住）；离开时交房卡、结账（退房）。
+@d_en: We checked in at three. / We checked out at noon. / What time is check-out?
+@d_why: 中文「办入住」「退房」都是「动词 + 名词」，学生容易想着找对应的名词：✗ do the check-in procedure、✗ return the room（return 是退货，Day 49）。英文其实只用两个短语动词：**check in**（in = 进去）、**check out**（out = 出来），非常直观。作名词或放在名词前时加连字符：check-in time / late check-out。check in 也用在机场：check in for a flight（值机）。
+@d_when: 酒店、民宿前台；问入住和退房时间；机场办值机。
+@d_vs: **We checked in at three.** 我们三点办的入住。\n**What time is check-out?** 几点退房？（名词，加连字符）\n**Can I check out late?** 我能晚点退房吗？\n✗ We returned the room at noon.
+@d_task: 在民宿前台：①「你好，我想办入住，我用 Lin 这个名字订的。」②「明天几点退房？」 | ① Hi, I'd like to check in. I have a reservation under Lin. ② What time is check-out tomorrow?
+@diff: 「值了」「值得」——It was worth it.
+@d_cn: 过程很辛苦，花了很多时间、钱或力气，但结果让你觉得没白费。
+@d_en: It was a long hike, but it was worth it. / Is it worth the money? / The temple is worth visiting.
+@d_why: 中文「值得」可以单独说，「值了！」两个字就是一句话。英文 **worth** 不是动词，要放在 be 后面，而且后面必须跟东西：**worth it**（值）、**worth the money**（值这个价）、**worth a try**（值得一试）、**worth visiting**（值得去）。中国学生常说 ✗ It's worth.（漏了 it）或 ✗ It worths.（当成动词加 -s）。注意时态：说已经过去的经历用 **was worth it**，推荐别人、说一般情况用 **is worth it**。另外，「某人应得」是 deserve（Day 58 学），不要和 worth 混用。
+@d_when: 讲旅行、排长队、加班、买贵东西之后的感受；给别人推荐地方或东西。
+@d_vs: **It was a long hike, but it was worth it.** 爬了很久，但值了。\n**Is it worth the money?** 这个价钱值吗？\n**The temple is worth visiting.** 那座庙值得去看看。\n✗ It's very worth. / ✗ It worths.
+@d_task: 朋友问你：排两个小时队吃那家网红店，值不值？（你觉得值，菜特别好吃） | We waited for two hours, but it was worth it. The food was amazing.
+@diff: 讲一次旅行：时态跟着内容走
+@d_cn: 中文讲旅行，动词基本不变：「我们订了民宿……我从没见过这么美的日出……下次我要坐缆车」，时间全靠「了、过、下次」这些小词。
+@d_en: We booked… / We checked in… （经过）→ I've never seen such a beautiful sunrise.（经历）→ Next time, I'm going to take the cable car.（计划）
+@d_why: 英文讲一次旅行，时态要跟着「这句话在说什么」变：① 讲**经过**（订房、入住、爬山、下雨）→ 一般过去时：booked / checked in / started / was rainy；② 拿这次和**自己到现在为止的所有经历**比较 → 现在完成时：**I've never seen such a beautiful sunrise.**（意思是「我这辈子到现在，没见过这么美的」）；③ 说**下次的打算** → **Next time, I'm going to…**。最常见的错误是一路用现在时：✗ We take a bus, we check in at three…。还要留意故事最后一句：林晓被 Emma 一问才临时改主意，说的是 **Then I'll go for the sunset!**——临时决定用 will，早就想好的打算用 be going to（第一册 Day 16）。
+@d_when: 周一聊周末、讲旅行、写游记、给朋友推荐地方。
+@d_vs: **We booked a homestay. We checked in at three.**（经过：过去时）\n**I've never seen such a beautiful sunrise.**（经历：现在完成时）\n**Next time, I'm going to take the cable car.**（早就想好的计划）\n**Then I'll go for the sunset!**（当场决定）\n✗ We take a bus and check in at three.（讲过去的事别用现在时）
+@d_task: 用 3–4 句话讲你去过的一个地方：做了什么（过去时）→ 一个「从没……过」→ 下次的打算。 | Last year, I went to Guilin. We took a boat on the Li River. I've never seen such beautiful mountains. Next time, I'm going to stay longer.
+
+@core: We booked a … near … | 说订了什么、订在哪儿 | a homestay / a hotel / a table；near the mountain / by the lake / downtown | 正式：We made a reservation at a hotel near the station.｜随意：We got a place near the mountain.
+@core: We checked in at … / We checked out at … | 讲入住和退房的时间 | at three / around noon / early / late | 正式：What time is check-in, please?｜随意：We got in around three.
+@core: There were lots of …, but the … was stunning. | 先说一个缺点，再说亮点 | tourists / people；the scenery / the view / the food | 正式：It was quite crowded, but the scenery was stunning.｜随意：Super crowded, but so pretty!
+@core: I've never seen such a … | 说「从没见过这么……的」 | beautiful sunrise / big waterfall / crowded temple | 正式：It was the most beautiful sunrise I've ever seen.｜随意：Best sunrise ever!
+@core: It was …, but it was worth it. | 辛苦或花钱，但值了 | a long hike / expensive / a long wait | 正式：It took a lot of effort, but it was well worth it.｜随意：Totally worth it!
+@core: Wasn't it tiring? — Yes, it was! | 用否定问句表示关心；按事实回答 | tiring / expensive / scary；Yes, it was. / No, it wasn't. | 正式：Was it very tiring?｜随意：Tired?
+@core: Next time, I'm going to … | 说下次的打算 | take the cable car / stay longer / bring a raincoat | 正式：Next time, I plan to take the cable car.｜随意：Next time, cable car for sure.
+
+@pw: hotel | hoʊˈtel | 2 个音节 ho·TEL | 重音在后，中国学生常读成 HO-tel；ho 是双元音 `/oʊ/`
+@pw: reservation | ˌrezərˈveɪʃn | 4 个音节 res·er·VA·tion | 主重音在 va；s 读 `/z/`；tion 很轻，几乎只剩 `/ʃn/`
+@pw: souvenir | ˌsuːvəˈnɪr | 3 个音节 sou·ve·NIR | 重音在最后；ve 弱读成 `/və/`；结尾 nir 要卷舌，和 near 很像
+@pw: scenery | ˈsiːnəri | 3 个音节 SCE·ne·ry | sc 读 `/s/`，c 不发音；第一个音节是长音 `/siː/`
+@pw: luggage | ˈlʌɡɪdʒ | 2 个音节 LUG·gage | 结尾 gage 读 `/ɡɪdʒ/`，不读 /geɪdʒ/
+@pw: tourist | ˈtʊrɪst | 2 个音节 TOUR·ist | tour 读 `/tʊr/`，不读「涛」；复数 tourists 结尾 sts 要读清楚
+@pw: waterfall | ˈwɔːtərfɔːl | 3 个音节 WA·ter·fall | 重音在第一个音节；t 在元音之间读成闪音，像轻轻的 d
+@ps: We **checked**‿in‿at **three**. | checked in at 连成一串：check-tin-at；-ed 读 `/t/`，直接和 in 连起来。
+@ps: It was a **long hike**, / but it was **worth**‿it. | 两个 was 都弱读成 `/wəz/`，it was 快读时近乎 `/ɪwəz/`；but 弱读 `/bət/`；worth it 连读，th 是咬舌的 `/θ/`。
+@ps: I've **nev**er seen such‿a **beau**tiful **sun**rise. | I've 的 v 非常轻，快读时听起来几乎像 I never；但不能省，写的时候一定是 I've。such a 连读成 su-cha。
+@ps: **Next** time, / I'm going to take the **ca**ble car. | 口语里 I'm going to 常读成 I'm gonna `/aɪm ˈɡʌnə/`；cable car 重音在 ca。
+@pnote: 本课的 was / were 都是弱读：There were lots of tourists → `/ðər wər/`；It was rainy → `/ɪt wəz/`。只有在句尾或单独回答时才读完整的 `/wʌz/`：Yes, it **was**!——所以 S18 的 was 要读得清清楚楚。
+@pnote: 写 vs 说：书面写 I am going to / I have never / could not，口语几乎都说 I'm gonna / I've never / couldn't。couldn't 的 t 几乎不发音，听起来像 `/ˈkʊdn/`；gonna 只用来说话和聊天打字，正式邮件里仍然写 going to。
+@lfocus: was / were 的弱读：It was… / There were…
+@lfocus: checked in / checked out 里 -ed 和后面的词连读
+@lfocus: I'm going to → gonna；I've never 里很轻的 've
+@dict: S7–S9
+@dict: S15–S16
+@res: 在 youglish.com 输入 "worth it"，选 US，听美国人说 It was worth it. 时 was 有多轻。
+
+@mimic: 跟读【C】S2–S26：先逐句跟读，重点模仿 checked in at three 的连读、两个弱读的 was 和 Yes, it was! 里读完整的 was；再三人分角色（或你演林晓、手机朗读 Emma 和吴佳），正常语速完整对一遍并录音。
+@swap: We booked a homestay near the mountain. | 换住处和位置：a hotel / an apartment；near the beach / downtown | We booked a hotel near the beach.
+@swap: We checked in at three. | 换动作和时间：checked out / at noon；got to the hotel / around six | We checked out at noon.
+@swap: I've never seen such a beautiful sunrise. | 换名词和形容词：big waterfall / crowded temple / clean beach | I've never seen such a big waterfall.
+@swap: It was a long hike, but it was worth it. | 换辛苦的事：a long wait / an expensive ticket / a long drive | It was an expensive ticket, but it was worth it.
+@free: 周一同事问你：How was your weekend trip?（你去了顺德，吃得特别好） | It was great! We went to Shunde and ate so much. I've never had such fresh fish.
+@free: 你打电话给一家民宿，想订这周六一晚，两个人。 | Hi, I'd like to book a room for this Saturday night. It's for two people. Do you have anything available?
+@free: 朋友问你某个景点值不值得去（人很多，但风景很美）。 | It's really crowded, but the scenery is stunning. I think it's worth it. Just go early in the morning.
+@free: 同事问你下次再去会怎么安排（多住两晚，带雨衣，因为这次一直下雨）。 | Next time, I'm going to stay two more nights. And I'm going to bring a raincoat, because it rained a lot this time.
+@output: 录 1.5 分钟语音或写 8–10 句话：「一次难忘的旅行」——去了哪儿、怎么订的住处、几点入住、做了什么（过去时）→ 一个 I've never… → 辛苦但值了（worth it）→ 下次的打算（Next time, I'm going to…）。
+@output_sample: Last month, I went to Guilin with my cousin. We booked a small hotel near the Li River. We checked in at two and walked around the old town. There were lots of tourists, but the scenery was stunning. The next morning, we took a boat on the river. I've never seen such beautiful mountains. On the last day, it was rainy, so we checked out early. It was a long trip, but it was worth it. I bought some souvenirs for my team. Next time, I'm going to stay longer and rent a bike.
+
+@check: 「我订了一家酒店」说 I ordered a hotel. 对吗？为什么？ | 不对。订房、订票、订位子用 book（或 make a reservation）；order 是点菜、下单买东西。✓ I booked a hotel.
+@check: 你要离开酒店，到前台怎么说？想先问「几点退房？」又怎么问？ | I'd like to check out. ／ What time is check-out?
+@check: 林晓讲周末的经过用 booked / checked in / started，为什么说日出时用 I've never seen…？ | 讲经过用一般过去时；I've never seen such a beautiful sunrise 是拿这次和自己到现在为止的所有经历比较，所以用现在完成时。
+@check: Emma 问 Wasn't it tiring? 林晓确实很累，她怎么回答？如果一点也不累呢？ | 累：Yes, it was!／不累：No, it wasn't.——英文只看事实，不跟着问句里的 not 走。
+@check: 换个场景：你加班到很晚，终于把项目做完了，客户特别满意。用 worth it 说两句。 | It was a long night, but it was worth it. The client was really happy.
+@next1: 不看书说出 5 个锚点句：S3、S7、S16、S19、S24
+@next1: 用 book / check in / check out 各说一句和住宿有关的话
+@next1: 用「经过 → I've never… → Next time, I'm going to…」把林晓的周末讲成 4 句话
+@next7: 讲一次自己的旅行：过去时讲经过 → I've never seen such a… → It was worth it. → Next time, I'm going to…
+@next7: book vs order；worth it / worth the money / worth visiting 各造一句

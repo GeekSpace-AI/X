@@ -1,0 +1,164 @@
+@day: 58
+@week: 4
+@title_cn: 保持联系
+@title_en: Let's Keep in Touch
+@topic: 给好朋友送行：祝贺新机会、回忆友情、说出不舍、举杯祝福、约定保持联系
+@think_short: 「保持联系」keep in touch｜「我会想你的」I'm going to miss you.｜「祝你……顺利」Good luck with… / I wish you all the best.｜「认识十年了」We've known each other for…
+
+@goal_scene: 认识十年的好朋友要去上海工作，你给她送行：先祝贺她的新机会，再聊聊你们的友情、说出你的不舍，最后举杯祝福，约好以后常联系。
+@goal_expr: Mei got a job offer in… / You really deserve it. / We've known each other for ten years. / I'm going to miss you so much. / Let's keep in touch. / You have to come and visit me. / Good luck with your new job! / I wish you all the best.
+@goal_vocab: 20 个重点词 + 5 个短语：工作机会与职业、情绪与友情、告别与祝福
+@done: 能用 We've known each other for… / since… 说清楚和一个人认识了多久，再用 We met in… 说出是怎么认识的
+@done: 送别时能连续说出 4 句：祝贺（You deserve it）→ 不舍（I'm going to miss you）→ 祝福（Good luck with… / I wish you all the best）→ 约定（Let's keep in touch）
+@done: 不再说 ✗ I will think you、✗ Wish you work smoothly、✗ Let's keep contact
+
+@warmup: 我们在山脚附近订了一家民宿。 | We booked a homestay near the mountain. | D57
+@warmup: 我们三点办的入住。 | We checked in at three. | D57
+@warmup: 我从没见过这么美的日出。 | I've never seen such a beautiful sunrise. | D57
+@warmup: 爬了很久，但真的值了。 | It was a long hike, but it was worth it. | D57
+@warmup: 我小时候特别害羞。 | When I was a kid, I was really shy. | D52
+@warmup: 她爱吃辣，所以挑了一家川菜馆。 | She loves spicy food, so she picks a Sichuan restaurant. | D18
+
+@scene: 周五晚上，林晓在她们最常去的一家湘菜馆给小梅送行。小梅拿到了上海一家更大的外贸公司的工作机会，去做团队主管，周日就出发。两人初中就认识，后来又上了同一所大学，到现在整整十年。林晓真心替她高兴，心里又舍不得；她还偷偷准备了一份小礼物。
+@sp: 人物关系 | 林晓 ↔ 小梅：认识十年的好朋友，说话随意、可以开玩笑，也可以说心里话
+@sp: 沟通目的 | 祝贺小梅、说出不舍，举杯祝福，并约好以后保持联系
+@sp: 已知信息 | 林晓知道小梅拿到了 offer，但不清楚具体是什么职位，也不知道小梅其实犹豫过要不要去
+@sp: 表达重点 | 祝贺（You really deserve it）→ 回忆（We've known each other for ten years）→ 不舍（I'm going to miss you）→ 面对距离（apart / high-speed train）→ 约定和祝福（Let's keep in touch / Good luck with…）
+
+@story_title: Episode 58 · This Isn't Goodbye
+@story_type: 叙述 + 对话
+@s: On Friday evening, Lily takes Mei out for a **farewell** dinner. | 周五晚上，林晓请小梅吃饭，给她送行。
+@s: Mei got a job **offer** in Shanghai. She leaves on Sunday. | 小梅拿到了上海的一个工作 offer，周日就走。
+@s: Lily: So, tell me about the new job! | 林晓：快，跟我说说新工作！
+@s: Mei: It's a team leader **position** at a bigger trading company. | 小梅：是一家更大的外贸公司的团队主管职位。
+@s: Mei: It's a great **opportunity** for my **career**. | 小梅：对我的职业发展来说，这是个很好的机会。
+@s: Lily: That's amazing! You really **deserve** it. | 林晓：太厉害了！这是你应得的。
+@s: Mei: Thanks. But actually, I almost said no. | 小梅：谢谢。不过其实，我差点就拒绝了。
+@s: Lily: Why? A **chance** like this doesn't come every day! | 林晓：为什么？这样的机会可不是天天有的！
+@s: Mei: I know. But Shenzhen feels like home now. And you're here. | 小梅：我知道。可深圳现在就像家一样，而且你也在这儿。
+@br:
+@s: Lily: We've known each other for ten years. | 林晓：我们认识十年了。
+@s: Mei: Since middle school! You were so shy back then. | 小梅：从初中就认识了！你那时候可害羞了。
+@s: Lily: And you've always **supported** me. | 林晓：而你一直都在支持我。
+@s: Lily: I'm happy for you, but I'm a little **sad**, too. | 林晓：我替你高兴，可心里也有点难过。
+@s: Lily: **I'm going to miss you** so much. | 林晓：我会特别想你的。
+@s: Mei: Stop it! You're making me **emotional**. | 小梅：别说了！你都快把我说哭了。
+@s: Mei: Shanghai isn't that far. It's about seven hours by **high-speed train**. | 小梅：上海也没那么远，坐高铁七个小时左右。
+@s: Lily: Seven hours! We'll be so far **apart**. | 林晓：七个小时！我们要隔得好远啊。
+@s: Mei: A real **friendship** can handle a little **distance**. | 小梅：真正的友情，不怕这点距离。
+@s: Lily: Let's **keep in touch**. Video call every weekend? | 林晓：我们保持联系吧。每个周末视频一次？
+@s: Mei: Deal! And you have to **come and visit** me. | 小梅：一言为定！你也一定要来上海看我。
+@br:
+@s: Lily gives Mei a small gift, a photo book of their ten years together. | 林晓送给小梅一份小礼物：一本装着她们十年友情的相册。
+@s: Mei: Oh, Lily! I love it. | 小梅：哎呀，林晓！我太喜欢了。
+@s: Lily: I want to make a **toast**. To your bright **future**! | 林晓：我来敬一杯。祝你前程似锦！
+@s: Lily: **Good luck with** your new job! I **wish** you all the best. | 林晓：祝你新工作顺利！祝你一切都好。
+@s: Mei: Thank you. I'm going to need a lot of **luck**. | 小梅：谢谢。我可需要不少好运气呢。
+@s: Lily: It's not luck. You worked hard for this. | 林晓：这不是运气，是你努力换来的。
+@s: Mei: **Cheers**! Friends **forever**? | 小梅：干杯！永远是好朋友？
+@s: Lily: Friends forever. And this isn't **goodbye**. It's "see you soon." | 林晓：永远是好朋友。而且这不是告别，是「回头见」。
+
+@v: farewell | = | n./adj. | ˌferˈwel | 告别；送别 | 送别聚餐、欢送会、告别邮件 | a farewell dinner；a farewell party；a farewell email | We're having a farewell party for Leo on Friday. | 我们周五给 Leo 开欢送会。 | farewell 比 goodbye 正式，日常很少单独说 ✗ Farewell!（像电影台词）；多放在名词前用：a farewell dinner / party / gift。
+@v: offer | = | n. | ˈɔːfər | （工作）录用通知；（对方给出的）条件 | 找工作、换工作、谈条件 | a job offer；get an offer；accept / turn down an offer | She got two job offers last month. | 她上个月拿到了两个工作 offer。 | 中文常说「拿到 offer」，英文要说完整：get a job offer / get an offer，不能只说 ✗ get offer；「接受」accept the offer，「拒绝」turn down the offer。offer 作动词是「主动提出给」：offer help。
+@v: position | = | n. | pəˈzɪʃn | 职位；岗位 | 招聘、换工作、介绍工作内容 | a team leader position；apply for a position；an open position | They have an open position in marketing. | 他们市场部有一个空缺职位。 | position 比 job 正式，招聘、简历里很常用；「申请职位」说 apply for a position；s 读 `/z/`：po-ZI-tion。
+@v: opportunity | = | n. | ˌɑːpərˈtuːnəti | （难得的）机会；机遇 | 工作、学习、发展上的好机会 | a great opportunity；a job opportunity；an opportunity to learn | This is a great opportunity to learn. | 这是一个很好的学习机会。 | 比 chance 正式，常用在工作和学习场合；美式 tu 读 `/tuː/`，不加 /j/；5 个音节，重音在 TU：op-por-TU-ni-ty。
+@v: career | = | n. | kəˈrɪr | 职业；事业；职业生涯 | 谈长期的职业发展 | my career；career plans；a career in marketing | She wants a career in marketing. | 她想在市场营销领域发展。 | career 是长期的「职业道路」，job 是一份具体的工作：Mei is changing jobs, but it's good for her career.；重音在后，读 ca-REER（和 here 押韵），不要读成 Korea。
+@v: deserve | = | v. | dɪˈzɜːrv | 应得；值得拥有 | 祝贺别人、为别人说话 | You deserve it.；deserve a break；deserve better | You worked so hard. You deserve a break. | 你那么拼，该好好休息一下了。 | 主语是「人」：You deserve it.（你应得的）；说「这件事值得」用 worth（D57）：It was worth it.，不说 ✗ It deserves.；s 读 `/z/`：de-ZERVE。
+@v: chance | = | n. | tʃæns | 机会；可能性 | 口语里说机会、可能 | a chance to + 动词；a good chance；give sb a chance | Can I have a chance to try? | 能给我个机会试试吗？ | 比 opportunity 口语；可数名词，前面要有 a：✗ have chance → ✓ have a chance；by chance 是「碰巧」。
+@v: supported | support | v. | səˈpɔːrtɪd | 支持；（在困难时）帮助、陪伴 | 感谢家人、朋友、团队 | support sb；always support me；Thanks for your support. | My family always supports me. | 我的家人一直支持我。 | support 后面直接接人，不加 for：✗ support for me → ✓ support me；名词也是 support：Thanks for your support.；主语是 she / he 时别忘了 -s：She always supports me.
+@v: sad | = | adj. | sæd | 难过的；伤心的 | 说心情：不舍、失望 | a little sad；feel sad；I'm sad that… | I'm sad that you're leaving. | 你要走了，我挺难过的。 | 和 said `/sed/` 分清：sad 的 a 读 `/æ/`，嘴张大；「舍不得」不用直译，说 I'm a little sad 或 I'm going to miss you 就很自然。
+@v: I'm going to miss you | = | phr. | aɪm ˌɡoʊɪŋ tə ˈmɪs ju | 我会想你的 | 分别前表达不舍 | I'm going to miss you (so much).；I'll miss you.；We're all going to miss you. | We're all going to miss you, Leo. | Leo，我们都会想你的。 | 「想念」只能用 miss，不说 ✗ I will think you；分开以后说 I miss you.（现在时）；口语里常读成 I'm gonna miss you。
+@v: emotional | = | adj. | ɪˈmoʊʃənl | 情绪激动的；（感动得）想哭的 | 送别、婚礼、感人的时刻 | get emotional；an emotional moment；You're making me emotional. | I always get emotional at weddings. | 我参加婚礼总是会掉眼泪。 | 「被感动」说 I was touched（D43）；「情绪上来了、快哭了」说 I'm getting emotional；emotional 不一定是贬义的「情绪化」，要看上下文。
+@v: high-speed train | = | phr. | ˌhaɪ ˌspiːd ˈtreɪn | 高铁 | 说城市之间怎么走、出差、回家 | take the high-speed train；by high-speed train；a high-speed train ticket | I took the high-speed train to Guangzhou. It was so fast. | 我坐高铁去的广州，特别快。 | 「坐高铁」说 take the high-speed train，不说 ✗ sit the high-speed rail；by high-speed train 里 train 前不加 the；美国人也常叫 bullet train。
+@v: apart | = | adv. | əˈpɑːrt | 分开；相隔（多远） | 说两个人或两个地方之间的距离 | far apart；live apart；ten minutes apart | Our apartments are only ten minutes apart. | 我们俩的住处只隔十分钟路程。 | 不要和 a part（一部分）混淆；「相隔多远」放在距离后面：two hours apart / far apart。
+@v: friendship | = | n. | ˈfrendʃɪp | 友谊；友情 | 说朋友之间的感情 | a real friendship；a long friendship；To our friendship! | Our friendship started in college. | 我们的友谊是从大学开始的。 | ship 读 `/ʃɪp/`；d 夹在 n 和 sh 中间几乎不发音，听起来像 fren-ship。
+@v: distance | = | n. | ˈdɪstəns | 距离 | 说远近、异地 | a long distance；a little distance；long-distance | Distance doesn't matter to real friends. | 对真正的朋友来说，距离不是问题。 | 「异地恋」叫 a long-distance relationship（relationship D56）；重音在前：DIS-tance，后面的 tance 很轻。
+@v: keep in touch | = | phr. | ˌkiːp ɪn ˈtʌtʃ | 保持联系 | 分别、换工作、毕业时 | Let's keep in touch.；keep in touch with sb；stay in touch | I still keep in touch with my college roommates. | 我和大学室友一直保持联系。 | 不说 ✗ keep contact / ✗ keep connection；「失去联系」说 lose touch；美国人告别时常随口说 Let's keep in touch.，真想联系就补一个具体安排。
+@v: come and visit | = | phr. | ˌkʌm ən ˈvɪzɪt | 来看看（我）；来（我这儿）玩 | 邀请朋友、家人到你住的地方 | come and visit me；come and visit sometime；come visit（美式口语） | You should come and visit us in Changsha. | 你应该来长沙找我们玩。 | 美式口语常省掉 and：Come visit me!；自己要去对方那里，也说 come：I'll come and visit you.——英文站在听话人的位置说「来」。
+@v: toast | = | n. | toʊst | 敬酒；祝酒词 | 聚餐、婚礼、欢送会上举杯 | make a toast；a toast to sb；propose a toast | I'd like to make a toast to the happy couple. | 我想为这对新人敬一杯。 | 「敬酒」说 make a toast，不说 ✗ respect the wine；toast 也是「吐司面包」，这时不可数：a piece of toast。
+@v: future | = | n. | ˈfjuːtʃər | 未来；前途 | 祝福、谈计划 | a bright future；in the future；To your future! | I want to live by the sea in the future. | 我以后想住在海边。 | 「将来、以后」说 in the future（要加 the）；「前程似锦」说 a bright future；tu 读 `/tʃ/`：FU-ture。
+@v: Good luck with | good luck with | phr. | ˌɡʊd ˈlʌk wɪð | 祝你……顺利；……加油 | 对方要开始新工作、考试、面试、比赛 | Good luck with your new job!；Good luck with the interview!；Good luck on your exam! | Good luck with your presentation tomorrow! | 明天的汇报加油！ | 「祝你工作顺利」不说 ✗ Wish you work smoothly；Good luck with + 名词；考试、比赛也常用 on：Good luck on your exam!
+@v: wish | = | v. | wɪʃ | 祝愿 | 送别、贺卡、郑重的祝福 | I wish you all the best.；wish sb luck；Best wishes | I wish you all the best in Shanghai. | 祝你在上海一切都好。 | 祝愿时 wish 后面接「人 + 名词」：wish you luck / wish you all the best；不接句子：✗ I wish you have a nice trip → ✓ I hope you have a nice trip.（wish + 句子是「但愿……（可惜不是）」）
+@v: luck | = | n. | lʌk | 运气 | 祝福、说成功的原因 | good luck；bad luck；Wish me luck! | It wasn't luck. You worked hard for it. | 这不是运气，是你努力得来的。 | luck 是名词，lucky 是形容词（第一册）：✗ I'm luck. → ✓ I'm lucky.；「祝我好运吧」说 Wish me luck!
+@v: Cheers | cheers | interj. | tʃɪrz | 干杯 | 举杯、碰杯时说 | Cheers!；Cheers to that!；Cheers, everyone! | Cheers, everyone! Happy Friday! | 大家干杯！周五快乐！ | 「干杯」不要直译成 ✗ Dry the cup!；Cheers! 只是碰杯，不代表要一口喝完；英式口语里 Cheers 还能表示「谢谢」，美国人较少这样用。
+@v: forever | = | adv. | fərˈevər | 永远 | 表达感情；口语夸张地说「好久」 | friends forever；last forever；It took forever. | The line was so long. It took forever! | 队排得太长了，等了半天！ | 美式写成一个词 forever；It took forever. 是夸张地说「花了好久」，不是真的「永远」。
+@v: goodbye | = | n./interj. | ˌɡʊdˈbaɪ | 再见；告别 | 郑重的分别、很久不会见面 | say goodbye to sb；This isn't goodbye.；a goodbye gift | I didn't get a chance to say goodbye to him. | 我没来得及跟他道别。 | 日常下班分开说 Bye! / See you!；Goodbye 听起来更郑重，像要很久不见；「跟某人道别」说 say goodbye to sb。
+
+@diff: 「保持联系」——Let's keep in touch.
+@d_cn: 要分开了，希望以后还常常联系、别断了。
+@d_en: Let's keep in touch. / Let's stay in touch. / We've kept in touch since college.
+@d_why: 中文「保持 + 联系」是动词 + 名词，学生很自然地直译成 ✗ keep contact 或 ✗ keep connection，美国人听得懂，但很别扭。英文的固定说法是 **keep in touch** / **stay in touch**——touch 是「接触」，in touch 就是「一直有接触」。反过来，「断了联系」说 **lose touch**。还有一个文化细节：美国人告别时常随口说 Let's keep in touch!，有时只是客气话；真想联系，就像林晓一样马上补一个**具体安排**：Video call every weekend?
+@d_when: 朋友、同学、同事分别；换工作、搬家、毕业；商务合作结束时也常用。
+@d_vs: **Let's keep in touch.** 我们保持联系吧。\n**We've stayed in touch since college.** 大学以后我们一直有联系。\n**We lost touch after high school.** 高中以后我们就断了联系。\n✗ Let's keep contact. / ✗ Let's keep connection.
+@d_task: 一位客户合作结束了，你想说「保持联系，以后来深圳记得找我们」。 | Let's keep in touch. Come and visit us when you're in Shenzhen.
+@diff: 「我会想你的」——I'm going to miss you.
+@d_cn: 分别之前，说自己以后会想念对方。
+@d_en: I'm going to miss you so much. / I'll miss you. / I miss you.
+@d_why: 中文一个「想」字有三个意思：「我想想」（思考）、「我想去」（想要）、「我想你」（想念）。英文分成三个词：think / want / **miss**。直译 ✗ I will think you 完全不通——think 后面要加 about / of，而且意思是「考虑」。时间也要对：还没分开、知道以后会想念 → **I'm going to miss you / I'll miss you**；已经分开、现在正想念 → **I miss you**（Day 35：Take care, Mom. I miss you.）；重逢的时候说 **I missed you!**，指的是分开的那段时间。
+@d_when: 送别、毕业、离职、家人或朋友出远门之前。
+@d_vs: **I'm going to miss you so much.** 我会特别想你的。（分别前）\n**I miss you.** 我想你了。（分开以后）\n**I missed you!** 可想你了！（重逢时，说分开的那段时间）\n✗ I will think you. / ✗ I'm thinking you.
+@d_task: Emma 要回美国休假一个月，你送她到电梯口，想说「我会想你的，玩得开心！」 | I'm going to miss you! Have a great time at home.
+@diff: 「祝你……顺利」——Good luck with… / I wish you all the best.
+@d_cn: 对方要开始一件新事情（新工作、考试、面试、比赛），你送上祝福。
+@d_en: Good luck with your new job! / I wish you all the best. / I hope you have a great trip.
+@d_why: 中文「祝你工作顺利」「祝你一路顺风」是固定的祝福套话，直译成 ✗ Wish you work smoothly 美国人会愣一下。英文最常用的是 **Good luck with + 名词**（your new job / the interview / the move）；考试、比赛也常用 on：Good luck on your exam!。更郑重、适合告别和贺卡的是 **I wish you all the best.**（或简短的 All the best!）。注意 wish 的结构：祝愿时是 **wish + 人 + 名词**（wish you luck），不接句子——要说「祝你旅途愉快」用 hope：✓ I hope you have a great trip. ✗ I wish you have a great trip.
+@d_when: 送别、换工作、对方要考试 / 面试 / 比赛；写贺卡、告别邮件和群消息。
+@d_vs: **Good luck with your new job!** 祝你新工作顺利！\n**Good luck with the interview!** 面试加油！\n**I wish you all the best.** 祝你一切都好。（郑重，常用在告别和卡片里）\n**I hope you have a great trip.** 祝你旅途愉快。\n✗ Wish you work smoothly. / ✗ I wish you have a great trip.
+@d_task: Kevin 下周有羽毛球比赛，Leo 明天要做实习汇报，分别送一句祝福。 | Good luck with your competition, Kevin! ／ Good luck with your presentation tomorrow, Leo!
+@diff: 「我们认识十年了」——We've known each other for ten years.
+@d_cn: 从认识那天到现在，已经十年了，而且还是朋友。
+@d_en: We've known each other for ten years. / We've known each other since middle school. / We met in middle school.
+@d_why: 中文「认识十年了」，动词「认识」不变，靠「十年了」表示一直持续到现在；英文要用现在完成时 **have known** + for / since（Day 31：Kevin and Tom have known each other since college.）。常见错误有三个：① ✗ We know each other ten years.（时态不对，又漏了 for）；② ✗ We've been knowing each other…（know 是状态动词，不用进行时）；③ 把「认识」的那一刻也说成 have known——「我们是初中认识的」是过去某一刻发生的事，用 **met**：We met in middle school.
+@d_when: 介绍朋友、讲友情、婚礼致辞、送别时回忆过去。
+@d_vs: **We've known each other for ten years.** 我们认识十年了。\n**We've known each other since middle school.** 我们从初中就认识了。\n**We met in middle school.** 我们是初中认识的。（认识的那一刻，过去时）\n✗ We know each other for ten years. / ✗ We've been knowing each other.
+@d_task: 用英文说：「我和吴佳认识两个月了，我们是我上班第一天认识的。」 | I've known Grace for two months. We met on my first day at SwiftLink.
+
+@core: Mei got a job offer in … | 说别人（或自己）拿到了工作机会 | Shanghai / a big company；got an offer from… | 正式：She has accepted a position in Shanghai.｜随意：She got an offer in Shanghai!
+@core: You really deserve it. | 祝贺对方得到好结果 | it / this job / a break | 正式：It's very well deserved.｜随意：You totally deserve it!
+@core: We've known each other for / since … | 说认识多久 | ten years / a long time；since middle school / since college | 正式：We've been friends for over ten years.｜随意：We go way back.
+@core: I'm going to miss you (so much). | 分别前表达不舍 | you / this place / our lunches | 正式：I'll really miss working with you.｜随意：Gonna miss you!
+@core: Let's keep in touch. + 具体安排 | 约好保持联系 | Video call every weekend? / Text me when you get there. | 正式：I hope we can stay in touch.｜随意：Keep in touch!
+@core: You have to come and visit (me). | 热情邀请对方来看你 | me / us；in Shanghai / this summer | 正式：You're always welcome to visit.｜随意：Come visit anytime!
+@core: I want to make a toast. To …! | 饭桌上举杯说两句 | your future / Mei / our friendship | 正式：I'd like to propose a toast.｜随意：Cheers, everyone!
+@core: Good luck with …! I wish you all the best. | 送上祝福 | your new job / the interview / the move | 正式：I wish you every success in your new position.｜随意：Good luck! You've got this.
+
+@pw: opportunity | ˌɑːpərˈtuːnəti | 5 个音节 op·por·TU·ni·ty | 主重音在 tu；美式 tu 读 `/tuː/`，不读 /tjuː/；后面的 nity 很轻
+@pw: career | kəˈrɪr | 2 个音节 ca·REER | 重音在后，和 here 押韵；ca 弱读成 `/kə/`；不要读成 Korea
+@pw: emotional | ɪˈmoʊʃənl | 4 个音节 e·MO·tion·al | 重音在 mo；tional 读 `/ʃənl/`，结尾的 l 舌尖要抬起来
+@pw: deserve | dɪˈzɜːrv | 2 个音节 de·SERVE | s 读 `/z/`，不读 /s/；serve 要卷舌
+@pw: future | ˈfjuːtʃər | 2 个音节 FU·ture | ture 读 `/tʃər/`，不读「秋」
+@pw: farewell | ˌferˈwel | 2 个音节 fare·WELL | 主重音在 well；fare 和 fair 同音 `/fer/`
+@ps: We've **known**‿each‿other for **ten years**. | We've 弱读成 `/wiv/`，v 很轻；known each other 连成 know-neach-other；for 弱读成 `/fər/`。
+@ps: I'm going to **miss**‿you / so **much**. | 口语常读成 I'm gonna miss you `/aɪm ˈɡʌnə ˈmɪʃu/`：s 和 y 碰在一起变成 `/ʃ/`，听起来像 mi-shu。
+@ps: Let's **keep**‿in **touch**. | keep in 连读成 kee-pin；touch 读重，句尾下降，语气真诚。
+@ps: And you **have to** come and **vis**it me. | have to 读成 `/ˈhæftə/`（hafta），v 变成 f；come and 里的 and 弱读成 `/ən/`：come-ən-visit。
+@pnote: 本课的缩读：We've known（`/wiv/`）、you've always（`/juv/`）、It's not luck、isn't。've 只是一个很轻的 v，正常语速下很容易漏听；听到 known / supported 这类过去分词，就要想到前面可能藏着 've。
+@pnote: 写 vs 说：书面写 I am going to / have to / did you，嘴上说 I'm gonna / hafta / didju。miss you、bless you 这类 s + y 会连成 `/ʃ/`。gonna 和 hafta 先做到**听得懂**；自己说可以用，但写邮件仍然写 going to / have to。
+@lfocus: We've known / you've always 里很轻的 've
+@lfocus: I'm going to → gonna；have to → hafta
+@lfocus: miss you 连读成 mi-shu
+@dict: S16–S18
+@dict: S23–S24
+@res: 在 youglish.com 输入 "keep in touch"，选 US，听美国人告别时怎么说这句话、后面常接什么。
+
+@mimic: 跟读【C】S3–S28：先逐句跟读，重点模仿 We've known each other for ten years. 的弱读和 I'm going to miss you 的 gonna 读法；再你演林晓、手机朗读小梅的台词，正常语速完整对一遍并录音，举杯那几句要读出真诚的语气。
+@swap: Mei got a job offer in Shanghai. | 换人和地方：Leo / Beijing；my cousin / Singapore | My cousin got a job offer in Singapore.
+@swap: We've known each other for ten years. | 换时间和人：since college / for two months；Grace and I | Grace and I have known each other for two months.
+@swap: Good luck with your new job! | 换事情：the interview / your exam / the move | Good luck with the move!
+@swap: I'm going to miss you so much. | 换对象：this team / our lunches / Shenzhen | I'm going to miss our lunches so much.
+@free: 你最好的朋友要去国外读书，你送她到机场。 | I'm going to miss you so much. Let's keep in touch. Video call every week?
+@free: 同事说他拿到了一个更好的工作机会，你祝贺他。 | Congratulations! You really deserve it. Good luck with your new job!
+@free: 新同事问你和你最好的朋友认识多久了（八年，大学认识的）。 | We've known each other for eight years. We met in college, and we're still really close.
+@free: 告别聚餐上，大家让你举杯说两句。 | I want to make a toast. To Jenny and her bright future! We're all going to miss you. Cheers!
+@output: 录 1.5 分钟语音或写 8–10 句话：「给一位要离开的朋友的告别话」——你们认识多久、怎么认识的 → 对方的新机会 → 你的感受（happy / sad / I'm going to miss you）→ 祝福（Good luck with… / I wish you all the best）→ 约定保持联系。
+@output_sample: My friend Jenny is moving to Hangzhou next week. We've known each other for six years. We met in college, and we were roommates for four years. Now she has a great job offer at a big tech company. I'm really happy for her, because she worked so hard for it. She really deserves it. But I'm a little sad, too. I'm going to miss our weekend dinners so much. Jenny, good luck with your new job! I wish you all the best. Let's keep in touch, and I'll come and visit you soon.
+
+@check: 「保持联系」说 Let's keep contact. 对吗？应该怎么说？ | 不自然。说 Let's keep in touch. 或 Let's stay in touch.
+@check: 下周就要分开了，你想说「我会想你的」；分开一个月后，在微信上说「我想你了」。 | 分开前：I'm going to miss you. / I'll miss you.；分开后：I miss you.
+@check: 「我和小梅初中就认识了」用 for 和 since 各说一遍；「我们是初中认识的」又怎么说？ | We've known each other for ten years. ／ We've known each other since middle school. ／ We met in middle school.（认识的那一刻用过去时）
+@check: 换个场景：Kevin 下周有羽毛球比赛。可以说 Wish you win! 吗？应该怎么说？ | 不可以。说 Good luck with your competition! 或 I hope you win!
+@check: 小梅说 It's a great opportunity for my career.，后来林晓说 A chance like this doesn't come every day!。opportunity 和 chance 有什么不同？ | 意思接近。opportunity 更正式，常指工作、学习上难得的好机会；chance 更口语，也可以表示「可能性」。
+@next1: 不看书说出 5 个锚点句：S2、S10、S14、S19、S24
+@next1: 用 keep in touch / I'm going to miss you / Good luck with… 各说一句告别的话
+@next7: 「认识多久」for / since 两种说法；met 和 have known 的区别
+@next7: 告别四句：I'm going to miss you. / Let's keep in touch. / Good luck with… / I wish you all the best.

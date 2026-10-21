@@ -1,0 +1,168 @@
+@day: 45
+@week: 3
+@title_cn: 找房子
+@title_en: Looking for an Apartment
+@topic: 租房看房：房型、房租、水电、押金、合同
+@think_short: 「押一付三」one month's deposit and three months' rent｜「包水电吗」Are utilities included?｜「找」look for ≠ find｜「离……近」close to / near（不加 from）
+
+@goal_scene: 跟中介看房：说出你要找的房型和位置，问清房租、水电和付款方式，觉得贵时礼貌地讲价，满意时当场定下来；还能向美国同事解释「押一付三」。
+@goal_expr: I'm looking for a one-bedroom apartment near work. / It's within walking distance of… / How much is the rent? / Are utilities included? / Can we negotiate? / one month's deposit and three months' rent / I'll take it.
+@goal_vocab: 20 个重点词 + 5 个短语：房型与格局、房租与费用、合同与付款、周边环境
+@done: 能用 2–3 句话向中介说明需求：房型、位置、预算
+@done: 能问出 4 个看房关键问题：房租多少、包不包水电、带不带家具、晚上吵不吵
+@done: 能用英文解释「押一付三」，并说出美国常见的付法（first month's rent + deposit，之后按月付）
+
+@warmup: 我们最后一直干到了半夜。 | We ended up working until midnight. | D40
+@warmup: 事后，大家都叫我英雄。 | Afterward, everyone called me a hero. | D40
+@warmup: 真不敢相信你在机场碰到了他。 | I can't believe you met him at the airport. | D41
+@warmup: 旅行怎么取消了？ | How come the trip was canceled? | D42
+@warmup: 有一天，一位老人拿着一封信走了进来。 | One day, an old man came in with a letter. | D43
+@warmup: 然后她坐地铁去上班。 | Then she takes the subway to work. | D2
+
+@scene: 周六上午。林晓现在住的合租房（就是 Day 38 停电的那套）房租便宜，可每天单程通勤要一个多小时。她决定搬到公司附近去住。这一周她已经看了四套房子，都太远；今天她跟着中介看一套一室一厅：老楼、没电梯，但离公司走路就能到。房租多少、包不包水电、押金怎么交、合同签多久，她都得一项项问清楚——深圳租房常见的「押一付三」，签约当天就要拿出一大笔钱。
+@sp: 人物关系 | 林晓 ↔ 中介：第一次见面的服务关系，客气但不拘谨；房东只在电话里出现，价钱通过中介来谈
+@sp: 沟通目的 | 说清楚自己要什么样的房子；问清房租、水电和付款方式；觉得贵就试着讲价，满意就当场定下来
+@sp: 已知信息 | 中介知道林晓在附近上班、预算不高；林晓不知道房租包不包水电，也不知道房东肯不肯降价
+@sp: 表达重点 | 我在找……（I'm looking for…）→ 离公司近（within walking distance）→ 房租多少、包不包水电 → 有点贵，能谈吗 → 押一付三 → I'll take it.
+
+@story_title: Episode 45 · I'll Take It
+@story_type: 叙述 + 对话
+@s: The **rent** for Lily's shared apartment is low, but her commute is over an hour. | 林晓合租的房子房租不高，可是单程通勤要一个多小时。
+@s: On Saturday, she meets an **agent** near the office. | 周六，她约了一个中介在公司附近见面。
+@br:
+@s: Agent: Hi, Lily! Tell me what you need. | 中介：林晓你好！说说你的要求吧。
+@s: Lily: I'm **looking for** a one-**bedroom** apartment near work. | 林晓：我想在公司附近找一套一室一厅。
+@s: Lily: I've seen four places, but they were all too far. | 林晓：我已经看了四套，可都太远了。
+@s: Agent: You'll love this one. It's **within walking distance** of your office. | 中介：这套你肯定喜欢，走路就能到你们公司。
+@br:
+@s: The building is old, and there's no elevator. | 楼有点旧，也没有电梯。
+@s: But the apartment on the sixth floor is clean and **sunny**. | 不过六楼这套房子很干净，采光也好。
+@s: The **living room** is small, and the **bathroom** looks new. | 客厅不大，卫生间看着是新装修的。
+@s: There's even a **balcony** for drying clothes. | 还有个阳台，可以晾衣服。
+@s: Lily: It's **furnished**, right? | 林晓：带家具家电的，对吧？
+@s: Agent: Yes, and the fridge is new. | 中介：对，冰箱还是新的。
+@s: Lily: Great. **How much is the rent**? | 林晓：太好了。房租多少？
+@s: Agent: 3,500 a month. | 中介：一个月三千五。
+@s: Lily: Are **utilities** **included**? | 林晓：包水电吗？
+@s: Agent: No. You pay for water and electricity by the **meter**. | 中介：不包，水电按表另算。
+@br:
+@s: Lily: Is it **noisy** at night? | 林晓：晚上吵吗？
+@s: Agent: Not really. The last **tenant** lived here for three years. | 中介：不怎么吵。上一个租客在这儿一住就是三年。
+@s: Agent: And there's a subway station and a supermarket **nearby**. | 中介：而且附近就有地铁站和超市。
+@s: Lily: That's **convenient**. But 3,500 is a bit high for me. | 林晓：挺方便的。不过三千五对我来说有点高。
+@s: Lily: Can we **negotiate** the rent? | 林晓：房租能再谈谈吗？
+@br:
+@s: The agent calls the **landlord**. | 中介给房东打了个电话。
+@s: Agent: Good news! He can do 3,300 if you sign a one-year **lease**. | 中介：好消息！你签一年的租约，他可以降到三千三。
+@s: Lily: That's more **affordable**. Do I pay **monthly**? | 林晓：这样我就负担得起了。是按月付吗？
+@s: Agent: Not here. The landlord wants one month's **deposit** and three months' rent. | 中介：这里不是。房东要押一付三。
+@s: Agent: After that, you pay every three months. | 中介：之后每三个月交一次。
+@s: That's 13,200 yuan today, but the place is perfect. | 今天就得付一万三千二，可这房子太合适了。
+@s: Lily: OK. **I'll take it**. | 林晓：好，这套我租了。
+@s: Agent: Great! Let's take photos of the meters and sign the lease. | 中介：太好了！我们先把水表电表拍照留底，然后签租约。
+
+@v: rent | = | n./v. | rent | 房租；租（房子） | 租房、和中介房东谈价钱 | pay the rent；the rent is due；rent an apartment | I pay the rent on the first of every month. | 我每个月一号交房租。 | 中文「租」不分方向，英文要分：租进来用 rent（I rent an apartment），租出去用 rent out（She rents out her old apartment）；「借」是 borrow / lend（Day 15），不付钱、要还东西——「租车」说 rent a car，不说 ✗ borrow a car。
+@v: agent | = | n. | ˈeɪdʒənt | 中介；（房产）经纪人 | 找房、看房、签合同 | a rental agent；a real estate agent；through an agent | We found the apartment through an agent. | 我们是通过中介找到这套房子的。 | 「中介」不要说 ✗ middleman（带贬义，像「二道贩子」）；租房中介是 agent，美国人也说 broker 或 realtor。开头是元音 `/eɪ/`，所以是 **an** agent。
+@v: looking for | look for | phr. | ˈlʊkɪŋ fər | 在找；寻找（找的过程） | 找房子、找工作、找丢了的东西 | look for an apartment；look for a job；What are you looking for? | I'm looking for my keys. Have you seen them? | 我在找我的钥匙，你看见了吗？ | look for 是「找」的过程，find 是「找到」的结果：✗ I'm finding an apartment. → ✓ I'm looking for an apartment.；for 不能丢：✗ look an apartment。
+@v: bedroom | = | n. | ˈbedruːm | 卧室；（说房型时）室 | 说房型：一室、两室 | a one-bedroom apartment；a two-bedroom place；the master bedroom | We live in a two-bedroom apartment. | 我们住的是两室一厅。 | 「一室一厅」= a one-bedroom (apartment)，美国人不把客厅算进名字里；「两室一厅」= a two-bedroom。one-bedroom 中间有连字符，bedroom 不加 s：✗ a one-bedrooms apartment。
+@v: within walking distance | = | phr. | wɪˌðɪn ˈwɔːkɪŋ ˌdɪstəns | 走路就能到；步行可达 | 说房子离公司、地铁、学校近 | within walking distance of…；It's within walking distance. | The school is within walking distance of our home. | 学校离我们家走路就能到。 | 后面接地点用 of：within walking distance **of** the office，不用 from；口语更常直接说时间：It's a ten-minute walk from the office.
+@v: sunny | = | adj. | ˈsʌni | （房间）阳光充足的；采光好的 | 看房时说采光；也说天气晴 | a sunny room；sunny and bright；a sunny day | The bedroom is sunny in the morning. | 卧室早上阳光很好。 | 中国人看房讲「朝南」「南北通透」，美国人很少说 south-facing，更常说 It's sunny. / It gets a lot of light.；sunny 也是天气「晴」：It's sunny today.
+@v: living room | = | phr. | ˈlɪvɪŋ ˌruːm | 客厅 | 介绍房子的格局 | in the living room；a big living room；living room furniture | Let's watch a movie in the living room. | 我们去客厅看电影吧。 | 「客厅」不说 ✗ guest room——guest room 是「客房」（给客人睡的房间）；重音在 living 上，room 读得轻一些。
+@v: bathroom | = | n. | ˈbæθruːm | 卫生间；浴室 | 看房、在朋友家问卫生间在哪儿 | a shared bathroom；clean the bathroom；Where's the bathroom? | Can I use your bathroom? | 我能用一下你家的卫生间吗？ | 在家里、朋友家说 bathroom；商场、公司等公共场所说 restroom（Day 3）；toilet 在美国多指「马桶」本身，问 ✗ Where's the toilet? 会显得太直白。
+@v: balcony | = | n. | ˈbælkəni | 阳台 | 介绍房子、说晾衣服的地方 | on the balcony；a small balcony；dry clothes on the balcony | I grow tomatoes on my balcony. | 我在阳台上种西红柿。 | 中国家庭的阳台用来晾衣服、放洗衣机；美国大多数家庭用烘干机（dryer），阳台是坐坐、喝咖啡的地方，有的公寓还不让在阳台晾衣服。「在阳台上」用 on。
+@v: furnished | = | adj. | ˈfɜːrnɪʃt | 带家具家电的 | 租房时问是不是「拎包入住」 | fully furnished；a furnished apartment；unfurnished | The apartment is fully furnished, so you only need to bring your clothes. | 房子家具家电齐全，你只要带衣服过来就行。 | 「拎包入住」就是 fully furnished；反义词 unfurnished（空房）。美国的 unfurnished 公寓通常也带冰箱和炉灶，只是没有床和沙发。-ed 读 `/t/`。
+@v: How much is the rent | How much is the rent? | phr. | ˌhaʊ ˈmʌtʃ ɪz ðə ˈrent | 房租多少钱？ | 看房、打电话问房源 | How much is the rent?；How much is the deposit?；How much is it a month? | How much is the rent for the two-bedroom? | 那套两室的房租多少？ | rent 前面要有 the；美国人报房租默认是「每月」：It's 1,800.＝一个月 1800 美元。听回答时注意数字常读成 thirty-five hundred（3,500）。
+@v: utilities | = | n. | juːˈtɪlətiz | 水电燃气等费用 | 问房租包不包水电 | utilities included；pay the utilities；utility bills | Utilities are about 300 yuan a month. | 水电燃气一个月大概 300 块。 | 「水电费」说 utilities 或 utility bills，这个意思总用复数；不说 ✗ water and electricity fee。美国的 utilities 一般指电、燃气、水和垃圾费，网费常常另算。
+@v: included | = | adj. | ɪnˈkluːdɪd | 包含在内的 | 问价格里包不包某项费用 | be included；included in the rent；Is breakfast included? | Is breakfast included in the price? | 房价含早餐吗？ | 「包不包」直接问 Is … included?，不说 ✗ Does it contain utilities?（contain 是「容器里装着」）；included 也可以放在名词后：with utilities included。
+@v: meter | = | n. | ˈmiːtər | （水、电、燃气的）表 | 租房交接、抄表、算水电费 | an electricity meter；a water meter；read the meter | Please take a photo of the meter on your first day. | 入住第一天请把电表拍个照。 | 「抄表」说 read the meter。在深圳按表把水电费交给房东很常见；城中村的电价有时高于国家标准，签约前问清楚：How much is electricity per kilowatt-hour?（一度电多少钱？）
+@v: noisy | = | adj. | ˈnɔɪzi | 吵闹的 | 看房时问周边环境 | a noisy street；noisy neighbors；It gets noisy at night. | My old apartment was next to a noisy street. | 我以前的房子就在一条很吵的街边上。 | noisy 是形容词，noise 是名词（Day 25）：✓ It's noisy. ✓ There's a lot of noise. ✗ It's very noise.；说一个地方吵用 noisy，说某个声音大用 loud（Day 17）：The music is loud.
+@v: tenant | = | n. | ˈtenənt | 租客；房客 | 说住在这里的人、合同上的身份 | the last tenant；a new tenant；tenants' rights | The landlord is looking for a new tenant. | 房东在找新租客。 | 合同里的「甲方（出租方）」是 landlord，「乙方（承租方）」是 tenant；「上一个租客」说 the last tenant 或 the previous tenant。重音在前：TEN-ant。
+@v: nearby | = | adv./adj. | ˌnɪrˈbaɪ | 在附近；附近的 | 说周边有什么：地铁、超市、学校 | There's … nearby.；a nearby park；live nearby | Is there a pharmacy nearby? | 附近有药店吗？ | nearby 后面不跟地点：✓ There's a supermarket nearby. ✓ near the office ✗ nearby the office；放在句尾时重音在 by 上。
+@v: convenient | = | adj. | kənˈviːniənt | 方便的 | 说位置、时间对自己方便 | a convenient location；convenient for…；Is ten convenient for you? | Is Friday afternoon convenient for you? | 周五下午你方便吗？ | convenient 说的是时间、地点、东西「方便」，不能用人做主语：「我不方便」✗ I'm not convenient. → ✓ It's not a good time for me.；「你方便吗」✓ Is it convenient for you?
+@v: negotiate | = | v. | nɪˈgoʊʃieɪt | 谈（价钱）；协商 | 讲价、谈合同条件 | negotiate the rent；negotiate a price；Is the rent negotiable? | We negotiated the price, and he gave us a discount. | 我们讲了价，他给了个折扣。 | 在中国租房讲价很正常；美国的大型公寓楼房租基本是定好的，私人房东才有商量余地。negotiate 有点正式，口语讲价常说 Can you do 3,300? / Is the rent negotiable?；ti 读 `/ʃi/`。
+@v: landlord | = | n. | ˈlændlɔːrd | 房东 | 租房、交房租、报修 | the landlord；call the landlord；a nice landlord | Our landlord fixed the shower in one day. | 我们房东一天就把淋浴修好了。 | 「房东」不说 ✗ house owner / home master；女房东可以说 landlady，但现在多数人男女都说 landlord。深圳城中村常见的「二房东」英文没有固定说法，说 the person I rent from 就行。
+@v: lease | = | n./v. | liːs | 租约；租房合同 | 签租房合同、说合同期限 | sign a lease；a one-year lease；the lease ends | Our lease ends in June. | 我们的租约六月到期。 | 中文都叫「合同」，英文租房合同专门叫 lease，一般的合同才叫 contract（Day 33）；「签一年」说 sign a one-year lease，不说 ✗ sign a lease of one year。
+@v: affordable | = | adj. | əˈfɔːrdəbl | 负担得起的；价格合理的 | 说价钱在自己的承受范围内 | affordable rent；more affordable；affordable housing | It's hard to find an affordable apartment in a big city. | 在大城市很难找到租得起的房子。 | 说「便宜」时，affordable 比 cheap（Day 20）好听：cheap 有时带「便宜没好货」的意思，affordable 是「价格合理、我付得起」。动词是 afford：I can't afford it.（我负担不起。）
+@v: monthly | = | adv./adj. | ˈmʌnθli | 按月（付）；每月的 | 说付款方式、每月的费用 | pay monthly；monthly rent；a monthly bill | I pay my phone bill monthly. | 我的话费按月交。 | 美国的房租几乎都按月付；中国常见「押一付三」，三个月交一次，这时就不是 monthly，而是 every three months。th 后紧跟 l：舌尖咬一下马上抬起来。
+@v: deposit | = | n. | dɪˈpɑːzɪt | 押金 | 租房、租东西时先交的钱 | a security deposit；pay a deposit；get the deposit back | You'll get your deposit back when you leave. | 退租的时候押金会退给你。 | 租房押金在美国正式叫 security deposit；deposit 在银行里还是「存款」（Day 48）。中文的「定金」（先交一笔钱把房子留住）可以说 a holding deposit。重音在第二个音节：de-POS-it。
+@v: I'll take it | = | phr. | aɪl ˈteɪk ɪt | 就它了；这个我要了（租 / 买） | 看房、买东西时当场做决定 | I'll take it.；I'll take this one.；I'll take two. | This one is perfect. I'll take it. | 这个太合适了，就要它了。 | 「我租了 / 我要了」不说 ✗ I want it. 也不说 ✗ I rent it.——I'll take it 是做决定那一刻最自然的说法，will 表示「我此刻决定」；I'll 读 `/aɪl/`，不要读成 I will。
+
+@diff: 「押一付三」——one month's deposit and three months' rent
+@d_cn: 签约时先交一个月房租做押金，再一次付三个月房租；以后每三个月交一次。
+@d_en: The landlord wants one month's deposit and three months' rent. / After that, you pay every three months.
+@d_why: 「押一付三」是四个字的固定说法，英文没有对应的词，只能**把规则讲出来**：one month's deposit（一个月的押金）and three months' rent（三个月的房租）。注意所有格的写法：one month**'s**、three months**'**（复数的撇号在 s 后面）。美国的习惯不一样：签约时一般付 **first month's rent + a security deposit**（第一个月房租加押金，押金通常相当于一个月房租，有的还要加 last month's rent），之后**每月**交；房东还常常要看收入证明和信用记录。深圳的中介费常是半个月到一个月房租，由租客出；美国大部分地方租客不付中介费（少数城市例外）。跟美国人解释时，先讲规则，再对比：In the US, you pay monthly, right?
+@d_when: 跟中介、房东确认付款方式；跟外国同事解释中国的租房规矩。
+@d_vs: **The landlord wants one month's deposit and three months' rent.** 房东要押一付三。\n**In the US, you pay the first month's rent and a security deposit. Then you pay monthly.** 美国：第一个月房租加押金，之后按月付。\n**押二付一 = two months' deposit and one month's rent**\n✗ Deposit one, pay three.（逐字直译，美国人听不懂）
+@d_task: Emma 问你「押一付三」是什么意思。用两句话解释，再反问她美国怎么付。 | It means you pay one month's deposit and three months' rent when you sign the lease. After that, you pay every three months. How does it work in the US?
+@diff: 「包水电吗？」——Are utilities included?
+@d_cn: 想知道房租里含不含水费、电费（还有燃气、网费、物业费）。
+@d_en: Are utilities included? / Is internet included? / Does the rent include utilities?
+@d_why: 中文用一个「包」字，主语是「房租」；英文换成 **be included**（被包含在内），主语是「费用」：Are utilities included? 「水电燃气」英文不一个个列，用 **utilities**（总是复数）概括。在深圳，水电一般**不包**，按表交给房东，所以最好再问一句电费单价；美国的公寓有的含水费和垃圾费，电费、燃气、网费多数自己付，租房广告上会写 utilities included 或 tenant pays utilities。
+@d_when: 看房、打电话问房源、看租房广告时。
+@d_vs: **Are utilities included?** 包水电吗？\n**Is internet included?** 包网费吗？\n**No, utilities are extra.** 不包，水电另算。\n✗ Does the rent contain water and electricity?\n✗ Is it including utilities?
+@d_task: 用英文问中介：「包网费吗？物业费谁出？」（物业费 = the management fee） | Is internet included? Who pays the management fee?
+@diff: 「我在找房子」——look for 还是 find？
+@d_cn: 「找」既可以是「在找」（过程），也可以是「找到了」（结果）；「房子」在城市里通常是一套公寓。
+@d_en: I'm looking for an apartment. / I found an apartment. / I can't find my keys.
+@d_why: 中文一个「找」字包含过程和结果，靠「在」「到」来区分；英文用两个词：**look for** 是寻找的过程，**find** 是找到的结果。所以「我在找房子」是 I'm looking for…，不能说 ✗ I'm finding an apartment.；「找到了」才用 found。另外，中文的「房子」要分清：城市里的一套房是 **apartment**，**house** 是独栋的房子（带院子、有好几层）。在深圳说 I'm looking for a house，美国人会以为你要租一栋独栋别墅。
+@d_when: look for：正在找、还没找到；find：找到了，或者找不到（can't find）。
+@d_vs: **I'm looking for an apartment.** 我在找房子。（还没找到）\n**I found an apartment near work!** 我在公司附近找到房子了！\n**I can't find my keys.** 我找不到钥匙了。\n✗ I'm finding an apartment.\n**house** = 独栋房子；**apartment** = 一套公寓
+@d_task: 用英文说：① 我在找离地铁近的房子。② 我上周末找到了一套一室一厅。 | ① I'm looking for an apartment near the subway. ② I found a one-bedroom apartment last weekend.
+@diff: 「离公司近」——close to work / within walking distance
+@d_cn: 说一个地方离另一个地方不远。
+@d_en: It's close to work. / It's near the office. / It's within walking distance of the office. / It's a ten-minute walk from here.
+@d_why: 中文「离 A 近」里有个「离」，很多人就顺手加上 from：✗ near from the office。英文 **near** 本身就是介词，后面直接跟地点：near the office；**close** 要加 to：close to work（这里的 close 读 `/kloʊs/`，和 Day 42 的动词 close `/kloʊz/`「关门」读音不同）。只有 **far** 才用 from：far from work。想说得更具体，美国人喜欢直接说时间：It's a ten-minute walk. / It's within walking distance. 另外，「上班的地方」口语常说 work，不加 the：near work、close to work。
+@d_when: 看房、描述住址、推荐餐厅或说地铁站在哪儿时。
+@d_vs: **It's near the office.** 离公司近。\n**It's close to work.** 离上班的地方近。\n**It's far from work.** 离公司远。\n**It's a ten-minute walk from the office.** 离公司走路十分钟。\n✗ It's near from the office.\n✗ It's close the office.
+@d_task: 用两种说法告诉 Emma：「我的新家离公司很近，走路十分钟。」 | My new place is close to work. It's a ten-minute walk from the office.
+
+@core: I'm looking for + 房型 + near… | 跟中介说需求 | a one-bedroom apartment / a studio / a two-bedroom；near work / near Line 1 | 正式：I'm looking for a one-bedroom apartment within walking distance of my office.｜随意：I need a one-bedroom near work.
+@core: How much is the rent? | 问房租 | the rent / the deposit / the agent's fee | 正式：What's the monthly rent?｜随意：How much a month?
+@core: Are utilities included? | 问包不包水电等费用 | utilities / internet / the management fee（物业费） | 正式：Does the rent include utilities?｜随意：Is that with utilities?
+@core: Is it furnished? / Is it noisy at night? | 看房时问房子本身的情况 | furnished / noisy / sunny / close to the subway | 正式：Does the apartment come furnished?｜随意：Does it come with furniture?
+@core: It's within walking distance of… | 说离某地很近 | the office / the subway station / a supermarket | 正式：It's a ten-minute walk from the office.｜随意：It's super close to work.
+@core: … is a bit high for me. Can we negotiate? | 委婉地讲价 | the rent / the deposit / the price | 正式：Is there any flexibility on the rent?｜随意：Can you do 3,300?
+@core: The landlord wants one month's deposit and three months' rent. | 说明付款方式 | one month's / two months' deposit；three months' / one month's rent | 正式：The terms are one month's deposit plus three months' rent in advance.｜随意：It's one month's deposit, and you pay three months at a time.
+@core: I'll take it. | 当场做决定：租了 / 买了 | I'll take it. / I'll take this one. | 正式：I'd like to go ahead with this apartment.｜随意：Perfect. I'll take it!
+
+@pw: utilities | juːˈtɪlətiz | 4 个音节 u·TIL·i·ties | 重音在第二个音节；后面的 t 在美式口语里常闪音，像轻轻的 d：u-TIL-a-deez
+@pw: deposit | dɪˈpɑːzɪt | 3 个音节 de·POS·it | 重音在中间；s 读 `/z/`，不读 `/s/`
+@pw: convenient | kənˈviːniənt | 4 个音节 con·VEN·i·ent | 重音在 ven，`/iː/` 要拉长；con 弱读成 `/kən/`
+@pw: negotiate | nɪˈgoʊʃieɪt | 4 个音节 ne·GO·ti·ate | 重音在 go；ti 读 `/ʃi/`（像「希」），不读 `/ti/`
+@pw: affordable | əˈfɔːrdəbl | 4 个音节 af·FOR·da·ble | 重音在 for，要卷舌；结尾 -able 读 `/əbl/`，很轻
+@pw: balcony | ˈbælkəni | 3 个音节 BAL·co·ny | 重音在第一个音节；`/æ/` 嘴张大，别读成「保」
+@pw: tenant | ˈtenənt | 2 个音节 TEN·ant | 重音在前；第二个音节弱读成 `/ənt/`
+@ps: I'm **look**ing for‿a one-**bed**room‿a**part**ment / near **work**. | for 弱读成 `/fər/`，和 a 连成 `/fərə/`；one-bedroom 的重音在 bed，apartment 的重音在 part。
+@ps: Are‿u**til**ities in**clud**ed? ↗ | Are 弱读成 `/ər/`，和 utilities 连在一起；一般疑问句句尾上扬。
+@ps: The **land**lord wants / one **month's** de**pos**it / and **three** months' **rent**. | 分三块读；months' 读 `/mʌnθs/`：舌尖轻咬一下马上滑到 s，别加元音读成「蒙斯」。
+@ps: **O**K. / I'll **take**‿it. | I'll 读 `/aɪl/`，只有一个音节；take it 连成 `/teɪkɪt/`，it 的 t 几乎不爆破。
+@pnote: 房租数字的读法：3,500 口语常说 **thirty-five hundred**，3,300 是 **thirty-three hundred**，13,200 说 **thirteen thousand two hundred**。听到「两位数 + hundred」要马上反应过来是「几千几百」。合同上写的是数字，美国人嘴上更爱用 hundred 的说法。
+@pnote: 本课的缩读：I've seen 的 **I've** 只剩 `/aɪv/`，说快了几乎只听到一个 v；**there's**、**it's**、**that's**、**you'll**、**I'll** 都只有一个音节。中介说话快，want to 常变成 **wanna**（Do you wanna see the balcony?），听懂就行，自己写的时候仍写 want to。
+@lfocus: 数字：thirty-five hundred ＝ 3,500
+@lfocus: for / are / to 的弱读
+@lfocus: I've / you'll / I'll / there's 的缩读
+@dict: S15–S16
+@dict: S25–S26
+@res: 在 youglish.com 输入 "utilities included"，选 US
+
+@mimic: 跟读【C】S3–S29：先正常语速逐句跟读，重点模仿 Are utilities included? 的上扬语调和 one month's deposit 的读法；再由你演林晓、手机朗读中介的台词，完整对一遍并录音。
+@swap: I'm looking for a one-bedroom apartment near work. | 换房型和位置：a studio（单间）/ a two-bedroom apartment；near Line 1 / near my school | I'm looking for a studio near Line 1.
+@swap: Are utilities included? | 换费用：internet / the management fee / parking；再追问一句价格 | Is internet included? How much is it a month?
+@swap: It's within walking distance of the office. | 换地点：the subway station / a hospital / the park；或换成「走路几分钟」 | It's a five-minute walk from the subway station.
+@swap: The landlord wants one month's deposit and three months' rent. | 换规矩：two months' deposit and one month's rent（押二付一）／ one month's deposit and one month's rent（押一付一） | The landlord wants two months' deposit and one month's rent.
+@free: 中介问 What are you looking for?（你想找一室一厅，离公司近，预算 3000 左右） | I'm looking for a one-bedroom apartment near work. My budget is about 3,000 a month.
+@free: 中介说房租 3,800。你想知道包不包水电，也觉得有点贵，想讲价（你可以签两年） | Are utilities included? 3,800 is a bit high for me. Can we negotiate? I can sign a two-year lease.
+@free: 看完房你很满意，决定租下来，再问什么时候能签合同 | It's perfect. I'll take it. When can we sign the lease?
+@free: Emma 问你：What's 押一付三? | It means one month's deposit and three months' rent. You pay all of it when you sign the lease, and then you pay every three months. In the US, you pay monthly, right?
+@output: 录 1.5 分钟「我的找房经历」，或写 8–10 句：为什么想搬 → 在找什么样的房子（look for）→ 看到的房子什么样（sunny / balcony / noisy / within walking distance）→ 房租、水电、付款方式 → 最后的决定。没有租房经历，就介绍你现在住的地方，或你理想中的房子。
+@output_sample: My commute is over an hour, so I'm looking for an apartment near work. Last Saturday, I saw a one-bedroom apartment with an agent. It's within walking distance of my office. The building is old, and there's no elevator, but the apartment is clean and sunny. There's a small balcony, and it's furnished. The rent is 3,500 a month, and utilities aren't included. I thought it was a bit high, so I asked, "Can we negotiate?" The landlord agreed to 3,300 for a one-year lease. He wants one month's deposit and three months' rent, so I paid 13,200 yuan. It's a lot of money, but now I can walk to work!
+
+@check: 「押一付三」用英文怎么说？美国人一般怎么付房租？ | one month's deposit and three months' rent；美国一般签约时付 first month's rent + a security deposit，之后按月付（monthly）。
+@check: 「我在找房子」和「我找到房子了」分别怎么说？为什么不能说 I'm finding an apartment? | I'm looking for an apartment. / I found an apartment. look for 是找的过程，find 是找到的结果，「在找」只能用 look for。
+@check: 「离地铁站近」能不能说 near from the subway station？给出两种正确说法。 | 不能。near 后面直接跟地点：It's near the subway station. / It's close to the subway station.（也可以说 It's within walking distance of the subway station.）
+@check: 中介说 Utilities are extra.，你以后每个月要额外付哪些钱？在深圳一般怎么交？ | 水、电（还有燃气）等费用不包含在房租里；在深圳通常按水表、电表的读数（by the meter）交给房东。
+@check: 你在深圳跟美国朋友说 I'm looking for a house.，他可能会怎么理解？应该怎么说？ | 他可能以为你要找一栋独栋房子。城市里的一套房说 apartment：I'm looking for an apartment.
+@next1: 不看书说出 5 个锚点句：S4、S13、S15、S25、S28
+@next1: 用 look for 和 find 各说一句关于你自己的话
+@next7: 用英文给外国朋友解释「押一付三」，并和美国的付法对比
+@next7: 看房 5 问：How much is the rent? / Are utilities included? / Is it furnished? / Is it noisy at night? / Can we negotiate?

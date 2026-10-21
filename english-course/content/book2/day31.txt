@@ -1,0 +1,165 @@
+@day: 31
+@week: 1
+@title_cn: 你在深圳住多久了
+@title_en: How Long Have You Lived Here?
+@topic: 聊在一个城市住了多久、在公司做了多久、彼此认识多久；介绍出生地和家乡
+@think_short: 「住了两年了」I've lived… for｜for 一段时间 vs since 起点｜「来多久了」How long have you…?｜「出生在」I was born in
+
+@goal_scene: 午饭时和美国同事、本地同事聊「我们在深圳住了多久」：问别人住了多久、在公司做了多久、彼此认识多久，再介绍自己在哪里出生、在哪里长大。
+@goal_expr: How long have you lived in Shenzhen? / I've lived here for two years. / I've worked at SwiftLink for five weeks. / I was born in Hunan, but I grew up in Changsha. / Kevin and Tom have known each other since college. / I've lived here all my life.
+@goal_vocab: 20 个重点词 + 5 个短语：家乡与出身、气候与南北、语言与文化、时间长度（since / decade）
+@done: 被问 How long have you lived / worked…? 时，用 I've … for … 回答，不再说 ✗ I live here two years.
+@done: 分清 for + 一段时间 和 since + 起点，并能说出 How long have you been here? 和 How long are you here? 的区别
+@done: 用 3–4 句话介绍自己的出身：在哪里出生、在哪里长大、什么时候搬来、在这里住了多久
+
+@warmup_hint: 第二册的第一课，6 句热身全部来自第一册的最后几天：Day 30 的月会、Day 29 的视频会、Day 28 的包裹。最后一句专练第一册的薄弱项——says 的 -s 和 didn't arrive 的过去式。遮住答案，5 秒内说出英文；说不出的打 ★，翻回原课把那句读 3 遍。
+@warmup: 一个月前，我特别紧张。 | A month ago, I was so nervous. | D30
+@warmup: 多亏了大家，我的英语进步了。 | Thanks to all of you, my English got better. | D30
+@warmup: 我想提高听力，这样就能听懂您说话了，Mike！ | I want to improve my listening, so I can understand you, Mike! | D30
+@warmup: 你是新来的吧？——是的，我三周前入职的。 | You're new, right? — Yes, I joined three weeks ago. | D29
+@warmup: 你不用新的看板，对吧？——对，我不用。 | You don't use the new dashboard, right? — No, I don't. | D29
+@warmup: 有位客户说包裹没到。 | A customer says the package didn't arrive. | D28
+
+@scene: 入职第二个月的第一个周一，中午，林晓端着餐盘坐到了 Emma 和 Kevin 旁边。Emma 来自西雅图，在深圳已经住了两年；Kevin 是土生土长的深圳人，原来还和张涛是大学同学。聊着聊着，话题从深圳的天气转到了各自的家乡。林晓发现，「我在深圳住了三年了」这样一句再简单不过的中文，英文却要换一种动词形式才能说对。
+@sp: 人物关系 | 林晓 ↔ Emma、Kevin：一起吃过好几次午饭的同事，已经很熟，可以随意聊天、开玩笑
+@sp: 沟通目的 | 互相了解：在深圳住了多久、家乡在哪、谁和谁是老朋友；顺便聊聊南北方的气候和语言差别
+@sp: 已知信息 | 林晓知道 Emma 是美国人，但不清楚她来了多久；Emma 分不清湖南和长沙是什么关系；两人都不知道 Kevin 和张涛是大学同学
+@sp: 表达重点 | 持续到现在的事用 I've + 过去分词 + for / since（住了两年、工作了五周、从大学起就认识）→ 出生、长大用 was born / grew up → 过去的一个时间点（毕业、搬家、十多年前）用过去式
+
+@story_title: Episode 31 · How Long Have You Lived Here?
+@story_type: 叙述 + 对话
+@s: On Monday, Lily has lunch with Emma and Kevin. | 周一中午，林晓和 Emma、Kevin 一起吃午饭。
+@br:
+@s: Lily: So, Emma. **How long have you** **lived** in Shenzhen? | 林晓：对了，Emma，你在深圳住了多久了？
+@s: Emma: I've lived here for two years. | Emma：我在这儿住了两年了。
+@s: Lily: Is it hard to live in a **foreign** country? | 林晓：在国外生活难吗？
+@s: Emma: Sometimes. The **language** is hard, but I love the **culture**. | Emma：有时候挺难的。语言很难，不过我很喜欢这里的文化。
+@s: Emma: The **climate** is different, too. **Summer** here is so hot and **humid**! | Emma：气候也不一样。这里的夏天又热又潮！
+@s: Kevin: But **winter** is short and warm. | Kevin：可冬天又短又暖和呀。
+@s: Lily: Not in my home **province**. It's freezing! | 林晓：我们省可不是，冬天冷得要命！
+@s: Emma: Don't you have heating? | Emma：你们没有暖气吗？
+@s: Lily: No, we don't. The **north** has heating, but the **south** doesn't. | 林晓：对，没有。北方有暖气，南方没有。
+@br:
+@s: Kevin: So where's your **hometown**, Lily? | Kevin：那你老家是哪儿的，林晓？
+@s: Lily: I was **born** in Hunan, but I **grew up** in Changsha. | 林晓：我是在湖南出生的，不过是在长沙长大的。
+@s: Emma: Wait. Isn't Changsha in Hunan? | Emma：等等，长沙不就在湖南吗？
+@s: Lily: Yes! I mean, I was born in a small town. | 林晓：对呀！我是说，我出生在一个小镇上。
+@s: Kevin: Ha! That's why your Mandarin has a little Hunan **accent**. | Kevin：哈！怪不得你的普通话带点湖南口音。
+@s: Emma: Kevin, you're a real **local**, right? | Emma：Kevin，你是地地道道的本地人，对吧？
+@s: Kevin: Yep. I've lived here **all my life**, except for **college**. | Kevin：对。我一直住在这儿，只有上大学那几年不在。
+@s: Kevin: My grandparents still speak a Hakka **dialect**. | Kevin：我爷爷奶奶现在还说客家话。
+@br:
+@s: Emma: Did you go to college with Tom? | Emma：你和张涛是大学同学吗？
+@s: Kevin: Yes. We **got to know** each other in our first year. | Kevin：是的。我们大一就认识了。
+@s: Kevin and Tom have known each other **since** college. | Kevin 和张涛从大学起就认识了。
+@s: Kevin: After we **graduated**, Tom **moved to** Shenzhen. That was over a **decade** ago. | Kevin：毕业以后，张涛搬来了深圳。那已经是十多年前的事了。
+@s: Emma: What about you, Lily? | Emma：你呢，林晓？
+@s: Lily: Three years. I've worked at SwiftLink for five weeks. | 林晓：我来深圳三年了。在 SwiftLink 工作了五周。
+@s: Emma: Only five weeks? It feels much longer! | Emma：才五周？感觉好像久多了！
+
+@v: How long have you | how long have you…? | phr. | ˌhaʊ ˈlɔːŋ həv ju | 你……多久了？（问一件从过去持续到现在的事） | 聊天时问对方住了多久、工作了多久、认识某人多久 | How long have you lived here?；How long have you worked at…?；How long have you known…? | How long have you worked in customer service? | 你做客服多久了？ | 问「已经多久了」要用 have + 过去分词：✗ How long do you live here?（听起来像在问习惯，很别扭）✗ How long you live here?；回答别漏 for：I've lived here for two years.，口语也可以只说 For two years. / Two years.
+@v: lived | live | v. | lɪvd | 住；生活 | 说住在哪里、在一个城市生活了多久 | live in Shenzhen；live with my parents；live near the office | I live near the office, so I walk to work. | 我住在公司附近，所以走路上班。 | live 后面跟城市、国家要加 in：✗ I live Shenzhen. ✓ I live in Shenzhen.；动词 live 读 `/lɪv/`（短 i），形容词 live（直播的、现场的）读 `/laɪv/`，别读混。
+@v: foreign | = | adj. | ˈfɔːrən | 外国的 | 说在国外生活、外语、外国公司 | a foreign country；a foreign language；foreign companies | Do you speak a foreign language? | 你会说外语吗？ | g 不发音，读 `/ˈfɔːrən/`；「出国」说 go abroad（D10），不说 ✗ go to foreign；当面叫人 foreigner（老外）可能让人觉得被当成外人，介绍时说 She's from the US. / She's American. 更好。
+@v: language | = | n. | ˈlæŋgwɪdʒ | 语言 | 说学语言、会说什么话 | learn a new language；a foreign language；body language | Chinese is a hard language to learn. | 中文是一门很难学的语言。 | 可数名词单数前要有 a / the：✗ learn new language → ✓ learn a new language；u 读 `/w/`：lang-gwij，不读 lang-gu-age。
+@v: culture | = | n. | ˈkʌltʃər | 文化 | 聊各地的习俗、饮食、生活方式 | Chinese culture；culture shock；a different culture | Food is a big part of Chinese culture. | 美食是中国文化很重要的一部分。 | 说一个国家的文化不加 the：✓ I love Chinese culture.；后面有限定时才加：the culture here / the culture of Hunan；culture shock 是刚到国外时的「文化冲击」。
+@v: climate | = | n. | ˈklaɪmət | 气候（一个地方长年的天气特点） | 比较两个城市、两个国家的气候 | a warm climate；the climate in Shenzhen；a dry climate | Seattle has a cool, rainy climate. | 西雅图的气候凉爽多雨。 | climate 说的是「长年的规律」，weather 是「今天、这几天的天气」：✓ The weather is nice today. ✗ The climate is nice today.；mate 弱读成 `/mət/`，不读 `/meɪt/`。
+@v: Summer | summer | n. | ˈsʌmər | 夏天 | 说季节、天气、假期 | in (the) summer；this summer；summer vacation | I go back to Hunan every summer. | 我每年夏天都回湖南。 | 「在夏天」用 in：in summer / in the summer；前面有 this / next / last / every 时不加 in：✗ in this summer → ✓ this summer；英文的季节名称不用大写。
+@v: humid | = | adj. | ˈhjuːmɪd | 潮湿的；闷热的（空气里水分多） | 说南方的夏天、梅雨季、回南天 | hot and humid；humid weather；It's so humid today. | It's so humid today that my clothes won't dry. | 今天太潮了，衣服都晾不干。 | 中文的「潮」「闷」「湿」，说天气时都可以用 humid；「回南天」可以解释成 It's very humid, and the walls and floors get wet.；h 一般要读出来 `/ˈhjuːmɪd/`（也有少数美国人读 `/ˈjuːmɪd/`）。
+@v: winter | = | n. | ˈwɪntər | 冬天 | 说季节、天气 | in (the) winter；this winter；a cold winter | Winter in Shenzhen is short and mild. | 深圳的冬天短而温和。 | 美式口语里 nt 中间的 t 常常不发音，winter 听起来像 winner `/ˈwɪnər/`，听到别慌，看上下文；「过冬」说 spend the winter，不说 ✗ pass winter。
+@v: province | = | n. | ˈprɑːvɪns | 省 | 说老家在哪个省、介绍中国的地理 | Hunan Province；my home province；every province | Which province are you from? | 你是哪个省的？ | 正式写地名时首字母大写：Hunan Province；聊天时美国人一般直接说 Hunan，不加 province；「我们省」「老家那个省」说 my home province。
+@v: north | = | n. | nɔːrθ | 北方；北部 | 说南北差异、方向和位置 | the north；in the north；north of… | Harbin is in the north of China. | 哈尔滨在中国北方。 | 说「北方」要加 the：in the north；作形容词可以说 North China / northern China；结尾 th 是 `/θ/`：舌尖放在上下齿之间送气，不读 nors。
+@v: south | = | n. | saʊθ | 南方；南部 | 同上：南北差异、方向和位置 | the south；in the south；south of… | Shenzhen is in the south of China. | 深圳在中国南方。 | 「南方人」说 people from the south / southerners；「华南」是 South China；ou 读 `/aʊ/`（像「凹」），结尾 th 一样要送气。
+@v: hometown | = | n. | ˈhoʊmtaʊn | 家乡；老家 | 问对方是哪里人；说春节回老家 | my hometown；go back to my hometown；Where's your hometown? | I go back to my hometown every Spring Festival. | 我每年春节都回老家。 | 中文「老家」可能指祖籍、父母家或出生地，英文 hometown 一般指「你长大的地方」；问「你老家哪儿的」，美国人更常说 Where are you from? / Where did you grow up?；前面要有 my / your：✗ I go back hometown.
+@v: born | = | v. | bɔːrn | 出生（bear 的过去分词，只用在 be born 里） | 说出生地、出生年份、生日 | be born in + 地方 / 年份；be born on + 日期 | My dad was born in 1970. | 我爸爸是 1970 年出生的。 | 「出生」一定说 was / were born：✗ I born in Hunan. ✗ I am born in 1999.；出生在哪个城市、哪一年用 in，具体哪一天用 on：I was born on May 3rd.
+@v: grew up | grow up | phr. | ˌgruː ˈʌp | 长大 | 说小时候在哪里生活 | grow up in…；grow up with…；Where did you grow up? | Where did you grow up? — In a small town near Wuhan. | 你在哪儿长大的？——在武汉附近的一个小镇。 | grow 的过去式是 grew `/gruː/`，不是 growed；「在长沙长大」不能只说 ✗ I grew in Changsha.（那像是「我在长沙被种出来」），要说 grew up。
+@v: accent | = | n. | ˈæksent | 口音 | 说某人说话带哪里的口音 | a Hunan accent；a strong accent；an American accent | She speaks English with a slight British accent. | 她说英语带一点英国口音。 | 中文「普通话不标准」不用直译成 ✗ My Mandarin isn't standard，说 I have an accent. 就行；在美国人眼里人人都有口音，You have an accent 一般不是批评；「带……口音说话」用 with：speak with an accent。
+@v: local | = | n./adj. | ˈloʊkl | 本地人；当地的 | 说谁是本地人、当地的饭馆和习惯 | a real local；local food；ask the locals | Let's ask a local. They know the best restaurants. | 问问本地人吧，他们知道哪家馆子最好。 | 「本地人」可以说 a local / a local person；local 是「当地的」，不是「低端的」——local food 是夸奖；结尾是暗 l：舌尖轻抵上齿龈，不要读成「漏扣」。
+@v: all my life | = | phr. | ˌɔːl maɪ ˈlaɪf | 一辈子；从出生到现在一直 | 说一直住在某地、一直喜欢某样东西 | I've lived here all my life.；all her life；all his life | I've loved spicy food all my life. | 我从小到大一直爱吃辣。 | 前面不加 in：✗ in all my life；说的是「到现在为止」，所以动词多用 have + 过去分词：✓ I've lived here all my life. ✗ I live here all my life.
+@v: college | = | n. | ˈkɑːlɪdʒ | 大学（美国口语里泛指上大学这件事） | 说上大学、大学同学、毕业 | go to college；in college；college friends | I studied English in college. | 我大学时学的是英语。 | 美国人说「上大学」常说 go to college，不加 the；「大学的时候」说 in college；university 更正式，多指综合性大学；介绍自己的学校时，照学校的官方英文名说。
+@v: dialect | = | n. | ˈdaɪəlekt | 方言 | 说家乡话、各地的话 | a local dialect；speak a dialect；the Changsha dialect | My grandmother only speaks the local dialect. | 我外婆只会说当地方言。 | dialect 是「方言」，accent 是「口音」：说普通话带湖南味儿 → accent；说长沙话 → dialect；「说方言」用 speak，不用 talk 或 say：speak the Changsha dialect。
+@v: got to know | get to know | phr. | ˌgɑːt tə ˈnoʊ | 认识；（慢慢）熟悉、了解 | 说两个人怎么认识的，或想更了解某人、某地 | get to know sb；get to know each other；get to know the city | I want to get to know my new coworkers. | 我想多了解一下新同事。 | get to know 说的是「认识、熟起来的过程」，know 说的是「已经认识的状态」：✓ We got to know each other in college. ✓ We've known each other since college.；初次见面「很高兴认识你」用 Nice to meet you.，不说 ✗ Nice to know you.
+@v: since | = | prep./conj. | sɪns | 自从；从……起（一直到现在） | 说一件事从哪个时间点开始、一直持续到现在 | since 2020；since college；since I was ten | I've worked here since last March. | 我从去年三月起就在这儿工作。 | since 后面跟「起点」，for 后面跟「一段时间」：✓ since Monday ✓ for three days ✗ since three days；主句一般用 have + 过去分词：✗ I work here since March. ✓ I've worked here since March.
+@v: graduated | graduate | v. | ˈgrædʒueɪtɪd | 毕业 | 说什么时候、从哪所学校毕业 | graduate from…；graduate in 2018；after I graduated | I graduated from college in 2022. | 我 2022 年大学毕业。 | 「从……毕业」要加 from：✗ I graduated Hunan University. ✓ I graduated from Hunan University.；动词结尾读 `/eɪt/`，名词 a graduate（毕业生）结尾读 `/ət/`。
+@v: moved to | move to | phr. | ˈmuːvd tə | 搬到（某个城市、国家） | 说搬到某个城市生活、什么时候来的 | move to Shenzhen；move to a new city；move here | My parents moved to Changsha in 2005. | 我爸妈 2005 年搬到了长沙。 | here / there 前面不加 to：✓ I moved here two years ago. ✗ I moved to here.；搬到某地是一个过去的时间点，用过去式 + ago / in 2020；「住了多久」才用 have lived…for。
+@v: decade | = | n. | ˈdekeɪd | 十年 | 说很长的一段时间、城市的变化 | a decade；over a decade；for decades | Shenzhen has changed a lot in the last decade. | 深圳这十年变化很大。 | decade 就是「十年」，「几十年」说 decades / for decades；日常聊天里 ten years 比 decade 更常用，decade 稍书面，常出现在 over a decade / the last decade 里。
+
+@diff: 「我在深圳住了两年了」——I've lived here for two years.
+@d_cn: 一件事从过去开始，一直持续到现在，而且还在继续（我现在还住在深圳）。
+@d_en: I've lived in Shenzhen for two years. / I've worked at SwiftLink for five weeks.
+@d_why: 中文靠句尾的两个「了」——「住了两年了」——告诉对方「到现在为止，而且还在住」。英文要把动词换成 **have + 过去分词**（I've lived），再用 **for** 接上那段时间。直译成 ✗ I live in Shenzhen two years.，动词和时间都不对；说成 I lived in Shenzhen for two years.（过去式），美国人会理解成「我在深圳住过两年，现在不住了」。第一册学过的 I've been to…（D10）、I've finished…（D22）用的就是 have + 过去分词，今天它多了一个意思：「一直持续到现在」。
+@d_when: 说「到现在为止已经多久了」：住了多久、工作了多久、认识多久、学了多久。那件事已经结束了（以前住过、以前在那儿上过班），就用过去式；说「什么时候搬来、几年前毕业」这样的一个时间点，也用过去式。
+@d_vs: **I've lived in Shenzhen for three years.** 我在深圳住了三年了。（现在还住）\n**I lived in Changsha for eighteen years.** 我在长沙住过十八年。（现在不住了）\n**Emma moved to China two years ago.** Emma 两年前来的中国。（一个过去的时间点）\n✗ I live in Shenzhen two years. ✗ I have lived here two years ago.
+@d_task: 用英文说：① 我在这家公司工作三年了。② 我以前在北京住过一年（现在不住了）。③ Emma 两年前搬到了深圳。 | ① I've worked at this company for three years. ② I lived in Beijing for a year. ③ Emma moved to Shenzhen two years ago.
+@diff: 「两年」用 for，「从大学起」用 since
+@d_cn: 「……了两年」说的是一段时间；「从大学起」「从去年起」说的是一个起点。
+@d_en: for two years / for five weeks / for a long time；since college / since last year / since Monday / since I joined SwiftLink
+@d_why: 中文的「两年」「从大学起」放进句子里就行，不需要专门的小词；英文要先分清后面是**一段时间**还是**一个起点**：一段时间（能问「多长」）用 **for**；一个起点（能问「从哪天」）用 **since**。中国学习者最常见的两个错：✗ since two years（two years 是一段，不是起点）和 ✗ from college（「从……起」直译成 from，可是 from 只说起点，不说「一直到现在」）。还要注意动词：「认识」是一个状态，「从大学起就认识」用 **have known**；got to know 说的是「认识的那一次」，用过去式。
+@d_when: for + 时间段：for three years / for a month / for a long time；since + 时间点或一句话：since May / since last year / since I joined SwiftLink。两种句子的主句一般都用 have + 过去分词。
+@d_vs: **Kevin and Tom have known each other since college.** 他们从大学起就认识。（起点）\n**They've known each other for over a decade.** 他们认识十多年了。（一段时间）\n**They got to know each other in their first year.** 他们是大一认识的。（认识的那一次，过去式）\n✗ We have known each other from college. ✗ I've lived here since three years.
+@d_task: 填 for 或 since：① I've worked here ___ five weeks. ② I've lived in Shenzhen ___ last summer. ③ Emma has been in China ___ two years. ④ I've known Grace ___ my first day at SwiftLink. | ① for（一段时间）② since（起点：去年夏天）③ for（一段时间）④ since（起点：入职第一天）
+@diff: 「你来这儿多久了？」——How long have you been here?
+@d_cn: 问对方「到现在为止，已经在这里多久了」。
+@d_en: How long have you been here? / How long have you lived in Shenzhen? — For two years.
+@d_why: 中文「你来这儿多久了」里的「了」把时间指向「到现在」。很多人直接说 ✗ How long are you here?——可在美国人耳朵里，How long are you here (for)? 问的是「你这次要在这儿待多久」，是在问未来，就像问来出差的同事、来旅游的朋友。两句话只差一个词，一个往回看，一个往前看。想问「还要待多久」，最清楚的说法是 **How long are you staying?** / **How long will you be here?**；想问「已经多久了」，一定要用 **have been / have lived / have worked**。
+@d_when: 认识新同事、新朋友时：How long have you been here / lived here / worked here?；朋友来深圳出差、旅游，问他待到什么时候：How long are you staying?
+@d_vs: **How long have you been in Shenzhen?** — For two years. 你来深圳多久了？——两年了。\n**How long are you staying in Shenzhen?** — Until Friday. 你在深圳待到什么时候？——待到周五。\n**How long will you be here?** — About a week. 你这次待多久？——一个星期左右。\n✗ How long are you here?（想问「来了多久」时）
+@d_task: 两个场景，用英文问：① 新同事看起来对公司很熟，你想问他在这儿工作多久了。② Mike 来深圳出差，你想问他这次待多久。 | ① How long have you worked here? ② How long are you staying in Shenzhen? / How long will you be here?
+@diff: 「我出生在湖南」——I was born in Hunan.
+@d_cn: 说自己在哪里出生、哪年出生、在哪里长大。
+@d_en: I was born in Hunan, but I grew up in Changsha. / I was born in 2002. / I was born on May 3rd.
+@d_why: 中文「我出生在湖南」里的「出生」看起来是自己做的一个动作，所以很多人说 ✗ I born in Hunan. 或 ✗ I am born in Hunan.。英文里「出生」是被动的（是妈妈把你生下来），固定说法是 **be born**，而且出生发生在过去，所以永远是 **was / were born**：I was born… / My parents were born…。「长大」也不是一个 grow，要说 **grow up**（过去式 grew up）。还有一个文化差异：中文的「老家」可以是爷爷奶奶住的地方、自己出生的地方或者长大的地方；英文介绍自己时，常把出生地和长大的地方分开说，就像林晓这句。
+@d_when: 自我介绍、聊家乡、填表格（Place of birth / Date of birth）的时候。
+@d_vs: **I was born in Hunan.** 我出生在湖南。\n**My parents were born in the 1970s.** 我爸妈是七十年代出生的。\n**I grew up in Changsha.** 我在长沙长大。\n✗ I born in Hunan. ✗ I am born in 2002. ✗ I grew in Changsha.
+@d_task: 用英文介绍：「我是在一个小镇出生的，不过是在广州长大的。我 2001 年出生。」 | I was born in a small town, but I grew up in Guangzhou. I was born in 2001.
+
+@core: How long have you + 过去分词…? | 问对方某件事持续了多久 | lived in Shenzhen / worked at SwiftLink / known Tom / been here | 正式：How long have you been with the company?｜随意：How long have you been here?
+@core: I've + 过去分词 + for + 一段时间. | 说「……了多久了」，现在还在继续 | lived here for two years / worked here for five weeks / known her for a long time | 正式：I have worked at SwiftLink for five weeks.｜随意：Five weeks now.
+@core: … since + 起点. | 说从什么时候开始、一直到现在 | since college / since last year / since I joined the company | 正式：We have known each other since our first year of college.｜随意：We go way back—since college.
+@core: I was born in…, but I grew up in… | 介绍出生地和长大的地方 | Hunan / a small town；Changsha / Guangzhou | 正式：I was born in Hunan and raised in Changsha.｜随意：Born in Hunan, grew up in Changsha.
+@core: Where's your hometown? / Where did you grow up? | 问对方是哪里人 | Where are you from? / Where did you grow up? | 正式：May I ask where you're from?｜随意：So where are you from?
+@core: I moved to … + 时间 + ago. | 说什么时候搬到现在的城市（过去的一个时间点） | Shenzhen / China；two years ago / in 2023 | 正式：I relocated to Shenzhen two years ago.｜随意：I moved here a couple of years ago.
+@core: I've lived here all my life. | 说自己一直住在某地（本地人） | lived here / loved spicy food / known him | 正式：I have lived in Shenzhen my whole life.｜随意：Born and raised here!
+@core: We got to know each other in / at… | 说两个人在哪儿、什么时候认识的 | in college / at work / on my first day | 正式：We met during our first year of college.｜随意：We met in college.
+
+@pw: hometown | ˈhoʊmtaʊn | 2 个音节 HOME·town | 重音在 home；m 和 t 之间不要加元音，不读 home-er-town；town 的 ow 读 `/aʊ/`
+@pw: dialect | ˈdaɪəlekt | 3 个音节 DI·a·lect | 重音在第一个音节，di 读 `/daɪ/`（像「呆」）；结尾 ct 两个辅音都轻轻做出来
+@pw: humid | ˈhjuːmɪd | 2 个音节 HU·mid | hu 读 `/hjuː/`，和 huge 的开头一样，不读成「哈」
+@pw: climate | ˈklaɪmət | 2 个音节 CLI·mate | 重音在前；mate 弱读成 `/mət/`，不读 `/meɪt/`
+@pw: culture | ˈkʌltʃər | 2 个音节 CUL·ture | ture 读 `/tʃər/`，不读「求」；结尾卷舌
+@pw: foreign | ˈfɔːrən | 2 个音节 FOR·eign | g 不发音；eign 只剩一个弱读的 `/ən/`
+@pw: graduated | ˈgrædʒueɪtɪd | 4 个音节 GRAD·u·at·ed | d 和 u 连成 `/dʒu/`（像「酒」）；-ed 前面是 t，所以读 `/ɪd/`
+@ps: How **long** have‿you **lived** in **Shen**zhen? ↘ | have you 弱读成 `/həvjə/`，说快了只剩 `/əvjə/`：How long-əv-yə lived；How 开头的特殊疑问句，句尾语调往下降。
+@ps: I've **lived** here for **two** **years**. | I've 的 've 只剩一个轻轻的 `/v/`，和 lived 的 l 几乎粘在一起；for 弱读成 `/fər/`。
+@ps: I was **born** in Hu**nan**, / but I **grew**‿**up** in **Chang**sha. | was 弱读成 `/wəz/`；grew up 连读，中间像带一个轻轻的 w：grew-wup。
+@ps: **Kev**in and **Tom** have **known** each‿other / since **col**lege. | have 弱读成 `/əv/`，和 Tom 连成 Tom-əv；each other 连读成 ea-chother。
+@pnote: 第二册的一大听力难点：have / has 在句子中间几乎听不见。I've lived 和 I lived 只差一个很轻的 `/v/`；He's lived here for ten years 里的 He's = He has，不是 He is。听的时候别只盯着 have，要抓后面的线索：句尾有 for two years / since college，多半就是 have + 过去分词。
+@pnote: 书面和口语：邮件、作文里可以写 I have lived / He has known，口语里几乎都缩成 I've / he's / we've / they've。How long have you… 里的 have 一般不写成缩写，但读的时候弱读成 `/əv/`，听起来像 How long-əv-you。
+@lfocus: I've lived 和 I lived：听 've，更要听句尾的 for / since
+@lfocus: How long have you 弱读成 /haʊ lɔːŋ əvjə/
+@lfocus: was born 里的 was 弱读成 /wəz/
+@dict: S2–S3
+@dict: S20–S22
+@res: 在 youglish.com 输入 "how long have you"，选 US，听 have 在真实语流里怎么弱读成 /əv/。
+
+@mimic: 跟读【C】S2–S25 的对话：先用正常语速逐句跟读，重点模仿 I've lived 里轻轻的 've 和 How long have you 的弱读；再由你演林晓、手机朗读 Emma 和 Kevin 的台词，完整对一遍并录音。
+@swap: How long have you lived in Shenzhen? — I've lived here for two years. | 换动作和时间：worked at SwiftLink / five weeks；known Grace / a month；been in China / three years | How long have you worked at SwiftLink? — I've worked here for five weeks.
+@swap: Kevin and Tom have known each other since college. | 换人物和起点：Lily and Grace / Lily's first day；Emma and Mike / 2019 | Lily and Grace have known each other since Lily's first day.
+@swap: I was born in Hunan, but I grew up in Changsha. | 换成你自己的出生地和长大的地方；如果是同一个地方，就说 I was born and grew up in… | I was born in a small town in Hubei, but I grew up in Wuhan.
+@swap: I've lived here all my life. | 换动作：loved spicy food / spoken the local dialect / liked rainy days | I've loved spicy food all my life.
+@free: 新来的美国同事问你：How long have you lived in Shenzhen?（你在深圳住了三年，之前一直住在长沙） | I've lived here for three years. Before that, I lived in Changsha for a long time. How about you?
+@free: 客户在电话里问你在 SwiftLink 工作多久了（五周，你还是新人，但很喜欢这份工作） | I've worked at SwiftLink for five weeks, so I'm still pretty new. But I really like it here.
+@free: Emma 问你和吴佳是怎么认识的（入职第一天她坐你旁边，从那天起你们每天一起吃午饭） | We got to know each other on my first day. She sits next to me, and we've had lunch together every day since then.
+@free: 美国朋友问 Where's your hometown?（介绍出生地、长大的地方，再说一句那里的气候） | I was born in a small town in Hunan, but I grew up in Changsha. The summer there is hot and humid, and the winter is really cold.
+@output: 录 1.5 分钟语音（或写 8–10 句话）「我和这座城市」：你在哪里出生、在哪里长大 → 什么时候搬到现在的城市、住了多久（for / since）→ 在现在的公司或学校多久了 → 这里的气候、语言或文化和家乡有什么不同 → 你和一个朋友是怎么认识的、认识多久了。
+@output_sample: I was born in a small town in Hunan, but I grew up in Changsha. My parents still live there. I moved to Shenzhen three years ago, so I've lived here for three years now. I've worked at SwiftLink for five weeks, and I really like my job. Shenzhen is very different from my hometown. The summer here is long, hot and humid, but the winter is short and warm. In Changsha, people speak the local dialect, and I still have a little Hunan accent when I speak Mandarin. My best friend at work is Grace. We got to know each other on my first day, and we've had lunch together since then. Shenzhen isn't my hometown, but it feels like home now.
+
+@check: Emma 说 I've lived here for two years.，她现在还住在深圳吗？如果她说 I lived in Seattle for twenty years. 呢？ | 还住在深圳（have + 过去分词 + for = 一直持续到现在）。I lived in Seattle for twenty years. 用的是过去式，说明她现在已经不住在西雅图了。
+@check: 填 for 或 since，并说出理由：① Kevin has lived in Shenzhen ___ he was born. ② Tom has lived here ___ over a decade. | ① since（起点是一句话：他出生的时候）② for（over a decade 是一段时间）
+@check: 你想问新同事「你来深圳多久了？」，说 How long are you in Shenzhen? 对吗？美国人会怎么理解？ | 不对。美国人会以为你在问「你这次要在深圳待多久」。应该说 How long have you been in Shenzhen? / How long have you lived here?
+@check: 改错：① I born in Hunan. ② I grew in Changsha. ③ We have known each other from college. | ① I was born in Hunan. ② I grew up in Changsha. ③ We have known each other since college.
+@check: Emma 问 Isn't Changsha in Hunan?，林晓回答 Yes!。她为什么用 Yes，不用 No？她那句 I was born in Hunan, but I grew up in Changsha. 想说的是什么？ | 否定问句按事实回答（D13、D29）：事实是「长沙在湖南」，是肯定的，所以说 Yes。她想说自己出生在湖南的一个小镇，后来在省会长沙长大。
+
+@next1: 不看书说出 S2、S3、S12、S21、S24 里的 5 个锚点句（How long have you lived… / I've lived here for… / I was born in… / have known each other since… / I've worked at…）
+@next1: 用 for 和 since 各说两句关于你自己的话：住了多久、工作或学习了多久、认识一个朋友多久
+@next7: 不看书解释 How long have you been here? 和 How long are you here? 的区别，各造一个句子
+@next7: 用 I was born in… / I grew up in… / I moved to… / I've lived here for… 连起来讲 4 句自己的经历

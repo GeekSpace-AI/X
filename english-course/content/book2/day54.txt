@@ -1,0 +1,168 @@
+@day: 54
+@week: 4
+@title_cn: 越来越好
+@title_en: Getting Better and Better
+@topic: 月度一对一：进步、工作量、压力、优点与不足
+@think_short: 「越来越好」better and better｜「越来越多的……」more and more + 名词｜「比以前……」than before｜「越……越……」The more…, the…
+
+@goal_scene: 和经理做月度一对一：大方接住对方的表扬，说清楚自己哪里在进步、工作量怎么变化、压力大不大，再如实说出自己的优点和不足。
+@goal_expr: Your English is getting better and better. / More and more customers are writing to us. / I'm less nervous than before. / The more I practice, the easier it gets. / On average, I… / Keep up the good work!
+@goal_vocab: 20 个重点词 + 5 个短语：学习与进步、工作量、压力、优点与不足
+@done: 用 getting better and better / more and more + 名词 / less … than before 各说一句自己这个月的变化，不再说 more and more good 或 Customers are more and more
+@done: 用 The more…, the… 说出一条自己的学习或工作经验，两半都以 the + 比较级开头
+@done: 被经理夸奖时，能用 Thank you! That means a lot. 接住，再用 2–3 句话说出自己最大的优点、不足和下一步打算
+
+@warmup: 我现在已经习惯这么热了。 | I'm used to the heat now. | D53
+@warmup: 我花了好几个月才习惯。 | It took me a few months to get used to it. | D53
+@warmup: 我还不习惯一个人住。 | I'm not used to living alone yet. | D53
+@warmup: 一开始，我用二维码付款老是出问题。 | At first, I had trouble paying with QR codes. | D53
+@warmup: 这件外套不合身，太紧了。 | The jacket doesn't fit. It's too tight. | D49
+@warmup: 一个月前，我特别紧张，连洗手间在哪儿都不知道！ | A month ago, I was so nervous. I didn't know where the restroom was! | D30
+
+@scene: 周三下午，林晓和张涛在小会议室做每月一次的一对一谈话。自从公司签下那个大客户，美国卖家发来的邮件越来越多，林晓现在一天要回五十封左右；前两天 Mike 还特意跟张涛夸她邮件写得好。张涛想先肯定她的进步，再听听她的工作量和压力，最后和她约定下个月要加强的地方——她最怕的，还是打电话。
+@sp: 人物关系 | 林晓 ↔ 张涛：下属和直属经理；张涛说话直接，但很照顾新人，一对一是可以说真话的场合
+@sp: 沟通目的 | 张涛：肯定进步、了解工作量和压力、定下个月的练习目标；林晓：大方接受表扬，如实说出困难
+@sp: 已知信息 | 张涛看过林晓的回复记录，也听 Mike 夸过她；林晓知道自己回邮件还偏慢，接电话时最紧张
+@sp: 表达重点 | 越来越好（better and better）→ 客户越来越多（more and more customers）→ 没以前那么紧张（less … than before）→ 越练越容易（The more…, the…）→ 优点、不足和下一步
+
+@story_title: Episode 54 · Better and Better
+@story_type: 对话（月度一对一）
+@s: It's Wednesday afternoon. Lily has her monthly one-on-one with Tom. | 周三下午，林晓和张涛做每月一次的一对一谈话。
+@s: Tom: So, how's your second month? | 张涛：怎么样，第二个月感觉如何？
+@s: Lily: Pretty good. My first month wasn't very **smooth**, but things are easier now. | 林晓：挺好的。第一个月不太顺，不过现在轻松多了。
+@s: Tom: I agree. Your English is getting **better and better**. | 张涛：我也觉得。你的英语越来越好了。
+@s: Tom: Mike says your emails are clear and friendly. That's a big **compliment** from him. | 张涛：Mike 说你的邮件写得清楚又友好。能得到他这句夸奖，可不容易。
+@s: Lily: Wow, thank you! That means a lot. | 林晓：哇，谢谢！听您这么说，我特别开心。
+@s: Tom: Your **vocabulary** is bigger, and your **grammar** is better, too. | 张涛：你的词汇量大了，语法也好多了。
+@s: Tom: And in meetings, your **pronunciation** is clearer. | 张涛：开会的时候，你的发音也更清楚了。
+@s: Lily: I've been practicing every day. **The more I practice, the easier it gets**. | 林晓：我每天都在练。越练越容易。
+@br:
+@s: Tom: Now, let's talk about your **workload**. | 张涛：接下来聊聊你的工作量。
+@s: Tom: **More and more** customers are writing to us. | 张涛：给我们写邮件的客户越来越多了。
+@s: Lily: Yes. On **average**, I answer fifty emails a day now. | 林晓：是啊。我现在平均每天回五十封邮件。
+@s: Lily: Last month, it was only thirty. | 林晓：上个月才三十封。
+@s: Tom: That's a large **amount** of work for one person. | 张涛：对一个人来说，这个工作量可不小。
+@s: Tom: Our U.S. business is growing **rapidly**. | 张涛：我们的美国业务增长得很快。
+@s: Tom: Do you feel a lot of **pressure**? | 张涛：你觉得压力大吗？
+@s: Lily: A little. Monday mornings are full of **stress**. | 林晓：有一点。周一上午压力特别大。
+@s: Lily: But I'm **less** nervous **than before**. | 林晓：不过我没以前那么紧张了。
+@s: Tom: I can see that. You make **fewer** mistakes, too. | 张涛：看得出来。你出的错也少了。
+@s: Lily: But I'm still **slightly** slow. Some replies take me twenty minutes. | 林晓：可我还是有点慢，有些回复要花我二十分钟。
+@s: Tom: Don't worry. Speed comes **gradually**. | 张涛：别着急，速度是一点点练出来的。
+@s: Tom: Your progress is **steady**, and that's what matters. | 张涛：你的进步很稳，这才是最重要的。
+@br:
+@s: Tom: So, what's your biggest **strength**? | 张涛：那你觉得，自己最大的优点是什么？
+@s: Lily: Hmm, I think I'm careful, and I'm patient with customers. | 林晓：嗯……我觉得我比较细心，对客户也有耐心。
+@s: Tom: I agree. And your biggest **weakness**? | 张涛：同意。那最大的不足呢？
+@s: Lily: Phone calls. When a seller talks fast, I freeze. | 林晓：打电话。卖家一说快，我脑子就一片空白。
+@s: Tom: That's normal. Phone calls are a different **skill**. | 张涛：这很正常，打电话是另一种本事。
+@s: Tom: Next month, we're gonna try one short call a week. I'll sit with you. | 张涛：下个月，我们每周试着打一个简短的电话，我陪你一起。
+@s: Lily: OK. I'll put in the **effort**. | 林晓：好的，我会下功夫的。
+@s: Tom: I know you will. **Keep up the good work**! | 张涛：我相信你。继续保持！
+
+@v: smooth | = | adj. | smuːð | 顺利的；没有波折的 | 说一段时间、一件事进行得顺不顺 | a smooth first week；a smooth trip；go smoothly | I hope your first day is smooth. | 希望你第一天一切顺利。 | 「顺利」放在 be 后面用形容词：It was smooth.；跟在动词后面要用副词：✓ It went smoothly. ✗ It went smooth.；th 读 `/ð/`（舌尖轻碰上齿、声带振动），不读 `/s/` 或 `/z/`。
+@v: better and better | = | phr. | ˌbetər ən ˈbetər | 越来越好 | 夸别人进步；说情况在好转 | get better and better；is getting better and better；better and better every day | My cooking is getting better and better. | 我的厨艺越来越好了。 | 前面要有一个「变」的动词：is getting / gets；✗ more and more good（good 的比较级是 better，Day 26）；只说 ✗ Your English is better and better. 也不自然，少了 getting。
+@v: compliment | = | n. | ˈkɑːmplɪmənt | 称赞；夸奖的话 | 别人夸你时道谢；转达别人对某人的夸奖 | a big compliment；Thanks for the compliment.；pay sb a compliment | Thanks for the compliment! | 谢谢夸奖！ | 和 complement（补充）读音一样、拼写不同，写邮件别拼错；中国人被夸时习惯说「哪里哪里」，直译成 ✗ No, no, my English is bad. 会让对方很尴尬——美国人期待的回应是 Thank you! / That means a lot.
+@v: vocabulary | = | n. | voʊˈkæbjəˌleri | 词汇；词汇量 | 说学语言、说一个人认识多少词 | a big vocabulary；build your vocabulary；new vocabulary | Reading helps you build your vocabulary. | 多读书能扩大词汇量。 | 「词汇量大」说 a big / large vocabulary，不说 ✗ My vocabulary quantity is big.；vocabulary 指「一套词」，「一个单词」是 a word，✗ a vocabulary。
+@v: grammar | = | n. | ˈgræmər | 语法 | 说语言学习、改错、检查邮件 | grammar mistakes；check the grammar；good grammar | Can you check the grammar in this email? | 你能帮我看看这封邮件的语法吗？ | 一般不可数：✗ My grammars are bad. → ✓ My grammar isn't great.；结尾拼 -ar，常被拼成 ✗ grammer。
+@v: pronunciation | = | n. | prəˌnʌnsiˈeɪʃn | 发音 | 说口语、读音清不清楚 | clear pronunciation；work on my pronunciation；American pronunciation | I'm working on my pronunciation. | 我在练发音。 | 动词 pronounce 读 `/prəˈnaʊns/`，名词却去掉了一个 o：pro·nun·ci·a·tion，读 `/nʌn/` 不读 `/naʊn/`；✗ pronounciation 是最常见的拼写错误。
+@v: The more I practice, the easier it gets | the more … the more … | phr. | ðə ˈmɔːr aɪ ˈpræktɪs ðə ˈiːziər ɪt ˈgets | 我练得越多，就越容易 | 说规律、讲经验、给自己或别人打气 | The more…, the easier…；The more…, the more…；The sooner, the better. | The more you read, the more words you learn. | 你读得越多，学会的词就越多。 | 两半都要以 the + 比较级开头：✗ More I practice, easier it gets. ✗ The more I practice, it gets easier.；第二半的比较级跟着意思变：the easier / the faster / the more confident。
+@v: workload | = | n. | ˈwɜːrkloʊd | 工作量 | 一对一谈话、和同事聊忙不忙 | a heavy workload；manage my workload；a growing workload | My workload is heavy this week. | 我这周工作量很大。 | 「工作量大」说 a heavy workload 或 a lot of work，不说 ✗ My work amount is big.；一般用单数，前面加 my / your / the。
+@v: More and more | more and more | phr. | ˌmɔːr ən ˈmɔːr | 越来越多（的） | 说数量不断增加：客户、订单、人 | more and more customers；more and more work；more and more people | More and more people are working from home. | 越来越多的人在家办公。 | 放在名词**前面**：✓ more and more customers；「客户越来越多」直译成 ✗ Customers are more and more. 美国人听不懂；后面的句子要有真正的动词：are writing / are coming。
+@v: average | = | n./adj. | ˈævərɪdʒ | 平均（数）；平均的 | 汇报数据、说一般水平 | on average；the average time；above / below average | On average, I sleep seven hours a night. | 我平均每晚睡七个小时。 | 「平均每天」说 on average … a day 或 an average of … a day，不说 ✗ average every day；口语常读成两个音节 `/ˈævrɪdʒ/`，结尾不读 age `/eɪdʒ/`。
+@v: amount | = | n. | əˈmaʊnt | 数量；量 | 说工作、钱、时间多不多 | a large amount of；the amount of work；a small amount | That's a large amount of money. | 那可是一大笔钱。 | amount of 后面接不可数名词：work / money / time；可数名词用 number：✓ a large number of customers，✗ a large amount of customers。
+@v: rapidly | = | adv. | ˈræpɪdli | 迅速地；快速地 | 说增长、变化很快（汇报、新闻里常用） | grow rapidly；change rapidly；a rapidly growing city | The city is changing rapidly. | 这座城市变化得很快。 | rapidly 多修饰「增长、变化」；说「人跑得快、做事快」用 fast / quickly 更自然：He works fast.，不说 ✗ He works rapidly.
+@v: pressure | = | n. | ˈpreʃər | 压力（外面压过来的要求、期限、期待） | 说工作压力、时间紧 | feel a lot of pressure；under pressure；pressure from the client | I work well under pressure. | 我在压力下也能干得好。 | 「我压力很大」说 I'm under a lot of pressure. / I feel a lot of pressure.，不说 ✗ My pressure is big.——my pressure 容易被听成「我的血压」（blood pressure）。
+@v: stress | = | n./v. | stres | 压力；紧张（自己心里感到的） | 说累、焦虑、睡不好 | a lot of stress；stressed out；deal with stress | Running helps me deal with stress. | 跑步帮我缓解压力。 | pressure 偏「外部的要求」，stress 偏「内心的紧张」；说自己要用形容词 stressed：✓ I'm stressed. ✗ I'm stress.；stress 还是「重音」：word stress。
+@v: less | = | adj./adv. | les | 更少；没那么 | 和以前比：没那么紧张、没那么累；不可数名词「更少」 | less nervous；less time；less and less | I'm less tired than yesterday. | 我没昨天那么累了。 | less + 形容词原级：✓ less nervous ✗ less nervouser；less 修饰不可数名词（less time），可数名词复数用 fewer（fewer mistakes）。
+@v: than before | = | phr. | ðən bɪˈfɔːr | 比以前（更……） | 和过去的自己、过去的情况比 | better than before；less … than before；busier than before | The subway is more crowded than before. | 地铁比以前更挤了。 | 放在比较级后面、句尾：✓ I'm busier than before. ✗ I'm than before busier.（「比以前忙」照搬中文词序）；than 弱读成 `/ðən/`。
+@v: fewer | = | adj. | ˈfjuːər | 更少的（用于可数名词） | 说错误、人、订单、问题变少 | fewer mistakes；fewer people；fewer and fewer | There are fewer people in the office on Fridays. | 周五办公室里的人少一些。 | 可数名词复数用 fewer：fewer mistakes；不可数用 less：less time。美国人口语里也有人说 less mistakes，但写邮件、汇报时用 fewer 最稳妥。
+@v: slightly | = | adv. | ˈslaɪtli | 稍微；有一点 | 委婉地说一个小问题、小变化 | slightly slow；slightly better；slightly different | The new version is slightly faster. | 新版本稍微快一点。 | 比 a little 稍正式，邮件和汇报里常用；放在形容词或比较级**前面**：✓ slightly better ✗ better slightly。
+@v: gradually | = | adv. | ˈgrædʒuəli | 慢慢地；逐渐地 | 说进步、变化是一点一点来的 | gradually improve；gradually get used to；change gradually | My speaking is gradually improving. | 我的口语在慢慢进步。 | 中文「慢慢地」有两个意思：速度慢是 slowly，「一点点、循序渐进」是 gradually；✗ My English is improving slowly. 听起来像在抱怨进步太慢。
+@v: steady | = | adj. | ˈstedi | 稳定的；稳步的 | 说进步、增长、节奏又稳又不断 | steady progress；a steady job；slow but steady | Our sales are slow but steady. | 我们的销量涨得不快，但很稳。 | ea 读 `/e/`，不读 `/iː/`：steady 像 sted-dy；「进步很稳」习惯说 steady progress，不说 ✗ stable progress。
+@v: strength | = | n. | streŋθ | 长处；优点（也指力气） | 绩效谈话、面试时说优点 | my biggest strength；strengths and weaknesses；play to your strengths | Her biggest strength is her patience. | 她最大的优点是有耐心。 | 说优点时美国人会接一个具体例子，而不是只说一个形容词；发音结尾 `/ŋθ/` 两个音都要有，常被读成 ✗ `/streŋ/` 或 ✗ `/strenθ/`。
+@v: weakness | = | n. | ˈwiːknəs | 弱点；不足 | 绩效谈话、面试时说自己的短板 | my biggest weakness；strengths and weaknesses；a weakness for sweets | My biggest weakness is public speaking. | 我最大的弱点是当众讲话。 | 说自己的不足，美国人习惯紧跟一句「我在怎么改」：…, but I'm working on it.；a weakness for sweets 是「特别爱吃甜食」，不是「弱点」。
+@v: skill | = | n. | skɪl | 技能；本事 | 说工作能力、学一项本领 | a different skill；writing skills；communication skills | Good writing is an important skill. | 写得好是一项重要的技能。 | 中文「能力」「本事」「技巧」常对应 skill；说一类能力习惯用复数：communication skills（沟通能力），✗ communication ability 不地道。
+@v: effort | = | n. | ˈefərt | 努力；花的心思和力气 | 表扬别人的努力、表态自己会努力 | put in the effort；make an effort；a lot of effort | Thanks for all your effort on this project. | 谢谢你为这个项目花的心血。 | effort 是名词：「我会努力的」说 I'll put in the effort. / I'll do my best.，✗ I will effort.；重音在前：EF·fort。
+@v: Keep up the good work | = | phr. | ˌkiːp ʌp ðə ˌgʊd ˈwɜːrk | 继续保持，干得好！ | 上级、老师、同事鼓励别人 | Keep up the good work!；Keep it up!；Keep up the great work! | Great report, Lily. Keep up the good work! | 报告写得很好，林晓，继续保持！ | 多是上级对下级、老师对学生说；你夸经理时说 Great presentation! / Thanks for your help. 更合适；keep up 连读成 kee-pup。
+
+@diff: 「越来越好」——getting better and better
+@d_cn: 一种状态在持续变化，一次比一次更好（或更难、更热、更贵）。
+@d_en: Your English is getting better and better. / It's getting hotter and hotter. / Work is getting more and more interesting.
+@d_why: 中文「越来越 + 形容词」，什么形容词都能放；英文要做两件事：① 用一个表示「变」的动词，最常用的是 **is getting**（正在变）；② 形容词用**比较级并重复**：better and better、hotter and hotter。两三个音节以上的长形容词不加 -er，而是重复 more：more and more interesting。中国学生最常见的错误是把「越来越」当成一个固定的词，直接放在形容词前面：✗ more and more good，或者漏掉 getting：✗ Your English is better and better.
+@d_when: 说进步、天气、价格、压力、工作量这类一点点在变的东西；夸别人或说自己的变化。
+@d_vs: ✓ **Your English is getting better and better.** 你的英语越来越好了。\n✗ Your English is more and more good.\n✓ **It's getting hotter and hotter.** 天越来越热了。\n✓ **My job is getting more and more interesting.** 我的工作越来越有意思了。（✗ interestinger）
+@d_task: 用英文说：① 天越来越冷了。② 打电话越来越容易了。 | ① It's getting colder and colder. ② Phone calls are getting easier and easier.
+@diff: 「客户越来越多」——More and more customers are…
+@d_cn: 某样东西的数量在不断增加：客户、订单、邮件、游客越来越多。
+@d_en: More and more customers are writing to us. / We're getting more and more orders.
+@d_why: 中文习惯把「越来越多」放在后面当谓语：「客户越来越多」。直译成 ✗ Customers are more and more. 在英文里不成立——more and more 不能单独当谓语。英文要把 **more and more** 放在名词**前面**当修饰语（more and more customers），再给句子一个真正的动词（are writing / are coming）；或者换个主语：We're getting more and more customers. 用进行时，是因为这个变化还在进行。数量减少：可数名词用 **fewer and fewer**，不可数用 **less and less**。
+@d_when: 汇报趋势、聊城市和生活的变化：客户、订单、外卖、用手机付钱的人越来越多 / 越来越少。
+@d_vs: ✗ Customers are more and more.\n✓ **More and more customers are writing to us.** 给我们写邮件的客户越来越多。\n✓ **We're getting more and more orders.** 我们的订单越来越多。\n✓ **Fewer and fewer people are paying with cash.** 用现金的人越来越少。\n✓ **I'm getting less and less sleep.** 我睡得越来越少。（sleep 不可数）
+@d_task: 用英文说：① 我们的订单越来越多。② 用现金付钱的人越来越少。 | ① We're getting more and more orders. ② Fewer and fewer people are paying with cash.
+@diff: 「我没以前那么紧张了」——less … than before
+@d_cn: 和过去的自己比：比以前好、比以前忙、没以前那么紧张。
+@d_en: I'm less nervous than before. / I'm busier than before. / It's easier than it used to be.
+@d_why: 中文「比以前」放在形容词**前面**：「比以前忙」；英文顺序正好相反：**比较级 + than before**，放在句尾。「没以前那么……」中文用否定，英文最顺口的是 **less + 形容词原级 + than before**，或者 not as … as before（Day 26 的 not as … as）。注意 less 后面不能再加 -er：✗ less nervouser。另外「以前的我」不能直接说 before me：✗ Before me was shy. 要说 I used to be shy.（Day 52）
+@d_when: 一对一谈话说自己的进步、和朋友聊变化、写月度总结。
+@d_vs: ✓ **I'm less nervous than before.** 我没以前那么紧张了。\n✓ **I'm not as nervous as I used to be.** 同上，稍长一点\n✓ **The office is busier than before.** 办公室比以前忙。\n✓ **We're busier than ever.** 我们现在比以往任何时候都忙。\n✗ I'm than before less nervous.
+@d_task: 用英文说：① 我现在比以前忙。② 地铁没以前那么挤了。 | ① I'm busier than before. ② The subway is less crowded than before.
+@diff: 「越练越容易」——The more…, the…
+@d_cn: 一件事变化，另一件事跟着变化：「练得越多，就越容易」「越早越好」。
+@d_en: The more I practice, the easier it gets. / The sooner, the better.
+@d_why: 中文用两个「越」就能把两件事连起来，后面的词序不变；英文要用两个 **the + 比较级** 打头，两半句都要：The more I practice, / the easier it gets. 中国学生常见三种错：① 漏掉 the：✗ More I practice, easier it gets. ② 第二半照搬中文词序：✗ The more I practice, it gets easier. ③ 形容词不变比较级：✗ the more easy。口语里还有一些不带动词的短版，像 **The sooner, the better.**（越快越好）**The more, the merrier.**（人越多越热闹），直接整句记。
+@d_when: 讲经验、说规律、给自己或别人打气；约时间时说「越早越好」。
+@d_vs: ✓ **The more I practice, the easier it gets.** 越练越容易。\n✓ **The more you speak, the more confident you get.** 你说得越多，就越自信。\n✓ **The sooner, the better.** 越快越好。\n✗ More I practice, easier it gets.\n✗ The more I practice, it gets easier.
+@d_task: 用英文说：① 你读得越多，读得就越快。② 越早越好。 | ① The more you read, the faster you read. ② The sooner, the better.
+
+@core: Your … is getting better and better. | 夸别人进步、说自己在进步 | English / writing / cooking；也可以换成 easier and easier | 正式：Your English has improved a great deal.｜随意：Your English is way better now!
+@core: More and more + 名词 + are …-ing. | 说数量越来越多、趋势在变 | customers are writing to us / people are paying by phone / orders are coming in | 正式：The number of customer emails is rising steadily.｜随意：We're getting tons of emails.
+@core: I'm less + 形容词 + than before. | 说自己没以前那么…… | nervous / stressed / shy；反过来说 busier than before | 正式：I feel far more confident than I used to.｜随意：I'm not as nervous anymore.
+@core: The more I…, the …er it gets. | 讲经验、给自己打气 | practice → the easier；read → the faster；use it → the more natural | 正式：The more practice I get, the more comfortable I become.｜随意：Practice really helps.
+@core: On average, I … a day. | 汇报平均数量 | answer fifty emails / handle twenty orders / make three calls | 正式：I handle an average of fifty emails per day.｜随意：It's like fifty emails a day.
+@core: My biggest strength / weakness is… | 一对一、面试时说优点和不足 | strength → I'm careful；weakness → phone calls, but I'm working on it | 正式：One area I'd like to improve is phone communication.｜随意：Phone calls are my weak spot.
+@core: Speed comes gradually. | 安慰别人（或自己）别着急 | Speed / Confidence / Fluency comes gradually. | 正式：Your speed will improve over time.｜随意：Don't worry, you'll get there.
+@core: Keep up the good work! | 上级、老师、同事鼓励别人 | Keep up the good work! / Keep it up! / Great job! | 正式：Please keep up the excellent work.｜随意：Keep it up!
+
+@pw: vocabulary | voʊˈkæbjəˌleri | 5 个音节 vo·CAB·u·lar·y | 主重音在 cab；结尾 -lary 美音读 `/ˌleri/`，比英音多出一个清楚的音节
+@pw: pronunciation | prəˌnʌnsiˈeɪʃn | 5 个音节 pro·nun·ci·A·tion | 主重音在 a `/eɪ/`；nun 读 `/nʌn/`，不是 pronounce 里的 `/naʊn/`
+@pw: compliment | ˈkɑːmplɪmənt | 3 个音节 COM·pli·ment | 重音在前；com 的 o 读 `/ɑː/`（嘴张大），后两个音节轻而快
+@pw: gradually | ˈgrædʒuəli | 4 个音节 GRAD·u·al·ly | d 和 u 合成 `/dʒ/`，像 gra-ju-ə-li；说快了常缩成 `/ˈgrædʒəli/`
+@pw: average | ˈævərɪdʒ | 3 个音节 AV·er·age，口语常说成 2 个 `/ˈævrɪdʒ/` | 结尾 -age 读 `/ɪdʒ/`，不读 age `/eɪdʒ/`
+@pw: strength | streŋθ | 1 个音节 | str 三个辅音中间不加元音（✗ 斯-特-润）；结尾先发 ng `/ŋ/`，舌尖再轻咬出 th `/θ/`
+@pw: workload | ˈwɜːrkloʊd | 2 个音节 WORK·load | 重音在 work，r 要卷；k 只做个口型，马上接 load
+@ps: Your **Eng**lish is **get**ting / **bet**ter and **bet**ter. | is 弱读成 `/z/`，贴在 English 后面；and 只剩 `/ən/`；两个 better 的 tt 都读成很轻的闪音，像 bedder，第二个 better 最重。
+@ps: **More** and **more** **cus**tomers / are **writ**ing to‿us. | are 弱读成 `/ər/`；to 弱读成 `/tə/`，和 us 连成 `/təʌs/`；writing 的 t 也是闪音。
+@ps: I've been **prac**ticing / every **day**. | I've 只剩 `/aɪv/`，been 弱读成 `/bɪn/`（不读 `/biːn/`），两个词又快又轻，像一个词 `/aɪvbɪn/`；重音落在 prac 和 day 上。
+@ps: The **more** I **prac**tice, / the **eas**ier it **gets**. | 逗号前语调微升、停一下，逗号后往下降；两个 the 都弱读成 `/ðə/`；easier it 连成 ea-zi-er-it。
+@pnote: 本课的弱读：was 读 `/wəz/`（Last month, it was only thirty.）；for 读 `/fər/`（for one person）；to 读 `/tə/`（writing to us）；been 读 `/bɪn/`；have 在 I've 里只剩一个 `/v/`。书面上写 I have been practicing，口语几乎都说 I've been practicing——听力里那个一闪而过的 `/v/` 和 `/bɪn/`，就是「已经练了一段时间」的全部信号。
+@pnote: 张涛说 we're gonna try…：**gonna** = going to，口语里这样读、聊天消息里可以这样写，正式邮件仍写 going to；we're 也只剩 `/wɪr/`。比较级的 -er（better, easier, fewer）美音都是卷舌的 `/ər/`，不要读成中文的「呃」。
+@lfocus: I've been practicing 里 I've been 的弱读
+@lfocus: better and better / more and more 中间的 and 只剩 `/ən/`
+@lfocus: we're gonna try 听出 going to
+@dict: S12–S14
+@dict: S21–S22
+@res: 在 youglish.com 输入 "getting better and better"，选 US，听美国人怎么把中间的 and 读轻。
+
+@mimic: 跟读【C】S2–S30：先用正常语速逐句跟读，重点模仿 I've been 的弱读、better and better 的闪音和 The more…, / the… 中间的停顿；再你演林晓、手机朗读张涛的台词，完整对一遍并录音。
+@swap: Your English is getting better and better. | 换主语和形容词：My cooking → better；The weather → hotter；Phone calls → easier | Phone calls are getting easier and easier.
+@swap: More and more customers are writing to us. | 换名词和动作：people / paying with their phones；orders / coming in | More and more people are paying with their phones.
+@swap: I'm less nervous than before. | 换形容词：stressed / shy / tired；也可以反过来说 busier than before | I'm less stressed than before, but I'm busier.
+@swap: The more I practice, the easier it gets. | 换动作和结果：talk to customers → the more confident I feel；read → the faster I read | The more I talk to customers, the more confident I feel.
+@free: 经理夸你：Your English is getting better and better.（你想大方道谢，再说说你是怎么练的） | Thank you! That means a lot. I've been practicing every day, and I listen to English on the subway.
+@free: 同事问你最近工作量怎么样（客户越来越多，你平均每天回五十封邮件） | It's getting heavier. More and more customers are writing to us, and on average, I answer fifty emails a day.
+@free: 朋友问你现在做演示还紧张吗（没以前那么紧张了，但还是有一点） | I'm less nervous than before. My hands still shake a little, but the more I practice, the easier it gets.
+@free: 经理问：What's your biggest weakness?（你觉得是打电话，你正在练） | Phone calls. When people talk fast, I get nervous, but I'm working on it. I'm going to make one short call every week.
+@output: 录 1.5 分钟（或写 8–10 句）「这个月我的变化」：哪方面越来越好（getting better and better）→ 工作或生活里什么越来越多（more and more）→ 和以前比没那么……（less … than before）→ 一句你自己的「越……越……」（The more…, the…）→ 最大的优点和不足，下个月打算怎么做。
+@output_sample: This month, my English is getting better and better. My vocabulary is bigger, and I make fewer grammar mistakes in my emails. My manager even gave me a nice compliment last week. At work, more and more customers are writing to us, and on average, I answer about fifty emails a day. My workload is heavier than before, and some days there's a lot of pressure. But I'm less nervous than before, because I know the system well now. I've learned one thing: the more I practice, the easier it gets. My biggest strength is that I'm careful, so my customers trust my answers. My biggest weakness is phone calls, because people talk fast and I freeze. Next month, I'm going to make one short call every week, and I'm sure it will get easier gradually.
+
+@check: 「客户越来越多」说成 Customers are more and more. 对吗？怎么改？ | 不对，more and more 不能单独当谓语。改成 More and more customers are writing to us. 或 We're getting more and more customers.
+@check: 「越来越好」能说 more and more good 吗？「越来越难」呢？ | 不能，good 的比较级是 better：getting better and better。「越来越难」：getting harder and harder。
+@check: 「我犯的错少了」用 fewer 还是 less？「我的空闲时间少了」呢？ | mistakes 可数：I make fewer mistakes.；time 不可数：I have less free time.
+@check: 把「你说得越多，就越自信」翻成英文，注意两半的开头。 | The more you speak, the more confident you get.（两半都用 the + 比较级开头）
+@check: 张涛说 Your English is getting better and better.，林晓回答 No, no, my English is still bad. 合适吗？ | 不合适，这像是在否定对方的判断，会让人尴尬。大方说 Thank you! That means a lot.，再补一句自己是怎么练的。
+@next1: 不看书说出 S4、S9、S11、S18、S30（锚点句）
+@next1: 用 fewer 和 less 各说一句和自己有关的话（fewer + 可数名词，less + 不可数名词或形容词）
+@next1: 用 The more…, the… 说一句自己学英语的经验
+@next7: 「越来越……」的三种说法：getting better and better / more and more + 名词 / getting more and more + 长形容词
+@next7: 不看书完成一次 2 分钟的「月度一对一」：进步、工作量、压力、优点和不足

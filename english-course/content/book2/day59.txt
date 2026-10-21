@@ -1,0 +1,164 @@
+@day: 59
+@week: 5
+@title_cn: 最近一切都好吗
+@title_en: How's Everything Going?
+@topic: 试用期一对一谈话：回答开放式问题、举例说明、坦诚说出困难、回应评价和新任务
+@think_short: 开放式问题 How's everything going? / What's been…?｜回答 ≠ Fine：感受 + 细节 + 例子｜「说实话」To be honest, …｜「期待」look forward to + -ing
+
+@goal_scene: 试用期最后一周，经理和你做一对一谈话：他会问很多开放式问题，你要回答得有感受、有细节、有例子，坦诚地说出困难和自己的办法，主动问他的看法，再接住好消息和新任务。
+@goal_expr: How's everything going? / What's been the hardest part so far? / To be honest, … / Can you give me a specific example? / Last week, … / Can I ask your opinion? / You've passed your probation. / I'm looking forward to taking on more responsibility.
+@goal_vocab: 20 个重点词 + 5 个短语：工作表现与评价、职责与成长、转正与待遇
+@done: 被问 How's everything going? 时，不只说 Fine，能用「感受 + 细节 + 例子」连续说 3–4 句
+@done: 能用 To be honest, … 委婉地说出一个困难，再补一句自己的解决办法；能用 What's been…? / Can you give me a specific example? 提问和追问
+@done: 能用 I'm looking forward to + -ing 表达期待，不再说 ✗ looking forward to take…
+
+@warmup: 小梅拿到了上海的一个工作 offer。 | Mei got a job offer in Shanghai. | D58
+@warmup: 我们认识十年了。 | We've known each other for ten years. | D58
+@warmup: 我会特别想你的。 | I'm going to miss you so much. | D58
+@warmup: 祝你新工作顺利！ | Good luck with your new job! | D58
+@warmup: 你的英语越来越好了。 | Your English is getting better and better. | D54
+@warmup: 你不累吗？——累啊！不过这周过得挺好的。 | Aren't you tired? — Yes, I am! But it was a pretty good week. | D14
+
+@scene: 周四下午，林晓入职快满两个月，试用期只剩最后一周。张涛约她在小会议室做试用期的最后一次谈话。和平时的月度谈话不一样，这一次张涛会问很多开放式问题：这段时间最难的是什么、最大的成绩是什么；他还会给出自己的评价，并告诉她结果。林晓有点紧张——她不知道自己能不能通过，更不知道下个月有新任务在等着她。
+@sp: 人物关系 | 林晓 ↔ 张涛：员工和直属经理；这是一次正式的试用期评估，但张涛语气轻松、真诚，鼓励她多说
+@sp: 沟通目的 | 张涛想听到林晓的真实情况，再告诉她评估结果；林晓想把困难和成绩都说清楚，也想听听经理的看法
+@sp: 已知信息 | 张涛已经从吴佳那儿听说林晓整理的「卖家常见问题清单」很好用；林晓知道自己打电话还是弱项，但不知道评估结果
+@sp: 表达重点 | 回答开放式问题：感受 + 细节 + 例子 → 坦诚说困难（To be honest…）+ 自己的办法 → 说成绩、感谢 mentor → 主动问经理的看法 → 回应好消息和新任务（I'm looking forward to…）
+
+@story_title: Episode 59 · The Last One-on-One
+@story_type: 对话
+@s: It's Lily's last week of **probation**. Tom has a one-on-one with her. | 这是林晓试用期的最后一周，张涛约她做一对一谈话。
+@s: Tom: Thanks for coming in. **How's everything going**? | 张涛：谢谢你过来。最近一切都好吗？
+@s: Lily: Pretty good, thanks! I really enjoy my **role** here. | 林晓：挺好的，谢谢！我很喜欢我在这儿的工作。
+@s: Lily: I'm used to the daily work now, and I answer most emails on my own. | 林晓：日常工作我已经习惯了，大部分邮件我都能自己回。
+@s: Tom: Great. **What's been** the hardest part so far? | 张涛：很好。到目前为止，最难的是什么？
+@s: Lily: **To be honest**, phone calls are still hard for me. | 林晓：说实话，打电话对我来说还是挺难的。
+@s: Lily: Our weekly practice calls help, but fast talkers still make me nervous. | 林晓：我们每周的练习电话挺有用的，可是对方一说快，我还是会紧张。
+@s: Tom: Can you give me a **specific** example? | 张涛：能举个具体的例子吗？
+@s: Lily: Sure. Last week, a seller from Texas called about a lost package. | 林晓：好的。上周有位得州的卖家打电话来问一个丢失的包裹。
+@s: Lily: I didn't catch everything, so I emailed him afterward to check the details. | 林晓：我没全听懂，所以事后给他发了封邮件，把细节核对了一遍。
+@s: Tom: That's smart. It shows real **initiative**. | 张涛：这个办法聪明，说明你很主动。
+@br:
+@s: Tom: And what's been your biggest **achievement**? | 张涛：那你最大的成绩是什么？
+@s: Lily: Probably my list of common seller questions. Now the whole team uses it. | 林晓：应该是我整理的卖家常见问题清单吧，现在整个团队都在用。
+@s: Tom: I know. Grace says it saves her an hour a day. | 张涛：我知道。吴佳说它每天能帮她省一个小时。
+@s: Lily: Grace helped me a lot. She's been a great **mentor**. | 林晓：吴佳帮了我很多，她一直是个特别好的师傅。
+@s: Tom: Agreed. And I **appreciate** your honesty about the calls. | 张涛：同意。还有，谢谢你坦诚地说了打电话的事。
+@s: Lily: Can I ask your **opinion**? How am I doing? | 林晓：我能问问您的看法吗？我做得怎么样？
+@br:
+@s: Tom: **Overall**, your **performance** has been above **expectations**. | 张涛：总的来说，你的表现超出了预期。
+@s: Tom: I've seen a lot of **growth** in two months. | 张涛：这两个月，我看到你成长了很多。
+@s: Tom: So, here's the good news. You've passed your probation. | 张涛：所以，告诉你一个好消息：你通过试用期了。
+@s: Lily: Really? Thank you! | 林晓：真的吗？谢谢您！
+@s: Tom: You're now a **permanent** employee, with a small **raise** and full **benefits**. | 张涛：你现在是正式员工了，工资会涨一点，各项福利也都有了。
+@s: Tom: And next month, you'll **take on** your own group of American sellers. | 张涛：另外，下个月你要开始独立负责一组美国卖家。
+@s: Lily: My own group? That sounds **challenging**. | 林晓：我自己负责一组？听起来挺有挑战的。
+@s: Tom: It'll be a **challenge**. Each group has a monthly **target**. But I **trust** you. | 张涛：确实是个挑战，每组都有月度指标。不过我信任你。
+@s: Lily: Thank you. I'm **looking forward to** taking on more **responsibility**. | 林晓：谢谢您。我很期待承担更多的责任。
+@s: Tom: Me too. Welcome to the team, officially! | 张涛：我也很期待。欢迎你正式加入团队！
+
+@v: probation | = | n. | proʊˈbeɪʃn | 试用期 | 入职、转正、和 HR 或经理谈话 | on probation；pass probation；a three-month probation | New employees are on probation for three months. | 新员工有三个月的试用期。 | 「在试用期」说 be on probation；「通过试用期 / 转正」说 pass (one's) probation，不说 ✗ become a formal worker；美国职场也常说 probationary period；probation 还有「缓刑」的意思，要看上下文。
+@v: How's everything going | how's everything going? | phr. | ˌhaʊz ˌevriθɪŋ ˈɡoʊɪŋ | 最近一切都好吗？进展得怎么样？ | 经理、同事、朋友打开话题，想听你多说几句 | How's everything going?；How's everything going at work?；How's everything going with the move? | How's everything going with the new apartment? | 新房子那边一切都还顺利吧？ | 这是开放式问题，回答别只说 ✗ Fine.，要补一两个细节；问已经结束的事用 How was…?（第一册）：How was your trip?
+@v: role | = | n. | roʊl | 角色；（在团队里的）职位和职责 | 谈岗位、分工 | my role；a new role；play a role in… | What's your role on the team? | 你在团队里负责什么？ | role 强调「在团队里担任什么角色、负责什么」，比 job 更具体；和 roll（卷、滚）同音 `/roʊl/`，拼写别弄混。
+@v: What's been | what's been…? | phr. | ˈwʌts bɪn | （到现在为止这段时间）……是什么？ | 问一段持续到现在的经历：最难的、最好的、最大的收获 | What's been the hardest part?；What's been the best part?；What's been your biggest challenge? | What's been the best part of your new job? | 新工作到现在为止，最好的地方是什么？ | 这里的 's = has，不是 is：后面跟 been，就是 has；What's been…? 问「从开始到现在」，What was…? 问已经结束的事：What was the hardest part of the trip?
+@v: To be honest | to be honest | phr. | tə bi ˈɑːnɪst | 说实话；老实说 | 委婉地说出一个不太好听的真话：困难、不同意见、自己的不足 | To be honest, …；to be honest with you；Honestly, … | To be honest, I'm not sure it's a good idea. | 说实话，我不确定这是个好主意。 | 不说 ✗ Say the truth, … / ✗ Speak honestly, …；honest 的 h 不发音；别每句话都加，说多了反而像在暗示你之前的话不是真的。
+@v: specific | = | adj. | spəˈsɪfɪk | 具体的；明确的 | 追问细节、要求举例 | a specific example；be more specific；a specific date | Could you be more specific? | 你能说得更具体一点吗？ | 中文「具体」常放在动词前（具体说说），英文 specific 是形容词，放在名词前（a specific example）或说 be more specific；✗ Can you specific say?；重音在中间：spe-CI-fic。
+@v: initiative | = | n. | ɪˈnɪʃətɪv | 主动性；（主动做事的）积极性 | 评价员工、表扬别人主动做事 | show initiative；take the initiative；on your own initiative | She took the initiative and fixed the problem herself. | 她主动把问题自己解决了。 | 「主动」不说 ✗ active（active 是「活跃的、积极参加的」）；表扬人说 That shows initiative. / You took the initiative.；4 个音节 i-NI-tia-tive，tia 读 `/ʃə/`。
+@v: achievement | = | n. | əˈtʃiːvmənt | 成就；成绩 | 总结工作、写简历、做评估 | a big achievement；my biggest achievement；a sense of achievement | Passing that exam was a big achievement for me. | 通过那次考试对我来说是个很大的成就。 | 动词是 achieve：achieve a goal；「有成就感」说 I feel a sense of achievement.，不说 ✗ I'm very achievement.
+@v: mentor | = | n. | ˈmentɔːr | 导师；（职场上带你的）师傅 | 新人入职、职业发展 | a great mentor；my mentor；mentor sb（动词：指导） | Every new employee gets a mentor. | 每位新员工都会有一位导师。 | 职场里带新人的「师傅」都可以叫 mentor；研究生的「导师」一般叫 advisor；mentor 也能作动词：Grace mentors new hires.
+@v: appreciate | = | v. | əˈpriːʃieɪt | 感激；重视（别人做的事） | 真诚、稍正式地道谢 | I appreciate it.；appreciate your help；really appreciate | I really appreciate your help with the report. | 你帮我做报告，我真的很感激。 | appreciate 后面直接接「事」，不加 for：✗ I appreciate for your help → ✓ I appreciate your help.；感谢「人」本身用 Thank you 更自然；比 thanks 更郑重。
+@v: opinion | = | n. | əˈpɪnjən | 看法；意见 | 征求或表达看法 | in my opinion；ask for sb's opinion；What's your opinion? | In my opinion, we should wait a week. | 依我看，我们应该再等一周。 | 「依我看」说 In my opinion，不说 ✗ According to my opinion；日常问看法 What do you think? 比 What's your opinion? 更口语。
+@v: Overall | overall | adv. | ˌoʊvərˈɔːl | 总的来说；整体上 | 总结、评价、汇报 | Overall, …；overall performance（形容词）；overall, a good month | Overall, the trip was a success. | 总的来说，这次出行很成功。 | 作副词放句首、后面加逗号，重音在后；作形容词放名词前时重音前移：overall performance `/ˈoʊvərɔːl/`。
+@v: performance | = | n. | pərˈfɔːrməns | （工作）表现；业绩；表演 | 绩效评估、年终总结 | job performance；a performance review；perform well（动词） | Your performance this quarter was excellent. | 你这个季度的表现非常好。 | 「表现很好」说 Your performance has been great. 或 You've performed well.，不说 ✗ You performed very good.；重音在 FOR：per-FOR-mance。
+@v: expectations | expectation | n. | ˌekspekˈteɪʃnz | 期望；预期 | 评估工作、谈目标和要求 | above expectations；meet expectations；high expectations | The results were above our expectations. | 结果超出了我们的预期。 | 常用复数；「超出预期」说 above expectations / exceed expectations，不说 ✗ over my expectation；动词 expect 是「预计」（第一册）。
+@v: growth | = | n. | ɡroʊθ | 成长；增长 | 评价个人进步、说业务增长 | personal growth；a lot of growth；sales growth | We saw a lot of growth in sales this year. | 今年我们的销售增长了很多。 | 名词，动词是 grow（D35）；结尾 th 是咬舌音 `/θ/`，不要读成 /s/ 或 /f/。
+@v: permanent | = | adj. | ˈpɜːrmənənt | 永久的；（工作）正式的、长期的 | 转正、长期合同、长期地址 | a permanent employee；a permanent job；a permanent address | She has a permanent job now. | 她现在有一份正式的工作了。 | 中文「转正」可以说 become a permanent employee 或 pass probation；美国公司也常说 full-time employee；重音在第一个音节：PER-ma-nent。
+@v: raise | = | n. | reɪz | 加薪 | 谈工资、年终评估 | get a raise；a small raise；ask for a raise | I'm going to ask for a raise next year. | 我打算明年提加薪。 | 美式说 a raise，英式说 a pay rise；raise 作动词是「举起、提出」：raise your hand / raise a question。
+@v: benefits | benefit | n. | ˈbenɪfɪts | 福利；好处 | 谈入职条件、待遇 | full benefits；health benefits；the benefits of… | The job comes with good benefits. | 这份工作福利很好。 | 公司的「福利」（保险、补贴、假期）说 benefits，常用复数；不说 ✗ welfare（welfare 在美国指政府救济）；表示「好处」：the benefits of exercise。
+@v: take on | = | phr. | ˌteɪk ˈɑːn | 承担（新的工作、责任）；接手 | 接新项目、新客户、新职责 | take on more work；take on a new project；take on responsibility | I can't take on any more projects this month. | 这个月我不能再接新项目了。 | take on 强调「接下一副新的担子」；宾语是代词时放中间：take it on，不说 ✗ take on it；第一册的 in charge of 说的是「负责（的状态）」，take on 是「开始接手（的动作）」。
+@v: challenging | = | adj. | ˈtʃælɪndʒɪŋ | 有挑战性的；有难度的 | 委婉、积极地说一件事难 | challenging work；a challenging job；find sth challenging | The new project is challenging, but I like it. | 新项目有难度，不过我很喜欢。 | 形容事情用形容词 challenging，不说 ✗ It's very challenge.；比 difficult 更积极，意思是「难，但值得去做」。
+@v: challenge | = | n. | ˈtʃælɪndʒ | 挑战；难题 | 谈工作中的困难和新任务 | a big challenge；face a challenge；take on a challenge | Speaking English on the phone is a big challenge for me. | 用英语打电话对我来说是个很大的挑战。 | 可数名词，前面要有 a：✗ It's challenge. → ✓ It's a challenge.；重音在前 CHAL-lenge，不读 cha-LENGE。
+@v: target | = | n. | ˈtɑːrɡɪt | 目标；指标 | 业绩、KPI、工作指标 | a monthly target；hit / meet a target；a sales target | We hit our sales target in May. | 我们五月完成了销售指标。 | 「完成指标」说 hit / meet the target，不说 ✗ finish the target；target 是具体、能量化的数字，goal（第一册）更宽泛；g 读 `/ɡ/`，不读 /dʒ/。
+@v: trust | = | v. | trʌst | 信任；放心（交给某人） | 表达对人的信任、放手让人去做 | I trust you.；trust sb with sth；trust your judgment | I trust you with this project. | 这个项目交给你，我放心。 | 日常说 I trust you. 就行，不必加 in；「相信某人说的话是真的」用 believe：I believe you.；trust 还是名词：Thank you for your trust.
+@v: looking forward to | look forward to | phr. | ˌlʊkɪŋ ˈfɔːrwərd tə | 期待；盼望 | 期待新工作、见面、活动；邮件结尾 | look forward to it；look forward to + -ing；I look forward to hearing from you. | I'm looking forward to meeting the new team. | 我很期待见到新团队。 | to 是介词，后面接名词或 -ing：✗ look forward to meet → ✓ look forward to meeting；口语说 I'm looking forward to it.，邮件结尾常用更正式的 I look forward to hearing from you.
+@v: responsibility | = | n. | rɪˌspɑːnsəˈbɪləti | 责任；职责 | 谈岗位职责、接新任务 | take on more responsibility；my responsibility；a big responsibility | Answering seller emails is my responsibility. | 回复卖家邮件是我的职责。 | 「更多责任」泛指时用不可数：more responsibility；指一项项具体的职责可以用复数：my responsibilities；6 个音节，主重音在 BI：re-spon-si-BI-li-ty。
+
+@diff: 开放式问题——How's everything going? / What's been the hardest part so far?
+@d_cn: 「最近怎么样？」「到现在为止，最难的是什么？」——问的是从入职到此刻的这一整段时间，而且想听你多说。
+@d_en: How's everything going? / What's been the hardest part so far? / What's been your biggest achievement?
+@d_why: 这里有两个要点。① how / what 开头的**开放式问题**不能用 Yes / No 回答，对方就是想听你多讲——美国经理用 How's everything going? 开场，是在邀请你主动说情况。② **What's been…?** 里的 's = has，现在完成时说的是「从开始到现在」这段时间，试用期还没结束，感受还在继续；**What was the hardest part?** 用过去时，指一段已经结束的经历，比如一次旅行、一个做完的项目。中文两种情况都说「最难的是什么」，英文要靠时态分开。听的时候也要留心：What's been 里的 has 只剩一个 /s/，been 读 `/bɪn/`，正常语速下一闪而过。
+@d_when: 一对一谈话、面试、和朋友深聊；问对方新工作、新城市、新学期的感受。
+@d_vs: **What's been the hardest part so far?** 到目前为止最难的是什么？（试用期还没结束）\n**What was the hardest part of the trip?** 那次旅行最难的是什么？（已经结束）\n**How's everything going?** 最近一切都好吗？（开放式，请对方多说）\n**Is everything OK?** 一切都还好吧？（只需要回答 Yes / No）
+@d_task: 你的朋友搬到上海三个月了，你想问她：①「到现在为止，最好的是什么？」②「最难的又是什么？」 | ① What's been the best part so far? ② What's been the hardest part?
+@diff: 回答不只说 Fine——感受 + 细节 + 例子
+@d_cn: 被领导问「最近怎么样」，很多人习惯答「还行」「挺好的」，觉得说多了像邀功或诉苦。
+@d_en: Pretty good, thanks! I really enjoy my role here. I'm used to the daily work now, and I answer most emails on my own.
+@d_why: 英文开放式问题后只回一个 Fine 或 Good，对话就断了，美国经理会以为你不想聊，或者有问题不愿说。自然的回答有三层：**感受**（Pretty good, thanks!）→ **细节**（I'm used to the daily work now…）→ **例子**（Last week, a seller from Texas called…）。被追问 Can you give me a specific example? 时，就用 Last week / For example 讲一件具体的事：有时间、有人、有结果。说困难时，最好再补一句自己是怎么解决的（I emailed him afterward to check the details.）——张涛马上夸她 It shows real initiative.，这比只说难处好得多。
+@d_when: 一对一谈话、面试、周会汇报；朋友问你近况、新工作、新房子的时候。
+@d_vs: ✗ **Fine.**（对话断了）\n✓ **Pretty good, thanks!**（感受）**I'm used to the work now.**（细节）**Last week, I answered sixty emails in one day.**（例子）\n✓ **To be honest, calls are hard.**（困难）**So I email sellers afterward to check the details.**（办法）
+@d_task: 新同事问 How's the new apartment?，用「感受 + 细节 + 例子」回答（很满意：离公司近，上周走路十分钟就到了）。 | I love it! It's really close to work. Last week, I walked to the office in ten minutes.
+@diff: 「说实话」——To be honest, …
+@d_cn: 要说一句不太好听的真话：承认自己的困难、提出不同意见、说自己不太喜欢。
+@d_en: To be honest, phone calls are still hard for me. / Honestly, I'm not sure. / To tell you the truth, I didn't like it.
+@d_why: 中文「说实话」「老实说」，学生容易直译成 ✗ Say the truth, … 或 ✗ Speak honestly, …。英文的固定开头是 **To be honest, …**，口语里也常说 **Honestly, …**（Day 34 学过 honestly）或 **To tell you the truth, …**。它的作用是给后面的「坏消息」或不同意见**先打个招呼**，让语气变软：To be honest, phone calls are still hard for me. 比直接说 Phone calls are hard. 听起来更坦诚、也更有分寸。但别每句话都加——说多了反而像在暗示你前面说的不是真话。经理听到坦诚的回答，常会像张涛那样回一句 I appreciate your honesty.
+@d_when: 一对一谈话里说困难；对方问你意见而你不太同意；朋友问你某样东西好不好，而你觉得一般。
+@d_vs: ✓ **To be honest, phone calls are still hard for me.** 说实话，打电话对我来说还是挺难的。\n✓ **Honestly, I'm not sure it's a good idea.** 老实说，我不确定这主意好不好。\n✓ **To tell you the truth, I didn't like the movie.** 说真的，那部电影我不太喜欢。\n✗ Say the truth, … / ✗ Speak honestly, …
+@d_task: 朋友问你觉得他推荐的那家网红店怎么样（说实话，你觉得太贵了，菜也一般）。 | To be honest, it was too expensive. The food was just OK.
+@diff: 「我很期待」——I'm looking forward to it / to + -ing
+@d_cn: 对一件还没发生的事充满期待，盼着它来。
+@d_en: I'm looking forward to taking on more responsibility. / I'm really looking forward to it. / I look forward to hearing from you.
+@d_why: 中文「期待 + 动词」，动词不变：「期待承担更多责任」。英文 look forward to 里的 **to 是介词**，不是不定式的 to，所以后面接名词、代词或 **-ing**：✓ looking forward to **taking on**… ✗ looking forward to take on…——这是中国学习者（包括英语考试成绩很好的人）最常见的错误之一。另外两个坑：「期待」不要说成 ✗ I expect to…（expect 是「预计」，第一册学过）；也不说 ✗ I'm very looking forward to it——very 不能直接修饰动词，要说 I'm **really** looking forward to it。口语用 I'm looking forward to…，邮件结尾常用更正式的 I look forward to hearing from you.
+@d_when: 接到新任务、约好见面、假期或活动之前、写邮件结尾。
+@d_vs: ✓ **I'm looking forward to taking on more responsibility.** 我很期待承担更多责任。\n✓ **I'm really looking forward to it.** 我特别期待。\n✓ **I look forward to hearing from you.** 期待您的回复。（邮件，正式）\n✗ I'm looking forward to take on… / ✗ I'm very looking forward to it.
+@d_task: 下个月你要第一次和西雅图团队面对面开会，用两种方式说你很期待。 | I'm really looking forward to meeting the Seattle team. ／ I'm looking forward to it.
+
+@core: How's everything going? | 开放式寒暄，打开话题 | everything / work / the new role / the move | 正式：How are things going with your work?｜随意：How's it going?
+@core: What's been the … so far? | 问「到现在为止」的感受 | hardest part / best part / biggest challenge | 正式：What has been the most challenging part so far?｜随意：What's been tough?
+@core: To be honest, … is still hard for me. | 委婉、坦诚地说出困难 | phone calls / small talk / long meetings | 正式：To be honest, I still find phone calls challenging.｜随意：Honestly, calls are still tough.
+@core: Can you give me a specific example? | 追问细节，请对方举例 | example / date / number | 正式：Could you be more specific?｜随意：Like what?
+@core: Last week, … so I … | 回答时举一个有时间、有结果的例子 | a seller called / the system was down；emailed him / asked Grace | 正式：To give you an example, last week…｜随意：Like, last week…
+@core: Can I ask your opinion? How am I doing? | 主动请经理给反馈 | my work / my emails / this report | 正式：I'd appreciate your feedback on my work.｜随意：How am I doing?
+@core: I really appreciate … | 真诚地道谢 | your help / your trust / your feedback | 正式：I really appreciate your support.｜随意：Thanks so much, really.
+@core: I'm looking forward to + -ing / it. | 表达期待 | taking on more responsibility / working with the new sellers / it | 正式：I look forward to working with the new sellers.｜随意：Can't wait!
+
+@pw: probation | proʊˈbeɪʃn | 3 个音节 pro·BA·tion | 重音在 ba；pro 读 `/proʊ/`，不读「普肉」
+@pw: responsibility | rɪˌspɑːnsəˈbɪləti | 6 个音节 re·spon·si·BIL·i·ty | 次重音在 spon，主重音在 bil；节奏是「轻 重 轻 最重 轻 轻」
+@pw: initiative | ɪˈnɪʃətɪv | 4 个音节 i·NI·tia·tive | 重音在第二个音节；tia 读 `/ʃə/`，结尾 tive 很轻
+@pw: appreciate | əˈpriːʃieɪt | 4 个音节 ap·PRE·ci·ate | 重音在 pre（长音 `/iː/`）；ci 读 `/ʃi/`，不读 /si/
+@pw: specific | spəˈsɪfɪk | 3 个音节 spe·CI·fic | 重音在中间；第一个音节弱读成 `/spə/`，别读成 SPE-ci-fic
+@pw: achievement | əˈtʃiːvmənt | 3 个音节 a·CHIEVE·ment | 重音在 chieve；ment 很轻，几乎只剩 `/mənt/`
+@pw: challenge | ˈtʃælɪndʒ | 2 个音节 CHAL·lenge | 重音在前；lenge 读 `/lɪndʒ/`，不读「冷之」
+@ps: **What's**‿been the **hard**est **part** / so **far**? | What's been 连读成 wut-sbin：has 只剩一个 /s/，been 读 `/bɪn/`；hardest 的 t 碰到 part 只做口型。
+@ps: To be **hon**est, / **phone** calls are still **hard** for me. | To be 弱读成 `/tə bi/`；honest 的 h 不发音；for me 弱读成 `/fər mi/`。
+@ps: You've **passed** your pro**ba**tion. | You've 弱读成 `/juv/`，v 很轻；passed 读 `/pæst/`，和 past 同音。这句话的「已经」全靠那个轻轻的 've。
+@ps: I'm **look**ing **for**ward to **tak**ing‿on more responsi**bil**ity. | to 弱读成 `/tə/`；taking on 连读成 tay-kin-gon；responsibility 主重音落在 bil。
+@pnote: 本课最重要的弱读是 has / have / been：S15 She's been a great mentor. 里的 she's = she **has**（不是 she is！后面跟 been 就是 has）；S18 your performance has been → `/əz bɪn/`，has 几乎只剩 /z/；I've seen / You've passed 的 've 只是一个很轻的 v。听不出这些小音，就分不清「是」和「一直是」、「通过」和「已经通过」。
+@pnote: 写 vs 说：What has been → What's been；It will be → It'll be；going to → gonna（张涛平时就爱说 we're gonna…）。正式邮件里写 What has been the most challenging part? 也很常见，嘴上则几乎都缩读。to be honest 说得很快，像 tuh-bee-ON-ist。
+@lfocus: She's been / What's been 里藏着的 has
+@lfocus: to be honest、for me 里弱读的 to / for
+@lfocus: You've passed / I've seen 里很轻的 've
+@dict: S5–S7
+@dict: S18–S20
+@res: 在 youglish.com 输入 "looking forward to"，选 US，留意美国人在 to 后面接的都是名词或 -ing。
+
+@mimic: 跟读【C】S2–S27：先逐句跟读，模仿张涛开放式问题的下降语调和林晓「感受 + 细节 + 例子」的回答节奏，特别注意 What's been / She's been / You've passed 的弱读；再你演林晓、手机朗读张涛的台词，正常语速完整对一遍并录音。最后合上书，只看张涛的 6 个问题，用自己的话回答。
+@swap: What's been the hardest part so far? | 换：the best part / the biggest surprise / the most useful thing | What's been the best part so far?
+@swap: To be honest, phone calls are still hard for me. | 换：meetings with Seattle / writing long emails / small talk | To be honest, small talk is still hard for me.
+@swap: I'm looking forward to taking on more responsibility. | 换 -ing：working with the new sellers / meeting the Seattle team / learning more | I'm looking forward to working with the new sellers.
+@swap: Overall, your performance has been above expectations. | 换主语和评价：the project / this month；great / better than last month | Overall, this month has been great.
+@free: 新同事问你 How's everything going?（你觉得挺好，已经习惯了新系统，再举个例子） | Pretty good, thanks! I'm used to the new system now. Yesterday, I finished all my orders before five.
+@free: 经理问 What's been the hardest part so far?（说实话，英文会议还是很难跟上；说说你的办法） | To be honest, meetings in English are still hard for me. People talk fast, so I take notes and check with my team afterward.
+@free: 经理告诉你下个月让你负责一个新项目，你表示感谢和期待。 | Thank you for your trust. I'm looking forward to taking on the new project.
+@free: 朋友只说了一句「我挺好的」，你想让他多说一点（追问一个具体的问题）。 | Good to hear! What's been the best part of your new job so far?
+@output: 录 1.5 分钟语音或写 8–10 句话：「我的阶段小结」——想象经理问你 How's everything going?：总体感受（感受 + 细节）→ 最难的部分（To be honest… + 例子 + 你的办法）→ 最大的成绩 → 感谢一个帮过你的人（appreciate）→ 接下来的期待（I'm looking forward to + -ing）。
+@output_sample: Overall, everything is going well. I joined my company three months ago, and I'm used to my daily work now. I can handle most customer emails on my own. To be honest, meetings in English are still hard for me. For example, last Monday the U.S. team talked really fast, and I missed some details. So I wrote down my questions and checked with my manager afterward. My biggest achievement so far is a new report template, and now my team uses it every week. My mentor has helped me a lot, and I really appreciate her support. Next month, I'm going to take on a new project. I'm looking forward to learning more.
+
+@check: 经理问 How's everything going?，只回答 Fine. 有什么问题？怎样回答更好？ | 太短，对话就断了，经理还可能以为你不想说。用「感受 + 细节 + 例子」：Pretty good, thanks! I'm used to the work now. For example, I answer most emails on my own.
+@check: What's been the hardest part so far? 为什么用 What's been，不用 What was？ | 's been = has been，问的是「从开始到现在」，试用期还没结束；What was… 问的是已经结束的一段经历，比如一次旅行。
+@check: 改错：I'm looking forward to take on more responsibility. | to 是介词，后面接 -ing：I'm looking forward to taking on more responsibility.
+@check: 听力：林晓说 She's been a great mentor. 这里的 she's 是 she is 还是 she has？怎么判断？ | she has。后面跟着 been，就是 has（现在完成时）。
+@check: 换个场景：同事问你喜不喜欢新的系统界面（说实话，你觉得不太好用），委婉地说两句。 | To be honest, I'm not a big fan of the new design. The search box is hard to find.
+@next1: 不看书说出 5 个锚点句：S2、S5、S6、S20、S26
+@next1: 用「感受 + 细节 + 例子」回答 How's everything going? 和 What's been the hardest part so far?
+@next7: 开放式问题和追问：How's everything going? / What's been…? / Can you give me a specific example?
+@next7: look forward to + -ing、To be honest, … 各造两句关于自己的话

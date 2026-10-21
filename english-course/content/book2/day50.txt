@@ -1,0 +1,161 @@
+@day: 50
+@week: 3
+@title_cn: 出行
+@title_en: Getting Around
+@topic: 坐公交、坐错车、问路和指路、过马路、骑车和打车
+@think_short: 「坐错车」took the wrong bus｜「下车」get off ≠ get down｜指路 go straight / turn left at… / on your right｜「对面」across from
+
+@goal_scene: 带刚来深圳的实习生去公园：他坐错了公交，你在电话里告诉他坐哪路、在哪站下；碰头后让他用英语问路，听懂对方的指路，安全过马路、骑车、打车回家。
+@goal_expr: I took the wrong bus this morning. / Get on the 26. Get off at the third stop. / How do I get to…? / Go straight and turn left at the traffic light. / It's on your right. / It's across from the bank.
+@goal_vocab: 20 个重点词 + 6 个短语：公交与打车、方向与路口、指路用语、骑车
+@done: 能在电话里告诉别人坐哪路车、在哪儿上车、第几站下（get on / get off at…），不再说 get down
+@done: 能听懂并说出一段 3–4 步的指路：go straight / turn left at the traffic light / go past… / it's on your right / it's across from…
+@done: 能用 the wrong + 名词 解释自己迟到：I took the wrong bus. / I got off at the wrong stop.
+
+@warmup: 这件外套不合身，太紧了。 | The jacket doesn't fit. It's too tight. | D49
+@warmup: 我能把它换成大一号的吗？ | Can I exchange it for a larger size? | D49
+@warmup: 抱歉，L 码缺货了。 | Sorry, the large is out of stock. | D49
+@warmup: 请保留吊牌和原包装。 | Please keep the tags and the original packaging. | D49
+@warmup: 我觉得我感冒了。 | I think I caught a cold. | D47
+@warmup: 然后她坐地铁去上班。 | Then she takes the subway to work. | D2
+
+@scene: 周日，林晓带上周刚到深圳的实习生 Leo 去深圳湾公园转转。公司做的是美国卖家的生意，Leo 也想练英语，两人就定了个规矩：今天只说英语。约好九点见面，九点二十 Leo 却打来电话——他坐错了公交，车往反方向开了。林晓让他先在地图 App 上查路线，再告诉他坐哪路、在第几站下。碰头以后，她让 Leo 自己去问路，听一位跑步的外国人指路；过马路时，Leo 差点闯了红灯。
+@sp: 人物关系 | 林晓 → Leo：林晓是带新人的「前辈」，语气轻松、像朋友；Leo → 路人：陌生人，开口先说 Excuse me
+@sp: 沟通目的 | 解释迟到的原因；在电话里把路线说清楚；问路、听懂指路；提醒对方注意安全
+@sp: 已知信息 | Leo 不熟悉深圳的公交和路，只知道自己坐反了；林晓知道该坐哪路车，但不确定从车站到公园入口怎么走
+@sp: 表达重点 | 坐错车（took the wrong bus / the opposite direction）→ 上车、下车（get on / get off at）→ 问路（How do I get to…?）→ 指路（go straight / turn left at / past / on your right / across from）→ 过马路（cross / crosswalk）
+
+@story_title: Episode 50 · The Wrong Bus
+@story_type: 叙述 + 电话 + 问路对话
+@s: On Sunday, Lily offered to show Leo around Shenzhen Bay Park. | 周日，林晓说要带 Leo 去深圳湾公园转转。
+@s: Leo, the new intern, only moved to Shenzhen last week. | 新来的实习生 Leo 上周才搬到深圳。
+@s: Their rule for the day: English only! | 他们给今天定了个规矩：只说英语！
+@s: They planned to meet at nine, but at 9:20, Leo called. | 两人约好九点见面，可到了九点二十，Leo 打来了电话。
+@s: Leo: Sorry, Lily! I took the wrong **bus** this morning. | Leo：对不起，林晓！我今天早上坐错公交了。
+@s: Leo: It went in the **opposite** **direction**! | Leo：车往反方向开了！
+@s: Lily: Don't worry. Check the **route** on your map **app**. | 林晓：别急，先在地图 App 上查一下路线。
+@s: Leo: OK… The 26 goes to the park. | Leo：嗯……26 路能到公园。
+@s: Lily: Great. **Get on** the 26 across the street. | 林晓：好，到马路对面坐 26 路。
+@s: Lily: **Get off** at the third stop. I'll meet you there. | 林晓：在第三站下车，我在那儿等你。
+@br:
+@s: Twenty minutes later, they met at the **bus stop**. | 二十分钟后，两人在公交站碰头了。
+@s: Lily: Now you ask for directions. It's good practice! | 林晓：现在你去问路，正好练练！
+@s: Leo: Excuse me. **How do I get to** Shenzhen Bay Park? | Leo：请问，去深圳湾公园怎么走？
+@s: Jogger: Go **straight** and **turn** left at the **traffic light**. | 跑步的人：一直往前走，到红绿灯左转。
+@s: Jogger: Then walk about two **blocks**, **past** a hospital. | 跑步的人：然后再走大概两个路口，经过一家医院。
+@s: Jogger: The entrance is on your right. It's **across from** the bank. | 跑步的人：入口在你右手边，就在银行对面。
+@s: At the **intersection**, Leo started to **cross** the road. | 到了十字路口，Leo 抬腿就要过马路。
+@s: Lily: Wait! The light is still red. Let's use the **crosswalk**. | 林晓：等等！还是红灯呢。我们走人行横道。
+@br:
+@s: At the park, they rented two **bikes**, and Leo put on a **helmet**. | 到了公园，他们租了两辆自行车，Leo 戴上了头盔。
+@s: They **rode** by the sea in the bike **lane**. | 他们沿着海边，在自行车道上骑车。
+@s: Leo rode fast, so Lily stayed **behind** him. | Leo 骑得快，林晓就跟在他后面。
+@s: At six, they shared a **taxi** home. Leo sat in the front **passenger** seat. | 六点，两人拼了一辆出租车回家，Leo 坐在副驾驶。
+@s: The **fare** was only thirty-five yuan. | 车费才三十五块。
+@s: Leo: Thanks, Lily! Next week, I'll take the right bus! | Leo：谢谢你，林晓！下周我一定不坐错车了！
+
+@v: bus | = | n. | bʌs | 公交车；巴士 | 坐公交、问几路车 | take the bus；the wrong bus；Bus 26 / the 26 | I usually take the bus to work. | 我一般坐公交上班。 | 「坐公交」说 take the bus，不说 ✗ sit the bus；「26 路」说 Bus 26 或 the 26，不说 ✗ No. 26 road；by bus 时不加 the。
+@v: opposite | = | adj./prep. | ˈɑːpəzɪt | 相反的；（在）……对面 | 方向反了、意思相反、位置相对 | the opposite direction；the opposite way；the opposite of… | Sorry, I was walking in the opposite direction. | 不好意思，我刚才走反了。 | 「往反方向」说 in the opposite direction，介词用 in，✗ to the opposite direction；说「在……对面」时美国人口语更常用 across from（见差异④），opposite the bank 偏英式、偏书面。
+@v: direction | = | n. | dəˈrekʃn | 方向；（复数）指路、路线说明 | 走错方向、问路、看说明书 | in the wrong direction；ask for directions；give sb directions | Can you give me directions to the station? | 你能告诉我去车站怎么走吗？ | 「问路」说 ask for directions（用复数），不说 ✗ ask the road；「朝这个方向」用 in：in this direction，✗ to this direction；也有很多美国人读 `/daɪˈrekʃn/`。
+@v: route | = | n. | ruːt | 路线；（公交的）线路 | 查路线、坐哪路车、送货路线 | check the route；a bus route；the fastest route | What's the fastest route to the airport? | 去机场最快的路线是哪条？ | 美国人两种读法都有：`/ruːt/`（和 root 同音）和 `/raʊt/`；「坐哪路车」问 Which bus goes there?，不说 ✗ Which road bus?
+@v: app | = | n. | æp | 手机应用；App | 查地图、打车、付款、点外卖 | a map app；download an app；on the app | You can pay for the taxi on the app. | 打车费可以直接在 App 上付。 | app 是 application 的简称，读一个音节 `/æp/`，不要读成三个字母 A-P-P；「在 App 上」用 on：on the app。
+@v: Get on | get on | phr. | ˌget ˈɑːn | 上（公交、地铁、火车、飞机） | 告诉别人在哪儿上车、坐哪路 | get on the bus；get on the train；get on at… | We got on the subway at Window of the World. | 我们在世界之窗上的地铁。 | 公交、地铁、火车、飞机这类能在里面站着走的，用 get on / get off；小汽车、出租车用 get in / get out of：Get in the taxi.
+@v: Get off | get off | phr. | ˌget ˈɔːf | 下（公交、地铁、火车、飞机） | 告诉别人在哪站下车 | get off at the third stop；get off the bus；Where do I get off? | Excuse me, where should I get off? | 请问我该在哪站下？ | 「下车」不说 ✗ get down（那是「蹲下 / 从高处下来」）；「在……站下」用 at：get off at Futian；出租车下车说 get out (of the taxi)。
+@v: bus stop | = | phr. | ˈbʌs ˌstɑːp | 公交站 | 约在哪儿见面、问车站在哪 | at the bus stop；the next bus stop；the nearest bus stop | Is there a bus stop near here? | 这附近有公交站吗？ | 「公交站」不说 ✗ bus station（bus station 是长途汽车站、公交总站）；地铁站是 subway station；「在公交站」用 at：at the bus stop。
+@v: How do I get to | how do I get to…? | phr. | ˌhaʊ də aɪ ˈget tə | 去……怎么走？ | 问路、问交通方式 | How do I get to…?；How can I get to…?；What's the best way to get to…? | Excuse me. How do I get to the subway station? | 请问去地铁站怎么走？ | 问路不说 ✗ How to go to…?（不是完整的句子），也不说 ✗ Where is the way to…?；开口先说 Excuse me.；get to 已经包含「到」，here / there 前面不加 to：✗ How do I get to there?
+@v: straight | = | adv. | streɪt | 一直（往前）；笔直地 | 指路：直走 | go straight；go straight ahead；keep going straight | Go straight for two blocks. | 直走两个路口。 | 「直走」说 go straight（ahead），不说 ✗ go straight forward / ✗ go direct；gh 不发音，别和 street 混。
+@v: turn | = | v./n. | tɜːrn | 转弯；拐 | 指路：左转、右转 | turn left / right；turn left at…；make a U-turn | Turn right at the second intersection. | 在第二个路口右转。 | 「左转」说 turn left，不说 ✗ turn to left / ✗ turn to the left side；「在哪儿转」用 at：turn left at the bank；「掉头」说 make a U-turn。
+@v: traffic light | = | phr. | ˈtræfɪk ˌlaɪt | 红绿灯；交通信号灯 | 指路、过马路 | at the traffic light；the second traffic light；The light is red. | Wait for the traffic light to turn green. | 等红绿灯变绿了再走。 | 「红绿灯」不说 ✗ red-green light；口语常简称 the light：The light is red.；「在红绿灯处」用 at：at the light。
+@v: blocks | block | n. | blɑːks | 街区；（两个路口之间的）一段路 | 美国人指路时常用的距离单位 | two blocks；walk a block；around the block | The bank is three blocks from here. | 银行离这儿三个路口。 | 美国城市道路像棋盘，指路常说 It's two blocks away.，比说「两百米」常见得多；听到 blocks 可以理解成「过几个路口」。
+@v: past | = | prep. | pæst | 经过；走过（某处） | 指路时说路上会经过什么 | walk past…；go past the bank；just past the hospital | Go past the school. It's on your left. | 走过学校，它就在你左手边。 | past 是介词，前面要有动词：walk past the hospital；动词「经过」是 pass，它的过去式 passed 和 past 读音一样 `/pæst/`，写的时候别混：✓ I passed the bank. ✓ I walked past the bank.
+@v: across from | = | phr. | əˈkrɔːs frəm | 在……对面 | 指路、说位置、约见面地点 | across from the bank；right across from…；across the street from… | The café is right across from our office. | 那家咖啡馆就在我们公司对面。 | 「在银行对面」不说 ✗ in the opposite of the bank；美式口语最常用 across from，强调隔着马路就说 across the street from…；from 弱读成 `/frəm/`。
+@v: intersection | = | n. | ˈɪntərˌsekʃn | 十字路口；交叉路口 | 指路、说事故地点、过马路 | at the intersection；a busy intersection；the next intersection | Turn left at the next intersection. | 在下一个路口左转。 | 「十字路口」不说 ✗ cross road；美式说 intersection，口语里也常说 the corner；「在路口」用 at：at the intersection。
+@v: cross | = | v. | krɔːs | 穿过；横穿（马路） | 过马路、过桥 | cross the road；cross the street；cross the bridge | Be careful when you cross the street. | 过马路的时候小心点。 | 「过马路」说 cross the street / cross the road，不说 ✗ pass the road；cross 后面直接接地点，不用加 over。
+@v: crosswalk | = | n. | ˈkrɔːswɔːk | 人行横道；斑马线 | 过马路、提醒别人走斑马线 | use the crosswalk；at the crosswalk；cross at the crosswalk | Cars have to stop at the crosswalk. | 车到人行横道前必须停下。 | 「斑马线」美式叫 crosswalk，英式叫 zebra crossing；✗ zebra line 美国人听不懂。
+@v: bikes | bike | n. | baɪks | 自行车 | 租车、骑车、共享单车 | ride a bike；rent a bike；a shared bike | I ride a shared bike to the subway station. | 我骑共享单车去地铁站。 | 口语里 bike 比 bicycle 常用得多；「骑车」用 ride，不说 ✗ drive a bike；by bike 时不加 a。
+@v: helmet | = | n. | ˈhelmɪt | 头盔 | 骑自行车、电动车、摩托车 | wear a helmet；put on a helmet；a bike helmet | Always wear a helmet on an e-bike. | 骑电动车一定要戴头盔。 | 「戴头盔」用 wear（戴着的状态）或 put on（戴上的动作），不说 ✗ take a helmet；l 是暗 l，舌尖抬起碰上齿龈。
+@v: rode | ride | v. | roʊd | 骑（车）；乘坐（ride 的过去式） | 骑自行车、骑马；名词 a ride 是「搭车、一趟车程」 | ride a bike；ride the subway；give sb a ride | Can you give me a ride to the station? | 你能捎我去车站吗？ | 骑自行车、电动车、马用 ride，开汽车用 drive；过去式是 rode，不是 ✗ rided；It's a ten-minute ride. = 坐车十分钟。
+@v: lane | = | n. | leɪn | 车道；（窄的）小路 | 自行车道、公路车道、小巷 | a bike lane；the left lane；change lanes | Please stay in the bike lane. | 请待在自行车道里。 | 「自行车道」说 bike lane，「左车道」说 the left lane；lane 是路上划出来的「一条道」，整条路是 road / street。
+@v: behind | = | prep. | bɪˈhaɪnd | 在……后面 | 说位置、骑车或走路跟在后面 | behind me；right behind…；stay behind sb | The parking lot is behind the building. | 停车场在楼后面。 | 反义是 in front of（✗ in the front of）；behind 说位置，later 才是「（时间上）之后」：✗ behind two days → ✓ two days later。
+@v: taxi | = | n. | ˈtæksi | 出租车 | 打车、叫车 | take a taxi；share a taxi；a taxi driver | Let's take a taxi. It's raining. | 打个车吧，下雨了。 | 「打车」说 take a taxi 或 get a taxi，不说 ✗ hit a taxi；用 App 叫的车美国人常说 get an Uber / get a car；「拼车」可以说 share a taxi。
+@v: passenger | = | n. | ˈpæsɪndʒər | 乘客 | 出租车、公交、飞机上的人 | the front passenger seat；passengers on the bus；a passenger list | There were only three passengers on the bus. | 公交上只有三个乘客。 | 「副驾驶座」说 the front passenger seat 或 the front seat，不说 ✗ the vice-driver seat；ger 读 `/dʒər/`，中间没有 g 的音。
+@v: fare | = | n. | fer | （车、船、飞机的）票价；车费 | 坐公交、打车、坐地铁 | the bus fare；a taxi fare；pay the fare | The subway fare is only five yuan. | 地铁票才五块钱。 | 「车费」是 fare，不说 ✗ car fee / ✗ car money；fare 和 fair（公平的）读音完全一样 `/fer/`。
+
+@diff: 「坐错车了」——I took the wrong bus.
+@d_cn: 上错了公交、地铁，或者坐了反方向的车。
+@d_en: I took the wrong bus. / I got off at the wrong stop. / It went in the opposite direction.
+@d_why: 中文「坐错车」是「坐 + 错 + 车」，英文要换三个地方：①「坐」交通工具用 **take**（第一册 Day 2：take the subway），sit 只是「坐下」这个动作；②「错」不放在动词后面，而是用 **the wrong + 名词**：the wrong bus / the wrong stop / the wrong exit / the wrong way；③「车」要说具体：公交是 bus，地铁是 train，✗ the wrong car 听起来像「上错了别人的小汽车」。这个 the wrong + 名词 用处很多：「打错电话」I called the wrong number，「走错门」I went to the wrong door。
+@d_when: 迟到时解释原因、告诉别人自己走错路了、提醒别人坐反了。
+@d_vs: **I took the wrong bus.** 我坐错公交了。\n**I got off at the wrong stop.** 我下错站了。\n**We're going the wrong way.** 我们走反了。\n✗ I sat the wrong car. ✗ I took bus wrong.
+@d_task: 用英文说：① 我下错站了。② 不好意思，我走错出口了。 | ① I got off at the wrong stop. ② Sorry, I took the wrong exit.
+@diff: 「在……下车」——get off at…（不说 get down）
+@d_cn: 上车、下车，以及在哪一站下。
+@d_en: Get on the 26. Get off at the third stop. / Get in the taxi. / Let's get out here.
+@d_why: 中文「上车」「下车」不管什么车都用「上 / 下」。英文按车的大小分：公交、地铁、火车、飞机这类**能在里面站着走**的，用 **get on / get off**；小汽车、出租车要弯腰**钻进去**，用 **get in / get out of**。✗ get down 是「蹲下、从高处下来」，美国人听到 get down the bus 会很困惑。「在哪站下」用 **at**：get off at the third stop / get off at Futian。
+@d_when: 告诉别人坐哪路、在哪站下；车上问司机或乘客 Where should I get off?；打车到了说 Let's get out here.
+@d_vs: **Get on the 26. Get off at the third stop.** 坐 26 路，第三站下。\n**Get in the taxi.** 上出租车吧。\n**Let's get out here.** 我们在这儿下吧。（出租车）\n✗ Get down at the third stop.
+@d_task: 告诉 Leo：「在福田站下地铁，然后打个车。」 | Get off at Futian Station, then take a taxi.
+@diff: 指路——Go straight. / Turn left at the traffic light. / It's on your right.
+@d_cn: 告诉别人怎么走：直走、在哪儿转弯、经过什么、目的地在哪一边。
+@d_en: Go straight and turn left at the traffic light. / Walk two blocks, past a hospital. / It's on your right.
+@d_why: 中文指路常说「往前走，到红绿灯那儿往左一拐，就在你右手边」。英文指路用**祈使句**——动词开头，不加 you：Go… / Turn… / Walk…。方向说法很固定：**go straight**（✗ go straight forward）、**turn left**（✗ turn to left）、**on your right**（✗ in your right hand / ✗ at right side）。「在红绿灯处」用 **at**：at the traffic light / at the intersection；「经过」用 **past**：go past the hospital；美国人说距离常用 **blocks**，很少说「两百米」。
+@d_when: 给问路的人、来访的客户、新同事指路；地图 App 的英文语音导航也用这些词。
+@d_vs: **Go straight for two blocks.** 直走两个路口。\n**Turn left at the traffic light.** 在红绿灯左转。\n**Go past the hospital. It's on your right.** 走过医院，就在你右手边。\n✗ Go straight forward, turn to left, it's in your right hand.
+@d_task: 给 Leo 指路：「直走，在第二个路口右转，咖啡馆在你左手边。」 | Go straight and turn right at the second intersection. The café is on your left.
+@diff: 「在……对面」——across from…
+@d_cn: 两个地方隔着一条街，面对面。
+@d_en: It's across from the bank. / It's across the street from the park. / It's opposite the bank.（偏英式）
+@d_why: 中文「对面」直译常变成 ✗ It's in the opposite of the bank. 或 ✗ It's the bank's opposite.。美式口语最常用 **across from**：It's across from the bank.；想强调「隔着马路」就说 **across the street from**。opposite 作介词（opposite the bank）也对，但更偏英式、偏书面；美国人日常更多把 opposite 用作「相反的」：the opposite direction。across from 后面直接接地点：✗ across from the bank side。
+@d_when: 说商店、车站、公司的位置；约人见面时说「我在……对面等你」。
+@d_vs: **It's across from the bank.** 在银行对面。\n**I'm waiting across the street from the mall.** 我在商场马路对面等你。\n**We went in the opposite direction.** 我们走反了。（opposite = 相反的）\n✗ It's in the opposite of the bank.
+@d_task: 告诉朋友：「我在地铁站对面那家咖啡馆等你。」 | I'm waiting at the café across from the subway station.
+
+@core: How do I get to…? | 问路 | Shenzhen Bay Park / the subway station / your office | 正式：Excuse me, could you tell me how to get to Shenzhen Bay Park?｜随意：Which way to the park?
+@core: I took the wrong bus. | 坐错车、走错路，解释迟到 | the wrong bus / the wrong exit / the wrong way | 正式：I'm sorry I'm late. I took the wrong bus.｜随意：Oops, wrong bus!
+@core: Get on … . Get off at the … stop. | 告诉别人坐哪路、在哪站下 | the 26 / the third stop / Futian Station | 正式：Please take Bus 26 and get off at the third stop.｜随意：Hop on the 26 and hop off at the third stop.
+@core: Go straight and turn left at the traffic light. | 指路：直走、在哪儿转 | turn right / at the intersection / at the second light | 正式：Continue straight, then turn left at the traffic light.｜随意：Keep going and hang a left at the light.
+@core: It's on your right / left. | 说目的地在哪一边 | on your right / on your left / on the corner | 正式：You'll find it on your right.｜随意：It's right there on your right.
+@core: It's across from… | 说「在……对面」 | the bank / the park / the subway station | 正式：It's located opposite the bank.｜随意：It's right across from the bank.
+@core: Let's use the crosswalk. | 过马路时提醒别人注意安全 | Let's wait for the green light. / Be careful when you cross. | 正式：Please use the crosswalk.｜随意：Wait for the light!
+
+@pw: straight | streɪt | 1 个音节 | gh 不发音，读 `/streɪt/`；别和 street `/striːt/` 混
+@pw: route | ruːt | 1 个音节 | 美国两种读法都对：`/ruːt/`（和 root 同音）或 `/raʊt/`
+@pw: direction | dəˈrekʃn | 3 个音节 di·REC·tion | 重音在中间；开头也可以读 `/daɪ/`
+@pw: intersection | ˈɪntərˌsekʃn | 4 个音节 IN·ter·sec·tion | 主重音在第一个音节，sec 是次重音
+@pw: passenger | ˈpæsɪndʒər | 3 个音节 PAS·sen·ger | 重音在前；ger 读 `/dʒər/`，中间没有 g 的音
+@pw: across | əˈkrɔːs | 2 个音节 a·CROSS | 开头的 a 弱读成 `/ə/`，重音在 cross
+@pw: helmet | ˈhelmɪt | 2 个音节 HEL·met | l 是暗 l，舌尖抬起碰上齿龈，别读成「海-met」
+@ps: I **took** the **wrong bus** / this **morn**ing. | the 弱读成 `/ðə/`；wrong 读重——它是信息重点；took the 之间不停顿。
+@ps: **How** do I **get**‿to / **Shen**zhen Bay **Park**? ↘ | do I 弱读成 `/dəaɪ/`；get to 两个 t 合成一个，to 弱读成 `/tə/`；特殊疑问句句尾下降。
+@ps: **Get**‿**off**‿at the **third stop**. | get off at 连成一串，t 都变成快速的闪音，听起来像 ge-dɔ-fət。
+@ps: Go **straight** / and turn **left**‿at the **traf**fic light. | and 弱读成 `/ən/`；left at 连读成 lef-tat；traffic light 重音在 traf。
+@pnote: 本课的弱读：was 读 `/wəz/`（Leo was late），to 读 `/tə/`（How do I get to…?），at 读 `/ət/`（at the third stop），and 读 `/ən/`。指路时真正读重的是方向和地点：straight、left、third、bank；小词一带而过。
+@pnote: 车上、路上常听到的缩读：**We gotta get off here!** = We've got to（= We have to）get off here.——gotta 只出现在口语里，听懂就行，书面不写；**I'll** meet you there 的 I'll 读 `/aɪl/`，和 aisle 同音，书面上 I will 在口语里几乎都说成 I'll。
+@lfocus: get off at / left at 的连读
+@lfocus: 方向词 straight / left / right 读重，小词都很轻
+@lfocus: 听到 gotta 要反应出 have got to（得、必须）
+@dict: S9–S10
+@dict: S14–S16
+@res: 在 youglish.com 输入 "across from"，选 US，听美国人怎么说「在……对面」。
+
+@mimic: 跟读【C】S5–S10 的电话和 S13–S18 的问路：先正常语速逐句跟读，重点模仿 get off at 的连读和指路时方向词的重读；再由你演 Leo，手机朗读林晓和跑步者的台词，完整对一遍并录音。
+@swap: I took the wrong bus this morning. | 换交通和错误：the wrong train / the wrong exit；got off at the wrong stop | I got off at the wrong stop this morning.
+@swap: How do I get to Shenzhen Bay Park? | 换地点：the subway station / the bank / your office | How do I get to the nearest subway station?
+@swap: Get off at the third stop. | 换站和交通：the next stop / Futian Station；get on Line 1 | Get on Line 1 and get off at Futian Station.
+@swap: It's across from the bank. | 换位置关系：next to / behind / across the street from | It's behind the hospital.
+@free: 你约同事吃饭迟到了，因为坐错了地铁、坐反了方向。 | Sorry I'm late. I took the wrong train, and it went in the opposite direction.
+@free: 一位外国游客问你去地铁站怎么走（直走，第一个红绿灯右转，在左手边）。 | Go straight and turn right at the first traffic light. The station is on your left.
+@free: 新同事问坐哪路车来公司（坐 26 路，第五站下，下车后过马路）。 | Take the 26 and get off at the fifth stop. Then cross the street. Our office is across from the bus stop.
+@free: 朋友打车来找你，问你在哪儿（你在银行对面的咖啡馆）。 | I'm at the café across from the bank. Ask the driver to stop near the crosswalk.
+@output: 录 1.5 分钟语音（或写 8–10 句话）「怎么去我喜欢的一个地方」：坐什么车、在哪儿上下车（get on / get off at…）→ 下车后怎么走（go straight / turn left at… / go past… / on your right）→ 目的地在哪儿（across from… / behind…）→ 讲一次你坐错车或走错路的经历。
+@output_sample: Let me tell you how to get to my favorite bookstore. First, take the subway and get off at the third stop. Use Exit B. Then go straight for two blocks, past a big hospital. Turn left at the traffic light and cross the street at the crosswalk. The bookstore is on your right. It's across from a bank, next to a small café. Last month, I took my friend there, but we took the wrong exit. We walked in the opposite direction for ten minutes! In the end, we checked the route on a map app and found it.
+
+@check: 「我坐错车了」为什么不说 I sat the wrong car.？ | 坐交通工具用 take，sit 只是「坐下」；「错」用 the wrong + 名词；公交要说 bus。✓ I took the wrong bus.
+@check: 公交上「下车」和出租车上「下车」分别怎么说？ | 公交、地铁：get off（at…）；出租车、小汽车：get out (of the taxi)。都不说 get down。
+@check: 给人指路：「到红绿灯左转，就在你右手边。」 | Turn left at the traffic light. It's on your right.
+@check: 「咖啡馆在银行对面」美式口语最常怎么说？故事里的 the opposite direction 是什么意思？ | The café is across from the bank. ／ the opposite direction = 相反的方向（opposite 在这里是「相反的」）。
+@check: past 和 passed 有什么不同？ | 读音一样，都是 `/pæst/`。past 是介词：walk past the hospital；passed 是动词 pass 的过去式：I passed the hospital.
+@next1: 不看书说出 S5、S10、S13、S14、S16（锚点句）
+@next1: 给别人指一次从你家楼下到最近的地铁站的路，至少用 3 个方向词
+@next7: get on / get off 和 get in / get out of 各说一句
+@next7: 指路五件套：go straight / turn left at… / go past… / on your right / across from…
