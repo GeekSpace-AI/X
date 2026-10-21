@@ -1,0 +1,162 @@
+@day: 53
+@week: 4
+@title_cn: 我已经习惯了
+@title_en: I'm Used to It Now
+@topic: 适应新环境：天气、扫码付款、生活节奏、一个人住、早起开会
+@think_short: 「以前」used to do ≠「习惯了」be used to doing｜「慢慢习惯」get used to｜「还不习惯」I'm not used to it yet｜「想家」I'm homesick
+
+@goal_scene: 和同事聊「刚来时不习惯什么、花了多久才适应、现在还有什么不习惯」：分清 used to（以前）、be used to（已经习惯）和 get used to（慢慢习惯），说出自己的适应过程。
+@goal_expr: I'm used to the heat now. / It took me a few months to get used to it. / I'm not used to living alone yet. / At first, I had trouble paying with QR codes. / Are you used to getting up early? / You'll get used to it.
+@goal_vocab: 20 个重点词 + 5 个短语：天气与身体感受、城市生活方式、一个人生活、作息与适应
+@done: 看到或听到一句话，能马上判断是 used to do（以前）、be used to doing（已经习惯）还是 get used to doing（慢慢习惯），并说出理由
+@done: 能说出 2 件已经习惯的事、1 件还不习惯的事和适应用了多久：I'm used to… / I'm not used to… yet / It took me… to get used to…
+@done: 能用 At first, I had trouble -ing… 和 You'll get used to it. 讲自己的经历、安慰刚来的新人
+
+@warmup: 我以前在快递站上班。 | I used to work at a courier station. | D52
+@warmup: 我以前不喝咖啡。 | I didn't use to drink coffee. | D52
+@warmup: 你以前穿校服吗？ | Did you use to wear a uniform? | D52
+@warmup: 现在我一天喝两杯。 | These days, I drink two cups a day. | D52
+@warmup: 李凯帮我装好了 Wi-Fi。 | Kevin helped me set up the Wi-Fi. | D46
+@warmup: 因为下雨，路上堵得厉害。 | The traffic was really bad because it was raining. | D9
+
+@scene: 周一中午，林晓和 Emma 走路去面馆吃饭。外面三十五度，林晓一身汗，Emma 却跟没事人一样。原来 Emma 早就习惯了深圳的热——可她刚来的第一个夏天，又潮又闷、衣服晾不干、蚊子专咬她；付钱也不会扫码，深圳的节奏又快得吓人。轮到林晓：搬进新家以后，房子很舒服、晚上也安静，可她还不习惯一个人住，有时候会想家；每周二早上七点半和西雅图开会，她到现在也没习惯早起。
+@sp: 人物关系 | 林晓 ↔ Emma：关系很好的同事；Emma 在深圳住了两年，是「过来人」
+@sp: 沟通目的 | 互相聊适应新环境的经历：刚来时哪里难、花了多久适应、现在还有什么不习惯；Emma 顺便安慰林晓
+@sp: 已知信息 | 林晓不知道 Emma 刚来时也很不适应；Emma 知道林晓刚搬家，但不知道她一个人住的感受
+@sp: 表达重点 | 已经习惯（I'm used to + 名词）→ 适应用了多久（It took me… to get used to it）→ 一开始做不好（At first, I had trouble -ing）→ 还不习惯（I'm not used to -ing yet）→ 想家（homesick）→ 安慰（You're gonna get used to it.）
+
+@story_title: Episode 53 · Give It Time
+@story_type: 叙述 + 对话
+@s: On Monday, Lily and Emma walked to a noodle shop for lunch. | 周一，林晓和 Emma 走路去一家面馆吃午饭。
+@s: It was thirty-five degrees, and Lily was covered in **sweat**. | 外面三十五度，林晓出了一身汗。
+@s: Lily: Aren't you hot? You look fine! | 林晓：你不热吗？看你一点事都没有！
+@s: Emma: No, not really. **I'm used to** the **heat** now. | Emma：还好，不怎么热。这种热我现在已经习惯了。
+@s: Emma: I've been here for two years, but my first summer was really **difficult**. | Emma：我来这儿两年了，可第一个夏天真的很难熬。
+@s: Emma: The **air** was so humid, and my clothes never got **dry**. | Emma：空气湿得要命，衣服怎么晾都不干。
+@s: Emma: I felt sticky and **uncomfortable** all day. | Emma：我一整天都黏糊糊的，浑身难受。
+@s: Emma: And the **mosquitoes** loved me! | Emma：而且蚊子特别爱咬我！
+@s: Emma: I slept with the **air conditioner** and a **fan** on every night. | Emma：我每天晚上都开着空调和电扇睡觉。
+@s: Lily: How long did it take you to **adjust**? | 林晓：你花了多久才适应？
+@s: Emma: It took me a few months to **get used to** it. | Emma：我花了好几个月才习惯。
+@br:
+@s: Emma: At first, I **had trouble** paying with **QR codes**. | Emma：一开始，我连扫码付钱都不太会。
+@s: Emma: In Seattle, I always paid by card, but Shenzhen is almost **cashless**! | Emma：在西雅图我一直刷卡，可深圳几乎不用现金！
+@s: Emma: And the **pace** of life here is so fast. | Emma：而且这里的生活节奏特别快。
+@s: Emma: But now this **lifestyle** feels totally **normal** to me. | Emma：不过现在，这种生活方式对我来说再正常不过了。
+@s: Emma: What about you? How's your new apartment? | Emma：你呢？新房子住得怎么样？
+@br:
+@s: Lily: It's **comfortable**, and it's so **peaceful** at night. | 林晓：挺舒服的，晚上特别安静。
+@s: Lily: But I'm not used to living **alone** yet. | 林晓：可我还不习惯一个人住。
+@s: Lily: Sometimes I feel **homesick**, especially after my video calls with Mom. | 林晓：有时候会想家，尤其是跟我妈视频完以后。
+@s: Lily: I'm learning to be more **independent**, though. I cook for myself now. | 林晓：不过我在学着更独立一点，现在都自己做饭。
+@s: Emma: Good for you! And the morning calls with Seattle? | Emma：真不错！那早上跟西雅图开的会呢？
+@s: Emma: Are you used to getting up early? | Emma：你习惯早起了吗？
+@s: Lily: Not at all! I **struggle** to get out of bed. | 林晓：完全没有！每次都挣扎半天才爬得起来。
+@s: Lily: The call starts at seven thirty every Tuesday, so my **routine** is a mess. | 林晓：每周二七点半就开会，我的作息全乱了。
+@s: Emma: Give it time. You're gonna get used to it, too. | Emma：给自己一点时间，你也会习惯的。
+@s: Lily: I hope so! | 林晓：但愿吧！
+
+@v: sweat | = | n./v. | swet | 汗；出汗 | 天热、运动以后 | covered in sweat；sweat a lot；No sweat! | I sweat a lot when I run. | 我跑步的时候出很多汗。 | ea 读短音 `/e/`（和 sweater 前半一样），不读 sweet 的 `/iː/`；「出汗」直接用动词 sweat；口语 No sweat! = 小事一桩、没问题。
+@v: I'm used to | be used to | phr. | aɪm ˈjuːstə | 我（已经）习惯…… | 说对天气、环境、作息已经适应，不觉得难受了 | be used to + 名词；be used to + -ing；be used to it | I'm used to working late. | 我已经习惯加班到很晚了。 | to 是介词，后面接名词或 -ing：✗ I'm used to work late.；别漏掉 be：✗ I used to the heat.（这句话不成立）；used 读 `/juːst/`，不读 `/juːzd/`。
+@v: heat | = | n. | hiːt | 炎热；（天气的）热 | 说天气热、怕热 | the heat；in this heat；the summer heat | I can't sleep in this heat. | 这么热，我根本睡不着。 | heat 是名词，hot 是形容词：It's hot. / I'm used to the heat.，✗ I'm used to the hot.；heat 也指「暖气」：Is the heat on?
+@v: difficult | = | adj. | ˈdɪfɪkəlt | 困难的；难熬的 | 说一段时间、一件事很难 | a difficult time；difficult for sb；difficult to… | The first month was difficult for me. | 第一个月对我来说挺难熬的。 | 和 hard 意思差不多，hard 更口语；「对某人来说难」用 for：difficult for me，✗ difficult to me；「我很难做到」说 It's difficult for me to…，✗ I'm difficult to…
+@v: air | = | n. | er | 空气 | 说天气、空气质量、通风 | fresh air；the air is humid；get some air | Let's go outside and get some fresh air. | 我们出去透透气吧。 | air 不可数：✗ an air；「空气很好」说 The air is fresh / clean；air 和 hair 押韵，都读 `/er/` 这个韵母。
+@v: dry | = | adj./v. | draɪ | 干的；（把东西）弄干 | 晾衣服、天气干燥、皮肤干 | get dry；dry weather；dry your hair | My clothes take two days to dry. | 我的衣服要两天才能干。 | 「（衣服）干了」说 get dry / be dry；「天气干燥」说 The air is dry.；dry 作动词过去式是 dried。
+@v: uncomfortable | = | adj. | ʌnˈkʌmftərbl | 不舒服的；不自在的 | 身体难受、东西不舒服、气氛让人不自在 | feel uncomfortable；an uncomfortable chair；make sb uncomfortable | These shoes are really uncomfortable. | 这双鞋穿着特别不舒服。 | 生病了「不舒服」说 I don't feel well.（Day 47），不说 I'm uncomfortable；uncomfortable 多指环境、东西让人难受，或者心里不自在。
+@v: mosquitoes | mosquito | n. | məˈskiːtoʊz | 蚊子 | 夏天、南方、晚上睡觉 | mosquito bites；kill a mosquito；mosquito spray | I got three mosquito bites last night. | 我昨晚被蚊子咬了三个包。 | 复数加 -es：mosquitoes；「被蚊子咬了」说 I got bitten by a mosquito / I got mosquito bites；qui 读 `/kiː/`。
+@v: air conditioner | = | phr. | ˈer kənˌdɪʃənər | 空调（机器） | 开空调、空调太冷、空调坏了 | turn on the air conditioner；the AC；fix the air conditioner | Can you turn down the air conditioner? It's freezing. | 能把空调调小一点吗？冷死了。 | 口语里常说 the AC `/ˌeɪ ˈsiː/`：Turn on the AC.；「开空调」用 turn on，✗ open the air conditioner；「空调开得太冷」说 The AC is too cold.
+@v: fan | = | n. | fæn | 电风扇；（某人、某物的）粉丝 | 天热开风扇；说自己喜欢什么 | turn on the fan；a ceiling fan；a big fan of… | Can you turn on the fan? | 你能把电扇打开吗？ | 「电扇」口语就说 fan；fan 也是「粉丝、爱好者」——Day 32 学过 I'm not a big fan of…；开关电扇同样用 turn on / turn off。
+@v: adjust | = | v. | əˈdʒʌst | 适应；调整 | 适应新环境；调座椅、调时间 | adjust to…；adjust quickly；adjust the seat | It took my son a month to adjust to his new school. | 我儿子花了一个月才适应新学校。 | 「适应……」用 adjust to + 名词：adjust to life in Shenzhen；d 不发音，读 a-just；adjust 比 get used to 稍正式一点。
+@v: get used to | = | phr. | ˌget ˈjuːstə | （渐渐）习惯；适应 | 说从不习惯到习惯的过程；安慰刚来的人 | get used to + 名词 / -ing；get used to it；be getting used to… | You'll get used to the new system. | 你会慢慢习惯新系统的。 | be used to = 已经习惯（状态），get used to = 变得习惯（过程）；to 后面同样接名词或 -ing：get used to living alone，✗ get used to live alone。
+@v: had trouble | have trouble -ing | phr. | ˌhæd ˈtrʌbl | （做某事）有困难；费劲 | 说一开始做不好、做不顺 | have trouble + -ing；have trouble with…；have no trouble -ing | I had trouble finding your office. | 我找你们公司找了半天。 | trouble 后面直接接 -ing，不加 to：✗ have trouble to find；trouble 在这里不可数：✗ have a trouble / troubles。
+@v: QR codes | QR code | phr. | ˌkjuː ɑːr ˈkoʊdz | 二维码 | 扫码付款、加好友、点餐 | scan a QR code；pay with a QR code；show your QR code | Just scan the QR code to order. | 扫一下二维码就能点餐。 | 「二维码」不说 ✗ two-dimension code；「扫码」说 scan the QR code；美国日常付款多是刷卡或手机碰一下（tap），扫码付款在中国普遍得多。
+@v: cashless | = | adj. | ˈkæʃləs | 无现金的；不用现金的 | 说城市、商店、支付方式 | a cashless society；go cashless；cashless payment | A lot of stores here are completely cashless. | 这里很多店完全不收现金。 | -less = 「没有……」：cashless、careless（Day 39）、homeless；「无现金支付」也可以说 mobile payment。
+@v: pace | = | n. | peɪs | 节奏；速度 | 说生活、工作的节奏 | the pace of life；a fast pace；at your own pace | You can learn at your own pace. | 你可以按自己的节奏学。 | 「生活节奏快」说 The pace of life is fast.，✗ The life rhythm is quick.（rhythm 多说音乐的节奏）。
+@v: lifestyle | = | n. | ˈlaɪfstaɪl | 生活方式 | 说日常习惯、城市生活 | a healthy lifestyle；a busy lifestyle；change your lifestyle | I want a healthier lifestyle. | 我想过更健康的生活。 | 「生活方式」是一个词 lifestyle，✗ life way；也可以说 way of life，但 lifestyle 更口语。
+@v: normal | = | adj. | ˈnɔːrml | 正常的；平常的 | 说一件事已经不奇怪、很普通了 | totally normal；It's normal to…；back to normal | It's normal to feel nervous on your first day. | 第一天上班紧张很正常。 | 「对我来说很正常」说 It feels normal to me.；「恢复正常」说 Things are back to normal.；安慰别人常用 That's totally normal.
+@v: comfortable | = | adj. | ˈkʌmftərbl | 舒服的；舒适的 | 说房子、衣服、椅子；也说心里放松 | a comfortable apartment；feel comfortable；comfortable shoes | Wear comfortable shoes. We're walking a lot today. | 穿双舒服的鞋，我们今天要走很多路。 | 只读三个音节 COMF·ter·ble，不读 com-for-ta-ble；招待客人说 Make yourself comfortable.（别客气，随便坐）
+@v: peaceful | = | adj. | ˈpiːsfl | 安静的；宁静的 | 说环境安静、心里平静 | so peaceful；a peaceful place；a peaceful morning | The park is so peaceful in the morning. | 早上公园里特别安静。 | quiet 只说「没有噪音」；peaceful 还带「让人心里平静、舒服」的感觉；ful 弱读成 `/fl/`。
+@v: alone | = | adv./adj. | əˈloʊn | 独自；一个人 | 说一个人住、一个人吃饭、一个人旅行 | live alone；be alone；travel alone | Do you live alone? | 你一个人住吗？ | alone 说「独自一人」（事实），lonely 是「孤单」（感受，Day 35）：I live alone, but I'm not lonely.；alone 不放在名词前：✗ an alone girl。
+@v: homesick | = | adj. | ˈhoʊmsɪk | 想家的 | 离家工作、上学，过节的时候 | feel homesick；get homesick；a little homesick | I always get homesick during the Spring Festival. | 春节的时候我总会想家。 | sick 在这里不是「生病」，是「（心里）难受」；✗ I think my home.；也可以说 I miss home.
+@v: independent | = | adj. | ˌɪndɪˈpendənt | 独立的；自立的 | 说一个人生活、自己做决定 | more independent；an independent person；financially independent | My parents taught me to be independent. | 我父母从小教我要独立。 | 反义是 dependent（依赖别人的）；「经济独立」说 financially independent；重音在 pen：in·de·PEN·dent。
+@v: struggle | = | v./n. | ˈstrʌgl | 费劲；挣扎；（做某事）很吃力 | 说某件事做起来很难，但还在努力 | struggle to…；struggle with…；a real struggle | I struggle with English phone calls. | 我打英文电话特别吃力。 | 后面接 to do 或 with + 名词：struggle to get up / struggle with grammar；名词 It's a struggle. = 真费劲。别说成 ✗ I struggle get up.
+@v: routine | = | n. | ruːˈtiːn | 日常安排；作息；惯例 | 说每天固定要做的事 | my morning routine；a daily routine；break my routine | My morning routine starts with a cup of coffee. | 我每天早上的固定流程是从一杯咖啡开始的。 | 「作息乱了」说 My routine is a mess.；别和 Day 52 的 habit 混：habit 是一个具体的习惯，routine 是一整套日常安排；重音在后：rou·TINE。
+
+@diff: used to do（以前常常）vs be used to doing（已经习惯）
+@d_cn: 「以前常常……（现在不了）」和「（我已经）习惯……了」。
+@d_en: I used to live with roommates.（以前）/ I'm used to living alone.（习惯了）/ I'm used to the heat.（习惯了）
+@d_why: 这两个结构只差一个 **be**，意思却完全不同，是中国学生最容易混的一组。**used to + 动词原形**（Day 52）讲的是**过去**：以前常这样，现在不了。**be used to + 名词 / 动词-ing** 讲的是**现在的状态**：这件事对我来说已经不新鲜、不难受了，也就是「习惯了」。这里的 used 其实是形容词（熟悉的、适应的），to 是介词，所以后面跟名词或 -ing，不跟原形。判断只要看两个地方：①**前面有没有 am / is / are / was / get？** 没有 → 「以前」；有 → 「习惯」。②**to 后面是什么？** 原形动词（work、live）→ 「以前」；名词或 -ing（the heat、living）→ 「习惯」。最常见的两个错：漏掉 be（✗ I used to the heat.），和 to 后面接原形（✗ I'm used to live alone.）。
+@d_when: 说「以前常……、现在不了」→ used to do；说「我已经习惯了 / 不觉得难了」→ be used to + 名词 / -ing。
+@d_vs: **I used to live with roommates.** 我以前跟室友合租。（过去，现在不了）\n**I'm used to living alone.** 我习惯一个人住了。（现在的状态）\n**I'm used to the heat.** 这种热我习惯了。（to + 名词）\n✗ I'm used to live alone. ✗ I used to living alone. ✗ I used to the heat.
+@d_task: 用英文说：① 我以前坐公交上班。② 我已经习惯走路上班了。 | ① I used to take the bus to work. ② I'm used to walking to work now.
+@diff: 「慢慢习惯」——get used to（三兄弟一次分清）
+@d_cn: 从不习惯到习惯的「过程」：慢慢习惯、适应了、会习惯的。
+@d_en: It took me a few months to get used to it. / I'm getting used to it. / You'll get used to it.
+@d_why: 中文「习惯了」既可以是状态（我习惯了），也可以是变化（我花了几个月才习惯）。英文把它拆成两个：**be used to** = 已经习惯（状态）；**get used to** = 变得习惯（过程）。所以「我花了几个月才习惯」一定用 get：It took me a few months to **get** used to it.；「我正在慢慢习惯」说 I'm **getting** used to it.；安慰刚来的人说 **You'll get used to it.**（口语常说 You're gonna get used to it.）。这样，三兄弟就清楚了：**used to do**（以前常……）、**be used to doing**（已经习惯）、**get used to doing**（渐渐习惯）——后两个的 to 后面都跟名词或 -ing。另外，「习惯」别想到 habit：habit 是「个人的习惯动作」（a bad habit，Day 52），不是「适应」。
+@d_when: 说适应新环境用了多久、说自己正在适应、安慰新同事或新来的朋友。
+@d_vs: **I'm used to it now.** 我现在习惯了。（状态）\n**It took me a few months to get used to it.** 我花了几个月才习惯。（过程）\n**I'm getting used to it.** 我在慢慢习惯。\n**You'll get used to it.** 你会习惯的。\n✗ I have a habit of the heat.
+@d_task: Leo 说他还不会用深圳的公交 App，你安慰他：「别担心，你会慢慢习惯的。我花了两周才习惯。」 | Don't worry. You'll get used to it. It took me two weeks to get used to it.
+@diff: 「我还不习惯」——I'm not used to it yet.
+@d_cn: 到现在为止还没适应，可能以后会习惯。
+@d_en: I'm not used to living alone yet. / I'm still not used to it. / Are you used to getting up early? — Not yet.
+@d_why: 中文「还不习惯」在英文里分两步：否定 **not** 放在 am / is / are 后面；「还」用句尾的 **yet**，或者 not 前面的 **still**。I'm not used to it **yet**. 带着「但会习惯的」的期待；I'm **still** not used to it. 带着「都这么久了还不行」的无奈。被问 Are you used to…? 时，可以简单答 Not yet. / Not really. / Yes, I'm used to it now.。最常见的错误是把 be used to 当成普通动词，用 do 来否定：✗ I don't used to it. / ✗ I don't use to it.——be used to 的否定只能是 **I'm not used to…**。
+@d_when: 刚换工作、搬家、换城市，别人问你适应得怎么样；说自己还没适应的事。
+@d_vs: **I'm not used to living alone yet.** 我还不习惯一个人住。\n**I'm still not used to the early calls.** 我到现在还不习惯早上的电话会。\n**Are you used to getting up early? — Not yet.** 你习惯早起了吗？——还没有。\n✗ I don't used to it. ✗ I'm not used to live alone.
+@d_task: Emma 问 Are you used to your new apartment?（你还不习惯：晚上太安静了）用两句话回答。 | Not yet. I'm not used to living alone. It's too quiet at night.
+@diff: 「我想家」——I'm homesick. / I miss home.
+@d_cn: 离开家以后，想念家和家人的那种心情。
+@d_en: I'm homesick. / I feel homesick. / I miss home. / I miss my mom's cooking.
+@d_why: 中文一个「想」字管很多事：想家、想吃、想去、想一件事。英文的「想念」是 **miss**（Day 35：I miss you.），「想家」还有一个专门的形容词 **homesick**——sick 在这里不是「生病」，是「心里难受」。✗ I think my home. 是直译，美国人会以为你在说「我认为我的家……」；I think about home a lot.（常常想起家里）可以说，但没有「想得难受」的意思。说 miss home 时，home 前面一般不加 my。
+@d_when: 离家上学、工作、出差；过节、周末晚上一个人的时候；和家人视频以后。
+@d_vs: **I'm homesick.** / **I feel homesick.** 我想家了。\n**I miss home.** 我想家。\n**I miss my mom's cooking.** 我想我妈做的菜了。\n✗ I think my home. ✗ I want to home.
+@d_task: 中秋节你一个人在深圳，朋友问你怎么了。用两句话说：「我有点想家。我想我妈做的菜了。」 | I'm a little homesick. I miss my mom's cooking.
+
+@core: I'm used to + 名词 / -ing. | 说「我已经习惯……了」 | the heat / living alone / getting up early | 正式：I've adjusted to the heat.｜随意：I'm used to it now.
+@core: I'm not used to … yet. | 说「还不习惯」 | living alone / the early calls / the food here | 正式：I haven't adjusted to living alone yet.｜随意：Still not used to it!
+@core: It took me + 时间 + to get used to it. | 说适应用了多久 | a few months / two weeks / a whole summer | 正式：It took me several months to adjust.｜随意：Took me a while to get used to it.
+@core: You'll get used to it. | 安慰刚来、还不习惯的人 | You'll get used to it. / Give it time. | 正式：Don't worry. You'll adjust soon.｜随意：You're gonna get used to it.
+@core: Are you used to + 名词 / -ing? | 问别人适应了没有 | the weather / getting up early / the food here | 正式：Have you adjusted to life in Shenzhen?｜随意：Getting used to it?
+@core: At first, I had trouble + -ing. | 说一开始哪里做不好 | paying with QR codes / sleeping / understanding the accent | 正式：At first, I found it difficult to pay with QR codes.｜随意：At first, I couldn't figure out the QR codes.
+@core: I feel homesick. / I miss home. | 说想家 | home / my family / my mom's cooking | 正式：I've been feeling a bit homesick.｜随意：I miss home so much.
+
+@pw: comfortable | ˈkʌmftərbl | 3 个音节 COMF·ter·ble | 重音在第一个音节；中间的 or 不读出来，不是 com-for-ta-ble 四个音节
+@pw: mosquito | məˈskiːtoʊ | 3 个音节 mos·QUI·to | 重音在中间；qui 读 `/kiː/`，开头 mo 弱读成 `/mə/`
+@pw: routine | ruːˈtiːn | 2 个音节 rou·TINE | 重音在后；tine 读 `/tiːn/`，和 teen 同音
+@pw: independent | ˌɪndɪˈpendənt | 4 个音节 in·de·PEN·dent | 主重音在 pen；结尾 dent 弱读成 `/dənt/`
+@pw: adjust | əˈdʒʌst | 2 个音节 ad·JUST | d 不发音，读起来像 a-just
+@pw: sweat | swet | 1 个音节 | ea 读短音 `/e/`，和 wet 押韵；别读成 sweet `/swiːt/`
+@pw: homesick | ˈhoʊmsɪk | 2 个音节 HOME·sick | 重音在 home；m 和 s 直接连上，中间不加元音
+@ps: **No**, / not **real**ly. / I'm **used**‿to the **heat** now. | 回答否定问句 Aren't you hot? 时 No 和 really 读重（第一册 Day 13：No 表示「不热」）；I'm used to 连成 `/aɪm ˈjuːstə/`；heat 结尾的 t 不爆破。
+@ps: It **took** me a **few months** / to get **used**‿to‿it. | get 的 t 只做口型；used to it 连成一串 yoos-tə-wit；to 弱读成 `/tə/`。
+@ps: But I'm **not** used to living a**lone** / **yet**. | 重音落在 not、alone 和 yet——「还不」的意思全在这里；I'm 很轻，`/aɪm/` 几乎只剩 m。
+@ps: Are you **used** to getting **up**‿**ear**ly? ↗ | Are you 弱读成 `/ər jə/`；getting 的 tt 发成快速的闪音，像 ge-ding；up early 连读成 u-pear-ly；句尾上扬。
+@pnote: 三个结构 used to / be used to / get used to 的 used to 读音完全一样，都是 `/ˈjuːstə/`。所以听的时候别靠 used 分辨，要听**前面**和**后面**：I'm used to… `/aɪm ˈjuːstə/` 和 I used to… `/aɪ ˈjuːstə/` 只差一个很轻的 `/m/`！再听 to 后面：原形动词（work、live）→「以前」；名词或 -ing（the heat、living）→「习惯」。
+@pnote: 本课的弱读和缩读：I've been here → `/aɪv bɪn hɪr/`，have 缩成 've、been 弱读成 `/bɪn/`，正常语速下几乎只剩 I'v-bin；Emma 最后说的 **You're gonna get used to it** = You're going to get used to it——gonna 只在口语里出现，听懂即可，写邮件时仍用 going to。
+@lfocus: I'm used to 和 I used to 只差一个很轻的 /m/
+@lfocus: to 后面是原形动词，还是名词 / -ing
+@lfocus: I've been 弱读成 /aɪv bɪn/；gonna = going to
+@dict: S10–S12
+@dict: S18–S19
+@res: 在 youglish.com 输入 "get used to"，选 US，听美国人说「慢慢习惯」时的语气和连读。
+
+@mimic: 跟读【C】S3–S12 和 S17–S26：先正常语速逐句跟读，重点模仿 I'm used to 的连读和 get used to it 的节奏；再由你演林晓，手机朗读 Emma 的台词，完整对一遍并录音。
+@swap: I'm used to the heat now. | 换成你习惯了的事：the subway / spicy food；working late（用 -ing） | I'm used to working late now.
+@swap: I'm not used to living alone yet. | 换：getting up early / the cold weather / speaking English at work | I'm not used to speaking English at work yet.
+@swap: It took me a few months to get used to it. | 换时间和事情：two weeks / a year；the new system / the food here | It took me two weeks to get used to the new system.
+@swap: At first, I had trouble paying with QR codes. | 换：understanding Mike's accent / finding the office / sleeping | At first, I had trouble understanding Mike's accent.
+@free: 新来的 Leo 说他还不习惯深圳的天气，你安慰他（你刚来时也不习惯，花了一个夏天才适应）。 | Don't worry. You'll get used to it. It took me a whole summer to get used to the heat.
+@free: 同事问 Are you used to living alone?（还不习惯：晚上太安静，有时候想家） | Not yet. It's too quiet at night, and sometimes I feel homesick.
+@free: 美国同事问你刚来公司时什么最难（一开始写英文邮件很费劲，现在已经习惯了） | At first, I had trouble writing emails in English. But I'm used to it now.
+@free: 朋友问你是不是还天天加班（以前常加班到九点，现在不了；但早起还是不习惯） | I used to work until nine every night, but not anymore. I'm still not used to getting up early, though.
+@output: 录 1.5 分钟语音（或写 8–10 句话）「搬到一个新地方」：你以前住在哪儿、以前的生活是什么样（used to）→ 刚来时哪些不习惯（At first, I had trouble -ing… / I wasn't used to…）→ 花了多久才适应（It took me … to get used to…）→ 现在已经习惯了什么（I'm used to… now）→ 还有什么不习惯（I'm not used to … yet），会不会想家。
+@output_sample: Three years ago, I moved from my hometown to Shenzhen. At home, I used to live with my parents, and my mom used to cook for me every day. At first, life here was difficult. I had trouble finding a cheap apartment, and I wasn't used to the fast pace. It took me about six months to get used to the city. Now I'm used to the heat, the crowded subway and paying with QR codes. I even like the lifestyle here. But I'm not used to cooking for myself yet. Sometimes I feel homesick, especially when I miss my mom's cooking. Still, I'm getting more independent every day.
+
+@check: 三句话分别是什么意思？A. I used to get up early. B. I'm used to getting up early. C. I'm getting used to getting up early. | A：我以前常早起（现在不了）；B：我已经习惯早起了；C：我正在慢慢习惯早起。
+@check: 改错：I'm used to get up early. | I'm used to getting up early. be used to 的 to 是介词，后面接 -ing 或名词，不接原形。
+@check: 「我花了两个月才习惯」用 be used to 还是 get used to？为什么？ | get used to：说的是从不习惯到习惯的过程。It took me two months to get used to it.
+@check: Emma 问 Are you used to living alone? 你还不习惯，怎么回答？能说 I don't used to it. 吗？ | Not yet. I'm not used to it yet. 不能说 I don't used to it.——be used to 的否定是在 am 后面加 not。
+@check: 「我想家」怎么说？为什么不说 I think my home.？ | I'm homesick. / I miss home. 「想念」是 miss；think 是「认为、考虑」。
+@next1: 不看书说出 S4、S11、S12、S18、S22（锚点句）
+@next1: 用 used to / be used to / get used to 各说一句关于你自己的话
+@next7: 三兄弟一张表：used to do（以前常……）/ be used to doing（已经习惯）/ get used to doing（渐渐习惯）
+@next7: 「我还不习惯……」和「我想家」各说两句

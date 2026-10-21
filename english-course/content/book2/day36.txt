@@ -36,10 +36,10 @@
 @s: Lily: Really? But it's so **modern** now! | 林晓：真的吗？现在这么现代化！
 @s: Tom: Back then, it was mostly **countryside**, with **farms** everywhere. | 张涛：那时候这里基本都是乡下，到处是农田。
 @s: Tom: Later, people built **factories**, and the **population** **increased** very fast. | 张涛：后来盖起了工厂，人口涨得飞快。
-@s: Tom: **Over the years**, the number of factories has **decreased**. Now it's all tech companies. | 张涛：这些年，工厂越来越少，现在全是科技公司。
+@s: Tom: **Over the years**, the number of factories has **decreased**. | 张涛：这些年，工厂越来越少了。
 @br:
 @s: Lily: How long have you lived here? | 林晓：您在这儿住了多久了？
-@s: Tom: For twelve years. When I came, there was no **highway** here. | 张涛：十二年了。我刚来的时候，这儿还没有高速路。
+@s: Tom: For twelve years. When I came, there was no **highway**. | 张涛：十二年了。我刚来的时候，这儿还没有高速路。
 @s: Tom: I rented a **tiny** room for eight hundred yuan a month. | 张涛：我租了个小单间，一个月八百块。
 @s: Lily: And now? | 林晓：那现在呢？
 @s: Tom: Prices have **gone up**. That room is two thousand now! | 张涛：物价涨了。那个房间现在要两千！
@@ -47,7 +47,7 @@
 @s: Tom: Only my free time! Has Shenzhen changed you? | 张涛：只有我的空闲时间！深圳有没有改变你？
 @s: Lily: Yes! I've put on three kilos since I moved here. | 林晓：有啊！我来深圳以后胖了三公斤。
 @s: Tom: Ha! Everyone **puts on weight** here. I **gained** five kilos! | 张涛：哈哈！谁来这儿都会胖，我长了五公斤！
-@s: Lily: It's the free **snacks** at work. I need to **lose** the weight before I go home. | 林晓：都怪公司的免费零食。回家之前我得把肉减下去。
+@s: Lily: It's the free **snacks** at work. I need to **lose** the weight! | 林晓：都怪公司的免费零食。我得把肉减下去！
 @br:
 @s: Tom: So, do you like it here? | 张涛：那你喜欢这儿吗？
 @s: Lily: I love it, but life is **completely** different. | 林晓：很喜欢，不过生活完全不一样。
@@ -100,7 +100,7 @@
 @d_why: 中文「十年前」和「十年了」只差一个字，英文却要换时态。**ago** 指向过去的一个点，配**过去时**：Forty years ago, this **was** a fishing village.；**for + 一段时间** 和 **since + 起点** 说的是「一直到现在」，配**现在完成时**：I**'ve lived** here for twelve years.。两个最常见的错：✗ I have come here twelve years ago.（ago 不能配 have done）；✗ I live here since 2020.（since 要配 have lived）。还有，回答 How long have you…? 时别漏掉 for：**For twelve years.**
 @d_when: 说某件事发生在多久以前 → ago + 过去时；说一件事一直持续到现在 → for / since + 现在完成时。
 @d_vs: **Forty years ago, this was a fishing village.** 四十年前，这里是个渔村。（过去的点）\n**I've lived here for twelve years.** 我在这儿住了十二年了。（一段时间）\n**I've worked here since 2020.** 我从 2020 年起就在这儿工作。（起点）\n✗ I have moved here twelve years ago. ✗ I live here since 2020.
-@d_task: 用英文说：① 我两年前搬来深圳。② 我在深圳住了两年了。 | ① I moved to Shenzhen two years ago. ② I've lived in Shenzhen for two years.
+@d_task: 用英文说：① 我三年前搬来深圳。② 我在深圳住了三年了。 | ① I moved to Shenzhen three years ago. ② I've lived in Shenzhen for three years.
 @diff: 「我胖了」——I've put on weight.
 @d_cn: 体重比以前重了——这个「了」说的是状态变了。
 @d_en: I've put on three kilos. / I've gained some weight. / I've lost two kilos.
@@ -143,11 +143,11 @@
 @swap: Prices have gone up. | 换东西和方向：rent / gone up；phone prices / gone down | Phone prices have gone down.
 @swap: I've put on three kilos since I moved here. | 换变化和起点：lost two kilos / started running；put on a little weight / joined SwiftLink | I've lost two kilos since I started running.
 @free: Emma 问你老家这些年变化大不大（变化很大：高楼多了很多，还通了地铁）。 | Yes, it's changed a lot. There are a lot of tall buildings now, and we have a subway, too.
-@free: 实习生 Leo 问：How long have you lived in Shenzhen?（两年了，两年前从湖南搬来的） | For two years. I moved here from Hunan two years ago.
+@free: 实习生 Leo 问：How long have you lived in Shenzhen?（三年了，三年前从湖南搬来的） | For three years. I moved here from Hunan three years ago.
 @free: 同事抱怨午饭越来越贵，你同意，并说你常去的面馆去年涨了五块。 | I know. Prices have gone up. My favorite noodle place went up by five yuan last year.
 @free: 好朋友问你来深圳以后有什么变化（胖了两公斤，因为公司零食太多，你打算开始跑步）。 | I've put on two kilos since I moved here. There are too many snacks at work, so I'm going to start running.
 @output: 录 1.5 分钟「一座城市的变化」（或写 8–10 句）：选深圳或你的家乡：过去是什么样（… years ago, it was…）→ 这些年怎么变的（has changed / over the years）→ 什么涨了、什么降了（have gone up / down）→ 你在那里住了多久（for / since）→ 你自己有什么变化（I've put on / lost…）→ 用 Compared with… 做一个比较。
-@output_sample: I want to talk about my hometown. Twenty years ago, it was a quiet little city. There weren't many tall buildings, and there was no subway. Over the years, my hometown has changed a lot. Now there are modern towers everywhere, and the subway goes almost everywhere. Prices have gone up, too. My parents' apartment cost much less fifteen years ago. I moved to Shenzhen two years ago, and I've lived here for two years now. Since I moved here, I've put on three kilos, because the food is so good! Compared with my hometown, everything in Shenzhen is faster. But when I go home, I still feel completely relaxed.
+@output_sample: I want to talk about my hometown. Twenty years ago, it was a quiet little city. There weren't many tall buildings, and there was no subway. Over the years, my hometown has changed a lot. Now there are modern towers everywhere, and the subway goes almost everywhere. Prices have gone up, too. My parents' apartment cost much less fifteen years ago. I moved to Shenzhen three years ago, so I've lived here for three years now. Since I moved here, I've put on three kilos, because the food is so good! Compared with my hometown, everything in Shenzhen is faster. But when I go home, I still feel completely relaxed.
 
 @check: 张涛说 Forty years ago, this was a fishing village.，为什么用 was，不用 has been？ | 有 forty years ago 这样的过去时间点，只能用过去时；ago 不和 have done 一起用。
 @check: 「房租涨了」什么时候说 Rent has gone up.，什么时候说 Rent went up.？ | 说现在的结果（现在就是更贵）用 has gone up；说出具体过去时间（last year / in March）用 went up。

@@ -28,7 +28,7 @@
 @story_title: Episode 55 · What Do You Do for Fun?
 @story_type: 叙述 + 对话（午饭闲聊）
 @s: It's Thursday lunchtime. Kevin puts his new **badminton** **racket** on the table. | 周四午饭时间，李凯把他的新羽毛球拍往桌上一放。
-@s: Kevin: So, Lily, **what do you do for fun**? | 李凯：对了，林晓，你平时喜欢干什么？
+@s: Kevin: Hey, Lily. **What do you do for fun**? | 李凯：哎，林晓，你平时喜欢干什么？
 @s: Lily: **In my free time**? I mostly watch English videos and sleep. | 林晓：业余时间吗？基本就是看英语视频，还有睡觉。
 @s: Kevin: That's homework, not a **hobby**! Come and join our badminton **club**. | 李凯：那是作业，不是爱好！来加入我们的羽毛球俱乐部吧。
 @s: Kevin: We play every Tuesday after work. We have twenty **members** now. | 李凯：我们每周二下班后打，现在有二十个会员了。
@@ -59,7 +59,7 @@
 
 @v: badminton | = | n. | ˈbædmɪntən | 羽毛球（运动） | 聊运动、约人打球 | play badminton；a badminton club；a badminton court | Do you want to play badminton this weekend? | 这周末想去打羽毛球吗？ | 球类运动前不加 the：✓ play badminton ✗ play the badminton ✗ hit badminton；「羽毛球（那个球）」是 shuttlecock，美国人口语也叫 birdie。
 @v: racket | = | n. | ˈrækɪt | 球拍 | 羽毛球、网球等用的拍子 | a badminton racket；a tennis racket；bring your racket | I can lend you my old racket. | 我可以把旧球拍借给你。 | 乒乓球拍美国人一般叫 paddle，不叫 racket；racket 还有「吵闹声」的意思：What's that racket outside?（外面吵什么呢？）
-@v: what do you do for fun | what do you do for fun? | phr. | ˌwʌt də jə ˌduː fər ˈfʌn | 你平时喜欢做什么？（问业余爱好） | 和新同事、新朋友聊天时问兴趣 | What do you do for fun?；What do you like to do for fun?；just for fun | What do you do for fun on weekends? | 你周末一般喜欢干什么？ | 比 What's your hobby? 自然得多；回答不用说 My hobby is…，直接说你做什么：I play badminton.；它和 What do you do?（你做什么工作）只差 for fun，意思完全不同。
+@v: What do you do for fun | what do you do for fun? | phr. | ˌwʌt də jə ˌduː fər ˈfʌn | 你平时喜欢做什么？（问业余爱好） | 和新同事、新朋友聊天时问兴趣 | What do you do for fun?；What do you like to do for fun?；just for fun | What do you do for fun on weekends? | 你周末一般喜欢干什么？ | 比 What's your hobby? 自然得多；回答不用说 My hobby is…，直接说你做什么：I play badminton.；它和 What do you do?（你做什么工作）只差 for fun，意思完全不同。
 @v: In my free time | = | phr. | ɪn maɪ ˈfriː taɪm | 在我的业余时间；有空的时候 | 说下班后、周末做什么 | in my free time；in your free time；spend my free time -ing | In my free time, I like to take photos. | 业余时间我喜欢拍照。 | 「业余」不能直译成 amateur（那是「非专业的」）：✗ in my amateur time；用介词 in，不说 ✗ at my free time；也可以说 in my spare time，稍书面一点。
 @v: hobby | = | n. | ˈhɑːbi | 爱好 | 说需要花时间投入、有点专门的兴趣 | a new hobby；pick up a hobby；my favorite hobby | Photography is a great hobby. | 摄影是个很好的爱好。 | 美国人说的 hobby 通常是要投入、能「练」的活动（烘焙、摄影、弹琴、攀岩）；睡觉、看视频、逛街一般不叫 hobby；聊天时少问 What's your hobby?，多问 What do you do for fun?
 @v: club | = | n. | klʌb | 俱乐部；社团 | 公司兴趣小组、学校社团 | join a club；a badminton club；a book club | Our company has a running club. | 我们公司有个跑步俱乐部。 | 「加入俱乐部」说 join a club，不说 ✗ join in a club / ✗ attend a club；单说 club 有时指「夜店」，说兴趣小组最好带上内容：the badminton club。

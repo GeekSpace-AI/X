@@ -1,0 +1,163 @@
+@day: 34
+@week: 1
+@title_cn: 我等了二十分钟了
+@title_en: I've Been Waiting for Ages
+@topic: 周末约朋友：等人、迟到、手机没电；聊学车和坚持练英语
+@think_short: 「等了二十分钟了」I've been waiting｜「学英语学了十年了」I've been learning… for｜「好久」for ages｜「手机没电了」My phone died.
+
+@goal_scene: 周末约朋友碰头，对方迟到又联系不上：你要说出「我已经等了二十分钟了（还在等）」，听懂对方的解释；坐下来以后，问对方一件事做了多久，也说说自己一直在坚持做的事。
+@goal_expr: I've been waiting for twenty minutes. / Sorry, I'm running late. / How long have you been learning to drive? / My phone died, so I couldn't call you. / I've been practicing English every day since I joined SwiftLink. / I've been waiting for ages!
+@goal_vocab: 20 个重点词 + 5 个短语：约人碰头（mall / entrance / exit）、迟到与等待、手机没电、学车与考试、咖啡馆与甜品
+@done: 用 I've been + -ing + for / since 说一个还在进行的动作，并分清 I've been waiting（还在等）和 I waited（等完了）
+@done: 迟到时提前发 Sorry, I'm running late. I'll be there in…；解释原因时说 My phone died. / My battery is dead.，不说 ✗ My phone has no electricity.
+@done: 用 How long have you been + -ing? 问朋友一件事做了多久，并用 for ages / for a long time 说「好久」
+
+@warmup: 你听说了吗？吴佳刚订婚了！ | Have you heard? Grace just got engaged! | D33
+@warmup: 我已经给她发消息了。 | I've already sent her a message. | D33
+@warmup: 张涛宣布了吗？——还没有。 | Has Tom announced it yet? — Not yet. | D33
+@warmup: 我们刚和一个新的大客户签了合同。 | We've just signed a contract with a big new client. | D33
+@warmup: Kevin 和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+@warmup: 五号线出了事故，所以地铁停了二十分钟。 | There was an accident on Line 5, so the subway stopped for twenty minutes. | D9
+
+@scene: 周六下午，林晓和大学同学小梅约好两点在一家大商场门口碰头，一起逛街、喝奶茶。小梅发来一条「要晚一点」的消息后就再没了动静，林晓在门口越等越着急。小梅最近在学车，林晓入职以后一直坚持每天练英语——两人终于坐下来，聊的全是「……了多久了」。
+@sp: 人物关系 | 林晓 ↔ 小梅：认识多年的好朋友，说话最随意，可以互相抱怨、开玩笑
+@sp: 沟通目的 | 林晓：告诉小梅自己等了多久（还在等）；小梅：道歉，解释为什么迟到、为什么联系不上；两人互相问近况：学车学了多久、英语练得怎么样
+@sp: 已知信息 | 林晓只收到一条「要晚到」的消息，不知道小梅的手机没电了；林晓知道小梅在学车，但不知道她考试没过
+@sp: 表达重点 | 一直在做、还没结束：I've been waiting / learning / practicing + for / since → 还在路上：I'm running late → 解释原因：My phone died, so I couldn't… → 夸张地说「好久」：for ages
+
+@story_title: Episode 34 · I've Been Waiting for Ages
+@story_type: 叙述 + 对话 + 手机消息
+@s: It's Saturday afternoon. Lily is waiting **outside** a big **mall**. | 周六下午，林晓在一家大商场外面等人。
+@s: She and Mei planned to **meet up** at two. | 她和小梅约好两点碰头。
+@s: At 1:55, Mei sent a **text**: "Sorry, I'm **running late**." | 一点五十五分，小梅发来一条消息：「抱歉，我要晚一点到。」
+@s: Now it's 2:20, and Lily is getting **impatient**. | 现在已经两点二十了，林晓越等越不耐烦。
+@s: She texts Mei: "I'm at the main **entrance**. I've been waiting for twenty minutes." | 她给小梅发消息：「我在正门。我已经等了二十分钟了。」
+@s: No answer. | 没有回复。
+@br:
+@s: **Finally**, at 2:25, Mei runs up to her. | 终于，两点二十五分，小梅跑了过来。
+@s: Mei: Sorry! I came out of the wrong subway **exit**. | 小梅：对不起！我从地铁站出错口了。
+@s: Lily: I've been waiting for **ages**! Why didn't you answer? | 林晓：我等了好久了！你怎么不回消息？
+@s: Mei: My phone died, so I couldn't call you. | 小梅：我手机没电了，所以没法给你打电话。
+@s: Mei: I left home **in a hurry** and forgot my charger. | 小梅：我出门太急，忘了带充电器。
+@s: Lily: Your **battery** is always **dead**! | 林晓：你的手机老是没电！
+@s: Mei: I know. Thanks for being so **patient**. | 小梅：我知道。谢谢你这么有耐心。
+@br:
+@s: They go to a **café** near the entrance. | 她们去了门口附近的一家咖啡馆。
+@s: Clerk: Sorry, we've **run out of** mango today. | 店员：不好意思，今天芒果卖完了。
+@s: Lily: OK. Two **bubble teas** and a chocolate **dessert**, please. | 林晓：好吧。那要两杯珍珠奶茶，再加一份巧克力甜品。
+@s: Lily: So, how are your driving **lessons**? | 林晓：对了，你学车学得怎么样了？
+@s: Mei: Terrible. My **instructor** is so impatient. | 小梅：糟透了。我的教练特别没耐心。
+@s: Mei: And I **failed** my first **test** last week. | 小梅：而且我上周第一次考试没过。
+@s: Lily: Oh no! **How long have you been** learning to drive? | 林晓：哎呀！你学车学了多久了？
+@s: Mei: Five months. **Honestly**, I just wanna get my **license**. | 小梅：五个月了。说实话，我只想赶紧拿到驾照。
+@s: Mei: What about you? Is your English getting better? | 小梅：你呢？英语有进步吗？
+@s: Lily: I think so. I've been practicing English every day since I joined SwiftLink. | 林晓：我觉得有。自从进了 SwiftLink，我每天都在练英语。
+@s: Mei: Every day? Wow. You're the patient one! | 小梅：每天？哇，你才是真有耐心！
+@s: Lily: Ha! Not with you. Next time, you gotta charge your phone! | 林晓：哈！对你可没耐心。下次你得把手机充好电！
+
+@v: outside | = | prep./adv. | ˌaʊtˈsaɪd | 在……外面 | 约在门口、店外等人；说外面的天气 | outside the mall；wait outside；It's hot outside. | I'll wait for you outside the station. | 我在车站外面等你。 | outside 作介词时直接跟地点：✓ outside the mall（美式口语也能听到 outside of the mall，但不必学）；「外面很热」说 It's hot outside.；「在外面吃」说 eat out，不说 ✗ eat outside（那是「在室外吃」）。
+@v: mall | = | n. | mɔːl | 购物中心；商场 | 约朋友逛街、吃饭、看电影 | a shopping mall；go to the mall；at the mall | Let's meet at the mall on Saturday. | 我们周六在商场见吧。 | 美国人说「去逛商场」常说 go to the mall；a 读 `/ɔː/`，和 small、tall 同韵（也有不少美国人读 `/mɑːl/`），不读「卖奥」。
+@v: meet up | = | phr. | ˌmiːt ˈʌp | 碰头；（约好）见面 | 和朋友约时间、地点见面 | meet up with sb；meet up at two；Let's meet up. | Let's meet up for coffee next week. | 我们下周找时间喝个咖啡吧。 | meet 是第一册学过的词（D8），meet up 专指「约好了碰个面」，多用于朋友之间，比 meet 更随意；和某人碰面用 with：meet up with Mei；正式的工作会面还是说 meet / have a meeting。
+@v: text | = | n./v. | tekst | 短信；（手机）消息；发消息 | 发短信、发聊天消息 | send a text；text me；get a text | Text me when you get home. | 到家给我发个消息。 | 美国人说「发消息」，不管用哪个 App，常说 text：I'll text you.；text 当动词直接跟人：✗ text to me ✓ text me；过去式 texted 读 `/ˈtekstɪd/`。
+@v: running late | be running late | phr. | ˌrʌnɪŋ ˈleɪt | 要迟到了；（比约好的时间）晚一点 | 还在路上，提前告诉对方会晚到 | I'm running late.；running a little late；running ten minutes late | Sorry, I'm running ten minutes late. | 抱歉，我要晚十分钟到。 | 还在路上时说 I'm running late.（我要晚一点），到了现场才说 Sorry I'm late.（D9，已经迟到了）；美国人很在意提前打招呼，晚五分钟以上就该发一句 Running late!，再说几点到。
+@v: impatient | = | adj. | ɪmˈpeɪʃnt | 不耐烦的；没耐心的 | 等人、排队、被催的时候 | get impatient；impatient with sb；an impatient driver | Don't be impatient. The bus is coming. | 别着急，公交马上就来了。 | 「没耐心」说 impatient，不说 ✗ no patient；「对某人没耐心」用 with：He's impatient with new drivers.；ti 读 `/ʃ/`。
+@v: entrance | = | n. | ˈentrəns | 入口；门口 | 约在哪个门见、找入口 | the main entrance；the north entrance；at the entrance | I'm at the main entrance. Where are you? | 我在正门，你在哪儿？ | 「正门」说 the main entrance，「北门」说 the north entrance；在门口等用 at：at the entrance；中文的「门口」不一定是 door——大楼、商场、公园的门口都用 entrance。
+@v: Finally | finally | adv. | ˈfaɪnəli | 终于；最后 | 等了很久的事终于发生；列举时的「最后一点」 | finally arrive；Finally!；finally done | The package finally arrived after two weeks. | 包裹两周后终于到了。 | finally 带「等了很久、松了一口气」的语气，单说一句 Finally! 就是「总算来了！」；列举时 First…, Then…, Finally… 是「最后」；放在动词前：She finally came.
+@v: exit | = | n. | ˈegzɪt | 出口；（地铁站的）出站口 | 地铁、商场、高速公路 | Exit A；the wrong exit；take Exit D | Take Exit D and walk straight. | 从 D 口出来一直往前走。 | 「从 A 口出」说 take Exit A / come out of Exit A；「出错口了」：I came out of the wrong exit.；美式常读 `/ˈegzɪt/`，也有人读 `/ˈeksɪt/`，两种都对。
+@v: ages | = | n. | ˈeɪdʒɪz | 好久；很长时间（夸张的说法） | 抱怨等了很久；感叹很久没见 | for ages；It's been ages.；take ages | I haven't seen her for ages. | 我好久没见到她了。 | for ages 是朋友之间的夸张说法，等了十分钟也能说 I've been waiting for ages!；正式场合说 for a long time；单数 age 是「年龄」，意思完全不同。
+@v: in a hurry | = | phr. | ɪn ə ˈhɜːri | 匆忙；赶时间 | 解释为什么忘了东西；说自己赶时间 | in a hurry；leave in a hurry；I'm in a hurry. | Sorry, I can't talk now. I'm in a hurry. | 抱歉，我现在没法聊，我赶时间。 | 「我很急」说 I'm in a hurry.，不说 ✗ I'm very hurry.（hurry 不是形容词）；催别人说 Hurry up!；hurry 的 u 读 `/ɜː/`，要卷舌。
+@v: battery | = | n. | ˈbætəri | 电池；（手机的）电量 | 手机、电脑没电或快没电 | My battery is low.；a dead battery；battery life | My battery is at five percent. Can I borrow your charger? | 我手机只剩 5% 的电了，能借一下你的充电器吗？ | 「手机电量低」说 My battery is low.，不说 ✗ My phone has no electricity.；「充电宝」是 power bank；tt 美式读闪音，听起来像 bad-er-ee。
+@v: dead | = | adj. | ded | （电池、手机）没电的；死的 | 手机、电池完全没电、开不了机 | My phone is dead.；a dead battery；go dead | My laptop is dead. Do you have a charger? | 我笔记本没电了，你有充电器吗？ | 说电子设备时 dead 就是「没电了」，非常口语，一点也不吓人；「没电关机了」这个动作说 My phone died.（die 的过去式）；「快没电了」说 My phone is about to die.
+@v: patient | = | adj. | ˈpeɪʃnt | 有耐心的 | 夸别人耐心；提醒别人别急 | be patient；patient with sb；Thanks for being so patient. | Thanks for being so patient with me. | 谢谢你对我这么有耐心。 | 让别人等了之后，美国人常说 Thanks for being so patient. / Thanks for your patience.，比只说 Sorry 更积极；patient 也是名词「病人」，看上下文区分；ti 读 `/ʃ/`：PAY-shnt。
+@v: café | = | n. | kæˈfeɪ | 咖啡馆；小餐馆 | 约朋友坐一坐、喝东西 | a café；a small café；meet at a café | There's a nice café near the office. | 公司附近有一家不错的咖啡馆。 | 也可以写成 cafe；重音在后：ca·FÉ；café 是「店」，coffee 是「咖啡（饮料）」：✗ Let's drink café. ✓ Let's get coffee.
+@v: run out of | = | phr. | ˌrʌn ˈaʊt əv | 用完；卖完 | 店里卖完了、东西用光了、时间不够了 | run out of time；run out of money；We've run out of milk. | We're running out of time. Let's finish quickly. | 我们时间不多了，快点做完吧。 | 「卖完了」不说 ✗ It's sold over.，说 We've run out of… / It's sold out.；run 的过去分词还是 run：We've run out.；手机没电也可以说 My phone ran out of battery.
+@v: bubble teas | bubble tea | n. | ˈbʌbl ˌtiː | 珍珠奶茶 | 点饮料、约朋友 | get bubble tea；two bubble teas；mango bubble tea | Let's get some bubble tea after lunch. | 午饭后去买杯奶茶吧。 | 美国人把珍珠奶茶叫 bubble tea 或 boba；点几杯就说 two bubble teas；「少冰、少糖」说 less ice, less sugar。
+@v: dessert | = | n. | dɪˈzɜːrt | 甜品；饭后甜点 | 点餐、聚餐 | have dessert；a chocolate dessert；the dessert menu | Do you want to see the dessert menu? | 要看看甜品菜单吗？ | 重音在后：de·SSERT `/dɪˈzɜːrt/`；desert（沙漠）重音在前 `/ˈdezərt/`——拼写只差一个 s，读音和意思都不同；「点甜品」说 get / order dessert，一般不加 a。
+@v: lessons | lesson | n. | ˈlesnz | 课；一节课 | 学车、学游泳等技能课 | driving lessons；take lessons；a dance lesson | I take swimming lessons on Sundays. | 我每周日上游泳课。 | 学一门技能的课常说 lessons：driving lessons / swimming lessons；学校里按课表上的课常说 class：an English class；「上课」用 take / have，不说 ✗ go a lesson。
+@v: instructor | = | n. | ɪnˈstrʌktər | 教练；指导老师 | 驾校、健身房、培训课 | a driving instructor；my instructor；a swimming instructor | My driving instructor is really nice. | 我的驾校教练人特别好。 | 中文的「教练」：驾校、健身、技能培训的教练说 instructor；球队的教练说 coach；重音在中间：in·STRUC·tor。
+@v: failed | fail | v. | feɪld | （考试）没通过；失败 | 说考试没过、事情没成功 | fail a test；fail the driving test；fail twice | He failed his driving test twice. | 他驾照考了两次都没过。 | 「考试没过」直接说 fail a test，不加 in：✗ I failed in the test.；也可以说 I didn't pass the test.；「通过」是 pass（D27）。
+@v: test | = | n. | test | 考试；测试 | 驾照考试、小测验、系统测试 | a driving test；take a test；pass / fail a test | I have a driving test next Monday. | 我下周一有驾照考试。 | 「参加考试」说 take a test，不说 ✗ join a test / ✗ attend a test；test 一般指单项的、小一点的考试，exam（D27）更大、更正式；结尾 st 两个音都要读。
+@v: How long have you been | how long have you been…? | phr. | ˌhaʊ ˈlɔːŋ həv ju bɪn | 你……多久了？（问一个一直在进行的动作） | 问对方学了多久、等了多久、做了多久 | How long have you been learning…?；How long have you been waiting?；How long have you been working on it? | How long have you been working on this report? | 这份报告你做了多久了？ | 后面跟 -ing：✗ How long have you been learn…? ✓ How long have you been learning…?；回答用 for / since：For five months. / Since March.；been 美式读 `/bɪn/`，不读 bean。
+@v: Honestly | honestly | adv. | ˈɑːnɪstli | 说实话；老实说 | 说出真实的想法、小抱怨 | Honestly, …；I honestly don't know.；Honestly? | Honestly, I don't like the new design. | 说实话，我不喜欢新的设计。 | h 不发音！`/ˈɑːnɪstli/`，和 hour 一样（D2）；放在句首表示「我说真心话」，常引出一句不太好听的实话，听起来比直说柔和；第二册 D59 还会学 to be honest。
+@v: license | = | n. | ˈlaɪsns | 执照；驾照 | 考驾照、办证件 | a driver's license；get my license；a business license | Do you have a driver's license? | 你有驾照吗？ | 「驾照」美式说 driver's license，英式说 driving licence（拼成 c）；「拿驾照」说 get my license，「考驾照」说 take the driving test，不说 ✗ test a license。
+
+@diff: 「我等了二十分钟了」——I've been waiting for twenty minutes.（还在等）
+@d_cn: 从过去某个时间开始等，一直等到现在，而且还在等。
+@d_en: I've been waiting for twenty minutes. ／ I waited for twenty minutes.（已经等完）
+@d_why: 中文「我等了二十分钟了」和「我等了二十分钟」只差一个句尾的「了」，平时很少有人特意区分。英文分得很清楚：动作从过去一直进行到现在、**还没结束**，用 **have been + -ing**：I've been waiting…（我还站在门口）；动作**已经结束**，用过去式：I waited for twenty minutes, and then I went home.（等了二十分钟，后来走了）。Day 31 的 I've lived here for two years 说的是状态（住、认识、在），今天的 have been + -ing 说的是**一直在做的动作**（等、学、练、找），中间没停过，听起来更有「一直在……」的画面感。
+@d_when: 打电话、发消息说已经等了多久；说一件事做了多久、还在做：I've been looking for it all morning.；事情已经结束、讲过去的经过 → 过去式。
+@d_vs: **I've been waiting for twenty minutes.** 我已经等了二十分钟了。（还在等）\n**I waited for twenty minutes, so I went in first.** 我等了二十分钟，就先进去了。（等完了）\n**I've waited for twenty minutes.**（语法也对，但说「一直在等」，口语里更常用 have been waiting）\n✗ I'm waiting for twenty minutes. ✗ I wait you twenty minutes.
+@d_task: 用英文说：① （发消息）我已经在正门等了半小时了。② （讲昨天的事）我等了半小时，后来就回家了。 | ① I've been waiting at the main entrance for half an hour. ② I waited for half an hour, and then I went home.
+@diff: 「我学英语学了十年了」——I've been learning English for ten years.
+@d_cn: 一件需要长期做的事，从过去开始，一直做到现在，还会继续做下去。
+@d_en: I've been learning English for ten years. / How long have you been learning to drive? / I've been practicing every day since I joined SwiftLink.
+@d_why: 中文喜欢把动词说两遍：「学英语学了十年」「学车学了五个月」。英文动词只说一次，时间放到句尾：**I've been + 动词-ing + 宾语 + for / since…**。直译出来的 ✗ I learn English learn ten years. 或 ✗ I study English ten years. 都不成句。问别人用 **How long have you been + -ing?**，回答一般只说时间：For five months. / Since March.。注意：know、like、have（拥有）这类表示「状态」的动词不加 -ing：✓ I've known her for ten years. ✗ I've been knowing her…——这就是 Day 31 学的 have known。
+@d_when: 说学习、练习、工作这类长期的动作坚持了多久：I've been learning English for… / I've been working here since…；状态动词（know / have / like / be）用 have + 过去分词。
+@d_vs: **I've been learning English for ten years.** 我学英语学了十年了。\n**How long have you been learning to drive? — For five months.** 你学车学了多久了？——五个月。\n**I've known Mei for years.** 我认识小梅很多年了。（know 是状态，不用 -ing）\n✗ I learn English ten years. ✗ I've been knowing her for years.
+@d_task: 用英文说：① 我学吉他学了两年了。② 你在这家公司干了多久了？③ 我从上个月开始每天都在跑步。 | ① I've been learning the guitar for two years. ② How long have you been working at this company? ③ I've been running every day since last month.
+@diff: 「好久」——for ages / for a long time
+@d_cn: 说时间很长：等了好久、好久没见、做了老半天，常常带点夸张。
+@d_en: I've been waiting for ages! / I haven't seen her for a long time. / It's been ages!
+@d_why: 中文的「好久」「老半天」常常是夸张：其实只等了十分钟，也可以说「等了好半天」。英文也有同样的夸张说法：**for ages**（ages 本来是「年代、岁月」），朋友之间用，语气亲切，带点抱怨或玩笑。正式一点、或者时间真的很长，说 **for a long time**。常见的错：✗ for long time（漏了 a）；✗ I waited you very long time（wait 后面要加 for，「很久」前面不用 very）。「好久不见」英文有一句固定说法，下一课（Day 35）会学。
+@d_when: 朋友之间抱怨、开玩笑：I've been waiting for ages! / This line is taking ages.；正式场合、或真的很长：We've worked together for a long time.
+@d_vs: **I've been waiting for ages!** 我等了好久了！（朋友之间，带点夸张）\n**I haven't seen her for a long time.** 我很久没见到她了。（中性）\n**It's been ages!** 这么久了！\n✗ I waited you very long time. ✗ for long time
+@d_task: 用两种语气说「我找这份文件找了好久了」：① 跟同事抱怨（夸张）② 跟经理说明情况（中性）。 | ① I've been looking for this file for ages! ② I've been looking for this file for a long time.
+@diff: 「我手机没电了」——My phone died. / My battery is dead.
+@d_cn: 手机、电脑的电用完了，开不了机；或者电快用完了。
+@d_en: My phone died. / My battery is dead. / My battery is low. / My phone is about to die.
+@d_why: 中文「没电了」直译成 ✗ My phone has no electricity. 或 ✗ My phone is no power.，美国人能猜到意思，可听着像「家里停电了」。英文说电子设备没电，用一个很形象的词：**die / dead**——My phone **died**.（刚才没电关机了，过去式）/ My battery **is dead**.（现在是没电的状态）。电量低说 **My battery is low.**，快没电说 **My phone is about to die.**。很多中国人觉得 dead 不吉利，其实用在手机、电池上非常口语、非常普通。
+@d_when: 解释为什么没接电话、没回消息；借充电器、充电宝：Can I charge my phone here? / Do you have a power bank?
+@d_vs: **My phone died, so I couldn't call you.** 我手机没电了，所以没法给你打电话。\n**My battery is dead.** 我手机没电了。（现在的状态）\n**My battery is low. Can I borrow your charger?** 我手机快没电了，能借一下充电器吗？\n✗ My phone has no electricity. ✗ My phone is no power.
+@d_task: 用英文说：① 抱歉没回你消息，我手机没电了。② 我手机只剩 5% 的电了，这儿能充电吗？ | ① Sorry I didn't reply. My phone died. ② My battery is at five percent. Can I charge my phone here?
+
+@core: I've been + -ing + for / since… | 说一个动作一直进行到现在，还没结束 | waiting for twenty minutes / learning English for ten years / practicing since I joined | 正式：I have been practicing English every day since I joined the company.｜随意：Been practicing every day!
+@core: How long have you been + -ing? | 问对方一件事做了多久 | learning to drive / waiting / working on it | 正式：How long have you been working on this project?｜随意：How long've you been waiting?
+@core: Sorry, I'm running late. I'll be there in… | 还在路上，提前说会晚到，再说几点到 | five minutes / ten minutes / a bit | 正式：I'm sorry, I'm running about ten minutes late.｜随意：Running late! Be there in 5.
+@core: My phone died, so I couldn't… | 解释为什么没接电话、没回消息 | call you / reply / find you | 正式：My phone battery ran out, so I wasn't able to call you.｜随意：Phone died, sorry!
+@core: Let's meet up at… | 约朋友碰头的时间和地点 | at two / at the main entrance / outside the mall | 正式：Shall we meet at the main entrance at two?｜随意：Meet up at two?
+@core: I've been waiting for ages! | 夸张地说等了好久（朋友之间） | waiting / looking for it / trying to call you | 正式：I've been waiting for quite a while.｜随意：Where are you? I've been here forever!
+@core: Sorry, we've run out of… | 店里卖完了；东西用完了 | mango / milk / paper | 正式：I'm afraid that item is sold out today.｜随意：We're out of mango.
+@core: Thanks for being so patient. | 让别人等了之后表示感谢 | patient / understanding | 正式：Thank you for your patience.｜随意：Thanks for waiting!
+
+@pw: impatient | ɪmˈpeɪʃnt | 3 个音节 im·PA·tient | 重音在 pa；tient 读 `/ʃnt/`，只剩一个轻轻的 shnt
+@pw: honestly | ˈɑːnɪstli | 3 个音节 HON·est·ly | h 不发音；hon 嘴巴张大 `/ɑː/`；st 后面的 t 常常很轻
+@pw: dessert | dɪˈzɜːrt | 2 个音节 de·SSERT | 重音在后，ss 读 `/z/`；对比 desert（沙漠）`/ˈdezərt/`，重音在前
+@pw: café | kæˈfeɪ | 2 个音节 ca·FÉ | 重音在后；不要读成 coffee `/ˈkɔːfi/`
+@pw: license | ˈlaɪsns | 2 个音节 LI·cense | li 读 `/laɪ/`；后半只剩 `/sns/`，几乎没有元音
+@pw: instructor | ɪnˈstrʌktər | 3 个音节 in·STRUC·tor | 重音在中间，u 读 `/ʌ/`；ctor 弱读成 `/ktər/`
+@pw: battery | ˈbætəri | 3 个音节 BAT·ter·y | tt 美式读成闪音，像 bad-er-ee；快读时常缩成 2 个音节 `/ˈbætri/`
+@ps: I've been **wait**ing for **twen**ty **min**utes. | been 弱读成 `/bɪn/`，和 I've 连在一起像 aiv-bin；twenty 的 t 跟在 n 后面常被吞掉，听起来像 twenny。
+@ps: **Sor**ry, / I'm **run**ning **late**. | running 和 late 都重读；running 的 -ing 美国人快读时常像 runnin'。
+@ps: How **long** have you been **learn**ing to **drive**? ↘ | have you been 三个词都弱读，连成 `/həvjə bɪn/`；to 弱读成 `/tə/`；How 开头的特殊疑问句，句尾下降。
+@ps: My **phone** **died**, / so I **could**n't **call** you. | couldn't 读重，可结尾的 t 几乎不发音，像 `/ˈkʊdn/`；听 could 还是 couldn't，要抓后面那个短促的 n。
+@pnote: have been 的弱读：书面写 I have been waiting，口语说 I've been waiting，been 读 `/bɪn/`（和 bin 一样），快读时 I've 只剩 `/aɪv/`，听起来像 I been waiting。听力里只要听到 been + -ing，再加上 for / since，就是「一直在……」。同样，She's been learning… = She has been learning…，别听成 she is。
+@pnote: wanna / gotta 听辨：小梅说 I just wanna get my license.（wanna = want to），林晓说 You gotta charge your phone!（gotta = have got to，「你得……」）。这两个词美国朋友之间天天说，你要先听得懂；自己说话偶尔可以用，但写消息、写邮件仍写 want to / have to。
+@lfocus: I've been 连读成 /aɪv bɪn/，been 很轻
+@lfocus: couldn't 的 t 不发音，靠短促的 n 分辨
+@lfocus: wanna = want to，gotta = have got to
+@dict: S9–S11
+@dict: S23
+@res: 在 youglish.com 输入 "I've been waiting"，选 US，听 have been 在真实语流里有多轻。
+
+@mimic: 跟读【C】S8–S25：先用正常语速逐句跟读，重点模仿 I've been waiting 里很轻的 been 和 couldn't 的读法；再由你演林晓，手机朗读小梅和店员的台词，完整对一遍并录音。
+@swap: I've been waiting for twenty minutes. | 换动作和时间：looking for my keys / half an hour；learning English / ten years | I've been looking for my keys for half an hour.
+@swap: Sorry, I'm running late. | 加上原因和到达时间：I missed the bus / fifteen minutes；the subway is slow / ten minutes | Sorry, I'm running late. I missed the bus. I'll be there in fifteen minutes.
+@swap: How long have you been learning to drive? | 换动作：working at SwiftLink / learning English / waiting | How long have you been learning English?
+@swap: My phone died, so I couldn't call you. | 换原因和结果：I was in a meeting / answer your call；the subway was crowded / text you back | I was in a meeting, so I couldn't answer your call.
+@free: 你约了朋友七点吃饭，地铁出了故障，你会晚十五分钟到。给朋友发一条消息。 | Sorry, I'm running late. The subway stopped for a while, so I'll be there in fifteen minutes.
+@free: 新同事问 How long have you been learning English?（学了十年左右；入职以后每天都在练口语） | I've been learning English for about ten years. And I've been practicing speaking every day since I joined SwiftLink.
+@free: 朋友迟到了半小时才来，你半开玩笑地抱怨，再问她怎么了。 | Finally! I've been waiting for ages. What happened?
+@free: 你在奶茶店想点芒果奶茶，店员说芒果卖完了。你改点别的，再加一份甜品。 | Oh, you've run out of mango? That's OK. I'll have a chocolate bubble tea and a small dessert, please.
+@output: 录 1.5 分钟语音（或写 8–10 句话）「一次等人的经历」：约好什么时候、在哪儿碰头（meet up）→ 对方发来什么消息（running late）→ 你等了多久、心情怎么样（I've been waiting… / impatient）→ 对方为什么迟到（My phone died, so… / in a hurry）→ 后来去做了什么 → 最后说一件你一直在坚持做的事（I've been + -ing + since / for…）。
+@output_sample: Last Saturday, my friend and I planned to meet up outside a mall at two. At two o'clock, she sent me a text: "Sorry, I'm running late." I waited at the main entrance, and after twenty minutes, I got a little impatient. Finally, she ran up to me and said, "My phone died, so I couldn't call you." She left home in a hurry and forgot her charger. We went to a café, and I had a bubble tea and a chocolate dessert. Then we talked about our goals. She's been learning to drive for five months, and she wants to get her license soon. I've been practicing English every day since I joined my company. It isn't easy, but I'm not going to stop.
+
+@check: （听力，不看原文回答）小梅为什么迟到？她为什么没接电话、没回消息？ | 她从地铁站出错了口；她出门太急，忘了带充电器，手机没电了（My phone died, so I couldn't call you.）。
+@check: I've been waiting for twenty minutes. 和 I waited for twenty minutes. 哪一句说话的人还在等？ | I've been waiting… 的人还在等；I waited… 说的是已经等完了（后来走了，或者人来了）。
+@check: 改错：① I learn English ten years. ② I've been knowing her since college. ③ My phone has no electricity. | ① I've been learning English for ten years. ② I've known her since college.（know 是状态，不用 -ing）③ My phone died. / My battery is dead.
+@check: 你还在路上，估计会晚十分钟到。Sorry, I'm late. 和 Sorry, I'm running late. 有什么不同？现在该用哪句？ | I'm late. 是「已经迟到了」，到了现场才说；I'm running late. 是「我在路上，会晚一点」。还在路上，用 Sorry, I'm running late. I'll be there in ten minutes.
+@check: 「这家店今天芒果卖完了」「我们时间不多了」分别怎么说？ | They've run out of mango today. / We're running out of time.
+
+@next1: 不看书说出 S3、S5、S10、S20、S23 里的 5 个锚点句
+@next1: 用 I've been + -ing + for / since 说两件你一直在坚持做的事
+@next7: 不看书说出 have been waiting 和 waited 的区别，各造一个句子
+@next7: 给朋友发三条消息：我要晚到了 / 我手机快没电了 / 我等了好久了

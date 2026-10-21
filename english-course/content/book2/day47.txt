@@ -1,0 +1,164 @@
+@day: 47
+@week: 3
+@title_cn: 看医生
+@title_en: Seeing a Doctor
+@topic: 看病：说症状、听医嘱、拿药、请病假
+@think_short: 「我感冒了」I have a cold.（I'm cold = 我冷）｜「吃药」take medicine｜「看病」see a doctor｜「请病假」take a sick day / call in sick
+
+@goal_scene: 生病时用英文说清楚症状和持续时间，听懂医生的用药交代，再给经理发一条得体的请病假消息。
+@goal_expr: I think I caught a cold. / I have a fever and a sore throat. / How long have you had these symptoms? — Since Sunday. / Take this medicine three times a day. / Do I need antibiotics? / I need to take a sick day. / Feel better soon!
+@goal_vocab: 20 个重点词 + 1 个补充词（antibiotics）+ 5 个短语：症状、诊所和医院、用药、请病假
+@done: 能用 I have a… 说出至少 4 个症状，并用 since / for 回答「多久了」
+@done: 能听懂并复述医生的用药交代：一天几次、每次几片、饭前还是饭后
+@done: 能写一条 2–3 句的请病假消息，并说出中美在看病、用药、请病假上的 2 个不同
+
+@warmup: 这周六我就搬走了。 | I'm moving out this Saturday. | D46
+@warmup: 你能帮我搭把手吗？ | Can you give me a hand? | D46
+@warmup: 小心，那个箱子是易碎品。 | Be careful, that box is fragile. | D46
+@warmup: Kevin 帮我把 Wi-Fi 弄好了。 | Kevin helped me set up the Wi-Fi. | D46
+@warmup: 我们买点水吧，以防万一。 | Let's buy some water, just in case. | D42
+@warmup: 她昨晚熬夜到很晚，所以 7 点 40 才起床。 | She stayed up late last night, so she got up at 7:40. | D2
+
+@scene: 搬家那天又热又累，晚上还下了雨。周日一早林晓就开始打喷嚏，一天用掉了一整盒纸巾，她跟吴佳说「多喝热水就好」。可到了周一早上，她嗓子疼、咳得厉害，还发起了烧。她走到新家附近的社康中心（社区健康服务中心）：护士先量体温，医生问症状、做了流感快速检测，再开药。林晓下意识地想问要不要「吃消炎药」「去大医院」，医生的回答和很多中国人的习惯不太一样。回到家，她给张涛发消息请一天病假。
+@sp: 人物关系 | 林晓 ↔ 吴佳：好朋友，发消息很随意；林晓 ↔ 医生、护士：第一次见面，礼貌、说清楚；林晓 → 张涛：下属向经理请假，简短、礼貌、说明情况
+@sp: 沟通目的 | 说清楚症状和开始的时间；听懂医生的用药交代；向经理请一天病假
+@sp: 已知信息 | 医生只知道她来看病，不知道哪里不舒服、病了多久；张涛还不知道林晓病了
+@sp: 表达重点 | 我好像感冒了（I caught a cold）→ 发烧、嗓子疼（I have a fever and a sore throat）→ 从周日开始（since Sunday）→ 一天三次（Take this medicine three times a day）→ 我需要请一天病假（take a sick day）
+
+@story_title: Episode 47 · I Think I Caught a Cold
+@story_type: 叙述 + 对话 + 消息
+@s: After moving day, Lily doesn't feel well. | 搬完家，林晓就觉得不太舒服。
+@s: On Sunday, she can't stop **sneezing** and uses a box of **tissues**. | 周日她喷嚏打个不停，用掉了一盒纸巾。
+@s: She texts Grace. | 她给吴佳发消息。
+@s: Lily: I think I caught a **cold**. I have a **runny nose**, too. | 林晓：我好像感冒了，还流鼻涕。
+@s: Grace: Oh no! Do you have any **medicine**? | 吴佳：哎呀！你有药吗？
+@s: Lily: No. I don't like to **take medicine**. I'll just drink hot water. | 林晓：没有。我不爱吃药，多喝点热水就好了。
+@br:
+@s: But on Monday morning, she feels worse. | 可到了周一早上，她感觉更糟了。
+@s: Her **throat** hurts, and she has a bad **cough**. | 嗓子疼，咳得也厉害。
+@s: So she walks to the community **clinic** to see a **doctor**. | 于是她走到社区的社康中心去看医生。
+@s: First, a **nurse** takes her **temperature**. It's 38.5°C. | 先是护士给她量体温：38.5 度。
+@br:
+@s: Doctor: Hi. What seems to be the problem? | 医生：你好，哪里不舒服？
+@s: Lily: I have a **fever** and a **sore throat**. | 林晓：我发烧，嗓子也疼。
+@s: Doctor: How long have you had these **symptoms**? | 医生：这些症状有多久了？
+@s: Lily: Since Sunday morning. I have a **headache**, too. | 林晓：从周日早上开始。我还头疼。
+@s: Doctor: Let's do a quick **flu** test. | 医生：我们做个流感快速检测吧。
+@s: Doctor: Good news. It's not the flu, just a bad cold. | 医生：好消息，不是流感，就是重感冒。
+@s: Lily: Do I need **antibiotics**? Or should I go to the **hospital**? | 林晓：我要吃消炎药吗？还是该去大医院？
+@s: Doctor: No. Antibiotics don't work on a cold. Just rest and drink lots of water. | 医生：不用。抗生素对感冒没用。好好休息，多喝水就行。
+@s: Doctor: Here's your **prescription**. You can get it at the **pharmacy** downstairs. | 医生：这是处方，到楼下药房拿药。
+@s: Doctor: Take this medicine three times a day. Two **pills** after each meal. | 医生：这个药一天三次，每次饭后吃两片。
+@s: Doctor: You should **recover** in a few days. | 医生：过几天应该就好了。
+@br:
+@s: At home, Lily messages Tom. | 回到家，林晓给张涛发消息。
+@s: Lily: Hi Tom, I'm **sick**. The doctor says I need rest. | 林晓：张涛你好，我病了，医生说要休息。
+@s: Lily: I need to take a sick day. I'll apply for **sick leave** in the HR app. | 林晓：我需要请一天病假，会在人事系统里提交病假申请。
+@s: Tom: No problem. Take care, and **feel better** soon! | 张涛：没问题。保重，早日康复！
+
+@v: sneezing | sneeze | v. | ˈsniːzɪŋ | 打喷嚏 | 感冒、过敏时 | sneeze a lot；can't stop sneezing；cough and sneeze | I can't stop sneezing. I think I'm allergic to cats. | 我一直打喷嚏，我好像对猫过敏。 | 美国人听到别人打喷嚏，会马上说 Bless you!，打喷嚏的人回一句 Thanks.；中国没有这个习惯，在美国同事旁边什么都不说会显得有点冷淡。can't stop 后面接 -ing。
+@v: tissues | tissue | n. | ˈtɪʃuːz | 纸巾；面巾纸 | 擦鼻涕、擦手 | a box of tissues；a pack of tissues；Do you have a tissue? | Do you have a tissue? | 你有纸巾吗？ | 中文都叫「纸」，英文分得细：擦鼻涕的面巾纸是 tissue，餐巾纸是 napkin（Day 44），卫生纸是 toilet paper；「一张纸巾」说 a tissue，不说 ✗ a paper。ss 读 `/ʃ/`。
+@v: cold | = | n. | koʊld | 感冒 | 说自己或别人感冒了 | have a cold；catch a cold；a bad cold | I have a bad cold, so I'm working from home. | 我感冒得厉害，所以在家办公。 | 「我感冒了」是 I have a cold. 或 I caught a cold.，a 不能丢；✗ I'm cold. 是「我冷」。cold 当「冷」是形容词，当「感冒」是名词。
+@v: runny nose | = | phr. | ˌrʌni ˈnoʊz | 流鼻涕 | 跟医生、同事说症状 | have a runny nose；a stuffy nose（鼻塞）；a runny nose and a cough | My son has a runny nose, so he's staying home today. | 我儿子流鼻涕，今天在家休息。 | 「流鼻涕」最常说 I have a runny nose. 或 My nose is running.，不说 ✗ My nose flows water.；「鼻塞」是 I have a stuffy nose.
+@v: medicine | = | n. | ˈmedɪsn | 药 | 生病买药、医生开药 | cold medicine；some medicine；Chinese medicine | Do you have any cold medicine? | 你有感冒药吗？ | 说「药」一般不加 a：some medicine / any medicine；「一片药」说 a pill。「中药」是 Chinese medicine；medicine 还指「医学」：She studies medicine.
+@v: take medicine | = | phr. | ˌteɪk ˈmedɪsn | 吃药 | 说服药、问别人吃药没有 | take medicine；take your medicine；take a pill | Don't forget to take your medicine before bed. | 睡前别忘了吃药。 | 「吃药」用 take，不用 eat：✗ eat medicine。药片、胶囊、药水都用 take：take two pills / take cough syrup。
+@v: throat | = | n. | θroʊt | 喉咙；嗓子 | 说嗓子疼、嗓子哑 | my throat hurts；a sore throat；clear your throat | My throat hurts when I swallow. | 我咽东西的时候嗓子疼。 | th 是咬舌音 `/θ/`，不要读成 s 或 f；「嗓子疼」说 My throat hurts. 或 I have a sore throat.，不说 ✗ My throat is pain.
+@v: cough | = | n./v. | kɔːf | 咳嗽 | 说症状 | a bad cough；a dry cough；cough syrup（止咳糖浆） | I've had a cough for a week. | 我咳嗽一个星期了。 | 名词前要有 a：I have a cough.；「咳得厉害」说 a bad cough，不说 ✗ a big cough。gh 读 `/f/`，和 off 同韵。
+@v: clinic | = | n. | ˈklɪnɪk | 诊所；门诊 | 看小病、做检查 | a community clinic；go to the clinic；a dental clinic | There's a clinic on the first floor of our building. | 我们楼一层有个诊所。 | 深圳的「社康中心」英文可以叫 community health center 或 community clinic；美国人看感冒一般找自己的家庭医生，或去 urgent care（不用预约的急诊诊所）。
+@v: doctor | = | n. | ˈdɑːktər | 医生 | 看病、预约、转述医生的意见 | see a doctor；go to the doctor；The doctor says… | You should see a doctor. | 你应该去看看医生。 | 「看病」说 see a doctor 或 go to the doctor，不说 ✗ see a sickness；称呼医生用 Dr. + 姓：Dr. Wang。o 读 `/ɑː/`，嘴张大。
+@v: nurse | = | n. | nɜːrs | 护士 | 诊所、医院里量体温、打针 | the nurse；ask the nurse；a school nurse | The nurse will take your blood pressure first. | 护士会先给你量血压。 | 美国人叫护士一般说 Excuse me，或者看名牌叫名字；男护士也是 nurse。ur 要卷舌：`/nɜːrs/`，不读「呢斯」。
+@v: temperature | = | n. | ˈtemprətʃər | 体温；温度 | 量体温、说发烧 | take your temperature；a high temperature；room temperature | Let me take your temperature. | 我给你量一下体温。 | 「量体温」说 take sb's temperature，不说 ✗ measure your temperature（太书面）。中国用摄氏度，美国用华氏度：37°C ≈ 98.6°F，38.5°C ≈ 101.3°F。
+@v: fever | = | n. | ˈfiːvər | 发烧 | 说症状、请病假 | have a fever；a high fever；run a fever | She has a high fever, so she's staying home. | 她发高烧，在家休息。 | 「我发烧了」说 I have a fever.（a 不能丢），不说 ✗ I'm fever. / I have fever.；「烧退了」说 My fever went down.
+@v: sore throat | = | phr. | ˌsɔːr ˈθroʊt | 嗓子疼；咽喉痛 | 说症状 | have a sore throat；a bad sore throat；a sore throat and a cough | I have a sore throat, so I can't talk much today. | 我嗓子疼，今天不能多说话。 | sore 是「酸痛」（Day 41：sore legs），前面要加 a：I have **a** sore throat.；「嗓子哑了」说 I lost my voice.
+@v: symptoms | symptom | n. | ˈsɪmptəmz | 症状 | 医生问诊、描述病情 | symptoms of a cold；have symptoms；When did the symptoms start? | What are your symptoms? | 你有什么症状？ | How long have you had these symptoms? 问的是「持续多久了」，回答 Since Sunday.（从周日起）或 For two days.（两天了）；想说「两天前开始的」，要说完整：It started two days ago.
+@v: headache | = | n. | ˈhedeɪk | 头疼 | 说症状 | have a headache；a bad headache；give sb a headache | I have a headache. I'm going to lie down. | 我头疼，去躺一会儿。 | 「我头疼」说 I have a headache.（a 不能丢），不说 ✗ My head is pain. / I'm headache.；ache 读 `/eɪk/`，ch 读 `/k/`。
+@v: flu | = | n. | fluː | 流感 | 区分普通感冒和流感、做检测 | the flu；a flu test；flu season | Half of my team has the flu. | 我们组一半人得了流感。 | flu 前面一般加 the：I have the flu.（cold 用 a：a cold）；每年冬春的「甲流」就是流感的一种（flu A）。流感一般比感冒重：高烧、浑身疼。
+@v: antibiotics | antibiotic | n. | ˌæntibaɪˈɑːtɪks | 抗生素（中国口语常说的「消炎药」） | 问医生要不要吃抗生素 | take antibiotics；prescribe antibiotics；Antibiotics don't work on colds. | The doctor gave me antibiotics for my ear infection. | 医生给我开了治耳朵感染的抗生素。 | 中文「消炎药」直译成 anti-inflammatory，在美国指布洛芬一类的止痛消炎药，不是抗生素！想问「要不要吃消炎药」，要问 Do I need antibiotics?；在中美两国，抗生素都应凭处方购买，普通感冒是病毒引起的，吃抗生素没用。
+@v: hospital | = | n. | ˈhɑːspɪtl | 医院 | 病重、急诊、住院 | go to the hospital；in the hospital；a big hospital | He's in the hospital, but he's OK. | 他住院了，不过没事。 | 美式说 go to **the** hospital / in **the** hospital（英式不加 the），in the hospital 常指「住院」。中国人小病也爱去大医院；美国人一般先找家庭医生，急病才去医院的急诊室（the ER）。
+@v: prescription | = | n. | prɪˈskrɪpʃn | 处方；药方 | 医生开药、去药房拿药 | a prescription；write a prescription；prescription medicine | You need a prescription for this medicine. | 这个药要凭处方买。 | 「开药」说 The doctor gave me a prescription.，不说 ✗ open medicine（「开」的直译）。美国很多药要处方，普通感冒药、止痛药不用，叫 over-the-counter medicine（非处方药）。
+@v: pharmacy | = | n. | ˈfɑːrməsi | 药房；药店 | 拿药、买药 | the pharmacy downstairs；a 24-hour pharmacy；get medicine at the pharmacy | Is there a pharmacy near here? | 这附近有药店吗？ | 美国人也常说 drugstore（卖药也卖日用品的连锁店）；医院、诊所里的「取药处」也叫 pharmacy。ph 读 `/f/`。
+@v: pills | pill | n. | pɪlz | 药片；药丸 | 说每次吃几片 | take a pill；two pills；sleeping pills | Take one pill before bed. | 睡前吃一片。 | 「一片药」说 a pill 或 a tablet，不说 ✗ a piece of medicine；胶囊叫 capsule。「每次两片」说 two pills each time，不说 ✗ two pieces。
+@v: recover | = | v. | rɪˈkʌvər | 康复；恢复 | 说病好了、多久能好 | recover from a cold；recover quickly；fully recover | It took me a week to recover from the flu. | 我得了流感，一个星期才好。 | recover 比较正式，口语更常说 get better / feel better：You'll feel better in a few days.；「从……中康复」加 from：recover **from** a cold。
+@v: sick | = | adj. | sɪk | 生病的 | 请假、说自己或别人病了 | I'm sick.；get sick；be sick of… | I got sick after the trip. | 旅行回来我就病了。 | 美式 sick 就是「生病」；英式 be sick 常指「呕吐」——跟英国同事说 I was sick yesterday，对方可能以为你吐了。sick of 是「烦透了」：I'm sick of the rain.
+@v: sick leave | = | phr. | ˈsɪk ˌliːv | 病假 | 申请病假、说公司的病假制度 | apply for sick leave；on sick leave；five days of sick leave | She's on sick leave this week. | 她这周休病假。 | leave 在这里是「假」，不可数：✗ a sick leave（说某一天用 a sick day）；中国公司请病假常要医院开的病假条（a doctor's note），美国公司请一两天病假通常不用证明。
+@v: feel better | = | phr. | ˌfiːl ˈbetər | 感觉好些；（病）好转 | 祝别人早日康复、说自己好多了 | Feel better soon!；I feel much better.；Hope you feel better! | I took a nap, and now I feel much better. | 我睡了个午觉，现在感觉好多了。 | 祝人康复说 Feel better soon! 或 Get well soon!，不说 ✗ Wish you healthy.；「好多了」说 much better，不说 ✗ very better。
+
+@diff: 「我感冒了」——I have a cold. / I caught a cold.
+@d_cn: 得了感冒（流鼻涕、打喷嚏、嗓子疼）。
+@d_en: I have a cold. / I think I caught a cold. / I'm getting a cold.
+@d_why: 中文「感冒了」的「了」表示状态变化，很多人一张嘴就是 ✗ I'm cold.——这是「我冷」！英文把感冒当成一样「东西」：现在**有**一个感冒 → **I have a cold.**（a 不能丢）；刚**染上** → **I caught a cold.**（caught 是 catch 的过去式，Day 17 学过 catch 的「听清」）；快要感冒了 → I'm getting a cold. 同样的结构：「发烧」I have a fever.，「头疼」I have a headache.，都是 have + a。中国人常说「着凉了」「淋了雨就感冒」，美国人也会随口说 I caught a cold in the rain，不过医生会告诉你：感冒是病毒引起的。
+@d_when: 跟同事、经理、医生说自己哪里不舒服。
+@d_vs: **I have a cold.** 我感冒了。（现在的状态）\n**I think I caught a cold.** 我好像感冒了。（刚染上）\n**I'm cold.** 我冷。\n**I have a fever / a headache / a sore throat.** 我发烧／头疼／嗓子疼。\n✗ I have cold.
+@d_task: 用英文告诉同事：「我感冒了，还有点头疼，不过没发烧。」 | I have a cold, and I have a little headache. But I don't have a fever.
+@diff: 「吃药」——take medicine（不说 eat medicine）
+@d_cn: 把药服下去（药片、胶囊、药水都算）。
+@d_en: Take this medicine three times a day. / I don't like to take medicine. / Did you take your pills?
+@d_why: 中文药是「吃」的，所以很多人说 ✗ eat medicine。英文服药一律用 **take**：take medicine / take a pill / take two pills；eat 只用于食物。几个中美习惯的不同也值得知道：①中国人常说「吃点消炎药」，口语里的「消炎药」往往指**抗生素**（antibiotics），美国医生不会给普通感冒开抗生素；②中国人感冒发烧爱去医院「打点滴」（get an IV），美国医生一般只说 Rest and drink plenty of fluids.（多休息，多喝水）；③「多喝热水」是中国特色，美国人生病更常喝冰水、热汤或热茶。「饭后吃」说 after meals，「空腹吃」说 on an empty stomach。
+@d_when: 医生、药剂师交代用法；家人朋友问你吃药了没有。
+@d_vs: **Take this medicine three times a day.** 这个药一天吃三次。\n**Take two pills after each meal.** 每次饭后吃两片。\n**Did you take your medicine?** 你吃药了吗？\n✗ Eat this medicine three times a day.\n✗ Did you eat medicine?
+@d_task: 用英文告诉 Emma：「医生让我一天吃两次药，饭后吃，每次一片。」 | The doctor told me to take the medicine twice a day, one pill after meals.
+@diff: 「看病」——see a doctor / go to the doctor
+@d_cn: 去找医生检查、治病。
+@d_en: I need to see a doctor. / I went to the doctor this morning. / I went to the clinic.
+@d_why: 中文「看病」是「看」+「病」，直译成 ✗ see a sickness 没人听得懂。英文的说法是「去见医生」：**see a doctor** / **go to the doctor**（口语里 the doctor 指「看医生这件事」，不一定是哪一位）。两国的流程也不一样：在中国，小病也常直接去医院，先挂号（register）再看；深圳到处都有社康中心，看感冒发烧很方便。在美国，一般先**预约**自己的家庭医生（make an appointment with my doctor），急一点去 urgent care（不用预约的急诊诊所），真正紧急才去医院的 ER（急诊室）。另外，美式说 go to **the** hospital，英式说 go to hospital。
+@d_when: 跟经理说你要去看病、跟朋友说你去过诊所。
+@d_vs: **I need to see a doctor.** 我得去看医生。\n**I went to the doctor this morning.** 我今天上午去看病了。\n**I went to the hospital.**（美式）／ I went to hospital.（英式）\n✗ I went to see my sickness.
+@d_task: 用英文跟张涛说：「我嗓子很疼，今天上午想去社区诊所看一下医生。」 | My throat really hurts. I'd like to see a doctor at the community clinic this morning.
+@diff: 「请病假」——take a sick day / call in sick
+@d_cn: 因为生病不去上班，向公司请假。
+@d_en: I need to take a sick day. / I called in sick today. / I'll apply for sick leave.
+@d_why: 中文「请假」直译成 ✗ ask for a leave 不地道（leave 在这里不可数，不加 a）。美国人生病不上班，最常说 **take a sick day**（请一天病假）或 **call in sick**（打电话、发消息说病了不来）；**sick leave** 是「病假」这种假期本身：I have five days of sick leave.；还可以说 I'm out sick today. 在中国公司请病假，一般要在人事系统里提交申请，还常要医院开的**病假条**（a doctor's note）；美国公司请一两天病假通常不用证明，连续好几天才要。消息里说清三件事：病了 → 医生怎么说 → 工作怎么安排。
+@d_when: 早上给经理发消息请病假；跟同事说某人今天病了没来。
+@d_vs: **I need to take a sick day.** 我需要请一天病假。\n**Grace called in sick today.** 吴佳今天请病假了。\n**I'll apply for sick leave in the HR app.** 我会在人事系统里申请病假。\n✗ I want to ask a sick leave.
+@d_task: 给张涛发消息：「我发烧了，今天请一天病假。紧急的邮件我会看。」 | I have a fever, so I need to take a sick day today. I'll check my email for anything urgent.
+
+@core: I think I caught a cold. | 说自己感冒了 | a cold / the flu；I think I'm getting a cold. | 正式：I seem to have caught a cold.｜随意：I've got a cold.
+@core: I have a fever and a sore throat. | 跟医生说症状 | a fever / a cough / a headache / a runny nose | 正式：I've had a fever and a sore throat since Sunday.｜随意：My throat's killing me.
+@core: How long have you had these symptoms? | 医生问症状多久了；你也可以这样问生病的朋友 | these symptoms / this cough / the fever | 正式：When did the symptoms start?｜随意：How long have you been sick?
+@core: Take this medicine three times a day. | 交代或复述用药方法 | three times a day / twice a day；after meals / before bed | 正式：Take two tablets three times a day after meals.｜随意：Two pills, three times a day.
+@core: Do I need antibiotics? | 问医生要不要吃抗生素（「消炎药」） | antibiotics / an IV（打点滴） / a blood test | 正式：Would you recommend antibiotics?｜随意：Do I need anything stronger?
+@core: I need to take a sick day. | 向经理请病假 | take a sick day / take two days off / work from home | 正式：I'm afraid I need to take a sick day today.｜随意：I'm out sick today.
+@core: Take care, and feel better soon! | 别人生病时的回复 | Feel better soon! / Get well soon! / Hope you feel better! | 正式：I hope you have a quick recovery.｜随意：Feel better!
+@core: What seems to be the problem? | 医生的开场白：哪里不舒服？ | What seems to be the problem? / What brings you in today? | 正式：What brings you in today?｜随意：What's wrong?
+
+@pw: medicine | ˈmedɪsn | 3 个音节 MED·i·cine，口语常缩成 2 个 | 重音在第一个音节；说快了像 MED-sn
+@pw: cough | kɔːf | 1 个音节 | gh 读 `/f/`；ou 读 `/ɔː/`，和 off 同韵，不读「靠」
+@pw: symptom | ˈsɪmptəm | 2 个音节 SYMP·tom | p 很轻，几乎被吞掉；第二个音节弱读成 `/təm/`
+@pw: temperature | ˈtemprətʃər | 3 个音节 TEM·pra·ture | 中间的 e 常被吞掉，读成 TEM-pruh-cher，不要读成 4 个完整的音节
+@pw: prescription | prɪˈskrɪpʃn | 3 个音节 pre·SCRIP·tion | 重音在 scrip；tion 读 `/ʃn/`
+@pw: pharmacy | ˈfɑːrməsi | 3 个音节 PHAR·ma·cy | ph 读 `/f/`；重音在前，ar 要卷舌
+@pw: antibiotics | ˌæntibaɪˈɑːtɪks | 5 个音节 an·ti·bi·OT·ics | 主重音在 ot；bi 读 `/baɪ/`；ot 后面的 t 闪音，像轻轻的 d
+@ps: I **think** I **caught**‿a **cold**. | caught a 连读，t 闪音，像 cau-da；cold 读重。
+@ps: I have‿a **fe**ver / and‿a **sore throat**. | have a 连成 `/hævə/`；and a 弱读成 `/ənə/`；sore throat 两个词都读重。
+@ps: How **long** have you **had** these **symp**toms? | have you 弱读成 `/əvjə/`，听起来像 How long-uv-ya had…；这里的 have 是助动词，弱读，后面的 had 才是实义动词，读重。
+@ps: **Take** this **med**icine / **three** times‿a **day**. | times a 连读成 `/taɪmzə/`；three 读重——用药次数是关键信息。
+@pnote: 本课的弱读和缩读：How long **have** you had… 里的 have 弱读成 `/əv/`，几乎听不到；**I've had** a cough since Sunday 的 I've 只剩 `/aɪv/`。**She's been sick** 的 She's ＝ She has，不是 She is——后面跟 been 就是 has。听到 's + been，就要反应过来是「已经……一段时间了」。
+@pnote: 体温的说法：中国说「38 度 5」，美国用华氏度：38.5°C 约等于 101.3°F，美国医生会说 You have a fever of a hundred and one. 跟美国同事说体温，最好带上单位：thirty-eight point five Celsius。书面写 38.5°C，口语读 thirty-eight point five (degrees)。
+@lfocus: have you 弱读成 /əvjə/
+@lfocus: caught a / times a 的连读
+@lfocus: 体温数字：thirty-eight point five
+@dict: S12–S14
+@dict: S20
+@res: 在 youglish.com 输入 "I have a sore throat"，选 US
+
+@mimic: 跟读【C】S11–S25：先正常语速逐句跟读，重点模仿 How long have you had… 里 have you 的弱读和 caught a 的连读；再由你演林晓，手机朗读医生和张涛的台词，完整对一遍并录音。
+@swap: I have a fever and a sore throat. | 换症状：a cough / a headache / a runny nose | I have a cough and a runny nose.
+@swap: How long have you had these symptoms? — Since Sunday. | 换症状和时间：this cough / the headache；since Friday / for three days | How long have you had this cough? — For three days.
+@swap: Take this medicine three times a day. | 换次数和时间：twice a day / once a day；after meals / before bed | Take this medicine twice a day, after meals.
+@swap: I need to take a sick day. | 换成别的请假方式：take two days off / work from home today | I need to work from home today. I have a bad cold.
+@free: 医生问 What seems to be the problem?（你从昨晚开始发烧、头疼，还咳嗽） | I have a fever and a headache. I've also had a cough since last night.
+@free: 医生开了药，你想确认怎么吃（一天几次、饭前还是饭后） | How many times a day should I take it? And should I take it before or after meals?
+@free: 早上 8 点，你给张涛发消息请病假（发烧 38 度 5，下午会看邮件） | Hi Tom, I have a fever of 38.5, so I need to take a sick day. I'll check my email this afternoon.
+@free: Emma 打了个喷嚏，说她嗓子疼。你先说一句美国人听到喷嚏常说的话，再关心她 | Bless you! Are you OK? You should drink some hot tea and get some rest.
+@output: 录 1.5 分钟「我的一次看病经历」，或写 8–10 句：什么时候开始不舒服、有哪些症状（have a cold / a fever / a sore throat）→ 去哪儿看病（see a doctor）→ 医生问了什么、怎么说 → 药怎么吃（take medicine）→ 怎么请的假、多久好的。
+@output_sample: Last month, I caught a bad cold. It started on a Sunday. I couldn't stop sneezing, and I had a runny nose. On Monday morning, I had a fever and a sore throat, so I went to the community clinic to see a doctor. A nurse took my temperature. It was 38.5. The doctor asked, "How long have you had these symptoms?" He said I didn't need antibiotics. He gave me a prescription, and I got the medicine at the pharmacy. I took it three times a day, after meals. I messaged my manager and took a sick day. Three days later, I felt much better.
+
+@check: 想说「我感冒了」，I'm cold. 对吗？应该怎么说？ | 不对，I'm cold. 是「我冷」。说 I have a cold. 或 I caught a cold.
+@check: 医生问 How long have you had these symptoms?，你从周日开始不舒服，怎么回答？如果说「三天了」呢？ | Since Sunday. ／ For three days.（since + 起点，for + 一段时间）
+@check: 「这个药一天吃三次」怎么说？为什么不用 eat？ | Take this medicine three times a day. 英文服药一律用 take，eat 只用于食物。
+@check: 感冒了，你想问医生要不要「吃消炎药」，英文怎么问？美国医生一般会怎么说？ | Do I need antibiotics? 中国口语的「消炎药」常指抗生素；美国医生一般会说感冒是病毒引起的，不用抗生素，Rest and drink plenty of fluids.
+@check: take a sick day、call in sick、sick leave 有什么区别？ | take a sick day：请一天病假；call in sick：打电话或发消息说病了不来上班；sick leave：病假这种假期本身，如 apply for sick leave。
+@next1: 不看书说出 5 个锚点句：S4、S12、S13、S20、S24
+@next1: 用 I have a… 说出 4 个症状：a cold / a fever / a headache / a sore throat
+@next7: 给经理写一条请病假的消息：病了 → 医生怎么说 → 工作怎么安排
+@next7: 说出中美看病的 3 个不同：去哪儿看、要不要抗生素和打点滴、请病假要不要证明
