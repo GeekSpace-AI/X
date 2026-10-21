@@ -1,0 +1,170 @@
+@day: 76
+@week: 3
+@title_cn: 解释规则
+@title_en: Explaining a Policy
+@topic: 向卖家解释丢件赔偿规则：什么情况可以赔、要什么证明、多久之内提交、最多赔多少；客户要求破例时礼貌而明确地说明
+@think_short: 「只要……就……」as long as｜「除非」unless（不再加 otherwise）｜「必须」be required to；「不允许」be not allowed to｜「根据规定」According to our policy, …（后面不接 says）｜「一般」Normally = 有例外
+
+@goal_scene: 客户要求全额赔偿，可规则只允许赔一部分：你要先弄清规则，再用邮件讲清楚「能不能赔、要什么材料、什么期限、最多多少」；客户要求「通融一下」时，礼貌而明确地说明不能破例，同时告诉他能拿到什么。
+@goal_expr: According to our policy, … / … are eligible for compensation. / You're required to… within… / As long as you…, we'll… / Unless…, the maximum is… / We're not allowed to… / Normally, … / In that case, I'm afraid we can't make an exception.
+@goal_vocab: 20 个重点词 + 5 个短语：赔偿与索赔、保险与申报价值、合同条款、条件与例外
+@done: 能用 According to our policy, … / be eligible for… / be required to… 写出 3–4 句清楚的规则说明
+@done: 能用 as long as / if / unless 说出条件和例外，不写 ✗ Unless…, otherwise… 或双重否定
+@done: 客户要求破例时，能用 In that case, I'm afraid we can't make an exception. 礼貌拒绝，并马上说清他能得到什么
+
+@warmup: 我们目前还不支持英国订单。 | We don't support UK orders at the moment. | D75
+@warmup: 在这之前，您可以先免费试用我们的高级版。 | In the meantime, you can try our premium plan free of charge. | D75
+@warmup: 如果有任何问题，欢迎随时联系我。 | Feel free to contact me if you have any questions. | D75
+@warmup: 这次延误，部分原因是天气不好。 | The delay was partly caused by bad weather. | D72
+@warmup: 有位客户说包裹没到，她觉得是丢了。 | A customer says the package didn't arrive. She thinks it's lost. | D28
+@warmup: Kevin 和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+
+@scene: 周二上午。得州球鞋店 Ross Kicks 的一双球鞋（240 美元）已经丢了十二天，跟踪信息一直停在达拉斯。老板 Daniel 发来一条很冲的消息：要全额赔偿，今天就要。林晓还不熟悉赔偿规则，就去找最懂规则的吴佳。规则其实很清楚：丢件可以赔；一般要至少十天没有任何更新才算丢件；三十天内提交索赔；要有货值证明；寄件时没申报货值、没买保险的，每件最多赔 100 美元——这些都写在 Daniel 签的服务协议里。问题是：Daniel 没买保险，而且他脾气很急。
+@sp: 人物关系 | 林晓 ↔ 吴佳：同事，吴佳是客服，最熟悉退款和赔偿规则；林晓 ↔ Daniel：服务方和要求很多的大客户，Daniel 说话直、脾气急
+@sp: 沟通目的 | 林晓先弄清规则；再用邮件告诉 Daniel：能赔、要什么材料、期限多久、最多多少；Daniel 要求破例时，礼貌但不含糊地说「不行」，同时让他知道马上能拿到的钱
+@sp: 已知信息 | 包裹最后一次扫描在十二天前（超过十天，已算丢件）；Daniel 没有申报货值，也没买保险；赔偿上限 100 美元写在服务协议条款里；规则对所有卖家都一样
+@sp: 表达重点 | 先表示遗憾 → According to our policy（能赔）→ You're required to…（期限）→ As long as…（材料）→ Unless…（上限）→ 下一步（我帮您提交）→ 对方要求破例：In that case, I'm afraid… + 我会尽快办
+
+@story_title: Episode 76 · Rules Are Rules
+@story_type: 消息 + 对话 + 邮件
+@s: A pair of sneakers from Ross Kicks has been missing for twelve days. | Ross Kicks 的一双球鞋已经丢了十二天了。
+@s: Daniel sends Lily a short message: | Daniel 给林晓发来一条很短的消息：
+@s: Those shoes were worth $240. I want full **compensation** today. | 那双鞋值 240 美元。我要全额赔偿，今天就要。
+@br:
+@s: Lily: Grace, can we **compensate** him for the full amount? | 林晓：吴佳，我们能全额赔给他吗？
+@s: Grace: Let's look at his **case**. Did he **declare** the **value** and buy **insurance**? | 吴佳：先看看他这单。他寄件时申报货值、买保险了吗？
+@s: Lily: No, he didn't. | 林晓：没有。
+@s: Grace: Then our **liability** is limited to a hundred dollars. That's the **maximum**. | 吴佳：那我们的赔偿责任最多就是一百美元，这是上限。
+@s: Grace: It's in the **terms** of his service **agreement**. | 吴佳：这写在他的服务协议条款里。
+@s: Lily: Does the package officially count as lost? | 林晓：这个包裹现在正式算丢件了吗？
+@s: Grace: Yes. Normally, we wait a **minimum** of ten days, and it's been twelve. | 吴佳：算。一般我们至少等十天，现在已经十二天了。
+@s: Lily: What **evidence** does he need? | 林晓：他需要提供什么证据？
+@s: Grace: An invoice for the shoes. And he has to file within thirty days. | 吴佳：那双鞋的发票。还有，他得在三十天之内提交。
+@s: Grace: **Otherwise**, we **reject** the **claim**. | 吴佳：否则这个索赔就会被驳回。
+@s: Lily: Even for a big seller like Daniel? | 林晓：像 Daniel 这样的大卖家也一样？
+@s: Grace: Yes. The rules **apply** to everyone, and we follow them **strictly**. | 吴佳：一样。这些规定对谁都适用，我们执行得很严格。
+@s: Grace: Even I'm not **allowed to** change them. | 吴佳：连我都不能改。
+@br:
+@s: Lily writes to Daniel: | 林晓给 Daniel 写邮件：
+@s: Hi Daniel, | Daniel 你好：
+@s: I'm sorry about the missing shoes. Here's what we can do. | 很抱歉那双鞋一直没送到。下面是我们能为您做的。
+@s: **According to** our policy, lost packages are **eligible** for compensation. | 根据我们的规定，丢失的包裹可以获得赔偿。
+@s: You're **required to** file a claim within thirty days. | 您需要在三十天之内提交索赔。
+@s: **As long as** you have proof of value, we'll process it. | 只要有货值证明，我们就会受理。
+@s: **Unless** the package was insured, the maximum is one hundred dollars. | 除非寄件时买了保险，否则赔偿上限是一百美元。
+@s: Just send me the invoice, and I'll help you file the claim today. | 您把发票发给我就行，我今天就帮您提交索赔。
+@s: Best, Lily | 祝好！林晓
+@br:
+@s: Daniel replies five minutes later: | 五分钟后，Daniel 回信了：
+@s: I didn't insure it. But I've worked with you for two years! | 我没买保险。可我跟你们合作两年了！
+@s: Lily replies: | 林晓回复：
+@s: Thanks for confirming, Daniel. **In that case**, I'm afraid we can't make an **exception**. | 谢谢您确认，Daniel。这样的话，恐怕我们没法破例。
+@s: But I'll get you the hundred dollars as fast as I can. | 不过那一百美元，我会尽快帮您拿到。
+
+@v: compensation | = | n. | ˌkɑːmpənˈseɪʃn | 赔偿；补偿（金） | 丢件、破损、延误之后，客户要求赔钱 | full compensation；ask for compensation；be eligible for compensation | The airline offered us compensation for the delay. | 航空公司因为延误给了我们补偿。 | 不可数，不说 ✗ a compensation / ✗ compensations；「全额赔偿」说 full compensation；「要求赔偿」说 ask for / claim compensation；重音在 SA：com-pen-SA-tion。
+@v: compensate | = | v. | ˈkɑːmpənseɪt | 赔偿；补偿（某人） | 说「赔给某人多少、赔什么」 | compensate sb for sth；compensate him in full；be compensated | We'll compensate you for the lost item. | 丢失的货品我们会赔给您。 | 结构是 compensate + 人 + for + 东西：✗ compensate the shoes to him → ✓ compensate him for the shoes；重音在第一个音节 COM-pen-sate，和名词 compensation 不一样。
+@v: case | = | n. | keɪs | （具体的）个案；某一单的情况 | 讨论某一个客户、某一单的具体情况 | in his case；a special case；look at each case | Every case is a little different. | 每个个案都有点不一样。 | 中文「他这单」「他这个情况」可以说 his case；客服系统里的「工单」也常叫 case（和 ticket 差不多）；第二册的 just in case 是「以防万一」，今天的 in that case 是「那样的话」。
+@v: declare | = | v. | dɪˈkler | 申报（货物价值、海关物品） | 寄件、报关时说明货物值多少钱 | declare the value；declare goods at customs；the declared value | You need to declare the value of the package. | 您需要申报包裹的价值。 | 「申报」不说 ✗ report the value（report 是「汇报」）；the declared value 是「申报价值」，保价、清关都看它；declare 也有「宣布」的意思，但在物流里几乎都是「申报」。
+@v: value | = | n. | ˈvæljuː | 价值；（货物的）货值 | 说货物值多少钱、索赔金额 | the value of…；proof of value；high-value items | What's the value of the package? | 这个包裹的货值是多少？ | 问「值多少钱」说 What's the value of…? 或 How much is it worth?，不说 ✗ How much value is it?；proof of value（货值证明）一般是发票或订单截图；结尾是 `/juː/`，别读成「瓦流」两个重拍。
+@v: insurance | = | n. | ɪnˈʃʊrəns | 保险；（物流里的）保价 | 寄贵重物品时买保险、出了问题理赔 | buy insurance；shipping insurance；insurance covers… | Our shipping insurance covers the full value of the item. | 我们的运输保险按货品的全部价值赔付。 | 物流里的「保价」常说 insurance；「买保险」说 buy / get insurance，不说 ✗ do insurance；不可数，✗ an insurance；动词是 insure：The package was insured.
+@v: liability | = | n. | ˌlaɪəˈbɪləti | （赔偿）责任；赔付上限 | 合同、条款里说公司最多承担多少责任 | our liability；limited liability；liability is limited to… | Our liability is limited to the value of the item. | 我们的赔偿责任以货品价值为限。 | 正式的合同用词，口语一般说 We can pay up to…；「有限责任公司」LLC 就是 limited liability company；liability 和第二册的 responsibility 都是「责任」，liability 偏法律和赔钱；5 个音节 li-a-BIL-i-ty。
+@v: maximum | = | n./adj. | ˈmæksɪməm | 上限；最多 | 说赔付上限、额度上限、人数上限 | the maximum；a maximum of…；the maximum amount | The maximum is five people per room. | 每个房间最多住五个人。 | 「最多 100 美元」说 up to $100 / a maximum of $100 / The maximum is $100.，不说 ✗ most 100 dollars；口语缩写 max：100 bucks max；重音在前 MAX-i-mum。
+@v: terms | = | n. | tɜːrmz | （合同、协议的）条款 | 签合同、查规定时说「条款里写着……」 | the terms of the agreement；terms and conditions；under the terms | Please read the terms before you sign. | 签字之前请先读一下条款。 | 指「条款」时总用复数 terms；网站上的「用户协议」叫 Terms and Conditions 或 Terms of Service；「按照条款」说 under the terms；er 卷舌 `/ɜːr/`，结尾 `/mz/`。
+@v: agreement | = | n. | əˈɡriːmənt | 协议；合同 | 和客户签的服务协议、合作协议 | a service agreement；sign an agreement；under the agreement | We signed a one-year agreement with them. | 我们和他们签了一年的协议。 | agreement 比第二册的 contract 听起来更温和，服务协议常用；还有「意见一致」的意思：We're in agreement.；重音在第二个音节 a-GREE-ment。
+@v: minimum | = | n./adj. | ˈmɪnɪməm | 最低限度；至少 | 说最少等多少天、最低订单量 | a minimum of…；the minimum order；at a minimum | There's a minimum order of fifty pieces. | 起订量是五十件。 | 中文「起订量」就是 minimum order；「至少十天」说 a minimum of ten days 或 at least ten days（D68）；反义词 maximum；重音在前 MIN-i-mum。
+@v: evidence | = | n. | ˈevɪdəns | 证据；证明材料 | 理赔、投诉时要提供的材料 | evidence of…；provide evidence；clear evidence | Do you have any evidence that the box was damaged? | 您有证据证明箱子是坏的吗？ | 不可数：✗ an evidence / ✗ evidences，要说 a piece of evidence；第一册的 proof 常指能直接证明的东西（proof of value / proof of delivery），evidence 范围更宽；重音在前 EV-i-dence。
+@v: Otherwise | otherwise | adv. | ˈʌðərwaɪz | 否则；不然 | 说规则：不做某事会有什么后果 | Otherwise, …；…, or otherwise…；otherwise we… | Please reply by Friday. Otherwise, we'll cancel the order. | 请在周五前回复，否则我们会取消订单。 | 中文「否则」常在句中，英文 otherwise 常另起一句、后加逗号；比 or 正式；写给客户语气偏硬，前面要先说清要求和原因；不和 unless 连用：✗ Unless…, otherwise…。
+@v: reject | = | v. | rɪˈdʒekt | 驳回；拒绝（申请、索赔、提议） | 理赔、申请、方案被拒 | reject a claim；reject an offer；be rejected | My visa application was rejected. | 我的签证申请被拒了。 | 正式、书面，常用被动：The claim was rejected.；当面跟客户说太硬，口语常换成 We can't accept…；作名词（次品）重音在前 RE-ject，作动词在后 re-JECT。
+@v: claim | = | n./v. | kleɪm | 索赔（申请）；声称 | 丢件、破损后正式申请赔偿 | file a claim；a claim for…；claim compensation | You can file a claim online. | 您可以在网上提交索赔。 | 「提交索赔」说 file / submit a claim，不说 ✗ make a compensation；作动词还有「声称」：He claims the box was empty.（暗示不一定是真的）；机场的「行李提取处」叫 baggage claim。
+@v: apply | = | v. | əˈplaɪ | 适用（于）；申请 | 说规则对谁有效；也说申请工作、签证 | apply to everyone；the rules apply；apply for a job | This discount applies to new customers only. | 这个折扣只适用于新客户。 | 「适用于」是 apply to…，「申请」是 apply for…——介词一换，意思就变；不说 ✗ The rule is apply to…；重音在后 ap-PLY。
+@v: strictly | = | adv. | ˈstrɪktli | 严格地 | 说规则执行得很严、没有商量 | follow the rules strictly；strictly confidential；strictly speaking | Customer data is strictly confidential. | 客户数据严格保密。 | 形容词是 strict：a strict rule / Our manager is strict.；修饰动词用 strictly：follow them strictly，不说 ✗ follow them strict；strictly speaking 是「严格来说」；ct 连在一起，c 只做口型。
+@v: allowed to | be allowed to | phr. | əˈlaʊd tə | 被允许（做某事）；可以 | 说规定允许或不允许做什么 | be allowed to…；not allowed to…；Am I allowed to…? | You're not allowed to park here. | 这里不许停车。 | 「不允许做某事」用被动 be not allowed to：✓ We're not allowed to change the rules. ✗ We don't allow to change…（allow 后要先接人：allow sb to do）；第一册学过 We don't allow that.；allowed 和 aloud（大声地）同音 `/əˈlaʊd/`。
+@v: According to | according to | phr. | əˈkɔːrdɪŋ tə | 根据；按照（规定、资料、某人的说法） | 引用政策、条款、数据来源 | according to our policy；according to the report；according to Mike | According to the forecast, it'll rain tomorrow. | 根据天气预报，明天会下雨。 | 后面只接名词，不接句子：✗ According to the policy says… → ✓ According to the policy, …；不说 ✗ according to me（说自己的看法用 In my opinion）；第二个音节重读 ac-COR-ding。
+@v: eligible | = | adj. | ˈelɪdʒəbl | 有资格的；符合条件的 | 说谁、什么情况能拿到赔偿、福利、折扣 | be eligible for…；be eligible to…；eligible orders | Full-time employees are eligible for health insurance. | 全职员工可以享受医疗保险。 | 结构：be eligible for + 名词 / be eligible to + 动词：eligible for compensation / eligible to apply；「符合条件」「有资格」都用它，不说 ✗ have the qualification to…；重音在第一个音节 EL-i-gi-ble，g 读 `/dʒ/`。
+@v: required to | be required to | phr. | rɪˈkwaɪərd tə | 被要求（必须做某事） | 正式说规定、合同要求你做的事 | be required to…；be required by law；required documents | All visitors are required to sign in at the front desk. | 所有访客都必须在前台登记。 | 比 must 客观：意思是「规定要求」，不是「我命令你」；不说 ✗ You're required file… / ✗ It requires you file…；对熟悉的客户口语可以说 You'll need to…；D62 学过 require，这里是它的被动用法。
+@v: As long as | as long as | phr. | əz ˈlɔːŋ əz | 只要…… | 说满足一个条件就可以 | as long as you…；as long as it's…；as long as possible（「尽量久」，另一个意思） | You can borrow my car as long as you bring it back by six. | 只要六点前还回来，你就可以借我的车。 | as long as 后面用一般现在时表示将来：✗ as long as you will send → ✓ as long as you send；中文「只要……就……」，英文后半句不加 then；两个 as 都弱读成 `/əz/`。
+@v: Unless | unless | conj. | ənˈles | 除非；如果不…… | 说例外：不满足这个条件，结果就是…… | unless you…；unless otherwise stated；not… unless… | We can't refund the order unless it's unopened. | 除非没拆封，否则这个订单我们不能退款。 | unless = if not，本身就带否定：✗ Unless you don't file… → ✓ Unless you file…；中文「除非……否则……」，英文不加 otherwise；重音在后 un-LESS。
+@v: In that case | in that case | phr. | ɪn ˌðæt ˈkeɪs | 那样的话；既然这样 | 根据对方刚说的情况，给出结论 | In that case, …；In that case, let's…；In that case, I'm afraid… | It's raining? In that case, let's take a taxi. | 下雨了？那我们打车吧。 | 用来接住对方刚给的新信息：「既然您没买保险，那……」；不说 ✗ In this situation, … 或 ✗ If so that…；口语也说 Then… / If that's the case, …；放句首，后加逗号。
+@v: exception | = | n. | ɪkˈsepʃn | 例外；破例 | 客户要求「通融一下」「破个例」 | make an exception；no exceptions；with the exception of… | We can't make an exception for one customer. | 我们不能为一个客户破例。 | 「破例」说 make an exception，不说 ✗ break the rule for you（听起来像「违规」）；No exceptions.（一律不例外）语气很硬，写给客户少用；重音在中间 ex-CEP-tion。
+
+@diff: 条件——as long as / if / unless
+@d_cn: 讲规则离不开条件：「只要有货值证明，我们就受理」「如果买了保险，就能全额赔」「除非买了保险，否则最多赔 100 美元」。
+@d_en: As long as you have proof of value, we'll process it. / If the package was insured, you'll get the full value. / Unless the package was insured, the maximum is one hundred dollars.
+@d_why: 三个词对应三种语气。**as long as**（只要）强调「满足这一个条件就够了」，听起来是在**给对方希望**；**if**（如果）最中性；**unless**（除非）= if not，用来说**例外**：不满足这个条件，结果就是后面那句。中国学习者最常见的两个错：① 照搬「除非……否则……」写成 ✗ Unless the package was insured, otherwise the maximum is…——英文 unless 一个词就够了，不再加 otherwise；② 再加一个 not，变成双重否定：✗ Unless you don't file within thirty days…，意思全反了。时态上，这三个词后面说将来的事用**一般现在时**：As long as you **send** the invoice, we'll process it.（✗ will send）；而 Unless the package **was** insured 用过去时，因为寄件、买保险是已经发生的事。
+@d_when: 解释退款、赔偿、退货、折扣的条件；给同事讲公司规定；谈合同条款。
+@d_vs: **As long as you have proof of value, we'll process it.** 只要有货值证明，我们就受理。（给希望）\n**If the package was insured, you'll get the full value.** 如果寄件时买了保险，就能全额赔。（中性）\n**Unless the package was insured, the maximum is $100.** 除非买了保险，否则最多赔 100 美元。（说例外）\n✗ Unless…, otherwise… / ✗ Unless you don't file…
+@d_task: 用 unless 改写：If you don't send the photos within seven days, we can't accept the claim. | Unless you send the photos within seven days, we can't accept the claim.
+@diff: 「不允许」「必须」——be not allowed to / be required to
+@d_cn: 说规定：「我们不允许……」「按规定，您必须……」。
+@d_en: We're not allowed to change the rules. / You're required to file a claim within thirty days. / You'll need to send us the invoice.
+@d_why: 中文「不允许」「必须」的主语很随意：「公司不允许」「我们不能」「您必须」。英文有两个结构问题。① allow 后面要先接人：allow **sb** to do，所以 ✗ We don't allow to change… 不对；说「我们不被允许」，用被动 **be not allowed to**：We're not allowed to change the rules.（第一册的 We don't allow that. 后面接的是「事」。）② 「必须」直接说 must，对客户听起来像命令：✗ You must file a claim within thirty days!。**be required to** 是被动，意思是「规定要求您……」，把压力从「我」转到「规定」上，客观又正式，适合写进邮件；同样的意思口语里常说 **You'll need to…**，更友好。吴佳说 Even I'm not allowed to change them.，也是在提醒林晓：这不是谁说了算，是规定。
+@d_when: 给客户解释规则、截止日期、需要的材料；给新人讲公司制度。
+@d_vs: ✓ **You're required to file a claim within thirty days.**（正式，邮件）\n✓ **You'll need to file a claim within thirty days.**（友好，口语）\n✗ You must file a claim within thirty days!（像命令）\n✓ **We're not allowed to pay more than $100.**\n✗ We don't allow to pay more than $100.
+@d_task: 给 Leo 讲两条规定：①「我们不能把客户数据存在个人手机上」②「每个工单都必须在 24 小时内回复」（用 be required to）。 | ① We're not allowed to save customer data on our personal phones. ② We're required to reply to every ticket within 24 hours.
+@diff: 「根据我们的规定」——According to our policy, …
+@d_cn: 引用公司的规定来说明「为什么是这样」——不是我个人决定的。
+@d_en: According to our policy, lost packages are eligible for compensation. / Under the terms of your agreement, our liability is limited to $100. / Our policy is that…
+@d_why: 中文「根据规定……」「按照我们的政策……」，后面常跟着「规定」「写着」，学生就写成 ✗ According to our policy says… 或 ✗ According to the rule, it says…——according to 是介词，后面**只接名词**，接完加逗号，直接说内容。另外两个坑：✗ According to me…（说自己的看法用 In my opinion / I think）；policy（第一册）是公司整体的「政策、规定」，rule 是一条条具体的「规矩」，合同里的「条款」是 terms。文化上，美国客户能接受「这是规定」，但不喜欢**只**听到「这是规定」——引用规定之后，马上说清楚**他能得到什么、接下来怎么做**：林晓写完 According to our policy, …，紧接着就讲了期限、材料、上限，最后一句是「我今天就帮您提交」。
+@d_when: 解释赔偿、退款、退货、保密、报销等规定；回复要求「通融」的客户。
+@d_vs: ✓ **According to our policy, lost packages are eligible for compensation.**\n✓ **Our policy is that we wait ten days before a package counts as lost.**\n✓ **Under the terms of your agreement, …**（更正式，引用合同）\n✗ According to our policy says, …\n✗ According to me, …
+@d_task: 告诉一位卖家：根据我们的规定，退款需要三到五个工作日。 | According to our policy, refunds take three to five business days.
+@diff: 「一般情况下」——Normally, … / In general, …
+@d_cn: 说通常的做法：「一般我们要等十天」——但偶尔也有不一样的时候。
+@d_en: Normally, we wait a minimum of ten days. / In general, claims take about a week. / We always need an invoice.
+@d_why: 中文「一般」用得很宽：可能是「通常这样，偶尔例外」，也可能其实是「一律这样」。英文要分清：**Normally, … / In general, … / Usually, …** 都暗示「**有例外**」；如果规定没有商量余地，就别用 normally，要说 **always / every claim / all sellers**。讲规则时这一点特别重要：吴佳说 Normally, we wait a minimum of ten days.（快递公司提前确认丢件时，可以不等满十天）；而三十天的期限和 100 美元的上限没有例外，所以林晓在邮件里用的是 You're required to… 和 the maximum is…，一个 normally 都没有加——客户一看到 normally，自然会问「那我能不能例外？」。另外，✗ Generally speaking, … 没错，但很重，像在做演讲；✗ In normal, … 是错的。
+@d_when: 给客户、同事介绍通常的流程和时间；说「硬性规定」时不用。
+@d_vs: **Normally, we wait a minimum of ten days.** 一般我们至少等十天。（偶尔例外）\n**In general, claims take about a week.** 总的来说，索赔大约一周处理完。\n**We always need an invoice.** 我们一律需要发票。（没有例外）\n✗ In normal, … / ✗ Normally speaking, …
+@d_task: 告诉 Priya：一般情况下包裹七天内送到，但节假日会慢一些。 | Normally, packages arrive within seven days, but it's slower during the holidays.
+
+@core: According to our policy, … | 引用公司规定，说明「这不是我个人的决定」 | lost packages are eligible for compensation / refunds take three to five days | 正式：Under the terms of your agreement, …｜随意：Our rule is…
+@core: … are eligible for … | 说什么情况能赔、能享受 | lost packages；compensation / annual plans；a discount | 正式：… qualify for…｜随意：You can get…
+@core: You're required to … within … | 说必须做的事和期限 | file a claim / send photos；thirty days / seven days | 正式：Claims must be submitted within thirty days.｜随意：You'll need to … by Friday.
+@core: As long as you …, we'll … | 说「只要……就……」，给对方希望 | have proof of value / file on time；process it / pay you within a week | 正式：Provided that you…, we will…｜随意：If you've got the invoice, we're good.
+@core: Unless …, the maximum is … | 说例外和上限 | the package was insured / the value was declared；$100 | 正式：Unless the package was insured, our liability is limited to $100.｜随意：It's a hundred dollars max, unless you insured it.
+@core: We're not allowed to … | 说「规定不允许」，不是我不愿意 | change the rules / pay more than that / share customer data | 正式：Our policy doesn't allow us to…｜随意：We can't, sorry.
+@core: Normally, … | 说通常的做法（暗示有例外） | we wait ten days / it takes a week | 正式：In general, …｜随意：Usually, …
+@core: In that case, I'm afraid we can't make an exception. | 根据对方的情况，礼貌而明确地拒绝破例 | make an exception / pay the full amount | 正式：In that case, we regret that we cannot make an exception.｜随意：Then I'm afraid not.
+
+@pw: compensation | ˌkɑːmpənˈseɪʃn | 4 个音节 com·pen·SA·tion | 主重音在 sa；com 读 `/kɑːm/`，pen 弱读成 `/pən/`
+@pw: compensate | ˈkɑːmpənseɪt | 3 个音节 COM·pen·sate | 重音在第一个音节，和 compensation 不一样
+@pw: liability | ˌlaɪəˈbɪləti | 5 个音节 li·a·BIL·i·ty | 主重音在 bil；开头 li-a 读 `/laɪə/`，别吞成一个音节
+@pw: eligible | ˈelɪdʒəbl | 4 个音节 EL·i·gi·ble | 重音在第一个音节；gi 读 `/dʒə/`；结尾 -ble 很轻
+@pw: insurance | ɪnˈʃʊrəns | 3 个音节 in·SUR·ance | sur 读 `/ʃʊr/`，像 sure；不读「因苏」
+@pw: evidence | ˈevɪdəns | 3 个音节 EV·i·dence | 重音在前；后两个音节都很轻
+@pw: exception | ɪkˈsepʃn | 3 个音节 ex·CEP·tion | ex 读 `/ɪk/`，重音在 cep；tion 读 `/ʃn/`
+@ps: Ac**cord**ing to our **pol**icy, / **lost** packages are **el**igible / for compen**sa**tion. | according to 的 to 弱读成 `/tə/`；are 弱读成 `/ər/`；lost packages 的 t 碰到 p 只做口型。
+@ps: You're re**quired** to **file** a **claim** / within **thir**ty **days**. | You're 读 `/jʊr/`，和 your 一样；required to 的 d 和 t 合成一个音；thirty 重音在前，t 闪音像轻 d。
+@ps: Un**less** the **pack**age was in**sured**, / the **max**imum is / one **hun**dred **dol**lars. | was 弱读成 `/wəz/`，很短——被动 was insured 全靠它；unless 重音在后，别听成 and less。
+@ps: In that **case**, / I'm a**fraid** we **can't** make an ex**cep**tion. | can't 读得饱满 `/kænt/` 并且重读，否定全靠重音和元音；make an 连读成 `/meɪkən/`。
+@pnote: 数字：$240 美国人说 **two hundred forty dollars**，口语里常省掉 and（英式常说 two hundred and forty）；100 说 one hundred 或 a hundred，口语多说 a hundred；Grace 说的 it's been twelve = it **has** been twelve days，has 只剩一个 /s/。twelve 和 twenty 开头一样，听到 tw- 别急着下结论，等后半个音节。
+@pnote: 被动和系表结构里的 be 都弱读：lost packages **are** eligible `/ər/`、the package **was** insured `/wəz/`、the claim **was** rejected。写 vs 说：邮件里写 You're required to… / eligible for compensation / Our liability is limited to…；同事之间口头说同一件事会简单很多：He has to file within thirty days. / We can only pay a hundred bucks.（bucks = dollars，很口语，别写进客户邮件）。
+@lfocus: 被动和系表里弱读的 are / was / been
+@lfocus: 条件词 as long as / unless / otherwise
+@lfocus: 数字：$240、a hundred、twelve days、thirty days
+@dict: S7–S10
+@dict: S20–S23
+@res: 在 youglish.com 输入 "make an exception"，选 US，听听美国人说它时前面常跟什么（can't / won't / I'll）。
+
+@mimic: 跟读【C】S4–S16 和 S18–S25：先逐句跟读吴佳和林晓的对话，模仿吴佳讲规则时平稳、肯定的语气（The rules apply to everyone.）；再把林晓的邮件当成一段电话里的说明，正常语速连读，注意 are / was 的弱读和 unless 的重音，录音。最后合上书，只看 Daniel 的两条消息，口头回复他。
+@swap: According to our policy, lost packages are eligible for compensation. | 换：damaged packages / late deliveries；a refund / a partial credit | According to our policy, damaged packages are eligible for a refund.
+@swap: You're required to file a claim within thirty days. | 换：send photos / provide an invoice；seven days / two weeks | You're required to send photos within seven days.
+@swap: As long as you have proof of value, we'll process it. | 换条件和结果：send the invoice / file on time；pay you within a week | As long as you file on time, we'll pay you within a week.
+@swap: Unless the package was insured, the maximum is one hundred dollars. | 换条件和上限：the seller declared the value / the item was in its original box；fifty dollars | Unless the seller declared the value, the maximum is fifty dollars.
+@free: Sarah 问：包裹送到时箱子破了，能赔吗？（能，只要七天内发来照片） | Yes, damaged packages are eligible for compensation. As long as you send us photos within seven days, we'll process the claim.
+@free: 一位卖家在 45 天后才来申请丢件赔偿，你要告诉他不行。 | I'm afraid we can't accept this claim. According to our policy, you're required to file within thirty days, and this package was lost forty-five days ago.
+@free: Leo 问：能不能把卖家的订单表发到自己的私人邮箱，晚上在家看？（不允许） | No, I'm afraid not. We're not allowed to send customer data to personal email accounts. You can log in from home on your work laptop instead.
+@free: 卖家说他寄件时买了保险，问能赔多少（这样的话，可以按申报价值全额赔，把发票发过来就行）。 | In that case, you'll get the full declared value. Just send me the invoice, and I'll file the claim today.
+@output: 写一封 6–10 句的邮件「向卖家解释赔偿规则」：一位卖家的包裹送到时有两件货坏了，问能不能赔。按「表示遗憾 → According to our policy（能不能赔）→ You're required to…（期限）→ As long as…（材料）→ Unless…（上限）→ 他能拿到多少 → 下一步 → Feel free to…」来写。先说结论，再说细节。
+@output_sample: Hi Sarah,\nI'm sorry to hear that two of your lamps arrived broken. Here's how our damage claims work. According to our policy, damaged packages are eligible for compensation. You're required to file a claim within seven days of delivery, so the deadline for this order is Friday. As long as you send us photos of the box and the lamps, we'll process it in three to five business days. You'll also need the invoice as proof of value. Unless the package was insured, the maximum is one hundred dollars per package. Your lamps cost forty dollars each, so you'll get the full eighty dollars. Feel free to call me if you have any questions.\nBest regards,\nLily
+
+@check: 听力：Daniel 的鞋丢了多久？他要求什么？ | 十二天。他要全额赔偿（240 美元），而且今天就要。
+@check: 听力：按规定 Daniel 最多能拿到多少钱？为什么拿不到全额？ | 一百美元。因为他寄件时没有申报货值，也没有买保险；服务协议的条款里写着，这种情况赔偿上限是一百美元。
+@check: 改错：According to our policy says, you must file a claim in thirty days. | According to 后面只接名词，不接 says；must 对客户太像命令；in thirty days 是「三十天以后」，「三十天之内」要用 within。改成：According to our policy, you're required to file a claim within thirty days.
+@check: 换个场景：Leo 问加班打车能不能报销（只要晚上十点以后下班、留好收据就可以）。用 as long as 回答两句。 | Yes, you can, as long as you leave after 10 p.m. You're required to keep the receipt, though.
+@check: Unless you don't send the invoice, we can't process the claim. 有什么问题？怎么改？ | unless 本身就是 if not，再加 don't 成了双重否定，意思反了。改成：Unless you send the invoice, we can't process the claim. 或 If you don't send the invoice, we can't process the claim.
+@check: 吴佳说 Normally, we wait a minimum of ten days.，可林晓在邮件里讲三十天期限和一百美元上限时没有用 normally。为什么？ | normally 暗示「有例外」；三十天期限和一百美元上限没有例外，所以用 You're required to… / the maximum is…，免得 Daniel 以为还能商量。
+
+@next1: 不看书说出 5 个锚点句：S20、S21、S22、S23、S29
+@next1: 用 as long as / unless 各说一条你们公司（或学校）的规定
+@next7: 规则说明四件套：According to our policy, … / You're required to… / As long as… / Unless…, the maximum is…
+@next7: 客户要求破例时：In that case, I'm afraid we can't make an exception. + 马上说他能得到什么

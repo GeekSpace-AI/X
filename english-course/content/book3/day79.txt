@@ -1,0 +1,166 @@
+@day: 79
+@week: 3
+@title_cn: 电话里的愤怒客户
+@title_en: An Angry Customer on the Phone
+@topic: 接投诉电话：先听、接住情绪、复述问题、承诺下一步并给出时间；事后给经理发一条简短的汇报
+@think_short: 「您先别激动」✗ Calm down! → I hear you.｜「我理解得对吗」So, if I understand correctly, …｜「我尽快回您」→ I'll call you back by three o'clock.｜「这不是我的错」→ 不说出口，只说能做什么
+
+@goal_scene: 一位老客户在电话里大发脾气：先听完、不打断，用一句话接住他的情绪，把问题准确复述一遍，承认问题、承诺今天解决，给出回电的具体时间（还要想到时差），最后让他平静下来；挂电话后给经理发一条「先说结论」的消息。
+@goal_expr: I hear you, Daniel. / So, if I understand correctly, your shipment hasn't left the warehouse. / That's not acceptable, and I'll make sure it's fixed today. / I can ask my manager to join. But I can fix this faster. / Leave it with me. / I'll call you back by three o'clock.
+@goal_vocab: 20 个重点词 + 5 个短语：情绪与冲突、投诉与信誉、专业的态度
+@done: 对方发火时，不说 Calm down!，能用 I hear you. / I'd be upset, too. 先接住情绪，再用 So, if I understand correctly, … 把问题复述准确
+@done: 能用 That's not acceptable, and I'll make sure… / Leave it with me. 接下问题，并用 I'll call you back by + 时间 给出具体的下一步（跨时区时说清是谁的时间）
+@done: 能在不推卸责任的前提下处理「要找主管」和「其实是对方的错」两种情况，事后写一条 4–5 句的汇报消息
+
+@warmup: 恐怕我们没办法在下周之前做出一个定制功能。 | I'm afraid we can't build a custom feature by next week. | D78
+@warmup: 我们能做的是提供一个变通的办法。 | What we can do is offer a workaround. | D78
+@warmup: 我会把您的建议转给我们的产品团队。 | I'll share your suggestion with our product team. | D78
+@warmup: 根据我们的规定，丢失的包裹可以申请赔偿。 | According to our policy, lost packages are eligible for compensation. | D76
+@warmup: 我已经给她发消息了。 | I've already sent her a message. | D33
+@warmup: 有位客户说包裹没到，她觉得是丢了。 | A customer says the package didn't arrive. She thinks it's lost. | D28
+
+@scene: 下午一点，林晓刚吃完午饭回到工位，电话就响了。打来的是得州球鞋店 Ross Kicks 的老板 Daniel——得州那边已经是深夜。他有 200 个订单在合作仓库里放了整整四天，物流信息一直不动，客户在网上抱怨、给差评，可没有任何人通知过他。Daniel 本来就脾气急，前两天还刚被林晓婉拒了定制功能（Day 78），这一次一开口就是吼。林晓要做的不是辩解，而是：先听、接住情绪、复述问题、承诺下一步并给出具体时间，让他平静下来；挂了电话，再给张涛发一条消息说明情况。
+@sp: 人物关系 | 林晓 ↔ Daniel：客户经理和一位要求多、脾气急的老客户，Daniel 正在气头上；林晓 → 张涛：员工给经理发工作消息，要简短、先说结论
+@sp: 沟通目的 | 让 Daniel 觉得自己被听见、被重视；把问题说准；承诺今天解决并给出回电时间；事后让经理知情
+@sp: 已知信息 | Daniel 只知道货没动、客户在投诉，不知道原因；林晓挂了电话查系统才发现：有 40 张面单缺申报价值，数据来自 Daniel 自己上传的文件，可仓库扣下货以后没有通知任何人
+@sp: 表达重点 | 先听、不打断 → I hear you. → So, if I understand correctly, … → That's not acceptable, and I'll make sure… → 对方要找主管：I can ask… But I can fix this faster. → Leave it with me. → I'll call you back by three o'clock.（再照顾时差）→ 给张涛的消息：结论 → 原因 → 正在做什么 → 时间
+
+@story_title: Episode 79 · Leave It with Me
+@story_type: 电话对话 + 工作消息
+@s: At one p.m., Lily's phone rings. It's late at night in Texas. | 下午一点，林晓的电话响了。得州那边已经是深夜。
+@s: It's Daniel Ross, and he's **shouting**. | 是 Daniel Ross，他在电话那头大喊大叫。
+@br:
+@s: Daniel: Two hundred orders have been stuck in your warehouse for four days! | Daniel：两百个订单在你们仓库里卡了四天了！
+@s: Daniel: My customers are **complaining** online. I've had thirty **complaints** today! | Daniel：我的客户都在网上抱怨，光今天我就收到三十条投诉！
+@s: Lily **listens**. She doesn't interrupt. | 林晓认真听着，没有打断他。
+@s: Lily: I hear you, Daniel. | 林晓：我明白，Daniel。
+@s: Lily: So, if I understand correctly, your shipment hasn't left the warehouse. | 林晓：也就是说，如果我没理解错，您这批货到现在还没出仓库。
+@s: Daniel: Exactly! I've been a **loyal** customer for two years. Am I being **unreasonable**? | Daniel：没错！我当了你们两年的老客户。我的要求过分吗？
+@s: Daniel: This is hurting my **reputation**. Maybe I need a **lawyer**! | Daniel：这在毁我的信誉。也许我该找律师了！
+@br:
+@s: Lily keeps her **voice** low and slow. | 林晓压低声音，放慢语速。
+@s: Lily: Not at all. Thirty complaints in one day? I'd be upset, too. | 林晓：一点也不过分。一天三十条投诉？换我也会生气。
+@s: Lily: That's not acceptable, and **I'll make sure** it's fixed today. | 林晓：这确实不应该发生，我保证今天就解决。
+@s: Daniel: Today? Put your **supervisor** on the phone! | Daniel：今天？让你们主管来接电话！
+@s: Lily: I can ask my manager to join. But I can fix this faster. | 林晓：我可以请我的经理加进来，不过我自己处理会更快。
+@s: Lily: **Leave it with me**. I'll call you back by three o'clock. | 林晓：交给我吧。我三点之前给您回电话。
+@s: Lily: That's the middle of the night for you. Is a call OK, or should I text? | 林晓：那时候您那边是半夜。打电话可以吗？还是我发短信？
+@s: Daniel: Call me. A real time. OK, I **respect** that. | Daniel：打电话。给了个确切的时间，好，这我服气。
+@s: Daniel: And sorry I **yelled**. I was **rude**. Thanks for not telling me to **calm down**. | Daniel：还有，抱歉刚才冲你吼，我太冲了。谢谢你没叫我「冷静点」。
+@br:
+@s: After he **hangs up**, Lily checks the system and messages Tom: | 他挂了电话，林晓查了一下系统，给张涛发了条消息：
+@s: Daniel Ross's 200 orders have been on hold at the warehouse for four days. | Daniel Ross 的 200 个订单在仓库被扣了四天。
+@s: Forty labels are missing the declared value, and nobody told him. | 有四十张面单缺申报价值，可是没有人通知他。
+@s: The data came from his file, but it doesn't **matter** whose fault it is. | 数据是从他上传的文件里来的，不过现在追究是谁的错没有意义。
+@s: I'm fixing the labels with the warehouse now, and I'll call him by 3 p.m. | 我正在和仓库一起改面单，下午三点前给他回电话。
+@s: He **threatened** to call a lawyer, but his requests are **reasonable**. | 他说要找律师，不过他的要求是合理的。
+@br:
+@s: Tom replies: "Great **empathy**, and very **professional**." | 张涛回复：「同理心做得很好，也非常专业。」
+@s: "Keep that **attitude**. And remember, it's not **personal**." | 「保持这个态度。还有，记住，他不是冲着你来的。」
+
+@v: shouting | shout | v. | ˈʃaʊtɪŋ | 大声喊叫；（生气地）吼 | 描述对方情绪失控、说话很大声 | shout at sb；start shouting；shout for help | Please don't shout. I can hear you. | 请别喊，我听得见。 | shout at sb 是「冲某人吼」（带怒气），shout to sb 只是「大声对某人喊」（比如隔着马路）；说对方 is shouting 只用来描述，当面别说 ✗ Don't shout at me!，会让冲突升级。
+@v: complaining | complain | v. | kəmˈpleɪnɪŋ | 抱怨；投诉 | 说客户、用户对服务不满 | complain about sth；complain to sb；customers are complaining | Several sellers complained about the slow updates. | 好几个卖家投诉物流更新太慢。 | 「抱怨某事」用 complain about，不说 ✗ complain the delay；「向某人投诉」用 complain to：complain to the manager。complain 是动词，名词是 complaint（不是 ✗ a complain）。
+@v: complaints | complaint | n. | kəmˈpleɪnts | 投诉；抱怨 | 客服、售后统计和处理投诉 | get a complaint；handle complaints；file a complaint | We received five complaints about the same package. | 同一个包裹我们收到了五次投诉。 | 可数名词，可以说 thirty complaints；「投诉」不说 ✗ a complain（那是动词）；「处理投诉」说 handle a complaint，不说 ✗ solve a complaint——要 solve 的是背后的 problem。
+@v: listens | listen | v. | ˈlɪsnz | 认真听；倾听 | 描述有意识地听别人说话 | listen to sb；listen carefully；Just listen. | Listen to the customer first, then explain. | 先听客户说完，再解释。 | 听某人说话要加 to：listen **to** me，不说 ✗ listen me；hear 是「听到」（结果），listen 是「去听」（动作）。t 不发音：`/ˈlɪsn/`，不读「力森特」。
+@v: loyal | = | adj. | ˈlɔɪəl | 忠实的；长期支持的 | 说老客户、老员工 | a loyal customer；stay loyal to…；loyal fans | We give loyal customers a discount every year. | 我们每年都给老客户打折。 | 「老客户」不说 ✗ old customer（old 可能被理解成「年纪大的」），说 a loyal customer 或 a long-time customer；loyal to sb：She's loyal to her team.
+@v: unreasonable | = | adj. | ʌnˈriːznəbl | 不讲理的；（要求）过分的 | 说对方或自己的要求过不过分 | an unreasonable request；Am I being unreasonable?；It's not unreasonable to… | It's not unreasonable to expect an update every day. | 希望每天收到一次更新，这个要求不算过分。 | 说人「不讲理」时，别当面说 ✗ You are unreasonable.（等于指责对方），对方问 Am I being unreasonable? 时可以回答 Not at all. 或 I understand why you're upset.
+@v: reputation | = | n. | ˌrepjuˈteɪʃn | 名声；信誉；口碑 | 谈品牌、店铺、个人的口碑 | a good reputation；hurt sb's reputation；build a reputation | One bad review can hurt a small store's reputation. | 一条差评就能伤到一家小店的口碑。 | 「信誉」「口碑」都可以说 reputation；「伤害信誉」用 hurt / damage one's reputation，不说 ✗ break my reputation；4 个音节，重音在 ta：re-pu-TA-tion。
+@v: lawyer | = | n. | ˈlɔɪər | 律师 | 对方扬言要「走法律程序」时 | call a lawyer；talk to my lawyer；a lawyer's letter | If this happens again, I'm calling my lawyer. | 这事要是再发生，我就找律师了。 | 美国客户在气头上说 I'm calling my lawyer! 很常见，多半是在表达愤怒；不要慌，也不要在电话里讨论法律问题，按公司规定把这件事报告给经理。lawyer 读 `/ˈlɔɪər/`，不读 ✗ 「老爷」。
+@v: voice | = | n. | vɔɪs | （说话的）声音；嗓音 | 描述说话的音量、语气 | keep your voice calm；lower your voice；in a calm voice | She answered in a calm voice. | 她用平静的声音回答。 | 人说话的声音用 voice，其他声音用 sound（Day 25 的 noise 是噪音）；「小点声」说 Lower your voice. 或 Keep your voice down.，不说 ✗ Make your voice small.
+@v: supervisor | = | n. | ˈsuːpərvaɪzər | 主管；上级 | 客户要求「找你们领导」时 | talk to a supervisor；my supervisor；ask for a supervisor | Can I speak to your supervisor, please? | 我能跟你们主管谈谈吗？ | 美国客户说 Let me talk to your supervisor! 时，不要说 ✗ My manager can't help you.，可以说 I can ask my manager to join. But I can fix this faster.；supervisor 指直接管你的上级，manager 更常用于职位名称。
+@v: respect | = | v. | rɪˈspekt | 尊重；认可（对方的做法） | 表示欣赏、认可对方的态度或做法 | I respect that.；respect sb's time；respect your decision | You told me the truth, and I respect that. | 你跟我说了实话，这一点我很认可。 | I respect that. 在口语里常用来表示「这一点我服 / 我认可」，并不一定是「尊敬」；「尊敬长辈」也用 respect，后面直接跟人：respect your parents，不说 ✗ respect to your parents。
+@v: yelled | yell | v. | jeld | 吼；大喊 | 描述生气时大声说话；道歉时说「刚才冲你吼了」 | yell at sb；Sorry I yelled.；stop yelling | I'm sorry I yelled at you this morning. | 对不起，我今天早上冲你吼了。 | yell 和 shout 意思接近，yell 更口语，常带怒气或惊慌；「冲某人吼」用 yell at sb；y 读 `/j/`，别和 jail 的 /dʒ/ 混。
+@v: rude | = | adj. | ruːd | 粗鲁的；没礼貌的 | 评价说话、行为不礼貌 | That was rude.；a rude customer；be rude to sb | It's rude to check your phone during a meeting. | 开会时看手机很没礼貌。 | 对客户别说 ✗ You are rude.；道歉时自己用：I was rude. Sorry.；「对某人无礼」用 be rude to sb，不说 ✗ rude with sb。
+@v: calm down | = | phr. | ˌkɑːm ˈdaʊn | 冷静下来；平静下来 | 描述情绪变化；提醒自己冷静 | calm down；help sb calm down；It took him a while to calm down. | It took him ten minutes to calm down. | 他花了十分钟才平静下来。 | 用来描述没问题（He finally calmed down.），可是对正在生气的人说 ✗ Calm down! 是命令句，在美国常被听成「你反应过度了」，只会更糟；先说 I hear you.。calm 的 l 不发音：`/kɑːm/`。
+@v: hangs up | hang up | phr. | ˌhæŋz ˈʌp | 挂断电话 | 打电话、描述通话结束 | hang up the phone；hang up on sb；Don't hang up. | Please don't hang up. I'm checking now. | 请别挂，我正在查。 | hang up on sb 是「挂某人电话」（不礼貌，带情绪）：He hung up on me!；过去式是 hung up；「挂断」不说 ✗ close the phone。
+@v: matter | = | v. | ˈmætər | 要紧；有关系 | 说某件事重要不重要 | It doesn't matter.；What matters is…；It really matters. | It doesn't matter who made the mistake. Let's fix it. | 谁犯的错不重要，我们先把它解决。 | 作动词时主语是事情：It doesn't matter.（没关系 / 不要紧），不说 ✗ I don't matter it.；What matters now is… 是「现在要紧的是……」。tt 是闪音，听起来像 `/ˈmædər/`。
+@v: threatened | threaten | v. | ˈθretnd | 威胁；扬言要…… | 转述对方的狠话，如「说要找律师」「说要换供应商」 | threaten to do sth；threaten sb；threaten to leave | The seller threatened to cancel his contract. | 那个卖家扬言要取消合同。 | 后面接 to + 动词原形：threatened to call a lawyer，不说 ✗ threatened calling；th 是咬舌的 `/θ/`，ea 读 `/e/`，-en 很轻。
+@v: reasonable | = | adj. | ˈriːznəbl | 合理的；讲道理的 | 评价要求、价格、时间是否合理 | a reasonable request；a reasonable price；That sounds reasonable. | Three days for a refund is reasonable. | 三天退款是合理的。 | 「合理」说 reasonable，不说 ✗ rational（rational 是「理性的」）；评价价格时 reasonable 比 cheap 好听（Day 45 的 affordable 也是）。
+@v: empathy | = | n. | ˈempəθi | 同理心；感同身受 | 评价客服、经理、同事对别人的理解 | show empathy；real empathy；empathy for sb | Good customer service starts with empathy. | 好的客户服务从同理心开始。 | empathy 是站在对方角度体会他的感受；sympathy 偏「同情、可怜」：I'm sorry for your loss.；说「有同理心」用 show empathy，不说 ✗ have empathy heart。
+@v: professional | = | adj. | prəˈfeʃənl | 专业的；有职业素养的 | 评价工作态度、处理方式 | very professional；a professional email；stay professional | Even when he was angry, she stayed professional. | 就算他发火，她也一直很专业。 | professional 不只是「技术上专业」，更常指「态度得体、有分寸」：stay professional 是「保持职业素养」；名词 a professional 是「专业人士」。
+@v: attitude | = | n. | ˈætɪtuːd | 态度 | 评价一个人做事、待人的态度 | a positive attitude；keep that attitude；an attitude problem | Your attitude on the phone makes a big difference. | 你在电话里的态度很关键。 | 中文「态度好」英文常说 a great attitude / a positive attitude；小心 He has an attitude. 在口语里是「他态度很差、很冲」。美式读 `/ˈætɪtuːd/`，第二个 t 是闪音。
+@v: personal | = | adj. | ˈpɜːrsənl | 针对个人的；个人的 | 安慰同事：对方不是冲着你来的 | It's not personal.；take it personally；personal information | Don't worry. It's not personal. | 别担心，他不是针对你。 | 「别往心里去」说 Don't take it personally. 或 It's not personal.；personal（个人的）和 personnel（人事部门 `/ˌpɜːrsəˈnel/`）拼写、重音都不同；重音在第一个音节：PER-so-nal。
+@v: I hear you | = | phr. | aɪ ˈhɪr ju | 我明白你的意思；我理解你的感受 | 对方生气、抱怨时先接住情绪 | I hear you.；I hear you, but…；I hear what you're saying. | I hear you. Waiting four days is really frustrating. | 我明白。等了四天确实让人很恼火。 | I hear you 表示「你的感受我收到了」，不等于「你说得都对」，所以责任还没查清时也能用；不要说 ✗ I heard you.（过去式像在说「我听见了，别重复了」，很不耐烦）。
+@v: I'll make sure | = | phr. | aɪl ˌmeɪk ˈʃʊr | 我保证（会做到）；我会确保…… | 向客户承诺一件具体的事 | I'll make sure it's fixed；I'll make sure someone calls you；I'll make sure of it | I'll make sure the refund is sent today. | 我保证退款今天发出。 | 第一册 Day 24 学过 make sure（确认、确保）；I'll make sure 是「我来负责做到」，后面接完整的句子，常用被动：I'll make sure it's fixed today.；不要随口说 ✗ I promise 100%，承诺要具体、做得到。
+@v: Leave it with me | leave it with me | phr. | ˌliːv ɪt ˈwɪð mi | 交给我吧；这事我来办 | 接下对方的问题，让对方放心 | Leave it with me.；Leave it with me, and I'll…；Just leave it with me. | Leave it with me. I'll check with the warehouse and call you back. | 交给我吧，我去问仓库，再给您回电话。 | 说完一定要跟一个具体的下一步（I'll call you back by…），否则听起来像在敷衍；中文「包在我身上」比较夸张，工作里用 Leave it with me. 或 I'm on it. 就够了。
+
+@diff: 「您先别激动」——不说 Calm down!，说 I hear you.
+@d_cn: 对方在电话里发火，想让他先平静下来；中文客服常说「您先别激动」「您冷静一下」。
+@d_en: I hear you, Daniel. / I understand. / I'd be upset, too.
+@d_why: 中文「您先别激动」是客气的安抚，可直译成 **Calm down!** 在美国往往火上浇油：它是命令句，潜台词是「你反应过度了」，像大人在管小孩——Daniel 最后还特意谢谢林晓 for not telling me to calm down。英文的思路是**先承认对方的情绪是正常的**：**I hear you.**（你的感受我收到了），**I understand.**，或者 **I'd be upset, too.**（换我也会生气）。I hear you 只表示「我理解你的感受」，**不等于**「你说得都对」，所以责任还没查清时也能放心用。再加一个细节：把对方的话说具体（Thirty complaints in one day?），比任何安抚的词都管用，因为它证明你真的听进去了。语气上要放慢、放低，名字放在句尾：I hear you, Daniel.
+@d_when: 客户、同事、家人情绪激动的时候；电话里看不到表情，更要先说这一句，再谈问题。
+@d_vs: ✓ **I hear you, Daniel.** 我明白，Daniel。\n✓ **Thirty complaints in one day? I'd be upset, too.** 一天三十条投诉？换我也会生气。\n✓ **He finally calmed down.** 他终于平静下来了。（描述可以用 calm down）\n✗ Calm down! ✗ Don't be angry. ✗ Please control your emotions.
+@d_task: 卖家在电话里吼：My tracking page has been broken all day!（先接住他的情绪，再说一句具体的话，不说 calm down） | I hear you. A whole day without tracking? I'd be upset, too.
+@diff: 「我理解得对吗？」——So, if I understand correctly, …
+@d_cn: 对方说了一大堆，你想用一句话把问题复述一遍，确认自己没听错。
+@d_en: So, if I understand correctly, your shipment hasn't left the warehouse. / So what you're saying is… / Just to confirm, …
+@d_why: 中文客服习惯说「好的好的，我马上帮您查」，直接跳到处理。英文电话里，**复述**本身就是态度：对方一听你把问题说准了，就知道你真的在听，火气先降一半。句型是 **So, if I understand correctly, + 陈述句**，后半句用陈述语序，不用疑问语序（✗ …, has your shipment left the warehouse?）。复述时说**对方关心的事实**，不说内部术语：your shipment hasn't left the warehouse，而不是 the batch is in exception status。hasn't left 是现在完成时——「到现在还没出仓」，这一点正是 Daniel 最生气的地方。它和 Day 66 的 Just to confirm / So what you're saying is… 是一家人，只是在对方发火时，if I understand correctly 更谦和：错了是「我理解错了」，不是「你没说清楚」。
+@d_when: 投诉电话、对方说得又快又急、会上听完一长段话的时候。
+@d_vs: ✓ **So, if I understand correctly, your shipment hasn't left the warehouse.** 如果我没理解错，您的货还没出仓。\n✓ **So, if I understand correctly, you were charged twice.** 如果我没理解错，您被扣了两次钱。\n✗ So, if I understand correctly, has your shipment left the warehouse?\n✗ Your meaning is the shipment didn't leave?
+@d_task: Sarah 在电话里说了很久，大意是：她上周就付了钱，可账户里的高级功能还用不了。用一句话复述。 | So, if I understand correctly, you paid last week, but the premium features still aren't working on your account.
+@diff: 「我尽快回复您」——给出时间：I'll call you back by three o'clock.
+@d_cn: 答应对方「有消息马上告诉您」「我尽快给您回电话」。
+@d_en: I'll call you back by three o'clock. / You'll hear from me by noon, your time. / I'll email you an update by 6 p.m., Shenzhen time.
+@d_why: 中文的「尽快」「马上」「第一时间通知您」听起来很积极，可对一个已经等了四天的客户来说，**没有时间的承诺等于没有承诺**——他不知道要等多久，只会更焦虑。英文工作沟通里，下一步要说清**谁、做什么、什么时候**：I'll call you back by three o'clock. 这里的 **by** 是「最晚在……之前」，until 是「一直到……」，不能混：✗ I'll call you back until three. 和美国客户打交道还要想到**时差**：深圳下午三点是美国的深夜，所以林晓马上补了一句 That's the middle of the night for you，再问对方要电话还是短信。时间有歧义时，补上 Shenzhen time / your time（Day 87 会细讲）。给出的时间宁可保守一点：提前打过去是加分，晚了就前功尽弃——林晓给张涛的消息里也写了同一个时间（by 3 p.m.），说到就要做到。
+@d_when: 处理投诉、答应同事查数据、答应经理交东西的时候，都给一个具体的时间点。
+@d_vs: ✓ **I'll call you back by three o'clock.** 我三点之前给您回电话。\n✓ **You'll hear from me by noon, your time.** 您那边中午之前会收到我的消息。\n✗ I'll call you back as soon as possible.（没有时间，对方没法安心）\n✗ I'll call you back until three.（until = 一直到）
+@d_task: 客户问 When will I know?，你要查仓库记录，答应他：深圳时间明天上午十点之前发邮件告诉他。 | I'll email you by 10 a.m. tomorrow, Shenzhen time.
+@diff: 「这不是我的错」——不说出口，只说能做什么
+@d_cn: 问题有一部分出在对方（比如资料填错了），或者出在别的部门、仓库，很想先解释一句「这不是我们的错」。
+@d_en: That's not acceptable, and I'll make sure it's fixed today. / I can ask my manager to join. But I can fix this faster. / What I can do right now is…
+@d_why: 中文里先把责任说清楚很常见：「这是仓库那边的问题」「是您的资料没填对」。在美国客户的电话里，这句话一出口，对方听到的是「你在推卸责任」，后面说什么都听不进去了。林晓查到那 40 张面单的数据来自 Daniel 自己的文件，可电话里她一个字都没提，只说**能做什么、什么时候做完**；原因留到事后，平静地写进给张涛的消息：it doesn't matter whose fault it is. 对方要求 Put your supervisor on the phone! 时也一样，不说 ✗ My manager can't help you.，而是先给选项，再说明自己处理更快：I can ask my manager to join. But I can fix this faster. 等问题解决、对方冷静下来，再用建议的口气提一句下次怎么避免（Next time, could you check the declared value before you upload the file?），这时候他才听得进去。
+@d_when: 处理投诉、事故、延误时；尤其是责任还没查清，或者一部分在对方的时候。
+@d_vs: ✓ **That's not acceptable, and I'll make sure it's fixed today.** 这确实不应该，我保证今天解决。\n✓ **What I can do right now is fix the labels with the warehouse.** 我现在能做的是和仓库一起把面单改好。\n✓ **I can ask my manager to join. But I can fix this faster.** 我可以请经理加进来，不过我处理更快。\n✗ It's not my fault. ✗ That's the warehouse's problem. ✗ You gave us the wrong file.
+@d_task: 卖家投诉一个包裹地址错了，其实是他自己填错的。你不追究，只说现在能做什么（联系快递改地址，今天六点前告诉他结果）。 | What I can do right now is contact the carrier and update the address. I'll let you know by six o'clock today.
+
+@core: I hear you, + 名字. | 对方发火时，先接住情绪 | I hear you / I understand / I'd be upset, too | 正式：I understand how frustrating this must be.｜随意：I hear you. That's a lot.
+@core: So, if I understand correctly, + 陈述句 | 复述问题，确认没听错 | your shipment hasn't left the warehouse / the tracking hasn't updated / you were charged twice | 正式：Just to make sure I have this right, …｜随意：So basically, …
+@core: That's not acceptable, and I'll make sure + 句子 | 承认问题严重，并承诺结果 | it's fixed today / someone calls you back / it doesn't happen again | 正式：You're right, this shouldn't have happened. I'll make sure it's resolved today.｜随意：That's not OK. I'll get it fixed today.
+@core: Leave it with me. | 接下问题，让对方放心 | Leave it with me. / I'll take care of it. / I'm on it. | 正式：I'll take care of this personally.｜随意：I'm on it.
+@core: I'll call you back by + 时间. | 给出下一步和最晚时间 | call you back / email you / text you；three o'clock / noon / 10 a.m. your time | 正式：You'll hear from me by 3 p.m., Shenzhen time.｜随意：I'll call you by three.
+@core: I can ask my manager to join. But I can fix this faster. | 对方要找主管时，给选项、留住问题 | my manager / my supervisor；fix this / sort this out | 正式：I'm happy to involve my manager, but I can resolve this more quickly myself.｜随意：Sure, but I can sort this out faster.
+@core: What I can do right now is + 动词原形 | 不说「不是我的错」，只说能做什么 | fix the labels / contact the carrier / send you an update | 正式：Here's what I can do for you right now.｜随意：Here's what I'll do.
+@core: It's not personal. | 安慰被骂的同事 | It's not personal. / Don't take it personally. | 正式：He was frustrated with the situation, not with you.｜随意：Don't take it personally.
+
+@pw: reputation | ˌrepjuˈteɪʃn | 4 个音节 re·pu·TA·tion | 主重音在 ta，读 `/teɪ/`；pu 读 `/pju/`，别丢掉 /j/ 读成「瑞破」
+@pw: supervisor | ˈsuːpərvaɪzər | 4 个音节 SU·per·vi·sor | 重音在第一个音节；vi 读 `/vaɪ/`，s 读 `/z/`，结尾卷舌
+@pw: unreasonable | ʌnˈriːznəbl | 5 个音节 un·REA·son·a·ble | 重音在 rea，`/iː/` 拉长；son 只剩一个 `/zn/`，整个词的后半段很轻
+@pw: empathy | ˈempəθi | 3 个音节 EM·pa·thy | 重音在前；th 是咬舌的 `/θ/`，不读 /s/
+@pw: professional | prəˈfeʃənl | 4 个音节 pro·FES·sion·al | 重音在 fes；pro 弱读成 `/prə/`；ssion 读 `/ʃən/`
+@pw: attitude | ˈætɪtuːd | 3 个音节 AT·ti·tude | 重音在第一个音节，`/æ/` 嘴张大；中间的 t 是闪音，像轻轻的 d：AD-i-tood
+@pw: lawyer | ˈlɔɪər | 2 个音节 LAW·yer | 重音在前；`/ɔɪ/` 像「欧伊」滑过去，结尾卷舌 `/ər/`
+@ps: I **hear** you, / **Dan**iel. | hear 读得慢、读得低，语调平稳下降；名字前稍停一下，听起来是真诚，不是敷衍。
+@ps: So, / if‿I under**stand** cor**rect**ly, / your **ship**ment **has**n't **left** the **ware**house. | if I 连成 `/ɪfaɪ/`；hasn't 的 t 几乎不爆破；warehouse 是复合名词，重音在 ware 上。
+@ps: That's **not** ac**cept**able, / and I'll make **sure** / it's **fixed** to**day**. | not 重读，表示态度；it's fixed 里的 is 只剩一个 /s/，fixed 读 `/fɪkst/`——被动句的 be 动词几乎听不见。
+@ps: **Leave**‿it with me. / I'll call you **back** / by **three**‿o'**clock**. | leave it 连成 `/liːvɪt/`；three o'clock 连读，o' 弱读成 `/ə/`：three-uh-CLOCK。
+@pnote: 本课的数字：**thirty** 和 **thirteen** 最容易听混。THIR-ty 重音在前，美国人常把 t 读成闪音，像 thirdy；thir-TEEN 重音在后，t 清楚地爆破，een 拉长。forty / fourteen 同理。写和说也不一样：消息里写 200 orders、3 p.m.，嘴上说 two hundred orders（hundred 不加 s）、three o'clock 或 three p.m.——美国人从不说 ✗ fifteen o'clock。
+@pnote: **can / can't**：I can ask my manager… But I can fix this faster. 里的 can 不重读，弱读成 `/kən/`；否定的 can't 要重读，元音是饱满的 `/æ/`，结尾的 t 常常不爆破：I **can't** do that ≈ `/aɪ ˈkænʔ duː ðæt/`。听的时候靠元音和重音分辨，不要等那个 t。完成时和被动里的小词也会弱读：have been stuck → `/əv bɪn stʌk/`，it's fixed 里的 is 只剩 /s/。
+@lfocus: thirty / thirteen、forty / fourteen 的重音
+@lfocus: have been stuck / hasn't left / it's fixed 里的弱读
+@lfocus: can `/kən/` 和 can't `/kænt/` 的区别
+@dict: S6–S8
+@dict: S20–S24
+@res: 在 youglish.com 输入 "I hear you"，选 US，听美国人说这句话时的语气有多平、多慢。
+
+@mimic: 跟读【C】S3–S19：先正常语速逐句跟读，模仿林晓放慢、压低的语气，特别注意 I hear you 的下降语调和 thirty 的重音；再你演林晓、手机朗读 Daniel 的台词，完整对一遍并录音。最后只看 Daniel 的台词，用自己的话回应他。
+@swap: I hear you, Daniel. | 换接住情绪的说法和人名：I understand, Sarah. / I'd be upset, too. | I understand, Sarah. I'd be upset, too.
+@swap: So, if I understand correctly, your shipment hasn't left the warehouse. | 换问题：the tracking page hasn't updated / you haven't received the refund（注意 hasn't / haven't） | So, if I understand correctly, you haven't received the refund.
+@swap: I'll call you back by three o'clock. | 换动作和时间：email you / text you；noon / five o'clock / 10 a.m. your time | I'll email you by noon, your time.
+@swap: That's not acceptable, and I'll make sure it's fixed today. | 换要保证的事（用被动）：the refund is sent / the label is corrected / someone calls you back | That's not acceptable, and I'll make sure the refund is sent today.
+@free: 一位卖家打电话来吼：包裹丢了，客户要退款，你们到底管不管？（先接住情绪，再复述问题） | I hear you, and I'd be upset, too. So, if I understand correctly, the package is lost, and your customer wants a refund.
+@free: 客户在电话里喊 Let me talk to your manager!（你能更快解决，礼貌地留住问题，并给出时间） | I can ask my manager to join. But I can fix this faster. Leave it with me, and I'll call you back by four o'clock.
+@free: 挂了电话，你给经理发一条消息（结论：Daniel 的问题今天能解决；原因：面单缺信息；下一步：三点前回电话） | Daniel's shipment will leave the warehouse today. Forty labels were missing information, and I'm fixing them now. I'll call him back by three o'clock.
+@free: 实习生 Leo 刚接了一个愤怒的电话，挂了以后很沮丧（安慰他，再教他下次怎么做） | It's not personal. He was angry at the problem, not at you. Next time, say "I hear you" first, and give him a time for the next step.
+@output: 口头汇报 1.5–2 分钟（录音）：向张涛口头汇报一通难打的电话（真实的、或者用 Daniel 这通电话）。按「先说结论」的顺序：问题现在怎么样了 → 谁打来、为什么生气 → 你怎么接住情绪、复述问题 → 你承诺了什么、什么时间 → 原因和进展 → 下一步。讲过去的事要一直用过去时，别中途变回现在时。
+@output_sample: Quick update on Daniel Ross. The main point is that his shipment left the warehouse at two thirty, so the problem is solved. Here's what happened. Daniel called me at one o'clock. It was late at night in Texas, and he was very upset. Two hundred of his orders had been stuck at the warehouse for four days, and his customers were complaining online. He got thirty complaints in one day. First, I listened and didn't interrupt. Then I said, "I hear you," and I repeated the problem to make sure I understood it. He asked for a supervisor, but I told him I could fix it faster myself. I promised to call him back by three o'clock. After the call, I checked the system. Forty labels were missing the declared value, and the warehouse didn't tell anyone. I fixed the labels with the warehouse, and I called Daniel at two forty-five. He was much calmer, and he even said sorry for yelling. Next, I'll ask the warehouse to alert us on the first day of any hold. I'll also show Daniel how to check the declared value before he uploads a file.
+
+@check: 听力：Daniel 有多少个订单卡在仓库？卡了多久？他今天收到了多少条投诉？ | 200 个订单，卡了四天；今天收到 30 条投诉（thirty，重音在前，不是 thirteen）。
+@check: 听力：林晓答应几点前回电话？她为什么还要问 Is a call OK, or should I text?，Daniel 怎么选的？ | 三点之前。因为那时候得州是半夜（the middle of the night for you），她在照顾时差；Daniel 要电话（Call me.）。
+@check: 同事在旁边小声提醒你「让他冷静点啊」。为什么不对美国客户说 Calm down!？换成什么？ | Calm down! 是命令句，听起来像在说对方反应过度，会让人更生气。先说 I hear you. / I understand. / I'd be upset, too.，再说一句具体的话。
+@check: 用 So, if I understand correctly, … 复述：客户说他被扣了两次款，可只收到一个包裹。 | So, if I understand correctly, you were charged twice, but you only received one package.
+@check: 改错（客户在美国）：I'll call you back until five. / I'll call you back as soon as possible. | I'll call you back by five o'clock, Shenzhen time. by = 最晚在……之前，until = 一直到；要给具体时间，跨时区还要说清是谁的时间。
+@check: 客户的地址其实是他自己填错的。电话里哪些话不要说？应该怎么说？ | 不说 It's not our fault. / You entered the wrong address.；只说能做什么：What I can do right now is update the address with the carrier. I'll call you back by four o'clock.
+@next1: 不看书说出 5 个锚点句：S6、S7、S12、S15、S15 的后半句（I hear you, Daniel. / So, if I understand correctly… / That's not acceptable… / Leave it with me. / I'll call you back by three o'clock.）
+@next1: 用 I hear you + So, if I understand correctly… 处理一个你自己想象的投诉，说给自己听
+@next7: 接投诉电话四步：I hear you → So, if I understand correctly… → That's not acceptable, and I'll make sure… → I'll call you back by + 时间
+@next7: 不推卸责任的两句话：What I can do right now is… / I can ask my manager to join. But I can fix this faster.

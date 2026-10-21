@@ -1,0 +1,168 @@
+@day: 61
+@week: 1
+@title_cn: 我负责什么
+@title_en: What I'm Responsible For
+@topic: 转正后第一天：看懂经理的分工邮件，向新同事介绍自己的岗位职责、日常工作和上报方式
+@think_short: 「我负责」I'm responsible for（别漏 be）｜「我的工作是」My main job is to…｜「主要」main vs mainly｜「顶替」cover for vs take over
+
+@goal_scene: 转正后第一天，经理把一组客户正式交给你。你要看懂他的分工邮件，再用英文向新同事介绍自己的岗位：先用一句话说清「我负责什么」，再讲每天做什么、什么最优先、遇到大问题交给谁，还要分清「临时顶班」和「正式接手」。
+@goal_expr: I'm an account manager now. / I'm responsible for… / My main job is to… / I'm their point of contact. / I check … on a daily basis. / I mainly… / If there's a big problem, I escalate it to… / I coordinate with… / I'm covering for… vs I'm taking over…
+@goal_vocab: 20 个重点词 + 5 个短语：岗位与分工、客户与平台、日常工作、优先级与上报
+@done: 能用 3–4 句话介绍自己的岗位：头衔 → 负责什么（be responsible for）→ 主要工作（My main job is to…）→ 我是谁的对接人（point of contact）
+@done: 能说出 3 件日常工作和频率（on a daily basis / regular / mainly），并说清遇到大问题交给谁（escalate it to…）
+@done: 能分清 main / mainly、cover for / take over，不再说 ✗ I responsible for… 和 ✗ My mainly job…
+
+@warmup_hint: 第三册第一课的热身：前三句来自 Day 59 的试用期谈话，两句来自 Day 60 的复习（since / used to），最后一句来自第一册 Day 4（第三人称 -s）。遮住答案，5 秒内说出英文；说不出的打 ★，翻回原课把那句读 3 遍，再说一次。
+@warmup: 到目前为止，最难的是什么？ | What's been the hardest part so far? | D59
+@warmup: 说实话，打电话对我来说还是挺难的。 | To be honest, phone calls are still hard for me. | D59
+@warmup: 你通过试用期了。 | You've passed your probation. | D59
+@warmup: 我们从初中就认识了。 | We've known each other since middle school. | D60
+@warmup: 我以前每天要在地铁上花两个小时，现在走路上班。 | I used to spend two hours a day on the subway. Now I walk to work. | D60
+@warmup: 李凯在 IT 部，系统账号归他管。 | Kevin works in IT. He's in charge of accounts. | D4
+
+@scene: 周一早上，林晓转正后的第一个工作日。她一打开邮箱，就看到张涛的一封短邮件：一组二十个美国卖家正式交给她了。这些卖家原来由同事 Jack 负责，Jack 上个月离职后，张涛临时管了一阵；从今天起，卖家有事先找她，这组的月度指标也由她来扛。上午十点，跟着她学习的实习生 Leo 跑来道贺，顺便问：「你这个新岗位具体都做些什么？」林晓要用几句话把自己的职责讲清楚——先说结论，再讲每天做什么、什么最优先、遇到大问题找谁。
+@sp: 人物关系 | 张涛 → 林晓：经理给下属分配工作，内部邮件，简短直接；林晓 ↔ Leo：前辈和实习生，语气轻松，Leo 什么都想问
+@sp: 沟通目的 | 张涛：正式把卖家交给林晓，说清她要对什么负责；林晓：先一句话概括新岗位，再给 Leo 讲清楚日常工作、优先级和上报方式
+@sp: 已知信息 | Leo 只知道林晓转正了，不知道她现在具体负责什么，还以为她只是临时替 Jack 顶班；林晓已经读过张涛的邮件和交接说明
+@sp: 表达重点 | 我现在是……（I'm an account manager）→ 我负责……（I'm responsible for…）→ 主要工作（My main job is to…）→ 每天做什么（on a daily basis / mainly）→ 最优先的事和上报（priority / escalate）→ 临时顶班还是正式接手（covering vs taking over）
+
+@story_title: Episode 61 · Twenty Sellers, One Inbox
+@story_type: 邮件 + 对话
+@s: On Monday morning, Lily opens her **inbox**. There's an email from Tom. | 周一早上，林晓打开收件箱，里面有一封张涛发来的邮件。
+@s: Hi Lily, | 林晓，你好：
+@s: Starting today, I'm **assigning** you a **portfolio** of twenty U.S. sellers. | 从今天起，我把一组美国卖家分给你，一共二十个。
+@s: These were Jack's accounts. I've handled them since he left. | 这些原来是 Jack 的客户，他走了以后一直是我在管。
+@s: From now on, you **own** them, and you're **accountable** for their monthly target. | 从现在起，这些客户全归你负责，这组的月度指标也由你来扛。
+@s: My **handover** notes are attached. | 交接说明在附件里。
+@s: Tom | 张涛
+@br:
+@s: At ten, Leo stops by her desk. | 十点，Leo 来到她的工位前。
+@s: Leo: Congrats on the new role! What does it **involve**? | Leo：恭喜你换新岗位！具体都要做些什么？
+@s: Lily: Well, I'm an **account manager** now. | 林晓：嗯，我现在是客户经理了。
+@s: Lily: I'm **responsible for** twenty sellers in the U.S. | 林晓：我负责二十个美国卖家。
+@s: Leo: Twenty! Can you give me a quick **overview**? | Leo：二十个！能给我简单讲讲吗？
+@s: Lily: Sure. They sell on different **platforms**, and they're in different **regions**, from Ohio to California. | 林晓：好啊。他们在不同的平台上开店，分布在不同的地区，从俄亥俄到加州都有。
+@s: Lily: Our system calls them "**merchants**," but we just say "sellers." | 林晓：我们的系统里管他们叫 merchant，不过平时就叫 seller。
+@s: Lily: My main job is to keep them happy. | 林晓：我的主要工作，就是让他们满意。
+@s: Lily: I'm their **point of contact**. They come to me first. | 林晓：我是他们的对接人，有事他们先找我。
+@br:
+@s: Leo: So what are your daily **duties**? | Leo：那你每天具体做哪些事？
+@s: Lily: I check the dashboard **on a daily basis**. I **monitor** their shipments for delays. | 林晓：我每天都看看板，盯着他们的货有没有延误。
+@s: Lily: But I **mainly** answer emails. My inbox is never empty! | 林晓：不过我主要是回邮件，收件箱就没空过！
+@s: Lily: I also have **regular** calls with the big sellers, and I handle **onboarding** for new ones. | 林晓：我还要定期和几个大卖家通电话；新卖家入驻开通，也归我管。
+@s: Leo: What's your top **priority**? | Leo：你最优先处理的是什么？
+@s: Lily: Lost packages and long delays. If there's a big problem, I **escalate** it to Tom. | 林晓：丢件和长时间的延误。如果有大问题，我就上报给张涛。
+@s: Lily: I also **coordinate** with Grace and Mike's team. | 林晓：我还要和吴佳、Mike 的团队协调配合。
+@br:
+@s: Leo: So you're **covering** for Jack? | Leo：所以你是在替 Jack 顶班？
+@s: Lily: Not covering. Jack left the company, so I'm **taking over**. | 林晓：不是顶班。Jack 已经离职了，所以是我正式接手。
+@s: Lily: These sellers are mine now. | 林晓：这些卖家现在归我了。
+@s: Leo: Wow. That's a lot of responsibility! | Leo：哇，责任好大啊！
+@s: Lily: It is. But I'm really looking forward to it. | 林晓：是啊。不过我特别期待。
+
+@v: inbox | = | n. | ˈɪnbɑːks | （邮箱的）收件箱 | 上班第一件事看邮件、说邮件多到回不完 | check my inbox；in your inbox；a full inbox | I have forty new emails in my inbox this morning. | 今天早上我的收件箱里有四十封新邮件。 | 「收件箱」是一个词 inbox，不说 ✗ receive box；「在收件箱里」用 in：It's in your inbox.；My inbox is never empty. 是职场人常用的半开玩笑说法——邮件永远回不完；重音在 in。
+@v: assigning | assign | v. | əˈsaɪnɪŋ | 分配；指派（任务、客户给某人） | 经理分工、派任务、把客户分给某人 | assign sb sth；assign sth to sb；be assigned to a team | Tom assigned the new project to Lily. | 张涛把这个新项目分给了林晓。 | 两种语序：assign you twenty sellers／assign twenty sellers to you，不说 ✗ assign to you twenty sellers；g 不发音，读 `/əˈsaɪn/`；被动 I was assigned to the U.S. team.（我被分到美国组）很常用；名词 assignment 是「任务；（学生的）作业」。
+@v: portfolio | = | n. | pɔːrtˈfoʊlioʊ | （一个人手上负责的）一组客户或业务 | 说自己手上管着多少客户、多少账户 | a portfolio of sellers；manage a portfolio；a client portfolio | She manages a portfolio of fifty small businesses. | 她手上管着五十家小企业客户。 | 中文「我手上有二十个客户」，职场英语常说 I manage a portfolio of twenty accounts.；portfolio 还有「作品集」（设计师、摄影师找工作用）和「投资组合」的意思，看上下文；4 个音节 port-FO-li-o，重音在第二个音节。
+@v: own | = | v. | oʊn | （工作上）全权负责；这块归……管 | 职场分工：说清楚一件事由谁负全责 | own a project；own the relationship；Who owns this? | Emma owns the new tracking page. | 新的追踪页面归 Emma 全权负责。 | own 的本义是「拥有」（own a car）；美国职场常把它用在事情上：You own these accounts. ＝这些客户完全归你，你说了算，出了问题也找你；问「这个归谁管？」可以说 Who owns this?；own 是动词，前面不加 be：✗ I'm own the project.
+@v: accountable | = | adj. | əˈkaʊntəbl | 要（对结果）负责的；要向上交代的 | 经理说谁对结果负责；绩效考核 | be accountable for sth；be accountable to sb；hold sb accountable | Each team leader is accountable for the team's results. | 每位组长都要对本组的结果负责。 | responsible for 侧重「这是你的职责范围」，accountable for 侧重「结果好坏由你来交代」，语气更重，多出现在经理的话和考核里；accountable to 后面接人：I'm accountable to Tom.（我向张涛交代）；别和第一册的 account（账号）弄混。
+@v: handover | = | n. | ˈhændoʊvər | 交接；交接材料 | 换岗、离职、休假前把工作交给别人 | handover notes；a handover meeting；a smooth handover | Please write your handover notes before you leave. | 走之前请写好交接说明。 | 名词是一个词 handover（重音在前），动词是两个词 hand over（重音在 over）：Please hand over your keys.；「交接文档」说 handover notes 或 a handover document，不说 ✗ a connection document。
+@v: involve | = | v. | ɪnˈvɑːlv | （工作、项目）包括；需要（做某些事） | 问一份工作、一个项目具体要做什么 | What does it involve?；involve + -ing；be involved in | My job involves a lot of phone calls. | 我的工作要打很多电话。 | 问「具体做什么」最自然的是 What does your job involve?；后面接动作用 -ing：It involves answering emails. ✗ It involves to answer emails.；be involved in 是「参与」：I'm involved in the new project.
+@v: account manager | = | phr. | əˈkaʊnt ˌmænɪdʒər | 客户经理（专门负责一批客户的人） | 介绍头衔、跟客户说明自己的身份 | an account manager；your account manager；a key account manager | Hi, I'm your new account manager at SwiftLink. | 您好，我是您在 SwiftLink 的新客户经理。 | account 在这里指「客户」（账号背后的那家企业）；「客户经理」不说 ✗ customer manager；头衔前要有冠词：✓ I'm an account manager. ✗ I'm account manager.；复合名词重音在前：AC-count manager。
+@v: responsible for | be responsible for | phr. | rɪˈspɑːnsəbl fər | 负责（某些人或事） | 介绍职责、说明分工 | be responsible for sth；be responsible for + -ing；be fully responsible for | Grace is responsible for refund questions. | 退款方面的问题由吴佳负责。 | 一定要有 be：✗ I responsible for…；for 后面接名词或 -ing：✓ responsible for training interns ✗ responsible for train interns；第二册 D56 学过的 responsible 单独用是「有责任心的」：She's very responsible.——和「负责某事」不是一个意思。
+@v: overview | = | n. | ˈoʊvərvjuː | 概况；简要介绍 | 请别人先讲个大概；汇报、会议开头 | a quick overview；give sb an overview；an overview of… | Can you give me an overview of the project? | 你能先给我讲讲这个项目的大概情况吗？ | 「大概讲讲」不说 ✗ roughly say；overview 是名词，常和 give 搭配：Give me a quick overview.；别和第二册的 overall（总的来说）混：overall 是副词 / 形容词，overview 是名词；重音在 O。
+@v: platforms | platform | n. | ˈplætfɔːrmz | （电商、软件）平台 | 说卖家在哪儿开店、用什么系统 | an online platform；an e-commerce platform；sell on a platform | Most of our sellers use more than one platform. | 我们的大部分卖家都不止用一个平台。 | 「在平台上卖」介词用 on：sell on a platform，不用 in / at；platform 也是火车站的「站台」：Platform 3；pla 里是 `/æ/`，嘴张大。
+@v: regions | region | n. | ˈriːdʒənz | 地区；区域 | 说客户、业务分布在哪些地方 | different regions；the Midwest region；by region | Our sellers are in four regions of the U.S. | 我们的卖家分布在美国的四个地区。 | 美国人常按地区说：the Northeast／the Midwest／the South／the West；中文「华南地区」= South China 或 the southern region；g 读 `/dʒ/`，不读 /ɡ/；Day 70 还会用到 orders by region（按地区统计订单）。
+@v: merchants | merchant | n. | ˈmɜːrtʃənts | 商家；商户 | 支付、电商、物流系统里对卖家的正式叫法 | a merchant account；online merchants；a merchant ID | Enter your merchant ID to log in. | 输入您的商户号即可登录。 | 平时说 seller 就够了；系统界面、合同、支付平台里常写 merchant：merchant account（商户账户）、merchant ID（商户号）；「商家」不要说 ✗ businessmen（那是「商人」，指个人）；er 是卷舌的 `/ɜːr/`。
+@v: point of contact | = | phr. | ˌpɔɪnt əv ˈkɑːntækt | 对接人；（某件事的）联系人 | 告诉客户或同事「有事找我」 | your point of contact；the main point of contact；a single point of contact | Mike is our point of contact in Seattle. | Mike 是我们在西雅图的对接人。 | 中文「对接人」不说 ✗ docking person；前面加 my / your / the：I'm your point of contact.；邮件里有时缩写成 POC，读三个字母；of 弱读成 `/əv/`，几乎只剩 `/ə/`。
+@v: duties | duty | n. | ˈduːtiz | 职责；（日常的）分内工作 | 岗位描述、招聘广告、介绍每天做什么 | daily duties；main duties；on duty | Answering the phone is one of my daily duties. | 接电话是我每天的工作之一。 | 指「一项项的职责」常用复数 duties；招聘广告里常见 Duties include…（职责包括……）；on duty 是「值班、当班」，off duty 是「下班、不当班」；美式口语里 t 闪音，听起来像 DOO-deez。
+@v: on a daily basis | = | phr. | ɑːn ə ˌdeɪli ˈbeɪsɪs | 每天；天天（较正式） | 说日常工作的频率；邮件、汇报、面试 | on a daily basis；on a weekly basis；on a regular basis | We update the report on a weekly basis. | 我们每周更新一次这份报告。 | 意思就是 every day / daily，只是更正式；可以套用 on a + 形容词 + basis：on a monthly basis（每月）；basis 读 `/ˈbeɪsɪs/`，不读 /ˈbeɪzɪs/；聊天时用多了像念公文，口语直接说 every day 也很好。
+@v: monitor | = | v. | ˈmɑːnɪtər | 监控；（持续地）盯着 | 盯物流、盯数据、盯系统 | monitor shipments；monitor sth closely；monitor sth for… | We monitor the system twenty-four hours a day. | 我们全天二十四小时监控系统。 | 「盯着货」不说 ✗ stare at the shipments（stare 是眼睛直勾勾地看）；monitor 强调持续查看、发现变化：monitor shipments for delays（盯着货有没有延误）；作名词是「显示器；监视器」：a computer monitor；重音在第一个音节 MON-i-tor。
+@v: mainly | = | adv. | ˈmeɪnli | 主要地；大部分是 | 说主要做什么、主要是什么 | mainly + 动词；be mainly in…；mainly because… | Our customers are mainly in the U.S. | 我们的客户主要在美国。 | mainly 是副词：放在实义动词前（I mainly answer emails），be 动词后（They're mainly in Ohio）；名词前要用形容词 main：✓ my main job ✗ my mainly job；和第一册的 mostly 意思很近，mostly 更口语。
+@v: regular | = | adj. | ˈreɡjələr | 定期的；经常的 | 定期开会、定期回访、老顾客 | regular calls；regular meetings；a regular customer | We have regular meetings with our biggest clients. | 我们和几个最大的客户定期开会。 | regular 强调「按固定的间隔、有规律」，不只是「经常」；「老顾客」是 a regular customer；regular 也是「普通的、标准的」：a regular coffee（普通杯）；三个音节 REG-u-lar，u 读 `/jə/`。
+@v: onboarding | = | n. | ˈɑːnbɔːrdɪŋ | （新客户的）入驻开通；（新员工的）入职引导 | 新卖家开通账号、新员工第一周的培训和手续 | seller onboarding；the onboarding process；onboarding new customers | Onboarding a new seller usually takes two days. | 开通一个新卖家一般要两天。 | 中文的「入驻」「开通」「入职引导」英文常常都用 onboarding；动词是 onboard：We onboard ten new sellers a month.；这是职场词，跟朋友聊天说 sign up / set up 就行；重音在 on。
+@v: priority | = | n. | praɪˈɔːrəti | 优先处理的事；重点 | 说先做什么、什么最要紧 | top priority；a high priority；make sth a priority | Customer safety is our top priority. | 客户安全是我们的头等大事。 | 「最优先」说 top priority 或 number one priority，不说 ✗ the most priority；「优先处理」是动词 prioritize；4 个音节 pri-OR-i-ty，重音在第二个音节。
+@v: escalate | = | v. | ˈeskəleɪt | （把问题）上报；升级处理 | 自己解决不了，交给上级或专门的团队 | escalate sth to sb；escalate an issue；escalate quickly | If the seller is still unhappy, escalate the issue to your manager. | 如果卖家还是不满意，就把问题上报给你的经理。 | 「上报」不说 ✗ report it up，「升级处理」不说 ✗ upgrade it（upgrade 是升级产品、套餐）；结构是 escalate + 问题 + to + 人或团队；escalate 也指矛盾「升级、恶化」：The argument escalated.；重音在第一个音节 ES-ca-late。
+@v: coordinate | = | v. | koʊˈɔːrdɪneɪt | 协调；配合（几方一起把事办成） | 跨部门、跨时区合作 | coordinate with sb；coordinate a meeting；coordinate between teams | I coordinate with the Seattle team every week. | 我每周都要和西雅图团队协调工作。 | 「和某人协调」用 coordinate with sb，不说 ✗ coordinate Grace；直接接宾语时是「事情」：coordinate the move；名词 coordinator（协调员）；4 个音节 co-OR-di-nate，co 和 or 要分开，别连成一个音。
+@v: covering | cover | v. | ˈkʌvərɪŋ | （临时）替人顶班；代管 | 同事休假、请假、出差时帮他做事 | cover for sb；cover sb's shift；cover the phones | Can you cover for me on Friday afternoon? | 周五下午你能替我顶一下吗？ | cover 的本义是「盖住」；职场里 cover for sb 是「临时顶替」，人还会回来；对方离职、调岗，你从此接手，要用 take over；也可以 cover + 工作：cover Grace's emails；o 读 `/ʌ/`，不读「扣」。
+@v: taking over | take over | phr. | ˌteɪkɪŋ ˈoʊvər | 接手；接管（从此归你负责） | 同事离职、调岗后正式接过他的工作 | take over sb's accounts；take over from sb；take it over | Leo will take over the weekly report next month. | 下个月起，周报由 Leo 接手。 | take over 是长期接手，cover for 是临时顶替；宾语是代词时放中间：take them over ✗ take over them；第二册 D59 的 take on 是「承担新的工作」，take over 强调「原来是别人的，现在归我」；重音在 over。
+
+@diff: 「我负责……」——I'm responsible for + 名词 / -ing
+@d_cn: 介绍自己的工作范围：负责哪些客户、哪些事情。
+@d_en: I'm responsible for twenty sellers in the U.S. / I'm responsible for onboarding new sellers. / You're accountable for their monthly target.
+@d_why: 中文「负责」是动词，直接跟在「我」后面：我负责二十个卖家。英文的 responsible 是**形容词**，前面必须有 be：**I'm** responsible for…——漏掉 be 说成 ✗ I responsible for… 是中国学习者最常见的错误之一。for 是介词，后面接名词或 **-ing**：responsible for onboarding，不接动词原形。「负责」在英文里是一个小家族：**handle**（第一册 D4，处理具体的事：I handle their problems）、**in charge of**（第一册 D4，主管，常指管人、管部门）、**take on**（第二册 D59，开始接手新任务的动作）、**own**（职场口语「这块全归我」）、**accountable for**（结果好坏要你交代，语气最重）。介绍岗位时，be responsible for 最稳妥、最通用。
+@d_when: 自我介绍岗位、面试回答 What do you do?、向新同事或客户说明分工。
+@d_vs: ✓ **I'm responsible for twenty sellers.** 我负责二十个卖家。\n✓ **I'm responsible for onboarding new sellers.** 新卖家的入驻开通归我负责。\n✓ **Kevin is in charge of accounts.** 账号归李凯管。\n✓ **You're accountable for their monthly target.** 他们的月度指标由你负责（结果要你交代）。\n✗ I responsible for… ／ ✗ I'm responsible for answer emails.
+@d_task: 用英文介绍：「我负责周报，还负责培训新来的实习生。」 | I'm responsible for the weekly report, and I'm also responsible for training new interns.
+@diff: 「我的工作是……」——My main job is to… / My main job is -ing
+@d_cn: 用一句话概括自己工作的核心：「我的工作就是让卖家满意。」
+@d_en: My main job is to keep them happy. / My main job is keeping them happy. / What does your job involve?
+@d_why: 中文「我的工作是 + 动词」，动词不用变；英文 is 后面不能直接跟动词原形（两个动词撞在一起），要先把动作变成 **to do** 或 **-ing**：My main job is **to keep** them happy.／My main job is **keeping** them happy.，不说 ✗ My job is keep them happy.。「工作」用可数的 **job**（一份差事、一项职责），比不可数的 work 更自然：少说 My work is to…。「让他们满意」用 **keep** them happy（一直保持满意），不是一次性的 make them happy。问别人「具体做什么」，美国人常说 What does your job involve? 回答时先给一句概括（My main job is to…），再列两三件具体的事——这就是张涛要求的「先说结论」。
+@d_when: 自我介绍、面试、给新人讲岗位、跟朋友说自己做什么工作。
+@d_vs: ✓ **My main job is to keep them happy.** 我的主要工作就是让他们满意。\n✓ **My main job is keeping them happy.** （意思一样，-ing 稍口语）\n✓ **What does your job involve?** 你的工作具体包括什么？\n✗ My job is keep them happy. ／ ✗ My main work is to…
+@d_task: 用两种说法告诉新同事：「我的主要工作是回复卖家的邮件。」 | My main job is to answer seller emails. ／ My main job is answering seller emails.
+@diff: 「主要」——main（形容词）vs mainly（副词）
+@d_cn: 「主要工作」「主要负责」「主要是回邮件」「卖家主要在美国」——中文都是同一个「主要」。
+@d_en: My main job is to keep them happy. / I mainly answer emails. / My sellers are mainly in the Midwest.
+@d_why: 中文「主要」放在名词前（主要工作）、动词前（主要回邮件）都一样；英文要换词：修饰**名词**用形容词 **main**（my main job、the main problem），修饰**动词或整句**用副词 **mainly**（I mainly answer emails）。mainly 的位置：放在实义动词前（I **mainly** answer…），放在 be 动词后（They're **mainly** in Ohio）。常见错误是混用：✗ My mainly job… ✗ I main answer emails.。第一册 D22 学过的 **mostly** 意思接近，更口语，常指「大部分」：The late ones were mostly in New York.；mainly 更强调「最主要的是」。
+@d_when: 介绍工作重点、说明问题主要出在哪儿、讲客户主要在哪个地区。
+@d_vs: ✓ **My main job is to keep them happy.** （main + 名词）\n✓ **I mainly answer emails.** 我主要是回邮件。（mainly + 动词）\n✓ **My sellers are mainly in the Midwest.** 我的卖家主要在中西部。（be + mainly）\n✗ My mainly job… ／ ✗ I main answer emails.
+@d_task: 说两句：①「我们的主要问题是延误。」②「延误主要发生在周一。」 | ① Our main problem is delays. ② Delays mainly happen on Mondays.
+@diff: 「我顶替她」——I'm covering for her / I'm taking over
+@d_cn: 同事请假、出差，或者离职、调岗，他的工作由你来做——中文都可以说「顶替」「替他」「接他的活」。
+@d_en: I'm covering for Grace this week. / I'm taking over Jack's accounts. / So you're covering for Jack? — Not covering. I'm taking over.
+@d_why: 中文不分时间长短，英文要分清：**cover for sb** 是**临时**替人顶一下（同事休假、生病、出差，人还会回来）；**take over** 是**正式接手**，从此归你（同事离职、调岗）。Jack 已经离职，所以林晓纠正 Leo：Not covering. I'm taking over. 语序上，take over 后面接工作（take over Jack's accounts），代词放中间（take them over）；cover for 后面接人（cover for Grace），也可以直接 cover + 工作（cover Grace's emails）。别把「顶替」直译成 ✗ I'm replacing her this week——replace（第一册 D28「更换」）用在人身上，听起来像她被换掉了。
+@d_when: 交接工作、写休假前的邮件、对客户解释「现在由谁对接」。
+@d_vs: ✓ **I'm covering for Grace while she's away.** 吴佳不在，我临时顶她的班。\n✓ **I'm taking over Jack's accounts.** Jack 的客户由我正式接手。\n✓ **Can you cover for me on Friday?** 周五你能替我顶一下吗？\n✗ I'm replacing Grace this week.（像是吴佳被换掉了）
+@d_task: 用英文说：①「同事 Amy 下周出差，她的工作我临时顶一下。」②「同事 Jason 调去了北京办公室，他的客户由我正式接手。」 | ① Amy is on a business trip next week, so I'm covering for her. ② Jason moved to the Beijing office, so I'm taking over his clients.
+
+@core: I'm responsible for + 名词 / -ing | 一句话说清自己的职责范围 | twenty sellers / onboarding new sellers / the weekly report | 正式：I'm accountable for a portfolio of twenty U.S. sellers.｜随意：I look after twenty sellers.
+@core: My main job is to… | 概括工作的核心 | keep them happy / answer seller questions / make sure packages arrive on time | 正式：My primary role is to support our U.S. sellers.｜随意：Basically, I keep the sellers happy.
+@core: I'm their point of contact. | 告诉对方「有事找我」 | their / your / the Seattle team's | 正式：I'm the main point of contact for these accounts.｜随意：I'm the person they call.
+@core: I check … on a daily basis. | 说日常工作和频率 | the dashboard / my inbox；on a daily / weekly basis | 正式：I review the dashboard on a daily basis.｜随意：I check it every day.
+@core: I mainly + 动词 | 说主要做什么 | answer emails / handle delays / talk to sellers | 正式：My work mainly involves answering seller emails.｜随意：Mostly, I answer emails.
+@core: If there's a big problem, I escalate it to… | 说遇到大问题交给谁 | Tom / my manager / Mike's team | 正式：Any urgent issues are escalated to my manager.｜随意：If it's big, I tell Tom right away.
+@core: What does your job involve? / Can you give me a quick overview? | 请别人介绍工作或项目 | your new role / the project / the process | 正式：Could you give me an overview of your responsibilities?｜随意：So what do you do all day?
+@core: I'm covering for… / I'm taking over… | 临时顶班 vs 正式接手 | Grace this week / Jack's accounts | 正式：I'll be covering for Grace while she's away.｜随意：I've got Grace's emails this week.
+
+@pw: responsible | rɪˈspɑːnsəbl | 4 个音节 re·SPON·si·ble | 重音在 spon；结尾 -sible 很轻，读 `/səbl/`
+@pw: accountable | əˈkaʊntəbl | 4 个音节 ac·COUNT·a·ble | 重音在 count；第一个音节弱读成 `/ə/`，-able 也很轻
+@pw: portfolio | pɔːrtˈfoʊlioʊ | 4 个音节 port·FO·li·o | 重音在第二个音节；port 要卷舌，结尾 o 读 `/oʊ/`
+@pw: priority | praɪˈɔːrəti | 4 个音节 pri·OR·i·ty | 重音在 or；美式 t 闪音，听起来像 pry-OR-a-dee
+@pw: escalate | ˈeskəleɪt | 3 个音节 ES·ca·late | 重音在第一个音节；中间的 ca 弱读成 `/kə/`
+@pw: coordinate | koʊˈɔːrdɪneɪt | 4 个音节 co·OR·di·nate | co 和 or 之间稍微断开，别读成 cord；重音在 or
+@pw: onboarding | ˈɑːnbɔːrdɪŋ | 3 个音节 ON·board·ing | 重音在 on；board 要卷舌，d 轻轻带过
+@ps: I'm re**spon**sible for / **twen**ty **sell**ers / in the U.**S.** | for 弱读成 `/fər/`；twenty 在美式口语里常吞掉 n 后面的 t，像 twen-ny；U.S. 读两个字母，重音落在 S 上。
+@ps: My **main** job / is to keep them **hap**py. | is to 连成 `/ɪztə/`；them 弱读成 `/ðəm/`，说快了只剩 `/əm/`：keep 'em happy。
+@ps: I check the **dash**board / on a **dai**ly **ba**sis. | dashboard 是复合名词，重音在 dash；on a 连读成 `/ɑːnə/`；basis 的两个 s 都读 /s/。
+@ps: If there's a **big** problem, / I **es**calate‿it to **Tom**. | there's 只有一个音节；escalate it 连读，t 闪音，像 ES-ka-lay-dit；句尾 Tom 降调。
+@pnote: 本课的数字和复合名词：twenty 美式口语常读成 twen-ny（n 后面的 t 被吞掉），听的时候别和 twelve 弄混；U.S. 读两个字母，重音在后。复合名词都是「前重后轻」：**AC**count manager、**DASH**board、**IN**box、**HAND**over——听到「重 + 轻」，就知道这是一个整体的词，不是两个分开的意思。
+@pnote: 写 vs 说：张涛的邮件写的是 Starting today, I'm assigning you… / My handover notes are attached.，内部邮件结尾只署名 Tom 很常见；跟 Leo 聊天时，大家说 Congrats（= Congratulations）、I'm、they're、there's 这些缩读形式。on a daily basis 偏书面，林晓在邮件和汇报里用它，聊天时说 every day 也完全可以。
+@lfocus: twenty 读成 twen-ny；U.S. 的重音在 S
+@lfocus: 复合名词「前重后轻」：account manager / dashboard / handover / inbox
+@lfocus: for / to / them 的弱读（responsible for、is to、keep them happy）
+@dict: S15–S16
+@dict: S21–S23
+@res: 在 youglish.com 输入 "point of contact"，选 US，听美国人怎么在会议和电话里介绍「对接人」。
+
+@mimic: 跟读【C】S9–S28：先逐句跟读，模仿林晓「先一句话概括、再列具体工作」的节奏，注意 twenty、account manager、dashboard 的读法；再你演林晓、手机朗读 Leo 的台词，正常语速完整对一遍并录音。最后合上书，只看 Leo 的 5 个问题（What does it involve? / Can you give me a quick overview? / So what are your daily duties? / What's your top priority? / So you're covering for Jack?），用自己的话回答。
+@swap: I'm responsible for twenty sellers in the U.S. | 换职责：the weekly report / onboarding new sellers / two interns | I'm responsible for onboarding new sellers.
+@swap: My main job is to keep them happy. | 换核心工作：answer their questions / make sure packages arrive on time / train new interns | My main job is to make sure packages arrive on time.
+@swap: I check the dashboard on a daily basis. | 换对象和频率：my inbox / the delivery report；on a weekly / monthly basis | I update the delivery report on a weekly basis.
+@swap: If there's a big problem, I escalate it to Tom. | 换问题和对象：a system error → Mike's team；a refund question → Grace | If there's a system error, I escalate it to Mike's team.
+@free: 新认识的美国卖家在电话里问 What exactly do you do?（你是她的客户经理和对接人，主要回答问题、盯物流） | I'm your account manager, so I'm your point of contact at SwiftLink. I mainly answer your questions and monitor your shipments for delays.
+@free: 经理问你：What's your top priority this week?（丢件最优先；你每天都看看板，大问题马上上报） | Lost packages are my top priority. I check the dashboard on a daily basis, and if there's a big problem, I escalate it right away.
+@free: 同事问你下周休假时谁帮你回邮件（Grace 临时顶你的班；紧急的事她会直接找张涛） | Grace is covering for me next week. She'll answer my sellers' emails, and she'll escalate anything urgent to Tom.
+@free: 朋友问你新工作具体做什么（一句话概括，再举一个例子） | My main job is to keep twenty online sellers happy. For example, if a package is late, I find out why and tell the seller right away.
+@output: 录 1.5–2 分钟口头汇报「我的岗位」：想象你在给新来的同事介绍自己的工作。第一句先说结论（I'm a/an … and I'm responsible for…），再讲：主要工作（My main job is to…）→ 每天做的 3 件事（on a daily basis / mainly / regular）→ 最优先的事和遇到大问题怎么办（priority / escalate）→ 和谁协作（coordinate with）→ 最近接手或顶替过谁的工作（take over / cover for）。还没工作的，可以讲你在学校、社团或家里「负责」的事，或者你理想中的岗位。
+@output_sample: Let me give you a quick overview of my job. I'm an account manager at a small logistics company, and I'm responsible for about thirty online sellers. My main job is to make sure their packages arrive on time. I'm their point of contact, so when they have a question, they come to me first. On a daily basis, I check our dashboard and monitor shipments for delays. But I mainly answer emails, and my inbox is usually full by ten. I also have regular video calls with our three biggest sellers, usually on Tuesdays. My top priority is lost packages, because the sellers' customers are waiting. If I can't solve a problem in one day, I escalate it to my manager. I don't do everything alone. I coordinate with our customer service team and with the IT team. Last month, a coworker moved to another city, so I took over five of her sellers. Now I own those accounts, too. It's a lot of responsibility, and some days are really busy. But I enjoy it, because I learn something new every week.
+
+@check: 听力：张涛的邮件里说了哪几件事？ | 从今天起把二十个美国卖家分给林晓；这些原来是 Jack 的客户，Jack 走后一直由张涛管；从现在起这些客户归林晓负责，她要对这组的月度指标负责；交接说明在附件里。
+@check: 听力：林晓每天主要做什么？遇到大问题她怎么办？ | 她每天看看板、盯着货有没有延误，但主要是回邮件；遇到大问题（丢件、长时间延误）就上报给张涛。
+@check: 改错：I responsible for onboarding, and my mainly job is answer emails. | I'm responsible for onboarding, and my main job is to answer emails.（也可以 is answering emails）：responsible 前要有 be；名词前用 main；is 后面接 to do 或 -ing。
+@check: 换个场景：同事 Amy 下周休产假，这段时间她的客户你来管；同事 Ben 调去了上海办公室，他的工作你正式接手。分别怎么说？ | I'm covering for Amy while she's on maternity leave. ／ Ben moved to the Shanghai office, so I'm taking over his work.
+@check: 换个场景：一位新卖家在邮件里问 Who should I contact if something goes wrong?（你就是她的对接人；紧急的问题你会马上上报给经理） | I'm your point of contact, so please contact me first. If it's urgent, I'll escalate it to my manager right away.
+@check: 「我们的卖家主要在中西部」和「我们最主要的问题是延误」分别怎么说？ | Our sellers are mainly in the Midwest. ／ Our main problem is delays.
+@next1: 不看书说出 5 个锚点句：S11、S15、S16、S18、S22
+@next1: 用 I'm responsible for / My main job is to / I mainly 各说一句关于你自己工作（或学习）的话
+@next7: 「负责」家族：be responsible for / in charge of / handle / own / accountable for 各造一句，说说它们的区别
+@next7: cover for vs take over：各说一个真实或想象的场景

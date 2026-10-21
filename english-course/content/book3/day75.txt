@@ -1,0 +1,172 @@
+@day: 75
+@week: 3
+@title_cn: 回复客户咨询
+@title_en: Answering a Customer Inquiry
+@topic: 回复卖家的咨询邮件：先感谢、直接回答、给细节、说下一步；说清「暂不支持」、过渡方案、免费试用和价格档位
+@think_short: 先答 Yes / Not yet，再给细节｜「暂不支持」We don't support … at the moment.（≠ can't support now）｜「有问题随时联系」Feel free to contact me.｜「免费试用」a free trial / free of charge
+
+@goal_scene: 卖家发邮件问「你们能不能做……、要多少钱」，而这项服务你们暂时还没有：你要先感谢，在前两行就给出答案，再说明计划、给一个过渡方案（免费试用、升级、演示），最后告诉对方下一步。
+@goal_expr: Thanks for your interest in… / The short answer is not yet. / We don't support … at the moment. / Currently, we only… / We're planning to… next year. / In the meantime, you can… / free of charge / a free trial / I'd be happy to give you a quick demo. / Feel free to contact me if you have any questions.
+@goal_vocab: 20 个重点词 + 5 个短语：客户咨询与服务范围、套餐与价格档位、试用与升级、邮件开头和结尾
+@done: 能写出一封回复咨询的邮件：第一句感谢，第二句就给答案（Yes / Not yet），再给细节和下一步
+@done: 能用 We don't support … at the moment. / currently / yet 说「暂不支持」，并马上接上计划和 In the meantime 的过渡方案
+@done: 能分清 a free trial / for free / free of charge，能用英文介绍「基础版、标准版、高级版」和年付优惠
+
+@warmup: 加州占总量的百分之四十。 | California accounts for forty percent of the total. | D70
+@warmup: 二十个工单我们已经解决了十八个。 | We've resolved eighteen of the twenty tickets. | D71
+@warmup: 由于港口罢工，配送时间变长了。 | Delivery times went up due to the strike at the port. | D72
+@warmup: 我把具体数字查清楚，再回复您。 | Let me figure out the exact number and get back to you. | D73
+@warmup: 林晓做完报告，写了一封邮件。 | Lily finishes the report and writes an email. | D19
+@warmup: 日常工作我已经习惯了，大部分邮件我都能自己回。 | I'm used to the daily work now, and I answer most emails on my own. | D59
+
+@scene: 周一上午，季度数据汇报刚刚结束，林晓的这一周要专门练「和客户沟通」。第一封就来自 Sarah：她的家居网店 Pine & Pebble 最近英国顾客越来越多，她想知道 SwiftLink 能不能也跟踪发往英国的订单、要多少钱。可是 SwiftLink 目前只覆盖发往美国地址的订单，英国要明年才上线，价格也还没定。林晓先去找产品经理 Emma 确认，再回邮件。张涛早就提醒过她：客户的问题，答案要放在前两行——哪怕答案是「暂时还不行」。
+@sp: 人物关系 | 林晓 ↔ Sarah：服务方和老客户，关系友好，邮件可以亲切一点，但要专业；林晓 ↔ Emma：同事，Emma 管产品功能和上线计划
+@sp: 沟通目的 | 回答 Sarah 的两个问题（能不能做、多少钱）；不能做的时候，说清计划，给一个现在就能用的过渡方案，留住客户
+@sp: 已知信息 | Sarah 用的是标准版，每个月的订单额度经常用满；英国跟踪明年上线，高级版用户最先用上；英国的价格还没定，暂时报不了价
+@sp: 表达重点 | 感谢（Thanks for your interest…）→ 直接回答（The short answer is not yet.）→ 计划（We're planning to…）→ 过渡方案（In the meantime… free of charge）→ 优惠和下一步（annual subscription / demo）→ Feel free to…
+
+@story_title: Episode 75 · The Short Answer Is Not Yet
+@story_type: 邮件 + 对话
+@s: On Monday morning, Sarah Miller sends Lily an **inquiry**: | 周一上午，Sarah Miller 给林晓发来一封咨询邮件：
+@s: Hi Lily, | 林晓你好：
+@s: We have more and more **overseas** customers, especially in the UK. | 我们的海外顾客越来越多，尤其是英国的。
+@s: Can you track our UK orders, too? How much would that cost? | 你们能不能也跟踪我们发往英国的订单？大概要多少钱？
+@s: Thanks, Sarah | 谢谢！Sarah
+@br:
+@s: SwiftLink has three **pricing** **tiers**: **basic**, **standard** and **premium**. | SwiftLink 的套餐按价格分三档：基础版、标准版和高级版。
+@s: Sarah is on the standard plan and often hits her monthly order **limit**. | Sarah 用的是标准版，每个月的订单额度经常用满。
+@s: Lily checks with Emma. | 林晓先去找 Emma 确认。
+@s: Lily: Do we track UK orders yet? | 林晓：我们现在能跟踪英国的订单了吗？
+@s: Emma: Not yet. **Currently**, we only cover **domestic** U.S. orders. | Emma：还不能。目前我们只覆盖美国国内的订单。
+@s: Emma: The UK is next. We're aiming for next year. | Emma：下一个就是英国，目标是明年。
+@s: Lily: Will it be **compatible** with her online store? | 林晓：到时候能和她的网店兼容吗？
+@s: Emma: Yes, it will. | Emma：能兼容。
+@s: Lily: Good. What can I offer her for now? | 林晓：好。那现在我能给她提供点什么？
+@s: Emma: A free **trial** of premium. | Emma：免费试用高级版。
+@s: Emma: She can also **customize** her tracking page. | Emma：她还能自己定制跟踪页面。
+@s: Lily: And if she doesn't want to **upgrade** after the trial? | 林晓：要是试用完她不想升级呢？
+@s: Emma: That's fine. Our plans are **flexible**. | Emma：没关系，我们的套餐很灵活。
+@s: Emma: We'll send her a **quote** when UK pricing is ready. | Emma：英国的价格定下来以后，我们再给她报价。
+@br:
+@s: Lily writes back: | 林晓回信：
+@s: Hi Sarah, | Sarah 你好：
+@s: **Thanks for your interest** in our UK tracking service. | 感谢您关注我们的英国跟踪服务。
+@s: The short answer is not yet. We don't support UK orders **at the moment**. | 简单地说：暂时还不行。我们目前还不支持英国订单。
+@s: We're planning to **expand** to the UK next year. Premium users will get it first. | 我们计划明年把服务扩展到英国，高级版用户会最先用上。
+@s: **In the meantime**, you can try our premium plan **free of charge**. | 在这之前，您可以先免费试用我们的高级版。
+@s: The trial lasts thirty days and includes a higher order limit. | 试用期三十天，订单额度也更高。
+@s: With an **annual** **subscription**, you also get two months free. | 如果选择年付，还能多送两个月。
+@s: I'd be happy to give you a quick **demo** this week. | 这周我很乐意给您做个简短的演示。
+@s: **Feel free to** contact me if you have any questions. | 如果有任何问题，欢迎随时联系我。
+@s: Best regards, Lily | 祝好！林晓
+@br:
+@s: Tom reads her draft. | 张涛看了看她的草稿。
+@s: Tom: Nice. The answer is in the second line. Customers love that. | 张涛：不错，第二行就给了答案。客户最喜欢这样。
+
+@v: inquiry | = | n. | ˈɪŋkwəri | （客户的）咨询；询问 | 客户来信问产品、价格、服务范围 | a customer inquiry；an inquiry about…；reply to an inquiry | We get about fifty inquiries a day about shipping times. | 我们每天大约收到五十条关于配送时效的咨询。 | 「咨询」不要说 ✗ consult（consult 是「去请教专家」：consult a doctor）；客户来问事情是 an inquiry about…，介词用 about；美国人也常读 `/ɪnˈkwaɪri/`，两种都对；英式拼写常作 enquiry；口语里更常直接说 a question。
+@v: overseas | = | adj./adv. | ˌoʊvərˈsiːz | 海外的；在海外 | 说海外顾客、海外订单、出国工作 | overseas customers；overseas orders；ship overseas | We ship overseas, but it takes longer. | 我们也发海外，只是时间更长。 | 「海外」以说话人自己的国家为准：Sarah 在美国，她的 overseas customers 是美国以外的顾客；作副词前面不加 to：✗ go to overseas → ✓ go overseas；词尾有 s，读 `/z/`，不说 ✗ oversea。
+@v: pricing | = | n. | ˈpraɪsɪŋ | 定价；收费方案 | 介绍套餐价格、谈怎么收费 | our pricing；pricing plans；pricing for… | How does your pricing work? | 你们是怎么收费的？ | price（第一册）是某样东西的「价格」，pricing 是整套「怎么定价、怎么收费」，不可数，✗ pricings；官网上的「价格页」叫 the pricing page。
+@v: tiers | tier | n. | tɪrz | （价格、服务的）档；级别 | 介绍套餐分几档、会员等级 | pricing tiers；the top tier；a three-tier plan | The top tier includes phone support. | 最高档包含电话支持。 | 中文「档」「级」「版」，讲套餐时英文用 tier 或 plan；tier 只有一个音节 `/tɪr/`，和 tear（眼泪）同音，别读成两拍的「踢耳」；「第一梯队」也可以说 the first tier。
+@v: basic | = | adj. | ˈbeɪsɪk | 基础的；最基本的 | 套餐里最便宜、功能最少的一档；也说基础知识 | the basic plan；basic features；basic English | The basic plan covers up to a hundred orders a month. | 基础版每个月最多覆盖一百个订单。 | 套餐里的 basic 是「入门版」，没有贬义；第一个音节读 `/beɪ/`（像字母 A），不读 /bæ/；「基础知识」作名词说 the basics：Let's start with the basics.
+@v: standard | = | adj./n. | ˈstændərd | 标准的；普通的（默认档） | 中间一档、默认选项；也说「标准、水平」 | the standard plan；standard shipping；a high standard | Standard shipping takes five to seven days. | 普通配送需要五到七天。 | 作形容词常常就是「普通的、默认的」：standard shipping 是「普通快递」，不是「标准化的快递」；作名词是「标准」：meet the standard；重音在前 STAN-dard，结尾的 d 很轻。
+@v: premium | = | adj. | ˈpriːmiəm | 高级的；（付费更多的）高级版 | 最贵、功能最全的一档；高端产品 | the premium plan；premium features；premium users | Premium users can call us twenty-four hours a day. | 高级版用户可以全天 24 小时打电话找我们。 | 「高级版」「尊享版」用 premium，不说 ✗ senior plan / ✗ high-level plan；作名词还有「保险费」的意思（insurance premium，D76 会用到保险）；重音在前 PRE-mi-um，`/iː/` 要拉长。
+@v: limit | = | n. | ˈlɪmɪt | 上限；额度 | 套餐用量、限额、时间限制 | a monthly limit；hit / reach the limit；a time limit | You've reached your monthly limit of 500 orders. | 您本月 500 单的额度已经用完了。 | 「额度用满了」说 hit / reach the limit，不说 ✗ the limit is full；中文「上限」「限额」「额度」都可以用 limit；也能作动词：We limit each account to five users.
+@v: Currently | currently | adv. | ˈkɜːrəntli | 目前；现阶段 | 说产品、服务现在的状态（暗示以后可能会变） | We currently…；is currently available；currently in testing | The app is currently available in English only. | 这个 app 目前只有英文版。 | currently 是「现阶段如此」，带着「以后可能会变」的意思，写进邮件比 now 更稳；别和第一册的 actually（其实）弄混——很多人把「实际上」说成 ✗ currently；位置：句首加逗号、be 动词后或实义动词前：We currently support… / It's currently…
+@v: domestic | = | adj. | dəˈmestɪk | 国内的 | 区分国内订单和海外订单、国内航班 | domestic orders；domestic flights；domestic shipping | Domestic flights leave from Terminal 3. | 国内航班从 3 号航站楼出发。 | domestic 指「说话人自己国家的」：Sarah 说 domestic orders 是美国国内，林晓在深圳对同事说 domestic 就是中国国内——跟美国卖家讲时最好说清楚：domestic U.S. orders；反义词是 international / overseas；重音在中间 do-MES-tic。
+@v: compatible | = | adj. | kəmˈpætəbl | 兼容的；能配合使用的 | 问软件、系统、设备能不能一起用 | compatible with…；fully compatible；not compatible | Is this charger compatible with my phone? | 这个充电器我的手机能用吗？ | 后面接 with：compatible with your store，不说 ✗ compatible to；「不兼容」说 not compatible 或 incompatible；重音在 PAT，t 在美式里闪音，像轻轻的 d：com-PAD-a-ble。
+@v: trial | = | n. | ˈtraɪəl | 试用；试用期 | 软件、套餐、服务的免费试用 | a free trial；a 30-day trial；start a trial | Start your free trial today. | 今天就开始免费试用吧。 | 「免费试用」说 a free trial，不说 ✗ a free try；产品的「试用期」是 trial (period)，员工的「试用期」是 probation（D59），别混；trial 还有「审判」的意思，要看上下文；两个音节 TRI-al。
+@v: customize | = | v. | ˈkʌstəmaɪz | 定制；按自己的需要设置 | 改页面、报表、设置，让它符合自己的品牌和习惯 | customize the page；customize your settings；fully customized | You can customize the report with your own logo. | 您可以在报表上加上自己的 logo，按需定制。 | 中文「定制」「自定义」都能说 customize；形容词用 custom：a custom page（定制页面）；重音在第一个音节 CUS-tom-ize，不读 cus-TOM-ize。
+@v: upgrade | = | v./n. | ˌʌpˈɡreɪd | 升级（套餐、系统、座位） | 换到更高一档的套餐或服务 | upgrade to premium；upgrade your plan；a free upgrade | You can upgrade to the premium plan at any time. | 您随时可以升级到高级版。 | 「升级到……」说 upgrade to…，不说 ✗ upgrade into；反义词 downgrade（降级）；作动词重音常在后 up-GRADE，作名词重音在前：a free UP-grade。
+@v: flexible | = | adj. | ˈfleksəbl | 灵活的；可以调整的 | 说套餐、时间、规定可以变通 | flexible plans；flexible hours；be flexible about… | My working hours are pretty flexible. | 我的上班时间挺灵活的。 | 「灵活」不说 ✗ alive / ✗ active；说人说事都行：Our plans are flexible. / I'm flexible on the date.（日期我都可以）；x 读 `/ks/`，结尾 -ible 读 `/əbl/`，很轻。
+@v: quote | = | n. | kwoʊt | 报价；报价单 | 给客户具体价格、向供应商询价 | send a quote；get a quote；a price quote | Can you send me a quote for 5,000 boxes? | 能给我发一份 5000 个箱子的报价吗？ | 「给我报个价」说 Can you give me a quote?，不说 ✗ report a price；正式的书面报价单也叫 quotation；quote 还有「引用」的意思：quote a line；qu 读 `/kw/`，别读成「扣特」。
+@v: Thanks for your interest | thanks for your interest | phr. | ˌθæŋks fər jər ˈɪntrəst | 感谢您的关注（回复咨询的开场白） | 回复潜在客户或老客户对产品、服务的询问 | thanks for your interest in…；Thank you for your interest in…；We appreciate your interest. | Thanks for your interest in our new app. | 感谢您关注我们的新 app。 | interest 后面接 in：✗ interest of / ✗ interest to；第二册的 interest 是银行「利息」（D48），这里是「兴趣、关注」；只在对方「来问我们的产品」时用，回复投诉不能用；interest 读两个音节 `/ˈɪntrəst/` 就很自然。
+@v: at the moment | = | phr. | æt ðə ˈmoʊmənt | 目前；眼下；此刻 | 说现在的状态（暂时的），配否定句很委婉 | at the moment；not at the moment；He's busy at the moment. | Mike is in a meeting at the moment. | Mike 这会儿在开会。 | 暗示「只是现在这样，以后会变」：We don't support it at the moment.；不说 ✗ in the moment（意思是「全神贯注于当下」）；邮件里也可以用 currently，口语常说 right now。
+@v: expand | = | v. | ɪkˈspænd | 扩展；扩大（业务、服务范围） | 公司扩张到新地区、扩充团队 | expand to the UK；expand into new markets；expand our team | We're expanding our team in Seattle. | 我们正在扩充西雅图的团队。 | 「扩展到某地」说 expand to / into + 地方，不说 ✗ expand the UK（那成了「把英国变大」）；名词是 expansion；第一个音节弱读 `/ɪk/`，重音在后 ex-PAND。
+@v: In the meantime | in the meantime | phr. | ɪn ðə ˈmiːntaɪm | 在此期间；（正式方案出来之前）先…… | 给过渡方案、等结果时先做的事 | In the meantime, …；in the meantime, you can…；Meanwhile, … | Your new card will arrive next week. In the meantime, you can use the app. | 新卡下周寄到，在这之前您可以先用 app。 | 中文「在这之前」「这段时间先……」，英文放句首、加逗号：In the meantime, …；不说 ✗ in the meanwhile；meantime 是一个词，重音在 mean。
+@v: free of charge | = | phr. | ˌfriː əv ˈtʃɑːrdʒ | 免费（的） | 正式地说某项服务不收钱：邮件、公告、合同 | free of charge；provided free of charge；at no charge | Delivery is free of charge for orders over $50. | 订单满 50 美元免运费。 | 比 for free 正式，适合邮件和公告；放在动词或名词后面：try it free of charge，不放在名词前：✗ a free of charge trial → ✓ a free trial；charge 这里是「收费」，第一册 in charge of 的 charge 是「负责」。
+@v: annual | = | adj. | ˈænjuəl | 每年的；年度的；按年的 | 年付套餐、年会、年报 | an annual plan；an annual subscription；an annual report | Our annual meeting is in December. | 我们的年会在十二月。 | 「年付」说 an annual plan / pay annually，「月付」是 monthly（D45）；「年会」说 the annual meeting / party，不说 ✗ year meeting；三个音节 AN-nu-al，nu 读 `/nju/`，别读成「安诺」。
+@v: subscription | = | n. | səbˈskrɪpʃn | 订阅；（按月或按年付费的）会员、套餐 | 软件订阅、视频和音乐会员 | an annual subscription；cancel a subscription；a monthly subscription | I canceled my music subscription last month. | 我上个月把音乐会员退订了。 | 中文的「会员」「订阅」「套餐」，软件公司都说 subscription；动词是 subscribe to：subscribe to our newsletter；重音在 SCRIP：sub-SCRIP-tion。
+@v: demo | = | n. | ˈdemoʊ | （产品）演示 | 给客户演示软件怎么用、内部展示新功能 | give a demo；a quick demo；book a demo | Can you give the team a quick demo on Friday? | 你周五能给团队做个简短的演示吗？ | demo 是 demonstration 的简称，职场口语和邮件都常用；「做演示」说 give / do a demo，不说 ✗ make a demo（make a demo 是「做一个样品版本」）；重音在前 DEM-o。
+@v: Feel free to | feel free to | phr. | ˌfiːl ˈfriː tə | 请随时……；尽管…… | 邮件结尾、请对方随意提问或联系 | feel free to contact me；feel free to ask；Feel free to call. | Feel free to ask me if anything is unclear. | 有不清楚的地方尽管问我。 | 后面接动词原形：feel free to contact me；「欢迎联系我」不说 ✗ Welcome to contact me；contact（第一册）直接接人，不加 with：✗ contact with me。
+
+@diff: 回复咨询——先感谢、直接回答，再给细节
+@d_cn: 客户问「能不能做、要多少钱」，中文回复常先感谢支持、介绍公司的发展，绕一大圈，最后才说「目前暂不支持」。
+@d_en: Thanks for your interest in our UK tracking service. The short answer is not yet. We don't support UK orders at the moment.
+@d_why: 中文商务邮件讲究铺垫：先谢谢「长期以来的支持」，再讲公司的情况和计划，把「不行」放在最后，觉得这样更客气。美国客户读邮件很快，常常只看前两行；第一段里找不到答案，他会觉得你在绕弯子，甚至以为你在回避问题。英文回复咨询的顺序是：**① 一句感谢**（Thanks for your interest in… / Thanks for reaching out.）**② 直接回答**（Yes, we do. / Not yet. / The short answer is…）**③ 细节**（什么时候、什么条件、多少钱）**④ 下一步**（试用、演示、报价、Feel free to…）。这就是张涛说的「先说结论」：答案是「不行」的时候也要放在前面，再用后面的计划和过渡方案把语气补回来——林晓第二行就说了 not yet，后面六句全是 Sarah 现在能做的事。
+@d_when: 回复客户咨询、回答同事在邮件里的提问、回复卖家在聊天窗口里的问题。
+@d_vs: ✗ Thank you for your long-term support. Our company has grown a lot this year…（第五句才说）Unfortunately, UK orders can't be supported now.\n✓ **Thanks for your interest in our UK tracking service. The short answer is not yet.**\n✓ **Thanks for asking. Yes, we do!**（能做就直接说）\n✓ **Thanks for reaching out. Unfortunately, not at the moment.**
+@d_task: Priya 问：能不能把跟踪数据导出成表格？（能，在 Reports 页面点 Export 就行）用「感谢 + 直接回答 + 细节」写两三句。 | Thanks for your question. Yes, you can! Just go to the Reports page and click "Export."
+@diff: 「目前还不支持」——We don't support … at the moment.
+@d_cn: 现在还做不到，但以后可能会有：「暂不支持」「目前还没有这个功能」。
+@d_en: We don't support UK orders at the moment. / We don't support UK orders yet. / UK orders aren't currently supported.
+@d_why: 中文「暂不支持」「现在不能」，学生常直译成 ✗ We can't support UK orders now.——can't 在英文里听起来是「我们没这个能力、根本办不到」，客户会以为永远不会有；now 放在句尾，还像「现在不行，待会儿就行」。英文说服务范围用一般现在时 **don't support**（陈述事实），再用 **at the moment / currently / yet** 点明「只是目前这样」。说完马上接计划（We're planning to… next year.），客户就知道「以后会有」。三个词的语气：**yet** 最口语，放句尾（not yet / We don't support it yet.）；**at the moment** 邮件、口语都行；**currently** 最书面，适合写进邮件和官网（UK orders aren't currently supported.）。
+@d_when: 客户问你们还没有的功能、地区、语言、付款方式时。
+@d_vs: ✓ **We don't support UK orders at the moment.** 我们目前还不支持英国订单。\n✓ **We don't offer text alerts yet.** 我们还没有短信提醒。\n✓ **UK orders aren't currently supported.**（更书面，常见于官网）\n✗ We can't support UK orders now.（听起来像「我们办不到」）\n✗ We are not support UK orders.
+@d_task: 一个卖家问：你们的跟踪页面有没有西班牙语版？告诉他：目前还不支持，我们计划明年加上。 | We don't support Spanish at the moment. We're planning to add it next year.
+@diff: 「有问题随时联系我」——Feel free to contact me.
+@d_cn: 邮件结尾告诉对方：有什么问题都可以找我，别客气。
+@d_en: Feel free to contact me if you have any questions. / Feel free to reach out anytime. / Just let me know if you have any questions.
+@d_why: 中文的「欢迎随时联系」，最常见的直译是 ✗ Welcome to contact me.——英文 welcome to 后面跟地方或活动（Welcome to Shenzhen! / Welcome to the team!），不跟「联系」这样的动作。**Feel free to + 动词原形** 的意思是「你可以随意……，不用客气」，正好是中文「随时」「尽管」的语气。两个小坑：contact 直接接人，✗ contact with me；questions 用复数，✗ if you have any question。正式程度：Please don't hesitate to contact me. 最正式；Feel free to contact me. 适中，几乎什么邮件都能用；Just let me know! 最随意，适合熟悉的客户和同事。还有，别把三层客套堆在一句里：✗ If you have any questions, please feel free to contact me at any time, thank you!——美国人读起来又长又像模板。
+@d_when: 邮件和聊天消息的结尾；介绍完一项服务之后；请对方随意提问、提意见时。
+@d_vs: ✓ **Feel free to contact me if you have any questions.** 有问题随时联系我。\n✓ **Feel free to ask.** 尽管问。\n✓ **Just let me know!**（随意）\n✗ Welcome to contact me.\n✗ Please feel free to contact with me.
+@d_task: 你给 Leo 发了一份操作手册，告诉他：「有不清楚的地方尽管问我」，再说「随时可以来我工位找我」。 | Feel free to ask me if anything is unclear. Feel free to stop by my desk anytime.
+@diff: 「免费试用」——a free trial / free of charge
+@d_cn: 先不收钱，让客户用一段时间，满意了再付费。
+@d_en: You can try our premium plan free of charge. / Start a free trial. / You can try it for free for thirty days.
+@d_why: 中文「免费试用」四个字，学生常拼成 ✗ free try 或 ✗ free use。英文名词说 **a free trial**（trial = 试用），动词说 **try … free of charge / try … for free**。三种「免费」分清位置和场合：**free** 放在名词前（a free trial, free shipping）；**for free** 放在句尾，口语最常用（You can try it for free.）；**free of charge** 也放在句尾，更正式，适合邮件、合同和公告。✗ a free of charge trial 不对——free of charge 不放在名词前。还有一点文化差异：美国的软件试用常常要先绑信用卡，试用结束自动扣费，很多客户因此犹豫；如果你们不需要绑卡，加一句 No credit card needed. 客户会放心很多。
+@d_when: 推广套餐、回复咨询、给客户补偿（a free upgrade）的时候。
+@d_vs: ✓ **You can try our premium plan free of charge.**（邮件，正式）\n✓ **You can try it for free.**（口语）\n✓ **Start your free trial today.**（广告、按钮）\n✗ a free try / ✗ a free of charge trial\n**trial period** 产品试用期 ≠ **probation** 员工试用期（D59）
+@d_task: 告诉 Priya：她可以免费试用新的报表功能两周，不用绑卡。 | You can try the new reports feature free of charge for two weeks. No credit card needed.
+
+@core: Thanks for your interest in … | 回复咨询的第一句 | our UK tracking service / our premium plan / SwiftLink | 正式：Thank you for your interest in our services.｜随意：Thanks for asking about…
+@core: The short answer is yes / not yet. | 第二句就给答案，再展开 | yes / not yet / no, but… | 正式：To answer your question directly, …｜随意：Short answer? Not yet.
+@core: We don't support … at the moment. | 说「暂不支持」，暗示以后会有 | UK orders / text alerts / Spanish | 正式：… is not currently supported.｜随意：We don't do … yet.
+@core: We're planning to … next year. | 说计划，让客户知道以后会有 | expand to the UK / add text alerts / launch an app | 正式：We plan to launch … early next year.｜随意：It's coming next year.
+@core: In the meantime, you can … | 给一个现在就能用的过渡方案 | try our premium plan / use email alerts / export the data | 正式：In the meantime, we'd be happy to…｜随意：For now, you can…
+@core: You can try … free of charge. | 免费试用、免费服务 | our premium plan / the new reports / it for thirty days | 正式：… is provided free of charge.｜随意：You can try it for free.
+@core: I'd be happy to give you a quick demo. | 主动提出下一步 | a quick demo / a call / a quote | 正式：I'd be glad to arrange a demo at your convenience.｜随意：Want a quick demo?
+@core: Feel free to contact me if you have any questions. | 邮件结尾，请对方随时联系 | contact me / ask / reply to this email | 正式：Please don't hesitate to contact me.｜随意：Just let me know!
+
+@pw: inquiry | ˈɪŋkwəri | 3 个音节 IN·quir·y | 重音在第一个音节；n 在 k 前读 `/ŋ/`；也有人读 in-QUIRE-y `/ɪnˈkwaɪri/`，两种都对
+@pw: overseas | ˌoʊvərˈsiːz | 3 个音节 o·ver·SEAS | 主重音在最后；结尾是 `/z/`，不是 /s/
+@pw: compatible | kəmˈpætəbl | 4 个音节 com·PAT·i·ble | 重音在 pat，`/æ/` 嘴张大；t 闪音，像 com-PAD-a-ble
+@pw: subscription | səbˈskrɪpʃn | 3 个音节 sub·SCRIP·tion | 重音在 scrip；sub 弱读成 `/səb/`；tion 读 `/ʃn/`
+@pw: premium | ˈpriːmiəm | 3 个音节 PRE·mi·um | 重音在前，`/iː/` 拉长；后两个音节很轻，但不能吞掉
+@pw: annual | ˈænjuəl | 3 个音节 AN·nu·al | nu 读 `/nju/`，像 new 的开头；别读成 /ˈænəl/
+@pw: customize | ˈkʌstəmaɪz | 3 个音节 CUS·tom·ize | 重音在第一个音节；tom 弱读成 `/təm/`；ize 读 `/aɪz/`
+@ps: **Thanks** for your **in**terest / in our U**K** **track**ing service. | for your 弱读成 `/fər jər/`；UK 是两个字母，重音在 K：`/ˌjuːˈkeɪ/`；tracking service 是复合名词，重音落在 tracking 上。
+@ps: The **short** **an**swer is / **not** **yet**. / We **don't** sup**port** U**K** orders / at the **mo**ment. | not yet 两个词都重读，是整封邮件的「答案」；don't 的 t 碰到 support 只做口型；at the 连成 `/ət ðə/`。
+@ps: In the **mean**time, / you can **try** our **pre**mium plan / free of **charge**. | can 在肯定句里弱读成 `/kən/`，几乎听不见；如果是 can't，元音饱满 `/kænt/`、要重读——听 can / can't 靠元音和重音，不靠最后那个 t；of 弱读成 `/əv/`。
+@ps: The **tri**al lasts **thir**ty days / and in**cludes** a **high**er order limit. | thirty 重音在前 THIR-ty，t 闪音像轻 d；thirteen 重音在后 thir-TEEN，t 很清楚；lasts 结尾三个辅音 `/sts/`，别加元音读成「拉斯特斯」。
+@pnote: 数字听辨：thirty days（30 天）和 thirteen days（13 天）只差重音——-ty 结尾重音在前、t 发得像 d；-teen 结尾重音在后、t 清楚、ee 拉长。打电话确认试用天数时，可以追问一句 Three-zero? 或 Is that thirty, three-oh?。two months free 里的 free 重读，因为它才是信息重点。
+@pnote: 写 vs 说：邮件里写 currently / at the moment / in the meantime / free of charge / Thanks for your interest in…；电话里同样的意思常说 right now / for now / for free / Thanks for asking!。另外，很多中国学生以为缩写不正式，写客户邮件时坚持写 We do not / We are / It will；其实美国的客户邮件里 We don't、We're、you'll 很普遍，听起来友好又专业，只有合同和正式通知才少用。
+@lfocus: not yet / at the moment / currently：听出「暂时不行」的信号
+@lfocus: can 弱读 `/kən/` vs can't `/kænt/` 重读
+@lfocus: thirty vs thirteen；UK 的重音在 K
+@dict: S10–S11
+@dict: S24–S27
+@res: 在 youglish.com 输入 "feel free to"，选 US，留意它后面接的都是动词原形，而且多数出现在句子开头。
+
+@mimic: 跟读【C】S9–S19 和 S21–S30：先逐句跟读 Emma 和林晓的对话，模仿 Not yet. / That's fine. 这种短回答的干脆语气；再把林晓的回信当成一段口头答复，正常语速连读下来，注意 not yet 的重读、can 的弱读和 thirty 的重音，录音。最后合上书，只看 Sarah 的两个问题，用自己的话口头回复她。
+@swap: We don't support UK orders at the moment. | 换服务：text alerts / Spanish / Canadian orders | We don't support text alerts at the moment.
+@swap: We're planning to expand to the UK next year. | 换计划：add Spanish / launch a mobile app；换时间：this fall / early next year | We're planning to launch a mobile app early next year.
+@swap: In the meantime, you can try our premium plan free of charge. | 换过渡方案：use our email alerts / export the data by hand / try the new reports | In the meantime, you can use our email alerts free of charge.
+@swap: Feel free to contact me if you have any questions. | 换动作和条件：book a demo / call me；if you'd like to see it / if anything is unclear | Feel free to book a demo if you'd like to see it.
+@free: Daniel 问：跟踪页面上能不能放他店铺的 logo？（能，但需要高级版；他现在用基础版，可以先免费试用三十天） | Yes, it can! You'll need our premium plan for that. In the meantime, you can try it free of charge for thirty days.
+@free: Priya 问：你们能不能给 BrightNest 单独做一个数据看板？（目前不支持，明年计划推出；现在可以先导出数据自己做报表） | We don't support custom dashboards at the moment, but we're planning to add them next year. In the meantime, you can export the data and build your own reports.
+@free: 一位新卖家在聊天窗口问：你们怎么收费？（三档：基础、标准、高级；年付送两个月；可以约一次演示） | We have three pricing tiers: basic, standard and premium. With an annual subscription, you get two months free. I'd be happy to give you a quick demo this week.
+@free: 写一封回信的最后两三句：报价已经附上了；有问题随时联系；也可以约演示。 | I've attached a quote for the premium plan. Feel free to contact me if you have any questions. I'd also be happy to set up a quick demo.
+@output: 录 1.5–2 分钟「口头答复一位客户的咨询」：想象一位美国客户在视频会上问你们能不能提供某项服务，而你们目前还没有（短信提醒、新的国家、手机 app……）。按「感谢 → 直接回答（Not yet）→ 现状（Currently…）→ 计划（We're planning to…）→ 过渡方案（In the meantime… free of charge）→ 价格或优惠 → 下一步（demo）→ Feel free to…」来说，先说结论，再说细节，录音存档。
+@output_sample: Thanks for asking about text alerts, and thanks for your interest in our service. The short answer is not yet. We don't send text alerts at the moment. Currently, our system only sends email updates to your customers. But text alerts are one of the top requests from our sellers, so we're planning to add them early next year. Premium users will get them first. In the meantime, I have two ideas for you. First, you can customize our email updates. You can add your logo and a short message, so your customers know the email is from your store. Second, you can try our premium plan free of charge for thirty days. It has a higher order limit, and you'll be first in line for text alerts. After the trial, you can upgrade, or you can stay on your current plan. Our plans are flexible. And if you choose an annual subscription, you get two months free. I know it's not the answer you were hoping for, but I hope this helps for now. I'd be happy to give you and your team a quick demo of the premium plan this week. Does Wednesday afternoon work for you? And of course, feel free to contact me anytime if you have more questions.
+
+@check: 听力：Sarah 在邮件里问了哪两个问题？ | 一是能不能也跟踪她发往英国的订单；二是要多少钱。
+@check: 听力：Emma 说英国跟踪大概什么时候上线？林晓给 Sarah 的过渡方案是什么？ | 明年。过渡方案是先免费试用高级版三十天（高级版用户会最先用上英国跟踪，订单额度也更高）；她还提到年付送两个月，并主动提出这周做个演示。
+@check: 改错并说明原因：We can't support Spanish now. | can't 听起来像「我们办不到、以后也不会有」，now 放句尾也别扭。改成：We don't support Spanish at the moment. / We don't support Spanish yet.，后面最好再接一句计划。
+@check: 换个场景：一位潜在客户问你们有没有手机 app（目前没有，明年上线，现在可以用手机浏览器打开网页版）。写回信的前三句。 | Thanks for your interest in SwiftLink. We don't have a mobile app at the moment, but we're planning to launch one next year. In the meantime, you can use our website on your phone.
+@check: 「免费试用」能不能写成 a free of charge trial？三种「免费」各怎么用？ | 不能。a free trial（free 放在名词前）；try it for free（口语，放句尾）；try it free of charge（正式，放句尾）。
+@check: Sarah 说 domestic orders，林晓在深圳对中国同事说 domestic orders，意思一样吗？ | 不一样。domestic 指说话人自己国家的：Sarah 说的是美国国内的订单，林晓对中国同事说的就是中国国内的订单；所以跟美国卖家讲时最好说清楚 domestic U.S. orders。
+
+@next1: 不看书说出 5 个锚点句：S22、S23、S24、S25、S29
+@next1: 用「感谢 + 直接回答 + 计划 + 过渡方案 + Feel free to…」口头回复一个你们暂时不支持的功能
+@next7: 「暂不支持 + 计划 + 过渡方案」：We don't support … at the moment. / We're planning to… / In the meantime, you can…
+@next7: 三种「免费」：a free trial / for free / free of charge，各造一句关于你自己工作的话
