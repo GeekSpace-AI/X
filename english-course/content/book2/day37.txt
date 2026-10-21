@@ -1,0 +1,159 @@
+@day: 37
+@week: 1
+@review: true
+@title_cn: 第 1 周复习：第一次去英语角
+@title_en: Week 1 Review: My First English Corner
+@topic: 在英语角用英语介绍自己：在深圳住了多久、吃过什么、最近在做什么、有什么变化
+@think_short: for / since / ago｜I've been to / I went（经历 vs 那一次）｜just / already / yet｜I've been waiting（还在）vs I waited（结束）｜lately vs these days
+
+@goal_scene: 周六下午第一次去英语角，和一位陌生的搭档互相介绍：在深圳住了多久、什么时候搬来（for / since / ago），吃过什么（Have you ever…? — Yes, I have. I tried it…），最近在做什么、如今的习惯（lately / these days），这座城市和自己有什么变化；听懂对方的回答，最后交到一个新朋友。
+@goal_expr: How long have you lived in Shenzhen? — For three years. / I just found out about it. / Have you ever had morning tea? — Yes, I have. I tried it last month. / I've been practicing a lot lately. / Since I retired, five years ago. These days, I come every Saturday. / Joe has already invited me.
+@goal_vocab: 复现本周（Day 31–36）17 个和第一册 4 个旧词（虚线标出）+ 7 个新词 + 1 个短语：volunteer, topic, partner, introduce, nickname, conversation, fluent, make friends
+@done: 能不看原文，按【H】第 1 层的 10 个提示用 8–10 句英文复述故事，带具体过去时间（ago / last month / after college）的句子全部用过去式
+@done: 能分清 for / since / ago、I've tried / I tried it last month、just / already / yet、I've been waiting / I waited、lately / these days，每组说出一个正确句子和中文理由
+@done: 能在英语角或饭桌上用 6–8 句英文介绍自己：住了多久、吃过什么、最近在做什么、有什么变化，并能接住对方的问题
+
+@warmup_hint: 6 句热身：5 句来自本周的五天（Day 31、33、34、35、36），最后 1 句来自第一册 Day 10——它和【E】第 2 组「经历 vs 那一次」是同一个知识点。第 2、4 句的 has 和第 3 句的过去式 died / couldn't 是第一册留下来的薄弱项。遮住答案，5 秒内说出英文；说不出的打 ★，记下右边的 D#，最后一步把它写进下周的热身。
+@warmup: Kevin 和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+@warmup: 张涛宣布了吗？——还没有。 | Has Tom announced it yet? — Not yet. | D33
+@warmup: 我手机没电了，所以没法给你打电话。 | My phone died, so I couldn't call you. | D34
+@warmup: 你奶奶这阵子每天晚上都去广场跳舞。 | Grandma has been dancing in the square every evening. | D35
+@warmup: 四十年前，这里还是个小渔村。 | Forty years ago, this was a fishing village. | D36
+@warmup: 我去过北京和上海。我去年去北京旅游了一趟。 | I've been to Beijing and Shanghai. I went to Beijing on a trip last year. | D10
+
+@scene: 又是一个周六下午，林晓第一次去英语角。地点在她住处附近的一家咖啡馆，是 Emma 周四才告诉她的。每周六下午，来自美国的志愿者 Ben 定一个话题，大家两两结对聊天。今天的话题是「我在深圳的生活」，和林晓搭档的是一位六十多岁的深圳本地人王健——他退休以后才开始学英语。这一周，林晓在饭桌上、商场门口、视频里、张涛的车上学了「住了多久」「吃过吗」「刚、已经、还没」「最近」「变化」，今天要在一个陌生人面前一次用出来。
+@sp: 人物关系 | 林晓 ↔ 王健（Joe）：第一次见面的英语角搭档，年龄差了四十岁，说话友好、客气；Ben 是主持人，负责定话题、计时
+@sp: 沟通目的 | 按话题互相介绍：在深圳住了多久、什么时候来的、吃过什么、最近在做什么、这座城市和自己有什么变化；结束时交个朋友
+@sp: 已知信息 | 两人互相一无所知：Joe 不知道林晓是第一次来；林晓不知道 Joe 是土生土长的深圳人，更不知道他退休后才学的英语
+@sp: 表达重点 | 住了多久：For three years.（for / since）→ 搬来是一个过去的时间点：after college / five years ago（过去式）→ 经历和那一次：Have you ever…? — Yes, I have. I tried it last month. → 刚、已经：just found out / has already invited → 最近和如今：lately + have been -ing / these days + 一般现在时
+
+@story_title: Episode 37 · My First English Corner
+@story_type: 叙述 + 对话（新情境 · 英语角）
+@s: On Saturday afternoon, Lily goes to an English corner in a [[café]] [[for the first time]]. | 周六下午，林晓第一次去咖啡馆里的一个英语角。
+@s: Ben: Welcome, everyone! I'm Ben, a **volunteer** here. | Ben：欢迎大家！我叫 Ben，是这里的志愿者。
+@s: Ben: Today's **topic** is "My Life in Shenzhen." Find a **partner** and **introduce** yourselves. | Ben：今天的话题是「我在深圳的生活」。大家找个搭档，互相介绍一下吧。
+@s: A man in his sixties smiles at Lily. | 一位六十多岁的大叔冲林晓笑了笑。
+@s: Joe: Hi! I'm Wang Jian, but my English **nickname** is Joe. | Joe：你好！我叫王健，英文昵称是 Joe。
+@s: Lily: Nice to meet you. I'm Lily. I'm a little [[nervous]]. | 林晓：很高兴认识您。我叫林晓。我有点紧张。
+@s: Joe: Don't worry. It's just a **conversation**. First time here? | Joe：别紧张，就是聊聊天。第一次来？
+@s: Lily: Yes. I [[just]] [[found out]] about it from my coworker Emma. | 林晓：对。我刚从同事 Emma 那儿知道有这个英语角。
+@br:
+@s: Joe: So, how long have you [[lived]] in Shenzhen? | Joe：那你在深圳住了多久了？
+@s: Lily: For three years. I [[moved to]] Shenzhen after college. And you? | 林晓：三年了。我大学毕业以后搬来的深圳。您呢？
+@s: Joe: I'm a real [[local]]. I've lived here [[all my life]]. | Joe：我是地地道道的本地人，一辈子都住在这儿。
+@s: Joe: Fifty years ago, this was a small fishing [[village]]. | Joe：五十年前，这里还是个小渔村。
+@s: Lily: Wow. Shenzhen has [[changed]] [[completely]]! | 林晓：哇，深圳真是完全变了样！
+@s: Joe: It has. And prices have [[gone up]] a lot! | Joe：可不是嘛。物价也涨了不少！
+@br:
+@s: Joe: [[Have you ever]] had morning tea? | Joe：你喝过早茶吗？
+@s: Lily: Yes, I have. I [[tried]] it last month. It was great! | 林晓：喝过。我上个月去喝的，特别棒！
+@s: Lily: But I've [[put on weight]] [[since]] I moved here! | 林晓：不过我来深圳以后长胖了！
+@s: Joe: Me too! By the way, your English is very **fluent**. | Joe：我也是！对了，你的英语说得很流利。
+@s: Lily: Thanks! I've been practicing a lot [[lately]]. | 林晓：谢谢！我最近一直在练。
+@s: Lily: How long have you been learning English? | 林晓：您学英语多久了？
+@s: Joe: Since I [[retired]], five years ago. These days, I come every Saturday. | Joe：从退休开始学的，那是五年前。现在我每周六都来。
+@br:
+@s: Ben: OK, time's up! Did you all **make friends**? | Ben：好，时间到！大家都交到朋友了吗？
+@s: Lily: Yes! Joe has [[already]] invited me to morning tea next Saturday. | 林晓：交到了！Joe 已经约我下周六去喝早茶了。
+@s: Ben: Great! Have you joined our group chat yet? | Ben：太好了！你进我们的群了吗？
+@s: Lily: Not yet. I'll do it now. | 林晓：还没有，我现在就进。
+@s: Lily: [[Honestly]], this was the best part of my week! | 林晓：说实话，这是我这一周最开心的时刻！
+
+@v: volunteer | = | n. | ˌvɑːlənˈtɪr | 志愿者 | 英语角、社区活动、大型活动里不拿报酬来帮忙的人 | a volunteer at…；volunteer work；volunteer to do sth（主动提出做某事） | She's a volunteer at the city library on weekends. | 她周末在市图书馆当志愿者。 | 重音在最后一个音节 vol·un·TEER，不读成「我能踢」；「当志愿者」说 be a volunteer / volunteer at…，不说 ✗ do a volunteer；它也能当动词：I volunteered to take notes.（我主动提出做记录）——美国同事主动揽一件活儿时常这么说。
+@v: topic | = | n. | ˈtɑːpɪk | 话题；（讨论的）主题 | 英语角、会议、聊天时说「聊什么」 | today's topic；a good topic；change the topic | What's the topic of today's meeting? | 今天开会讨论什么？ | 「换个话题」说 change the topic（加 the），也可以说 Let's talk about something else.；「话题」不说 ✗ talk title；to 读 `/tɑː/`，嘴巴张大，不读「托皮克」。
+@v: partner | = | n. | ˈpɑːrtnər | 搭档；伙伴（也指生意伙伴、生活伴侣） | 英语角、课堂上两人一组练习；工作里的合作方 | find a partner；work with a partner；a business partner | Work with a partner and practice the dialogue. | 和你的搭档一起练这段对话。 | 课堂上「两人一组」说 Find a partner. / Work in pairs.；Day 33 提过，美国人介绍伴侣常用中性的 partner，所以介绍同事别说 ✗ This is my partner Grace.，说 my coworker Grace；t 在 n 前常只做口型：PART-ner。
+@v: introduce | = | v. | ˌɪntrəˈduːs | 介绍（认识） | 自我介绍；把一个人介绍给另一个人 | introduce yourself；introduce A to B；Let me introduce… | Let me introduce you to my manager, Tom. | 我来给你介绍一下我的经理张涛。 | 「把 A 介绍给 B」用 to：introduce Lily to Joe，不说 ✗ introduce Joe Lily；「自我介绍」说 introduce myself / yourselves，不说 ✗ introduce me；当面介绍时美国人更常直接说 Joe, this is Lily.；重音在最后：in·tro·DUCE。
+@v: nickname | = | n. | ˈnɪkneɪm | 昵称；外号；（中国人起的）英文名 | 自我介绍时说英文名；朋友之间的外号、小名 | my nickname；an English nickname；call sb by a nickname | My real name is Chen Le, but everyone calls me Leo. | 我的真名叫陈乐，不过大家都叫我 Leo。 | 中国人起的英文名，说 My English name is Joe. 或 My English nickname is Joe. 都行；nickname 在美国更常指外号、小名（Robert → Bob）；对方说 Call me Joe.，就直接叫 Joe，不用加 Mr.。
+@v: conversation | = | n. | ˌkɑːnvərˈseɪʃn | 对话；交谈；聊天 | 英语角、和同事闲聊、电话里的交谈 | have a conversation；start a conversation；a short conversation | I had a long conversation with Emma at lunch. | 午饭时我和 Emma 聊了很久。 | 「和某人聊天」说 have a conversation with sb，不说 ✗ make a conversation；「搭话、开个头」说 start a conversation；重音在 SA：con·ver·SA·tion，前面三个音节都要轻。
+@v: fluent | = | adj. | ˈfluːənt | （外语）流利的 | 夸别人外语说得好；说自己的语言水平 | fluent English；speak fluent English；be fluent in… | Emma is almost fluent in Chinese. | Emma 的中文差不多算流利了。 | 「他英语很流利」说 His English is very fluent. / He's fluent in English. / He speaks fluent English.——✗ He speaks English very fluent.（修饰动词要用副词 fluently）；别人夸你，大方说 Thanks!，不用中式谦虚 ✗ No, no, my English is very poor.；fluent ≠ 完美，有口音（D31 accent）也可以很流利。
+@v: make friends | = | phr. | ˌmeɪk ˈfrendz | 交朋友 | 到新城市、新公司，或参加活动时认识新朋友 | make friends；make new friends；make friends with sb | It's not easy to make friends in a new city. | 在一个新城市交朋友不容易。 | friends 一定用复数：✗ make friend；「和某人交朋友」是 make friends with sb：I made friends with Joe.（只有一个人，friends 也用复数）；不说 ✗ do friends / ✗ make a friendship；friend 是第一册学过的词（D11）。
+
+@diff: for / since / ago（复习 D31、D36）
+@d_cn: 「我在深圳住了三年了」「我是三年前搬来的」「我从大学毕业起就住在这儿」——同一件事，三种说法。
+@d_en: I've lived in Shenzhen for three years. / I moved here three years ago. / I've lived here since I graduated.
+@d_why: Day 31 学了 for 和 since，Day 36 又加了 ago，复习时最容易把三个词搅在一起。先问自己：说的是**一个过去的时间点**，还是**一段一直持续到现在的时间**？**ago** 从现在往回数，指向过去的一个点（three years ago = 三年前的那时候），配**过去式**：I moved here three years ago.；**for** 后面是一段长度，**since** 后面是一个起点，两个都在说「一直到现在」，配**现在完成时**：I've lived here for three years / since I graduated.。故事里 Joe 一句话就把两种时间分开了：Since I retired, five years ago.——since 说学英语从哪儿开始，ago 说那个起点在多久以前。最常见的三个错：✗ I've moved here three years ago.（ago 不配 have done）✗ I live here since 2023.（since 要配 have lived）✗ since three years（三年是一段，用 for）。
+@d_when: 回答 When did you…?（什么时候）→ 过去式 + ago / after college / in 2023；回答 How long have you…?（多久了）→ For… / Since…，主句用 have + 过去分词。
+@d_vs: **I moved to Shenzhen three years ago.** 我三年前搬来深圳。（时间点）\n**I've lived here for three years.** 我在这儿住了三年了。（一段时间）\n**Joe has been learning English since he retired.** Joe 从退休起就一直在学英语。（起点；第三人称 has）\n✗ I've moved here three years ago. ✗ I've lived here since three years.
+@d_task: 用 ago、for、since 把同一件事说三遍：「Kevin 和张涛是十多年前在大学认识的。」 | ① They got to know each other in college over a decade ago. ② They've known each other for over a decade. ③ They've known each other since college.
+@diff: 经历 vs 那一次：I've tried / I've been to vs I tried / I went（复习 D32，第一册 D10）
+@d_cn: 「我喝过早茶」「我去过北京」——只说有过这种经历；「我上个月喝的」「我去年去的」——说具体那一次。
+@d_en: Have you ever had morning tea? — Yes, I have. I tried it last month. / I've been to Beijing. I went there last year.
+@d_why: 中文「过」说经历，「上个月」「去年」说那一次，动词本身都不变。英文要换形式：不说是哪一次、只说「有没有过」→ **have + 过去分词**（I've tried / I've eaten / I've been to）；一说出时间、地点、场合 → 马上换成**过去式**（I tried it last month / I went there last year）。故事里林晓的回答就是标准的两步：**Yes, I have.**（经历）→ **I tried it last month.**（那一次）。Day 32 吴佳说 I tried it for the first time in Changsha.，也是在讲那一次。最常见的错：✗ I've been to Beijing last year.（经历和具体时间撞车）；回答 Have you ever…? 说成 ✗ Yes, I did.——问句用 have，回答也用 have。
+@d_when: 聊经历、推荐地方和食物 → Have you ever…? / I've…；接着补细节（什么时候、在哪儿、怎么样）→ 过去式。只答一句 Yes, I have. 就停，聊天容易冷场，美国人习惯马上补一句「那一次」。
+@d_vs: **Have you ever had morning tea? — Yes, I have.** 你喝过早茶吗？——喝过。\n**I tried it last month. It was great!** 我上个月喝的，特别棒！\n**I've been to Beijing. I went there last year.** 我去过北京，去年去的。\n✗ I've been to Beijing last year. ✗ Have you ever had…? — Yes, I did.
+@d_task: Joe 问你 Have you ever been to Hong Kong?（你去过一次，是去年春节和家人一起去的）——按「经历 → 那一次」两步回答。 | Yes, I have. I went there with my family during the Spring Festival last year.
+@diff: just / already / yet（复习 D33）
+@d_cn: 「我刚知道」「他已经约我了」「群你进了吗？——还没」——刚、已经、还没。
+@d_en: I just found out about it. / Joe has already invited me. / Have you joined our group chat yet? — Not yet.
+@d_why: Day 33 的三个词都在说「到现在为止的进展」，区别在位置和用法。**just**（刚）和 **already**（已经）放在动词前面：I **just** found out / Joe has **already** invited me；**yet** 只用在疑问句和否定句里，放在**句尾**：Have you joined it **yet**? / I haven't joined it **yet**.，最常用的回答是 **Not yet.**。中国学习者最常见的四个错：① 肯定句用 yet：✗ I've finished yet.（肯定句说 already）② 主语是第三人称却用 have：✗ Have Joe invited you?（第一册的老问题，说 Has Joe…?）③ 有具体时间还用 have done：✗ I've already sent it an hour ago. ④ 「还没」说成 ✗ Still not.（那是「居然还没有」的抱怨）。
+@d_when: 分享刚得到的消息 → just；说「早就办好了」、表示「这么快？」→ already；问进度、说「还没」→ … yet? / Not yet.
+@d_vs: **I just found out about it.** 我刚知道。\n**Joe has already invited me.** Joe 已经约我了。（第三人称 has）\n**Have you joined our group chat yet? — Not yet.** 群你进了吗？——还没。\n✗ I've finished yet. ✗ Have Joe invited you? ✗ I've already sent it an hour ago.
+@d_task: 英语角结束后，Emma 发消息问你，用英文回答：① Has Ben posted next week's topic yet?（还没）② Did you add Joe on WeChat?（已经加了）③ Any news?（Ben 刚把时间改成了下午三点） | ① Not yet. / No, he hasn't posted it yet. ② Yes, I've already added him. ③ Ben just changed the time to 3 p.m.
+@diff: I've been waiting（还在等）vs I waited（等完了）（复习 D34）
+@d_cn: 「我等了二十分钟了」（人还没来，我还站在这儿）／「我等了二十分钟，后来先进去了」（等这件事已经结束）。
+@d_en: I've been waiting for twenty minutes. / I waited for twenty minutes, so I went in first.
+@d_why: Day 34 林晓在商场门口发消息：I've been waiting for twenty minutes.——发消息的那一刻她还在等。**have been + -ing** 说的是「从过去一直做到现在、还没停」；**过去式** waited 说的是「那件事已经完了」，后面常跟结果（then I went home / so I went in）。今天的故事里，林晓说 I've been practicing a lot lately.——练英语还在继续；Joe 回答 Since I retired, five years ago.，补全了就是 I've been learning English since I retired.——他也还在学。还记得 Day 34 的提醒：know、like、have（拥有）这类表示状态的动词不加 -ing：✗ I've been knowing her for years. → ✓ I've known her for years.（D31）。
+@d_when: 发消息说已经等了多久、说一件一直在坚持的事 → I've been + -ing + for / since；事后讲经过 → 过去式。
+@d_vs: **I've been waiting for twenty minutes.** 我已经等了二十分钟了。（还在等）\n**I waited for twenty minutes, so I went in first.** 我等了二十分钟，就先进去了。（等完了）\n**I've been practicing a lot lately.** 我最近一直在练。（还在练）\n✗ I'm waiting for twenty minutes. ✗ I've been knowing her for years.
+@d_task: 用英文说：① （给 Joe 发消息）我在茶楼门口等了十分钟了，你在哪儿？② （第二天跟 Emma 讲）我等了十分钟，后来 Joe 来了。 | ① I've been waiting outside the restaurant for ten minutes. Where are you? ② I waited for ten minutes, and then Joe came.
+@diff: lately vs these days（复习 D35）
+@d_cn: 「我最近一直在练英语」（从前一阵一直到现在）／「我现在每周六都来」（如今的生活常态）。
+@d_en: I've been practicing a lot lately. / These days, I come every Saturday.
+@d_why: Day 35 讲过，中文一个「最近」包了好几种意思，英文按时间范围分开说。**lately** 看的是「从前一阵一直到现在」，配**现在完成时**：I've been practicing a lot lately. / I've been really busy lately.；**these days** 说的是「如今、这段日子的常态」，最常配**一般现在时**：These days, I come every Saturday.（Joe 的话）/ These days, Dad cooks every day.。所以问很久没见的人近况，用 What have you been up to lately?，不说 ✗ What are you busy with recently?。常见错误：✗ Lately I am very busy.；还有第一册的老问题——these days 后面主语是第三人称，动词别忘了 -s：✗ These days, Grandma dance every evening.
+@d_when: 说最近一直怎样、一直在做什么 → lately + have been；说如今的习惯、生活方式 → these days + 一般现在时；说前不久的某一件事 → recently + 过去式（I recently moved.）。
+@d_vs: **I've been really busy lately.** 我最近一直很忙。（持续到现在）\n**These days, Joe comes here every Saturday.** 如今 Joe 每周六都来。（常态；第三人称 comes）\n**What have you been up to lately?** 你最近在忙什么？\n✗ Lately I am very busy. ✗ These days, my dad cook every day.
+@d_task: 用英文说：① 我最近一直睡得不好。② 如今我妈每天晚上都去跳舞。 | ① I haven't been sleeping well lately. ② These days, my mom goes dancing every evening.
+
+@core: How long have you + 过去分词…? — For… / Since… | 来自 D31：问和答「……多久了」，那件事现在还在继续 | lived in Shenzhen / worked here / known Joe；for three years / since college | 正式：How long have you been with the company?｜随意：How long have you been here?
+@core: Have you ever + 过去分词…? — Yes, I have. I + 过去式… | 来自 D32：问经历，回答后马上补一句「那一次」 | had morning tea / been to Hong Kong；tried it last month / went there last year | 正式：Have you had a chance to try morning tea?｜随意：Ever had morning tea?
+@core: I just + 过去式. / 人 + has already + 过去分词. / … yet? — Not yet. | 来自 D33：说刚发生的事、已经办好的事和还没做的事 | just found out / has already invited me / joined the group chat yet | 正式：I have already sent the invitation.｜随意：Already done! / Not yet!
+@core: I've been + -ing + for / since… | 来自 D34：说一件还在进行、一直在坚持的事 | practicing English / learning to drive / waiting；since I joined / for ten minutes | 正式：I have been studying English since I retired.｜随意：Been practicing every day!
+@core: What have you been up to lately? — I've been… lately. / These days, I… | 来自 D35：问近况，回答最近一直在做的事和如今的习惯 | busy at work / practicing English；come every Saturday / cook every day | 正式：How have things been lately?｜随意：What've you been up to?
+@core: 地方 + has changed a lot. / … years ago, this was… / Prices have gone up. | 来自 D36：说一个地方从过去到现在的变化 | completely / so much；a fishing village / farmland | 正式：The city has changed significantly over the years.｜随意：It's totally different now!
+
+@pw: foreign | ˈfɔːrən | 2 个音节 FOR·eign（D31） | g 不发音；eign 只剩一个弱读的 `/ən/`，不读「佛瑞根」
+@pw: allergic | əˈlɜːrdʒɪk | 3 个音节 al·LER·gic（D32） | 重音在中间；g 读 `/dʒ/`；名词 allergy 重音却在前：AL·ler·gy
+@pw: announced | əˈnaʊnst | 2 个音节 an·NOUNCED（D33） | ou 读 `/aʊ/`；-ed 读 `/t/`，结尾三个辅音 `/nst/` 别丢
+@pw: honestly | ˈɑːnɪstli | 3 个音节 HON·est·ly（D34） | h 不发音，和 hour 一样；hon 嘴巴张大 `/ɑː/`
+@pw: countryside | ˈkʌntrisaɪd | 3 个音节 COUN·try·side（D36） | 重音在第一个音节；coun 读 `/kʌn/`，不读「康」
+@ps: How **long** have‿you **lived** in **Shen**zhen? ↘ / — For **three** **years**. | have you 弱读成 `/həvjə/`；How 开头的问句句尾下降；回答只说 For three years.，for 弱读成 `/fər/`，three 和 years 读重。
+@ps: **Since** I re**tired**, / **five** years‿a**go**. / **These** days, I come **ev**ery **Sat**urday. | years ago 连读成 year-za-go；since、five、ago 是时间线索，要读清楚；these days 后面是一般现在时 come，没有 have。
+@ps: Joe has‿al**read**y in**vit**ed me / to **morn**ing **tea** next **Sat**urday. | has 弱读成 `/əz/`，和 already 连成 `/əzɔːlˈredi/`，几乎听不见 has；invited 的 -ed 读 `/ɪd/`，多一个音节。
+@pnote: 本周弱读总复习：have → `/əv/`（How long have you…）、has → `/əz/`（Joe has already…、Shenzhen has changed）、been → `/bɪn/`（I've been practicing）、was → `/wəz/`（this was a fishing village）。这几个小词在正常语速里几乎听不见，听的时候抓后面的线索：过去分词（lived / tried / invited）、-ing，以及句尾的 for / since / ago / yet / lately。
+@pnote: 今天新词的重音：volunteer 和 introduce 的重音都在**最后**一个音节（vol·un·TEER、in·tro·DUCE），conversation 的重音在 SA（con·ver·SA·tion），中国学习者常把重音放到第一个音节；fluent 只有两个音节 `/ˈfluːənt/`，结尾 t 很轻，不读「弗卢恩特」。
+@lfocus: has already 连成 /əzɔːlˈredi/：has 几乎听不见，靠 invited 判断
+@lfocus: for three years / five years ago / since I retired：先听时间词，再判断时态
+@lfocus: 简短回答 Yes, I have. / Not yet. / It has. 里的 have、yet、has 读重、读完整
+@dict: S9–S11
+@dict: S19–S21
+@res: 在 youglish.com 输入 "make friends"，选 US，听美国人在真实对话里怎么说「交朋友」。
+
+@mimic: 合上书，不看【C】，按下面 10 个提示用 8–10 句英文复述故事（可以用林晓的口吻 I…，也可以用第三人称 Lily went to…），并录音：① 周六下午／第一次去英语角／咖啡馆 ② Ben：志愿者／今天的话题／找搭档、互相介绍 ③ 搭档 Joe：真名王健、英文昵称／林晓有点紧张 ④ 第一次来：刚从同事 Emma 那儿知道 ⑤ 在深圳住了三年／大学毕业后搬来 ⑥ Joe：地道的本地人、一辈子住这儿／五十年前是小渔村 ⑦ 深圳完全变了样／物价涨了 ⑧ 早茶：喝过、上个月去的／来深圳以后长胖了 ⑨ 英语很流利／最近一直在练；Joe 退休后开始学，五年前／如今每周六都来 ⑩ 交到朋友：Joe 已经约她下周六喝早茶／群还没进／说实话，这周最开心的事。录完对照原文，专门检查三处：带 ago / last month 的句子是不是过去式；for / since 的句子有没有用 have；Joe has 的 has 有没有说成 have。
+@swap: How long have you lived in Shenzhen? — For three years. | 换动作和时间：worked at SwiftLink / about six weeks；known Grace / since my first day；been learning English / ten years | How long have you known Grace? — Since my first day at SwiftLink.
+@swap: Have you ever had morning tea? — Yes, I have. I tried it last month. | 换经历，再补「那一次」：been to Hong Kong / went there last spring；tried durian / had it in Hainan last year | Have you ever been to Hong Kong? — Yes, I have. I went there last spring.
+@swap: Joe has already invited me to morning tea next Saturday. | 换人和事，注意第三人称用 has：Emma / sent me the photos；Mei / booked the tickets；Grace / told her parents | Emma has already sent me the photos.
+@swap: Since I retired, five years ago. These days, I come every Saturday. | 换成你自己的回答（问题是 How long have you been learning English?）：since I joined SwiftLink / about six weeks ago / practice on the subway every morning | Since I joined SwiftLink, about six weeks ago. These days, I practice on the subway every morning.
+@free: 英语角的新搭档问：Where's your hometown? Has it changed much?（长沙；这些年变化很大：现在有很多高楼和好几条地铁线，房价也涨了） | I grew up in Changsha. It's changed a lot over the years. There are lots of tall buildings and several subway lines now, and housing prices have gone up, too.
+@free: 搭档问 Have you ever tried Chaoshan beef hot pot?（没吃过，但很想试；同事说特别好吃） | No, I haven't. But I'd love to give it a try. My coworker says it's amazing.
+@free: Ben 在群里问 Has everyone joined the chat yet? 你刚进群，顺便告诉他：你已经把英语角推荐给了同事 Kevin，他下周想来。 | Yes, I just joined. And I've already told my coworker Kevin about the English corner. He wants to come next week!
+@free: 你和 Joe 约好十点在茶楼门口见，他还没到、电话也打不通。先给他发消息（还在等）；第二天再跟 Emma 讲这件事（等完了，后来他来了，原来手机没电了）。 | Joe, I've been waiting outside the restaurant for fifteen minutes. Are you OK? ／（第二天）I waited for fifteen minutes, and then Joe finally came. His phone died!
+@free: Joe 在下周的英语角问你：What have you been up to lately?（最近一直在加班；不过如今你每天早上都在地铁上听英语） | I've been working late a lot lately. But these days, I listen to English on the subway every morning.
+@output: 录 1.5–2 分钟「英语角的自我介绍」（或写 10–12 句），把本周 6 天串起来：① 你是谁、在哪儿出生和长大（was born / grew up）② 什么时候搬到现在的城市、住了多久（… ago / for / since）③ 一样你吃过的特别的东西（Have you ever…? → I tried it…）④ 一条最近的消息（just / already / yet）⑤ 一件你一直在坚持的事（I've been + -ing + since…）⑥ 最近的状态和如今的习惯（lately / these days）⑦ 一个变化（has changed / I've put on… / Prices have gone up）。录完检查：带具体过去时间的句子是不是都用了过去式？第三人称的 has 和 -s 有没有漏？
+@output_sample: Hi, everyone. I'm Lily. I was born in a small town in Hunan, and I grew up in Changsha. I moved to Shenzhen three years ago, after college, so I've lived here for three years now. I've worked at SwiftLink for about six weeks. Have you ever tried stinky tofu? It's my favorite snack from home. I tried it for the first time when I was six. It smells weird, but it tastes great! I have some good news, too: my coworker Grace just got engaged! I've already signed a card for her, but she hasn't chosen a date for the wedding yet. I've been practicing English every day since I joined SwiftLink, and I've been really busy lately. These days, I listen to English on the subway every morning. Shenzhen has changed me, too. I've put on three kilos since I moved here, because the food is so good! Compared with my hometown, everything here is so fast. I came here today to practice my English and make friends. Nice to meet you all!
+
+@check: （听力，不看原文回答）林晓是怎么知道这个英语角的？她在深圳住了多久？是什么时候搬来的？ | 她刚从同事 Emma 那儿知道的（I just found out about it from my coworker Emma.）；住了三年（For three years.）；大学毕业以后搬来的（I moved to Shenzhen after college.）。
+@check: （听力，不看原文回答）Joe 是从什么时候开始学英语的？他现在多久来一次英语角？最后他已经约了林晓做什么？ | 退休以后开始学的，那是五年前（Since I retired, five years ago.）；如今每周六都来（These days, I come every Saturday.）；他已经约林晓下周六一起去喝早茶（Joe has already invited me to morning tea next Saturday.）。
+@check: 改错并说出理由：I have moved to Shenzhen three years ago, and I live here since then. | 两处错：有 three years ago 这个过去的时间点，只能用过去式 moved；since then 说「从那时起一直到现在」，要用现在完成时 have lived。改成 I moved to Shenzhen three years ago, and I've lived here since then.
+@check: 视频会开始前，美国客户闲聊问：Have you ever been to the U.S.?（你没去过，不过去年去新加坡出过差）按事实回答，再补一句「那一次」。能说 I've been to Singapore last year. 吗？ | No, I haven't. But I went to Singapore on a business trip last year. 不能那样说：有 last year 就要用过去式 went；I've been to… 只说经历，不带具体时间。
+@check: 周一早上张涛问你两件事：① Has the client replied yet?（客户刚回）② Have you sent her the contract?（你昨天就发了） | ① Yes, she just replied. ② Yes, I've already sent it. / Yes, I sent it yesterday.——一说出 yesterday 就用过去式，不说 ✗ I've already sent it yesterday.
+@check: 你在银行排队，前面还有很多人，同事打电话问你在哪儿：「我已经排了四十分钟了」怎么说？第二天讲这件事：「我排了四十分钟，最后放弃了」怎么说？ | I've been waiting in line for forty minutes.（还在排）／I waited in line for forty minutes, and in the end I gave up.（已经结束，用过去式）
+
+@improve: 如果【E】第 1、2 组或【I】第 3、4 题出错（for / since / ago；经历 vs 那一次）：下周每天热身前，拿同一件事用三种说法各说一句——I moved here three years ago. / I've lived here for three years. / I've lived here since I graduated.——再用 Have you ever…? 问自己一个问题，按「Yes, I have. + 过去式的那一次」两步回答。下周（Day 38–43）几乎每天都在讲过去的事，句子里一出现 yesterday / last week / ago，就只能用过去式。
+@improve: 如果 just / already / yet 的位置还会放错，或者 has / have 用混（✗ Have Joe invited you?）：重读 Day 33 的【E】，每天用这三个词说一句当天的进展（I just… / I've already… / I haven't … yet.），其中至少一句用第三人称 has 或 -s——这是第一册最顽固的薄弱项，Day 30 让你写进热身的就是它。Day 59 的试用期谈话会用到 What's been the hardest part? / You've passed your probation.，都是 have / has + 过去分词。
+@improve: 如果【I】第 1、2 题没听出来（has already、have you、been 太轻）：每天用手机朗读功能，把 Day 33 的 S2–S5 和 Day 35 的 S5–S6 各听 3 遍，不看文字，听完写下 has / have / been 出现在哪里，再对照原文。下周 was / were 也会弱读成 `/wəz/` `/wər/`：Day 38 的 I was cooking dinner when the power went out. 里的 was 一样轻。
+@improve: 下周（Day 38–43）进入「讲一件过去的事」：I was cooking when the power went out.（was doing… when…）、while / during、What happened next? / How come?。本周的 I've been + -ing（一直做到现在）和下周的 I was + -ing（过去那一刻正在做）只差一个词，意思完全不同——Day 44 复习日会把 was doing vs did 放进易混检查。讲故事时从头到尾用过去式，别中途滑回现在时，这也是第一册「过去式忘了变」的老问题。
+
+@next1: 按【H】第 1 层的 10 个提示，不看书再复述一遍故事，和今天的录音比一比：过去式和 has / have 有没有说得更准
+@next1: 用 ago / for / since 把「我搬到现在这座城市」说三遍，再用 lately 和 these days 各说一句自己的近况
+@next7: 再做一遍【E】的 5 个小任务；还会错的那组把对比例句读 5 遍，写进 Day 44 复习日要检查的薄弱项
+@next7: 不看书重录一次「英语角的自我介绍」（1.5 分钟），和今天的录音比较：句子是不是更长，and / but / so / because 是不是用得更多
