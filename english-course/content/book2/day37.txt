@@ -42,8 +42,8 @@
 @s: Lily: For three years. I [[moved to]] Shenzhen after college. And you? | 林晓：三年了。我大学毕业以后搬来的深圳。您呢？
 @s: Joe: I'm a real [[local]]. I've lived here [[all my life]]. | Joe：我是地地道道的本地人，一辈子都住在这儿。
 @s: Joe: Fifty years ago, this was a small fishing [[village]]. | Joe：五十年前，这里还是个小渔村。
-@s: Lily: Wow. Shenzhen has [[changed]] [[completely]]! | 林晓：哇，深圳真是完全变了样！
-@s: Joe: It has. And prices have [[gone up]] a lot! | Joe：可不是嘛。物价也涨了不少！
+@s: Lily: Shenzhen has [[changed]] [[completely]]! | 林晓：深圳真是完全变了样！
+@s: Joe: It has. And prices have [[gone up]]! | Joe：可不是嘛。物价也涨了！
 @br:
 @s: Joe: [[Have you ever]] had morning tea? | Joe：你喝过早茶吗？
 @s: Lily: Yes, I have. I [[tried]] it last month. It was great! | 林晓：喝过。我上个月去喝的，特别棒！
@@ -53,7 +53,7 @@
 @s: Lily: How long have you been learning English? | 林晓：您学英语多久了？
 @s: Joe: Since I [[retired]], five years ago. These days, I come every Saturday. | Joe：从退休开始学的，那是五年前。现在我每周六都来。
 @br:
-@s: Ben: OK, time's up! Did you all **make friends**? | Ben：好，时间到！大家都交到朋友了吗？
+@s: Ben: Time's up! Did you all **make friends**? | Ben：时间到！大家都交到朋友了吗？
 @s: Lily: Yes! Joe has [[already]] invited me to morning tea next Saturday. | 林晓：交到了！Joe 已经约我下周六去喝早茶了。
 @s: Ben: Great! Have you joined our group chat yet? | Ben：太好了！你进我们的群了吗？
 @s: Lily: Not yet. I'll do it now. | 林晓：还没有，我现在就进。
@@ -128,7 +128,7 @@
 @dict: S19–S21
 @res: 在 youglish.com 输入 "make friends"，选 US，听美国人在真实对话里怎么说「交朋友」。
 
-@mimic: 合上书，不看【C】，按下面 10 个提示用 8–10 句英文复述故事（可以用林晓的口吻 I…，也可以用第三人称 Lily went to…），并录音：① 周六下午／第一次去英语角／咖啡馆 ② Ben：志愿者／今天的话题／找搭档、互相介绍 ③ 搭档 Joe：真名王健、英文昵称／林晓有点紧张 ④ 第一次来：刚从同事 Emma 那儿知道 ⑤ 在深圳住了三年／大学毕业后搬来 ⑥ Joe：地道的本地人、一辈子住这儿／五十年前是小渔村 ⑦ 深圳完全变了样／物价涨了 ⑧ 早茶：喝过、上个月去的／来深圳以后长胖了 ⑨ 英语很流利／最近一直在练；Joe 退休后开始学，五年前／如今每周六都来 ⑩ 交到朋友：Joe 已经约她下周六喝早茶／群还没进／说实话，这周最开心的事。录完对照原文，专门检查三处：带 ago / last month 的句子是不是过去式；for / since 的句子有没有用 have；Joe has 的 has 有没有说成 have。
+@mimic: 合上书，不看【C】，按下面 10 个提示用 8–10 句英文复述故事（可以用林晓的口吻 I…，也可以用第三人称 Lily went to…），并录音：① 周六下午／第一次去英语角／咖啡馆 ② Ben：志愿者／今天的话题／找搭档、互相介绍 ③ 搭档 Joe：真名王健、英文昵称／林晓有点紧张 ④ 第一次来：刚从同事 Emma 那儿知道 ⑤ 在深圳住了三年／大学毕业后搬来 ⑥ Joe：地道的本地人、一辈子住这儿／五十年前是小渔村 ⑦ 深圳完全变了样／物价也涨了 ⑧ 早茶：喝过、上个月去的／来深圳以后长胖了 ⑨ 英语很流利／最近一直在练；Joe 退休后开始学，五年前／如今每周六都来 ⑩ 交到朋友：Joe 已经约她下周六喝早茶／群还没进／说实话，这周最开心的事。录完对照原文，专门检查三处：带 ago / last month 的句子是不是过去式；for / since 的句子有没有用 have；Joe has 的 has 有没有说成 have。
 @swap: How long have you lived in Shenzhen? — For three years. | 换动作和时间：worked at SwiftLink / about six weeks；known Grace / since my first day；been learning English / ten years | How long have you known Grace? — Since my first day at SwiftLink.
 @swap: Have you ever had morning tea? — Yes, I have. I tried it last month. | 换经历，再补「那一次」：been to Hong Kong / went there last spring；tried durian / had it in Hainan last year | Have you ever been to Hong Kong? — Yes, I have. I went there last spring.
 @swap: Joe has already invited me to morning tea next Saturday. | 换人和事，注意第三人称用 has：Emma / sent me the photos；Mei / booked the tickets；Grace / told her parents | Emma has already sent me the photos.
@@ -149,7 +149,7 @@
 @check: 你在银行排队，前面还有很多人，同事打电话问你在哪儿：「我已经排了四十分钟了」怎么说？第二天讲这件事：「我排了四十分钟，最后放弃了」怎么说？ | I've been waiting in line for forty minutes.（还在排）／I waited in line for forty minutes, and in the end I gave up.（已经结束，用过去式）
 
 @improve: 如果【E】第 1、2 组或【I】第 3、4 题出错（for / since / ago；经历 vs 那一次）：下周每天热身前，拿同一件事用三种说法各说一句——I moved here three years ago. / I've lived here for three years. / I've lived here since I graduated.——再用 Have you ever…? 问自己一个问题，按「Yes, I have. + 过去式的那一次」两步回答。下周（Day 38–43）几乎每天都在讲过去的事，句子里一出现 yesterday / last week / ago，就只能用过去式。
-@improve: 如果 just / already / yet 的位置还会放错，或者 has / have 用混（✗ Have Joe invited you?）：重读 Day 33 的【E】，每天用这三个词说一句当天的进展（I just… / I've already… / I haven't … yet.），其中至少一句用第三人称 has 或 -s——这是第一册最顽固的薄弱项，Day 30 让你写进热身的就是它。Day 59 的试用期谈话会用到 What's been the hardest part? / You've passed your probation.，都是 have / has + 过去分词。
+@improve: 如果 just / already / yet 的位置还会放错，或者 has / have 用混（✗ Have Joe invited you?）：重读 Day 33 的【E】，每天用这三个词说一句当天的进展（I just… / I've already… / I haven't … yet.），其中至少一句用第三人称 has 或 -s——这是第一册最顽固的薄弱项，Day 30 建议你写进本周热身的多半就是它。Day 59 的试用期谈话会用到 What's been the hardest part? / You've passed your probation.，都是 have / has + 过去分词。
 @improve: 如果【I】第 1、2 题没听出来（has already、have you、been 太轻）：每天用手机朗读功能，把 Day 33 的 S2–S5 和 Day 35 的 S5–S6 各听 3 遍，不看文字，听完写下 has / have / been 出现在哪里，再对照原文。下周 was / were 也会弱读成 `/wəz/` `/wər/`：Day 38 的 I was cooking dinner when the power went out. 里的 was 一样轻。
 @improve: 下周（Day 38–43）进入「讲一件过去的事」：I was cooking when the power went out.（was doing… when…）、while / during、What happened next? / How come?。本周的 I've been + -ing（一直做到现在）和下周的 I was + -ing（过去那一刻正在做）只差一个词，意思完全不同——Day 44 复习日会把 was doing vs did 放进易混检查。讲故事时从头到尾用过去式，别中途滑回现在时，这也是第一册「过去式忘了变」的老问题。
 
