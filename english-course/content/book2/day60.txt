@@ -15,7 +15,7 @@
 
 @plan: 旧知识情境复习 | 10 | 遮住答案，用英文说出「热身」的 6 句中文提示——五句分别来自第二册的五个星期，一句来自第一册，每句都是一个大知识点。说不出的打 ★，记下右边的 D#，第 8 步写进薄弱项。
 @plan: 新情境阅读 | 15 | 先读【B】弄清英语角里有谁、林晓要讲哪几件事；再读【C】：第 1 遍遮住中文，看到虚线词就停下来回忆意思和第几天学的；第 2 遍逐句对照中文，配合【D】学 5 个新词和 look back on。
-@plan: 听懂短对话 | 15 | 用手机朗读功能（正常语速）播放【C】S15–S27 的追问和回应，按「四步听法」听 4 遍；第 2 遍听完就不看文字回答【I】第 1、2 题，最后做【G】的 2 段听写并订正。
+@plan: 听懂短对话 | 15 | 用手机朗读功能（正常语速）播放【C】S15–S26 的追问和回应，按「四步听法」听 4 遍；第 2 遍听完就不看文字回答【I】第 1、2 题，最后做【G】的 2 段听写并订正。
 @plan: 中文意思 → 英文组织 | 15 | 【H】第 2、3 层：只看中文情境，用第二册学过的表达组织英文，每题至少说两句，先说再写，最后对照示范。第 3 层每题都混合了不同星期的知识点，说之前先想一想「这是哪一天学的」。
 @plan: 不看原文复述 | 15 | 合上书，按【H】第 1 层的 10 个关键词提示，先用林晓的口吻（I…）讲她的两分钟分享，再用第三人称（Lily… She…）讲整个英语角，录音；回放时专门检查 was / were + -ing、过去式，以及 she has / she's 有没有说对。
 @plan: 易混表达检查 | 15 | 做【E】的 5 组易混表达：每组先遮住「自然英文」，自己说出正确说法和理由，再看答案、完成小任务；错的那组把对比例句读 5 遍，并翻回标题里注明的那几天重看【E】。
@@ -38,36 +38,35 @@
 
 @story_title: Episode 60 · Two Minutes, One Month
 @story_type: 叙述 + 对话（新情境 · 英语角两分钟分享）
-@s: It's Saturday afternoon, and Lily is back at the English corner with Leo. | 周六下午，林晓又来到了英语角，这次她带上了 Leo。
-@s: Ben: Welcome back, everyone! Today's [[topic]] is "My Last Month." | Ben：欢迎大家回来！今天的话题是「我的上个月」。
-@s: Ben: Each of you gets two minutes. Let's **look back on** the past month. | Ben：每人两分钟，我们一起回顾一下过去这个月。
-@s: Ben: Take a moment to **reflect** first. Lily, would you like to start? | Ben：先花一点时间回想一下。林晓，你先来好吗？
+@s: On Saturday, Lily brings Leo to the English corner. | 周六，林晓带着 Leo 又来到了英语角。
+@s: Ben: Welcome back! Today's [[topic]] is "My Last Month." | Ben：欢迎回来！今天的话题是「我的上个月」。
+@s: Ben: Two minutes each. Let's **look back on** the past month. | Ben：每人两分钟，我们一起回顾一下过去这个月。
+@s: Ben: Take a moment to **reflect**. Lily, you're first! | Ben：先花一点时间回想一下。林晓，你第一个来！
 @br:
-@s: Lily: Sure! My second month at SwiftLink was quite a **journey**. | 林晓：好！我在 SwiftLink 的第二个月，真是经历了不少事。
-@s: Lily: One night, I was cooking dinner when the [[power]] [[went out]]. My noodles burned! | 林晓：有一天晚上，我正在做晚饭，突然停电了，面都烧糊了！
-@s: Lily: Then I found an apartment [[within walking distance]] of work. Kevin and Grace [[gave me a hand]] on moving day. | 林晓：后来我找到了一套走路就能到公司的房子，搬家那天 Kevin 和吴佳来帮了忙。
-@s: Lily: I [[used to]] spend two hours a day on the subway. Now I walk to work in ten minutes. | 林晓：我以前每天要在地铁上花两个小时，现在走路十分钟就到公司。
-@s: Lily: Right after the move, I got a [[fever]]. Being sick and [[alone]] wasn't fun. | 林晓：刚搬完家我就发烧了。一个人生病，真不好受。
+@s: Lily: OK! My second month was quite a **journey**. | 林晓：好！我的第二个月，真是经历了不少事。
+@s: Lily: One night, I was cooking dinner when the [[power]] [[went out]]. | 林晓：有一天晚上，我正在做晚饭，突然停电了。
+@s: Lily: Then I found a place [[within walking distance]] of work, and Kevin and Grace [[gave me a hand]]. | 林晓：后来我找到了一套走路就能到公司的房子，Kevin 和吴佳来帮我搬了家。
+@s: Lily: I [[used to]] spend two hours a day on the subway. Now I walk to work. | 林晓：我以前每天要在地铁上花两个小时，现在走路上班。
+@s: Lily: After the move, I got a [[fever]]. Being sick [[alone]] wasn't fun. | 林晓：搬完家我就发烧了。一个人生病，真不好受。
 @s: Lily: But I'm [[getting used to]] living by myself. I'm more [[independent]] now. | 林晓：不过我正在慢慢习惯一个人住，现在也更独立了。
-@s: Lily: Last Sunday, my best friend Mei [[moved to]] Shanghai for a new job. | 林晓：上周日，我最好的朋友小梅去上海开始新工作了。
-@s: Lily: We've known each other [[since]] middle school, so I really miss her. Luckily, we video-call every weekend. | 林晓：我们从初中就认识，所以我特别想她。好在我们每个周末都视频。
-@s: Lily: And guess what? I've [[just]] [[passed]] my [[probation]]! It was a big **milestone** for me. | 林晓：还有，你们猜怎么着？我刚刚通过了试用期！这对我来说是一个重要的里程碑。
-@s: Lily: I'm really **thankful** for my team. Next month, a new **chapter** begins: my own group of American sellers. | 林晓：我真的很感激我的团队。下个月，新的篇章就要开始了：我要独立负责一组美国卖家。
+@s: Lily: Last Sunday, my best friend Mei [[moved to]] Shanghai. | 林晓：上周日，我最好的朋友小梅搬去了上海。
+@s: Lily: We've known each other [[since]] middle school. I miss her. | 林晓：我们从初中就认识，我很想她。
+@s: Lily: And I've [[just]] [[passed]] my [[probation]]! It was a big **milestone** for me. | 林晓：还有，我刚刚通过了试用期！这对我来说是一个重要的里程碑。
+@s: Lily: I'm really **thankful** for my team. Next month, a new **chapter** begins: my own group of sellers! | 林晓：我真的很感激我的团队。下个月，新的篇章就要开始了：我要独立负责一组卖家！
 @br:
 @s: Leo: [[No way]]! Congratulations! | Leo：真的假的！恭喜恭喜！
-@s: Ben: That's impressive, Lily. [[What's been]] the hardest part so far? | Ben：真了不起，林晓。到现在为止，最难的是什么？
-@s: Lily: [[To be honest]], phone calls. Fast talkers still make me [[nervous]]. | 林晓：说实话，是打电话。说话快的人还是会让我紧张。
-@s: Lily: But I'm less nervous [[than before]]. | 林晓：不过我没有以前那么紧张了。
-@s: Joe: Did you do anything fun this month? | Joe：这个月有没有玩点什么开心的？
-@s: Lily: Yes! Grace and I started climbing Luofu Mountain at three in the morning. | 林晓：有！吴佳和我凌晨三点开始爬罗浮山。
+@s: Ben: Nice! [[What's been]] the hardest part so far? | Ben：真棒！到现在为止，最难的是什么？
+@s: Lily: [[To be honest]], phone calls. But I'm less [[nervous]] [[than before]]. | 林晓：说实话，是打电话。不过我没有以前那么紧张了。
+@s: Joe: Did you have any fun? | Joe：这个月有没有玩点什么开心的？
+@s: Lily: Yes! Grace and I climbed Luofu Mountain at three in the morning. | 林晓：有！吴佳和我凌晨三点去爬了罗浮山。
 @s: Joe: Three in the morning? [[How come]]? | Joe：凌晨三点？怎么会那么早？
 @s: Lily: We wanted to watch the [[sunrise]] from the top. I've never seen anything so beautiful. | 林晓：我们想在山顶看日出。我从来没见过那么美的景色。
 @s: Lily: My legs hurt for days, but it was [[worth it]]. | 林晓：我的腿疼了好几天，不过值了。
 @br:
-@s: Ben: Wonderful. Thank you, Lily! Leo, you're next. | Ben：太棒了。谢谢你，林晓！Leo，下一个是你。
+@s: Ben: Thank you, Lily! Leo, you're next. | Ben：谢谢你，林晓！Leo，下一个是你。
 @s: Leo: Me? I'm so nervous! | Leo：我？我好紧张啊！
 @s: Lily: Don't worry. It's just a [[conversation]]. Two months [[ago]], I was just like you. | 林晓：别担心，就是聊聊天嘛。两个月前，我跟你一模一样。
-@s: Joe laughs. He said the same words to Lily on her first day here. | Joe 笑了——林晓第一次来的时候，他也是这么对她说的。
+@s: Joe smiles. He told Lily the same thing on her first day. | Joe 笑了——林晓第一次来的时候，他也是这么对她说的。
 
 @v: look back on | = | phr. | ˌlʊk ˈbæk ɑːn | 回顾；回想（过去的一段经历） | 月底、年底做总结；毕业、离职、告别时回想一段日子 | look back on the past month；look back on my first job；When I look back on…, I… | When I look back on my first year in Shenzhen, I feel proud. | 回想我在深圳的第一年，我感到很自豪。 | 「回顾这个月」不说 ✗ review this month（review 是「复习、审查」）也不说 ✗ look back the month（少了 on）；不带宾语的 look back 是「回头看」：Don't look back!；look back on 后面跟一段经历或一段时间，想念一个人要说 I miss her.（D35），不说 ✗ I look back on Mei.
 @v: reflect | = | v. | rɪˈflekt | （静下心来）回想、反思 | 总结一段时间、复盘一个项目、一对一谈话之前 | take a moment to reflect；reflect on the month；reflect on what went well | Take a few minutes to reflect on what went well this week. | 花几分钟想一想，这周哪些事做得好。 | 中文「反思」常带「检讨错误」的味道，英文 reflect 是中性的「回头想一想」，好事坏事都想，所以美国经理常说 Let's reflect on what went well.；「反思某事」要加 on：✓ reflect on my month ✗ reflect my month（不加 on 时是「反射、反映」：The lake reflects the mountain.）；重音在后：re-FLECT。
@@ -86,7 +85,7 @@
 @diff: 「两年了」「从初中起」「两个月前」——for / since / ago（复习 D31、D34、D36、D58）
 @d_cn: 中文都带着时间，「十年了」「从初中起」「两个月前」，却不在动词上区分「一段时间」「起点」和「过去的一个时间点」。
 @d_en: We've known each other for ten years. / We've known each other since middle school. / Two months ago, I joined SwiftLink.
-@d_why: **for + 一段时间**（ten years / two months / ages），**since + 起点**（middle school / 2020 / I moved here），两个都配 **have done / have been doing**，表示「一直持续到现在」（D31、D34）；**ago** 跟在一段时间**后面**，表示「从现在往回数的那个时间点」，配**过去式**（D36）。中文「我在深圳住了两年了」最容易说成 ✗ I live in Shenzhen two years.——缺了完成时，也缺了 for（D31）。另外三个常见错误：✗ since two years（since 后面要起点）；✗ I've joined SwiftLink two months ago（有 ago 就是具体时间点，要用过去式）；回答 How long have you…? 时只说 ✗ Two years.也行，但最好说完整：For two years. / Since 2023.。今天林晓说 We've known each other since middle school（起点），又说 Two months ago, I was just like you（时间点）。
+@d_why: **for + 一段时间**（ten years / two months / ages），**since + 起点**（middle school / 2020 / I moved here），两个都配 **have done / have been doing**，表示「一直持续到现在」（D31、D34）；**ago** 跟在一段时间**后面**，表示「从现在往回数的那个时间点」，配**过去式**（D36）。中文「我在深圳住了两年了」最容易说成 ✗ I live in Shenzhen two years.——缺了完成时，也缺了 for（D31）。另外三个常见错误：✗ since two years（since 后面要起点）；✗ I've joined SwiftLink two months ago（有 ago 就是具体时间点，要用过去式）；回答 How long have you…? 时，口语里只说 For two years. / Since 2023. 就够了；说完整句子别漏掉 for：I've lived here for two years.（D31）。今天林晓说 We've known each other since middle school（起点），又说 Two months ago, I was just like you（时间点）。
 @d_when: 问和答「多久了」：How long have you…? + for / since；说「……之前发生了什么」：一段时间 + ago + 过去式。
 @d_vs: **We've known each other for ten years.** 我们认识十年了。\n**We've known each other since middle school.** 我们从初中起就认识。\n**We met ten years ago.** 我们是十年前认识的。\n**I've walked to work since I moved.** ／ **I moved three weeks ago.**\n✗ We've known each other since ten years. ✗ We have met ten years ago.
 @d_task: 用英文说：① 我在这家公司工作两个月了。② 我搬家以后，一直走路上班。③ 小梅是上周日去上海的。④ 我三年前搬到深圳。 | ① I've worked at this company for two months. ② I've walked to work since I moved.（或 I've been walking to work since I moved.）③ Mei left for Shanghai last Sunday. ④ I moved to Shenzhen three years ago.
@@ -130,17 +129,17 @@
 @ps: I was **cook**ing **din**ner / when the **pow**er went‿**out**. | was 弱读成 `/wəz/`，几乎听不见；前半句（背景）读得平稳，后半句（突发事件）went out 读重、语调往下落；went‿out 连读，t 直接带出 out，像 wen-tout。
 @ps: I've **just** **passed** my pro**ba**tion! / It was a **big** **mile**stone. | I've 弱读成 `/aɪv/`，v 很轻但别丢；passed 读 `/pæst/`，和 past 同音；报喜的句子整体音调要高一点，milestone 重音在 mile。
 @pnote: 第二册弱读总复习：have / has / been / was / were 在正常语速里几乎只剩一个轻音——I've `/aɪv/`、she's been `/ʃiz bɪn/`、was `/wəz/`、were `/wər/`。听的时候用规则判断：'s 后面跟 been 或过去分词（passed / seen）→ has；跟 -ing、形容词或名词 → is。used to / use to 读音一样，都是 `/ˈjuːstə/`（s 是清音，像 yoost-tuh），要靠前面的 am / is / get / didn't 分辨意思。
-@pnote: 讲 2 分钟的故事，靠「路标词」带着听的人走：One night… / Then… / Right after the move… / Last Sunday… / And guess what?——每个路标词前停半秒，讲列举时语调略往上扬，表示「还有下一件」；最后一句语调落下，听的人就知道你讲完了。林晓的分享就是一个路标词一件事。
+@pnote: 讲 2 分钟的故事，靠「路标词」带着听的人走：One night… / Then… / After the move… / But… / Last Sunday… / And…——每个路标词前停半秒，讲列举时语调略往上扬，表示「还有下一件」；最后一句语调落下，听的人就知道你讲完了。林晓的分享就是一个路标词一件事。
 @lfocus: I've just passed 里很轻的 've：没有它就是另一个时态
 @lfocus: I was cooking / we were climbing 里弱读的 was / were
 @lfocus: used to `/ˈjuːstə/`：听到它先判断前面有没有 am / is / get
 @dict: S8–S10
-@dict: S21–S23
+@dict: S20–S22
 @res: 在 youglish.com 输入 "look back on"，选 US，听美国人回顾一段经历时怎么用这个短语、后面跟什么。
 
-@mimic: 合上书，不看【C】，按下面 10 个关键词提示，先用林晓的口吻（I…）讲她的两分钟分享，再用第三人称（Lily… She…）把整个英语角讲一遍，并录音：① 周六英语角 / 带 Leo / 话题「我的上个月」/ 回顾、先想一想 ② 第二个月 / 经历了不少事 ③ 做晚饭 → 停电 / 面烧糊了（was …ing when…）④ 新房子走路就到 / Kevin 和吴佳帮忙搬家 ⑤ 以前每天地铁两小时 → 现在走路十分钟 ⑥ 搬家后发烧 / 一个人生病 / 慢慢习惯、更独立 ⑦ 上周日小梅去上海 / 从初中认识 / 每周末视频 ⑧ 刚转正！里程碑 / 感激团队 / 新篇章 ⑨ Leo 的反应 / Ben 问最难的部分 / 打电话 / 没以前那么紧张 ⑩ Joe 问有没有玩 / 凌晨三点 How come? / 日出 / 从没见过 / 值了 / Leo 很紧张 / 林晓和 Joe 的同一句话。第三人称版专门检查：She was cooking…、She has just passed…（不是 She have）、She's getting used to…、过去式有没有讲着讲着变回现在时。
+@mimic: 合上书，不看【C】，按下面 10 个关键词提示，先用林晓的口吻（I…）讲她的两分钟分享，再用第三人称（Lily… She…）把整个英语角讲一遍，并录音：① 周六英语角 / 带 Leo / 话题「我的上个月」/ 回顾、先想一想 ② 第二个月 / 经历了不少事 ③ 做晚饭 → 停电（was …ing when…）④ 新房子走路就到 / Kevin 和吴佳帮忙搬家 ⑤ 以前每天地铁两小时 → 现在走路上班 ⑥ 搬家后发烧 / 一个人生病 / 慢慢习惯、更独立 ⑦ 上周日小梅去上海 / 从初中认识 / 很想她 ⑧ 刚转正！里程碑 / 感激团队 / 新篇章 ⑨ Leo 的反应 / Ben 问最难的部分 / 打电话 / 没以前那么紧张 ⑩ Joe 问有没有玩 / 凌晨三点 How come? / 日出 / 从没见过 / 值了 / Leo 很紧张 / 林晓和 Joe 的同一句话。第三人称版专门检查：She was cooking…、She has just passed…（不是 She have）、She's getting used to…、过去式有没有讲着讲着变回现在时。
 @swap: I was cooking dinner when the power went out. | 换背景和事件：taking a shower / the doorbell rang；waiting for the bus / it started to rain | I was waiting for the bus when it started to rain.
-@swap: I used to spend two hours a day on the subway. Now I walk to work in ten minutes. | 换以前和现在：be really shy / talk to customers every day；drink tea / drink two cups of coffee a day | I used to be really shy. Now I talk to customers every day.
+@swap: I used to spend two hours a day on the subway. Now I walk to work. | 换以前和现在：be really shy / talk to customers every day；drink tea / drink two cups of coffee a day | I used to be really shy. Now I talk to customers every day.
 @swap: I've just passed my probation! It was a big milestone for me. | 换成你自己的里程碑：moved into my own place / finished my first English book / run my first 10K | I've just moved into my own place! It was a big milestone for me.
 @swap: I'm really thankful for my team. | 换对象，再补一句原因：my family / my mentor / my friends | I'm really thankful for my mentor. She always answers my questions.
 @free: 英语角上有人问 How long have you lived in your city?：你在这儿住了五年了，是五年前因为工作搬来的。（D31、D36） | I've lived here for five years. I moved here five years ago for a job.
@@ -152,7 +151,7 @@
 @output: 第二册录音测试（25 分钟里的前 13 分钟）。① 准备 5 分钟：纸上只写 5 组中文关键词，不写英文句子——上个月的一件事 / 一个变化 / 一个经历 / 让你感激的人 / 下个月的期待。② 录 2 分钟，中间不停、不重来：开场（When I look back on last month… / It was quite a journey.）→ 一件过去的事，用 was …ing when… 交代背景和突发事件，再说结果和感受（D38、D40、D43）→ 一个变化：I used to…, but now… / I'm getting used to…（D52、D53）→ 一个经历：I've… / I've never…（D32、D57）→ 感激谁、下个月的期待（I'm thankful for… / I'm looking forward to + -ing，D59）。③ 把 Day 30 的录音和今天的放在一起听，数一数：今天说了多长、几句？用了几个 when / so / but / then？was …ing when…、used to、have done 各用对了没有？有没有讲着讲着变回现在时？she / he 后面的 -s 和 has 呢？把结果写在「阶段成果评估」表旁边。说实话：两个月不会让任何人说得像母语者——你要找的是「比 Day 30 长、能讲一件有头有尾的事、时态基本稳定、敢接别人的话」。
 @output_sample: Last month was really busy, but it was a good month. Let me tell you about one evening. I was working late at the office when it started to rain really hard. I didn't have an umbrella, and my phone battery was almost dead. Luckily, a coworker gave me a ride to the subway station. I was so grateful. There was also a big change in my life. I used to buy breakfast on the way to work every day. These days, I make breakfast at home. At first, I had trouble getting up early, but now I'm used to it, and I save about three hundred yuan a month. I've also tried something new. I've never been good at sports, but two weeks ago, I signed up for a badminton class. I've been to four classes so far. I'm still a beginner, but I really enjoy it. When I look back on this month, I'm thankful for my coworkers and my family. My English is getting better and better. To be honest, listening is still hard for me, especially when people talk fast. So next month, I'm going to listen to English for fifteen minutes every morning. I'm looking forward to the next chapter: Book 3!
 
-@check: （听力，不看原文回答）Ben 问 What's been the hardest part so far?，林晓怎么回答？她现在和以前比怎么样？ | 打电话（To be honest, phone calls.），说话快的人还是让她紧张；不过她没有以前那么紧张了（I'm less nervous than before.）。
+@check: （听力，不看原文回答）Ben 问 What's been the hardest part so far?，林晓怎么回答？她现在和以前比怎么样？ | 打电话（To be honest, phone calls.）；不过她没有以前那么紧张了（But I'm less nervous than before.）。
 @check: （听力，不看原文回答）Joe 听到「凌晨三点」，为什么说 How come?？林晓怎么解释的？她觉得值不值？ | 他很吃惊，想知道为什么那么早（How come = 怎么会）。她们想在山顶看日出；林晓从没见过那么美的景色，腿疼了好几天，但觉得值了（it was worth it）。
 @check: 改错并说明理由：I've passed my probation on Thursday. | I passed my probation on Thursday.（有具体时间 on Thursday，用过去式）；不提时间才说 I've just passed my probation!
 @check: 改错并说明理由：① I'm used to get up at six now. ② I use to live with three roommates. | ① I'm used to getting up at six now.（be used to 的 to 是介词，后面接 -ing）② I used to live with three roommates.（肯定句写 used to + 原形）
