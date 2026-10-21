@@ -1,0 +1,164 @@
+@day: 56
+@week: 4
+@title_cn: 家人和朋友
+@title_en: Family and Friends
+@topic: 看家人照片：长相像谁、性格像谁、描述家人、兄弟姐妹关系
+@think_short: 「长得像 / 性格像」look like / be like｜「她是什么样的人」What's she like?｜「关系很好」get along well｜「独生女」an only child
+
+@goal_scene: 给朋友看家人的照片：说清楚自己长得像谁、性格像谁，用几个形容词加一个小例子描述家人，说说和兄弟姐妹的关系；也能反过来问对方的家庭。
+@goal_expr: Who do you look like? / I look like my dad, but I'm more like my mom. / What's your sister like? / She's really easygoing and talkative. / We get along really well. / I'm an only child.
+@goal_vocab: 20 个重点词 + 5 个短语：家庭成员、长相、性格形容词、人际关系
+@done: 分清 look like（长相）和 be like（性格），用一句话说出你长得像谁、性格像谁
+@done: 用 What's … like? 问一个人的性格，并用 2 个性格形容词 + 1 个小例子回答
+@done: 用 get along with / an only child / older・younger sister 介绍你和家人的关系，不再说 Our relationship is very good 或 I'm only child
+
+@warmup: 你平时喜欢干什么？ | What do you do for fun? | D55
+@warmup: 我特别喜欢攀岩。 | I'm really into rock climbing. | D55
+@warmup: 我周末喜欢烤点心。 | I enjoy baking on weekends. | D55
+@warmup: 我刚报了个舞蹈班。 | I just signed up for a dance class. | D55
+@warmup: 你习惯早起了吗？ | Are you used to getting up early? | D53
+@warmup: Mike 是西雅图那边的工程师，他带领工程团队。 | Mike is an engineer in Seattle. He leads the engineering team. | D4
+
+@scene: 周五下午茶歇时间。林晓的妈妈刚在家庭群里发了几张全家吃饭的照片：爸爸退休后留起了胡子，长沙当老师的姐姐抱着小外甥站在后排。Emma 端着咖啡凑过来：「这是你家人吗？让我猜猜你像谁！」聊着聊着，林晓也好奇起来——Emma 有没有兄弟姐妹？
+@sp: 人物关系 | 林晓 ↔ Emma：同事兼朋友，Emma 对中国家庭很好奇，林晓也想了解美国同事的家
+@sp: 沟通目的 | 借照片聊家人：长相像谁、性格像谁、每个人是什么样的人、和姐姐关系怎么样；再问问 Emma 的家庭
+@sp: 已知信息 | Emma 只知道林晓家在湖南、爸爸刚退休；林晓不知道 Emma 有没有兄弟姐妹
+@sp: 表达重点 | 长相像爸爸（look like）、性格像妈妈（be like）→ 描述家人性格（stubborn / generous / caring …）→ 姐姐是什么样的人（What's she like?）→ 关系很好（get along）→ 独生女（only child）
+
+@story_title: Episode 56 · Who Do You Look Like?
+@story_type: 叙述 + 对话
+@s: During a coffee break on Friday, Lily shows Emma some family photos on her phone. | 周五茶歇时，林晓用手机给 Emma 看家里的照片。
+@s: Emma: Let me see. Who do you **look like**? | Emma：我看看。你长得像谁？
+@s: Lily: I look like my dad, but I'm more **like** my mom. | 林晓：我长得像我爸，但性格更像我妈。
+@s: Emma: Oh, I see it. Same eyes, same smile. And he has a **beard**! | Emma：哦，看出来了。一样的眼睛，一样的笑。他还留着胡子！
+@s: Lily: He's had it since he retired. Mom hates it! | 林晓：他退休以后就一直留着，我妈可嫌弃了！
+@s: Emma: He looks a bit **serious**. | Emma：他看起来有点严肃。
+@s: Lily: He is. He's a little **stubborn**, but he's **responsible** and **generous**. | 林晓：是挺严肃的。他有点倔，不过很有责任心，人也大方。
+@s: Lily: He gives his tomatoes to all the neighbors! | 林晓：他种的西红柿全送给邻居了！
+@s: Emma: That's sweet. And your mom? | Emma：真暖心。那你妈妈呢？
+@s: Lily: She's **gentle** and **caring**, and super **hard-working**. | 林晓：她很温柔，很会照顾人，而且特别勤快。
+@s: Lily: I'm the same. We both work too hard and worry too much. | 林晓：我也一样。我们俩都太拼，又爱操心。
+@br:
+@s: Emma: Who's this **tall** woman? | Emma：这位高个子的是谁？
+@s: Lily: That's my **older** **sister**. She's a teacher in Changsha. | 林晓：那是我姐姐，她在长沙当老师。
+@s: Emma: What's your sister like? | Emma：你姐姐是个什么样的人？
+@s: Lily: She's really **easygoing** and **talkative**. | 林晓：她特别随和，话也特别多。
+@s: Lily: She **takes after** my grandma. They're both so **cheerful**! | 林晓：她随我奶奶，两个人都特别开朗！
+@s: Lily: When we were kids, she was the boss. I was the shy **younger** one. | 林晓：小时候她是老大，我是那个害羞的小妹妹。
+@s: Emma: Do you **get along with** her? | Emma：你们俩处得好吗？
+@s: Lily: Oh, yes. We get along really well. | 林晓：特别好，我们感情可好了。
+@s: Lily: We have totally different **personalities**, but she's my best friend. | 林晓：我们俩性格完全不一样，但她是我最好的朋友。
+@s: Emma: It sounds like you have a great **relationship**. | Emma：听起来你们感情真好。
+@s: Lily: We do. And her little boy is my biggest fan! | 林晓：是啊。而且她家小外甥是我的头号粉丝！
+@br:
+@s: Lily: What about you? Do you have any **siblings**? | 林晓：你呢？你有兄弟姐妹吗？
+@s: Emma: No, I'm an **only child**. | Emma：没有，我是独生女。
+@s: Emma: I always wanted a **brother** or a sister. | Emma：我一直特别想要个兄弟姐妹。
+@s: Emma: But my mom is a **twin**, so I kind of grew up with two moms! | Emma：不过我妈妈是双胞胎，所以我差不多是被两个妈妈带大的！
+@s: Lily: Two moms? That sounds like double the rules! | 林晓：两个妈妈？那规矩也得翻倍吧！
+@s: Emma: Exactly. And double the birthday presents! | Emma：没错。不过生日礼物也翻倍！
+
+@v: look like | = | phr. | ˈlʊk laɪk | （长相）像……；看起来像 | 说孩子像谁、两个人长得像 | look like my dad；look a lot like…；look just like… | You look just like your mom! | 你跟你妈妈长得一模一样！ | look like 后面接名词（人或东西）；后面是形容词时去掉 like：✓ He looks serious. ✗ He looks like serious.；它只说长相，性格像谁用 be like。
+@v: like | be like | phr. | ˈlaɪk | （性格、为人）像……；问「……是什么样的人」 | 说性格像谁、打听别人的为人 | be like my mom；be more like…；What's she like? | My brother is a lot like my dad. They're both quiet. | 我弟弟性格很像我爸，两个人都话少。 | 这里的 like 是介词「像」，不是动词「喜欢」：I'm like my mom.（我像我妈）≠ I like my mom.（我喜欢我妈）；别漏掉 be：✗ I more like my mom.
+@v: beard | = | n. | bɪrd | （下巴、脸颊上的）胡子 | 描述男人的长相 | have a beard；grow a beard；a gray beard | My uncle has a long gray beard. | 我姑父留着一把长长的灰胡子。 | 中文「胡子」英文分两种：下巴上的是 beard，上唇的是 mustache `/ˈmʌstæʃ/`；「留胡子」说 grow a beard，「刮胡子」说 shave。
+@v: serious | = | adj. | ˈsɪriəs | 严肃的；不爱开玩笑的 | 描述一个人的表情、性格 | look serious；a serious person；Are you serious? | My manager looks serious, but she's very kind. | 我们经理看起来很严肃，其实人特别好。 | 说人时 serious 是「严肃」，不一定是夸奖；夸人「做事认真」更常说 careful / hard-working；Are you serious? 是「你说真的？」。
+@v: stubborn | = | adj. | ˈstʌbərn | 固执的；倔 | 描述家人、朋友不听劝、认死理 | a little stubborn；as stubborn as a mule；stubborn about… | My grandpa is stubborn. He won't see a doctor. | 我爷爷很倔，就是不肯去看医生。 | 偏负面，说长辈、朋友时常加 a little / a bit 缓和语气；第二个音节弱读成 `/bərn/`，不读 born `/bɔːrn/`。
+@v: responsible | = | adj. | rɪˈspɑːnsəbl | 有责任心的；靠得住的 | 夸人做事靠谱、对家人和工作负责 | very responsible；a responsible person；responsible for… | Grace is very responsible. She never misses a deadline. | 吴佳很有责任心，从来不会错过截止日期。 | 夸人「有责任心」直接说 He's responsible.，✗ He has a responsibility heart.；be responsible for sth 是「负责（某事）」，意思不同。
+@v: generous | = | adj. | ˈdʒenərəs | 大方的；慷慨的 | 夸人舍得给、乐于分享 | very generous；generous with…；That's generous of you. | That's very generous of you. Thank you! | 你太大方了，谢谢！ | 中文「大方」有两个意思：舍得给 = generous；举止自然、不拘束 = relaxed / confident，✗ She's very generous on stage.（不是这个意思）；g 读 `/dʒ/`。
+@v: gentle | = | adj. | ˈdʒentl | 温柔的；温和的 | 描述性格、说话方式、动作轻 | a gentle person；gentle with kids；Be gentle. | She's very gentle with her patients. | 她对病人特别温柔。 | 「温柔」常用 gentle 或 sweet；「轻一点」也说 Be gentle.；别和 gentleman（绅士）混在一起，gentle 男女都能用。
+@v: caring | = | adj. | ˈkerɪŋ | 体贴的；会照顾人的 | 夸家人、朋友、同事关心人 | a caring mom；kind and caring；a caring friend | Kevin is a caring friend. He always checks on me. | 李凯是个很体贴的朋友，总会来问问我怎么样。 | caring 是形容词；动词「关心」是 care about：✗ She is very care. → ✓ She's very caring. / She really cares about people.
+@v: hard-working | = | adj. | ˌhɑːrdˈwɜːrkɪŋ | 勤劳的；工作努力的 | 夸人肯干、能吃苦 | very hard-working；a hard-working team；hard-working parents | My parents are very hard-working. | 我爸妈都特别勤劳。 | 形容人用 hard-working（中间有连字符）；说动作用 work hard：✗ She is very hard work. → ✓ She works hard. / She's hard-working.
+@v: tall | = | adj. | tɔːl | 高的（人、树、楼） | 描述身高 | tall and thin；taller than…；How tall are you? | How tall are you? — I'm five foot six. | 你多高？——五英尺六英寸（约 168 厘米）。 | 人「高」用 tall，不用 high（high 说离地面高：a high shelf）；美国人说身高用英尺、英寸，听到 five foot six 别愣住。
+@v: older | = | adj. | ˈoʊldər | 年纪大一些的；（兄、姐）大的 | 说哥哥姐姐、比谁年纪大 | my older sister；an older brother；three years older | My older brother lives in Beijing. | 我哥哥住在北京。 | 「哥哥」「姐姐」说 older brother / older sister，口语也说 big sister；「比我大三岁」说 three years older than me，✗ older than me three years。
+@v: sister | = | n. | ˈsɪstər | 姐姐；妹妹 | 介绍家人 | older sister；younger sister；little sister | My little sister is in college. | 我妹妹在读大学。 | 英文 sister 不分姐妹，要说清楚就加 older / younger（或 big / little）；美国人不会叫自己姐姐「sister」，直接叫名字。
+@v: easygoing | = | adj. | ˌiːziˈgoʊɪŋ | 随和的；好相处的 | 夸人性格不计较、好说话 | really easygoing；an easygoing boss；easygoing about… | My roommate is easygoing. We never fight. | 我室友很随和，我们从来不吵架。 | 「随和」不说 ✗ follow others / ✗ very casual；美国口语也常说 laid-back、chill；也有人写成 easy-going。
+@v: talkative | = | adj. | ˈtɔːkətɪv | 爱说话的；健谈的 | 描述一个人话多、爱聊天 | very talkative；not very talkative；a talkative kid | He's not very talkative in meetings. | 他开会时话不多。 | 中性偏正面；嫌人「话太多」可以说 She talks a lot.；l 不发音：talk 读 `/tɔːk/`。
+@v: takes after | take after | phr. | ˌteɪks ˈæftər | （长相或性格）随（家里的长辈） | 说孩子像父母、祖父母 | take after my mom；take after his grandpa；really take after | Your son really takes after you. | 你儿子真随你。 | 只用于家里的长辈，不用于朋友、同事；主语是 she / he 时别忘了 -s：She takes after…；不用进行时：✗ She is taking after…
+@v: cheerful | = | adj. | ˈtʃɪrfl | 开朗的；乐呵呵的 | 描述一个人总是很开心、有活力 | a cheerful person；always cheerful；a cheerful voice | Our new intern is always cheerful. | 我们新来的实习生总是乐呵呵的。 | 「性格开朗」说 cheerful 或 outgoing（outgoing 偏「外向、爱交朋友」，Day 52）；✗ She has an open personality.（open 指「思想开明」）。
+@v: younger | = | adj. | ˈjʌŋgər | 年纪小一些的；（弟、妹）小的 | 说弟弟妹妹、比谁年纪小 | younger brother；younger sister；the younger one | I have a younger brother. | 我有个弟弟。 | 发音陷阱：young 读 `/jʌŋ/`，没有 g 的音；younger 要把 g 读出来：`/ˈjʌŋgər/`；「弟弟」= younger brother / little brother。
+@v: get along with | = | phr. | ˌget əˈlɔːŋ wɪð | 和……相处（融洽） | 说家人、同事、室友之间关系好不好 | get along with sb；get along well；don't get along | I get along with everyone on my team. | 我和团队里每个人都处得来。 | 两个人一起做主语时去掉 with：We get along really well.；「关系很好」不要直译成 ✗ Our relation is very good.
+@v: personalities | personality | n. | ˌpɜːrsəˈnælətiz | 性格；个性 | 说两个人性格不同、夸人性格好 | different personalities；a strong personality；a great personality | She has a great personality. | 她性格特别好。 | 描述某人的性格，直接用形容词最自然：She's cheerful.，比 ✗ Her personality is very cheerful. 顺口；「性格不同」说 We have different personalities.
+@v: relationship | = | n. | rɪˈleɪʃnʃɪp | 关系；感情 | 说家人、朋友、恋人、同事之间的关系 | a close relationship；a good relationship with…；in a relationship | I have a good relationship with my manager. | 我和经理关系不错。 | 日常聊天说两人关系好，更常用 We get along well. / We're close.；I'm in a relationship. 是「我在谈恋爱」；人与人之间的关系用 relationship，不用 relation。
+@v: siblings | sibling | n. | ˈsɪblɪŋz | 兄弟姐妹（统称） | 问家庭情况、填表 | have any siblings；two siblings；an older sibling | I have two siblings, a brother and a sister. | 我有两个兄弟姐妹：一个哥哥，一个姐姐。 | 中文「兄弟姐妹」英文一个词就是 siblings，不分男女长幼；聊天时也常问 Do you have any brothers or sisters?
+@v: only child | = | phr. | ˌoʊnli ˈtʃaɪld | 独生子；独生女 | 介绍家庭 | an only child；grow up as an only child | As an only child, I had my own room. | 作为独生子女，我一直有自己的房间。 | 前面要有 an：✓ I'm an only child. ✗ I'm only child.；不分男女；✗ I'm the only daughter. 意思是「家里唯一的女儿」（可能还有儿子）。
+@v: brother | = | n. | ˈbrʌðər | 哥哥；弟弟 | 介绍家人 | older brother；younger brother；little brother | My brother is two years younger than me. | 我弟弟比我小两岁。 | 不分哥哥弟弟，要说清楚就加 older / younger；th 读 `/ð/`，舌尖轻碰上齿、声带振动，不读 ✗ `/z/` 或 ✗ `/d/`。
+@v: twin | = | n./adj. | twɪn | 双胞胎（之一）；双胞胎的 | 说双胞胎兄弟姐妹 | a twin sister；twin brothers；be twins | Are you two twins? You look the same! | 你们俩是双胞胎吗？长得一模一样！ | 「她们是双胞胎」说 They're twins.（复数）；「我有个双胞胎妹妹」说 I have a twin sister.——英文一般不强调双胞胎谁大谁小。
+
+@diff: 「长得像我爸，性格像我妈」——look like vs be like
+@d_cn: 中文一个「像」，长相和性格都能说：「我长得像我爸」「我性格像我妈」。
+@d_en: I look like my dad, but I'm more like my mom. / She takes after my grandma.
+@d_why: 中文的「像」不分外表和内在，前面加「长得」「性格」就行；英文要换动词：**look like** 只说长相（看起来像），**be like** 说性格、为人、做事方式。所以 I'm like my mom. 说的是「我（性格）像我妈」。家里的长辈还可以用 **take after**（随……），长相、性格都能说。中国学生常见的错误是把「性格」也套进 look like：✗ My personality looks like my mom.；还有人以为 like 只有「喜欢」的意思，把 I'm like my mom 听成了「我喜欢我妈」。
+@d_when: 介绍家人、给人看照片、说孩子像谁、说朋友和某人很像。
+@d_vs: ✓ **I look like my dad.** 我长得像我爸。\n✓ **I'm more like my mom.** 我性格更像我妈。\n✓ **She takes after my grandma.** 她随我奶奶。\n✗ My personality looks like my mom.\n✓ **I like my mom.** 我喜欢我妈。（完全是另一个意思）
+@d_task: 用英文说：① 我弟弟长得像我妈。② 我性格像我爸，我们俩都很倔。 | ① My brother looks like my mom. ② I'm like my dad. We're both stubborn.
+@diff: 「她是个什么样的人？」——What's she like?
+@d_cn: 打听一个人的性格、为人；和「她长什么样？」（问长相）区分开。
+@d_en: What's your sister like? — She's really easygoing and talkative. / What does she look like? — She's tall, with long hair.
+@d_why: 中文「什么样」两种都能问，靠「人」和「长」区分；英文换了结构：**What's she like?**（What + is + 人 + like）问性格、为人；**What does she look like?** 问长相（Day 39 的 What does it look like? 问东西的样子）。中国学生常犯两个错：① 漏掉 like：✗ What's your sister?（不完整，像在问她是做什么的）；② how 和 like 一起用：✗ How is your sister like? 而 How's your sister? 意思是「你姐姐最近好吗」。回答 What's she like? 用性格形容词，最好再加一个小例子。
+@d_when: 听说要来新同事、新经理，朋友要介绍男朋友、相亲对象给你，或者聊别人的家人时。
+@d_vs: ✓ **What's your sister like?** — She's really easygoing and talkative. 她性格怎么样？——特别随和，话也多。\n✓ **What does she look like?** — She's tall, with short hair. 她长什么样？——个子高，短头发。\n✓ **How's your sister?** — She's fine, thanks. 你姐姐最近好吗？\n✗ How is your sister like?
+@d_task: 听说下周来一位新经理，你想问同事：① 他人怎么样？② 他长什么样？ | ① What's he like? ② What does he look like?
+@diff: 「我跟我姐关系很好」——We get along really well.
+@d_cn: 说两个人相处得好、处得来（或处不来）。
+@d_en: We get along really well. / I get along well with my sister. / We don't really get along.
+@d_why: 中文「关系很好」是名词「关系」加形容词「好」；直译成 ✗ My sister and I relationship is very good. 句子不完整；就算改成 Our relationship is very good. 语法对了，聊天时也很生硬，像在写报告。英文日常说法是动词短语 **get along (well) with** + 人；两个人一起做主语时去掉 with：We get along really well. 说「处不来」：We don't really get along. relationship 多用在别人的评价里：It sounds like you have a great relationship.
+@d_when: 介绍家人、室友、同事之间的关系；面试被问到怎么和别人合作时也能用。
+@d_vs: ✓ **I get along really well with my sister.** 我跟我姐关系很好。\n✓ **We get along really well.** 我们感情很好。\n✗ My sister and I relationship is very good.\n✓ **My roommate and I don't really get along.** 我和室友处不太来。\n✓ **It sounds like you have a great relationship.** 听起来你们感情真好。
+@d_task: 用英文说：① 我和新同事处得很好。② 我爸和我爷爷处不来。 | ① I get along really well with my new coworkers. ② My dad and my grandpa don't get along.
+@diff: 「我是独生女」——I'm an only child.
+@d_cn: 介绍自己有没有兄弟姐妹、在家里排第几。
+@d_en: I'm an only child. / Do you have any brothers or sisters? / This is my older sister.
+@d_why: 中文分「独生女」「独生子」；英文不分男女，都说 **an only child**，前面的 an 不能丢。中文「哥哥、弟弟、姐姐、妹妹」分得很清楚，英文只有 **brother** 和 **sister**，要分大小时加 **older / younger**（口语也说 big / little）：my older sister。问「有兄弟姐妹吗」，最口语的是 Do you have any brothers or sisters?；统称 **siblings** 稍正式，聊天、填表都能用。另外，美国人一般直接叫兄弟姐妹的名字，不会叫 ✗ Sister!
+@d_when: 介绍家庭、和新朋友聊天。在美国，问人有没有兄弟姐妹很正常，但别追问「为什么不再生一个」这类私事。
+@d_vs: ✓ **I'm an only child.** 我是独生女 / 独生子。\n✗ I'm only child.\n✗ I'm the only daughter.（意思变成「家里唯一的女儿」）\n✓ **Do you have any siblings?** 你有兄弟姐妹吗？\n✓ **I have a younger brother.** 我有个弟弟。
+@d_task: 用英文说：① 我有一个姐姐和一个弟弟。② 我是独生子。 | ① I have an older sister and a younger brother. ② I'm an only child.
+
+@core: Who do you look like? — I look like my dad. | 聊长相像谁 | my dad / my mom / my grandpa | 正式：People say I resemble my father.｜随意：I'm basically a copy of my dad!
+@core: I'm more like my mom. | 说性格像谁 | my mom / my dad；也可以说 I take after my mom. | 正式：In personality, I take after my mother.｜随意：I'm my mom, one hundred percent.
+@core: What's your sister like? | 打听一个人的性格、为人 | your sister / your new manager / Mei's boyfriend | 正式：What kind of person is she?｜随意：So what's she like?
+@core: She's really + 性格形容词 + and + 性格形容词. | 描述一个人的性格 | easygoing / talkative / cheerful / caring / stubborn | 正式：She's very responsible and caring.｜随意：She's super chill and chatty.
+@core: We get along really well. | 说两个人关系好 | really well / pretty well；反过来 don't really get along | 正式：We have a very good relationship.｜随意：We're super close.
+@core: Do you have any brothers or sisters? — I'm an only child. | 问和答兄弟姐妹 | brothers or sisters / siblings；an older sister / a younger brother | 正式：Do you have any siblings?｜随意：Any brothers or sisters?
+@core: She takes after my grandma. | 说某人随家里哪位长辈 | my grandma / my dad / her mom | 正式：She resembles my grandmother in many ways.｜随意：She's just like my grandma.
+
+@pw: personality | ˌpɜːrsəˈnæləti | 5 个音节 per·so·NAL·i·ty | 主重音在 nal；美音 t 读成闪音，结尾像 -nal-a-dy
+@pw: stubborn | ˈstʌbərn | 2 个音节 STUB·born | u 读 `/ʌ/`；born 弱读成 `/bərn/`，不读 `/bɔːrn/`
+@pw: generous | ˈdʒenərəs | 3 个音节 GEN·er·ous | g 读 `/dʒ/`；口语常缩成两个音节 `/ˈdʒenrəs/`
+@pw: easygoing | ˌiːziˈgoʊɪŋ | 4 个音节 ea·sy·GO·ing | 主重音在 go；easy 和 going 连成一个词，中间不停顿
+@pw: talkative | ˈtɔːkətɪv | 3 个音节 TALK·a·tive | l 不发音！-ative 弱读成 `/ətɪv/`，不读 `/eɪtɪv/`
+@pw: relationship | rɪˈleɪʃnʃɪp | 4 个音节 re·LA·tion·ship | 重音在 la；tion 只剩 `/ʃn/`，和 ship 的 `/ʃ/` 挨着读
+@pw: younger | ˈjʌŋgər | 2 个音节 YOUN·ger | young 没有 g 音，younger 要读出 `/g/`；older 同理多一个 `/d/`
+@ps: Who do you **look** like? ↘ | do you 弱读成 `/dəjə/`；重音在 look，like 轻一点；特殊疑问句句尾往下降。
+@ps: I **look** like my **dad**, / but I'm **more** like my **mom**. | 两半对比：前一半重读 look 和 dad，后一半重读 more 和 mom；逗号处稍停，前一半句尾微升。
+@ps: **What's**‿your **sis**ter like? | What's your 连读成 `/wʌtʃər/`，像 whatcher；重音在 sis，like 轻读。
+@ps: We get‿a**long** / **real**ly **well**. | get along 连读，t 变成闪音，像 ge-da-long；重音在 long、real、well。
+@pnote: 本课的弱读与缩读：Do you get along with her? 里 her 弱读成 `/ər/`，h 不发音，和 with 连成 with-er；He's had it since he retired. 里 **he's = he has**（后面跟过去分词 had），而 He's a little stubborn. 里 **he's = he is**（后面跟形容词）——听 he's 后面跟的是什么词来判断。
+@pnote: 书面 vs 口语：Emma 说 I kind of grew up with two moms，kind of 说快了就是 **kinda**（第一册 Mike 说过），和 gonna、wanna 一样，能听懂就行，书面写 kind of。What's 是 What is 的缩写，口语里几乎没人说 What is your sister like?
+@lfocus: look like 和 be like：听 like 前面是 look 还是 is / 'm
+@lfocus: What's your 连读成 /wʌtʃər/
+@lfocus: he's = he is 还是 he has（He's a little stubborn / He's had it since…）
+@dict: S2–S3
+@dict: S14–S16
+@res: 在 youglish.com 输入 "what's she like"，选 US，听美国人问别人性格时的语调。
+
+@mimic: 跟读【C】S2–S28：先用正常语速逐句跟读，重点模仿 I look like my dad, / but I'm more like my mom. 的对比重音和 What's your 的连读；再你演林晓、手机朗读 Emma 的台词，完整对一遍并录音。
+@swap: I look like my dad, but I'm more like my mom. | 换人：my mom / my grandpa；my dad / my grandma | I look like my mom, but I'm more like my dad.
+@swap: What's your sister like? — She's really easygoing and talkative. | 换人和性格：your brother → responsible, hard-working；your best friend → cheerful, caring | What's your best friend like? — She's really cheerful and caring.
+@swap: We get along really well. | 换成具体的人：with my roommate / with my coworkers；也可以说处不来 don't really get along | I get along really well with my coworkers.
+@swap: She takes after my grandma. | 换人：He → my dad；My nephew → my sister | My nephew takes after my sister. He never stops talking!
+@free: 新朋友看了你和家人的合照，问 Who do you look like?（你长得像妈妈，性格像爸爸，都很安静） | I look like my mom, but I'm more like my dad. We're both pretty quiet.
+@free: 同事问 What's your brother like?（你哥哥很有责任心，就是有点倔） | He's very responsible. He's a little stubborn, though. He never changes his mind!
+@free: 美国同事问 Do you have any brothers or sisters?（你是独生女，小时候特别想要个姐姐） | No, I'm an only child. When I was a kid, I always wanted an older sister.
+@free: 朋友问你和室友处得怎么样（处得很好，室友很随和） | We get along really well. She's very easygoing, and she always shares her snacks with me.
+@output: 录 1.5 分钟（或写 8–10 句）「我的家人」：你长得像谁、性格像谁（look like / be like）→ 用 2–3 个形容词 + 一个小例子描述一位家人 → 你和兄弟姐妹的关系（或作为独生子女的经历）→ 最后问对方一个问题。
+@output_sample: Let me tell you about my family. I look like my mom, but I'm more like my dad. We're both quiet and a little serious. My dad is very hard-working. He worked at the same company for thirty years, and he never missed a day. My mom is cheerful and talkative, and she knows everyone in our neighborhood! I have a younger brother. He takes after my mom, so he's really easygoing. We fought a lot when we were kids, but now we get along really well. What about you? Who do you look like?
+
+@check: 「我长得像我爸」和「我性格像我爸」英文分别怎么说？ | I look like my dad.（长相）／ I'm like my dad.（性格；也可以说 I take after my dad.）
+@check: What's your sister like? 和 What does your sister look like? 有什么不同？How's your sister? 又是问什么？ | 第一句问性格、为人；第二句问长相；How's your sister? 是问她最近好不好。
+@check: 「我跟我姐关系很好」说成 My sister and I relationship is very good. 对吗？ | 不对，句子不完整也不自然。说 I get along really well with my sister. 或 We get along really well.
+@check: 「我是独生女」说成 I'm only child. 哪里错了？ | 少了 an：I'm an only child.（独生子、独生女都这么说）
+@check: He looks serious. 和 He looks like serious. 哪个对？为什么？ | He looks serious. look 后面接形容词时不用 like；look like 后面接名词：He looks like my dad.
+@next1: 不看书说出 S2、S3、S14、S15、S19（锚点句）
+@next1: 用 look like 和 be like 各说一句你和家人的事
+@next7: 用 3 个性格形容词 + 1 个小例子介绍一位家人或朋友
+@next7: look like / be like / take after / get along with 的区别，各说一句
