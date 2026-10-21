@@ -1,0 +1,161 @@
+@day: 43
+@week: 2
+@title_cn: 讲一个小故事
+@title_en: Let Me Tell You a Story
+@topic: 聚餐时讲一个以前工作中的小故事：开头、经过、转折、感受
+@think_short: 「有一次」One day, …｜「突然」all of a sudden｜「我很感动」I was touched（不是 moving）｜讲过去的事一路用过去式
+
+@goal_scene: 团队聚餐，大家让你讲个故事。你要用英文把一件过去的事讲完整：怎么开头、发生了什么、哪里出现转折、你有什么感受、最好的部分是什么；别人讲完时，也能说出「这让我想起……」。
+@goal_expr: Let me tell you about… / One day, … / All of a sudden, … / I was really touched. / The best part was… / Thank you for your kindness. / It reminds me of…
+@goal_vocab: 20 个重点词 + 5 个短语：快递网点、家人与陌生人、讲故事的开头、转折和感受
+@done: 能用 Let me tell you about… / One day, … 开始讲一个故事，不用 ✗ Once upon a time 或 ✗ There is one day…
+@done: 能讲一个 1 分钟以上的过去的故事，动词一路用过去式，不滑回现在式
+@done: 能用 I was really touched. 说感受（不说 ✗ I was very moving），用 The best part was… 说高潮，用 It reminds me of… 回应别人的故事
+
+@warmup: 团建怎么取消了？ | How come the trip was canceled? | D42
+@warmup: 这个周末有台风要来。 | A typhoon is coming this weekend. | D42
+@warmup: 所以货架才是空的。 | That's why the shelves are empty. | D42
+@warmup: 我们买点水吧，以防万一。 | Let's buy some water, just in case. | D42
+@warmup: 结果我们一直干到了半夜。 | We ended up working until midnight. | D40
+@warmup: 派送员拍了一张照片作为凭证。 | The driver took a photo as proof. | D28
+
+@scene: 周五晚上，原定的海边团建因为台风延期，张涛请大家在公司附近吃火锅，窗外的风越来越大。这一周 Kevin 讲了机房漏水，Emma 讲了半程马拉松，这回大家起哄让林晓讲一个故事。林晓想了想，讲起了来 SwiftLink 之前，她在快递网点上班时遇到的一位老爷爷。
+@sp: 人物关系 | 林晓 → Emma、Kevin、吴佳（张涛也在座）：熟悉的同事，聚餐气氛热闹轻松；这是林晓第一次在大家面前用英文讲一个完整的故事
+@sp: 沟通目的 | 林晓：把一件过去的事讲得有开头、有经过、有转折、有感受；听的人：追问、回应，说出自己的联想
+@sp: 已知信息 | 同事们只知道林晓以前在快递网点上过班，没听过这个故事；Emma 的爷爷到现在还会给她写信
+@sp: 表达重点 | 开头：Let me tell you about… / One day, … → 经过：一路用过去式（came, wrote, searched, found）→ 转折：All of a sudden, … → 感受：I was really touched. → 高潮：The best part was… → 听众的联想：It reminds me of…
+
+@story_title: Episode 43 · The Letter
+@story_type: 讲故事（叙述 + 对话）
+@s: On Friday night, the team has hot pot. | 周五晚上，团队一起吃火锅。
+@s: Emma: Lily, your turn. Tell us a story! | Emma：好了，林晓，轮到你了。给我们讲个故事吧！
+@s: Lily: OK. **Let me tell you about** my old job. | 林晓：好吧。那我讲讲我以前的工作吧。
+@s: Lily: Before SwiftLink, I worked at a **courier** station. | 林晓：来 SwiftLink 之前，我在一个快递网点上班。
+@s: Lily: We had **piles** of **parcels** every day, so I often worked **overtime**. | 林晓：每天包裹都堆成山，所以我经常加班。
+@s: Lily: Many of our customers were **elderly**. | 林晓：我们的客人很多都是老人家。
+@s: Lily: **One day**, an old man came in with a letter. | 林晓：有一天，一位老爷爷拿着一封信走了进来。
+@s: Lily: It was the end of my **shift**. | 林晓：那会儿我快交班了。
+@s: Lily: The **envelope** said "Return to Sender." The address was wrong. | 林晓：信封上盖着「退回寄件人」——地址写错了。
+@s: Kevin: Who was it for? | Kevin：信是寄给谁的？
+@s: Lily: His **granddaughter** in Guangzhou. He wrote the address from **memory**. | 林晓：寄给他在广州的孙女。地址是他凭记忆写的。
+@s: Lily: His **handwriting** was shaky, too. | 林晓：而且他的字也抖得厉害。
+@s: Grace: Oh no. Did he have her phone number? | 吴佳：哎呀。他有孙女的电话吗？
+@s: Lily: He couldn't find it. So we **searched** his bag. | 林晓：他找不到了，于是我们翻了翻他的包。
+@s: Lily: We found a **sticker** from an old parcel. Her number was on it! | 林晓：我们找到了一张旧包裹上的面单，上面有她的电话！
+@br:
+@s: Lily: I called her and got the right address. | 林晓：我给她打了电话，问到了正确的地址。
+@s: Lily: Then I gave him the phone. **All of a sudden**, he started to **cry**. | 林晓：然后我把电话递给他。突然，他哭了起来。
+@s: Emma: Aww. Why? | Emma：啊……怎么了？
+@s: Lily: He really missed her. | 林晓：他太想她了。
+@s: Lily: Afterward, he gave me a **warm** **smile** and said, "Thank you for your **kindness**." | 林晓：后来，他朝我暖暖地笑了笑，说：「谢谢你的好心。」
+@s: Lily: I was just a **stranger**, but he was so **grateful**. | 林晓：我对他来说只是个陌生人，可他那么感激。
+@s: Lily: I was really **touched**. | 林晓：我真的很感动。
+@s: Grace: That's so sweet. | 吴佳：好暖心啊。
+@s: Lily: **The best part was** a week later. His granddaughter came to our station. | 林晓：最棒的是一个星期以后——他的孙女来了我们网点。
+@s: Lily: She gave me a big **hug**. | 林晓：她给了我一个大大的拥抱。
+@s: Emma: **It reminds me of** my grandpa. He still writes me letters. | Emma：这让我想起了我爷爷。他现在还给我写信呢。
+
+@v: Let me tell you about | let me tell you about… | phr. | ˌlet mi ˈtel jə əˌbaʊt | 我跟你们讲讲……吧 | 开始讲一件事，先拿到话头 | Let me tell you about…；Let me tell you a story.；Let me tell you something. | Let me tell you about my first day at work. | 我给你们讲讲我上班第一天的事吧。 | 不说 ✗ I tell you a story.（少了 let me，像在下命令）；Let me tell you something. 后面常跟严肃的话，语气要注意；let me 口语里常连成 lemme。
+@v: courier | = | n. | ˈkʊriər | 快递；快递员 | 说快递公司、快递网点、快递员 | a courier station；a courier company；send sth by courier | I'll send you the contract by courier. | 我会用快递把合同寄给你。 | 「快递员」可以说 courier 或 delivery driver（第一册）；美国人日常说「寄快递」更常说 ship it / send it express，courier 稍正式；ou 读 `/ʊ/`。
+@v: piles | pile | n. | paɪlz | 一堆；一大摞 | 说东西堆得很多 | a pile of…；piles of work；in a pile | There's a pile of letters on your desk. | 你桌上有一摞信。 | piles of… 在口语里就是「好多好多」：piles of work（一大堆活）；pile 是堆在一起的一堆，整整齐齐的一叠更常说 stack。
+@v: parcels | parcel | n. | ˈpɑːrslz | 包裹 | 寄件、收件、快递行业 | send a parcel；a parcel for you；parcel delivery | There's a parcel for you at the front desk. | 前台有你一个包裹。 | 意思和第一册的 package 一样；美国人日常更常说 package，parcel 在英国更常用，物流行业里两个都用。
+@v: overtime | = | adv./n. | ˈoʊvərtaɪm | 加班；超时 | 说加班 | work overtime；overtime pay；two hours of overtime | I worked overtime three times last week. | 上周我加了三次班。 | 「加班」说 work overtime，不说 ✗ add work / ✗ add class；也可以说 work late；overtime pay 是「加班费」。
+@v: elderly | = | adj. | ˈeldərli | 上了年纪的；年长的 | 礼貌地说老年人 | elderly people；an elderly man；the elderly | Please give your seat to elderly people. | 请给老人让座。 | elderly 比 old 更客气、更礼貌；虽然以 -ly 结尾，它是形容词，不是副词；当面称呼老人不说 ✗ old man，可以说 sir / ma'am。
+@v: One day | one day | phr. | ˌwʌn ˈdeɪ | 有一天 | 讲过去的故事时开头；也指「将来总有一天」 | One day, …；one day last year；One day, I'll… | One day, I got lost in Hong Kong. | 有一天，我在香港迷路了。 | 讲过去的事，后面用过去式；说将来「总有一天」也用 one day：One day, I'll visit New York.；前面不加介词：✗ On one day, …
+@v: shift | = | n. | ʃɪft | 班；轮班 | 说早班、晚班、交班 | the night shift；my shift；the end of my shift | I work the morning shift this week. | 我这周上早班。 | 「上早班 / 夜班」说 work the morning / night shift；「交班」可以说 at the end of my shift；「换班」是 swap shifts。
+@v: envelope | = | n. | ˈenvəloʊp | 信封 | 寄信、装钱、装文件 | an envelope；a red envelope；open the envelope | Please put the receipt in this envelope. | 请把收据放进这个信封里。 | 「红包」可以说 a red envelope；也有美国人读 `/ˈɑːnvəloʊp/`，两种都对；重音都在第一个音节。
+@v: granddaughter | = | n. | ˈɡrændɔːtər | 孙女；外孙女 | 介绍家人 | my granddaughter；his granddaughter；grandson | Her granddaughter is in college now. | 她的孙女现在上大学了。 | 英文不分「孙女」和「外孙女」，都是 granddaughter；拼写有两个 d（grand + daughter），但只读一个 d；gh 不发音。
+@v: memory | = | n. | ˈmeməri | 记忆；记性；回忆 | 说凭记忆、记性好坏、美好的回忆 | from memory；a good memory；happy memories | I have a terrible memory for names. | 我特别记不住人名。 | 「凭记忆写」是 write sth from memory；「记性好」是 have a good memory，不说 ✗ My memory is strong.；美好的回忆用复数 memories。
+@v: handwriting | = | n. | ˈhændraɪtɪŋ | 笔迹；手写的字 | 说字写得好不好、认不认得出 | nice handwriting；messy handwriting；in his own handwriting | I can't read my own handwriting! | 我连自己写的字都认不出来！ | 「他字写得好」说 He has nice handwriting.，不说 ✗ His words are beautiful.（words 是「说的话」）；handwriting 不可数，不加 s。
+@v: searched | search | v. | sɜːrtʃt | 搜；翻找 | 找东西、在网上搜 | search sth；search for sth；search online | I searched the whole room for my keys. | 我把整个房间都翻遍了找钥匙。 | search + 地方 = 翻这个地方（search his bag）；search for + 东西 = 找这个东西（search for her number）；✗ search my keys 意思成了「搜查我的钥匙」。
+@v: sticker | = | n. | ˈstɪkər | 贴纸；（快递）面单 | 贴纸、标签贴、快递面单 | a sticker；put a sticker on…；a shipping sticker | Put this sticker on the box. | 把这张贴纸贴在箱子上。 | 快递面单正式叫 shipping label（第一册学过 label），口语里也常叫 sticker；「贴上」说 put a sticker on…，不说 ✗ paste a sticker。
+@v: All of a sudden | all of a sudden | phr. | ˌɔːl əv ə ˈsʌdn | 突然 | 讲故事时的转折，制造悬念 | All of a sudden, …；all of a sudden + 过去式 | We were talking. All of a sudden, the phone rang. | 我们正聊着，电话突然响了。 | 别漏掉 a：✗ all of sudden；后面的动词用过去式；比 suddenly 更口语，讲故事时更有画面感。
+@v: cry | = | v. | kraɪ | 哭 | 说某人哭了、什么让人想哭 | start to cry；cry for joy；Don't cry. | The movie made me cry. | 那部电影把我看哭了。 | 过去式是 cried；cry 也可以是「大喊」：cry for help；「感动得哭了」可以说 I cried. 或 I was in tears.
+@v: warm | = | adj. | wɔːrm | 温暖的；热情的 | 说天气暖和，也说笑容、态度、欢迎很暖 | a warm smile；warm weather；a warm welcome | Thanks for the warm welcome! | 谢谢你们热情的欢迎！ | ar 读 `/ɔːr/`，和 worm（虫子 `/wɜːrm/`）不同；「暖心的故事」可以说 a heartwarming story。
+@v: smile | = | n./v. | smaɪl | 微笑 | 说表情；拍照时让人笑 | a big smile；smile at sb；Smile! | She has a beautiful smile. | 她笑起来很好看。 | smile 是不出声的微笑，laugh（Day 40）是笑出声；「对某人笑」是 smile at sb；拍照时说 Smile! / Say cheese!
+@v: kindness | = | n. | ˈkaɪndnəs | 好心；善意 | 郑重地感谢别人的帮助；说陌生人的善意 | Thank you for your kindness.；an act of kindness；kindness to strangers | I'll never forget your kindness. | 我永远不会忘记你的好意。 | kind（第一册）是形容词，kindness 是名词；Thank you for your kindness. 很郑重，日常小事说 That's so kind of you. 就够了。
+@v: stranger | = | n. | ˈstreɪndʒər | 陌生人 | 说不认识的人 | a stranger；talk to strangers；a complete stranger | Don't open the door for strangers. | 别给陌生人开门。 | stranger 不是「奇怪的人」（strange 第一册学过，是「奇怪的」）；「我对这里不熟」可以说 I'm a stranger here.
+@v: grateful | = | adj. | ˈɡreɪtfl | 感激的 | 郑重地表示感谢 | be grateful for…；be grateful to sb；I'm so grateful. | I'm really grateful for your help. | 真的很感谢你的帮助。 | grateful for + 事，grateful to + 人；拼写是 grate-，不是 ✗ greatful。
+@v: touched | = | adj. | tʌtʃt | 感动的；被打动的 | 说自己被一件事、一个人打动 | really touched；touched by…；I'm so touched. | I was really touched by your card. | 收到你的卡片我真的很感动。 | 说人的感受用 touched / moved，说事情感人用 touching / moving：✗ I was very moving.；-ed 读 `/t/`，整个词只有一个音节。
+@v: The best part was | the best part was | phr. | ðə ˌbest ˈpɑːrt wəz | 最棒（最开心）的是…… | 讲故事、聊旅行时说最精彩的部分 | The best part was…；the best part of…；The worst part was… | The trip was great. The best part was the food. | 那次旅行太棒了，最棒的是吃的。 | 后面可以接名词、时间或句子；「最糟的是」说 The worst part was…；was 弱读成 `/wəz/`。
+@v: hug | = | n./v. | hʌɡ | 拥抱 | 朋友、家人见面或告别；表示感谢、安慰 | give sb a hug；a big hug；hug sb | She gave me a big hug at the airport. | 她在机场给了我一个大大的拥抱。 | 「抱一下」说 give sb a hug，不说 ✗ hold sb（hold 是「抱着、搂着不放」）；美国朋友之间见面拥抱很常见。
+@v: It reminds me of | it reminds me of | phr. | ɪt rɪˈmaɪndz mi əv | 这让我想起…… | 听完故事、看到东西时说出联想 | It reminds me of…；remind sb of sth；That reminds me… | This song reminds me of college. | 这首歌让我想起了大学时光。 | 不说 ✗ It remembers me of…；remind sb of sth 是「让人想起」，remind sb to do 是「提醒某人去做」；单说 That reminds me! 是「对了，我想起来了」。
+
+@diff: 讲故事的开头——One day, … / One time, …（「有一次」）
+@d_cn: 讲一件过去的事，先用一句话把听的人带进故事：「有一次」「有一天」。
+@d_en: Let me tell you about my old job. / One day, an old man came in with a letter. / One time, I…
+@d_why: 中文「有一次」「有一天」里有个「有」，中国学生常直译成 ✗ There is one day… 或 ✗ Have one time…；或者用 ✗ Once upon a time…——那是童话故事的开头，用来讲自己的经历会让人发笑。英文讲亲身经历最常用：**One day, …**（某一天）、**One time, …**（口语「有一次」）、**Once, …**（稍书面）。开讲之前，美国人还常先打个招呼、拿到话头：**Let me tell you about…** / **Let me tell you a story.**——不说 ✗ I tell you a story.
+@d_when: 聚餐、闲聊时轮到你讲故事；面试、演讲时举一个亲身经历的例子。
+@d_vs: **One day, an old man came in with a letter.** 有一天，一位老人拿着一封信进来。\n**One time, I fell asleep on the subway.** 有一次我在地铁上睡着了。\n✗ There is one day, an old man…\n✗ Once upon a time, I worked at a courier station.
+@d_task: 用两种开头说：「有一次，我把手机落在出租车上了。」 | One time, I left my phone in a taxi. / One day, I left my phone in a taxi.
+@diff: 「突然」——suddenly / all of a sudden
+@d_cn: 故事里出现了意想不到的转折。
+@d_en: All of a sudden, he started to cry. / Suddenly, the power went out.
+@d_why: 中文的「突然」位置很灵活；英文 **suddenly** 是副词，可以放句首，也可以放在动词前（He suddenly stopped.）；**all of a sudden** 更口语、更有讲故事的味道，一般放在句首，说的时候常常稍停一下，制造悬念。常见错误有三个：漏掉 a（✗ all of sudden）；把 suddenly 当形容词（✗ It was very suddenly. → ✓ It was very sudden.）；「突然」后面忘了用过去式（✗ All of a sudden, he start to cry.）。
+@d_when: 讲故事讲到转折点：有人哭了、停电了、电话响了、有人冲了进来。
+@d_vs: **All of a sudden, he started to cry.** 突然，他哭了起来。（口语、有悬念）\n**He suddenly started to cry.** 他突然哭了。\n**It was so sudden.** 太突然了。（形容词 sudden）\n✗ All of sudden, he start to cry.
+@d_task: 用 all of a sudden 说：「我们正在吃饭，突然灯全灭了。」 | We were having dinner. All of a sudden, all the lights went out.
+@diff: 「我很感动」——I was touched. / I was moved.
+@d_cn: 被一件事、一个人打动，心里很暖，甚至想哭。
+@d_en: I was really touched. / It was a really touching story.
+@d_why: 中文「感动」既能说人（我很感动），也能说事（这件事很感动）；英文要分开：说**人的感受**用 -ed：**I was touched / moved.**；说**事情让人感动**用 -ing：**It was touching / moving.**（第一册 Day 27 学过 bored / boring，是同一个规律）。中国学生常说 ✗ I was very moving.——意思变成了「我这个人很感人」；或者 ✗ I was very touch. 漏掉 -ed。「暖心的故事」还可以说 a heartwarming story。
+@d_when: 讲到让你感动的事；看完一部电影；收到别人的礼物、卡片或感谢时。
+@d_vs: **I was really touched.** 我很感动。（我的感受）\n**It was a really touching story.** 那是个很感人的故事。（事情）\n**I was moved to tears.** 我感动得哭了。\n✗ I was very moving.
+@d_task: 用英文说：「他的信很感人。我读的时候特别感动。」 | His letter was really touching. I was so touched when I read it.
+@diff: 讲过去的故事，从头到尾用过去式
+@d_cn: 中文讲故事时动词不变（他进来、拿着信、哭了），时间全靠「那天」「后来」交代。
+@d_en: One day, an old man came in with a letter. He couldn't find her number, so we searched his bag.
+@d_why: 中文动词没有时态变化，所以中国学生讲着讲着就从过去式滑回了现在式：✗ One day, an old man come in… he start to cry… 英文里，一旦开头用了 One day / Last year 这样的过去时间，后面的动词就要一路用过去式：came, wrote, couldn't, searched, found, started。只有两种情况用现在时：一是**现在仍然如此**的事（He still writes me letters.）；二是**讲的人或听的人现在的感想**（It reminds me of my grandpa.）。美国人讲笑话时偶尔整段用现在时，那是一种特别的风格，学习者先把过去式讲稳。
+@d_when: 讲任何一件已经发生的事：经历、见闻、事故、旅行。
+@d_vs: **One day, an old man came in. He had a letter.** ✓\n✗ One day, an old man come in. He has a letter.\n**It reminds me of my grandpa.**（现在的感想，用现在时）\n**He still writes me letters.**（现在仍然这样，用现在时）
+@d_task: 把下面几句改成正确的过去式：One day, I go to the station. A woman ask me for help. I find her bag. | One day, I went to the station. A woman asked me for help. I found her bag.
+
+@core: Let me tell you about + 某事. | 开始讲一件事，拿到话头 | my old job / my first day / my trip to Beijing | 正式：I'd like to share a story about…｜随意：OK, so get this…
+@core: One day, + 过去式句子. | 讲故事的开头 | One day / One time / Last year | 正式：On one occasion, …｜随意：So one time, …
+@core: All of a sudden, + 过去式. | 故事的转折、制造悬念 | All of a sudden / Suddenly | 正式：Suddenly, …｜随意：And then, out of nowhere, …
+@core: I was really touched. | 说自己被打动 | really touched / so moved | 正式：I was deeply moved.｜随意：I almost cried!
+@core: The best part was + … | 讲最精彩、最开心的部分 | The best part was… / The worst part was… / The funny part was… | 正式：The highlight was…｜随意：And the best part?
+@core: Thank you for your kindness. | 郑重地感谢别人的好意 | kindness / help / patience | 正式：I really appreciate your kindness.｜随意：That's so kind of you. Thanks!
+@core: It reminds me of + 人 / 事. | 听完故事，说出自己的联想 | my grandpa / my first job / my hometown | 正式：That brings back memories of…｜随意：That's just like my grandpa!
+
+@pw: courier | ˈkʊriər | 3 个音节 COU·ri·er | 重音在第一个音节；ou 读短的 `/ʊ/`，结尾 ier 弱读
+@pw: envelope | ˈenvəloʊp | 3 个音节 EN·ve·lope | 重音在前；中间的 e 弱读成 `/ə/`
+@pw: granddaughter | ˈɡrændɔːtər | 3 个音节 GRAND·daugh·ter | 两个 d 只读一个；gh 不发音；ter 的 t 读成轻轻的 d
+@pw: handwriting | ˈhændraɪtɪŋ | 3 个音节 HAND·writ·ing | w 不发音；d 几乎吞掉，直接接 r：han-dry-ding
+@pw: elderly | ˈeldərli | 3 个音节 EL·der·ly | 重音在第一个音节；der 弱读成 `/dər/`
+@pw: grateful | ˈɡreɪtfl | 2 个音节 GRATE·ful | ful 弱读成 `/fl/`，几乎没有元音
+@pw: touched | tʌtʃt | 1 个音节 | -ed 读 `/t/`，不要多读出一个音节 touch-ed
+@ps: **Let** me **tell** you about my **old job**. | let me 口语里常连成 lemme `/ˈlemi/`；you 弱读成 `/jə/`；about 很轻，重音落在 old job。
+@ps: **One day**, / an **old man** came‿in / with a **let**ter. | One day 后稍停；came in 连读成 ca-min；letter 的 tt 读成轻轻的 d：le-der。
+@ps: All‿of‿a **sud**den, / he **start**ed to **cry**. | all of a 连成 aw-la-va，后面停一下制造悬念；started to 的 to 弱读成 `/tə/`。
+@ps: I was **real**ly **touched**. | was 弱读成 `/wəz/`；really 和 touched 读重；touched 只有一个音节 `/tʌtʃt/`。
+@pnote: 讲故事时的缩读和弱读：He couldn't find it. 的 couldn't 读 `/ˈkʊdnt/`，结尾的 t 常常只做口型，听起来像 coul-dn；Thank you for your kindness. 的 for 弱读成 `/fər/`；The best part was… 的 was 弱读成 `/wəz/`；Let me 口语里常说成 lemme。写的时候仍然写 Let me / couldn't。
+@pnote: 讲过去的故事，-ed 一定要读出来，否则听起来就像现在时：清辅音后读 `/t/`（searched, touched, asked），浊音后读 `/d/`（called, cried），t / d 后面读 `/ɪd/`（started, wanted）。录音时专门听自己的 -ed。
+@lfocus: Let me 连成 lemme
+@lfocus: couldn't 的 t 不爆破
+@lfocus: -ed 的三种读音（searched / called / started）
+@dict: S14–S15
+@dict: S21–S22
+@res: 在 youglish.com 输入 "all of a sudden"，选 US，听美国人讲故事时怎么在这里停顿、制造悬念。
+
+@mimic: 跟读【C】S3–S26：先用正常语速逐句跟读，重点模仿 All of a sudden 后的停顿和 -ed 的读音；再合上书，看着「表达重点」里的顺序（开头 → 经过 → 转折 → 感受 → 最好的部分），用自己的话把林晓的故事讲一遍并录音。
+@swap: Let me tell you about my old job. | 换话题：my first day at SwiftLink / my trip to Beijing / my college roommate | Let me tell you about my college roommate.
+@swap: One day, an old man came in with a letter. | 换人物和东西：a young woman / a big box；a little boy / a lost dog | One day, a little boy came in with a lost dog.
+@swap: All of a sudden, he started to cry. | 换转折：the lights went out / my phone rang / everyone started to laugh | All of a sudden, my phone rang.
+@swap: The best part was a week later. | 换「最好的部分」：the end / the food / his smile | The best part was his smile.
+@free: 聚餐时同事让你讲个以前的故事，你先开个头（大学时在一家奶茶店打过工）。 | Let me tell you about my first job. I worked at a bubble tea shop in college.
+@free: 同事冒着大雨帮你把很重的箱子搬上楼，你很感动，郑重地谢谢他。 | Thank you for your kindness. I was really touched.
+@free: 朋友讲她奶奶学用智能手机的故事，你想起了自己的外公。 | Aww, it reminds me of my grandpa. He sends me a voice message every morning.
+@free: 你讲一次旅行里最开心的部分（在山顶看到了日出）。 | The best part was the sunrise. We saw it from the top of the mountain.
+@output: 录 1.5 分钟（或写 8–10 句话）讲一个「陌生人之间」的小故事——你帮过别人，或者别人帮过你：用 Let me tell you about… 开头 → One day, … → 经过（全部用过去式）→ All of a sudden, … → 感受（I was really touched.）→ The best part was… → 现在的感想（It reminds me of… 用现在时）。
+@output_sample: Let me tell you about my first week in Shenzhen. One day, I got lost on my way to a job interview. It was raining, and my phone was almost dead. I asked an elderly woman for help, but she didn't know the building. All of a sudden, she took out her phone and called her grandson. He worked near that building! He told me the way, and the woman walked with me to the subway station. She even gave me her umbrella. I was just a stranger, but she was so kind. I was really touched. The best part was the interview. I got the job! Now every rainy day reminds me of her kindness.
+
+@check: 讲自己的经历，用 Once upon a time, … 开头合适吗？用什么开头更自然？ | 不合适，那是童话的开头。用 One day, … / One time, … 或先说 Let me tell you about…
+@check: 「我很感动」说 I was very moving. 对吗？为什么？ | 不对。说人的感受用 -ed：I was really touched / moved.；-ing 形容事情：It was a touching story.
+@check: 用 all of a sudden 说「突然，他哭了起来」。注意动词形式。 | All of a sudden, he started to cry.（started 用过去式）
+@check: 林晓讲的是过去的事，为什么 Emma 说 It reminds me of my grandpa. 用的是现在时？ | 这是 Emma 现在的感想（听故事时想到了爷爷），所以用现在时；故事本身的经过才用过去式。
+@check: 「他的字写得很好」怎么说？He has beautiful words. 对吗？ | 不对，words 是「说的话」。说 He has nice handwriting.
+@next1: 不看书说出 S3、S7、S17、S22、S26（锚点句）
+@next1: 用 One day → All of a sudden → I was really touched 讲一个 30 秒的小故事
+@next7: touched / touching 和 moved / moving 的区别，各说一句
+@next7: 用过去式重新讲一遍 Day 40 Kevin 的故事，检查每个动词有没有变形
