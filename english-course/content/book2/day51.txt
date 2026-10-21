@@ -1,0 +1,160 @@
+@day: 51
+@week: 3
+@review: true
+@title_cn: 第 3 周复习：带新朋友办手续
+@title_en: Week 3 Review: Settling In
+@topic: 陪刚到深圳的美国人跑一天：办手机卡、去派出所登记住址、开银行账户、坐地铁回家
+@think_short: look for ≠ find｜fit ≠ suit｜borrow / lend / rent｜I'm cold ≠ I have a cold；take medicine｜get on / off ≠ get in / out of
+
+@goal_scene: Emma 的美国朋友刚到深圳，你陪她跑一天手续：办手机卡、去派出所登记住址、开银行账户、坐地铁回家。一路上你要把中文规定用英文转述给她，教她认路，天冷借她外套——还要分清本周最容易混的 5 组表达。
+@goal_expr: She's looking for a cheap plan. / The officer says you need to register your address. / I'd like to open an account. / How much is the fee for…? / Get on Line 1 here and get off at the fifth stop. / You can borrow my jacket. / It doesn't really fit, but the color suits you. / I'm cold. ≠ I have a cold.
+@goal_vocab: 复现第 3 周（Day 45–50）的 17 个旧词和第一册的 5 个旧词（虚线标出）+ 6 个新词 + 1 个短语：newcomer, paperwork, guide, police, register, settle, SIM card
+@done: 能不看原文，按【H】第 1 层的 9 个提示用 9–10 句英文复述新故事，she / he 后面的动词不漏 -s
+@done: 能分清 look for / find、fit / suit、borrow / lend / rent、I'm cold / I have a cold（以及 take medicine）、get on / off 和 get in / out of，并用中文说出理由
+@done: 能用 1.5–2 分钟英文把本周至少 4 个生活场景（租房、搬家、看病、银行、退换货、出行）串成一段自己的经历
+
+@warmup: 我想在公司附近找一套一室一厅。 | I'm looking for a one-bedroom apartment near work. | D45
+@warmup: 我去房东那儿拿钥匙。 | I'll pick up the keys from the landlord. | D46
+@warmup: 我发烧，嗓子也疼。 | I have a fever and a sore throat. | D47
+@warmup: 我能把它换成大一号的吗？ | Can I exchange it for a larger size? | D49
+@warmup: 我今天早上坐错公交了。 | I took the wrong bus this morning. | D50
+@warmup: 张涛笑了，把自己的笔借给了她。 | Tom laughs and lends her his pen. | D15
+
+@scene: 第三周的周六。Emma 在西雅图的大学同学 Hannah 被深圳一家设计公司聘用，周五深夜才落地，公司给她租好了一套带家具的公寓。她一句中文也不会说，可周一上班前有一串手续要办：先办一张手机卡（实名制，要护照）；再去派出所办境外人员住宿登记——外国人住在酒店以外的地方，入住后 24 小时内就要登记；然后去银行开工资户（银行一般要看护照和签证，有的还要住宿登记表和本人的中国手机号，所以手机卡得先办）。Emma 这个周六要加班，就请林晓帮忙。这一个月，租房、搬家、看病、开户、退换货、带 Leo 坐车，林晓自己刚刚全经历了一遍；今天轮到她当向导，还要当翻译，把中文的规定用英文讲给 Hannah 听。
+@sp: 人物关系 | 林晓 ↔ Hannah：第一次见面的同龄人，很快就像朋友；林晓 ↔ 营业厅店员、民警、银行柜员：服务关系，林晓用中文办事，再用英文转述给 Hannah
+@sp: 沟通目的 | 一天办完三件手续；把规定讲清楚（要带什么、多久之内）；教 Hannah 自己坐地铁回家；顺便照顾她：借外套、提醒她别感冒
+@sp: 已知信息 | Hannah 知道有手续要办，但不知道要办哪几样、先办哪个、带什么；林晓刚开过户、刚教过 Leo 坐车，可从来没陪外国人去过派出所
+@sp: 表达重点 | 她在找……（looking for）→ 转述规定（The officer says you need to…）→ 开户、问手续费和汇率 → 在哪儿上、哪站下（get on / get off at）→ 我冷 ≠ 感冒（I'm cold / catch a cold）→ 借外套：不合身 ≠ 不好看（borrow / fit / suits you）
+
+@story_title: Episode 51 · Welcome to Shenzhen!
+@story_type: 叙述 + 对话 + 消息（新情境）
+@s: Emma's friend Hannah has just moved to Shenzhen from Seattle. | Emma 的朋友 Hannah 刚从西雅图搬来深圳。
+@s: Her company found her a [[furnished]] apartment, and she [[moved in]] last night. | 公司给她找好了一套带家具的公寓，她昨晚刚搬进去。
+@s: As a **newcomer**, she has a lot of **paperwork** to do. | 初来乍到，她有一大堆手续要办。
+@s: Emma is busy today, so Lily offers to be Hannah's **guide**. | Emma 今天没空，林晓就主动给 Hannah 当向导。
+@br:
+@s: First, they go to a phone [[store]] [[across from]] Hannah's building. | 她们先去了 Hannah 那栋楼对面的手机营业厅。
+@s: Lily: Hi. My friend needs a **SIM card**. She's [[looking for]] a cheap plan. | 林晓：你好，我朋友要办一张手机卡，她想找个便宜的套餐。
+@s: The clerk asks for Hannah's [[passport]]. | 店员要看 Hannah 的护照。
+@s: Twenty minutes later, her new number is [[set up]]. | 二十分钟后，她的新号码就开通了。
+@br:
+@s: Next, they walk to the **police** [[station]]. | 接着，她们走到了派出所。
+@s: Lily: The officer says you need to **register** your address within 24 hours. | 林晓：警官说，你要在 24 小时之内登记住址。
+@s: Hannah shows her [[lease]], and Lily helps her [[fill out]] the [[form]]. | Hannah 出示了租约，林晓帮她填好了表。
+@br:
+@s: At the bank, Hannah wants to [[open an account]] for her salary. | 到了银行，Hannah 要开一个发工资的账户。
+@s: Hannah: How much is the [[fee]] for a transfer to the US? | Hannah：往美国汇款，手续费是多少？
+@s: Teller: About 200 yuan. You can check the [[exchange rate]] in our app. | 柜员：大约 200 块。汇率可以在我们的 App 里查。
+@br:
+@s: Finally, they take the [[subway]] back. | 最后，她们坐地铁回去。
+@s: Lily: Remember this [[route]]. [[Get on]] Line 1 here and [[get off]] at the fifth stop. | 林晓：记住这条路线：在这儿上 1 号线，第五站下。
+@s: Hannah: OK! Brr, the air conditioning is so strong. I'm cold! | Hannah：好的！哎呀，空调开得好足，我好冷！
+@s: Lily: Here, you can [[borrow]] my [[jacket]]. | 林晓：来，穿我的外套吧。
+@s: Hannah: Thanks! It doesn't really [[fit]], but it's warm. | Hannah：谢谢！不太合身，不过挺暖和的。
+@s: Lily: And the color suits you! Don't catch a [[cold]] in your first week. | 林晓：而且这个颜色很衬你！来的第一个星期可别感冒了。
+@br:
+@s: That evening, Hannah texts Emma. | 当天晚上，Hannah 给 Emma 发消息。
+@s: Hannah: Lily was a great guide. I'm starting to **settle** in! | Hannah：林晓真是个好向导，我开始安顿下来了！
+@s: Emma: Awesome! Hot pot this weekend? Lily's invited, too! | Emma：太好了！这周末吃火锅？林晓也一起来！
+
+@v: newcomer | = | n. | ˈnuːkʌmər | 新来的人；初到某地的人 | 刚搬到一个城市、刚加入一个团体 | a newcomer to Shenzhen；help newcomers；a guide for newcomers | As a newcomer, I didn't even know where to buy a SIM card. | 刚来的时候，我连在哪儿买手机卡都不知道。 | newcomer 是一个词，不写成 ✗ new comer；它只说「刚到这个地方」，不说水平高低——「新手」是 beginner；公司里的「新人」更常说 new hire 或 new employee。美式读 `/ˈnuː/`，不读 `/ˈnjuː/`。
+@v: paperwork | = | n. | ˈpeɪpərwɜːrk | （办事的）手续；各种表格和文件 | 办证、开户、入职、报销、租房签约 | do the paperwork；a lot of paperwork；finish the paperwork | The paperwork for my visa took two weeks. | 我的签证手续办了两个星期。 | 「办手续」不说 ✗ do the procedures（procedure 是「步骤、流程」）；paperwork 不可数：✗ a paperwork / ✗ paperworks → ✓ a lot of paperwork。现在很多手续在网上填，美国人照样叫 paperwork。
+@v: guide | = | n. | ɡaɪd | 向导；带路的人 | 陪新来的人熟悉环境、办事、旅游 | be sb's guide；a tour guide；a travel guide（旅游指南） | On my first day at work, Grace was my guide. | 我上班第一天，是吴佳给我当的向导。 | 「导游」是 tour guide；书、网站上的「指南」也叫 guide：a guide to Shenzhen。口语里「带人四处看看」更常用 show sb around（D3）：I'll show you around.；u 不发音，读 `/ɡaɪd/`。
+@v: SIM card | = | phr. | ˈsɪm ˌkɑːrd | 手机卡；SIM 卡 | 刚到一个城市、出国、换手机 | get a SIM card；a local SIM card；put in a new SIM card | I got a local SIM card at the airport. | 我在机场办了一张本地手机卡。 | SIM 读成一个词 `/sɪm/`，不读成三个字母 S-I-M；「办手机卡」说 get a SIM card，不说 ✗ do a phone card；「套餐」是 plan（a phone plan），「流量」是 data，「话费」是 phone bill。中国办卡实行实名制，外国人要带护照。
+@v: police | = | n. | pəˈliːs | 警察；警方；公安机关 | 派出所办登记、丢了东西报案、遇到危险 | the police；a police station（派出所）；call the police | If you lose your passport, report it to the police. | 护照丢了，要向警方报案。 | the police 指「警方」整体，动词用复数：The police are on the way.；一个警察说 a police officer，不说 ✗ a police；「派出所」就是 the (local) police station；「报警」中国打 110，美国打 911。重音在后：po-LICE。
+@v: register | = | v. | ˈredʒɪstər | 登记；注册；报名 | 在派出所登记住址、注册账号、报名参加活动 | register your address；register with the police；register for a course | Please register for the training by Friday. | 请在周五前报名参加培训。 | 外国人住在酒店以外的地方，要在入住后 24 小时内到当地派出所办住宿登记：register with the police；网站、App 的「注册」口语里更常说 sign up；名词是 registration（a registration form 登记表）。重音在前：REG-is-ter。
+@v: settle | = | v. | ˈsetl | 安顿下来；适应新环境 | 搬到新城市、新家，开始新工作 | settle in；get settled；settle down | It took me a month to settle in. | 我花了一个月才安顿下来。 | settle in 是「在新地方安顿好、慢慢适应」，常用进行时：I'm starting to settle in.；settle down 是「定居、安定下来」，也能表示「冷静下来」。问刚搬来的人：Are you settled in yet?（安顿好了吗？）美式口语里 tt 是闪音，听起来像 SED-l。
+
+@diff: 「找」：look for 还是 find？（复习 D45）
+@d_cn: 「她在找便宜的套餐」「公司给她找好了房子」「我护照找不到了」——同一个「找」，有的还在找，有的已经找到，有的找不到。
+@d_en: She's looking for a cheap plan. / Her company found her an apartment. / I can't find my passport.
+@d_why: Day 45 讲过：中文一个「找」字包含过程和结果，靠「在」「到」「不到」来区分；英文直接换动词——**look for** 是「在找」（过程），**find** 是「找到」（结果），「找不到」是 **can't find**。今天的故事两种都有：S6 Hannah 还没挑好套餐，所以是 She's **looking for** a cheap plan；S2 房子已经落实了，所以是 Her company **found** her an apartment（find sb sth ＝ 给某人找到）。最常见的三个错：✗ I'm finding a SIM card.（「在找」只能用 look for）；✗ I can't look for my passport.（想说「找不到」）；把「打听到消息」也说成 find——那是 Day 33 的 **find out**：I just found out.
+@d_when: 还在找、没找到 → be looking for；找到了 → found；找不到 → can't find；问路时开口说「我在找……」→ I'm looking for the police station.（和 Day 50 的 How do I get to…? 一样好用）
+@d_vs: **She's looking for a cheap plan.** 她在找便宜的套餐。（还没定）\n**Her company found her an apartment.** 公司给她找好了房子。（已经找到）\n**I can't find my passport!** 我的护照找不到了！\n✗ I'm finding a SIM card.\n✗ I can't look for my passport.
+@d_task: 用英文说：① 我在找离公司近的药店。② 找到了！就在银行对面。③ 我的小票找不到了。 | ① I'm looking for a pharmacy near the office. ② I found it! It's across from the bank. ③ I can't find my receipt.
+
+@diff: 「不合适」：fit 还是 suit？（复习 D49）
+@d_cn: 「这件外套不太合身，但挺暖和」「这个颜色很衬你」——一个说大小，一个说好不好看。
+@d_en: It doesn't really fit, but it's warm. / The color suits you. / It looks good on you.
+@d_why: Day 49：**fit** 只管**尺寸**——大小、长短、松紧；**suit** 或 **look good on** 管**好不好看、配不配你**；**suitable** 是「适合某个场合、用途」（suitable for a job interview），不用来说尺码。故事 S19、S20：林晓的外套 Hannah 穿着小了（It doesn't really fit），可颜色衬她（The color suits you）——同一件衣服完全可以「不合身但好看」。中国学生最常见的两个错：用 suitable 说尺码（✗ The size isn't suitable for me.）；用 fit 夸人好看（✗ This color fits you.）。另外记住主语：fit 的主语是衣服——The jacket doesn't fit (me).，店员问你「合身吗」会说 How does it fit?
+@d_when: 尺码问题 → doesn't fit / too tight / a little loose；夸人穿得好看、颜色衬人 → suits you / looks good on you；场合合不合适 → (not) suitable for…
+@d_vs: **It doesn't fit. It's too tight.** 不合身，太紧了。（尺寸）\n**That color really suits you.** 这个颜色真衬你。（好不好看）\n**It doesn't fit, but it looks good on you.** 不太合身，但你穿着好看。\n✗ The size isn't suitable for me.\n✗ This color fits you.
+@d_task: 用英文说：① 你借我的外套我穿着有点松，不过很暖和。② 这件衬衫你穿着真好看。 | ① Your jacket is a little loose on me, but it's warm.（或 It doesn't really fit, but it's warm.）② That shirt really suits you.（或 That shirt looks great on you.）
+
+@diff: 「借」和「租」：borrow / lend / rent（复习第一册 D15 和 D45）
+@d_cn: 「你穿我的外套吧（借你）」「我把外套借给你」「公司给她租了房子」「我们在公园租了两辆自行车」——中文一个「借」、一个「租」，不分方向。
+@d_en: You can borrow my jacket. / I can lend you my jacket. / Her company rents the apartment for her. / We rented two bikes.
+@d_why: 第一册 Day 15：**borrow** 是「借进」（东西从别人那儿到我这儿），**lend** 是「借出」（从我这儿到别人那儿），最典型的错误是 ✗ Can you borrow me your pen?。Day 45 又加了一层：**rent** 是**付钱**租用——借不给钱、要还原物；租要付钱。rent 也分方向：租进来是 rent an apartment，把自己的房子租出去是 rent out。故事 S18：外套从林晓到 Hannah，主语是 Hannah，所以说 you can **borrow** my jacket；换成林晓当主语就是 I can **lend** you my jacket。Day 50 林晓和 Leo 在公园 **rented** two bikes——付了钱，不能说 borrowed。Day 48 林晓给表哥汇的 500 美元是 a loan，他会 pay me back。还有一个美国人的习惯：只是当场用一下、不带走的东西，用 **use**：Can I use your bathroom? 而不是 ✗ borrow your bathroom。
+@d_when: 向别人借 → Can I borrow…?；借给别人 → I can lend you… / Could you lend me…?；付钱租房、租车、租自行车 → rent；把房子租出去 → rent out；当场用一下 → Can I use…?
+@d_vs: **Can I borrow your charger?** 能借你的充电器用用吗？（借进）\n**I can lend you my jacket.** 我可以把外套借给你。（借出）\n**We rented two bikes at the park.** 我们在公园租了两辆自行车。（付钱）\n**Can I use your phone for a second?** 能用一下你的手机吗？（当场用）\n✗ Can you borrow me your pen?\n✗ We borrowed two bikes for 20 yuan.
+@d_task: 用英文说：① Hannah 问林晓能不能借她的充电线。② 林晓说可以借给她。③ Hannah 想在家附近租一辆自行车。 | ① Can I borrow your charging cable? ② Sure, I can lend it to you. ③ I want to rent a bike near my apartment.
+
+@diff: 「我冷」≠「我感冒了」；「吃药」take medicine（复习 D47）
+@d_cn: 地铁空调太足，Hannah 说「好冷」；林晓提醒她「第一周可别感冒了」；真感冒了，还得「吃药」。
+@d_en: I'm cold. / Don't catch a cold. / I have a cold. / Take this medicine three times a day.
+@d_why: Day 47：**I'm cold** ＝ 我冷（cold 是形容词，说现在身上的感觉）；**I have a cold / I caught a cold** ＝ 我感冒了（cold 是名词，前面要有 a）。中文「我感冒了」的「了」让很多人张口就说 ✗ I'm cold.，意思全变了。故事里两个 cold 一前一后：S17 Hannah 说 **I'm cold!**（空调太冷），S20 林晓说 **Don't catch a cold.**（别着凉感冒）。同一个结构还有 have a fever、have a headache、have a sore throat——a 都不能丢。「吃药」用 **take**，不用 eat：take medicine / take two pills。还有 Day 47 讲过的中美差异：普通感冒是病毒引起的，美国医生不开抗生素，只说多休息、多喝水。
+@d_when: 说身上冷不冷 → I'm cold / I'm not cold；说得了感冒 → I have a cold / I caught a cold / I think I'm getting a cold；说服药 → take medicine / take a pill。
+@d_vs: **I'm cold. Can you turn down the air conditioning?** 我冷，能把空调调高一点吗？\n**I have a cold.** 我感冒了。\n**I think I'm getting a cold.** 我好像要感冒了。\n**Take this medicine twice a day.** 这个药一天吃两次。\n✗ I have cold.\n✗ Did you eat your medicine?
+@d_task: 用英文说：① 会议室空调太冷了，我好冷。② 我感冒了，还嗓子疼。③ 你吃药了吗？ | ① The air conditioning in the meeting room is too strong. I'm cold. ② I have a cold, and I have a sore throat. ③ Did you take your medicine?
+
+@diff: 上车、下车：get on / get off 还是 get in / get out of？（复习 D50）
+@d_cn: 「在这儿上 1 号线，第五站下」「快上出租车」「我们就在这儿下吧」——中文不管什么车，都说「上」「下」。
+@d_en: Get on Line 1 here and get off at the fifth stop. / Get in the taxi. / Let's get out here.
+@d_why: Day 50：公交、地铁、火车、飞机这些**能在里面站着走**的大交通工具，用 **get on / get off**；小汽车、出租车要**弯腰钻进去**，用 **get in / get out of**。✗ get down 是「蹲下、从高处下来」，美国人听到 get down at the fifth stop 会一头雾水。「在第几站、哪一站下」用 **at**：get off at the fifth stop / get off at Futian。故事 S16 林晓教 Hannah 坐地铁：Get on Line 1 here and get off at the fifth stop.；要是她晚上打车回家，就是 Get in the taxi. 别忘了「坐」本身是 take：take the subway（第一册 Day 2）、I took the wrong bus（Day 50）。
+@d_when: 告诉别人坐哪路、在哪站下 → get on … / get off at…；打车、坐朋友的车 → get in / get out (of the car)；说坐什么去 → take the subway / take a taxi。
+@d_vs: **Get on Line 1 here.** 在这儿上 1 号线。\n**Get off at the fifth stop.** 第五站下。\n**Get in the taxi. I'll tell the driver the address.** 上车吧，我跟司机说地址。\n**Let's get out here.** 我们在这儿下吧。（出租车）\n✗ Get down at the fifth stop.\n✗ Get on the taxi.
+@d_task: 用英文告诉 Hannah：① 坐 26 路，第三站下。② 下了公交打个车，上车后把地址给司机看。 | ① Take the 26 and get off at the third stop. ② After you get off the bus, take a taxi. Get in and show the driver the address.
+
+@core: I'm looking for… / I found… | 来自 D45：说正在找什么、已经找到了什么 | an apartment near work / a cheap phone plan / the police station | 正式：I'm looking for a one-bedroom apartment within walking distance of my office.｜随意：Still looking! / Found one!
+@core: Can you give me a hand? / … helped me set up … | 来自 D46：请人搭把手；说谁帮你弄好了什么 | give me a hand with these boxes；set up the Wi-Fi / my new phone / my new number | 正式：Would you mind helping me with these boxes?｜随意：Need a hand?
+@core: I have a cold. / I need to take a sick day. | 来自 D47：说症状、请病假 | a cold / a fever / a sore throat；take a sick day / work from home | 正式：I'm afraid I need to take a sick day today.｜随意：I'm out sick today.
+@core: I'd like to open an account. How much is the fee for…? | 来自 D48：在银行说明来意、问费用 | open an account / take out 2,000 yuan；an international transfer / a new card | 正式：Could you tell me the fee for an international transfer?｜随意：Is there a fee?
+@core: It doesn't fit. Can I exchange it for…? | 来自 D49：尺码不对时换货、退货 | a larger size / a medium / a different color；I'd like to return it. | 正式：I'd like to exchange this for a larger size, please.｜随意：Got this in a large?
+@core: How do I get to…? — Get on … and get off at … | 来自 D50：问路；告诉别人坐哪路、在哪站下 | the police station / Shenzhen Bay Park；Line 1 / the 26；the fifth stop | 正式：Could you tell me how to get to the police station?｜随意：Which way to the station?
+
+@pw: police | pəˈliːs | 2 个音节 po·LICE（新词） | 重音在后，po 弱读成 `/pə/`；不要重读 po，也别读成「剖利斯」
+@pw: register | ˈredʒɪstər | 3 个音节 REG·is·ter（新词） | 重音在前；g 读 `/dʒ/`；结尾 ter 卷舌、很轻
+@pw: fragile | ˈfrædʒl | 2 个音节 FRAG·ile（D46） | 美式第二个音节几乎没有元音，像 FRA-jl；fra-jail 是英式读法
+@pw: salary | ˈsæləri | 3 个音节 SAL·a·ry（D48） | `/æ/` 嘴张大；别读成 celery（芹菜）`/ˈseləri/`
+@pw: receipt | rɪˈsiːt | 2 个音节 re·CEIPT（D49） | p 不发音；ceipt 和 seat 同音
+@ps: My **friend** needs‿a **SIM** card. / She's **look**ing for‿a **cheap plan**. | needs a 连成 `/niːdzə/`——第三人称的 -s 和后面的 a 连在一起，别吞掉；SIM card 重音在 SIM；for a 弱读成 `/fərə/`。
+@ps: The **of**ficer **says** / you need to **reg**ister your **ad**dress / within twenty-four **hours**. | says 读 `/sez/`，不读 `/seɪz/`；to 弱读成 `/tə/`；hours 的 h 不发音，和 ours 同音。
+@ps: **Get**‿on Line **One** here / and get‿**off**‿at the **fifth stop**. | get on、get off at 连成一串，t 变成快速的闪音：ge-dɑn、ge-dɔ-fət；fifth 结尾 `/fθ/` 要咬一下舌尖，别读成 fif。
+@pnote: 本周的数字一次复习：**thirty-five hundred** ＝ 3,500（D45 房租）；**thirty-eight point five** ＝ 38.5°C（D47 体温）；**seven point one five** ＝ 7.15（D48 汇率）；**the twenty-six** ＝ 26 路、**the fifth stop** ＝ 第五站（D50）；今天的 **twenty-four hours** 和 **two hundred yuan**。听到「两位数 + hundred」先反应「几千几百」，听到 point 就是小数点。
+@pnote: 第三人称 -s 是第一册留下的薄弱项，快速说话时最容易丢：The officer **says**…、Hannah **texts** Emma、She **has** a lot of paperwork、Lily **offers**…。texts 结尾是 `/ksts/` 四个辅音，宁可读慢一点也要读全；复述时一说 she / he，就提醒自己「动词带 s」。
+@lfocus: says `/sez/`、texts、offers 结尾的第三人称 -s
+@lfocus: get on / get off at 的连读和闪音
+@lfocus: 数字：twenty-four hours / two hundred yuan / Line One / the fifth stop
+@dict: S9–S11
+@dict: S17–S19
+@res: 在 youglish.com 输入 "settle in"，选 US，听美国人怎么说「安顿下来」。
+
+@mimic: 合上书，不看【C】，按下面 9 个提示用 9–10 句英文复述故事，并录音。用第三人称讲（Hannah has just moved… / Lily offers…），she / he 后面的动词一律加 -s：① Emma 的朋友 Hannah 刚从西雅图搬来／公司给她找了带家具的公寓，昨晚搬进去 ② 初来乍到，手续一大堆／Emma 没空，林晓当向导 ③ 楼对面的营业厅：办手机卡、找便宜套餐 → 店员要护照 → 二十分钟开通 ④ 派出所：警官说 24 小时内要登记住址 ⑤ 出示租约，林晓帮她填表 ⑥ 银行：开工资户；问汇款手续费 → 大约 200 块，汇率在 App 里查 ⑦ 地铁：记住路线，在这儿上 1 号线，第五站下 ⑧ 空调太冷 → 借外套 → 不太合身但暖和、颜色衬她 → 别感冒 ⑨ 晚上给 Emma 发消息：林晓是好向导，自己开始安顿下来；Emma 约周末吃火锅。录完对照原文，把漏掉的 -s 和用错的 look for / find 标出来，再讲一遍。
+@swap: She's looking for a cheap plan. | 换要找的东西，再补一句「找到了」：a pharmacy / an apartment near work / the bus stop；found it across from… | She's looking for a pharmacy. She found one across from the bank.
+@swap: The officer says you need to register your address within 24 hours. | 换转述的人和规定：The landlord / The teller / The doctor；pay the deposit first / bring your passport / take this medicine after meals | The teller says you need to bring your passport. / The doctor says you need to take this medicine after meals.
+@swap: Here, you can borrow my jacket. | 换东西，再改成 lend 的说法：my umbrella / my charger / my scissors | Here, you can borrow my umbrella. / I can lend you my umbrella.
+@swap: Get on Line 1 here and get off at the fifth stop. | 换线路和站：the 26 / Line 5；the next stop / Futian Station | Get on the 26 here and get off at the third stop.
+@free: Hannah 发消息：Where can I buy medicine? I think I'm getting a cold.（你家楼下就有药店；让她买点感冒药，今晚早点休息） | There's a pharmacy downstairs in my building. Get some cold medicine, take it after dinner, and go to bed early tonight.
+@free: 新同事问你现在住哪儿、房子是怎么找到的（通过中介找到一套一室一厅，走路十分钟到公司；房东要押一付三） | I found a one-bedroom apartment through an agent. It's a ten-minute walk from the office. The landlord wanted one month's deposit and three months' rent.
+@free: Hannah 网购的鞋太小，问你怎么办（可以寄回去，也可以去门店换大一号；记得保留小票和吊牌） | You can send them back, or you can exchange them for a larger size at the store. Just keep the receipt and the tags.
+@free: Hannah 下周六搬家，问你能不能帮忙（你能帮她打包；Kevin 可以帮她装 Wi-Fi） | Sure, I can give you a hand on Saturday. I'll help you pack, and I'll ask Kevin to help you set up the Wi-Fi.
+@free: Hannah 打电话说她坐反了地铁（让她下一站下车，换反方向的车坐回来，你在 A 出口等她） | Don't worry. Get off at the next stop and take the train in the opposite direction. I'll wait for you at Exit A.
+@output: 录 1.5–2 分钟「我的新生活这一个月」（也可以讲你帮一位新来的朋友安顿下来的经历），把本周的场景串起来：找房子（look for / found / rent / deposit）→ 搬家（moved in / give me a hand / set up）→ 生病看医生（have a cold / take medicine / take a sick day）→ 银行（open an account / fee / exchange rate）→ 退换货（doesn't fit / exchange it for）→ 坐车问路（get on / get off at / across from）。至少讲 4 个场景，用上【E】5 组里的 3 组；讲过去的事一律用过去式。录完检查：look for / find 有没有用反？I'm cold 和 I have a cold 有没有混？
+@output_sample: Last month was really busy. First, I looked for an apartment near my office. I saw five places, and finally I found a sunny one-bedroom. It's within walking distance of work. The landlord wanted one month's deposit and three months' rent, so I paid a lot on the first day. Two friends gave me a hand on moving day, and one of them set up my Wi-Fi. The next day, I caught a cold. I had a sore throat and a fever, so I went to the clinic. The doctor said, "Take this medicine three times a day." When I felt better, I opened a new account at the bank for my salary. I also bought a jacket online, but it didn't fit, so I exchanged it for a larger size. Last weekend, I showed a new coworker around the city. He took the wrong bus, so I told him on the phone, "Get off at the next stop and cross the street." Now I finally feel settled in my new home.
+
+@check: （听力，不看原文回答）在派出所，林晓把警官的什么话转述给了 Hannah？Hannah 出示了什么？ | 外国人要在 24 小时内登记住址（The officer says you need to register your address within 24 hours.）；Hannah 出示了租约（her lease），林晓帮她填了表。
+@check: （听力，不看原文回答）地铁上 Hannah 说 I'm cold! 是感冒了吗？林晓借给她的外套合身吗？林晓接着说了哪两句话？ | 不是感冒，是空调太足、她觉得冷。外套不太合身（It doesn't really fit），但很暖和。林晓说颜色很衬她（The color suits you），并提醒她第一周别感冒（Don't catch a cold in your first week.）。
+@check: 一位刚来的美国同事问你：Where can I get a SIM card? I'm looking for a cheap plan.（公司对面就有营业厅，要带护照）用 2–3 句回答。 | There's a phone store across from our building. Bring your passport. They can set up your number in about twenty minutes.
+@check: 改错并说明理由：① I'm finding a pharmacy. ② Can you borrow me your umbrella? ③ Get down at the third stop. ④ This color fits you very well. | ① I'm looking for a pharmacy.（「在找」是过程，用 look for）② Can I borrow your umbrella? / Could you lend me your umbrella?（borrow 借进，lend 借出）③ Get off at the third stop.（公交、地铁下车用 get off）④ This color really suits you.（好不好看用 suit，fit 只说尺寸）
+@check: 西雅图的 Mike 下个月来深圳出差两周，住在朋友家，他发消息问：Do I need to do any paperwork? 告诉他要去派出所登记、多久之内、带什么。 | Yes. If you stay at a friend's place, you need to register with the police within 24 hours. Bring your passport, and your friend can help you fill out the form.
+@check: 你得了重感冒，同事看你穿得很厚，问 Are you cold? 告诉她：「我不冷，我是感冒了；医生让我一天吃三次药。」 | No, I'm not cold. I have a bad cold. The doctor told me to take the medicine three times a day.
+
+@improve: 如果【E】第 1、3 组（look for / find；borrow / lend / rent）或【I】第 4 题出错：这两组的共同点是「中文一个字，英文按方向或结果分成两三个词」。下周每天热身时加两句自己的对比句——I'm looking for… / I found…；Can I borrow…? / I can lend you…——连说 7 天。Day 52 的「以前」（used to / before）和 Day 56 的「像」（look like / be like）也是同一个思路：中文一个词，英文按意思拆开。
+@improve: 如果第 4 组出错，或复述时说成 ✗ I have cold：把 Day 47【E】的对比例句各读 5 遍，再用 have + a 说 4 个症状（a cold / a fever / a headache / a sore throat），每天早上挑一个说一句。「a 不能丢」也是第一册的老问题（Day 28 的 a / the）；下周讲童年和家人时会大量出现 when I was a kid（Day 52）、an only child（Day 56），每次说完都检查一下有没有 a。
+@improve: 如果复述时 she / he 后面的动词漏了 -s，或者讲过去的事说着说着又变回现在时：今天的故事是用现在时讲的（Hannah texts… / The officer says…），请再用过去时讲一遍（Last Saturday, Hannah had a lot of paperwork…），两遍对比着录。这两个问题都是 Day 60 第二册测评的重点；下周 Day 52 的 used to 和 Day 57 的旅行故事，都要在「以前」和「现在」之间来回切换。
+@improve: 下周（Day 52–58）的主题是「习惯与变化」：used to / didn't use to（以前常常）、be used to / get used to（习惯了 / 渐渐习惯）、getting better and better（越来越……），再加上爱好、家人、周末出游和送别小梅。今天 Hannah 说 I'm starting to settle in——Day 53 Emma 会讲她刚来深圳时不习惯的事（又热又潮、扫码付款），正好接上 newcomer 这个话题；本周的生活场景词（apartment、clinic、bank、subway、route）会在那些故事里自然复现，不再单独讲。
+
+@next1: 按【H】第 1 层的 9 个提示，不看书再复述一遍故事，和今天的录音比一比 -s 有没有漏
+@next1: 用 look for / find 和 borrow / lend / rent 各说一句你自己的事
+@next7: 再做一遍【E】的 5 个小任务，错的那组把对比例句读 5 遍（Day 60 综合复习还会检查）
+@next7: 假装带一位刚来深圳的外国朋友办事，用 6–8 句英文讲一天的安排：get a SIM card → register with the police → open an account → take the subway home
