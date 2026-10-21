@@ -1,0 +1,167 @@
+@day: 33
+@week: 1
+@title_cn: 你听说了吗
+@title_en: Have You Heard?
+@topic: 分享和回应新闻：刚订婚、领养小狗、公司签下大客户；just / already / yet
+@think_short: 「刚」just + 过去式｜「已经」I've already…｜「……了吗？——还没」Has … yet? — Not yet.｜「我刚知道」I just found out
+
+@goal_scene: 周一早上，办公室里同时传着几条新消息：你要用英语说出「刚……」「已经……」「还没……」，告诉同事你是什么时候知道的，并恰当地回应别人的好消息。
+@goal_expr: Have you heard? Grace just got engaged! / I've already sent her a message. / Has Tom announced it yet? — Not yet. / I just found out this morning. / We've just signed a contract with a big new client. / Good for you!
+@goal_vocab: 20 个重点词 + 5 个短语：订婚与婚礼、恋人与夫妻、传言与秘密、宠物、公司的正式消息
+@done: 用 just / already / yet 说出一件事的最新进展，并把 just、already 放在动词前，yet 放在句尾
+@done: 说「我刚知道」用 I just found out，不再说 ✗ I just knew；会用 Have you heard? 引出一条新闻
+@done: 问 Has / Have … yet? 时用对 has 和 have，回答 Not yet.；分清什么时候说 Congratulations!、什么时候说 Good for you!
+
+@warmup: 你吃过臭豆腐吗？——没吃过。 | Have you ever tried stinky tofu? — No, I haven't. | D32
+@warmup: 我以前从来没吃过。 | I've never eaten it before. | D32
+@warmup: 闻着怪怪的，可是吃起来很香。 | It smells weird, but it tastes great. | D32
+@warmup: 我不太爱吃甜的。 | I'm not a big fan of sweet food. | D32
+@warmup: 真遗憾，听到这个消息我很难过。 | That's too bad. I'm sorry to hear that. | D27
+@warmup: 你不饿吗？——嗯，不饿。 | Aren't you hungry? — No, I'm not. | D13
+
+@scene: 又是一个周一早上。周末，吴佳的男朋友在梧桐山顶向她求了婚，她一早就在网上晒出了戒指，办公室里立刻传开了。Kevin 也有自己的好消息，说完又压低声音透露了另一个「小道消息」：公司好像拿下了一个大客户，可张涛还没正式宣布。林晓要用英语说清「刚」「已经」「还没」这些最新进展。
+@sp: 人物关系 | 林晓、Kevin、Emma、吴佳：关系很好的同事，可以聊私事、开玩笑；张涛是经理，公司的正式消息由他宣布
+@sp: 沟通目的 | 分享和回应好消息（订婚、领养小狗）；打听一个还没公开的消息；最后听经理正式宣布
+@sp: 已知信息 | 林晓今天早上才在网上看到吴佳的戒指照片；Kevin 听说了新客户的传言，但不知道是哪家；张涛十点开会宣布
+@sp: 表达重点 | 刚发生的事：just got engaged / have just signed → 已经做了：I've already sent… → 还没：Has Tom announced it yet? — Not yet. → 刚得知：I just found out（不说 just knew）→ 回应：Good for you! / Congratulations!
+
+@story_title: Episode 33 · Have You Heard?
+@story_type: 叙述 + 对话
+@s: It's Monday morning, and the whole office is talking. | 周一早上，整个办公室都在议论。
+@s: Kevin: Lily! **Have you heard**? Grace **just** got **engaged**! | Kevin：林晓！你听说了吗？吴佳刚订婚了！
+@s: Lily: I know! I just **found out** this morning. | 林晓：我知道！我今天早上才知道的。
+@s: Lily: She posted a photo of the **ring** online. | 林晓：她在网上发了一张戒指的照片。
+@s: Lily: I've already sent her a message. | 林晓：我已经给她发消息了。
+@s: Kevin: Her **boyfriend** **proposed** on top of Wutong Mountain. | Kevin：她男朋友是在梧桐山顶上求的婚。
+@s: Lily: That's so sweet! | 林晓：太甜蜜了！
+@s: Kevin: I have news, too. My **girlfriend** and I **adopted** a **puppy**. | Kevin：我也有个消息。我和女朋友领养了一只小狗。
+@s: Lily: **Good for you**! Is it **cute**? | 林晓：真好！它可爱吗？
+@s: Kevin shows her a photo. | Kevin 给她看了一张照片。
+@br:
+@s: Then Kevin lowers his voice. | 接着，Kevin 压低了声音。
+@s: Kevin: **Between you and me**, there's another **rumor**. | Kevin：这话只跟你说啊，还有一个小道消息。
+@s: Kevin: I heard SwiftLink has a big new client. | Kevin：听说 SwiftLink 拿下了一个新的大客户。
+@s: Lily: Really? Is it a **secret**? | 林晓：真的？这是秘密吗？
+@s: Kevin: Kind of. **Nobody** knows the name yet. | Kevin：算是吧。还没人知道是哪家。
+@s: Lily: Has Tom **announced** it yet? | 林晓：张涛宣布了吗？
+@s: Kevin: Not yet. He's gonna tell us at ten. | Kevin：还没有。他十点要跟大家说。
+@br:
+@s: At nine thirty, Grace walks in with a big smile. | 九点半，吴佳满脸笑容地走了进来。
+@s: Emma: Congratulations! Show us the ring! | Emma：恭喜恭喜！快给我们看看戒指！
+@s: Emma: So when's the **wedding**? | Emma：那婚礼什么时候办？
+@s: Grace: We're **getting married** next spring. | 吴佳：我们明年春天结婚。
+@s: Emma: So he's not your boyfriend anymore. He's your future **husband**! | Emma：这么说他不是你男朋友了，是你未来的老公！
+@s: Grace: And I'm his future **wife**. It still feels weird! | 吴佳：我是他未来的老婆。到现在还觉得怪怪的！
+@s: Lily: You two are a great **couple**. | 林晓：你们俩真般配。
+@s: Lily passes around a **card** for Grace, and everyone signs it. | 林晓拿出一张给吴佳的贺卡，大家传着签了名。
+@br:
+@s: At ten, Tom calls a team meeting. | 十点，张涛召集大家开会。
+@s: Tom: Good news, everyone. We've just signed a **contract** with a big new client. | 张涛：好消息，各位。我们刚和一个新的大客户签了合同。
+@s: Kevin: Ha! So the rumor is **officially** true. | Kevin：哈！这下小道消息正式成真了。
+
+@v: Have you heard | have you heard…? | phr. | həv ju ˈhɜːrd | 你听说了吗？（引出一条新消息） | 和同事、朋友分享新闻、八卦 | Have you heard?；Have you heard about…?；Have you heard the news? | Have you heard about the new coffee machine? | 你听说新咖啡机的事了吗？ | 中文「你知道吗？」引出新闻时，英文不说 ✗ Do you know Grace got engaged?（像在考对方），说 Have you heard? / Guess what?（美国口语里 Did you hear? 也很常见）；about 后面跟名词：Have you heard about Grace?
+@v: just | = | adv. | dʒʌst | 刚刚；刚才 | 说刚发生的新消息、刚做完的事 | just got engaged；I've just finished.；just now | The meeting just started. | 会刚开始。 | just 放在动词前面：She just got engaged. / We've just signed…，不放句尾：✗ She got engaged just.；just now（刚才）只和过去式一起用：✓ I saw him just now. ✗ I've seen him just now.；just 还有「只是、就」的意思（just one bite，D32）。
+@v: engaged | = | adj. | ɪnˈgeɪdʒd | 订婚的 | 宣布、聊订婚的消息 | get engaged；be engaged to sb；an engaged couple | My best friend got engaged last month. | 我最好的朋友上个月订婚了。 | 「订婚」要说 be / get engaged：✗ She engaged. ✓ She got engaged.；「和某人订婚」用 to：She's engaged to Jason.，不说 ✗ engaged with；订婚后男方叫 fiancé，女方叫 fiancée，读音都是 `/ˌfiːɑːnˈseɪ/`。
+@v: found out | find out | phr. | ˌfaʊnd ˈaʊt | 得知；发现（以前不知道的事） | 说刚知道一个消息、查出一个原因 | find out about…；find out that…；I just found out. | I found out the package went to the wrong address. | 我发现包裹送错地址了。 | 「我刚知道」说 I just found out.，不说 ✗ I just knew.——know 是「知道」的状态，find out 是「得知」的那一刻；find 的过去式 found `/faʊnd/` 和 out 连读成 foun-dout。
+@v: ring | = | n. | rɪŋ | 戒指 | 订婚、结婚 | an engagement ring；a wedding ring；wear a ring | She wears her wedding ring every day. | 她每天都戴着婚戒。 | 「戴着戒指」用 wear（状态），「戴上」用 put on，不说 ✗ take a ring；ring 也是「（电话）响」：The phone is ringing.；美国人听说朋友订婚，第一句常是 Show us the ring!
+@v: boyfriend | = | n. | ˈbɔɪfrend | 男朋友 | 说恋爱关系 | my boyfriend；her boyfriend；boyfriend and girlfriend | Her boyfriend works in Guangzhou. | 她男朋友在广州上班。 | boyfriend 一定是恋人；只是「男性朋友」要说 a friend（或 a guy friend），✗ He's my boyfriend. 会让人误会；美国人介绍伴侣也常说中性的 partner。
+@v: proposed | propose | v. | prəˈpoʊzd | 求婚；提议 | 讲求婚的经过；正式场合「提议」 | propose to sb；He proposed!；propose a plan | He proposed to her at the restaurant where they first met. | 他在两人第一次见面的那家餐厅向她求婚。 | 「向某人求婚」是 propose to sb：✗ He proposed her. ✓ He proposed to her.；propose 也能表示正式地「提议」，日常提建议用 suggest（D29）更自然。
+@v: girlfriend | = | n. | ˈgɜːrlfrend | 女朋友；（女性之间）好姐妹 | 说恋爱关系；女生说自己的好朋友 | my girlfriend；his girlfriend；a girls' trip | His girlfriend lives in Guangzhou. | 他女朋友住在广州。 | 男生说 my girlfriend 一定是恋人；女生之间说 my girlfriends 有时只是「好姐妹」；说女性朋友最保险的是 a friend；girl 的 ir 读 `/ɜːr/`，要卷舌。
+@v: adopted | adopt | v. | əˈdɑːptɪd | 领养（宠物、孩子）；采用 | 说领养宠物；工作中「采用」新方法 | adopt a puppy；adopt a cat；adopt a new system | We adopted a cat from a shelter. | 我们从收容所领养了一只猫。 | 美国人说「领养」宠物用 adopt，指从救助站、收容所带回家；从宠物店买的说 buy / get；adopt 后面直接跟对象，不加 to。
+@v: puppy | = | n. | ˈpʌpi | 小狗；幼犬 | 说宠物 | a cute puppy；adopt a puppy；puppy photos | The puppy sleeps all day. | 小狗整天都在睡觉。 | puppy 是「狗宝宝」，长大了叫 dog；小猫是 kitten；美国人看到别人的小狗照片，常说 Aww, so cute!
+@v: Good for you | good for you | phr. | ˈgʊd fər ju | 真好；替你高兴（肯定对方的决定和进步） | 朋友分享一个好决定、一点进步时 | Good for you!；Good for her!；Good for them! | I quit smoking last month. — Good for you! | 我上个月戒烟了。——真为你高兴！ | Good for you! 重在「你做得对、你真棒」，适合回应别人的决定和进步；订婚、结婚这样的喜事，第一句说 Congratulations!（D27）；语气很重要：用冷淡、往下拖的声调说 Good for you.，听起来像「关我什么事」，所以要说得真诚、上扬。
+@v: cute | = | adj. | kjuːt | 可爱的 | 夸小动物、小孩、小东西；也夸人好看 | so cute；a cute puppy；cute photos | Your daughter is so cute! | 你女儿太可爱了！ | 美国人夸「可爱」几乎都用 cute；夸成年人 cute 是「长得好看、讨人喜欢」，有时带点好感，对同事慎用；u 读 `/juː/`：cute 不读 cut。
+@v: Between you and me | between you and me | phr. | bɪˌtwiːn ju ən ˈmiː | 这话只跟你说；你知我知 | 分享还没公开的消息、小八卦 | Between you and me, …；This is just between you and me. | Between you and me, I think he's going to quit. | 这话只跟你说，我觉得他要辞职了。 | 是 you and me，不是 ✗ between you and I（不少美国人自己也说错）；说了「你知我知」的事，就别再告诉别人；工作中真正的保密信息（客户资料、合同细节）不要当八卦讲。
+@v: rumor | = | n. | ˈruːmər | 传言；小道消息 | 办公室里还没证实的消息 | There's a rumor that…；hear a rumor；just a rumor | I heard a rumor that we're moving to a new office. | 我听到个传言，说我们要搬新办公室了。 | 美式拼写 rumor，英式 rumour；中文「谣言」带贬义，英文 rumor 只是「还没证实」，不一定是假的；说「听说」常用 I heard (that)…
+@v: secret | = | n./adj. | ˈsiːkrət | 秘密；秘密的 | 说一件事还不能公开 | keep a secret；It's a secret.；a secret recipe | Can you keep a secret? | 你能保密吗？ | 「保密」说 keep a secret，不说 ✗ protect a secret；不想说时可以笑着说 It's a secret!；cr 之间没有元音：`/ˈsiːkrət/`，不读 si-ke-ret。
+@v: Nobody | nobody | pron. | ˈnoʊbədi | 没有人；谁也不 | 说没人知道、没人来 | Nobody knows.；nobody else；Nobody told me. | Nobody told me about the meeting. | 没人告诉我开会的事。 | nobody 自己就是否定，后面的动词用肯定形式：✓ Nobody knows. ✗ Nobody doesn't know.；动词用单数，别漏第三人称 -s：Nobody knows…；no one 意思一样，稍正式。
+@v: announced | announce | v. | əˈnaʊnst | 宣布；正式公布 | 经理宣布消息、公司公布新闻 | announce the news；announce a new client；officially announce | The company will announce the results on Friday. | 公司周五公布结果。 | announce 后面直接跟事情：announce the news，不说 ✗ announce about the news；「向大家宣布」用 to：announce it to the team；-ed 读 `/t/`：`/əˈnaʊnst/`。
+@v: wedding | = | n. | ˈwedɪŋ | 婚礼 | 聊结婚、受邀参加婚礼 | a wedding；the wedding day；go to a wedding | I'm going to a wedding this weekend. | 我这周末要去参加一个婚礼。 | wedding 是「婚礼」这一天的仪式和酒席，marriage 是「婚姻」：✗ When's your marriage? ✓ When's the wedding?；「参加婚礼」说 go to a wedding，不说 ✗ join a wedding；中国婚礼送红包，美国婚礼一般送礼物或礼金卡。
+@v: getting married | get married | phr. | ˌgetɪŋ ˈmærid | 结婚 | 说结婚的时间和计划 | get married；get married to sb；be married | They got married in 2020. | 他们 2020 年结的婚。 | 「结婚」这个动作用 get married，「已婚」这个状态用 be married：I'm married.；「和某人结婚」用 to：get married to sb，不说 ✗ get married with；说已经定好的计划用 be getting married：We're getting married next spring.
+@v: husband | = | n. | ˈhʌzbənd | 丈夫；老公 | 介绍伴侣 | my husband；her husband；husband and wife | My husband works from home. | 我老公在家办公。 | 中文「老公」「爱人」在英文里正式、随意都说 my husband；s 读 `/z/`：huz-bend。
+@v: wife | = | n. | waɪf | 妻子；老婆 | 介绍伴侣 | my wife；his wife；husband and wife | This is my wife, Anna. | 这是我太太，Anna。 | 复数是 wives `/waɪvz/`；中文「我爱人」不要直译成 ✗ my lover（那是「情人」），说 my wife / my husband。
+@v: couple | = | n. | ˈkʌpl | 一对（夫妻或恋人） | 夸两个人般配、说情侣夫妻 | a great couple；a married couple；a couple of…（几个） | They're a really cute couple. | 他们真是很可爱的一对。 | 「你们真般配」说 You're a great couple. / You two look great together.；a couple of 是「几个、两三个」：a couple of days；ou 读 `/ʌ/`，像 cup-l。
+@v: card | = | n. | kɑːrd | 贺卡；卡片 | 生日、婚礼、送别时写贺卡 | a birthday card；sign a card；a thank-you card | Let's get a birthday card for Tom. | 我们给张涛买张生日贺卡吧。 | 美国办公室常有「传签贺卡」的习惯：一个人买卡，大家轮流写一句祝福再签名（sign the card）；card 还指银行卡、门卡：key card（D3）。
+@v: contract | = | n. | ˈkɑːntrækt | 合同 | 和客户、公司签约 | sign a contract；a one-year contract；a new contract | We signed a one-year contract with them. | 我们和他们签了一年的合同。 | 「签合同」说 sign a contract，不说 ✗ sign up a contract；名词重音在前：CON·tract；和客户「签约」也可以说 We signed a new client.
+@v: officially | = | adv. | əˈfɪʃəli | 正式地；官方地 | 说一件事正式宣布、正式开始 | officially start；officially announce；It's official. | The new system officially starts on Monday. | 新系统下周一正式启用。 | 口语里更常说 It's official!（正式定了！）；officially 一般放在动词前：officially start；ci 读 `/ʃ/`：o-FI-sha-lee。
+
+@diff: 「她刚订婚」——She just got engaged. / We've just signed…
+@d_cn: 一件事刚刚发生，是条新消息。
+@d_en: Grace just got engaged! / We've just signed a contract. / The meeting just started.
+@d_why: 中文「刚」放在动词前面，英文 **just** 也放在动词前面——这一点很像。不一样的是动词要变形：美式英语说刚发生的事，**just + 过去式**（She just got engaged.）和 **have just + 过去分词**（We've just signed a contract.）都很常见：日常聊天多用前者，正式宣布、写邮件多用后者——张涛开会宣布时说的就是 We've just signed…。中国学习者常说 ✗ She engaged just now.：engaged 前面缺了 got，而且 just 不能单独放在句尾。另外 just now（刚才）只和过去式一起用：✗ I've seen him just now.
+@d_when: 分享刚听到的消息、刚做完的事：He just left. / I've just sent it.；just 还有「只、就」的意思（just one bite，D32），看上下文区分。
+@d_vs: **Grace just got engaged!** 吴佳刚订婚了！（美式口语）\n**We've just signed a contract with a big new client.** 我们刚和一个大客户签了合同。（宣布、邮件）\n**I saw him just now.** 我刚才看见他了。\n✗ Grace engaged just. ✗ I've seen him just now.
+@d_task: 用英文说：① 会议刚开始。② 我刚把报告发给你了（写邮件的语气）。③ 他刚走。 | ① The meeting just started. ② I've just sent you the report. ③ He just left.
+@diff: 「我已经给她发消息了」——I've already sent her a message.
+@d_cn: 一件事在说话之前就做完了，常带一点「比你想的早」「不用再提醒」的意思。
+@d_en: I've already sent her a message. / I already sent it.（美式口语）/ Have you already finished?!
+@d_why: 中文「已经……了」，英文用 **already**，位置在 have 和过去分词中间：I've **already** sent…；美式口语也常说 I **already** sent it.（already + 过去式）。常见的错是 ✗ I already send her a message.——already 不会自动把动词变成过去，send 还得换成 sent。第一册学过「做完了」说 I've finished（D22），already 只是多加一个「已经」的语气，不等于 finish：✗ I've already finished send it.。already 放在疑问句里表示吃惊：Have you already finished? =「你这么快就做完了？」
+@d_when: 告诉别人某事已经办好、不用再提醒：I've already sent it.；表示意外：You've already finished?!；句子里一出现 an hour ago、yesterday 这样的具体时间，就只能用过去式：I already sent it an hour ago.
+@d_vs: **I've already sent her a message.** 我已经给她发消息了。\n**I already sent it.** 我已经发了。（美式口语）\n**Have you already finished?** 你已经做完了？（这么快！）\n✗ I already send her a message. ✗ I've already sent it an hour ago.
+@d_task: 同事提醒你「别忘了给 Emma 发会议纪要」。你一个小时前就发了，用两种方式说「我已经发了」。 | I've already sent it. / I already sent it an hour ago.（加上 an hour ago 这样的具体时间，就只能用过去式）
+@diff: 「张涛宣布了吗？——还没有。」——Has Tom announced it yet? — Not yet.
+@d_cn: 问一件大家都在等的事「做了没有」，回答「还没」。
+@d_en: Has Tom announced it yet? — Not yet. / No, he hasn't announced it yet.
+@d_why: 中文问「……了吗？」，句尾加个「吗」就行；英文问「到现在做了没有」用 **Has / Have … yet?**，**yet 放在句尾**。主语是 he / she / Tom 时用 **has**，不用 have——这正是第一册的薄弱项：✗ Have Tom announced it?。回答「还没」，最自然的就是 **Not yet.**（D2 学过），完整的说法是 He hasn't announced it yet.。中文「还没」里有个「还」，很多人说成 ✗ Still not.——这是「到现在居然还没有」的抱怨语气，不是普通的回答。
+@d_when: 问进度、问一件大家在等的事：Has he replied yet? / Have you had lunch yet?；回答：Not yet. / Yes, he has. / Yes, he already did.
+@d_vs: **Has Tom announced it yet?** — **Not yet.** 张涛宣布了吗？——还没。\n**Have you had lunch yet?** — **Yes, I have.** / **Not yet.**\n**He hasn't replied yet.** 他还没回复。\n✗ Have Tom announced it yet? ✗ Tom announced yet?
+@d_task: 用英文问并回答：① 问 Kevin：张涛回复你的邮件了吗？② Kevin 回答：还没，他在开会。 | ① Has Tom replied to your email yet? ② Not yet. He's in a meeting.
+@diff: 「我刚知道」——I just found out.（不说 I just knew.）
+@d_cn: 以前不知道，刚刚通过某个渠道得知了一件事。
+@d_en: I just found out this morning. / When did you find out? / I didn't know that!
+@d_why: 中文的「知道」既是一种状态（我知道这件事），也可以是一个瞬间（我今天早上才知道）。英文把这两个意思分开了：**know** 只表示状态——「知道着」；从不知道到知道的那一刻，要用 **find out**（得知、发现）。所以「我今天早上才知道」是 I just **found out** this morning.，说成 ✗ I just knew this morning.，美国人会觉得很怪。同样，中文用「你知道吗？吴佳订婚了！」来引出新闻，英文常说 **Have you heard?** 或 **Guess what?**，Do you know…? 更像在考对方。别人告诉你一件你不知道的事，回应说 **I didn't know that!** 或 **Really? I had no idea.**
+@d_when: 说什么时候、怎么得知一个消息：I found out from Kevin. / I found out online.；问别人：When did you find out? / How did you find out?
+@d_vs: **I just found out this morning.** 我今天早上才知道。（得知的那一刻）\n**I know. Kevin told me.** 我知道，Kevin 跟我说了。（知道的状态）\n**Have you heard? Grace just got engaged!** 你听说了吗？吴佳订婚了！\n✗ I just knew this morning. ✗ Do you know Grace got engaged?（引出新闻时）
+@d_task: 用英文说：① 我是从 Kevin 那儿知道的。② 同事告诉你 Emma 下周回美国，你之前不知道，表示惊讶。 | ① I found out from Kevin. ② Really? I didn't know that!
+
+@core: Have you heard? + 新闻 | 引出一条新消息、好消息 | Grace just got engaged / Tom is leaving / we got a new client | 正式：Have you heard the news? We've signed a new client.｜随意：Guess what? Grace is engaged!
+@core: … just + 过去式. / … have just + 过去分词. | 说刚发生的事 | got engaged / left / signed a contract | 正式：We have just signed a contract with a new client.｜随意：She just got engaged!
+@core: I've already + 过去分词. | 告诉对方「已经做了」 | sent her a message / told Tom / bought a card | 正式：I have already sent the report to Tom.｜随意：Already did it!
+@core: Has / Have … yet? — Not yet. | 问一件大家在等的事做了没有；回答「还没」 | announced it / replied / had lunch | 正式：Has Tom made the announcement yet?｜随意：Did he announce it yet?
+@core: I just found out (this morning / from…). | 说刚刚得知一个消息 | this morning / from Kevin / online | 正式：I only learned about it this morning.｜随意：I just found out!
+@core: Between you and me, … | 分享还没公开的消息 | there's a rumor… / I think… | 正式：This is confidential for now.｜随意：Don't tell anyone, but…
+@core: Congratulations! / Good for you! | 回应喜事；肯定别人的决定和进步 | Congratulations on your engagement! / Good for you! | 正式：Congratulations on your engagement!｜随意：Yay, good for you!
+@core: When's the wedding? / We're getting married… | 问和说婚期 | next spring / in May / next year | 正式：When is the wedding?｜随意：So when's the big day?
+
+@pw: engaged | ɪnˈgeɪdʒd | 2 个音节 en·GAGED | 重音在后；结尾 ged 读 `/dʒd/`，两个辅音连着，中间不加元音
+@pw: officially | əˈfɪʃəli | 4 个音节 of·FI·cial·ly | ci 读 `/ʃ/`；开头的 o 弱读成 `/ə/`
+@pw: announced | əˈnaʊnst | 2 个音节 an·NOUNCED | ou 读 `/aʊ/`；-ed 读 `/t/`，结尾是 `/nst/`
+@pw: rumor | ˈruːmər | 2 个音节 RU·mor | ru 是长音 `/ruː/`；mor 弱读并卷舌 `/mər/`
+@pw: contract | ˈkɑːntrækt | 2 个音节 CON·tract | 名词重音在前；结尾 ct 轻轻收住
+@pw: couple | ˈkʌpl | 2 个音节 COU·ple | ou 读 `/ʌ/`，像 cup；结尾是 `/pl/`，不读「坡」
+@pw: husband | ˈhʌzbənd | 2 个音节 HUS·band | s 读 `/z/`；band 弱读成 `/bənd/`
+@ps: Have you **heard**? ↗ / Grace just got en**gaged**! | Have you 弱读成 `/həvjə/`；just 的 t 在辅音前常常不读：jus-got；got engaged 连读，t 读成闪音，像 go-dengaged。
+@ps: I've al**ready** **sent**‿her a **mes**sage. | her 在句中不重读时 h 常常不发音：sent‿her 连成 `/ˈsentər/`，像 senter。
+@ps: **Has** Tom an**nounced**‿it **yet**? ↗ — **Not** **yet**. | 句首的 Has 实际很轻，常弱读成 `/həz/`；announced it 连读成 announ-stit；Not yet 两个词都重读。
+@ps: We've just **signed** a **con**tract / with a **big** new **cli**ent. | We've 的 v 很轻，听起来像 weev；just 后面接 s，t 不读：jus-signed。
+@pnote: has / have / her / him 在句中不重读时，h 常常消失：Has Tom…? → `/əz tɑːm/`，sent her → senter，tell him → tell-im。书面上一个字母都不能少，听的时候要学会自动补上 h。has 弱读后的 's 和 is 的缩写听起来一样：He's just left. = He has just left.；He's here. = He is here.——看后面是不是过去分词。
+@pnote: gonna 听辨：Kevin 说 He's gonna tell us at ten.——gonna 就是 going to，美国人日常说话几乎都这么读。先做到听得懂；写邮件、写消息时仍然写 going to。just 在快速口语里常弱读成 `/dʒəs/`，轻得几乎只剩一个「者」，可它是「刚」的意思，别漏听。
+@lfocus: just 弱读成 /dʒəs/，后面的 t 常常不读
+@lfocus: sent her / Has Tom 里的 h 消失
+@lfocus: gonna = going to
+@dict: S2–S3
+@dict: S27
+@res: 在 YouTube 频道 Rachel's English 内搜索 "h reduction"，听美国人怎么把 her / him / has 里的 h 读掉。
+
+@mimic: 跟读【C】S2–S28：先用正常语速逐句跟读，重点模仿 Have you heard? 的上扬、just 的弱读和 sent her 里消失的 h；再由你演林晓，手机朗读 Kevin、Emma、吴佳、张涛的台词，完整对一遍并录音。
+@swap: Have you heard? Grace just got engaged! | 换人和消息：Kevin / adopted a puppy；Tom / got a promotion；Emma / bought a new bike | Have you heard? Tom just got a promotion!
+@swap: I've already sent her a message. | 换动作和对象：called him / told Tom / bought a card | I've already told Tom.
+@swap: Has Tom announced it yet? — Not yet. | 换主语和动作，注意 has / have：Grace / replied；the client / signed；you / had lunch | Has the client signed the contract yet? — Not yet.
+@swap: I just found out this morning. | 换时间和来源：yesterday / from Kevin / online | I just found out from Kevin.
+@free: 你一进办公室就想告诉吴佳：Kevin 刚领养了一只小狗，照片超可爱。 | Have you heard? Kevin just adopted a puppy! He showed me a photo, and it's so cute.
+@free: 经理问 Have you sent the report to Emma yet?（你半小时前就发了） | Yes, I have. I sent it half an hour ago.
+@free: 同事问 Did you know Emma is leaving next month?（你之前不知道，表示惊讶，再问一句原因） | Really? I didn't know that! Why is she leaving?
+@free: 同事悄悄告诉你一个传言，你答应保密，并提醒他：张涛还没正式宣布，先别告诉别人。 | OK, it's just between you and me. Tom hasn't officially announced it yet, so let's not tell anyone.
+@output: 录 1.5 分钟语音（或写 8–10 句话）「最近听到的好消息」：用 Have you heard? 开头 → 一个朋友或同事的新闻（just + 过去式）→ 你是什么时候、怎么知道的（I just found out… / from…）→ 你已经做了什么（I've already…）→ 还有什么没发生（… hasn't / haven't … yet）→ 你的回应（Congratulations! / Good for you!）。
+@output_sample: Have you heard? My college roommate, Xiaoyu, just got engaged! I just found out this morning. She posted a photo of the ring online, and it's beautiful. Her boyfriend proposed at a small restaurant in Changsha. I've already sent her a message and a big red heart. They haven't chosen a date for the wedding yet, but they want to get married next spring. I really hope I can go to the wedding. Also, my coworker Kevin just adopted a puppy, and he shows everyone photos of it every day. I said "Congratulations!" to Xiaoyu and "Good for you!" to Kevin.
+
+@check: （听力，不看原文回答）Kevin 带来了哪两条自己知道的消息？林晓是怎么知道吴佳订婚的？ | 吴佳订婚了（男朋友在梧桐山顶求的婚）；Kevin 和女朋友领养了一只小狗。林晓是今天早上在网上看到吴佳发的戒指照片才知道的。
+@check: 「我刚知道这件事」说 I just knew it. 对吗？为什么？ | 不对。know 是「知道」的状态，「得知」的那一刻要用 find out：I just found out.
+@check: 用 has 或 have 问「吴佳发请柬（the invitations）了吗？」，再回答「还没」。 | Has Grace sent the invitations yet? — Not yet.（主语 Grace 是第三人称单数，用 has；yet 放句尾）
+@check: 经理问 Did you call the client?，你一个小时前就打了。说 I've already called him an hour ago. 对吗？ | 不对。有 an hour ago 这样的具体过去时间，要用过去式：I already called him an hour ago. / I called him an hour ago.；不说时间才用 I've already called him.
+@check: 朋友告诉你她刚报了一个英语班（她一直想提高英语），你想肯定她的决定，说什么？如果她告诉你她订婚了呢？ | Good for you!（肯定对方的决定和进步）；订婚这样的喜事说 Congratulations!
+
+@next1: 不看书说出 S2、S3、S5、S16–S17、S27 里的 5 个锚点句
+@next1: 用 just / already / yet 各说一句你今天的事：刚做了什么、已经做了什么、还没做什么
+@next7: 不看书说出 know 和 find out 的区别，各造一个句子
+@next7: 用 Have you heard? 讲一条最近的新闻，再用 Congratulations! 或 Good for you! 回应

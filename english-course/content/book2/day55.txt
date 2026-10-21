@@ -1,0 +1,163 @@
+@day: 55
+@week: 4
+@title_cn: 业余爱好
+@title_en: What Do You Do for Fun?
+@topic: 午饭闲聊：业余爱好、擅长与不擅长、报名兴趣班
+@think_short: 「你平时喜欢干什么」What do you do for fun?｜「喜欢做……」enjoy -ing / be into｜「擅长」be good at｜「报名」sign up for
+
+@goal_scene: 午饭时和同事聊业余爱好：问对方平时喜欢做什么，说出自己迷上的事、擅长和不擅长的，再说说刚报名的课；有人邀请你加入俱乐部时，能接得住话。
+@goal_expr: What do you do for fun? / I'm really into… / I enjoy -ing. / I'm not very good at… / I just signed up for… / In my free time, I…
+@goal_vocab: 20 个重点词 + 5 个短语：运动、兴趣班、乐器、摄影、俱乐部
+@done: 用 What do you do for fun? 问别人的爱好，并用 be into / enjoy -ing 回答，不说 enjoy to do，也不说 My hobby is sleeping
+@done: 用 I'm (not very) good at + 名词 / -ing 说出自己擅长和不擅长的两件事
+@done: 用 sign up for 说出一个你报名（或想报名）的课或活动，并说清楚时间
+
+@warmup: 你的英语越来越好了。 | Your English is getting better and better. | D54
+@warmup: 给我们写邮件的客户越来越多了。 | More and more customers are writing to us. | D54
+@warmup: 我没以前那么紧张了。 | I'm less nervous than before. | D54
+@warmup: 越练越容易。 | The more I practice, the easier it gets. | D54
+@warmup: 我以前不喝咖啡。 | I didn't use to drink coffee. | D52
+@warmup: 你不饿吗？——不饿，我早饭吃得很饱。 | Aren't you hungry? — No, I'm not. I had a big breakfast. | D13
+
+@scene: 周四中午，公司食堂。李凯刚买了一支新的羽毛球拍，一心想把林晓拉进公司的羽毛球俱乐部；Emma 和吴佳端着餐盘坐过来，实习生陈乐也凑了过来，话题就变成了「大家下班后都在干什么」。林晓一直没好意思说：她前两天悄悄报了一个舞蹈班。
+@sp: 人物关系 | 林晓、李凯、Emma、吴佳、实习生陈乐：同事兼朋友，午饭闲聊，气氛轻松
+@sp: 沟通目的 | 互相了解业余爱好；李凯邀请林晓加入羽毛球俱乐部；林晓最后说出自己刚报的舞蹈班
+@sp: 已知信息 | 大家都知道 Emma 爱运动、吴佳爱烘焙；不太清楚林晓和陈乐下班后做什么
+@sp: 表达重点 | 问爱好（What do you do for fun?）→ 说喜欢什么（be into / enjoy -ing）→ 说不太擅长（not very good at）→ 说刚报了名（signed up for）
+
+@story_title: Episode 55 · What Do You Do for Fun?
+@story_type: 叙述 + 对话（午饭闲聊）
+@s: It's Thursday lunchtime. Kevin puts his new **badminton** **racket** on the table. | 周四午饭时间，李凯把他的新羽毛球拍往桌上一放。
+@s: Kevin: So, Lily, **what do you do for fun**? | 李凯：对了，林晓，你平时喜欢干什么？
+@s: Lily: **In my free time**? I mostly watch English videos and sleep. | 林晓：业余时间吗？基本就是看英语视频，还有睡觉。
+@s: Kevin: That's homework, not a **hobby**! Come and join our badminton **club**. | 李凯：那是作业，不是爱好！来加入我们的羽毛球俱乐部吧。
+@s: Kevin: We play every Tuesday after work. We have twenty **members** now. | 李凯：我们每周二下班后打，现在有二十个会员了。
+@s: Lily: Sounds fun, but I'm not very **good at** sports. | 林晓：听起来挺好玩，可我不太擅长运动。
+@s: Kevin: Don't worry. Half of us are **beginners**. | 李凯：别担心，我们一半都是新手。
+@s: Kevin: We rent a **court** near the office. You wanna come next Tuesday? | 李凯：我们在公司附近租了片场地。下周二要不要来？
+@s: Lily: OK, I'll give it a try! | 林晓：好，那我试试！
+@br:
+@s: Emma and Grace sit down with their trays. | Emma 和吴佳端着餐盘坐了下来。
+@s: Emma: Are we talking about hobbies? I'm really **into** rock **climbing**. | Emma：在聊爱好吗？我特别喜欢攀岩。
+@s: Emma: I go to a climbing **gym** twice a week. | Emma：我每周去两次攀岩馆。
+@s: Emma: On weekends, I prefer **outdoor** climbing. Last month, I entered a **competition**. | Emma：周末我更喜欢去户外攀。上个月我还参加了一个比赛。
+@s: Lily: That's amazing! What about you, Grace? | 林晓：太厉害了！吴佳你呢？
+@s: Grace: I **enjoy** **baking** on weekends. Right now, I'm practicing for my wedding cake! | 吴佳：我周末喜欢烤点心。现在正为我的婚礼蛋糕练手呢！
+@s: Kevin: She has real **talent**. Her cookies are the best. | 李凯：她是真有天赋，她烤的饼干最好吃。
+@s: Grace: Thanks! I also tried **yoga** and **painting**, but I fell asleep in yoga class! | 吴佳：谢谢！我还试过瑜伽和画画，可上瑜伽课时我睡着了！
+@br:
+@s: Then Leo, the intern, comes over with a coffee. | 这时，实习生陈乐端着一杯咖啡走了过来。
+@s: Grace: Leo, Kevin says you play an **instrument**. | 吴佳：陈乐，李凯说你会一种乐器？
+@s: Leo: Yes, the **piano**. I've played since I was six. | 陈乐：对，钢琴。我六岁就开始弹了。
+@s: Leo: I'm also into **photography**. I shoot the city at night. | 陈乐：我还喜欢摄影，专拍城市夜景。
+@s: Kevin: And he's a **karaoke** star! | 李凯：而且他还是 K 歌达人！
+@s: Emma: Lily, you're quiet. What's your secret hobby? | Emma：林晓，你怎么不说话？你的秘密爱好是什么？
+@s: Lily: OK, here's my news. I just **signed up for** a dance class. | 林晓：好吧，告诉你们一个消息：我刚报了个舞蹈班。
+@s: Kevin: No way! When? | 李凯：真的假的！什么时候上？
+@s: Lily: Wednesday evenings. My grandma dances in the square, so now it's my turn! | 林晓：每周三晚上。我奶奶天天去广场跳舞，现在轮到我了！
+@s: Kevin: Dance on Wednesdays, badminton on Tuesdays. Your free time isn't free anymore! | 李凯：周三跳舞，周二打球。你的空闲时间再也不空闲了！
+
+@v: badminton | = | n. | ˈbædmɪntən | 羽毛球（运动） | 聊运动、约人打球 | play badminton；a badminton club；a badminton court | Do you want to play badminton this weekend? | 这周末想去打羽毛球吗？ | 球类运动前不加 the：✓ play badminton ✗ play the badminton ✗ hit badminton；「羽毛球（那个球）」是 shuttlecock，美国人口语也叫 birdie。
+@v: racket | = | n. | ˈrækɪt | 球拍 | 羽毛球、网球等用的拍子 | a badminton racket；a tennis racket；bring your racket | I can lend you my old racket. | 我可以把旧球拍借给你。 | 乒乓球拍美国人一般叫 paddle，不叫 racket；racket 还有「吵闹声」的意思：What's that racket outside?（外面吵什么呢？）
+@v: what do you do for fun | what do you do for fun? | phr. | ˌwʌt də jə ˌduː fər ˈfʌn | 你平时喜欢做什么？（问业余爱好） | 和新同事、新朋友聊天时问兴趣 | What do you do for fun?；What do you like to do for fun?；just for fun | What do you do for fun on weekends? | 你周末一般喜欢干什么？ | 比 What's your hobby? 自然得多；回答不用说 My hobby is…，直接说你做什么：I play badminton.；它和 What do you do?（你做什么工作）只差 for fun，意思完全不同。
+@v: In my free time | = | phr. | ɪn maɪ ˈfriː taɪm | 在我的业余时间；有空的时候 | 说下班后、周末做什么 | in my free time；in your free time；spend my free time -ing | In my free time, I like to take photos. | 业余时间我喜欢拍照。 | 「业余」不能直译成 amateur（那是「非专业的」）：✗ in my amateur time；用介词 in，不说 ✗ at my free time；也可以说 in my spare time，稍书面一点。
+@v: hobby | = | n. | ˈhɑːbi | 爱好 | 说需要花时间投入、有点专门的兴趣 | a new hobby；pick up a hobby；my favorite hobby | Photography is a great hobby. | 摄影是个很好的爱好。 | 美国人说的 hobby 通常是要投入、能「练」的活动（烘焙、摄影、弹琴、攀岩）；睡觉、看视频、逛街一般不叫 hobby；聊天时少问 What's your hobby?，多问 What do you do for fun?
+@v: club | = | n. | klʌb | 俱乐部；社团 | 公司兴趣小组、学校社团 | join a club；a badminton club；a book club | Our company has a running club. | 我们公司有个跑步俱乐部。 | 「加入俱乐部」说 join a club，不说 ✗ join in a club / ✗ attend a club；单说 club 有时指「夜店」，说兴趣小组最好带上内容：the badminton club。
+@v: members | member | n. | ˈmembərz | 成员；会员 | 说俱乐部、团队、家里有多少人 | a club member；a new member；team members | We have five new members this month. | 这个月我们来了五个新成员。 | 「会员」是人用 member；「会员资格、会员卡」用 membership：I have a gym membership.；家人也可以叫 family members。
+@v: good at | be good at | phr. | ˈgʊd ət | 擅长；在……方面很行 | 说自己或别人某方面行不行 | be good at sports；be good at -ing；not very good at | Kevin is really good at telling stories. | 李凯特别会讲故事。 | 后面接名词或 -ing：✓ good at cooking ✗ good at cook；介词用 at，不用 in；别漏掉 be：✗ I good at…；说自己不擅长，常用 I'm not very good at…，比 I'm bad at… 委婉。
+@v: beginners | beginner | n. | bɪˈgɪnərz | 初学者；新手 | 报课、加入俱乐部、说自己刚起步 | a complete beginner；a class for beginners；beginner level | This class is for beginners. | 这个班是给初学者开的。 | 「新手」不说 ✗ new hand；口语里说自己是新手：I'm a total beginner.；「入门班」是 a beginner class 或 a class for beginners。
+@v: court | = | n. | kɔːrt | 球场（羽毛球、网球、篮球等） | 约打球、租场地 | a badminton court；a basketball court；rent a court | There are four courts in this gym. | 这个体育馆有四片场地。 | 中文都叫「球场」，英文要分：羽毛球、网球、篮球场用 court；足球、棒球场用 field；court 还有「法院」的意思。
+@v: into | be into | phr. | ˈɪntuː | 特别喜欢；迷上 | 口语里说自己的兴趣 | be into sports；be really into…；What are you into? | I'm really into Korean movies these days. | 我最近特别迷韩国电影。 | 很口语，后面接名词或 -ing：I'm into climbing.；这里的 into 要重读；面试、写简历等正式场合换成 I'm interested in…；✗ I'm into to climb.
+@v: climbing | = | n. | ˈklaɪmɪŋ | 攀岩；攀登 | 说运动爱好 | rock climbing；a climbing gym；go climbing | Let's go climbing on Saturday. | 周六去攀岩吧。 | b 不发音：climb 读 `/klaɪm/`；「去攀岩」说 go climbing，不说 ✗ go to climbing；单说 climbing 在美国多指攀岩，「爬山」更常说 hiking（Day 11）。
+@v: gym | = | n. | dʒɪm | 健身房；室内运动馆 | 说健身、运动的地方 | go to the gym；a climbing gym；a gym membership | I go to the gym after work. | 我下班后去健身房。 | 「去健身」说 go to the gym 或 work out，不说 ✗ go to fitness；g 读 `/dʒ/`，和 Jim 同音。
+@v: outdoor | = | adj. | ˈaʊtdɔːr | 户外的；室外的 | 说户外运动、户外活动 | outdoor climbing；outdoor activities；an outdoor café | I love outdoor sports. | 我喜欢户外运动。 | outdoor 是形容词，放在名词前；「在户外」用副词 outdoors（带 s）：We had lunch outdoors.（✗ We had lunch outdoor.）
+@v: competition | = | n. | ˌkɑːmpəˈtɪʃn | 比赛；竞争 | 说参加比赛、市场竞争 | enter a competition；win a competition；a cooking competition | She won a baking competition last year. | 她去年赢了一个烘焙比赛。 | 「参加比赛」说 enter / take part in a competition；跑步比赛常叫 race，球赛叫 game / match；动词 compete 重音在后，名词重音移到 ti。
+@v: enjoy | = | v. | ɪnˈdʒɔɪ | 喜欢；享受（做某事的乐趣） | 说自己喜欢做的事、祝别人玩得开心 | enjoy + -ing；enjoy the class；Enjoy! | I really enjoy talking with you. | 和你聊天真开心。 | 后面接 -ing 或名词：✓ enjoy baking ✗ enjoy to bake；不能单独用：✗ I enjoy. → ✓ I enjoy it.；「玩得开心」说 Enjoy yourself!
+@v: baking | = | n. | ˈbeɪkɪŋ | 烘焙（烤蛋糕、面包、饼干） | 说爱好、聊做甜点 | enjoy baking；a baking class；baking at home | Baking is a good way to relax. | 烘焙是放松的好方法。 | bake 是用烤箱「烤」面包、蛋糕、饼干；烤肉、烤串用 grill 或 barbecue，✗ bake meat 听起来很怪。
+@v: talent | = | n. | ˈtælənt | 天赋；才能 | 夸别人在某方面很有天分 | have a talent for…；real talent；a talent show | He has a talent for music. | 他很有音乐天赋。 | 「有……的天赋」说 have a talent for + 名词 / -ing，不说 ✗ have talent in；夸人「很有才」用形容词：She's very talented.
+@v: yoga | = | n. | ˈjoʊgə | 瑜伽 | 说健身、放松的方式 | do yoga；a yoga class；a yoga mat | I do yoga every morning. | 我每天早上做瑜伽。 | 「练瑜伽」说 do yoga，不说 ✗ play yoga（play 只用于球类、乐器和游戏）；yo 读 `/joʊ/`，不读 `/jɔː/`。
+@v: painting | = | n. | ˈpeɪntɪŋ | 画画（用颜料画）；一幅画 | 说爱好、学画画 | take a painting class；oil painting；a beautiful painting | She sold her first painting last year. | 她去年卖出了第一幅画。 | 用颜料画是 paint / painting，用铅笔、钢笔画线条是 draw / drawing；「我喜欢画画」说 I like painting. / I like drawing.，不说 ✗ I like draw pictures.
+@v: instrument | = | n. | ˈɪnstrəmənt | 乐器 | 问别人会不会乐器 | play an instrument；a musical instrument；learn an instrument | Do you play any instruments? | 你会什么乐器吗？ | 「会乐器」说 play an instrument，不说 ✗ can an instrument / ✗ know an instrument；instrument 是元音开头，前面用 an。
+@v: piano | = | n. | piˈænoʊ | 钢琴 | 说会弹的乐器 | play the piano；piano lessons；a piano teacher | My niece takes piano lessons. | 我侄女在上钢琴课。 | 弹乐器一般加 the：play the piano / play the guitar（美国口语里也常省掉）；球类运动不加：play badminton，✗ play the badminton。
+@v: photography | = | n. | fəˈtɑːgrəfi | 摄影 | 说爱好、上摄影课 | be into photography；street photography；a photography class | I took a photography class last year. | 我去年上过一门摄影课。 | photography 是「摄影（这门活动）」，一张照片是 photo，拍照的人是 photographer `/fəˈtɑːgrəfər/`；重音会移动：PHO·to → pho·TOG·ra·phy。
+@v: karaoke | = | n. | ˌkæriˈoʊki | 卡拉 OK；K 歌 | 聚会、团建后去唱歌 | sing karaoke；go to karaoke；a karaoke night | Let's go to karaoke after dinner. | 吃完饭去 K 歌吧。 | 美式读法 `/ˌkæriˈoʊki/` 和中文「卡拉 OK」差别很大，按中文读美国人可能听不出来；「去 K 歌」说 go to karaoke，✗ go to KTV（多数美国人不知道 KTV）。
+@v: signed up for | sign up for | phr. | ˌsaɪnd ˈʌp fər | 报名（参加课、活动、俱乐部） | 说报了什么课、加入什么活动 | sign up for a class；sign up for the club；sign up online | Did you sign up for the training? | 你报名参加培训了吗？ | 「报名」不说 ✗ sign in（那是签到、登录）或 ✗ apply for（申请工作、签证）；名词、形容词写成 sign-up：the sign-up sheet（报名表）。
+
+@diff: 「你平时喜欢干什么？」——What do you do for fun?
+@d_cn: 想了解对方下班后、周末喜欢做什么，打开话题。
+@d_en: What do you do for fun? / What do you like to do in your free time? / What are you into?
+@d_why: 中文「你的爱好是什么？」是很自然的聊天开头；英文 What's your hobby? 语法没错，但听起来像填表、面试或英语课本。另外，英文的 hobby 通常指要投入时间、能越练越好的活动（烘焙、摄影、弹琴、攀岩），睡觉、看视频、逛街一般不算。美国人聊天更常问 **What do you do for fun?**，回答也不说 My hobby is…，而是直接说做什么：I play badminton. / I'm into climbing.
+@d_when: 认识新同事、新朋友，午饭、聚餐时找话题；对方问你时，回答完记得把问题抛回去：What about you?
+@d_vs: ✗ What's your hobby? — My hobby is sleeping.（像填表，而且 sleeping 不算 hobby）\n✓ **What do you do for fun?** — I play badminton, and I'm into photography.\n✓ **What do you like to do in your free time?**\n✓ **What are you into these days?**（很随意，朋友之间）
+@d_task: 你想问实习生 Leo 平时喜欢干什么；Leo 回答他弹钢琴，还喜欢摄影。 | What do you do for fun? — I play the piano, and I'm also into photography.
+@diff: 「我喜欢做……」——enjoy -ing / be into
+@d_cn: 说自己喜欢、迷上了某件事。
+@d_en: I enjoy baking on weekends. / I'm really into rock climbing. / I like to bake.
+@d_why: 中文「喜欢」后面直接接动词；英文要看是哪个词：**enjoy** 后面只能接 **-ing** 或名词（enjoy baking / enjoy the class），✗ enjoy to bake 是中国学生最常见的错误；like / love 后面两种都行（like baking / like to bake）。**be into** 是口语里最地道的「迷上、特别喜欢」，后面接名词或 -ing。还要注意 very 不能直接修饰 like：「我很喜欢」说 I really like…，✗ I very like…
+@d_when: 介绍自己的兴趣；enjoy 稍正式，be into 很随意，聊天时两个都常听到。
+@d_vs: ✓ **I enjoy baking on weekends.** 我周末喜欢烤点心。\n✗ I enjoy to bake.\n✓ **I'm really into rock climbing.** 我特别喜欢攀岩。\n✓ **I like to bake.** = **I like baking.**\n✗ I very like baking. → ✓ I really like baking.
+@d_task: 用英文说：① 我周末喜欢去爬山（用 enjoy）。② 我最近迷上了摄影（用 be into）。 | ① I enjoy hiking on weekends. ② I'm really into photography these days.
+@diff: 「我不太擅长运动」——I'm not very good at…
+@d_cn: 说自己某方面行不行、擅长还是不擅长。
+@d_en: I'm not very good at sports. / Kevin is really good at badminton. / She's good at baking.
+@d_why: 中文「擅长做饭」「会唱歌」后面直接接动词；英文要用 **be good at + 名词 / -ing**：I'm good at cooking.，✗ I'm good at cook。中国学生还常漏掉 be（✗ I good at…），或把 at 换成 in。另外，中文「我会游泳」说的是「会不会」，英文用 **can**：I can swim.；「游得好不好」才用 good at：I'm good at swimming. 说自己不擅长时，美国人很少说 I'm bad at…（太直接），常用 **I'm not very good at…** 或 I'm not great at…，语气更轻松。
+@d_when: 被邀请参加活动、介绍自己、夸别人的时候。
+@d_vs: ✓ **I'm not very good at sports.** 我不太擅长运动。\n✗ I'm not good at play sports.\n✓ **She's really good at baking.** 她特别会烘焙。\n✓ **I can swim, but I'm not very good at it.** 我会游，但游得不怎么样。
+@d_task: 用英文说：① 李凯羽毛球打得特别好。② 我不太会唱歌。 | ① Kevin is really good at badminton. ② I'm not very good at singing.
+@diff: 「报名」——sign up for，不是 sign in / apply for
+@d_cn: 报名参加一个课、俱乐部、活动或比赛。
+@d_en: I just signed up for a dance class. / You can sign up for the club online.
+@d_why: 中文「报名」一个词就够了；英文日常最常用的是 **sign up for + 活动**。中国学生常换成两个看起来很像的词：**sign in** 是「签到、登录」（sign in with your phone number），**apply for** 是「申请」，用在需要审核的事情上（工作、签证、贷款）。报个舞蹈班、加入羽毛球俱乐部、参加线上课程，都用 sign up for；参加比赛也可以说 **enter** a competition。
+@d_when: 说自己报了什么班、问别人报没报名、通知大家报名。
+@d_vs: ✓ **I just signed up for a dance class.** 我刚报了个舞蹈班。\n✗ I signed in a dance class.\n✓ **Please sign in at the front desk.** 请在前台签到。\n✓ **I'm applying for a new job.** 我在申请新工作。\n✓ **Emma entered a climbing competition.** Emma 报名参加了攀岩比赛。
+@d_task: 用英文说：① 我报名参加了公司的羽毛球俱乐部。② 你报名了吗？ | ① I signed up for the company badminton club. ② Did you sign up?
+
+@core: What do you do for fun? | 聊天时问对方的兴趣 | for fun / in your free time / on weekends | 正式：What do you enjoy doing outside of work?｜随意：What are you into?
+@core: I'm really into + 名词 / -ing. | 说自己迷上的事 | rock climbing / photography / baking | 正式：I'm very interested in photography.｜随意：I'm super into climbing.
+@core: I enjoy + -ing. | 说自己喜欢做的事 | baking / hiking / playing badminton | 正式：I really enjoy baking in my free time.｜随意：I love baking.
+@core: I'm (not very) good at + 名词 / -ing. | 说擅长或不擅长 | sports / singing / cooking | 正式：Sports aren't really my strength.｜随意：I'm terrible at sports!
+@core: I just signed up for + 活动. | 说刚报名的课或活动 | a dance class / the badminton club / a yoga class | 正式：I've just registered for a dance course.｜随意：I just joined a dance class.
+@core: In my free time, I… | 说业余时间做什么 | watch videos / play the piano / take photos | 正式：Outside of work, I like to take photos.｜随意：When I'm not working, I take photos.
+@core: Come and join us! / You should try it. | 邀请别人一起参加 | join our club / come climbing with me / give it a try | 正式：You're very welcome to join us.｜随意：You wanna come?
+
+@pw: badminton | ˈbædmɪntən | 3 个音节 BAD·min·ton | 重音在前；美国人 -ton 常读得很轻，t 只是喉咙里一顿，听起来像 bad-min-n
+@pw: competition | ˌkɑːmpəˈtɪʃn | 4 个音节 com·pe·TI·tion | 主重音在 ti；动词 compete `/kəmˈpiːt/` 重音在后，名词重音挪到了 ti
+@pw: photography | fəˈtɑːgrəfi | 4 个音节 pho·TOG·ra·phy | 重音在第二个音节；photo `/ˈfoʊtoʊ/` 重音在前，photography 重音后移，pho 弱读成 `/fə/`
+@pw: karaoke | ˌkæriˈoʊki | 4 个音节 ka·ra·O·ke | 重音在 o，结尾是 `/ki/`；别按中文「卡拉 OK」读
+@pw: piano | piˈænoʊ | 3 个音节 pi·AN·o | 重音在中间的 an `/æ/`，嘴要张开；结尾 `/oʊ/` 是滑动的双元音
+@pw: instrument | ˈɪnstrəmənt | 3 个音节 IN·stru·ment | 重音在前，后两个音节又轻又快；str 中间不加元音
+@pw: climbing | ˈklaɪmɪŋ | 2 个音节 CLIMB·ing | b 不发音！climb 读 `/klaɪm/`，不读 ✗ `/klaɪmb/`
+@ps: **What** do you do for **fun**? ↘ | do you 弱读连成 `/dəjə/`，像 d'ya；for 弱读成 `/fər/`；重音在 what 和 fun，特殊疑问句句尾往下降。
+@ps: I'm **real**ly **in**to / rock **climb**ing. | into 在这里要重读——它就是「喜欢」的意思；平时 into 当介词（go into the room）时很轻。
+@ps: I'm **not** very **good**‿at **sports**. | good at 连读，d 和 at 连成 goo-dat；at 弱读成 `/ət/`；not 要读重，表达「不太」。
+@ps: I just **signed**‿up for a **dance** class. | signed up 连成 sign-dup；for a 弱读成 `/fərə/`；just 后面紧跟辅音，t 几乎不发音。
+@pnote: 本课的弱读和缩读：for 读 `/fər/`（for fun）；have 在 I've 里只剩 `/v/`（I've played since I was six），was 读 `/wəz/`——这句 Leo 说得很快，听起来像 `/aɪvpleɪdsɪnsaɪwəzsɪks/`，抓住 I've 和 since 就知道是「从六岁一直弹到现在」。
+@pnote: 书面 vs 口语：Do you want to come next Tuesday? 李凯说成 You wanna come next Tuesday?——口语里常省掉 Do，want to 缩成 **wanna**，句尾上扬就表示提问。What do you… 说快了像 Whaddaya…。这些要能听懂、能还原；自己说时用 wanna 就够了，写邮件仍写 want to。
+@lfocus: what do you 连读成 /wʌdəjə/
+@lfocus: be into 的 into 重读，介词 into 轻读
+@lfocus: You wanna come? = Do you want to come?
+@dict: S5–S7
+@dict: S19–S20
+@res: 在 youglish.com 输入 "what do you do for fun"，选 US，听美国人怎么把 what do you 连在一起。
+
+@mimic: 跟读【C】S2–S27：先用正常语速逐句跟读，重点模仿 What do you do for fun? 的连读、I'm really into… 里 into 的重读和 You wanna come? 的上扬语调；再你演林晓、手机朗读其他人的台词，完整对一遍并录音。
+@swap: What do you do for fun? — I'm really into rock climbing. | 换爱好：photography / baking / badminton | What do you do for fun? — I'm really into photography.
+@swap: I enjoy baking on weekends. | 换活动和时间：hiking / playing the piano；after work / on Sunday mornings | I enjoy playing the piano after work.
+@swap: I'm not very good at sports. | 换领域：singing / cooking / drawing；再加一句你擅长的 | I'm not very good at singing, but I'm good at cooking.
+@swap: I just signed up for a dance class. | 换活动：a yoga class / the badminton club / a photography class；再说时间 | I just signed up for a yoga class. It starts next Monday.
+@free: 新同事问你 What do you do for fun?（你最近迷上了摄影，周末常去海边拍照） | I'm really into photography these days. On weekends, I often take photos by the sea. What about you?
+@free: 同事约你下周二下班去打羽毛球，你想去，但你打得不好 | I'd love to, but I'm not very good at badminton. Is that OK? Can I borrow a racket?
+@free: 朋友问你最近有没有报什么班（你刚报了周三晚上的舞蹈班） | Yes! I just signed up for a dance class. It's on Wednesday evenings, and I'm a complete beginner.
+@free: 你想问 Leo 会不会什么乐器、学了多久 | Leo, do you play any instruments? How long have you played the piano?
+@output: 录 1.5 分钟（或写 8–10 句）「我的业余生活」：In my free time… → 一个你特别喜欢的爱好（be into / enjoy -ing）→ 你擅长和不擅长的事（be good at）→ 最近报名的一个课或活动（sign up for）→ 最后邀请听的人一起参加。
+@output_sample: In my free time, I used to just watch videos and sleep. But this month, things are different. My coworker invited me to join the company badminton club, so now I play every Tuesday after work. I'm not very good at sports, but half of the members are beginners, so I don't feel bad. I also enjoy cooking Hunan food on weekends, because it reminds me of home. Last week, I signed up for a dance class. It's on Wednesday evenings, and it's really fun. My grandma dances in the square every evening, so maybe it runs in the family! I'm also into photography, but I only use my phone. What do you do for fun? Come and play badminton with us next Tuesday!
+
+@check: 美国同事问你 What's your hobby? 不算错，但聊天时更自然的问法是什么？回答时要说 My hobby is… 吗？ | What do you do for fun?；回答直接说你做什么：I play badminton. / I'm into climbing.，不用 My hobby is…
+@check: 「我周末喜欢烤点心」说成 I enjoy to bake on weekends. 对吗？ | 不对。enjoy 后面接 -ing：I enjoy baking on weekends.（也可以说 I like to bake. / I like baking.）
+@check: 「我不太擅长运动」怎么说？为什么美国人不常说 I'm bad at sports.？ | I'm not very good at sports.；I'm bad at… 太直接，听起来像在贬低自己，not very good at 更轻松、委婉。
+@check: 「我报了一个舞蹈班」用 sign in、apply for 还是 sign up for？ | sign up for：I signed up for a dance class.（sign in 是签到、登录；apply for 是申请工作、签证）
+@check: 李凯说 You wanna come next Tuesday? 完整的写法是什么？写邮件时能用 wanna 吗？ | Do you want to come next Tuesday? wanna = want to，只用在口语和随意的聊天消息里，正式邮件写 want to。
+@next1: 不看书说出 S2、S6、S11、S15、S24（锚点句）
+@next1: 用 be into / enjoy -ing / be good at 各说一句自己的真实情况
+@next7: 回答 What do you do for fun? 的三种方式：I'm into… / I enjoy -ing / I play…，再反问一句 What about you?
+@next7: sign up for / sign in / apply for 的区别，各说一句

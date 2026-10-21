@@ -1,0 +1,164 @@
+@day: 32
+@week: 1
+@title_cn: 你吃过……吗
+@title_en: Have You Ever Tried It?
+@topic: 团队聚餐：问和说「吃过……吗」、描述味道、委婉地说不喜欢
+@think_short: 「吃过」I've tried｜Have you ever…? — No, I haven't.｜「从来没……过」I've never…｜肯定句不加 ever
+
+@goal_scene: 团队聚餐时，带同事吃家乡菜：问别人「吃过……吗」，按事实回答「吃过 / 没吃过 / 从来没……过」，描述一道菜闻起来、吃起来怎么样，委婉地说自己不爱吃什么。
+@goal_expr: Have you ever tried stinky tofu? — No, I haven't. / I've never eaten it before. / It smells weird, but it tastes great. / It's my first time. / Give it a try! / I'm not a big fan of sweet food.
+@goal_vocab: 20 个重点词 + 5 个短语：酸甜苦咸、闻和尝、菜和食材、饮食习惯（vegetarian / allergic）、尝试与经历
+@done: 用 Have you ever…? 问别人的经历，并用 Yes, I have. / No, I haven't. 回答，不再说 ✗ Yes, I did.
+@done: 说出「我从来没……过」I've never … before.，分清「吃过」（I've tried it）和「那一次吃的」（I tried it in…）
+@done: 用 It smells…, but it tastes… 描述一道菜，并用 I'm not a big fan of… 委婉地说不喜欢
+
+@warmup: 你在深圳住了多久了？——我在这儿住了两年了。 | How long have you lived in Shenzhen? — I've lived here for two years. | D31
+@warmup: 我在 SwiftLink 工作五周了。 | I've worked at SwiftLink for five weeks. | D31
+@warmup: 我是在湖南出生的，不过是在长沙长大的。 | I was born in Hunan, but I grew up in Changsha. | D31
+@warmup: Kevin 和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+@warmup: 包裹周一到了洛杉矶，现在正在派送。 | The package arrived in Los Angeles on Monday. It's out for delivery now. | D28
+@warmup: 我去过北京和上海。我去年去北京旅游了一趟。 | I've been to Beijing and Shanghai. I went to Beijing on a trip last year. | D10
+
+@scene: 周五中午是 SwiftLink 深圳团队的 team lunch。这一次轮到林晓选地方，她带大家去了公司附近一家湖南菜馆，想让同事们尝尝家乡的味道。Emma 最爱吃辣，什么都敢试；土生土长的深圳人 Kevin 口味清淡，对「怪味道」很警惕；吴佳对鱼过敏。点完菜，一盘黑乎乎、气味浓烈的臭豆腐端上了桌——「你吃过吗？」成了饭桌上最热门的问题。
+@sp: 人物关系 | 林晓、Emma、Kevin、吴佳：常一起吃饭的同事，关系轻松，可以互相开玩笑、起哄
+@sp: 沟通目的 | 林晓介绍家乡菜、照顾大家的口味（谁过敏、谁不吃什么）；大家互相问「吃过……吗」，鼓励别人尝一尝
+@sp: 已知信息 | 林晓从小吃臭豆腐；吴佳去长沙时吃过一次；Emma 和 Kevin 都没吃过，Kevin 光闻味道就受不了
+@sp: 表达重点 | 问经历：Have you ever…? → 回答：No, I haven't. / I've never … before. → 说「那一次」用过去式（I tried it in Changsha）→ 描述味道：It smells…, but it tastes… → 委婉地说不喜欢：I'm not a big fan of…
+
+@story_title: Episode 32 · Have You Ever Tried It?
+@story_type: 叙述 + 对话
+@s: On Friday, the team has lunch at a Hunan restaurant. | 周五，团队一起去一家湖南菜馆吃午饭。
+@s: It's Lily's idea, so she orders for everyone. | 这是林晓的主意，所以由她给大家点菜。
+@s: Lily: Hunan **dishes** have a lot of **flavor**. They're spicy, **sour** and **salty**. | 林晓：湘菜味道很足，又辣又酸，还偏咸。
+@s: Lily: Let's get farmhouse **pork** and a **vegetable** dish. | 林晓：我们点个农家小炒肉，再来一个青菜。
+@s: Kevin: And **bitter** melon, please. It's great in summer. | Kevin：再加个苦瓜吧，夏天吃最好。
+@s: Grace: Is there any **fish**? I'm **allergic** to fish. | 吴佳：有鱼吗？我对鱼过敏。
+@s: Lily: Don't worry. I didn't order any. | 林晓：别担心，我没点鱼。
+@br:
+@s: Then a plate of something black arrives. | 接着，一盘黑乎乎的东西端了上来。
+@s: Kevin: Whoa! What's that **smell**? | Kevin：哇！这是什么味儿？
+@s: Lily: It's my favorite. **Have you ever** tried stinky **tofu**? | 林晓：这是我的最爱。你们吃过臭豆腐吗？
+@s: Emma: No, I haven't. | Emma：没吃过。
+@s: Kevin: Me neither. I've never eaten it **before**. I **can't stand** the smell! | Kevin：我也没有。我以前从来没吃过，这个味儿我真受不了！
+@s: Lily: Come on, it's just tofu. It's even **vegetarian**! | 林晓：别这样嘛，不就是豆腐，还是素的呢！
+@s: Grace: I tried it **for the first time** in Changsha. It was amazing. | 吴佳：我第一次吃是在长沙，好吃极了。
+@s: Emma picks up a piece with her **chopsticks**. | Emma 用筷子夹起一块。
+@s: Emma: OK. It's my first time. Here goes! | Emma：好吧，我这是第一次吃。来了！
+@s: Everyone watches her. | 大家都盯着她。
+@s: Emma: Hmm… It smells **weird**, but it **tastes** great. | Emma：嗯……闻着怪怪的，可是吃起来太香了。
+@s: Lily: Wow, you're so **brave**! | 林晓：哇，你真勇敢！
+@s: Emma: Come on, Kevin. **Give it a try**! | Emma：来吧，Kevin，尝一口！
+@s: Kevin: OK, just one bite. | Kevin：好吧，就一口。
+@s: Kevin: Huh. Not bad! What an **experience**. | Kevin：咦，还不错！真是一次难忘的体验。
+@br:
+@s: Then Lily orders tangyou baba, a **sweet** snack from Changsha. | 然后林晓又点了糖油粑粑，一种长沙的甜点心。
+@s: Kevin: No, thanks. I'm **not a big fan of** sweet food. | Kevin：不用了，谢谢。我不太爱吃甜的。
+@s: Grace: More for me! Lily, can I get the **recipe**? | 吴佳：那我多吃点！林晓，能把做法告诉我吗？
+@s: Lily: Ha! Ask my mom. | 林晓：哈！那得问我妈。
+
+@v: dishes | dish | n. | ˈdɪʃɪz | 菜（一道菜）；盘子 | 点菜、介绍菜系 | a Hunan dish；a vegetable dish；a main dish | What's your favorite Hunan dish? | 你最喜欢哪道湘菜？ | 「一道菜」是 a dish，「湘菜」整体说 Hunan food；中文的「菜」还指蔬菜：「我想吃点青菜」是 I want some vegetables，不是 dishes；复数 dishes 读 `/ˈdɪʃɪz/`；第一册学过的 do the dishes（D25）是「洗碗」。
+@v: flavor | = | n. | ˈfleɪvər | 味道；风味；口味 | 说菜的味道足不足、冰淇淋之类的口味 | a lot of flavor；a strong flavor；What flavor…? | What flavor do you want, mango or chocolate? | 你要什么口味的，芒果还是巧克力？ | 「味道很足、很香」说 It has a lot of flavor.，不说 ✗ The taste is very heavy.；美式拼写 flavor，英式拼写 flavour；问口味用 What flavor…?
+@v: sour | = | adj. | ˈsaʊər | 酸的 | 说食物的味道 | sour beans；sweet and sour；a little sour | This yogurt is a little sour. | 这个酸奶有点酸。 | sweet and sour（酸甜、糖醋）顺序固定，不说 ✗ sour and sweet；「腿酸」的「酸」不是 sour，要说 My legs are sore.（D41 会学 sore）。
+@v: salty | = | adj. | ˈsɔːlti | 咸的 | 说菜太咸、零食的味道 | too salty；a little salty；salty snacks | The soup is too salty. Can I have some water? | 汤太咸了，能给我点水吗？ | salt 是名词「盐」，「咸」要用 salty：✗ It's too salt. ✓ It's too salty.；美式口语里 salty 还能形容人「不爽、酸溜溜的」：He's still salty about it.
+@v: pork | = | n. | pɔːrk | 猪肉 | 点菜、买菜 | stir-fried pork；pork ribs；a pork dish | I'd like the stir-fried pork, please. | 我要一份小炒肉。 | 肉的名称和动物的名称不一样：pig → pork，cow → beef（D5），不说 ✗ pig meat；pork 不可数：✗ a pork ✗ two porks。
+@v: vegetable | = | n. | ˈvedʒtəbl | 蔬菜 | 点菜、说饮食健康 | a vegetable dish；fresh vegetables；eat more vegetables | You should eat more vegetables. | 你应该多吃点蔬菜。 | 美国人只读 3 个音节 `/ˈvedʒtəbl/`，中间的 e 不读；点「青菜」可以说 a vegetable dish / some greens；口语里常缩成 veggies。
+@v: bitter | = | adj. | ˈbɪtər | 苦的 | 说食物、咖啡、药的味道 | bitter melon；a little bitter；bitter coffee | Black coffee is too bitter for me. | 黑咖啡对我来说太苦了。 | 「苦瓜」是 bitter melon；中文的「吃苦」「辛苦了」不能用 bitter：「辛苦了」说 Thanks for your hard work.；tt 美式读成闪音，bitter 听起来像 bidder。
+@v: fish | = | n. | fɪʃ | 鱼；鱼肉 | 点菜、说过敏和饮食习惯 | steamed fish；fish head with chopped chilies；eat fish | We had steamed fish for dinner. | 我们晚饭吃了清蒸鱼。 | 当「鱼肉、吃鱼」讲时不可数：✓ I don't eat fish. ✗ I don't eat fishes.；几条鱼的复数一般也是 fish：three fish；「剁椒鱼头」可以说 fish head with chopped chilies。
+@v: allergic | = | adj. | əˈlɜːrdʒɪk | 过敏的 | 点菜时告诉服务员；请客前问客人 | allergic to…；I'm allergic to peanuts.；an allergic reaction | Are you allergic to anything? | 你对什么过敏吗？ | 「对……过敏」是 be allergic to，不说 ✗ I have allergic to fish. ✗ I'm allergy to fish.（allergy 是名词：I have a fish allergy.）；美国人请客、点菜前常问一句 Any allergies?，很礼貌。
+@v: smell | = | n./v. | smel | 气味；闻起来 | 说味道好闻、难闻 | What's that smell?；It smells good.；a strong smell | Something smells good. What are you cooking? | 好香啊，你在做什么菜？ | smell 当动词时后面直接跟形容词：It smells weird.，不说 ✗ It smells weirdly.；中文「味道」既指闻也指吃，英文分开说：闻用 smell，吃用 taste；主语是 it 时别忘了 -s：It smells…
+@v: Have you ever | have you ever…? | phr. | həv ju ˈevər | 你……过吗？（问人生中有没有这种经历） | 聊经历：吃过、去过、见过、做过什么 | Have you ever tried…?；Have you ever been to…?；Have you ever seen…? | Have you ever tried hot pot? — Yes, I have. Many times! | 你吃过火锅吗？——吃过，好多次了！ | 第一册学过 Have you ever been to…?（D10），今天换成任何动词：tried / eaten / seen / met；后面跟过去分词：✗ Have you ever eat…? ✓ Have you ever eaten…?；回答用 have：Yes, I have. / No, I haven't.，不说 ✗ Yes, I did.
+@v: tofu | = | n. | ˈtoʊfuː | 豆腐 | 点菜、介绍中国菜 | stinky tofu；mapo tofu；fried tofu | Mapo tofu is one of my favorite dishes. | 麻婆豆腐是我最喜欢的菜之一。 | tofu 在美国超市很常见，大家都认识；「臭豆腐」叫 stinky tofu；tofu 不可数：some tofu / a piece of tofu，不说 ✗ a tofu。
+@v: before | = | adv. | bɪˈfɔːr | 以前；之前 | 说以前有没有做过某事 | I've never … before.；I've seen it before.；the day before | I've never been here before. | 我以前从没来过这儿。 | 中文「以前」放在动词前面，before 当副词时放在句尾：✓ I've eaten it before. ✗ I before ate it.；说「几年以前」用 ago：three years ago（D29）。
+@v: can't stand | = | phr. | ˌkænt ˈstænd | 受不了；特别讨厌 | 说特别不喜欢的味道、食物、事情 | can't stand the smell；can't stand cilantro；can't stand waiting | I can't stand cilantro. It tastes like soap to me. | 我受不了香菜，吃起来像肥皂。 | 「受不了」不说 ✗ I can't accept it（那是「我不能接受」）；can't stand 后面跟名词或 -ing：I can't stand waiting.；can't 要读重 `/kænt/`，否则对方会听成 can stand。
+@v: vegetarian | = | n./adj. | ˌvedʒəˈteriən | 素食者；素的 | 点菜、请客时问饮食习惯 | a vegetarian dish；I'm a vegetarian.；vegetarian food | Are there any vegetarian dishes on the menu? | 菜单上有素菜吗？ | 「我吃素」说 I'm a vegetarian. / I don't eat meat.；连鸡蛋、牛奶都不吃的人叫 vegan `/ˈviːgən/`；中文「素菜」不一定都是 vegetarian——用猪油炒的青菜，美国素食者是不吃的。
+@v: for the first time | = | phr. | fər ðə ˌfɜːrst ˈtaɪm | 第一次（做某事） | 说第一次尝试、第一次去某地、第一次见某人 | try sth for the first time；meet for the first time；see it for the first time | I met Mike for the first time on a video call. | 我第一次见 Mike 是在视频会上。 | for the first time 一般放在句尾，修饰一个动作；It's my first time.（这是我第一次）是一个独立的句子：✗ It's my for the first time.；也可以说 The first time I tried it, I loved it.
+@v: chopsticks | = | n. | ˈtʃɑːpstɪks | 筷子 | 吃饭、教外国朋友用筷子 | a pair of chopsticks；use chopsticks；eat with chopsticks | Can you use chopsticks? | 你会用筷子吗？ | 筷子一般用复数 chopsticks，「一双筷子」是 a pair of chopsticks；夸外国朋友筷子用得好，说 You're really good with chopsticks!，不说 ✗ Your chopsticks are very good.
+@v: weird | = | adj. | wɪrd | 奇怪的；怪怪的 | 说味道、声音、感觉、事情不对劲 | smell weird；a weird feeling；That's weird. | That's weird. The printer was fine this morning. | 好奇怪，打印机早上还好好的。 | weird 比 strange（D24）更口语，美国人每天都说 That's weird.；拼写是 ei，不是 ie；说一件事、一种味道 weird 没问题，当面说一个人 weird 就不太客气了。
+@v: tastes | taste | v./n. | teɪsts | 尝起来；味道 | 说吃起来怎么样 | taste great；taste like…；Can I taste it? | It tastes like chicken. | 吃起来像鸡肉。 | taste 当动词时后面直接跟形容词：It tastes great.，不说 ✗ It tastes greatly. ✗ The taste is very well.；「尝一尝」也是 taste：Can I taste it?；主语是 it 时别忘了第三人称 -s：It tastes…
+@v: brave | = | adj. | breɪv | 勇敢的；胆子大 | 夸别人敢尝试新东西、敢做难事 | so brave；brave enough to…；That's brave. | You're brave! I can't speak in front of a hundred people. | 你胆子真大！我可不敢在一百个人面前讲话。 | 中文「你真勇敢」用在吃东西这种小事上有点夸张，英文 You're so brave! 却很常用，带点开玩笑的语气；名词是 courage：✗ It needs a lot of brave.
+@v: Give it a try | give it a try | phr. | ˌgɪv ɪt ə ˈtraɪ | 试一试；尝一口 | 鼓励别人尝试新的食物、新的方法 | Give it a try!；I'll give it a try.；give sth a try | I've never played golf, but I'll give it a try. | 我从没打过高尔夫，不过可以试试。 | 「试试看」不说 ✗ Try it look.；鼓励别人说 Give it a try! 或 Try it!，自己答应试试说 I'll give it a try.；try 是第一册学过的词（D12）。
+@v: experience | = | n. | ɪkˈspɪriəns | 经历；体验；经验 | 说一次难忘的事、新的尝试；也说工作经验 | a new experience；a great experience；work experience | Living in a foreign country is a great experience. | 在国外生活是一段很棒的经历。 | 「一次经历、一次体验」可数：an experience / What an experience!；「经验」不可数：I don't have much experience.，不说 ✗ I have many experiences in sales.
+@v: sweet | = | adj. | swiːt | 甜的；（人）贴心的 | 说食物的味道；也夸人贴心 | sweet food；too sweet；a sweet snack | This cake is too sweet for me. | 这个蛋糕对我来说太甜了。 | 夸人贴心说 That's so sweet of you!（你真好）；点奶茶「少糖」说 less sugar，不说 ✗ less sweet；「甜点」可以说 something sweet。
+@v: not a big fan of | = | phr. | ˌnɑːt ə ˌbɪg ˈfæn əv | 不太喜欢 | 委婉地说自己不喜欢某种食物、某件事 | I'm not a big fan of…；not a big fan of sweet food；not a big fan of crowds | I'm not a big fan of horror movies. | 我不太爱看恐怖片。 | 美国人说「不喜欢」很常用这句，比 I don't like… 柔和得多，别人请你吃东西时用正合适；of 后面跟名词或 -ing：I'm not a big fan of cooking.；fan 就是「粉丝」，字面意思是「我不是它的大粉丝」。
+@v: recipe | = | n. | ˈresəpi | 菜谱；做法 | 问别人一道菜怎么做 | my mom's recipe；a recipe for…；follow a recipe | Can you send me the recipe for this cake? | 你能把这个蛋糕的做法发给我吗？ | 结尾的 e 要读出来 `/ˈresəpi/`，三个音节，不读 re-sip；「……的做法」用 for：a recipe for stinky tofu；中文「秘方」可以说 a secret recipe。
+
+@diff: 「我吃过臭豆腐」——I've tried stinky tofu.
+@d_cn: 说人生中有过某种经历（吃过、见过、试过），不说是哪一次。
+@d_en: I've tried stinky tofu. / I've eaten it twice. / Have you ever tried it?
+@d_why: 中文在动词后面加一个「过」，就表示「有过这种经历」。英文对应的是 **have + 过去分词**——第一册的 I've been to Beijing（D10）就是它，今天把 been to 换成任何动词：**I've tried / I've eaten / I've seen / I've met**。很多动词的过去分词和过去式不一样：eat → ate → **eaten**，see → saw → **seen**；try → tried → **tried** 是一样的。一旦说出具体的时间或那一次的场合（in Changsha、last year），就回到过去式：吴佳说 I tried it for the first time in Changsha.——她在讲「那一次」，所以用 tried。
+@d_when: 聊经历、推荐食物和地方：I've tried it. / I've been there.；讲「那一次在哪儿、什么时候」：I tried it last year.。说句实话：美国人随口聊天时，有时也用过去式问经历（Did you ever try…?），听到不要奇怪；你自己说，用 have + 过去分词最稳。
+@d_vs: **I've tried stinky tofu.** 我吃过臭豆腐。（经历）\n**I tried it in Changsha last year.** 我是去年在长沙吃的。（那一次）\n**I've eaten it twice.** 我吃过两次。\n✗ I've tried it last year. ✗ I have ate it.
+@d_task: 用英文说：① 我吃过北京烤鸭（Peking duck）。② 我是 2020 年在北京吃的。③ 这部电影我看过两遍。 | ① I've tried Peking duck.（也可以说 I've had…）② I had it in Beijing in 2020. ③ I've seen this movie twice.
+@diff: 「你吃过……吗？——没吃过。」——Have you ever…? — No, I haven't.
+@d_cn: 问对方有没有过某种经历；回答「吃过」「没吃过」「从来没有」。
+@d_en: Have you ever tried stinky tofu? — Yes, I have. / No, I haven't. / No, never.
+@d_why: 中文回答时把动词再说一遍就行：「吃过」「没吃过」。英文的简短回答要用问句开头的那个 **have**：Yes, I have. / No, I haven't.（第一册 D10、D13 学过「问什么、答什么」的规律）。最常见的错是 ✗ Yes, I did. / ✗ No, I didn't.——人家问的是「有没有过」，不是「那一次做没做」。只答一句就停，聊天容易冷场：美国人回答后常补一句——说 Yes，就接着讲**什么时候、怎么样**（用过去式：I tried it in Changsha. It was amazing.）；说 No，就说**想不想试**（But I'd love to try it.）。
+@d_when: 聚餐、旅游、聊爱好时，问 Have you ever…? 和回答它。
+@d_vs: **Have you ever tried stinky tofu?**\n— **Yes, I have.** I tried it in Changsha. It was amazing!\n— **No, I haven't.** But I'd love to try it.\n— **No, never.** I can't stand the smell!\n✗ Yes, I did. ✗ No, I never.
+@d_task: Emma 先问你 Have you ever been to Seattle?（没去过，但很想去），又问 Have you ever eaten a hot dog?（吃过，上个月在一家美国餐厅吃的）。 | No, I haven't. But I'd love to go someday. / Yes, I have. I had one at an American restaurant last month.
+@diff: 「我从来没吃过」——I've never eaten it.
+@d_cn: 到现在为止，一次也没有做过。
+@d_en: I've never eaten it before. / I've never been to Seattle. / Me neither.
+@d_why: 中文「从来没……过」很容易被直译成 ✗ I didn't ever eat it.，或者干脆说 I never ate it.。英文说「这辈子到现在为止一次也没有」，标准说法是 **have never + 过去分词**，句尾常加 **before**（在这之前）。I never ate… 用的是过去式，更像在说过去某一段时间的习惯：I never ate breakfast in college.（我大学时从来不吃早饭）——美国人随口聊天时也会用它说「从没吃过」，但书面和正式场合一律用 I've never…。另外，never 自己就是否定，不要再加 not：✗ I haven't never…。别人说 I've never…，你也没有，就说 **Me neither.**，不说 ✗ Me too.
+@d_when: 说自己没吃过、没去过、没见过某样东西；回应别人「我也没有」。
+@d_vs: **I've never eaten it before.** 我以前从来没吃过。\n**I never ate breakfast in college.** 我大学时从来不吃早饭。（过去一段时间的习惯）\n**I've never tried it. — Me neither.** 我从没吃过。——我也没有。\n✗ I haven't never eaten it. ✗ I've never eaten it. — Me too.
+@d_task: 用英文说：① 我从来没出过国。② 同事说 I've never tried durian.，你也没吃过，回应他。 | ① I've never been abroad. ② Me neither.
+@diff: 「我曾经去过」——肯定句里不用 ever
+@d_cn: 中文的「曾经」「过」用在肯定句里：「我曾经去过北京」。
+@d_en: I've been to Beijing. / Have you ever been to Beijing? / It's the best tofu I've ever had.
+@d_why: 很多人把「曾经」对应成 ever，说出 ✗ I've ever been to Beijing.。可英文的 ever 主要用在**疑问句**（Have you ever…?）和**否定**里（never = not ever）；肯定句里「去过」的意思已经在 have been 里了，不需要再加词。想说「去过一次」，用 **once**；想说「以前去过」，句尾加 **before**。肯定句里 ever 只有一个常见用法：跟在最高级后面——**the best … I've ever had**（我吃过最好的……），夸食物、夸经历时特别好用。
+@d_when: 问经历 → Have you ever…?；说自己有过的经历 → I've + 过去分词（不加 ever）；夸「这是我吃过 / 见过最……的」→ the best / the most … I've ever…
+@d_vs: **Have you ever been to Beijing?** 你去过北京吗？\n**Yes, I've been there once.** 去过，去过一次。\n**This is the best tofu I've ever had!** 这是我吃过最好吃的豆腐！\n✗ I've ever been to Beijing. ✗ I ever tried it.
+@d_task: 改错并说出理由：① I've ever eaten stinky tofu. ② This is the most beautiful place I've never seen. | ① I've eaten stinky tofu.（肯定句不加 ever）② This is the most beautiful place I've ever seen.（最高级后面用 ever，不用 never）
+
+@core: Have you ever + 过去分词…? | 问对方有没有过某种经历 | tried stinky tofu / been to Changsha / eaten hot pot | 正式：Have you had a chance to try Hunan food?｜随意：Ever tried stinky tofu?
+@core: Yes, I have. I + 过去式 + 时间 / 地点. | 有过这种经历，再补一句「那一次」 | tried it in Changsha / had it last year | 正式：Yes, I have. I tried it on a trip to Changsha.｜随意：Yep! Had it last year.
+@core: No, I haven't. / No, never. But… | 没有过，再补一句想不想试 | I'd love to try it / I can't stand the smell | 正式：No, I haven't, but I'd like to try it.｜随意：Nope, never!
+@core: I've never + 过去分词 + before. | 说「我以前从来没……过」 | eaten it / tried it / been here | 正式：I have never tried this before.｜随意：Never had it!
+@core: It smells…, but it tastes… | 说一样东西闻起来和吃起来怎么样 | weird / strong；great / amazing / sweet | 正式：It has a strong smell, but the flavor is excellent.｜随意：Smells weird, tastes great!
+@core: It's my first time. | 说这是第一次做某事 | It's my first time here / in China / trying this | 正式：This is my first time trying it.｜随意：First time!
+@core: Give it a try! | 鼓励别人试一试 | Give it a try / Try a little / Just one bite | 正式：You might want to give it a try.｜随意：Come on, just try it!
+@core: I'm not a big fan of… / I can't stand… | 委婉地说不太喜欢 / 直接说特别讨厌 | sweet food / cilantro / the smell | 正式：I'm not really fond of sweet food.｜随意：Not a fan!
+
+@pw: vegetable | ˈvedʒtəbl | 3 个音节 VEG·ta·ble | 中间的 e 不读，只有 3 个音节；veg 读 `/vedʒ/`，不读 vee
+@pw: vegetarian | ˌvedʒəˈteriən | 5 个音节 veg·e·TAR·i·an | 主重音在 tar；和 vegetable 不一样，这里中间的 e 要读出来 `/ə/`
+@pw: allergic | əˈlɜːrdʒɪk | 3 个音节 al·LER·gic | 重音在中间；g 读 `/dʒ/`，不读 `/g/`；名词 allergy 重音在前：AL·ler·gy
+@pw: recipe | ˈresəpi | 3 个音节 REC·i·pe | 结尾的 e 读 `/i/`，不读 re-sip
+@pw: chopsticks | ˈtʃɑːpstɪks | 2 个音节 CHOP·sticks | chop 嘴巴张大 `/ɑː/`；结尾 cks 是 `/ks/`，s 别丢
+@pw: weird | wɪrd | 1 个音节 | 一口气读完，卷舌后马上收在 d 上；不要拆成 we-ird 两个音节
+@pw: flavor | ˈfleɪvər | 2 个音节 FLA·vor | fla 读 `/fleɪ/`；v 上齿轻碰下唇，不读成 w
+@ps: **Have** you‿ever tried **stink**y **to**fu? ↗ — **No**, I **haven't**. | you ever 连读，中间像带一个 w：you-wever；一般疑问句句尾上扬；回答里 haven't 读重，结尾 t 很轻。
+@ps: I've **nev**er‿**eat**en‿it be**fore**. | I've 的 v 很轻；never eaten it 连成一串：never-reaten-it；eaten 的 t 美式常常只停顿一下，像 ea-n。
+@ps: It **smells** **weird**, / but it **tastes** **great**. | 两个对比的词 weird 和 great 都读重；tastes 结尾的 sts 不要吞掉——第三人称 -s 在这里听得出来。
+@ps: I'm **not** a big **fan**‿of **sweet** food. | not 读重，这是整句话的意思所在；fan of 连读成 `/ˈfænəv/`，of 弱读成 `/əv/`。
+@pnote: haven't / can't 的听辨：No, I haven't. 的 haven't 读重 `/ˈhævnt/`，结尾 t 几乎听不见，要靠 n 和重音判断；I can't stand… 的 can't 读重 `/kænt/`，肯定的 can 一般弱读成 `/kən/`——听到一个重读、元音饱满的 can，多半是 can't（第一册的薄弱项）。
+@pnote: 书面和口语：I've never eaten it before. 在快速口语里 've 几乎消失，听起来像 I never eaten it before。听的时候抓住过去分词 eaten / tried / seen——它们前面一定藏着一个 have。
+@lfocus: Have you ever 连读：you‿ever 中间带一个轻轻的 w
+@lfocus: haven't 和 can't 读重：靠重音和元音判断否定
+@lfocus: It smells / It tastes 结尾的第三人称 -s
+@dict: S10–S12
+@dict: S18
+@res: 在 youglish.com 输入 "have you ever tried"，选 US，听美国人怎么问别人的饮食经历。
+
+@mimic: 跟读【C】S3–S26：先用正常语速逐句跟读，重点模仿 Have you ever… 的上扬语调和 haven't / can't 的重读；再由你演林晓，手机朗读 Emma、Kevin、吴佳的台词，完整对一遍并录音。
+@swap: Have you ever tried stinky tofu? — No, I haven't. | 换食物和动作：eaten hot pot / been to Changsha / seen snow；按真实情况回答，再补一句 | Have you ever been to Changsha? — Yes, I have. I went there last summer.
+@swap: I've never eaten it before. | 换成你真实的「从来没有」：tried durian / been abroad / cooked fish | I've never cooked fish before.
+@swap: It smells weird, but it tastes great. | 换感官和形容词：looks strange / smells strong；tastes amazing / tastes sweet | This soup looks strange, but it tastes amazing.
+@swap: I'm not a big fan of sweet food. | 换成你不太喜欢的：spicy food / cold drinks / early meetings | I'm not a big fan of early meetings.
+@free: 美国同事第一次来湖南菜馆，你想问他吃没吃过剁椒鱼头（fish head with chopped chilies），再推荐他试试。 | Have you ever tried fish head with chopped chilies? It's a famous Hunan dish. Give it a try!
+@free: 朋友问 Have you ever tried durian?（你吃过一次，去年在海南吃的，闻着怪，但很好吃） | Yes, I have. I tried it in Hainan last year. It smells weird, but it tastes great.
+@free: 同事请你吃一块很甜的蛋糕，你不太爱吃甜的，委婉地拒绝。 | Thanks, but I'm not a big fan of sweet food. It looks great, though!
+@free: 带美国客户吃湘菜，点菜前你想问他有没有过敏的东西、是不是吃素。 | Before we order, are you allergic to anything? And are you a vegetarian? Some Hunan dishes have a lot of pork.
+@output: 录 1.5 分钟语音（或写 8–10 句话）「我吃过的一道特别的菜」：用 Have you ever tried…? 开头 → 你什么时候、在哪儿第一次吃的（for the first time，过去式）→ 它闻起来、吃起来怎么样（smell / taste / flavor）→ 你还从没吃过什么、想不想试（I've never…）→ 你不太爱吃什么（not a big fan of / can't stand）。
+@output_sample: Have you ever tried stinky tofu? It's a famous snack from my hometown, Changsha. I tried it for the first time when I was six, and my dad bought it for me on the street. It smells weird, but it tastes great. It's soft inside, and it has a lot of flavor. Hunan dishes are usually spicy, sour and a little salty, and I love all of them. But there's one thing I've never tried before: durian. My friends say it's delicious, but I can't stand the smell. Maybe I'll give it a try someday. Oh, and I'm not a big fan of sweet food, so I usually say no to cake.
+
+@check: 吴佳说 I tried it for the first time in Changsha.，为什么这里用 tried，不用 I've tried？ | 因为她讲的是具体的那一次（在长沙那次），有具体的场合，用过去式。只说「吃过」、不说是哪一次，才用 I've tried it.
+@check: 林晓问 Have you ever tried stinky tofu?，Emma 如果回答 No, I didn't. 对吗？ | 不对。问句用 have，回答也用 have：No, I haven't.（也可以说 No, never.）
+@check: Kevin 说 I've never eaten it before.，你也没吃过，怎么回应？说 Me too. 对吗？ | 说 Me neither.，因为对方的话是否定的；Me too. 用来回应肯定的话，比如 I love it. — Me too.
+@check: 改错：① I've ever been to Changsha. ② It smells weirdly. ③ I'm allergic with fish. | ① I've been to Changsha.（肯定句不加 ever）② It smells weird.（smell 后面直接跟形容词）③ I'm allergic to fish.
+@check: 同事给你夹了一筷子香菜（cilantro）拌的菜，你很讨厌香菜。用一种委婉的说法和一种直接的说法拒绝。 | 委婉：Thanks, but I'm not a big fan of cilantro. 直接：Sorry, I can't stand cilantro!
+
+@next1: 不看书说出 S10–S11、S12、S16、S18、S24 里的 5 个锚点句
+@next1: 用 Have you ever…? 问一个朋友 3 个问题（吃过 / 去过 / 见过），并按自己的情况回答：Yes, I have. + 过去式，或 No, I haven't. + But…
+@next7: 不看书说出 eat–ate–eaten、see–saw–seen、try–tried–tried，各造一个 I've… 的句子
+@next7: 用 It smells…, but it tastes… 和 I'm not a big fan of… 介绍你家乡的两种食物

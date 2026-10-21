@@ -1,0 +1,160 @@
+@day: 42
+@week: 2
+@title_cn: 怎么会这样
+@title_en: How Come?
+@topic: 团建因台风取消：问原因、说后来发现的真相、说「所以才……」和「以防万一」
+@think_short: 「怎么会……？」How come + 陈述句｜「结果是……」It turned out…｜「所以才……」That's why…｜「以防万一」just in case
+
+@goal_scene: 周末的团建突然取消，邮件里没写原因。你要用 How come…? 自然地问清原因，听懂同事讲的台风预报和预警；在超市看到货架被抢空时，能说出「所以货架才空了」，并提议「买点水以防万一」。
+@goal_expr: How come the trip was canceled? / A typhoon is coming this weekend. / It turned out… / That's why… / It's been postponed, not canceled. / stock up on… / …, just in case.
+@goal_vocab: 20 个重点词 + 5 个短语：台风与天气预警、取消与推迟、超市囤货
+@done: 能用 How come + 陈述语序问出「怎么会……？」，不说 ✗ How come was the trip canceled?
+@done: 能用 It turned out… 说「结果（原来）……」，用 That's why… 说「所以才……」，并分清 That's why 和 That's because
+@done: 能用 …, just in case. 说出两件「以防万一」要提前做的准备
+
+@warmup: 我跑了人生第一个半程马拉松！——真的假的！ | I ran my first half marathon! — No way! | D41
+@warmup: 开玩笑吧？太厉害了！ | Are you kidding? That's amazing! | D41
+@warmup: 跑了多长时间？ | How long did it take? | D41
+@warmup: 真不敢相信你在机场碰到他了。 | I can't believe you met him at the airport. | D41
+@warmup: 事情发生的时候你在干什么？ | What were you doing when it happened? | D38
+@warmup: 那儿经常下雨，不过是座很美的城市。 | It rains a lot, but it's a beautiful city. | D10
+
+@scene: 周四早上，林晓收到张涛的邮件：本周末的海边团建取消——邮件里一句解释都没有。她去问吴佳，才知道台风要来了，深圳已经挂起了黄色预警。周一还说「天气预报从来不准」的 Kevin，这下没话说了。午饭时，林晓和 Emma 去楼下超市，发现水和面包几乎被抢光。这是林晓第一次在深圳经历台风，在深圳住了两年的 Emma 已经是「老手」了。
+@sp: 人物关系 | 林晓 ↔ 吴佳、Kevin、Emma：熟悉的同事，随意聊天；Emma 在深圳住了两年，经历过好几次台风
+@sp: 沟通目的 | 林晓：弄清楚团建为什么取消、台风有多严重、要不要提前准备；同事：解释原因，提醒她做好准备
+@sp: 已知信息 | 林晓只看到「取消」两个字，不知道原因；吴佳和 Kevin 已经看过天气预报和预警；Emma 知道台风前超市会被抢空
+@sp: 表达重点 | 问原因：How come + 陈述句？→ 说原因：A typhoon is coming. / The forecast says… → 说后来发现的事实：It turned out… → 说结果：That's why… → 提前准备：stock up on… / …, just in case.
+
+@story_title: Episode 42 · A Typhoon Is Coming
+@story_type: 对话（问原因 + 解释）
+@s: On Thursday, Lily gets an email from Tom: "This weekend's **beach** trip is canceled." | 周四，林晓收到张涛的一封邮件：「本周末的海边团建取消。」
+@s: There's no **explanation**, so she asks Grace. | 邮件里没写原因，她就去问吴佳。
+@s: Lily: **How come** the trip was canceled? | 林晓：团建怎么取消了？
+@s: Grace: Haven't you heard? A **typhoon** is coming this weekend. | 吴佳：你没听说吗？这个周末有台风要来。
+@s: Lily: No, I haven't! Is it a big one? | 林晓：没听说啊！很大吗？
+@s: Grace: Pretty big. The **forecast** says strong **wind** and heavy rain. | 吴佳：挺大的。天气预报说会有大风和暴雨。
+@s: Kevin: And there's a yellow **warning** **signal** now. | Kevin：而且现在已经挂了黄色预警信号。
+@s: Lily: Is yellow a high **level**? | 林晓：黄色级别高吗？
+@s: Kevin: It's the middle one. Red is the most **dangerous**. Then everything's gonna **close**. | Kevin：中间那一级。红色最危险，到时候所有地方都会停工关门。
+@s: Lily: But on Monday, you said the forecast was always wrong! | 林晓：可你周一还说天气预报从来不准！
+@s: Kevin: Ha, I know. **It turned out** the forecast was right. | Kevin：哈，我知道。结果人家天气预报是对的。
+@s: Grace: Tom says the beach isn't **safe** in a **storm**. | 吴佳：张涛说，刮风下雨的时候去海边不安全。
+@s: Grace: So it's been **postponed**, not canceled. And we're having a team dinner tomorrow instead. | 吴佳：所以团建是延期了，不是取消。明天晚上改成团队聚餐。
+@s: Emma: Good call. My **flight** got canceled in a typhoon once. | Emma：明智。我有一次航班就因为台风取消了。
+@br:
+@s: At lunch, Lily and Emma go to the **supermarket**. | 午饭时，林晓和 Emma 去了超市。
+@s: There's almost no bread or water left. | 面包和水几乎都卖光了。
+@s: Lily: How come there's nothing left? It's only Thursday! | 林晓：怎么什么都没了？今天才周四啊！
+@s: Emma: People always **rush** to **stock up on** food before a typhoon. | Emma：每次台风来之前，大家都急着去囤吃的。
+@s: Emma: **That's why** the **shelves** are **empty**. | Emma：所以货架才是空的。
+@s: Lily: Do we really need anything? | 林晓：我们真的需要买东西吗？
+@s: Emma: Some streets **flood**. We might have to stay **indoors** all weekend. | Emma：有些街道会被淹。我们整个周末可能都得待在家里。
+@s: Emma: Let's buy some water, **just in case**. | Emma：我们买点水吧，以防万一。
+@s: Lily grabs the last two bottles. Emma takes a bag of chips. | 林晓抢到了最后两瓶水，Emma 拿了一包薯片。
+@s: Emma: What? It's my typhoon dinner! | Emma：干吗？这是我的台风晚餐！
+
+@v: beach | = | n. | biːtʃ | 海滩；海边 | 周末出游、度假 | go to the beach；on the beach；a beach trip | Let's go to the beach this weekend. | 我们这周末去海边吧。 | 「去海边」说 go to the beach，前面要有 the；ea 一定要读长音 `/iː/`，读短了会变成一个很难听的骂人词。
+@v: explanation | = | n. | ˌekspləˈneɪʃn | 解释；说明（原因） | 问原因、给理由 | give an explanation；no explanation；a clear explanation | Thanks for the clear explanation. | 谢谢你解释得这么清楚。 | 动词 explain（第一册）重音在 plain，名词重音挪到 na：ex·pla·NA·tion；拼写也变了：explain → explanation（去掉 i）。
+@v: How come | how come? | phr. | ˌhaʊ ˈkʌm | 怎么会……？为什么……？ | 对意外的事表示不解，问原因 | How come?；How come + 陈述句？；How come you're late? | How come you're still here? It's ten o'clock! | 你怎么还在这儿？都十点了！ | 后面接陈述语序：✓ How come you're late? ✗ How come are you late?；比 Why 更口语，带着「意外、不解」，听起来不像质问。
+@v: typhoon | = | n. | taɪˈfuːn | 台风 | 夏秋季华南、东南亚的天气 | A typhoon is coming.；typhoon season；a typhoon warning | Typhoon season usually starts in July. | 台风季一般从七月开始。 | 重音在后：ty·PHOON；美国东海岸同样的风暴叫 hurricane，美国同事可能会说 It's like a hurricane.
+@v: forecast | = | n./v. | ˈfɔːrkæst | （天气）预报 | 说天气预报怎么说 | the weather forecast；The forecast says…；forecast rain | The forecast says it'll rain tomorrow. | 天气预报说明天有雨。 | 「天气预报说……」用 The forecast says…，不说 ✗ The forecast speaks…；名词重音在前：FORE·cast。
+@v: wind | = | n. | wɪnd | 风 | 说天气、台风 | strong wind；a cold wind；The wind is blowing. | The wind is really strong today. | 今天风特别大。 | 「风大」说 strong wind 或 It's windy.，不说 ✗ big wind；名词读 `/wɪnd/`，同样拼写的动词（上发条、绕）读 `/waɪnd/`。
+@v: warning | = | n. | ˈwɔːrnɪŋ | 警告；预警 | 天气预警、提醒风险 | a typhoon warning；a yellow warning；give sb a warning | The city sent out a red rain warning. | 市里发布了暴雨红色预警。 | 「预警」直接说 warning：a yellow warning；动词是 warn sb about sth；ar 读 `/ɔːr/`，和 morning 押韵。
+@v: signal | = | n. | ˈsɪɡnəl | 信号 | 天气预警信号；手机信号 | a warning signal；phone signal；no signal | Sorry, I have no signal here. | 抱歉，我这儿没信号。 | 「手机没信号」说 I have no signal. / I don't have any signal.；g 要读出来：SIG·nal。
+@v: level | = | n. | ˈlevl | 级别；水平；（楼）层 | 说等级、程度、楼层 | a high level；level 3；the same level | What level is your English class? | 你的英语课是什么级别的？ | 「一级、二级」可以说 level 1 / level 2；「水平高」说 a high level，不说 ✗ a tall level；商场、停车场的「楼层」也常叫 level。
+@v: dangerous | = | adj. | ˈdeɪndʒərəs | 危险的 | 提醒别人注意安全 | very dangerous；dangerous for…；It's dangerous to… | It's dangerous to swim in the sea today. | 今天下海游泳很危险。 | 说事情危险：It's dangerous.；说人「有危险」用 in danger：He's in danger.；✗ I'm dangerous. 是「我是个危险人物」。
+@v: close | = | v. | kloʊz | 关门；停业；关闭 | 商店、学校、公司停业关门 | close early；The store closes at ten.；close the window | The mall closes at ten p.m. | 商场晚上十点关门。 | 动词 close 读 `/kloʊz/`，形容词 close（近的）读 `/kloʊs/`；第一册学过的 closed 说状态：The store is closed.；close 说动作：It closes at ten.
+@v: It turned out | it turned out | phr. | ɪt ˌtɜːrnd ˈaʊt | 结果（发现）……；原来…… | 说后来才知道的真相或结果 | It turned out (that)…；It turns out…；as it turned out | I thought he was angry, but it turned out he was just tired. | 我以为他生气了，结果他只是累了。 | 中文「原来」不要译成 ✗ originally（那是「本来、起初」）；口语里现在时 It turns out… 也很常见，美国人还常省成 Turns out…
+@v: safe | = | adj. | seɪf | 安全的 | 说安全、平安 | stay safe；safe and sound；It's not safe to… | Text me when you get home safe. | 安全到家了给我发个消息。 | 「注意安全」说 Stay safe! / Be careful!；「保险起见」口语常说 Better safe than sorry.；名词是 safety。
+@v: storm | = | n. | stɔːrm | 暴风雨；风暴 | 说恶劣天气 | a big storm；a tropical storm；before the storm | We stayed home during the storm. | 暴风雨的时候我们待在家里。 | storm 是总称，有大风大雨的坏天气都能叫 storm；typhoon 是特别强的热带风暴；「雷暴」是 thunderstorm。
+@v: postponed | postpone | v. | poʊstˈpoʊnd | 推迟；延期 | 会议、活动、旅行改到以后 | postpone a meeting；postpone sth until…；be postponed | The meeting is postponed until Friday. | 会议推迟到周五了。 | postpone 是「改到以后」，cancel（第一册）是「取消、不办了」，别混用；口语里也常说 push back：Let's push it back a week.；t 不发音：post-PONE。
+@v: flight | = | n. | flaɪt | 航班；飞行 | 出差、旅行，说航班延误或取消 | book a flight；a flight to…；My flight was canceled. | My flight was delayed for three hours. | 我的航班延误了三个小时。 | gh 不发音；「航班号」是 flight number；「坐飞机去」可以说 fly to…（第一册）或 take a flight to…
+@v: supermarket | = | n. | ˈsuːpərmɑːrkɪt | 超市 | 日常购物 | go to the supermarket；a big supermarket；at the supermarket | I go to the supermarket every Sunday. | 我每周日去超市。 | 美国人也常说 the grocery store；「去超市」要加 the：go to the supermarket；重音在第一个音节：SU·per·mar·ket。
+@v: rush | = | v./n. | rʌʃ | 冲；急急忙忙地去做 | 说人一窝蜂地去做某事；赶时间 | rush to…；in a rush；Don't rush. | Don't rush. We have plenty of time. | 别着急，我们时间很充裕。 | rush hour 是「上下班高峰」；in a rush 和 in a hurry（Day 34）意思接近；u 读 `/ʌ/`，不读「入」。
+@v: stock up on | = | phr. | ˌstɑːk ˈʌp ɑːn | 囤；（提前）大量买 | 台风前、过节前、打折时多买一些备着 | stock up on water；stock up on snacks；stock up for the holiday | I always stock up on snacks before a long trip. | 出远门前我总要囤点零食。 | 中文「囤货」直译 ✗ store goods 不自然，说 stock up on + 东西；stock 作名词是「库存」，Day 49 会学 out of stock（缺货）。
+@v: That's why | that's why | phr. | ˈðæts ˌwaɪ | 所以才……；这就是为什么…… | 先说原因，再引出结果 | That's why + 结果；So that's why!；That's why I'm here. | I didn't have breakfast. That's why I'm so hungry. | 我没吃早饭，所以才这么饿。 | That's why 后面接**结果**；接原因要用 That's because：That's because a typhoon is coming.；单独说 So that's why! 就是「原来如此」。
+@v: shelves | shelf | n. | ʃelvz | 架子；货架（shelf 的复数） | 超市货架、书架 | empty shelves；on the shelf；the top shelf | The books are on the top shelf. | 书在最上面一层架子上。 | 复数 f 变 v：shelf → shelves，✗ shelfs；「在架子上」用 on the shelf。
+@v: empty | = | adj. | ˈempti | 空的 | 说东西、地方空空的 | an empty box；empty shelves；The office is empty. | The office is empty on Sundays. | 周日办公室里空无一人。 | 反义词是 full；「空着手」是 empty-handed；p 很轻，口语里几乎听不到：EM-ty。
+@v: flood | = | v./n. | flʌd | 被淹；（发）洪水 | 暴雨后街道积水、被淹 | The street floods.；a flood；get flooded | That subway station flooded last summer. | 去年夏天那个地铁站被淹了。 | oo 在这里读 `/ʌ/`，和 blood 一样，不读 `/uː/`；「街道积水被淹」直接说 The streets flood / flooded.
+@v: indoors | = | adv. | ˌɪnˈdɔːrz | 在室内；在屋里 | 天气不好时提醒别人别出门 | stay indoors；go indoors；play indoors | Please stay indoors during the typhoon. | 台风期间请待在室内。 | indoors 是副词，前面不加 in：✓ stay indoors ✗ stay in indoors；形容词是 indoor：an indoor pool；反义词是 outdoors。
+@v: just in case | = | phr. | ˌdʒʌst ɪn ˈkeɪs | 以防万一 | 为可能发生的事提前做准备 | …, just in case.；just in case + 句子；bring sth just in case | Take an umbrella, just in case. | 带把伞吧，以防万一。 | 放在句尾最自然；in case 是「以防」，和 if（如果……再）意思不同：Take an umbrella in case it rains.（现在就带上，以防下雨）
+
+@diff: 「怎么会……？」——How come + 陈述语序
+@d_cn: 对一件意外的事表示不解：「怎么取消了？」「你怎么还在这儿？」
+@d_en: How come the trip was canceled? / How come there's nothing left?
+@d_why: 英文的 Why 问句要把 is / was / do 提到主语前面（Why **was the trip** canceled?）；**How come** 后面却直接接一个普通的陈述句（How come **the trip was** canceled?）——语序和中文「团建怎么取消了？」一模一样，所以中国人其实很好用。最常见的错误是两种语序混在一起：✗ How come was the trip canceled? / ✗ How come did you leave? 另外，How come 带着「没想到、有点意外」的语气，比 Why 更口语、更柔和，不像在质问对方；正式邮件里还是用 Why…? 或 May I ask why…?
+@d_when: 同事之间、朋友之间，对计划变化、反常的情况表示好奇或不解。
+@d_vs: **Why was the trip canceled?** 为什么取消团建？（倒装，偏直接）\n**How come the trip was canceled?** 团建怎么取消了？（陈述语序，带意外）\n**How come you're still here?** 你怎么还在这儿？\n✗ How come was the trip canceled?
+@d_task: 用 How come 问：① 你怎么没来开会？② 办公室怎么这么冷？ | ① How come you didn't come to the meeting? ② How come the office is so cold?
+@diff: 「结果是……／原来……」——It turned out…
+@d_cn: 一开始以为是这样，后来才发现事实是那样。
+@d_en: It turned out the forecast was right. / It turned out he was just tired.
+@d_why: 中文的「结果」「原来」放在句子前面就行；中国学生常直译成 ✗ The result is the forecast was right.，或者把「原来」译成 ✗ Originally, …——originally 是「本来、起初」，意思正好反了。英文用 **It turned out (that) + 句子**，表示「后来才知道真相」；前面常有一句「我本来以为……」：I thought…, but it turned out… 注意 turned out 本身是过去时，后面的句子也跟着用过去时（the forecast **was** right）。
+@d_when: 讲事情的反转：以为丢了结果找到了、以为对方生气结果只是累了、以为预报不准结果是对的。
+@d_vs: **I thought it was lost, but it turned out it was at the front desk.** 我以为丢了，结果在前台。\n**It turned out the forecast was right.** 结果天气预报是对的。\n✗ Originally, the forecast was right.\n✗ The result is the forecast was right.
+@d_task: 用 It turned out 说：我以为 Kevin 生病了，原来他是去出差了。 | I thought Kevin was sick, but it turned out he was on a business trip.
+@diff: 「所以才……」——That's why…
+@d_cn: 先说一个原因，再说「所以才会这样」「怪不得」。
+@d_en: People rush to stock up on food before a typhoon. That's why the shelves are empty.
+@d_why: 中文「所以才……」「怪不得……」放在结果前面；英文用 **That's why + 结果**：That 指前面刚说的原因，why 引出结果。中国学生容易把 That's why 和 That's because 弄反：**That's why** 后面接**结果**，**That's because** 后面接**原因**。也可以单独说 **So that's why!**，就是中文的「原来如此！」「怪不得！」
+@d_when: 解释一个现象（货架空了、人很少、某人迟到）时，先说原因，再用 That's why 收尾。
+@d_vs: **A typhoon is coming. That's why the shelves are empty.**（因 → 果）\n**The shelves are empty. That's because a typhoon is coming.**（果 → 因）\n**So that's why!** 原来如此！\n✗ The shelves are empty. That's why a typhoon is coming.
+@d_task: 用 That's why 连起来：昨晚我熬夜看球了——所以我今天这么累。 | I stayed up late to watch the game last night. That's why I'm so tired today.
+@diff: 「以防万一」——just in case
+@d_cn: 现在先做好准备，万一真发生了也不怕。
+@d_en: Let's buy some water, just in case. / Take an umbrella in case it rains.
+@d_why: 中文「以防万一」常放在句子前面（「以防万一，我们买点水」）；英文最自然的位置是**句尾**：…, just in case. 中国学生常说 ✗ in case of ten thousand（逐字直译），或者把 in case 当成 if 用。其实两者意思不同：**in case it rains** = 以防下雨，**现在**就带伞；**if it rains** = 如果下雨，**到时候**再拿伞。in case 后面用一般现在时（in case it rains），不用 will。
+@d_when: 出门前、出差前、台风来之前提醒别人提前准备：带伞、带充电宝、多买点水、早点出门。
+@d_vs: **Let's buy some water, just in case.** 买点水吧，以防万一。\n**Take an umbrella in case it rains.** 带上伞，以防下雨。（现在就带）\n**Take an umbrella if it rains.** 下雨的话就带伞。（到时候再说）\n✗ In case of ten thousand, let's buy some water.
+@d_task: 用 just in case 说：明天的会很重要，我们早点出发吧，以防万一。 | Tomorrow's meeting is really important. Let's leave early, just in case.
+
+@core: How come + 陈述句? | 问「怎么会……」，带着意外 | the trip was canceled / you're late / there's nothing left | 正式：May I ask why the trip was canceled?｜随意：How come?
+@core: A typhoon is coming this weekend. | 说即将到来的坏天气 | A typhoon / A big storm / Heavy rain | 正式：A typhoon is expected to arrive this weekend.｜随意：There's a typhoon coming.
+@core: The forecast says + 句子. | 转述天气预报 | strong wind / heavy rain / it'll be sunny | 正式：According to the forecast, …｜随意：The app says it's gonna rain.
+@core: It turned out (that) + 句子. | 说后来才知道的真相 | the forecast was right / he was just tired / it was at the front desk | 正式：It turned out that…｜随意：Turns out…
+@core: That's why + 结果. | 说完原因，引出结果 | the shelves are empty / I'm so tired / the trip was postponed | 正式：That is the reason why…｜随意：So that's why!
+@core: It's been postponed, not canceled. | 说清是推迟，不是取消 | postponed / moved to next month / pushed back | 正式：The trip has been postponed until next month.｜随意：We're just pushing it back.
+@core: Let's stock up on + 东西. | 提议囤点东西 | water / snacks / instant noodles | 正式：We should buy some extra supplies.｜随意：Let's stock up!
+@core: …, just in case. | 说「以防万一」 | buy some water / bring a charger / leave early | 正式：…as a precaution.｜随意：…just in case.
+
+@pw: typhoon | taɪˈfuːn | 2 个音节 ty·PHOON | 重音在后；ph 读 `/f/`，oo 读长音 `/uː/`
+@pw: explanation | ˌekspləˈneɪʃn | 4 个音节 ex·pla·NA·tion | 主重音在 na；和 explain 比，重音换了位置
+@pw: dangerous | ˈdeɪndʒərəs | 3 个音节 DAN·ger·ous | a 读 `/eɪ/`（和 danger 一样）；ous 弱读成 `/əs/`
+@pw: postpone | poʊstˈpoʊn | 2 个音节 post·PONE | 重音在后；post 的 t 几乎不发音
+@pw: supermarket | ˈsuːpərmɑːrkɪt | 4 个音节 SU·per·mar·ket | 重音在第一个音节；两个 r 都要卷舌
+@pw: indoors | ˌɪnˈdɔːrz | 2 个音节 in·DOORS | 重音在后；结尾 rz 先卷舌再带出 `/z/`
+@pw: flood | flʌd | 1 个音节 | oo 读 `/ʌ/`，和 blood 押韵，不读「弗路德」
+@ps: **How** come the **trip** was **can**celed? ↘ | How 和 trip 重读；was 弱读成 `/wəz/`；canceled 美式只有两个音节 `/ˈkænsəld/`。
+@ps: A ty**phoon** is **com**ing / this **week**end. | typhoon is 连读成 ty-phoo-nis；a 弱读成 `/ə/`。
+@ps: It **turned**‿out / the **fore**cast was **right**. | turned out 连读成 turn-dout；forecast 重音在前；was 弱读。
+@ps: Let's buy some **wa**ter, / **just**‿in **case**. | just in case 连成 jus-tin-case；water 的 t 读成轻轻的 d：wa-der。
+@pnote: 's 是 is 还是 has？So it's been postponed. 里的 it's = it has——后面跟着 been 或过去分词时，'s 就是 has；Everything's gonna close. 里的 's = is，gonna = going to。听的时候看 's 后面是什么来判断。书面写 It has been / is going to，口语里几乎都缩读。
+@pnote: 弱读：How come the trip was canceled? 的 was 只剩 `/wəz/`；rush to stock up 的 to 弱读成 `/tə/`；has been 快读时 has 常常只剩 `/əz/`，been 读 `/bɪn/`。正常语速下这些小词又短又轻，先抓实词（trip, canceled, typhoon），再回头补小词。
+@lfocus: How come 后面的陈述语序
+@lfocus: it's been = it has been
+@lfocus: just in case 的连读
+@dict: S18–S19
+@dict: S9
+@res: 在 youglish.com 输入 "how come"，选 US，听听美国人问「怎么会……」时的语气。
+
+@mimic: 跟读【C】S3–S22：先用正常语速逐句跟读，重点模仿 How come… 的陈述语序和降调、It turned out 的连读；再由你演林晓、手机朗读吴佳、Kevin 和 Emma 的台词，完整对一遍并录音。
+@swap: How come the trip was canceled? | 换让你意外的事：you're late / the office is empty / there's no water left | How come the office is empty?
+@swap: It turned out the forecast was right. | 换真相：he was just tired / the package was at the front desk / it was a typo | It turned out the package was at the front desk.
+@swap: That's why the shelves are empty. | 先说原因，再换结果：I'm so tired / the trip was postponed / the streets are quiet | A typhoon is coming. That's why the streets are so quiet.
+@swap: Let's buy some water, just in case. | 换准备：bring a charger / take an umbrella / leave early | Let's leave early, just in case.
+@free: 平时热热闹闹的办公室，今天一个人都没有。你问刚进门的同事怎么回事。 | How come the office is empty? Is there a meeting somewhere?
+@free: 同事问你为什么今天穿着雨靴（台风要来了，天气预报说下午有暴雨）。 | A typhoon is coming. The forecast says heavy rain this afternoon. That's why I'm wearing rain boots.
+@free: 你以为自己的包裹丢了，结果在前台放着。跟同事说说。 | I thought my package was lost. But it turned out it was at the front desk the whole time.
+@free: 朋友周末要去爬山，你提醒他带件雨衣，以防万一。 | The forecast says it might rain on Sunday. Take a raincoat, just in case.
+@output: 录 1.5 分钟（或写 8–10 句话）「一次因为天气被取消（或推迟）的计划」：本来打算做什么 → 怎么知道取消的、你问了什么（How come…?）→ 原因（forecast / warning / typhoon）→ 后来怎样（It turned out… / That's why…）→ 你做了什么准备（stock up on… / just in case）。
+@output_sample: Last summer, my friends and I planned a trip to the beach. On Thursday night, my friend Mei called me and said, "The trip is canceled." I asked, "How come the trip was canceled?" She told me a typhoon was coming. The forecast said strong wind and heavy rain all weekend, and there was already an orange warning. At first, I was really disappointed. But it turned out the forecast was right. On Saturday, the wind was crazy, and some streets flooded. That's why everyone stayed indoors. Before the storm, I stocked up on water, bread and instant noodles, just in case. In the end, we postponed the trip to the next month, and the weather was perfect!
+
+@check: 把 Why was the trip canceled? 改成 How come 的问句。两种问法的语序有什么不同？ | How come the trip was canceled? How come 后面用陈述语序，不倒装；Why 问句要倒装。
+@check: 「原来他只是累了」说 Originally, he was just tired. 对吗？ | 不对，originally 是「起初、本来」。说 It turned out he was just tired.
+@check: 填 That's why 还是 That's because：① A typhoon is coming. ___ the shelves are empty. ② The shelves are empty. ___ a typhoon is coming. | ① That's why（后面接结果）② That's because（后面接原因）
+@check: Take an umbrella in case it rains. 和 Take an umbrella if it rains. 意思一样吗？ | 不一样。in case：现在就带上，以防下雨；if：真下雨了再带。
+@check: 吴佳说 So it's been postponed. 这里的 it's 是什么的缩写？团建还去不去？ | It has。还去，只是推迟到下个月了（postponed ≠ canceled）。
+@next1: 不看书说出 S3、S4、S11、S19、S22（锚点句）
+@next1: 用 How come…? 问三件让你意外的事（注意陈述语序）
+@next7: That's why（接结果）和 That's because（接原因）各说一句
+@next7: 用 …, just in case. 说两件你出门前会「以防万一」做的事

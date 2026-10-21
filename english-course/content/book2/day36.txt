@@ -1,0 +1,161 @@
+@day: 36
+@week: 1
+@title_cn: 变化真大
+@title_en: Things Have Changed
+@topic: 聊城市和自己的变化：过去的样子、涨价、住了多久、体重变化
+@think_short: 「变化很大」has changed a lot｜「涨了」have gone up vs went up｜ago vs for / since｜「我胖了」I've put on weight
+
+@goal_scene: 和经理开车去见客户的路上，聊深圳这些年的变化：这里过去是什么样、什么涨了、他在这儿住了多久；再说说你自己来深圳以后的变化。
+@goal_expr: Shenzhen has changed a lot. / Forty years ago, this was a fishing village. / Prices have gone up. / How long have you lived here? — For twelve years. / I've put on three kilos since I moved here. / Compared with my hometown, everything here is so fast.
+@goal_vocab: 20 个重点词 + 5 个短语：城市与建筑、农村与过去、数量的增减、体重的变化
+@done: 用 has changed a lot / over the years 说出一个城市或一个人这些年的变化，不再说 ✗ changes very big
+@done: 分清 have gone up（现在的结果）和 went up last year（过去某个时间）；说 ago 用过去时，说 for / since 用现在完成时
+@done: 用 I've put on / lost… since… 说出自己的一个变化，并用 Compared with…, … 做一个比较
+
+@warmup: 你最近在忙什么？ | What have you been up to lately? | D35
+@warmup: 我最近工作特别忙。 | I've been really busy at work. | D35
+@warmup: 你爸刚退休。 | Your dad has just retired. | D35
+@warmup: 保重，妈。我想你。 | Take care, Mom. I miss you. | D35
+@warmup: 我出生在湖南，不过是在长沙长大的。 | I was born in Hunan, but I grew up in Changsha. | D31
+@warmup: 因为下雨，路上堵得厉害。 | The traffic was really bad because it was raining. | D9
+
+@scene: 周二下午，张涛开车带林晓去前海，拜访公司刚签下的那个大客户。车开过一座长长的大桥，窗外是一片玻璃幕墙的高楼。在深圳住了十二年的张涛像个导游，给林晓讲这座城市几十年来的变化：渔村、农田、工厂、房租……聊着聊着，话题转到了林晓自己身上——她来深圳以后胖了三公斤。
+@sp: 人物关系 | 林晓 ↔ 张涛：下属和经理，一起出门办事；车里不是开会，可以轻松聊天，但林晓说话还是有分寸
+@sp: 沟通目的 | 张涛讲深圳的变化，林晓顺着话题追问，再说说自己的变化；见客户之前放松一下
+@sp: 已知信息 | 林晓知道深圳发展快，但不知道这里几十年前是什么样；张涛不知道林晓来深圳以后有什么变化
+@sp: 表达重点 | 过去的样子（… years ago, this was…）→ 到现在的变化（has changed / have gone up / over the years）→ 住了多久（For twelve years.）→ 自己的变化（I've put on three kilos since…）→ 比较（Compared with my hometown, …）
+
+@story_title: Episode 36 · Shenzhen Speed
+@story_type: 叙述 + 对话
+@s: On Tuesday, Tom drives Lily to meet the new client in Qianhai. | 周二，张涛开车带林晓去前海见新客户。
+@s: They cross a long **bridge**, and Lily looks at the tall **buildings**. | 车开过一座长长的大桥，林晓望着窗外的高楼。
+@s: Lily: Wow, look at that glass **tower**! It's **huge**. | 林晓：哇，你看那座玻璃大楼！好大啊。
+@s: Tom: Ten years ago, this whole **area** was empty. | 张涛：十年前，这一整片还是空地。
+@s: Tom: Shenzhen has changed a lot. | 张涛：深圳变化太大了。
+@s: Tom: Forty years ago, this was a **fishing** **village**. | 张涛：四十年前，这里还是个小渔村。
+@s: Lily: Really? But it's so **modern** now! | 林晓：真的吗？现在这么现代化！
+@s: Tom: Back then, it was mostly **countryside**, with **farms** everywhere. | 张涛：那时候这里基本都是乡下，到处是农田。
+@s: Tom: Later, people built **factories**, and the **population** **increased** very fast. | 张涛：后来盖起了工厂，人口涨得飞快。
+@s: Tom: **Over the years**, the number of factories has **decreased**. Now it's all tech companies. | 张涛：这些年，工厂越来越少，现在全是科技公司。
+@br:
+@s: Lily: How long have you lived here? | 林晓：您在这儿住了多久了？
+@s: Tom: For twelve years. When I came, there was no **highway** here. | 张涛：十二年了。我刚来的时候，这儿还没有高速路。
+@s: Tom: I rented a **tiny** room for eight hundred yuan a month. | 张涛：我租了个小单间，一个月八百块。
+@s: Lily: And now? | 林晓：那现在呢？
+@s: Tom: Prices have **gone up**. That room is two thousand now! | 张涛：物价涨了。那个房间现在要两千！
+@s: Lily: Has anything **gone down**? | 林晓：有没有降价的？
+@s: Tom: Only my free time! Has Shenzhen changed you? | 张涛：只有我的空闲时间！深圳有没有改变你？
+@s: Lily: Yes! I've put on three kilos since I moved here. | 林晓：有啊！我来深圳以后胖了三公斤。
+@s: Tom: Ha! Everyone **puts on weight** here. I **gained** five kilos! | 张涛：哈哈！谁来这儿都会胖，我长了五公斤！
+@s: Lily: It's the free **snacks** at work. I need to **lose** the weight before I go home. | 林晓：都怪公司的免费零食。回家之前我得把肉减下去。
+@br:
+@s: Tom: So, do you like it here? | 张涛：那你喜欢这儿吗？
+@s: Lily: I love it, but life is **completely** different. | 林晓：很喜欢，不过生活完全不一样。
+@s: Lily: **Compared with** my hometown, everything here is so fast. | 林晓：跟我老家比，这里什么都特别快。
+@s: Tom: That's "Shenzhen speed"! OK, here we are. | 张涛：这就叫「深圳速度」！好了，到了。
+
+@v: bridge | = | n. | brɪdʒ | 桥；大桥 | 说开车路线、城市地标 | cross a bridge；a long bridge；over the bridge | The Shenzhen Bay Bridge connects Shenzhen and Hong Kong. | 深圳湾大桥连接深圳和香港。 | 「过桥」说 cross the bridge / go over the bridge；dge 读 `/dʒ/`，结尾不要加一个「奇」的元音，✗ bridge-i。
+@v: buildings | building | n. | ˈbɪldɪŋz | 楼；建筑物 | 说城市里的高楼、公司在哪栋楼 | a tall building；an office building；in the building | Our office is in the building next to the subway station. | 我们公司在地铁站旁边那栋楼里。 | 「高楼」最自然的说法是 tall buildings（high 多用来说山、价格）；「在楼里」用 in the building；ui 读 `/ɪ/`，像 bil-ding，不读「比优」。
+@v: tower | = | n. | ˈtaʊər | 塔楼；（又高又细的）大厦 | 说城市地标、摩天大楼 | a glass tower；an office tower；a TV tower | From the top of the tower, you can see the whole city. | 从大楼顶上能看到整座城市。 | 中文「塔」让人只想到宝塔、电视塔，英文 tower 也常指高高的写字楼；读 `/ˈtaʊər/`，和 hour、our 押韵，不读「拖儿」。
+@v: huge | = | adj. | hjuːdʒ | 巨大的；特别大的 | 说楼、城市、变化、数量很大 | a huge building；a huge change；huge news | Moving to Shenzhen was a huge change for me. | 搬来深圳对我来说是个巨大的变化。 | huge 本身就是「非常大」，一般不加 very：✗ very huge → ✓ really huge / so huge；开头的 h 要发出来：`/hjuː/`，不读「优之」。
+@v: area | = | n. | ˈeriə | 一带；（城市里的）一片地区 | 说城市某一片、住在哪一带 | this area；a quiet area；the Nanshan area | Is there a good restaurant in this area? | 这一带有好吃的餐厅吗？ | 「这一带」说 in this area，不说 ✗ in this place around；美式是 3 个音节 `/ˈeriə/`，不读「阿瑞亚」。
+@v: fishing | = | n. | ˈfɪʃɪŋ | 捕鱼；钓鱼 | 说渔村、渔船，或周末去钓鱼 | a fishing village；a fishing boat；go fishing | My uncle goes fishing every weekend. | 我舅舅每个周末都去钓鱼。 | 「去钓鱼」说 go fishing，不说 ✗ go to fish；「渔村」是 a fishing village，不说 ✗ a fish village。
+@v: village | = | n. | ˈvɪlɪdʒ | 村子；村庄 | 说老家、农村，或城市过去的样子 | a small village；a fishing village；in the village | My grandma grew up in a small village. | 我奶奶是在一个小村子里长大的。 | 「在村里」用 in the village；深圳的「城中村」可以说 an urban village；lage 读 `/lɪdʒ/`，不读「累之」。
+@v: modern | = | adj. | ˈmɑːdərn | 现代化的；新式的 | 说城市、大楼、设计很新、很先进 | a modern city；modern buildings；look modern | Shenzhen is a very modern city. | 深圳是一座非常现代化的城市。 | 「现代化的城市」用形容词 modern，✗ a modernization city；重音在前 MOD·ern，第二个音节很轻。
+@v: countryside | = | n. | ˈkʌntrisaɪd | 乡下；农村（田野、山水的地方） | 说城市以前的样子、周末去郊外 | the countryside；in the countryside；beautiful countryside | We drove to the countryside last weekend. | 我们上周末开车去了乡下。 | 前面一般加 the：in the countryside；聊天时说「农村」，the countryside 比 rural area 更自然；coun 读 `/kʌn/`，和 country 一样。
+@v: farms | farm | n. | fɑːrmz | 农场；农田 | 说乡下、种地、城市过去的样子 | a farm；work on a farm；a family farm | My grandpa worked on a farm when he was young. | 我爷爷年轻时在农场干活。 | 「在农场」用 on：on a farm，不用 in；中国农村的「田」也可以说 fields：rice fields（稻田）。
+@v: factories | factory | n. | ˈfæktəriz | 工厂 | 说制造业、城市的变化、家人的工作 | a factory；work in a factory；a phone factory | Many factories moved out of the city. | 很多工厂搬出了市区。 | 复数 y 变 i 加 es：factories；「在工厂上班」用 in a factory；口语里的「厂子」就是 factory，plant 偏正式（a power plant 发电厂）。
+@v: population | = | n. | ˌpɑːpjəˈleɪʃn | 人口 | 说一个城市、国家有多少人 | the population of…；a large population；population growth | What's the population of Changsha? | 长沙有多少人口？ | 「人口多」说 a large population，不说 ✗ many population；问人口用 What's the population of…?，不用 How many…；population 后面的动词用单数：The population is…
+@v: increased | increase | v. | ɪnˈkriːst | 增加；增长 | 说人口、价格、数量变多（偏正式，新闻和报告里常见） | increase fast；increase by 10%；a huge increase（名词） | Our orders increased a lot last month. | 我们上个月的订单增长了很多。 | 动词重音在后 in·CREASE，名词重音在前 IN·crease；聊天时说「涨了」更常用 go up；-ed 读 `/t/`。
+@v: Over the years | over the years | phr. | ˌoʊvər ðə ˈjɪrz | 这些年来；多年以来 | 说一个长期、慢慢发生的变化 | over the years；change over the years；Over the years, I've… | Over the years, we've become good friends. | 这些年来，我们成了好朋友。 | 后面多用现在完成时（The city has changed over the years.）；不要说成 ✗ in these years；这里的 over 是「在这段时间里」，不是「结束」。
+@v: decreased | decrease | v. | dɪˈkriːst | 减少；下降 | 说数量、人数、价格变少（偏正式） | decrease slowly；decrease by…；the number of … has decreased | The number of customer complaints has decreased. | 客户投诉的数量减少了。 | 和 increase 一样偏正式，聊天时多说 go down；the number of + 复数名词，后面的动词跟着 number 用单数：The number of factories **has** decreased.
+@v: highway | = | n. | ˈhaɪweɪ | 公路干道；高速公路 | 说开车路线、城市交通 | on the highway；take the highway；a busy highway | There was a lot of traffic on the highway. | 高速上车特别多。 | 「在公路上」用 on：on the highway；美国人说 highway / freeway，英国人说 motorway；gh 不发音。
+@v: tiny | = | adj. | ˈtaɪni | 很小的；极小的 | 说房间、空间、数量特别小 | a tiny room；a tiny bit；tiny but cozy | My first apartment was tiny, but I loved it. | 我的第一套公寓特别小，不过我很喜欢。 | tiny 已经是「非常小」，不用再加 very；它和 huge 正好是一对；读 `/ˈtaɪni/`，不读「提尼」。
+@v: gone up | go up | phr. | ˌgɔːn ˈʌp | （价格、数量）上涨；增加 | 聊房租、物价、人数 | prices go up；go up by…；have gone up | The price of coffee has gone up again. | 咖啡又涨价了。 | 说「现在比以前贵」用 have gone up；说出过去的时间就用 went up last year；过去分词是 gone，不是 ✗ have went up；「涨价」也不说 ✗ The price raised.
+@v: gone down | go down | phr. | ˌgɔːn ˈdaʊn | （价格、数量）下降；减少 | 聊物价、人数、温度变低 | prices go down；go down a little；have gone down | Phone prices have gone down a lot. | 手机价格降了很多。 | 和 go up 是一对，比 decrease 口语得多；✗ The price has lowered down.；「降价了」也可以直接说 It's cheaper now.
+@v: puts on weight | put on weight | phr. | ˌpʊts ɑːn ˈweɪt | 长胖；体重增加 | 说自己的体重变化，熟人之间开玩笑 | put on weight；put on a few kilos；put on five pounds | I always put on weight during the Spring Festival. | 我每年春节都会胖。 | 「我胖了」说 I've put on weight.，不说 ✗ I became fat.（fat 很不客气）；put 的过去式、过去分词都是 put；主语是 everyone / she 时用 puts。
+@v: gained | gain | v. | geɪnd | （体重）增加；获得 | 说体重变化，也说得到经验、信心 | gain weight；gain five kilos；gain experience | I gained a lot of experience at my last job. | 我在上一份工作里积累了很多经验。 | gain 后面可以直接跟数量：I gained five kilos.；gain weight 和 put on weight 意思一样，gain 稍正式一点；反义词是 lose。
+@v: snacks | snack | n. | snæks | 零食；小吃 | 说办公室零食、两餐之间吃的东西 | free snacks；a healthy snack；have a snack | Do you want a snack? I have some cookies. | 你要来点零食吗？我这儿有饼干。 | snack 可数：a snack / some snacks；「吃零食」说 have a snack / eat snacks；夜市的「小吃」可以说 street food。
+@v: lose | = | v. | luːz | 减掉（体重）；失去；丢掉 | 说减肥，也说丢东西 | lose weight；lose three kilos；lose my keys | I want to lose five kilos this year. | 我今年想减掉五公斤。 | 「减肥」说 lose weight，不说 ✗ reduce my fat；lose 结尾是 `/z/`，loose `/luːs/` 是「松的」，别写混；过去式是 lost（D28 的「丢了」lost 就是它）。
+@v: completely | = | adv. | kəmˈpliːtli | 完全地；彻底地 | 说变化很大、完全不一样、完全忘了 | completely different；completely new；completely forget | I completely forgot about the meeting! | 我完全把那个会给忘了！ | completely different 比 very different 语气更强；位置：在形容词前（completely different）或动词前（I completely forgot）；形容词 complete 见 D22。
+@v: Compared with | compared with | phr. | kəmˈperd wɪð | 和……比起来 | 比较两个城市、两个时期、两样东西 | compared with…；compared with last year；compared with my hometown | Compared with last year, our team is much bigger. | 和去年比，我们团队大多了。 | 放在句首，后面加逗号再说主句；也可以说 compared to，意思差不多；别漏掉 -d：✗ Compare with my hometown, …
+
+@diff: 「深圳变化很大」——Shenzhen has changed a lot.
+@d_cn: 一个地方或一个人从过去到现在变了很多，现在看到的就是变化后的样子。
+@d_en: Shenzhen has changed a lot. / My hometown has changed completely. / You've changed!
+@d_why: 中文「变化很大」里，「变化」是名词，「很大」是形容词，直译出来 ✗ Shenzhen changes very big. / ✗ The change of Shenzhen is very big. 都不通。英文把「变化」当**动词** change 来用（D13 学的是「改时间、改地址」，这里是「自己变了」），「很大」换成副词 **a lot / completely / so much**。说的又是「从过去到现在、结果就在眼前」，所以用现在完成时 **has changed**——不用 changes（那是「经常在变」），也不用 changed（只讲过去，不管现在）。
+@d_when: 回老家、故地重游、聊城市或老朋友的变化；时间范围是「从以前一直到现在」。
+@d_vs: **Shenzhen has changed a lot.** 深圳变化很大。\n**You've changed!** 你变了！\n**The weather changes every day.** 天气每天都在变。（经常）\n✗ Shenzhen changes very big. ✗ The change of Shenzhen is very big.
+@d_task: 用英文说：① 我老家这些年变化很大。② 这家公司完全变了。 | ① My hometown has changed a lot over the years. ② This company has changed completely.
+@diff: 「房价涨了」——Prices have gone up. / went up last year
+@d_cn: 价格、数量比以前高了（或低了）。
+@d_en: Prices have gone up. / Rent went up last year. / Phone prices have gone down.
+@d_why: 中文一个「涨了」既能说「现在比以前贵」，也能说「去年涨过一次」，动词不变。英文要分开：说**现在的结果**（现在就是更贵）用 **have gone up**；句子里有过去的具体时间（last year / in March / ten years ago）就用过去时 **went up**。这正是最容易错的地方：✗ Prices have gone up last year.——有了 last year，就不能再用 have done。另外，聊天时 **go up / go down** 最自然；increase / decrease 偏正式，多见于新闻、报告。
+@d_when: 抱怨物价、聊房租、说数字的变化：现在的情况 → have gone up / down；过去某个时间 → went up / down。
+@d_vs: **Prices have gone up.** 物价涨了。（现在更贵）\n**Rent went up last year.** 房租去年涨了。（具体时间）\n**The population has increased.** 人口增加了。（正式）\n✗ Prices have gone up last year. ✗ The price is raise.
+@d_task: ① 告诉同事「咖啡又涨价了」。② 说「我的房租去年涨了两百块」。 | ① The price of coffee has gone up again. ② My rent went up by two hundred yuan last year.
+@diff: 「十年前」ten years ago vs「十年了」for ten years / since…
+@d_cn: 「十年前」是过去的一个时间点；「十年了」「从……起」是一直持续到现在的一段时间。
+@d_en: Ten years ago, this area was empty. / I've lived here for twelve years. / I've worked here since 2020.
+@d_why: 中文「十年前」和「十年了」只差一个字，英文却要换时态。**ago** 指向过去的一个点，配**过去时**：Forty years ago, this **was** a fishing village.；**for + 一段时间** 和 **since + 起点** 说的是「一直到现在」，配**现在完成时**：I**'ve lived** here for twelve years.。两个最常见的错：✗ I have come here twelve years ago.（ago 不能配 have done）；✗ I live here since 2020.（since 要配 have lived）。还有，回答 How long have you…? 时别漏掉 for：**For twelve years.**
+@d_when: 说某件事发生在多久以前 → ago + 过去时；说一件事一直持续到现在 → for / since + 现在完成时。
+@d_vs: **Forty years ago, this was a fishing village.** 四十年前，这里是个渔村。（过去的点）\n**I've lived here for twelve years.** 我在这儿住了十二年了。（一段时间）\n**I've worked here since 2020.** 我从 2020 年起就在这儿工作。（起点）\n✗ I have moved here twelve years ago. ✗ I live here since 2020.
+@d_task: 用英文说：① 我两年前搬来深圳。② 我在深圳住了两年了。 | ① I moved to Shenzhen two years ago. ② I've lived in Shenzhen for two years.
+@diff: 「我胖了」——I've put on weight.
+@d_cn: 体重比以前重了——这个「了」说的是状态变了。
+@d_en: I've put on three kilos. / I've gained some weight. / I've lost two kilos.
+@d_why: 中文「我胖了」是形容词「胖」+「了」；直译成 ✗ I became fat. / ✗ I'm fat now. 在英文里很刺耳——fat 是很不客气的词，用在别人身上更是大忌。英文把「胖了」看成一个变化的结果：**put on weight / gain weight**（长了体重），「瘦了」就是 **lose weight**；说「到现在为止的变化」用现在完成时 I've put on… / I've lost…，说具体时间就用过去时 I put on two kilos last month.。还有文化差异：中国长辈见面说「你胖了」是关心，美国人听了会很尴尬；评论别人的体重最好不说，拿自己开玩笑没问题。
+@d_when: 说自己的体重变化、和朋友开自己的玩笑。别人的身材变化一般不评论，最多说 You look great!
+@d_vs: **I've put on three kilos.** 我胖了三公斤。\n**I've lost some weight.** 我瘦了一点。\n**Everyone puts on weight here.** 在这儿谁都会长胖。（第三人称 puts）\n✗ I became fat. ✗ You are fatter now!（对别人说很失礼）
+@d_task: ① 用英文说「我春节期间胖了两公斤」。② 朋友说她最近瘦了五公斤，你想夸夸她。 | ① I put on two kilos during the Spring Festival. ② Five kilos? You look great!
+
+@core: 地方 / 人 + has changed a lot. | 说一个地方或一个人从过去到现在变了很多 | a lot / completely / so much | 正式：The city has changed significantly.｜随意：Wow, it's totally different now!
+@core: … years ago, this was… | 说一个地方过去的样子 | a fishing village / farmland / a small factory | 正式：Forty years ago, this area was a small fishing village.｜随意：Back then, it was just farms.
+@core: Prices have gone up / down. | 聊物价、房租、数量的变化 | prices / rent / the number of orders | 正式：Prices have increased considerably.｜随意：Everything's more expensive now!
+@core: How long have you lived here? — For… / Since… | 问和答「住了多久」 | for twelve years / since 2020 / since college | 正式：I have been living here since 2014.｜随意：Twelve years now.
+@core: I've put on / lost + 重量 + since… | 说自己的体重变化（只说自己） | three kilos / some weight / a little | 正式：I've gained a little weight.｜随意：I've put on a few kilos!
+@core: Compared with…, … | 比较两个地方、两个时期 | my hometown / last year / ten years ago | 正式：Compared with my hometown, life here moves much faster.｜随意：It's way faster than back home.
+@core: Over the years, … | 说一个慢慢发生的长期变化 | the city has grown / we've become friends / prices have gone up | 正式：Over the years, the area has developed quickly.｜随意：It's changed a lot over the years.
+
+@pw: population | ˌpɑːpjəˈleɪʃn | 4 个音节 pop·u·LA·tion | 主重音在 la；pu 弱读成 `/pjə/`；po 嘴巴张大发 `/ɑː/`
+@pw: increase | ɪnˈkriːs | 2 个音节 in·CREASE（动词） | 动词重音在后，名词 IN·crease 重音在前；increased 结尾读 `/st/`
+@pw: countryside | ˈkʌntrisaɪd | 3 个音节 COUN·try·side | 重音在第一个音节；coun 读 `/kʌn/`，不读「康」
+@pw: completely | kəmˈpliːtli | 3 个音节 com·PLETE·ly | 重音在 plete，长音 `/iː/`；t 碰到 l 只做口型
+@pw: village | ˈvɪlɪdʒ | 2 个音节 VIL·lage | v 上牙轻碰下唇，不读成 w；lage 读 `/lɪdʒ/`
+@pw: modern | ˈmɑːdərn | 2 个音节 MOD·ern | 重音在前；ern 很轻，舌头卷一下就带过
+@pw: tower | ˈtaʊər | 2 个音节 TOW·er（快说时像 1 个音节） | 和 hour `/ˈaʊər/` 押韵；不读「拖儿」
+@ps: **Shen**zhen has **changed**‿a **lot**. | has 弱读成 `/əz/`，几乎贴在 Shenzhen 后面；changed a 连读成 chang-da；lot 读重、拖长。
+@ps: **For**ty years‿a**go**, / this was‿a **fish**ing **vil**lage. | was 弱读成 `/wəz/`，和 a 连成 `/wəzə/`；years ago 连读成 year-za-go。
+@ps: **Pri**ces have gone **up**. | have 弱读成 `/əv/`，挂在 prices 后面；gone up 连成 go-nup，重音落在 up 上。
+@ps: I've put‿on **three ki**los / since I **moved** here. | I've 的 v 很轻；put on 的 t 夹在两个元音中间，弹成轻轻的 d：pu-don；since I 连成 sin-sai。
+@pnote: 书面 vs 口语：现在完成时里的 has / have 几乎都弱读：Shenzhen **has** changed → `/əz/`，Prices **have** gone up → `/əv/`，快说时 have 甚至只剩一个 `/v/`。听不清 has / have 没关系，抓住后面的 changed / gone / put 这些过去分词，就知道说的是「到现在的变化」。
+@pnote: was / were 在句子中间也弱读：this **was** a fishing village 里 was 读 `/wəz/`，不读 `/wɑːz/`；只有单独回答（Yes, it was.）或强调时才读重。听到 ago 先别急，后面的动词一定是过去时：was / came / rented。
+@lfocus: has / have 弱读成 /əz/ /əv/：Shenzhen has changed；Prices have gone up
+@lfocus: was 弱读成 /wəz/：this was a fishing village
+@lfocus: 听出数字和时间：ten years ago / forty years ago / for twelve years / three kilos / five kilos
+@dict: S4–S6
+@dict: S15–S16
+@res: 在 youglish.com 输入 "has changed a lot"，选 US，听 has 在真实语流里怎么弱读成 /əz/。
+
+@mimic: 跟读【C】S3–S24：先用正常语速逐句跟读，重点模仿 has / have / was 的弱读和 put on 的连读；再由你演林晓、手机朗读张涛的台词，完整对一遍并录音。
+@swap: Shenzhen has changed a lot. | 换地方和程度：my hometown / completely；our office / so much | My hometown has changed completely.
+@swap: Forty years ago, this was a fishing village. | 换时间和样子：twenty years ago / all farmland；ten years ago / a small factory | Twenty years ago, this was all farmland.
+@swap: Prices have gone up. | 换东西和方向：rent / gone up；phone prices / gone down | Phone prices have gone down.
+@swap: I've put on three kilos since I moved here. | 换变化和起点：lost two kilos / started running；put on a little weight / joined SwiftLink | I've lost two kilos since I started running.
+@free: Emma 问你老家这些年变化大不大（变化很大：高楼多了很多，还通了地铁）。 | Yes, it's changed a lot. There are a lot of tall buildings now, and we have a subway, too.
+@free: 实习生 Leo 问：How long have you lived in Shenzhen?（两年了，两年前从湖南搬来的） | For two years. I moved here from Hunan two years ago.
+@free: 同事抱怨午饭越来越贵，你同意，并说你常去的面馆去年涨了五块。 | I know. Prices have gone up. My favorite noodle place went up by five yuan last year.
+@free: 好朋友问你来深圳以后有什么变化（胖了两公斤，因为公司零食太多，你打算开始跑步）。 | I've put on two kilos since I moved here. There are too many snacks at work, so I'm going to start running.
+@output: 录 1.5 分钟「一座城市的变化」（或写 8–10 句）：选深圳或你的家乡：过去是什么样（… years ago, it was…）→ 这些年怎么变的（has changed / over the years）→ 什么涨了、什么降了（have gone up / down）→ 你在那里住了多久（for / since）→ 你自己有什么变化（I've put on / lost…）→ 用 Compared with… 做一个比较。
+@output_sample: I want to talk about my hometown. Twenty years ago, it was a quiet little city. There weren't many tall buildings, and there was no subway. Over the years, my hometown has changed a lot. Now there are modern towers everywhere, and the subway goes almost everywhere. Prices have gone up, too. My parents' apartment cost much less fifteen years ago. I moved to Shenzhen two years ago, and I've lived here for two years now. Since I moved here, I've put on three kilos, because the food is so good! Compared with my hometown, everything in Shenzhen is faster. But when I go home, I still feel completely relaxed.
+
+@check: 张涛说 Forty years ago, this was a fishing village.，为什么用 was，不用 has been？ | 有 forty years ago 这样的过去时间点，只能用过去时；ago 不和 have done 一起用。
+@check: 「房租涨了」什么时候说 Rent has gone up.，什么时候说 Rent went up.？ | 说现在的结果（现在就是更贵）用 has gone up；说出具体过去时间（last year / in March）用 went up。
+@check: 张涛说 For twelve years.，他在回答什么问题？用 since 怎么说同样的意思？ | How long have you lived here?；I've lived here since I was twenty-two.（或 since + 年份）
+@check: 你想说「我胖了两公斤」，说 I became fat. 可以吗？应该怎么说？ | 不好，fat 很不客气。说 I've put on two kilos. 或 I've gained two kilos.
+@check: 新闻里说 The population has increased.，和朋友聊天时更自然的说法是什么？ | The population has grown a lot. / There are so many more people now.（increase 偏正式，聊天多说 grow / go up）
+@next1: 不看书说出 S5、S6、S15、S18、S23（锚点句）
+@next1: 用 ago 和 for 各说一句你搬到现在这座城市的事
+@next1: 说出三样「涨了」和一样「降了」的东西（have gone up / have gone down）
+@next7: ago（过去时）和 for / since（现在完成时）的区别，各说两句
+@next7: 「胖了 / 瘦了」为什么不说 I became fat，而说 put on / gain / lose weight

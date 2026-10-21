@@ -1,0 +1,164 @@
+@day: 46
+@week: 3
+@title_cn: 搬家
+@title_en: Moving Day
+@topic: 搬家：约帮手、打包搬运、取钥匙、装网络
+@think_short: 「搬家」move（不说 move house）｜「帮我搬一下」Can you give me a hand?｜「装网」set up the Wi-Fi｜「去拿钥匙」pick up the keys
+
+@goal_scene: 约同事帮忙搬家：提前说好时间，搬的时候提醒别人小心、请人递东西，去房东那儿取钥匙，搬完说清楚谁帮你做了什么。
+@goal_expr: I'm moving out this Saturday. / Can you give me a hand? / Be careful, that box is fragile. / I'll pick up the keys from the landlord. / Kevin helped me set up the Wi-Fi. / I've moved in!
+@goal_vocab: 20 个重点词 + 5 个短语：家具家电、打包搬运、网络安装、搬家动作
+@done: 能用 move / move out / move in 说清楚自己什么时候搬、从哪儿搬到哪儿
+@done: 能用 Can you give me a hand? 请人帮忙，并用 Be careful, … is fragile. 提醒别人小心
+@done: 能用 pick up 和 set up 说出「去拿钥匙」「帮我弄好了 Wi-Fi」，并知道代词要放在中间（pick me up）
+
+@warmup: 我想在公司附近找一套一室一厅。 | I'm looking for a one-bedroom apartment near work. | D45
+@warmup: 包水电吗？ | Are utilities included? | D45
+@warmup: 房东要押一付三。 | The landlord wants one month's deposit and three months' rent. | D45
+@warmup: 这套我租了。 | I'll take it. | D45
+@warmup: 我把背包落在地铁上了。 | I left my backpack on the subway. | D39
+@warmup: 十分钟后，吴佳抱着一箱纸过来了。 | Ten minutes later, Grace comes over with a box of paper. | D15
+
+@scene: 上周六，林晓看中了公司附近那套一室一厅（Day 45），签了一年的租约。周三午饭时，她告诉 Kevin 和吴佳自己这周六就搬，请他们来帮忙。新房子带家具，她的东西不多，用不着请搬家公司，在 App 上叫一辆小货车就够了。周六一早，旧房间乱成一团：要打包、搬箱子，还要去房东那儿拿钥匙；新楼没有电梯，全靠人往上搬。下午宽带师傅上门开通了网络，Kevin 帮她把路由器和 Wi-Fi 弄好。晚上，她和湖南的妈妈视频报平安。
+@sp: 人物关系 | 林晓 ↔ Kevin、吴佳：同事兼朋友，可以开口请帮忙，事后请吃饭；林晓 ↔ 妈妈：家人，说话最随意，妈妈总是操心
+@sp: 沟通目的 | 提前约好帮手；搬家时提醒、安排、请人递东西；搬完向妈妈报平安
+@sp: 已知信息 | 同事只知道林晓在找房，不知道她这周六就搬；妈妈不知道新家的网络、家具怎么样
+@sp: 表达重点 | 我这周六搬走（I'm moving out…）→ 能帮把手吗（give me a hand）→ 小心，易碎（fragile）→ 我去拿钥匙（pick up）→ 我搬进来了，Kevin 帮我弄好了 Wi-Fi（moved in / set up）
+
+@story_title: Episode 46 · Can You Give Me a Hand?
+@story_type: 叙述 + 对话
+@s: At lunch on Wednesday, Lily has some news. | 周三午饭时，林晓宣布了一个消息。
+@s: Lily: I found a place near the office! I'm **moving out** this Saturday. | 林晓：我在公司附近找到房子了！这周六就搬走。
+@s: Lily: Can you **give me a hand**? Dinner's on me. | 林晓：你们能来帮把手吗？晚饭我请。
+@s: Kevin: Sure! Do you have a lot of **furniture**? | Kevin：没问题！你家具多吗？
+@s: Lily: No, the new place is furnished. Just boxes, a **lamp** and some **plants**. | 林晓：不多，新房子带家具。就几个箱子、一盏台灯和几盆绿植。
+@s: Grace: You don't need **movers**, then. Just book a small **truck** on an app. | 吴佳：那就不用请搬家工人了，在 App 上叫一辆小货车就行。
+@br:
+@s: On Saturday morning, Lily's room is a **mess**. | 周六早上，林晓的房间乱成一团。
+@s: Grace is very **neat**. She helps Lily **pack** and labels every box. | 吴佳特别爱整齐，她帮林晓打包，每个箱子都贴上了标签。
+@s: Kevin **carries** a heavy box to the door. | Kevin 抱起一个很沉的箱子往门口走。
+@s: Lily: Be careful, that box is **fragile**. My mom gave me those bowls. | 林晓：小心，那箱是易碎品！那些碗是我妈给我的。
+@s: Kevin: Don't worry. I've got it. | Kevin：放心，我抱稳了。
+@s: At ten, the truck arrives. | 十点，货车到了。
+@s: Lily: I'll **pick up** the keys from the landlord. See you there! | 林晓：我去房东那儿拿钥匙，新家见！
+@br:
+@s: There's no elevator, so the driver helps carry everything up. | 新楼没有电梯，司机帮着把东西全搬了上去。
+@s: Then they **unpack**. | 然后大家开始拆箱。
+@s: Lily: Can you pass me the **scissors**? | 林晓：能把剪刀递给我吗？
+@s: Grace hangs the **curtains**, and Lily puts her clothes in the **closet**. | 吴佳挂窗帘，林晓把衣服放进衣柜。
+@s: Grace: Look, the **washing machine** is on the balcony. Perfect! | 吴佳：你看，洗衣机就在阳台上，太方便了！
+@s: In the afternoon, Kevin connects the **cable** to the **router**. | 下午，Kevin 把网线接到路由器上。
+@s: The new **mattress** arrives at five, and Lily puts it on the **bed**. | 新床垫五点送到，林晓把它铺到床上。
+@s: Kevin falls onto the **sofa**. He's exhausted. | Kevin 一下子倒在沙发上，累坏了。
+@br:
+@s: That night, Lily video-calls Mom. | 当晚，林晓和妈妈视频。
+@s: Lily: Mom, I've **moved in**! Kevin helped me **set up** the Wi-Fi. | 林晓：妈，我搬进来了！Kevin 帮我把 Wi-Fi 弄好了。
+@s: Mom: Did you thank your friends? | 妈妈：谢谢人家了吗？
+@s: Lily: Of course. We had hot pot, and I paid. | 林晓：当然。我们去吃了火锅，我请的。
+@s: Mom: Good. Close the window. It's raining! | 妈妈：那就好。快把窗户关上，外面下雨了！
+
+@v: moving out | move out | phr. | ˌmuːvɪŋ ˈaʊt | 搬走；搬出（原来的住处） | 退租、离开旧房子 | move out of…；move out this weekend；move-out date | I'm moving out of my old place next month. | 我下个月从原来的房子搬走。 | move out 说「离开旧地方」，move in 说「住进新地方」；「搬出某地」要加 of：move out **of** the apartment。I'm moving out this Saturday 用进行时，表示已经定好的安排（Day 16）。
+@v: give me a hand | give sb a hand | phr. | ˌgɪv mi ə ˈhænd | 帮（我）一把；搭把手 | 请人帮忙搬东西、干点体力活 | give me a hand；give sb a hand with…；Need a hand? | Can you give me a hand with these boxes? | 你能帮我搬一下这些箱子吗？ | 不能说 ✗ give me your hand（那是「把你的手给我」）；hand 前面用 a。看到别人在搬东西，主动问一句 Need a hand? 很自然。
+@v: furniture | = | n. | ˈfɜːrnɪtʃər | 家具 | 搬家、租房、买家具 | a piece of furniture；new furniture；move furniture | We don't have much furniture yet. | 我们还没什么家具。 | furniture 不可数：✗ a furniture / furnitures → ✓ some furniture / a piece of furniture；问「家具多吗」说 Do you have a lot of furniture?，不说 ✗ many furnitures。
+@v: lamp | = | n. | læmp | 灯（台灯、落地灯） | 布置房间、看书学习 | a desk lamp；a floor lamp；turn on the lamp | I need a desk lamp for reading. | 我需要一盏看书用的台灯。 | lamp 是能拿起来、插电的灯；天花板上的灯叫 light：Turn off the light.；「台灯」= desk lamp，「落地灯」= floor lamp。
+@v: plants | plant | n. | plænt | 植物；（家里的）绿植 | 布置家里、送礼 | water the plants；house plants；a small plant | Can you water my plants this weekend? | 这个周末你能帮我浇一下花吗？ | 中文说「浇花」，可家里的盆栽大多不开花，英文叫 plants：water the plants。美国人去朋友新家参加 housewarming（乔迁聚会），常送一盆绿植或一瓶酒。
+@v: movers | mover | n. | ˈmuːvər | 搬家工人 | 请人搬家、谈搬家费用 | hire movers；professional movers；a moving company | We hired movers for the big furniture. | 大件家具我们请了搬家工人。 | 美国人搬家要么请 movers，要么自己租一辆搬家货车、叫朋友来帮忙；在深圳更常见的是在 App 上叫一辆小货车，司机帮忙搬要另加钱，没电梯还要加「爬楼费」。
+@v: truck | = | n. | trʌk | 货车；卡车 | 搬家、送货 | a small truck；a moving truck；rent a truck | We rented a truck and moved everything in one day. | 我们租了一辆货车，一天就搬完了。 | 美国把「小货车」也叫 truck（英国说 van / lorry）；car 只指小汽车。u 读 `/ʌ/`，和 luck 同韵，不读 `/uː/`。
+@v: mess | = | n. | mes | 乱七八糟；一团糟 | 说房间、桌子、事情很乱 | a mess；make a mess；What a mess! | Sorry, my desk is a mess. | 不好意思，我桌上太乱了。 | 「很乱」说 It's a mess.（名词，前面有 a），不说 ✗ It's very mess.；形容词是 messy：My room is messy.
+@v: neat | = | adj. | niːt | 整齐的；爱整洁的 | 说人爱整齐、东西摆得整齐 | neat and tidy；a neat desk；keep things neat | Her desk is always neat. | 她的桌子总是整整齐齐的。 | 「干净」是 clean，「整齐」是 neat——房间可以很干净却不整齐。美国口语里 neat 还常表示「挺棒的、挺酷的」：That's a neat idea!
+@v: pack | = | v. | pæk | 打包；收拾（行李） | 搬家、出差前收拾东西 | pack boxes；pack your bags；pack up | I need to pack for my business trip. | 我得收拾出差的行李了。 | 餐馆里「打包剩菜」不用 pack，说 Can I get a box? 或 to go（Day 5）。pack 后面可以直接跟东西：pack my clothes。
+@v: carries | carry | v. | ˈkæri | 抱着／扛着／提着（东西）走 | 搬东西、提行李 | carry a box；carry … upstairs；carry … to the car | Can you carry this bag for me? | 你能帮我拿一下这个包吗？ | 中文一个「搬」字，英文分好几种：搬家是 move，抱着、扛着走是 carry，把东西挪个位置是 move this box。主语是 he / she 时，y 变 i 加 es：Kevin **carries**。
+@v: fragile | = | adj. | ˈfrædʒl | 易碎的 | 打包、寄快递时提醒别人小心 | fragile items；This box is fragile.；Fragile, handle with care. | Please write "fragile" on the box. | 请在箱子上写「易碎」。 | 美式读 `/ˈfrædʒl/`，英式读 `/ˈfrædʒaɪl/`，两种都会听到。快递箱上的「易碎品」英文就是 FRAGILE；也能形容人「脆弱」：She's feeling a little fragile today.
+@v: pick up | = | phr. | ˌpɪk ˈʌp | （去某处）拿；取；接（人） | 去房东那儿拿钥匙、取快递、接人 | pick up the keys；pick up a package；pick sb up at the airport | I'll pick you up at the station at six. | 我六点去车站接你。 | pick up 是「专门去一个地方，把东西或人带回来」；代词要放中间：pick **you** up，不说 ✗ pick up you。注意它在别的场合还有「捡起来」「接电话」的意思。
+@v: unpack | = | v. | ʌnˈpæk | 拆箱；把行李拿出来 | 搬进新家、出差回来 | unpack the boxes；unpack my suitcase；finish unpacking | I still haven't unpacked my suitcase. | 我的行李箱到现在还没收拾。 | un- 表示「反过来」：pack（装进去）→ unpack（拿出来）；搬家后「还没收拾完」说 I'm still unpacking.
+@v: scissors | = | n. | ˈsɪzərz | 剪刀 | 拆箱、剪东西 | a pair of scissors；pass me the scissors；cut it with scissors | Do you have a pair of scissors? | 你有剪刀吗？ | scissors 永远是复数（两片刀刃），动词也用复数：The scissors are on the desk.；「一把剪刀」说 a pair of scissors，不说 ✗ a scissor。c 不发音。
+@v: curtains | curtain | n. | ˈkɜːrtn | 窗帘 | 布置新家、挡光 | hang the curtains；open / close the curtains；blackout curtains | Can you close the curtains? The sun is too bright. | 你能把窗帘拉上吗？太阳太晒了。 | 一扇窗一般挂两片，所以常说 curtains；「拉上 / 拉开窗帘」最常说 close / open the curtains。深圳夏天早上五点多天就亮，很多人装遮光窗帘：blackout curtains。
+@v: closet | = | n. | ˈklɑːzɪt | 衣柜；壁橱 | 收拾衣服、介绍房间 | in the closet；a walk-in closet；hang clothes in the closet | My winter clothes are in the closet. | 我的冬衣在衣柜里。 | 美国说 closet（多是嵌在墙里的壁橱），英国说 wardrobe；中国常见的独立大衣柜，美国人叫 closet 或 wardrobe 都行。「放进衣柜」用 in。
+@v: washing machine | = | n. | ˈwɑːʃɪŋ məˌʃiːn | 洗衣机 | 看房、搬家、洗衣服 | use the washing machine；a shared washing machine；turn on the washing machine | Is there a washing machine in the apartment? | 房子里有洗衣机吗？ | 中国的洗衣机常放在阳台或卫生间，衣服洗完晾在阳台上；美国公寓的洗衣机多在洗衣房（laundry room）或地下室，很多是投币的，洗完放进烘干机（dryer）。口语里也常说 the washer。
+@v: cable | = | n. | ˈkeɪbl | 网线；电线；数据线 | 装网络、连电脑和电视 | a network cable；a charging cable；The cable is too short. | My phone cable is broken. | 我的手机数据线坏了。 | 中文的各种「线」英文多叫 cable：网线 network cable，数据线 charging cable；a 读 `/eɪ/`，CAY-bl，不读「卡宝」。
+@v: router | = | n. | ˈraʊtər | 路由器 | 装网络、修网络 | set up the router；restart the router；a Wi-Fi router | Try restarting the router. | 试试把路由器重启一下。 | 美式读 `/ˈraʊtər/`（和 out 同韵），英式读 `/ˈruːtə/`；两种都可能听到。网不好时，美国人最常问的一句就是 Did you restart the router?
+@v: mattress | = | n. | ˈmætrəs | 床垫 | 买床垫、搬家 | a new mattress；a soft / firm mattress；order a mattress online | This mattress is too soft for me. | 这个床垫对我来说太软了。 | 在中国租房，很多人用房东的床架、自己买一张新床垫；「床」是 bed，「床垫」是 mattress，「床单」是 sheet。重音在前：MAT-tress。
+@v: bed | = | n. | bed | 床 | 布置房间、说睡觉 | go to bed；make the bed；on the bed | I usually go to bed at eleven. | 我一般十一点睡觉。 | 「去睡觉」说 go to bed，bed 前面不加 the；「铺床、叠被子」说 make the bed。bed `/e/` 嘴张得小，bad `/æ/` 嘴张得大，别读混。
+@v: sofa | = | n. | ˈsoʊfə | 沙发 | 布置客厅、休息 | on the sofa；a new sofa；sit on the sofa | He fell asleep on the sofa. | 他在沙发上睡着了。 | 美国人也常说 couch；「在沙发上」用 on。so 读 `/soʊ/`，不读「沙」。
+@v: moved in | move in | phr. | ˌmuːvd ˈɪn | 搬进来；入住 | 搬进新家、问什么时候能入住 | move in；move into a new apartment；move-in day | When can I move in? | 我什么时候可以入住？ | 不说地点时用 move in；要说搬进哪里，用 move into：move **into** a new apartment。「我搬进来了」说 I've moved in!，强调「刚搬完，现在已经住进来」。
+@v: set up | = | phr. | ˌset ˈʌp | 安装好；设置好（设备、网络、账号） | 弄 Wi-Fi、设置路由器、新手机新电脑 | set up the Wi-Fi；set up a new phone；set up an account | Can you help me set up my new laptop? | 你能帮我把新笔记本电脑设置一下吗？ | 「装网」一般不说 install the net；自己动手弄好路由器说 set up the Wi-Fi，请宽带公司上门开通说 get the internet installed。set up 的过去式还是 set up。
+
+@diff: 「搬家」——move（不说 move house）
+@d_cn: 从一个住处搬到另一个住处。
+@d_en: I'm moving this Saturday. / I'm moving out of my old place. / I've moved in!
+@d_why: 中文「搬家」里有个「家」，很多人就说 ✗ I'm moving my home.。美式英语只用一个 **move**：I'm moving next week.（英式会说 move house，美国人听得懂，但自己不这么说）。要强调方向时加小词：**move out**（搬出旧地方）、**move in**（住进新地方）、**move to** + 城市（Day 31：I moved to Shenzhen two years ago）。搬家日期已经定好，用进行时：I'm moving out this Saturday.
+@d_when: 跟同事说搬家计划、问房东什么时候能入住、搬完报平安。
+@d_vs: **I'm moving this Saturday.** 我这周六搬家。\n**I'm moving out of my shared apartment.** 我要从合租房搬出去。\n**When can I move in?** 我什么时候能入住？\n**I've moved in!** 我搬进来了！\n✗ I'm moving my home.
+@d_task: 用英文说：① 我下个月搬家。② 我昨天搬进了新家。 | ① I'm moving next month. ② I moved into my new apartment yesterday.
+@diff: 「帮我搬一下」——Can you give me a hand?
+@d_cn: 请别人帮一点体力上的忙：搬箱子、抬东西、搭把手。
+@d_en: Can you give me a hand? / Can you help me carry this box? / Need a hand?
+@d_why: 中文「帮我搬一下」很自然，直译成 ✗ Help me carry! 听起来像在下命令，单独一个 **Help!** 更是「救命！」。英文请人帮忙要用问句：**Can you give me a hand?** 最常用、最轻松；想说清楚帮什么，就说 Can you help me carry this box?——carry 后面要有东西，不能只说 help me carry。「帮我搬家」则是 **help me move**：Can you help me move on Saturday? 美国人请朋友帮忙搬家，通常的「回报」是请吃披萨、喝啤酒；中国人一般请吃顿饭——道理一样：别让人白帮忙。
+@d_when: 搬东西、抬家具、提重物；看到别人手里东西多，主动问 Need a hand?
+@d_vs: **Can you give me a hand?** 能帮我搭把手吗？\n**Can you help me carry this box?** 能帮我搬一下这个箱子吗？\n**Can you help me move on Saturday?** 周六能帮我搬家吗？\n**Need a hand?** 要帮忙吗？\n✗ Help me carry!
+@d_task: 你抱着三个箱子走到电梯口，看到 Kevin。请他帮把手，替你拿一个箱子。 | Kevin, can you give me a hand? Could you take this box for me?
+@diff: 「装网」——set up the Wi-Fi / get the internet installed
+@d_cn: 新家开通宽带、装好路由器、能连上 Wi-Fi。
+@d_en: Kevin helped me set up the Wi-Fi. / I need to get the internet installed. / The internet company is coming at three.
+@d_why: 中文一个「装」字什么都能装：装网、装软件、装空调。英文要分清**谁动手**：自己或朋友把路由器弄好、设好密码，说 **set up the Wi-Fi / the router**；请宽带公司派人上门开通，说 **get the internet installed**（get + 东西 + 过去分词 ＝ 请别人做）。中文的「网」可以指宽带，也可以指 Wi-Fi；英文说宽带用 **internet**，不说 net：✗ My net is slow. → ✓ My internet is slow.（Day 29 还学过 My connection is bad.）
+@d_when: 搬家后安排开通宽带、请同事帮忙设置网络、问房东包不包网（Day 45）。
+@d_vs: **Kevin helped me set up the Wi-Fi.** Kevin 帮我把 Wi-Fi 弄好了。（自己 / 朋友动手）\n**I need to get the internet installed.** 我得找人来装宽带。（请别人做）\n**Is internet included?** 包网费吗？\n✗ Kevin helped me install the net.
+@d_task: 用英文跟同事说：「我得先找人来装宽带，然后 Kevin 会帮我设置路由器。」 | I need to get the internet installed first. Then Kevin will help me set up the router.
+@diff: 「去拿钥匙」——pick up the keys
+@d_cn: 专门去一个地方把东西取回来（钥匙、快递），或去接一个人。
+@d_en: I'll pick up the keys from the landlord. / I need to pick up a package. / Can you pick me up at the station?
+@d_why: 中文的「拿」用得很宽：拿钥匙、拿快递、去车站接人都能说「去拿」「去接」。英文的 **take** 是「拿走」（从这里带到别处），I'll take the keys 听起来像「钥匙我拿走了」；**get** 可以用，但很笼统。**pick up** 专指「去某个地方把东西或人取回来」，取钥匙、取快递、接人都用它。代词要放中间：pick **me** up、pick **it** up；名词放哪儿都行：pick up the keys / pick the keys up。
+@d_when: 去房东、物业、快递柜取东西；去机场、车站接人。
+@d_vs: **I'll pick up the keys from the landlord.** 我去房东那儿拿钥匙。\n**I'll pick you up at six.** 我六点去接你。\n**Can you take this box to the car?** 能把这个箱子拿到车上吗？（拿过去）\n✗ I'll pick up you at six.
+@d_task: 用英文说：① 我下班后要去快递柜取个包裹。② 你明天早上八点能来接我吗？ | ① I need to pick up a package from the parcel locker after work. ② Can you pick me up at eight tomorrow morning?
+
+@core: I'm moving out this Saturday. | 说已经定好的搬家安排 | this Saturday / next week / at the end of the month | 正式：I'll be moving out on Saturday.｜随意：I'm moving this weekend!
+@core: Can you give me a hand? | 请人帮忙搬东西、搭把手 | give me a hand / help me carry this box / help me move | 正式：Would you mind helping me with these boxes?｜随意：Can you help me out?
+@core: Be careful, that box is fragile. | 提醒别人小心 | fragile / heavy / full of books | 正式：Please be careful with that box. It's fragile.｜随意：Careful! That one's fragile.
+@core: I'll pick up + 东西 + from + 人 / 地方. | 说去哪儿取东西 | the keys / a package / my mattress；the landlord / the front desk | 正式：I'll collect the keys from the landlord.｜随意：I'll go grab the keys.
+@core: … helped me set up the Wi-Fi. | 说别人帮你弄好了设备 | the Wi-Fi / the router / my new phone | 正式：Kevin helped me set up the internet connection.｜随意：Kevin got my Wi-Fi working.
+@core: It's a mess. | 说房间、东西很乱 | My room / The kitchen / My desk | 正式：Sorry, it's a little messy.｜随意：What a mess!
+@core: Can you pass me the scissors? | 请身边的人递东西 | the scissors / the tape / that box | 正式：Could you pass me the scissors, please?｜随意：Scissors?
+@core: I've moved in! | 搬完家报平安 | I've moved in! / I'm all moved in. | 正式：I've moved into my new apartment.｜随意：All moved in!
+
+@pw: furniture | ˈfɜːrnɪtʃər | 3 个音节 FUR·ni·ture | 重音在第一个音节，fur 要卷舌；ture 读 `/tʃər/`，很轻
+@pw: fragile | ˈfrædʒl | 2 个音节 FRAG·ile | 美式第二个音节几乎没有元音，像 FRA-jl；读成 fra-jail 是英式
+@pw: scissors | ˈsɪzərz | 2 个音节 SCIS·sors | c 不发音；两个 s 都读 `/z/`：SI-zerz
+@pw: closet | ˈklɑːzɪt | 2 个音节 CLOS·et | s 读 `/z/`；clo 读 `/klɑː/`，不读 close 的 `/kloʊ/`
+@pw: router | ˈraʊtər | 2 个音节 ROU·ter | 美式和 out 同韵；t 闪音，像轻轻的 d：ROW-der
+@pw: mattress | ˈmætrəs | 2 个音节 MAT·tress | 重音在前，`/æ/` 嘴张大；tr 连在一起读
+@pw: unpack | ʌnˈpæk | 2 个音节 un·PACK | 重音在后；un 短而轻
+@ps: I'm **mov**ing‿**out** / this **Sat**urday. | moving out 连读，-ing 的 g 几乎不出声：movin‿out；out 和 Saturday 都读重。
+@ps: Can you **give** me‿a **hand**? ↗ | Can you 弱读成 `/kənjə/`；me a 连成 `/miə/`；hand 最重，句尾上扬。
+@ps: Be **care**ful, / that **box** is **frag**ile. | careful 后面稍停；提醒别人时，box 和 fragile 读重。
+@ps: **Kev**in **helped** me / set‿**up** the **Wi**-Fi. | helped 的 -ed 读 `/t/`：helpt；set up 连读，t 闪音，像 se-dup。
+@pnote: 本课的缩读和弱读：**I've moved in** 的 I've 只剩 `/aɪv/`，和 moved 连在一起，听起来像 I-moovd-in；**I've got it** 说快了像 `/aɪv ˈgɑːdɪt/`；**He's exhausted** 的 He's ＝ He is；to 在句中弱读成 `/tə/`：to the door 像 tə-thə door。
+@pnote: 书面和口语的差别：朋友之间说搬家的事，美国人常说 **gotta** ＝ have got to：I gotta pack tonight.（我今晚得打包。）**wanna** ＝ want to：Wanna grab dinner after?（完事一起吃饭？）听懂就行；写消息、邮件时写 have to / want to。
+@lfocus: I've moved in / I've got it 里的 I've
+@lfocus: moving out / set up / pick up 的连读
+@lfocus: helped 的 -ed 读 /t/
+@dict: S9–S11
+@dict: S23–S25
+@res: 在 youglish.com 输入 "give me a hand"，选 US
+
+@mimic: 跟读【C】S2–S26：先正常语速逐句跟读，重点模仿 Can you give me a hand? 的上扬语调和 moving out、set up 的连读；再由你演林晓，手机朗读 Kevin、吴佳和妈妈的台词，完整对一遍并录音。
+@swap: I'm moving out this Saturday. | 换时间：next week / at the end of the month；或换成 move to + 城市 | I'm moving out at the end of the month.
+@swap: Can you give me a hand? | 说清楚帮什么：with these boxes / with my suitcase；或换成 help me + 动作 | Can you give me a hand with these boxes?
+@swap: I'll pick up the keys from the landlord. | 换东西和地方：a package / the parcel locker；my mattress / the front desk | I'll pick up a package from the parcel locker.
+@swap: Kevin helped me set up the Wi-Fi. | 换人和设备：Grace / my new phone；my roommate / the TV | Grace helped me set up my new phone.
+@free: 周三午饭时，你想告诉同事这周六搬家，请他们来帮忙（你请吃晚饭） | I'm moving out this Saturday. Can you give me a hand? Dinner's on me!
+@free: Kevin 正要搬一箱碗盘，你提醒他小心，箱子是易碎的 | Be careful, that box is fragile. There are bowls and plates in it.
+@free: 同事问 Is your Wi-Fi working yet?（宽带公司周二才来装，现在还没网） | Not yet. The internet company is coming on Tuesday. Until then, I'm using my phone.
+@free: 搬完家，妈妈问你搬得怎么样（人已经住进来了，可到处很乱，箱子还没拆完） | I've moved in, but the apartment is still a mess. I haven't unpacked all the boxes yet.
+@output: 录 1.5 分钟「我的搬家日」，或写 8–10 句：什么时候搬、从哪儿搬到哪儿（move out / move in）→ 谁来帮忙（give me a hand）→ 打包、搬运时发生了什么（pack / carry / fragile）→ 新家怎么布置、网络怎么装（set up）→ 搬完的感受。没搬过家，就讲帮朋友搬家的经历，或想象一次搬家。
+@output_sample: Last Saturday, I moved out of my shared apartment. My new place is near the office, so my commute is only ten minutes now. Two coworkers, Kevin and Grace, gave me a hand. Grace is very neat, so she helped me pack. Kevin carried the heavy boxes. One box was fragile, so I told him to be careful. I booked a small truck on an app, and I picked up the keys from the landlord. The new building has no elevator, so carrying everything up six floors was hard work. In the afternoon, Kevin helped me set up the Wi-Fi. After that, we had hot pot, and I paid. The apartment is still a bit of a mess, but I love it!
+
+@check: 「我下周搬家」美国人怎么说？move house 对不对？ | I'm moving next week.（也可以说 I'm moving out next week.）move house 是英式说法，美国人一般只说 move。
+@check: move out 和 move in 有什么区别？「我昨天搬进了新家」怎么说？ | move out 是从旧地方搬走，move in 是住进新地方；I moved into my new apartment yesterday.（不说地点时：I moved in yesterday.）
+@check: 你想请同事帮你抬一下箱子，说 Help me carry! 合适吗？应该怎么说？ | 不合适，像在下命令。说 Can you give me a hand? 或 Can you help me carry this box?
+@check: 「我六点去车站接你」怎么说？为什么不说 pick up you？ | I'll pick you up at the station at six. 代词（you / me / it）要放在 pick 和 up 中间。
+@check: 「Kevin 帮我弄好了 Wi-Fi」和「我得请人来装宽带」分别怎么说？ | Kevin helped me set up the Wi-Fi. / I need to get the internet installed.
+@next1: 不看书说出 5 个锚点句：S2、S3、S10、S13、S23
+@next1: 用 pick up 说两件这周你要去取的东西，或要去接的人
+@next7: move / move out / move in / move to 各说一句关于你自己的话
+@next7: furniture、scissors 为什么不能说 a furniture / a scissor？正确说法是什么？

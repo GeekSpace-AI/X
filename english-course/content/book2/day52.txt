@@ -1,0 +1,164 @@
+@day: 52
+@week: 4
+@title_cn: 我以前……
+@title_en: I Used to…
+@topic: 聊小时候和以前的工作：以前的样子、以前的习惯、现在的变化
+@think_short: 「以前（现在不了）」used to + 原形｜「以前不……」didn't use to｜「以前」used to / before / in the past｜「小时候」when I was a kid
+
+@goal_scene: 周末和同事散步聊天：讲你小时候是什么样、以前做过什么工作、以前没有而现在有的习惯，把「以前」和「现在」的对比说清楚。
+@goal_expr: When I was a kid, I was really shy. / I used to work at a courier station. / I didn't use to drink coffee. / These days, I drink two cups a day. / Did you use to wear a uniform? — Yes, I did.
+@goal_vocab: 20 个重点词 + 5 个短语：性格与外貌、童年与学校、习惯与变化
+@done: 能用 used to + 动词原形 说出 3 件「以前是这样、现在不了」的事，并说出它和一般过去时的区别
+@done: 能写对、说对 I didn't use to… 和 Did you use to…?，被问到时用 Yes, I did. / No, I didn't. 回答
+@done: 能用 When I was a kid… / These days… 讲 4–5 句「以前的我和现在的我」
+
+@warmup: 我发烧了，嗓子也疼。 | I have a fever and a sore throat. | D47
+@warmup: 今天的汇率是多少？ | What's today's exchange rate? | D48
+@warmup: 我改主意了，我想退货。 | I changed my mind. I'd like to return it. | D49
+@warmup: 我今天早上坐错公交了。 | I took the wrong bus this morning. | D50
+@warmup: 直走，到红绿灯左转。 | Go straight and turn left at the traffic light. | D50
+@warmup: 她昨晚熬夜到很晚，所以 7 点 40 才起床。 | She stayed up late last night, so she got up at 7:40. | D2
+
+@scene: 周六傍晚，林晓和 Emma 在林晓新家附近散步。路边小卖部门口，几个小孩在买糖和小玩具，Emma 随口问起林晓小时候是什么样子。林晓说自己小时候特别害羞，是第一份工作——在快递站天天跟顾客打交道——把她「逼」成了现在这么外向；Emma 却是个顶着一头红卷发的淘气包。两人从校服聊到严格的老师，后来在一家咖啡馆歇脚，林晓又点了一杯咖啡——可她以前是从来不喝咖啡的。
+@sp: 人物关系 | 林晓 ↔ Emma：关系很好的同事，也是朋友；周末一起散步，聊天很放松
+@sp: 沟通目的 | 互相讲小时候和以前的事：以前是什么样，现在变成了什么样，为什么会变
+@sp: 已知信息 | Emma 只认识现在外向、爱喝咖啡的林晓，不知道她小时候很害羞，也不知道她在快递站干过；林晓也不了解 Emma 的童年
+@sp: 表达重点 | 小时候（When I was a kid）→ 以前的样子和工作（used to）→ 上学的经历（Did you use to…?）→ 以前不……（didn't use to）→ 现在（these days / nowadays）
+
+@story_title: Episode 52 · When I Was a Kid
+@story_type: 叙述 + 对话
+@s: On Saturday evening, Lily and Emma went for a walk near Lily's new apartment. | 周六傍晚，林晓和 Emma 在林晓新家附近散步。
+@s: Outside a little shop, some **kids** were buying **candy** and **toys**. | 一家小卖部门口，几个小孩正在买糖和玩具。
+@s: Emma: Aw, so cute! Tell me about your **childhood**, Lily. | Emma：哎呀，好可爱！林晓，讲讲你的童年吧。
+@s: Lily: **When I was a kid**, I was really **shy**. | 林晓：我小时候特别害羞。
+@s: Lily: I was **skinny**, with short **hair** and big **glasses**. | 林晓：那时候我很瘦，留着短头发，戴一副大眼镜。
+@s: Lily: I **hated** talking to strangers. | 林晓：我最怕跟不认识的人说话。
+@s: Lily: After school, I just stayed home and watched **cartoons**. | 林晓：放了学我就待在家里看动画片。
+@s: Emma: Really? But you're so **outgoing** now! | Emma：真的吗？可你现在这么外向！
+@s: Lily: That's because of my first job. I **used to** work at a courier station. | 林晓：那是因为我的第一份工作。我以前在快递站上班。
+@s: Lily: I talked to a hundred customers a day. I had no choice! | 林晓：一天要跟上百个顾客打交道，不开口不行啊！
+@s: Lily: Even my old **classmates** were surprised. | 林晓：连我的老同学都吓了一跳。
+@s: Emma: Wow. So that job really changed you. | Emma：哇，那份工作真的改变了你。
+@br:
+@s: Emma: I was the opposite. I was a **naughty** kid with **curly** red hair. | Emma：我正好相反，是个顶着一头红色卷发的淘气包。
+@s: Emma: My **teachers** called my mom every month! | Emma：我的老师每个月都要给我妈打电话！
+@s: Emma: Did you use to wear a **uniform**? | Emma：你以前穿校服吗？
+@s: Lily: Yes, every day! In **middle school**, it was a big blue tracksuit. | 林晓：穿啊，天天穿！初中的校服就是一套肥肥大大的蓝色运动服。
+@s: Lily: And our teachers were really **strict**. | 林晓：而且我们的老师特别严。
+@s: Lily: I was a quiet **student**. I never broke the rules. | 林晓：我是个安静的学生，从来不违反纪律。
+@s: Emma: Never? Not even once? | Emma：从来没有？一次都没有？
+@s: Lily: Well, once. I read comics in math class! | 林晓：嗯……有过一次，我在数学课上看漫画！
+@br:
+@s: Later, they stopped at a café, and Lily ordered a large latte. | 后来她们在一家咖啡馆歇脚，林晓点了一杯大杯拿铁。
+@s: Emma: Another coffee? I thought you were a tea person! | Emma：又喝咖啡？我还以为你是爱喝茶的人呢！
+@s: Lily: I **didn't use to** drink coffee. | 林晓：我以前是不喝咖啡的。
+@s: Lily: **These days**, I drink two cups a day. | 林晓：现在我一天要喝两杯。
+@s: Lily: It's a bad **habit** from the free coffee at work! | 林晓：都是公司的免费咖啡惯出来的坏习惯！
+@s: Emma: Well, **nowadays**, everyone at SwiftLink runs on coffee. | Emma：嗯，如今 SwiftLink 的人哪个不是靠咖啡续命的。
+@s: Lily: True. Even Tom has three cups before lunch! | 林晓：没错，连张涛午饭前都要喝三杯！
+
+@v: kids | kid | n. | kɪdz | 小孩；孩子 | 口语里说小孩、自己的孩子 | a kid；kids；have kids | Do you have kids? | 你有孩子吗？ | 口语里 kid 比 child 常用得多，Do you have kids? 是很普通的寒暄；kid 作动词是「开玩笑」：Are you kidding?（Day 41）。
+@v: candy | = | n. | ˈkændi | 糖果 | 小孩买糖、过节、零食 | some candy；a piece of candy；a candy bar | Too much candy is bad for your teeth. | 糖吃多了对牙不好。 | 美式说 candy，英式说 sweets；candy 多当不可数名词：some candy / a piece of candy；巧克力棒也算 candy（a candy bar）。
+@v: toys | toy | n. | tɔɪz | 玩具 | 说小孩玩的东西、买礼物 | play with toys；a toy store；a toy car | My nephew loves toy cars. | 我侄子特别喜欢玩具车。 | 「玩玩具」说 play with toys，要加 with；toy 放在名词前面当形容词：a toy car（玩具车）。
+@v: childhood | = | n. | ˈtʃaɪldhʊd | 童年；小时候 | 聊成长经历、回忆过去 | a happy childhood；in my childhood；a childhood friend | She's my childhood friend. | 她是我的发小。 | 口语聊天说「我小时候」多用 when I was a kid；childhood 常用在 a happy childhood、a childhood friend（发小）这类搭配里；hood 读 `/hʊd/`，不读 `/huːd/`。
+@v: When I was a kid | when I was a kid | phr. | wen aɪ wəz ə ˈkɪd | 我小时候 | 聊童年、讲以前的事 | When I was a kid, …；when I was little；as a kid | When I was a kid, I lived with my grandparents. | 我小时候跟爷爷奶奶住。 | 不说 ✗ when I was small（small 偏说个子、体积）；后面的句子用过去式或 used to：When I was a kid, I was shy.，✗ When I was a kid, I am shy.
+@v: shy | = | adj. | ʃaɪ | 害羞的；腼腆的 | 说性格、说自己不敢开口 | really shy；a little shy；too shy to… | Don't be shy. Ask me anything. | 别不好意思，有问题尽管问。 | 中文「不好意思开口」常常就是 shy：I was too shy to ask.；shy 是形容词，前面要有 be：✗ I shy. → ✓ I'm shy.
+@v: skinny | = | adj. | ˈskɪni | 很瘦的；瘦巴巴的 | 说身材（口语） | really skinny；a skinny kid；skinny jeans | I was really skinny in college. | 我上大学的时候特别瘦。 | skinny 比 thin 口语，常带「太瘦了」的意思；当面夸人身材好用 slim 更礼貌；「我瘦了」说 I've lost weight.
+@v: hair | = | n. | her | 头发 | 说发型、外貌 | short / long hair；curly hair；get a haircut | She has long black hair. | 她留着一头乌黑的长发。 | 头发总体不可数：✗ She has long hairs.（hairs 是「几根头发」）；「去剪头发」说 get a haircut，✗ I cut my hair.（像是自己给自己剪）。
+@v: glasses | = | n. | ˈglæsɪz | 眼镜 | 说外貌、戴不戴眼镜 | wear glasses；a pair of glasses；sunglasses | I wear glasses when I work on the computer. | 我用电脑的时候戴眼镜。 | 「眼镜」永远用复数 glasses；「戴眼镜」用 wear，✗ take glasses；单数 glass 是「玻璃、玻璃杯」。
+@v: hated | hate | v. | ˈheɪtɪd | 讨厌；特别不喜欢 | 说强烈的不喜欢 | hate + -ing；hate it when…；hate to… | I hate waiting in line. | 我最讨厌排队。 | hate 语气很重，说别人做的菜、说人时要小心，温和的说法是 I'm not a big fan of…（Day 32）；后面接 -ing 或 to do 都行：hate talking / hate to talk。
+@v: cartoons | cartoon | n. | kɑːrˈtuːnz | 动画片；卡通 | 聊童年、看电视 | watch cartoons；a cartoon character；Saturday morning cartoons | My son watches cartoons every morning. | 我儿子每天早上都看动画片。 | 「动画片」美式口语说 cartoons，动画电影多说 animated movie，日本动画说 anime；重音在后：car·TOON。
+@v: outgoing | = | adj. | ˈaʊtgoʊɪŋ | 外向的；开朗、爱交际的 | 说性格 | very outgoing；an outgoing person；more outgoing | Kevin is really outgoing. He talks to everyone. | Kevin 特别外向，跟谁都能聊。 | 「外向」不说 ✗ outside personality；反义「内向」是 shy 或 introverted；outgoing 是褒义，夸人性格时可以放心用。
+@v: used to | = | phr. | ˈjuːstə | 以前（常常 / 一直）……（现在不了） | 讲过去的习惯、状态，并暗示现在变了 | used to + 动词原形；used to be；used to live | I used to live with three roommates. | 我以前跟三个室友合租。 | 后面永远跟动词原形：used to work，✗ used to working（那是明天要学的 be used to doing「习惯于」）；所有人称都一样，不加 -s：She used to work…；只发生过一次的事不用 used to。
+@v: classmates | classmate | n. | ˈklæsmeɪts | 同学（同班的） | 说同班同学、老同学 | an old classmate；college classmates；a classmate of mine | I ran into an old classmate on the subway. | 我在地铁上碰到一个老同学。 | 中文「同学们好」不能直译成 ✗ Hello, classmates!，美国老师会说 Hi, everyone. / OK, class.；称呼一个同学直接叫名字，不说 ✗ Classmate Wang。
+@v: naughty | = | adj. | ˈnɔːti | 淘气的；调皮的 | 说小孩不听话 | a naughty kid；a naughty boy；so naughty | My nephew is so naughty. He never sits still. | 我侄子调皮得很，一刻都坐不住。 | naughty 主要说小孩，说大人「调皮」用 playful；gh 不发音，美式 t 发成快速的闪音，听起来像 nau-di。
+@v: curly | = | adj. | ˈkɜːrli | 卷曲的；（头发）卷的 | 说发型 | curly hair；short curly hair；naturally curly | My hair is naturally curly. | 我的头发是天生的自来卷。 | 「自来卷」说 naturally curly；「烫卷」说 get a perm；「直发」是 straight hair——straight 就是 Day 50 的「直」。
+@v: teachers | teacher | n. | ˈtiːtʃərz | 老师 | 说学校、说小时候 | a strict teacher；my English teacher；a math teacher | My English teacher was really funny. | 我的英语老师特别有意思。 | 美国学生不把 Teacher 当称呼：✗ Good morning, Teacher! → ✓ Good morning, Ms. Brown.；「张老师」说 Mr. Zhang / Ms. Zhang。
+@v: uniform | = | n. | ˈjuːnɪfɔːrm | 制服；校服 | 说上学、工作服 | wear a uniform；a school uniform；in uniform | All the staff wear blue uniforms. | 员工都穿蓝色制服。 | u 读 `/juː/`，开头是辅音，所以用 a：a uniform，✗ an uniform；「校服」说 school uniform。
+@v: middle school | = | phr. | ˈmɪdl ˌskuːl | 初中；（美国）中学（6–8 年级） | 聊上学的经历 | in middle school；a middle school student；a middle school teacher | I met my best friend in middle school. | 我和我最好的朋友是初中认识的。 | 中国的「初中」可以说 middle school 或 junior high；「高中」是 high school，「小学」是 elementary school；「上初中的时候」用 in：in middle school。
+@v: strict | = | adj. | strɪkt | 严格的 | 说老师、父母、规定 | a strict teacher；strict parents；be strict with sb | My parents were very strict with me. | 我爸妈对我管得特别严。 | 「对某人严格」用 with：be strict with sb；str 三个辅音要连在一起读，中间别加元音：✗ s-te-rict。
+@v: student | = | n. | ˈstuːdnt | 学生 | 说身份、说上学的经历 | a quiet student；a college student；a good student | She's a college student in Guangzhou. | 她在广州上大学。 | 美式读 `/ˈstuːdnt/`，tu 读 `/tuː/`，不读成「斯丢-」；「大学生」口语说 a college student。
+@v: didn't use to | = | phr. | ˌdɪdnt ˈjuːstə | 以前不…… | 说以前没有、现在才有的习惯 | didn't use to + 动词原形；never used to | I didn't use to exercise. Now I run every weekend. | 我以前不运动，现在每个周末都跑步。 | 有了 didn't，后面变回 use：✗ I didn't used to…（母语者写字也常错，但考试和正式写作里算错）；口语里 I never used to… 也很常用，意思一样。
+@v: These days | these days | phr. | ˌðiːz ˈdeɪz | 现在；如今；最近这段时间 | 和以前对比，说现在的习惯 | These days, …；… these days；How are you these days? | These days, I work from home on Fridays. | 现在我每周五在家办公。 | these days 后面用一般现在时，说现在的习惯；放句首、句尾都行；days 是复数，不说 ✗ this days。
+@v: habit | = | n. | ˈhæbɪt | 习惯；（个人的）习惯动作 | 说好习惯、坏习惯 | a bad habit；a good habit；break a habit | Checking my phone in bed is a bad habit. | 躺在床上看手机是个坏习惯。 | habit 指个人反复做的事；「（对环境）习惯了」不用 habit，要说 be used to（Day 53）：✗ I have a habit of the heat. → ✓ I'm used to the heat.
+@v: nowadays | = | adv. | ˈnaʊədeɪz | 如今；现在（和过去相比） | 说社会、生活方式的变化 | Nowadays, …；kids nowadays；nowadays people… | Nowadays, most people pay with their phones. | 如今大多数人用手机付钱。 | nowadays 和 these days 意思相近：nowadays 更强调「和过去不一样了」，常说大家、社会；these days 更口语，也常说自己；写成一个词，✗ now a days。
+
+@diff: 「我以前在快递站工作」——I used to work at a courier station.（现在不了）
+@d_cn: 「以前（常常 / 一直）……」，言外之意：现在已经不这样了。
+@d_en: I used to work at a courier station. / I used to be really shy. / She used to live in Changsha.
+@d_why: 中文动词不变，靠「以前」两个字告诉对方「那是过去，现在变了」。英文的 **used to + 动词原形** 一个结构就包含两层意思：①过去经常这样、一直是这样；②现在不这样了。如果只说 I worked at a courier station.（我在快递站干过），只是陈述一件过去的事实，听不出「现在已经变了」的对比；说成 I work at… 就成了「我现在在那儿上班」。used to 后面永远跟**动词原形**：used to work / used to be，主语是 she / he 也不加 -s。还有一点：只发生过一次的事不能用 used to：✗ I used to go to Beijing last year. → ✓ I went to Beijing last year.
+@d_when: 讲自己的变化、以前的工作和住处、小时候的样子、以前的习惯；常常和 now / these days 对比着说。
+@d_vs: **I used to work at a courier station.** 我以前在快递站上班。（现在不在了）\n**I worked at a courier station for two years.** 我在快递站干过两年。（陈述事实）\n**I used to be shy, but now I'm outgoing.** 我以前很害羞，现在很外向。\n✗ I used to went there. ✗ She used to works there.
+@d_task: 用 used to 说：① 我以前住在合租房里。② 我小时候每天看动画片。 | ① I used to live in a shared apartment. ② When I was a kid, I used to watch cartoons every day.
+@diff: 「我以前不喝咖啡」——I didn't use to drink coffee.（拼写 use，不是 used）
+@d_cn: 以前没有这个习惯，现在有了；或者问别人「你以前……吗？」
+@d_en: I didn't use to drink coffee. / Did you use to wear a uniform? — Yes, I did.
+@d_why: 中文「以前不……」「以前……吗？」只要加一个「不」或「吗」。英文的否定和疑问要借助 **did**：过去的标记已经在 did / didn't 身上了，后面就变回原形 **use to**——和 didn't go（✗ didn't went）是同一个道理。好消息是读音完全一样，都是 `/ˈjuːstə/`，所以这只是一个**写**的问题。回答 Did you use to…? 时，用 did 回答：Yes, I did. / No, I didn't.，✗ Yes, I used. 口语里还有一个很常用的说法：I **never used to** drink coffee.，意思一样，而且不用纠结 use 还是 used。
+@d_when: 说以前没有、现在才有的习惯；问别人以前的情况：Did you use to…?
+@d_vs: **I didn't use to drink coffee.** 我以前不喝咖啡。\n**I never used to drink coffee.** 同上，口语很常用\n**Did you use to wear a uniform? — Yes, I did.** 你以前穿校服吗？——穿。\n✗ I didn't used to… ✗ Did you used to…? ✗ Yes, I used.
+@d_task: 问 Emma「你以前留长头发吗？」；再说「我以前不运动」。 | Did you use to have long hair? / I didn't use to exercise.（或 I never used to exercise.）
+@diff: 「以前」——used to / before / in the past 的区别
+@d_cn: 中文一个「以前」可以指：过去的习惯或状态；「在此之前（有没有……过）」；泛泛地说「过去、从前」。
+@d_en: I used to be shy. / Have you been here before? / I worked at a courier station before I joined SwiftLink. / In the past, most people paid in cash.
+@d_why: 英文要先想清楚你说的是哪种「以前」：①**过去的习惯或状态，现在变了** → **used to**；②**「在此之前」「以前……过吗」** → **before**：单独放在句尾，常和现在完成时一起用（Day 32：I've never eaten it before.），或者 before + 时间 / 事件（before 2020 / before I joined SwiftLink）；③**泛泛地说过去、从前**（多说社会、行业）→ **in the past**，偏正式，口语里也说 back then。中国学生常把 before 放在句首当「以前」：✗ Before, I work at a courier station.——时态错了，意思也不清楚；I was shy before. 语法没错，但只是「之前害羞」，想强调「以前一直这样、现在变了」，美国人会说 I used to be shy.
+@d_when: 讲个人变化 → used to；问或说「以前（有没有）……过」→ before（句尾）；「在某件事之前」→ before + 事件；讲社会、行业的变化 → in the past / back then。
+@d_vs: **I used to be shy.** 我以前很害羞。（状态，现在变了）\n**Have you been here before?** 你以前来过这儿吗？\n**I worked at a courier station before I joined SwiftLink.** 来 SwiftLink 之前，我在快递站上班。\n**In the past, most people paid in cash.** 过去大家大多付现金。\n✗ Before, I am very shy.
+@d_task: 用英文说：① 我以前跟三个室友合租。② 这道菜我以前没吃过。③ 过去，大部分人没有手机。 | ① I used to live with three roommates. ② I've never had this dish before. ③ In the past, most people didn't have cell phones.
+@diff: 「我小时候」——when I was a kid（不说 when I was small）
+@d_cn: 说童年时候的事。
+@d_en: When I was a kid, … / When I was little, … / As a kid, …
+@d_why: 中文「小时候」直译成 ✗ when I was small，美国人听了会想「你那时候个子小？」——small 主要说体积、尺寸。口语里最自然的是 **when I was a kid**；**when I was little** 带一点「小小的」感觉，多说很小的时候；**as a kid** 更简短。正式一点、写作里用 **when I was a child** / **in my childhood**。别忘了 was：「小时候」已经过去了，后面的句子也要用过去式或 used to：When I was a kid, I **was** shy. / I **used to** watch cartoons.，✗ When I was a kid, I am shy.
+@d_when: 聊天、讲故事、介绍自己的成长经历；和 used to 一起用最自然。
+@d_vs: ✓ **When I was a kid, I was really shy.** 我小时候特别害羞。\n✓ **When I was little, I lived with my grandma.** 我很小的时候跟奶奶住。\n✓ **As a kid, I loved candy.** 我小时候爱吃糖。\n✗ When I was small, … ✗ In my small time, …
+@d_task: 用英文说：「我小时候特别淘气，老师们都很严。」 | When I was a kid, I was really naughty. My teachers were all very strict.
+
+@core: I used to + 动词原形. | 说以前的习惯、状态或工作（现在变了） | work at… / be shy / live in… | 正式：I previously worked at a courier station.｜随意：I used to work at a courier place.
+@core: I didn't use to…, but these days… | 以前不、现在会 | drink coffee / exercise / cook | 正式：I didn't drink coffee in the past, but now I do.｜随意：I never used to drink coffee.
+@core: Did you use to…? — Yes, I did. / No, I didn't. | 问别人以前的情况，并回答 | wear a uniform / have long hair / live here | 正式：Did you wear a uniform at school?｜随意：You used to wear a uniform, right?
+@core: When I was a kid, … | 说小时候 | When I was little / As a kid | 正式：When I was a child, …｜随意：As a kid, …
+@core: These days, … / Nowadays, … | 说现在（和以前对比） | these days / nowadays / now | 正式：Nowadays, …｜随意：These days, …
+@core: I was really + 性格 / 外貌. | 描述以前的自己 | shy / naughty / skinny | 正式：I was quite a shy child.｜随意：I was super shy.
+@core: I was the opposite. | 说「我正好相反」，把话题接过来 | I was the opposite. / Same here. / Me too. | 正式：It was quite the opposite for me.｜随意：Total opposite!
+
+@pw: childhood | ˈtʃaɪldhʊd | 2 个音节 CHILD·hood | child 的 i 读 `/aɪ/`；hood 读短音 `/hʊd/`
+@pw: naughty | ˈnɔːti | 2 个音节 NAUGH·ty | gh 不发音；t 在两个元音中间发成快速的闪音，像 nau-di
+@pw: uniform | ˈjuːnɪfɔːrm | 3 个音节 U·ni·form | 重音在第一个音节；u 读 `/juː/`，所以说 a uniform
+@pw: outgoing | ˈaʊtgoʊɪŋ | 3 个音节 OUT·go·ing | 重音在 out；out 的 t 不爆破，直接接 going
+@pw: cartoon | kɑːrˈtuːn | 2 个音节 car·TOON | 重音在后，toon 读长音 `/tuːn/`
+@pw: used to | ˈjuːstə | 2 个音节 USED·to | used 的 s 读清音 `/s/`，d 不发音，to 弱读，合起来像 yoos-tə
+@pw: nowadays | ˈnaʊədeɪz | 3 个音节 NOW·a·days | 重音在 now；中间的 a 弱读成 `/ə/`
+@ps: **When**‿I was‿a **kid**, / I was **real**ly **shy**. | 两个 was 都弱读成 `/wəz/`；was a 连读成 wə-zə；When I 连读成 we-nai。
+@ps: I **used to** work‿at a **cour**ier **sta**tion. | used to 一口气读成 `/ˈjuːstə/`，d 不发音；work at 连读成 wor-kat。
+@ps: **Did** you use to wear a **u**niform? ↗ | Did you 连读成 `/ˈdɪdʒə/`（像 didja）；use to 照样读 `/ˈjuːstə/`；一般疑问句句尾上扬。
+@ps: I **did**n't use to drink **cof**fee. / **These days**, / I drink **two cups**‿a **day**. | didn't 的 t 几乎听不到；cups a 连读成 cup-sə；以前和现在的对比靠 didn't 和 These days 读重。
+@pnote: used to 有两种写法（used to / use to），读音只有一种 `/ˈjuːstə/`：d 和 t 合成一个音，s 是清音 `/s/`，to 弱读。所以听力上 I used to… 和 Did you use to…? 里的 use(d) to 听起来一模一样，区别只在书面上。另外注意：used 单独表示「用过」时读 `/juːzd/`（I used your pen.），s 是浊音，和这里不一样。
+@pnote: 本课 was / were 的弱读：When I was a kid → `/wəz/`，our teachers were strict → `/wər/`；只有在句尾或单独回答时才读完整：Yes, I was. `/wʌz/`。否定的 wasn't / weren't 不弱读，t 却常常只做口型：I wasn't shy → `/aɪ ˈwʌzn ʃaɪ/`。
+@lfocus: used to / use to 都读 /ˈjuːstə/，听成一个词
+@lfocus: was 弱读成 /wəz/，were 弱读成 /wər/
+@lfocus: Did you 连读成 /ˈdɪdʒə/
+@dict: S4–S6
+@dict: S23–S25
+@res: 在 YouTube 频道 Rachel's English 内搜索 "used to"，听 used to 在美国人口语里怎么连读。
+
+@mimic: 跟读【C】S3–S12 和 S21–S27：先正常语速逐句跟读，重点模仿 used to 的读法和 was 的弱读；再由你演林晓，手机朗读 Emma 的台词，完整对一遍并录音。
+@swap: I used to work at a courier station. | 换成你以前的工作或住处：live in… / work at a restaurant / work at a bank | I used to live in Guangzhou.
+@swap: I didn't use to drink coffee. These days, I drink two cups a day. | 换习惯：exercise / cook / read in English；these days → now | I didn't use to cook. These days, I cook dinner every night.
+@swap: When I was a kid, I was really shy. | 换性格和外貌：naughty / skinny / outgoing；had curly hair | When I was a kid, I was really naughty.
+@swap: Did you use to wear a uniform? — Yes, I did. | 换问题：have long hair / play video games / live with your grandparents | Did you use to have long hair? — No, I didn't.
+@free: 美国同事问 What were you like as a kid?（你小时候很淘气，老师常给你爸妈打电话） | When I was a kid, I was really naughty. My teachers used to call my parents all the time!
+@free: 朋友问 Do you drink coffee?（以前不喝，现在每天早上一杯） | Yes, but I didn't use to drink coffee. These days, I have a cup every morning.
+@free: 新同事问你来公司之前做什么（以前在一家餐厅上班，现在在 SwiftLink 做运营） | I used to work at a restaurant. Now I'm in operations at SwiftLink.
+@free: Emma 问 Did you use to have long hair?（没有，你小时候一直是短发、戴大眼镜） | No, I didn't. I used to have short hair and big glasses.
+@output: 录 1.5 分钟语音（或写 8–10 句话）「以前的我和现在的我」：小时候是什么样（When I was a kid, I was… / I used to…）→ 以前的一份工作或一个住处（I used to work / live…）→ 一个以前没有、现在有的习惯（I didn't use to…, but these days…）→ 最大的一个变化和原因（用 because / so 连起来）。
+@output_sample: When I was a kid, I was really shy. I used to hide behind my mom when we had guests. I had short hair and big glasses, and I hated talking in class. After college, I used to work at a small restaurant. I talked to customers all day, so I slowly became more outgoing. I didn't use to drink coffee. These days, I drink a cup every morning because I start work early. I also didn't use to exercise. Nowadays, I go running twice a week. My biggest change? I'm not afraid to speak English anymore!
+
+@check: I used to work at a courier station. 和 I worked at a courier station. 有什么不同？ | used to 强调「以前一直这样，现在不了」；worked 只是陈述「过去做过这份工作」，不一定有对比。
+@check: 「我以前不喝咖啡」写成 I didn't used to drink coffee. 对吗？ | 不对。有了 didn't，后面用原形 use：I didn't use to drink coffee.（也可以说 I never used to drink coffee.）
+@check: 「我小时候很害羞」为什么不说 When I was small, I was shy.？ | small 多说个子、体积；「小时候」说 When I was a kid / When I was little。
+@check: Emma 问 Did you use to wear a uniform? 如果你以前穿，怎么回答？如果不穿呢？ | Yes, I did. ／ No, I didn't.（不说 Yes, I used.）
+@check: A. I used to live in Changsha. B. I'm used to living in Changsha. 哪句是「我以前住在长沙」？ | A：以前住在长沙（现在不住了）。B 是「我习惯住在长沙」——这是明天要学的 be used to + -ing。
+@next1: 不看书说出 S4、S9、S15、S23、S24（锚点句）
+@next1: 用 used to / didn't use to 各说两句你自己的变化
+@next1: 预习：be used to 只比 used to 多一个 be，意思却变成了「习惯于」
+@next7: used to / before / in the past 各说一句，说出它们的区别
+@next7: 「我小时候」的三种说法：when I was a kid / when I was little / as a kid
