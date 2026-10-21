@@ -1,0 +1,160 @@
+@day: 38
+@week: 2
+@title_cn: 我正在做饭的时候，停电了
+@title_en: I Was Cooking When the Power Went Out
+@topic: 讲一件突发的事：停电那一刻在干什么、怎么反应、谁来帮忙、几点恢复
+@think_short: 「正在……的时候」was -ing + when + 过去时｜「停电了」The power went out.｜「我当时在洗澡」was taking ≠ took｜「正在」省略，was / were 不能省
+
+@goal_scene: 晚上一个人在合租屋做饭时突然停电：你要讲清楚停电那一刻你在干什么、突然发生了什么、你怎么反应；邻居来敲门时，互相问「刚才你在干嘛」；最后说清楚几点来电。
+@goal_expr: I was cooking dinner when the power went out. / Suddenly, my whole apartment was dark. / I quickly turned off the stove. / What were you doing when it happened? — I was taking a shower. / My neighbor knocked on the door. / The power came back on at ten.
+@goal_vocab: 20 个重点词 + 5 个短语：停电与用电、厨房与做饭、楼里的人和地方、讲意外的副词
+@done: 用 I was -ing when + 一般过去时讲出一件过去的意外，「正在做的事」和「突然发生的事」时态不再用错
+@done: 被问 What were you doing when…? 时，用 I was / We were + -ing 回答，并能反问 What about you?
+@done: 用 The power went out. / I quickly… / The power came back on at… 讲清楚一次停电或断网的经过
+
+@warmup: 你听说了吗？吴佳刚订婚了！ | Have you heard? Grace just got engaged! | D33
+@warmup: 你学车学了多久了？ | How long have you been learning to drive? | D34
+@warmup: 奶奶这阵子每天晚上都去广场跳舞。 | Grandma has been dancing in the square every evening. | D35
+@warmup: 深圳变化太大了。 | Shenzhen has changed a lot. | D36
+@warmup: 我来深圳以后胖了三公斤。 | I've put on three kilos since I moved here. | D36
+@warmup: 你不饿吗？——不饿，我早饭吃得很饱。 | Aren't you hungry? — No, I'm not. I had a big breakfast. | D13
+
+@scene: 周二晚上 7 点，合租屋里只有林晓一个人，室友们都出去了。她正在燃气灶上煮面，整栋楼突然停电：屋里一片漆黑，锅里的面烧糊了，烟雾报警器嘀嘀直响，隔壁邻居头上裹着浴巾跑来敲门。电梯停了，两人摸黑走楼梯下楼找保安。睡前，林晓用英语把这个「惊魂之夜」写进了日记——她每天都坚持写几句英文。
+@sp: 人物关系 | 林晓 ↔ 邻居：住在隔壁的年轻女孩，平时只在电梯里点点头；林晓 ↔ 保安：楼下值班的保安，第一次说上话
+@sp: 沟通目的 | 在日记里把这个晚上讲清楚：当时在干什么、突然发生了什么、自己怎么反应、谁来帮忙、几点来电
+@sp: 已知信息 | 停电那一刻，林晓不知道是自己家跳闸还是整栋楼停电；邻居听到报警器响，担心林晓家着火了
+@sp: 表达重点 | 背景动作（I was cooking dinner…）+ 突然发生的事（when the power went out）→ 反应（I quickly…）→ 问和答「当时在干嘛」（What were you doing? — I was taking a shower.）→ 结果（The power came back on at ten.）
+
+@story_title: Episode 38 · A Night in the Dark
+@story_type: 林晓的英文日记（含对话）
+@s: Tuesday, 11 p.m. What a night! | 周二，晚上 11 点。今晚真够折腾的！
+@s: I was cooking dinner when the **power** **went out**. | 我正在做晚饭，突然停电了。
+@s: **Suddenly**, my whole apartment was **dark**. | 一下子，整个屋子都黑了。
+@s: I was a little **scared**, so I **turned on** the **flashlight** on my phone. | 我有点害怕，就打开了手机的手电筒。
+@s: The **fridge** was quiet. There was no **electricity** in the whole building. | 冰箱没了声音——整栋楼都停电了。
+@s: Then I smelled **smoke**. My noodles were **burning** in the **pot**! | 接着我闻到一股烟味：锅里的面烧糊了！
+@s: I **quickly** turned off the **stove**, but the smoke **alarm** started to beep. | 我赶紧关了灶，可烟雾报警器已经嘀嘀地响起来了。
+@br:
+@s: My **neighbor** **knocked** on the door. | 邻居来敲门了。
+@s: She had a **bath** **towel** on her head. | 她头上还裹着一条浴巾。
+@s: Neighbor: Are you OK? I heard the alarm. | 邻居：你没事吧？我听到报警器响了。
+@s: Lily: I'm fine. I just burned my dinner! | 林晓：没事，就是把晚饭烧糊了！
+@s: Neighbor: **What were you doing** when it happened? | 邻居：停电的时候你在干什么？
+@s: Lily: I was cooking. What about you? | 林晓：我在做饭。你呢？
+@s: Neighbor: I was taking a shower. The water went cold! | 邻居：我在洗澡呢，水一下子就凉了！
+@s: Neighbor: Here, take these **candles**. | 邻居：给，这几根蜡烛你拿着。
+@br:
+@s: The elevator wasn't working, so we walked down the **stairs** **in the dark**. | 电梯停了，我们只好摸黑走楼梯下去。
+@s: Downstairs, we found the security guard. | 到了楼下，我们找到了保安。
+@s: Guard: A **repairman** is working on it. Don't worry. | 保安：维修工正在修，别担心。
+@s: Back home, I lit a candle and ate some bread. It was kind of romantic! | 回到家，我点了根蜡烛，吃了点面包，还挺有情调的！
+@s: The power **came back on** at ten. | 十点钟，来电了。
+@br:
+@s: Wednesday: The repairman came back and replaced the old wires. | 周三：维修工又来了一趟，把旧电线换掉了。
+@s: I made noodles again. This time, they didn't burn! | 我又煮了一次面，这回没糊！
+
+@v: power | = | n. | ˈpaʊər | 电；电力（「停电」「来电」的「电」） | 说停电、来电、有没有电 | The power went out.；the power is out；no power | We had no power for three hours. | 我们停了三个小时的电。 | 「停电」说 The power went out. 或 The power is out.，不说 ✗ stop electricity；power 也有「力量、权力」的意思，看上下文；读 `/ˈpaʊər/`，和 hour、tower 押韵。
+@v: went out | go out | phr. | ˌwent ˈaʊt | （电、灯、火）灭了；停了 | 说停电、灯灭了 | The power went out.；The lights went out.；The fire went out. | The lights went out in the middle of the meeting. | 开会开到一半，灯灭了。 | 主语是人，go out 是「出去（玩）」：Let's go out tonight.；主语是灯、电、火，go out 是「灭了」；过去式是 went，不是 ✗ goed。
+@v: Suddenly | suddenly | adv. | ˈsʌdənli | 突然；一下子 | 讲故事时引出意外 | Suddenly, …；suddenly stop；suddenly remember | Suddenly, my phone started ringing. | 突然，我的手机响了。 | 讲故事时常放句首、后面加逗号；形容词是 sudden（a sudden change）；Day 43 还会学到同义的 all of a sudden。
+@v: dark | = | adj. | dɑːrk | 黑的；暗的 | 说停电、天黑、屋里没光 | completely dark；get dark；dark outside | It gets dark at six in winter. | 冬天六点天就黑了。 | 「天黑了」说 It's dark. / It's getting dark.，不说 ✗ The sky is black.；dark 也说颜色深：dark blue（深蓝）。
+@v: scared | = | adj. | skerd | 害怕的 | 说自己当时的心情 | a little scared；scared of the dark；Don't be scared. | My little nephew is scared of dogs. | 我小外甥怕狗。 | 「怕某样东西」用 scared of；scared 说人的感受，scary 说东西「吓人」：The movie was scary.（和第一册 bored / boring 一样的 -ed / -ing 规律）；只有 1 个音节，不读 scar-red。
+@v: turned on | turn on | phr. | ˌtɜːrnd ˈɑːn | 打开（灯、电器、手电筒） | 开灯、开电脑、开手电筒 | turn on the light；turn on the flashlight；turn it on | Can you turn on the light? It's dark in here. | 你能把灯打开吗？这里面好黑。 | 和 turn off（D12）是一对；「开灯」不说 ✗ open the light（中文「开」的直译）；代词放中间：turn it on，✗ turn on it。
+@v: flashlight | = | n. | ˈflæʃlaɪt | 手电筒 | 停电、夜里找东西 | turn on the flashlight；the flashlight on my phone；use a flashlight | I use my phone as a flashlight. | 我拿手机当手电筒用。 | 美式说 flashlight，英式说 torch；「手机的手电筒」就说 the flashlight on my phone。
+@v: fridge | = | n. | frɪdʒ | 冰箱 | 说冰箱里有什么、停电时食物会不会坏 | in the fridge；put it in the fridge；an empty fridge | There's some cake in the fridge. | 冰箱里有块蛋糕。 | fridge 是 refrigerator 的口语说法，平时都说 fridge；「在冰箱里」用 in the fridge；dge 读 `/dʒ/`。
+@v: electricity | = | n. | ɪˌlekˈtrɪsəti | 电；电力 | 说有没有电、电费、省电 | no electricity；the electricity bill；save electricity | Our electricity bill is high in summer. | 夏天我们的电费很高。 | 不可数：✗ an electricity；日常说停电、来电多用 power，electricity 多用在 There's no electricity.、电费、省电这类说法里；重音在 tri。
+@v: smoke | = | n. | smoʊk | 烟 | 说烧糊了、着火、有人抽烟 | smell smoke；a lot of smoke；a smoke alarm | I smell smoke. Is something burning? | 我闻到烟味了，是不是什么东西烧着了？ | 「闻到烟味」就说 smell smoke；smoke 也是动词「抽烟」：Do you smoke?；o 读 `/oʊ/`，不读「斯磨克」。
+@v: burning | burn | v. | ˈbɜːrnɪŋ | （食物）烧糊；燃烧；烫伤 | 做饭烧糊、东西着火、被烫着 | burn the rice；Something is burning.；burn my hand | Careful! The pot is hot. Don't burn your hand. | 小心！锅很烫，别烫着手。 | 「饭糊了」说 I burned the rice. 或 The rice is burned.；过去式美式多写 burned，英式常写 burnt；ur 卷舌读 `/ɜːr/`。
+@v: pot | = | n. | pɑːt | 锅（深的，煮汤、煮面用） | 做饭、煮东西 | a pot of soup；a big pot；in the pot | She made a big pot of soup for everyone. | 她给大家煮了一大锅汤。 | 深的煮锅叫 pot，平底的炒锅、煎锅叫 pan；hot pot（火锅）里就是这个 pot；o 嘴巴张大读 `/ɑː/`。
+@v: quickly | = | adv. | ˈkwɪkli | 很快地；赶紧 | 说你马上做出的反应 | quickly turn off；reply quickly；walk quickly | She quickly replied to the customer. | 她很快回复了客户。 | quick 是形容词（D13 的 Quick question.），修饰动作要用副词 quickly：✗ She replied quick. → ✓ She replied quickly.；常放在动词前面。
+@v: stove | = | n. | stoʊv | 炉灶；灶台 | 做饭、开火关火 | a gas stove；turn off the stove；on the stove | The soup is on the stove. | 汤在灶上煮着呢。 | 「关火」说 turn off the stove，不说 ✗ close the fire；「在灶上」用 on the stove；燃气灶是 gas stove。
+@v: alarm | = | n. | əˈlɑːrm | 报警器；闹钟 | 烟雾报警器响、闹钟响 | a smoke alarm；the alarm goes off；set an alarm | I set an alarm for six thirty. | 我定了六点半的闹钟。 | 「报警器 / 闹钟响了」最地道的说法是 The alarm went off.——这里 go off 是「响起来」，和 go out「灭了」别弄混；「定闹钟」说 set an alarm。
+@v: neighbor | = | n. | ˈneɪbər | 邻居 | 说住在隔壁、楼上楼下的人 | my neighbor；a next-door neighbor；a friendly neighbor | My next-door neighbor is a teacher. | 我隔壁的邻居是位老师。 | 美式拼写 neighbor，英式 neighbour；gh 不发音；neighbor 是一个人，可数：two neighbors。
+@v: knocked | knock | v. | nɑːkt | 敲（门） | 有人敲门、进别人办公室前 | knock on the door；knock twice；Someone's knocking. | Please knock before you come in. | 进来前请先敲门。 | 「敲门」要加 on：knock on the door；开头的 k 不发音，读 `/nɑːk/`；-ed 读 `/t/`，knocked 只有一个音节。
+@v: bath | = | n. | bæθ | 泡澡；浴缸 | 说泡澡，或浴巾等浴室用品 | take a bath；a bath towel；a hot bath | After a long day, I like to take a hot bath. | 累了一天，我喜欢泡个热水澡。 | take a bath 是泡澡，take a shower（D25）是淋浴——中国人日常说的「洗澡」大多是 shower；th 咬舌 `/θ/`，不读 s。
+@v: towel | = | n. | ˈtaʊəl | 毛巾；浴巾 | 洗澡、洗脸、去酒店 | a bath towel；a clean towel；dry your hair with a towel | Can I have a clean towel, please? | 能给我一条干净的毛巾吗？ | 大浴巾叫 bath towel，洗脸的小毛巾叫 face towel 或 washcloth；ow 读 `/aʊ/`，像 now，不读「头哦」。
+@v: What were you doing | what were you doing? | phr. | ˌwʌt wər jə ˈduːɪŋ | 你（当时）在干什么？ | 问对方过去某个时刻正在做的事 | What were you doing when…?；What were you doing at seven?；What were you doing there? | What were you doing when I called? | 我打电话的时候你在干嘛？ | 主语是 you，用 were：✗ What was you doing?；问「当时正在做什么」用 were -ing，问「做了什么事」用 What did you do?；were 弱读成 `/wər/`。
+@v: candles | candle | n. | ˈkændlz | 蜡烛 | 停电、过生日、烛光晚餐 | light a candle；birthday candles；blow out the candles | We put twenty-five candles on the cake. | 我们在蛋糕上插了二十五根蜡烛。 | 「点蜡烛」说 light a candle（过去式 lit），不说 ✗ open a candle；「吹蜡烛」是 blow out the candles。
+@v: stairs | = | n. | sterz | 楼梯 | 电梯坏了、走楼梯上下楼 | take the stairs；walk down the stairs；at the top of the stairs | The elevator is slow. Let's take the stairs. | 电梯太慢了，我们走楼梯吧。 | 「楼梯」一般用复数 stairs；「走楼梯」说 take the stairs；第一册的 upstairs（D3）、downstairs（D5）就是从它来的。
+@v: in the dark | = | phr. | ˌɪn ðə ˈdɑːrk | 在黑暗中；摸黑 | 停电、夜里没开灯时做事 | sit in the dark；walk in the dark；scared of the dark | We ate dinner in the dark. | 我们摸黑吃了顿饭。 | the 不能丢：✗ in dark；它还有比喻义「被蒙在鼓里」：Nobody told me. I was in the dark.
+@v: repairman | = | n. | rɪˈpermæn | 维修工；修理工 | 家里停电、漏水、电器坏了，请人来修 | call a repairman；wait for the repairman；the repairman came | The repairman is coming tomorrow morning. | 维修工明天上午来。 | repair 和 fix（D4）都是「修」，fix 更口语；不说 ✗ repair worker man；想用不分性别的说法可以说 repair person 或 technician。
+@v: came back on | come back on | phr. | ˌkeɪm bæk ˈɑːn | （电、灯、网络）恢复；又来了 | 说来电了、灯又亮了、网恢复了 | The power came back on.；The lights came back on.；The Wi-Fi came back on. | The lights came back on after five minutes. | 五分钟后灯又亮了。 | 这里的 on 是「通着电、开着」；「来电了」不说 ✗ The electricity came.；come 的过去式是 came，不是 comed。
+
+@diff: 「我正在做饭的时候，停电了」——I was cooking when the power went out.
+@d_cn: 一件事正在进行（时间长），另一件事突然插进来（一下子就发生了）。
+@d_en: I was cooking dinner when the power went out. / When the power went out, I was cooking dinner.
+@d_why: 中文靠「正在……的时候」和「突然」交代两件事的关系，动词本身不变。英文让**两种过去时**分工：背景里那个持续的动作用 **was / were + -ing**（I was cooking），突然发生的短动作用**一般过去时**（the power went out），中间用 **when** 连起来。中国学习者最常把两个都说成一般过去时：✗ I cooked dinner when the power went out.——听起来像「停电的时候我（才开始）做饭」；或者两个都用 -ing：✗ I was cooking when the power was going out.
+@d_when: 讲一件过去的事、交代「事情发生的时候你在干什么」：讲故事的开头、解释迟到、说明一次事故的经过。
+@d_vs: **I was cooking dinner when the power went out.** 我正在做饭，突然停电了。\n**When the power went out, I was cooking dinner.**（when 放前面也行，中间加逗号）\n✗ I cooked dinner when the power went out.\n✗ When I cooking, the power went out.
+@d_task: 用英文说：① 我正在洗碗，电话响了。② 张涛进来的时候，我们正在开会。 | ① I was doing the dishes when my phone rang. ② We were having a meeting when Tom came in.
+@diff: 「停电了」——The power went out.
+@d_cn: 电突然没了：一个屋子、一栋楼、一片地区。
+@d_en: The power went out. / The power is out. / The power came back on at ten.
+@d_why: 中文「停电」是「停」+「电」，直译成 ✗ It stopped electricity. / ✗ The electricity stopped. 很别扭。英文把电看成会「灭」的东西：灯、火、电都能 **go out**；来电了就是 **come back on**（on = 通着电）。日常说「电」多用 **power**，electricity 偏「电」这种东西本身，常出现在 There's no electricity.、电费（the electricity bill）里。另外，**The power is out.** 说「现在正停着电」，打电话报修时很常用。
+@d_when: 停电、跳闸、灯灭的那一刻 → went out；停电的状态 → is out；恢复 → came back on。
+@d_vs: **The power went out.** 停电了。（发生的那一刻）\n**The power is out.** 现在停着电呢。（状态）\n**The power came back on at ten.** 十点来电了。\n**The lights went out.** 灯灭了。\n✗ It stopped electricity. ✗ The electricity is stopped.
+@d_task: 你给张涛发消息：「我们楼停电了，所以我没法在家办公；来电了马上告诉你。」 | The power went out in my building, so I can't work from home. I'll let you know when it comes back on.
+@diff: 「我当时在洗澡」I was taking a shower. ≠ I took a shower.
+@d_cn: 被问到过去某个时刻你在干什么——那件事当时正在进行，还没做完。
+@d_en: What were you doing at seven? — I was taking a shower. / What did you do last night? — I took a shower and went to bed.
+@d_why: 中文「我在洗澡」和「我洗了个澡」靠「在」和「了」区分；英文靠 **was -ing** 和**一般过去时**。I was taking a shower. 只说「那一刻我正在洗」，洗完没洗完不管；I took a shower. 说「我洗了个澡」，是一件完整做完的事，常用来列一串动作。所以对方问 **What were you doing** when it happened?，要用 was -ing 回答；问 **What did you do** last night?，就用一般过去时列举。回答方式跟着问句走，最不容易错。
+@d_when: 回答「当时在干什么」→ was / were -ing；讲完整的一件或一串事 → 一般过去时。
+@d_vs: **What were you doing at seven? — I was taking a shower.** 七点你在干嘛？——在洗澡。\n**What did you do last night? — I took a shower and went to bed.** 你昨晚干嘛了？——洗了个澡就睡了。\n✗ What were you doing? — I took a shower.
+@d_task: ① 朋友问 What were you doing when I called?（你当时在和吴佳吃晚饭）② 另一个朋友问 What did you do last night?（你看了部电影就睡了） | ① I was having dinner with Grace. ② I watched a movie and went to bed.
+@diff: 中文「正在」常省略，英文 was / were -ing 不能省
+@d_cn: 讲过去的事时，中文常常不说「正在」：「他来的时候我吃饭呢」「当时我们看电视」。
+@d_en: When he came, I was eating. / At that time, we were watching TV.
+@d_why: 中文不说「正在」，靠「的时候」「当时」「呢」，听的人也能明白；英文不行，「当时正在」必须落在动词上：**was / were + -ing**。少了 was 就不成句：✗ When he came, I eating.；换成一般过去时又变了意思：✗ When he came, I ate.（像是「他一来我就吃」）。还要分清 was 和 were：I / he / she / it → **was**；you / we / they → **were**（What **were** you doing?）。讲故事时漏掉 was，是第二册最常见的错误之一。
+@d_when: 用 when… / at that time / at seven / all evening 说过去某个时刻正在进行的事。
+@d_vs: **When he called, I was eating.** 他打电话来的时候，我在吃饭（呢）。\n**At ten, we were still working.** 十点我们还在加班。\n**What were you doing?** 你（当时）在干嘛？\n✗ When he called, I eating. ✗ What was you doing?
+@d_task: 用英文说：① 停电的时候，我室友们在看电视。② 刚才我敲门的时候，你在干嘛呢？ | ① My roommates were watching TV when the power went out. ② What were you doing when I knocked?
+
+@core: I was + -ing + when + 一般过去时. | 讲过去的一件事：正在做 A 时，B 突然发生 | cooking dinner / the power went out；taking a shower / my phone rang | 正式：I was preparing dinner when the power failed.｜随意：I was making dinner, and then — boom — the power went out.
+@core: The power went out. / The power came back on. | 说停电和来电 | went out / is out / came back on at ten | 正式：There was a power outage in our building.｜随意：Power's out!
+@core: What were you doing when it happened? | 问对方「事情发生时你在干嘛」 | when it happened / at seven / when I called | 正式：What were you doing at the time?｜随意：What were you up to when it happened?
+@core: I was + -ing. What about you? | 回答「当时正在做什么」，再把问题抛回去 | taking a shower / sleeping / talking on the phone | 正式：I was taking a shower at the time.｜随意：In the shower! You?
+@core: Suddenly, … | 讲故事时引出意外 | everything went dark / the alarm started to beep / someone knocked | 正式：Without warning, the lights went out.｜随意：And then it all went dark!
+@core: I quickly + 过去时. | 讲你马上做出的反应 | turned off the stove / opened the window / called the guard | 正式：I immediately turned off the stove.｜随意：I turned off the stove — fast!
+@core: Are you OK? / Is everything OK? | 邻居、同事出了状况，上前关心 | Are you OK? / Do you need anything? / Can I help? | 正式：Is everything all right?｜随意：You OK?
+
+@pw: electricity | ɪˌlekˈtrɪsəti | 5 个音节 e·lec·TRI·ci·ty | 主重音在 tri；结尾 -ty 的 t 弹成轻轻的 d：e-lec-TRI-si-dee
+@pw: flashlight | ˈflæʃlaɪt | 2 个音节 FLASH·light | 重音在前；a 嘴巴张大发 `/æ/`；sh 和 l 之间不加元音
+@pw: neighbor | ˈneɪbər | 2 个音节 NEIGH·bor | gh 不发音；neigh 读 `/neɪ/`；bor 很轻，舌头微卷
+@pw: scared | skerd | 1 个音节 | 只有一个音节，不读成 scar-red；结尾的 d 轻轻带出
+@pw: alarm | əˈlɑːrm | 2 个音节 a·LARM | 重音在后；开头 a 很轻 `/ə/`；larm 嘴巴张大再卷舌
+@pw: repairman | rɪˈpermæn | 3 个音节 re·PAIR·man | 重音在 pair；man 读 `/mæn/`，也常弱读成 `/mən/`
+@pw: stove | stoʊv | 1 个音节 | o 读 `/oʊ/`，嘴形由大到小；结尾 v 上牙轻碰下唇，不要吞掉
+@ps: I was **cook**ing **din**ner / when the **pow**er went‿**out**. | was 弱读成 `/wəz/`；went out 连读成 wen-tout，t 弹得很轻；前半句语调平着走，说到 out 才落下来。
+@ps: **What** were you **do**ing / when it **hap**pened? | were 弱读成 `/wər/`，和 what 连起来像 what-er；you 弱读成 `/jə/`；when it 连读成 whe-nit。
+@ps: I was **tak**ing‿a **show**er. | was 弱读成 `/wəz/`；taking a 连读成 tay-kin-ga；重音落在 shower 上。
+@ps: The **pow**er came **back**‿on / at **ten**. | back on 连读成 ba-kon；came back on 三个词连成一串，重音在 back。
+@pnote: 书面 vs 口语：was / were 在句中几乎都弱读：I **was** cooking → `/aɪ wəz ˈkʊkɪŋ/`，What **were** you doing → `/ˈwʌt wər jə ˈduːɪŋ/`；快说时 was 只剩 `/wz/`，I was cooking 听起来像 I's cooking。听力时盯住动词后面的 -ing，就知道是「当时正在」。只有单独回答或强调时才读重：Yes, I **was**. / No, I **wasn't**.
+@pnote: 否定缩读：wasn't `/ˈwʌznt/`、weren't `/wɜːrnt/`、couldn't `/ˈkʊdnt/`。The elevator **wasn't** working 里，结尾的 t 几乎听不到，要靠 n 后面那一下短短的停顿来分辨肯定还是否定。-ed 也不多加音节：knocked `/nɑːkt/`、burned `/bɜːrnd/`、happened `/ˈhæpənd/`。
+@lfocus: was / were 弱读成 /wəz/ /wər/，靠 -ing 判断「当时正在」
+@lfocus: went out / came back on 的连读
+@lfocus: wasn't 和 was：The elevator wasn't working
+@dict: S2–S4
+@dict: S12–S14
+@res: 在 youglish.com 输入 "the power went out"，选 US，听美国人讲停电时 was / were 的弱读。
+
+@mimic: 跟读【C】S1–S22：先用正常语速逐句跟读，重点模仿 was / were 的弱读和 went out、came back on 的连读；再由你演林晓、手机朗读邻居和保安的台词，把 S8–S20 完整对一遍并录音。
+@swap: I was cooking dinner when the power went out. | 换两个动作：taking a shower / the water went cold；watching TV / someone knocked on the door | I was watching TV when someone knocked on the door.
+@swap: What were you doing when it happened? | 换时间：at seven / when I called / when the alarm went off | What were you doing when I called?
+@swap: My neighbor knocked on the door. | 换人和动作：the security guard / came up；my roommate / called me | The security guard came up to check.
+@swap: The power came back on at ten. | 换东西和时间：the lights / at midnight；the Wi-Fi / an hour later | The Wi-Fi came back on an hour later.
+@free: 你上班迟到了，张涛问怎么回事（你正在等电梯，电梯坏了，只好走楼梯下了 15 层）。 | Sorry I'm late. I was waiting for the elevator when it stopped working, so I took the stairs. I live on the fifteenth floor!
+@free: 朋友问：What were you doing when the power went out?（你当时在洗澡，水一下子凉了） | I was taking a shower. Suddenly, the water went cold, and it was completely dark!
+@free: 隔壁的烟雾报警器响了，你去敲门关心一下。 | Hi, is everything OK? I heard your smoke alarm. Do you need any help?
+@free: 你给楼里的物业发消息：昨晚停电，冰箱里的东西都坏了，希望维修工今天来看看。 | The power went out last night, and all the food in my fridge went bad. Can a repairman come and check today?
+@output: 录 1.5 分钟「那一次停电」（或写 8–10 句）：讲一次停电、停水或断网的经历：当时你在干什么（I was -ing when…）→ 你怎么反应（Suddenly… / I quickly…）→ 谁来了、说了什么（What were you doing? — I was…）→ 什么时候恢复（came back on）→ 你的感受。没遇到过停电，就讲一次「正在……的时候，突然……」的小意外。
+@output_sample: Last summer, I had a strange evening. I was watching a movie when the power went out. Suddenly, my apartment was completely dark, and I was a little scared. I quickly turned on the flashlight on my phone. I didn't open the fridge, because I didn't want the food to go bad. A few minutes later, my neighbor knocked on the door. He was holding two candles. He asked, "What were you doing when it happened?" I said, "I was watching a movie. What about you?" He laughed and said, "I was taking a bath!" We walked down the stairs in the dark and talked to the security guard. The power came back on at eleven. It was a little scary, but now I know my neighbor's name!
+
+@check: 林晓写 I was cooking dinner when the power went out.，为什么前半句用 was cooking，后半句用 went out？ | 做饭是一直在进行的背景动作，用 was -ing；停电是一下子发生的事，用一般过去时。
+@check: 邻居问 What were you doing when it happened?，如果林晓回答 I cooked dinner.，有什么问题？ | 意思变成「我做了顿饭」（一件做完的事），没有回答「那一刻正在做什么」；要说 I was cooking.
+@check: 「停电了」和「来电了」怎么说？能说 It stopped electricity. 吗？ | The power went out. / The power came back on.；不能那样说。
+@check: 你想说「你打电话的时候，我们正在开会」，哪句对？A. We had a meeting when you called. B. We were having a meeting when you called. | B。开会是当时正在进行的事；A 听起来像「你一打电话，我们就开了个会」。
+@check: What was you doing? 错在哪儿？林晓的邻居为什么说 I was taking a shower.，不说 I were…？ | you 后面用 were：What were you doing?；I 后面用 was。
+@next1: 不看书说出 S2、S8、S12、S14、S20（锚点句）
+@next1: 用 I was … when … 说两件你遇到过的小意外
+@next1: 看中文说出 6 个词：电、手电筒、蜡烛、楼梯、冰箱、维修工
+@next7: was / were -ing 和一般过去时怎么分工：背景动作 vs 突然发生的事
+@next7: go out（灭了）/ come back on（恢复）/ turn on（打开）/ go off（报警器响）各说一句

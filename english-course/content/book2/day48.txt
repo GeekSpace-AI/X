@@ -1,0 +1,161 @@
+@day: 48
+@week: 3
+@title_cn: 去银行
+@title_en: At the Bank
+@topic: 银行：开户、汇款手续费、汇率、取钱
+@think_short: 「开户」open an account｜「取钱 / 存钱」take out / put in｜「转账、汇款」transfer / send money｜「工资」salary ≠ wage
+
+@goal_scene: 在银行柜台用英文办事：说明来意和开户用途，填表、签名、设密码；问清国际汇款的手续费、到账时间和汇率；取钱时说清楚金额。
+@goal_expr: I'd like to open an account. / It's for my salary. / Please fill out this form. / How much is the fee for an international transfer? / What's today's exchange rate? / I want to take out two thousand yuan. / He'll pay me back.
+@goal_vocab: 20 个重点词 + 5 个短语：开户与证件、存款与利息、转账与汇率、取钱与借款
+@done: 能在柜台用 I'd like to… 说明来意，并回答开户用途、证件、密码等问题
+@done: 能问出国际汇款的手续费、到账时间和汇率，并听懂 seven point one five 这样的数字
+@done: 能分清 take out / put in / save、salary / wage，说出中美在开户和发工资上的 2 个不同
+
+@warmup: 我好像感冒了。 | I think I caught a cold. | D47
+@warmup: 我发烧，嗓子也疼。 | I have a fever and a sore throat. | D47
+@warmup: 这个药一天吃三次。 | Take this medicine three times a day. | D47
+@warmup: 我需要请一天病假。 | I need to take a sick day. | D47
+@warmup: 房东要押一付三。 | The landlord wants one month's deposit and three months' rent. | D45
+@warmup: 运费多少钱？ | How much does delivery cost? | D20
+
+@scene: 迅联科技的工资统一发到一家合作银行，人事让林晓尽快去开个户。病好以后的周六上午，她去了新家附近的银行网点——中国的银行网点大多周末也营业。取号、等叫号、到柜台：出示身份证、说明开户用途、填表、签名、设六位数密码。柜员顺口推荐存定期，可刚交完「押一付三」的林晓手头没剩多少。她还顺便问了往美国汇款的手续费和汇率：表哥在美国读书，笔记本电脑坏了，她打算借他 500 美元。最后，她想取两千块现金在家备用。
+@sp: 人物关系 | 林晓 ↔ 柜员：第一次见面的服务关系，柜员礼貌、按流程办事；林晓说话要清楚、客气
+@sp: 沟通目的 | 开一个发工资用的账户；问清国际汇款的手续费、到账时间和汇率；取一笔现金
+@sp: 已知信息 | 柜员不知道林晓开户做什么用，要问用途；林晓不知道汇款手续费多少，还忘了新卡里一分钱都没有
+@sp: 表达重点 | 我想开个户（I'd like to open an account）→ 用来发工资（It's for my salary）→ 国际汇款手续费多少（How much is the fee…?）→ 今天汇率多少（What's today's exchange rate?）→ 我想取两千块（take out）
+
+@story_title: Episode 48 · I'd Like to Open an Account
+@story_type: 叙述 + 对话
+@s: SwiftLink pays every **salary** through one **bank**, so Lily needs a new account. | 迅联的工资都通过同一家银行发，所以林晓得开个新账户。
+@s: On Saturday morning, she goes to a **branch** near her apartment. | 周六上午，她去了家附近的一个银行网点。
+@s: She takes a number, and soon a **teller** calls her to the **counter**. | 她取了号，没过多久，柜员就叫她到柜台。
+@br:
+@s: Lily: Hi. I'd like to **open an account**. | 林晓：你好，我想开个户。
+@s: Teller: Sure. May I see your **ID**? And what's the account for? | 柜员：好的，请出示一下身份证。这个账户是做什么用的？
+@s: Lily: It's for my salary. Here's a letter from my company. | 林晓：用来发工资的。这是公司开的证明。
+@s: Teller: Thank you. Please **fill out** this form. | 柜员：谢谢。请填一下这张表。
+@s: Lily signs her name, and the teller checks her **signature**. | 林晓签了名，柜员核对了她的签名。
+@s: Teller: Now set a six-digit **PIN**, please. | 柜员：现在请设一个六位数的密码。
+@s: Teller: Would you like to put some money into **savings**, too? The **interest** is higher. | 柜员：要不要顺便存一笔定期？利息高一些。
+@s: Lily: Maybe later. After paying my rent, I don't have much left! | 林晓：以后再说吧。交完房租，我手头没剩多少了！
+@br:
+@s: Lily: I have another question. My cousin is studying in the US. | 林晓：我还有个问题。我表哥在美国读书。
+@s: Lily: How much is the **fee** for an **international** **transfer**? | 林晓：往国外汇款，手续费是多少？
+@s: Teller: About 200 yuan, and it takes three to five working days. | 柜员：大概 200 块，三到五个工作日到账。
+@s: Lily: What's today's **exchange rate**? | 林晓：今天的汇率是多少？
+@s: Teller: 7.15 yuan to the **dollar**. You need to buy the foreign **currency** first. | 柜员：一美元兑 7.15 元。您得先用人民币购汇。
+@s: Lily: OK. I want to send him 500 dollars. It's a **loan**. | 林晓：好的。我想给他汇 500 美元，是借给他的。
+@s: Lily: He'll **pay me back** after his summer job. | 林晓：他暑假打完工就还我。
+@br:
+@s: Lily: One more thing. I want to **take out** two thousand yuan. | 林晓：还有一件事，我想取两千块钱。
+@s: Teller: From your new card? Its **balance** is zero! | 柜员：从新卡里取？新卡余额是零呀！
+@s: Lily: Oh, right! From my old card, then. | 林晓：哦，对！那就从旧卡里取吧。
+@s: Teller: You can **withdraw** cash at the **ATM**. It's faster. | 柜员：取现金可以去自动取款机，更快一些。
+@s: Teller: Here's your new card. Your monthly **statements** are in our app. | 柜员：这是您的新卡。每个月的账单明细在我们 App 里都能查到。
+
+@v: salary | = | n. | ˈsæləri | 工资；薪水（固定的月薪、年薪） | 说工资发到哪里、谈薪资待遇 | a monthly salary；a starting salary；a salary of… a year | My salary goes into this account every month. | 我的工资每个月发到这个账户。 | 美国人谈工资一般说年薪：a salary of 60,000 dollars a year；中国人习惯说月薪。按小时算的工资叫 wage；「发工资」口语说 get paid：I get paid on the 10th.
+@v: bank | = | n. | bæŋk | 银行 | 开户、存取钱、汇款 | go to the bank；a bank account；a bank card | Is the bank open on Sunday? | 银行周日开门吗？ | 中国的银行网点周末大多照常营业；美国很多银行周六只开半天，周日关门，日常业务多在 App 上办。「银行卡」说 bank card 或 debit card（借记卡），credit card 是信用卡。
+@v: branch | = | n. | bræntʃ | （银行、公司的）分行；支行；网点 | 找银行网点、说在哪个网点开户 | a bank branch；the nearest branch；the main branch | Which branch did you open your account at? | 你是在哪个网点开的户？ | 中国银行的「分行、支行、网点」英文都可以叫 branch，它的本义是「树枝」；连锁店的「分店」也是 branch。a 读 `/æ/`，不读「布兰奇」。
+@v: teller | = | n. | ˈtelər | （银行）柜员 | 在柜台办业务 | a bank teller；ask the teller；a teller window | The teller asked me for my ID. | 柜员让我出示身份证。 | teller 专指银行柜员；超市、商店的收银员叫 cashier。跟柜员打招呼不用叫 Teller，说 Hi 或 Excuse me 就行。
+@v: counter | = | n. | ˈkaʊntər | 柜台；（银行）窗口 | 银行、药店、商店的柜台 | at the counter；Counter 3；the front counter | Please go to Counter 3. | 请到 3 号窗口。 | 「3 号窗口」说 Counter 3 或 Window 3，不说 ✗ the 3 counter；「在柜台办」用 at the counter。美国厨房的「台面」也叫 counter。
+@v: open an account | = | phr. | ˌoʊpən ən əˈkaʊnt | 开户；开一个账户 | 在银行开户，也可以指在网站开账号 | open a bank account；open an account at…；open a savings account | I opened an account at the bank near my office. | 我在公司附近的银行开了个户。 | 「开户」不说 ✗ open a household；account 是 Day 4 学过的「账号」，在银行里就是「账户」；「销户」说 close an account。an account 连读成 `/ənəˈkaʊnt/`。
+@v: ID | = | n. | ˌaɪˈdiː | 身份证件 | 开户、登机、办手机卡 | show your ID；an ID card；a photo ID | Please bring your ID to the bank. | 请带身份证去银行。 | 中国人办事一律用身份证（ID card）；美国没有全国统一的身份证，最常用的是驾照（driver's license），外国人用护照（passport）。ID 是两个字母分开读 `/ˌaɪˈdiː/`，不读成「id」。
+@v: fill out | = | phr. | ˌfɪl ˈaʊt | 填写（表格） | 开户、入职、看病时填表 | fill out a form；fill out an application；fill it out | Please fill out this form and sign at the bottom. | 请填写这张表，在最下面签名。 | 美式说 fill out a form，英式多说 fill in a form；代词放中间：fill **it** out。「填表」不说 ✗ write a form（那是「设计一张表」）。
+@v: signature | = | n. | ˈsɪgnətʃər | 签名；签字 | 开户、签合同、确认文件 | your signature；sign your name；an electronic signature | We need your signature on this page. | 这一页需要您签名。 | 动词是 sign（Day 15），名词是 signature：✓ Please sign here. ✓ We need your signature. ✗ Please signature here.；向明星要的「签名」叫 autograph（Day 41），不是 signature。
+@v: PIN | = | n. | pɪn | （银行卡）密码 | 设置、输入、修改银行卡密码 | set a PIN；enter your PIN；change your PIN | Never tell anyone your PIN. | 千万别把银行卡密码告诉别人。 | 中国的银行卡密码是 6 位数，美国的借记卡一般是 4 位数。网站、App 的登录密码是 password，银行卡密码是 PIN；PIN 是 personal identification number 的缩写，美国人也常说 PIN number。
+@v: savings | = | n. | ˈseɪvɪŋz | 存款；储蓄 | 存钱、开储蓄账户、谈理财 | a savings account；my savings；put money into savings | I keep part of my salary in a savings account. | 我把一部分工资放在储蓄账户里。 | 「存款」这个意思总带 s：a savings account，不说 ✗ a saving account。中国的「定期」可以说 a fixed-term deposit，美国叫 a CD（certificate of deposit）。来自动词 save（Day 40）。
+@v: interest | = | n. | ˈɪntrəst | 利息；利率 | 存钱、贷款 | pay interest；earn interest；a low interest rate | The interest on my savings is really low. | 我存款的利息特别低。 | interest 还有「兴趣」的意思（Day 27 学过 interested / interesting），在银行里就是「利息」：interest rate＝利率。这几年中国的存款利率一降再降，活期利息几乎可以忽略。美式常读两个音节：IN-trest。
+@v: fee | = | n. | fiː | 手续费；（服务）费用 | 汇款、跨行取现、办卡的手续费 | a transfer fee；an ATM fee；no fee | Is there a fee for this service? | 这项服务收手续费吗？ | 银行、机构收的「手续费」说 fee，不说 ✗ procedure fee；坐车的「车费」是 fare，学费是 tuition。问「收不收费」最简单：Is there a fee?
+@v: international | = | adj. | ˌɪntərˈnæʃənl | 国际的；跨境的 | 汇款、电话、航班 | an international transfer；international students；an international call | Is this an international flight? | 这是国际航班吗？ | 银行里的「境外」「跨境」「海外」一般都译成 international 或 overseas。重音在 na：in-ter-NA-tion-al；美国人说快了常吞掉第一个 t。
+@v: transfer | = | n./v. | ˈtrænsfɜːr | 转账；汇款 | 转钱给别人、往国外汇款 | a bank transfer；an international transfer；transfer money to… | I'll transfer the money tomorrow. | 我明天把钱转过去。 | 名词重音在前 TRANS-fer，动词常读 trans-FER；国际电汇也叫 wire transfer。口语里更常说 send money：I sent him 500 dollars.
+@v: exchange rate | = | phr. | ɪksˈtʃeɪndʒ ˌreɪt | 汇率 | 换外币、跨境汇款、出国 | today's exchange rate；the exchange rate for dollars；a good exchange rate | The exchange rate changes every day. | 汇率每天都在变。 | 问汇率说 What's the exchange rate?，比 ✗ How much is the exchange rate? 自然。银行牌价分「买入价」（buying rate）和「卖出价」（selling rate）：你用人民币买美元，看的是银行的卖出价。
+@v: dollar | = | n. | ˈdɑːlər | 美元；（美国等国的）元 | 说美元金额、汇率 | 500 dollars；US dollars；… yuan to the dollar | It's about seven yuan to the dollar. | 大约七块人民币兑一美元。 | 「美元」「美金」都说 dollars（US dollars），复数加 s：500 dollars；人民币说 yuan，单复数一样：500 yuan，不说 ✗ 500 yuans。书面写 $500，读作 five hundred dollars。
+@v: currency | = | n. | ˈkɜːrənsi | 货币 | 换钱、出国、汇款 | foreign currency；local currency；exchange currency | What currency do they use in Thailand? | 泰国用什么货币？ | currency 说的是「货币的种类」（人民币、美元），钱的多少用 money：✗ I don't have much currency. → ✓ I don't have much money.；「外币」是 foreign currency（Day 31 学过 foreign）。
+@v: loan | = | n. | loʊn | 借款；贷款 | 借钱给别人、向银行贷款 | a loan；a student loan；take out a loan | He took out a loan to buy a car. | 他贷款买了一辆车。 | 向银行「贷款」是 take out a loan，「房贷」是 mortgage；亲友之间说「这钱是借你的，不是送你的」：It's a loan, not a gift.；日常「借给别人」更常用动词 lend（Day 15）。
+@v: pay me back | pay back | phr. | ˌpeɪ mi ˈbæk | 还钱（给我） | 借钱、还钱 | pay sb back；pay back a loan；pay it back | Can I pay you back next week? | 我下周还你行吗？ | 「还钱」口语最常说 pay sb back；return the money 也对，但比较正式。代词放中间：pay **me** back，不说 ✗ pay back me。
+@v: take out | = | phr. | ˌteɪk ˈaʊt | 取（钱）；拿出来 | 在柜台、ATM 取钱 | take out money；take out cash；take out a loan | I need to take out some cash for the trip. | 我得为这趟旅行取点现金。 | 「取钱」口语说 take out，正式说 withdraw；「存钱」说 put money in 或 deposit。take out 还能表示「贷款」（take out a loan），名词 takeout 是「外卖」，要看上下文。
+@v: balance | = | n. | ˈbæləns | 余额 | 查余额、转账前看余额 | check your balance；a zero balance；account balance | You can check your balance in the app. | 你可以在 App 里查余额。 | 「余额不足」说 There isn't enough money in my account. 或 insufficient funds（屏幕上的说法）；balance 还有「平衡」的意思：work-life balance。重音在前：BAL-ance。
+@v: withdraw | = | v. | wɪðˈdrɔː | 取（款）；提（现） | 在 ATM 或柜台取钱 | withdraw cash；withdraw money from…；a withdrawal limit | You can withdraw up to 20,000 yuan a day at the ATM. | 在 ATM 上每天最多可以取两万块。 | withdraw 比 take out 正式，ATM 屏幕上写的是 Withdrawal（取款）；过去式是 withdrew，不是 ✗ withdrawed。重音在后：with-DRAW。
+@v: ATM | = | n. | ˌeɪ tiː ˈem | 自动取款机 | 取现、查余额 | at the ATM；use the ATM；an ATM card | Is there an ATM near here? | 这附近有取款机吗？ | 第一个字母读 `/eɪ/`，开头是元音，所以是 **an** ATM；三个字母分开读，重音在 M 上。美国人口语里也常说 ATM machine（M 本来就是 machine），听到别奇怪。
+@v: statements | statement | n. | ˈsteɪtmənts | （银行）对账单；流水 | 查账、办签证、在美国租房证明收入 | a bank statement；monthly statements；print a statement | I need six months of bank statements for my visa. | 办签证我需要六个月的银行流水。 | 中文的「银行流水」就是 bank statements（常用复数）；statement 还有「声明」的意思：make a statement。
+
+@diff: 「开户」——open an account
+@d_cn: 在银行开一个新账户，拿到一张新卡。
+@d_en: I'd like to open an account. / I opened an account at the bank near my office.
+@d_why: 「开户」的「户」不是「户口」的户，英文就是 **account**（账户）：**open an account**，销户是 close an account；「办张新卡」可以说 get a new card。两国开户的流程很不一样：在中国，要带**身份证**、用本人实名的手机号，现在银行还常问**开户用途**、要单位证明（防电信诈骗），新卡开始时可能有转账限额；在美国，要带护照或驾照、地址证明和社会安全号（SSN），一般开两个账户：**checking account**（日常收付）和 **savings account**（存钱）。在柜台说来意，用 **I'd like to…** 比 I want to… 更客气（Day 5 学过 I'd like）。
+@d_when: 在银行柜台、大堂经理面前说明来意。
+@d_vs: **I'd like to open an account.** 我想开个户。\n**I'd like to close my account.** 我想销户。\n**It's for my salary.** 用来发工资的。（回答开户用途）\n✗ I want to open a household.
+@d_task: 用英文跟柜员说：「你好，我想开个户，用来发工资。这是我的身份证。」 | Hi. I'd like to open an account for my salary. Here's my ID.
+@diff: 「取钱 / 存钱」——take out / withdraw；put money in / deposit
+@d_cn: 从账户里把现金取出来；把钱存进账户。
+@d_en: I want to take out two thousand yuan. / I'd like to withdraw some cash. / I'd like to put some money in. / I'd like to deposit 5,000 yuan.
+@d_why: 中文「取」「存」各一个字，英文各有口语和正式两种说法：取钱口语说 **take out**，正式（ATM 屏幕、银行单据）说 **withdraw**；存钱口语说 **put money in**，正式说 **deposit**（Day 45 的「押金」也是这个词）。中文的「存钱」还常常是「攒钱」的意思，那要说 **save money**（Day 40 学过 save）：I'm saving money for a trip. 另外，中国人现在几乎不用现金，年轻人到柜台取现金反而少见；美国刷卡很普遍，但给小费、买二手东西还常用现金。
+@d_when: 在柜台、ATM 办理存取款；和朋友聊攒钱计划。
+@d_vs: **I want to take out two thousand yuan.** 我想取两千块。（口语）\n**I'd like to withdraw 2,000 yuan.** 我想取 2000 元。（正式）\n**I'd like to deposit 5,000 yuan.** 我想存 5000 元。\n**I'm saving money for a new laptop.** 我在攒钱买新电脑。\n✗ I want to get out money.
+@d_task: 用英文说：① 我要去 ATM 取五百块。② 我每个月攒一千块钱。 | ① I need to take out 500 yuan from the ATM. ② I save 1,000 yuan every month.
+@diff: 「转账、汇款」——transfer money / send money
+@d_cn: 把钱从自己的账户转给别人，或汇到国外。
+@d_en: How much is the fee for an international transfer? / I'll transfer the money tonight. / I sent my cousin 500 dollars.
+@d_why: 中文「转账」「汇款」直译常变成 ✗ turn money 或 remit money（remit 太书面，几乎只在银行文件里见到）。英文正式说 **transfer money**（名词 a transfer），口语更常说 **send money**：I'll send you the money. 跨境汇款叫 **an international transfer** 或 **a wire transfer**。在中国，个人往国外汇款要先用人民币**购汇**（buy foreign currency），每人每年有等值 5 万美元的额度，还要说明用途；手续费加电报费，小额汇款算下来比例很高。美国人之间转小钱常用手机 App，就像我们用微信、支付宝转账。
+@d_when: 给朋友转钱、给房东交房租、给在国外的家人汇款。
+@d_vs: **How much is the fee for an international transfer?** 国际汇款手续费多少？\n**I'll transfer the rent to the landlord tonight.** 我今晚把房租转给房东。\n**Can you send me the money on WeChat?** 你能用微信把钱转给我吗？\n✗ I'll turn the money to you.
+@d_task: 用英文问柜员：「往美国汇款几天到账？手续费多少？」 | How long does a transfer to the US take? And how much is the fee?
+@diff: 「工资」——salary / wage / pay
+@d_cn: 工作挣到的钱。
+@d_en: My salary goes into this account. / He earns an hourly wage. / The pay is good. / I get paid monthly.
+@d_why: 中文一个「工资」全包了，英文要分：**salary** 是固定的月薪、年薪（多是坐办公室的工作）；**wage** 是按小时、按天算的工资（服务员、兼职）；**pay** 最笼统、最口语：The pay is good.；「发工资」说 **get paid**：I get paid on the 10th.（不说 ✗ The company sends salary.）。中美习惯也不同：中国一般每月发一次，聊工资说月薪；美国很多公司**两周发一次**（biweekly），谈工资说**年薪**：a salary of 60,000 dollars a year。美国人一般不当面问别人挣多少钱，这个话题比在中国更私密。
+@d_when: 说工资卡、发薪日、谈工作待遇。
+@d_vs: **My salary goes into this account.** 我的工资发到这个账户。\n**Part-time workers earn an hourly wage.** 兼职按小时拿工资。\n**When do we get paid?** 我们什么时候发工资？\n✗ When does the company send salary?
+@d_task: 用英文说：「我们公司每月 10 号发工资，工资卡是这家银行的。」 | We get paid on the 10th of every month. Our salary goes into an account at this bank.
+
+@core: I'd like to open an account. | 在银行说明来意 | open an account / close my account / get a new card | 正式：I'd like to open a savings account, please.｜随意：Hi, I need to open an account.
+@core: It's for my salary. | 回答「开户用途是什么」 | my salary / paying rent / my savings | 正式：I'll be using it to receive my salary.｜随意：It's for my paycheck.
+@core: Please fill out this form. | 柜员、前台请你填表；你也可以这样请别人填 | this form / this application / both pages | 正式：Could you please complete this form?｜随意：Just fill this out.
+@core: How much is the fee for…? | 问手续费 | an international transfer / a new card / using another bank's ATM | 正式：What are the fees for an international transfer?｜随意：Is there a fee?
+@core: What's today's exchange rate? | 问汇率 | for US dollars / for euros / for Japanese yen | 正式：Could you tell me today's exchange rate for US dollars?｜随意：What's the rate today?
+@core: I want to take out two thousand yuan. | 取钱 | take out / withdraw；two thousand yuan / some cash | 正式：I'd like to withdraw 2,000 yuan, please.｜随意：I need some cash.
+@core: It's a loan. He'll pay me back… | 说明钱是借的、什么时候还 | in the summer / next month / after payday | 正式：It's a loan. He'll repay me in July.｜随意：He'll pay me back later.
+@core: You can check your balance in the app. | 告诉别人在哪儿查余额、账单 | your balance / your statements / your transfers | 正式：Your account balance is available in our mobile app.｜随意：Just check the app.
+
+@pw: salary | ˈsæləri | 3 个音节 SAL·a·ry | 重音在前，`/æ/` 嘴张大；别读成 celery（芹菜）`/ˈseləri/`
+@pw: international | ˌɪntərˈnæʃənl | 5 个音节 in·ter·NA·tion·al | 主重音在 na；说快了第一个 t 常被吞掉：in-er-NA-shə-nl
+@pw: withdraw | wɪðˈdrɔː | 2 个音节 with·DRAW | 重音在后；th 读 `/ð/`，舌尖轻咬
+@pw: signature | ˈsɪgnətʃər | 3 个音节 SIG·na·ture | g 要发音（sign 里的 g 不发音，signature 里要发）
+@pw: currency | ˈkɜːrənsi | 3 个音节 CUR·ren·cy | cur 卷舌，读 `/kɜːr/`；重音在前
+@pw: interest | ˈɪntrəst | 美式常读 2 个音节 IN·trest | 中间的 e 不发音，不要读成 in-ter-est 三个完整音节
+@pw: ATM | ˌeɪ tiː ˈem | 3 个字母 A·T·M | 字母分开读，重音在最后的 M 上
+@ps: I'd **like** to **op**en‿an‿ac**count**. | I'd like to 弱读成 `/aɪd ˈlaɪk tə/`；open an account 连成一串：o-pe-na-na-count。
+@ps: **Please** fill‿**out** this **form**. | fill out 连读成 fi-lout；form 读重。
+@ps: How **much** is the **fee** / for‿an inter**na**tional **trans**fer? | for an 弱读成 `/fərən/`；transfer 在这里是名词，重音在 trans。
+@ps: I **want** to take‿**out** / two **thou**sand **yu**an. | want to 说快了会变成 wanna；take out 连读；two thousand 要读清楚。
+@pnote: 本课的弱读：**to** 读 `/tə/`（I'd like to…），**for** 读 `/fər/`（for an international transfer），**have** 在 Do you have your ID? 里也常读得很轻。柜员说话快时，**I'd like to** 听起来像一个词 `/aɪdlaɪktə/`，**want to** 变成 **wanna**（Do you wanna open a savings account?）——听懂就行，自己写表、写邮件时仍写 want to。
+@pnote: 汇率和小数的读法：7.15 读 **seven point one five**，小数点后一位一位地读，不读 ✗ seven point fifteen；口语报汇率常省掉 point：**seven fifteen to the dollar**。书面写 $500，口语读 five hundred dollars——$ 写在前面，读在后面；2,000 读 two thousand，thousand 不加 s。
+@lfocus: I'd like to / want to（wanna）的弱读
+@lfocus: open an account 的连读
+@lfocus: 汇率数字：seven point one five
+@dict: S5–S7
+@dict: S19–S21
+@res: 在 youglish.com 输入 "open an account"，选 US
+
+@mimic: 跟读【C】S4–S23：先正常语速逐句跟读，重点模仿 I'd like to open an account. 的连读和 seven point one five 的读法；再由你演林晓，手机朗读柜员的台词，完整对一遍并录音。
+@swap: I'd like to open an account. | 换业务：close my account / get a new card / change my PIN | I'd like to change my PIN.
+@swap: How much is the fee for an international transfer? | 换业务：a new card / using another bank's ATM / a transfer to Hong Kong | How much is the fee for using another bank's ATM?
+@swap: I want to take out two thousand yuan. | 换动作和金额：put in / deposit；500 yuan / three thousand yuan | I want to put in three thousand yuan.
+@swap: What's today's exchange rate? | 换货币：for euros / for Japanese yen / for Hong Kong dollars | What's today's exchange rate for euros?
+@free: 到了银行柜台，你想开户（用来发工资），并递上身份证 | Hi. I'd like to open an account for my salary. Here's my ID.
+@free: 柜员问你要不要顺便存个定期（你刚交完房租，没什么钱） | Maybe later, thanks. I just paid my rent, so I don't have much money right now.
+@free: 你想给在美国读书的表哥汇 300 美元，问手续费和到账时间 | I'd like to send 300 dollars to my cousin in the US. How much is the fee, and how long does it take?
+@free: 同事想跟你借 1000 块，说下个月发了工资就还。你答应，并说不着急 | Sure, no problem. You can pay me back after payday. There's no rush.
+@output: 录 1.5 分钟「我去银行办事」，或写 8–10 句：去哪个网点、为什么去 → 开户要什么（ID / fill out a form / signature / PIN）→ 问了什么费用和汇率 → 取钱、存钱或转账 → 和你知道的美国银行有什么不同。
+@output_sample: Last Saturday, I went to a bank branch near my apartment. My company pays our salaries through this bank, so I needed to open an account. First, I showed the teller my ID. Then I filled out a form and signed my name. I also set a six-digit PIN. The teller asked about a savings plan, but I didn't have much money after paying my rent. I asked about the fee for an international transfer because my cousin is studying in the US. It's about 200 yuan, and the exchange rate was 7.15 yuan to the dollar. I'm going to lend him 500 dollars, and he'll pay me back in the summer. Finally, I took out some cash at the ATM.
+
+@check: 「开户」怎么说？跟柜员说明来意时，I'd like to 和 I want to 哪个更好？ | open an account；I'd like to open an account. 比 I want to… 更客气。
+@check: 「取钱」「存钱（存进银行）」「攒钱」分别怎么说？ | 取钱：take out / withdraw money；存钱：put money in / deposit；攒钱：save money。
+@check: 柜员说 Its balance is zero.，是什么意思？你可以怎么办？ | 卡里余额是零，没有钱；可以先存钱进去，或者用另一张卡取钱。
+@check: salary 和 wage 有什么区别？「我们每月 10 号发工资」怎么说？ | salary 是固定的月薪、年薪，wage 是按小时或按天算的工资；We get paid on the 10th of every month.
+@check: 7.15 和 $500 用英文怎么读？ | seven point one five（口语报汇率也说 seven fifteen）；five hundred dollars。
+@next1: 不看书说出 5 个锚点句：S4、S7、S13、S15、S19
+@next1: 用 take out / put in / send money 各说一句和钱有关的话
+@next7: 银行 5 句：I'd like to open an account. / Please fill out this form. / How much is the fee for…? / What's today's exchange rate? / I want to take out…
+@next7: 说出 salary / wage / pay 的区别，以及中美发工资的两点不同
