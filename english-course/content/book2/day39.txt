@@ -1,0 +1,161 @@
+@day: 39
+@week: 2
+@title_cn: 包落在地铁上了
+@title_en: I Left My Backpack on the Subway
+@topic: 丢东西：说清落在哪儿、怎么落下的、东西长什么样，在失物招领处找回来
+@think_short: while + 长动作 vs when + 短动作｜during + 名词 vs while + 句子｜「落下」left sth on…｜「长什么样」What does it look like?
+
+@goal_scene: 早上在地铁上一边打电话一边把背包放在座位上，下车时忘了拿。到了失物招领处，你要说清楚包落在哪儿、怎么落下的，再把包的样子、牌子、颜色和里面的东西描述清楚。
+@goal_expr: I left my backpack on the subway. / While I was talking on the phone, I put it on the seat. / What does it look like? — It's a black backpack with a small pocket in front. / What's inside? / As soon as I…, I realized… / Someone handed it in this morning.
+@goal_vocab: 20 个重点词 + 5 个短语：随身物品、颜色与外观、失物招领、讲经过的连接词
+@done: 用 I left my … on / at… 说清东西落在哪里，并用 While I was -ing, I… 讲出是怎么落下的
+@done: 被问 What does it look like? 时，用颜色、牌子、口袋、里面有什么，2–3 句话描述一样东西
+@done: 分清 while + 句子和 during + 名词，并用 As soon as I…, I realized… 说「一……就发现」
+
+@warmup: 我正在做晚饭，突然停电了。 | I was cooking dinner when the power went out. | D38
+@warmup: 停电的时候你在干什么？ | What were you doing when it happened? | D38
+@warmup: 我在洗澡呢。 | I was taking a shower. | D38
+@warmup: 十点钟来电了。 | The power came back on at ten. | D38
+@warmup: 四十年前，这里还是个小渔村。 | Forty years ago, this was a fishing village. | D36
+@warmup: 到了楼下，服务员拿来一份菜单。 | Downstairs, the waiter brings a menu. | D5
+
+@scene: 周三早上，林晓在地铁上接到维修工的电话，约好今晚来换旧电线。她一边说一边把背包放在旁边的座位上，差点坐过站，匆匆跳下了车。一走进公司，她才发现背上空空的——包里有钱包、钥匙、雨伞，还有她的英文日记本。张涛让她赶紧去地铁站的失物招领处问问。
+@sp: 人物关系 | 林晓 ↔ 地铁工作人员：第一次打交道的陌生人，礼貌、按流程问问题；林晓 ↔ 张涛：经理，很体谅
+@sp: 沟通目的 | 让工作人员听明白：包落在哪儿、怎么落下的、长什么样、里面有什么，好帮她核对找回来
+@sp: 已知信息 | 林晓不知道有没有人捡到包；工作人员不知道包的样子，只能靠林晓的描述去核对
+@sp: 表达重点 | 说明情况（I left my backpack on the subway.）→ 描述外观（It's a black backpack with…）→ 牌子、颜色、里面有什么 → 讲经过（While I was talking on the phone, I…）→ 结果（Someone handed it in this morning.）
+
+@story_title: Episode 39 · Lost and Found
+@story_type: 叙述 + 对话
+@s: On Wednesday morning, the repairman called Lily on the subway. | 周三早上，林晓在地铁上接到了维修工的电话。
+@s: **During** the call, she almost missed her stop, so she got off in a hurry. | 打电话的时候，她差点坐过站，只好匆匆下了车。
+@s: **As soon as** she walked into the office, she **realized** something was wrong. | 一走进公司，她就觉得不对劲。
+@s: Her **backpack** wasn't on her back! | 她背上的背包不见了！
+@s: Lily: Tom, I left my backpack on the subway. | 林晓：张涛，我把背包落在地铁上了。
+@s: Tom: Go to the **lost and found** at the station. Take your time. | 张涛：去地铁站的失物招领处问问吧，别着急。
+@br:
+@s: At the station, Lily talked to a **staff** member. | 到了地铁站，林晓找到一位工作人员。
+@s: Staff: Can you **describe** it? **What does it look like**? | 工作人员：您能描述一下吗？包是什么样的？
+@s: Lily: It's a **black** backpack with a small **pocket** in front. | 林晓：是个黑色双肩包，前面有个小口袋。
+@s: Staff: What **brand** is it? | 工作人员：什么牌子的？
+@s: Lily: It's not a famous brand. I bought it in Changsha. | 林晓：不是什么名牌，是我在长沙买的。
+@s: Staff: What's **inside**? | 工作人员：里面有什么？
+@s: Lily: My **wallet**, my **keys** and a **gray** **umbrella**. | 林晓：我的钱包、钥匙，还有一把灰色的雨伞。
+@s: Staff: What **color** is the wallet? | 工作人员：钱包是什么颜色的？
+@s: Lily: It's **brown**. And my English diary is in the pocket. | 林晓：棕色的。还有，前面口袋里有我的英文日记本。
+@s: Staff: OK. So what happened? | 工作人员：好的。那是怎么落下的？
+@s: Lily: **While** I was talking on the phone, I put it on the **seat**. | 林晓：我打电话的时候，把包放在了座位上。
+@s: Lily: Then I got off and **left it behind**. I'm so **careless**! | 林晓：结果下车时忘了拿。我真是太粗心了！
+@br:
+@s: The staff member checked a list and smiled. | 工作人员查了查登记表，笑了。
+@s: Staff: Good news. Someone **handed it in** this morning. | 工作人员：好消息，今天早上有人把它交上来了。
+@s: Lily: Really? Can I give the person a **reward**? | 林晓：真的吗？我能给那个人一点酬谢吗？
+@s: Staff: She didn't leave her name. Some people are just **honest**. | 工作人员：她没留名字。有些人就是这么拾金不昧。
+@s: Lily opened her backpack. Everything was still inside. | 林晓打开背包，东西一样都没少。
+@s: Lily: Thank you so much! I'll be more careful next time. | 林晓：太感谢了！下次我一定小心。
+
+@v: During | during | prep. | ˈdʊrɪŋ | 在……期间；在……的时候 | 后面接一件事、一段时期的名称 | during the call；during the meeting；during the Spring Festival | Please don't use your phone during the meeting. | 开会的时候请不要玩手机。 | during 后面接名词，不接句子：✗ during I was talking → ✓ while I was talking；也不接一段时长：✗ during two hours → ✓ for two hours。
+@v: As soon as | as soon as | phr. | əz ˈsuːn əz | 一……就…… | 说两件事紧挨着发生 | as soon as I got home；I'll call you as soon as…；as soon as possible（D19） | I'll call you as soon as I get there. | 我一到就给你打电话。 | 说将来的事，as soon as 后面用一般现在时：✓ as soon as I get there，✗ as soon as I will get there；两个 as 都弱读成 `/əz/`。
+@v: realized | realize | v. | ˈriːəlaɪzd | 意识到；（突然）发现 | 说突然明白一件事，多半是不太好的事 | realize (that)…；suddenly realize；I didn't realize… | I didn't realize it was so late. | 我没意识到已经这么晚了。 | 「（突然）发现包不见了」是心里一下子意识到，用 realize 最自然；find 更多是「找到、发现（某样东西）」；美式拼写 -ize，英式 -ise。
+@v: backpack | = | n. | ˈbækpæk | 双肩包；背包 | 上班、上学、旅行背的包 | a black backpack；carry a backpack；in my backpack | I carry my laptop in my backpack. | 我把笔记本电脑放在双肩包里背着。 | 中文都叫「包」，英文要分：双肩包 backpack，手提包 bag / handbag，钱包 wallet；「在包里」用 in my backpack。
+@v: lost and found | = | phr. | ˌlɔːst ən ˈfaʊnd | 失物招领处 | 在地铁站、商场、学校找丢了的东西 | the lost and found；check the lost and found；at the lost and found | Let's check the lost and found at the front desk. | 我们去前台的失物招领处看看吧。 | 前面通常加 the；and 弱读成 `/ən/`，三个词连成一串；英式英语也叫 lost property。
+@v: staff | = | n. | stæf | 工作人员；（全体）员工 | 地铁站、商店、公司的工作人员 | a staff member；the station staff；our staff | Ask a staff member if you need help. | 需要帮忙就问工作人员。 | staff 指「全体员工」，一个人说 a staff member，不说 ✗ a staff；一般不加 -s：✗ staffs；美式 a 读 `/æ/`。
+@v: describe | = | v. | dɪˈskraɪb | 描述；形容 | 描述东西的样子、事情的经过 | describe it；describe your bag；Can you describe…? | Can you describe the problem? | 你能描述一下是什么问题吗？ | describe 后面直接跟东西，不加 about：✗ describe about the bag → ✓ describe the bag；名词是 description。
+@v: What does it look like | what does it look like? | phr. | ˌwʌt dəz ɪt ˈlʊk laɪk | 它长什么样？ | 问东西或人的外观 | What does it look like?；What does he look like?；What does your bag look like? | What does your new office look like? | 你们新办公室是什么样的？ | 不说 ✗ How does it look like?——like 已经是「像」，问「像什么」要用 what；How does it look? 是问「看起来怎么样、好看吗」。
+@v: black | = | adj. | blæk | 黑色的 | 描述颜色 | a black backpack；black coffee；in black | I usually drink black coffee. | 我平时喝不加奶的黑咖啡。 | 颜色放在名词前：a black backpack，✗ a backpack black；black coffee 是「不加奶、不加糖的咖啡」；a 读 `/æ/`，嘴巴张大。
+@v: pocket | = | n. | ˈpɑːkɪt | 口袋；（包上的）小袋 | 描述包、衣服上的口袋 | a small pocket；in my pocket；a front pocket | My keys are in my coat pocket. | 我的钥匙在外套口袋里。 | 「在口袋里」用 in：in my pocket；「包前面有个口袋」说 a pocket in front / on the front；o 读 `/ɑː/`。
+@v: brand | = | n. | brænd | 品牌；牌子 | 描述东西是什么牌子 | What brand is it?；a famous brand；a local brand | What brand is your phone? | 你的手机是什么牌子的？ | 「什么牌子」说 What brand…?，不说 ✗ What card…?；「名牌」可以说 a famous brand / a big brand。
+@v: inside | = | adv./prep. | ˌɪnˈsaɪd | 在里面 | 说包里、屋里有什么 | What's inside?；inside the box；inside my bag | It's cold outside. Let's wait inside. | 外面冷，我们在里面等吧。 | 「里面有什么」说 What's inside?；inside 可以单独放句尾（Let's wait inside.），in 后面一般要接名词：in the box。
+@v: wallet | = | n. | ˈwɑːlɪt | 钱包（放卡和现金的小皮夹） | 丢钱包、付钱 | a brown wallet；lose my wallet；in my wallet | I don't carry much cash in my wallet. | 我钱包里不放多少现金。 | wallet 是装卡和钞票的皮夹，女士的手包美式叫 purse；美国人说 I don't have my wallet. 常常就是「我没带钱」。
+@v: keys | key | n. | kiːz | 钥匙 | 开门、丢钥匙、拿钥匙 | my keys；house keys；lose my keys | I can't find my keys anywhere! | 我到处都找不到钥匙！ | 一串钥匙通常用复数 keys；第一册学过 key card（D3，门禁卡）；key 也是「关键的」：the key point。
+@v: gray | = | adj. | greɪ | 灰色的 | 描述颜色 | a gray umbrella；dark gray；gray hair | My grandpa has gray hair. | 我爷爷头发花白了。 | 美式拼写 gray，英式 grey；「白头发」多说 gray hair，全白了才说 white hair。
+@v: umbrella | = | n. | ʌmˈbrelə | 雨伞 | 下雨天、丢伞、借伞 | an umbrella；bring an umbrella；open the umbrella | Take an umbrella. It's going to rain. | 带把伞吧，要下雨了。 | 开头是元音，所以是 an umbrella；「撑伞」说 open an umbrella，「收伞」说 close it；重音在 brel。
+@v: color | = | n. | ˈkʌlər | 颜色 | 问和描述东西的颜色 | What color is it?；my favorite color；dark colors | What color is your new phone? | 你的新手机是什么颜色的？ | 「什么颜色」说 What color is it?，不说 ✗ What's color?；美式拼写 color，英式 colour；o 读 `/ʌ/`。
+@v: brown | = | adj. | braʊn | 棕色的；褐色的 | 描述颜色 | a brown wallet；brown rice；dark brown | She has dark brown hair. | 她是深棕色的头发。 | 中文的「咖啡色」英文就是 brown，不说 ✗ coffee color；ow 读 `/aʊ/`，嘴巴从大到小。
+@v: While | while | conj. | waɪl | 在……的时候；在……的过程中 | 后面接一个正在进行的动作（完整的句子） | while I was talking；while you're waiting；while I'm here | While you were out, Tom called. | 你出去的时候，张涛来过电话。 | while 后面接「主语 + 动词」，常接 was / were -ing；只接名词要用 during；wh 读 `/w/`，h 不发音。
+@v: seat | = | n. | siːt | 座位 | 坐车、开会、在餐厅找位子 | on the seat；an empty seat；Is this seat taken? | Excuse me, is this seat taken? | 打扰一下，这个座位有人吗？ | 「在座位上」用 on the seat；第一册学过 Have a seat.（D1，请坐）；ea 读长音 `/iː/`，别读成 sit `/ɪ/`。
+@v: left it behind | leave sth behind | phr. | ˌleft ɪt bɪˈhaɪnd | 把……落下；忘了带走 | 东西落在车上、餐厅、酒店里 | leave sth behind；leave it behind；leave nothing behind | Check your seat. Don't leave anything behind. | 看看座位，别落下东西。 | 东西放在中间：leave my bag behind / leave it behind，代词一定放中间：✗ leave behind it；left 是 leave 的过去式（D9 学过「离开」，这里是「落下」）。
+@v: careless | = | adj. | ˈkerləs | 粗心的；不小心的 | 说自己或别人做事马虎 | so careless；a careless mistake；careless with money | It was a careless mistake. I'll fix it. | 这是个粗心的错误，我来改。 | careless = care + less（没有小心），反义词是 careful（D13）；说自己 I'm so careless! 是自责，当面说别人 You're careless. 很重，少用。
+@v: handed it in | hand in | phr. | ˌhændɪd ɪt ˈɪn | 交上来；上交（捡到的东西、作业、文件） | 把捡到的东西交给工作人员；交报告、交作业 | hand in a wallet；hand in my report；hand it in | Please hand in your report by Friday. | 请在周五前把报告交上来。 | 代词放中间：hand it in，✗ hand in it；把捡到的东西交上去，美国人也常说 turn it in；-ed 读 `/ɪd/`，handed 是两个音节。
+@v: reward | = | n. | rɪˈwɔːrd | 酬谢；奖励 | 答谢捡到东西的人、奖励好的表现 | give sb a reward；a small reward；as a reward | As a reward, Tom took the team out for dinner. | 作为奖励，张涛请团队出去吃了顿饭。 | reward 是对好行为的回报，比赛的「奖品」是 prize（Day 41）；不说 ✗ reward money to him，说 give him a reward；重音在后 re·WARD。
+@v: honest | = | adj. | ˈɑːnɪst | 诚实的；拾金不昧的 | 夸人诚实、说话坦白 | an honest person；be honest；to be honest（Day 59） | Thank you for being so honest. | 谢谢你这么诚实。 | 开头的 h 不发音，所以是 an honest person，✗ a honest person；中文「拾金不昧」英文就说 honest。
+
+@diff: while + 长动作 vs when + 短动作
+@d_cn: 「……的时候」：在一件事进行的过程中，发生了另一件事。
+@d_en: While I was talking on the phone, I put it on the seat. / I was talking on the phone when the train stopped.
+@d_why: 中文一个「……的时候」全包了；英文要分 **while** 和 **when**。**while** 的意思是「在……的整个过程中」，后面接**持续的动作**，所以常跟 was / were -ing：while I was talking…；**when** 后面多接**一下子就发生的短动作**：when the train stopped / when the doors closed。Day 38 学的是「长动作 + when + 短动作」，今天把顺序倒过来：「While + 长动作, 短动作」——意思一样，只是先交代背景。✗ While the train stopped, I was talking.（stop 是一下子的事，不能跟 while）
+@d_when: 讲故事交代背景用 while + 正在进行的事；说突然发生的那一下用 when + 一般过去时。
+@d_vs: **While I was talking on the phone, I put it on the seat.** 我打电话的时候，把包放在了座位上。\n**I was talking on the phone when the train stopped.** 我正打着电话，车停了。\n✗ While the doors closed, I was talking.\n✗ While I talking on the phone, …
+@d_task: 用 while 说：① 我等地铁的时候，给妈妈发了条消息。② 林晓做饭的时候，停电了。 | ① While I was waiting for the subway, I sent my mom a message. ② While Lily was cooking, the power went out.
+@diff: during + 名词 vs while + 句子
+@d_cn: 「……的时候」「在……期间」后面有时只是一件事的名称（开会时、春节期间），有时是一个完整的句子（我们开会的时候）。
+@d_en: during the call / during the meeting / during the Spring Festival ↔ while I was on the call / while we were having the meeting
+@d_why: 中文「……的时候」后面接什么都行：「开会的时候」「我们开会的时候」。英文按后面的结构分工：**during + 名词**（during the call），**while + 主语 + 动词**（while I was talking）。最常见的错是混着用：✗ during I was talking / ✗ while the meeting。还有一个坑：during 后面接的是「一件事、一个时期」，不接一段时长：「两个小时里」说 for two hours，不说 ✗ during two hours。
+@d_when: 后面只有一个名词（电话、会议、假期、旅行）→ during；后面有主语和动词 → while。
+@d_vs: **During the call, she almost missed her stop.** 打电话的时候，她差点坐过站。\n**While she was on the call, she almost missed her stop.**（意思一样）\n**I was in Changsha during the Spring Festival.** 春节期间我在长沙。\n✗ during I was talking ✗ while the meeting ✗ during two hours
+@d_task: 用 during 或 while 说：① 开会的时候请把手机静音。② 我等你的时候，喝了杯咖啡。 | ① Please mute your phone during the meeting. ② While I was waiting for you, I had a coffee.
+@diff: 「我把包落在地铁上了」——I left my backpack on the subway.
+@d_cn: 东西忘在某个地方，没带走。
+@d_en: I left my backpack on the subway. / I left my keys at home. / I forgot my keys.
+@d_why: 中文「落」「忘」常常混着说：「我把包忘在地铁上了」。直译成 ✗ I forgot my backpack on the subway. 美国人能猜到意思，但不地道：**forget** 后面一般不接地点，只说「忘了带」：I forgot my umbrella.；只要说出**落在哪儿**，就用 **leave + 东西 + 地点**：I left my keys at home.。left 在第一册学过「离开」（D9），这里是 leave 另一个很常用的意思「把……留在（某处）」。不说地点时，也可以说 I left it behind.。如果说 I lost my backpack.，意思是「包丢了、找不到了」，不一定是自己落下的。
+@d_when: 说出东西落在哪儿 → left + 东西 + on / in / at + 地点；只说忘了带 → forgot + 东西；不知道丢在哪 → lost。
+@d_vs: **I left my backpack on the subway.** 我把包落在地铁上了。\n**I left my phone at home.** 我把手机落在家里了。\n**I forgot my umbrella.** 我忘带伞了。（不说地点）\n**I lost my wallet.** 我钱包丢了。（找不到了）\n✗ I forgot my backpack on the subway.
+@d_task: 用英文说：① 我把雨伞落在餐厅了。② 我忘带钥匙了。 | ① I left my umbrella at the restaurant. ② I forgot my keys.
+@diff: 「它长什么样？」——What does it look like?
+@d_cn: 问一样东西（或一个人）的外观。
+@d_en: What does it look like? — It's a black backpack with a small pocket in front.
+@d_why: 中文「什么样」「怎么样」里都有个「样」，很多人一开口就是 ✗ How does it look like?。英文里 **like** 已经是「像……」，整句问的是「它像什么」，所以疑问词用 **What**：What does it look like?。How does it look? 也存在，但意思是「（你觉得）它看起来怎么样、好不好看」。回答用 **It's a + 颜色 + 东西 + with + 特点**：with a small pocket in front / with my name on it。问他 / 她时，does 不变，look 不加 s：What does he look like?（Day 56 还会讲怎么说人的长相）。
+@d_when: 失物招领、找人、描述你要买的东西；回答顺序：颜色 + 东西 + with + 特点，再补充牌子和里面有什么。
+@d_vs: **What does it look like?** 它长什么样？\n**It's a black backpack with a small pocket in front.** 是个黑色双肩包，前面有个小口袋。\n**How does it look?** 看起来怎么样？（问评价）\n✗ How does it look like?
+@d_task: 失物招领处问 What does it look like?，你丢的是一把灰色的伞，伞柄是棕色的。 | It's a gray umbrella with a brown handle.
+
+@core: I left my + 东西 + on / at / in + 地点. | 说东西落在哪儿了 | backpack / on the subway；phone / at home；umbrella / at the restaurant | 正式：I'm afraid I left my backpack on the train.｜随意：I left my bag on the subway!
+@core: While I was + -ing, I + 过去时. | 讲经过：在做 A 的过程中做了 B | talking on the phone / put it on the seat；waiting / sent a message | 正式：While I was on the phone, I placed it on the seat.｜随意：I was on the phone and just put it down.
+@core: What does it look like? | 问东西或人的外观 | it / your backpack / your wallet | 正式：Could you describe it for me?｜随意：What's it look like?
+@core: It's a + 颜色 + 东西 + with… | 描述一样东西：颜色 + 东西 + 特点 | black backpack / a small pocket in front；brown wallet / my name inside | 正式：It's a black backpack. It has a small pocket on the front.｜随意：Black backpack, small pocket in front.
+@core: As soon as I…, I realized… | 说「一……就发现」 | got off / walked into the office / got home | 正式：The moment I got off the train, I realized it was gone.｜随意：I got off and — oh no!
+@core: Has anyone handed in a…? | 到失物招领处问有没有人交上来 | backpack / wallet / black umbrella | 正式：I'm wondering if anyone has turned in a black backpack.｜随意：Did anyone hand in a backpack?
+@core: I'm so careless! I'll be more careful next time. | 自责粗心，说下次注意 | careless / more careful | 正式：That was careless of me. I'll be more careful.｜随意：Ugh, so careless!
+
+@pw: umbrella | ʌmˈbrelə | 3 个音节 um·BREL·la | 重音在中间；开头 um 读 `/ʌm/`，不读「安」
+@pw: describe | dɪˈskraɪb | 2 个音节 de·SCRIBE | 重音在后；结尾 b 闭上嘴就好，不要加「不」
+@pw: backpack | ˈbækpæk | 2 个音节 BACK·pack | 两个 a 都是 `/æ/`，嘴巴张大；第一个 k 只做口型，不爆破
+@pw: careless | ˈkerləs | 2 个音节 CARE·less | 重音在前；less 弱读成 `/ləs/`
+@pw: realize | ˈriːəlaɪz | 3 个音节 RE·a·lize | 重音在第一个音节；结尾是 `/z/`，realized 读 `/ˈriːəlaɪzd/`
+@pw: wallet | ˈwɑːlɪt | 2 个音节 WAL·let | wa 读 `/wɑː/`，嘴巴张大；let 很轻
+@pw: color | ˈkʌlər | 2 个音节 COL·or | o 读短促的 `/ʌ/`，不读「卡乐」；or 弱读、卷舌
+@ps: I **left** my **back**pack / on the **sub**way. | left my 连读，t 几乎听不到：lef-my；on the 弱读；重音落在 left、backpack、subway 三个词上。
+@ps: **While** I was **talk**ing‿on the **phone**, / I **put**‿it‿on the **seat**. | was 弱读成 `/wəz/`；put it on 连成 pu-di-don，两个 t 都弹成轻轻的 d；逗号处稍停，前半句语调微微上扬。
+@ps: **What** does it **look** like? | does 弱读成 `/dəz/`，和 it 连成 duh-zit；快说时整句像 wha-duh-zit-LOOK-like，重音在 look。
+@ps: **Some**one **hand**ed‿it‿**in** / this **morn**ing. | handed it in 连成 han-di-di-din；handed 的 -ed 读 `/ɪd/`，多一个音节。
+@pnote: 书面 vs 口语：does / was / to 在句中都弱读：What **does** it look like → `/dəz/`，While I **was** talking → `/wəz/`，Go **to** the lost and found → `/tə/`。美国人还常把 What does it 缩成 What's it：What's it look like?——听得懂就行，写的时候还是写 What does it look like?
+@pnote: 今天的故事里 -ed 的三种读音都有：realized `/d/`、checked `/t/`、handed `/ɪd/`——只有 t / d 结尾的动词加 -ed 才多出一个音节。听 Someone handed it in 时，handed 比 hand 多出的那个小音节，就是「已经发生」的信号。
+@lfocus: What does it look like? 里 does it 弱读、连读
+@lfocus: while 后面 was talking 的 was 弱读成 /wəz/
+@lfocus: handed it in 连读，-ed 多一个音节 /ɪd/
+@dict: S8–S9
+@dict: S17–S18
+@res: 在 youglish.com 输入 "what does it look like"，选 US，听 does it 在真实对话里怎么弱读连读。
+
+@mimic: 跟读【C】S5–S24：先用正常语速逐句跟读，重点模仿 What does it look like? 的连读和 While I was talking… 的停顿；再由你演林晓、手机朗读工作人员和张涛的台词，完整对一遍并录音。
+@swap: I left my backpack on the subway. | 换东西和地点：umbrella / at the restaurant；keys / at the office | I left my umbrella at the restaurant.
+@swap: While I was talking on the phone, I put it on the seat. | 换动作：reading the news / put my bag down；waiting for the bus / dropped my keys | While I was waiting for the bus, I dropped my keys.
+@swap: It's a black backpack with a small pocket in front. | 换颜色、东西和特点：brown wallet / my name inside；gray umbrella / a long handle | It's a brown wallet with my name inside.
+@swap: Someone handed it in this morning. | 换人和时间：a passenger / last night；a cleaner / an hour ago | A passenger handed it in last night.
+@free: 你下班到家才发现钥匙落在公司了，给还在公司的吴佳发消息求助。 | Grace, are you still at the office? I left my keys on my desk. Could you keep them for me until tomorrow?
+@free: 失物招领处问：What does it look like?（你丢的是一个棕色钱包，里面有一些现金和地铁卡） | It's a brown wallet. There's some cash and a subway card inside.
+@free: 同事问你包是怎么落在地铁上的（你看手机消息的时候把包放在了座位上，下车时忘了拿）。 | While I was reading messages on my phone, I put it on the seat. Then I got off and left it behind.
+@free: 失物招领处告诉你有人把包交上来了，你想感谢那位好心人。 | That's great news! Did the person leave a name? I'd really like to say thank you.
+@output: 录 1.5 分钟「我丢东西的那一次」（或写 8–10 句）：什么时候、在哪儿（During… / While I was…）→ 什么时候发现的（As soon as I…, I realized…）→ 你去哪儿找、怎么描述（It's a … with…）→ 结果（Someone handed it in / I never found it）→ 你的感受和教训。
+@output_sample: Last year, I left my umbrella on the bus. It was raining that morning, and the bus was really crowded. While I was looking at my phone, I put my umbrella on the seat next to me. During the ride, I was reading the news, and I completely forgot about it. As soon as I got off, I realized my hands were empty. I called the bus company and described it. I said, "It's a gray umbrella with a brown handle." The woman on the phone was very nice. She said, "Someone handed it in this afternoon." I picked it up after work, and I was so happy. Now I never put things on the seat next to me!
+
+@check: 林晓说 While I was talking on the phone, I put it on the seat.，能把 while 直接换成 during 吗？怎么改？ | 不能直接换，during 后面要接名词：During the call, I put it on the seat.
+@check: 「我把伞落在餐厅了」和「我忘带伞了」分别怎么说？ | I left my umbrella at the restaurant. / I forgot my umbrella.
+@check: 你想问工作人员「它长什么样？」，说 How does it look like? 对吗？ | 不对，应该说 What does it look like?；How does it look? 是问「看起来怎么样」。
+@check: 「我一下车就发现包不见了」怎么说？ | As soon as I got off, I realized my backpack was gone.
+@check: 工作人员说 Someone handed it in this morning.，hand in 在这里是什么意思？「周五前把报告交上来」怎么说？ | 把捡到的东西交上来（交给失物招领处）；Please hand in the report by Friday.
+@next1: 不看书说出 S5、S8、S9、S17、S20（锚点句）
+@next1: 用 It's a + 颜色 + 东西 + with… 描述你身边的三样东西
+@next1: 用 while 和 during 各说一句你今天早上做的事
+@next7: while / when / during 的分工，各说一句关于你自己的话
+@next7: left sth on / at…（落在哪儿）、forgot sth（忘了带）和 lost sth（丢了）的区别

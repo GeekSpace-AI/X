@@ -144,7 +144,7 @@
 @swap: I've put on three kilos since I moved here. | 换变化和起点：lost two kilos / started running；put on a little weight / joined SwiftLink | I've lost two kilos since I started running.
 @free: Emma 问你老家这些年变化大不大（变化很大：高楼多了很多，还通了地铁）。 | Yes, it's changed a lot. There are a lot of tall buildings now, and we have a subway, too.
 @free: 实习生 Leo 问：How long have you lived in Shenzhen?（三年了，三年前从湖南搬来的） | For three years. I moved here from Hunan three years ago.
-@free: 同事抱怨午饭越来越贵，你同意，并说你常去的面馆去年涨了五块。 | I know. Prices have gone up. My favorite noodle place went up by five yuan last year.
+@free: 同事抱怨午饭越来越贵，你同意，并说你常去的面馆去年涨了五块。 | I know. Prices have gone up. The noodles at my favorite place went up by five yuan last year.
 @free: 好朋友问你来深圳以后有什么变化（胖了两公斤，因为公司零食太多，你打算开始跑步）。 | I've put on two kilos since I moved here. There are too many snacks at work, so I'm going to start running.
 @output: 录 1.5 分钟「一座城市的变化」（或写 8–10 句）：选深圳或你的家乡：过去是什么样（… years ago, it was…）→ 这些年怎么变的（has changed / over the years）→ 什么涨了、什么降了（have gone up / down）→ 你在那里住了多久（for / since）→ 你自己有什么变化（I've put on / lost…）→ 用 Compared with… 做一个比较。
 @output_sample: I want to talk about my hometown. Twenty years ago, it was a quiet little city. There weren't many tall buildings, and there was no subway. Over the years, my hometown has changed a lot. Now there are modern towers everywhere, and the subway goes almost everywhere. Prices have gone up, too. My parents' apartment cost much less fifteen years ago. I moved to Shenzhen three years ago, so I've lived here for three years now. Since I moved here, I've put on three kilos, because the food is so good! Compared with my hometown, everything in Shenzhen is faster. But when I go home, I still feel completely relaxed.
