@@ -1,0 +1,158 @@
+@day: 44
+@week: 2
+@review: true
+@title_cn: 第 2 周复习：一次尴尬的相亲
+@title_en: Week 2 Review: An Awkward Date
+@topic: 台风天的周六，小梅视频讲她一次很尴尬的相亲：用本周学的讲故事和接话，一边追问、一边回应
+@think_short: was doing ≠ did｜when vs while｜then / … later / afterward｜How come vs Why｜touched / touching、embarrassed / embarrassing
+
+@goal_scene: 周六台风天，大学同学小梅打来视频，讲她上周日一次很尴尬的相亲：服务员把一整杯咖啡洒在她的新白裙子上……你要不停地追问、回应，让她讲下去；再用这一周学的结构，把一件你自己的尴尬事或小意外从头讲到尾。
+@goal_expr: Tell me more! / What happened next? / I was -ing when… / While we were -ing, … / All of a sudden, … / No way! / So what did you do? / How come + 陈述句? / It turned out… / I was really touched. / We ended up -ing. / Afterward, … / …, just in case.
+@goal_vocab: 复现第 38–43 天的 19 个旧词 + 第一册的 3 个旧词（虚线标出）+ 7 个新词 + 1 个短语：date, awkward, spill, stain, napkin, embarrassing, blush, burst out laughing
+@done: 能不看原文，按【H】第 1 层的 10 个提示用 8–10 句英文复述小梅的故事：背景用 was / were -ing，突然发生的事和后面的经过一路用过去式，不滑回现在时
+@done: 【E】5 组易混表达（was doing / did；when / while；then / … later / afterward；How come / Why；touched / touching）每组都能说出正确句子，并用中文讲出理由
+@done: 听朋友讲一件事时，能连续用 5 种以上的说法追问和回应（Tell me more! / What happened next? / No way! / So what did you do? / How come…?）；自己讲时能用「背景 → 转折 → 反转 → 结果 → 事后」讲完整
+
+@warmup: 我正在做晚饭，突然停电了。 | I was cooking dinner when the power went out. | D38
+@warmup: 我打电话的时候，把包放在了座位上。 | While I was talking on the phone, I put it on the seat. | D39
+@warmup: 结果我们一直干到了半夜。 | We ended up working until midnight. | D40
+@warmup: 团建怎么取消了？——这个周末有台风要来。 | How come the trip was canceled? — A typhoon is coming this weekend. | D42
+@warmup: 突然，他哭了起来。我真的很感动。 | All of a sudden, he started to cry. I was really touched. | D43
+@warmup: 我本来打算上午做完，但是系统宕机了。 | I was going to finish it this morning, but the system was down. | D23
+
+@scene: 第二周的周六，台风登陆深圳，外面风雨交加。林晓周四已经听 Emma 的话囤好了水和面包，这一整天都待在合租屋里。下午，小梅打来视频，一开口就是：「我必须跟你讲讲我的相亲！」——上周日，她姑妈给她介绍了一个男生，两人约在一家咖啡馆见面。小梅讲得一惊一乍，故意一段一段地卖关子；林晓就用这一周学的接话方式不停追问、回应：快说说！然后呢？不会吧！那你怎么办的？他怎么会笑你？
+@sp: 人物关系 | 林晓 ↔ 小梅：从初中就认识的好朋友，视频聊天，说话最随意，可以大呼小叫、互相开玩笑
+@sp: 沟通目的 | 小梅：把一次又尴尬又好笑的相亲讲给好朋友听；林晓：用追问和反应让她讲下去、讲细节，最后替她高兴
+@sp: 已知信息 | 林晓只知道小梅的姑妈一直想给她介绍对象，不知道她真去了，更不知道咖啡的事；小梅知道结局，讲到关键处就停下来，等林晓追问
+@sp: 表达重点 | 小梅讲：背景（While we were… / I was -ing when…）→ 转折（All of a sudden, …）→ 反转（It turned out…）→ 结果（We ended up -ing.）→ 事后（Afterward, …）；林晓接：Tell me more! / What happened next? / No way! / So what did you do? / Seriously? How come…? / Way to go!
+
+@story_title: Episode 44 · The Coffee Date
+@story_type: 视频聊天（讲故事 + 追问与回应 · 新情境）
+@s: It's Saturday, and the [[typhoon]] is here. Lily is staying [[indoors]]. | 周六，台风来了。林晓待在家里。
+@s: Mei video-calls her. | 小梅给她打来视频电话。
+@br:
+@s: Mei: Lily, I have to tell you about my blind **date**. | 小梅：林晓，我得跟你讲讲我那次相亲。
+@s: Lily: A blind date? [[Tell me more]]! | 林晓：相亲？快说说！
+@s: Mei: My aunt planned it. We met at a café last Sunday. | 小梅：是我姑妈安排的。我们上周日在一家咖啡馆见的面。
+@s: Mei: I was so [[nervous]]. [[While]] we were waiting for our coffee, nobody said a word. | 小梅：我紧张死了。等咖啡的时候，我们俩谁都没说话。
+@s: Mei: It was so **awkward**! | 小梅：太尴尬了！
+@s: Lily: Ha! [[What happened next]]? | 林晓：哈！然后呢？
+@s: Mei: I was telling him about my job when the waiter came. | 小梅：我正跟他讲我的工作，服务员过来了。
+@s: Mei: [[All of a sudden]], he **spilled** a whole cup on my new white dress! | 小梅：突然，他把一整杯咖啡全洒在了我的新白裙子上！
+@s: Lily: [[No way]]! Was it hot? | 林晓：不会吧！烫不烫？
+@s: Mei: [[Luckily]], no. But it left a huge brown **stain**. | 小梅：幸好不烫。可是留下了一大块棕色的污渍。
+@s: Lily: Oh no! [[So what did you do]]? | 林晓：天哪！那你怎么办的？
+@br:
+@s: Mei: I tried to stay [[calm]]. I [[quickly]] grabbed a **napkin**, but that made it worse. | 小梅：我想保持镇定，赶紧抓起一张餐巾纸去擦，结果越擦越糟。
+@s: Mei: It was so **embarrassing**. I **blushed** bright red. | 小梅：太丢人了，我的脸一下子红透了。
+@s: Mei: Then my date **burst out laughing**. | 小梅：然后，跟我相亲的那个人突然哈哈大笑起来。
+@s: Lily: [[Seriously]]? [[How come]] he laughed at you? | 林晓：真的假的？他怎么能笑你呢？
+@s: Mei: That's what I thought! But [[it turned out]] he wasn't laughing at me. | 小梅：我当时也是这么想的！结果他根本不是在笑我。
+@s: Mei: His shirt was [[wet]], too. The waiter got both of us! | 小梅：他的衬衫也湿了——服务员把我们俩都泼着了！
+@s: Mei: He gave me his jacket. I was really [[touched]]. | 小梅：他把自己的外套给了我（挡一挡）。我真的挺感动的。
+@br:
+@s: Mei: Ten minutes later, the manager [[apologized]] and brought us free cake. | 小梅：十分钟后，店长过来道歉，还送了我们蛋糕。
+@s: Mei: We [[ended up]] talking for three hours. | 小梅：结果我们一聊就是三个小时。
+@s: Lily: Three hours? That's amazing! | 林晓：三个小时？太厉害了！
+@s: Mei: And [[afterward]], he sent me a message. He wants to meet again! | 小梅：而且后来他给我发消息了，说想再见一面！
+@s: Lily: [[Way to go]], Mei! Where are you going this time? | 林晓：干得漂亮，小梅！这次去哪儿？
+@s: Mei: Somewhere with no coffee. And I'll wear black, [[just in case]]! | 小梅：找个没有咖啡的地方。而且我要穿黑色的，以防万一！
+
+@v: date | = | n. | deɪt | 约会；（blind date）相亲；约会对象 | 经人介绍第一次见面、和喜欢的人出去；说「跟我约会的那个人」 | a blind date；go on a date；my date | My cousin went on a blind date last weekend. | 我表姐上周末去相亲了。 | 「去相亲」说 go on a blind date（blind = 之前没见过），不说 ✗ do a date；my date 可以指「我的约会对象」——S16 的 my date 就是那个男生；date 还有「日期」的意思（What's the date today?）；和同事约时间开会说 meeting，别说 date，否则听起来像约会。
+@v: awkward | = | adj. | ˈɔːkwərd | 尴尬的；别扭的（冷场、不自在） | 两个人没话说、冷场、气氛不自在 | an awkward silence；feel awkward；It was a little awkward. | There was an awkward silence after his joke. | 他讲完那个笑话，场面一下子冷了。 | 中文一个「尴尬」，英文分两种：冷场、别扭、不自在 → awkward；出丑、丢脸 → embarrassing（S15）；awkward 不分 -ed / -ing，人和事都用它：I felt awkward. / It was awkward.；第二个 w 要发出来：AWK-werd。
+@v: spilled | spill | v. | spɪld | 洒；泼（不小心把液体弄出来） | 咖啡、水、汤不小心洒出来 | spill coffee on…；spill water；Don't spill it! | Careful! Don't spill your tea on the laptop. | 小心！别把茶洒在笔记本电脑上。 | 「把咖啡洒在某人身上」是 spill coffee on sb，不说 ✗ spill sb with coffee；直接说 He spilled it.，不必绕成被动 ✗ The coffee was spilled by him.；spill 是不小心的，故意泼是 throw；过去式美式写 spilled，英式常写 spilt。
+@v: stain | = | n. | steɪn | 污渍；印子 | 衣服、桌布上沾了咖啡、油、红酒 | a coffee stain；leave a stain；get the stain out | There's a coffee stain on your sleeve. | 你袖子上有块咖啡渍。 | 「留下污渍」说 leave a stain（S12：it left a huge brown stain）；「把污渍洗掉」说 get the stain out，不说 ✗ wash the dirty（dirty 是形容词「脏的」）；ai 读 `/eɪ/`，和 rain 押韵。
+@v: napkin | = | n. | ˈnæpkɪn | 餐巾；餐巾纸 | 餐厅、咖啡馆里擦嘴、擦手、擦桌子 | a paper napkin；grab a napkin；some extra napkins | Can I get some extra napkins, please? | 能多给我几张餐巾纸吗？ | 中文「纸巾」一个词全包，英文分开：餐桌上的是 napkin，擦鼻涕的是 tissue（Day 47 会学），卫生纸是 toilet paper；美国快餐店的 napkins 常放在饮料台旁，自己拿。
+@v: embarrassing | = | adj. | ɪmˈberəsɪŋ | 让人难堪的；丢脸的 | 当众出丑、说错话、叫错名字 | so embarrassing；an embarrassing moment；How embarrassing! | I called my teacher "Mom." It was so embarrassing! | 我管老师叫了声「妈」，太丢人了！ | 规律和 touched / touching（D43）一样：说事情用 -ing（It was embarrassing.），说人的感受用 -ed（I was embarrassed.）；✗ I'm so embarrassing. 意思是「我这个人让人难堪」；拼写是两个 r、两个 s：em-ba-rr-a-ss-ing。
+@v: blushed | blush | v. | blʌʃt | 脸红 | 害羞、尴尬、被人夸的时候脸一下子红了 | blush bright red；make sb blush；You're making me blush! | Stop it! You're making me blush. | 别说了！你都把我说得脸红了。 | 「脸红」一个动词就够：I blushed.，不必说 ✗ My face became red.；生气时脸涨红一般不用 blush；-ed 读 `/t/`，blushed 只有一个音节。
+@v: burst out laughing | = | phr. | ˌbɜːrst aʊt ˈlæfɪŋ | 突然大笑起来；忍不住笑出声 | 看到、听到好笑的事，一下子笑出来 | burst out laughing；everyone burst out laughing；burst into tears | When he saw my face, he burst out laughing. | 他一看见我的脸，就哈哈大笑起来。 | burst 的过去式还是 burst，✗ bursted；后面接 -ing：✗ burst out laugh / ✗ burst out to laugh；「突然哭起来」说 burst into tears；laugh（D40）只是「笑出声」，burst out laughing 更突然、忍都忍不住。
+
+@diff: 「我当时正在……」——was doing ≠ did（复习 D38、D43）
+@d_cn: 讲一件过去的事：哪个是「当时正在进行的背景」，哪个是「一下子发生的事」和后面一步一步的经过。
+@d_en: I was telling him about my job when the waiter came. / All of a sudden, he spilled a whole cup on my new white dress!
+@d_why: Day 38 学过：英文让两种过去时分工——背景里持续的动作用 **was / were + -ing**（I was telling him…），突然插进来的事、一步一步的经过用**一般过去时**（the waiter came / he spilled / I grabbed）。Day 43 又强调：故事一开头用了过去时间，后面就一路过去式。这周最常见的三种错：一是漏掉 was（✗ I telling him about my job when…）；二是全用一般过去时（✗ I told him about my job when the waiter came.——听起来像「服务员一来，我就讲起了工作」）；三是讲着讲着滑回现在时（✗ All of a sudden, he spills…）。小梅的故事里，用 was / were -ing 的只有 S6、S9、S18 三句，其余全是一般过去时——美国人讲故事基本就是这个比例：背景交代两三句，主线全靠一般过去时往前推。
+@d_when: 回答 What were you doing when…? 或给故事交代背景 → was / were -ing；讲接下来发生了什么 → 一般过去时。
+@d_vs: **I was telling him about my job when the waiter came.** 我正跟他讲我的工作，服务员来了。\n**Then my date burst out laughing.** 然后他哈哈大笑。（经过，用一般过去时）\n✗ I telling him about my job when the waiter came.\n✗ I told him about my job when the waiter came.（意思变了）\n✗ All of a sudden, he spills the coffee.
+@d_task: 用英文说：① 我们正在吃火锅，突然停电了。② 然后我们点了几根蜡烛，接着聊天。 | ① We were having hot pot when the power went out. ② Then we lit some candles and kept talking.
+@diff: 「……的时候」——when + 短动作 vs while + 长动作（复习 D38、D39）
+@d_cn: 一件事进行的过程中，另一件事发生了：「我们等咖啡的时候」「服务员来的时候」。
+@d_en: While we were waiting for our coffee, nobody said a word. / I was telling him about my job when the waiter came.
+@d_why: 中文一个「……的时候」全包了；英文要分工：**while** 后面接**持续的、正在进行的**动作，所以常跟 was / were -ing（while we were waiting…）；**when** 后面多接**一下子就完成的短动作**（when the waiter came / when the power went out）。Day 39 还学过：后面只有一个名词时用 **during**（during the call），不用 while。最常见的错是把 while 用在短动作前（✗ While the waiter came, …），或者 while 后面直接接名词（✗ while the date）。小窍门：能说成「在……的整个过程中」的用 while，说「就在……那一下」的用 when。
+@d_when: 交代背景（在等、在聊、在打电话）→ while + was / were -ing；说突然的那一下（来了、响了、灭了、洒了）→ when + 一般过去时；只有名词 → during。
+@d_vs: **While we were waiting for our coffee, nobody said a word.** 等咖啡的时候，我们谁都没说话。\n**I was telling him about my job when the waiter came.** 我正讲着，服务员来了。\n**During the date, I blushed three times.** 约会的时候，我脸红了三次。\n✗ While the waiter came, I was talking.\n✗ while the date
+@d_task: 填 when / while / during：① ___ I was looking for a napkin, my date started to laugh. ② I was drinking my coffee ___ my phone rang. ③ Please don't use your phone ___ the meeting. | ① While ② when ③ during
+@diff: 「然后、后来」——then / … later / afterward（复习 D40）
+@d_cn: 讲故事时说「然后」「过了一会儿」「后来（整件事结束以后）」。
+@d_en: Then my date burst out laughing. / Ten minutes later, the manager apologized. / And afterward, he sent me a message.
+@d_why: Day 40 讲过：中文一个「后来」「然后」几乎全能用，英文按「隔了多久」分开。**then / after that**：紧接着的下一步，一步一步往下讲；**… later**：前面带上隔了多久（ten minutes later、a week later）；**afterward**：整件事结束以后——小梅的故事里，相亲结束、各自回家以后他才发消息，所以用 afterward。最常见的错是把 after 单独放句首：✗ After, he sent me a message.——after 是介词，后面必须跟东西：after that / after the date。另外别每句都用 then：讲两三步用一次 then，中间换成 … later 或 after that，故事才有节奏。
+@d_when: 一步接一步 → then / after that；告诉对方过了多久 → … later；说事情结束以后的结果和影响 → afterward。
+@d_vs: **Then my date burst out laughing.** 然后他哈哈大笑。（紧接着）\n**Ten minutes later, the manager apologized.** 十分钟后，店长来道歉了。（过了一段时间）\n**And afterward, he sent me a message.** 后来（约会结束后）他给我发了消息。\n✗ After, he sent me a message.
+@d_task: 用 then / later / afterward 把四件事连起来：我把咖啡洒在了键盘上 → 马上给 Kevin 打了电话 → 五分钟后他来了 → 事后我请他喝了一杯咖啡。 | I spilled coffee on my keyboard. Then I called Kevin right away. Five minutes later, he came. Afterward, I bought him a coffee.
+@diff: 「怎么会……？」——How come + 陈述语序 vs Why + 倒装（复习 D42）
+@d_cn: 对一件意外的事表示不解：「他怎么会笑你？」「你怎么没告诉我？」
+@d_en: How come he laughed at you? / Why did he laugh at you?
+@d_why: Day 42：**Why** 问句要倒装，把 did / was / is 提到主语前面（Why **did he** laugh?）；**How come** 后面直接接普通的陈述句（How come **he laughed**?），语序和中文「他怎么会笑你？」一模一样。最常见的错是两种语序混在一起：✗ How come did he laugh at you?；或者 Why 忘了倒装：✗ Why he laughed at you? 语气上，How come 带着「没想到、有点意外」，比 Why 更口语、更柔和，朋友之间追问特别自然；Why did…? 更直接，语气一重就像在质问。所以林晓一听「他笑了」就脱口而出 Seriously? How come he laughed at you?——又惊讶，又替朋友抱不平。写邮件、问正式的原因，还是用 Why…? 或 May I ask why…?
+@d_when: 朋友、同事之间，对意外的事、反常的情况表示不解 → How come…?；需要直接问原因、写邮件 → Why…?
+@d_vs: **How come he laughed at you?** 他怎么会笑你？（陈述语序，带意外）\n**Why did he laugh at you?** 他为什么笑你？（倒装，更直接）\n**How come you didn't tell me?** 你怎么没告诉我？\n✗ How come did he laugh at you?\n✗ Why he laughed at you?
+@d_task: 用 How come 问：① 你怎么还没回我消息？② 咖啡馆今天怎么这么安静？再把 ① 改成 Why 的问句。 | ① How come you haven't replied to my message? ② How come the café is so quiet today? ／ Why haven't you replied to my message?
+@diff: 「我很感动」「太丢人了」——touched / touching，embarrassed / embarrassing（复习 D43）
+@d_cn: 中文「感动」「丢人」「尴尬」既能说人，也能说事：「我很感动」「这事很感人」「太丢人了」。
+@d_en: I was really touched. / It was a touching story. / I was so embarrassed. / It was so embarrassing.
+@d_why: Day 43 学过：英文要分开——说**人的感受**用 **-ed**（I was touched / moved / embarrassed），说**事情给人的感觉**用 **-ing**（It was touching / moving / embarrassing）。第一册的 bored / boring（D27）也是同一个规律。小梅说 **It was so embarrassing.**（这件事让人难堪）和 **I was really touched.**（我被打动了），都用对了。中国学生最常见的错：✗ I was very moving.（变成「我这个人很感人」）、✗ I'm so embarrassing.（变成「我这个人让人难堪」）。今天新学的 **awkward** 不分 -ed / -ing：It was awkward. / I felt awkward. 都对——它说的是冷场、别扭，不是丢脸。
+@d_when: 说自己的感受 → I was / I felt + -ed；评价一件事、一个故事、一个时刻 → It was + -ing。
+@d_vs: **I was really touched.** 我真的很感动。（我的感受）\n**It was a really touching story.** 那是个很感人的故事。（事情）\n**I was so embarrassed.** 我窘死了。（我的感受）\n**It was so embarrassing.** 太丢人了。（事情）\n✗ I was very moving. ✗ I'm so embarrassing.
+@d_task: 用英文说：① 他的话让我很感动。② 我在会上叫错了经理的名字，太丢人了，我的脸一下子红透了。 | ① I was really touched by his words. ② I called my manager by the wrong name in the meeting. It was so embarrassing. I blushed bright red.
+
+@core: I was + -ing + when + 一般过去时. | 来自 D38：讲故事时先交代背景，再说突然发生的事 | telling him about my job / the waiter came；cooking dinner / the power went out | 正式：I was preparing dinner when the power failed.｜随意：I was just telling him about my job, and then — splash!
+@core: While + 主语 + was / were + -ing, + 一般过去时. | 来自 D39：在一件事进行的过程中，做了什么或发生了什么 | waiting for our coffee / nobody said a word；talking on the phone / I put it on the seat | 正式：While I was on the phone, I placed it on the seat.｜随意：We were just sitting there, waiting…
+@core: What happened next? — … We ended up + -ing. | 来自 D40：追问后续；讲出意外的结果 | And then? / So what did you do?；ended up talking for three hours / waiting for two hours | 正式：What happened after that? — In the end, we talked for three hours.｜随意：And then what? — We ended up staying till midnight.
+@core: No way! / Seriously? / Tell me more! | 来自 D41：表示惊讶、鼓励对方多讲，再夸一句 | No way! / Are you kidding? / Seriously? / Tell me more! / Way to go! | 正式：Really? I'd love to hear more.｜随意：No way! Tell me everything!
+@core: How come + 陈述句? — It turned out… | 来自 D42：问「怎么会」，再说后来才知道的真相 | How come he laughed at you?；It turned out he wasn't laughing at me.；That's why… | 正式：May I ask why…? — It turned out that…｜随意：How come? — Turns out…
+@core: All of a sudden, … I was really touched. | 来自 D43：讲故事的转折和感受 | All of a sudden / Suddenly；really touched / so moved；It reminds me of… | 正式：Suddenly, … I was deeply moved.｜随意：And then, out of nowhere… I almost cried!
+
+@pw: awkward | ˈɔːkwərd | 2 个音节 AWK·ward | 重音在前；aw 嘴巴张圆 `/ɔː/`；第二个 w 要发出来，ward 弱读成 `/wərd/`
+@pw: embarrassing | ɪmˈberəsɪŋ | 4 个音节 em·BAR·rass·ing | 重音在第二个音节，美式读得像 berry 的 be；两个 r、两个 s 都只读一次
+@pw: afterward | ˈæftərwərd | 3 个音节 AF·ter·ward（D40） | 重音在第一个音节；a 嘴巴张大 `/æ/`；ward 弱读成 `/wərd/`，不读 `/wɔːrd/`
+@pw: seriously | ˈsɪriəsli | 4 个音节 SE·ri·ous·ly（D41） | 重音在第一个音节；口语里常缩成 3 个音节 `/ˈsɪrjəsli/`；单独说时句尾上扬 ↗
+@pw: typhoon | taɪˈfuːn | 2 个音节 ty·PHOON（D42） | 重音在后；ph 读 `/f/`，oo 读长音 `/uː/`
+@ps: I was **tell**ing‿him about my **job** / when the **wait**er **came**. | was 弱读成 `/wəz/`；telling him 里 him 的 h 脱落，连成 tel-lin-im；前半句语调平着走，说到 came 才落下来——听的人就知道「重点来了」。
+@ps: All‿of‿a **sud**den, / he **spilled** a **whole** **cup** / on my new white **dress**! | all of a 连成 aw-la-va，后面停一下制造悬念；spilled 只有一个音节 `/spɪld/`；whole cup 两个词都读重，突出「一整杯」。
+@ps: **Se**riously? ↗ / **How** come he **laughed**‿at you? ↘ | Seriously 用升调表示惊讶；How come 问句用降调；laughed 只有一个音节 `/læft/`，-ed 读 `/t/`，和 at 连成 laugh-tat。
+@pnote: 本周的弱读一次复习：was / were 在句中弱读成 `/wəz/` `/wər/`（I was telling him…，While we were waiting…）；did you 连成 `/dɪdʒə/`（So what did you do?）；What does it 连成 wha-duh-zit（D39）。听正常语速时，先抓重读的实词（telling, job, waiter, came），再靠动词后面的 -ing 判断「当时正在」。只有单独回答时才读强式：Yes, I was. / No, it wasn't.
+@pnote: -ed 的三种读音这个故事里都有：`/t/`——laughed `/læft/`、blushed `/blʌʃt/`、touched `/tʌtʃt/`；`/d/`——spilled `/spɪld/`、planned、apologized；`/ɪd/`——started、wanted（讲故事很常用）：只有 t / d 结尾的动词加 -ed 才多出一个音节，planned 仍然只有一个音节 `/plænd/`。另外 It turned out he **wasn't** laughing 里，wasn't 的 t 几乎听不到，要靠 n 后面那一下短短的停顿分辨否定。
+@lfocus: was telling / were waiting 里 was / were 的弱读，靠 -ing 听出「当时正在」
+@lfocus: How come 后面是陈述语序：How come he laughed…?
+@lfocus: -ed 读 /t/：laughed / blushed / touched 都只有一个音节
+@dict: S9–S10
+@dict: S17–S18
+@res: 在 youglish.com 输入 "burst out laughing"，选 US，听美国人讲尴尬事时怎么说「一下子笑出来」。
+
+@mimic: 合上书，不看【C】，按下面 10 个提示用 8–10 句英文复述故事（可以用第三人称：Mei went on a blind date last Sunday…；也可以用小梅的口吻 I…），背景用 was / were -ing，其余一路用过去式，并录音：① 周六台风天／林晓待在家里／小梅打来视频 ② 姑妈安排的相亲／上周日在咖啡馆见面 ③ 很紧张／等咖啡时谁都没说话 → 尴尬 ④ 正在讲自己的工作 → 服务员来了 ⑤ 突然：一整杯咖啡洒在新白裙子上 ⑥ 幸好不烫，但留下一大块污渍／餐巾纸越擦越糟 → 丢人、脸通红 ⑦ 对方突然大笑 → 原来不是笑她：他的衬衫也湿了 ⑧ 他把外套给她 → 很感动 ⑨ 十分钟后店长道歉、送蛋糕 → 结果聊了三个小时 ⑩ 后来他发消息想再见面 → 下次穿黑色，以防万一。录完对照原文，圈出说错的 was / were -ing 和过去式，再讲一遍；第二遍请朋友（或你自己）在 ③ ⑤ ⑦ 后面插一句 What happened next? / No way! / How come…?
+@swap: I was telling him about my job when the waiter came. | 换背景和突然发生的事：ordering our food / my phone rang；walking to the café / it started to rain | I was walking to the café when it started to rain.
+@swap: While we were waiting for our coffee, nobody said a word. | 换背景和发生的事：waiting for the bus / I read the news；sitting in the meeting / I blushed three times | While we were waiting for the bus, I read the news on my phone.
+@swap: Seriously? How come he laughed at you? | 换让你意外的事：she left early / the café was closed / you didn't call me | Seriously? How come the café was closed?
+@swap: It turned out he wasn't laughing at me. We ended up talking for three hours. | 换反转和结果：it was just a typo / fixing it in ten minutes；she was just tired / having dinner together | It turned out it was just a typo. We ended up fixing it in ten minutes.
+@free: 同事一进门就说：I had the worst morning ever.（我今天早上倒霉透了。）你想让他讲下去。 | Oh no! What happened? Tell me more.
+@free: 朋友说她在婚礼上把红酒洒在了新娘的裙子上。你先表示惊讶，再追问她当时怎么处理的。 | No way! On the bride's dress? So what did you do?
+@free: 你在电梯里碰到新来的经理，想打招呼，却把「黄总」叫成了「王总」。跟同事讲讲：当时你在干什么、发生了什么、你的感受。 | I was waiting for the elevator when the new manager walked in. I said, "Good morning, Mr. Wang!" But his name is Mr. Huang! It was so embarrassing. I blushed bright red.
+@free: Kevin 一上午都不说话。你先用 How come 问吴佳；后来才知道他只是牙疼，再跟吴佳说说。 | How come Kevin is so quiet today? Is he upset with me? … It turned out he just had a toothache. That's why he didn't talk all morning.
+@free: 好朋友明天第一次去相亲，有点紧张。你给她打气，再提醒她早点出门，以防万一。 | Don't be nervous. Just be yourself, and have fun on your date! Leave a little early, just in case there's traffic. And maybe don't order coffee!
+@output: 录 1.5–2 分钟「我的一次尴尬事（或小意外）」，把这一周的讲故事结构串起来：开头（Let me tell you about… / One day, …）→ 背景（I was -ing when… / While I was -ing, …）→ 转折（All of a sudden, …）→ 你的反应和处理（First of all… / Then… / I managed to…）→ 反转（It turned out…）→ 结果（We ended up -ing. / That's why…）→ 事后（… later / Afterward, …）→ 感受（It was so embarrassing. / I was really touched.）。最好找个朋友当听众，让他用 What happened next? / No way! / How come…? 打断你两三次；没人的话，就在录音里自己替听众插两句。录完检查三件事：背景是不是 was / were -ing？主线是不是一路过去式？有没有说出 ✗ After, …？
+@output_sample: Let me tell you about my most embarrassing day at work. It was my second week at my old company. One morning, I was carrying a big cup of coffee to my desk when my phone rang. While I was looking for my phone in my bag, I walked right into my manager. All of a sudden, there was coffee everywhere: on his white shirt, on his papers, and on my shoes. I wanted to disappear. First of all, I said sorry about ten times. Then I grabbed some napkins, but I only made the stain bigger. I blushed bright red. I thought he was really angry. But it turned out he wasn't. He looked at his shirt and burst out laughing. He said, "Don't worry. I keep another shirt in my office, just in case." Ten minutes later, he came back in a clean shirt. Afterward, everyone called me "Coffee Girl." That's why the whole office knew my name after just two weeks! It was so embarrassing, but now it's one of my favorite stories.
+
+@check: （听力，不看原文回答）服务员过来的时候，小梅正在做什么？林晓听说咖啡洒了，第一反应说了什么、又问了什么？ | 她正在跟对方讲自己的工作（I was telling him about my job when the waiter came.）；林晓先说 No way!，又问 Was it hot?
+@check: （听力，不看原文回答）小梅的相亲对象为什么突然大笑？林晓是用哪句话问「他怎么会笑你」的？ | 他不是在笑小梅——他自己的衬衫也被咖啡弄湿了（It turned out he wasn't laughing at me. His shirt was wet, too.）；林晓问的是 How come he laughed at you?
+@check: 周一上班，张涛问你周末台风天过得怎么样。（周六下午你正在和朋友视频聊天，突然停电了，屏幕一下子黑了。）用 was -ing… when… 回答，再补一句后来怎么样。 | I was talking to my friend on a video call when the power went out. All of a sudden, my screen went dark. Luckily, it came back on an hour later.
+@check: 改错（共 5 处）：Yesterday I go to a café. While the waiter came, I talk on the phone. After, I was very embarrassing. | Yesterday I went to a café. When the waiter came, I was talking on the phone. After that（或 Afterward）, I was very embarrassed. ——go → went；短动作前用 when 不用 while；背景用 was talking；After 不能单独放句首；说人的感受用 embarrassed。
+@check: 同事在群里说：The team dinner is canceled.（团队聚餐取消了。）你很意外，想问原因。用 How come 和 Why 各问一句；哪一句语气更柔和？ | How come the team dinner was canceled? ／ Why was the team dinner canceled? How come 更口语、更柔和，带着「没想到」；Why 更直接。注意 How come 后面不倒装。
+@check: 开会时你把茶洒在了 Emma 的笔记本上，她却笑着说没关系，还帮你擦干净。用英文跟吴佳讲这件事，要用到 spill、embarrassing、touched 三个词。 | I spilled my tea on Emma's notebook in the meeting. It was so embarrassing! But she just smiled and said, "No problem." She even helped me clean it up. I was really touched.
+
+@improve: 如果【E】第 1、2 组或【I】第 3、4 题出错（was -ing 和一般过去时、when / while）：下周每天热身后加 2 分钟，用 I was -ing when… 说一句「昨天的小意外」，再用 While I was -ing, … 说一句；把 Day 38【E】第 1、4 组和 Day 39【E】第 1、2 组重做一遍。下周的生活场景里，Day 47 林晓给张涛讲自己是怎么病倒的、Day 50 讲「今天早上坐错了车」，都要用这套时态讲经过。
+@improve: 如果讲故事只会一路 then（或者还会说 ✗ After, …）：把 then / … later / afterward 写在卡片上，每天讲一件小事时三个各用一次；重做 Day 40【E】第 1、3 组。Day 46 搬家那天的经过（先打包、然后搬箱子、下午装网络、晚上和妈妈视频）正好拿来练。
+@improve: 如果接话还是只会 Oh. / Really.：下周每天听同事或朋友讲一件事时，至少用一次「重复关键词 + 追问」（Three hours? That's amazing!）和一次 How come…?；重做 Day 41【E】第 1、3 组和 Day 42【E】第 1 组。Day 45 看房时追问中介、Day 49 退货时追问店员，都用得上这些追问。
+@improve: 如果 touched / touching、embarrassed / embarrassing 还会混：每天用 I was / I felt… 和 It was… 各说一句当天的感受（I was so tired. / It was a long day.），把「-ed 说人、-ing 说事」练成反射；重做 Day 43【E】第 3 组。下周（Day 45–50）新词多、故事少，但每个场景都要讲「发生了什么」；第 4 周（Day 52–54）的 used to / be used to 会再一次考验「过去 vs 现在」的分工——这周把过去式讲稳，后面会轻松很多。
+
+@next1: 按【H】第 1 层的 10 个提示，不看书再复述一遍小梅的故事，和今天的录音比一比：背景句和过去式是不是更稳了
+@next1: 用 awkward / embarrassing / blush 讲一次你自己的尴尬时刻（3–4 句）
+@next7: 再做一遍【E】的 5 个小任务，错的那组翻回标题里注明的那一天，把对比例句读 5 遍（Day 51 复习日会再检查）
+@next7: 不看书，用 One day → I was -ing when… → All of a sudden → It turned out → We ended up -ing → Afterward 讲一个 1 分钟的故事并录音，和今天的录音对比
