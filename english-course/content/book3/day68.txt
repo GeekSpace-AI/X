@@ -1,0 +1,168 @@
+@day: 68
+@week: 2
+@title_cn: 读数字
+@title_en: Numbers in English
+@topic: 月初整理上个月的数据：读大数字、小数、百分比和百分点、分数和比例，再把关键数字发给经理
+@think_short: 「120 万」one point two million（英文三位一组，没有「万」「亿」）｜6.5 读 six point five（不读 dot）｜「提高两个百分点」two percentage points（≠ two percent）｜「三分之一」a third（先分子后分母）
+
+@goal_scene: 月初给经理报上个月的数据：把 1,236,480 这样的大数字按英文三位一组读出来，会说约数（nearly / roughly / approximately）；小数读 point，百分比的变化分清 percent 和 percentage points；用分数、out of 和比例说占比；最后用一条简短的消息把关键数字发出去。
+@goal_expr: We shipped one point two million packages. / In total, … / On average, a package takes six point five days. / Ninety-four out of a hundred… / up by two percentage points / roughly a third of… / at least / up to / A minus B equals C.
+@goal_vocab: 20 个重点词 + 5 个短语：大数字和位数、精确与约数、小数和零、加减和等于、百分比与百分点、分数和比例、倍数
+@done: 能把 120 万、125 万、3.5 亿、10 亿换算成英文读出来，读 1,236,480 这样的精确数字不卡壳
+@done: 小数读 point、一位一位地读；能说清 92% → 94% 是 up two percentage points，不说成 two percent
+@done: 能用 a third / two thirds / three quarters、out of、at least、up to 说占比和上下限，并写一条 3–5 句的数据消息
+
+@warmup: 订单已经发出了。 | The order has been shipped. | D63
+@warmup: 我把李凯也拉进来。 | I'll loop Kevin in. | D64
+@warmup: 详情请见下文。 | Please see below for the details. | D65
+@warmup: 我确认一下，你周五前要，对吧？ | Just to confirm, you need it by Friday? | D66
+@warmup: 我们的系统一年追踪的包裹超过一百万个。 | Our system tracks over a million packages a year. | D20
+@warmup: 我来这儿两年了，可第一个夏天真的很难熬。 | I've been here for two years, but my first summer was really difficult. | D53
+
+@scene: 这个月的一号。张涛要在月度会上用上个月的整体数据，让林晓 11 点前把几个关键数字发给他：SwiftLink 平台上的卖家一共发了多少包裹（张涛汇报时习惯说 we shipped）、平均配送时效、准时率、快速件占多少。表格里的数林晓已经算好了，可一开口就卡壳：中文按「万」「亿」数，英文三位一组；6.5 天、0.8%、「提高了两个百分点」，到了嘴边全乱了。Emma 正好有空，林晓拉她当「听众」，一个数一个数地练，练完再给张涛发一条简短的消息。
+@sp: 人物关系 | 林晓 ↔ Emma：关系轻松的同事；Emma 是美国人，耐心地帮林晓纠正读法；张涛是要数据的经理，只看关键数字
+@sp: 沟通目的 | 把上个月的数据准确、自然地读出来；再用一条简短的消息把关键数字发给张涛
+@sp: 已知信息 | 表格里的数已经算好：总包裹量 1,236,480，平均时效 6.5 天，丢件和损坏 0.8%，准时率 94%（前一个月 92%），快速件 41 万；张涛的目标是准时率至少 95%
+@sp: 表达重点 | 大数字三位一组（one point two million）→ 精确数和约数（exact / nearly / roughly）→ 小数读 point → 两个百分比之差说 percentage points → 占比用分数和 out of → 发消息：先说总量，再说关键变化
+
+@story_title: Episode 68 · One Point Two Million
+@story_type: 对话 + 消息
+@s: It's the first of the month. Tom needs last month's numbers by eleven. | 今天是一号。张涛十一点前要拿到上个月的数据。
+@s: Lily **calculates** the totals and practices reading them with Emma. | 林晓把各项总数算好，然后找 Emma 练习怎么把它们读出来。
+@br:
+@s: Lily: Big numbers are hard. In Chinese, we count in ten thousands. | 林晓：大数字太难了。中文是按「万」来数的。
+@s: Emma: Then use the commas. English groups **digits** in threes: thousand, million, **billion**. | Emma：那就看逗号。英文是三位数一组：千、百万、十亿。
+@s: Lily: OK. We shipped one point two million packages last month. | 林晓：好。上个月我们发了一百二十万个包裹。
+@s: Emma: Perfect. And the **exact** **figure**? | Emma：很好。那准确的数字呢？
+@s: Lily: One million, two hundred thirty-six thousand, four hundred eighty **in total**. | 林晓：一共是 1,236,480 个。
+@s: Emma: Good. In a report, "**nearly** 1.24 million" is fine. | Emma：不错。报告里写「接近 124 万」就行。
+@br:
+@s: Lily: Delivery time is six dot five days. | 林晓：配送时间是六点五天。
+@s: Emma: Not "dot." That's for websites. In a **decimal**, say "point." | Emma：不是 dot，dot 是网址里用的。小数点要读 point。
+@s: Lily: Right. **On average**, a package takes six point five days. | 林晓：对。平均每个包裹要 6.5 天。
+@s: Lily: And 0.8 percent were lost or damaged. "**Zero** point eight," right? | 林晓：还有 0.8% 的包裹丢失或损坏。读作 zero point eight，对吧？
+@br:
+@s: Lily: Ninety-four **out of** a hundred packages arrived on time. | 林晓：每一百个包裹里有九十四个准时送达。
+@s: Lily: Last time it was ninety-two, so it went up by two percent? | 林晓：上次是九十二，所以涨了 2%？
+@s: Emma: Careful! Ninety-four **minus** ninety-two **equals** two. | Emma：小心！九十四减九十二等于二。
+@s: Emma: That's two points, not two percent. | Emma：那是两个点，不是 2%。
+@s: Lily: The on-time rate went up by two **percentage** points. | 林晓：准时率提高了两个百分点。
+@s: Lily: Tom wants **at least** ninety-five, but some packages still take **up to** twelve days. | 林晓：张涛要求至少 95%，可还有些包裹最长要 12 天。
+@br:
+@s: Lily: Express packages were 410,000. That's **roughly** a **third** of our total volume. | 林晓：快速件有 41 万个，大约占我们总量的三分之一。
+@s: Emma: So the **ratio** of standard to express is two to one. | Emma：那标准件和快速件的比例就是二比一。
+@s: Emma: **Fractions** like "a third" work well in meetings. | Emma：「三分之一」这样的分数，在会上说很好记。
+@s: Lily: Express has **doubled** since last year, and Ross Kicks' **tripled**! | 林晓：快速件比去年翻了一番，Ross Kicks 的更是涨到了原来的三倍！
+@s: Lily: **Plus**, a **dozen** sellers had zero late packages. | 林晓：而且，有十二个卖家一个晚到的包裹都没有。
+@br:
+@s: Lily sends Tom a short message: | 林晓给张涛发了一条简短的消息：
+@s: Hi Tom, here are the key numbers. | 张涛，以下是几个关键数据。
+@s: We shipped **approximately** 1.24 million packages, and 94% arrived on time. | 上个月我们共发出约 124 万个包裹，94% 准时送达。
+@s: That's up two percentage points. | 比前一个月提高了两个百分点。
+
+@v: calculates | calculate | v. | ˈkælkjuleɪts | 计算；算出 | 算总数、比率、平均值 | calculate the total；calculate the rate；How did you calculate…? | How did you calculate the on-time rate? | 准时率你是怎么算的？ | calculate 是「用数学方法算出来」，比 count（数）正式；「我算了一下」口语常说 I did the math.；主语是第三人称单数时别丢 -s：Lily calculates…；重音在前：CAL-cu-late，cu 读 `/kju/`。
+@v: digits | digit | n. | ˈdɪdʒɪts | （0–9 中的）数字；位数 | 说一个数有几位、按位读数 | three digits；a six-digit number；double-digit growth（两位数增长） | Please enter the last four digits of your phone number. | 请输入你手机号的后四位。 | 中文「数字」有三种意思：一个个 0–9 是 digit，一个数是 number，报告里的数据是 figure；「六位数的年薪」是 a six-digit salary；「两位数增长」是 double-digit growth；重音在前：DI-git。
+@v: billion | = | num. | ˈbɪljən | 十亿 | 说很大的数：销售额、用户数、人口 | one billion；1.4 billion；billions of… | China has about 1.4 billion people. | 中国大约有 14 亿人口。 | 英文没有「亿」：一亿 = one hundred million，十亿 = one billion，14 亿 = 1.4 billion；前面有具体数字时不加 s：✗ two billions；lion 读 `/ljən/`，和 million 一样，不读「狮子」lion。
+@v: exact | = | adj. | ɪɡˈzækt | 准确的；精确的 | 问或给出一个准确的数字、时间 | the exact figure；the exact time；exact numbers | What's the exact address? | 准确地址是什么？ | 汇报时先说约数（roughly 1.2 million），对方追问 What's the exact figure? 再报精确数；副词 exactly（D13）口语里还表示「没错」；x 读 `/ɡz/`：ig-ZACT，不读 /ks/。
+@v: figure | = | n. | ˈfɪɡjər | 数字；数据 | 报告、财务里说具体的数 | the exact figure；sales figures；last month's figures | The sales figures for May look good. | 五月的销售数据看起来不错。 | 报告里的「数据、数字」说 figures 或 numbers，figure 更书面；figure 还有「身材、人物、图（Figure 1）」等意思，要看上下文；美式读 `/ˈfɪɡjər/`，g 后面带一个 /j/。
+@v: in total | = | phr. | ɪn ˈtoʊtl | 总共；一共 | 报总数 | … in total；In total, …；a total of… | We have twenty sellers in total. | 我们一共有二十个卖家。 | 可以放句首或句尾：In total, … / … in total；也可以说 a total of 300 packages；total（D20）的 t 在美式里闪音：TO-dl。
+@v: nearly | = | adv. | ˈnɪrli | 将近；差一点就到 | 说一个比某数略少的数 | nearly 1.24 million；nearly half；nearly every day | Nearly half of our sellers sell home goods. | 我们将近一半的卖家卖家居用品。 | nearly ＝「快到了，但还没到」：1,236,480 是 nearly 1.24 million，1,245,000 就不能说 nearly；和 almost（D22）意思接近，nearly 更常和数字连用；不说 ✗ nearly about。
+@v: decimal | = | n./adj. | ˈdesɪml | 小数；小数的 | 读、写带小数点的数 | a decimal；the decimal point；two decimal places | Round the number to one decimal place. | 把这个数保留一位小数。 | 「小数点」是 the decimal point，但读数时只说 point；「保留两位小数」说 two decimal places；c 读 /s/：DEC-i-mal。
+@v: On average | on average | phr. | ɑːn ˈævərɪdʒ | 平均（来说） | 报平均值：平均时效、平均订单量、平均回复时间 | On average, …；… on average；an average of… | On average, we answer an email in two hours. | 我们平均两个小时回复一封邮件。 | average（D54）是名词 / 形容词，「平均每……」常用 on average 放在句首或句尾；不说 ✗ in average / ✗ averagely；average 口语常读两个音节 `/ˈævrɪdʒ/`。
+@v: Zero | zero | num./n. | ˈzɪroʊ | 零 | 读小数；说「一个都没有」 | zero point eight；zero late packages；below zero | We had zero complaints this week. | 我们这周零投诉。 | 读 0.8 时美国人说 zero point eight，也常省掉 zero 说 point eight；电话号码、房间号里的 0 常读 oh；「零投诉」说 zero complaints，名词用复数；美式读 `/ˈzɪroʊ/`。
+@v: out of | = | phr. | ˈaʊt əv | （若干个）当中的（几个） | 说比例：十个里有九个、满分几分 | nine out of ten；94 out of 100；four out of five stars | Nine out of ten sellers use our tracking page. | 十个卖家里有九个都用我们的跟踪页面。 | 中文先说总数（十个里有九个），英文先说部分：nine **out of** ten；做主语时动词跟着部分走：One out of five packages **is** express.；out of 还有「用完」的意思：run out of（D34）。
+@v: minus | = | prep. | ˈmaɪnəs | 减；减去 | 当场算给别人听 | A minus B；minus ten degrees（零下十度） | Ten minus three is seven. | 十减三等于七。 | 「零下十度」说 minus ten 或 ten below zero；「减去」不说 ✗ reduce（reduce 是「减少」，D69）；i 读 `/aɪ/`：MY-nus。
+@v: equals | equal | v. | ˈiːkwəlz | 等于 | 口头算账、讲公式 | A equals B；be equal to；equal pay（形容词：平等的） | Two plus two equals four. | 二加二等于四。 | 口语算数也常说 is：Ten minus three is seven.；作动词时主语是单数要加 -s：It equals two.；形容词 equal 是「相等的、平等的」：equal pay for equal work。
+@v: percentage | = | n. | pərˈsentɪdʒ | 百分比；百分率 | 说比率；和 points 连用说「百分点」 | percentage points；a high percentage；What percentage…? | What percentage of our packages arrive late? | 我们的包裹有百分之多少晚到？ | percent（D22）跟在数字后面：94 percent；percentage 不直接跟数字：✗ 94 percentage；「两个百分点」是 two percentage points，不是 two percent；tage 读 `/tɪdʒ/`。
+@v: at least | = | phr. | ət ˈliːst | 至少；起码 | 说下限：目标、时间、数量 | at least 95 percent；at least two days；at least once a week | It takes at least three days to get a refund. | 退款至少要三天。 | 放在数字前面：at least 95 percent，不说 ✗ least at；单独放句首还能表示「好在」：At least nobody was hurt.；说上限用 up to 或 at most。
+@v: up to | = | phr. | ˈʌp tə | 最多；多达 | 说上限：最长时间、最多数量、最大折扣 | up to twelve days；up to 50 percent off；It's up to you. | Delivery can take up to two weeks. | 配送最长可能要两周。 | up to + 数字 ＝「最多可以到这么多」，常用在 take up to…、up to 50% off；It's up to you. 是「由你决定」，意思完全不同；to 弱读成 `/tə/`。
+@v: roughly | = | adv. | ˈrʌfli | 大约；粗略地 | 口头报约数 | roughly a third；roughly 100；roughly speaking | Roughly half of our packages go to the West Coast. | 我们大约一半的包裹寄往美国西海岸。 | 口语里比 approximately 常用，比 about 稍正式；gh 读 /f/：RUFF-lee；后面可以接数字，也可以接分数：roughly a third。
+@v: third | = | n. | θɜːrd | 三分之一 | 说占比：三分之一、三分之二 | a third；one third；two thirds | About two thirds of our sellers ship from Shenzhen. | 我们大约三分之二的卖家从深圳发货。 | 分数：分子用基数词，分母用序数词：one third；分子大于 1 时分母加 s：two thirds；third 也是「第三」：the third floor；th 咬舌 `/θ/`，ir 卷舌。
+@v: ratio | = | n. | ˈreɪʃioʊ | 比；比率 | 说两个数量之间的关系 | the ratio of A to B；a ratio of two to one；a high ratio | The ratio of sellers to account managers is twenty to one. | 卖家和客户经理的比例是二十比一。 | 2:1 读作 two to one；「A 和 B 的比例」常说 the ratio of A to B；中文「比例」还常指「占比」（快速件的比例是三分之一），那时英文用 percentage 或 share，ratio 专指两个量之比；ti 读 `/ʃi/`：RAY-shee-oh。
+@v: Fractions | fraction | n. | ˈfrækʃnz | 分数 | 说占比；数学里的分数 | fractions like "a third"；a fraction；a fraction of（一小部分） | Fractions are easier to understand than long decimals. | 分数比一长串小数好懂。 | 读分数：1/3 a third，3/4 three quarters，1/2 a half；a fraction of… 在口语里是「一小部分」：at a fraction of the cost（花一小部分的钱）；tion 读 `/ʃn/`。
+@v: doubled | double | v. | ˈdʌbld | 翻了一番；增加到两倍 | 说数量翻倍 | double in size；has doubled since…；double the price（形容词：两倍的） | Our team has doubled since last year. | 我们团队比去年扩大了一倍。 | double = 变成原来的 2 倍（翻一番）；has doubled since… 用完成时，说「到现在为止」的变化（since D31）；ou 读 `/ʌ/`，和 cup 里的 u 一样。
+@v: tripled | triple | v. | ˈtrɪpld | 增加到三倍 | 说数量变成原来的三倍 | sales tripled；triple in size；triple the work | Our online sales tripled in two years. | 我们的网上销售额两年涨到了原来的三倍。 | triple = 变成原来的 3 倍，也就是「增加了两倍」，**不是**「翻两番」（翻两番 = 4 倍，quadruple）；中文「增加了三倍」常有歧义，汇报时说清楚：It tripled. 或 It went up by 200 percent.
+@v: Plus | plus | conj./prep. | plʌs | 而且；另外（口语）；加 | 再补充一个好消息或理由；算数 | Plus, …；two plus two；plus tax（另加税） | The hotel is cheap. Plus, it's near the office. | 那家酒店便宜，而且离公司近。 | 口语里 Plus, … 放句首表示「而且、再说」，比 Also 随意，正式报告里少用；算数时 plus 是「加」：Two plus two is four.；价格后面的 plus tax 是「另加税」。
+@v: dozen | = | n. | ˈdʌzn | 十二个；一打 | 说十二个、十来个 | a dozen；two dozen；dozens of（几十个） | I got dozens of emails about the delay. | 关于这次延误，我收到了几十封邮件。 | a dozen = 12，后面直接接名词：✓ a dozen sellers ✗ a dozen of sellers；前面有数字时不加 s：two dozen eggs；泛指「几十个」才用 dozens of；o 读 `/ʌ/`：DUZ-n。
+@v: approximately | = | adv. | əˈprɑːksɪmətli | 大约；近似地 | 正式的报告、邮件里给约数 | approximately 1.24 million；approximately 30 percent；approx.（缩写） | The meeting will last approximately one hour. | 会议大约持续一个小时。 | 书面、正式；口语里用 about / around / roughly 就行；邮件、表格里常缩写成 approx.；5 个音节，mate 弱读成 `/mət/`，不读 /meɪt/。
+
+@diff: 「120 万」「1 亿」——英文三位一组：one point two million / one hundred million
+@d_cn: 说大数字：120 万个包裹、125 万、3.5 亿元、十亿。
+@d_en: We shipped one point two million packages. / 1,250,000 = one point two five million / 350,000,000 = three hundred fifty million / 1,000,000,000 = one billion
+@d_why: 中文四位一组：个、十、百、千，然后是**万**（10⁴）和**亿**（10⁸）；英文三位一组，逗号就是分界线：**thousand**（10³）、**million**（10⁶）、**billion**（10⁹）。英文里没有「万」和「亿」，所以要先换算：**一万 = ten thousand，十万 = one hundred thousand，一百万 = one million，一千万 = ten million，一亿 = one hundred million，十亿 = one billion**。最快的换算口诀：**「X 万」÷ 100 = X million**——120 万 → 1.2 million，125 万 → 1.25 million，3,500 万 → 35 million；**「X 亿」× 100 = X million**——3.5 亿 → 350 million，10 亿 → 1,000 million = 1 billion。读精确数字时，按逗号一段一段读，每段后面加单位：1,236,480 = one million, two hundred thirty-six thousand, four hundred eighty。前面有具体数字时，million / thousand / hundred **不加 s**（✗ two millions）；只有说「数以百万计」才用 millions of。汇报时美国人更爱说约数：nearly 1.24 million。
+@d_when: 汇报订单量、销售额、用户数；读财务数字；听美国同事报数。
+@d_vs: **120 万 = 1,200,000 = one point two million**\n**125 万 = 1,250,000 = one point two five million**（也可以说 one million, two hundred fifty thousand）\n**3.5 亿元 = 350,000,000 yuan = three hundred fifty million yuan**\n**10 亿 = one billion**\n✗ one hundred twenty ten thousand / ✗ two millions packages
+@d_task: 用英文读出：① 36 万个包裹 ② 2.4 亿元 ③ 1,050,300 | ① three hundred sixty thousand packages ② two hundred forty million yuan ③ one million, fifty thousand, three hundred
+@diff: 小数：6.5 = six point five；0.75 = zero point seven five
+@d_cn: 平均 6.5 天、丢件率 0.8%、0.75。
+@d_en: On average, a package takes six point five days. / 0.8% = zero point eight percent / 0.75 = zero point seven five / 3.05 = three point oh five
+@d_why: 中文小数点读「点」，英文读 **point**，不读 ✗ dot——dot 只用在网址和邮箱里（swiftlink dot com）。**小数点后面的数字一位一位地读**：0.75 是 zero point **seven five**，不读 ✗ zero point seventy-five；3.14 是 three point one four。小数点前面的 0 读 **zero**，口语里也常省掉：point eight；小数点后面的 0 常读成 **oh**：3.05 = three point oh five。钱是例外：$3.50 读 three fifty 或 three dollars and fifty cents，不读 three point five zero。还有一个小语法：中文「6.5 天」没有单复数，英文只要不是正好 1，名词就用**复数**：six point five days，1.5 hours。
+@d_when: 汇报平均时效、费率、增长率；读价格和汇率（exchange rate，D48）。
+@d_vs: **6.5 days = six point five days**\n**0.75 = zero point seven five**（✗ zero point seventy-five）\n**0.8% = (zero) point eight percent**\n**3.05 = three point oh five**\n**$3.50 = three fifty**（钱的读法）\n✗ six dot five days / ✗ 6.5 day
+@d_task: 读出并说成一句话：「平均配送时间从 7.25 天降到了 6.5 天。」 | The average delivery time went down from seven point two five days to six point five days.
+@diff: 「提高了 2 个百分点」——two percentage points（≠ two percent）
+@d_cn: 准时率从 92% 提高到 94%，提高了 2 个百分点。
+@d_en: The on-time rate went up by two percentage points. / It went up from ninety-two to ninety-four percent.
+@d_why: 这一点中文和英文其实一样严格：「百分点」是两个百分比**相减**的差，「百分之几」是**相对**的变化。92% → 94%，差 2 个百分点（two **percentage points**），而相对增长只有约 2.2%（2 ÷ 92）。中国学习者常把「个百分点」省掉，说成 ✗ went up by two percent，美国同事会理解成「增长了 2%」，数字就错了。数字越大，差得越远：退货率从 10% 升到 15%，是 up five percentage points，也是 up fifty percent。口语里常简化成 **points**：up two points。另外，**percent** 跟在数字后面（94 percent），**percentage** 不跟数字（a high percentage / What percentage…?），不说 ✗ 94 percentage。
+@d_when: 比较两个比率：准时率、退货率、转化率、市场份额。
+@d_vs: **92% → 94%：up two percentage points**（口语：up two points）\n**10% → 15%：up five percentage points = up fifty percent**\n**What percentage arrived on time? — Ninety-four percent.**\n✗ It went up by two percent.（意思变了）\n✗ ninety-four percentage
+@d_task: 退货率从 8% 降到 6%。用英文说出：① 降了几个百分点 ② 相对下降了百分之多少。 | ① The return rate went down by two percentage points. ② In other words, it went down by twenty-five percent.
+@diff: 分数和「……中的……」——a third / three quarters / ninety-four out of a hundred
+@d_cn: 三分之一、三分之二、四分之三；每一百个包裹里有九十四个准时到。
+@d_en: That's roughly a third of our total volume. / two thirds / three quarters / Ninety-four out of a hundred packages arrived on time.
+@d_why: 中文分数**先说分母、再说分子**：「三分之一」＝三份里的一份。英文顺序正好相反：**先说分子（基数词），再说分母（序数词）**：one third（1/3）、one fifth（1/5）。分子大于 1 时，分母加 **s**：two thirds、three fifths。½ 和 ¼ 有专门的词：**a half**、**a quarter**（3/4 = three quarters，美国人也说 three fourths）。口语里 one 常换成 **a**：a third、a quarter。「每一百个里有九十四个」同样是英文先说部分、后说总数：ninety-four **out of** a hundred；也常说 one in five（每五个里有一个）。在会上，分数和 out of 比百分比更好记：a third of our volume 一听就懂。
+@d_when: 说占比、比例；向卖家、客户这些不看表格的人解释数据时。
+@d_vs: **1/3 = a third / one third**　**2/3 = two thirds**\n**1/4 = a quarter**　**3/4 = three quarters**\n**1/2 = a half**（half of our orders）\n**94 out of 100 = ninety-four out of a hundred**\n✗ three part one / ✗ two third
+@d_task: 用英文说：「我们大约三分之二的包裹是标准件；每四个卖家里有三个用过快速件。」 | About two thirds of our packages are standard. Three out of four sellers have used express.
+
+@core: We shipped + 数字 + packages last month. | 报总量 | one point two million / three hundred fifty thousand；packages / orders | 正式：Last month's total volume was approximately 1.24 million packages.｜随意：We did about 1.2 million last month.
+@core: The exact figure is… / That's nearly… / roughly… | 先给精确数，再给好记的约数 | nearly 1.24 million / roughly a third / approximately 30 percent | 正式：The exact figure is 1,236,480, or approximately 1.24 million.｜随意：It's about 1.2 million.
+@core: On average, … takes… | 报平均值 | a package / a refund / a reply；six point five days / two hours | 正式：The average delivery time was 6.5 days.｜随意：It's about six and a half days on average.
+@core: … out of … | 用「几个里有几个」说比例 | ninety-four out of a hundred / nine out of ten / one in five | 正式：Ninety-four percent of packages were delivered on time.｜随意：Almost all of them got there on time.
+@core: That's roughly a third of… | 用分数说占比 | a third / a quarter / half；our total volume / all orders | 正式：That's approximately 33 percent of our total volume.｜随意：That's about a third of everything.
+@core: … went up / down by … percentage points | 比较两个百分比 | two / five；percentage points / points | 正式：The on-time rate improved from 92 to 94 percent.｜随意：We're up two points.
+@core: at least … / up to … | 说下限和上限 | at least ninety-five percent / up to twelve days | 正式：Delivery may take up to twelve business days.｜随意：Some take as long as twelve days.
+@core: A minus B equals C. | 当场把账算给别人听 | minus / plus；equals / is | 正式：The difference is two percentage points.｜随意：That's two points better.
+
+@pw: percentage | pərˈsentɪdʒ | 3 个音节 per·CEN·tage | 重音在 cen；per 弱读成 `/pər/`；tage 读 `/tɪdʒ/`，不读 /teɪdʒ/
+@pw: decimal | ˈdesɪml | 3 个音节 DEC·i·mal | 重音在前；c 读 /s/；结尾 mal 很轻
+@pw: approximately | əˈprɑːksɪmətli | 5 个音节 ap·PROX·i·mate·ly | 重音在 prox；mate 弱读成 `/mət/`，不读 /meɪt/
+@pw: ratio | ˈreɪʃioʊ | 3 个音节 RA·ti·o | a 读 `/eɪ/`；ti 读 `/ʃi/`，像「瑞希欧」
+@pw: billion | ˈbɪljən | 2 个音节 BIL·lion | 和 million 一样，lion 读 `/ljən/`，不读「狮子」lion
+@pw: thirteen / thirty | θɜːrˈtiːn / ˈθɜːrdi | thir·TEEN / THIR·ty | -teen 重音在后、拉长，t 读清楚；-ty 重音在前，t 闪音成轻 d；fourteen / forty、fifteen / fifty 同理
+@pw: calculate | ˈkælkjuleɪt | 3 个音节 CAL·cu·late | 重音在前；cu 读 `/kju/`；late 读 `/leɪt/`
+@ps: We **shipped** / **one** point **two** **mil**lion **pack**ages / last **month**. | shipped 读 `/ʃɪpt/`，-ed 是轻轻的 /t/；point two 两个词都要读清楚，数字才是这句话的重点；million 的 lion 读 `/ljən/`。
+@ps: On‿**av**erage, / a **pack**age takes / **six** point **five** **days**. | On average 连读成 o-NAV-rij，average 口语只有两个音节 `/ˈævrɪdʒ/`；takes 的 -s 别丢（第三人称单数）。
+@ps: **Nine**ty-**four** / out‿of a **hun**dred packages / ar**rived**‿on **time**. | ninety 的 t 闪音像 d：NINE-dee；out of 连成 ow-dəv；arrived on 连成 a-rai-von。
+@ps: The on-**time** rate / went **up** by **two** per**cent**age points. | on-time rate 是复合名词，重音落在前面的 on-time 上，rate 轻读；percentage 是这句话的关键词，一定要读出来，别吞成 percent。
+@pnote: 听数字的三个坑：① thirteen / thirty、fourteen / forty……-teen 重音在后、拉长，-ty 重音在前、t 读成轻 d（D20）——拿不准就问 Did you say thirteen or thirty?；② 大数字里的 and：美国人读 1,236,480 一般不加 and（four hundred eighty），英国人常说 four hundred **and** eighty，两种都对；③ 四位数的口语说法：1,500 常说 fifteen hundred，3,500 说 thirty-five hundred（D45），但 1,236,480 这样的大数不这样说。
+@pnote: 写 vs 说：报告里写 94%、6.5、1.24M，读出来是 ninety-four percent、six point five、one point two four million；写的时候 million 可以缩写成 M（K = thousand，B = billion），读出来永远是完整的词。小数点前的 0 口语常省：0.8 读 point eight。句子不要用阿拉伯数字开头：✗ 94 out of 100 packages… → ✓ Ninety-four out of a hundred packages…；percent 美国写成一个词。
+@lfocus: 大数字：按逗号一段一段听，先抓 million / thousand
+@lfocus: 小数：point 后面的数字一位一位地听
+@lfocus: two percent 还是 two percentage points
+@dict: S5–S8
+@dict: S13–S17
+@res: 在 youglish.com 输入 "percentage points"，选 US
+
+@mimic: 跟读【C】S3–S23：先正常语速逐句跟读，每个数字都要读得清清楚楚，特别注意 one point two million、six point five、ninety-four out of a hundred、two percentage points；再由你演林晓、手机朗读 Emma 的台词，完整对一遍并录音。最后只看【C】里的阿拉伯数字（1,236,480 / 6.5 / 0.8% / 94% / 410,000），合上书一口气读出来。
+@swap: We shipped one point two million packages last month. | 换数字：1,500,000 / 360,000 / 2,750,000 | We shipped two point seven five million packages last month.
+@swap: On average, a package takes six point five days. | 换内容和小数：a refund / 3.5 days；a reply / 2.5 hours | On average, a refund takes three point five days.
+@swap: Ninety-four out of a hundred packages arrived on time. | 换比例：nine out of ten / one in five；sellers / customers | Nine out of ten sellers use our tracking page.
+@swap: The on-time rate went up by two percentage points. | 换比率和变化：the return rate went down / three points；the claim rate / one point | The return rate went down by three percentage points.
+@free: 美国同事问 SwiftLink 一个月处理多少包裹（大约 125 万） | We handle about one point two five million packages a month. That's roughly fifteen million a year.
+@free: 张涛问准时率怎么样（从 91% 升到 94%） | It's better. The on-time rate went up by three percentage points, from ninety-one to ninety-four percent.
+@free: Sarah 问她的包裹一般多久能到（平均 6.5 天，最长 12 天） | On average, your packages take six point five days. Most arrive within a week, but some take up to twelve days.
+@free: Leo 把 0.75 读成 zero point seventy-five，又把「提高了 2 个百分点」说成 two percent，你纠正他 | Two small fixes. Say "zero point seven five," one digit at a time, and ninety-two to ninety-four percent is up two percentage points, not two percent.
+@output: 写一条 6–10 句的月度数据消息给经理：第一句概括这个月怎么样 → 总量（大数字，精确数或约数）→ 平均值（小数）→ 一个比率的变化（percentage points）→ 一个占比（分数或 out of）→ 一个需要注意的数字（at least / up to）→ 下一步或附件说明。用你自己工作的数据，或用示范里的数据。
+@output_sample: Hi Tom, here's a quick summary of last month's numbers. Overall, it was a good month. In total, we shipped 1,236,480 packages, or nearly 1.24 million. On average, a package took 6.5 days. Ninety-four out of a hundred packages arrived on time, so the on-time rate went up by two percentage points. Express packages were roughly a third of our total volume. However, some packages to Alaska and Hawaii still took up to twelve days. To reach at least 95 percent next month, we should look at those late packages first. For your reference, the full numbers are in the attached sheet.
+
+@check: 听力：上个月一共发了多少包裹？Emma 说报告里怎么写这个数就行？ | 一共 1,236,480 个（one million, two hundred thirty-six thousand, four hundred eighty）；报告里写 nearly 1.24 million（接近 124 万）就行。
+@check: 听力：林晓哪两处说错了？Emma 是怎么纠正的？ | ① 把 6.5 读成 six dot five，Emma 说 dot 是网址里用的，小数点读 point；② 准时率从 92% 到 94%，她说成 went up by two percent，Emma 算给她听：94 minus 92 equals 2，是两个点（two percentage points），不是 2%。
+@check: 迁移：用英文读出：① 350 万 ② 1.5 亿 ③ 0.25 ④ 三分之二 | ① three point five million ② one hundred fifty million ③ zero point two five ④ two thirds
+@check: 迁移：转化率从 3% 升到 4%。Priya 说 "That's a thirty-three percent increase."，你说 "It went up by one percentage point."——谁对？ | 两个人都对：两个百分比的差是 1 个百分点（one percentage point），相对增长约 33%（1 ÷ 3）。汇报时要说清楚是哪一种。
+@check: 迁移：客户问包裹最快几天、最慢几天到（最少 4 天，最多 12 天，平均 6.5 天） | It takes at least four days and up to twelve days. On average, it's six point five days.
+@check: 中文「十个里有九个」英文怎么说？「每五个包裹里有一个是快速件」呢？ | nine out of ten；One out of five packages is express.（也可以说 One in five packages is express.）注意动词跟着 one 用单数 is。
+@next1: 不看书说出 5 个锚点句：S5、S11、S13、S17、S19
+@next1: 拿出手机里任意 5 个大数字（价格、步数、粉丝数），用英文读出来
+@next7: 换算口诀：「X 万」÷ 100 = X million；「X 亿」× 100 = X million；10 亿 = one billion
+@next7: percent vs percentage points；a third / two thirds / three quarters；at least / up to

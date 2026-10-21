@@ -1,0 +1,163 @@
+@day: 72
+@week: 2
+@title_cn: 为什么数字变了
+@title_en: Why Did It Change?
+@topic: 解释数据变化的原因：一个卖家的订单下降、配送变慢，背后是节日大促、港口罢工和仓库积压；用 due to / because of / lead to / as a result 把因果说清楚
+@think_short: because + 句子 vs because of / due to + 名词｜「导致」lead to / cause（不说 make … happen）｜affect（动词）/ effect（名词）/ impact｜「所以」as a result / so / that's why
+
+@goal_scene: 一个大卖家的订单突然下降、配送变慢，你查完原因向经理说明：先一句话给结论，再一个个讲原因、讲清它们怎么连在一起，最后说对客户的影响和下一步。
+@goal_expr: In short, … / The holiday led to a spike in orders. / As a result, … / Delivery times went up due to… / The delay was partly caused by… / Because of…, … / How did this affect…? / It had a big impact on… / Supply couldn't keep up with demand.
+@goal_vocab: 20 个重点词 + 5 个短语：原因与结果、供需与产能、原因的比重（partly / largely）、意外与季节性
+@done: 能用 because / because of / due to 说明原因，后面分别接句子或名词，不说 ✗ because the strike
+@done: 能用 lead to / cause / as a result 把 2–3 个原因串成一条因果链，1 分钟内讲给经理听
+@done: 能分清 affect（动词）和 effect（名词），会问 How did this affect…? 并用 It had a big impact on… 回答
+
+@warmup: 总体来说，这周不错。 | Overall, it was a good week. | D71
+@warmup: 二十张工单，我们已经解决了十八张。 | We've resolved eighteen of the twenty tickets. | D71
+@warmup: 新面单项目有延期的风险。 | The new label project is at risk. | D71
+@warmup: 平均每个包裹要 6.5 天送达。 | On average, a package takes six point five days. | D68
+@warmup: Kevin 和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+@warmup: 五号线出了事故，地铁停了二十分钟。 | There was an accident on Line 5, so the subway stopped for twenty minutes. | D9
+
+@scene: 月中，林晓一早就收到得州球鞋店 Ross Kicks 老板 Daniel 的消息：这周订单少了三成，顾客等鞋等得没完没了，问她到底怎么回事。林晓花了一上午查原因：看看板数据、问 Daniel 的仓库、读承运商的通知。原因不止一个：两周前赶上美国的一个节假日长周末，Daniel 搞了大促，订单从平时每周约 800 单冲到 1,400 单，仓库处理不过来；他的新货走海运，偏偏到货的港口罢工，集装箱被困了四天，热门尺码断了货；得州又赶上几场暴风雨。平均配送时效从 4.1 天拉长到 7.5 天，店铺页面上的预计送达日期一推后，下单的人就少了，这周只有 560 单左右。张涛向来要求「先说结论」，林晓得把几个原因的前因后果讲清楚，再说对卖家的影响。
+@sp: 人物关系 | 林晓 ↔ 张涛：员工向经理汇报；Daniel 是要求多、脾气急的卖家，张涛很在意这个客户
+@sp: 沟通目的 | 林晓要说清订单为什么下降、配送为什么变慢、几个原因之间是什么关系；张涛想知道对客户的影响，以及以后怎么防
+@sp: 已知信息 | 张涛只看到 Daniel 的数字变红了，不知道背后有大促、罢工和天气三件事；林晓已经查清了原因和数字
+@sp: 表达重点 | In short… 一句话结论 → 原因一：节日大促 led to 订单激增 → As a result 仓库积压 → 原因二：港口罢工、供不应求，due to → 原因三：天气 partly caused → 影响：affect / impact / because of → 好消息和下一步
+
+@story_title: Episode 72 · Three Causes, One Problem
+@story_type: 叙述 + 卖家消息 + 对话
+@s: In the middle of the month, Daniel sends Lily a message: | 月中，Daniel 给林晓发来一条消息：
+@s: My orders dropped 30% this week. | 我这周的订单少了 30%。
+@s: And my customers are waiting forever. What's going on? | 我的顾客等包裹等得没完没了。到底怎么回事？
+@s: Lily spends the morning looking for the **cause**. | 林晓花了一上午找原因。
+@br:
+@s: Lily: In short, Daniel's packages are late, and that's hurting his sales. | 林晓：简单说，Daniel 的包裹晚到了，这正在拖累他的销量。
+@s: Tom: That's **unusual** for Daniel. What happened? | 张涛：Daniel 那边很少这样。出什么事了？
+@s: Lily: Two weeks ago, he ran a big sale on a **holiday** weekend. | 林晓：两周前，他在一个节假日长周末搞了一场大促。
+@s: Lily: The holiday **led to** a **spike** in orders. | 林晓：节日让订单量一下子冲了上去。
+@s: Lily: They jumped from eight hundred to fourteen hundred. | 林晓：从八百单涨到了一千四百单。
+@s: Lily: But his warehouse doesn't have the **capacity** for that. | 林晓：可他的仓库处理不了这么多。
+@s: Lily: **As a result**, the warehouse had a **backlog**. | 林晓：结果，仓库积压了一大批订单。
+@s: Tom: Was that the only **factor**? | 张涛：只有这一个因素吗？
+@s: Lily: No. His new stock comes by ship, and there was a **strike** at the **port**. | 林晓：不是。他的新货走海运，而港口那边发生了罢工。
+@s: Lily: His containers were stuck for four days, so there was a **shortage** of popular sizes. | 林晓：他的集装箱被困了四天，热门尺码就断货了。
+@s: Lily: **Supply** couldn't keep up with **demand**. | 林晓：供应跟不上需求。
+@s: Lily: Delivery times went up **due to** the strike at the port. | 林晓：因为港口罢工，配送时间变长了。
+@s: Lily: The average went from four point one days to seven point five. | 林晓：平均时效从 4.1 天变成了 7.5 天。
+@s: Lily: The delay was **partly** caused by bad weather. Texas had storms. | 林晓：延误也有一部分是坏天气造成的，得州下了几场暴风雨。
+@s: Tom: How did this **affect** our customers? | 张涛：这对我们的客户有什么影响？
+@s: Lily: It had a big **impact** on Daniel's sales. | 林晓：对 Daniel 的销量影响很大。
+@s: Lily: His store showed later delivery dates, so fewer people ordered. | 林晓：他店里显示的预计送达日期推后了，下单的人就少了。
+@s: Lily: Part of the drop is **seasonal**, but the delays had a bigger **effect**. | 林晓：下降有一部分属于季节性回落，但延误的影响更大。
+@s: Lily: **Because of** them, he also got nine one-star reviews. | 林晓：因为延误，他还收到了九个一星差评。
+@s: Tom: Those are serious **consequences** for a small store. | 张涛：对一家小店来说，这些后果挺严重的。
+@s: Lily: Luckily, the strike is over, and the backlog is **largely** gone. | 林晓：好在罢工已经结束，积压也基本清掉了。
+@s: Tom: Good. The strike was **unexpected**, but we need a plan before **peak season**. | 张涛：好。罢工是谁也没料到的，但旺季之前我们得有个预案。
+@s: Tom: Please write to Daniel today. | 张涛：今天就给 Daniel 写封邮件吧。
+
+@v: cause | = | n. | kɔːz | 原因；起因 | 查问题、解释数据变化 | the cause of…；the main cause；find the cause | We still don't know the cause of the delay. | 我们还不知道延误的原因。 | 「……的原因」说 the cause of / the reason for（第一册），介词别弄混：✗ the cause for / ✗ the reason of；cause 偏「造成问题的根源」，reason 偏「解释、理由」；也能作动词：The storms caused delays.
+@v: unusual | = | adj. | ʌnˈjuːʒuəl | 不寻常的；少见的；反常的 | 发现数据异常、情况反常 | unusual for sb；an unusual drop；It's unusual to… | It's unusual for him to be late. | 他很少迟到。 | 中文「反常」「不太对劲」在工作里常说 That's unusual.，比 strange（奇怪，第一册）更中性、更客观；常用句型 It's unusual for sb to do sth；s 读 `/ʒ/`，和 usual 一样。
+@v: holiday | = | n. | ˈhɑːlədeɪ | 节日；节假日 | 说大促、假期对订单和物流的影响 | a holiday weekend；holiday sales；the holidays | Many stores run big sales on holiday weekends. | 很多店铺在节假日长周末搞大促。 | 美式英语里 holiday 主要指「法定节日」（a national holiday），自己请的「休假」说 vacation（Day 67）；the holidays（复数）在美国常指感恩节到新年这段时间；a holiday weekend 是因节日多放一天的三天长周末。
+@v: led to | lead to | phr. | ˈled tə | 导致；带来（某种结果） | 讲因果链 | lead to a spike；lead to delays；lead to problems | Better photos led to fewer returns. | 产品照片拍得更好以后，退货变少了。 | 「A 导致 B」说 A led to B，to 是介词，后面接名词，不接句子：✗ led to orders went up；过去式是 led `/led/`，不是 ✗ leaded；不说 ✗ made orders increase。
+@v: spike | = | n. | spaɪk | （数字）突然猛增；尖峰 | 说订单、流量、投诉突然暴涨 | a spike in orders；a sudden spike；a spike in traffic | We saw a spike in website traffic on Monday. | 周一网站流量突然暴涨。 | spike 是「短时间冲高」，像折线图上的一根尖刺；jump（Day 69）是「跳涨」；「……猛增」说 a spike **in** orders，介词用 in；也能作动词：Orders spiked last week.
+@v: capacity | = | n. | kəˈpæsəti | 容量；处理能力；产能 | 仓库、系统、团队能处理多少 | warehouse capacity；at full capacity；have the capacity for… | Our system doesn't have the capacity for that much traffic. | 我们的系统扛不住那么大的流量。 | 中文「产能」「处理能力」「运力」都可以用 capacity；「满负荷」说 at full capacity；不说 ✗ The warehouse's ability is not enough.；重音在 pa：ca-PA-ci-ty。
+@v: As a result | as a result | phr. | ˌæz ə rɪˈzʌlt | 结果；因此 | 说上一件事带来的结果，讲因果链的下一环 | As a result, …；as a result of + 名词 | It rained all day. As a result, the event was canceled. | 下了一整天雨，结果活动取消了。 | 放在句首，后面加逗号；as a result **of** 后面接名词：as a result of the strike；比 so 正式，汇报、邮件常用；result 是 Day 69 学的词。
+@v: backlog | = | n. | ˈbæklɔːɡ | 积压（的订单、工作） | 仓库爆仓、工单堆积 | a backlog of orders；clear the backlog；have a backlog | It took us three days to clear the backlog. | 我们花了三天才把积压的单子清掉。 | 中文「爆仓」「积压」「压单」都可以说 a backlog；「清掉积压」说 clear the backlog；不说 ✗ The warehouse exploded.（那是真的爆炸）；重音在前：BACK-log。
+@v: factor | = | n. | ˈfæktər | 因素 | 分析原因，尤其是不止一个原因时 | a key factor；the main factor；another factor | Price is a key factor for many buyers. | 对很多买家来说，价格是关键因素。 | factor 强调「好几个原因中的一个」，所以张涛问 Was that the only factor?；「其中一个因素」说 one factor，「主要因素」说 the main factor；重音在前：FAC-tor。
+@v: strike | = | n. | straɪk | 罢工 | 新闻、物流、供应链 | a strike at the port；go on strike；The strike is over. | The workers went on strike for better pay. | 工人们为了提高工资举行了罢工。 | 「罢工」说 go on strike，不说 ✗ do a strike；「罢工结束了」The strike is over. / The strike ended.；str 三个辅音连读，中间不加元音，别读成「斯特莱克」。
+@v: port | = | n. | pɔːrt | 港口 | 海运、进出口、供应链 | at the port；a busy port；leave the port | The ship arrived at the port on Monday. | 船周一到港。 | 「在港口」说 at the port；airport（机场）里就有 port；电脑的接口也叫 port（USB port）；or 要卷舌。
+@v: shortage | = | n. | ˈʃɔːrtɪdʒ | 短缺；不足 | 缺货、缺人、缺材料 | a shortage of…；a staff shortage；a serious shortage | There's a shortage of drivers this month. | 这个月司机不够。 | 「缺……」说 a shortage of + 名词；形容词 short 也行：We're short of drivers.；单个商品「断货」常说 out of stock（第二册），整体「供应不足」说 a shortage；age 读 `/ɪdʒ/`。
+@v: Supply | supply | n. | səˈplaɪ | 供应；供货（量） | 供应链、库存 | supply and demand；supply chain；in short supply | The supply of new sneakers is still low. | 新款球鞋的供应量还是很少。 | 固定搭配 supply and demand（供求），英文是「供在前、求在后」；「供应链」说 supply chain；「供不应求」说 Supply can't keep up with demand.；重音在后：sup-PLY。
+@v: demand | = | n. | dɪˈmænd | 需求（量） | 销售、库存、旺季 | high demand；demand for…；meet demand | Demand for winter jackets goes up in November. | 每年十一月，冬季外套的需求就会上升。 | 「对……的需求」说 demand **for**；「满足需求」说 meet demand；demand 作动词是「强烈要求」，语气很重（He demanded a refund.），别用来礼貌地提要求。
+@v: due to | = | phr. | ˈduː tə | 由于；因为 | 说原因，常见于报告、通知、正式邮件 | due to the strike；due to bad weather；due to a system problem | The flight was canceled due to bad weather. | 航班因天气恶劣取消了。 | due to 后面接名词，不接句子：✓ due to the strike ✗ due to there was a strike；比 because of 正式；due 美式读 `/duː/`；due 单用是「到期」：The report is due Friday.
+@v: partly | = | adv. | ˈpɑːrtli | 部分地；在一定程度上 | 说一个原因只占一部分 | partly because…；partly due to…；partly caused by… | The drop was partly because of the weather. | 下降有一部分是天气原因。 | partly（部分地）和 largely / mainly（主要地）常成对出现：The delay was largely due to the strike and partly due to the weather.；不说 ✗ part caused by。
+@v: affect | = | v. | əˈfekt | 影响 | 问、说某件事对人或数据的影响 | affect our customers；be affected by…；How did it affect…? | The storms affected thousands of packages. | 暴风雨影响了几千个包裹。 | affect 是动词，后面直接接对象，不加 on：✗ affect on our customers；名词是 effect；被动 be affected by 很常用：Only a few sellers were affected.
+@v: impact | = | n. | ˈɪmpækt | （较大的）影响；冲击 | 说事件对销量、客户、业务的影响 | a big impact on…；have an impact on…；the impact of… | The new app had a big impact on our sales. | 新 app 对我们的销量影响很大。 | 作名词时说 have an impact **on**；impact 比 effect 语气更重，多指明显的大影响；美国职场也常把 impact 当动词用（It impacted our sales.），正式写作里用 affect 最稳妥；重音在前：IM-pact。
+@v: seasonal | = | adj. | ˈsiːzənl | 季节性的 | 说每年固定时候的涨落 | seasonal demand；a seasonal drop；seasonal workers | Our business is very seasonal. | 我们的生意季节性很强。 | 说数据时，seasonal 指「每年这个时候本来就会这样」：大促后订单回落、冬天外套好卖；两个 s 都读 `/z/`：SEA-zon-al。
+@v: effect | = | n. | ɪˈfekt | 影响；效果 | 说一件事带来的结果 | a big effect；have an effect on…；side effects | The discount had only a small effect on sales. | 折扣对销量的影响不大。 | effect 是名词，前面常有 a / the / big / small，后面用 on：have an effect on；affect 是动词——记法：**A**ffect = **A**ction，**E**ffect = **E**nd result；side effects 是「副作用」。
+@v: Because of | because of | phr. | bɪˈkʌz əv | 因为（后接名词） | 口语、邮件里说原因 | because of the delays；because of the weather；because of you | We stayed home because of the rain. | 因为下雨，我们待在家里。 | because of 后面接名词或代词，because 后面接句子：✓ because of the rain ✓ because it rained ✗ because the rain；口语里 because 常弱读成 `/bɪkəz/`，甚至只剩 'cause。
+@v: consequences | consequence | n. | ˈkɑːnsəkwensɪz | （不好的）后果 | 说问题带来的严重结果 | serious consequences；the consequences of…；face the consequences | Missing the deadline could have serious consequences. | 错过截止日期可能会带来严重后果。 | consequence 多指不好的、要承担的后果；中性的「结果」用 result；常用复数；重音在第一个音节：CON-se-quence。
+@v: largely | = | adv. | ˈlɑːrdʒli | 主要地；大部分地 | 说主要原因或大部分情况 | largely due to…；largely gone；largely because… | The project was a success, largely thanks to Grace. | 项目很成功，主要多亏了吴佳。 | largely 不是「大大地」！它的意思是 mostly / mainly：The backlog is largely gone. =「积压基本清掉了」；「大量地、大大地」要说 a lot / greatly。
+@v: unexpected | = | adj. | ˌʌnɪkˈspektɪd | 意外的；没料到的 | 说计划外发生的事 | an unexpected delay；unexpected costs；completely unexpected | We had some unexpected costs this month. | 这个月我们有一些意外的开支。 | expect（第一册）是「预计」，unexpected 就是「没预料到的」；「谁也没想到」说 It was unexpected. 或 Nobody expected it.，不说 ✗ It was out of our expect.；主重音在 spec。
+@v: peak season | = | phr. | ˈpiːk ˌsiːzn | 旺季；高峰期 | 电商、物流、旅游 | before peak season；during peak season；the holiday peak season | Shipping costs often go up during peak season. | 旺季运费往往会上涨。 | 「旺季」说 peak season / busy season，「淡季」说 off-season / slow season；跨境电商和物流的旺季一般在年底购物季；peak 是第二册学过的「山顶」；复合名词，重音在 peak。
+
+@diff: 「因为」——because + 句子 vs because of / due to + 名词
+@d_cn: 「因为港口罢工，配送变慢了」「因为天气不好」——中文「因为」后面跟词、跟句子都行。
+@d_en: Delivery times went up due to the strike at the port. / Because of the delays, he got nine one-star reviews. / Deliveries were slow because there was a strike.
+@d_why: 中文「因为」后面可以是一个词（因为天气），也可以是一句话（因为港口罢工了）。英文要分开：**because + 完整句子**（有主语和动词）：because there was a strike；**because of / due to + 名词**：because of the strike / due to the strike。最常见的错误是 ✗ because the strike（缺动词）和 ✗ due to there was a strike（due to 后面接了句子）。due to 比 because of 正式，报告、通知里很常见：The flight was delayed due to bad weather. 口语里 because 常弱读成 `/bɪkəz/`，甚至只剩 'cause，听的时候要留意。
+@d_when: 解释数据变化、写延误通知、回答 Why…?
+@d_vs: ✓ **Delivery times went up due to the strike at the port.** 因为港口罢工，配送时间变长了。（due to + 名词，偏正式）\n✓ **Because of the delays, he got nine one-star reviews.** 因为延误，他收到了九个差评。（because of + 名词）\n✓ **Deliveries were slow because there was a strike.** 配送慢是因为有罢工。（because + 句子）\n✗ because the strike ✗ due to there was a strike
+@d_task: 用两种说法说「因为下大雨，包裹晚到了」：一种用 because + 句子，一种用 due to + 名词。 | The packages were late because it rained heavily. ／ The packages were late due to heavy rain.
+@diff: 「导致」——lead to / cause / result in（不说 make … happen）
+@d_cn: 「节日大促导致订单激增」「暴风雨造成了延误」。
+@d_en: The holiday led to a spike in orders. / The storms caused delays. / The strike resulted in a shortage.
+@d_why: 中文「导致」「造成」「使得」，学生容易直译成 ✗ The holiday made orders increase a lot. 或 ✗ made the delay happen——不一定算错，但很笨重。英文用一个动词把「原因 → 结果」连起来：**A led to B**（导致，最常用，中性）、**A caused B**（造成，多指问题）、**A resulted in B**（结果是，偏正式）。三个词后面都接**名词**：led to a spike / caused delays / resulted in a shortage。反过来说「B 是 A 造成的」用被动：The delay was partly caused by bad weather.——被动句里的 was 弱读成 `/wəz/`，很容易听漏。
+@d_when: 讲因果链、分析数据、写问题说明。
+@d_vs: ✓ **The holiday led to a spike in orders.** 节日带来了订单激增。\n✓ **The storms caused delays.** 暴风雨造成了延误。\n✓ **The delay was partly caused by bad weather.** 延误部分是坏天气造成的。（被动）\n✗ The holiday made orders increase a lot.\n✗ The holiday led to orders went up.（to 后面不能接句子）
+@d_task: 把下面的因果说成一句英文（用 lead to）：「新系统上线 → 回复时间变短了」。 | The new system led to shorter response times.
+@diff: 「影响」——affect（动词）/ effect（名词）/ impact
+@d_cn: 「这对客户有什么影响？」「对销量影响很大」「影响不大」。
+@d_en: How did this affect our customers? / It had a big impact on Daniel's sales. / The delays had a bigger effect.
+@d_why: 中文「影响」既是动词又是名词，英文要分开：**affect 是动词**，后面直接接对象：How did this affect our customers?（✗ affect on）；**effect 是名词**，前面有冠词或形容词，后面用 on：have a big effect on…；**impact** 也常作名词，语气更重，指明显的大影响：have a big impact on…。记法：**A**ffect = **A**ction（动作），**E**ffect = **E**nd result（结果）。affect `/əˈfekt/` 和 effect `/ɪˈfekt/` 口语里几乎听不出区别，要靠句子结构判断：前面有 a / the / big 的就是 effect。
+@d_when: 问和说一件事对客户、销量、数据的影响。
+@d_vs: ✓ **How did this affect our customers?** 这对我们的客户有什么影响？（动词）\n✓ **It had a big impact on Daniel's sales.** 对 Daniel 的销量影响很大。（名词，影响大）\n✓ **The delays had a bigger effect.** 延误的影响更大。（名词）\n✗ How did this affect on our customers? ✗ It had a big affect.
+@d_task: 用英文问同事：「这次系统故障对卖家影响大吗？」再替他回答：「不大，只有几个卖家受了影响。」 | Did the system problem have a big impact on our sellers? ／ Not really. Only a few sellers were affected.
+@diff: 「所以」——as a result / so / that's why
+@d_cn: 「仓库处理不过来，所以积压了」「所以我们才要提前做准备」——还常和「因为」连用：「因为……所以……」。
+@d_en: As a result, the warehouse had a backlog. / The warehouse was full, so orders waited. / That's why we need a plan.
+@d_why: 中文「因为……所以……」是一对，英文 because 和 so **不能在同一句里一起用**：✗ Because the warehouse was full, so orders waited. 二选一就行。几个「所以」各有分工：**so** 最口语，连接一句话的前后两半；**As a result, …** 放在新句子开头，后面加逗号，更正式、更像汇报，适合讲因果链的「下一环」；**That's why …**（第一册）先摆原因、再点出结论：「这就是为什么……」。一条因果链可以这样串：The holiday led to a spike in orders. As a result, the warehouse had a backlog. That's why deliveries were slow.
+@d_when: 讲因果链；邮件里解释一件事的来龙去脉。
+@d_vs: ✓ **As a result, the warehouse had a backlog.** 结果仓库积压了。（正式、汇报）\n✓ **The warehouse was full, so orders waited.** 仓库满了，所以订单都在等。（口语）\n✓ **That's why we need a plan.** 所以我们才需要一个预案。\n✗ Because the warehouse was full, so orders waited.
+@d_task: 把「因为港口罢工，所以热门尺码断货了」改成两句英文，第二句用 As a result 开头。 | There was a strike at the port. As a result, there was a shortage of popular sizes.
+
+@core: In short, … | 解释原因之前，先给一句结论 | Daniel's packages are late / the drop is seasonal | 正式：To summarize, the drop in orders was caused by delivery delays.｜随意：Basically, his packages are late.
+@core: … led to … | 说「A 导致 B」 | the holiday / a spike in orders；the storms / delays；the new system / faster replies | 正式：The holiday sale resulted in a sharp increase in orders.｜随意：The sale made orders shoot up.
+@core: As a result, … | 说因果链的下一环 | the warehouse had a backlog / popular sizes ran out | 正式：As a result of the strike, the containers were delayed.｜随意：So the warehouse got backed up.
+@core: … went up / down due to … | 正式地说原因 | delivery times / orders；the strike at the port / bad weather | 正式：Delivery times increased due to a strike at the port.｜随意：Deliveries got slower because of the strike.
+@core: … was partly / largely caused by … | 说原因占多大比重 | the delay / the drop；bad weather / the strike | 正式：The delay was largely due to the strike and partly due to the weather.｜随意：It was mostly the strike, and a bit the weather.
+@core: How did this affect …? — It had a big impact on … | 问和答影响 | our customers / his sales / delivery times | 正式：What impact did this have on our customers?｜随意：How bad was it for Daniel?
+@core: Supply couldn't keep up with demand. | 说供不应求 | supply / our team；demand / the orders | 正式：Demand exceeded supply for two weeks.｜随意：We just couldn't keep up.
+
+@pw: consequence | ˈkɑːnsəkwens | 3 个音节 CON·se·quence | 重音在第一个音节；qu 读 `/kw/`；复数 consequences 多一个音节
+@pw: capacity | kəˈpæsəti | 4 个音节 ca·PA·ci·ty | 重音在 pa，`/æ/` 嘴张大；ty 闪音像轻轻的「迪」
+@pw: unexpected | ˌʌnɪkˈspektɪd | 4 个音节 un·ex·PEC·ted | 主重音在 pec；ex 读 `/ɪk/`，不读「伊克斯」
+@pw: seasonal | ˈsiːzənl | 3 个音节 SEA·son·al | 重音在前；两个 s 都读 `/z/`
+@pw: affect / effect | əˈfekt / ɪˈfekt | 都是 2 个音节 af·FECT / ef·FECT | 重音都在第二个音节；开头的元音都很轻，口语里几乎一样，靠语法分
+@pw: backlog | ˈbæklɔːɡ | 2 个音节 BACK·log | 重音在前；ck 和 l 之间不加元音
+@pw: shortage | ˈʃɔːrtɪdʒ | 2 个音节 SHOR·tage | 重音在前；age 读 `/ɪdʒ/`，不读「诶之」
+@ps: De**liv**ery times went‿**up** / **due**‿to the **strike** / at the **port**. | went up 连读成 wen-tup；due to 的 to 弱读成 `/tə/`；at the 很轻，重音落在 strike 和 port 上。
+@ps: The **hol**iday **led**‿to‿a **spike** / in **or**ders. | led to 的 d 和 t 合成一个音，像 le-tə；to a 连成 tə-wə；spike 的 p 跟在 s 后面不送气。
+@ps: As‿a re**sult**, / the **ware**house had‿a **back**log. | As a 连成 a-zə；result 重音在后：re-SULT；had a 连成 ha-də；warehouse 和 backlog 重音都在前。
+@ps: The de**lay** was **part**ly **caused** / by **bad weath**er. | 被动句里的 was 弱读成 `/wəz/`，几乎只剩 z；caused 的 -ed 读 `/d/`，和 by 挤在一起。
+@pnote: 数字：eight hundred → fourteen hundred（800 → 1,400）。美国人说四位的整百数，常用「两位数 + hundred」：1,400 = fourteen hundred，1,500 = fifteen hundred；fourteen 重音在 teen，别和 forty 混。小数照例读 point：4.1 = four point one，7.5 = seven point five；Daniel 消息里写的 30%，说出来是 thirty percent。
+@pnote: 写 vs 说：消息里写 What's going on?，读出来是 wut-s-GO-in-on；because 在口语里弱读成 `/bɪkəz/`，很随意时只剩 'cause `/kəz/`，写邮件时一定写全 because。被动句 was caused / were stuck 里的 was / were 都弱读，听不出来就会把「被造成」听成「造成」。
+@lfocus: 数字：fourteen hundred、four point one、seven point five
+@lfocus: 被动句里弱读的 was / were：was partly caused、were stuck
+@lfocus: because 的弱读 `/bɪkəz/` 和 due to 里很轻的 to
+@dict: S8–S11
+@dict: S16–S18
+@res: 在 youglish.com 输入 "due to the"，选 US，听新闻和汇报里 due to 后面接的都是什么名词。
+
+@mimic: 跟读【C】S5–S27：先逐句跟读林晓解释原因的句子，模仿 led to / due to / As a result 的连读和被动句里 was 的弱读；再你演林晓、手机朗读张涛的台词，正常语速完整对一遍并录音。最后合上书，只看「大促 → 积压 → 罢工 → 断货 → 天气 → 影响」这六个词，用自己的话把因果链讲一遍。
+@swap: The holiday led to a spike in orders. | 换原因和结果：the storm / delays；the new app / more orders；better photos / fewer returns | The storm led to delays.
+@swap: As a result, the warehouse had a backlog. | 换结果：popular sizes ran out / delivery times went up / we hired two more people | As a result, delivery times went up.
+@swap: Delivery times went up due to the strike at the port. | 换数据和原因：orders / dropped / the price increase；returns / went down / better product photos | Returns went down due to better product photos.
+@swap: How did this affect our customers? | 换对象和时态：our sellers / our team；will this affect / did the strike affect | Will this affect our sellers?
+@free: 经理问为什么这周退货变多了（结论：主要是一批鞋的尺码标签贴错了；另外有一部分是季节性的） | The rise in returns is largely due to a batch of shoes with the wrong size labels. Part of it is also seasonal, because returns always go up after a big sale.
+@free: 同事问港口罢工对我们有什么影响（结论：影响不大；只有两个卖家的货走海运，而且罢工已经结束） | It didn't have a big impact on us. Only two of our sellers ship by sea, and the strike is over now.
+@free: 卖家问为什么包裹晚到了两天（结论：因为暴风雨；分拣中心关了一天，所以积压了） | Your packages were late because of a storm. The sorting center closed for a day, and as a result, there was a backlog.
+@free: 经理问旺季前要不要提前准备（结论：要；去年旺季订单翻了一倍，仓库处理不过来） | Yes, we need a plan before peak season. Last year, orders doubled, and the warehouse didn't have enough capacity.
+@output: 给 Daniel 写一封 6–10 句的邮件，解释他的订单为什么下降、包裹为什么变慢：一句话结论 → 2–3 个原因（led to / due to / because of / partly caused by）→ 结果和影响（As a result / affect / impact）→ 好消息 → 下一步。也可以写你工作或生活中的一次「数字变了」：比如某个月开销突然变大、某门课成绩下降了。
+@output_sample: Hi Daniel,\nThanks for your message, and I'm sorry about the slow deliveries. In short, three things caused the delays. First, your holiday weekend sale led to a spike in orders, and your warehouse had a backlog. Second, your new stock was stuck at the port for four days because of a strike. As a result, popular sizes ran out, and the average delivery time went up from 4.1 to 7.5 days. The delay was also partly caused by storms in Texas. The good news is that the strike is over and the backlog is largely gone. Next week, I'll send you a plan to help you prepare for peak season.\nBest regards,\nLily
+
+@check: 听力：Daniel 的消息里说了哪两个问题？ | 这周订单少了 30%（My orders dropped 30% this week.），而且他的顾客等包裹等得没完没了。
+@check: 听力：林晓说了哪三个原因？平均配送时效从多少变成了多少？ | 节日大促导致订单激增、仓库积压；港口罢工导致热门尺码断货；还有得州的暴风雨。平均时效从 4.1 天（four point one）变成了 7.5 天（seven point five）。
+@check: 改错：Because the strike, the containers were stuck. | because 后面接名词要用 because of：Because of the strike, the containers were stuck.（或 Because there was a strike, …）
+@check: 改错：The holiday sale made the orders increase a lot, and it affected on the warehouse. | The holiday sale led to a spike in orders, and it affected the warehouse.（affect 后面不加 on）
+@check: 换个场景：你们部门这个月的加班费比上个月多了一倍。用三句话向财务解释：一个大客户临时加单 → 结果团队两个周末都加了班 → 另外两位同事请病假，也有一部分影响。 | A big client placed an unexpected order. As a result, the team worked overtime on two weekends. It was also partly due to two colleagues on sick leave.
+@check: 换个场景：朋友问你最近怎么瘦了（主要因为每天走路上班，另外一部分因为少点外卖了）。 | It's largely because I walk to work every day. It's also partly because I order less takeout.
+@next1: 不看书说出 5 个锚点句：S8、S11、S16、S18、S19
+@next1: 用 led to → As a result → That's why 讲一条你身边的因果链（3 句）
+@next7: because / because of / due to 各造两句，注意后面接句子还是名词
+@next7: affect / effect / impact 各造一句；说一个原因时加上 partly 或 largely

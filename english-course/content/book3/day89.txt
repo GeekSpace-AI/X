@@ -1,0 +1,169 @@
+@day: 89
+@week: 5
+@title_cn: 我工作的一天
+@title_en: A Day in My Job
+@topic: 客户来访：见面寒暄、欢迎与回应、介绍团队，再用两分钟讲清一天的工作（流程、数字、客户、系统）
+@think_short: 介绍工作：一般现在时 + 被动 Every order is checked…｜「欢迎来到」Welcome to… / It's a pleasure to have you here｜「终于见到本人」finally meet you in person｜「我带您过一遍」Let me walk you through…
+
+@goal_scene: 接待第一次来访的美国客户：在大堂寒暄、欢迎和回应，请客人别客气；然后用两分钟按时间顺序介绍「我工作的一天」，把流程、数字、客户和系统串起来；最后问对方的第一印象，递上行程。
+@goal_expr: It's great to finally meet you in person. / It's nice to put a face to the name. / It's a pleasure to have you here. / The pleasure is mine. / Please make yourself at home. / Let me walk you through a day in my job. / Every order is checked by our system and by our team. / Thank you for your hospitality.
+@goal_vocab: 20 个重点词 + 5 个短语：接待来访、公司与合作关系、介绍团队与工作、行程安排
+@done: 能用 3–4 句完成见面寒暄：finally meet you in person / put a face to the name / It's a pleasure to have you here / The pleasure is mine
+@done: 能用 Let me walk you through… 开头，用一般现在时 + 被动，按时间顺序讲 1.5–2 分钟「我工作的一天」，至少带一个数字
+@done: 不再说 ✗ Welcome you to… / ✗ Nice to meet your real person；能用 Please make yourself at home. 招待客人，用 Thank you for your hospitality. 道谢
+
+@warmup: 每件退回来的商品都要检查、分级。 | Every returned item is checked and graded. | D88
+@warmup: 没用过的商品会重新入库，再卖出去。 | Unused items are restocked and resold. | D88
+@warmup: 有质量问题的商品退回给厂家。 | Defective items are sent back to the manufacturer. | D88
+@warmup: API 就像两个系统之间的服务员。 | An API is like a waiter between two systems. | D83
+@warmup: 自从进了 SwiftLink，我每天都在练英语。 | I've been practicing English every day since I joined SwiftLink. | D34
+@warmup: 林晓 8 点 50 分到了 SwiftLink 的办公室。 | Lily arrives at the SwiftLink office at 8:50. | D1
+
+@scene: 月底的一个周一上午。Pine & Pebble 的老板 Sarah 第一次飞到深圳，来 SwiftLink 总部拜访——这是林晓转正后接待的第一位美国卖家。Sarah 和 SwiftLink 合作快三年了；林晓接手她的账户以后，两人每周通邮件、打电话，却从没见过面。张涛安排了团队午餐，Leo 在前台准备好了访客证，明天还要带 Sarah 去参观机场附近的一个分拣中心。Sarah 最想知道的是：「我的一个订单在你们这里，到底会经过哪些人、哪些系统？」林晓要在大会议室里用两分钟，把自己一天的工作讲清楚：和西雅图的碰头会、看板上的数字、异常处理、回复卖家、退款和权限找谁、下班前的交接总结。
+@sp: 人物关系 | 林晓 ↔ Sarah：服务方和合作快三年的老客户，第一次见面，热情又带点正式；张涛作为经理出面欢迎，Leo 帮忙接待
+@sp: 沟通目的 | 欢迎客户、拉近关系；用两分钟让 Sarah 看懂「一个订单在 SwiftLink 会经过哪些人、哪些系统」；为长期合作打好基础
+@sp: 已知信息 | Sarah 每天在看板上看包裹状态，却不知道背后是谁在做、怎么做；林晓熟悉每个环节，但要挑重点、按时间顺序讲，不能变成一堆术语
+@sp: 表达重点 | 见面寒暄（finally meet you in person / put a face to the name）→ 欢迎和回应（It's a pleasure to have you here / The pleasure is mine）→ 请客人别客气 → Let me walk you through… → 按时间讲一天（一般现在时 + 被动，带数字）→ 问第一印象 → 递上行程
+
+@story_title: Episode 89 · Welcome to Shenzhen
+@story_type: 对话 + 短信
+@s: On Monday morning, Lily meets Sarah in the **lobby** of SwiftLink's **headquarters**. | 周一上午，林晓在 SwiftLink 总部的大堂迎接 Sarah。
+@s: Lily: Sarah! It's great to finally meet you **in person**. | 林晓：Sarah！终于见到您本人了，太好了。
+@s: Sarah: You too! It's so nice to **put a face to the name**. | Sarah：我也是！终于能把名字和人对上了，真开心。
+@s: Leo hands her a **visitor** badge from **reception**. | Leo 从前台拿来一张访客证递给她。
+@br:
+@s: Tom: **It's a pleasure to** have you here, Sarah. | 张涛：Sarah，非常高兴您能来。
+@s: Sarah: The **pleasure** is mine. I've wanted to visit for years. | Sarah：我才高兴呢。我想来好几年了。
+@s: Tom: We've planned a team lunch in **honor** of your visit. | 张涛：为了欢迎您，我们安排了团队午餐。
+@s: Tom: And next month is the third **anniversary** of our **partnership**. | 张涛：而且下个月就是我们合作三周年了。
+@s: Sarah: I hope it's a **long-term** one! | Sarah：希望我们一直合作下去！
+@s: After a quick **introduction** to the team, they walk into the **boardroom**. | 简单认识了一下团队之后，他们走进大会议室。
+@s: SwiftLink's **mission** and **values** are on the wall. | 墙上写着 SwiftLink 的使命和价值观。
+@s: Lily: Please **make yourself at home**. Coffee? | 林晓：您别客气，就当在自己家。喝咖啡吗？
+@s: Sarah: Thanks. So, what's your day like? | Sarah：谢谢。那你一天都做些什么？
+@br:
+@s: Lily: Let me **walk you through** a day in my job. | 林晓：我带您把我一天的工作过一遍。
+@s: Lily: At nine, we **collaborate** with Mike's team in Seattle, just before they go home. | 林晓：早上九点，我们和西雅图 Mike 的团队协作，那时他们正准备下班。
+@s: Lily: Then I check the dashboard. We track about forty thousand packages a day. | 林晓：然后我看看板。我们每天跟踪大约四万个包裹。
+@s: Lily: Every order is checked by our system and by our team. | 林晓：每个订单都要经过我们系统和我们团队的双重检查。
+@s: Lily: When the system spots a problem, I solve it with my **counterpart** at the warehouse. | 林晓：系统一发现问题，我就和仓库那边的对口同事一起解决。
+@s: Lily: In the afternoon, I answer emails from sellers like you. | 林晓：下午，我回复像您这样的卖家的邮件。
+@s: Lily: Refund questions are handled by Grace, and Kevin manages access. | 林晓：退款的问题由吴佳负责，账号权限归李凯管。
+@s: Sarah: What about my numbers? | Sarah：那我的数据呢？
+@s: Lily: Last month, ninety-six percent of your packages arrived on time. | 林晓：上个月，您的包裹有 96% 都准时送达了。
+@s: Lily: At six, I send Seattle a summary, so they can pick up where we left off. | 林晓：晚上六点，我给西雅图发一份总结，好让他们接着我们的进度往下做。
+@s: Sarah: Thanks for the **walkthrough**. I've never understood my orders so clearly. | Sarah：谢谢你讲得这么细。我从来没把自己的订单看得这么明白过。
+@s: Tom: What's your first **impression**? | 张涛：您的第一印象怎么样？
+@s: Sarah: Everyone is so friendly! | Sarah：大家都太友好了！
+@s: Lily: Here's your **itinerary**. Tomorrow we'll visit a sorting **facility** near the airport. | 林晓：这是您的行程。明天我们去参观机场附近的一个分拣中心。
+@br:
+@s: That night, Sarah texts Lily: | 当天晚上，Sarah 给林晓发了条短信：
+@s: Thank you for your **hospitality**! | 谢谢你们的热情款待！
+@s: Now I know the faces behind every tracking number. | 现在我知道每个单号背后都是谁在忙了。
+
+@v: lobby | = | n. | ˈlɑːbi | （大楼的）大堂；大厅 | 接待访客、约在楼下见面 | in the lobby；the hotel lobby；meet in the lobby | I'll meet you in the lobby at nine. | 我九点在大堂等你。 | 「楼下大堂」「一楼大厅」就是 lobby，介词用 in；酒店大堂也是 lobby；美式 o 读 `/ɑː/`，嘴张大，像「拉比」，不读「楼比」。
+@v: headquarters | = | n. | ˈhedkwɔːrtərz | 总部 | 介绍公司、说办公地点 | company headquarters；our headquarters in Shenzhen；HQ | Our headquarters is in Shenzhen, and we also have an office in Seattle. | 我们的总部在深圳，在西雅图也有办公室。 | 总以 s 结尾，单复数同形：✗ a headquarter；作主语时美式多用单数动词 is；口语和邮件里常缩写成 HQ。
+@v: in person | = | phr. | ɪn ˈpɜːrsn | 本人；当面 | 第一次见到一直在线上联系的人；强调亲自到场 | meet in person；in person or online；talk in person | I'd rather talk about this in person. | 这件事我更想当面谈。 | 「本人、当面」说 in person，✗ in real person / ✗ meet your real person；和 online / on the phone / by email 相对；person 的 son 弱读成 `/sn/`。
+@v: put a face to the name | = | phr. | ˌpʊt ə ˈfeɪs tə ðə ˌneɪm | 终于把名字和人对上（第一次见到早就知道名字的人） | 邮件、电话联系很久后第一次见面 | put a face to the name；nice to put a face to the name；put faces to names | It's nice to put a face to the name after all those emails. | 来回发了那么多邮件，终于能把名字和人对上了，真好。 | 这是很美国的寒暄，专门用在「早知道名字、第一次见面」的场合；冠词固定：a face、the name，✗ put the face on the name；只视频过的人也可以说 It's great to finally meet you in person.
+@v: visitor | = | n. | ˈvɪzɪtər | 访客；来访者 | 公司来客、大楼登记 | a visitor badge；a visitor from the U.S.；visitor parking | All visitors must sign in at reception. | 所有访客都要在前台登记。 | 公司的「访客证」是 visitor badge（badge 第一册学过），不说 ✗ guest card；visit 是动词（第一册 Day 10），visitor 是人；-or 读 `/ər/`。
+@v: reception | = | n. | rɪˈsepʃn | 前台；接待处；（欢迎）招待会 | 大楼、公司、酒店的入口处 | at reception；the reception desk；a welcome reception | Please leave the package at reception. | 请把包裹放在前台。 | 「前台」说 reception 或 the front desk（酒店多用），at reception 常不加 the；前台的人是 receptionist（第一册 Day 1）；reception 还有「信号」的意思：bad reception（手机信号差）。
+@v: It's a pleasure to | it's a pleasure to | phr. | ɪts ə ˈpleʒər tə | 很高兴（能）……；（做某事）是件愉快的事 | 欢迎来访、商务场合打招呼 | It's a pleasure to have you here.；It's a pleasure to meet you.；It's a pleasure to work with you. | It's a pleasure to work with such a great team. | 能和这么棒的团队一起工作，很开心。 | 比 Nice to meet you 正式一点，接待客户很合适；to 后面接动词原形；「很荣幸见到您」不必说 ✗ It's my honor to meet you.，说 It's a pleasure to meet you. 就够了。
+@v: pleasure | = | n. | ˈpleʒər | 愉快；荣幸 | 回应别人的道谢和欢迎 | The pleasure is mine.；My pleasure.；with pleasure | "Thanks for your help." "My pleasure." | 「谢谢你帮忙。」「乐意效劳。」 | 回应 Thank you，My pleasure. 比 You're welcome 更热情；回应 It's a pleasure to have you here，说 The pleasure is mine.；s 读 `/ʒ/`，和 measure、usual 里的一样，不读 `/s/`。
+@v: honor | = | n. | ˈɑːnər | 荣誉；敬意（in honor of：为了欢迎、纪念、向……致敬） | 为客人办活动、纪念日 | in honor of…；an honor；It's an honor to… | We had a dinner in honor of our new manager. | 我们为欢迎新经理办了一场晚宴。 | 中文爱说「这是我的荣幸」，可 It's my honor 在美国日常商务里显得过于隆重，一般场合说 It's a pleasure 就好，honor 留给获奖、致辞这类场合；h 不发音，所以是 an honor；英式拼作 honour。
+@v: anniversary | = | n. | ˌænɪˈvɜːrsəri | 周年；周年纪念日 | 合作周年、公司周年、结婚纪念日 | the third anniversary；a wedding anniversary；celebrate an anniversary | Our company is celebrating its tenth anniversary this year. | 我们公司今年迎来十周年。 | 「三周年」用序数词：the third anniversary，✗ three years anniversary；生日不用 anniversary，用 birthday；重音在 VER：an-ni-VER-sa-ry。
+@v: partnership | = | n. | ˈpɑːrtnərʃɪp | 合作关系；伙伴关系 | 和客户、供应商的长期合作 | a long-term partnership；our partnership with…；in partnership with… | We're proud of our partnership with local schools. | 我们为和本地学校的合作感到自豪。 | 中文「合作」很多时候是「合作关系」，商务英语常说 partnership 或 working relationship；✗ our cooperation 偏「配合」，多见于外交和正式文件；partner（第二册 Day 37）是人，partnership 是关系。
+@v: long-term | = | adj. | ˌlɔːŋ ˈtɜːrm | 长期的 | 合作、计划、客户关系 | a long-term partner；long-term plans；in the long term（名词短语，不加连字符） | We're looking for a long-term partner, not a one-time deal. | 我们要找的是长期合作伙伴，不是一次性买卖。 | 放在名词前要加连字符：a long-term plan；名词短语 in the long term 不加；反义 short-term；「长期合作」✓ a long-term partnership，✗ a long-time cooperation。
+@v: introduction | = | n. | ˌɪntrəˈdʌkʃn | 介绍；引见 | 介绍团队、自我介绍、开场 | a quick introduction；make an introduction；Thanks for the introduction. | Thanks for the introduction, Tom. | 谢谢张涛的介绍。 | 动词 introduce 第二册 Day 37 学过；「自我介绍」口语说 Let me introduce myself.，名词 self-introduction 偏书面；重音在 DUC：in-tro-DUC-tion。
+@v: boardroom | = | n. | ˈbɔːrdruːm | （公司最正式的）大会议室；董事会会议室 | 接待重要客户、开正式会议 | in the boardroom；book the boardroom；a boardroom meeting | The client meeting is in the boardroom. | 和客户的会议在大会议室开。 | 普通会议室是 meeting room（第二册），boardroom 原指董事会开会的房间，现在常指公司最大、最正式的那间；重音在 BOARD。
+@v: mission | = | n. | ˈmɪʃn | 使命；（公司的）宗旨 | 介绍公司、企业文化 | our mission；a mission statement；on a mission | Our mission is to make every package easy to track. | 我们的使命是让每个包裹都容易追踪。 | 公司墙上的「使命」就是 mission（statement）；「我们的宗旨是……」= Our mission is to…；mission 还有「任务」的意思：a rescue mission；ss 读 `/ʃ/`。
+@v: values | = | n. | ˈvæljuːz | （公司、个人的）价值观 | 介绍企业文化、面试 | company values；core values；share the same values | Honesty is one of our core values. | 诚信是我们的核心价值观之一。 | 「价值观」用复数 values；单数 value 是「价值、价钱」（Day 76 的 proof of value 就是这个意思）；结尾读 `/z/`。
+@v: collaborate | = | v. | kəˈlæbəreɪt | 合作；协作 | 跨团队、跨公司一起做事 | collaborate with…；collaborate on a project；collaborate closely | We collaborate with Mike's team on every release. | 每次发布我们都和 Mike 的团队一起协作。 | 「和……合作」是 collaborate with sb，「合作做……」是 collaborate on sth；比 work with 正式一点；cooperate 偏「配合」（cooperate with the police），团队一起做事用 collaborate 或 work together；重音在 LAB。
+@v: counterpart | = | n. | ˈkaʊntərpɑːrt | （对方公司或部门里）职位相当的人；对口的同事 | 跨公司、跨部门对接 | my counterpart at…；our Seattle counterparts；meet one's counterpart | I'll ask my counterpart at the warehouse. | 我去问问仓库那边跟我对口的同事。 | 中文「对口的人」「对接人」：职位相当的说 counterpart，专门负责联系你的人说 point of contact（Day 61）；✗ my docking person；重音在前 COUN-ter-part。
+@v: walk you through | walk sb through | phr. | ˈwɔːk ju ˌθruː | 带（某人）一步步过一遍；一步步讲解 | 讲流程、报告、系统、合同 | walk sb through the process；walk sb through a report；Let me walk you through it. | Could you walk me through the new report? | 你能带我把新报告过一遍吗？ | 人放在 walk 和 through 中间：✓ walk you through it，✗ walk through you（成了「从你身上走过去」）；名词是 walkthrough；带人参观一个地方用 show sb around（第一册 Day 3）。
+@v: walkthrough | = | n. | ˈwɔːkθruː | （一步步的）讲解演示 | 讲流程、演示系统、带人看一遍 | a quick walkthrough；a product walkthrough；give sb a walkthrough | Emma gave us a walkthrough of the new feature. | Emma 给我们把新功能演示了一遍。 | 名词写成一个词 walkthrough（也有人写 walk-through），动词短语 walk sb through sth 是三个词；重音在 WALK；l 不发音：`/wɔːk/`。
+@v: impression | = | n. | ɪmˈpreʃn | 印象 | 问对方第一次来访、第一次见面的感受 | first impression；make a good impression；my impression is that… | What was your first impression of Shenzhen? | 你对深圳的第一印象怎么样？ | 「对……的印象」用 impression of…，✗ impression to…；「给人留下好印象」是 make a good impression on sb；「印象深刻」用形容词：I was impressed.（✗ I was very impression.）
+@v: itinerary | = | n. | aɪˈtɪnəreri | 行程；日程安排 | 接待来访、出差安排 | your itinerary；a travel itinerary；send sb the itinerary | I'll email you the itinerary for your trip. | 我把您这次的行程用邮件发给您。 | 「行程单」说 itinerary，比 schedule（日程表）更偏「出行、来访」；开头读 `/aɪ/`，重音在 TIN；拼写别漏中间的 e：itinerary。
+@v: facility | = | n. | fəˈsɪləti | （有特定用途的）场所；设施（工厂、仓库、分拣中心等） | 参观工厂、仓库、物流中心 | a sorting facility；a new facility；visit the facility | The new facility can sort ten thousand parcels an hour. | 新的分拣中心每小时能分拣一万个包裹。 | 中文「中心」「基地」「厂区」，英文常用 facility：a sorting facility（分拣中心）；复数 facilities 也指「配套设施」（健身房、停车场等）；重音在 CIL：fa-CIL-i-ty。
+@v: hospitality | = | n. | ˌhɑːspɪˈtæləti | 热情款待；好客 | 客人道谢、说接待 | thank sb for their hospitality；warm hospitality；the hospitality industry | Thank you for your warm hospitality. | 谢谢你们的热情款待。 | 客人离开时说 Thank you for your hospitality. 很得体，偏书面；当面更口语的是 Thanks for having me!；the hospitality industry 是「酒店餐饮业」；主重音在 TAL。
+@v: make yourself at home | = | phr. | ˌmeɪk jərˌself ət ˈhoʊm | 别客气；就当在自己家 | 招待客人进门、进办公室 | Please make yourself at home.；Make yourselves at home.；Feel free to make yourself at home. | Come in and make yourself at home. | 进来吧，别客气。 | 对一个人用 yourself，对几个人用 yourselves；比中文「请坐、请喝茶」一句句招呼更省事，美国客人听到会自己找位置坐；at home 不加 the。
+
+@diff: 介绍工作——一般现在时 + 被动：Every order is checked…
+@d_cn: 向客户介绍「我们每天怎么做」：经常性的工作用什么时态？「每个订单都要检查」，主语该是谁？
+@d_en: Every order is checked by our system and by our team. / I check the dashboard. / Refund questions are handled by Grace.
+@d_why: 介绍日常工作和流程，说的是「天天如此」，用**一般现在时**：I check the dashboard. / We track about forty thousand packages a day. 中文没有时态变化，学生讲着讲着容易滑进进行时或过去时（✗ I am checking the dashboard every day.）。说「东西经过什么处理」时用**被动**：Every order is checked… / Refund questions are handled by Grace.——这是第三册第 1 周和第 4 周反复练过的。主动、被动交替最自然：说「我做什么」用主动（I answer emails），说「东西经过什么」用被动（Every order is checked）。还要盯住第三人称 -s：The system spots a problem. / Kevin manages access.——介绍别人的工作时最容易漏。
+@d_when: 接待客户、面试时介绍现在的工作、给新同事讲流程。
+@d_vs: **Every order is checked by our system and by our team.** 每个订单都经过系统和团队的双重检查。\n**Refund questions are handled by Grace.** 退款问题由吴佳负责。\n**Kevin manages access.** 李凯管账号权限。（第三人称 -s）\n✗ I am checking the dashboard every day.\n✗ Every order check by our system.
+@d_task: 用一般现在时 + 被动介绍：每个包裹每天被扫描三次；异常由我来处理；退款由吴佳的团队负责。 | Every package is scanned three times a day. I handle the exceptions. Refunds are handled by Grace's team.
+@diff: 「欢迎来到……」——Welcome to… / It's a pleasure to have you here.
+@d_cn: 客户来访，主人表示欢迎、说「您能来是我们的荣幸」；客人回应。
+@d_en: It's a pleasure to have you here, Sarah. / The pleasure is mine. / Welcome to SwiftLink!
+@d_why: 中文接待常说「欢迎欢迎！」「您能来是我们的荣幸」。英文第一句可以是 **Welcome to SwiftLink!**（welcome to + 地点，✗ Welcome you to…）；稍正式又亲切的是 **It's a pleasure to have you here.**，客人回 **The pleasure is mine.** 或 Thanks for having me.「荣幸」直译成 It's my honor to meet you.，语法没错，但在美国日常商务里显得太隆重，像颁奖典礼；honor 更常出现在 in honor of your visit（为了欢迎您）这样的说法里。进门以后，美国主人常说一句 **Please make yourself at home.**（别客气，就当在自己家），比中文一句句「请坐、请喝茶」省事——客人会自己找地方坐。
+@d_when: 接待客户、新同事报到、朋友来家里做客。
+@d_vs: **Welcome to SwiftLink!** 欢迎来到 SwiftLink！\n**It's a pleasure to have you here.** 很高兴您能来。\n**The pleasure is mine.** ／ **Thanks for having me.** 我也很高兴。／谢谢邀请。\n✗ Welcome you to our company.\nIt's my honor to meet you.（语法没错，但日常商务里显得太隆重）
+@d_task: 美国客户 Daniel 来公司拜访。用英文欢迎他、说你们很高兴他能来，再请他别客气。 | Welcome to SwiftLink, Daniel! It's a pleasure to have you here. Please make yourself at home.
+@diff: 「终于见到本人了」——It's great to finally meet you in person.
+@d_cn: 邮件、电话打了很久交道，第一次面对面见到。
+@d_en: It's great to finally meet you in person. / It's so nice to put a face to the name. / I've heard so much about you.
+@d_why: 中文说「终于见到真人了」「久仰久仰」。英文说 **finally meet you in person**：finally 表示「盼了很久」，in person 是「本人、当面」（和 online / on the phone / by email 相对）；✗ meet your real person 是直译的笑话。对方的经典回应是 **It's so nice to put a face to the name.**（终于能把名字和脸对上了）——这句话很美国，专门用在「早就知道名字、第一次见面」的场合。「久仰」别说 ✗ I've heard your name for a long time.，说 **I've heard so much about you.**（常听人说起你）。
+@d_when: 第一次见到线上合作很久的客户、同事、网友。
+@d_vs: **It's great to finally meet you in person.** 终于见到您本人了，太好了。\n**It's nice to put a face to the name.** 终于能把名字和人对上了。\n**I've heard so much about you.** 久仰大名。\n✗ Nice to meet your real person.\n✗ I've heard your name for a long time.
+@d_task: 你和 BrightNest 的 Priya 只通过邮件联系过，今天在展会上第一次见面。用英文打招呼，用上 in person 和 put a face to the name。 | Priya! It's great to finally meet you in person. It's so nice to put a face to the name.
+@diff: 「我带您过一遍」——Let me walk you through…
+@d_cn: 把一个流程、一份报告、一天的工作，一步一步讲给对方听。
+@d_en: Let me walk you through a day in my job. / Could you walk me through the report? / Thanks for the walkthrough.
+@d_why: 中文「过一遍」「带您走一遍」。英文 **walk sb through sth**：像领着人从头走到尾，一边走一边讲，常用于流程、报告、系统、合同：Let me walk you through the process. 注意宾语位置：人放在 walk 和 through 中间，✓ walk you through it，✗ walk through you。名词是一个词 **walkthrough**：Thanks for the walkthrough. 讲的时候要配上路标词：At nine… / Then… / In the afternoon… / At six…（Day 62 的流程词也行），对方听起来才有「跟着走」的感觉。带人参观一个地方是 show sb around（第一册 Day 3），不是 walk sb through。
+@d_when: 给客户讲流程、给新同事讲系统、和经理过报告。
+@d_vs: **Let me walk you through a day in my job.** 我带您把我一天的工作过一遍。\n**Could you walk me through the report?** 你能带我把报告过一遍吗？\n**Let me show you around the office.** 我带您参观一下办公室。（参观地方）\n✗ Let me walk through you the process.
+@d_task: Leo 第一次用新看板。用英文说：你先带他把看板过一遍，然后带他参观仓库。 | Let me walk you through the new dashboard first. Then I'll show you around the warehouse.
+
+@core: Welcome to …! It's a pleasure to have you here. | 欢迎客户来访 | SwiftLink / Shenzhen / our office | 正式：On behalf of the team, it's a pleasure to welcome you to SwiftLink.｜随意：Welcome! So glad you could make it.
+@core: It's great to finally meet you in person. | 第一次见到线上联系很久的人 | meet you / see you；in person / in Shenzhen | 正式：It's a real pleasure to finally meet you in person.｜随意：So good to finally meet you!
+@core: It's nice to put a face to the name. | 回应「终于见面」 | the name / all those emails | 正式：It's lovely to put a face to the name after all our emails.｜随意：Great to put a face to the name!
+@core: Please make yourself at home. | 请客人别客气 | yourself / yourselves | 正式：Please feel free to make yourself comfortable.｜随意：Make yourself at home!
+@core: Let me walk you through … | 一步步讲解流程、报告、一天的工作 | a day in my job / the process / the report | 正式：Allow me to walk you through our process.｜随意：Let me show you how it works.
+@core: Every … is checked by … | 用被动介绍流程（一般现在时） | every order / every package；our system / our team | 正式：Every order is reviewed by both our system and our operations team.｜随意：We check every order, and so does the system.
+@core: At nine, I… Then I… In the afternoon, I… At six, I… | 按时间介绍一天的工作 | at nine / then / in the afternoon / at six | 正式：My day typically begins with a call with our Seattle team.｜随意：So, first thing, I…
+@core: Thank you for your hospitality. | 客人道谢 | your hospitality / the warm welcome / the walkthrough | 正式：Thank you for your warm hospitality during my visit.｜随意：Thanks for having me!
+
+@pw: itinerary | aɪˈtɪnəreri | 5 个音节 i·TIN·er·ar·y | 重音在 tin；开头读 `/aɪ/`（像「爱」），不读「一」
+@pw: hospitality | ˌhɑːspɪˈtæləti | 5 个音节 hos·pi·TAL·i·ty | 主重音在 tal；后面的 t 闪音，像轻轻的 d：hos-pi-TAL-a-dee
+@pw: headquarters | ˈhedkwɔːrtərz | 3 个音节 HEAD·quar·ters | 重音在 head；quar 读 `/kwɔːr/`；结尾是 `/z/`
+@pw: anniversary | ˌænɪˈvɜːrsəri | 5 个音节 an·ni·VER·sa·ry | 主重音在 ver，要卷舌；sa 弱读成 `/sə/`
+@pw: collaborate | kəˈlæbəreɪt | 4 个音节 col·LAB·o·rate | 重音在 lab，`/æ/` 嘴张大；col 弱读成 `/kə/`
+@pw: counterpart | ˈkaʊntərpɑːrt | 3 个音节 COUN·ter·part | 重音在前；美式口语里 nt 后的 t 常被吞掉：COUN-er-part
+@pw: lobby | ˈlɑːbi | 2 个音节 LOB·by | 美式 o 读 `/ɑː/`，嘴张大，像「拉比」
+@ps: It's **great** to **fi**nally **meet**‿you / in **per**son. | meet you 连成 `/miːtʃu/`（t 碰到 y 变成 ch 的音）；to 弱读成 `/tə/`；in person 重音在 per。
+@ps: It's‿a **plea**sure to **have**‿you here, / **Sar**ah. | It's a 连成 `/ɪtsə/`；pleasure 的 s 读 `/ʒ/`；have you 连成 `/hævju/`；称呼前稍停，语调落下。
+@ps: Let me **walk**‿you through / a **day** in my **job**. | Let me 常连读成 `/ˈlemi/`；walk 的 l 不发音；through 读 `/θruː/`，舌尖先轻咬一下。
+@ps: **Ev**ery **or**der is **checked** / by our **sys**tem / and by our **team**. | is 弱读成 `/ɪz/`，checked 读 `/tʃekt/`；by our 连成 `/baɪɑːr/`；两个 by 短语并列，第一个语调微升，第二个落下收尾。
+@pnote: 数字听辨：**forty** thousand（四万）vs fourteen thousand（一万四）——FOR-ty 重音在前，four-TEEN 重音在后；**ninety-six** percent 别听成 sixty-nine；the **third** anniversary 是序数词，th 要咬舌。about forty thousand a day 里的 about 弱读成 `/əˈbaʊt/`，说快了几乎只剩 bout。
+@pnote: 写和说的不同：介绍材料上常写 **HQ**，嘴上多说 headquarters 或 our main office；Sarah 短信里的 Thank you for your hospitality! 偏书面、正式，当面更常说 Thanks for having me! / Thanks so much for today!；It's a pleasure to meet you. 口语里常缩成 Pleasure to meet you.
+@lfocus: forty vs fourteen；ninety-six percent；the third anniversary
+@lfocus: meet you / have you / walk you 里的连读
+@lfocus: 被动句 Every order is checked by… / are handled by… 里弱读的 is / are
+@dict: S15–S17
+@dict: S22–S24
+@res: 在 youglish.com 输入 "put a face to the name"，选 US
+
+@mimic: 跟读【C】S2–S27：先逐句跟读，重点模仿见面寒暄（S2–S6）热情的语调和 S14–S23 林晓讲一天工作的节奏；再你演林晓、手机朗读 Sarah 和张涛的台词，正常语速完整对一遍并录音。最后合上书，只看 S15–S23 的时间词（at nine / then / in the afternoon / at six），用自己的话把林晓的一天讲出来。
+@swap: It's a pleasure to have you here, Sarah. | 换人和地点：Daniel / Priya / the Seattle team；here / in Shenzhen / at our office | It's a pleasure to have you in Shenzhen, Priya.
+@swap: Let me walk you through a day in my job. | 换内容：the returns process / our weekly report / the new dashboard | Let me walk you through our weekly report.
+@swap: Every order is checked by our system and by our team. | 换主语和人：every refund / every bug report；Grace's team / Mike's engineers | Every bug report is checked by Mike's engineers.
+@swap: It's great to finally meet you in person. | 换动作和地点：see you / work with you；in person / in Seattle | It's great to finally see you in Seattle.
+@free: 一位只通过邮件联系过的美国客户第一次来公司。你在大堂迎接他，说两三句欢迎的话。 | Welcome to SwiftLink! It's great to finally meet you in person. It's nice to put a face to the name after all those emails.
+@free: 客户问：What does your team actually do every day?（先用一句话总括，再按时间说两件事） | We make sure every package is tracked from China to the customer's door. Every morning, we check the dashboard and fix exceptions. In the afternoon, we answer seller emails.
+@free: 客户参观完要回酒店。你想问问他的第一印象，再把明天的行程交给他。 | Before you go, what's your first impression? And here's your itinerary for tomorrow. We'll pick you up at nine.
+@free: 你去西雅图出差回来，给 Mike 发条消息：谢谢他们的热情款待，见到大家本人很开心。 | Thank you for your hospitality last week. It was great to finally meet everyone in person, and the team lunch was amazing.
+@output: 录 1.5–2 分钟口头介绍「我工作的一天」（A Day in My Job），假设一位第一次来访的客户或外国朋友坐在你对面：一两句欢迎开场（It's a pleasure to have you here.）→ Let me walk you through… → 按时间讲 4–5 件事（一般现在时；至少两句被动：… is checked / is handled by…）→ 一两个数字 → 你和谁协作（collaborate with / my counterpart）→ 用 Any questions? 收尾。没有工作，就讲你学习或生活的一天。
+@output_sample: It's a pleasure to have you here. Let me walk you through a day in my job. I work in operations at SwiftLink, and I'm responsible for twenty sellers in the U.S. My day starts at nine with a short huddle. We collaborate with our engineering team in Seattle, and it's their evening, so we only have one hour together. After that, I check the dashboard. We track about forty thousand packages a day, and every order is checked by our system and by our team. When something goes wrong, for example, a package is held at customs, I work with my counterpart at the warehouse and notify the seller. In the afternoon, I answer seller emails. Refund questions are handled by our customer service team, and access problems go to IT. I also keep an eye on the numbers. Last month, ninety-six percent of our packages arrived on time. At six, I send a summary to Seattle, so they can pick up where we left off. It's a busy day, but I really enjoy it, because I can see how every package moves from China to the customer's door. Any questions?
+
+@check: 听力：Sarah 和 SwiftLink 合作多久了？张涛为欢迎她安排了什么？ | 下个月就满三年（next month is the third anniversary of our partnership）。张涛安排了一顿团队午餐（a team lunch in honor of your visit）。
+@check: 听力：林晓几点和西雅图协作、几点给西雅图发总结？上个月 Sarah 的包裹准时率是多少？ | 早上九点和 Mike 的团队协作（他们快下班的时候）；晚上六点发总结。准时率是 96%（ninety-six percent）。
+@check: 改错：① Welcome you to our company! ② Nice to meet your real person. ③ Let me walk through you the process. | ① Welcome to our company! ② It's great to finally meet you in person. ③ Let me walk you through the process.
+@check: 换个场景：你给新来的实习生介绍客服部的工作：每条客户消息都在 24 小时内回复；退款由财务部处理。用一般现在时 + 被动说两句。 | Every customer message is answered within 24 hours. Refunds are handled by the finance team.
+@check: 美国客户第一次来访，你说 It's my honor to meet you.，有什么问题？怎么说更自然？ | 语法没错，但在日常商务里显得过于隆重。更自然的说法：It's a pleasure to meet you. / It's great to finally meet you in person.
+@check: 客人离开前，用两句英文感谢他远道而来，并说你期待长期合作。 | Thank you so much for coming all this way. We're looking forward to a long-term partnership.
+@next1: 不看书说出 5 个锚点句：S2、S5、S12、S14、S17
+@next1: 用 At nine… / Then… / In the afternoon… / At six… 说说你自己明天的安排
+@next7: 接待五句：It's a pleasure to have you here. / It's great to finally meet you in person. / It's nice to put a face to the name. / Please make yourself at home. / Thank you for your hospitality.
+@next7: 用 Let me walk you through… 加两个被动句，讲一个你熟悉的工作流程
