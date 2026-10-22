@@ -6,13 +6,15 @@ A 180-day English course for Chinese adult learners starting from a vocational-s
 
 | File | Contents |
 | --- | --- |
-| [`output/00-课程总纲-180天路线图.pdf`](output/00-课程总纲-180天路线图.pdf) | Roadmap (21 pages): principles, the 8-step 120-minute day, the six books with weekly themes and measurable goals, where each Chinese-thinking point is taught, stage assessments, US IPA chart, resources with their verification status, 180-day tracker |
+| [`output/00-课程总纲-180天路线图.pdf`](output/00-课程总纲-180天路线图.pdf) | Roadmap (24 pages): principles, the 8-step 120-minute day, the six books with weekly themes and measurable goals, where each Chinese-thinking point is taught, stage assessments, US IPA chart, resources with their verification status, 180-day tracker |
 | [`output/01-第一册-基础表达与中文思维转换-Day01-30.pdf`](output/01-第一册-基础表达与中文思维转换-Day01-30.pdf) | Book 1, Day 1–30 (317 pages, A4): 30 complete lessons (4 review days, Day 30 stage test), 462 key words + 111 phrases, vocabulary coverage record, review index, progress log, Book 2 handoff record, copyable prompt for writing Book 2 |
 | [`output/01-第一册-基础表达与中文思维转换-可编辑版.md`](output/01-第一册-基础表达与中文思维转换-可编辑版.md) / [`.docx`](output/01-第一册-基础表达与中文思维转换-可编辑版.docx) | Book 1 as editable Markdown and Word |
 | [`output/02-第二册-生活交流时间表达和连续对话-Day31-60.pdf`](output/02-第二册-生活交流时间表达和连续对话-Day31-60.pdf) | Book 2, Day 31–60 (371 pages, A4): present perfect, past continuous, used to / be used to, telling a story and keeping a conversation going, life scenes (renting, moving, doctor, bank, returns, transport); 546 key words + 135 phrases (none repeated from Book 1); Book 3 handoff record and continuation prompt |
 | [`output/02-第二册-生活交流时间表达和连续对话-可编辑版.md`](output/02-第二册-生活交流时间表达和连续对话-可编辑版.md) / [`.docx`](output/02-第二册-生活交流时间表达和连续对话-可编辑版.docx) | Book 2 as editable Markdown and Word |
+| [`output/03-第三册-工作场景与基础商务沟通-Day61-90.pdf`](output/03-第三册-工作场景与基础商务沟通-Day61-90.pdf) | Book 3, Day 61–90 (406 pages, A4): job responsibilities and processes, the passive, numbers/trends/charts and the weekly report, customer emails (answering, policies, apologies, saying no, following up), access rights, APIs, bug and incident reports, shipment exceptions; 543 key words + 134 phrases (none repeated from Books 1–2); Book 4 handoff record and continuation prompt |
+| [`output/03-第三册-工作场景与基础商务沟通-可编辑版.md`](output/03-第三册-工作场景与基础商务沟通-可编辑版.md) / [`.docx`](output/03-第三册-工作场景与基础商务沟通-可编辑版.docx) | Book 3 as editable Markdown and Word |
 
-Books 3–6 (Day 61–180) are planned in the roadmap and will be written in the same format.
+Books 4–6 (Day 91–180) are planned in the roadmap and will be written in the same format.
 
 ## What each lesson contains
 
@@ -38,7 +40,7 @@ content/
   book1/book.yaml      # Book 1 front/back matter, handoff record, continuation prompt
   book1/PLAN.md        # writing plan: each day's words, phrases, differences, anchor sentences
   book1/dayNN.txt      # one lesson per file
-  book2/…              # same layout for Book 2 (Day 31–60)
+  book2/…, book3/…     # same layout for Book 2 (Day 31–60) and Book 3 (Day 61–90)
 templates/             # Jinja2 HTML / Markdown templates + print CSS
 tools/render.cjs       # Chromium HTML → PDF
 build.py               # parse, validate, track vocabulary, render, number the contents
