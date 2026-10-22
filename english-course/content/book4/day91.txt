@@ -1,0 +1,171 @@
+@day: 91
+@week: 1
+@title_cn: 用邮件提请求
+@title_en: Making a Request by Email
+@topic: 当上项目协调人的第一天：向工程团队和客户提请求——选对礼貌层级、用具体日期代替 ASAP、说明原因、委婉地多要一样东西
+@think_short: 「麻烦您……」Could you… / Would it be possible to… / I'd appreciate it if…｜「麻烦尽快」✗ ASAP → by Thursday, if possible｜「为了……」so that + 句子｜「顺便问一下有没有」… by any chance?
+
+@goal_scene: 刚当上 BrightNest 项目的协调人，林晓要请两个「不归她管」的人帮忙：请西雅图 Mike 的团队搭一个测试账号，请客户 Priya 提供一批样本订单数据。她先在内部碰头会上弄清各方角色和资源限制，再在张涛的指点下，把两封请求邮件从「ASAP」改成「具体日期 + 原因 + 余地」。
+@goal_expr: Would it be possible to set up a test account by Thursday? / I'd appreciate it if you could send us some sample data. / We need it so that Mike's team can start testing. / Do you have last month's order data by any chance? / Let's aim for Friday, if that works for you. / If Thursday is too tight, Friday morning works.
+@goal_vocab: 20 个重点词 + 5 个短语：项目里的角色（coordinator / sponsor / stakeholder）、资源与数据、请求的措辞和语气
+@done: 能按对象和事情大小选出请求句式（Can you / Could you / Would it be possible to / I'd appreciate it if you could），并说出为什么这样选
+@done: 不再写 ASAP：能用「具体日期 + 原因（so that…）+ 余地（If … is too tight… / if that works for you）」提一个有时间要求的请求
+@done: 能写一封 5–8 句的请求邮件：第一句就是请求 → 一句原因 → 必要的细节 → 委婉地多要一样（by any chance）→ 目标时间
+
+@warmup: 总的来说，四个目标我完成了三个。 | Overall, I've met three of my four objectives. | D90
+@warmup: 周一评估之前，我先把这个季度的成绩发给你。 | I'm writing to share my results before Monday's evaluation. | D90
+@warmup: 下个季度，我需要你再往前站一步：BrightNest 的上线由你牵头，和 Mike 的团队一起做。 | Next quarter, I need you to step up. You'll lead the BrightNest launch with Mike's team. | D90
+@warmup: 我们两边的工作时间只重叠一个小时。 | Our working hours only overlap for one hour. | D87
+@warmup: 退款由财务部负责。 | Refunds are handled by the finance team. | D64
+@warmup: 我们刚和一个新的大客户签了合同。 | We've just signed a contract with a big new client. | D33
+
+@scene: 八月的最后一个周一。上周的季度评估上，张涛让林晓牵头 BrightNest 的系统对接上线；从今天起，她正式成为这个项目的协调人。项目牵涉三方：深圳的运营团队、西雅图 Mike 的工程团队、美国的大客户 BrightNest（每天几千个订单）。下周要开启动会，之前得先备好两样东西：一个测试账号、一批真实的订单数据。麻烦在于，这两件事都得请「不归她管」的人来做：Mike 这个月人手紧，客户 Priya 也没有义务配合她的时间表。林晓的初稿写得又短又急——Please set up a test account ASAP.——张涛看完，让她把语气改一改。
+@sp: 人物关系 | 林晓 → Mike：跨时区的同事，Mike 不归她管，这个月人手又紧；林晓 → Priya：服务方写信给大客户的运营经理，对方没有义务配合她的时间表；张涛：林晓的经理、项目负责人，帮她把关语气；Emma 管产品范围，实习生 Leo 做记录
+@sp: 沟通目的 | 启动会前拿到两样东西：Mike 团队的一个专用测试账号（周四前）、Priya 的一批样本订单数据（争取周五）；同时让对方愿意优先处理，而不是觉得被催
+@sp: 已知信息 | Karen Walker 是 BrightNest 方的项目发起人（sponsor），Priya 和 Raj 是主要相关方；Mike 这个月没法再加人；编出来的数据测不出真问题；数据周五到，账号最好周四先搭好
+@sp: 表达重点 | 选礼貌层级（Would it be possible to… / I'd appreciate it if you could…）→ 用日期代替 ASAP → 一句原因（so that…）→ 留余地（If Thursday is too tight… / if that works for you）→ 委婉地多要一样（by any chance）→ 道谢别用 Thank you for your cooperation
+
+@story_title: Episode 91 · Would It Be Possible…?
+@story_type: 内部碰头会 + 两封请求邮件
+@s: Last week, Tom asked Lily to lead the BrightNest launch. | 上周，张涛让林晓牵头 BrightNest 的上线。
+@s: Now she's the project **coordinator**, and her first job is asking people for help. | 现在她是项目协调人，第一件事就是请别人帮忙。
+@br:
+@s: On Monday, she meets Tom, Emma and Leo. | 周一，她和张涛、Emma、Leo 碰了个头。
+@s: Tom: Karen Walker is the project **sponsor** at BrightNest. Priya and Raj are the key **stakeholders**. | 张涛：BrightNest 那边，项目发起人是 Karen Walker，Priya 和 Raj 是主要的相关方。
+@s: Tom: Before the **kickoff** call next week, we need two things. | 张涛：下周开启动会之前，我们得先备好两样东西。
+@s: Emma: A test account and real orders. A made-up **dataset** won't show real problems. | Emma：一个测试账号，还有真实的订单。编出来的数据集测不出真问题。
+@s: Leo: But Mike says he can't **allocate** more **resources** this month. | Leo：可 Mike 说，这个月他没法再调配更多人手了。
+@s: Lily: We don't need more engineers, just one **dedicated** test account. | 林晓：我们不需要更多工程师，只要一个专用的测试账号。
+@br:
+@s: Lily shows Tom her first draft. It says, "Please set up a test account ASAP." | 林晓把初稿拿给张涛看，上面写着：「请尽快搭一个测试账号。」
+@s: Tom: The **wording** is clear, but ASAP sounds like an order. | 张涛：措辞很清楚，可是 ASAP 听起来像在下命令。
+@s: Lily: But I need a **timely** answer. | 林晓：可我需要对方及时回复啊。
+@s: Tom: Then show the **urgency** with a date, and explain your **rationale**. | 张涛：那就用一个日期来体现紧迫性，再把你的理由讲清楚。
+@s: Tom: People move faster when they know why. | 张涛：人家知道为什么，动作才会快。
+@s: Emma: And Priya doesn't work for us. Give her some room. | Emma：而且 Priya 又不是我们的员工，给她留点余地。
+@s: Tom: Also, watch the **phrasing**. "Thank you for your **cooperation**" sounds like a sign at the bank. | 张涛：还有，注意说法。「感谢您的配合」听起来像银行里贴的告示。
+@br:
+@s: Lily rewrites both emails. First, to Mike: | 林晓把两封邮件都重写了。先是给 Mike 的：
+@s: Hi Mike, | Mike 你好：
+@s: **Would it be possible to** set up a test account by Thursday? | 能不能在周四之前搭好一个测试账号？
+@s: BrightNest's order data should arrive on Friday, and we'd like to load it right away. | BrightNest 的订单数据应该周五到，我们想一到就导进去。
+@s: If Thursday is too tight, Friday morning works. I have some **flexibility**. | 如果周四太赶，周五上午也可以，我这边时间上有余地。
+@s: Thanks,\nLily | 谢谢！\n林晓
+@br:
+@s: Then, to Priya: | 然后是给 Priya 的：
+@s: Hi Priya, | Priya 你好：
+@s: **I'd appreciate it if** you could send us some **sample** data. | 如果您能给我们发一些样本数据，我将非常感激。
+@s: We need it **so that** Mike's team can start testing. | 我们需要这些数据，好让 Mike 的团队开始测试。
+@s: About 500 orders would be enough. Please **specify** the time zone for the order dates. | 大约 500 个订单就够了。请注明订单日期用的是哪个时区。
+@s: Do you have last month's order data **by any chance**? | 不知道您那边有没有上个月的订单数据？
+@s: Without real data, we could **potentially** lose a week. | 没有真实数据的话，我们可能会耽误一个星期。
+@s: If Raj's team needs any **assistance** with the export, Kevin is happy to help. | 如果 Raj 的团队导出数据时需要任何协助，Kevin 很乐意帮忙。
+@s: Let's **aim** for Friday, **if that works for you**. | 我们争取周五，您看可以吗？
+@s: Thanks so much for your help!\nLily | 非常感谢您的帮助！\n林晓
+
+@v: coordinator | = | n. | koʊˈɔːrdɪneɪtər | 协调人；协调员（负责把各方的人、时间和信息串起来、盯进度的人） | 介绍自己在项目里的角色 | a project coordinator；the coordinator for…；act as coordinator | As the project coordinator, I'll send out the meeting notes. | 作为项目协调人，会议纪要由我来发。 | 中文「对接人」「协调人」「负责人」常混着用，英文分得清：coordinator 负责协调、跟进，不一定拍板；拍板、对结果负责的是 owner 或 lead（这个项目里是张涛）；point of contact（D61）是「对外联系人」。重音在 OR：co-OR-di-na-tor，co 读 `/koʊ/`，不读「扣」。
+@v: sponsor | = | n. | ˈspɑːnsər | （项目的）发起人；高层支持者（项目为他而做，资源由他给，大事由他拍板） | 项目管理、介绍各方角色 | the project sponsor；an executive sponsor；sponsor a project（动词） | Our sponsor approved the budget in one day. | 我们的项目发起人一天就批了预算。 | 中文先想到「赞助商」（比赛、活动的 sponsor），可在项目里，sponsor 是一方的高层：不管日常细节，但项目成败要向他交代，重要进展和风险一定要让他知道。美式 o 读 `/ɑː/`，重音在前：SPON-sor。
+@v: stakeholders | stakeholder | n. | ˈsteɪkhoʊldərz | 相关方；利益相关者（会受项目影响、或能影响项目的人和团队） | 项目管理；开会、发通知前想清楚该让谁知道 | key stakeholders；keep stakeholders informed；a stakeholder meeting | Let's list all the stakeholders before we send the invite. | 发会议邀请之前，我们先把所有相关方列出来。 | 不是「股东」：股东是 shareholder（持有公司股份的人）；stakeholder 范围大得多，客户、同事、别的部门都可能是。可数，一般用复数；k 和 h 分属两个音节：STAKE-hold-er，h 要读出来。
+@v: kickoff | = | n. | ˈkɪkɔːf | （项目的）启动；启动会 | 项目开始前各方第一次正式开会 | a kickoff call；a kickoff meeting；the project kickoff | The kickoff meeting is on Tuesday at nine. | 启动会定在周二上午九点。 | 来自足球、橄榄球的「开球」。名词连写成 kickoff（也有人写 kick-off），动词分开写：Let's kick off the meeting.；「启动会」不说 ✗ start meeting；复合名词重音在前：ˈkickoff ˌcall。
+@v: dataset | = | n. | ˈdeɪtəset | 数据集（放在一起使用的一整批数据） | 测试、分析、导出数据 | a test dataset；a large dataset；a made-up dataset | We tested the system with a dataset of 10,000 orders. | 我们用一个一万条订单的数据集测试了系统。 | data（第一册 D22）不可数，✗ datas / ✗ a data；想说「一批、一份数据」就用 dataset，它可数：a dataset / two datasets。data 美式多读 `/ˈdeɪtə/`，也有人读 `/ˈdætə/`，两种都对，t 都闪音，像轻轻的 d。
+@v: allocate | = | v. | ˈæləkeɪt | 分配；调配（人手、时间、预算） | 讨论项目有没有人、有没有钱、排多少时间 | allocate resources；allocate time to…；allocate two engineers to… | We've allocated two engineers to the project. | 我们给这个项目分配了两名工程师。 | 中文「安排人」「调人」「拨预算」都可以是 allocate，比 give 正式，多用于预算、人手和时间；搭配 allocate sth to sb / sth；重音在前 AL-lo-cate，a 读 `/æ/`，嘴张大；名词 allocation。
+@v: resources | resource | n. | ˈriːsɔːrsɪz | 资源；人手（能调动的人、钱、时间、设备） | 讨论项目缺不缺人、缺不缺预算 | more resources；a lack of resources；human resources（人力资源部，HR） | We don't have the resources to test every case. | 我们没有足够的人手和时间去测试每一种情况。 | 项目里说 resources，很多时候就是「人手」：We need more resources. = 得再派人；一般用复数。美式重音在前 `/ˈriːsɔːrs/`，复数 -ces 读 `/sɪz/`。中文「资源」很宽（客户资源、人脉），那种意思英文常说 contacts / network，不一定用 resources。
+@v: dedicated | = | adj. | ˈdedɪkeɪtɪd | 专用的；专门负责的；（人）尽心尽力的 | 专门给某个项目、某个客户用的账号、服务器、团队 | a dedicated test account；a dedicated team；be dedicated to… | BrightNest will have a dedicated support line. | BrightNest 会有一条专属的客服热线。 | 中文「专用」「专属」「专人负责」都可以用 dedicated：a dedicated account manager（专属客户经理）；形容人时是「敬业、投入」：She's very dedicated to her work.；重音在前，-ted 读 `/tɪd/`。
+@v: wording | = | n. | ˈwɜːrdɪŋ | 措辞；用词 | 讨论邮件、合同、通知怎么写 | the wording of…；change the wording；careful wording | Can you check the wording before I send it? | 我发出去之前，你能帮我看看措辞吗？ | 「措辞」说 the wording，不可数，前面常加 the；它偏「选了哪些词」，phrasing 偏「句子怎么组织、语气如何」，日常常可互换。wor 读 `/wɜːr/`，要卷舌，不读「沃丁」。
+@v: timely | = | adj. | ˈtaɪmli | 及时的 | 正式邮件里说回复、通知、付款要及时 | a timely answer；in a timely manner；timely updates | Thank you for your timely reply. | 感谢您的及时回复。 | 长得像副词（-ly 结尾），其实是形容词：✓ a timely reply，✗ Please reply timely.；要用副词就说 in a timely manner，或者干脆给日期：by Thursday。偏书面，口语多说 a quick answer。
+@v: urgency | = | n. | ˈɜːrdʒənsi | 紧迫性；急迫 | 说明一件事有多急 | a sense of urgency；the urgency of…；with urgency | There's no real urgency. Next week is fine. | 不是特别急，下周也可以。 | 形容词 urgent（第一册 D24）。中文「事情很急」直接说 This is urgent!，在美国职场容易显得在施压；更有效的是用日期和原因体现紧迫：We need it by Thursday, because…。真出了大事（系统宕机）才直说 urgent，最好再打个电话。ur 读 `/ɜːr/`，g 读 `/dʒ/`。
+@v: rationale | = | n. | ˌræʃəˈnæl | 理由；依据（一个请求或决定背后的考虑） | 解释为什么提这个请求、为什么定这个日期 | the rationale for…；explain the rationale；the rationale behind… | Can you explain the rationale behind the new deadline? | 你能解释一下定这个新截止日期的理由吗？ | 比 reason 正式，多指一个决定、一个计划背后的整套考虑，常见于会议和邮件；介词用 for / behind；重音在最后 ra-tio-NALE，结尾读 `/næl/`，e 不发音；别和 rational（理性的）`/ˈræʃənl/` 混。
+@v: phrasing | = | n. | ˈfreɪzɪŋ | 说法；措辞（一句话怎么组织、什么语气） | 讨论一句话怎么说才合适 | the phrasing of…；polite phrasing；awkward phrasing | The idea is good, but the phrasing is a bit too direct. | 意思没问题，但说法有点太直接了。 | phrase 既是名词也是动词：How should I phrase this?（这话我该怎么说？）——请同事帮忙改邮件时很好用；s 读 `/z/`：FRAY-zing；和 wording 很近，phrasing 更强调语气和句式。
+@v: cooperation | = | n. | koʊˌɑːpəˈreɪʃn | 配合；合作 | 通知、规定里请对方配合 | thank you for your cooperation；full cooperation；in cooperation with… | Thank you for your cooperation during the system upgrade. | 系统升级期间，感谢各位的配合。 | 中文「感谢配合」很客气，可英文 Thank you for your cooperation 多见于银行、物业、机场的告示，意思近于「请按规定办」，写给客户或同事会显得冷、像在下指令；一对一请人帮忙时说 Thanks so much for your help! 更暖。项目上的「合作关系」用 partnership（D89）或 working together。co-op 两个元音分开读，主重音在 RA。
+@v: Would it be possible to | would it be possible to | phr. | ˌwʊd ɪt bi ˈpɑːsəbl tə | ……可以吗？能不能……？（非常客气的请求） | 向客户、别的部门或上级提一个额外的请求 | Would it be possible to…?；Would it be possible for you to…?；Is it possible to…?（稍随意） | Would it be possible to move the call to 10 a.m.? | 能不能把电话会改到上午十点？ | 它不问「你能不能」，而问「这件事有没有可能」，给对方留足了说不的余地，所以特别客气；to 后面接动词原形；✗ Is it possible that you can…（啰嗦、不地道）；口语里前半句弱读成 `/ˈwʊdɪt bi/`，只有 POS 是重音。
+@v: flexibility | = | n. | ˌfleksəˈbɪləti | 灵活性；（时间、安排上的）余地 | 告诉对方你可以调整，减轻对方的压力 | some flexibility；flexibility on timing；I have some flexibility. | We have some flexibility on the date. | 日期上我们可以灵活一点。 | 形容词 flexible（D75）。「我这边时间灵活」说 I have some flexibility. 或 I'm flexible.，✗ My time is very flexible for you.；请求后面加一句余地，对方更容易答应。主重音在 BIL，结尾 -ty 闪音，像轻轻的 d。
+@v: I'd appreciate it if | = | phr. | ˌaɪd əˈpriːʃieɪt ɪt ɪf | 如果您能……，我将不胜感激；麻烦您…… | 邮件里郑重而温和地提请求 | I'd appreciate it if you could…；I'd really appreciate it if…；We'd appreciate it if… | I'd appreciate it if you could reply by Friday. | 如果您能在周五前回复，我将非常感激。 | appreciate（D59）在这里是「感激」；中间的 it 不能丢：✗ I'd appreciate if you could…，这是中国学生最常见的错；后面多接 you could / you would；c 读 `/ʃ/`：a-PRE-shi-ate。
+@v: sample | = | n./adj. | ˈsæmpl | 样本；样品；样例（的） | 测试数据、产品样品 | sample data；a free sample；a sample of 500 orders | Could you send us a sample of your product photos? | 能发几张商品图片给我们做样例吗？ | 「样本数据」sample data：sample 放在名词前当修饰语，不加 s，✗ samples data；a 读 `/æ/`，嘴张大，结尾 -ple 读 `/pl/`，不读「散普」。
+@v: so that | = | phr. | ˈsoʊ ðət | 以便；好让…… | 请求后面紧跟一句目的或原因 | so that we can…；so that you'll…；so（口语里常省掉 that） | Please send the file today so that we can check it tomorrow. | 请今天把文件发过来，这样我们明天就能检查。 | so that 后面接完整的句子，常带 can / could / will：so that Mike's team can start testing；中文「为了开始测试」别译成 ✗ for start testing / ✗ for to start testing：要么 to + 动词原形（to start testing），要么 so that + 句子。that 弱读成 `/ðət/`。
+@v: specify | = | v. | ˈspesɪfaɪ | 具体说明；注明 | 请求里说清楚格式、时间、范围 | specify the date；specify which…；please specify | Please specify the size and color in your order. | 下单时请注明尺寸和颜色。 | 中文「注明」「写清楚」可以用 specify，比 say / tell 正式；后面直接接名词或 which / what 从句：Please specify which format you need.；形容词 specific（D59）；重音在 SPE，fy 读 `/faɪ/`。
+@v: by any chance | = | phr. | baɪ ˌeni ˈtʃæns | （问一下）……是不是刚好有；会不会碰巧…… | 委婉地问对方有没有某样东西、知不知道某件事 | Do you have… by any chance?；Are you free by any chance?；Do you know… by any chance? | Do you have Raj's phone number by any chance? | 你会不会刚好有 Raj 的电话号码？ | 放在 yes/no 问句末尾最自然，意思是「如果碰巧有的话」，没有也没关系；中文「顺便问一下」别译成 by the way——by the way 是转话题，不表示委婉；chance（D58）读 `/tʃæns/`，句末轻轻上扬。
+@v: potentially | = | adv. | pəˈtenʃəli | 可能；潜在地 | 委婉地提醒一个可能的后果 | could potentially…；potentially affect…；potentially serious | This could potentially delay the launch. | 这有可能会推迟上线。 | 常和 could / may 连用，比直接说 will 委婉：We could potentially lose a week. 是提醒，不是威胁；别叠用：✗ It may potentially possibly…；tial 读 `/ʃəl/`，重音在 TEN。
+@v: assistance | = | n. | əˈsɪstəns | 帮助；协助（较正式） | 客户邮件、正式通知、客服用语 | need any assistance；technical assistance；thank you for your assistance | If you need any assistance, please contact our support team. | 如需任何帮助，请联系我们的支持团队。 | assistance 是 help 的正式说法，不可数：✗ an assistance / ✗ assistances；对客户说 If you need any assistance… 很得体，对同事说 Need any help? 就够了；别和 assistant（助理）混：-ance 是「事」，-ant 是「人」。
+@v: aim | = | v./n. | eɪm | 力争；把目标定在…… | 给一件事定一个大家努力达到的时间或数字 | aim for Friday；aim to finish by…；Our aim is… | Let's aim to finish the report by Monday. | 我们争取周一前把报告写完。 | aim for + 时间或名词，aim to + 动词原形：✓ aim for Friday，✓ aim to send it on Friday；它比 must / have to 软得多：Let's aim for Friday. 是「我们争取周五」，留了余地；作名词是「目标」：Our aim is to go live before November.
+@v: if that works for you | = | phr. | ɪf ˌðæt ˈwɜːrks fər ju | 如果您方便的话；您看这样行吗 | 提出一个时间或方案后，给对方留余地 | if that works for you；Does that work for you?；That works for me. | Let's meet at three, if that works for you. | 我们三点见吧，你看行吗？ | 接着第一册 Saturday works for me（D18）的用法：work for sb = 对某人合适；比 if it's convenient for you 更口语、更常用；放在提议的后面，不放在前面；for you 弱读成 `/fər jə/`，句末轻轻上扬。
+
+@diff: 「麻烦您……」——请求的四档礼貌：Can you / Could you / Would it be possible to / I'd appreciate it if you could
+@d_cn: 请别人帮忙，中文靠「请」「麻烦」「您」来调节客气程度：「你帮我弄一下」「麻烦您帮忙弄一下」，句子结构几乎不变。
+@d_en: Can you check this? / Could you check this by noon? / Would it be possible to set up a test account by Thursday? / I'd appreciate it if you could send us some sample data.
+@d_why: 英文没有「您」，客气程度靠**句式**：越间接、越给对方留余地，就越客气。**Can you…?** 最直接，跟熟悉的同事说小事；**Could you…?** 是职场默认的礼貌说法，对谁都不会错；**Would it be possible to…?** 不问「你能不能」，而问「这件事有没有可能」，把对方的压力降到最低，适合请别的部门、客户或上级做**额外**的事；**I'd appreciate it if you could…** 偏书面，常写在邮件里，客气又郑重。中国学生常以为加个 please 就礼貌了，可 Please set up a test account. 仍然是祈使句，对客户、对不归你管的人听起来像在派活。也别层层加码：问 Kevin 借个充电器也用 Would it be possible to…，反而显得生分。常见错误：✗ I'd appreciate if…（丢了 it）、✗ Is it possible that you can…（啰嗦）。
+@d_when: 按对象和事情大小选：熟人、小事用 Can / Could you；客户、别的团队、上级，或者是对方本来不用做的额外工作，用 Would it be possible to / I'd appreciate it if you could。
+@d_vs: **Can you check this?** 你看一下这个？（熟人、小事）\n**Could you check this by noon?** 中午前能帮我看一下吗？（职场默认）\n**Would it be possible to set up a test account by Thursday?** 周四前能不能搭好一个测试账号？（跨团队、额外的事）\n**I'd appreciate it if you could send us some sample data.** 如果您能发一些样本数据给我们，我将非常感激。（邮件、客户）\n✗ Please set up a test account.（对客户、对不归你管的人像在派活）
+@d_task: 给 BrightNest 的 IT 负责人 Raj 写一句：能不能在周三前给我们开通 API 的访问权限？（客户、额外的事） | Would it be possible to give us API access by Wednesday?
+@diff: 「麻烦尽快」——别写 ASAP，写日期：by Thursday, if possible
+@d_cn: 中文邮件里「麻烦尽快」「请尽快回复」很常见，算是客气的催促，没人会觉得刺耳。
+@d_en: ✗ Please set up a test account ASAP. → Would it be possible to set up a test account by Thursday? If Thursday is too tight, Friday morning works. / Let's aim for Friday, if that works for you.
+@d_why: **ASAP**（as soon as possible）在英文里比中文「尽快」重得多：它把你的急变成了对方的问题，又不说到底哪天，对方只能猜，还容易觉得被催。写给客户、写给别的团队尤其刺眼。美国职场的做法是三步：**给一个具体日期**（by Thursday）→ **说明为什么是这天**（rationale：数据周五到，账号得先搭好）→ **留一点余地**（If Thursday is too tight, Friday morning works. / if that works for you）。张涛说得好：紧迫性（urgency）靠日期和原因体现，不靠语气。第三册 D65 的 at your earliest convenience 是书面的「尽早」，比 ASAP 客气，但同样没有日期，能给日期就给日期。真到了十万火急的时候（系统宕机），直接说 This is urgent. 再打个电话。
+@d_when: 请别人在某个时间之前做事，尤其是对方没有义务马上做的时候：客户、别的团队、上级。
+@d_vs: ✗ **Please reply ASAP.**（急躁，没有日期）\n**Could you please reply at your earliest convenience?** 方便时请尽早回复。（D65，客气但没有日期）\n**Would it be possible to reply by Thursday?** 周四前能回复吗？（有日期）\n**Let's aim for Friday, if that works for you.** 我们争取周五，您看行吗？（日期 + 余地）
+@d_task: 把这句改得礼貌又具体：Please send the report ASAP.（你周三下午要拿给张涛看，周三上午前收到最好） | Could you send the report by Wednesday morning? I'm showing it to Tom that afternoon.
+@diff: 「为了……」——请求后面紧跟原因：… so that…
+@d_cn: 中文请求常常只说要什么，原因要么省略，要么放在一大段背景里，最后才说「所以麻烦您……」。
+@d_en: I'd appreciate it if you could send us some sample data. We need it so that Mike's team can start testing. / We need it to start testing.
+@d_why: 英文请求的顺序通常是**先说请求，再紧跟一句原因**。原因常用 **so that + 句子**（so that Mike's team can start testing）表示「这样才能……」，也可以用 because…。对方知道「为什么」和「对谁有用」，就更愿意优先处理——张涛那句 People move faster when they know why. 说的就是这个。原因一句就够，长篇背景会把请求淹没。语法上，so that 后面是完整的句子，常带 can / could / will；中文「为了开始测试」直译成 ✗ for start testing / ✗ for to start testing 都不对；只说目的、不换主语时，用 to + 动词原形最简单：We need it to start testing.
+@d_when: 请别人做额外的事、调整计划、加快进度时；尤其是跨团队、跨公司的请求。
+@d_vs: **We need it so that Mike's team can start testing.** 我们需要它，好让 Mike 的团队开始测试。（换了主语，用 so that）\n**We need it to start testing.** 我们需要它来开始测试。（同一个主语，用 to）\n**Could you send it today? Raj is off tomorrow.** 能今天发吗？Raj 明天休假。（原因单独一句也行）\n✗ We need it for start testing.
+@d_task: 请 Kevin 今天给 Leo 开测试环境的权限，并用 so that 说明原因：Leo 明天就能开始核对数据。 | Could you give Leo access to the test environment today, so that he can start checking the data tomorrow?
+@diff: 「顺便问一下有没有……」——Do you have… by any chance?
+@d_cn: 想多要一样东西，但不确定对方有没有，中文说「顺便问一下，您那边有没有……」「不知道您手上有没有……」。
+@d_en: Do you have last month's order data by any chance? / Are you free on Friday by any chance? / I was wondering if you have last month's data.
+@d_why: **by any chance** 放在问句末尾，意思是「如果碰巧有的话」，告诉对方「没有也完全没关系」，把请求变轻。中文「顺便」学生常译成 by the way，可 by the way 是「换个话题」，不表示委婉：✗ By the way, do you have last month's data? 听起来像你突然想起了另一件事。by any chance 用在 yes/no 问句里，句末语调轻轻上扬；陈述句里不用：✗ I need the data by any chance. 第三册 D80 的 I was wondering if… 也是委婉的问法，更长、更书面。
+@d_when: 问对方有没有某个文件、某个时间有没有空、知不知道某个信息，而你并不确定、也不想给对方压力。
+@d_vs: **Do you have last month's order data by any chance?** 您那边会不会刚好有上个月的订单数据？\n**Are you free on Friday by any chance?** 你周五会不会刚好有空？\n**I was wondering if you have last month's data.** 想问一下您有没有上个月的数据。（D80，更书面）\n✗ By the way, do you have last month's data?（by the way 是换话题）
+@d_task: 问 Priya：她会不会刚好有 Raj 的邮箱地址？ | Do you have Raj's email address by any chance?
+
+@core: Would it be possible to … by …? | 向客户、别的团队提一个额外的请求，并带上日期 | set up a test account / move the call / share the API documents；by Thursday / by end of day | 正式：Would it be possible for your team to set up a test account by Thursday?｜随意：Any chance you could set it up by Thursday?
+@core: I'd appreciate it if you could … | 邮件里郑重而温和地提请求 | send us some sample data / reply by Friday / review the attached plan | 正式：We would greatly appreciate it if you could share a sample dataset.｜随意：Could you send over some sample data? That'd be great.
+@core: We need it so that … can … | 请求后面紧跟一句原因 | Mike's team / we / Kevin；start testing / load it right away / set up the accounts | 正式：We need this information so that our engineers can begin testing.｜随意：We need it to get testing going.
+@core: Do you have … by any chance? | 委婉地问对方有没有某样东西 | last month's order data / Raj's email address / an older version | 正式：Would you happen to have last month's order data?｜随意：You don't have last month's data, do you?
+@core: Let's aim for …, if that works for you. | 提一个目标时间，同时给对方留余地 | Friday / the end of the month / 500 orders | 正式：We would suggest Friday as a target date, if that is convenient for you.｜随意：Friday-ish? Let me know.
+@core: If … is too tight, … works. I have some flexibility. | 主动给一个备选时间，减轻对方的压力 | Thursday → Friday morning；this week → next Monday | 正式：Should Thursday prove difficult, Friday morning would also be acceptable.｜随意：Thursday too tight? Friday's fine too.
+@core: Without …, we could potentially … | 委婉地提醒不做的后果，不带威胁 | real data / the test account；lose a week / miss the kickoff | 正式：Without this data, the timeline could potentially be affected.｜随意：No data, no testing.
+@core: If you need any assistance with …, … is happy to help. | 主动提供帮助，让对方的事变容易 | the export / the login；Kevin / our team | 正式：Should you require any assistance with the export, please contact Kevin.｜随意：Need a hand with the export? Kevin can help.
+
+@pw: coordinator | koʊˈɔːrdɪneɪtər | 5 个音节 co·OR·di·na·tor | 重音在 or；co 读 `/koʊ/`，和后面的 or 分开读；结尾 -tor 读 `/tər/`，卷舌
+@pw: rationale | ˌræʃəˈnæl | 3 个音节 ra·tio·NALE | 主重音在最后，结尾读 `/næl/`，e 不发音；对比 rational `/ˈræʃənl/`，重音在前
+@pw: stakeholder | ˈsteɪkhoʊldər | 3 个音节 STAKE·hold·er | 复合词，重音在前；k 和 h 别吞成一个音，h 要轻轻送出气来
+@pw: allocate | ˈæləkeɪt | 3 个音节 AL·lo·cate | 重音在前，a 读 `/æ/`，嘴张大；中间的 o 弱读成 `/ə/`
+@pw: cooperation | koʊˌɑːpəˈreɪʃn | 5 个音节 co·op·er·A·tion | 主重音在 ra；co-op 两个元音分开读，不连成「库普」
+@pw: flexibility | ˌfleksəˈbɪləti | 5 个音节 flex·i·BIL·i·ty | 主重音在 bil；结尾 -ty 的 t 闪音，像轻轻的 d
+@pw: urgency | ˈɜːrdʒənsi | 3 个音节 UR·gen·cy | 重音在前；ur 卷舌 `/ɜːr/`；g 读 `/dʒ/`，不读 `/g/`
+@ps: **Would**‿it be **pos**sible / to set‿up a **test** ac**count** / by **Thurs**day? | Would it be 弱读、连读成 `/ˈwʊdɪt bi/`，整句只有 pos、test、count、Thurs 清楚；set up 的 t 闪音，像 se-dup；句末 Thursday 轻轻上扬，听起来是在问，不是在命令。
+@ps: I'd ap**pre**ciate‿it‿if you could / **send**‿us some **sam**ple **da**ta. | appreciate it if 连成一串 `/əˈpriːʃieɪɾɪɾɪf/`，两个 t 都闪音，像轻轻的 d；could 弱读成 `/kəd/`；send us 连成 `/sendəs/`。
+@ps: Do you **have** / last month's **or**der data / by **an**y **chance**? | Do you 弱读成 `/dəjə/`；last month's 中间的 t 常常吞掉；by any chance 前面平、chance 上扬，口气轻松，意思是「没有也没关系」。
+@ps: Let's **aim** for **Fri**day, / if **that** works for you. | Let's aim 连成 `/letseɪm/`；Friday 后稍停，语调微降；后半句轻快，for you 弱读成 `/fər jə/`，句末轻轻上扬，把决定权交给对方。
+@pnote: 礼貌请求里的弱读：**Could you** → `ˈkʊdʒə`（d 碰到 y，变成「九」的 j 音）；**Would it be** → `ˈwʊdɪt bi`；**Can you** → `kənjə`。真正重读的是动词和日期：Could you **send** it by **Fri**day? 听会议和电话时别被弱读的前半句卡住，抓后面的动词和时间就行。同样，Do you have… 只剩 `dəjə hæv`，听力笔记只记 have + 东西：last month's data。
+@pnote: 语调和写法：请求、yes/no 问句末尾轻轻上扬，是「在问」；同样的话用降调说，就像命令或不耐烦。邮件里没有语调，所以英文邮件要靠 Would it be possible… / if possible / if that works for you 这些字面上的「余地」来补。ASAP 嘴上有人读四个字母 A-S-A-P，也有人读成一个词 `/ˈeɪsæp/`；Thursday `/ˈθɜːrzdeɪ/` 的 th 要咬舌，别读成 Sursday；500 读 five hundred，不加 s。
+@lfocus: 人和角色：Karen → sponsor；Priya, Raj → stakeholders；Mike → can't allocate more resources
+@lfocus: 要什么、什么时候：test account → by Thursday（or Friday morning）；sample data → about 500 orders, last month, aim for Friday
+@lfocus: 张涛改了什么：ASAP → a date + rationale；"Thank you for your cooperation" → "Thanks so much for your help"
+@dict: S18–S20
+@dict: S24–S27
+@res: 在 youglish.com 输入 "would it be possible to"，选 US，听前半句是怎么弱读的、句末语调怎么上扬。
+
+@mimic: 跟读【C】S1–S16：先正常语速逐句跟读，重点模仿张涛点评时的重音（The **wording** is clear, **but**…）；再由你演林晓、手机朗读张涛、Emma 和 Leo 的台词，完整对一遍并录音。最后把两封邮件（S17–S31）当成你自己写的，用客气、清楚的语气读一遍，读到 S18、S27、S30 时句末轻轻上扬。
+@swap: Would it be possible to set up a test account by Thursday? | 换请求和时间：move the kickoff call／share the API documents；to Monday／by end of day | Would it be possible to share the API documents by end of day?
+@swap: I'd appreciate it if you could send us some sample data. | 换动作：review the attached plan／confirm the time／reply by Friday | I'd appreciate it if you could review the attached plan.
+@swap: We need it so that Mike's team can start testing. | 换人和目的：Kevin／set up the accounts；Priya's team／check the results | We need it so that Kevin can set up the accounts.
+@swap: Do you have last month's order data by any chance? | 换东西：Raj's phone number／a list of your warehouses／an older version of the file | Do you have a list of your warehouses by any chance?
+@free: 你要请西雅图的测试工程师 Ana 在周三前帮忙测一个新页面。她不归你管，这是额外的工作。用最客气的句式提请求，再说明原因。 | Would it be possible to test the new tracking page by Wednesday? Priya wants to see it on Thursday's call, so we need to know it works.
+@free: 同事的邮件里写着 Please give me the files ASAP.，他请你帮忙改得礼貌一点（他其实周五下午见客户要用）。 | Could you send me the files by Friday noon? I need them for a client call that afternoon. If noon is too tight, end of day Thursday is fine, too.
+@free: 给 Priya 的邮件快写完了，你想顺便问一下她有没有一份 BrightNest 的仓库地址清单（有的话能帮你们配置测试账号）。 | Do you have a list of your warehouse addresses by any chance? It would help us set up the test account. No worries if not.
+@free: 张涛问你：Why did you write "if that works for you"? 用英文解释你的考虑。 | I wanted to give Priya some room. She's a client, so a firm order would sound pushy. If Friday doesn't work, she can suggest another day.
+@output: 录一段 2 分钟的会议发言：你刚当上一个项目的协调人，在内部碰头会上说明你需要的支持。① 一句话说你的角色和本周目标（My aim this week is…）② 向两个人提请求（一个同事、一个外部的人），每个请求都带日期和一句原因（so that… / because…）③ 给一点余地（If … is too tight, … works. / if that works for you）④ 委婉地多要一样（by any chance）⑤ 最后用一句话总结「谁、什么、哪天」。没有项目，就讲一件需要别人帮忙的事：办一场活动、搬家、做一份报告。
+@output_sample: Thanks, everyone. As you know, I'm now the coordinator for the BrightNest project, and my aim this week is simple: get everything ready for the kickoff call. I need help from two people. First, Mike. Would it be possible for your team to set up a dedicated test account by Thursday? BrightNest's data should arrive on Friday, and we'd like to load it right away, so that we can find problems before the kickoff. If Thursday is too tight, Friday morning works. I have some flexibility there. Second, Kevin. I'd appreciate it if you could give Leo access to the test environment. He'll check the data with me, so he needs to log in by Friday. On the client side, I've asked Priya for about five hundred sample orders. I also asked if she had last month's data by any chance, because real orders show real problems. Without real data, we could potentially lose a week, so I'll check in with her on Thursday if I haven't heard back. Karen Walker is the sponsor at BrightNest, so I'll keep her updated through Priya. So, to sum up the dates: the test account by Thursday, the data by Friday, and the kickoff next week. Let's aim for that, if that works for everyone. Any questions?
+
+@check: 听力：BrightNest 那边谁是项目的 sponsor？谁是主要的 stakeholders？Mike 那边有什么限制，林晓怎么回应？ | Karen Walker 是 sponsor；Priya 和 Raj 是主要相关方。Mike 说这个月没法再调配更多资源（can't allocate more resources）；林晓说不需要更多工程师，只要一个专用的测试账号（just one dedicated test account）。
+@check: 听力：林晓分别向 Mike 和 Priya 要什么、什么时候要？张涛对她的初稿提了哪两点意见？ | 向 Mike 要一个测试账号，周四前（太赶的话周五上午也行）；向 Priya 要样本数据，大约 500 个订单，最好是上个月的，争取周五。张涛的意见：ASAP 听起来像命令，要用日期体现紧迫性、说明理由；Thank you for your cooperation 听起来像银行里的告示。
+@check: 改错：① I'd appreciate if you could reply today. ② We need the data for start testing. ③ By the way, do you have Raj's email?（想委婉地问） | ① I'd appreciate it if you could reply today.（别丢 it）② We need the data so that we can start testing. ／ We need the data to start testing. ③ Do you have Raj's email by any chance?（by the way 是换话题，不表示委婉）
+@check: 换个场景：你请财务部的同事在周五前把一张发票的副本发给你（她没有义务马上做），因为你下周一要交给客户。写两句。 | Would it be possible to send me a copy of the invoice by Friday? I need to share it with the client on Monday.
+@check: 选句式并说理由：① 问熟悉的同事借个充电器 ② 请客户的 IT 负责人额外导出一份数据 ③ 请经理帮你看看一封邮件的措辞 | ① Can you lend me your charger?（熟人、小事）② Would it be possible to export…? ／ I'd appreciate it if you could export…（客户、额外的事）③ Could you check the wording of this email?（职场默认的礼貌）
+@check: 客户问 Is Friday OK for the data?——你周五、下周一都能接受，但周五最好。用 aim 和 flexibility 回答。 | Let's aim for Friday, but we have some flexibility. Monday morning works too.
+@next1: 不看书说出 5 个锚点句：S18、S24、S25、S27、S30
+@next1: 用 Would it be possible to… / I'd appreciate it if you could… / … by any chance? 各向同事或朋友提一个请求，带上日期和一句原因
+@next7: 请求四档：Can you… → Could you… → Would it be possible to… → I'd appreciate it if you could…，各说一句，并说出该对谁用
+@next7: 找一封自己写过的、带 ASAP 或「尽快」的邮件，改成「日期 + 原因 + 余地」
