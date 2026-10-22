@@ -1,0 +1,165 @@
+@day: 64
+@week: 1
+@title_cn: 这个归谁管
+@title_en: Who Handles This?
+@topic: 一封邮件三个问题：弄清「这个归谁管」，把对口的同事抄送进来，再答复客户
+@think_short: 「这个归谁管」Who handles this?｜「拉他进来」loop him in / cc him｜「回头答复你」get back to you｜被动说分工：Refunds are handled by finance.
+
+@goal_scene: 客户一封邮件问了三件归不同部门管的事：你要先礼貌地稳住对方，再弄清「这个归谁管」，把对口的同事抄送进同一个邮件串，最后告诉客户谁会处理什么，并请她有事继续直接找你。
+@goal_expr: Who handles invoices? / Do you deal with refunds? / Refunds are handled by the finance team. / I'll loop Kevin in. / I've cc'd my colleague… / Let me find the right person and get back to you. / Feel free to reach out to me directly.
+@goal_vocab: 20 个重点词 + 5 个短语：部门与分工、邮件操作（cc / forward / thread）、账单与发票、联系与回复
+@done: 能用 Who handles…? / Who should I talk to about…? 问分工，并用被动说出 3 个部门各管什么（… are handled by…）
+@done: 能用 I'll loop … in / I've cc'd … / Let me find the right person and get back to you 回复客户，不说 ✗ pull him in、✗ I'll answer you later
+@done: 能写一封 6–10 句的回复：谁会处理什么、什么时候处理，结尾请对方直接联系你
+
+@warmup: 订单一下好，快递面单就会自动生成。 | Once an order is placed, a shipping label is created automatically. | D63
+@warmup: 每到一个环节，你的顾客都会收到通知。 | Your customer is notified at every step. | D63
+@warmup: 订单已经发出了。 | The order has been shipped. | D63
+@warmup: 我的主要工作就是让他们满意。 | My main job is to keep them happy. | D61
+@warmup: 李凯和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+@warmup: Mike 是西雅图那边的工程师，他带领工程团队。 | Mike is an engineer in Seattle. He leads the engineering team. | D4
+
+@scene: 周四上午，Sarah 又来信了，一封邮件里塞了三个问题：要上个月的发票；有一笔购买被重复扣了款，想退款；她新来的助理一登录就报错。林晓是 Sarah 的对接人，可这三件事没有一件归她自己管。她先回了一句「我找一下对口的同事，回头答复你」，然后去请教最熟悉规则的吴佳：发票和退款归财务部，登录问题归 IT 的李凯，真正的系统故障才找西雅图的 Mike。吴佳还教了她一条规矩：别把卖家推给别的部门了事，要自己找到对的人，抄送进同一个邮件串，这件事从头到尾仍然由她负责。
+@sp: 人物关系 | 林晓 → Sarah：客户经理和老客户；林晓 ↔ 吴佳：同事之间请教，吴佳是公司的「活地图」，说话直接、热心
+@sp: 沟通目的 | 林晓：先稳住 Sarah，再弄清三个问题各归谁管，最后用一封邮件把相关同事拉进来，告诉 Sarah 谁会处理什么；吴佳：教林晓「谁管什么」和邮件里的分工规矩
+@sp: 已知信息 | 林晓知道自己是 Sarah 的对接人，但不清楚发票、退款、登录分别归谁；吴佳熟悉退款规则，但钱实际上由财务部来退
+@sp: 表达重点 | 先回一句（Let me find the right person and get back to you.）→ 问分工（Who handles…? / Do you deal with…?）→ 用被动说分工（Refunds are handled by…）→ 拉人进来（I'll loop … in / cc / one thread）→ 回复客户：谁会做什么 → 结尾（Feel free to reach out to me directly.）
+
+@story_title: Episode 64 · Three Questions, Three Teams
+@story_type: 邮件 + 对话
+@s: On Thursday, Sarah sends Lily one email with three questions. | 周四，Sarah 给林晓发来一封邮件，一口气问了三个问题。
+@s: Hi Lily, | 林晓，你好：
+@s: Could you send me an **invoice** for last month? | 能把上个月的发票发给我吗？
+@s: I was also charged twice for one **purchase**. Can I get a refund? | 另外，我有一笔购买被扣了两次款，能退款吗？
+@s: And my new assistant gets an error when she logs in. | 还有，我新来的助理一登录就报错。
+@s: Thanks, Sarah | 谢谢！Sarah
+@br:
+@s: Lily sends a quick reply first. | 林晓先简单回了一句。
+@s: Thanks, Sarah! Let me find **the right person** and **get back to you**. | 谢谢你，Sarah！我找一下对口的同事，再回复你。
+@s: Then she walks over to Grace's desk. | 然后她走到吴佳的工位前。
+@s: Lily: Grace, I need your help. Who handles invoices? | 林晓：吴佳，帮我个忙。发票归谁管？
+@s: Grace: The **finance** team. They do all the **billing**. | 吴佳：财务部。所有收费、开账单的事都归他们。
+@s: Lily: And refunds? Do you **deal with** those? | 林晓：那退款呢？是你处理吗？
+@s: Grace: I know the rules, but I don't pay them. Refunds are handled by the finance team. | 吴佳：规则我熟，可钱不是我退的。退款由财务部处理。
+@s: Lily: What about the login error? Is that a **technical** problem for Mike? | 林晓：那登录报错呢？算技术问题，要找 Mike 吗？
+@s: Grace: No, logins are Kevin's job. Usually, you go through the IT **helpdesk**. | 吴佳：不用，登录归李凯管。一般要走 IT 服务台。
+@s: Grace: But a seller shouldn't wait in a **queue**. Just **cc** him. | 吴佳：不过卖家不该在队列里干等，你直接抄送他就行。
+@s: Lily: OK. I'll **loop Kevin in**. Should I **forward** the email to finance, too? | 林晓：好，那我把李凯拉进来。邮件要不要也转给财务？
+@s: Grace: No. Keep it in one **thread**, and add the **relevant** people. | 吴佳：不用。都留在同一个邮件串里，把相关的人加进来就行。
+@s: Grace: You're still the **owner**. Sellers hate it when we **redirect** them. | 吴佳：这件事还是你负责到底。卖家最烦被我们推来推去。
+@s: Grace: Oh, and contracts go to **legal**, prices go to **sales**, and **marketing** does the newsletter. | 吴佳：对了，合同找法务，价格找销售，月刊归市场部。
+@br:
+@s: Lily writes to Sarah again. | 林晓又给 Sarah 写了一封邮件。
+@s: Hi Sarah, | Sarah，你好：
+@s: I've cc'd my **colleague** Kevin and our finance team. | 我抄送了我的同事李凯和我们的财务部。
+@s: Kevin will fix your assistant's login today. | 李凯今天会解决你助理的登录问题。
+@s: Our billing **specialist** will send the invoice and **inform** you about the refund. | 我们的账单专员会把发票发给你，并告诉你退款的进展。
+@s: Feel free to **reach out to** me **directly**. | 有任何问题，随时直接联系我。
+@s: Best, Lily | 祝好！林晓
+
+@v: invoice | = | n. | ˈɪnvɔɪs | 发票；（向客户开的）请款单、账单 | 收款、付款、对账、报销 | send an invoice；an invoice for…；pay an invoice | Please send the invoice to our finance team. | 请把发票发给我们的财务部。 | 中国的「发票」是税务凭证，美国的 invoice 主要是「请款单 / 账单」，写明买了什么、多少钱、什么时候付；付完钱拿到的是 receipt（第二册，小票、收据）；「开发票」说 send / issue an invoice，不说 ✗ open an invoice；重音在 in。
+@v: purchase | = | n. | ˈpɜːrtʃəs | 购买；（一笔）买的东西 | 邮件、账单、通知里正式地说「一笔购买」 | a purchase；make a purchase；your recent purchase | Thank you for your purchase! | 感谢您的购买！ | purchase 比 buy 正式，多见于邮件、账单和通知；也可以作动词：purchase a plan；chase 弱读成 `/tʃəs/`，整个词读 PUR-chis，不读「泼蔡斯」。
+@v: the right person | = | phr. | ðə ˌraɪt ˈpɜːrsn | 对口的人；该找的那个人 | 找负责某事的同事、把问题交给对口的人 | find the right person；the right person to ask；talk to the right person | Grace is the right person to ask about refund rules. | 退款规则的事，问吴佳就对了。 | 中文「对口的人」「管这事的人」都可以说 the right person；后面常接 to do 或 for：the right person for the job；不说 ✗ the correct person（correct 多指答案的对错）。
+@v: get back to you | get back to sb | phr. | ˌɡet ˈbæk tə juː | 回头答复你；（查清楚后）再联系你 | 暂时答不了，先承诺稍后回复 | get back to sb；get back to you on…；get back to you by Friday | Let me check with Tom and get back to you this afternoon. | 我跟张涛确认一下，下午回复你。 | 「回头答复你」不说 ✗ I'll answer you later（像在敷衍），也不说 ✗ I'll give you feedback later（feedback 是「评价、意见」）；最好加上时间：I'll get back to you by three.；单独的 get back 是「回来」：When do you get back?
+@v: finance | = | n. | ˈfaɪnæns | 财务；（公司的）财务部 | 说发票、付款、退款归谁管 | the finance team；talk to finance；work in finance | She works in finance. | 她在财务部工作。 | 公司里说部门常省掉 department：talk to finance / the finance team；美式也常读 `/fəˈnæns/`，两种都对；形容词是 financial（财务的）。
+@v: billing | = | n. | ˈbɪlɪŋ | 计费；开账单收费（这一块工作） | 服务费、账单出错、扣费问题 | billing questions；a billing error；the billing team | If you have a billing question, please email our finance team. | 有计费方面的问题，请发邮件给我们的财务部。 | bill 是「账单」，billing 是开账单、收钱这一整块工作；「重复扣费」可以说 a billing error，或直接说 I was charged twice.；美国餐厅「买单」说 the check，英式才说 the bill。
+@v: deal with | = | phr. | ˈdiːl wɪð | 处理；应付（问题、某类事、难缠的人） | 说某人负责处理哪类事情 | deal with a problem；deal with refunds；deal with difficult customers | Kevin deals with all login problems. | 所有登录问题都由李凯处理。 | 意思接近第一册的 handle，更口语；with 不能丢：✗ deal the problem；过去式 dealt `/delt/`；也常说「对付难缠的人」：I can't deal with him today.
+@v: technical | = | adj. | ˈteknɪkl | 技术的；技术性的 | 判断是不是技术问题、找技术同事 | a technical problem；technical support；technical skills | Our technical team will look into it. | 我们的技术团队会查一下。 | 「技术问题」说 a technical problem / issue，不说 ✗ a technology problem；口语常缩成 tech：tech support；ch 读 `/k/`，结尾 cal 只剩 `/kl/`。
+@v: helpdesk | = | n. | ˈhelpdesk | （公司内部的）IT 服务台；帮助台 | 电脑、账号、登录出问题时找 IT | the IT helpdesk；contact the helpdesk；a helpdesk ticket | If your laptop won't start, call the helpdesk. | 电脑开不了机，就打给 IT 服务台。 | 也写成两个词 help desk；它是一个求助渠道，不一定真有一张桌子；员工提交问题叫 open a helpdesk ticket；复合名词，重音在 help。
+@v: queue | = | n. | kjuː | （待处理的）队列；排队的队伍 | 工单、请求排着队等处理 | in the queue；a long queue；the helpdesk queue | There are thirty tickets in the queue right now. | 现在队列里有三十个待处理的工单。 | 在美国，日常「排队的队伍」说 line（wait in line），queue 更像英式；但在系统、客服、IT 里，美国人也说 queue：Your request is in the queue.；拼写很怪，后面四个字母都不发音，只读 `/kjuː/`，和字母 Q 同音。
+@v: cc | = | v./n. | ˌsiːˈsiː | 抄送 | 发邮件时让相关的人也收到、知情 | cc sb；cc sb on an email；in cc | Please cc me on your reply to Daniel. | 你回复 Daniel 的时候请抄送我。 | cc 原是 carbon copy（复写纸副本）的缩写，现在就是邮件的「抄送」；读两个字母 C-C；过去式写 cc'd 或 cc'ed，读 `/ˌsiːˈsiːd/`；「把某人抄送进某封邮件」用 on：cc him on the email；bcc 是「密送」，其他收件人看不到。
+@v: loop Kevin in | loop sb in | phr. | ˌluːp ˌkevɪn ˈɪn | 把（某人）拉进来；让（某人）也参与、知情 | 把同事加进邮件、会议、聊天群 | loop sb in；loop sb in on sth；keep sb in the loop | I'll loop Mike in on the next email. | 下一封邮件我把 Mike 拉进来。 | 「把他拉进来」不说 ✗ pull him in；人放在 loop 和 in 中间：✓ loop him in ✗ loop in him；相关说法 keep sb in the loop（让某人随时知道进展）；in 要重读。
+@v: forward | = | v. | ˈfɔːrwərd | 转发（邮件、消息） | 把收到的邮件转给别人 | forward an email；forward sth to sb；forward me sth | Could you forward me the seller's email? | 你能把那个卖家的邮件转给我吗？ | 「转发邮件」用 forward，不说 ✗ transfer the email（transfer 是转账、调岗、转接电话）；邮件标题里的 Fwd: 就是 forward；第二个音节弱读成 `/wərd/`。
+@v: thread | = | n. | θred | （同一主题的）邮件串；聊天里的一串回复 | 回复邮件、在群里讨论同一件事 | the same thread；an email thread；reply in the thread | Let's keep everything in one thread. | 我们把所有内容都留在一个邮件串里吧。 | 本义是「线」；邮件或聊天里一来一回的同一组消息叫 thread；「另起一封」说 start a new email；th 读 `/θ/`，舌尖在上下齿之间，紧接着发 r，不读「斯瑞德」。
+@v: relevant | = | adj. | ˈreləvənt | 相关的；有关系的 | 抄送相关的人、附上相关文件 | the relevant people；relevant information；relevant to… | Please attach all the relevant documents. | 请附上所有相关文件。 | 「相关的人」说 the relevant people，比 ✗ the related people 自然（related 多指事物之间有关联，或有亲戚关系）；反义词 irrelevant（不相关、跑题）；重音在第一个音节 REL-e-vant，别读成 re-LE-vant。
+@v: owner | = | n. | ˈoʊnər | （一件事的）负责人；所有者；（小店的）老板 | 说一件事由谁负责到底；店主 | the owner of the issue；a store owner；a business owner | Sarah is the owner of Pine & Pebble. | Sarah 是 Pine & Pebble 的老板。 | 名词 owner 来自 Day 61 的动词 own：You own it. → You're the owner.；小店的「老板」说 owner，公司里的「上司」是 boss / manager；w 不发音，读 `/ˈoʊnər/`。
+@v: redirect | = | v. | ˌriːdəˈrekt | 让（人）改去找别处；（网页）跳转 | 把客户推给别的部门；旧链接跳到新页面 | redirect sb to…；redirect a call；be redirected | The old link redirects you to our new website. | 旧链接会把你跳转到我们的新网站。 | 只回一句 Please contact finance. 就是把客户 redirect 走了，对方会觉得被推来推去；更好的做法是自己找对的人、loop them in；re 读 `/riː/`，重音在 rect。
+@v: legal | = | n./adj. | ˈliːɡl | 法务部；法律上的、合法的 | 合同、条款、法律问题找谁 | the legal team；legal advice；a legal problem | Send the contract to legal before you sign it. | 签合同之前先发给法务看看。 | 公司里说「法务部」常直接用 legal：talk to legal / ask legal；形容词 legal 是「合法的」，反义词 illegal（违法的）；e 读长音 `/iː/`。
+@v: sales | = | n. | seɪlz | 销售部；销售（额） | 价格、报价归谁管；销售业绩 | the sales team；work in sales；sales numbers | She works in sales. | 她做销售。 | 说部门、说「销售额」都用复数 sales：talk to sales / Sales went up.；单数 sale 是「一笔买卖；打折」：on sale（打折中）。
+@v: marketing | = | n. | ˈmɑːrkɪtɪŋ | 市场部；市场营销 | 推广、广告、官网、月刊归谁管 | the marketing team；a marketing email；work in marketing | Our marketing team writes a newsletter every month. | 我们的市场部每个月写一期月刊。 | 中文的「市场部」「推广」「营销」都可以是 marketing；它不可数，不说 ✗ a marketing；动词 market 是「推广、推销」；重音在 mar，美式 t 闪音。
+@v: colleague | = | n. | ˈkɑːliːɡ | 同事 | 邮件里、正式场合介绍同事 | my colleague；a colleague of mine；colleagues from IT | I'd like to introduce my colleague, Grace. | 我来介绍一下我的同事吴佳。 | 第一册学过 coworker，两个词都是「同事」：colleague 稍正式，写邮件、介绍别人时常用；coworker 更口语；读 `/ˈkɑːliːɡ/`，结尾 g 不读 /dʒ/。
+@v: specialist | = | n. | ˈspeʃəlɪst | 专员；专家 | 介绍负责某一块工作的同事 | a billing specialist；a technical specialist；a specialist in… | Our shipping specialist will call you this afternoon. | 我们的物流专员今天下午会给您打电话。 | 公司里的「某某专员」常说 … specialist：customer service specialist；比 expert 更像一个职位名称；重音在 spe，ci 读 `/ʃ/`。
+@v: inform | = | v. | ɪnˈfɔːrm | 通知；告知 | 正式告诉对方某事的进展或结果 | inform sb about / of sth；inform sb that…；keep sb informed | We'll inform you when the refund is complete. | 退款完成后我们会通知您。 | inform 后面直接接人：inform you about the refund，不说 ✗ inform to you；比 tell 正式；和 Day 63 的 notify 很像，notify 多指系统通知，inform 多是人来告知；keep me informed＝随时告诉我进展。
+@v: reach out to | = | phr. | ˌriːtʃ ˈaʊt tə | 联系（某人） | 邮件结尾；主动联系客户或同事 | reach out to sb；reach out to me；reach out with questions | I'll reach out to the carrier today. | 我今天就去联系承运商。 | 美国职场非常常用，比 contact 更随和、更有「主动」的味道；to 不能漏：✗ reach out me；有人觉得这个词被用滥了，偶尔换成 contact / get in touch with 也很好。
+@v: directly | = | adv. | dəˈrektli | 直接地 | 请对方直接联系你，不必绕弯 | contact sb directly；reply to sb directly；report directly to sb | You can call me directly on this number. | 你可以直接打这个号码找我。 | 中文「直接」放在动词前，英文 directly 多放在动词短语后面更自然：Contact me directly.；美式也读 `/daɪˈrektli/`，两种都对。
+
+@diff: 「这个归谁管？」——Who handles this? / Who should I talk to about…?
+@d_cn: 一件事不知道该找谁：发票找谁？退款谁负责？登录问题归哪个部门？
+@d_en: Who handles invoices? / Do you deal with refunds? / Who should I talk to about a login problem?
+@d_why: 中文「归谁管」「找谁」很灵活，直译容易出错：✗ Invoices belong to who?（belong to 是「属于」，说东西归谁所有）、✗ Who manages this invoice?（manage 是「管理」人或业务，用在一张发票上太重）。英文最自然的是 **Who handles…?**（第一册 D4 学过 handle），口语也说 **Who deals with…?**，或者从自己出发问 **Who should I talk to about…?**。别忘了第一册的老问题：**who 做主语时，动词按单数加 -s**：✓ Who handles…? ✗ Who handle…?。问对方本人就说 Do you deal with…? / Do you handle…?
+@d_when: 刚接手工作、遇到不熟悉的问题、准备把问题交给别的部门之前。
+@d_vs: ✓ **Who handles invoices?** 发票归谁管？\n✓ **Do you deal with refunds?** 退款是你处理吗？\n✓ **Who should I talk to about a login problem?** 登录问题该找谁？\n✗ Who handle invoices? ／ ✗ Invoices belong to who? ／ ✗ Who manages this invoice?
+@d_task: 你刚来，想问 Grace：「合同的事归谁管？改价格该找谁？」 | Who handles contracts? And who should I talk to about prices?
+@diff: 「我把他拉进来」——I'll loop him in. / I'll cc him.（不说 pull him in）
+@d_cn: 让相关的同事也加入邮件、聊天或会议，知道进展、一起处理。
+@d_en: I'll loop Kevin in. / Just cc him. / I've cc'd my colleague Kevin. / Keep it in one thread.
+@d_why: 中文说「拉进来」「拉进群」，直译成 ✗ pull him in 很怪——pull 是用力拉，pull sb into sth 还常指把人卷进麻烦。英文职场说 **loop sb in**（把人拉进这个圈子），人放在中间：loop him in ✗ loop in him；相关说法 **keep sb in the loop**（让他随时知道进展）。落到邮件上就是 **cc sb**（抄送），过去式写 cc'd，读 "see-seed"。吴佳的规矩也是美国职场的常识：**别另起新邮件，也别只是 forward 出去**，把相关的人 cc 进**同一个邮件串（thread）**，大家看到的是同一份信息；而这件事的 **owner** 仍然是你，不能把客户 redirect 给别人就不管了。
+@d_when: 客户的问题需要别的部门处理；会议或讨论需要某位同事知情。
+@d_vs: ✓ **I'll loop Kevin in.** 我把李凯拉进来。\n✓ **I've cc'd my colleague Kevin.** 我抄送了我的同事李凯。\n✓ **Let's keep Tom in the loop.** 让张涛随时知道进展。\n✗ I'll pull Kevin in. ／ ✗ I'll loop in him.
+@d_task: 告诉 Daniel：「我把我们的技术专员拉进来了，她会直接回复你。」 | I've looped in our technical specialist. She'll reply to you directly.
+@diff: 「我回头答复你」——I'll get back to you.（不说 I'll answer you later）
+@d_cn: 现在答不上来，要先查一查、问一问，过一会儿再回复对方。
+@d_en: Let me find the right person and get back to you. / I'll get back to you by three. / Let me check and get back to you.
+@d_why: 中文「我回头答复你」「晚点给你反馈」，学生常说成 ✗ I'll answer you later（听着像敷衍，或像课堂上回答提问），或 ✗ I'll give you feedback later（feedback 是第一册学的「评价、意见」，不是「回复」）。英文职场的固定说法是 **get back to sb**：查清楚以后再联系你。最好**加上时间**，对方才放心：I'll get back to you by three. / by tomorrow morning.。前面配上 Let me find the right person / Let me check，就是一句完整、专业的「先稳住对方」的话。另外 reply 后面要加 to：✓ reply to you ✗ reply you。
+@d_when: 客户或同事问了你一时答不上来的问题；需要别的部门确认时。
+@d_vs: ✓ **Let me find the right person and get back to you.** 我找一下对口的同事，再回复你。\n✓ **I'll get back to you by three.** 我三点前回复你。\n✓ **I'll reply to you later today.** 我今天晚些时候回复你。\n✗ I'll answer you later. ／ ✗ I'll give you feedback later. ／ ✗ I'll reply you later.
+@d_task: Priya 问你一个数据问题，你得先问 Mike。告诉她你今天五点前回复。 | Let me check with Mike and get back to you by five today.
+@diff: 用被动说分工——Refunds are handled by the finance team.
+@d_cn: 「退款归财务管」「登录问题是 IT 处理的」「合同找法务」。
+@d_en: Refunds are handled by the finance team. / Finance handles refunds. / Contracts go to legal.
+@d_why: 中文说分工，常把「事情」放在前面当话题：退款——财务管。英文也一样：话题是「退款」，就让 refunds 做主语，用被动 **are handled by…**；话题是「财务部」，才用主动 Finance handles refunds.。这里的 **by 不能省**——昨天（Day 63）学过，被动句只在「谁做的」是新信息时才加 by，而说分工时，「谁」恰恰就是对方要的答案。常见错误：漏掉 be（✗ Refunds handled by finance.——只能用在笔记或标题里），或者分词写错（✗ Refunds are handle by…）。说得随意一点，也可以用 go to：Contracts go to legal.
+@d_when: 给新人讲「谁管什么」；回复客户时说明哪个部门会处理。
+@d_vs: ✓ **Refunds are handled by the finance team.** 退款由财务部处理。（话题是退款）\n✓ **Finance handles refunds.** 财务部管退款。（话题是财务部）\n✓ **Contracts go to legal.** 合同找法务。（口语）\n✗ Refunds handled by finance. ／ ✗ Refunds are handle by finance.
+@d_task: 用被动说两句：「价格由销售部定；官网归市场部负责。」 | Prices are set by the sales team. Our website is handled by the marketing team.
+
+@core: Who handles …? / Who should I talk to about …? | 问「这事归谁管」 | invoices / refunds / login problems | 正式：Could you tell me who handles billing questions?｜随意：Who do I ask about refunds?
+@core: … are handled by … | 用被动说分工 | refunds → the finance team；logins → IT；contracts → legal | 正式：All billing questions are handled by our finance team.｜随意：Finance does refunds.
+@core: I'll loop … in. / I've cc'd … | 把同事拉进邮件或对话 | Kevin / the finance team / Mike | 正式：I've copied my colleague Kevin on this email.｜随意：Adding Kevin here.
+@core: Let me find the right person and get back to you. | 自己答不了，先稳住对方 | the right person / the answer；get back to you today / by Friday | 正式：Let me check with the relevant team and get back to you shortly.｜随意：Let me find out and get back to you.
+@core: I'll get back to you by … | 承诺回复的时间 | by three / tomorrow morning / on Monday | 正式：I'll get back to you by tomorrow morning at the latest.｜随意：I'll get back to you soon.
+@core: … deals with … | 说某人负责处理哪类事 | Kevin → logins；Grace → refund rules；Mike's team → system bugs | 正式：Our IT team deals with all account issues.｜随意：Kevin does logins.
+@core: Keep it in one thread and cc the relevant people. | 邮件礼仪：不另起新邮件 | one thread / the same email；the relevant people / everyone involved | 正式：Please reply in this thread and copy the relevant teams.｜随意：Just reply all and add Kevin.
+@core: Feel free to reach out to me directly. | 邮件结尾：有事直接找我 | me / Kevin / our team | 正式：Please contact me directly if you need anything else.｜随意：Just ping me anytime.
+
+@pw: invoice | ˈɪnvɔɪs | 2 个音节 IN·voice | 重音在前；voice 的 oi 读 `/ɔɪ/`，结尾 ce 读 /s/
+@pw: purchase | ˈpɜːrtʃəs | 2 个音节 PUR·chase | 重音在前，pur 卷舌；chase 弱读成 `/tʃəs/`，不读 /tʃeɪs/
+@pw: colleague | ˈkɑːliːɡ | 2 个音节 COL·league | 重音在前；league 读 `/liːɡ/`，结尾 g 不读 /dʒ/
+@pw: relevant | ˈreləvənt | 3 个音节 REL·e·vant | 重音在第一个音节；中间 e 弱读成 `/ə/`
+@pw: technical | ˈteknɪkl | 3 个音节 TECH·ni·cal | 重音在前；ch 读 `/k/`，cal 只剩 `/kl/`
+@pw: specialist | ˈspeʃəlɪst | 3 个音节 SPE·cial·ist | 重音在前；cial 读 `/ʃəl/`
+@pw: queue | kjuː | 1 个音节 QUEUE | 和字母 Q 同音；后面的 ueue 都不单独发音
+@ps: **Who** handles **in**voices? | 特殊疑问句降调；handles 的 -es 读 `/z/`——who 做主语，动词加 -s；invoices 重音在 in，ces 读 `/sɪz/`。
+@ps: **Re**funds are **han**dled / by the **fi**nance team. | refunds 作名词重音在前；are 弱读成 `/ər/`；handled by 之间 d 只做口型；finance team 是复合名词，重音在 fi。
+@ps: I'll **loop** Kevin **in**. | I'll 读 `/aɪl/`；短语动词里的小品词 in 要重读、读清楚，它决定了意思；Kevin 的 n 和 in 连在一起。
+@ps: Let me **find** the **right** person / and get **back** to you. | Let me 口语常连成 lemme；right person 的 t 不爆破；get back 的 t 也只做口型；to you 弱读成 `/tə jə/`。
+@pnote: 写 vs 说：邮件里写 cc、I've cc'd、Fwd:、FYI，嘴上要读出来：cc 读 "see-see"，cc'd 读 "see-seed"，Fwd: 读 forward，FYI 读三个字母 F-Y-I（for your information）。林晓给 Sarah 的第一句回复只有两句话——工作邮件里这种「先回一句，稳住对方」的短回复很常见，不必每封都写得很长。
+@pnote: 第三人称 -s 和被动句的 are（第一、二册的老问题）：Who **handles**…? 里 who 做主语，动词按单数加 -s；Kevin **deals** with logins.；Finance **handles** refunds.（finance 当成一个部门，用单数）。这些 -s 都读 `/z/`：handles `/ˈhændlz/`、deals `/diːlz/`。被动句 Refunds **are** handled… 里的 are 弱读成 `/ər/`，盲听时要靠 handled 和 by 来认出这是被动句。
+@lfocus: Who handles / Kevin deals with 里的第三人称 -s
+@lfocus: Refunds are handled by… 里弱读的 are
+@lfocus: 字母词的读法：cc / cc'd / FYI；短语动词 loop … in、get back to 的重音
+@dict: S12–S13
+@dict: S23–S26
+@res: 在 youglish.com 输入 "get back to you"，选 US，留意后面常跟的时间：by Friday、tomorrow、later today。
+
+@mimic: 跟读【C】S10–S20（林晓和吴佳的对话）：先逐句跟读，模仿 Who handles…? 的降调、loop Kevin in 的重音和 handles / deals 的 -s；再你演林晓、手机朗读吴佳的台词，正常语速对一遍并录音。最后合上书，只看「发票 / 退款 / 登录 / 合同 / 价格 / 月刊」六个词，用英文说出各归谁管。
+@swap: Who handles invoices? | 换事情：refunds / login problems / contracts | Who handles login problems?
+@swap: Refunds are handled by the finance team. | 换分工：logins → Kevin；contracts → the legal team；prices → the sales team | Contracts are handled by the legal team.
+@swap: I'll loop Kevin in. | 换人，再加上事情：Mike → on the bug；Grace → on the refund rules | I'll loop Mike in on the bug.
+@swap: Let me find the right person and get back to you. | 加上时间：by three / tomorrow morning / before Friday | Let me find the right person and get back to you by three.
+@free: Daniel 在电话里问能不能改合同里的一个条款（不归你管：合同由法务处理；你会把法务拉进邮件，明天上午答复他） | That's a question for our legal team. I'll loop them in by email and get back to you tomorrow morning.
+@free: Leo 问 A seller wants a better price. Who should I talk to?（先说结论：找销售；再说为什么别自己答应） | Talk to sales. Prices are handled by the sales team, so don't promise anything yourself. Just cc them on your reply.
+@free: 同事想把卖家的邮件转发给财务、另起一封新邮件（你建议别转发：留在原邮件串里，抄送财务就行） | Let's not forward it. Keep it in the same thread and cc finance, so the seller can see everything.
+@free: 客户在会上问了一个你不懂的技术问题（先说结论：你找对口的同事；再说什么时候回复） | I'm not the best person to answer that. Let me find the right person on our technical team and get back to you by tomorrow.
+@output: 写一封 6–10 句的工作邮件：一位客户在一封邮件里问了三个归不同部门管的问题（可以自己设定：发票、改地址、登录报错、改合同……）。第一句先回应并说结论（这三件事分别由谁处理），再用被动说分工（… is handled by…），说明你抄送了谁（I've cc'd / I've looped in），给出时间（get back to you by…），结尾请对方直接联系你。
+@output_sample: Hi Daniel, Thanks for your email. I've found the right person for each of your three questions. Your May invoice is handled by our finance team, so I've cc'd our billing specialist, Amy. She'll send it to you by Friday. The address change is something I can deal with myself, and it has already been updated. Your login error is a technical issue, so I've looped in my colleague Kevin from IT. He'll get back to you this afternoon. Let's keep everything in this thread so nobody misses anything. Feel free to reach out to me directly if you have any other questions. Best, Lily
+
+@check: 听力：Sarah 在邮件里问了哪三件事？ | 要上个月的发票；有一笔购买被扣了两次款，想退款；她新来的助理一登录就报错。
+@check: 听力：这三件事分别归谁管？吴佳为什么不让林晓把邮件转发出去？ | 发票和退款归财务部；登录问题归 IT 的李凯（不是 Mike）。吴佳要她留在同一个邮件串里、抄送相关的人，自己继续负责到底，因为卖家最烦被推来推去。
+@check: 改错：Who handle the refunds? I will pull Kevin in and answer you later. | Who handles the refunds? I'll loop Kevin in and get back to you (by three).——who 做主语动词加 -s；「拉进来」用 loop sb in；「回头答复」用 get back to you，最好加上时间。
+@check: 换个场景：Leo 问你 Do you handle the newsletter?（不是你：月刊由市场部负责；你可以在下一封邮件里把他拉进来） | No, I don't. The newsletter is handled by the marketing team, but I can loop you in on their next email.
+@check: 换个场景：客户问你一个你答不上来的问题，你想先稳住她（找对口的人，今天下午五点前回复） | Let me find the right person and get back to you by five this afternoon.
+@check: cc 和 forward 有什么区别？林晓这次为什么用 cc？ | cc 是在自己发出的邮件里抄送别人，客户和同事都在同一个邮件串里，看到的是同一份信息；forward 是把收到的邮件转给别人，客户看不到后面的沟通。林晓要同事直接和 Sarah 一起跟进，而她自己仍然是负责人，所以用 cc。
+@next1: 不看书说出 5 个锚点句：S8、S10、S13、S17、S26
+@next1: 用被动说出你们公司（或学校）三个部门各管什么：… are handled by…
+@next7: loop sb in / cc / forward / reach out to 各造一句工作中的句子
+@next7: get back to you 加时间（by three / tomorrow / on Monday），和 ✗ I'll answer you later、✗ I'll give you feedback later 对比着说

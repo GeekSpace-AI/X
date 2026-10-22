@@ -1,0 +1,168 @@
+@day: 73
+@week: 2
+@title_cn: 好问题，我查一下
+@title_en: Good Question — Let Me Check
+@topic: 月度会上被连续提问：说出大概的数字和范围、表明自己有多确定、答不上来时说「我查一下再回复」、太细的问题约到会后，会后用邮件补上答案
+@think_short: 不知道 ≠ I don't know 就停：I'm not sure off the top of my head. Let me check and get back to you.｜「大概」about / around / I'd say / a ballpark｜「我觉得」分确定程度：definitely / I believe / possibly / I doubt｜「会后再说」Can we take this offline?
+
+@goal_scene: 讲完数据后被经理和同事连续提问：知道大概时给出估计或范围，并说清自己有多确定；不知道时不慌、不瞎猜，承诺会后查清楚再回复；问题太细、太技术时，礼貌地约到会后单独谈——当天再用一封短邮件把答案补上。
+@goal_expr: That's a good question. / I'm not sure off the top of my head. / I'd say around three days. / Somewhere in the range of… / Let me figure out the exact number and get back to you. / I believe… / I doubt… / It's unlikely. / That's a fair question. Can we take this offline?
+@goal_vocab: 20 个重点词 + 5 个短语：确定程度（certain / likely / possibly / definitely…）、估算与范围、开会时回应问题的说法和态度
+@done: 被问到不知道的数字时，能按「That's a good question. → I'm not sure off the top of my head. → 给一个大概范围 → Let me … and get back to you.」回答，不说 ✗ I don't know. 就停
+@done: 能用 I'd say / around / in the range of 给出估计，用 definitely / I believe / possibly / I doubt / unlikely 说清自己有多确定
+@done: 能用 That's a fair question. Can we take this offline? 礼貌地把太细的问题约到会后，并在当天用 2–3 句邮件补上答案
+
+@warmup: 因为港口罢工，配送时间变长了。 | Delivery times went up due to the strike at the port. | D72
+@warmup: 节日让订单量一下子冲了上去。 | The holiday led to a spike in orders. | D72
+@warmup: 这对我们的客户有什么影响？ | How did this affect our customers? | D72
+@warmup: 我们上周创了历史新高。 | We hit a record high last week. | D69
+@warmup: 自从进了 SwiftLink，我每天都在练英语。 | I've been practicing English every day since I joined SwiftLink. | D34
+@warmup: 有位客户说包裹没到，她觉得是丢了。 | A customer says the package didn't arrive. She thinks it's lost. | D28
+
+@scene: 月底的月度会。林晓讲完了这个月的数据，其中一页专门讲 Daniel 的店：节日大促、港口罢工和暴风雨让他的配送平均慢了三天多（Day 72）。张涛和 Emma 在会议室，Mike 在西雅图视频连线。讲完以后是提问时间——这是林晓最怕的部分：有的数字她只知道个大概，有的她根本没算过，还有的问题牵扯到系统，三言两语说不清。张涛事先提醒过她：会上答不上来很正常，别瞎猜，说清楚你什么时候给答案。会后，她得把欠大家的数字补上。
+@sp: 人物关系 | 林晓 ↔ 张涛、Emma、Mike：月度会上，她是汇报人，其他人是听众；Mike 是工程经理，问题最技术，张涛最关心数据靠不靠得住
+@sp: 沟通目的 | 林晓要接住每一个问题：能答的给出估计和确定程度，不能答的承诺跟进，太细的约到会后；大家想知道问题有多严重、会不会再发生
+@sp: 已知信息 | 林晓知道包裹平均晚了三天多，但没算过受影响的包裹总数；她知道 Daniel 的仓库已经加了人手；她怀疑看板没及时提醒是系统设置的问题，但还没和 Mike 确认
+@sp: 表达重点 | That's a good question. → I'd say / a ballpark / in the range of → I'm not sure off the top of my head. → Let me figure out… and get back to you. → Possibly / I doubt / I believe / unlikely → That's a fair question. Can we take this offline? → 会后邮件补上准确数字和明细
+
+@story_title: Episode 73 · Any Questions?
+@story_type: 会议问答 + 会后邮件
+@s: At the monthly meeting, Lily finishes her slides and turns to her **audience**. | 月度会上，林晓讲完幻灯片，转向在座的同事。
+@s: Lily: Any questions? | 林晓：大家有什么问题吗？
+@s: Mike: Yes. How long were Daniel's packages delayed? | Mike：有。Daniel 的包裹延误了多久？
+@s: Lily: **I'd say** around three days. | 林晓：我估计大概三天。
+@s: Mike: And how many packages were affected? | Mike：那有多少包裹受到了影响？
+@s: Lily **pauses**. She doesn't know the exact number. | 林晓停顿了一下，她不知道确切的数字。
+@s: Lily: **That's a good question**. I'm not sure **off the top of my head**. | 林晓：问得好。我一下子说不准。
+@s: Tom: Can you give us a **ballpark**? | 张涛：能给个大概的数吗？
+@s: Lily: Somewhere in the **range** of a thousand to fifteen hundred. | 林晓：大概在一千到一千五之间。
+@s: Lily: Let me **figure out** the exact number and get back to you. | 林晓：我把确切数字查清楚，再回复大家。
+@br:
+@s: Emma: Is this **likely** to happen again? | Emma：这种情况还可能再发生吗？
+@s: Lily: **Possibly**. Nobody can control a strike. | 林晓：有可能。罢工谁也控制不了。
+@s: Lily: But I **doubt** we'll see a backlog this big again. His warehouse has more staff now. | 林晓：不过我觉得不太会再出现这么大的积压了，他的仓库现在加了人手。
+@s: Emma: **Perhaps** we should warn sellers earlier next time. | Emma：也许下次我们应该早点提醒卖家。
+@s: Mike: Agreed. Our dashboard should **spot** delays like this sooner. | Mike：同意。我们的看板应该更早发现这种延误。
+@s: Mike: So why didn't it? | Mike：那这次为什么没发现？
+@s: Lily: That's a **fair** question, and your **concern** is **valid**. | 林晓：问得在理，您的担心也很有道理。
+@s: Lily: But it's pretty technical. Can we **take this offline**? | 林晓：不过这个问题比较技术。我们会后再单独聊，好吗？
+@s: Mike: Sure. Let's talk tomorrow. | Mike：没问题，明天聊。
+@s: Tom: Last question. Are you **certain** the strike was the main cause? | 张涛：最后一个问题。你确定罢工是主要原因吗？
+@s: Lily: Fairly sure. I **believe** it explains most of the delay. | 林晓：比较确定。我认为大部分延误都是它造成的。
+@s: Lily: The data could be off by a small **margin**, but a big error is **unlikely**. | 林晓：数据可能有一点误差，但出大错的可能性不大。
+@br:
+@s: After the meeting, Tom stops by. | 会后，张涛过来找她。
+@s: Tom: Nice work. You didn't **hesitate** to **admit** you weren't sure. | 张涛：干得不错。你没有犹豫，直接承认自己不确定。
+@s: Tom: And you didn't guess. That's **definitely** the right move. | 张涛：而且你没有瞎猜。这样做绝对是对的。
+@s: That afternoon, Lily emails Mike and Tom: | 当天下午，林晓给 Mike 和张涛发了一封邮件：
+@s: Hi Mike and Tom, | Mike、张涛，你们好：
+@s: The exact number is 1,150 packages, and the average delay was 3.4 days. | 准确数字是 1,150 个包裹，平均延误 3.4 天。
+@s: I've attached a **breakdown** by week. | 我附上了按周拆分的明细。
+@s: Thanks, | 谢谢！
+@s: Lily | 林晓
+
+@v: audience | = | n. | ˈɔːdiəns | 听众；观众；（汇报、文章的）对象 | 做汇报、开会、写报告时想着谁在听 | the audience；a small audience；know your audience | Know your audience before you write a report. | 写报告之前，先想清楚是写给谁看的。 | audience 是集合名词，指「一群听众」，一屋子人不说 ✗ audiences；Know your audience.（了解你的听众）是汇报的第一条原则；au 读 `/ɔː/`，重音在前：AU-di-ence。
+@v: I'd say | = | phr. | aɪd ˈseɪ | 我估计；依我看（大概是） | 给出估计或个人判断，语气留有余地 | I'd say around…；I'd say about half；I'd say no | I'd say about twenty people came. | 我估计来了二十个人左右。 | I'd = I would，意思是「要我说的话」，比 I think 更像「估个数」；常和 around / about 连用：I'd say around three days.；不说 ✗ I say around three days.（像在报确切数字）。
+@v: pauses | pause | v. | ˈpɔːzɪz | 停顿；暂停一下 | 说话、汇报时停下来想一想 | pause for a second；pause and think；pause the video | She paused and looked at her notes. | 她停了一下，看了看笔记。 | 汇报时停两秒想一想很正常，比用 um、uh 填满沉默更显得自信；名词也是 pause：after a short pause；三单 pauses 读 `/ˈpɔːzɪz/`，比原形多一个音节。
+@v: That's a good question | that's a good question | phr. | ˌðæts ə ˌɡʊd ˈkwestʃən | 问得好；这个问题提得好 | 会上、面试时被提问，先接住问题、给自己几秒钟思考 | That's a good question.；That's a great question.；Good question. | That's a good question. Let me think about it for a second. | 问得好，让我想一下。 | 美国人很常用，一半是真心夸，一半是争取思考时间；但别每个问题都这么开头，否则像套话；说完一定要接真正的回答或「我查一下」，不能只说这一句。
+@v: off the top of my head | = | phr. | ˌɔːf ðə ˌtɑːp əv maɪ ˈhed | 不查资料、凭印象（马上说） | 被问到数字、细节，手边没有资料时 | off the top of my head；I'm not sure off the top of my head；I can't remember off the top of my head | Off the top of my head, I'd say about fifty orders. | 凭印象的话，我估计大概五十单。 | 中文「我一下子说不准」「凭记忆」就是它；放句首（Off the top of my head, …）表示「我随口估一下，不一定准」；放句尾配否定（I'm not sure off the top of my head.）表示「手边没有答案」；my 可以换成 your / his。
+@v: ballpark | = | n. | ˈbɔːlpɑːrk | 大概的数字；粗略估计 | 要或给一个大致范围 | a ballpark figure；give me a ballpark；in the ballpark | Can you give me a ballpark for the cost? | 成本你能给个大概的数吗？ | ballpark 原意是「棒球场」，引申为「大致的范围」，美式职场非常常用；a ballpark figure =「大概的数字」（figure 是 Day 68 学的「数字」）；只用于估数，正式报告里还是要给 exact number。
+@v: range | = | n. | reɪndʒ | 范围；区间 | 给出估计、报价、数据的上下限 | in the range of A to B；a price range；a wide range of… | The price is in the range of fifty to eighty dollars. | 价格在五十到八十美元之间。 | 「在……之间」除了 between A and B，还可以说 in the range of A to B，给估计时显得更专业；动词用法：Prices range from fifty to eighty dollars.；a wide range of… 是「各种各样的」。
+@v: figure out | = | phr. | ˌfɪɡjər ˈaʊt | 弄清楚；算出来；想明白 | 查数据、找原因、想办法 | figure out the number；figure out why；figure it out | I can't figure out why the page is so slow. | 我搞不明白这个页面为什么这么慢。 | 比 find out（第二册，打听到一个事实）多了「动脑子去算、去想」的意思；宾语是代词时放中间：figure it out，不说 ✗ figure out it；figure 美式读 `/ˈfɪɡjər/`，中间有个 y 音。
+@v: likely | = | adj. | ˈlaɪkli | 可能的；很可能发生的 | 说一件事发生的可能性 | be likely to…；It's likely that…；the most likely cause | It's likely to rain tomorrow. | 明天很可能下雨。 | 结构是 be likely to do 或 It's likely that…：✓ Is this likely to happen again? ✗ Is this likely happen again?；likely 表示可能性大，比 possible 更确定；反义词 unlikely。
+@v: Possibly | possibly | adv. | ˈpɑːsəbli | 有可能；也许 | 回答「会不会」，表示有可能但不确定 | Possibly.；could possibly…；Possibly not. | Will the meeting run late? — Possibly. | 会议会拖堂吗？——有可能。 | 单独回答时 Possibly. 比 Maybe. 正式一点；放在 could 后面让请求更客气：Could you possibly send it today?；possible（第一册）是形容词：It's possible.
+@v: doubt | = | v. | daʊt | 怀疑；觉得不太可能 | 委婉地说「我觉得不会」 | I doubt it.；I doubt (that)…；I doubt whether… | I doubt he'll come. He's very busy. | 我觉得他不会来，他很忙。 | 中文「我怀疑他病了」常是「我猜他病了」，英文 doubt 正好相反，是「不太相信」：I doubt he's sick. =「我不觉得他病了」；「我猜他病了」要说 I suspect he's sick.；b 不发音：`/daʊt/`。
+@v: Perhaps | perhaps | adv. | pərˈhæps | 也许；或许 | 委婉地提建议、表示不确定 | Perhaps we should…；perhaps not；perhaps it's… | Perhaps we should ask Grace first. | 也许我们应该先问问吴佳。 | 意思和 maybe（第一册）差不多，但更正式、更礼貌；开会提建议时 Perhaps we should… 比 You should… 柔和得多；重音在后：per-HAPS。
+@v: spot | = | v. | spɑːt | 发现；看出（问题、错误） | 发现数据异常、文件里的错误 | spot a mistake；spot a problem early；spot the difference | How did you spot that error? | 你是怎么发现那个错误的？ | spot 强调「一眼察觉到」，常接问题、错误、异常；名词 spot 是「地点、斑点」；过去式 spotted 双写 t；美式 o 读 `/ɑː/`。
+@v: fair | = | adj. | fer | 合理的；说得在理的；公平的 | 承认对方的问题或批评有道理 | a fair question；a fair point；That's fair. | That's a fair point. I'll change the date. | 你说得在理，我改一下日期。 | 会上被质疑时，先说 That's a fair question / a fair point. 承认对方有道理，再解释；口语 Fair enough. =「行，有道理」；fair 和 fare（车费，第二册）同音。
+@v: concern | = | n. | kənˈsɜːrn | 担心；顾虑 | 委婉地表达担心、回应别人的担心 | a valid concern；my main concern；raise a concern | My main concern is the deadline. | 我最担心的是截止日期。 | 开会说「我有个顾虑」用 I have a concern. / My concern is…，比 I'm worried…（第一册 worry）更职业；动词 concern 是「涉及；让人担心」；重音在后：con-CERN。
+@v: valid | = | adj. | ˈvælɪd | 有道理的；有根据的；（证件等）有效的 | 承认对方的观点、担心有根据；说证件、优惠券有效 | a valid concern；a valid point；a valid passport | Your passport is valid for ten years. | 你的护照有效期十年。 | That's a valid concern. =「你的担心有道理」，比 You're right. 更客观；证件、密码、优惠券「有效」也用 valid，反义词 invalid；重音在前：VAL-id，`/æ/` 嘴张大。
+@v: take this offline | = | phr. | ˌteɪk ðɪs ˌɔːfˈlaɪn | （这个话题）会后再单独谈 | 会上讨论太细、太技术，或只涉及两三个人时 | Can we take this offline?；Let's take it offline.；take the discussion offline | That's a big topic. Let's take it offline. | 这个话题太大了，我们会后单独聊。 | 这里的 offline 和网络无关，意思是「不在这个会上、会后小范围谈」；用问句 Can we…? 最礼貌，先肯定对方（That's a fair question.）再提出来；不说 ✗ Let's talk it later.
+@v: certain | = | adj. | ˈsɜːrtn | 确定的；有把握的 | 问别人有多确定、说自己有没有把握 | Are you certain?；I'm not certain；certain that… | Are you certain the order was shipped? | 你确定这个订单已经发出了吗？ | certain 和 sure 意思一样，稍正式一点；放在名词前意思变成「某些」：certain sellers（某些卖家）；tain 读 `/tn/`，几乎没有元音。
+@v: believe | = | v. | bɪˈliːv | 认为；相信 | 表达比较有把握、但不是百分之百的判断 | I believe (that)…；I believe so.；believe it or not | I believe the meeting starts at ten. | 我记得会议是十点开始。 | 汇报时 I believe… 比 I think… 听起来更有依据，又比 I'm sure… 留有余地；回答问题可以说 I believe so.（我想是的）；believe sb 是「相信某人说的话」，trust（第二册）是「信任某人」。
+@v: margin | = | n. | ˈmɑːrdʒɪn | 差额；（误差的）幅度；利润率 | 说数据误差、输赢差距、利润 | a small margin；margin of error；profit margin | We won the deal by a small margin. | 我们以微弱的优势拿下了这单生意。 | 数据「有一点误差」说 It could be off by a small margin. 或 There's a small margin of error.；profit margin 是「利润率」；页面的「页边距」也叫 margin；g 读 `/dʒ/`。
+@v: unlikely | = | adj. | ʌnˈlaɪkli | 不太可能的 | 委婉地说「应该不会」 | It's unlikely that…；be unlikely to…；highly unlikely | It's unlikely that the price will go down. | 价格不太可能降。 | 比 It won't happen. 或 impossible 更客观、更留余地，汇报时很常用；结构和 likely 一样：be unlikely to do / It's unlikely that…；不说 ✗ It's not likely possible.
+@v: hesitate | = | v. | ˈhezɪteɪt | 犹豫；迟疑 | 描述反应；邮件里鼓励对方有问题就问 | hesitate to…；Don't hesitate to…；without hesitating | Please don't hesitate to contact me. | 有任何问题请随时联系我。 | 邮件结尾的 Please don't hesitate to contact me. 很常见；后面接 to do：hesitate to ask；重音在前：HES-i-tate，s 读 `/z/`。
+@v: admit | = | v. | ədˈmɪt | 承认（尤其是不太好的事） | 承认错误、承认自己不知道 | admit a mistake；admit (that)…；I have to admit… | I have to admit, I forgot about the meeting. | 我得承认，我把那个会忘了。 | admit 后面接名词、that 从句或 -ing：admit making a mistake，不接 to do（✗ admit to make）；在美国职场，坦然承认不知道被看成专业，不算丢面子；重音在后：ad-MIT。
+@v: definitely | = | adv. | ˈdefɪnətli | 肯定；绝对 | 表示百分之百确定、强烈同意 | definitely the right move；Definitely!；definitely not | I'll definitely be there on Friday. | 周五我一定到。 | 单独回答 Definitely! =「当然！一定！」；拼写常错成 ✗ definately；放在 be 动词后、实义动词前：It's definitely…；I'll definitely…；重音在前：DEF-i-nite-ly。
+@v: breakdown | = | n. | ˈbreɪkdaʊn | （按类别的）细分；明细 | 把一个总数拆开看：按周、按地区、按卖家 | a breakdown by week；a cost breakdown；a detailed breakdown | Can you send me a breakdown by region? | 你能给我一份按地区拆分的明细吗？ | 总数是 total，「拆开的明细」是 breakdown：a breakdown by week / by seller；它也有「（机器）故障」「（精神）崩溃」的意思，看上下文；复合词，重音在前：BREAK-down。
+
+@diff: 答不上来——I'm not sure off the top of my head. Let me check and get back to you.
+@d_cn: 会上被问到一个答不上来的数字，中文可能说「这个我不太清楚」，或者干脆报一个差不多的数先应付过去。
+@d_en: That's a good question. I'm not sure off the top of my head. Let me figure out the exact number and get back to you.
+@d_why: 只说 ✗ I don't know. 就停，在美国会议上听起来像「这不归我管」或「我没准备」；瞎猜一个数更危险——别人会拿去用。专业的回答有四步：① **接住问题**：That's a good question.（给自己几秒钟）② **说明状态**：I'm not sure off the top of my head.（不是不知道，是手边没有）③ **给能给的**：一个估计或范围（Somewhere in the range of…）④ **承诺跟进**：Let me figure out the exact number and get back to you.——最好加上时间：by this afternoon / tomorrow morning。最要紧的是会后真的回复，林晓当天下午就发了邮件。张涛夸她的，正是 didn't hesitate to admit 和 didn't guess。
+@d_when: 会议、汇报、客户电话、面试里被问住时。
+@d_vs: ✓ **I'm not sure off the top of my head.** 我一下子说不准。\n✓ **Let me figure out the exact number and get back to you.** 我查清楚确切数字再回复您。\n✓ **I'll get back to you by this afternoon.** 今天下午之前给您答复。\n✗ I don't know.（说完就停）\n✗ Maybe two thousand?（瞎猜）
+@d_task: 经理在会上问你上个月有多少个新卖家注册，你不记得。用三句话回答。 | That's a good question. I'm not sure off the top of my head. Let me check and get back to you after the meeting.
+@diff: 「大概」——about / around / I'd say / a ballpark / in the range of
+@d_cn: 「大概三天」「一千多个吧」「估计在一千到一千五之间」。
+@d_en: I'd say around three days. / Can you give us a ballpark? / Somewhere in the range of a thousand to fifteen hundred.
+@d_why: 中文一个「大概」，英文按场合有好几种：数字前用 **about / around / roughly**（Day 68）；加上 **I'd say** 表示「这是我的估计」：I'd say around three days.；别人要一个粗略的数时说 **a ballpark**（Can you give us a ballpark?）；给区间用 **somewhere in the range of A to B** 或 between A and B。给区间比给一个「差不多」的数更诚实——林晓不知道确切数字，就给了 1,000–1,500，后来查出是 1,150，正好落在区间里。别叠用：✗ about around three days；「一千多」也别说成 ✗ one thousand more，要说 a little over a thousand。
+@d_when: 会上被问到你只知道大概的数字；估工期、估费用、估数量。
+@d_vs: ✓ **I'd say around three days.** 我估计大概三天。\n✓ **Roughly a third of our orders.** 大约三分之一的订单。\n✓ **Somewhere in the range of a thousand to fifteen hundred.** 大概在一千到一千五之间。\n✓ **Can you give us a ballpark?** 能给个大概的数吗？\n✗ About around three days. ✗ One thousand more.（想说「一千多」时）
+@d_task: 同事问你修好这个页面要多久，你估计两到三天。用两种说法回答。 | I'd say around two or three days. ／ Somewhere in the range of two to three days.
+@diff: 「我觉得」有多确定——definitely / I believe / possibly / I doubt
+@d_cn: 中文「我觉得」「应该是」「肯定是」，确定程度常靠语气，听的人自己去体会。
+@d_en: That's definitely the right move. / I believe it explains most of the delay. / Possibly. / I doubt we'll see a backlog this big again. / A big error is unlikely.
+@d_why: 汇报数据时，美国同事很在意你**有多确定**——他们要据此决定要不要行动。英文用词把确定程度直接说出来，可以排成一把尺子：**definitely / I'm certain**（百分之百）→ **I'm fairly sure / I believe / likely**（比较有把握）→ **I think / possibly / perhaps**（一半一半）→ **I doubt / unlikely**（不太可能）→ **definitely not**（不可能）。中国学习者常见两个问题：一是什么都说 I think，听不出把握有多大；二是把 doubt 用反——中文「我怀疑他病了」往往是「我猜他病了」，英文 I doubt he's sick. 却是「我不信他病了」，「我猜」要说 I suspect。
+@d_when: 回答「你确定吗？」「会不会再发生？」；在报告里写结论。
+@d_vs: **definitely / I'm certain** 百分之百：That's definitely the right move.\n**I'm fairly sure / I believe** 比较有把握：I believe it explains most of the delay.\n**possibly / perhaps** 有可能：Possibly. Nobody can control a strike.\n**I doubt / unlikely** 不太可能：I doubt we'll see a backlog this big again.\n✗ I doubt he's sick.（想说「我猜他病了」时）→ ✓ I suspect he's sick.
+@d_task: 经理问「新功能下周能准备好吗？」按你的把握回答：① 很有把握；② 不太可能。 | ① I'm fairly sure it will be ready. ／ ② I doubt it. It's unlikely to be ready by next week.
+@diff: 「会后再说」——Can we take this offline?
+@d_cn: 会上有人问得太细、太技术，或者只和一两个人有关，中文会说「这个我们会后再单独沟通」。
+@d_en: That's a fair question, and your concern is valid. But it's pretty technical. Can we take this offline?
+@d_why: 「会后再说」直译成 ✗ Let's talk it later. 不但语法不对，还像在回避问题。美国会议上的固定说法是 **Can we take this offline?**——offline 在这里和网络无关，意思是「不在这个大会上，会后找相关的人小范围谈」。为了不让对方觉得被打发，顺序很重要：先**肯定**（That's a fair question. / Your concern is valid.），再**给理由**（It's pretty technical. / It only affects our two teams.），最后**提议**并给时间（Can we take this offline? I'll call you tomorrow.）。用问句比 Let's take this offline. 更礼貌，对比你资深的人尤其如此。
+@d_when: 会上讨论跑题、太技术、太细，或者时间不够时。
+@d_vs: ✓ **That's a fair question. Can we take this offline?** 问得在理，我们会后单独聊，好吗？\n✓ **Let's take this offline and talk tomorrow.** 这个我们会后再谈，明天聊。（更直接）\n✗ Let's talk it later.\n✗ This question is not for this meeting.（太生硬）
+@d_task: 周会上同事问了一个很细的账单问题，只和你们两个团队有关，会议只剩五分钟。先肯定，再约到会后。 | That's a valid concern. It only affects our two teams, so can we take this offline? I'll message you after the meeting.
+
+@core: That's a good question. | 被提问时先接住问题，争取几秒钟 | good / great / fair | 正式：Thank you for the question.｜随意：Good question!
+@core: I'm not sure off the top of my head. | 坦白手边没有答案 | not sure / can't remember | 正式：I don't have that number with me right now.｜随意：No idea off the top of my head.
+@core: I'd say around … | 给出一个估计 | three days / half of them / two thousand | 正式：My estimate would be approximately three days.｜随意：Maybe three days?
+@core: Somewhere in the range of … to … | 给一个估计区间 | a thousand / fifteen hundred；two / three days | 正式：The figure is likely between one thousand and fifteen hundred.｜随意：A thousand-ish, maybe fifteen hundred.
+@core: Let me figure out … and get back to you. | 承诺会后查清楚再回复 | the exact number / the cause / who handles it | 正式：I'll look into this and get back to you this afternoon.｜随意：Let me check and get back to you.
+@core: I believe … / I doubt … / It's unlikely that … | 说出自己有多确定 | it explains most of the delay / we'll see this again / the data is wrong | 正式：I'm fairly confident that the strike was the main cause.｜随意：Pretty sure it was the strike.
+@core: That's a fair question. Can we take this offline? | 太细、太技术的问题约到会后 | a fair question / a valid concern / a good point | 正式：Could we discuss this after the meeting?｜随意：Let's chat about it after.
+
+@pw: definitely | ˈdefɪnətli | 4 个音节 DEF·i·nite·ly | 重音在前；中间两个音节很弱，快说时像 DEF-nit-ly
+@pw: hesitate | ˈhezɪteɪt | 3 个音节 HES·i·tate | 重音在前；s 读 `/z/`，不读 /s/
+@pw: audience | ˈɔːdiəns | 3 个音节 AU·di·ence | 重音在前；au 读 `/ɔː/`，嘴型拢圆
+@pw: certain | ˈsɜːrtn | 2 个音节 CER·tain | 重音在前，要卷舌；tain 是 t 直接接鼻音 `/tn/`，几乎没有元音
+@pw: doubt | daʊt | 1 个音节 | b 不发音，和 out 押韵
+@pw: valid | ˈvælɪd | 2 个音节 VAL·id | 重音在前，`/æ/` 嘴张大
+@pw: ballpark | ˈbɔːlpɑːrk | 2 个音节 BALL·park | 复合词，重音在前；ball 结尾是暗 l，舌尖抬到上齿龈
+@ps: **That's**‿a **good ques**tion. | That's a 连读成 tha-tsə；question 的 t 读 `/tʃ/`；降调，语气从容，不要像在惊讶。
+@ps: I'm not **sure** / off the **top**‿of my **head**. | off the top of 连成一串：of 弱读成 `/əv/`，top of 连成 TOP-əv；重音落在 sure、top、head 上。
+@ps: I'd say a**round** / **three** days. | I'd 很轻，d 和 say 挤在一起；around 重音在后；数字 three 要重读——听的人最关心的就是它。
+@ps: Let me **fig**ure‿**out** the ex**act num**ber / and get **back**‿to you. | Let me 常连成 lem-me；figure out 连成 FIG-yer-out；get back to you 里 to 弱读成 `/tə/`。
+@pnote: 数字：口头说 a thousand to fifteen hundred（1,000–1,500），fifteen 重音在 teen，和 fifty 分清；邮件里写 1,150 和 3.4，读出来是 one thousand one hundred fifty（口语也说 eleven fifty）和 three point four。美式读数字时，hundred 后面一般不加 and。
+@pnote: 弱读：How long were Daniel's packages delayed? / How many packages were affected? 是被动句，were 弱读成 `/wər/`，和前后的词连成一串，听漏了就只剩 packages delayed。Can we take this offline? 和 Nobody can control a strike. 里的 can 都弱读成 `/kən/`；如果是 can't，元音饱满 `/kænt/`。写 vs 说：嘴上说 I'd say、Let me check，邮件里写得更完整：The exact number is…；I've attached a breakdown by week.
+@lfocus: 被动句里弱读的 were：How long were … delayed? / How many packages were affected?
+@lfocus: off the top of my head、figure out、get back to you 里的连读和弱读
+@lfocus: 数字：fifteen hundred、one thousand one hundred fifty、three point four
+@dict: S7–S10
+@dict: S20–S22
+@res: 在 youglish.com 输入 "off the top of my head"，选 US，听美国人在什么情况下说这句话、说得有多快。
+
+@mimic: 跟读【C】S2–S25：先逐句跟读林晓的回答，模仿 That's a good question. 的从容语气、off the top of my head 的连读和 Can we take this offline? 的上扬语调；再你演林晓、手机朗读 Mike、Emma 和张涛的问题，正常语速完整对一遍并录音。最后遮住林晓的回答，只听问题，用自己的话一个个回答。
+@swap: I'd say around three days. | 换估计的内容：two weeks / half of our sellers / five hundred orders | I'd say around half of our sellers.
+@swap: I'm not sure off the top of my head. Let me figure out the exact number and get back to you. | 换要查的内容：the exact date / who handles it / why it happened | I'm not sure off the top of my head. Let me figure out why it happened and get back to you.
+@swap: I doubt we'll see a backlog this big again. | 换确定程度：I believe / It's unlikely that / I'm fairly sure | It's unlikely that we'll see a backlog this big again.
+@swap: That's a fair question. Can we take this offline? | 换肯定的说法和理由：a valid concern / it's pretty technical；a good point / we're short on time | That's a valid concern, but we're short on time. Can we take this offline?
+@free: 会上经理问你上个季度的退货率，你只记得大概 3% 左右（先给估计，再承诺查准确数字） | I'd say around three percent. I'm not sure off the top of my head, so let me check the exact number and get back to you this afternoon.
+@free: Mike 问你一个系统设置的细节，你完全不知道，会议只剩五分钟 | That's a good question, but I'm not sure. It's pretty technical, so can we take this offline? I'll message you after the meeting.
+@free: Emma 问这种延误下个月还会不会发生（你觉得不太可能：罢工已经结束，仓库也加了人手） | I doubt it. The strike is over, and the warehouse has more staff now, so it's unlikely to happen again soon.
+@free: 会后给经理补发答案（会上你没答上来的问题：上个月新注册的卖家数，现在查到是 46 个，附上按周的明细） | Here's the number you asked about this morning: we had 46 new sellers last month. I've attached a breakdown by week.
+@output: 录一段 1.5–2 分钟的「会议问答」：先用 2–3 句讲一个数据结论（可以用本课 Daniel 的数据，也可以用你自己的工作或学习），再自问自答三个问题：① 一个你只知道大概的数字（I'd say / a ballpark / in the range of）；② 一个你答不上来的问题（That's a good question… off the top of my head… get back to you）；③ 一个「会不会再发生」「你确定吗」的问题（I believe / I doubt / unlikely / definitely）。最后用 Can we take this offline? 处理一个太细的问题。
+@output_sample: Here's my main point: Daniel's deliveries were slow this month, but things are back on track. The average delivery time went up by about three days because of the holiday sale, the strike at the port, and some bad weather. Now, a few questions you might ask. First, how many packages were affected? That's a good question. I'm not sure off the top of my head, but I'd say somewhere in the range of a thousand to fifteen hundred. Let me figure out the exact number and get back to you this afternoon. Second, will this happen again? Possibly, because nobody can control a strike. But I doubt we'll see a backlog this big again. Daniel's warehouse has more staff now, so it's unlikely. Third, am I certain the strike was the main cause? I'm fairly sure. I believe it explains most of the delay. Our data could be off by a small margin, but the trend is very clear. And if you want to know why our dashboard didn't spot the delay sooner, that's a fair question, but it's pretty technical. Can we take this offline? I'll set up a call with Mike tomorrow.
+
+@check: 听力：Mike 问了哪两个关于 Daniel 包裹的问题？林晓分别怎么回答？ | ① 延误了多久——I'd say around three days.（大概三天）② 有多少包裹受了影响——她说一下子说不准，估计在一千到一千五之间，会后查清楚再回复。
+@check: 听力：会后林晓的邮件里给出了哪两个准确数字？还附上了什么？ | 受影响的包裹是 1,150 个，平均延误 3.4 天；她还附上了按周拆分的明细（a breakdown by week）。
+@check: 经理在会上问你一个数字，你只回答了 I don't know.。问题在哪？怎么说更好？ | 只说 I don't know. 就停，听起来像没准备或不负责。可以说：That's a good question. I'm not sure off the top of my head. Let me check and get back to you this afternoon.
+@check: 你想说「我怀疑他病了」（意思是「我猜他是病了」），说成 I doubt he's sick. 对吗？ | 不对。I doubt he's sick. 是「我不太相信他病了」。「我猜他病了」要说 I suspect he's sick. 或 I think he might be sick.
+@check: 换个场景：客户在电话里问新功能什么时候能用，你估计两到三周，但不能保证。用两三句回答。 | I'd say around two to three weeks, but I'm not certain yet. Let me check with our product team and get back to you by Friday.
+@check: 换个场景：部门会上，同事开始讨论一个只和你们两个人有关的细节，会议时间快到了。你怎么说？ | That's a fair point, and it's a valid concern. But it only affects the two of us, so can we take this offline? Let's talk after the meeting.
+@next1: 不看书说出 5 个锚点句：S4、S7（两句）、S10、S18
+@next1: 用「接住问题 → 说明状态 → 给区间 → 承诺跟进」四步，回答一个你答不上来的问题
+@next7: 确定程度的尺子：definitely / I'm fairly sure / I believe / possibly / I doubt / unlikely 各造一句关于你工作的句子
+@next7: 会议问答四句话：That's a good question. / I'd say around… / Let me figure out… and get back to you. / Can we take this offline?

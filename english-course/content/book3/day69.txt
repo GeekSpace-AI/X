@@ -1,0 +1,165 @@
+@day: 69
+@week: 2
+@title_cn: 涨了还是跌了
+@title_en: Up or Down?
+@topic: 看卖家的数据看板：说清涨了多少、涨到多少、和谁比、变化有多大，再给客户发一条简短的数据消息
+@think_short: 「涨了 15%」increase by｜「涨到一万二」increase to｜「下降」fall / drop / decline，「让它下降」reduce｜「大幅」sharply｜「同比」year over year｜「环比」month over month
+
+@goal_scene: 和卖家开数据会之前，先把她店铺的趋势说清楚：订单涨了多少、涨到多少、同比怎么样；退货率什么时候、因为什么大幅下降；哪些数据保持平稳、哪些上下波动；最后给卖家发一条先说结果、再说原因的数据消息，并在会前用 1.5–2 分钟向经理口头汇报。
+@goal_expr: Orders increased by fifteen percent. / They increased to twelve thousand. / Year over year, … / The return rate dropped sharply in March. / That reduced returns dramatically. / Delivery times have remained stable. / They fluctuate. / We hit a record high.
+@goal_vocab: 20 个重点词 + 5 个短语：上升和下降（rise / fall / drop / decline / jump / reduce / boost）、程度（sharply / dramatically / significantly）、平稳与波动（stable / remain / stay flat / fluctuate）、比较的基准（previous / period / year over year）、最高和最低
+@done: 能用 increase by（变化量）和 increase to（新数值）说清一个数据的变化，不再把 by 和 to 用反
+@done: 能用 drop / fall / decline 描述下降，用 reduce / boost 说「谁让它变了」，并配上 sharply / slightly / dramatically / significantly
+@done: 能用 year over year、from the previous month 说清和谁比，用 have remained stable / have stayed flat 说「一直没变」，并做一个 1.5–2 分钟的趋势汇报
+
+@warmup: 上个月我们发了一百二十万个包裹。 | We shipped one point two million packages last month. | D68
+@warmup: 平均每个包裹要 6.5 天。 | On average, a package takes six point five days. | D68
+@warmup: 准时率提高了两个百分点。 | The on-time rate went up by two percentage points. | D68
+@warmup: 所以你的意思是，格式不对。 | So what you're saying is the format is wrong. | D66
+@warmup: 94% 的包裹都准时送到了。 | Ninety-four percent of our packages arrived on time. | D22
+@warmup: 物价涨了，那个房间现在要两千！ | Prices have gone up. That room is two thousand now! | D36
+
+@scene: 林晓每个月要和大卖家 BrightNest 的运营经理 Priya Nair 开一次电话会。Priya 做事讲数据，林晓不想在电话里临时翻表格，于是提前一天，带着实习生 Leo 把 BrightNest 的数据看板过一遍：这个月的订单量比上个月涨了一截，退货率三月份大幅下降后一直很低，配送时效很稳，每周的订单却起伏很大。Leo 昨天刚练过读数字，一说趋势就把 by 和 to 用反；林晓一边纠正他，一边理清思路，最后在电话会之前先给 Priya 发了一条简短的数据消息。
+@sp: 人物关系 | 林晓 ↔ Leo：带新人的前辈和实习生，林晓边做边教；林晓 ↔ Priya：服务方和看重数据的大客户，消息要准、要短，先说好消息
+@sp: 沟通目的 | 把 BrightNest 的数据趋势说清楚：涨了多少、涨到多少、和谁比、为什么变；再给 Priya 发一条数据消息，为第二天的电话会做准备
+@sp: 已知信息 | 看板上：本月订单 12,000（比上个月多 15%，同比多 40%）；退货率三月从 9% 降到 5%，之后一直持平；配送时效稳定在 6.5 天左右；每周订单起伏大，最低在春节前后，最高在上周大促之后
+@sp: 表达重点 | 变化量用 by、新数值用 to → 下降用 drop / fall / decline，「谁让它降」用 reduce → 程度副词 sharply / dramatically / significantly → 没变用 remain stable / stay flat → 同比 year over year、环比 from the previous month → 消息先说结果，再说原因
+
+@story_title: Episode 69 · By or To?
+@story_type: 对话 + 消息
+@s: Lily has a monthly call with Priya Nair tomorrow. | 林晓明天要和 Priya Nair 开每月一次的电话会。
+@s: Priya loves data, so Lily goes through BrightNest's dashboard with Leo. | Priya 做事讲数据，所以林晓带着 Leo 把 BrightNest 的数据看板过了一遍。
+@br:
+@s: Leo: Orders went up a lot. They increased to fifteen percent, right? | Leo：订单涨了好多，涨到了 15%，对吧？
+@s: Lily: Not "to." Orders **increased by** fifteen percent this month. | 林晓：不是 to。这个月订单增长了 15%。
+@s: Lily: They **increased to** twelve thousand. "To" is the new number. | 林晓：增长到了一万二。to 后面接的是新的数值。
+@s: Leo: Got it. "By" is the change. | Leo：明白了，by 后面是变化了多少。
+@s: Lily: And **year over year**, orders are up forty percent. | 林晓：跟去年同期比，订单涨了 40%。
+@br:
+@s: Leo: What about returns? | Leo：那退货呢？
+@s: Lily: Look at this **trend**. The return rate **dropped** **sharply** in March. | 林晓：你看这个趋势。三月份退货率大幅下降。
+@s: Lily: It **fell** from nine percent to five percent. | 林晓：从 9% 降到了 5%。
+@s: Leo: Why? | Leo：为什么？
+@s: Lily: BrightNest added measurements to every product photo. That **reduced** returns **dramatically**. | 林晓：BrightNest 在每张商品图上都标了尺寸，退货一下子少了很多。
+@s: Lily: Since then, the rate has **stayed flat** at about five percent. | 林晓：从那以后，退货率一直稳定在 5% 左右。
+@s: Leo: And delivery? | Leo：那配送呢？
+@s: Lily: Delivery times have **remained** **stable**. They're still about six point five days. | 林晓：配送时效一直很稳定，还是 6.5 天左右。
+@s: Leo: But weekly orders go up and down a lot. | Leo：可是每周的订单量起伏很大。
+@s: Lily: Yes, they **fluctuate**. The **lowest** week was in February, around Chinese New Year. | 林晓：对，会有波动。最低的一周在二月，春节前后。
+@s: Lily: The **highest** was last week. Orders **jumped** after their big sale. | 林晓：最高的是上周，大促之后订单猛涨。
+@br:
+@s: Lily writes Priya a short message: | 林晓给 Priya 写了一条简短的消息：
+@s: Hi Priya, here's a quick look at your numbers before our call. | Priya 你好，电话会之前，先给你简单看一下数据。
+@s: Order **volume** **rose** 15% from the **previous** month, to 12,000. | 订单量比上个月增长了 15%，达到 12,000 单。
+@s: Compared with the same **period** last year, your return rate has **declined** **significantly**. | 和去年同期相比，你们的退货率明显下降。
+@s: Great **results**! The sale gave you a real **boost**. | 成绩很棒！这次大促给你们带来了实实在在的增长。
+@s: Priya replies five minutes later: | 五分钟后，Priya 回复了：
+@s: Thanks, Lily! We **hit a record high** last week. | 谢谢你，林晓！我们上周创了历史新高。
+@s: Can we talk about the next sale tomorrow? | 明天电话里能聊聊下一次大促吗？
+
+@v: increased by | increase by | phr. | ɪnˈkriːst baɪ | 增加了（多少） | 说变化的幅度 | increase by 15%；increase by half；go up by | Our team increased by five people this year. | 我们团队今年增加了五个人。 | by 后面是**变化量**，to 后面是**新数值**：✗ increased to fifteen percent（意思变成「增长到 15%」）；increase（D36）作动词时重音在后：in-CREASE。
+@v: increased to | increase to | phr. | ɪnˈkriːst tə | 增加到（多少） | 说变化之后的新数值 | increase to 12,000；increase from…to…；rise to | The price increased to forty dollars. | 价格涨到了 40 美元。 | to 后面是**结果**；可以和 from 连用：increased from 10,400 to 12,000；to 弱读成 `/tə/`，听的时候别和 two 混：increased to twelve thousand ≠ two twelve。
+@v: year over year | = | phr. | ˌjɪr ˌoʊvər ˈjɪr | 同比；和去年同期相比 | 月报、季报、财报 | Year over year, …；up 40% year over year；year-over-year growth | Year over year, sales are up twelve percent. | 销售额同比增长了 12%。 | 不说 ✗ same ratio；放在名词前作定语时加连字符：year-over-year growth；常缩写成 YoY；「环比」是 month over month 或 from the previous month。
+@v: trend | = | n. | trend | 趋势；走势 | 看图表、讲数据变化的方向 | a clear trend；an upward trend；the trend in… | There's a clear upward trend in orders. | 订单有明显的上升趋势。 | 数据的「趋势」说 trend，不说 ✗ tendency（tendency 多指人的倾向、习惯）；「上升 / 下降趋势」是 an upward / a downward trend；社交媒体上的「热门」是 trending。
+@v: dropped | drop | v. | drɑːpt | 下降；（突然）下跌 | 口头说数据快速下降 | drop sharply；drop to…；a drop in…（名词） | Sales dropped after the holiday. | 假期过后，销量下降了。 | drop 常暗示「快、突然」，和 sharply 是好搭档；数据下降时是不及物的：The rate dropped.（不说 ✗ was dropped）；名词：a sharp drop in returns；过去式双写 p，-ed 读 /t/。
+@v: sharply | = | adv. | ˈʃɑːrpli | 急剧地；大幅地 | 说上升或下降又快又陡 | drop sharply；rise sharply；fall sharply | Prices rose sharply last winter. | 去年冬天价格急剧上涨。 | 放在动词后面：dropped sharply；形容词是 sharp：a sharp drop；变化很小用 slightly（D54）；ar 要卷舌 `/ɑːr/`。
+@v: fell | fall | v. | fel | 下降；下跌 | 描述数据下降，最中性、最常用的说法 | fall from…to…；fall by…；fall below… | The temperature fell to minus five last night. | 昨晚气温降到了零下五度。 | 不规则动词：fall – fell – fallen，别写成 ✗ falled；不及物，主语是下降的东西；fell 和 felt（feel 的过去式）读音很像，听的时候注意结尾有没有 /t/。
+@v: reduced | reduce | v. | rɪˈduːst | 减少；降低（使……变少） | 说某个做法让数字下降 | reduce returns；reduce costs；reduce … by 20% | The new process reduced our costs by ten percent. | 新流程让我们的成本降低了 10%。 | reduce 是**及物**的：谁把什么减少了——The photos reduced returns.；不说 ✗ The return rate reduced.（要说 dropped / fell）；美式读 `/rɪˈduːs/`，u 读 `/uː/`。
+@v: dramatically | = | adv. | drəˈmætɪkli | 大幅地；（变化）惊人地 | 说变化非常大 | change dramatically；drop dramatically；improve dramatically | Our reply time improved dramatically after we hired two more people. | 多招了两个人以后，我们的回复速度大大提高了。 | 比 significantly 更强，带一点「惊人」的意味，汇报里别每句都用；形容词 dramatic：a dramatic change；-ically 读 `/ɪkli/`，a 不发音。
+@v: stayed flat | stay flat | phr. | ˌsteɪd ˈflæt | 保持平稳；没有涨跌 | 说数据一段时间里基本不变 | stay flat；remain flat；have stayed flat since… | Sales stayed flat in the second quarter. | 第二季度销售额基本持平。 | flat 是「平的」，像图上一条平线；「持平」不说 ✗ keep the same；has stayed flat since… 用完成时，说「从那时到现在一直」。
+@v: remained | remain | v. | rɪˈmeɪnd | 保持；仍然是 | 正式地说某个状态没有变 | remain stable；remain the same；remain open | The office will remain closed until Monday. | 办公室在周一之前一直关闭。 | remain 后面接形容词（remain stable），意思接近 stay，但更正式，适合报告；have remained 用完成时，说「到现在为止一直」；不说 ✗ remain stably。
+@v: stable | = | adj. | ˈsteɪbl | 稳定的 | 说数据、系统、价格没有大的波动 | stable prices；remain stable；a stable connection | The system has been stable since the update. | 更新以后，系统一直很稳定。 | stable 是形容词，跟在 remain / stay / be 后面；名词是 stability；口语也常说 steady（D54）；a 读 `/eɪ/`：STAY-bl。
+@v: fluctuate | = | v. | ˈflʌktʃueɪt | 波动；忽高忽低 | 说数据上下起伏 | fluctuate a lot；fluctuate between A and B；prices fluctuate | Exchange rates fluctuate every day. | 汇率每天都在波动。 | 「在 A 和 B 之间波动」说 fluctuate between A and B；不及物，不说 ✗ fluctuate the prices；口语更常说 go up and down；tu 读 `/tʃu/`：FLUK-choo-ate。
+@v: lowest | = | adj. | ˈloʊɪst | 最低的 | 说一段时间里的最低点 | the lowest week；the lowest point；at its lowest | February was our lowest month. | 二月是我们业绩最低的一个月。 | 最高级前面要有 the（或 our、its 这类词）：the lowest week；数据「降到最低点」说 hit its lowest point；ow 读 `/oʊ/`。
+@v: highest | = | adj. | ˈhaɪɪst | 最高的 | 说一段时间里的最高点 | the highest week；the highest level；the highest ever | This is the highest price we've ever paid. | 这是我们付过的最高价格。 | 最高级前面用 the；「有史以来最高」说 the highest ever 或 a record high；gh 不发音：HIGH-ist。
+@v: jumped | jump | v. | dʒʌmpt | 猛涨；跳升 | 说数据突然大幅上升 | jump to…；jump by…；a jump in…（名词） | Website visits jumped after the ad. | 广告一出，网站访问量猛增。 | jump 是口语、生动的说法，强调「突然」；正式报告里可以换成 rose sharply；-ed 读 /t/。
+@v: volume | = | n. | ˈvɑːljuːm | 量；（业务）总量 | 说订单量、包裹量、来电量 | order volume；shipping volume；high volume | Our call volume doubles every November. | 每年十一月我们的来电量都会翻一番。 | 「订单量」说 order volume，不说 ✗ order amount（amount 多指金额）；volume 还是「音量」：turn up the volume；美式读 `/ˈvɑːljuːm/`。
+@v: rose | rise | v. | roʊz | 上升；上涨 | 描述数据上升，比 go up 正式 | rise by…；rise to…；a rise in…（名词） | The number of sellers rose to two hundred. | 卖家数量上升到了两百个。 | 不规则动词：rise – rose – risen；不及物：Prices rose.；别和 raise（D59 加薪；及物「提高」）混：We raised prices.（我们提价了）；rose 也是「玫瑰」。
+@v: previous | = | adj. | ˈpriːviəs | 之前的；上一个 | 和上一个时期、上一个版本比 | the previous month；the previous version；previous experience | Compared with the previous year, our costs went down. | 和前一年相比，我们的成本下降了。 | the previous month 指「（某个时间点的）前一个月」，在报告里比 last month 更清楚；不说 ✗ the before month；重音在前：PRE-vi-ous。
+@v: period | = | n. | ˈpɪriəd | （一段）时期；期间 | 比较两段时间的数据 | the same period last year；a short period；over a period of… | Sales were low during the holiday period. | 节假日期间销量很低。 | 「去年同期」说 the same period last year；period 在美式英语里也是「句号」；重音在前：PE-ri-od。
+@v: declined | decline | v. | dɪˈklaɪnd | 下降；减少（较正式，多指逐渐地） | 报告里描述持续下降 | decline significantly；decline by…；a decline in…（名词） | Complaints have declined over the past three months. | 过去三个月，投诉一直在减少。 | decline 比 fall、drop 正式；数据下降是不及物的，不说 ✗ was declined；decline 还有「婉拒」的意思：decline an invitation。
+@v: significantly | = | adv. | sɪɡˈnɪfɪkəntli | 明显地；显著地 | 报告里说变化够大、值得注意 | decline significantly；significantly lower；significantly better | Our costs are significantly lower this year. | 我们今年的成本明显降低了。 | 报告里最稳妥的程度副词，还能修饰比较级：significantly lower；在数据分析里 significant 有时暗示「有统计意义」，没把握时也可以说 noticeably；5 个音节，重音在 nif。
+@v: results | result | n. | rɪˈzʌlts | （业务）成绩；结果 | 说数据、工作带来的结果 | great results；the results of…；get results | The results of the test will be ready on Friday. | 测试结果周五出来。 | 「成绩很好」说 great results，常用复数；「因此」as a result 是 D72 的短语；s 读 /z/：re-ZULT。
+@v: boost | = | n./v. | buːst | 推动；提升 | 说某件事让数字上升 | give sb a boost；a boost in sales；boost sales（动词） | The holiday gave our sales a big boost. | 节日给我们的销售带来了很大的提升。 | boost 有「助推一把」的感觉；作动词是及物的：The sale boosted orders.（不说 ✗ Orders boosted.）；oo 读长音 `/uː/`。
+@v: hit a record high | = | phr. | ˌhɪt ə ˌrekərd ˈhaɪ | 创历史新高 | 说某个数字达到有记录以来的最高 | hit a record high；hit a record low；a new record | Online orders hit a record high on Singles' Day. | 双十一当天，线上订单创了历史新高。 | record（D28）在这里是「纪录」，名词重音在前：REC-ord；「创新高」不说 ✗ create a new high；反义是 hit a record low；hit 的过去式不变：We hit a record high last week.
+
+@diff: increase by（增加了多少）vs increase to（增加到多少）
+@d_cn: 订单增长了 15%，增长到了一万二。
+@d_en: Orders increased by fifteen percent this month. / They increased to twelve thousand. / Orders increased from 10,400 to 12,000.
+@d_why: 中文靠「了」和「到」区分：「增长了 15%」说变化的幅度，「增长到一万二」说新的数值。英文靠介词：**by + 变化量**，**to + 新数值**，**from + 原来的数值**，三个可以连用：Orders increased **from** 10,400 **to** 12,000, or **by** fifteen percent. Leo 说 ✗ They increased to fifteen percent，意思就成了「增长到了 15%」，好像订单量本身是个百分比。下降也一样：fell **by** four points / fell **to** five percent。名词用法：an increase **of** fifteen percent（增幅）/ an increase **in** orders（哪方面增加）。口语里 by 有时会省掉（Orders increased fifteen percent），但 to 绝不能乱用。increase 作动词重音在后 in-CREASE，作名词重音在前 IN-crease。
+@d_when: 汇报数据变化、写周报月报、讲图表时。
+@d_vs: ✓ **Orders increased by fifteen percent.** 订单增长了 15%。\n✓ **They increased to twelve thousand.** 增长到了一万二。\n✓ **Orders increased from 10,400 to 12,000.**\n✓ **an increase of fifteen percent / an increase in orders**\n✗ Orders increased to fifteen percent.（变成了「增长到 15%」）
+@d_task: 用两句话说：退货率从 9% 降到 5%，降了 4 个百分点。 | The return rate fell from nine percent to five percent. It fell by four percentage points.
+@diff: 「下降」——fall / drop / decline，「让它下降」reduce
+@d_cn: 订单下降、退货率下降、成本降低……中文一个「下降」「降低」就够了。
+@d_en: The return rate dropped sharply in March. / It fell from nine to five percent. / Your return rate has declined significantly. / That reduced returns dramatically.
+@d_why: 英文有好几个词，区别在语气和速度：**fall**（fell, fallen）最中性、最常用，后面常接 from…to…；**drop** 口语常用，常暗示**快、突然**，和 sharply 是好搭档；**decline** 比较正式，多用在报告里，常指**逐渐、持续**地下降。这三个说数据时都是**不及物**的：主语是「下降的东西」——The return rate dropped.。要说「**某人 / 某事让它下降**」，用及物动词 **reduce**：The photos **reduced** returns.，不说 ✗ The return rate reduced.。上升也分两类：**rise / go up / increase / jump**（自己涨）vs **boost / raise**（让它涨）。rise 和 raise 最容易混：The rate **rose**.（自己升）／ We **raised** prices.（我们提价；raise 也是 D59 的「加薪」）。口头汇报时，第二册学过的 go up / go down（D36）仍然最常用。
+@d_when: 报告和消息用 decline / fall，口头汇报用 drop / go down；说原因和措施用 reduce / boost。
+@d_vs: **The return rate dropped sharply.** 退货率骤降。（快）\n**It fell from nine to five percent.** 从 9% 降到 5%。（中性）\n**Complaints have declined steadily.** 投诉在逐步减少。（正式、渐进）\n**The photos reduced returns.** 图片让退货减少了。（及物：谁让它降）\n✗ The return rate reduced. / ✗ Orders were risen.
+@d_task: 说两句话：① 过去三个月投诉逐渐减少（正式）② 新的尺码表让退货大大减少。 | ① Complaints have declined over the past three months. ② The new size chart reduced returns dramatically.
+@diff: 程度副词——sharply / slightly / dramatically / significantly
+@d_cn: 「大幅下降」「略有上升」「显著减少」「猛涨」。
+@d_en: The return rate dropped sharply. / That reduced returns dramatically. / Your return rate has declined significantly. / Orders rose slightly.
+@d_why: 中文把程度放在动词前：「大幅下降」；英文的程度副词一般放在**动词后面**：dropped **sharply**、rose **slightly**（D54）。几个常用词：**sharply** 快而陡，像图上一条很陡的线；**dramatically** 变化非常大，带一点「惊人」的感觉，别滥用；**significantly**「明显、显著」，报告里最稳妥；**slightly**「略微」。中国学习者常说 ✗ increased very much / ✗ decreased a lot of，或把形容词当副词用：✗ dropped sharp。记住两套结构：**动词 + 副词**（dropped sharply）和**形容词 + 名词**（a sharp drop），意思一样，第二种在报告里很常见：There was a sharp drop in returns in March.
+@d_when: 描述图表和趋势：口头汇报、周报、给客户的数据消息。
+@d_vs: **dropped sharply = a sharp drop** 骤降\n**rose slightly = a slight rise** 小幅上升\n**declined significantly = a significant decline** 明显下降\n**changed dramatically = a dramatic change** 巨大变化\n✗ increased very much / ✗ dropped sharp
+@d_task: 把「动词 + 副词」改成「形容词 + 名词」：① Orders rose slightly in May. ② The return rate dropped sharply in March. | ① There was a slight rise in orders in May. ② There was a sharp drop in the return rate in March.
+@diff: 「同比」year over year；「环比」month over month
+@d_cn: 订单同比增长 40%，环比增长 15%。
+@d_en: Year over year, orders are up forty percent. / Order volume rose 15% from the previous month. / Month over month, orders are up fifteen percent.
+@d_why: 中文财经报道里「同比」「环比」用得很多，学生常直译成 ✗ same ratio / ✗ ring ratio，美国人完全听不懂。**同比**＝和去年同一时期比：**year over year**（缩写 YoY），或说 compared with the same period last year；**环比**＝和上一个时期比：**month over month**（MoM）、week over week，或者用大白话 from the previous month / compared with last month。year over year 可以放句首当副词（Year over year, orders are up 40%.），放在名词前要加连字符：year-over-year growth。一个数字最好说清楚**和谁比**：Orders rose 15% from the previous month and 40% year over year.——只说 Orders rose 15%，Priya 这样讲数据的客户马上会追问：Compared with what?
+@d_when: 月报、季报、和卖家聊数据；读美国公司的财报新闻。
+@d_vs: **同比：year over year (YoY) = compared with the same period last year**\n**环比：month over month (MoM) = from the previous month**\n✓ **Year over year, orders are up forty percent.**\n✓ **year-over-year growth**（作定语，加连字符）\n✗ same ratio / ✗ ring ratio
+@d_task: 用英文说：「这个月退货率环比下降了 1 个百分点，同比下降了 5 个百分点。」 | The return rate fell by one percentage point from the previous month and by five percentage points year over year.
+
+@core: … increased by + 变化量 | 说变化的幅度 | fifteen percent / two thousand orders / half | 正式：Orders rose by 15 percent compared with the previous month.｜随意：Orders are up fifteen percent.
+@core: … increased to + 新数值 | 说变化后的新数值 | twelve thousand / five percent / two hundred sellers | 正式：Order volume increased from 10,400 to 12,000.｜随意：We're at twelve thousand now.
+@core: Year over year, … | 和去年同期比 | orders are up forty percent / returns are down five points | 正式：Compared with the same period last year, orders rose 40 percent.｜随意：We're up forty percent from last year.
+@core: … dropped sharply / rose slightly | 说变化的方向和程度 | dropped sharply / fell slightly / declined significantly | 正式：There was a sharp decline in the return rate.｜随意：Returns went way down.
+@core: … have remained stable. / … has stayed flat. | 说数据一直没变 | delivery times / prices / the return rate | 正式：Delivery times have remained stable at about 6.5 days.｜随意：Delivery's about the same.
+@core: … fluctuate between A and B. | 说数据忽高忽低 | weekly orders / prices；between 2,000 and 3,400 | 正式：Weekly orders fluctuate between 2,000 and 3,400.｜随意：Weekly orders go up and down a lot.
+@core: X reduced / boosted Y. | 说某个做法带来了什么变化 | the photos reduced returns / the sale boosted orders | 正式：The new product photos reduced returns significantly.｜随意：The sale really helped.
+@core: We hit a record high. | 宣布创了新高 | last week / in March；a record high / a record low | 正式：Weekly orders reached a record high of 3,400.｜随意：Best week ever!
+
+@pw: increase | ɪnˈkriːs / ˈɪnkriːs | in·CREASE（动词）/ IN·crease（名词） | 动词重音在后，名词重音在前：Orders in-CREASED. / an IN-crease of 15%
+@pw: fluctuate | ˈflʌktʃueɪt | 3 个音节 FLUC·tu·ate | 重音在前；tu 读 `/tʃu/`；ate 读 `/eɪt/`
+@pw: dramatically | drəˈmætɪkli | 4 个音节 dra·MAT·i·cally | 重音在 mat，`/æ/` 嘴张大；t 闪音；结尾 -ically 读 `/ɪkli/`，a 不发音
+@pw: significantly | sɪɡˈnɪfɪkəntli | 5 个音节 sig·NIF·i·cant·ly | 重音在 nif；cant 弱读成 `/kənt/`
+@pw: previous | ˈpriːviəs | 3 个音节 PRE·vi·ous | 重音在前，`/iː/` 拉长；ous 读 `/əs/`
+@pw: volume | ˈvɑːljuːm | 2 个音节 VOL·ume | 重音在前；o 读 `/ɑː/`，不读 /oʊ/；ume 读 `/juːm/`
+@pw: period | ˈpɪriəd | 3 个音节 PE·ri·od | 重音在前；e 读 `/ɪ/`，不读 /e/
+@ps: **Or**ders in**creased** by **fif**teen per**cent** / this **month**. | increased 的 -ed 读轻轻的 /t/；fifteen 的重音其实在 teen 上（fif-TEEN），在 percent 前面会移到 fif，但 teen 仍要读长、读清楚，别和 fifty 混；by 读得轻而快。
+@ps: They in**creased** to **twelve** **thou**sand. | to 弱读成 `/tə/`，和 increased 连成 in-cree-stə；重音落在数字上。
+@ps: The re**turn** rate / **dropped** **sharp**ly in **March**. | return rate 是复合名词，重音在 return 上，rate 轻读；dropped 的 /t/ 碰到 sharply 的 sh，只做口型不爆破。
+@ps: De**liv**ery times / have re**mained** **sta**ble. | have 弱读成 `/əv/`，几乎听不见——times 后面有一个轻轻的 /v/，就是现在完成时；remained 的 -ed 读 /d/。
+@pnote: 本课最重要的弱读是 have / has：Delivery times **have** remained stable 里的 have 只剩 `/əv/`，the rate **has** stayed flat 里的 has 只剩 `/əz/`。这一个轻音决定了意思：有 have / has，说的是「从过去到现在一直」；没有，就是过去某个时候的事。和第二册 D36 一样：Prices **have** gone up.（现在更贵）vs Prices **went** up last year.（去年涨过）。听写 S13 和 S15 时特别留意。
+@pnote: 数字和趋势一起听：fifteen / fifty 靠 teen 的长音区分；increased to twelve thousand 的 to 弱读成 `/tə/`，别听成 two；12,000 读 twelve thousand（中文「一万二」要先换算成「十二个千」）；year over year 说得很快，像 year-ver-year。写的时候 15% 读 fifteen percent，YoY 读出来是完整的 year over year。
+@lfocus: have / has 的弱读：have remained、has stayed
+@lfocus: fifteen 和 fifty 的区别
+@lfocus: by 后面是变化量，to 后面是新数值
+@dict: S3–S5
+@dict: S12–S15
+@res: 在 youglish.com 输入 "year over year"，选 US
+
+@mimic: 跟读【C】S3–S18（林晓和 Leo 的对话）：先逐句跟读，注意 increased by / increased to 后面的数字要重读，have remained、has stayed 里的 have / has 要轻；再由你演林晓、手机朗读 Leo 的台词，正常语速完整对一遍并录音。最后读一遍 S20–S26 的两条消息，然后合上书，用 4 句话说出 BrightNest 的四个趋势：订单、退货、配送、每周波动。
+@swap: Orders increased by fifteen percent this month. | 换主语和幅度：complaints / returns；decreased by ten percent / went up by five percent | Complaints decreased by ten percent this month.
+@swap: They increased to twelve thousand. | 换新数值：fifteen thousand / two hundred sellers / five percent（说退货率时） | They increased to fifteen thousand.
+@swap: The return rate dropped sharply in March. | 换动词和程度：fell slightly / rose sharply / declined significantly；in May / last quarter | The return rate rose slightly in May.
+@swap: Delivery times have remained stable. | 换主语和说法：prices / our costs / the on-time rate；have stayed flat | Our costs have stayed flat this year.
+@free: 张涛问 Daniel 的 Ross Kicks 这个月怎么样（订单从 3,000 涨到 3,600） | Ross Kicks had a good month. Orders increased by twenty percent, from three thousand to thirty-six hundred.
+@free: Priya 问为什么她店里的退货变少了（三月份商品图加了尺寸，退货率大幅下降，之后一直持平） | The measurements in your product photos really helped. Your return rate dropped sharply in March, and it has stayed flat since then.
+@free: Leo 说 "Our costs reduced a lot."，你纠正他（先说正确说法，再说为什么） | Say "Our costs went down a lot," or "We reduced our costs." Reduce needs an object, so costs can't reduce by themselves.
+@free: 卖家问她这个月的数据和去年比怎么样（订单同比增长 25%，退货率持平） | Year over year, your orders are up twenty-five percent. Your return rate has stayed flat, so the growth looks healthy.
+@output: 录一段 1.5–2 分钟的口头汇报：「向经理汇报一个客户（或你自己负责的一项数据）这个月的趋势」。先用一句话说整体情况（Overall, …）→ 最重要的变化：涨了多少、涨到多少（increase by / to）、同比或环比 → 一个大幅变化和它的原因（dropped sharply… / That reduced…）→ 哪些数据没变（have remained stable / have stayed flat）→ 波动和最高最低点 → 下一步。可以用 BrightNest 的数据，也可以用你自己的工作数据。
+@output_sample: Here's a quick update on BrightNest. Overall, it was a strong month. Orders increased by fifteen percent from the previous month, to twelve thousand. Year over year, they're up forty percent. Weekly orders fluctuate quite a lot. The lowest week was in February, around Chinese New Year, and the highest was last week. In fact, Priya says they hit a record high after their big sale, so the sale gave them a real boost. The best news is about returns. The return rate dropped sharply in March, from nine percent to five percent. BrightNest added measurements to every product photo, and that reduced returns dramatically. Since then, the rate has stayed flat at about five percent. Compared with the same period last year, it has declined significantly. Delivery times have remained stable at about six point five days, so delivery isn't a problem for them right now. On tomorrow's call, I'll ask about their next sale. If orders jump again, we need to make sure the warehouse is ready. I'll send you a short summary after the call.
+
+@check: 听力：BrightNest 这个月的订单增长了多少？增长到了多少？和去年同期比呢？ | 增长了 15%（increased by fifteen percent），增长到 12,000 单（increased to twelve thousand）；同比增长 40%（up forty percent year over year）。
+@check: 听力：退货率是什么时候、为什么大幅下降的？现在是多少？ | 三月份；因为 BrightNest 在每张商品图上都标了尺寸。退货率从 9% 降到 5%，之后一直稳定在 5% 左右。
+@check: 改错：Leo 写道 Returns reduced sharply, and orders increased to 15%. | Returns dropped sharply (或 fell sharply), and orders increased by 15%. reduce 要有宾语（The photos reduced returns.）；15% 是变化量，要用 by。
+@check: 迁移：「同比」「环比」用英文怎么说？用它们说：卖家数量同比增长 30%，环比增长 5%。 | 同比 year over year，环比 month over month（或 from the previous month）。The number of sellers rose 30% year over year and 5% from the previous month.
+@check: 迁移：把 There was a slight rise in returns in June. 改成「动词 + 副词」的说法；再说一句「投诉明显减少了」（正式）。 | Returns rose slightly in June. Complaints have declined significantly.
+@check: 迁移：Sarah 问上个月的配送时效有没有变（没变，一直是 6.5 天左右），用两种说法回答。 | Delivery times have remained stable at about six point five days. ／ They've stayed flat at around six point five days.
+@next1: 不看书说出 5 个锚点句：S4、S5、S9、S15、S25
+@next1: 用 increase by 和 increase to 各说一句关于你自己的数字（工资、步数、学习时间都可以）
+@next7: 上升 / 下降：rise / jump / boost vs fall / drop / decline / reduce；sharply / slightly / dramatically / significantly
+@next7: year over year（同比）/ from the previous month（环比）/ have remained stable / have stayed flat

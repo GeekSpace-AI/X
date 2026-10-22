@@ -1,0 +1,166 @@
+@day: 83
+@week: 4
+@title_cn: 系统是怎么「对接」的
+@title_en: How the Systems Talk
+@topic: 用大白话讲 API：对接、同步、实时更新、先测试再上线；把工程师的解释转述给不懂技术的客户
+@think_short: 「对接」integrate with / connect to（✗ dock）｜「同步」sync / in sync｜「上线」go live（✗ go online）｜讲技术用比喻：An API is like a waiter…
+
+@goal_scene: 大客户想把自己的系统和你们的系统对接：先听懂工程师用比喻讲的 API、后端、数据库、endpoint、webhook、沙盒和正式环境，再用简单、准确的英文写给客户，说清对接后会发生什么、什么时候上线；最后能用一个比喻给不懂技术的人讲 1.5–2 分钟。
+@goal_expr: An API is like a waiter between two systems. / Your system sends a request, and our system sends back the data. / The two systems stay in sync. / The tracking status updates in real time. / We'll test it in the sandbox first. / The integration will go live next month.
+@goal_vocab: 20 个重点词 + 5 个短语：系统对接、API 基础、测试与上线
+@done: 能用「A is like B + 细节」的比喻，向不懂技术的人讲清 API 和 webhook 是什么、一来一回怎么运作
+@done: 能正确使用 integrate with / connect to、sync / in sync、in real time、go live，不再说 dock、go online
+@done: 能写 6–8 句给客户的说明：怎么对接、对客户有什么好处、先在哪里测试、什么时候上线
+
+@warmup: 我没有报表页面的权限。 | I don't have access to the reports page. | D82
+@warmup: 能帮 Leo 开一下卖家后台的权限吗？ | Could you give Leo access to the seller dashboard? | D82
+@warmup: 先退出，再重新登录。 | Log out and log back in. | D82
+@warmup: 想问一下，您有没有时间看过这些条款？ | I was wondering if you've had a chance to review the terms. | D80
+@warmup: 自从进了 SwiftLink，我每天都在练英语。 | I've been practicing English every day since I joined SwiftLink. | D34
+@warmup: 上周，一位客户以为她的包裹丢了——其实已经送到了！ | Last week, a customer thought her package was lost. It was delivered! | D30
+
+@scene: BrightNest 的续约条款上周谈妥了（Day 80）。这周 Priya 又来了新需求：BrightNest 每天要处理几千个订单，客服一直靠导出表格、手动复制单号来查物流，她想把自己的订单系统和 SwiftLink 直接对接起来，邮件里满是 API、endpoint 这些词。林晓不是工程师，只能先搞懂再回复。上午九点——深圳和西雅图唯一重叠的那一小时，Mike 那边是傍晚六点——她给 Mike 打视频电话。Mike 没讲一句代码，而是用「餐厅」打了个比方。林晓听懂以后，要用同样简单、但不出错的话写给 Priya。
+@sp: 人物关系 | 林晓 ↔ Mike：跨时区的同事，林晓是业务、Mike 是工程负责人，Mike 说话直接、爱用比喻；林晓 → Priya：客户经理给大客户写说明，对方懂业务、不懂技术
+@sp: 沟通目的 | 林晓：先弄懂 API 对接到底是怎么回事；再告诉 Priya：怎么对接、对她有什么好处、怎么测试、什么时候上线
+@sp: 已知信息 | Priya 的开发团队能看懂技术文档，但 Priya 本人和客服团队不懂技术；Mike 知道新的 webhook 会随下一个版本部署；小卖家（比如 Sarah）用现成的插件，不需要对接 API
+@sp: 表达重点 | 讲技术先给比喻（An API is like a waiter…）→ 一来一回（sends a request / sends back the data）→ 不用一直问（webhook / in sync）→ 客户看得到什么、看不到什么（behind the scenes / frontend）→ 写给客户：好处（sync automatically / in real time）→ 先测试（sandbox）→ 上线（go live next month）
+
+@story_title: Episode 83 · A Waiter Between Two Systems
+@story_type: 视频通话 + 客户邮件
+@s: BrightNest wants to **integrate** its order system with SwiftLink. | BrightNest 想把自己的订单系统和 SwiftLink 对接起来。
+@s: At 9 a.m., Lily calls Mike. It's 6 p.m. in Seattle. | 上午九点，林晓给 Mike 打视频电话，西雅图那边是傍晚六点。
+@s: Lily: Priya keeps saying "**API**." What is it, in plain English? | 林晓：Priya 一直在说「API」。用大白话讲，这到底是什么？
+@s: Mike: An API is like a waiter between two systems. | Mike：API 就像两个系统之间的服务员。
+@s: Mike: Priya's system is the customer. Our **backend** is the kitchen. | Mike：Priya 的系统是客人，我们的后端是厨房。
+@s: Mike: The waiter takes the order and brings back the food. | Mike：服务员把点单送进去，再把菜端回来。
+@s: Lily: So the two systems **talk to** each other through the API? | 林晓：所以两个系统是通过 API「对话」的？
+@s: Mike: Right. Her system asks, "Where's order 1024?" We answer. | Mike：对。她的系统问：「1024 号订单到哪儿了？」我们来回答。
+@s: Mike: **Behind the scenes**, we find the answer in our **database**. | Mike：在幕后，我们去数据库里把答案找出来。
+@s: Mike: The "I" in API stands for **interface**: the meeting point between two systems. | Mike：API 里的「I」代表 interface，也就是两个系统碰头的地方。
+@s: Lily: Priya also mentioned an **endpoint**. | 林晓：Priya 还提到了 endpoint。
+@s: Mike: Each endpoint is one item on the menu, like "get tracking status." | Mike：每个 endpoint 就是菜单上的一道菜，比如「查物流状态」。
+@s: Mike: The menu is our **documentation**. Her **developers** will read it. | Mike：菜单就是我们的技术文档，她那边的开发人员会去读。
+@s: Lily: But how does her system know when a package moves? | 林晓：可是包裹一动，她的系统怎么知道呢？
+@s: Mike: A **webhook**. It's like the kitchen calling you when your food is ready. | Mike：靠 webhook。就像菜做好了，厨房打电话通知你。
+@s: Mike: She doesn't have to keep asking, and the two systems stay **in sync**. | Mike：她不用一遍遍地问，两个系统也能一直保持同步。
+@s: Mike: Small sellers like Sarah just use our **plugin** for their **third-party** store platforms. | Mike：像 Sarah 这样的小卖家，用我们给第三方店铺平台做的插件就行。
+@s: Mike: We'll **deploy** the new webhook in our next **release**. | Mike：新的 webhook 会随我们下一个版本一起部署。
+@s: Mike: Priya's staff won't see any of this. They'll just see the status in their **frontend**. | Mike：Priya 的员工根本看不到这些，他们只会在自己系统的前端界面上看到物流状态。
+@br:
+@s: Lily writes to Priya: | 林晓给 Priya 写邮件：
+@s: Hi Priya, | Priya 你好：
+@s: Good news! We can **connect** your order system to ours through our API. | 好消息！我们可以通过 API 把您的订单系统和我们的系统连起来。
+@s: Your system sends a request, and our system sends back the data. | 您的系统发出请求，我们的系统把数据传回去。
+@s: Your order data will **sync** automatically, so no more spreadsheets. | 您的订单数据会自动同步，以后不用再导表格了。
+@s: The tracking status updates in **real time**. | 物流状态会实时更新。
+@s: We'll test it in the **sandbox** first. It's a safe test **environment** with sample orders. | 我们会先在沙盒里测试，那是一个只用样例订单的安全测试环境。
+@s: Once everything works, we'll move it to **production**. | 一切正常以后，我们再把它放到正式环境。
+@s: The **integration** will **go live** next month. | 对接下个月正式上线。
+@s: Best regards, Lily | 祝好！林晓
+
+@v: integrate | = | v. | ˈɪntɪɡreɪt | （把两个系统）对接、整合 | 系统对接、产品整合、写方案 | integrate A with B；integrate into…；fully integrated | We plan to integrate our app with two more carriers. | 我们打算让 App 再对接两家快递公司。 | 「对接」不说 ✗ dock（船靠岸、飞船对接）；integrate A **with** B 或 integrate A **into** B；人和人之间的「对接」不用 integrate，说 work with sb。重音在第一个音节：IN-te-grate。
+@v: API | = | n. | ˌeɪ piː ˈaɪ | 应用程序接口（让两个系统互相要数据、传数据的规则） | 系统对接、开发、产品说明 | use our API；an API key；through the API | Our developers built the report with the carrier's API. | 我们的开发人员用快递公司的 API 做了这份报表。 | API 是 application programming interface 的缩写，按字母读：A-P-I，重音在最后一个字母；开头是元音 `/eɪ/`，所以是 **an** API；对不懂技术的人，先说比喻再说缩写。
+@v: backend | = | n. | ˈbækend | 后端（用户看不到的服务器、数据和处理逻辑） | 讲系统结构、排查问题 | the backend；backend developer；on the backend | The page looks fine, but the problem is on the backend. | 页面看着没问题，可问题出在后端。 | 也写作 back end / back-end，意思一样；和 frontend 相对：frontend 是用户看到、点到的部分，backend 是「厨房」；重音在前：BACK-end。
+@v: talk to | = | phr. | ˈtɔːk tə | （系统之间）互相通信、传数据；（人）跟……说话 | 用口语讲两个系统怎么连在一起 | talk to each other；talk to the database；The apps don't talk to each other. | Our tracking system doesn't talk to the old billing system. | 我们的跟踪系统和旧的计费系统不互通。 | 工程师口语里常把系统拟人化：The two systems talk to each other.（两个系统互通）；比 communicate 轻松；to 弱读成 `/tə/`。
+@v: Behind the scenes | behind the scenes | phr. | bɪˌhaɪnd ðə ˈsiːnz | 在幕后；（用户）看不见的地方 | 告诉非技术人员：这部分你看不到，也不用管 | work behind the scenes；happen behind the scenes；a behind-the-scenes look | A lot of work happens behind the scenes before a package ships. | 包裹发出之前，有很多工作是在幕后完成的。 | 来自舞台「幕后」；scenes 用复数；放在名词前要加连字符：a behind-the-scenes video；中文「后台」说系统时是 backend，说「幕后」时用 behind the scenes。
+@v: database | = | n. | ˈdeɪtəbeɪs | 数据库 | 讲数据存在哪里、怎么查 | in the database；update the database；a customer database | All tracking numbers are saved in our database. | 所有单号都存在我们的数据库里。 | 一个词，不写 ✗ data base；data 美国人读 `/ˈdeɪtə/` 或 `/ˈdætə/` 都常见，t 是闪音；「数据库里」用 in the database。
+@v: interface | = | n. | ˈɪntərfeɪs | 接口；界面（两个东西接触、交流的地方） | 解释 API 的「I」、说软件界面 | user interface；a simple interface；interface between A and B | The new interface is much easier to use. | 新界面好用多了。 | 中文「界面」「接口」英文都可以是 interface：user interface（UI，用户界面）是人和软件之间，API 是程序和程序之间；不要和 internet 混。重音在第一个音节：IN-ter-face。
+@v: endpoint | = | n. | ˈendpɔɪnt | （API 的）端点：一个地址只负责一种请求 | 读 API 文档、和开发人员讨论对接 | an API endpoint；call an endpoint；the tracking endpoint | Use this endpoint to get the delivery date. | 用这个端点获取送达日期。 | 对非技术人员可以说 one item on the menu（菜单上的一道菜）：一个 endpoint 只做一件事，比如「查物流状态」；一个词，不写 ✗ end point（那是「终点」的普通说法）。
+@v: documentation | = | n. | ˌdɑːkjumenˈteɪʃn | （技术）文档；说明文件 | 开发人员对接、查用法 | API documentation；read the documentation；the docs | Everything is explained in our API documentation. | 所有内容都写在我们的 API 文档里。 | 不可数名词，不说 ✗ documentations / a documentation；工程师口语常简称 the docs；「一份文件」是 a document。
+@v: developers | developer | n. | dɪˈveləpərz | 开发人员；程序员 | 说谁来写代码、做对接 | a software developer；our developers；developer account | Her developers will need about two weeks. | 她那边的开发人员大概需要两周。 | 中文「开发」「程序员」都可以说 developer；engineer 更宽（Mike 是 engineering manager）；develop 重音在第二个音节：de-VEL-op，developer 也是 de-VEL-op-er。
+@v: webhook | = | n. | ˈwebhʊk | Webhook（事件一发生，系统就主动通知对方） | 讲实时通知、状态推送 | set up a webhook；send a webhook；webhook URL | We send a webhook every time a package is delivered. | 每次包裹送达，我们都会发一个 webhook 通知。 | 可以理解成「厨房做好了菜主动打电话给你」，对方不用一遍遍地问（一遍遍地问在技术上叫 polling）；一个词，重音在 web 上。
+@v: in sync | = | phr. | ɪn ˈsɪŋk | 同步的；（两边）一致的 | 说两个系统、两份数据、两个人的步调一致 | stay in sync；in sync with…；out of sync | The app and the website are always in sync. | App 和网站上的数据始终保持一致。 | 反义 out of sync（不同步、对不上）；sync 读 `/sɪŋk/`，和 sink 同音；说人也行：We're in sync.（我们想法一致）。
+@v: plugin | = | n. | ˈplʌɡɪn | 插件 | 给现成的平台或软件加功能，不用写代码 | install a plugin；a free plugin；plugin for… | You can install our plugin in a few minutes. | 我们的插件几分钟就能装好。 | 也写作 plug-in；动词短语 plug in 是「插上电源」；对小卖家说「装个插件就能连上」比讲 API 简单得多。
+@v: third-party | = | adj. | ˌθɜːrd ˈpɑːrti | 第三方的 | 说别家公司的平台、工具、服务 | a third-party platform；third-party tools；third-party sellers | We don't control third-party apps. | 第三方应用不归我们管。 | 放在名词前要有连字符：a third-party app；作名词时不加连字符：a third party；第一个 party 是「一方」，不是聚会；放在名词前时重音常前移：THIRD-party app。
+@v: deploy | = | v. | dɪˈplɔɪ | 部署（把新代码放到服务器上运行） | 工程上线、发版 | deploy a fix；deploy to production；deploy the update | They deployed the fix last night. | 他们昨晚把修复部署上去了。 | 中文「部署」「发版」「推上去」都是 deploy；deploy 是技术动作，go live 是「对用户正式可用」这个结果；重音在后：de-PLOY。
+@v: release | = | n. | rɪˈliːs | （软件的）版本；发布 | 说新功能跟哪个版本走 | the next release；a new release；release notes | The new export button is in the next release. | 新的导出按钮在下一个版本里。 | 名词、动词同形：release a new version（发布新版本）；「版本说明」叫 release notes；重音在后：re-LEASE。
+@v: frontend | = | n. | ˈfrʌntend | 前端（用户看到、操作的界面部分） | 讲用户看得到什么、看不到什么 | the frontend；frontend design；on the frontend | Users only see the frontend. | 用户只看得到前端。 | 也写作 front end / front-end；和 backend 相对；front 读 `/frʌnt/`，元音像「啊」，不读 /front/。
+@v: connect | = | v. | kəˈnekt | 连接；（把系统、设备）连起来 | 口语里说对接、连网、连设备 | connect A to B；connect to the Wi-Fi；connect with sb | You can connect your store to our system in a few clicks. | 点几下就能把您的店铺和我们的系统连起来。 | 系统、设备之间用 connect A **to** B；人和人「建立联系」用 connect with sb；比 integrate 口语、轻松，适合写给客户。
+@v: sync | = | v. | sɪŋk | 同步（数据） | 系统、App、日历的数据自动更新一致 | sync automatically；sync with…；sync your calendar | My phone syncs with my laptop. | 我的手机和电脑是同步的。 | sync 是 synchronize 的简称，产品界面和口语都用它；读 `/sɪŋk/`，和 sink 同音，不读 /sɪntʃ/；过去式 synced。
+@v: real time | = | phr. | ˌriːl ˈtaɪm | 实时 | 说数据、状态、通知在事情发生时就更新 | in real time；real-time tracking；real-time data | You can watch the delivery truck in real time. | 你可以实时看到送货车在哪儿。 | 作状语说 in real time；放在名词前要有连字符，重音前移：REAL-time tracking；在物流系统里，「实时」通常指扫描后几秒到几分钟内，对客户别承诺「一秒不差」。
+@v: sandbox | = | n. | ˈsændbɑːks | 沙盒（和正式系统隔开的测试环境） | 对接测试、开发人员练手 | in the sandbox；a sandbox account；sandbox environment | Try the new feature in the sandbox before you use it with real orders. | 先在沙盒里试新功能，再用到真实订单上。 | 原义是小孩玩沙子的沙坑：在里面怎么玩都不会弄坏外面的东西；用介词 in：in the sandbox；对非技术人员可以说 a safe place to test。
+@v: environment | = | n. | ɪnˈvaɪrənmənt | （系统的）环境；（自然）环境 | 区分测试环境和正式环境 | a test environment；the production environment；a safe environment | We have three environments: development, testing and production. | 我们有三套环境：开发、测试和正式。 | 技术上「环境」是可数名词：a test environment；n 不能丢：en-VI-ron-ment，第二个 n 很轻，但不读成 ✗ en-VI-ro-ment。
+@v: production | = | n. | prəˈdʌkʃn | 正式环境（真实用户在用的系统）；生产 | 上线、部署、事故 | in production；move to production；a production issue | The bug only happens in production. | 这个 bug 只在正式环境里出现。 | 在 IT 语境里 production 不是「生产」，而是「线上 / 正式环境」，工程师口语常说 prod；和 sandbox、test environment 相对。
+@v: integration | = | n. | ˌɪntɪˈɡreɪʃn | 对接；（系统的）集成 | 说对接项目本身 | the integration；API integration；an integration with… | The integration with the new carrier took three weeks. | 和新快递公司的对接花了三周。 | 动词 integrate 重音在前 IN-te-grate，名词 integration 重音在 gra：in-te-GRA-tion；「做对接」说 build / set up an integration。
+@v: go live | = | phr. | ˌɡoʊ ˈlaɪv | （系统、功能）正式上线 | 说新系统、新功能、对接什么时候开始真正使用 | go live next month；the go-live date；We're live! | The new website went live on Monday. | 新网站周一上线了。 | 「上线」不说 ✗ go online（那是人「上网」）；live 在这里是形容词，读 `/laɪv/`，不读动词 live 的 /lɪv/；名词「上线日期」写成 the go-live date。
+
+@diff: 「对接」——integrate with / connect to（不说 dock）
+@d_cn: 把两个系统连起来，让数据能自动来回传。
+@d_en: BrightNest wants to integrate its order system with SwiftLink. / We can connect your order system to ours through our API.
+@d_why: 「对接」是中文职场的高频词：系统对接、业务对接、人员对接都用它。很多人按字面查到 **dock**（船靠岸、飞船对接），写出 ✗ dock our system with yours，美国同事看了会愣一下。系统之间的对接用 **integrate A with B**（正式、完整的对接，名词 **integration**）或 **connect A to B**（口语、简单，写给客户更友好），装插件式的简单连接也可以说 hook up（随意）。注意介词：integrate **with**，connect **to**。人和人之间的「对接」又是另一回事：「这件事你跟 Priya 对接」说 You'll work with Priya on this. 或 Priya is your point of contact.（Day 61），不要用 integrate。
+@d_when: 讲系统对接、插件连接、产品功能；方案、合同附件里用 integrate / integration，聊天和客户邮件里多用 connect。
+@d_vs: ✓ **We can integrate your system with ours.** 我们可以把您的系统和我们的对接起来。\n✓ **We can connect your order system to ours through our API.** 我们可以通过 API 把您的订单系统和我们的连起来。\n✓ **You'll work with Priya on this.** 这件事你跟 Priya 对接。（人和人）\n✗ We will dock our system with BrightNest. ✗ Please butt joint with Priya.
+@d_task: 用英文跟张涛说：「下个季度我们要和两家快递公司的系统对接。」 | Next quarter, we're going to integrate our system with two carriers' systems.
+@diff: 「同步」——sync / in sync
+@d_cn: 两边的数据保持一致：一边变了，另一边自动跟着变。
+@d_en: Your order data will sync automatically. / The two systems stay in sync. / The tracking status updates in real time.
+@d_why: 中文「同步」既是动作（同步数据），也是状态（两边是同步的）。英文分成两种用法：动作用动词 **sync**（synchronize 的简称，产品界面和口语都用它）：Your order data will sync automatically.；状态用 **in sync**：The two systems stay in sync.；不同步、对不上是 **out of sync**。还要分清「同步」和「实时」：sync 说的是两边**一致**，**in real time** 说的是**事情发生的同时就更新**——Mike 用 webhook，两样都做到了。给客户写的时候要准确：在物流系统里，real time 通常指快递扫描后几秒到几分钟内，还取决于快递员什么时候扫描，所以别承诺「一秒不差」。in sync 也能说人：We're in sync.（我们想法一致）
+@d_when: 讲系统、App、日历、文件的数据同步；也可以说团队步调一致。
+@d_vs: ✓ **Your order data will sync automatically.** 您的订单数据会自动同步。\n✓ **The two systems stay in sync.** 两个系统保持同步。\n✓ **Sarah's store and our dashboard are out of sync.** Sarah 的店铺和我们的看板数据对不上。\n✗ The two systems are synchronous with each other.（太绕）✗ The data will sink automatically.（拼错就成了「下沉」）
+@d_task: Sarah 说她店铺后台的订单数和你们看板上的对不上。用一句话告诉 Mike。 | Sarah's store and our dashboard are out of sync.
+@diff: 「上线」——go live / launch（不说 go online）
+@d_cn: 新功能、新系统、对接正式开始给真实用户使用。
+@d_en: The integration will go live next month. / We'll deploy the new webhook in our next release. / We'll launch the UK service next year.
+@d_why: 「上线」最容易直译成 ✗ go online——英文里 go online 是「（人）上网」，The integration will go online 听起来像「对接要连上网了」。英文说 **go live**（系统、功能、对接正式启用）或 **launch**（推出、发布，更像对外宣布的新产品、新服务）。go live 里的 live 是形容词，读 `/laɪv/`，不读动词 live 的 /lɪv/。它和今天的几个词是一条线：先在 **sandbox**（测试环境）里测 → **deploy**（部署）到 **production**（正式环境）→ **go live**（对用户开放）。工程师说 deploy，客户关心的是 go live。对客户说上线时间时，最好加上条件或给一个范围（next month / once testing is done），因为测试常常会发现问题。
+@d_when: 讲新功能、新系统、对接项目的时间表；给客户、经理汇报进度。
+@d_vs: ✓ **The integration will go live next month.** 对接下个月上线。\n✓ **We'll launch the UK service next year.** 我们明年推出英国服务。\n✓ **Once everything works, we'll move it to production.** 一切正常以后，我们再放到正式环境。\n✗ The integration will go online next month. ✗ The function will be on line soon.
+@d_task: 告诉 Priya：测试完成以后，新的 webhook 下周一上线。 | Once testing is done, the new webhook will go live next Monday.
+@diff: 讲技术用比喻——An API is like a waiter between two systems.
+@d_cn: 给不懂技术的人讲一个技术概念，又不想满嘴术语。
+@d_en: An API is like a waiter between two systems. / A webhook is like the kitchen calling you when your food is ready. / Think of the sandbox as a practice kitchen.
+@d_why: 中文讲技术，常常直接甩术语（「调接口」「走回调」），对方听不懂也不好意思问。美国职场很看重 **in plain English**（用大白话讲），最好用的工具就是比喻：**A is like B + 一个细节**。Mike 的比喻好在每一块都对得上：客人 = 对方的系统，厨房 = 我们的后端（backend），服务员 = API，菜单 = 文档（documentation），菜单上的一道菜 = 一个 endpoint，厨房做好菜给你打电话 = webhook，客人看不到厨房 = behind the scenes。讲的顺序是：先一句话说结论，再展开比喻，最后回到对方关心的结果（so no more spreadsheets）。语法上，like 在这里是介词「像」，后面直接跟名词：is like a waiter，不说 ✗ is like as a waiter；也可以说 Think of it as a waiter.
+@d_when: 给客户、经理、新同事、家人解释技术概念；写面向客户的说明邮件。
+@d_vs: ✓ **An API is like a waiter between two systems.** API 就像两个系统之间的服务员。\n✓ **Think of the sandbox as a practice kitchen.** 你可以把沙盒想成一个练手用的厨房。\n✓ **In plain English, it's a safe place to test.** 说白了，就是一个可以放心测试的地方。\n✗ An API is like as a waiter. ✗ It's a RESTful callback interface on our backend.（对非技术人员全是术语）
+@d_task: 用一个比喻向 Leo 解释什么是 database（两句）。 | A database is like a giant filing cabinet. Our system keeps all the tracking information there and finds it when someone asks.
+
+@core: An API is like a waiter between two systems. | 用比喻讲技术概念 | a waiter / a translator / a bridge | 正式：Think of an API as a messenger between two systems.｜随意：Basically, it's a middleman for data.
+@core: Your system sends a request, and our system sends back the data. | 讲清一来一回 | the tracking status / the delivery date / order details | 正式：Your system sends a request to our API, and we return the data you need.｜随意：You ask, and we answer.
+@core: We can connect your system to ours. / integrate A with B | 说「对接」 | connect to / integrate with；your order system / your store | 正式：We can integrate your order management system with our platform.｜随意：We can hook your store up to our system.
+@core: Your data will sync automatically. / The two systems stay in sync. | 说「同步」 | your orders / the tracking data / the two systems | 正式：The data is synchronized automatically.｜随意：Everything stays in sync.
+@core: The tracking status updates in real time. | 说实时更新 | in real time / real-time tracking | 正式：Status updates are delivered in real time.｜随意：You'll see it right away.
+@core: We'll test it in the sandbox first. | 先测试再上线 | in the sandbox / in a test environment / with sample orders | 正式：We'll test it thoroughly in our sandbox environment first.｜随意：We'll try it out in the sandbox.
+@core: The integration will go live next month. | 说上线时间 | go live / launch；next month / once testing is done | 正式：The integration is scheduled to go live next month.｜随意：It'll be up and running next month.
+@core: It all happens behind the scenes. | 告诉非技术人员「这部分你看不到，也不用管」 | behind the scenes / in the background | 正式：The process runs in the background.｜随意：You won't even notice it.
+
+@pw: API | ˌeɪ piː ˈaɪ | 3 个字母 A·P·I | 字母缩写重音在最后一个字母：ay-pee-EYE；an API 连读成 a-nay-pee-EYE
+@pw: integration | ˌɪntɪˈɡreɪʃn | 4 个音节 in·te·GRA·tion | 主重音在 gra；动词 integrate 的重音却在第一个音节 IN-te-grate
+@pw: documentation | ˌdɑːkjumenˈteɪʃn | 5 个音节 doc·u·men·TA·tion | 主重音在 ta；cu 读 `/kju/`，别丢掉 /j/
+@pw: environment | ɪnˈvaɪrənmənt | 4 个音节 en·VI·ron·ment | 重音在 vi；ron 后面的 n 要读出来：-ron-ment
+@pw: developer | dɪˈveləpər | 4 个音节 de·VEL·op·er | 重音在 vel；第一个音节弱读成 `/dɪ/`
+@pw: database | ˈdeɪtəbeɪs | 3 个音节 DA·ta·base | 重音在第一个音节；t 是闪音，听起来像 DAY-da-base
+@pw: deploy | dɪˈplɔɪ | 2 个音节 de·PLOY | 重音在后；ploy 和 boy 押韵
+@ps: An‿A-P-**I** is like‿a **wait**er / be**tween** two **sys**tems. | An API 连读：a-nay-pee-EYE，重音在最后一个字母 I；like a 连成 `/laɪkə/`。
+@ps: **Your** system sends‿a re**quest**, / and **our** system sends **back** the **da**ta. | your 和 our 对比重读；sends a 连读；data 的 t 是闪音，像 DAY-da。
+@ps: The **track**ing status / up**dates** in real **time**. | tracking status 是复合名词，重音在 track；updates 这里是动词，重音在后：up-DATES（名词 UP-date 重音在前）。
+@ps: The inte**gra**tion will go **live** / next **month**. | will 弱读成 `/wəl/` 或 'll；live 读 `/laɪv/`，和 five 押韵。
+@pnote: 字母缩写和数字：API 按字母读，重音落在最后一个字母上（ay-pee-EYE），IT、2FA 也一样（eye-TEE、two-F-A）。四位数的订单号常两位两位地读：order 1024 → order ten twenty-four。时间 9 a.m. / 6 p.m. 读 nine a.m. / six p.m.。real time 作短语时重音在 time（in real TIME），放在名词前作形容词时重音前移（REAL-time tracking），这和复合名词的重音规律一样。
+@pnote: 同形不同音：**update** 名词重音在前（an UP-date），动词重音在后（The status up-DATES）；**live** 形容词读 `/laɪv/`（go live、a live system），动词读 `/lɪv/`（I live in Shenzhen）；**release** 名词、动词都是 re-LEASE。写和说也不一样：书面里 backend / back end / back-end 都有人写，读法相同；工程师口语里 production 常说成 prod，documentation 说成 the docs。
+@lfocus: API、IT 这类字母缩写的重音
+@lfocus: update（名词 / 动词）和 go live 里 live 的读音
+@lfocus: REAL-time tracking 和 in real TIME 的重音变化
+@dict: S4–S9
+@dict: S22–S28
+@res: 在 youglish.com 输入 "go live"，选 US，听 live 在这里怎么读。
+
+@mimic: 跟读【C】：先正常语速逐句跟读 S3–S19 的对话，模仿 Mike 讲比喻时轻松、有停顿的节奏，特别注意 API、database、updates 的重音；再把 S21–S29 的邮件当成你自己写给客户的说明读一遍。最后合上书，只看「客人 / 厨房 / 服务员 / 菜单 / 打电话」五个词，用英文把 API 和 webhook 讲一遍并录音。
+@swap: An API is like a waiter between two systems. | 换比喻：a translator between two languages / a bridge between two islands | An API is like a translator between two systems.
+@swap: Your system sends a request, and our system sends back the data. | 换主语和内容：Sarah's store / the carrier's system；the delivery date / the new status | Sarah's store sends a request, and our system sends back the delivery date.
+@swap: We'll test it in the sandbox first. | 换东西和测试方式：the new webhook / the plugin；with ten sample orders / in a test account | We'll test the new webhook with ten sample orders first.
+@swap: The integration will go live next month. | 换东西和时间：the new plugin / the UK service；on Monday / in March / once testing is done | The new plugin will go live on Monday.
+@free: Leo 问你 What's a webhook?（用比喻，两三句） | A webhook is like the kitchen calling you when your food is ready. Our system tells your system when something changes, so you don't have to keep asking.
+@free: Priya 问：对接以后，我们的客服要学一个新系统吗？ | No, they don't. The integration works behind the scenes, so your team will see the tracking status in your own system.
+@free: 张涛问：BrightNest 的对接什么时候上线？ | It'll go live next month. We'll test it in the sandbox first, and Mike's team will deploy the new webhook in the next release.
+@free: 一个小卖家问：我也要找程序员对接 API 吗？ | You probably don't need a developer. If you use a common store platform, our plugin connects your store to our system in a few clicks.
+@output: 口头讲解 1.5–2 分钟（录音）：用一个比喻，向一位不懂技术的人（家人、新同事或卖家）讲清 API 是什么、你们的系统怎么和客户的系统对接。结构：一句话说结论 → 比喻（客人 / 厨房 / 服务员）→ 一来一回怎么运作（request / data）→ webhook 和 in sync 的好处 → 先测试再上线（sandbox / go live）。也可以换成你自己工作里的一个系统。
+@output_sample: Today I'd like to explain what an API is, because our biggest seller is going to use one. In short, an API is like a waiter between two systems. Imagine a restaurant. You're the customer, and you sit at the table. You never go into the kitchen. You just tell the waiter what you want, and the waiter brings it back. In our case, the customer is the seller's system, and the kitchen is our backend. When the seller's system wants to know where a package is, it sends a request. Our system finds the answer in our database and sends back the data. All of this happens behind the scenes, so the seller's staff never see it. There's one more useful idea, called a webhook. It's like the kitchen calling you when your food is ready. You don't have to keep asking, because we tell you when the status changes. That means the two systems stay in sync, and the tracking status updates in real time. Before we go live, we'll test everything in the sandbox. It's like a practice kitchen with sample orders, so mistakes don't hurt anyone. If everything works, the integration will go live next month, and the seller's team won't need spreadsheets anymore.
+
+@check: 听力：Mike 把 API 比作什么？Priya 的系统和 SwiftLink 的后端分别是比喻里的什么？ | 两个系统之间的服务员（a waiter between two systems）；Priya 的系统是客人（the customer），SwiftLink 的后端是厨房（the kitchen）。
+@check: 听力：webhook 被比作什么？对接先在哪里测试？什么时候上线？ | 像厨房在菜做好时打电话通知你，对方不用一直问；先在沙盒（the sandbox）里测试；下个月上线（next month）。
+@check: 同事写：We need to dock our system with BrightNest's. 改成自然的英文。 | We need to integrate our system with BrightNest's. / We need to connect our system to BrightNest's.
+@check: 改错：The new plugin will go online next Monday. | The new plugin will go live next Monday.（或 We'll launch the new plugin next Monday.）go online 是「上网」。
+@check: 用一个比喻，向你的妈妈解释 sandbox 和 production 的区别（两三句）。 | A sandbox is like a practice kitchen. You can make mistakes there, and no real customers eat the food. Production is the real restaurant.
+@check: Sarah 担心：我店里的订单和你们系统里的会对不上吗？用 sync / in sync 回答她。 | No. Your orders sync automatically through our plugin, so the two systems always stay in sync.
+@next1: 不看书说出 5 个锚点句：S4、S23、S25、S26（前一句）、S28
+@next1: 只看「客人 / 厨房 / 服务员 / 菜单 / 打电话」五个词，用英文讲一遍 API 和 webhook
+@next7: 对接三件套：integrate with / connect to；sync / in sync；go live（✗ dock、go online）
+@next7: 给不懂技术的人讲一个概念：先一句结论 → A is like B → 一来一回 → 对他有什么好处
