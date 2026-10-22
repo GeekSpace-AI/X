@@ -1,0 +1,64 @@
+@day: 114
+@week: 4
+@title_cn: 转述别人的话
+@title_en: What Did They Say?
+@topic: 通话后向经理和工程负责人转述客户的话：说了什么、问了什么、答应了什么、坚持和提醒了什么；分清原话、大意和自己的理解
+@think_short: 「他说好了」→ Raj said the codes were ready.（时态后移）｜「她问能不能」She asked whether we could…（陈述语序）｜「她说」不只 said：pointed out / insisted / warned / hinted｜「他跟我说他会」He told me he would…｜「原话是」In her words, "…"
+
+@goal_scene: 林晓一早和 BrightNest 的 Priya、Raj 通完电话，九点要把通话内容转述给没参加的张涛和 Mike：谁说了什么、问了什么、答应了什么、坚持什么、提醒了什么，还有客户没明说的意思；会后再写一封确认邮件，请客户核对她转述得对不对。
+@goal_expr: Raj said the new codes were ready. / He told me he would send the file tonight. / Priya asked whether we could start on Monday. / She pointed out that the volume would double in November. / She insisted on daily updates. / In her words, "We can't afford another delay." / That's my interpretation, and I'm paraphrasing. / Please let me know if I've misquoted anything.
+@goal_vocab: 20 个重点词 + 5 个短语：转述动词、原话与大意、一手与二手信息、转达与核对
+@done: 能把对方的陈述、问题和承诺准确转述：said + 时态后移；asked whether / if + 陈述语序；told me he would…
+@done: 能按对方的语气选转述动词（pointed out / insisted on / warned / hinted at / inquired），不再一个 said 到底，也不说 ✗ He said me… / ✗ She asked could we…
+@done: 能分清「原话」「大意」「我的理解」（In her words / I'm paraphrasing / That's my interpretation），并写一封通话后的确认邮件请对方核对
+
+@warmup: 根据这些数字，我建议选 B 方案。 | Based on these numbers, I'd recommend Option B. | D113
+@warmup: 如果选 B，我们会晚两周上线。 | If we choose B, we'll launch two weeks later. | D113
+@warmup: 如果我们有更多工程师，我们就会选 A。 | If we had more engineers, we would choose A. | D113
+@warmup: 我们会分两个阶段推出。 | We'll roll it out in two phases. | D109
+@warmup: 这个月订单增长了 15%。 | Orders increased by fifteen percent this month. | D69
+@warmup: 我已经给她发消息了。 | I've already sent her a message. | D33
+
+@scene: 昨天，团队正式建议选 B 方案：更稳，但要比 A 晚两周，10 月 28 日才能全面上线。周五一大早（美国那边还是周四），林晓给 BrightNest 的 Priya 和 Raj 打电话说明这个建议。电话很短，信息却不少：Raj 说新的状态代码已经好了；Priya 接受了 B 方案，可她追问能不能周一就开始测试，还说了一句很重的话。九点是深圳和西雅图唯一重叠的一小时（Mike 那边是周四傍晚六点），林晓要把电话内容转述给没参加通话的张涛和 Mike：张涛要判断客户的态度，Mike 要安排周一的测试，Leo 在一旁记纪要。转述得准不准，直接决定了两个人接下来怎么做。会后，林晓还要给 Priya 和 Raj 发一封确认邮件，请他们核对。
+@sp: 人物关系 | 林晓 ↔ Priya、Raj：项目协调人和客户方，Priya 是运营经理（讲数据、着急上线），Raj 是 IT 负责人（技术细节多）；林晓 ↔ 张涛、Mike：向项目负责人和工程经理转述，张涛关心客户的态度，Mike 关心技术和时间
+@sp: 沟通目的 | 把电话里的信息原样传给不在场的人：事实、问题、承诺、要求、提醒和语气；分清哪些是原话、哪些是大意、哪些只是自己的理解，再请客户核对
+@sp: 已知信息 | 电话里：Raj 说新代码好了、今晚发文件，还问了测试环境；Priya 接受 B 方案，问周一能不能开始，指出十一月量会翻倍，坚持每天汇报，原话是 We can't afford another delay.，还隐约提到退货。张涛和 Mike 都没听到这通电话
+@sp: 表达重点 | 转述陈述（said + 时态后移）→ 转述问题（asked whether + 陈述语序）→ 转述承诺（told me he would）→ 按语气选转述动词（pointed out / insisted / warned / hinted）→ 原话 vs 大意 vs 理解（In her words / I'm paraphrasing / my interpretation）→ 邮件请对方核对
+
+@story_title: Episode 114 · In Her Words
+@story_type: 电话 + 转述会议 + 确认邮件
+@s: Early on Friday morning, Lily has a short call with Priya and Raj. | 周五一大早，林晓和 Priya、Raj 简短地通了个电话。
+@s: Raj: The new codes are ready. I'll send the file tonight. | Raj：新的状态代码已经好了，我今晚把文件发过来。
+@s: Priya: Can you start on Monday? We can't afford another delay. | Priya：你们周一能开始吗？我们可再也耽误不起了。
+@br:
+@s: At nine, Lily **relays** the call to Tom and Mike. Leo takes notes. | 九点，林晓把通话内容转述给张涛和 Mike，Leo 做记录。
+@s: Lily: Good news first. Raj said the new codes were ready. | 林晓：先说好消息。Raj 说新的状态代码已经准备好了。
+@s: Lily: He told me he would send the file tonight. | 林晓：他跟我说今晚把文件发过来。
+@s: Mike: Tonight his time? Then we'll have it first thing tomorrow. | Mike：是他那边的今晚吧？那我们明天一早就能拿到。
+@s: Lily: Right. And Priya asked whether we could start on Monday. | 林晓：对。还有，Priya 问我们周一能不能开始。
+@s: Mike: Monday works if the file arrives. | Mike：只要文件到了，周一没问题。
+@s: Lily: Raj also **inquired** about the test environment. I'll **pass along** his request to Kevin. | 林晓：Raj 还问了测试环境的事，我会把他的请求转给李凯。
+@s: Tom: How did Priya take Option B? | 张涛：Priya 对 B 方案什么反应？
+@s: Lily: She accepted it. She **pointed out** that the volume would double in November. | 林晓：她接受了。她特别指出，十一月的订单量会翻一倍。
+@s: Leo: So their volume will **reportedly** double? | Leo：所以据说他们的订单量会翻倍？
+@s: Lily: Not "reportedly." I heard it **firsthand**. | 林晓：不是「据说」，是我亲耳听她说的。
+@s: Lily: She couldn't **disclose** exact numbers, but she **revealed** that they're adding a night shift. | 林晓：她不能透露具体数字，不过她说了，他们正在加夜班。
+@s: Lily: She also **insisted** on daily updates during testing. | 林晓：她还坚持要求测试期间每天汇报进展。
+@s: Lily: In her words, "We can't afford another delay." | 林晓：用她的原话说：「我们再也耽误不起了。」
+@s: Tom: Is that **word for word**? Was she upset with us? | 张涛：这是原话吗？她对我们不满吗？
+@s: Lily: Yes, it's a direct quote. But she didn't **accuse** us of anything. | 林晓：是原话。不过她没有指责我们什么。
+@s: Lily: She **warned** that Karen would want an explanation if we slipped again. | 林晓：她提醒说，如果我们再拖，Karen 会要一个解释。
+@s: Lily: She also **hinted** at a new request. If I **recall** correctly, she said returns were their next headache. | 林晓：她还暗示会有新需求。如果我没记错，她说退货是他们下一个头疼的问题。
+@s: Tom: Is she **implying** a scope change? | 张涛：她是在暗示要改项目范围吗？
+@s: Lily: That's my **interpretation**, but I'm **paraphrasing**, so let's not plan around it yet. | 林晓：那是我的理解，而且我说的不是她的原话，所以先别按这个做安排。
+@s: Mike: And I'd rather not get Raj's technical details **secondhand**. Can you set up a call? | Mike：还有，Raj 的技术细节我不想听二手的。你能约个电话吗？
+@s: Tom: Good catch on the **nuance**, Lily. I **get the gist**: Monday, daily updates, no more delays. | 张涛：林晓，这些言外之意你抓得很准。我明白了：周一开始、每天汇报、不能再拖。
+@s: Leo reads the action items **aloud**. | Leo 把行动项念了一遍。
+@br:
+@s: After the meeting, Lily writes to Priya and Raj: | 会后，林晓给 Priya 和 Raj 写邮件：
+@s: Hi Priya and Raj, | Priya、Raj，你们好：
+@s: Thanks for the call. I've **conveyed** your points to Tom and Mike. | 谢谢你们的来电。你们的意见我已经转达给张涛和 Mike 了。
+@s: Mike's team can start testing on Monday, once Raj's file arrives. | Raj 的文件一到，Mike 的团队周一就能开始测试。
+@s: As you asked, we'll send daily updates. | 按你们的要求，我们会每天发进展。
+@s: I want to make sure I've relayed everything **faithfully**, so please let me know if I've **misquoted** anything. | 我想确保自己转达得准确无误，所以如果我有哪里转述错了，请告诉我。
+@s: Best,\nLily | 祝好，\n林晓
