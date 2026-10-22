@@ -26,7 +26,7 @@
 - 场景：同一件事（项目启动会时间），林晓要分别写给 BrightNest 副总裁 Karen、运营经理 Priya 和同事 Kevin；Grace 教她「语气要看对象」。
 - 中英差异：① 中文靠「您」表示尊重；英文靠句式（Could you…?）而不是代词 ② 称呼：Dear Ms. Walker / Hi Priya / Hey Kevin ③ 正式用词：assist vs help、receive vs get、inform vs tell ④ 缩写（I'm / can't）在中性邮件里完全可以
 - 新词（20）：courteous, formality, neutral, executive, senior, junior, title, salutation, sign-off, contraction, slang, abbreviation, acronym, respectful, stiff, appropriate, inappropriate, hierarchy, surname, emphasis
-- 短语（5）：on a first-name basis, hope you're doing well, kind regards, thanks in advance, Dear …
+- 短语（5）：on a first-name basis, hope you're doing well, kind regards, thanks in advance, reach out
 - 锚点句：Dear Ms. Walker, thank you for your time yesterday. ｜ Hi Priya, hope you're doing well. ｜ Hey Kevin, quick question. ｜ We're on a first-name basis now. ｜ Thanks in advance for your help.
 
 ### Day 93 · 会后确认邮件 / Confirming What We Agreed（第 1 周）
