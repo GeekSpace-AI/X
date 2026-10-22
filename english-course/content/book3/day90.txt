@@ -1,0 +1,198 @@
+@day: 90
+@week: 5
+@review: true
+@title_cn: 第三册综合复习与测评
+@title_en: Book 3 Review: My First Quarter
+@topic: 入职三个月的季度评估：写一封 8–10 句的季度总结邮件，做 2 分钟口头汇报、接住经理的追问；第三册阶段测评与第四册衔接
+@think_short: 「评估」evaluation、「目标」objective｜「做成了」accomplish｜「能胜任」competent、「认可」recognition｜「站出来承担更多」step up｜第三册八大易混点总检查
+
+@goal_scene: 入职满三个月的季度评估：先给经理写一封 8–10 句、第一句就说目的的季度总结邮件——目标完成了几个、一个数字和它的原因、一个问题和怎么处理的、什么还没完成；再用两分钟口头汇报这个季度，接住经理的追问（最自豪的事、一时记不清的数字、自己的弱点），最后听懂反馈和下个季度的新任务。
+@goal_expr: I'm writing to share my results before… / Overall, I've met three of my four objectives. / It has increased to 96%, up three percentage points. / This was largely due to… / His urgent orders were expedited. / One objective is still pending. / Let me walk you through it. / What did you accomplish? / Now I feel competent. / I'm not sure off the top of my head. Let me check and get back to you. / That's real recognition. / I need you to step up.
+@goal_vocab: 复现第 61–89 天的 25 个旧词和第一、二册的 4 个旧词（虚线标出）+ 5 个新词 + 1 个短语：evaluation, objective, accomplish, competent, recognition, step up；另有 12 项阶段成果评估 + 8 项薄弱项检查
+@done: 不看稿，用 2 分钟英文做一次工作汇报（我的职责、一个流程、一个带趋势和原因的数字、一个问题和处理），再写一封 8–10 句、第一句就说目的的工作邮件；和 Day 60 的录音对比，说出至少 2 处进步
+@done: 【E】5 组易混表达（被动 / 主动；percent / percentage point 和 increase by / to；because / due to 和 affect / effect；I'm afraid we can't… / No 和 as long as / unless；access / permission）每组都能说出正确句子，并用中文讲出理由；不看文字听懂评估面谈里的追问和回答
+@done: 填完「阶段成果评估」12 项和「薄弱项目记录」，选出 2–3 个薄弱项，写进第四册 Day 91–96 的热身
+
+@plan: 旧知识情境复习 | 10 | 遮住答案，用英文说出「热身」的 6 句中文提示——四句分别来自第三册的四个星期，一句来自第一册，一句来自第二册，每句都是一个大知识点（被动、百分点、礼貌拒绝、描述问题、第三人称 -s、现在完成时）。说不出的打 ★，记下右边的 D#，第 8 步写进薄弱项。
+@plan: 新情境阅读 | 15 | 先读【B】弄清林晓要写什么、要讲什么；再读【C】：第 1 遍遮住中文，看到虚线词就停下来回忆意思和第几天学的；第 2 遍逐句对照中文，配合【D】学 5 个新词和 step up。读邮件时数一数：目的在第几句？数字、原因、问题、还没完成的事各在哪一句？
+@plan: 听懂短对话 | 15 | 用手机朗读功能（正常语速）播放【C】S14–S31 的面谈对话：先不看任何文字听两遍，回答【I】第 1、2 题；再看英文听一遍，圈出没听出来的数字和弱读；最后做【G】的 2 段听写并订正。
+@plan: 中文意思 → 英文组织 | 15 | 【H】第 2、3 层：只看中文情境，用第三册学过的表达组织英文，先说结论再说细节，每题至少说两句，先说再写，最后对照示范。第 3 层每题都混合了不同星期的知识点，开口前先想一想「这是哪一天学的」。
+@plan: 不看原文复述 | 15 | 合上书，按【H】第 1 层的 10 个关键词提示，先用林晓的口吻（I…）讲她的季度总结和评估面谈，再用第三人称（Lily… She…）讲一遍，录音；回放时专门检查被动句里的 be 动词、percentage points，以及 she has / she's / Tom wants 的 -s。
+@plan: 易混表达检查 | 15 | 做【E】的 5 组易混表达：每组先遮住「自然英文」，自己说出正确说法和理由，再看答案、完成小任务；错的那组把对比例句读 5 遍，并翻回标题里注明的那几天重看【E】。
+@plan: 输出录音与阶段测评 | 25 | 完成【H】的「今日输出」——第三册测评：2 分钟口头工作汇报（准备 4 分钟、录 2 分钟、和 Day 60 的录音对比，约 9 分钟），再写一封 8–10 句的工作邮件（约 8 分钟）；最后做【I】第 3–8 题，并逐条填写「阶段成果评估」表（约 8 分钟）。
+@plan: 薄弱项记录与第四册衔接 | 10 | 填「薄弱项目记录」：勾出你也有的项，按「补强方法」把要重做的日子和【E】组写进日历；读「下阶段改善建议」，选 2–3 个薄弱项写进第四册 Day 91–96 的热身里。
+
+@warmup_hint: 这 6 句里四句分别来自第三册的四个星期，一句来自第一册，一句来自第二册，每句都是一个「大知识点」。遮住答案，5 秒内说出英文；说不出的打 ★，记下右边的 D#——今天最后一步要把它写进薄弱项目记录。
+@warmup: 一下单，系统就自动生成运单。 | Once an order is placed, a shipping label is created automatically. | D63
+@warmup: 准时率提高了两个百分点。 | The on-time rate went up by two percentage points. | D68
+@warmup: 恐怕我们没法在下周之前做出定制功能。我们能做的是提供一个变通方案。 | I'm afraid we can't build a custom feature by next week. What we can do is offer a workaround. | D78
+@warmup: 我本来以为会得到一个文件，结果出现了超时错误。 | I expected a file, but I got a timeout error. | D84
+@warmup: 周六我可以，周日就不行了。 | Saturday works for me. Sunday doesn't. | D18
+@warmup: 总的来说，你的表现超出了预期。 | Overall, your performance has been above expectations. | D59
+
+@scene: 第三册的最后一天。林晓进 SwiftLink 整整三个月了：第一个月学着上班，第二个月通过了试用期，第三个月接手 Jack 留下的 20 个美国卖家，独立负责。按公司的惯例，入职满一个季度要做一次季度评估：员工先交一封季度总结邮件，再和经理一对一面谈。周五，林晓给张涛写总结。张涛最怕长邮件，所以她照第三册学的写法来：第一句说目的，然后是目标完成了几个、一个数字和它的原因、最大的一个问题和她怎么处理的、还有什么没完成。周一面谈，张涛先请她用两分钟口头讲一遍，再一个接一个地追问：最自豪的是什么？处理了多少起投诉？哪里还弱？最后，张涛给了她反馈，也给了她下个季度的一项新任务。
+@sp: 人物关系 | 林晓 ↔ 张涛：员工和直属经理，一对一的季度评估面谈；张涛要求「先说结论」，说话直接，但很愿意给新人机会
+@sp: 沟通目的 | 林晓：用一封邮件和两分钟口头汇报，让经理很快看清这个季度的成绩、问题和下一步，被追问时诚实回答；张涛：给反馈、给认可，安排下个季度更大的任务
+@sp: 已知信息 | 张涛知道这个季度的几件大事（港口罢工、Daniel 的定制功能要求、BrightNest 的系统对接），但不知道具体数字，也不知道林晓自己怎么看；林晓手里有数据，可有一个数字一时记不清
+@sp: 表达重点 | 邮件：I'm writing to… → Overall, … objectives → 一个数字（increased to / percentage points）→ 原因（largely due to）→ 问题和处理（were expedited）→ 未完成（pending / go live）→ Please see below；面谈：Let me walk you through it → 职责 → 拒绝 + 替代方案；追问：accomplish / competent / off the top of my head / To be honest；反馈：recognition / step up
+
+@story_title: Episode 90 · My First Quarter
+@story_type: 邮件 + 面谈对话（新情境 · 季度总结与评估）
+@s: Lily has worked at SwiftLink for three months. | 林晓进 SwiftLink 已经三个月了。
+@s: On Friday, she sends Tom her quarterly summary. | 周五，她把季度总结发给了张涛。
+@s: Hi Tom, | 张涛，你好：
+@s: [[I'm writing to]] share my results before Monday's **evaluation**. | 周一评估之前，我先把这个季度的成绩发给你。
+@s: [[Overall]], I've met three of my four **objectives**. | 总的来说，四个目标我完成了三个。
+@s: Since I [[took over]] Jack's accounts, their on-time rate has [[increased to]] 96%. | 自从我接手 Jack 的卖家以来，他们的准时率已经提高到了 96%。
+@s: That's up three [[percentage]] points. | 比之前高了三个百分点。
+@s: This was [[largely]] [[due to]] the new dashboard [[alerts]]. We now see delays in [[real time]]. | 这主要得益于看板上的新预警：现在我们能实时看到延误。
+@s: The biggest problem was the port [[strike]], which delayed 1,150 of Daniel's packages. | 最大的问题是港口罢工，Daniel 有 1,150 个包裹因此延误。
+@s: I updated him every day, and his urgent orders were [[expedited]]. | 我每天给他发进展，他的加急订单也都优先处理了。
+@s: One objective is still [[pending]]: the BrightNest [[integration]] will [[go live]] next month. | 还有一个目标没完成：BrightNest 的系统对接下个月上线。
+@s: [[Please see below]] for a [[breakdown]] by seller. | 各个卖家的明细请见下文。
+@s: Best regards,\nLily | 祝好！\n林晓
+@br:
+@s: On Monday, Tom starts the meeting. | 周一，张涛开始了评估面谈。
+@s: Tom: Great email. Now give me the two-minute version. | 张涛：邮件写得很好。现在给我讲一个两分钟的版本吧。
+@s: Lily: Sure. Let me [[walk you through]] it. | 林晓：好的，我给您过一遍。
+@s: Lily: I'm [[responsible for]] twenty U.S. sellers, and I'm their [[point of contact]]. | 林晓：我负责 20 个美国卖家，是他们的对接人。
+@s: Lily: When Daniel wanted a custom feature, I didn't just say no. I offered a [[workaround]]. | 林晓：Daniel 要一个定制功能的时候，我没有只说「不行」，而是给了他一个变通方案。
+@br:
+@s: Tom: What did you **accomplish** that you're proud of? | 张涛：这个季度你做成的事里，最让你自豪的是什么？
+@s: Lily: Angry calls. Three months ago, I was [[nervous]] on every call. | 林晓：处理愤怒客户的电话。三个月前，我每次打电话都紧张。
+@s: Lily: Now I feel **competent**. I [[listen]], say "[[I hear you]]," and give a callback time. | 林晓：现在我觉得自己能应付了：我先听，说一句「我明白」，再给一个回电的时间。
+@s: Tom: How many [[complaints]] did you handle? | 张涛：你一共处理了多少起投诉？
+@s: Lily: I'm not sure [[off the top of my head]]. I'd say about sixty. | 林晓：一下子说不准，大概六十起吧。
+@s: Lily: Let me check and [[get back to you]]. | 林晓：我查一下再回复您。
+@s: Tom: Any weak spots? | 张涛：有什么薄弱的地方吗？
+@s: Lily: [[To be honest]], numbers in meetings. I still mix up percent and percentage points. | 林晓：说实话，是开会时说数字。我有时还会把百分比和百分点搞混。
+@s: Tom: Here's my [[feedback]]. | 张涛：下面是我的反馈。
+@s: Tom: Priya and Sarah both praised you by name. That's real **recognition**. | 张涛：Priya 和 Sarah 都点名表扬了你。这是实实在在的认可。
+@s: Tom: Next quarter, I need you to **step up**. You'll lead the BrightNest launch with Mike's team. | 张涛：下个季度，我需要你再往前站一步：BrightNest 的上线由你牵头，和 Mike 的团队一起做。
+@s: Tom: Keep everyone [[on the same page]]. | 张涛：要让各方始终保持同步。
+@s: Lily: Three teams and two time zones? I'm ready! | 林晓：三个团队、两个时区？我准备好了！
+
+@v: evaluation | = | n. | ɪˌvæljuˈeɪʃn | 评估；（对员工表现的）考评 | 季度考评、绩效面谈；评估一个新流程或一家供应商 | a performance evaluation；my first evaluation；an evaluation of the new process | We'll do an evaluation of the new process after one month. | 新流程运行一个月以后，我们会做一次评估。 | 中文「考核」「评估」「打分」都可以是 evaluation；美国公司口语里也常说 performance review，正式文件和邮件里 evaluation 很常见；考评不是考试：✗ I have an exam with my manager on Monday.；动词是 evaluate（✗ We need to evaluation the options.），第四册比较方案时会常用 evaluate the options；重音在 a：e-val-u-A-tion，开头的 e 读轻的 `/ɪ/`。
+@v: objectives | objective | n. | əbˈdʒektɪvz | （具体、可衡量的）目标 | 季度目标、项目目标、绩效考评 | meet an objective；set objectives；my objectives for next quarter | One of my objectives is to cut our response time to two hours. | 我的目标之一是把回复时间缩短到两小时。 | 中文一个「目标」，英文分得细：goal（第一册）是一般的目标、愿望；target（第二册 Day 59）多指要达到的数字；objective 更正式，指考评、项目里写下来、能检查完成没有的具体目标；「完成目标」说 meet / achieve an objective，✗ finish an objective；objective 作形容词是「客观的」：an objective view；ob 弱读成 `/əb/`，重音在 JEC。
+@v: accomplish | = | v. | əˈkɑːmplɪʃ | 完成；做成（一件不容易的事） | 总结成绩、季度考评、回答「你做成了什么」 | accomplish a lot；accomplish a goal；What did you accomplish? | We accomplished a lot this quarter, even with the port strike. | 虽然遇到了港口罢工，这个季度我们还是做成了很多事。 | 中文「完成」学生一律说 finish，可 finish 只是「做完」（finish the report）；accomplish 带着「做成了、有成果」的意思，常和 a lot / what / a goal 连用；日常的小事说 finish 或 get it done 就行，✗ I accomplished my homework.；和 achieve（Day 71）很近，achieve 更常接具体指标（achieve our KPIs）；名词是 accomplishment（成就）；重音在 COM，美式 o 读 `/ɑː/`。
+@v: competent | = | adj. | ˈkɑːmpətənt | 能胜任的；（做某事）够格、拿得下来的 | 说自己已经能独立处理某类工作；评价某人的能力 | feel competent；competent at + -ing；a competent driver | After three months, I feel competent at handling complaints on my own. | 三个月后，我觉得自己能独立处理投诉了。 | competent 是「合格、能胜任」，不是「出色」：说自己 I feel competent… 既自信又不夸张，很得体；可要是经理说 She's competent.，可能只是「还行」，真心夸人会说 excellent / really good at…；搭配用 at：✓ competent at writing emails；别和 competitive（有竞争力的）混；重音在前 COM，后面两个音节都弱读。
+@v: recognition | = | n. | ˌrekəɡˈnɪʃn | 认可；赏识 | 经理肯定员工、客户点名表扬、公司表彰 | get recognition；recognition for your work；in recognition of… | Grace got recognition from the whole team for her work on the refund rules. | 吴佳在退款规则上的工作得到了全组的认可。 | 中文「得到认可」「被领导肯定」，英文说 get recognition (for…)；它一般不可数：✗ I got many recognitions.；动词 recognize 既是「认出」（I didn't recognize you!），也是「认可、表彰」；recognition 还有「识别」的意思：face recognition（人脸识别）；主重音在 NI，og 里的 g 不要吞掉。
+@v: step up | = | phr. | ˌstep ˈʌp | 站出来承担更多；（关键时刻）挑起担子 | 经理希望你承担更大的责任、牵头一个项目；同事缺席时主动顶上 | step up and lead…；step up to the challenge；need sb to step up | When Grace was out sick, Leo stepped up and answered her calls. | 吴佳病假的时候，Leo 主动顶上，接了她的电话。 | 中文「挑大梁」「顶上去」「再往前一步」，英文一个 step up 就够了；它表示「主动承担」，后面不直接接工作：✗ step up the project，✓ step up and lead the project / step up to lead it；step up 直接接名词时意思变成「加大力度」：step up our efforts；和 take over（Day 61）不同：take over 是把别人的工作接过来，step up 是自己往前一步、承担更多；重音在 up。
+
+@diff: 「订单发了」「故障两点十分发现的」——被动 vs 主动（复习 D63、D64、D85、D86、D89）
+@d_cn: 中文「订单发了」「退款归财务管」「包裹被海关扣了」「故障两点十分发现的」——东西直接做主语，动词不变，很少用「被」。
+@d_en: The order has been shipped. / Refunds are handled by the finance team. / Three packages are being held at customs. / The outage was detected at 2:10 p.m. / I updated him every day.
+@d_why: 开口前先问一句：主语是「人」还是「东西」？人做事 → **主动**：I check the dashboard. / I updated him every day.；东西经历了什么、谁做的不重要 → **被动 be + 过去分词**。时态全在 be 上：流程、天天如此用 **is / are**（D63、D89）；事故报告用 **was / were**（D86）；已经完成、结果还在用 **has been**（D63）；正在被处理用 **is being**（D85）；将来用 **will be**。三个最常见的错：① 漏掉 be：✗ Refunds handle by finance. ✗ The order shipped by us yesterday.；② 分词写错：✗ It was ship. ✗ His access was revoke.（D82）；③ 被动加完成时又加具体时间：✗ It has been picked up at nine.——第二册「有具体时间就用过去时」的老规则，在被动里照样适用。还有一个反方向的错：什么都用被动，听起来像在推卸责任。道歉时要主动认：We take full responsibility.（D77），不说 ✗ Mistakes were made.。今天林晓的邮件两种都有：his urgent orders were expedited（订单，被动）；I updated him every day（她自己，主动）。
+@d_when: 讲流程、写通知、写事故报告、说明分工 → 被动；说自己做了什么、承担责任、给承诺 → 主动。
+@d_vs: **The order has been shipped.** 订单已经发出。（结果）\n**Three packages are being held at customs.** 三个包裹正被海关扣着。（正在）\n**The outage was detected at 2:10 p.m.** 故障是下午两点十分发现的。（事故报告）\n**I updated him every day.** 我每天给他发进展。（人做事，主动）\n✗ Refunds handle by finance. ✗ It was ship yesterday. ✗ It has been picked up at nine.
+@d_task: 用英文说：① 每件退回来的商品都要检查、分级。② 你的包裹昨天被退回给发件人了。③ 向卖家承诺：以后我们会在十分钟内发出预警。（这句用主动还是被动？） | ① Every returned item is checked and graded. ② Your package was returned to sender yesterday. ③ Going forward, we'll send an alert within ten minutes.（给承诺，主语是「我们」，用主动更有担当；An alert will be sent… 语法也对，但对客户听起来像在躲）
+@diff: 「涨了三个点」「涨到 96%」——percent vs percentage point；increase by vs to（复习 D68、D69、D71）
+@d_cn: 「准时率涨了三个点」「涨到 96%」「订单增长了 15%」——中文靠「个百分点」「了」「到」区分，说快了常常一起省掉。
+@d_en: The on-time rate has increased to 96%. That's up three percentage points. / Orders increased by fifteen percent. / They increased to twelve thousand.
+@d_why: 两个问题叠在一起，最容易出错。① **percent vs percentage point**：两个百分比相减的差叫 **percentage points**（口语里常简化成 points）。93% → 96% 是 up three percentage points；要是说 ✗ up three percent，美国同事会理解成「相对增长了 3%」（93 × 1.03 ≈ 95.8%），数字就错了（D68）。② **by vs to**：**by + 变化量**，**to + 新数值**，**from + 原来的数值**（D69）。所以林晓写 has increased **to** 96%（新数值），up three percentage points（变化量）。把两件事放在一起看：✗ The on-time rate increased by 96%.——成了「增长了 96%」，几乎翻倍。percent 跟在数字后面（96 percent），percentage 不跟数字（a high percentage）。林晓自己也承认：开会一紧张，还会把 percent 和 percentage points 说混——这是第三册最常见的数字错误。写周报、开口之前，先问自己：我说的是「差」还是「比例」？是「变化量」还是「新数值」？
+@d_when: 写周报、讲图表、汇报 KPI（D71）；凡是百分比的变化，先分清 points 和 percent、by 和 to。
+@d_vs: **93% → 96%：It has increased to 96%, up three percentage points.**\n**10,400 → 12,000：Orders increased by fifteen percent, to 12,000.**\n**10% → 15%：up five percentage points（= up fifty percent）**\n✗ It increased by three percent.（93% → 96% 时这么说，数字就错了）\n✗ Orders increased to fifteen percent.（成了「增长到 15%」）
+@d_task: 用英文汇报：① 退货率从 8% 降到 6%（用 to 和 percentage points）。② 订单从 2,000 增长到 2,500（用 by 和 to）。 | ① The return rate dropped to six percent. That's down two percentage points. ② Orders increased by twenty-five percent, to 2,500.（或 Orders increased from 2,000 to 2,500.）
+@diff: 「因为罢工」「对客户影响很大」——because / because of / due to；affect / effect（复习 D72）
+@d_cn: 「因为罢工，配送变慢了」「因为加了预警，准时率高了」「这对客户影响很大」——中文「因为」后面接词、接句子都行；「影响」既是动词又是名词。
+@d_en: Delivery times went up due to the strike at the port. / It improved because we added new alerts. / How did this affect our customers? / It had a big effect on Daniel's sales.
+@d_why: 汇报原因时，两组词都要看后面的结构。**because + 完整的句子**（有主语和动词）；**because of / due to + 名词**，due to 更正式，周报、事故报告里很常见（D72）。最常见的错：✗ because the strike（缺动词）；✗ due to there was a strike（due to 后面接了句子）。**affect 是动词**，后面直接接对象，不加 on；**effect / impact 是名词**，前面有 a / big，后面用 on：have a big effect on…。affect `/əˈfekt/` 和 effect `/ɪˈfekt/` 说快了几乎一样，写的时候才露馅——邮件里最常见的是 ✗ The strike effected our customers.。今天林晓写 This was largely due to the new dashboard alerts.：due to 后面是名词短语 the new dashboard alerts；要换成句子，就得说 This was largely because we added new alerts.。
+@d_when: 写周报、写事故报告、回答「为什么数字变了」：先说结果，再用 due to / because 说原因，用 affect / effect 说影响。
+@d_vs: ✓ **This was largely due to the new alerts.**（due to + 名词）\n✓ **It improved because we added new alerts.**（because + 句子）\n✓ **The strike affected 1,150 packages.**（affect 是动词）\n✓ **The strike had a big effect on Daniel's sales.**（effect 是名词 + on）\n✗ because the strike ✗ due to we added alerts ✗ The strike effected our customers.
+@d_task: 改错：① Due to the warehouse was full, orders were late. ② The outage effected about two percent of orders. ③ The new alerts had a big affect on our numbers. | ① Because the warehouse was full, orders were late.（或 Due to a full warehouse, orders were late.）② The outage affected about two percent of orders. ③ The new alerts had a big effect on our numbers.
+@diff: 「这个做不了」「只要……就……」「除非……」——I'm afraid we can't… vs No；as long as / unless（复习 D76、D78、D79）
+@d_cn: 中文「这个做不了」「只要有发票就能赔」「除非买了保险，否则最多赔 100 美元」。
+@d_en: I'm afraid we can't build a custom feature by next week. What we can do is offer a workaround. / As long as you have proof of value, we'll process it. / Unless the package was insured, the maximum is one hundred dollars.
+@d_why: 拒绝时，美国客户不怕听到「不」，怕的是**只有**「不」。一句 ✗ No, we can't do that. / ✗ We refuse your request. 门就关上了；含糊的 ✗ It may be a little difficult. 又会让对方以为还有希望，下周来要结果时更生气。英文的「不」= 理解 + **I'm afraid we can't…**（清楚地说不）+ 一句原因 + **What we can do is…**（替代方案）+ 下一步（D78）；对方正在气头上，先说 I hear you.（D79）。讲条件时，**as long as**「只要」是在给希望；**unless**「除非」= if not，用来说例外（D76）。不要照搬「除非……否则……」写成 ✗ Unless…, otherwise…，也不要再加一个 not（✗ Unless you don't file…，意思全反）。条件句里说将来的事用一般现在时：As long as you **send** the invoice, we'll…（✗ will send）。今天林晓说 When Daniel wanted a custom feature, I didn't just say no. I offered a workaround.——这就是第三册第 3 周最重要的一课。
+@d_when: 回复客户的不合理要求、解释规则和赔偿条件、和同事谈一件不能马上答应的事。
+@d_vs: ✗ No, we can't do that.（门关上了）\n✓ **I'm afraid we can't do that by Friday. What we can do is…**（说不 + 替代方案）\n✓ **As long as you file within thirty days, we'll process it.**（只要，给希望）\n✓ **Unless the package was insured, the maximum is $100.**（除非，说例外）\n✗ Unless it was insured, otherwise… ✗ Unless you don't file…
+@d_task: Priya 要求免费用一年高级版。用英文回复：理解 + 说不 + 替代方案，再用 as long as 加一个条件。 | I understand why you'd like the premium features. I'm afraid we can't offer a free year. What we can do is give you a 30-day trial free of charge. As long as you sign up by Friday, it can start next Monday.
+@diff: 「我没有权限」——access vs permission（复习 D82）
+@d_cn: 「我没权限」「给他开个权限」「权限被收回了」——中文一个「权限」全包了。
+@d_en: I don't have access to the reports page. / I can open the file, but I don't have permission to edit it. / Could you give Leo access to the seller dashboard? / His access was revoked.
+@d_why: **access** 说的是「能不能进去、看得到」，后面接 **to + 地方 / 东西**（系统、页面、文件夹）；**permission** 说的是「被不被允许做某个动作」，常接 **to + 动词**（edit / delete / view）。所以「能看不能改」= I have access to the file, but I don't have permission to edit it.（D82）。「开权限」说 **give sb access to…**（正式一点用 grant），人放在 give 后面，✗ open the permission for him；「权限被收回」用被动：His access was removed / revoked.。别直译「没有权利」：✗ I have no right to open it.——right 是法律、道德上的「权利」，听起来像在维权。申请权限时说清四件事：给谁、开什么、多大的权限、为什么（Could you give Leo read-only access to…? He's helping me with…）。第四册的跨部门项目里，开权限、共享文件几乎天天会用到。
+@d_when: 向 IT 申请权限、说明自己为什么打不开或改不了、交接时说明谁有什么权限。
+@d_vs: ✓ **I don't have access to the reports page.**（进不去）\n✓ **I can open the file, but I don't have permission to edit it.**（能看不能改）\n✓ **Could you give Leo read-only access to the dashboard?**\n✓ **His access was revoked when he left.**\n✗ I have no right to open it. ✗ Could you open the permission for Leo?
+@d_task: 给 Kevin 发消息：Leo 能打开共享文件夹，但不能编辑里面的 FAQ 文件；他这周在更新 FAQ，请给他编辑权限，更新完可以收回。 | Hi Kevin, Leo has access to the shared folder, but he doesn't have permission to edit the FAQ file. He's updating it this week. Could you give him edit access? It can be removed when he's done. Thanks, Lily
+
+@core: I'm responsible for… / I'm their point of contact. / My main job is to… | 来自 D61、D89：介绍岗位职责 | twenty U.S. sellers / the returns process / onboarding new sellers；keep them happy | 正式：I'm the main point of contact for our U.S. sellers.｜随意：Basically, I look after twenty sellers.
+@core: To begin with, … Next, … Once that's done, … Finally, …（配被动） | 来自 D62、D63、D88、D89：讲一个 5–8 步的流程 | we verify the information / the item is checked and graded / the account is activated | 正式：Once an order is placed, a label is generated automatically.｜随意：First we check it, then it goes out.
+@core: I'm writing to… / Please see below for… / Could you please…? / Best regards, | 来自 D65、D75、D80：写目的清楚的工作邮件 | confirm the new delivery times / share my results / follow up on… | 正式：I'm writing to confirm the details of our call.｜随意：Quick note to confirm Friday.
+@core: It has increased to…, up … percentage points. / This was largely due to… / As a result, … | 来自 D68、D69、D72：说数字、趋势和原因 | the on-time rate / 96% / three；the new alerts / the strike at the port | 正式：The on-time rate rose to 96%, largely due to earlier alerts.｜随意：We're at 96 now, up three points.
+@core: Just to confirm, …? / That's a good question. I'm not sure off the top of my head. Let me check and get back to you. | 来自 D66、D73：确认理解、被问住时 | you need it by Friday / the exact number / I'd say around… | 正式：I'd like to double-check that figure and get back to you this afternoon.｜随意：Not sure. Let me check.
+@core: I hear you. I'm afraid we can't… What we can do is… | 来自 D78、D79：安抚客户以后礼貌说不、给替代方案 | build a custom feature by Friday / offer a workaround / meet you halfway | 正式：I completely understand. Unfortunately, we're unable to… However, we can…｜随意：I get it. We can't do that, but here's what we can do.
+@core: It happens every time I… I expected…, but… / It's being held at customs. / As of now, … | 来自 D84、D85、D86：说清系统和物流问题 | click "Export" / a file / a timeout error；back to normal | 正式：The issue was detected at 2:10 p.m. and resolved forty minutes later.｜随意：It keeps crashing when I click Export.
+@core: I've met three of my four objectives. / This quarter, I accomplished… / I'd like to step up and… | 来自 D90：季度总结、绩效面谈 | lead the BrightNest launch / train the new interns / own the weekly report | 正式：Next quarter, I'd welcome the chance to step up and lead a cross-team project.｜随意：I'm ready to step up.
+
+@pw: evaluation | ɪˌvæljuˈeɪʃn | 5 个音节 e·val·u·A·tion | 主重音在 a `/eɪ/`；开头的 e 读轻的 `/ɪ/`；val 读 `/væl/`，嘴张大；tion 读 `/ʃn/`
+@pw: objective | əbˈdʒektɪv | 3 个音节 ob·JEC·tive | 重音在 jec；ob 弱读成 `/əb/`；结尾的 v 上齿轻咬下唇，别读成 f，也别丢掉；复数 objectives 结尾是 `/vz/`
+@pw: accomplish | əˈkɑːmplɪʃ | 3 个音节 ac·COM·plish | 重音在 com，美式 o 读 `/ɑː/`，嘴张大；开头 ac 弱读成 `/ə/`；结尾 sh 只送气，不加「诗」
+@pw: competent | ˈkɑːmpətənt | 3 个音节 COM·pe·tent | 重音在前，后两个音节都弱读成 `/pətənt/`；别读成 com-PE-tent；和 competitive（com-PET-i-tive）的重音位置不同
+@pw: recognition | ˌrekəɡˈnɪʃn | 4 个音节 rec·og·NI·tion | 主重音在 ni，rec 是次重音；og 弱读成 `/əɡ/`，g 不要吞；和 recognize（REC-og-nize）的重音位置不同
+@ps: The **on**-time rate has in**creased** to **nine**ty-**six** percent. / That's **up** **three** per**cent**age points. | has 弱读成 `/əz/`，和 increased 连成 zin-CREASED；to 弱读成 `/tə/`；ninety 的 t 闪音，像轻轻的 d：NINE-dee；percentage 重音在 cent；「涨了多少」这半句 up three 要读重，收尾语调往下落。
+@ps: I'm **not** sure / off the **top** of my **head**. / Let me **check** and get **back**‿to you. | off the top of my head 是一个整块，重音只落在 top 和 head，其余小词都弱读；back to 连读，to 弱读成 `/tə/`；说「不确定」时语气平稳，不拖长、不道歉，听起来反而更专业。
+@ps: **Next** **quar**ter, / I **need**‿you to step **up**. | step up 是短语动词，重音落在小词 up 上（step UP），p 和 up 连成 ste-pup；need you 连读成 `/ˈniːdʒu/`，d 碰到 y 变成 j 的音；quarter 的 t 闪音：QUAR-der。
+@pnote: 第三册数字总复习：96% 读 ninety-six percent，别和 sixty-nine 听混；three percentage points 里 percentage 重音在 CENT，口语常简化成 three points；1,150 读 one thousand one hundred fifty，口语也常说 eleven hundred fifty；3.4 读 three point four（不说 dot）；thirteen（重音在 TEEN）和 thirty（重音在 THIR）靠重音区分。写和说不一样：邮件里写 96%、1,150、Q3，嘴上要说完整——ninety-six percent、eleven hundred fifty、the third quarter。
+@pnote: 第三册弱读总复习：被动和完成时里的 be / have 在正常语速里只剩一个轻音——has increased `/əz ɪnˈkriːst/`、were expedited `/wər/`、is still pending `/ɪz/`、will go live 里的 will 缩成 'll。听的时候抓后面的过去分词（increased / expedited / detected），说和写的时候别漏前面的 be。can / can't 也要分清：肯定句里的 can 弱读成 `/kən/`；I'm afraid we can't 里的 can't 读得完整、略重 `/kænt/`，否则客户会听成「能」。
+@lfocus: 96%（ninety-six）/ three percentage points / 1,150 / about sixty——数字
+@lfocus: has increased / were expedited / will go live 里弱读的 has / were / will
+@lfocus: off the top of my head、get back to you、need you to step up 里的连读
+@dict: S6–S8
+@dict: S22–S24
+@res: 在 youglish.com 输入 "step up and"，选 US，听美国人说「站出来承担」时，后面接的是什么动作。
+
+@mimic: 合上书，不看【C】，按下面 10 个关键词提示，先用林晓的口吻（I…）讲她的季度总结和评估面谈，再用第三人称（Lily… She…）讲一遍，并录音：① 进公司三个月 / 周五 / 第一份季度总结 ② I'm writing to… / 周一评估 / 四个目标完成三个 ③ 接手 Jack 的卖家以来 / 准时率提高到 96% / 高了三个百分点 ④ 主要原因：看板新预警 / 实时看到延误 ⑤ 最大问题：港口罢工 / Daniel 1,150 个包裹延误 / 每天更新 / 加急订单优先处理（被动）⑥ 还没完成：BrightNest 对接下个月上线 / 明细见下 ⑦ 周一面谈 / 邮件写得好 / 两分钟版本 / walk you through / 负责 20 个卖家、对接人 ⑧ Daniel 要定制功能 / 没只说不 / 变通方案 ⑨ 最自豪：愤怒客户的电话 / 三个月前紧张 → 现在能胜任 / 先听、I hear you、给回电时间 ⑩ 投诉多少：说不准、大概六十、查了再回复 / 弱点：百分比和百分点 / 点名表扬 = 认可 / step up / 牵头 BrightNest 上线 / 让各方保持同步 / 三个团队两个时区，准备好了。第三人称版专门检查：She has worked…（不是 She have）、She's responsible for…、Tom wants her to step up、his urgent orders were expedited（被动别漏 were），以及 percentage points 有没有说对。
+@swap: Since I took over Jack's accounts, their on-time rate has increased to 96%. | 换接手的工作和数字：the returns process / our response time / dropped to two hours；the BrightNest account / weekly orders / increased to 15,000 | Since I took over the returns process, our response time has dropped to two hours.
+@swap: This was largely due to the new dashboard alerts. | 换原因（due to 后面接名词）：faster customs clearance / our new handover workflow with Seattle / the holiday sale | This was largely due to our new handover workflow with Seattle.
+@swap: Now I feel competent. I listen, say "I hear you," and give a callback time. | 换成你自己能胜任的事，再补一句怎么做：writing work emails / reading charts / explaining our returns process | Now I feel competent at writing work emails. I put the main point in the first line.
+@swap: Next quarter, I need you to step up. You'll lead the BrightNest launch. | 换成你主动说：I'd like to step up and…；train the new interns / lead the UK project / own the weekly report | Next quarter, I'd like to step up and train the new interns.
+@free: 卖家 Sarah 问 4721 号订单到哪了：已经发出，但正被美国海关扣着，因为发票上没写原产国；报关行正在补材料，一般两天内放行。（D63、D85） | Your order has been shipped, but it's being held at customs. The invoice doesn't show the country of origin. Our broker is fixing the paperwork, and the hold is usually lifted within two days.
+@free: 周会上张涛问上个月的退货率：从 8% 降到了 6%，降了两个百分点，主要因为卖家在商品图上加了尺寸。（D68、D69、D72） | The return rate dropped to six percent last month. That's down two percentage points. This was largely due to the new measurements in product photos.
+@free: Daniel 要求所有丢件都按全额赔偿：先表示理解，再说做不到、讲规则（除非买了保险），最后给一个替代方案。（D76、D78、D79） | I hear you, Daniel, and I understand why you're asking. I'm afraid we can't pay the full value on every lost package. Unless a package is insured, the maximum is one hundred dollars. What we can do is add insurance to your high-value orders from now on.
+@free: Leo 要做一份退货报表，可他打不开财务文件夹：给 Kevin 发消息，申请只读权限，说明原因和期限。（D82） | Hi Kevin, could you give Leo read-only access to the finance folder? He's preparing a returns report for me, and he won't change anything. He only needs it until Friday. Thanks!
+@free: Mike 问卖家说的「系统又出问题了」到底是什么问题：按「做了什么 → 期望 → 实际 → 多久一次」说清楚，再说你这边的情况和下一步。（D84、D87） | Sellers can't print labels on mobile. When they tap "Print," they expect a PDF, but the page goes blank. It happens every time on mobile. On my end, it works fine on desktop. I'll send you the steps to reproduce it by end of day, Shenzhen time.
+@free: 季度面谈时经理问 What are your objectives for next quarter?：先说你有两个目标，再分别说清楚，最后说你想承担更多（step up）。（D71、D90） | I have two objectives for next quarter. First, I want to get my sellers' on-time rate to 97 percent. Second, I'd like to step up and lead the onboarding of new sellers.
+@output: 第三册测评（25 分钟里的前 17 分钟）。（a）2 分钟口头工作汇报：① 准备 4 分钟，纸上只写 4 组中文关键词，不写英文句子——我的职责 / 一个流程 / 一个数字（趋势 + 原因）/ 一个问题和怎么处理的。② 录 2 分钟，中间不停、不重来：Let me walk you through… → 职责（I'm responsible for… / I'm their point of contact，D61）→ 一个 4–6 步的流程（To begin with… / Once that's done… / Finally…，至少两句被动，D62、D63）→ 一个数字（It has increased to… / up … percentage points / This was largely due to…，D68–D72）→ 一个问题和处理（发生了什么 → 我做了什么 → 结果，D77–D79、D84–D86）→ 一句下季度的打算（I'd like to step up and…）。没有工作，就讲你学习或做家务、带孩子的「职责」和一件真实的事。③ 把 Day 60 的录音和今天的放在一起听（约 3 分钟）：今天第一句是不是结论？说了多长？用了几个被动句、几个数字？percentage points、by / to、due to 用对了没有？she / he 后面的 -s 和过去时稳不稳？（b）写一封 8–10 句的工作邮件（8 分钟）：给一位客户或同事说明一个问题——目的（I'm writing to…）→ 发生了什么、影响多大（被动 + 数字）→ 原因（due to / because）→ 你们做了什么 → 对一个做不到的要求礼貌说不、给替代方案 → 一个带时间的请求（Could you please…?）→ Best regards。写完检查：第一句是不是目的？有没有多余的寒暄和套话？说实话：三个月不会让任何人的工作英语变得像母语者——你要找的是「先说结论、数字说得准、问题说得具体、拒绝有替代方案」，以及比 Day 60 更长、更有条理。
+@output_sample: （a）Let me walk you through my work this quarter. I'm an account manager at SwiftLink, and I'm responsible for twenty U.S. sellers. I'm their point of contact, so they come to me first. One process I handle every week is onboarding. To begin with, we verify the seller's information. Next, the product template is uploaded to the system. Then we configure the settings and submit the request. Once that's done, the account needs my manager's approval. Finally, the account is activated. Now, one number. The on-time rate for my sellers has increased to ninety-six percent. That's up three percentage points since I took over. This was largely due to the new dashboard alerts. We now see delays in hours, not days, so packages can be rerouted earlier. There was one big problem this quarter. During a port strike, about eleven hundred of one seller's packages were delayed, and he was really upset. I listened, I explained the cause, and I sent him an update every day. His urgent orders were expedited, and within a week, everything was back to normal. To be honest, numbers in meetings are still hard for me, but I'm getting better. Next quarter, I'd like to step up and lead a cross-team project. Any questions?\n（b）Hi Daniel, I'm writing to update you on Tuesday's label problem. About forty of your orders were affected, and they were shipped one day late. This was due to a bug in our label system, not your data. The bug was fixed on Wednesday morning, and as of now, everything is back to normal. We sincerely apologize for the delay. You asked for a full refund of the shipping costs. I'm afraid we can't offer that, because all forty packages were delivered. What we can do is add a one-month credit to your account. Could you please let me know by Friday if that works for you? Best regards, Lily
+
+@check: （听力，不看原文回答）张涛问林晓这个季度最让她自豪的是什么，她怎么回答？三个月前和现在有什么不同？ | 处理愤怒客户的电话（Angry calls.）。三个月前她每次打电话都紧张；现在她觉得能胜任了：先听，说 I hear you，再给一个回电时间。
+@check: （听力，不看原文回答）张涛问她处理了多少起投诉，她怎么回答？张涛下个季度要她做什么？ | 她一下子说不准（I'm not sure off the top of my head），大概六十起，查清楚再回复。下个季度张涛要她 step up：牵头和 Mike 的团队一起做 BrightNest 的上线，让各方保持同步。
+@check: 改错并说明理由：① The package has been delivered yesterday. ② Refunds handle by the finance team. | ① The package was delivered yesterday.（有具体的过去时间 yesterday，用过去时的被动 was delivered）② Refunds are handled by the finance team.（东西做主语要用被动，别漏 are）
+@check: 准时率从 94.5% 升到了 96%：用英文汇报，一句用 to，一句用 percentage points，并把数字读出来。 | The on-time rate has increased to ninety-six percent. That's up one point five percentage points.（94.5 读 ninety-four point five；不说 up 1.5 percent）
+@check: 把这封邮件的开头改成「先说目的」：Dear Mr. Ross, I hope this email finds you well. I am Lily from SwiftLink. As you know, last week was very busy for everyone… 你真正要说的是：他的 200 个订单今天上午已经从仓库发出了。 | Hi Daniel, I'm writing to confirm that your 200 orders left the warehouse this morning.（第一句就说目的；他认识你，不用自我介绍，也不用 I hope this email finds you well 这类寒暄，D65）
+@check: Sarah 丢了一个 300 美元的台灯包裹，寄件时没有申报货值、也没买保险。用英文回复：表示遗憾，用 According to our policy 和 unless 讲清规则，再说你能做什么。 | I'm so sorry about the lost lamp, Sarah. According to our policy, lost packages are eligible for compensation. Unless the package was insured, the maximum is one hundred dollars. What I can do is file the claim for you today.
+@check: 卖家只说了一句 Your system has a problem.。问清楚以后，用三句话给 Mike 说明：做了什么、期望什么、实际发生了什么、多久一次。 | When sellers click "Print label" on mobile, they expect a PDF, but the page goes blank. It happens every time on mobile. It works fine on desktop.（D84 报 bug 四要素：what I did / what I expected / what actually happened / how often）
+@check: 季度面谈时经理问你：What did you accomplish this quarter? And what's next?——用两三句回答，用上 accomplish、objective 和 step up。 | This quarter, I accomplished two of my main objectives: faster replies and fewer late packages. Next quarter, I'd like to step up and lead the onboarding of new sellers.
+
+@assess: 用英文介绍自己的岗位职责：I'm responsible for… / I'm their point of contact. / My main job is to… | D61、D89
+@assess: 讲清一个 5–8 步的工作流程：To begin with… / Next… / Once that's done… / Finally…，一般现在时 + 被动 | D62、D63、D88、D89
+@assess: 用被动语态说明东西、分工和事故：The order has been shipped. / Refunds are handled by… / It's being held at customs. / The outage was detected at… | D63、D64、D85、D86
+@assess: 写一封目的清楚的工作邮件：第一句 I'm writing to…，Please see below，Could you please…?，结尾一句 + Best regards，没有多余寒暄 | D65、D75、D80
+@assess: 确认自己理解对了：Just to confirm… / Do you mean…? / In other words… / So, if I understand correctly… | D66、D79
+@assess: 读准大数字、小数、分数、百分比和百分点（1.2 million / 6.5 / a third / 94 out of 100 / two percentage points），听得出 thirteen 和 thirty | D68、D70
+@assess: 描述趋势和原因：increase by / to、drop sharply、stay flat；due to / because of / as a result；affect / effect | D69、D72
+@assess: 讲一张图、写一份周报：As you can see… / account for / the majority of；Overall… / pending / at risk / next steps | D70、D71
+@assess: 被问住时不慌：That's a good question. / I'm not sure off the top of my head. / I'd say… / Let me check and get back to you. / Can we take this offline? | D73
+@assess: 回复咨询、解释规则、道歉补救：at the moment / free of charge / According to our policy / as long as / unless / We sincerely apologize for… / As a goodwill gesture… | D75、D76、D77
+@assess: 礼貌拒绝并给替代方案、安抚电话里的愤怒客户、礼貌跟进：I'm afraid we can't… What we can do is… / I hear you. / Leave it with me. / Just following up on… | D78、D79、D80
+@assess: 说清系统和物流问题：access / permission，用比喻讲 API，bug 四要素，物流异常，事故说明；跨时区交接说清时区（by end of day, Shenzhen time） | D82–D87
+
+@weak: 被动语态漏掉 be 动词、分词写错或时态用错（✗ Refunds handle by finance. ✗ It was ship. ✗ It has been picked up at nine.） | 开口前先问「主语是人还是东西？」；每天用 is / was / has been / is being 各说一句关于工作的被动句；重做 D63【E】第 1、2 组、D64【E】第 4 组、D85【E】第 1 组、D86【E】第 1 组和今天【E】第 1 组
+@weak: percent 和 percentage point 混用；increase by / to 用反（✗ up three percent ✗ increased to fifteen percent） | 写周报、开口之前默念「差 → points，新数值 → to，变化量 → by」；每天把一个真实数字（体重、电量、股价）用 to 和 by 各说一遍；重做 D68【E】第 3 组、D69【E】第 1 组和今天【E】第 2 组
+@weak: 邮件开头仍先寒暄、自我介绍，目的放在最后；结尾套话太多 | 每封邮件写完先删掉第一段寒暄，检查第一句是不是 I'm writing to… 或结论；结尾只留一句请求 + Best regards；重做 D65【E】第 1、4 组、D75【E】第 1 组、D80【E】第 1 组
+@weak: 拒绝时只说 No / We can't，没有原因和替代方案；unless 后面又加 otherwise 或 not | 按「理解 → I'm afraid… → 一句原因 → What we can do is… → 下一步」写 3 封拒绝邮件；重做 D78【E】第 1、2、3 组、D76【E】第 1 组和今天【E】第 4 组
+@weak: 描述问题太笼统（The system has a problem.），缺少「做了什么 → 期望 → 实际 → 多久一次」 | 每次报问题先写四行：what I did / what I expected / what actually happened / how often；重做 D84【E】第 1、3 组、D85【E】第 2 组、D86【E】第 1、4 组
+@weak: 因果和影响的结构说错（✗ because the strike ✗ due to there was a strike ✗ The strike effected…） | 每天用 due to + 名词、because + 句子各说一句今天发生的事；重做 D72【E】第 1、2、3 组和今天【E】第 3 组
+@weak: 第二册的完成时 / 过去时和第一册的第三人称 -s 在快速说话时仍会出错（✗ I've met him yesterday. ✗ Kevin manage access.） | 用第三人称复述今天的【C】（Lily has worked… She's responsible for… Tom wants…），录音后专门听 -s 和 has；重做第一册 D4【E】第 3 组，第二册 D32【E】第 1 组、D36【E】第 2 组，以及 D89【E】第 1 组
+@weak: 听力：正常语速里的数字（thirteen / thirty、ninety-six / sixty-nine、小数）和弱读的 is / was / has been 仍然听不出 | 重做 D68、D70、D86 的【G】听写和今天【G】的 2 段听写；每天听写 3 个带数字的句子；在 youglish.com 输入 "percentage points"，选 US
+
+@improve: 每天保持三件事：① 再忙也有 30 分钟保底（热身 10 + 朗读【C】10 + 【H】第 3 层 10），一天都不断；② 每天出声，至少 1 段录音按日期存档；③ 每周五用 2 分钟给自己做一次「周报」（Overall… → 一个数字和原因 → 一个问题 → next steps），每周写一封 6–10 句、第一句就说目的的邮件。实话实说：三个月不会让任何人的工作英语变得像母语者——第三册的目标是「能把工作说清楚」：先说结论、数字说准、问题说具体、拒绝有替代方案。偶尔漏 be、说错 by / to 很正常，第四册还会反复练。
+@improve: 把薄弱项带进第四册的热身：从上面的「薄弱项目记录」里选 2–3 个你打了勾的（最常见的是被动漏 be、percentage points 和 by / to、邮件先寒暄、拒绝没有替代方案、问题说得太笼统），写在第四册 Day 91–96 的热身旁边，每天多说 1 句针对它的句子（比如：The bug was fixed overnight. / It's up two percentage points.）；Day 97 复习日检查它还在不在。
+@improve: 第四册新增①商务邮件进阶：请求、跟进、催促、确认、改期的完整邮件，以及怎么调整正式程度——在第三册 I'm writing to… / Just following up on… / I was wondering if…（D65、D80）的基础上，写得更完整，也更有分寸。
+@improve: 第四册新增②会议：开场、发表意见、同意与反对、打断与澄清、总结行动项；还有转述别人的话（He said that… / She asked whether…）。第三册的 Just to confirm…（D66）、next steps / action item（D71）、off the top of my head / take this offline（D73）都会在会议里直接用上。
+@improve: 第四册新增③问题说明与方案沟通：把问题讲成「现象 → 原因 → 影响 → 临时方案 → 长期方案」（接着 D84–D86 的 bug 报告和事故说明往下走），比较选项、给出建议、推动决策、跟踪项目进度，并用条件句提方案（If we…, we could…）。主线就是今天张涛交给林晓的任务：她要牵头 BrightNest 的上线，协调深圳运营、西雅图工程和美国客户三方，会遇到延期、系统故障和需求变更。被动语态、数字读法、趋势表达不再从零讲，只在热身、复习日和易混检查里继续出现。
+
+@next1: 不看书说出 S4、S5、S19、S21、S28、S29（evaluation / objectives / accomplish / competent / recognition / step up）
+@next1: 把「薄弱项目记录」里打勾的 2–3 项抄到第四册 Day 91 的热身旁边
+@next7: 把 Day 30、Day 60、Day 90 的三段录音放在一起听，再录一次 2 分钟「我这一周的工作」，比较长度、是不是结论先行、数字和被动句用得对不对
+@next7: 再做一遍【E】5 组易混表达的小任务；还会错的那组，写进 Day 97 复习日的薄弱项
