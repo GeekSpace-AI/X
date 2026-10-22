@@ -1,0 +1,171 @@
+@day: 117
+@week: 4
+@title_cn: 推动决策
+@title_en: Getting a Decision
+@topic: 推动客户高层和经理在期限内拍板：写决策请求邮件（要什么决定、什么时候前 → 两个选项 → 再拖的后果），会上把讨论收拢成一个是非问题，会后把内部取舍交给该拍板的人
+@think_short: 「我们需要在周五前做决定」We need a decision by Friday.｜「那就这么定了？」Can we agree that…?｜「再拖就来不及了」If we hold off any longer, we'll…｜「您来定」It's your call.
+
+@goal_scene: Priya 的退货跟踪变更申请卡了一个星期，没人拍板，上线窗口越来越近。你先给 BrightNest 的副总裁 Karen 写一封决策请求邮件：第一句就说需要什么决定、什么时候之前要，再用两句话摆出两个选项和后果；然后在电话会上回答她对风险的追问，把讨论收拢成一个「行还是不行」的问题；最后回到自己团队，把一个内部的取舍交给经理拍板。
+@goal_expr: We need a decision by Friday. / Option A is to… Option B is to… / If we hold off any longer, we'll miss the launch window. / Option B is reversible. / I'd like to get closure on this today. / Can we agree that we'll go with Option B? / Karen gave us the green light this morning. / Both work for me. It's your call, Tom.
+@goal_vocab: 20 个重点词 + 5 个短语：决策人与权限、卡住与推进、能不能撤回、利害与余地、拍板的固定说法
+@done: 能写一封决策请求邮件：第一句 We need a decision on… by…，再用 Option A is to… / Option B is to… 各一句摆出选项，用 If we hold off any longer, we'll… 说清再拖的后果
+@done: 能在会上先说 I'd like to get closure on this today.，再用 Can we agree that…? 把讨论收拢成一个是非问题；拿到同意后用 … gave us the green light 转告别人
+@done: 能分清 It's your call. / I'll leave it to you. / Up to you. / Whatever you think. 的分寸：先把选项讲清楚，再把决定权交给该拍板的人
+
+@warmup: 总体来看，项目亮黄灯。 | Overall, the project is amber. | D116
+@warmup: 上线前我们有两天的缓冲时间。 | We have a two-day buffer before the launch. | D116
+@warmup: 底线是：我们仍然可以在 28 号上线。 | The bottom line is we can still launch on the 28th. | D116
+@warmup: 根据这些数字，我建议选方案 B。 | Based on these numbers, I'd recommend Option B. | D113
+@warmup: 我已经等了二十分钟了。 | I've been waiting for twenty minutes. | D34
+@warmup: 恐怕我们没办法在下周之前做出一个定制功能。 | I'm afraid we can't build a custom feature by next week. | D78
+
+@scene: Priya 要加退货跟踪，林晓按上周的思路写好了变更申请：先做一个基础版，把定制报表挪到第二期，10 月 28 日的上线日期不变。可一个星期过去了，申请还卡在 BrightNest 那边——Priya 说这么大的事她做不了主，要等 Karen；Karen 正忙着准备董事会的季度汇报。Mike 的团队两个功能都不敢动。更要命的是，BrightNest 的 IT 部门 11 月要冻结一切系统变更，一旦错过 10 月底，上线很可能要拖到明年。林晓决定不再等：她给最终拍板的 Karen 写了一封短而直接的邮件，第二天深圳上午九点（美国那边是前一天傍晚）就约到了一个电话会。Karen 时间少、只听结论，可她从不随便签字，一定要先弄清风险。会后，林晓还要回到自己的团队，处理一个内部取舍：用掉一天缓冲时间，还是让 Ana 周六加班测试？
+@sp: 人物关系 | 林晓 ↔ Karen：服务方的项目协调人和客户方的副总裁，级别差得远，要尊重、简短，但不能含糊；Priya 是 Karen 的下属，这次没有拍板的权限；Raj 对技术变更有否决权；林晓 ↔ 张涛：内部汇报关系，张涛是项目负责人，内部取舍由他拍板
+@sp: 沟通目的 | 让卡了一周的变更申请在期限前有个明确结论；会上拿到一个清清楚楚的 yes；会后让张涛就「缓冲时间还是周六加班」做决定，团队马上开工
+@sp: 已知信息 | Karen 知道有个变更申请，但没细看；董事会给她的任务是赶在节日旺季前上线；Raj 昨天已经同意了方案 B；BrightNest 的 IT 部门 11 月冻结变更；Mike 说测试是唯一的瓶颈，团队只有两天缓冲
+@sp: 表达重点 | 邮件：第一句说要什么决定、什么时候前 → 两个选项各一句 → 再拖的后果 → 恳请尽快决定；电话会：讲风险（reversible / irreversible）→ I'd like to get closure on this today. → Can we agree that…? → 确认下一步；会后：转告结果（gave us the green light）→ 把内部取舍交给张涛（It's your call, Tom.）
+
+@story_title: Episode 117 · The Green Light
+@story_type: 决策请求邮件 + 电话会 + 内部碰头
+@s: The change request has **stalled**. Nobody has said yes or no for a week. | 变更申请卡住了：一个星期过去，谁都没说行还是不行。
+@s: Lily writes to Karen, the final **decision-maker**, and copies Tom and Priya: | 林晓给最终拍板的 Karen 写邮件，抄送张涛和 Priya：
+@s: Dear Karen, | Karen 您好：
+@s: We need a decision by Friday. | 我们需要您在周五前做个决定。
+@s: It's about Priya's request to add returns tracking. | 是关于 Priya 提出的增加退货跟踪的需求。
+@s: Option A is to add it now and push the launch by two weeks. | 方案 A：现在就加，上线推迟两周。
+@s: Option B is to build a basic version and move the custom reports to phase two. | 方案 B：先做一个基础版，把定制报表挪到第二期。
+@s: With Option B, we can still launch on October 28. | 选方案 B，我们仍然能在 10 月 28 日上线。
+@s: Meanwhile, Mike's team is **holding off on** both features. | 眼下，Mike 的团队两个功能都先停着没动。
+@s: If we hold off any longer, we'll miss the launch window. | 如果再拖下去，我们就会错过上线的时间窗口。
+@s: Given the **stakes**, I'd **urge** a quick decision. | 这件事关系重大，恳请您尽快决定。
+@s: Best regards,\nLily | 此致，\n林晓
+@br:
+@s: The next morning, Karen joins a short call with Tom, Priya, Mike and Lily. | 第二天上午，Karen 和张涛、Priya、Mike、林晓开了一个简短的电话会。
+@s: Karen: My **mandate** from the **board** is simple: launch before the holiday peak. | Karen：董事会交给我的任务很简单：赶在节日旺季之前上线。
+@s: Priya: Does this need to go to the change **committee**? | Priya：这件事需要上变更委员会吗？
+@s: Karen: No, it's within my **authority**. But I don't **rubber-stamp** anything. | Karen：不用，这在我的权限之内。不过我从来不闭着眼睛签字。
+@s: Karen: So what are the risks? | Karen：那风险在哪儿？
+@s: Mike: Option B is **reversible**. If returns tracking causes trouble, we switch it off. | Mike：方案 B 是可以撤回的。退货跟踪要是出了问题，我们把它关掉就行。
+@s: Lily: Pushing the launch is almost **irreversible**. Your IT team freezes all changes in November. | 林晓：推迟上线却几乎没有回头路——你们的 IT 部门 11 月会冻结所有系统变更。
+@s: Karen: Does Raj agree? He has a **veto** on technical changes. | Karen：Raj 同意吗？技术上的变更他有一票否决权。
+@s: Priya: Yes, he gave his **consent** yesterday. | Priya：同意，他昨天就点头了。
+@s: Lily: Then I'd like to get **closure** on this today. | 林晓：那我希望今天就把这件事定下来。
+@s: Lily: **Can we agree that** we'll go with Option B? | 林晓：我们能不能就定下来，选方案 B？
+@s: Karen: Yes. We've **deliberated** long enough. Please **proceed**. | Karen：可以。我们讨论得够久了，请推进吧。
+@s: Karen: Once I sign the change request, it's **binding**. | Karen：变更申请我一签字，就正式生效。
+@s: Karen: And from now on, I'm **empowering** Priya to **make a call** on small changes like this. | Karen：还有，从今以后，像这样的小变更，我授权 Priya 自己拍板。
+@br:
+@s: That afternoon, Lily updates Emma and Leo. Tom joins them. | 当天下午，林晓向 Emma 和 Leo 通报情况，张涛也过来了。
+@s: Lily: Karen **gave us the green light** this morning. | 林晓：今天上午 Karen 给我们开了绿灯。
+@s: Emma: Great, that **unblocks** us. **At this point**, testing is the only problem. | Emma：太好了，我们终于可以动了。到了这一步，唯一的问题就是测试。
+@s: Lily: Mike says either we use one day of the buffer, or Ana tests on Saturday. | 林晓：Mike 说，要么用掉一天缓冲时间，要么 Ana 周六加班测试。
+@s: Lily: Both work for me. It's your call, Tom. | 林晓：两个我都可以。张涛，您来定。
+@s: Tom: Use the buffer. A tired team makes mistakes. | 张涛：用缓冲时间。人一累就容易出错。
+@s: Emma: Okay, but that leaves us only one day of **leeway**. | Emma：好，不过那样我们就只剩一天的余地了。
+@s: Tom: Then let's not waste it. | 张涛：那就别浪费它。
+
+@v: stalled | stall | v./n. | stɔːld | （事情）卡住；停滞不前 | 说一件事没有进展、没人推动 | the project stalled；talks have stalled；stall for time（故意拖时间） | The deal stalled because nobody wanted to sign. | 这笔交易卡住了，因为谁都不愿意签字。 | 中文「卡住了」「搁着没动」说的是事情，英文用 stall：The request has stalled.；把「卡住」说成事情的状态，比 ✗ Priya hasn't answered. 更不伤面子；它也可以指人故意拖：Stop stalling!（别磨蹭了）；本义是汽车「熄火」：My car stalled.；all 读 `/ɔːl/`，不读「斯道」。
+@v: decision-maker | = | n. | dɪˈsɪʒn ˌmeɪkər | 决策人；拍板的人 | 弄清楚一件事最终谁说了算 | the final decision-maker；the key decision-makers；get the decision-maker on the call | We need the decision-maker in the meeting, not just her team. | 我们需要拍板的人来开会，不能只有她的团队。 | 中文「领导」「上面」很笼统；推动决策时先问一句 Who's the decision-maker?，找到真正能说 yes 的人，否则邮件写得再好也会卡住；复合名词，重音在前：deˈcision-ˌmaker；也可以不加连字符写成 decision maker。
+@v: holding off on | hold off on | phr. | ˌhoʊldɪŋ ˈɔːf ɑːn | 暂时不做；先压着不动（有意地等一等） | 因为在等结果、等决定，先不开始某件事 | hold off on hiring；hold off on the launch；hold off until Friday | Let's hold off on booking the hotel until the dates are final. | 等日期定了再订酒店吧。 | on 后面接名词或 -ing：hold off on booking，✗ hold off on book；不带宾语时去掉 on：If we hold off any longer…；hold off 是「先不做，以后可能做」，和 stop（停掉）不一样；重音在 off 上：hold OFF。
+@v: stakes | = | n. | steɪks | （成败）关系到的利害；风险和代价 | 说一件事有多重要、做错了损失多大 | the stakes are high；high stakes；raise the stakes | The stakes are high: this client brings in half of our revenue. | 这件事关系重大：这个客户带来我们一半的收入。 | 「事关重大」说 The stakes are high.，stakes 用复数，动词用 are；放在名词前写成 high-stakes：a high-stakes meeting；和 steaks（牛排）读音完全一样，都是 `/steɪks/`，靠上下文分辨。
+@v: urge | = | v. | ɜːrdʒ | 敦促；强烈建议 | 事情紧迫或重要、需要郑重提醒对方时 | urge sb to do sth；urge caution；strongly urge | I'd urge you to read the contract before you sign it. | 我强烈建议你签字前先把合同读一遍。 | 语气比 suggest、recommend 重得多，有「我很认真、很着急」的意思，一封邮件里最多用一次；对上级和客户加 I'd 软化：I'd urge a quick decision.；结构是 urge sb to do sth，✗ urge sb do sth；ur 是卷舌的 `/ɜːr/`，ge 读 `/dʒ/`。
+@v: mandate | = | n./v. | ˈmændeɪt | （上级、董事会交给的）任务；授权 | 说一个人奉命要达成什么、有没有权做某事 | a clear mandate；a mandate from the board；have a mandate to… | Our team has a mandate to cut costs by ten percent this year. | 我们团队今年的任务是把成本降低 10%。 | 比 task、job 正式，强调「是上面授权、交代下来的」：My mandate from the board is…＝董事会要我做的就是……；作动词是「强制要求」：The new policy mandates two approvals.；重音在前 MAN-date，a 读 `/æ/`，嘴张大。
+@v: board | = | n. | bɔːrd | 董事会 | 公司治理、高层汇报 | the board；a board meeting；a board member | Karen reports to the board every quarter. | Karen 每个季度都要向董事会汇报。 | 「董事会」说 the board（全称 the board of directors），前面一般加 the；第三册 Day 89 的 boardroom 就是开董事会的房间；board 还有「木板」「登机」等意思：board the plane，靠上下文分辨；oar 读 `/ɔːr/`，要卷舌。
+@v: committee | = | n. | kəˈmɪti | 委员会 | 正式的审批流程：一件事要不要「上会」 | a steering committee；a change committee；go to the committee | The budget has to go to the finance committee. | 预算得上财务委员会审批。 | 拼写是双 m、双 t、双 e：committee；重音在第二个音节 com-MIT-tee，✗ COM-mit-tee；「要不要上会」说 Does this need to go to the committee?；美式英语里 committee 作主语一般用单数动词：The committee meets on Mondays.
+@v: authority | = | n. | əˈθɔːrəti | 权力；权限；（做决定的）职权 | 说一个人有没有权批准某事 | within my authority；have the authority to…；the authorities（政府主管部门） | Only the manager has the authority to approve refunds over $500. | 只有经理有权批准 500 美元以上的退款。 | 「在我的权限之内」it's within my authority，「超出我的权限」it's beyond my authority；复数 the authorities 指警方、海关等政府部门，和「权限」不是一回事；th 是 `/θ/`，舌尖轻咬，✗ 读成 s。
+@v: rubber-stamp | = | v./n. | ˌrʌbər ˈstæmp | 不加审查地批准；走过场签字（橡皮图章） | 说批准只是形式、并不认真看 | rubber-stamp a decision；just rubber-stamp it；a rubber stamp | The committee doesn't just rubber-stamp our plans. It asks hard questions. | 委员会不会对我们的计划走过场，它会问很尖锐的问题。 | 带贬义：说自己 I don't rubber-stamp anything 是表示「我很认真」；请人批准时千万别说 ✗ Could you just rubber-stamp this?——等于说「您随便签一下」，对高层很失礼；作动词时常加连字符。
+@v: reversible | = | adj. | rɪˈvɜːrsəbl | 可以撤回的；可逆的 | 评估一个决定的风险：做错了能不能改回来 | a reversible decision；easily reversible；fully reversible | Don't worry. The change is fully reversible. | 别担心，这个改动可以完全撤回。 | 推动决策时很好用：先说清 It's reversible.，对方更容易点头；动词 reverse 是「撤销、逆转」；er 是卷舌的 `/ɜːr/`，结尾 -ible 弱读成 `/əbl/`，不读「伊布」。
+@v: irreversible | = | adj. | ˌɪrɪˈvɜːrsəbl | 不可逆的；无法挽回的 | 提醒某个决定一旦做了就回不了头 | an irreversible decision；irreversible damage；almost irreversible | Deleting your account is irreversible, so please be careful. | 删除账号后无法恢复，请谨慎操作。 | 前缀 ir- 表示「不」（irregular、irrelevant 都是），所以拼写双 r；「没有回头路」可以说 It's irreversible. 或口语的 There's no going back.；比 can't be changed 正式，常见于软件提示和商业决策。
+@v: veto | = | n./v. | ˈviːtoʊ | 否决权；否决 | 说谁有权一票否决 | have a veto on/over…；veto a plan；use one's veto | The CEO vetoed the new logo. | CEO 否决了新的标志。 | 中文「一票否决权」就是 a veto；He has a veto on… 只说「他有否决权」，不代表他会用；名词复数和动词三单都是 vetoes，过去式 vetoed；读 VEE-toh，✗ 读成「维托」。
+@v: consent | = | n./v. | kənˈsent | 同意；许可（正式） | 正式表示同意、授权；数据和隐私场合 | give one's consent；without consent；written consent | We can't share customer data without their consent. | 没有客户的同意，我们不能共享他们的数据。 | 比 agreement、permission 正式，强调「本人明确表示同意」；动词用法是 consent to sth：He consented to the change.；名词动词同形同音，重音都在后 con-SENT，别和 content、concern 混。
+@v: closure | = | n. | ˈkloʊʒər | （一件事的）了结；定论 | 讨论很久、想把悬而未决的事定下来 | get closure on…；bring sth to closure；need closure | Let's get closure on the budget before we talk about the schedule. | 我们先把预算定下来，再谈时间表。 | 商务里 get closure on sth＝把一件拖着的事彻底定下来，比 finish 更强调「有个了结」；也指「关闭」：the closure of a store；s 读 `/ʒ/`，和 pleasure 里的一样，✗ 读 `/s/`。
+@v: Can we agree that | = | phr. | kən wi əˈɡriː ðət | 我们能不能就……达成一致；那就这么定了…… | 讨论快结束时，把结论变成一个是非问题让大家确认 | Can we agree that…?；So we agree that…；Let's agree that… | Can we agree that the report is due on Monday? | 我们能不能就定下来，报告周一交？ | that 后面接完整的句子：Can we agree that we'll go with B?；只接方案名时用 agree on：Can we agree on Option B?，✗ Can we agree Option B?；can 弱读成 `/kən/`，句尾语调上扬，等对方一个 yes。
+@v: deliberated | deliberate | v./adj. | dɪˈlɪbəreɪtɪd | 仔细考虑；反复商议 | 正式地说「讨论、斟酌」 | deliberate on/over sth；deliberate for hours；a deliberate choice（形容词：故意的） | The team deliberated for an hour and then voted. | 团队商议了一个小时，然后投票。 | 动词结尾读 `/eɪt/`；形容词读 `/dɪˈlɪbərət/`，意思是「故意的、深思熟虑的」：It wasn't a mistake. It was deliberate.；We've deliberated long enough. 是体面地说「别再讨论了，该决定了」，比 Stop talking! 有分寸得多。
+@v: proceed | = | v. | proʊˈsiːd | （按计划）继续进行；开始做 | 批准以后让对方开始执行 | proceed with sth；Please proceed.；proceed to the next step | We'll proceed with the plan unless you have any concerns. | 如果您没有顾虑，我们就按计划推进。 | Please proceed. 是上级批准时很常见的正式说法；「继续做某事」是 proceed with sth，✗ proceed the plan；名词 procedure（流程）和它同源；重音在后 pro-CEED。
+@v: binding | = | adj. | ˈbaɪndɪŋ | 有约束力的；（签了就）必须遵守的 | 合同、协议、决定什么时候正式生效 | legally binding；a binding agreement；non-binding | This is just a draft. It isn't binding yet. | 这只是草稿，还没有约束力。 | 中文「正式生效」「说了算数」可以说 It's binding.；legally binding 是「具有法律约束力」，non-binding 是「不具约束力的」（如意向书）；来自动词 bind（捆绑），i 读 `/aɪ/`。
+@v: empowering | empower | v. | ɪmˈpaʊərɪŋ | 授权；放权给（某人） | 领导把决定权下放给别人 | empower sb to do sth；empower the team；feel empowered | Our manager empowers us to solve small problems on our own. | 我们经理授权我们自己解决小问题。 | 结构是 empower sb to do sth，✗ empower sb do sth；比 allow 正式，强调「信任你、放权给你」，美国职场很爱用；power 读 `/ˈpaʊər/`，两个音节，✗ 读成「泡」。
+@v: make a call | = | phr. | ˌmeɪk ə ˈkɔːl | 做决定；拍板 | 项目和会议里需要有人做判断 | make a call on sth；make the call；a tough call | It's a tough call, but someone has to make it today. | 这个决定很难，但今天总得有人拍板。 | 和「打电话」同形，看上下文：make a call on small changes 是「就……拍板」；It's your call.＝「您来定」；a tough call 是「难下的决定」，a judgment call 是「凭判断下的决定」。
+@v: gave us the green light | give sb the green light | phr. | ˌɡeɪv əs ðə ˌɡriːn ˈlaɪt | 给（某人）开绿灯；正式批准 | 说上级或客户批准了某个计划 | give sb the green light；get the green light；give the green light to sth | The bank gave us the green light to open a second store. | 银行批准我们开第二家店了。 | 字面和中文「开绿灯」一样，但中文「开绿灯」有时暗指「特殊照顾、走后门」，英文 the green light 只是「正式批准」，没有贬义；通常用 the：get the green light；反义说法 It's a no-go.
+@v: unblocks | unblock | v. | ʌnˈblɑːks | 解除阻碍；让卡住的工作能继续 | 项目里一件事在等另一件事，现在可以动了 | unblock the team；unblock a task；be blocked on… | Your quick answer unblocked the whole team. | 你回复得及时，整个团队都能往下做了。 | 项目管理里的常用词：blocked＝被卡住、在等别人，常说 I'm blocked on the data.（我在等数据，没法往下做）；unblock＝解除这个卡点；o 读 `/ɑː/`，cks 读 `/ks/`。
+@v: At this point | at this point | phr. | ət ˌðɪs ˈpɔɪnt | 到了这一步；就眼下而言 | 根据目前的情况做判断、说下一步 | at this point；at this point in the project；at this point, … | At this point, the best thing we can do is wait. | 到了这一步，我们能做的最好的事就是等。 | 中文「事已至此」「目前来看」常用它开头；和 Day 105 的 at this stage 意思接近，at this point 更口语、更常用；at this point in time 很啰嗦，说 at this point 就够了。
+@v: leeway | = | n. | ˈliːweɪ | （时间、预算、做法上的）余地；回旋空间 | 说计划还剩多少灵活处理的空间 | some leeway；a lot of leeway；give sb leeway | We have some leeway on the budget, but not on the deadline. | 预算上还有点余地，截止日期可没有。 | 不可数名词：✗ a leeway、✗ leeways；「留点余地」是 leave some leeway；和 Day 116 的 buffer 不同：buffer 是专门留出来的缓冲时间，leeway 泛指可以灵活处理的空间；重音在前 LEE-way。
+
+@diff: 「我们需要在周五前做决定」——We need a decision by Friday.
+@d_cn: 一件事卡住了，要请上级或客户拍板。中文常说「麻烦您尽快定一下」「您看什么时候方便给个答复」，期限藏在最后，甚至干脆不说。
+@d_en: We need a decision by Friday. / Could we have a decision by Friday? / Given the stakes, I'd urge a quick decision.
+@d_why: 美国职场请人拍板，第一句就交代三件事：要什么决定、什么时候前、为什么是这个日子。林晓的第一句 We need a decision by Friday. 用的是名词 decision，主语是 we——「我们（这个项目）需要」，而不是「您必须」。同一个意思说成 ✗ You must decide before Friday. 就成了命令，对副总裁很失礼；✗ Please decide ASAP. 又只有催促、没有期限，对方不知道到底多急。语气可以调：**Could we have a decision by Friday?** 最软；**We need a decision by Friday.** 直接但中性，最常用；**I'd urge a quick decision.** 很重，只有 stakes are high 时在邮件结尾用一次。还有一个小词：by Friday 是「周五之前（含周五）完成」，until Friday 是「一直持续到周五」，✗ We need a decision until Friday. 是中国学习者常见的错。
+@d_when: 给客户高层、经理写决策请求邮件；项目周会上提醒某个决定快到期限。
+@d_vs: **We need a decision by Friday.** 我们需要在周五前得到决定。（直接、中性，最常用）\n**Could we have a decision by Friday?** 能否请您在周五前给个决定？（更软）\n**Given the stakes, I'd urge a quick decision.** 事关重大，恳请尽快决定。（很重，少用）\n✗ You must decide before Friday.（像命令）\n✗ We need a decision until Friday.（until 是「持续到」）
+@d_task: 给客户的运营总监写邮件的第一句：你们需要她在周三前决定要不要开第二个仓库（原因后面再说）。 | We need a decision on the second warehouse by Wednesday.
+@diff: 「那就这么定了？」——Can we agree that…?
+@d_cn: 讨论了半天，大家意见差不多了，主持人想收口：「那我们就先这么定了吧？」「大家没意见的话就选 B 了啊。」
+@d_en: I'd like to get closure on this today. / Can we agree that we'll go with Option B? / So we agree on Option B. / Karen agreed to the change request.
+@d_why: 中文「那就这么定了吧」常常是主持人自言自语式的收尾，没人明确说「同意」，会后各有各的理解。英文会议收口，要把结论变成一个**是非问题**，逼出一个明确的 yes：**Can we agree that** + 完整的句子？that 后面是一个能回答 yes 或 no 的结论（we'll go with Option B）。在这之前先用一句 **I'd like to get closure on this today.** 预告「该定下来了」，对方心里有准备。拿到 yes 以后马上复述一遍：Great, so we're going with B. 语法上要分清几个 agree：agree **that** + 句子；agree **on** + 方案（共同商定）：agree on a date；agree **with** + 人或观点：I agree with Mike.；agree **to** + 请求（答应）：Karen agreed to the change request.。✗ Can we agree Option B? 缺了介词。
+@d_when: 主持会议到了做决定的时候；讨论兜圈子、来回重复时，用它把大家拉到结论上。
+@d_vs: **I'd like to get closure on this today.** 我希望今天就把这件事定下来。（先预告）\n**Can we agree that we'll go with Option B?** 我们能不能就定下来选 B？\n**So we agree on Option B.** 那我们就定 B。\n**Karen agreed to the change request.** Karen 同意了变更申请。\n✗ Can we agree Option B?
+@d_task: 讨论了二十分钟，你想收口：大家同意下周一先让五个卖家试用新功能。 | Can we agree that we'll give the new feature to five sellers first, starting next Monday?
+@diff: 「再拖下去就来不及了」——If we hold off any longer, we'll…
+@d_cn: 决定迟迟不下，想提醒对方再拖的后果。中文常带情绪：「再不定就真来不及了！」「一直拖着也不是办法。」
+@d_en: If we hold off any longer, we'll miss the launch window. / Mike's team is holding off on both features. / The change request has stalled.
+@d_why: 英文推动决策靠**后果**，不靠情绪：用第一条件句 If + 一般现在时, we'll + 动词，把「拖」和一个具体的损失连起来（miss the launch window / slip by a week）。if 从句里不用 will：✗ If we will wait any longer…——这是第四册学习者最常见的错之一。「拖」在英文里分得很细：**hold off (on)** 是有意先等一等，中性，常说自己一方（Mike's team is holding off on both features.——在等决定，所以先不动）；**stall** 是卡住、停滞，带点不满（The change request has stalled.）；**delay** 是把某个时间点往后推。最要紧的是别指责人：✗ You are delaying the whole project. 对客户高层万万说不得。把「卡住」说成事情的状态（The request has stalled.），再说后果，对方不丢面子，事情也推动了。
+@d_when: 决策请求邮件的结尾；项目周会上说明一个风险；提醒客户「再不定会有什么后果」。
+@d_vs: **If we hold off any longer, we'll miss the launch window.** 再拖下去，就会错过上线窗口。\n**Mike's team is holding off on both features.** Mike 的团队两个功能都先没动。（有意等待）\n**The change request has stalled.** 变更申请卡住了。（没有进展）\n✗ If we will wait any longer, we miss the window.\n✗ You are delaying the whole project.（指责对方）
+@d_task: 提醒客户：如果周四之前拿不到最终的数据，测试就要推迟一周（用第一条件句）。 | If we don't get the final data by Thursday, testing will slip by a week.
+@diff: 「您来定」——It's your call.
+@d_cn: 选项都摆出来了，把决定权交给经理或客户：「您来定吧」「听您的」「您看着办」。
+@d_en: Both work for me. It's your call, Tom. / I'd lean toward B, but it's your call. / I'll leave it to you.
+@d_why: 中文「您看着办」可以是尊重，也可以是赌气、甩锅，全看语气。英文 **It's your call.** 的意思是「这个决定在你的权限之内，我尊重你」，干脆、不卑不亢，美国职场天天在用——前提是你已经把选项和后果讲清楚了：林晓先转述了 Mike 的两个方案，才说 It's your call, Tom.。这里的 call 是「判断、决定」，和 **make a call**（拍板）是同一个意思。有倾向时，先说倾向再交权：**I'd lean toward B, but it's your call.** 几个说法的分寸：**I'll leave it to you.** 中性、略正式；**Up to you.** 很随意，对朋友可以，对上级像不上心；**Whatever you think.** / **I don't care.** 听起来像没兴趣甚至不满，开会时千万别用。还要看对象：交给真正有权决定的人（项目负责人、客户），别把自己该做的决定推出去。
+@d_when: 你已经讲清选项，需要经理、客户或项目负责人拍板时；把小事的决定权交给同事时也可以说：Your project, your call.
+@d_vs: **Both work for me. It's your call, Tom.** 两个我都可以，张涛您来定。\n**I'd lean toward B, but it's your call.** 我倾向 B，不过您来定。\n**I'll leave it to you.** 交给您决定。（中性）\n**Up to you.** 随你。（很随意）\n✗ Whatever you think.（像不上心）
+@d_task: 你把两家供应商的报价都发给了经理。你倾向便宜的那家，但想把决定权交给她。 | I'd lean toward the cheaper supplier, but it's your call.
+
+@core: We need a decision on … by … | 决策请求邮件的第一句：要什么决定、什么时候前 | the change request / the budget / the new supplier；Friday / the end of the week | 正式：We would appreciate a decision on the change request by Friday.｜随意：Can we decide this by Friday?
+@core: Option A is to … Option B is to … | 每个选项用一句话摆出来，再说各自的后果 | add it now / build a basic version；push the launch / move the reports | 正式：We see two options. The first is to…; the second is to…｜随意：So it's either A, … or B, …
+@core: If we hold off any longer, we'll … | 用后果推动决定，不带情绪 | miss the launch window / lose our test slot / slip by a week | 正式：Any further delay would put the October launch at risk.｜随意：If we wait any longer, we're in trouble.
+@core: Option B is reversible. … is almost irreversible. | 讲风险：做错了能不能改回来 | Option B / switching it off；pushing the launch / deleting the data | 正式：Option B can be fully reversed if necessary.｜随意：We can always undo B.
+@core: I'd like to get closure on this today. Can we agree that we'll …? | 收口：先预告要定下来，再问一个是非问题 | go with Option B / keep the October date / start on Monday | 正式：I'd like to confirm that we are proceeding with Option B.｜随意：So, B? Are we good?
+@core: Please proceed. / … gave us the green light this morning. | 批准；向别人转告批准的结果 | Karen / the board / the committee；this morning / to launch | 正式：We have received approval to proceed.｜随意：We're good to go!
+@core: Both work for me. It's your call, … | 讲清选项后，把决定权交给该拍板的人 | Tom / Karen；Both work / I'd lean toward B, but… | 正式：I'm comfortable with either option, so I'll leave the decision to you.｜随意：Your call!
+
+@pw: decision-maker | dɪˈsɪʒn ˌmeɪkər | 5 个音节 de·CI·sion·mak·er | 复合名词，主重音在 ci 上，maker 只带次重音；si 读 `/ʒ/`，像 vision 里的 s
+@pw: irreversible | ˌɪrɪˈvɜːrsəbl | 5 个音节 ir·re·VER·si·ble | 主重音在 ver，要卷舌；结尾 -sible 弱读成 `/səbl/`
+@pw: authority | əˈθɔːrəti | 4 个音节 au·THOR·i·ty | 重音在 thor；th 舌尖轻咬；结尾的 t 闪音，像轻轻的 d：a-THOR-a-dee
+@pw: committee | kəˈmɪti | 3 个音节 com·MIT·tee | 重音在中间，不在开头；com 弱读成 `/kə/`；双 t 只读一个，常闪成轻 d
+@pw: deliberate | dɪˈlɪbəreɪt（动词）／dɪˈlɪbərət（形容词） | 4 个音节 de·LIB·er·ate | 重音都在 lib；动词结尾读饱满的 `/eɪt/`，形容词结尾弱读成 `/ət/`
+@pw: veto | ˈviːtoʊ | 2 个音节 VE·to | 重音在前，ve 读长音 `/iː/`，to 读 `/toʊ/`
+@pw: leeway | ˈliːweɪ | 2 个音节 LEE·way | 重音在前；lee 读长音 `/iː/`，way 读 `/weɪ/`
+@ps: We **need**‿a de**ci**sion / by **Fri**day. | need a 连成 nee-da；重音落在 need、decision、Friday 三个信息词上；陈述句结尾语调下降，听起来坚定但不凶。
+@ps: Can we a**gree** that / we'll **go** with Option **B**? | can 弱读成 `/kən/`，that 弱读成 `/ðət/`；Option B 的 B 是全句的焦点，重读并用上升语调，像在等对方一个 yes。
+@ps: If we hold **off**‿any **long**er, / we'll **miss** the **launch** window. | hold off 是短语动词，重音在小品词 off 上，off any 连读；if 从句末尾语调微升、稍停，主句落下；we'll 弱读成 `/wɪl/`，快说时几乎只剩 `/wl/`；launch window 是复合名词，重音在 launch。
+@ps: **Both** work for me. / It's **your** call, / Tom. | 对比重音：重读 your（是你来定，不是我），call 反而轻；both 的 th 要咬舌；称呼 Tom 前稍停，语调落下。
+@pnote: 复合名词的重音在第一个词：**launch** window、**change** request、**re**turns tracking、de**ci**sion-maker、**hol**iday peak。对比「形容词 + 名词」，重音在名词上：a basic **ver**sion、a quick de**ci**sion、custom re**ports**。rubber-stamp 两个词都重读，stamp 更重：rubber-**stamp**。deliberate 当动词和形容词时元音不同（`/eɪt/` vs `/ət/`），听到 We've deliberated… 就知道是动词「商议」。
+@pnote: 弱读和缩读：I'd urge 连成 `/aɪdɜːrdʒ/`；it's within 的 it's 很轻；gave us 连成 `/ɡeɪvəs/`，us 弱读；Can we 读 `/kənwi/`。听日期：邮件写 October 28，嘴上说 October twenty-eighth（序数词），the 28th 读 the twenty-eighth。写和说的不同：邮件里写 Given the stakes, I'd urge a quick decision.，当面多半说 This is a big one, so the sooner the better.
+@lfocus: 人和角色：Karen = decision-maker / mandate from the board；Raj = veto, consent；Priya → make a call on small changes；Tom → It's your call
+@lfocus: 选项和决定：Option A = add now + push 2 weeks；Option B = basic version + reports → phase two + October 28；decision: B, proceed, binding
+@lfocus: 日期和数字：by Friday、October twenty-eighth、two weeks、November（freeze）、one day of the buffer、Saturday
+@dict: S6–S10
+@dict: S29–S33
+@res: 在 youglish.com 输入 "it's your call"，选 US，听美国人把决定权交给别人时的语气。
+
+@mimic: 跟读【C】：先把邮件 S3–S12 当成你自己写的决策请求，用平稳、坚定的语气读一遍；再逐句跟读电话会 S13–S26，重点模仿 Karen 简短干脆的节奏和 Can we agree that…? 的上升语调；最后你演林晓，手机朗读 Karen、Priya、Mike、Emma 和张涛的台词，正常语速完整对一遍并录音。
+@swap: We need a decision by Friday. | 换内容和期限：on the budget／on the new supplier；by Wednesday／by the end of the month | We need a decision on the budget by Wednesday.
+@swap: If we hold off any longer, we'll miss the launch window. | 换后果：lose our test slot／miss the holiday sale／slip by another week | If we hold off any longer, we'll lose our test slot.
+@swap: Can we agree that we'll go with Option B? | 换结论：start with ten sellers／keep the October date／move the reports to phase two | Can we agree that we'll keep the October date?
+@swap: Both work for me. It's your call, Tom. | 换成先说倾向再交权：I'd lean toward…, but…；换对象：Karen／Priya | I'd lean toward Option B, but it's your call, Karen.
+@free: 采购申请在财务部卡了一个星期。你给财务总监写邮件的开头：周四前要一个决定，否则供应商的报价就失效了。 | We need a decision on the purchase request by Thursday. If we hold off any longer, the supplier's price will expire, and the new price is eight percent higher.
+@free: 会上大家讨论了半小时「新服务先在哪个城市试」，意见差不多了。你想收口：先在广州试。 | I'd like to get closure on this today. Can we agree that we'll start with Guangzhou? We can review the results after a month.
+@free: 客户高层担心你推荐的方案有风险。你要说明：新功能可以随时关掉，推迟上线却没有回头路。 | Our option is fully reversible. If the new feature causes trouble, we can switch it off in minutes. Pushing the launch, on the other hand, is almost irreversible.
+@free: 经理问你：周六加班，还是晚一天交付？两个你都能接受，你倾向晚一天，但把决定权交给他。 | Both options work for me. I'd lean toward delivering one day later, because a tired team makes mistakes. But it's your call.
+@output: 录一段 2 分钟的会议发言，推动一个决定（工作中真实的事，或者生活里的，比如家里要不要换车、团队年会去哪儿）。结构：需要什么决定、什么时候前（We need a decision on… by…）→ 两个选项各一两句（Option A is to… Option B is to…）→ 各自的风险：能不能撤回（reversible / irreversible）→ 你的建议和一个数字 → 再拖的后果（If we hold off any longer, …）→ 收口（I'd like to get closure on this today. Can we agree that…?），或者把决定权交给该拍板的人（It's your call.）。
+@output_sample: Thanks, everyone. I'll keep this short. We need a decision on the holiday promotion by Friday. Right now, the plan has stalled, and the design team is holding off on the artwork until they hear from us. We have two options. Option A is to offer free shipping on every order. Option B is to offer ten percent off orders over fifty dollars. Option A is simpler for customers, but it's expensive, and once we announce it, it's almost irreversible. Customers will be angry if we take it back. Option B costs less, and it's reversible. If it doesn't work in the first week, we can change the minimum order. Based on last year's numbers, I'd recommend Option B. Last year, a similar offer increased orders by eighteen percent. The stakes are high, because the holidays are our biggest season. If we hold off any longer, we won't have time to test the checkout page, and we'll miss the start of the sale. So I'd like to get closure on this today. Can we agree that we'll go with Option B? If anyone has a serious concern, now is the time to raise it. Otherwise, I'll ask the design team to proceed this afternoon. And Tom, the final budget is your area, so that part is your call.
+
+@check: 听力：林晓在邮件里要什么时候之前的决定？两个选项分别是什么？哪个能保住 10 月 28 日？ | 周五前（by Friday）。方案 A：现在就加退货跟踪，上线推迟两周；方案 B：先做基础版，把定制报表挪到第二期。方案 B 能保住 10 月 28 日上线。
+@check: 听力：电话会最后定了什么？Karen 给了 Priya 什么权力？下午张涛在内部又拍板了什么？ | 定了方案 B（Please proceed.），Karen 签字后变更申请就正式生效（binding）；以后像这样的小变更由 Priya 自己拍板（make a call）；张涛决定用一天缓冲时间测试，不让 Ana 周六加班，这样只剩一天余地（leeway）。
+@check: 改错：① We need a decision until Friday. ② If we will wait any longer, we miss the window. ③ Can we agree Option B? | ① We need a decision by Friday. ② If we wait any longer, we'll miss the window. ③ Can we agree on Option B? / Can we agree that we'll go with Option B?
+@check: 换个场景：你请房东在月底前决定修不修空调（再拖，最热的天就要过去一半了）。用英文说两句，先说要什么决定、什么时候前。 | We need a decision on the air conditioner by the end of the month. If we wait any longer, half of the hot season will be over.
+@check: 同事问你：Should we book the bigger room or the cheaper one? 你两个都行，想把决定交给她。哪句合适？① Whatever. ② It's your call. ③ I don't care. | ② It's your call.（① ③ 听起来不上心，甚至不耐烦）。也可以先给倾向：I'd lean toward the bigger room, but it's your call.
+@check: 用 reversible / irreversible 各说一句：① 新的折扣码随时可以停用 ② 客户数据删了就恢复不了 | ① The new discount code is reversible. We can turn it off at any time. ② Deleting the customer data is irreversible.
+@next1: 不看书说出 5 个锚点句：S4、S10、S23、S28、S31
+@next1: 用 We need a decision on… by… 和 If we hold off any longer, … 给你生活中一件拖着没定的事写两句话
+@next7: 推动决策四步：We need a decision by… → Option A is to… / Option B is to… → If we hold off any longer, … → Can we agree that…? 或 It's your call.
+@next7: 用 hold off on、make a call、give sb the green light 各造一句关于你自己工作或学习的话

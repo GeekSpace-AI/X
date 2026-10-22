@@ -22,7 +22,7 @@
 @scene: 昨天，团队正式建议选 B 方案：更稳，但要比 A 晚两周，10 月 28 日才能全面上线。周五一大早（美国那边还是周四），林晓给 BrightNest 的 Priya 和 Raj 打电话说明这个建议。电话很短，信息却不少：Raj 说新的状态代码已经好了；Priya 接受了 B 方案，可她追问能不能周一就开始测试，还说了一句很重的话。九点是深圳和西雅图唯一重叠的一小时（Mike 那边是周四傍晚六点），林晓要把电话内容转述给没参加通话的张涛和 Mike：张涛要判断客户的态度，Mike 要安排周一的测试，Leo 在一旁记纪要。转述得准不准，直接决定了两个人接下来怎么做。会后，林晓还要给 Priya 和 Raj 发一封确认邮件，请他们核对。
 @sp: 人物关系 | 林晓 ↔ Priya、Raj：项目协调人和客户方，Priya 是运营经理（讲数据、着急上线），Raj 是 IT 负责人（技术细节多）；林晓 ↔ 张涛、Mike：向项目负责人和工程经理转述，张涛关心客户的态度，Mike 关心技术和时间
 @sp: 沟通目的 | 把电话里的信息原样传给不在场的人：事实、问题、承诺、要求、提醒和语气；分清哪些是原话、哪些是大意、哪些只是自己的理解，再请客户核对
-@sp: 已知信息 | 电话里：Raj 说新代码好了、今晚发文件，还问了测试环境；Priya 接受 B 方案，问周一能不能开始，指出十一月量会翻倍，坚持每天汇报，原话是 We can't afford another delay.，还隐约提到退货。张涛和 Mike 都没听到这通电话
+@sp: 已知信息 | 电话里：Raj 说新代码好了、今晚发文件，还问了测试账号；Priya 接受 B 方案，问周一能不能开始，指出十一月量会翻倍，坚持每天汇报，原话是 We can't afford another delay.，还隐约提到退货。张涛和 Mike 都没听到这通电话
 @sp: 表达重点 | 转述陈述（said + 时态后移）→ 转述问题（asked whether + 陈述语序）→ 转述承诺（told me he would）→ 按语气选转述动词（pointed out / insisted / warned / hinted）→ 原话 vs 大意 vs 理解（In her words / I'm paraphrasing / my interpretation）→ 邮件请对方核对
 
 @story_title: Episode 114 · In Her Words
@@ -57,8 +57,115 @@
 @br:
 @s: Then Lily writes to Priya and Raj: | 会后，林晓给 Priya 和 Raj 写邮件：
 @s: Hi Priya and Raj, | Priya、Raj，你们好：
-@s: Thanks for the call. I've **conveyed** your points to Tom and Mike. | 谢谢你们的来电。你们的意见我已经转达给张涛和 Mike 了。
+@s: Thanks for the call. I've **conveyed** your points to Tom and Mike. | 谢谢你们抽时间通话。你们的意见我已经转达给张涛和 Mike 了。
 @s: Mike's team can start on Monday, once the file arrives. | 文件一到，Mike 的团队周一就能开始测试。
 @s: As you asked, we'll send daily updates. | 按你们的要求，我们会每天发进展。
 @s: I want to relay everything **faithfully**, so please let me know if I've **misquoted** anything. | 我希望把你们的话准确无误地转达出去，所以如果我有哪里转述错了，请告诉我。
 @s: Best,\nLily | 祝好，\n林晓
+
+@v: relays | relay | v. | ˈriːleɪz | 转达；转述（把听到的话传给不在场的人） | 开完电话会、见完客户后，把内容告诉没参加的人 | relay a message；relay sth to sb；relay the call to the team | Could you relay this to the rest of the team? | 你能把这个转达给团队其他人吗？ | relay 比 pass along 正式一点，常见于工作邮件和会议纪要；结构是 relay sth to sb，一般不用双宾语（✗ relay Tom the message）；动词也常读 `/rɪˈleɪ/`，两种读音都对；名词 relay 还是「接力赛」：a relay race。
+@v: inquired | inquire | v. | ɪnˈkwaɪərd | 询问；打听（ask 的正式说法） | 正式邮件、会议纪要里转述别人问了什么 | inquire about sth；inquire whether…；inquire into sth（调查） | Several sellers have inquired about the new feature. | 好几个卖家来问过这个新功能。 | 当面聊天说 ask 就好，inquire 多用在书面和转述里，显得客观；问的内容前加 about：✓ inquired about test accounts ✗ inquired test accounts；英式多拼作 enquire；名词 inquiry。
+@v: pass along | = | phr. | ˌpæs əˈlɔːŋ | 把（消息、请求、文件）转给别人 | 告诉对方你会把他的话带给第三个人 | pass along a message；pass sth along to sb；pass it along | I'll pass along your feedback to the product team. | 我会把你的反馈转给产品团队。 | 宾语是名词时放在 along 前后都行：pass along your request / pass your request along；是代词时必须放中间：✓ pass it along ✗ pass along it；比 relay 口语，对客户、同事都能说；中文「我帮你转告」= I'll pass that along.
+@v: pointed out | point out | phr. | ˌpɔɪntɪd ˈaʊt | 指出；特别提到（让人注意一个事实） | 转述别人强调的事实；会上补充一个容易被忽略的点 | point out that…；point out a mistake；as Priya pointed out | Ana pointed out a mistake in the test plan. | Ana 指出了测试计划里的一个错误。 | 后面接 that 从句或名词，✗ She pointed that…；它表示「这是个值得注意的事实」，比 said 有分量，又不带情绪；宾语是代词时放中间：point it out；会上引用别人：As Raj pointed out, …
+@v: reportedly | = | adv. | rɪˈpɔːrtɪdli | 据说；据报道（我没亲眼看到、没亲耳听到） | 转述二手消息、新闻、传闻 | is reportedly…；reportedly plans to…；will reportedly double | The company is reportedly opening a new warehouse in Texas. | 据说那家公司要在得州开一个新仓库。 | reportedly 告诉对方「我是听说的，不打包票」；对方亲口对你说的事别加 reportedly，否则像在怀疑她，说 She told me… / I heard it firsthand.；位置一般在 be 动词或助动词后、实义动词前：is reportedly hiring / will reportedly double；口语里更常说 I heard that…
+@v: firsthand | = | adv./adj. | ˌfɜːrstˈhænd | 直接地（从当事人那里）；第一手的 | 区分「亲耳听到、亲眼看到」和「听别人说」 | hear it firsthand；see sth firsthand；firsthand information | Our engineers saw the problem firsthand during the pilot. | 试点期间，我们的工程师亲眼看到了这个问题。 | 作副词放在动词短语后：hear it firsthand；作形容词放名词前时重音前移：FIRSThand information；也写作 first-hand；「第一手资料」= firsthand information，✗ first-hand material。
+@v: disclose | = | v. | dɪsˈkloʊz | 透露；公开（本来保密的信息） | 客户不方便透露数字；合同、数据相关的正式场合 | disclose the numbers；can't disclose；disclose sth to sb | We can't disclose client data to third parties. | 我们不能向第三方透露客户数据。 | 偏正式，常和保密、合同、财务数据一起出现；礼貌地拒绝透露：I'm not able to disclose that.；名词 disclosure；结尾读 `/z/`，不读 /s/。
+@v: revealed | reveal | v. | rɪˈviːld | 透露；揭示（让人知道原来不知道的事） | 转述对方说出的新消息；说测试、数据暴露了问题 | reveal that…；reveal a plan；The test revealed… | The audit revealed two more outdated codes. | 审查又发现了两个过时的状态代码。 | 比 disclose 日常，主语可以是人，也可以是测试、数据：The data revealed…；中文「透露」别说成 ✗ leak——leak 是「泄露」，指不该说的被说了出去，带负面意味；ea 读 `/iː/`，结尾的 l 要发出来。
+@v: insisted | insist | v. | ɪnˈsɪstɪd | 坚持（要求）；一定要 | 转述对方态度坚决、没得商量的要求 | insist on sth / doing；insist that…；if you insist | She insisted on paying for lunch. | 她坚持要请这顿午饭。 | insist on 后接名词或 -ing：✓ insist on daily updates ✓ insist on paying ✗ insist to pay；转述时 insisted 比 asked 强得多，等于说「她很坚决」——别把普通的请求传成 insisted；If you insist. 是「既然你坚持，那好吧」。
+@v: In her words | = | phr. | ɪn hər ˈwɜːrdz | 用她的原话说 | 转述时引用对方一字未改的原话 | in her words；in his words；in Priya's words | In Mike's words, "The code is ready, but the data isn't." | 用 Mike 的原话说：「代码好了，数据还没好。」 | 后面一定是原话：加引号，保留原来的时态和人称——In her words, "We can't afford…"，不改成 they couldn't；只记得大意时不能用它，要说 I'm paraphrasing, but…；her 弱读成 `/hər/` 甚至 `/ər/`，重音在 words。
+@v: word for word | = | phr. | ˌwɜːrd fər ˈwɜːrd | 一字不差地；逐字地 | 确认是不是原话；说照抄、翻译的方式 | quote sb word for word；copy it word for word；a word-for-word translation | Please don't translate the contract word for word. | 请别逐字翻译这份合同。 | 问「这是原话吗」：Is that word for word? / Is that a direct quote?；放在名词前要加连字符：a word-for-word translation（逐字翻译，常暗示「生硬」）；for 弱读成 `/fər/`。
+@v: accuse | = | v. | əˈkjuːz | 指责；控告 | 说对方有没有怪你、把问题推到你身上 | accuse sb of sth / doing；be accused of | He accused me of ignoring his emails. | 他指责我不理他的邮件。 | 结构是 accuse sb of sth，✗ accuse sb for… ✗ accuse sb that…；语气很重，转述客户时要慎用：客户只是着急或不满，说 She was frustrated. 就够了，说成 She accused us… 等于说她在「问罪」；结尾读 `/z/`。
+@v: warned | warn | v. | wɔːrnd | 警告；提醒（有风险、会有后果） | 转述对方提出的风险和后果 | warn (sb) that…；warn sb about sth；warn sb not to… | Ana warned us that the test data was incomplete. | Ana 提醒我们测试数据不完整。 | warn 是「提醒会有不好的后果」，比 point out 重，比 threaten（威胁）轻；结构：warn sb that… / warn sb about sth / warn sb not to do；ar 读 `/ɔːr/`，warn 和 worn 同音，别读成 warm `/wɔːrm/`。
+@v: hinted | hint | v./n. | ˈhɪntɪd | 暗示；委婉地透露 | 对方没明说，只是透出一点意思 | hint at sth；hint that…；drop a hint | Karen hinted that the budget might change. | Karen 暗示预算可能会变。 | hint at + 名词，hint that + 句子：✓ She hinted at returns. ✗ She hinted returns.；名词 hint 也是「提示」：Can you give me a hint?；转述时用 hinted，是在告诉对方「她没明说，这只是个信号」。
+@v: recall | = | v. | rɪˈkɔːl | 记得；回想起（比 remember 正式） | 转述时承认自己的记忆不一定完全准确 | if I recall correctly；as I recall；recall that… | If I recall correctly, the review was moved to Thursday. | 如果我没记错，评审会改到周四了。 | If I recall correctly 是转述的「安全垫」：大意如此，细节可能有出入；recall 后接名词、-ing 或 that 从句，不加 of；名词 recall 还指「（产品）召回」：a product recall。
+@v: implying | imply | v. | ɪmˈplaɪɪŋ | 暗示；话里有话 | 追问某人的话有没有言外之意 | imply that…；Are you implying…?；What does that imply? | Is he implying that we missed the deadline on purpose? | 他是在暗示我们故意错过截止日期吗？ | imply 是说话人「暗含」意思，infer 是听话人「推断」出意思：She implied it; I inferred it.；当面问对方 Are you implying…? 很冲，像要吵架，转述第三方时（Is she implying…?）就没问题；比 hint 正式，也不一定是故意的。
+@v: interpretation | = | n. | ɪnˌtɜːrprəˈteɪʃn | 理解；解读 | 把「对方的原话」和「我的理解」分开 | my interpretation；a different interpretation；open to interpretation | That's one interpretation, but there could be others. | 这是一种理解，但也可能有别的解释。 | 转述时说 That's my interpretation. 等于告诉对方「这是我的推断，不是她说的」，诚实又专业；动词 interpret（解释；口译），口译员是 interpreter；主重音在 ta：in-ter-pre-TA-tion。
+@v: paraphrasing | paraphrase | v./n. | ˈpærəfreɪzɪŋ | 转述大意；换个说法说 | 说明自己说的不是原话，只是意思 | I'm paraphrasing；paraphrase sb；a rough paraphrase | I'm paraphrasing, but he said the budget was tight. | 我说的是大意：他说预算很紧。 | 转述时先说 I'm paraphrasing, but… 是给听的人打预防针：这不是原话；和 In her words, "…" / word for word（原话）正好相对；重音在第一个音节 PAR-a-phrase，ph 读 `/f/`。
+@v: secondhand | = | adv./adj. | ˌsekəndˈhænd | 间接地（听别人转述）；二手的 | 重要信息、技术细节最好直接听当事人说 | hear sth secondhand；secondhand information；a secondhand car | I don't like making decisions based on secondhand information. | 我不喜欢根据二手信息做决定。 | 和 firsthand 相对：hear it secondhand = 从别人那里听来的；也指二手货，不过「二手车」美国人更常说 a used car；放名词前作形容词时重音常前移：SECONDhand information；也写作 second-hand。
+@v: nuance | = | n. | ˈnuːɑːns | （语气、意思上的）细微差别 | 转述时说清对方的语气和言外之意 | the nuance；subtle nuances；catch the nuance | Emails often lose the nuance of a conversation. | 邮件常常会丢掉谈话里那些细微的语气。 | 中文「分寸」「言外之意」「语气上的微妙差别」都可以用 nuance；美式读 `/ˈnuːɑːns/`，两个音节，开头不加 /j/；形容词 nuanced（细腻的、不一刀切的）：a nuanced answer。
+@v: get the gist | = | phr. | ˌɡet ðə ˈdʒɪst | 明白大意；抓住要点 | 听完转述或长篇解释后表示「我懂了」 | get the gist；get the gist of sth；Here's the gist. | I didn't catch every word, but I got the gist. | 我没听清每个词，但大意明白了。 | gist 读 `/dʒɪst/`，g 发「之」的音，不读 /ɡɪst/；the 不能省；也可以说 Here's the gist:…（要点如下）；对经理、同事说很自然，但客户刚解释了半天，你回一句 I get the gist 可能显得「细节我不关心」，说 That makes sense. 更稳妥。
+@v: aloud | = | adv. | əˈlaʊd | 出声地（读出来、说出来） | 会议结尾把行动项念一遍；边想边说 | read sth aloud；think aloud；read aloud | Let me read the action items aloud before we finish. | 散会前我把行动项念一遍。 | aloud 是「出声，让别人听得到」，不一定是「大声」；「大点声」是 louder：Could you speak a little louder?；✗ read loudly 意思是「读得很响」；think aloud = 边想边说出来。
+@v: conveyed | convey | v. | kənˈveɪd | 传达；表达（意思、感受） | 正式邮件里说「已把你的意见转达给……」 | convey a message；convey sth to sb；convey urgency | Her voice conveyed real concern. | 她的声音里透着真切的担心。 | 结构 convey sth to sb，✗ convey sb sth；比 pass along 正式，还能指「表达出某种感觉」：The email didn't convey how urgent it was.；重音在后：con-VEY。
+@v: faithfully | = | adv. | ˈfeɪθfəli | 忠实地；准确地（不走样） | 强调自己转达得准确，没有添油加醋 | relay sth faithfully；faithfully record；translate faithfully | The interpreter translated his speech faithfully. | 口译员忠实地翻译了他的讲话。 | faithfully 在这里是「准确、不走样」；英式正式信件的结尾 Yours faithfully 在美国几乎不用，美式结尾用 Sincerely / Best regards；th 读 `/θ/`，舌尖轻咬。
+@v: misquoted | misquote | v. | ˌmɪsˈkwoʊtɪd | 错误引用；把别人的话传错 | 转述完请对方核对 | misquote sb；be misquoted；if I've misquoted anything | The article misquoted our CEO. | 那篇文章把我们 CEO 的话引错了。 | quote 是「引用原话」，mis- 表示「错误地」；邮件结尾一句 Please let me know if I've misquoted anything. 既谦虚又专业；qu 读 `/kw/`，quote 读 `/kwoʊt/`，✗ /koʊt/。
+
+@diff: 「Raj 说代码好了」——时态后移：Raj said the new codes were ready.
+@d_cn: 中文转述别人的话，原话直接搬过来：「Raj 说新代码好了」「她说十一月量会翻倍」，动词不用变，也没有时态。
+@d_en: Raj said the new codes were ready. / She pointed out that the volume would double in November. / She revealed that they're adding a night shift.
+@d_why: 英文转述时，主句用了过去时（said / told / pointed out），从句通常跟着「往后退一步」：are → were，will → would，can → could，is adding → was adding。Raj 的原话是 The new codes are ready.，林晓转述成 Raj said the new codes were ready.；Priya 说 The volume will double，转述成 would double。中文没有这种变化，中国学习者说快了常常前后对不上，甚至把 said 都丢了（✗ Raj say the codes is ready.）。不过，如果那件事现在仍然成立，也可以不后移：She revealed that they're adding a night shift.——母语者两种都说；但后移永远不会错，写邮件、正式汇报时先养成后移的习惯。时间词也跟着视角走：当天转述，tonight 可以保留；隔天再转述，就要改成 last night 或 that night。
+@d_when: 会后向经理、同事转述客户或其他团队的话；写会议纪要和通话记录。
+@d_vs: **Raj said the new codes were ready.** Raj 说新代码好了。（标准转述：are → were）\n**She pointed out that the volume would double in November.** 她特别指出十一月量会翻倍。（will → would）\n**She revealed that they're adding a night shift.** 她说他们在加夜班。（现在仍然成立，可以不后移）\n✗ Raj say the new codes is ready.\n✗ She pointed out that the volume will doubles.
+@d_task: 第二天给 Priya 写邮件，转述 Mike 昨天的原话："The fix is ready, and we will test it on Monday." | Mike said the fix was ready and they would test it on Monday.
+@diff: 「她问我们能不能周一开始」——She asked whether we could start on Monday.
+@d_cn: 中文转述问题，把原来的问句整句塞进去就行：「她问我们周一能不能开始」「张涛问文件什么时候到」。
+@d_en: Priya asked whether we could start on Monday. / Raj asked if the test accounts were ready. / Tom asked when the file would arrive.
+@d_why: 英文转述问题有三个变化。第一，**语序变回陈述句**：原话 Can you start on Monday? 转述后是 whether we could start（主语在前、动词在后）。✗ She asked could we start on Monday. 是中国学习者最典型的错误——把问句语序原样搬了过来。第二，**是非问句要加 whether / if**，特殊疑问句保留疑问词：When will the file arrive? → Tom asked when the file would arrive.（✗ when would the file arrive）。第三，**人称要换**：Priya 对 SwiftLink 说的 you，到林晓嘴里变成 we。whether 比 if 稍正式，写邮件、说「是否……还是……」时更常用；口语里两个都行。转述后的句子是陈述句，句末不用问号，语调下降。
+@d_when: 转述客户、经理、同事问过的问题；邮件里说「对方问到……」。
+@d_vs: **Priya asked whether we could start on Monday.** Priya 问我们周一能不能开始。\n**Raj asked if the test accounts were ready.** Raj 问测试账号好了没有。\n**Tom asked when the file would arrive.** 张涛问文件什么时候到。\n✗ She asked could we start on Monday?\n✗ Tom asked when would the file arrive.
+@d_task: 把 Raj 的问题转述给李凯：Raj: "When can we use the test accounts?" | Raj asked when they could use the test accounts.
+@diff: 「她说……」——不只有 said：pointed out / insisted / warned / hinted
+@d_cn: 中文转述大多一个「说」字到底：「她说十一月量翻倍」「她说每天都要汇报」「她说再拖 Karen 要问」，对方是什么态度，全靠听的人自己体会。
+@d_en: She pointed out that the volume would double. / She insisted on daily updates. / She warned that Karen would want an explanation. / She hinted at returns. / Raj inquired about test accounts.
+@d_why: 转述的人是「传话筒」，选哪个动词，就等于把对方的态度一起传了过去。**said / mentioned** 是中性的（mention 是「顺便提到」，分量轻）；**pointed out** 是「指出一个值得注意的事实」，有分量但不带情绪；**insisted (on)** 是「坚持、没得商量」；**warned** 是「提醒会有后果」，比 pointed out 重；**hinted (at)** 是「没明说，只是透了点意思」；**inquired** 是 asked 的正式说法。动词选错，客户的态度就传歪了：Priya 只是提醒，你说 She insisted…，张涛会以为她在施压；Priya 很坚决，你只说 She said…，张涛就会低估。最重的 **accused** 要慎用——客户着急不等于在问罪，所以林晓特意补了一句 She didn't accuse us of anything. 还要记住各自的搭配：insist on + 名词 / -ing，hint at + 名词，warn (sb) that…，point out that…
+@d_when: 向经理转述客户的态度；写会议纪要；会上引用别人的观点（As Raj pointed out, …）。
+@d_vs: **She mentioned a night shift.** 她顺便提了一下夜班。（轻）\n**She pointed out that the volume would double.** 她特别指出量会翻倍。（事实，有分量）\n**She insisted on daily updates.** 她坚持要每天汇报。（坚决）\n**She warned that Karen would want an explanation.** 她提醒说 Karen 会要个解释。（有后果）\n**She hinted at returns.** 她隐约提到了退货。（没明说）\n✗ She insisted to get daily updates.
+@d_task: 选合适的转述动词告诉张涛：Ana 特别提到旧数据不完整；Raj 坚持要先测试；Karen 提醒说再推迟会影响旺季。 | Ana pointed out that the old data was incomplete. Raj insisted on testing first. Karen warned that another delay would affect the peak season.
+@diff: 「他跟我说他会……」——He told me he would…
+@d_cn: 对方答应做一件事，中文转述：「他说他今晚发文件」「他跟我说今晚发」。
+@d_en: He told me he would send the file tonight. / He said he'd send it tonight. / He said he'd try to send it tonight.
+@d_why: 原话 I'll send the file tonight. 里的 will，转述时变成 **would**（口语里缩成 he'd）。动词要分清：**said** 后面直接接内容，不能直接接人（✗ He said me…）；要说出「对谁说」，用 **told + 人**：He told me he would…（said to me 也对，但少用）。中文「他跟我说」直接翻成 ✗ He said me… 是高频错误；反过来，told 后面一定要有人，✗ He told that… 也不对。跨时区的团队还要说清「谁的时间」：Mike 一听 tonight 就问 Tonight his time?——转述时间时最好主动讲明白。最后，转述承诺要守住分寸：对方说的是 I'll try to…，你就说 He said he'd try to…，别把「尽量」传成「一定」，否则到时候没兑现，背锅的是你。
+@d_when: 转述对方的承诺和截止时间；跟进时提醒对方（You said you'd send it by Friday.）。
+@d_vs: **He told me he would send the file tonight.** 他跟我说今晚把文件发过来。\n**He said he'd send it tonight.** 他说今晚发。（口语）\n**He said he'd try to send it tonight.** 他说尽量今晚发。（没打包票）\n✗ He said me he will send the file.\n✗ He told that he would send it.
+@d_task: 转述给 Mike（用 told）：Priya 的原话是 "I'll send you the forecast on Friday." | Priya told me she would send us the forecast on Friday.
+
+@core: … said (that) … were / would … | 转述对方说的事实（时态后移） | Raj / Priya / Karen；were ready / would double | 正式：Raj confirmed that the new codes were ready.｜随意：Raj says the codes are good to go.
+@core: … asked whether we could … | 转述对方的问题（陈述语序） | whether / if；start on Monday / extend the pilot | 正式：Priya inquired whether we could begin testing on Monday.｜随意：Priya wants to know if we can start Monday.
+@core: She pointed out that … / She insisted on … / She warned that … | 用转述动词传达对方的态度 | pointed out / insisted on / warned / hinted at | 正式：Ms. Nair emphasized that volume is expected to double in November.｜随意：She made a big point about November.
+@core: He told me he would … | 转述对方的承诺和时间 | send the file tonight / call back tomorrow | 正式：Raj confirmed that he would send the file this evening.｜随意：Raj says he'll send it tonight.
+@core: In her words, "…" | 引用一字未改的原话 | her / his / Karen's | 正式：To quote Priya directly, "…"｜随意：She literally said, "…"
+@core: I'm paraphrasing, but … / If I recall correctly, … | 不是原话、记不太准时先打预防针 | paraphrasing / recall correctly | 正式：This is not a direct quote, but…｜随意：It was something like, "…"
+@core: I'll pass along … to … | 答应把消息转给第三个人 | your request / his question；Kevin / the team | 正式：I will convey your request to our IT team.｜随意：I'll let Kevin know.
+@core: Please let me know if I've misquoted anything. | 转述完请对方核对 | misquoted / missed / misunderstood | 正式：Please feel free to correct anything I may have misstated.｜随意：Shout if I got anything wrong.
+
+@pw: interpretation | ɪnˌtɜːrprəˈteɪʃn | 5 个音节 in·ter·pre·TA·tion | 主重音在 ta，次重音在 ter；动词 in·TER·pret 重音在第二个音节，变成名词后主重音后移
+@pw: paraphrase | ˈpærəfreɪz | 3 个音节 PAR·a·phrase | 重音在第一个音节；ph 读 `/f/`；结尾是 `/z/`
+@pw: reportedly | rɪˈpɔːrtɪdli | 4 个音节 re·POR·ted·ly | 重音在 por；-ted 的 t 美式闪音，像轻轻的 d：re-POR-did-ly
+@pw: nuance | ˈnuːɑːns | 2 个音节 NU·ance | 美式开头读 `/nuː/`，不加 /j/；第二个音节 `/ɑːns/` 嘴张大
+@pw: firsthand | ˌfɜːrstˈhænd | 2 个音节 first·HAND | 作副词（hear it firsthand）重音在 hand；放在名词前时重音前移：FIRSThand information
+@pw: misquote | ˌmɪsˈkwoʊt | 2 个音节 mis·QUOTE | 重音在 quote；qu 读 `/kw/`，双唇先收圆再发音
+@pw: inquire | ɪnˈkwaɪər | 2 个音节 in·QUIRE | 重音在 quire，读 `/kwaɪər/`；名词 inquiry 美式常读 IN-quir-y，重音在前
+@ps: **Raj** said the new **codes** were **read**y. | said 和 the 都轻；were 弱读成 `/wər/`，紧贴在 codes 后面；重音落在三个信息词上：Raj、codes、ready。
+@ps: **Pri**ya asked whether we could **start**‿on **Mon**day. | 转述的问题是陈述句，句末语调下降，不要像原来的问句那样上扬；could 弱读成 `/kəd/`；start on 的 t 闪音，连成 star-don。
+@ps: She pointed‿**out** that the **vol**ume would **dou**ble / in No**vem**ber. | pointed out 常连读成 poin-ni-DOUT：nt 后的 t 常被吞掉，-ed 的 d 和 out 连在一起；that 弱读成 `/ðət/`，would 弱读成 `/wəd/`；November 前稍停，把时间点突出出来。
+@ps: Not "re**port**edly." / I heard‿it **first**hand. | 对比重音：先重读 reportedly 表示「不是这个」，再把重音放到 first 上，强调「第一手」；平时 firsthand 的重音在 hand，对比时才移到 first。heard it 连读成 her-dit。
+@pnote: 转述句里的小词都弱读：that `/ðət/`、would `/wəd/`（常缩成 he'd `/hid/`、she'd `/ʃid/`）、could `/kəd/`、were `/wər/`。记笔记时不要等这些小词，抓住 said / asked / told / pointed out 后面的信息词（codes、ready、tonight、Monday、November、double）就够了；自己说的时候，小词越轻，信息词就越突出。
+@pnote: 引用原话的语调：In her **words**, 后面稍停一下，再换一点语气读原话，像在「演」对方：We **can't** afford another de**lay**. 里 can't 读完整的 `/kænt/`，元音饱满。原话和你自己的话之间要有停顿，听的人才分得清哪句是原话、哪句是你的理解。写和说的不同：邮件里写 I've conveyed your points to Tom and Mike.，嘴上更常说 I told Tom and Mike what you said.
+@lfocus: 人名 + 转述动词：Raj said… / Priya asked whether… / She pointed out… / insisted / warned / hinted —— 笔记写成 Raj: codes ready, file tonight ／ Priya: start Mon?
+@lfocus: 时间和数字：tonight (his time)、first thing tomorrow、Monday、November、double、daily
+@lfocus: 决定和行动项：pass along → Kevin（test accounts）；daily updates；a call with Raj（Mike）
+@dict: S5–S8
+@dict: S29–S32
+@res: 在 youglish.com 输入 "pointed out that"，选 US，听美国人转述时怎么用 point out。
+
+@mimic: 跟读【C】S1–S26：先正常语速逐句跟读，S2–S3 用 Raj 和 Priya 说话的语气读，再读 S5–S8 林晓的转述，对比 are → were、will → would、Can you…? → whether we could… 的变化；然后你演林晓，手机朗读张涛、Mike 和 Leo 的台词，完整对一遍并录音。最后把邮件 S28–S33 当成你自己写的，用平稳、清楚的语气读一遍。
+@swap: Raj said the new codes were ready. | 换人和内容：Mike → the fix／Ana → the test results；were ready → were done／looked good | Ana said the test results looked good.
+@swap: Priya asked whether we could start on Monday. | 换问题：extend the pilot／add more sellers；或换成疑问词 when／how many | Raj asked how many sellers we could add next month.
+@swap: She pointed out that the volume would double in November. | 换转述动词：warned／mentioned；换内容：returns would increase／the warehouse would be busy | She warned that returns would increase after the holidays.
+@swap: He told me he would send the file tonight. | 换人和承诺：she → call back tomorrow／check the logs；口语缩成 he'd／she'd | She told me she'd call back tomorrow.
+@free: 张涛没参加你和卖家 Daniel 的电话，问你 Daniel 说了什么（新功能很好用；问下周能不能多开三个账号；提到十二月订单会多很多） | Daniel is happy with the new feature. He said it was easy to use, and he asked whether we could add three accounts next week. He also pointed out that his December orders would be much higher.
+@free: Mike 问你 Raj 到底怎么说的，可你记不清原话（大意：代码基本好了，还有两个状态没定） | The codes are almost ready, but two statuses are still open. I'm paraphrasing, though, so it's best to check with Raj firsthand.
+@free: Priya 在电话里问能不能免费延长试点。你要转告张涛，并说明你没有当场答应 | Priya asked whether we could extend the pilot for free. I didn't promise anything. I told her I would pass along her request to you and get back to her by Friday.
+@free: Karen 在会上只说了一句 "Let's see how testing goes."，张涛问你她是什么意思（你的理解：她想先看测试结果再决定） | She hasn't decided yet. In her words, "Let's see how testing goes." My interpretation is that she wants to see the results before she commits.
+@output: 写一封 8–12 句的通话纪要邮件，发给没参加通话的经理或同事，标题是 "Summary of today's call with …"：一句话结论 → 对方说了什么（said / pointed out，时态后移）→ 对方问了什么（asked whether…，陈述语序）→ 对方答应了什么（He told me he would…）→ 一句原话（In her words, "…"）→ 你的理解（That's my interpretation / I'm paraphrasing）→ 下一步。可以写你和客户、供应商、房东、老师的一次通话。
+@output_sample: Hi Tom,\nHere's a quick summary of today's call with BrightNest.\nThe main point is that they can live with Option B, but they're nervous about the timeline.\nRaj said the new codes were ready, and he told me he would send the file tonight.\nPriya asked whether we could start testing on Monday, and Mike has confirmed that we can.\nShe pointed out that their volume would double in November.\nShe also insisted on daily updates during testing.\nIn her words, "We can't afford another delay."\nAt the end of the call, she hinted at a new request about returns.\nThat's only my interpretation, so I haven't promised anything.\nI'll pass along any details as soon as she sends them.\nBest,\nLily
+
+@check: 听力：Raj 在电话里说了哪两件事？Mike 的团队什么时候能拿到文件？周一能不能开始？ | Raj 说新的状态代码已经好了，今晚（他那边的晚上）把文件发过来，所以 Mike 的团队明天一早就能拿到。Mike 说只要文件到了，周一就能开始。
+@check: 听力：Priya 对 B 方案什么态度？她指出了什么、坚持什么、提醒了什么？哪一句是她的原话？ | 她勉强能接受（She can live with it.）。她指出十一月订单量会翻倍；坚持测试期间每天汇报；提醒说如果再拖，Karen 会要一个解释。原话是 "We can't afford another delay."（退货的事她只是暗示，「要改范围」是林晓的理解。）
+@check: 改错：✗ She asked could we start on Monday, and Raj said me he will send the file tonight. | She asked whether (if) we could start on Monday, and Raj told me he would send the file tonight.（转述问题用 whether / if + 陈述语序；said 后面不直接接人，用 told me；will 后移成 would）
+@check: 换个场景：房东在电话里说："The plumber will come on Friday. Will you be home?" 用两句话转述给室友。 | The landlord said the plumber would come on Friday. He asked whether we would be home.
+@check: 选转述动词：① Ana 特别指出旧数据不完整 ② 客户坚持先看报告 ③ Raj 隐约提到预算会变 | ① Ana pointed out that the old data was incomplete. ② The client insisted on seeing the report first. ③ Raj hinted at a change in the budget.
+@check: 你记不清客户的原话，转述时开头怎么说才不会误导？转述完发邮件，结尾加哪一句请对方核对？ | 开头说 I'm paraphrasing, but… 或 If I recall correctly, …；邮件结尾写 Please let me know if I've misquoted anything.
+@next1: 不看书说出 5 个锚点句：S5、S6、S8、S12、S17
+@next1: 把今天听到的一段话（同事、家人或新闻）用 said / asked whether / told me he would 各转述一句
+@next7: 转述三件套：said + 时态后移；asked whether / if + 陈述语序；told me + would
+@next7: 转述动词的轻重：mentioned < pointed out < warned / insisted；hinted = 没明说；accused 慎用

@@ -28,27 +28,26 @@
 @story_title: Episode 91 · Would It Be Possible…?
 @story_type: 内部碰头会 + 两封请求邮件
 @s: Last week, Tom asked Lily to lead the BrightNest launch. | 上周，张涛让林晓牵头 BrightNest 的上线。
-@s: Now she's the project **coordinator**, and her first job is asking people for help. | 现在她是项目协调人，第一件事就是请别人帮忙。
+@s: Now she's the project **coordinator**. | 现在，她是这个项目的协调人。
 @br:
 @s: On Monday, she meets Tom, Emma and Leo. | 周一，她和张涛、Emma、Leo 碰了个头。
-@s: Tom: Karen Walker is the project **sponsor** at BrightNest. Priya and Raj are the key **stakeholders**. | 张涛：BrightNest 那边，项目发起人是 Karen Walker，Priya 和 Raj 是主要的相关方。
-@s: Tom: Before the **kickoff** call next week, we need two things. | 张涛：下周开启动会之前，我们得先备好两样东西。
+@s: Tom: At BrightNest, Karen Walker is the **sponsor**, and Priya and Raj are key **stakeholders**. | 张涛：BrightNest 那边，项目发起人是 Karen Walker，Priya 和 Raj 是主要的相关方。
+@s: Tom: Before next week's **kickoff** call, we need two things. | 张涛：下周开启动会之前，我们得先备好两样东西。
 @s: Emma: A test account and real orders. A made-up **dataset** won't show real problems. | Emma：一个测试账号，还有真实的订单。编出来的数据集测不出真问题。
-@s: Leo: But Mike says he can't **allocate** more **resources** this month. | Leo：可 Mike 说，这个月他没法再调配更多人手了。
-@s: Lily: We don't need more engineers, just one **dedicated** test account. | 林晓：我们不需要更多工程师，只要一个专用的测试账号。
+@s: Leo: But Mike can't **allocate** more **resources** this month. | Leo：可 Mike 这个月没法再调配更多人手了。
+@s: Lily: We don't need more people, just one **dedicated** test account. | 林晓：我们不需要更多人手，只要一个专用的测试账号。
 @br:
-@s: Lily shows Tom her first draft. It says, "Please set up a test account ASAP." | 林晓把初稿拿给张涛看，上面写着：「请尽快搭一个测试账号。」
+@s: Her first draft says, "Please set up a test account ASAP." | 她的初稿上写着：「请尽快搭一个测试账号。」
 @s: Tom: The **wording** is clear, but ASAP sounds like an order. | 张涛：措辞很清楚，可是 ASAP 听起来像在下命令。
 @s: Lily: But I need a **timely** answer. | 林晓：可我需要对方及时回复啊。
 @s: Tom: Then show the **urgency** with a date, and explain your **rationale**. | 张涛：那就用一个日期来体现紧迫性，再把你的理由讲清楚。
 @s: Tom: People move faster when they know why. | 张涛：人家知道为什么，动作才会快。
-@s: Emma: And Priya doesn't work for us. Give her some room. | Emma：而且 Priya 又不是我们的员工，给她留点余地。
 @s: Tom: Also, watch the **phrasing**. "Thank you for your **cooperation**" sounds like a sign at the bank. | 张涛：还有，注意说法。「感谢您的配合」听起来像银行里贴的告示。
 @br:
-@s: Lily rewrites both emails. First, to Mike: | 林晓把两封邮件都重写了。先是给 Mike 的：
+@s: Lily rewrites both. First, to Mike: | 林晓把两封邮件都重写了。先是给 Mike 的：
 @s: Hi Mike, | Mike 你好：
 @s: **Would it be possible to** set up a test account by Thursday? | 能不能在周四之前搭好一个测试账号？
-@s: BrightNest's order data should arrive on Friday, and we'd like to load it right away. | BrightNest 的订单数据应该周五到，我们想一到就导进去。
+@s: BrightNest's data should arrive on Friday, and we'd like to load it right away. | BrightNest 的数据应该周五到，我们想一到就导进去。
 @s: If Thursday is too tight, Friday morning works. I have some **flexibility**. | 如果周四太赶，周五上午也可以，我这边时间上有余地。
 @s: Thanks,\nLily | 谢谢！\n林晓
 @br:
@@ -56,10 +55,10 @@
 @s: Hi Priya, | Priya 你好：
 @s: **I'd appreciate it if** you could send us some **sample** data. | 如果您能给我们发一些样本数据，我将非常感激。
 @s: We need it **so that** Mike's team can start testing. | 我们需要这些数据，好让 Mike 的团队开始测试。
-@s: About 500 orders would be enough. Please **specify** the time zone for the order dates. | 大约 500 个订单就够了。请注明订单日期用的是哪个时区。
+@s: About 500 orders is enough. Please **specify** your time zone. | 大约 500 个订单就够了。请注明你们用的是哪个时区。
 @s: Do you have last month's order data **by any chance**? | 不知道您那边有没有上个月的订单数据？
 @s: Without real data, we could **potentially** lose a week. | 没有真实数据的话，我们可能会耽误一个星期。
-@s: If Raj's team needs any **assistance** with the export, Kevin is happy to help. | 如果 Raj 的团队导出数据时需要任何协助，Kevin 很乐意帮忙。
+@s: If Raj needs any **assistance**, Kevin is happy to help. | 如果 Raj 需要任何协助，Kevin 很乐意帮忙。
 @s: Let's **aim** for Friday, **if that works for you**. | 我们争取周五，您看可以吗？
 @s: Thanks so much for your help!\nLily | 非常感谢您的帮助！\n林晓
 
@@ -143,11 +142,11 @@
 @lfocus: 人和角色：Karen → sponsor；Priya, Raj → stakeholders；Mike → can't allocate more resources
 @lfocus: 要什么、什么时候：test account → by Thursday（or Friday morning）；sample data → about 500 orders, last month, aim for Friday
 @lfocus: 张涛改了什么：ASAP → a date + rationale；"Thank you for your cooperation" → "Thanks so much for your help"
-@dict: S18–S20
-@dict: S24–S27
+@dict: S17–S19
+@dict: S23–S26
 @res: 在 youglish.com 输入 "would it be possible to"，选 US，听前半句是怎么弱读的、句末语调怎么上扬。
 
-@mimic: 跟读【C】S1–S16：先正常语速逐句跟读，重点模仿张涛点评时的重音（The **wording** is clear, **but**…）；再由你演林晓、手机朗读张涛、Emma 和 Leo 的台词，完整对一遍并录音。最后把两封邮件（S17–S31）当成你自己写的，用客气、清楚的语气读一遍，读到 S18、S27、S30 时句末轻轻上扬。
+@mimic: 跟读【C】S1–S14：先正常语速逐句跟读，重点模仿张涛点评时的重音（The **wording** is clear, **but**…）；再由你演林晓、手机朗读张涛、Emma 和 Leo 的台词，完整对一遍并录音。最后把两封邮件（S15–S30）当成你自己写的，用客气、清楚的语气读一遍，读到 S17、S26、S29 时句末轻轻上扬。
 @swap: Would it be possible to set up a test account by Thursday? | 换请求和时间：move the kickoff call／share the API documents；to Monday／by end of day | Would it be possible to share the API documents by end of day?
 @swap: I'd appreciate it if you could send us some sample data. | 换动作：review the attached plan／confirm the time／reply by Friday | I'd appreciate it if you could review the attached plan.
 @swap: We need it so that Mike's team can start testing. | 换人和目的：Kevin／set up the accounts；Priya's team／check the results | We need it so that Kevin can set up the accounts.
@@ -159,13 +158,13 @@
 @output: 录一段 2 分钟的会议发言：你刚当上一个项目的协调人，在内部碰头会上说明你需要的支持。① 一句话说你的角色和本周目标（My aim this week is…）② 向两个人提请求（一个同事、一个外部的人），每个请求都带日期和一句原因（so that… / because…）③ 给一点余地（If … is too tight, … works. / if that works for you）④ 委婉地多要一样（by any chance）⑤ 最后用一句话总结「谁、什么、哪天」。没有项目，就讲一件需要别人帮忙的事：办一场活动、搬家、做一份报告。
 @output_sample: Thanks, everyone. As you know, I'm now the coordinator for the BrightNest project, and my aim this week is simple: get everything ready for the kickoff call. I need help from two people. First, Mike. Would it be possible for your team to set up a dedicated test account by Thursday? BrightNest's data should arrive on Friday, and we'd like to load it right away, so that we can find problems before the kickoff. If Thursday is too tight, Friday morning works. I have some flexibility there. Second, Kevin. I'd appreciate it if you could give Leo access to the test environment. He'll check the data with me, so he needs to log in by Friday. On the client side, I've asked Priya for about five hundred sample orders. I also asked if she had last month's data by any chance, because real orders show real problems. Without real data, we could potentially lose a week, so I'll check in with her on Thursday if I haven't heard back. Karen Walker is the sponsor at BrightNest, so I'll keep her updated through Priya. So, to sum up the dates: the test account by Thursday, the data by Friday, and the kickoff next week. Let's aim for that, if that works for everyone. Any questions?
 
-@check: 听力：BrightNest 那边谁是项目的 sponsor？谁是主要的 stakeholders？Mike 那边有什么限制，林晓怎么回应？ | Karen Walker 是 sponsor；Priya 和 Raj 是主要相关方。Mike 说这个月没法再调配更多资源（can't allocate more resources）；林晓说不需要更多工程师，只要一个专用的测试账号（just one dedicated test account）。
+@check: 听力：BrightNest 那边谁是项目的 sponsor？谁是主要的 stakeholders？Mike 那边有什么限制，林晓怎么回应？ | Karen Walker 是 sponsor；Priya 和 Raj 是主要相关方。Mike 说这个月没法再调配更多资源（can't allocate more resources）；林晓说不需要更多人手，只要一个专用的测试账号（just one dedicated test account）。
 @check: 听力：林晓分别向 Mike 和 Priya 要什么、什么时候要？张涛对她的初稿提了哪两点意见？ | 向 Mike 要一个测试账号，周四前（太赶的话周五上午也行）；向 Priya 要样本数据，大约 500 个订单，最好是上个月的，争取周五。张涛的意见：ASAP 听起来像命令，要用日期体现紧迫性、说明理由；Thank you for your cooperation 听起来像银行里的告示。
 @check: 改错：① I'd appreciate if you could reply today. ② We need the data for start testing. ③ By the way, do you have Raj's email?（想委婉地问） | ① I'd appreciate it if you could reply today.（别丢 it）② We need the data so that we can start testing. ／ We need the data to start testing. ③ Do you have Raj's email by any chance?（by the way 是换话题，不表示委婉）
 @check: 换个场景：你请财务部的同事在周五前把一张发票的副本发给你（她没有义务马上做），因为你下周一要交给客户。写两句。 | Would it be possible to send me a copy of the invoice by Friday? I need to share it with the client on Monday.
 @check: 选句式并说理由：① 问熟悉的同事借个充电器 ② 请客户的 IT 负责人额外导出一份数据 ③ 请经理帮你看看一封邮件的措辞 | ① Can you lend me your charger?（熟人、小事）② Would it be possible to export…? ／ I'd appreciate it if you could export…（客户、额外的事）③ Could you check the wording of this email?（职场默认的礼貌）
 @check: 客户问 Is Friday OK for the data?——你周五、下周一都能接受，但周五最好。用 aim 和 flexibility 回答。 | Let's aim for Friday, but we have some flexibility. Monday morning works too.
-@next1: 不看书说出 5 个锚点句：S18、S24、S25、S27、S30
+@next1: 不看书说出 5 个锚点句：S17、S23、S24、S26、S29
 @next1: 用 Would it be possible to… / I'd appreciate it if you could… / … by any chance? 各向同事或朋友提一个请求，带上日期和一句原因
 @next7: 请求四档：Can you… → Could you… → Would it be possible to… → I'd appreciate it if you could…，各说一句，并说出该对谁用
 @next7: 找一封自己写过的、带 ASAP 或「尽快」的邮件，改成「日期 + 原因 + 余地」

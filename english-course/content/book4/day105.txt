@@ -1,0 +1,173 @@
+@day: 105
+@week: 3
+@title_cn: 出了什么问题
+@title_en: What's Happening?
+@topic: 问题刚出现时先收集事实：从什么时候开始、多少订单、有什么规律；把事实、推测和未知分开说
+@think_short: 「好像……」It looks like… / It appears that… / Apparently…（听说）｜「从周一开始」Starting from Monday, … / Since Monday, … have…｜「少量」a handful of / nine out of 2,500｜「应该是……」→ 分层：事实 / We suspect… / At this stage, it's just a theory.
+
+@goal_scene: 试点第一周的周四，BrightNest 发现部分订单的物流状态显示错误。林晓在和西雅图唯一重叠的那一小时里召集 Mike、Ana 和实习生 Leo 开电话会，先不猜原因，而是收集事实：从什么时候开始、多少订单、有什么规律、能排除什么；再给 Priya 回一封邮件，把已知的事实、推测和还不知道的部分分开写清楚。
+@goal_expr: Starting from Monday, some orders show the wrong status. / It looks like only a handful of orders are affected. / It appears that all nine were shipped in two boxes. / Can we rule out the carrier? / We suspect it's a sync problem, but we haven't ruled anything out. / At this stage, it's just a theory. / As far as we know, it's an isolated issue.
+@goal_vocab: 20 个重点词 + 5 个短语：问题初现时的观察与规律、数量与范围、事实与推测
+@done: 能用 It looks like… / It appears that… / Apparently… 说「好像」，并分清哪个是自己看到的、哪个更正式、哪个是听别人说的
+@done: 能用 Starting from Monday, … 或 Since Monday, … + 现在完成时说问题从什么时候开始，用 a handful of / nine out of 2,500 / a subset of 说清数量和范围
+@done: 能在会上用 1.5–2 分钟通报一个刚出现的问题：事实 → 规律 → 已排除的 → 推测（We suspect… / At this stage, it's just a theory.）→ 未知 → 下一步
+
+@warmup: 谁来更新项目跟踪表？ | Who's going to update the tracker? | D103
+@warmup: 我们为什么不先做一个小规模的试点呢？ | Why don't we run a small pilot first? | D102
+@warmup: 我们能回到 Raj 刚才说的数据问题上吗？ | Can we go back to what Raj said about the data? | D101
+@warmup: 我明白你的意思，但我不确定那是否现实。 | I see your point, but I'm not sure that's realistic. | D100
+@warmup: 我期望得到一个文件，结果却报了超时错误。 | I expected a file, but I got a timeout error. | D84
+@warmup: 这些症状有多久了？ | How long have you had these symptoms? | D47
+
+@scene: 9 月 14 日（周一），BrightNest 试点按计划开始。第一周的周四早上，林晓一打开邮箱就看到 Priya 的邮件：从周一开始，有些订单在 BrightNest 的订单页面上显示「已送达」，可顾客根本没收齐包裹。Priya 做事讲数据，又一直希望试点快点扩大，这时候最怕听到一句没根据的「应该是……」。九点到十点是深圳和西雅图每天唯一的重叠时间（西雅图是周三傍晚六点），林晓叫上 Leo 记笔记，和 Mike、新来的测试工程师 Ana 开电话会。她给自己定了一条规矩：先别猜原因，先把事实摆出来——从哪天开始、多少订单、有什么共同点、哪些可能已经可以排除——然后再回复 Priya。
+@sp: 人物关系 | 林晓是项目协调人，召集会议、对客户负责；Mike 是西雅图工程经理，说话直接、讨厌瞎猜；Ana 刚加入，负责试点测试，观察很细；Leo 是实习生，记笔记，爱抢着猜原因；Priya 是客户方运营经理，着急、要数字
+@sp: 沟通目的 | 在原因还没查清之前，先把问题的「样子」弄清楚：开始时间、数量、规律、范围；然后给客户一个诚实的初步说明——不夸大，也不把猜测说成结论
+@sp: 已知信息 | Priya 发来九个订单号；试点到现在大约有 2,500 个订单；Ana 周二就注意到一个奇怪的订单：显示已送达，可有一个箱子还在路上；承运商的扫描记录都正常；原因、受影响订单的真实数量都还不知道
+@sp: 表达重点 | 先说事实（Let's start with the facts.）→ 数量（nine out of about 2,500 / a handful of）→ 规律（It appears that… / a pattern / a subset）→ 排除（Can we rule out…?）→ 推测（We suspect… / hypothesis / At this stage, it's just a theory.）→ 未知（What's still unknown?）→ 邮件：事实、范围、推测、下一步
+
+@story_title: Episode 105 · Facts First
+@story_type: 客户邮件 + 电话会 + 回复邮件
+@s: On Thursday morning, Lily opens an email from Priya. | 周四早上，林晓打开了 Priya 发来的一封邮件。
+@s: Lily, we have a problem with the pilot. | 林晓，试点出问题了。
+@s: **Starting from** Monday, some orders show the wrong status. | 从周一开始，有些订单显示的物流状态不对。
+@s: They say "Delivered," but our customers are still waiting for their packages. | 页面上写着「已送达」，可我们的顾客还在等包裹。
+@s: Can you find out what's going on? | 你们能查一下是怎么回事吗？
+@br:
+@s: At nine, Lily calls Mike and Ana in Seattle. Leo takes notes. | 九点，林晓给西雅图的 Mike 和 Ana 打电话，Leo 做记录。
+@s: Lily: Before we guess, let's start with the **facts**. | 林晓：先别猜，我们从事实说起。
+@s: Leo: Priya sent nine order numbers. **Apparently**, all nine customers called to complain. | Leo：Priya 发来了九个订单号。听说这九位顾客都打电话投诉了。
+@s: Lily: Nine out of about 2,500 pilot orders. | 林晓：大约 2,500 个试点订单里的九个。
+@s: Lily: **It looks like** only a **handful** of orders are affected. | 林晓：看起来只有少数几个订单受到影响。
+@s: Ana: Maybe more. I **observed** an **anomaly** on Tuesday. | Ana：可能不止。我周二就发现了一个异常。
+@s: Ana: An order showed "Delivered," but one of its boxes was still in transit. | Ana：有个订单显示「已送达」，可它的一个箱子还在路上。
+@s: Lily: Is that true for Priya's nine orders, too? | 林晓：Priya 那九个订单也是这样吗？
+@s: Ana: Let me check. Yes, it **appears** that all nine were shipped in two boxes. | Ana：我查一下。是的，看来这九个订单都是分两箱发的。
+@s: Ana: The first box arrived, and the whole order jumped to "Delivered." | Ana：第一箱一到，整个订单就跳成了「已送达」。
+@s: Lily: So there's a **pattern**. Good **observation**, Ana. | 林晓：这么说是有规律的。观察得真细，Ana。
+@s: Leo: Then the problem isn't **widespread**? | Leo：那问题并不普遍？
+@s: Ana: No. It's a **subset**: orders with more than one box. | Ana：对，只是其中一类：分多箱发的订单。
+@s: Lily: Can we **rule out** the carrier? | 林晓：能排除承运商的问题吗？
+@s: Ana: Yes. Their scans are correct. The **discrepancy** is only on BrightNest's order page. | Ana：能。承运商的扫描记录是对的，出入只出现在 BrightNest 的订单页面上。
+@s: Leo: Maybe BrightNest's warehouse entered the wrong status? | Leo：会不会是 BrightNest 的仓库把状态录错了？
+@s: Mike: Let's not **speculate**. | Mike：我们先别瞎猜。
+@s: Mike: We **suspect** it's a sync problem, but we haven't ruled anything out. | Mike：我们怀疑是同步出了问题，但还没有排除任何可能。
+@s: Mike: My **hypothesis** is a **mismatch** between the two systems. | Mike：我的假设是，两个系统之间有对不上的地方。
+@s: Mike: **At this stage**, it's just a **theory**. Ana will test it tomorrow. | Mike：现阶段这还只是个推测，Ana 明天会去验证。
+@s: Lily: And what's still **unknown**? | 林晓：那还有什么是不清楚的？
+@s: Mike: The cause, and the real number of affected orders. | Mike：原因，还有受影响订单的真实数量。
+@br:
+@s: Lily replies to Priya: | 林晓回复 Priya：
+@s: Hi Priya, here's what we know so far. | Priya 你好，以下是我们目前掌握的情况。
+@s: Only orders shipped in two or more boxes are affected. | 只有分两箱或更多箱发货的订单受到影响。
+@s: The error isn't **noticeable** until the first box arrives. | 第一箱送到之前，这个错误是看不出来的。
+@s: It's **evident** that the carrier data is correct. | 很明显，承运商的数据是正确的。
+@s: **As far as we know**, it's an **isolated** issue. | 据我们目前所知，这是个个别问题。
+@s: We'll send you the cause and the full numbers tomorrow. | 明天我们会把原因和完整的数字发给您。
+@s: Best,\nLily | 祝好，\n林晓
+
+@v: starting from | = | phr. | ˈstɑːrtɪŋ frəm | 从……开始（一直到现在，或从某时起往后） | 说问题从哪天开始出现；说新规定从哪天生效 | starting from Monday；starting from next week；starting today | Starting from next month, all invoices will be sent by email. | 从下个月起，所有发票都用邮件发送。 | 后面接时间点，现象还在继续时主句用一般现在时：Starting from Monday, some orders show…；中文「从周一到现在」别直译成 ✗ From Monday until now, …；美式口语常把 from 省掉：Starting Monday, …；from 弱读成 `/frəm/`。
+@v: facts | fact | n. | fækts | 事实；确实发生了、能核实的情况 | 排查问题时先摆事实，再谈原因 | start with the facts；stick to the facts；a known fact | Let's stick to the facts until we know more. | 在了解更多情况之前，我们只谈事实。 | 「先摆事实」说 Let's start with the facts.，用复数、加 the；in fact 是「其实、实际上」，用来补充或纠正前面的话，不等于 the facts；结尾 -cts 是 `/kts/`，三个辅音都要轻轻带出来，别读成 fax。
+@v: apparently | = | adv. | əˈpærəntli | 据说；听说；看来（信息来自别人，自己还没核实） | 转述别人告诉你的消息 | Apparently, …；Apparently not.；Apparently so. | Apparently, the new manager starts on Monday. | 听说新经理周一来上班。 | 中国学生最容易用错的词之一：apparently 不是「明显地」（那是 clearly / obviously / It's evident that…），而是「据说、听起来好像」，常常带点意外的语气；自己亲手查过的事别加 apparently，否则听起来像在推卸责任。
+@v: It looks like | it looks like | phr. | ɪt ˈlʊks laɪk | 看起来……；（根据眼前的情况）估计 | 会上说初步判断，口语最常用 | It looks like…；Looks like…（口语省 It）；It looks like a… | It looks like the meeting will run late. | 看样子会要开得晚一点。 | 后面直接接句子，不加 that：✗ It looks like that only a few…；后面也可以接名词：It looks like a sync problem.；口语里常把 It 省掉：Looks like we're done.；比 It appears that… 随意。
+@v: handful | = | n. | ˈhændfʊl | 一小把；少数几个（大约五到十个） | 说数量不多 | a handful of；only a handful；just a handful | Only a handful of sellers have tried the new feature. | 只有少数几个卖家用过这个新功能。 | a handful of 后接可数名词复数：a handful of orders，✗ a handful of data；本义是「一把」：a handful of rice；口语里说人 He's a handful. 是「他真难管」；ful 在口语里常弱读成 `/fəl/`。
+@v: observed | observe | v. | əbˈzɜːrvd | 观察到；注意到（偏正式） | 测试、分析数据时说自己发现的现象 | observe a pattern；observe a change；We observed that… | We observed a drop in orders after the price change. | 调价以后，我们观察到订单量下降了。 | observe 比 notice（第一册 D29）正式，常见于测试、研究和报告；它还有「遵守」的意思：observe the rules；s 读 `/z/`：ob-ZERVE；过去式 -ed 读 `/d/`。
+@v: anomaly | = | n. | əˈnɑːməli | 异常；反常的现象（和正常规律不符的数据或情况） | 看数据、看报表、测试时发现不对劲的地方 | an anomaly in the data；spot an anomaly；a strange anomaly | The dashboard shows an anomaly: zero orders between two and three. | 看板上有个异常：两点到三点之间订单数是零。 | 物流里的「异常件」是 exception（第三册 D76），指包裹没按计划走；anomaly 是数据或现象「不合常理」，多出现在测试和分析里；重音在第二个音节 a-NOM-a-ly，o 读 `/ɑː/`；复数 anomalies。
+@v: appears | appear | v. | əˈpɪrz | 似乎；看来（It appears that…，比 It looks like 正式、客观） | 报告、邮件或会上客观地描述观察结果 | it appears that…；appear to be…；appear on the screen（出现） | It appears that the file was deleted by mistake. | 看来那个文件是被误删了。 | appear 有两个意思：「出现」（第三册 D84：a timeout error appears）和「似乎」；表示「似乎」时不用被动、不用进行时：✗ It is appeared that… ✓ It appears that…；也可以说 All nine appear to be two-box orders.
+@v: pattern | = | n. | ˈpætərn | 规律；模式（反复出现的共同点） | 排查问题、分析数据 | find a pattern；there's a pattern；a clear pattern | There's a clear pattern: most returns happen on Mondays. | 有个很明显的规律：大部分退货都发生在周一。 | 「找规律」说 find a pattern / see a pattern，✗ find the rule（rule 是规定）；「生活规律」是 routine（第二册 D53），不是 pattern；tt 在美式口语里闪音，听起来像 PA-dern。
+@v: observation | = | n. | ˌɑːbzərˈveɪʃn | 观察；观察到的情况；（基于观察的）看法 | 会上肯定别人的发现；报告里列出发现 | good observation；make an observation；my observation is that… | That's a useful observation. Let's check it. | 这个观察很有用，我们查一下。 | Good observation. 是会上表扬别人「看得细」的常用说法，比 Good job 具体；动词是 observe；主重音在 VA：ob-ser-VA-tion，ob 读 `/ɑːb/`。
+@v: widespread | = | adj. | ˈwaɪdspred | 普遍的；大范围的 | 说问题影响的范围大不大 | a widespread problem；widespread delays；isn't widespread | The storm caused widespread delays on the East Coast. | 暴风雨在美国东海岸造成了大范围的延误。 | 中文「大面积」「普遍」就是 widespread，反义词是本课的 isolated；widespread 说范围（多少人、多少地方），serious（第二册 D56）说严重程度，一个问题可以很严重却不普遍；一个词，不加连字符。
+@v: subset | = | n. | ˈsʌbset | 子集；（有共同特点的）一部分 | 说问题只影响某一类对象 | a subset of orders；a small subset；a subset of users | The new feature is only open to a subset of sellers. | 新功能只对一部分卖家开放。 | 中文「部分订单」别直译成 ✗ part of orders，自然的说法是 some orders 或 a subset of orders；subset 强调「有共同特点的那一类」（比如多箱订单），比 some 精确；重音在前：SUB-set。
+@v: rule out | = | phr. | ˌruːl ˈaʊt | 排除（某种可能） | 排查原因时一个一个排除 | rule out the carrier；rule out a network problem；can't rule it out | We can't rule out a problem with the printer. | 我们不能排除是打印机的问题。 | 宾语是代词时必须放中间：rule it out，✗ rule out it；名词放前放后都行；中文「排除」别用 exclude 说原因：✗ We excluded the carrier. 听起来像「把承运商踢出去了」；out 重读。
+@v: discrepancy | = | n. | dɪˈskrepənsi | （两组数据、记录之间的）出入；不一致 | 对账、核对数据、比较两个系统 | a discrepancy between A and B；a small discrepancy；explain the discrepancy | There's a discrepancy between the invoice and the order. | 发票和订单对不上。 | 中文「对不上」「有出入」的正式说法，常用 between A and B；口语可以直接说 The numbers don't match.；重音在 CREP：dis-CREP-an-cy；复数 discrepancies。
+@v: speculate | = | v. | ˈspekjuleɪt | 猜测；推测（没有足够的依据） | 会上提醒大家先别乱猜 | Let's not speculate.；speculate about…；It's too early to speculate. | It's too early to speculate about the cause. | 现在推测原因还为时过早。 | 带一点「没根据地猜」的意思，Let's not speculate. 是会上常用的提醒，语气平和、不冲；介词用 about / on：✗ speculate the cause；speculate 还有「投机」的意思（炒股、炒房）。
+@v: suspect | = | v. | səˈspekt | 估计（某件不好的事）是真的；怀疑是…… | 说有一定依据的推测 | suspect (that)…；I suspect so.；suspect a problem with… | I suspect the file is too large. | 我估计是文件太大了。 | 最常见的误解：suspect 是「估计就是」（认为是真的），doubt（第三册 D73）是「不太相信」：I suspect it's the cache. ≈ 我看是缓存的问题；I doubt it's the cache. ≈ 我看不是缓存的问题；动词重音在后 sus-PECT，名词「嫌疑人」重音在前 SUS-pect。
+@v: hypothesis | = | n. | haɪˈpɑːθəsɪs | 假设；有待验证的推断 | 工程师、分析人员提出一个要去验证的原因 | test a hypothesis；my hypothesis is…；a working hypothesis | Our hypothesis is that the update caused the delay. | 我们的假设是，那次更新导致了延迟。 | 比 theory 更正式，带着「接下来要验证」的意思：test a hypothesis；复数是 hypotheses `/haɪˈpɑːθəsiːz/`；重音在 POTH，开头读 `/haɪ/`。
+@v: mismatch | = | n. | ˈmɪsmætʃ | 不匹配；对不上 | 说两个系统、两组数据、两样东西对不上 | a mismatch between A and B；a data mismatch；a size mismatch | There's a mismatch between the address and the zip code. | 地址和邮编对不上。 | mismatch 强调「本该配对的两样东西配不上」，discrepancy 强调「数字、记录有出入」，很多时候可以互换；名词重音在前 MIS-match；中文「不匹配」别说 ✗ not match（match 是动词：The numbers don't match.）。
+@v: at this stage | = | phr. | ət ˌðɪs ˈsteɪdʒ | 现阶段；目前（事情还在发展，后面可能会变） | 说「现在还早」「现在还只是……」 | at this stage；at an early stage；at this stage of the project | At this stage, we can't give you a date. | 现阶段我们还给不了您具体日期。 | 和 at the moment（第三册 D75）相比，at this stage 暗示「事情还在进行，结论会变」；介词用 at：✗ in this stage, we can't…；stage 第三册 D62 学过「阶段」，这里固定成短语。
+@v: theory | = | n. | ˈθiːəri | 推测；看法；理论 | 提出一个还没被证实的解释 | just a theory；I have a theory；in theory（理论上） | I have a theory about why sales dropped. | 销量为什么下降，我有个想法。 | 口语里 theory 常常就是「我的猜想」，不一定是科学理论：It's just a theory.；in theory 是「理论上（实际上未必）」；th 要咬舌 `/θ/`，不读 sea-ory。
+@v: unknown | = | adj./n. | ˌʌnˈnoʊn | 未知的；还不清楚的（事） | 列出还没弄清楚的问题 | still unknown；The cause is unknown.；the unknowns | The cause of the fire is still unknown. | 起火原因目前仍不清楚。 | 常放在 be 后面：The cause is still unknown.；口语更常说 We don't know yet.；作名词时多用复数：There are still a few unknowns.；k 不发音：un-KNOWN。
+@v: noticeable | = | adj. | ˈnoʊtɪsəbl | 明显的；看得出来的；会被人注意到的 | 说问题什么时候、在哪里会被人发现 | a noticeable difference；barely noticeable；isn't noticeable until… | The difference is barely noticeable on a phone screen. | 在手机屏幕上几乎看不出差别。 | 拼写保留 e：notice + able = noticeable（ce 后面要保留 e，才读 `/s/`）；notice 第一册 D29 学过；not noticeable until… = 直到……才看得出来。
+@v: evident | = | adj. | ˈevɪdənt | 明显的；显而易见的（有证据支持） | 报告、邮件里说有把握的结论 | It's evident that…；become evident；clearly evident | It's evident that the team worked hard on this. | 看得出来团队在这件事上下了很大功夫。 | 名词 evidence（第三册 D76）是「证据」，evident 就是「有证据、看得出来」；It's evident that… 比 It's clear that… 正式；和 apparently 正好对照：evident = 我有把握，apparently = 我是听说的。
+@v: as far as we know | = | phr. | əz ˌfɑːr əz wi ˈnoʊ | 据我们所知；就我们目前掌握的情况 | 说目前的判断，同时给以后的变化留余地 | as far as we know；as far as I know；as far as I can tell | As far as I know, the office is closed on Friday. | 据我所知，办公室周五不开门。 | 中文「据我所知」直译 ✗ According to my knowledge 很生硬；as far as 在这里不是「远」，是「就……的范围而言」；know 后面不加宾语：✗ As far as I know it, …；用 we 代表团队的判断，更适合工作场合。
+@v: isolated | = | adj. | ˈaɪsəleɪtɪd | 个别的；孤立的（不是普遍问题） | 说一个问题只是个别情况、没有扩散 | an isolated issue；an isolated case；isolated incidents | This was an isolated case, not a system problem. | 这是个别情况，不是系统问题。 | 中文「个别问题」说 an isolated issue / an isolated case，✗ an individual problem；反义词是 widespread；开头读 `/aɪ/`，像「爱」；另一个意思是「偏僻的、孤立的」：an isolated village。
+
+@diff: 「好像……」——It looks like… / It appears that… / Apparently…
+@d_cn: 还没完全确定的事，中文一句「好像……」「看起来……」「听说……」都行，说的人自己也常常分不清：这是我亲眼看到的，还是别人告诉我的？
+@d_en: It looks like only a handful of orders are affected. / It appears that all nine were shipped in two boxes. / Apparently, all nine customers called to complain.
+@d_why: 英文把「好像」按**信息来源**和**正式程度**分开。**It looks like…** 是「根据我看到的」，口语、会上最常用；**It appears that…** 意思差不多，但更正式、更客观，常写进报告和邮件，描述数据时很合适（Ana 查完数据就这么说）；**Apparently…** 是「听说、据说」——信息是别人给的，自己没核实（Leo 只是转述 Priya 的邮件）。很多中国学生把 apparently 当成「明显地」，其实「明显」是 clearly / obviously / It's evident that…，意思几乎相反。语法上也有坑：It looks like 后面直接接句子，✗ It looks like that…；It appears that… 的 that 则可以保留。另外，中文「可能、也许」一出口就是 maybe，可向客户汇报时满嘴 maybe 显得没底；It looks like… 既留了余地，又说明你有依据。
+@d_when: 会上说初步判断（It looks like…）；邮件、报告里写观察结果（It appears that…）；转述别人的消息（Apparently…）。
+@d_vs: **It looks like only a handful of orders are affected.** 看起来只有少数几个订单受影响。（我看到的，口语）\n**It appears that all nine were shipped in two boxes.** 看来这九个订单都是分两箱发的。（偏正式、客观）\n**Apparently, all nine customers called to complain.** 听说这九位顾客都打电话投诉了。（别人说的）\n**It's evident that the carrier data is correct.** 很明显，承运商的数据是对的。（有把握）\n✗ It looks like that only a few orders are affected.\n✗ Apparently, I checked the data myself.（自己核实过的事不用 apparently）
+@d_task: 用三种说法告诉同事：①（你自己看了看板）好像只有手机端受影响 ②（报告里写）看来问题只出现在新账号上 ③（客服告诉你的）听说有三个卖家打电话来投诉 | ① It looks like only mobile users are affected. ② It appears that the problem only occurs with new accounts. ③ Apparently, three sellers called to complain.
+@diff: 「从周一开始」——Starting from Monday, … / Since Monday, … have…
+@d_cn: 说一个问题从哪天开始、一直持续到现在：「从周一开始就……」「从周一到现在一直……」。
+@d_en: Starting from Monday, some orders show the wrong status. / Since Monday, some orders have shown the wrong status. / The problem started on Monday.
+@d_why: 中文「从周一到现在」很顺口，直译成 ✗ From Monday until now, some orders show… 英文母语者不会这么说。英文常用三种说法：**Starting from Monday, …**（从周一开始）后面用一般现在时描述还在发生的现象，Priya 的邮件就是这样写的；**Since Monday, …** 后面要用**现在完成时**（have shown / have been showing），因为 since 本身就包含「到现在为止」——这是第二册的 for / since 规则，很多人到这里仍会写 ✗ Since Monday, some orders show…；最简单的是只说起点：**The problem started on Monday.**（过去时）。另外，starting from 也常说将来：Starting from next week, we'll…（从下周起）；美国人口语里还常省掉 from：Starting Monday, … 写给客户的问题说明里，起点最好带上日期：Starting from Monday, September 14, …
+@d_when: 报告问题、写事故说明、通知一项新规定从哪天开始生效。
+@d_vs: **Starting from Monday, some orders show the wrong status.** 从周一开始，一些订单显示的状态不对。\n**Since Monday, some orders have shown the wrong status.** 自周一以来，一些订单一直显示错误状态。（现在完成时）\n**The problem started on Monday.** 问题是周一开始的。\n✗ From Monday until now, some orders show the wrong status.\n✗ Since Monday, some orders show the wrong status.
+@d_task: 用两种说法告诉 Mike：「从上周五开始，有些标签会打印两次。」 | Starting from last Friday, some labels print twice. / Since last Friday, some labels have printed twice.
+@diff: 「少量」「部分」——a handful of / nine out of 2,500 / a subset of / isn't widespread
+@d_cn: 中文说「有一些订单」「少量订单」「部分订单出了问题」，听的人不知道到底是 5 个还是 500 个。
+@d_en: It looks like only a handful of orders are affected. / Nine out of about 2,500 pilot orders. / It's a subset: orders with more than one box. / The problem isn't widespread.
+@d_why: Priya 这样讲数据的人，听到 some orders 第一反应就是 How many? 英文汇报问题要尽量**量化**，最好给出**比例**：**a handful of** 是「一小把」，大约五到十个，中性偏口语，暗示「不多」；**nine out of about 2,500** 同时给出分子和分母，最有说服力；数量大时用百分比：**about 2% of orders**；**a subset of** 是「有共同特点的那一部分」（多箱订单），比 some 精确；**widespread / isolated** 说的是范围：普遍还是个别。中文「部分订单」直译成 ✗ part of orders 不自然，要说 some orders / a subset of orders。还要注意：a handful of 后面接可数名词复数；「只有」的 only 放在最前面：only a handful of orders；数量还没核实时，加一句 The real number is still unknown.，别把第一个数字说死。
+@d_when: 向客户、经理汇报问题的规模；写问题说明邮件；会上回答 How many? / How bad is it?
+@d_vs: **It looks like only a handful of orders are affected.** 看起来只有少数几个订单受影响。\n**Nine out of about 2,500 pilot orders were reported.** 大约 2,500 个试点订单里，有九个被报了上来。\n**It's a subset: orders with more than one box.** 是其中一类：多箱订单。\n**The problem isn't widespread.** 问题并不普遍。\n✗ Part of orders have wrong status.\n✗ Some orders have problem.（没有数字，还漏了冠词）
+@d_task: 把这句话说具体：Some sellers can't log in.（情况：今天 200 个卖家里有 6 个登录不了，用的都是 Safari 浏览器） | Six out of 200 sellers can't log in today. It's a small subset: they're all using Safari.
+@diff: 「应该是……」——分清事实、推测和未知：We suspect… / At this stage, it's just a theory. / As far as we know…
+@d_cn: 中文常说「应该是同步出了问题」「估计是仓库录错了」，听的人分不清这是查过的结论，还是随口一猜。
+@d_en: Their scans are correct.（事实）/ We suspect it's a sync problem, but we haven't ruled anything out.（推测）/ At this stage, it's just a theory. / What's still unknown is the cause.（未知）/ As far as we know, it's an isolated issue.
+@d_why: 问题刚出现时，最容易出事的不是英语，而是**把猜测说成了事实**——今天告诉客户「是同步的问题」，明天查出来不是，信任就打了折扣。中文「应该是……」可能是结论，也可能是猜测；英文会议和邮件里要明确分三层：**事实**用简单直接的陈述句（Their scans are correct. / We've ruled out the carrier.）；**推测**用 **We suspect… / My hypothesis is… / At this stage, it's just a theory.**；**未知**直接说 **We don't know yet. / What's still unknown is…**。**As far as we know** 表示「就我们目前掌握的信息」，给以后的变化留了余地。注意 suspect 的方向：是「估计某件坏事**是真的**」，I suspect it's a sync problem. ≈ 我看就是同步问题；中文「怀疑」有时是「不相信」，那在英文里是 doubt：I doubt it's the carrier. ≈ 我看不是承运商。Mike 那句 Let's not speculate. 也很典型：美国工程师不喜欢没有依据的猜测，会上先摆事实，再提有依据的假设。
+@d_when: 排查问题、事故初期的内部通报、给客户的第一封说明邮件——说错的「事实」以后很难收回。
+@d_vs: **Their scans are correct.** 承运商的扫描记录没问题。（事实）\n**We suspect it's a sync problem.** 我们估计是同步问题。（推测）\n**I doubt it's the carrier.** 我看不是承运商的问题。\n**At this stage, it's just a theory.** 现阶段这还只是个推测。\n**As far as we know, it's an isolated issue.** 据我们目前所知，这是个个别问题。\n✗ It should be a sync problem.（听起来像下了结论，又像「本来应该是」）
+@d_task: 给 Priya 的邮件里写两句：「我们估计是缓存的问题，但还没有排除其他可能。目前还不知道有多少订单受影响。」 | We suspect it's a cache issue, but we haven't ruled anything out. We don't know yet how many orders are affected.
+
+@core: Starting from …, some … + 一般现在时 / Since …, … have + 过去分词 | 说问题从什么时候开始、现在还在继续 | Monday / last Friday；show the wrong status / print twice | 正式：Since Monday, September 14, a number of orders have displayed an incorrect status.｜随意：Since Monday, some orders have been showing the wrong status.
+@core: It looks like … / It appears that … | 根据看到的情况说初步判断 | only a handful of orders are affected / all nine were shipped in two boxes | 正式：It appears that the issue is limited to multi-box orders.｜随意：Looks like it's just a few orders.
+@core: Nine out of about 2,500 … / only a handful of … / a subset of … | 量化问题的规模 | nine out of 2,500 / a handful / a small subset | 正式：Nine of approximately 2,500 pilot orders have been reported so far.｜随意：Just a handful so far.
+@core: Can we rule out …? / We've ruled out … | 排查时一个一个排除可能 | the carrier / the new release / a cache issue | 正式：We have ruled out the carrier as a possible cause.｜随意：It's not the carrier.
+@core: We suspect …, but we haven't ruled anything out. | 说出推测，同时留有余地 | a sync problem / a data error / a mismatch | 正式：Our working hypothesis is a sync issue, but other causes have not been excluded.｜随意：Probably a sync thing, but we're not sure.
+@core: At this stage, it's just a theory. | 提醒大家这还只是推测 | just a theory / too early to say | 正式：At this stage, this remains a hypothesis.｜随意：It's just a guess for now.
+@core: As far as we know, it's an isolated issue. | 说明目前掌握的情况，以后可能变化 | an isolated issue / limited to multi-box orders | 正式：Based on the information available, the issue appears to be isolated.｜随意：As far as we know, that's it.
+@core: What's still unknown is … / We don't know yet … | 说清楚还不知道什么 | the cause / the real number of affected orders | 正式：The root cause remains unknown at this time.｜随意：We still don't know why.
+
+@pw: anomaly | əˈnɑːməli | 4 个音节 a·NOM·a·ly | 重音在 nom，o 读 `/ɑː/`，嘴张大；开头和结尾的音都很轻
+@pw: hypothesis | haɪˈpɑːθəsɪs | 4 个音节 hy·POTH·e·sis | 重音在 poth；hy 读 `/haɪ/`；th 咬舌读 `/θ/`
+@pw: discrepancy | dɪˈskrepənsi | 4 个音节 dis·CREP·an·cy | 重音在 crep；s 后面的 c 不送气，听起来像「斯给」
+@pw: observation | ˌɑːbzərˈveɪʃn | 4 个音节 ob·ser·VA·tion | 主重音在 va；ob 带次重音；s 读 `/z/`
+@pw: suspect | səˈspekt | 动词 2 个音节 sus·PECT | 动词重音在后；名词「嫌疑人」读 `ˈsʌspekt`，重音在前
+@pw: isolated | ˈaɪsəleɪtɪd | 4 个音节 I·so·lat·ed | 重音在第一个音节，读 `/aɪ/`；-ted 的 t 闪音，像轻轻的 d
+@pw: speculate | ˈspekjuleɪt | 3 个音节 SPEC·u·late | 重音在 spec；u 读 `/ju/`，别丢掉 y 的音
+@ps: **Start**ing from **Mon**day, / some **or**ders show the **wrong** **sta**tus. | from 弱读成 `/frəm/`；wrong 是新信息，要重读；status 美式读 `/ˈsteɪtəs/`，t 闪音，像 STAY-dus。
+@ps: It **looks** like / only a **hand**ful‿of‿**or**ders / are af**fect**ed. | handful of orders 连成一串：`/ˈhændfəl‿əv‿ˈɔːrdərz/`，of 弱读成 `/əv/`；only 稍重，带出「只有」的意思。
+@ps: We sus**pect** it's a **sync** problem, / but we **have**n't **ruled**‿anything‿**out**. | sync problem 是复合名词，重音在 sync；but 前稍停，haven't 重读，形成对比；ruled anything out 连读成 `/ruːld‿ˈeniθɪŋ‿aʊt/`。
+@ps: As **far** as we **know**, / it's‿an **i**solated **is**sue. | As far as 弱读成 `/əz ˈfɑːr əz/`；it's an 连成 `/ɪtsən/`；know 后面稍停，语调平而不降，表示「后面还有话」。
+@pnote: 名词 / 动词的重音对：**sus**pect（名词：嫌疑人）vs sus**pect**（动词：估计、怀疑）；**mis**match（名词）vs mis**match**（动词）。同样的规律在 **in**crease / in**crease**、**ob**ject / ob**ject**、**proj**ect / pro**ject** 里都有：名词重音在前，动词重音在后。会上靠重音就能分辨对方用的是名词还是动词。复合名词的重音也在前：**sync** problem、**or**der page、**pi**lot orders、**car**rier data。
+@pnote: 数字和日期：美国人说 2,500 常说 **twenty-five hundred**，不一定说 two thousand five hundred——听到 hundred 前面是一个两位数，就是「几千几百」。nine、nine**teen**、**nine**ty 靠重音分。**Tues**day `/ˈtuːzdeɪ/` 和 **Thurs**day `/ˈθɜːrzdeɪ/` 开头不同，记笔记只写 Tue / Thu 就行。Apparently 放在句首时常带一点「我也是听说」的语调，先升后降；It appears that… 里的 that 弱读成 `/ðət/`，几乎听不见。
+@lfocus: 时间和数字：Monday（开始）、nine（订单）、twenty-five hundred（2,500）、Tuesday（Ana 的 anomaly）、two boxes
+@lfocus: 谁说了什么：Ana → anomaly / two boxes / subset；Mike → speculate / sync problem / hypothesis / theory；Leo → apparently / warehouse
+@lfocus: 结论和下一步：rule out → carrier；unknown → cause + real number；tomorrow → Ana tests + email to Priya
+@dict: S11–S16
+@dict: S29–S34
+@res: 在 youglish.com 输入 "as far as we know"，选 US，听美国人在会上怎么给自己的判断留余地。
+
+@mimic: 跟读【C】S6–S27：先正常语速逐句跟读，重点模仿 S23 的对比语调（suspect 和 haven't 重读，but 前稍停）和 S25 里 At this stage 后面的停顿；再由你演林晓，手机朗读 Leo、Ana 和 Mike 的台词，完整对一遍并录音。最后把 Priya 的邮件（S2–S5）和林晓的回信（S29–S35）各读一遍：Priya 的语气着急，林晓的语气平稳、只讲事实。
+@swap: Starting from Monday, some orders show the wrong status. | 换时间和现象：Tuesday／last week；some labels print twice／some pages load slowly | Starting from Tuesday, some labels print twice.
+@swap: It looks like only a handful of orders are affected. | 换对象和数量：sellers／packages／customers；a handful／about two percent | It looks like about two percent of packages are affected.
+@swap: We suspect it's a sync problem, but we haven't ruled anything out. | 换推测：a cache issue／a data error／a problem with the new release | We suspect it's a cache issue, but we haven't ruled anything out.
+@swap: Can we rule out the carrier? | 换要排除的可能：the new release／a network problem／the warehouse | Can we rule out the new release?
+@free: 张涛在走廊里问你：BrightNest 那边怎么了？（先一句话说结论：部分多箱订单状态错了，但不普遍；再说原因还在查） | Some multi-box orders show the wrong status, but the problem isn't widespread. We don't know the cause yet. Mike's team will test a theory tomorrow.
+@free: 群里有同事说「肯定是 BrightNest 仓库录错了」，你想提醒大家先别猜 | Let's not speculate yet. At this stage, we only know that the carrier data is correct. We'll know more after Ana's test tomorrow.
+@free: 卖家 Daniel 问你：这个问题影响大不大？（目前只报上来 9 个订单，大约 2,500 个里的 9 个，但真实数字还不知道） | It looks like only a handful of orders are affected: nine out of about 2,500. But the real number is still unknown, so I'll send you an update tomorrow.
+@free: 你周二就注意到看板上一个奇怪的数字，今天发现它和问题有关；在会上说说你观察到了什么 | I observed an anomaly on Tuesday. A few orders went from "Shipped" to "Delivered" in less than an hour. I thought it was a one-off, but it looks like there's a pattern.
+@output: 录一段 1.5–2 分钟的会议发言：你在周会上通报一个刚发现的问题（工作中的：系统报错、订单延误、数据对不上；没有工作的：小区停水、网课平台登录异常……）。按「事实 → 规律 → 已排除的 → 推测 → 未知 → 下一步」来讲：Starting from… → 具体现象 → 数量（a handful of / X out of Y）→ It looks like… / It appears that… → We've ruled out… → We suspect…, but… / At this stage, it's just a theory. → What's still unknown is… → 下次什么时候更新。
+@output_sample: Here's a quick update on an issue with the BrightNest pilot. Starting from Monday, some orders show the wrong status. They say "Delivered," but the customers are still waiting for part of their order. Let me start with the facts. BrightNest reported nine orders, out of about 2,500 pilot orders so far. So it looks like only a handful of orders are affected. Ana observed a clear pattern: all nine were shipped in two boxes. When the first box arrives, the whole order jumps to "Delivered." Single-box orders look fine, so the problem isn't widespread. We've ruled out the carrier, because their scans are correct. The discrepancy is only on BrightNest's side. Now, here's what we don't know. We suspect it's a sync problem, but we haven't ruled anything out. Mike's hypothesis is a mismatch between the two systems. At this stage, it's just a theory, and Ana will test it tomorrow. What's still unknown is the cause and the real number of affected orders. As far as we know, it's an isolated issue. I've already replied to Priya, and I'll send her the cause and the full numbers tomorrow. I'll update this group at the same time. Any questions?
+
+@check: 听力：问题从哪天开始？Priya 报了几个订单？这些订单有什么共同点？ | 从周一开始（Starting from Monday）；九个订单（nine，大约 2,500 个试点订单里的九个）；都是分两箱发的（shipped in two boxes）：第一箱一到，整个订单就跳成「Delivered」。
+@check: 听力：会上哪些已经确定、哪些只是推测、哪些还不知道？明天会发生什么？ | 确定：承运商的扫描记录是对的（ruled out the carrier），只有多箱订单受影响。推测：Mike 怀疑是同步问题（a sync problem），假设是两个系统之间不匹配（a mismatch），现阶段只是 theory。未知：原因和受影响订单的真实数量。明天 Ana 验证这个假设，林晓把原因和完整数字发给 Priya。
+@check: 改错：✗ From Monday until now, some orders show wrong status. | Starting from Monday, some orders show the wrong status. / Since Monday, some orders have shown the wrong status.（since 后面用现在完成时；status 前加 the）
+@check: 这两句话意思有什么不同？① I suspect it's the carrier. ② I doubt it's the carrier. | ① 我估计就是承运商的问题（认为是）；② 我不太相信是承运商的问题（认为不是）。
+@check: 换个场景：你们网店的客服说「好多顾客」收不到验证码。你查了一下：今天约 3,000 个新用户里有 12 个，用的全是安卓手机。用英文向经理说两三句。 | Twelve out of about 3,000 new users didn't get the code today. It looks like only a handful of users are affected. It appears that they're all on Android phones.
+@check: 同事在会上说 It should be a database problem.，可他其实只是猜的。帮他把话说得更准确。 | We suspect it's a database problem, but we haven't ruled anything out. At this stage, it's just a theory.
+@next1: 不看书说出 5 个锚点句：S3、S10、S23、S25、S33
+@next1: 用「事实 → 推测 → 未知」三层，说说你最近遇到的一个小问题（手机、电脑、快递都可以）
+@next7: 「好像」三种说法：It looks like…（看到的）/ It appears that…（正式）/ Apparently…（听说的），各造一句
+@next7: Starting from Monday, … / Since Monday, … have…；suspect vs doubt；a handful of / X out of Y / a subset of

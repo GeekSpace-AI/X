@@ -1,0 +1,172 @@
+@day: 95
+@week: 1
+@title_cn: 改期与婉拒
+@title_en: Rescheduling and Declining
+@topic: 客户临时去不了：说明冲突、改期、给两个带时区的备选时间、把演示提前；再得体地婉拒一个同时间的培训
+@think_short: 「临时有事」Something came up.｜「改到／提前」move to / bring forward｜「您看哪个时间方便」Would either of these times work?｜「去不了」Unfortunately, I won't be able to make it, but…
+
+@goal_scene: 客户副总裁临时出差，来不了下周二的方案评审会。你先在内部短会上和经理、西雅图的工程经理商量新时间，再给客户写信：给两个带时区的备选时间，请她挑；最后，你自己报名的培训和新时间撞了，要给同事写一封不生硬的婉拒邮件。
+@goal_expr: I'm sorry, something came up and I can't make it on Tuesday. / Could we move the review to Thursday afternoon? / Would either of these times work for you? / Let's bring the demo forward to Monday. / Unfortunately, I won't be able to make it. / Sorry for the short notice.
+@goal_vocab: 20 个重点词 + 5 个短语：日程冲突、改期和提前、会议形式（线上／混合／现场）、邀请与婉拒
+@done: 能用 Something came up. / I have a conflict. / I have a prior commitment. 说明去不了，不再说 ✗ I have something.
+@done: 能用 move … to / bring … forward / push … back 说改期，给出两个带时区的具体时间，再用 Would either of these times work for you? 请对方选
+@done: 能按对象分寸婉拒（同事：Unfortunately, I won't be able to make it；正式邀请：I regret that I'm unable to attend），并带上原因、道歉和替代方案
+
+@warmup: 你能最晚周三之前发过来吗？ | Could you send it by Wednesday at the latest? | D94
+@warmup: 如果到时候还收不到，试点就要推迟一周。 | If we don't receive it by then, the pilot will slip by a week. | D94
+@warmup: 我抄送了张涛，好让他了解时间安排。 | I've copied Tom so he's aware of the timing. | D94
+@warmup: 能不能在周四之前搭好一个测试账号？ | Would it be possible to set up a test account by Thursday? | D91
+@warmup: 我已经看了四套房子，可都太远了。 | I've seen four places, but they were all too far. | D45
+@warmup: 恐怕我们没办法在下周之前做出一个定制功能。 | I'm afraid we can't build a custom feature by next week. | D78
+
+@scene: 周五早上，林晓收到 BrightNest 运营副总裁 Karen Walker 的邮件：下周二的方案评审会她来不了了——临时要去达拉斯的仓库，一整天都在现场。评审会要由 Karen 拍板，她不在就开不成。九点，林晓赶紧拉张涛和西雅图的 Mike 开了个短会。麻烦在时差：美国的下午是深圳第二天的清晨，西雅图方便的时间，对深圳来说不是一大早就是深夜。张涛的态度很明确：客户优先，我们来迁就。Mike 顺势提议，把原定在评审会之后的演示提前到周一，这样评审会时手里已经有 Priya 的反馈。林晓给 Karen 回信，给了两个带时区的选项，Karen 几分钟就回了。可新时间一定，林晓自己又撞了车：西雅图新来的测试工程师 Ana Ruiz 正好在那个时间主持一场培训，林晓早就报了名，本来打算早起拨入。她的第一稿写得像一封正式拒信，被坐在旁边的吴佳一眼看了出来。
+@sp: 人物关系 | 林晓 → Karen：服务方的项目协调人写给客户方副总裁，Karen 时间少、邮件短，回信要得体又干脆；林晓 ↔ 张涛、Mike：内部同事，说话直接；林晓 → Ana：平级同事，Ana 刚入职；吴佳在旁边帮林晓把关语气
+@sp: 沟通目的 | 让评审会尽快重新排上：说清冲突、给两个具体的备选时间、请 Karen 挑；把演示提前，让 Karen 在评审前看到结果；同时礼貌地退掉自己的培训，并要一个替代方案
+@sp: 已知信息 | Karen 周二整天在达拉斯仓库现场，连线上也参加不了；Mike 周四下午四点和周五早上八点（太平洋时间）都可以，对深圳来说分别是周五早上七点和周五晚上十一点；Ana 的混合式培训也在周四下午四点（太平洋时间），深圳的同事可以拨入
+@sp: 表达重点 | 临时有事（Something came up）→ 时间冲突（conflict / clash）→ 改期（Could we move… to…? / bring … forward）→ 给两个选项并写明时区（Would either of these times work for you?）→ 提前准备（prior to / in advance）→ 婉拒同事：Unfortunately, I won't be able to make it + 原因 + Sorry for the short notice + Alternatively…
+
+@story_title: Episode 95 · Something Came Up
+@story_type: 客户邮件 + 三方短会 + 改期回信 + 婉拒邮件
+@s: Karen emails Lily on Friday morning: | 周五早上，Karen 给林晓发来一封邮件：
+@s: Hi Lily, | Lily 你好：
+@s: I'm sorry, **something came up** and I can't **make it** on Tuesday. | 抱歉，我临时有事，周二来不了了。
+@s: I have to visit our Dallas warehouse. It's **unavoidable**. | 我得去一趟达拉斯的仓库，实在推不掉。
+@s: Could we find another time?\nKaren | 能另找个时间吗？\nKaren
+@br:
+@s: At nine, Lily calls Tom and Mike. | 九点，林晓拉张涛和 Mike 开了个电话会。
+@s: Lily: Karen has a **conflict**. Her trip **clashes** with Tuesday's review. | 林晓：Karen 时间冲突了，她出差正好撞上周二的评审会。
+@s: Tom: The review is **virtual**. Can't she join from Dallas? | 张涛：评审会本来就是线上的，她不能在达拉斯接进来吗？
+@s: Lily: She'll be **onsite** all day, so she can't **attend**. | 林晓：她一整天都在仓库现场，参加不了。
+@s: Lily: Could we move the review to Thursday afternoon? | 林晓：我们能不能把评审会改到周四下午？
+@s: Mike: Thursday at four works. So does Friday at eight. | Mike：周四下午四点可以，周五早上八点也行。
+@s: Tom: **Neither** is great for us: 7 a.m. or 11 p.m. in Shenzhen. | 张涛：这两个时间对我们都不太好，在深圳是早上七点或晚上十一点。
+@s: Tom: But Karen is the client, so let's **accommodate** her. | 张涛：不过 Karen 是客户，我们就配合她的时间吧。
+@s: Mike: Let's **bring the demo forward** to Monday. | Mike：那就把演示提前到周一吧。
+@br:
+@s: Lily writes back to Karen: | 林晓给 Karen 回信：
+@s: Hi Karen, | Karen 你好：
+@s: We can do Thursday at 4 p.m. or Friday at 8 a.m., Pacific Time. | 我们可以安排在太平洋时间周四下午四点，或者周五上午八点。
+@s: Would **either** of these times work for you? | 这两个时间您看哪个方便？
+@s: The demo is now on Monday, so you'll see the results **prior** to the review. | 演示已经提前到周一，所以评审会之前您就能看到结果。
+@s: I'll send the agenda **in advance**. | 议程我会提前发给您。
+@s: Best,\nLily | 祝好！\n林晓
+@s: Karen replies within minutes: "Thursday works. Thanks for **rearranging** things." | 几分钟后 Karen 就回了：「周四可以。谢谢你们重新安排。」
+@br:
+@s: Now Lily has her own conflict. | 这下轮到林晓自己时间冲突了。
+@s: Ana Ruiz, the new QA engineer in Seattle, is **hosting** a **hybrid** training then. | 西雅图新来的测试工程师 Ana Ruiz 那个时间正好要主持一场线上线下结合的培训。
+@s: The **venue** is the Seattle office, and **remote** **invitees** can **dial** in. | 地点在西雅图办公室，远程的受邀同事可以拨入参加。
+@s: Lily's first draft says, "I **regret** to inform you that I cannot attend." | 林晓的初稿写的是：「我很遗憾地通知您，我无法出席。」
+@s: Grace: Too stiff! That's for formal **occasions**, not colleagues. | 吴佳：太生硬了！这是正式场合用的，不是写给同事的。
+@s: Lily writes instead: | 林晓改成了：
+@s: Hi Ana, | Ana 你好：
+@s: Unfortunately, I won't be able to make it. A client review moved to the same time. | 很遗憾，我去不了了。一个客户评审会改到了同一时间。
+@s: Sorry for the **short notice**. | 抱歉这么晚才告诉你。
+@s: Could you share the recording? **Alternatively**, I'll join your next session. | 能把录像分享给我吗？或者，我参加你的下一场。
+@s: Thanks,\nLily | 谢谢！\n林晓
+
+@v: something came up | = | phr. | ˌsʌmθɪŋ keɪm ˈʌp | 临时有事；突然有情况 | 临时取消或改约时说明原因，不必（也不想）细说 | Something came up at work.；Something's come up.；if anything comes up | Sorry, something came up and I have to leave early today. | 抱歉，临时有点事，我今天得早点走。 | 中文「我有事」直译成 ✗ I have something. 话没说完，对方会等你说 something 是什么；Something came up. 本身就是完整、体面的理由，美国人一般不会追问。事情已经冒出来了，用过去时 came up（或 Something's come up.），✗ Something comes up.；早就排好的安排不算「临时」，用 I have a prior commitment.
+@v: make it | = | phr. | ˈmeɪk ɪt | 能到场；赶得上；（能）参加 | 回复邀请、说能不能来开会或参加活动 | can't make it；make it on Tuesday；make it to the meeting | Can you make it to the meeting at three? | 三点的会你能来吗？ | 「去不了」最自然的是 I can't make it.，比 ✗ I can't go. 地道：go 只说「去」这个动作，make it 是「能到场、赶得上」；it 不指具体的东西，不用换成别的词；接时间用 on / at：make it on Tuesday、make it at four；接会议用 to：make it to the review；它还有「成功」「及时赶到」的意思：We made it!
+@v: unavoidable | = | adj. | ˌʌnəˈvɔɪdəbl | 无法避免的；推不掉的 | 说明某个冲突、出差、延误不是自己能控制的 | an unavoidable conflict；unavoidable delays；It's unavoidable. | Some delays are unavoidable during the holidays. | 节假日期间，有些延误是避免不了的。 | 中文「推不掉」「实在没办法」，商务英语常用 It's unavoidable.，暗示「不是我不重视，是确实改不了」；比 ✗ I have no choice 客气，比 ✗ I can't avoid it 自然；它是解释，不是推卸：说完马上给替代方案或新时间；重音在 void：un-a-VOID-a-ble。
+@v: conflict | = | n. | ˈkɑːnflɪkt | （日程上的）冲突；撞期 | 说某个时间已经有别的安排 | a scheduling conflict；have a conflict；a conflict on Tuesday | I have a conflict at two. Could we start at three? | 我两点有安排冲突，我们三点开始行吗？ | 职场里 I have a conflict. 几乎专指「日程冲突」，不是「吵架」，比 ✗ I have no time 委婉得多——后者听起来像「这事对我不重要」；名词重音在前 ˈconflict，动词重音在后 conˈflict（Our schedules conflict.），是一对典型的名动重音词。
+@v: clashes | clash | v. | ˈklæʃɪz | （时间上）撞了；冲突 | 两件事被安排在同一时间 | clash with…；The dates clash.；a scheduling clash | The training clashes with my weekly call. | 培训和我每周的电话会撞了。 | clash with sth 是「跟……撞期」，主语是两件事里的一件：✓ Her trip clashes with our review.，不说 ✗ Karen clashes with the review（那是「Karen 跟评审会起冲突」）；比 conflict 更口语、更形象，本义是「碰撞」；主语单数别丢 -es，读 `/ɪz/`。
+@v: virtual | = | adj. | ˈvɜːrtʃuəl | 线上的；视频形式的（会议、活动） | 说明会议的形式 | a virtual meeting；a virtual event；go virtual | The conference will be virtual this year. | 今年的大会在线上举办。 | 「线上会议」可以说 a virtual meeting / a video call / an online meeting，virtual 稍正式，适合邮件和通知；口语里常直接说软件名（a Zoom call），正式邮件里少用品牌名；tu 读 `/tʃu/`：VIR-chu-al；本义「虚拟的」也常见：virtual reality。
+@v: onsite | = | adj./adv. | ˌɑːnˈsaɪt | 在现场（工厂、仓库、客户公司） | 说某人人在现场、不方便上线 | be onsite；onsite training；work onsite | Our engineers will be onsite on Monday. | 我们的工程师周一会到现场。 | 也写作 on-site；和 remote（远程）相对；「在现场」直接说 be onsite，✗ be in the site / ✗ at site；这里的 site 是实际的地点，不是 website；放在名词前时重音常前移：an ˈonsite ˌvisit。
+@v: attend | = | v. | əˈtend | 出席；参加（会议、培训、活动） | 邮件、通知里正式一点地说「参加」 | attend a meeting；attend the review；attend in person | All managers must attend the training. | 所有经理都必须参加培训。 | attend 是及物动词，直接接会议：✓ attend the meeting，✗ attend to the meeting（attend to 是「处理、照料」）；口语里「去开会」更常说 go to / be at the meeting，attend 用在书面和正式场合；名词 attendance（出勤），参加的人是 attendee（第 93 天）。
+@v: accommodate | = | v. | əˈkɑːmədeɪt | 迁就；配合（对方的时间或需要） | 改期时照顾客户的时间 | accommodate sb；accommodate your schedule；be happy to accommodate | We're happy to accommodate your schedule. | 我们很乐意配合您的时间。 | 中文「迁就」「配合您」，客户沟通里说 accommodate 显得主动、有服务意识，不卑不亢；它还有「容纳」的意思：The room accommodates twenty people.；拼写最容易错：两个 c、两个 m——accommodate。
+@v: bring the demo forward | bring sth forward | phr. | ˌbrɪŋ ðə ˌdemoʊ ˈfɔːrwərd | 把（演示）提前 | 把会议、截止日期、活动改到更早的时间 | bring the meeting forward；bring the deadline forward；bring it forward to Monday | Can we bring the call forward to 9 a.m.? | 电话会能提前到早上九点吗？ | 「提前」是 bring forward，英美都懂；美国人口语里更常说 move up：Let's move the demo up to Monday.；宾语是代词时只能放中间：✓ bring it forward，✗ bring forward it；别说 ✗ advance the meeting（太生硬），也别和 put forward（提出建议）搞混；最保险的是直接说新时间：move it to Monday。
+@v: either | = | det./pron. | ˈiːðər | （两个中的）任何一个 | 给对方两个选项，请他挑 | either of these times；Either works.；either day | Either day works for me. | 哪天我都行。 | either 只用于两个之间，三个以上用 any：Would any of these times work?；either 作主语时动词用单数：Either works for me.；美式多读 `/ˈiːðər/`，也有人读 `/ˈaɪðər/`，两种都对，选一种说就好。
+@v: neither | = | det./pron. | ˈniːðər | 两个都不 | 两个选项都不合适 | neither of…；Neither works.；neither day | Neither option is perfect, but we have to choose one. | 两个方案都不完美，但我们得选一个。 | neither 本身就是否定，不能再加 not：✗ Neither doesn't work.；作主语动词用单数：Neither is great.；回应别人的否定说 Me neither.（第二册见过）；读音和 either 一样有两种：`/ˈniːðər/`、`/ˈnaɪðər/`。
+@v: prior | = | adj. | ˈpraɪər | 之前的；（prior to）在……之前 | 正式邮件里说「在……之前」「之前已有的」 | prior to the review；a prior commitment；prior experience | Please read the document prior to the meeting. | 请在会前看一下这份文件。 | prior to = before，偏正式，适合写给客户高层；当面说 before 就好；prior to 后面接名词或 -ing，✗ prior to we meet；I have a prior commitment.（我之前已有安排）是很得体的婉拒理由，比 ✗ I have other things 清楚。
+@v: in advance | = | phr. | ˌɪn ədˈvæns | 提前；事先 | 承诺提前发资料、请对方提前告知 | send sth in advance；two days in advance；let sb know in advance | Please let us know in advance if you can't attend. | 如果不能参加，请提前告诉我们。 | 「提前」不说 ✗ in ahead / ✗ advance send；in advance 一般放在句末；「提前两天」是 two days in advance；第 92 天的 Thanks in advance 也是它；美式口语还常说 ahead of time。
+@v: rearranging | rearrange | v. | ˌriːəˈreɪndʒɪŋ | 重新安排（时间、计划） | 感谢对方为你调整日程，或说自己要调整安排 | rearrange the meeting；rearrange my schedule；rearrange things | I had to rearrange my whole week. | 我不得不把整个星期的安排都重新调整了一遍。 | reschedule 只是给一个会换时间，rearrange 范围更大，可以把一堆安排重新排；Thanks for rearranging things. 是收到改期后很得体的一句回谢；re- 读 `/riː/`，arrange 的重音不变：re-ar-RANGE。
+@v: hosting | host | v. | ˈhoʊstɪŋ | 主办；主持（会议、培训、活动） | 说一场会、一场培训由谁组织 | host a meeting；host a training；host a webinar | Kevin is hosting a short training on the new system. | 李凯要主持一个关于新系统的简短培训。 | host 做动词很常用：谁发起、组织这场会，谁就是 host，线上会议软件里也叫 host；「主持会议」还可以说 run / chair a meeting（第 98 天）；o 读 `/oʊ/`，s 和 t 都要读出来，别读成「霍斯」。
+@v: hybrid | = | adj. | ˈhaɪbrɪd | 混合式的（一部分人在现场、一部分人在线） | 说明会议、培训、工作方式 | a hybrid meeting；hybrid work；a hybrid event | Our weekly meeting is hybrid, so you can join from home. | 我们的周会是线上线下结合的，你在家也能参加。 | hybrid 原指「混合动力车」「杂交品种」，现在职场常用来说会议和工作方式：会议室里有人 + 线上有人；开头读 `/haɪ/`，重音在前：HY-brid。
+@v: venue | = | n. | ˈvenjuː | （活动、会议的）举办地点；场地 | 通知会议、培训在哪儿举行 | the venue；change the venue；a conference venue | The venue for the workshop is Room 3B. | 工作坊的地点在 3B 会议室。 | venue 指活动的举办场地，比 place 正式、具体，常出现在会议通知里；「改地点」说 change the venue；重音在前 VEN-yoo，结尾的 ue 读 `/juː/`，像 you。
+@v: remote | = | adj. | rɪˈmoʊt | 远程的；不在现场的 | 说谁在线上参加、谁远程办公 | remote invitees；remote work；fully remote | Half of our team is fully remote. | 我们团队有一半人完全远程办公。 | remote 和 onsite / in person 相对；「远程参加」说 join remotely；本义「遥远的、偏僻的」：a remote village；电视「遥控器」口语也叫 the remote；重音在后：re-MOTE。
+@v: invitees | invitee | n. | ˌɪnvaɪˈtiːz | 受邀者；被邀请的人 | 会议邀请、培训通知里 | all invitees；remote invitees；the invitee list | Karen and Priya are on the invitee list. | Karen 和 Priya 都在受邀名单上。 | -ee 结尾表示「被……的人」：invitee（受邀者）、employee（雇员）、trainee（受训的人）；重音落在 -ee 上：in-vi-TEE；口语里更常说 everyone who's invited。
+@v: dial | = | v. | ˈdaɪəl | 拨号；（dial in）拨入、接入（电话会、视频会） | 远程参加会议 | dial in；dial into the call；a dial-in link | You can dial in from your phone if you're traveling. | 如果你在路上，可以用手机拨入。 | 现在多半是点链接入会，但 dial in 这个说法照样常用；名词写成 dial-in：a dial-in number / link；美式常读得像一个音节 `/daɪl/`，别读成 ✗「戴奥」。
+@v: regret | = | v. | rɪˈɡret | 遗憾；（正式）很抱歉（不能……） | 正式通知、正式婉拒 | I regret to inform you…；regret that…；regret -ing | We regret to inform you that the event has been canceled. | 我们很遗憾地通知您，活动已经取消。 | I regret to inform you… 是公文和拒信的腔调，写给同事会显得冷冰冰；日常婉拒说 Unfortunately, I won't be able to… 就够了；regret to do 是「遗憾地（通知、告诉）」，regret doing 是「后悔做了」：I regret saying that.
+@v: occasions | occasion | n. | əˈkeɪʒnz | 场合；（特定的）时候 | 说某种说法、打扮适合什么场合 | formal occasions；a special occasion；on another occasion | Save that suit for special occasions. | 那套西装留到特别的场合再穿吧。 | 「场合」是 occasion，✗ situation（情况）；「正式场合」formal occasions，「看场合说话」可以说 It depends on the occasion.；s 读 `/ʒ/`：oc-CA-sion，和 decision、vision 的 s 一样。
+@v: short notice | = | phr. | ˌʃɔːrt ˈnoʊtɪs | 临时通知；通知得太晚、太急 | 临时改约、临时退出时道歉 | Sorry for the short notice.；on short notice；a short-notice change | Thanks for joining on such short notice. | 这么临时通知，你还能来，谢谢。 | 「这么晚才告诉你」「临时通知」最自然的就是 Sorry for the short notice.；美式说 on short notice，英式说 at short notice；放在名词前要加连字符：a short-notice change；notice 读 `/ˈnoʊtɪs/`。
+@v: Alternatively | alternatively | adv. | ɔːlˈtɜːrnətɪvli | 或者；另一个办法是 | 婉拒或提方案之后，再给一个备选 | Alternatively, we could…；or alternatively | Alternatively, we could meet on Friday. | 或者，我们也可以周五见。 | 常放在句首、后面加逗号，引出「另一个办法」，比 Or… 正式一点；名词 alternative（替代方案）第三册学过；拒绝时先给原因，再用 Alternatively 给一个替代方案，对方会觉得你在想办法，而不是在推。
+
+@diff: 「临时有事，去不了」——Something came up and I can't make it.
+@d_cn: 已经答应的会议或活动去不了了。中文一句「不好意思，临时有事」就够了，对方一般不会追问是什么事。
+@d_en: I'm sorry, something came up and I can't make it on Tuesday. / I have a conflict on Tuesday. / I have a prior commitment on Tuesday.
+@d_why: 中文「我有事」直译成 ✗ I have something. 或 ✗ I have something to do.，美国人听来话没说完：something 到底是什么？英文里对应「临时有事」的固定说法是 **Something came up.**——came up 是「冒出来」，它本身就是一个完整、体面的理由，对方不会追问，你也不必交代私事。职场里还有两个常用说法：**I have a conflict.**（那个时间撞了，最中性，对谁都能说）和 **I have a prior commitment.**（我之前已有安排，偏正式，适合写给客户和高层）。区别在于「事情是不是临时冒出来的」：Karen 的出差是突然定的，所以说 something came up；早就排好的会就用 prior commitment。「去不了」用 **can't make it**，比 ✗ can't go 自然。千万别说 ✗ I have no time.——听起来像「这件事不值得我花时间」。
+@d_when: 取消或推迟已经答应的会议、电话、饭局；口头、邮件都能用，Something came up 对上级和客户都不失礼。
+@d_vs: **I'm sorry, something came up and I can't make it on Tuesday.** 抱歉，临时有事，周二去不了了。（临时冒出来的事）\n**I have a conflict on Tuesday.** 我周二时间撞了。（中性）\n**I have a prior commitment on Tuesday.** 我周二之前已有安排。（正式）\n✗ I have something on Tuesday, so I can't go.\n✗ I have no time on Tuesday.
+@d_task: 你约了 Priya 明天下午开电话会，可张涛突然让你去见一个客户。用英文跟 Priya 说明，并问能不能改到周五。 | I'm sorry, something came up and I can't make it tomorrow afternoon. Could we move our call to Friday?
+@diff: 「改到」「提前」「推后」——move to / bring forward / push back
+@d_cn: 会议要换时间：「改到周四」「提前到周一」「往后推一周」。
+@d_en: Could we move the review to Thursday afternoon? / Let's bring the demo forward to Monday. / Could we push the call back to next week?
+@d_why: 中文一个「改」字就够了，英文学生常犯两种错：一是什么推迟都说 ✗ delay——delay 暗示「出了问题、被耽误了」，开会改期用 **push back** 或 postpone 更中性；二是把「提前」说成 ✗ advance the meeting（生硬）或 ✗ put forward the meeting（put forward 是「提出建议」）。最稳的是 **move … to + 新时间**：不管提前还是推后，直接说新时间，谁都不会误会，林晓问的 Could we move the review to Thursday afternoon? 就是这样。**bring … forward** 是「提前」，英美都懂，美国人口语里更常说 **move … up**（Let's move the demo up to Monday.）；**push … back** 是「往后推」。宾语是代词时只能夹在中间：✓ bring it forward，✗ bring forward it。语气上，向客户、向别的团队提改期用问句 **Could we…?**，是在商量；Mike 和自己人商量，才直接说 **Let's…**。
+@d_when: 内部协调时间、向客户提议改期、确认新的截止日期；改完以后最好再写一句新时间，免得大家记混。
+@d_vs: **Could we move the review to Thursday afternoon?** 能把评审会改到周四下午吗？（最稳：直接说新时间）\n**Let's bring the demo forward to Monday.** 把演示提前到周一吧。（美式口语也说 move it up）\n**Could we push the call back to next week?** 电话会能往后推到下周吗？\n✗ Let's advance the meeting to Monday.\n✗ We have to delay the meeting to Thursday.（delay 暗示出了问题）
+@d_task: 告诉 Raj：原定周五的测试提前到周三了，请他确认数据周二前能准备好。 | We've brought the test forward to Wednesday. Could you confirm the data will be ready by Tuesday?
+@diff: 「我去不了了」——婉拒的分寸：Unfortunately, I won't be able to make it, but…
+@d_cn: 同事或合作方请你参加培训、活动，你去不了，要婉拒，又不想显得不重视对方。
+@d_en: Unfortunately, I won't be able to make it. Could you share the recording? / I'm afraid I won't be able to attend. / I regret that I'm unable to attend.
+@d_why: 中文婉拒常在「太直接」和「太客套」之间摇摆。林晓的初稿 I regret to inform you that I cannot attend. 语法完美，可这是公文、拒信的腔调，写给同事像在下通知——吴佳说 Too stiff!。英文婉拒按对象分三档：对同事、朋友，**Sorry, I can't make it.** 或 **Unfortunately, I won't be able to make it.**（won't be able to 比 can't 软，是最常用的中性说法）；对客户、外部活动，**I'm afraid I won't be able to attend.**；正式邀请（典礼、晚宴、董事会），**I regret that I'm unable to attend.** 不管哪一档，都用第三册学过的「拒绝三件套」：一句原因（A client review moved to the same time.）＋一句道歉（Sorry for the short notice.）＋一个替代方案（Could you share the recording? Alternatively, …）。只说 ✗ I can't come. 而不给原因和替代方案，对方会觉得你根本不感兴趣。
+@d_when: 回复会议邀请、培训、活动、饭局；退掉已经报名的活动。
+@d_vs: **Unfortunately, I won't be able to make it. Could you share the recording?** 很遗憾我去不了，能把录像分享给我吗？（同事，中性）\n**I'm afraid I won't be able to attend.** 恐怕我没法参加。（客户、外部）\n**I regret that I'm unable to attend.** 很遗憾我无法出席。（正式邀请）\n✗ I regret to inform you that I cannot attend.（写给同事太生硬）\n✗ I can't go. Sorry.（没有原因，也没有替代方案）
+@d_task: Kevin 请你周五中午参加 IT 安全培训，可你那时要和 Priya 开会。写两三句回复：婉拒＋原因＋替代方案。 | Unfortunately, I won't be able to make it on Friday. I have a call with Priya at the same time. Could I join the next session instead?
+@diff: 「您看什么时候方便？」——Would either of these times work for you?
+@d_cn: 约时间时，中文常问一句开放的「您看什么时候方便？」，把选择权全交给对方，显得客气。
+@d_en: We can do Thursday at 4 p.m. or Friday at 8 a.m., Pacific Time. Would either of these times work for you? / If neither works, please suggest a time.
+@d_why: 英文商务邮件约时间，更常见的做法是**先给两三个具体选项，再请对方挑**：对方只要回一句 Thursday works.——Karen 几分钟就回了。开放式的「您什么时候方便」看着客气，其实把排时间的活儿推给了对方，跨时区时还可能来回好几封。三个细节：① **either** 只用于两个选项，三个以上用 any：Would any of these times work?；either / neither 作主语，动词用单数：Either works. / Neither is great. ② 跨时区一定写明时区：Pacific Time / Eastern Time，发给自己团队的可以再注明北京时间。③ 中国学生的经典错误 ✗ When are you convenient?——convenient 说的是时间方便，不说人：✓ When is convenient for you? / When are you available? 也别写 ✗ Which time do you like?，像在点菜。
+@d_when: 约会议、改期、安排面试和来访；对客户和高层尤其要给具体选项，并附一句「都不行就请您提一个时间」。
+@d_vs: **Would either of these times work for you?** 这两个时间您看哪个可以？\n**Would any of these times work?** 这几个时间哪个可以？（三个以上）\n**If neither works, please suggest a time.** 如果都不行，请您提一个时间。\n✗ When are you convenient?\n✓ When is convenient for you? ／ When are you available?
+@d_task: 给 Priya 写：电话会可以安排在周二上午十点或周三下午两点（太平洋时间），问她哪个可以；都不行就请她提一个时间。 | We can do Tuesday at 10 a.m. or Wednesday at 2 p.m., Pacific Time. Would either of these times work for you? If neither works, please suggest a time.
+
+@core: I'm sorry, something came up and I can't make it on … | 临时有事去不了 | Tuesday / tomorrow / this afternoon；make it to the call | 正式：Unfortunately, an urgent matter has come up, and I'm unable to attend on Tuesday.｜随意：Sorry, something came up. Can't make it today!
+@core: Could we move … to …? | 提议改期（直接说新时间） | the review / the call / our check-in；Thursday afternoon / next Monday | 正式：Would it be possible to reschedule the review for Thursday afternoon?｜随意：Can we do Thursday instead?
+@core: We can do … or … (time zone). Would either of these times work for you? | 给两个带时区的备选时间，请对方挑 | Thursday at 4 p.m. / Friday at 8 a.m.；Pacific Time | 正式：Please let me know which of the following times would suit you best.｜随意：Thursday or Friday, either one good for you?
+@core: Let's bring … forward to … / push … back to … | 提前或推后 | the demo / the deadline / the test；Monday / next week | 正式：We propose bringing the demo forward to Monday.｜随意：Let's move the demo up to Monday.
+@core: Unfortunately, I won't be able to make it. + 原因 | 婉拒同事的邀请 | make it / join / be there；A client review moved to the same time. | 正式：I regret that I'm unable to attend due to a prior commitment.｜随意：Can't make it, sorry!
+@core: Sorry for the short notice. | 临时通知、临时退出时道歉 | the short notice / the last-minute change | 正式：I apologize for the short notice.｜随意：Sorry it's so last-minute!
+@core: Could you share the recording? Alternatively, I'll join your next session. | 婉拒后给替代方案 | the recording / the slides；your next session / a quick call next week | 正式：Alternatively, I would be glad to attend a future session.｜随意：Or I'll just catch the next one!
+@core: I'll send the agenda in advance. / You'll see the results prior to the review. | 承诺提前准备材料 | the agenda / the slides / the demo notes；in advance / prior to the review | 正式：We will share the agenda prior to the meeting.｜随意：I'll send the agenda ahead of time.
+
+@pw: accommodate | əˈkɑːmədeɪt | 4 个音节 ac·COM·mo·date | 重音在 com，美式 o 读 `/ɑː/`，嘴张大；结尾 date 带一点次重音，读 `/deɪt/`
+@pw: unavoidable | ˌʌnəˈvɔɪdəbl | 5 个音节 un·a·VOID·a·ble | 主重音在 void；-able 弱读成 `/əbl/`，别读成「爱宝」
+@pw: alternatively | ɔːlˈtɜːrnətɪvli | 5 个音节 al·TER·na·tive·ly | 重音在 ter，要卷舌；第二个 a 弱读成 `/ə/`；美式 al 读 `/ɔːl/`，也有人读 `/æl/`
+@pw: conflict | ˈkɑːnflɪkt | 2 个音节 CON·flict（名词） | 名词重音在前：I have a CON-flict.；动词重音在后 `/kənˈflɪkt/`：Our schedules con-FLICT.
+@pw: venue | ˈvenjuː | 2 个音节 VEN·ue | 重音在前；ue 读 `/juː/`，像 you
+@pw: invitee | ˌɪnvaɪˈtiː | 3 个音节 in·vi·TEE | 主重音在 -ee；vi 读 `/vaɪ/`，和 invite 一样
+@pw: occasion | əˈkeɪʒn | 3 个音节 oc·CA·sion | 重音在 ca；s 读 `/ʒ/`，和 vision 一样，不读 `/ʃ/`
+@ps: I'm **sor**ry, / something came‿**up** / and I **can't** make‿it on **Tues**day. | came up 连成 `/keɪˈmʌp/`；make it 连成 `/ˈmeɪkɪt/`，结尾的 t 很轻；can't 的元音饱满 `/kænt/`，听的时候靠元音和弱读的 can `/kən/` 区分。
+@ps: **Could** we move the re**view** / to **Thurs**day **af**ternoon? ↗ | 请求用升调收尾，听起来是在商量；could we 轻快地读成 `/kʊd wi/`；Thursday 的 th 要咬舌，别和 Tuesday 混。
+@ps: Would‿**ei**ther of these **times** / work for **you**? ↗ | Would either 连读 `/wʊˈdiːðər/`，d 带到下一个元音上；of these 弱读成 `/əv ðiːz/`；yes/no 问句结尾上扬，显得礼貌。
+@ps: Let's bring the **de**mo **for**ward / to **Mon**day. | 陈述句降调，是提议不是命令；bring the 之间不要加「额」；forward 美式读 `/ˈfɔːrwərd/`，两个 r 都要卷。
+@pnote: 名词／动词重音对：I have a **con**flict.（名词，重音在前）vs Our schedules con**flict**.（动词，重音在后）。同类的还有 **re**cord / re**cord**（Could you share the re**cord**ing? 里 recording 来自动词，重音在 cord）、**pro**ject / pro**ject**、**in**crease / in**crease**。开会记笔记时，重音落在哪儿能帮你判断它是名词还是动词。
+@pnote: 时间的写和说：电话里说 at four、at eight，邮件里写 4 p.m.、8 a.m.，跨时区一定加 Pacific Time（口语常只说 Pacific，缩写 PT）；a.m. / p.m. 按字母读 `/ˌeɪˈem/`、`/ˌpiːˈem/`。Tuesday `/ˈtuːzdeɪ/` 和 Thursday `/ˈθɜːrzdeɪ/` 是记笔记时最容易听混的一对：Tues 是长音 `/uː/`，Thurs 是卷舌的 `/ɜːr/`，听元音，别只听开头。
+@lfocus: 记「谁—什么事—哪天」：Karen — can't make it — Tuesday；review → Thursday afternoon；demo → Monday
+@lfocus: 记数字和时区：four / eight（Seattle）→ 7 a.m. / 11 p.m.（Shenzhen）；Pacific Time；Karen chose Thursday
+@lfocus: 记行动项：Lily — agenda in advance；Ana's training — can't make it — recording or next session
+@dict: S6–S13
+@dict: S29–S32
+@res: 在 youglish.com 输入 "something came up"，选 US，听美国人临时改约时的语气。
+
+@mimic: 跟读【C】S6–S13 的电话会：先逐句跟读，重点模仿 Could we move the review to Thursday afternoon? 的升调和 Neither is great for us 的重音；再由你演林晓、手机朗读张涛和 Mike 的台词，正常语速完整对一遍并录音。最后把两封邮件（S15–S21、S28–S33）当成你自己写的，用平稳、友好的语气各读一遍，注意给 Karen 的那封和给 Ana 的那封语气有什么不同。
+@swap: I'm sorry, something came up and I can't make it on Tuesday. | 换时间：tomorrow／this afternoon／on Friday；换活动：make it to the call／make it to lunch | I'm sorry, something came up and I can't make it to lunch tomorrow.
+@swap: Could we move the review to Thursday afternoon? | 换事情和时间：the call／the training／our check-in；next Monday／9 a.m. Pacific | Could we move our check-in to next Monday?
+@swap: Let's bring the demo forward to Monday. | 换成推后：push … back to；换事情：the deadline／the launch／the test | Let's push the test back to Friday.
+@swap: Would either of these times work for you? | 换：these days／these dates；三个以上的选项换成 any | Would any of these dates work for you?
+@free: 张涛约你明天下午三点一起过试点计划，可仓库那边有一个紧急异常要你去处理。跟他说你去不了，提议改到后天上午。 | I'm sorry, something came up and I can't make it tomorrow at three. There's an urgent exception at the warehouse. Could we move it to Thursday morning?
+@free: 周三和 Priya 的电话会要改期。给她发消息，给两个时间（周四上午九点或周五上午八点，太平洋时间），请她挑。 | We need to move Wednesday's call. We can do Thursday at 9 a.m. or Friday at 8 a.m., Pacific Time. Would either of these times work for you?
+@free: Kevin 请你周五下午参加新系统的培训，可你那时要和 BrightNest 开会。婉拒，给原因和替代方案。 | Unfortunately, I won't be able to make it on Friday. I have a call with BrightNest at the same time. Could you share the slides? Alternatively, I'll join the next session.
+@free: 会上 Mike 问：Karen 出差时能不能在线上参加评审会？（不能：她一整天都在仓库现场；你已经把评审会改到周四下午了） | No, she'll be onsite all day, so she can't attend. That's why I've moved the review to Thursday afternoon.
+@output: 录一段 2 分钟的会议发言：你在团队周会上说明一次日程变动。① 一句话说结论：哪个会改到了什么时候 ② 原因：谁有冲突（Something came up / a conflict / onsite）③ 新时间和备选时间，带时区，说清对你们这边意味着几点 ④ 连带的调整（bring … forward / push … back）和你会提前准备什么（in advance / prior to）⑤ 你自己因此要婉拒什么、给了什么替代方案 ⑥ 用 Does that work for everyone? 收尾。没有真实的会，就讲一次你和朋友改约的经历。
+@output_sample: Quick update on the schedule: the plan review has moved to Thursday afternoon. Karen can't make it on Tuesday. Something came up, and she has to be onsite at a warehouse in Dallas all day, so she can't attend, even virtually. Since she's the one who approves the plan, we can't hold the review without her. Thursday at 4 p.m. Pacific Time works for Mike's team. For us in Shenzhen, that's 7 a.m. on Friday. I know it's early, but Karen is the client, and we want to accommodate her. I also offered Friday at 8 a.m. Pacific, but she chose Thursday. We've also brought the demo forward to Monday, so Priya can try the test accounts and give feedback prior to the review. Mike says his team will be ready. I'll send the agenda and the demo notes in advance, by Wednesday. One more thing: Ana's training is at the same time as the review, so unfortunately I won't be able to make it. I've asked her to share the recording. If anyone else has the same conflict, please tell Ana soon, so it isn't short notice for her. Does that work for everyone?
+
+@check: 听力：Karen 为什么周二来不了？评审会最后定在什么时候（太平洋时间和深圳时间各是几点）？ | 她要去达拉斯的仓库，一整天都在现场，线上也参加不了（something came up / onsite / unavoidable）。改到周四下午四点（太平洋时间），也就是深圳周五早上七点；另一个选项是周五早上八点（深圳晚上十一点），Karen 选了周四。
+@check: 听力：Mike 提议把什么提前？林晓自己撞上了什么，她请 Ana 做什么？ | 把演示提前到周一（bring the demo forward to Monday），这样评审会前 Karen 就能看到结果。林晓报名的 Ana 的混合式培训也在周四下午四点；她婉拒了，请 Ana 分享录像，或者她参加下一场。
+@check: 改错：① I have something on Friday, so I can't go. ② When are you convenient? ③ Let's bring forward it to Monday. | ① Something came up, so I can't make it on Friday.（或 I have a conflict on Friday.）② When is convenient for you? ／ When are you available? ③ Let's bring it forward to Monday.（代词放中间）
+@check: 换个场景：一位美国大学教授邀请你参加他的研讨会，你去不了。写一句正式的婉拒，再加一句感谢。 | I regret that I'm unable to attend the seminar. Thank you very much for the invitation.（也可以说 I'm afraid I won't be able to attend.）
+@check: 用 either / neither / any 填空：① 你给了三个时间：Would ___ of these times work? ② 周四、周五都不行：___ works for me. ③ 两天都可以：___ day works. | ① any ② Neither ③ Either
+@check: 下午你才知道明早九点的项目会要提前到八点。在群里通知大家，并为临时通知道歉。 | Heads-up: we've moved tomorrow's project meeting up to 8 a.m. Sorry for the short notice.（也可以说 brought … forward to 8 a.m.）
+@next1: 不看书说出 5 个锚点句：S3、S10、S14、S18、S31
+@next1: 用 Something came up… + Could we move … to …? + Would either of these times work? 口头改一次你自己真实的约
+@next7: 改期三步：说明冲突（Something came up / I have a conflict）→ 给两个带时区的选项（Would either of these times work for you?）→ 说清连带调整（bring … forward / push … back）
+@next7: 婉拒三件套：Unfortunately, I won't be able to make it ＋ 一句原因 ＋ Sorry for the short notice / Alternatively, …；分清对同事、对客户、对正式邀请的三档说法

@@ -1,0 +1,165 @@
+@day: 100
+@week: 2
+@title_cn: 同意与反对
+@title_en: Agreeing and Disagreeing
+@topic: 会上表态：完全同意、部分同意、委婉反对、对事不对人；不靠投票，推动大家走向一个都能接受的决定
+@think_short: 「我同意」I agree.（✗ I'm agree）｜「完全同意」I couldn't agree more.（不是反对！）｜「我明白，但是……」I see your point, but…｜「有一定道理」That's a fair point. / to some extent｜「你说的不对」→ 对事不对人：I don't object to fifty. I object to fifty on day one.
+
+@goal_scene: 试点规划会上，Mike 坚持先上 10 个卖家，Priya 坚持 50 个，气氛开始紧张。你是主持人：要礼貌地表示完全同意、部分同意和反对，把争论拉回共同目标，不靠投票推动讨论；会后再写一封邮件，说清「我们在哪里一致、在哪里有分歧」。
+@goal_expr: I couldn't agree more. / I see your point, but I'm not sure that's realistic. / That's a fair point. / I agree with you to some extent. / Let me play devil's advocate for a second. / I don't object to fifty. I object to fifty on day one. / Fundamentally, we want the same thing. / It doesn't need to be unanimous.
+@goal_vocab: 20 个重点词 + 5 个短语：同意与反对的强弱、让步与保留、分歧与会上的气氛、表决与否决
+@done: 能用 I agree. / Absolutely. / I couldn't agree more. 表示不同程度的同意，不再说 ✗ I'm agree，也不会把 I couldn't agree more 听成反对
+@done: 能按「委婉 → 直接」的梯子表示反对（I see your point, but… / I'm not sure… / I see it a bit differently / I have to disagree），并用 That's a fair point / to some extent / I'll concede that… 部分同意
+@done: 能对事不对人地反对（I don't object to X. I object to Y.），用 Let me play devil's advocate… 提出风险，并写一封 8–12 句、说清共识和分歧的会后邮件
+
+@warmup: 在我看来，我们应该先上五十个卖家。 | In my view, we should start with fifty sellers. | D99
+@warmup: Mike，这件事你怎么看？ | What's your take on this, Mike? | D99
+@warmup: 我的直觉是，两周不够。 | My gut feeling is that two weeks isn't enough. | D99
+@warmup: 如果到时候还收不到，试点就要推迟一周。 | If we don't receive it by then, the pilot will slip by a week. | D94
+@warmup: 我们能做的是提供一个变通的办法。 | What we can do is offer a workaround. | D78
+@warmup: 李凯和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+
+@scene: 9 月 14 日试点就要开始了，可规划会上那个最大的问题还悬着：先上多少个卖家？西雅图的 Mike 主张先上 10 个——测试才做了一半，万一出问题，只影响 10 个卖家；BrightNest 的 Priya 坚持 50 个——10 个卖家一天才两百来单，数据太少，十一月旺季又近在眼前。两人说话都很直，几轮下来，会上开始有了火药味。林晓是主持人：她不能一味顺着客户，也不能让自己的工程团队冒太大的险。张涛也在线上，但他希望团队自己拿主意；实习生 Leo 负责记录。林晓要学会礼貌地同意、部分同意和反对，把大家拉回共同的目标，会后再写一封邮件，把共识和分歧写清楚。
+@sp: 人物关系 | 林晓是会议主持人和项目协调人；Mike 是西雅图工程经理，直率、讲逻辑；Priya 是客户方的运营经理，讲数据，想要规模大、速度快；张涛是项目负责人，在线旁听；Leo 做会议记录
+@sp: 沟通目的 | 让两种意见都被听到，分清大家一致的地方（目标）和真正的分歧（风险），不靠投票、也不等上级拍板，推动大家走向一个都能接受的决定
+@sp: 已知信息 | 测试只完成了一半；10 个卖家一天大约 200 单；Priya 希望 9 月 14 日就有 50 个卖家上线；如果团队自己定不下来，BrightNest 的副总裁 Karen 就会出面拍板
+@sp: 表达重点 | 同意的强弱（Absolutely / I couldn't agree more）→ 委婉反对（I see your point, but…）→ 部分同意和让步（fair point / to some extent / concede）→ 对事不对人（object to fifty on day one）→ 唱反调提风险 → 会后邮件写清共识和分歧
+
+@story_title: Episode 100 · Ten or Fifty?
+@story_type: 视频会议 + 会后邮件
+@s: One question is still open: ten sellers or fifty? | 有一个问题还没定下来：先上十个卖家，还是五十个？
+@s: Mike: Ten. If something breaks, only ten sellers get hurt. | Mike：十个。万一出了问题，也只连累十个卖家。
+@s: Priya: I have to **disagree**. Ten sellers won't give us enough data. | Priya：这一点我不同意。十个卖家给不了我们足够的数据。
+@s: Mike: **I see your point**, but I'm not sure that's realistic. Our tests are only half done. | Mike：我明白你的意思，但我不确定这现不现实。我们的测试才做了一半。
+@s: Lily can feel the **tension**. The call is getting **heated**. | 林晓感觉到了紧张的气氛，会开得有点火药味了。
+@s: Lily: Let's step back. Do we **agree** on the goal? A smooth launch before November? | 林晓：我们先退一步。目标上我们是不是一致的？在十一月之前顺利上线？
+@s: Priya: **Absolutely**. | Priya：那当然。
+@s: Mike: **I couldn't agree more**. | Mike：再同意不过了。
+@s: Lily: So **fundamentally**, we don't **differ** on the goal, only on the risk. | 林晓：所以说到底，我们在目标上没有分歧，只是对风险的看法不同。
+@s: Priya: Ten sellers mean about two hundred orders a day. That's too few to find real problems. | Priya：十个卖家一天大约只有两百单，太少了，发现不了真正的问题。
+@s: Mike: That's a **fair point**. I'll **concede** that ten is **indeed** a small sample. | Mike：这话有道理。我承认，十个卖家的样本确实小了点。
+@s: Mike: But I'm **skeptical** about fifty. Show me the data, and you might **persuade** me. | Mike：可对五十个，我还是有疑虑。拿数据给我看，说不定你能说服我。
+@s: Lily: Priya, I agree with you **to some extent**. More sellers mean more data. | 林晓：Priya，我在一定程度上同意你：卖家越多，数据就越多。
+@s: Lily: Let me **play devil's advocate** for a second. | 林晓：我先来唱个反调。
+@s: Lily: What if the statuses are wrong in week one? Fifty sellers would all call Grace's team. | 林晓：要是第一周物流状态就出错了呢？五十个卖家会一起打电话给吴佳的团队。
+@s: Mike: Exactly. I don't **object** to fifty. I object to fifty on day one. | Mike：没错。我不反对五十个，我反对的是第一天就上五十个。
+@s: Leo types in the chat: "Should we **vote**?" | Leo 在会议聊天框里打了一行字：「要不要投票？」
+@s: Lily: Let's not vote. It doesn't need to be **unanimous**, but we all need to live with the decision. | 林晓：我们不投票。不需要每个人都赞成，但这个决定得是大家都能接受的。
+@s: Priya: Agreed. Otherwise Karen may **overrule** us all. | Priya：同意。不然 Karen 可能会把我们的意见全都否掉。
+@s: Mike: Fair enough. If we go with fifty, please note my **dissent**, Leo. | Mike：行吧。要是最后定了五十个，Leo，请把我的反对意见记下来。
+@br:
+@s: After the call, Lily writes to Mike and Priya: | 会后，林晓给 Mike 和 Priya 写了一封邮件：
+@s: Hi Mike and Priya, | Mike、Priya，你们好：
+@s: Thanks for a **constructive** discussion. Our only **disagreement** is the size of the first group. | 谢谢两位，今天的讨论很有建设性。我们唯一的分歧是第一批上多少个卖家。
+@s: Priya, could you share the order data for all fifty sellers? | Priya，能不能把这五十个卖家的订单数据发给我们？
+@s: Mike, could you list the open tests? | Mike，能不能把还没做完的测试列个清单？
+@s: Honestly, I'm not **entirely** sure we have to choose between ten and fifty. | 说实话，我不太确定我们是不是非得在十个和五十个之间二选一。
+@s: If you have any **objections**, just let me know. | 如果你们有异议，随时告诉我。
+@s: Best,\nLily | 祝好，\n林晓
+
+@v: disagree | = | v. | ˌdɪsəˈɡriː | 不同意；有不同意见 | 会上明确表示反对 | disagree with sb；disagree on sth；I have to disagree. | I disagree with the plan, but I understand the reasons behind it. | 我不同意这个方案，但我理解背后的理由。 | 和 agree 一样是动词：✗ I'm disagree；「不同意某人」是 disagree with sb，「在某件事上意见不同」用 on / about：We disagree on the timeline.；同事之间直接说 I disagree. 在美国并不失礼，对客户最好先说 I see your point, but…；I have to disagree. 比单说 I disagree. 多一点「不得不说」的客气。
+@v: I see your point | = | phr. | aɪ ˈsiː jər ˌpɔɪnt | 我明白你的意思（后面一般接 but，引出不同看法） | 先认可对方的理由，再提出保留 | I see your point, but…；I see your point about…；I can see your point. | I see your point about cost, but quality matters more here. | 你说成本那一点我明白，但这件事质量更重要。 | 不是「我看到你的点」，而是「我理解你的理由」；美国人一听到这句就知道后面要转折了，所以如果你其实完全同意，别用它，说 That's a fair point. 或 I agree.；重音落在 see 和 but 上：I **see** your point, **but**…
+@v: tension | = | n. | ˈtenʃn | （人与人之间的）紧张气氛；矛盾 | 描述会议、团队之间的气氛 | feel the tension；tension between A and B；ease the tension | There was some tension between the two teams after the delay. | 延期之后，两个团队之间的关系有点紧张。 | 「气氛紧张」不说 ✗ The atmosphere is nervous.（nervous 说人）；说 There's some tension. / I could feel the tension.；不可数，前面不加 a；ten 后面的 sion 读 `/ʃn/`：TEN-shn。
+@v: heated | = | adj. | ˈhiːtɪd | （讨论、争论）激烈的；有火药味的 | 描述会上争得有点厉害 | a heated discussion；a heated argument；get heated | The discussion got heated, so we took a short break. | 讨论越来越激烈，所以我们休息了一会儿。 | heated 本义是「加了热的」，用在讨论上就是「吵起来了」；get a little heated 是很委婉的说法，描述同事开会比 ✗ They quarreled. 合适得多；-ed 读 `/ɪd/`，t 在美式口语里闪音，像 HEE-did。
+@v: agree | = | v. | əˈɡriː | 同意；（在某件事上）意见一致 | 会上表示赞同、确认共识 | agree with sb；agree on sth；agree to sth | We all agree on the deadline. | 截止日期这一点，我们都没有异议。 | agree 是动词：✗ I'm agree / ✗ I'm not agree → ✓ I agree. / I don't agree.；三个介词别混：agree with 人或观点，agree on 大家一起商定的事（日期、价格、目标），agree to 答应一项提议或条件（agree to the new date）；重音在后：a-GREE。
+@v: Absolutely | absolutely | adv. | ˌæbsəˈluːtli | 那当然；完全同意（单独作答语） | 对方的话你百分之百赞同 | Absolutely.；absolutely right；Absolutely not. | "Can you join the call tomorrow?" "Absolutely." | 「你明天能参加电话会吗？」「当然能。」 | 单独作答比 Yes. 热情、肯定得多，相当于「那当然」「没问题」；Absolutely not. 是「绝对不行」，语气很重，对客户要慎用；单独说时重音在 lute：ab-so-LUTE-ly，语调明显下降。
+@v: I couldn't agree more | = | phr. | aɪ ˌkʊdnt əˌɡriː ˈmɔːr | 再同意不过了；完全同意 | 对方说出了你也坚信的观点 | I couldn't agree more.；I couldn't agree more with…；Couldn't agree more! | "We should test on mobile first." "I couldn't agree more." | 「我们应该先在手机端测试。」「完全同意。」 | 字面是「我不可能更同意了」，意思是百分之百同意，不是反对！中国学生听到 couldn't 常以为对方在说「不同意」；固定用 couldn't，语调在 more 上落下；随意场合可以省掉 I：Couldn't agree more!
+@v: fundamentally | = | adv. | ˌfʌndəˈmentəli | 从根本上；说到底 | 把争论拉回共同的大目标，或指出根本分歧 | Fundamentally, …；fundamentally different；fundamentally agree | Fundamentally, the problem is a lack of time. | 说到底，问题就是时间不够。 | 句首的 Fundamentally, … 是「归根结底」，帮大家从细节里跳出来看大方向；fundamentally different 是「根本不同」；美式口语里 nt 后面的 t 常被吞掉：fun-da-MEN-a-lee；形容词 fundamental，复数名词 fundamentals 是「基本功、基础」。
+@v: differ | = | v. | ˈdɪfər | （意见、看法）不同；有分歧 | 正式、简洁地说双方观点不一样 | differ on sth；differ from…；opinions differ | Our teams differ on the timeline, not on the goal. | 我们两个团队的分歧在时间表上，不在目标上。 | differ 是动词，比 ✗ We have different opinion. 简洁也更地道；「在……上有分歧」用 on：differ on the risk；「和……不同」用 from：Our process differs from theirs.；重音在前 DIF-fer，和 different 一样。
+@v: fair point | = | phr. | ˌfer ˈpɔɪnt | 说得有道理（承认对方说中了某一点） | 争论中承认对方的一个理由 | That's a fair point.；a fair point about…；Fair point. | That's a fair point. I hadn't thought about the holidays. | 这话有道理，我没考虑到假期。 | fair 第三册 Day 73 学过（合理的）；That's a fair point. 只承认「这一点」有道理，不等于你全盘同意，后面常接 But…；比 You're right. 留有余地；口语可以只说 Fair point.；Fair enough. 意思接近「行吧、也是」，带一点让步的味道。
+@v: concede | = | v. | kənˈsiːd | （不太情愿地）承认；让步 | 争论中承认对方某一点是对的 | concede that…；concede a point；I'll concede that… | I'll concede that the old system was faster. | 我承认，旧系统是更快一些。 | concede 有「本来不想认，但事实如此」的味道，比 admit（第三册 Day 73）更正式，开会常说 I'll concede that…；名词是 concession；con 弱读成 `/kən/`，c 读 `/s/`，重音在后：con-CEDE。
+@v: skeptical | = | adj. | ˈskeptɪkl | 怀疑的；不太相信的 | 对计划、数字、说法有保留 | skeptical about sth；skeptical that…；remain skeptical | I'm skeptical about the new forecast. It looks too good. | 我对新的预测有点怀疑，数字好得不太真实。 | 「我不太信」「我有点怀疑」说 I'm skeptical about… / I'm skeptical that…，比 I don't believe it. 客气、理性，针对的是事情不是人；美式拼写 skeptical，英式 sceptical；重音在 SKEP，结尾 -ical 读得很轻 `/ɪkl/`。
+@v: persuade | = | v. | pərˈsweɪd | 说服 | 用理由或数据让对方改变想法 | persuade sb to do sth；persuade sb that…；hard to persuade | Priya persuaded her manager to try the new system. | Priya 说服了她的经理试用新系统。 | persuade 本身就表示「说服成功了」，中文的「劝」不一定成功：✗ I persuaded him, but he didn't agree. → ✓ I tried to persuade him, but he didn't agree.；句型是 persuade sb to do；su 读 `/sw/`：per-SUADE。
+@v: indeed | = | adv. | ɪnˈdiːd | 确实；的确（确认、加强刚才说过的话） | 偏正式的附和、强调 | is indeed…；Indeed, …；very… indeed | The new process is indeed faster. | 新流程确实更快。 | indeed 在美国口语里偏正式，常用来确认别人刚说过的事：Time is indeed short.（时间确实紧）；单独一个 Indeed. 作答语听起来很正式，同事之间说 Exactly. / Right. 更自然；重音在后：in-DEED。
+@v: to some extent | = | phr. | tə ˌsʌm ɪkˈstent | 在一定程度上；部分地 | 部分同意、部分承认 | to some extent；to a large extent；to a certain extent | To some extent, the delay was our fault. | 在一定程度上，这次延误是我们的责任。 | 部分同意的标准说法是 I agree with you to some extent, but…——先给认可，再说保留；extent 是名词（程度），别和动词 extend（延长）混；to a large extent = 在很大程度上；to 弱读成 `/tə/`。
+@v: play devil's advocate | = | phr. | ˌpleɪ ˌdevlz ˈædvəkət | 故意唱反调（为了检验想法，站到对立面说话） | 会上故意提出反对意见，帮大家想到风险 | play devil's advocate；let me play devil's advocate；just playing devil's advocate | Let me play devil's advocate: what if the client says no? | 我来唱个反调：万一客户不同意呢？ | 说这句话等于先打招呼：「下面的反对不代表我的立场，只是帮大家把方案想全」，这样就能放心提尖锐的问题；固定说法，一般不加 the；devil's 读 `/devlz/`，advocate 作名词结尾弱读 `/kət/`，不读 `/keɪt/`。
+@v: object | = | v. | əbˈdʒekt | 反对；表示异议 | 正式地说你不赞成某件事 | object to sth；object to doing sth；strongly object | Nobody objected to the new schedule. | 没有人反对新的时间表。 | object to 后面接名词或 -ing：✗ object to start → ✓ object to starting；名动重音对：动词「反对」重音在后 ob-JECT，名词「物体、宾语」重音在前 OB-ject；I object 语气很重，开会时可以像 Mike 那样把反对的范围说准：I don't object to fifty. I object to fifty on day one.
+@v: vote | = | v./n. | voʊt | 投票；表决 | 意见不一时用投票来决定 | vote on sth；take a vote；vote for / against | Let's take a vote on the new logo. | 我们投票决定新标志吧。 | 「对某件事表决」是 vote on sth，「投某个方案的票」是 vote for sth；美国团队开会其实很少真的投票，更常追求一个大家都能接受（everyone can live with）的决定；o 读 `/oʊ/`，和 boat 押韵。
+@v: unanimous | = | adj. | juˈnænɪməs | 一致同意的；全票通过的 | 说一个决定是否所有人都赞成 | a unanimous decision；unanimous support；The vote was unanimous. | The decision was unanimous. Everyone said yes. | 这个决定全票通过，每个人都同意了。 | 开头读 `/ju/`，所以前面用 a，不用 an：✓ a unanimous decision；重音在 nan：u-NAN-i-mous；It doesn't need to be unanimous. 是主持人常说的话：不需要人人都赞成，大家能接受就行。
+@v: overrule | = | v. | ˌoʊvərˈruːl | （上级、更有权力的人）否决；推翻 | 说更高层的人推翻下面的意见或决定 | overrule sb；overrule a decision；be overruled | The manager overruled the team and kept the old date. | 经理否决了团队的意见，保留了原来的日期。 | overrule 只用于「有权力的人推翻」：同级之间意见不同说 disagree，不能说 overrule；被动很常用：Our request was overruled.（第三册的被动语态：be + 过去分词）；重音在 rule：o-ver-RULE。
+@v: dissent | = | n. | dɪˈsent | （正式的）不同意见；异议 | 在正式会议、会议记录里表示反对 | note my dissent；voice dissent；a note of dissent | Two members voiced dissent, but the plan went ahead. | 有两位成员表示了异议，但计划还是照常推进了。 | dissent 很正式，多见于会议记录、董事会；日常开会说 I disagree 就够了。Mike 说 please note my dissent，是要求「把我的反对写进纪要」，表示他保留意见、但不会阻止决定；重音在后 dis-SENT。
+@v: constructive | = | adj. | kənˈstrʌktɪv | 有建设性的；有帮助的 | 肯定一次讨论、一条意见是有用的 | a constructive discussion；constructive feedback；constructive criticism | Thanks for the constructive feedback on my report. | 谢谢你对我的报告提出建设性的意见。 | 有过争论之后说 Thank you for a constructive discussion.，等于告诉大家「有分歧是好事，我们在往前走」；「建设性意见」说 constructive feedback，feedback 不可数：✗ a feedback；重音在 STRUC。
+@v: disagreement | = | n. | ˌdɪsəˈɡriːmənt | 分歧；意见不一 | 口头或书面说明双方哪里有分歧 | a disagreement about sth；our only disagreement；resolve a disagreement | We had a small disagreement about the budget. | 我们在预算上有一点小分歧。 | 可数名词：a disagreement / our only disagreement；也可以直接用动词：We disagree on…；disagreement 只是「看法不一样」，不等于吵架，写进会后邮件很中性；重音在 GREE。
+@v: entirely | = | adv. | ɪnˈtaɪərli | 完全地；全部地 | 用 not entirely 委婉地表示保留 | not entirely sure；entirely different；I entirely agree. | I'm not entirely sure this is the best option. | 我不太确定这是不是最好的选择。 | not entirely 是英文里很常用的「软化」：I'm not entirely sure… 比 I don't think so. 礼貌得多，相当于中文「我不太确定」；I entirely agree. 是「我完全同意」；拼写别漏 e：entire + ly。
+@v: objections | objection | n. | əbˈdʒekʃnz | 反对意见；异议 | 会上或邮件里确认有没有人反对 | Any objections?；an objection to sth；raise an objection | If there are no objections, let's move on. | 如果没有异议，我们就进入下一项。 | 主持人常说 Any objections? / If there are no objections, …，比 Does anyone disagree? 更像会议用语；介词用 to：an objection to the plan；重音在 JEC：ob-JEC-tion。
+
+@diff: 「我同意」——I agree.（不说 I'm agree）／同意也有强弱
+@d_cn: 会上听到同事或客户的意见，想说「我同意」「我也这么想」「完全同意」。
+@d_en: I agree. / Absolutely. / I couldn't agree more. / That's a fair point.
+@d_why: 中文「我很同意」里的「同意」像个形容词，于是常说出 ✗ I'm agree.——**agree 是动词**，直接说 I agree.，否定是 I don't agree.（✗ I'm not agree）。同意也分强弱：**That's a fair point.** 只承认「这一点有道理」，后面还可能接 But…；**I agree.** 是一般的同意；**Absolutely.** 单独作答，热情又肯定；**I couldn't agree more.** 最强，「再同意不过了」。这一句是中国学生最容易听反的：字面里有 couldn't，意思却是百分之百同意。介词也要分清：agree **with** 人或观点，agree **on** 大家一起商定的事（We agree on the goal.），agree **to** 答应一项提议（agree to the new date）。
+@d_when: 会议上附和别人；在会后邮件里确认共识；回应同事的提议。
+@d_vs: **I couldn't agree more.** 完全同意。（最强）\n**Absolutely.** 那当然。\n**I agree.** 我同意。\n**That's a fair point.** 这话有道理。（只认这一点）\n✗ I'm agree with you.\n✗ I'm not agree.
+@d_task: 张涛在会上说：「上线前得先在手机端测一遍。」你完全同意。用英文回应，再补一句理由：大部分买家用手机查物流。 | I couldn't agree more. Most customers check tracking on their phones.
+@diff: 「我不同意」——从委婉到直接：I see your point, but… / I'm not sure… / I disagree.
+@d_cn: 对方的意见你不赞成。中文会说「这个嘛……我觉得不太行」「我有不同看法」，或者干脆「我不同意」。
+@d_en: I see your point, but I'm not sure that's realistic. / I see it a bit differently. / I have to disagree. / I disagree.
+@d_why: 英文的反对有一条清楚的「强度梯子」。最委婉的是 **I see your point, but…**——先认可对方的理由，再用 but 转折；其次是 **I'm not sure that's realistic / I'm not sure about that**，用「不确定」代替「不对」；**I see it a bit differently.** 平静地说「我看法不同」；**I have to disagree.** 已经很明确，have to 带一点「不得不说」的客气；**I disagree.** 最直接。在美国职场，同事之间直接说 I disagree. 并不失礼，Mike 和 Priya 就是这样说话的；但对客户、上级和不熟的人，从梯子上面往下选。中国学生常走两个极端：要么只会一句硬邦邦的 I don't agree.；要么绕了半天也没说出反对，美国同事反而听不出你在反对。记住：but 后面那半句才是你真正的意思，一定要说清楚。
+@d_when: 会议上回应提议；和客户讨论方案；在邮件里表达保留意见。
+@d_vs: **I see your point, but I'm not sure that's realistic.** 我明白你的意思，但我不确定这现不现实。（委婉）\n**I see it a bit differently.** 我的看法有点不一样。\n**I have to disagree.** 这一点我不同意。\n**I disagree.** 我不同意。（最直接）\n✗ Your idea is not OK.
+@d_task: Priya 提议下周一就上五十个卖家。你觉得来不及，要委婉地反对，并给出理由：测试还没做完。 | I see your point, but I'm not sure that's realistic. Our tests aren't finished yet.
+@diff: 「有一定道理，不过……」——部分同意：to some extent / That's a fair point. / I'll concede that…
+@d_cn: 对方说得有一部分道理，但你不完全赞同。中文说「你说的有一定道理，不过……」「这点我承认，但是……」。
+@d_en: I agree with you to some extent. / That's a fair point. But… / I'll concede that ten is a small sample. / I'm not entirely sure.
+@d_why: 「有一定道理」常被直译成 ✗ Your words have some reason.。英文有几种现成的部分同意：**I agree with you to some extent**（在一定程度上同意）、**That's a fair point**（这一点说得对）、**I'll concede that…**（我承认……，带一点「本来不想认，但事实如此」）、**I'm not entirely sure**（我不太确定，用 not entirely 软化）。结构都是「先给、后收」：先认可对方的一部分，再用 but 说出保留。Mike 先说 That's a fair point. I'll concede that ten is a small sample.，再说 But I'm skeptical…——Priya 听得出他是真的在听，而不是为反对而反对。比起直接反对，这样更容易让讨论往前走。
+@d_when: 讨论陷入两边对立时；想让对方知道你听进去了，再提出自己的保留。
+@d_vs: **I agree with you to some extent, but…** 我在一定程度上同意你，不过……\n**That's a fair point. But…** 这话有道理，不过……\n**I'll concede that ten is a small sample.** 我承认，十个卖家的样本是小了点。\n**I'm not entirely sure.** 我不太确定。\n✗ Your words have some reason.
+@d_task: Mike 说：「上五十个卖家，客服会忙不过来。」你部分同意（确实会更忙），但认为吴佳的团队可以提前准备。 | I agree with you to some extent. Grace's team will be busier, but they can prepare in advance.
+@diff: 「你说的不对」——对事不对人：I object to fifty on day one, not to you
+@d_cn: 争到激动处，中文容易冒出「你这个想法不对」「你根本没考虑……」；或者会上不说，会后才私下抱怨。
+@d_en: I don't object to fifty. I object to fifty on day one. / Let me play devil's advocate for a second. / Fundamentally, we want the same thing.
+@d_why: 英文会议很忌讳把矛头指向人：**You're wrong.** / **You don't understand.** 会让讨论立刻 heated。办法是让主语变成「事」：**The numbers don't support that.** / **I'm not sure the plan is realistic.**；或者像 Mike 那样把反对的范围说准：I don't **object** to fifty. I object to fifty **on day one**.——他反对的是时间点，不是 Priya 这个人。想提一个尖锐的风险又怕得罪人，先打个招呼：**Let me play devil's advocate for a second.**（我故意唱个反调），大家就知道你是在帮方案找漏洞。气氛紧张时，主持人用 **Fundamentally, we want the same thing: …** 把大家拉回共同目标，再谈分歧。中文里一句「你这个不对」常常只是说话直，直译成英文却成了在批评人。
+@d_when: 讨论变得激烈时；主持会议、调和两方意见时；想提出风险又不想显得在泼冷水时。
+@d_vs: **I'm not sure the numbers support that.** 我不确定数据支持这个说法。（对事）\n**I don't object to fifty. I object to fifty on day one.** 我不反对五十个，我反对的是第一天就上五十个。\n**Let me play devil's advocate for a second.** 我先来唱个反调。\n✗ You're wrong.\n✗ You don't understand the system.
+@d_task: Priya 说：「上五十个卖家不会有问题的。」你想提出风险，又不想得罪她：先说要唱个反调，再问「要是第一周物流状态出错怎么办？」 | Let me play devil's advocate for a second. What if the tracking statuses are wrong in the first week?
+
+@core: I couldn't agree more. | 完全同意对方的观点 | I couldn't agree more. ／ Absolutely. ／ I agree. | 正式：I fully agree with you on this point.｜随意：Couldn't agree more!
+@core: I see your point, but I'm not sure… | 先认可对方的理由，再委婉反对 | that's realistic ／ we have enough time ／ the numbers support that | 正式：I understand your position; however, I have some concerns about the timeline.｜随意：I get it, but I'm not sure that works.
+@core: That's a fair point. I'll concede that… | 承认对方说中了一点，再接自己的保留 | ten is a small sample ／ the deadline is tight | 正式：You raise a fair point, and I concede that the sample is small.｜随意：Fair point.
+@core: I agree with you to some extent, but… | 部分同意 | to some extent ／ to a large extent | 正式：I agree with you to a certain extent; however, …｜随意：Kind of, but…
+@core: Let me play devil's advocate for a second. What if…? | 故意唱反调，帮大家想到风险 | for a second ／ for a minute；the data is late ／ the client says no | 正式：To play devil's advocate, what would happen if…?｜随意：Okay, devil's advocate here: what if…?
+@core: I don't object to X. I object to Y. | 把反对的范围说准，对事不对人 | fifty ／ the new tool；on day one ／ before training | 正式：My objection is not to the plan itself, but to the timing.｜随意：I'm fine with fifty, just not on day one.
+@core: Fundamentally, we want the same thing: … | 讨论激烈时，把大家拉回共同目标 | a smooth launch ／ happy customers | 正式：Fundamentally, we share the same objective.｜随意：Look, we all want the same thing here.
+@core: It doesn't need to be unanimous, but everyone should be able to live with the decision. | 不靠投票，推动大家接受一个决定 | unanimous ／ live with the decision | 正式：We are not looking for a unanimous vote, but for a decision everyone can support.｜随意：We don't all have to love it, but we all have to live with it.
+
+@pw: object | ˈɑːbdʒɪkt ／ əbˈdʒekt | 名词 OB·ject ／ 动词 ob·JECT | 名动重音对：名词（物体、宾语）重音在前；动词（反对）重音在后，第一个音节弱读成 `/əb/`
+@pw: unanimous | juˈnænɪməs | 4 个音节 u·NAN·i·mous | 开头读 `/ju/`（所以说 a unanimous decision）；重音在 nan，`/æ/` 嘴张大
+@pw: concede | kənˈsiːd | 2 个音节 con·CEDE | con 弱读成 `/kən/`；c 读 `/s/`；重音在后，cede 拉长
+@pw: skeptical | ˈskeptɪkl | 3 个音节 SKEP·ti·cal | 重音在 skep；结尾 -ical 读 `/ɪkl/`，又轻又短
+@pw: fundamentally | ˌfʌndəˈmentəli | 5 个音节 fun·da·MEN·tal·ly | 主重音在 men；美式口语里 nt 后的 t 常被吞掉：fun-da-MEN-a-lee
+@pw: absolutely | ˌæbsəˈluːtli | 4 个音节 ab·so·LUTE·ly | 单独作答时重音在 lute，语调明显下降，听起来很肯定
+@pw: devil's advocate | ˌdevlz ˈædvəkət | DEV·il's AD·vo·cate | devil's 的 il 几乎没有元音：`/devlz/`；advocate 作名词，结尾读 `/kət/`
+@ps: I **see** your point, / **but** I'm not **sure** that's **re**alistic. | 对比重音：see 和 but 都要重读——see 表示「我认可」，but 提示「转折来了」；point 后语调平或微升，听的人就知道后面还有话。
+@ps: I **could**n't agree **more**. | 主重音在 more，语调在 more 上落下，听起来很确定；couldn't 读 `/ˈkʊdnt/`，t 只做口型不爆破；千万别把它听成「不同意」。
+@ps: I don't ob**ject** to **fif**ty. / I ob**ject** to fifty / on **day one**. | 第二句的重音移到 day one 上——这正是 Mike 要强调的新信息；object 作动词，重音在后；object to 的两个 t 连成一个音。
+@ps: Let me **play** devil's **ad**vocate / for a **sec**ond. | Let me 连读成 `/ˈlemi/`；devil's 很短；for a 弱读成 `/fərə/`；这是打招呼的话，语气轻松，别说得像在吵架。
+@pnote: 会议里的语调：同意时语调下降、干脆（Absolutely↘ / I couldn't agree more↘）；委婉反对时，but 前面那半句语调平或微升（I see your point→, but…），听的人就知道「后面还有话」。I agree with you **to some extent** 里的 to some extent 要稍慢、稍重，提醒对方你不是完全同意。中文语调起伏小，用英文反对时容易每个词一样重，听起来生硬，像在吵架。
+@pnote: 名动重音对：ˈobject（物体）／obˈject（反对）、a ˈproject ／ to proˈject、an ˈincrease ／ to inˈcrease——名词重音在前，动词重音在后。数字：**fif**ty `/ˈfɪfti/` 重音在前，fif**teen** `/ˌfɪfˈtiːn/` 重音在后，会上「fifty sellers」还是「fifteen sellers」全靠重音分辨；two hundred orders a day 里的 a 弱读成 `/ə/`；September 14 读 September fourteenth。
+@lfocus: 数字和日期：ten ／ fifty ／ two hundred orders a day ／ September 14——笔记写成 Mike 10 ／ Priya 50
+@lfocus: 立场和让步：disagree ／ I see your point, but ／ fair point ／ concede ／ object to fifty on day one——记下每个人同意了哪一点、反对哪一点
+@lfocus: 决定和行动项：no vote ／ not unanimous ／ Karen ／ dissent；邮件里 Priya → order data ／ Mike → open tests
+@dict: S10–S14
+@dict: S20–S23
+@res: 在 youglish.com 输入 "I couldn't agree more"，选 US，听美国人说这句话时落下的语调。
+
+@mimic: 跟读【C】S1–S25：先正常语速逐句跟读，重点模仿 I see your point, but… 的对比重音和 I couldn't agree more. 落下的语调；再由你演林晓，用手机朗读 Mike、Priya 和张涛的台词，完整对一遍并录音。最后把邮件 S26–S34 当成你自己写的，用平稳、友好的语气读一遍。
+@swap: I see your point, but I'm not sure that's realistic. | 换后半句：we have enough time／the numbers support that／our team can handle it | I see your point, but I'm not sure we have enough time.
+@swap: I agree with you to some extent. | 换程度和对象：to a large extent；with Mike／with the plan；再加 but… | I agree with Mike to a large extent, but we still need more data.
+@swap: I don't object to fifty. I object to fifty on day one. | 换内容：the new tool → using it before training；a later launch → a launch without testing | I don't object to the new tool. I object to using it before training.
+@swap: Let me play devil's advocate for a second. | 后面接 What if…?：the client says no／the data is late／the sync fails | Let me play devil's advocate for a second. What if the data is late?
+@free: 同事提议把每天的碰头会改到早上 9 点（西雅图那边还没下班）。你完全同意，并说明理由 | I couldn't agree more. At nine, Mike's team is still online, so we can solve problems on the same day.
+@free: 客户希望下周就全面上线。你认为测试来不及：委婉地反对，给出理由和替代方案 | I see your point, but I'm not sure that's realistic. Our testing won't be finished until Friday. What we can do is start with a small group next week and add the rest later.
+@free: 讨论变得有点激烈。你是主持人：先把大家拉回共同目标，再说清分歧到底在哪 | Let's step back for a moment. Fundamentally, we all want a smooth launch. We don't differ on the goal; we only differ on the timing.
+@free: 经理说：「这个方案肯定没问题。」你想提一个风险，又不想显得在泼冷水 | Let me play devil's advocate for a second. What if BrightNest's data arrives late? We should have a backup date, just in case.
+@output: 写一封 8–12 句的会后邮件，标题是 "Where we agree and where we differ"（也可以自拟）：感谢大家有建设性的讨论 → 一句话说共识（We agree on…）→ 说清分歧（Our only disagreement is…）→ 承认双方各自的道理（X made a fair point…）→ 给出你的看法（I agree to some extent, but…）→ 请各方会前准备什么、什么时候给 → 下次在哪里讨论 → 如有异议请告诉你。可以写工作中真实的分歧，也可以写和朋友商量旅行目的地时的分歧。
+@output_sample: The subject line is "Pilot size: where we agree and where we differ."\nHi Mike and Priya,\nThank you both for a constructive discussion today.\nWe agree on the goal: a smooth launch before the November peak.\nOur only disagreement is how many sellers we should start with.\nPriya made a fair point: ten sellers may not give us enough data.\nMike also made a fair point: half of our tests are still open.\nI agree with Priya to some extent, but I'm skeptical that we can support fifty sellers on day one.\nPriya, could you share the order data for all fifty sellers by Thursday?\nMike, could you send me a list of the open tests by the same day?\nI'd like us to make a decision at our next call.\nIf you have any objections, just let me know.\nBest,\nLily
+
+@check: 听力：Mike 和 Priya 分别主张先上多少个卖家？各自的理由是什么？ | Mike 主张 10 个：出了问题只连累 10 个卖家，而且测试才做了一半（Our tests are only half done.）。Priya 主张 50 个：10 个卖家一天只有大约 200 单，太少，发现不了真正的问题；她希望 9 月 14 日就有 50 个卖家上线。
+@check: 听力：最后大家投票了吗？Mike 让 Leo 记下什么？会后林晓请 Priya 和 Mike 各做什么？ | 没有投票：林晓说决定不需要全体一致（unanimous），但要大家都能接受。Mike 说如果定了 50 个，请 Leo 记下他的反对意见（note my dissent）。邮件里，林晓请 Priya 发来 50 个卖家的订单数据，请 Mike 列出还没完成的测试。
+@check: 改错：① I'm agree with you. ② I'm not agree with this plan. ③ We object to start on Monday. | ① I agree with you. ② I don't agree with this plan.（或 I disagree with this plan.）③ We object to starting on Monday.（object to 后面接 -ing）
+@check: 美国经理在会上说 "I couldn't agree more."，他是同意还是反对？如果他说 "I see your point, but…" 呢？ | I couldn't agree more. 是完全同意（再同意不过了）。I see your point, but… 是委婉的不同意：他认可你的理由，but 后面才是他真正的意见。
+@check: 把这句对人的话改成对事的说法：You're wrong. Fifty sellers is too many. | 例如：I see it a bit differently. I'm not sure we can support fifty sellers on day one.（或：I don't object to fifty. I object to fifty on day one.）
+@check: 换个场景：朋友提议国庆假期五天跑三个城市。你部分同意（想去），但觉得太赶。用 to some extent 说两句。 | I agree with you to some extent. Three cities sound great, but five days isn't enough for all of them.
+@next1: 不看书说出 5 个锚点句：S5、S9、S12、S16、S17
+@next1: 用 I see your point, but… 和 I agree with you to some extent, but… 各回应一个你最近听到的提议
+@next7: 同意和反对的梯子：I couldn't agree more → Absolutely → I agree → That's a fair point → I agree with you to some extent → I see your point, but… → I see it a bit differently → I have to disagree
+@next7: 用 I don't object to X. I object to Y. 说一个「不是反对这件事，而是反对时机或方式」的例子
