@@ -125,7 +125,7 @@ handoff:
       - "开权限、讲 API 对接、写 bug 报告、处理物流异常、写事故说明、跨时区交接、讲退货流程、接待来访客户"
   - title: 需要在第四册继续复习的薄弱项目（多数学习者在测评中暴露的问题）
     list:
-      - "被动语态漏掉 be 动词或用错时态（✗ The order shipped yesterday by us. ✗ It has shipped.）"
+      - "被动语态漏掉 be 动词或过去分词（✗ Refunds handle by finance. ✗ It was ship yesterday.）；注意电商里常见的 It has shipped. / Ships in 2 days 是固定说法，自己写邮件时用被动更稳"
       - "percent 和 percentage point 混用；increase by / to 用反"
       - "邮件开头仍先寒暄、目的放在最后；结尾套话太多"
       - "拒绝时只说 No / We can't，没有原因和替代方案"

@@ -148,9 +148,9 @@
 @check: 迁移：同事在群里发了一句 "Please send me the numbers by EOD."——你不认识 EOD，还猜他要的是上周的数字。分别怎么问？ | What does "EOD" mean?（It means "end of day."）／ Do you mean last week's numbers?——前一句问词本身的意思，后一句确认对方想要什么。
 @check: 迁移：休假回来，你发现卖家的一个订单还没发。你原来以为周一就发了；你推测是因为缺货。用 I thought 和 I assume 各说一句，再用被动说「明天会发出」。 | I thought it was shipped on Monday. I assume the item was out of stock? Anyway, it will be shipped tomorrow.
 
-@improve: 如果【E】第 1 组或【I】第 3 题出错（漏 be；responsible for / in charge of / handle 混用）：下周每天热身后加 1 分钟，用 I'm responsible for… / … is in charge of… / … handles… 各说一句身边的分工（公司、家里、社团都行）；重做 Day 61【E】第 1 组、Day 64【E】第 1、4 组。下周的周报（Day 71）要写「这周我负责的工单」，月度会答问（Day 73）也常被问「这个数归谁管」，都离不开这三个说法。
+@improve: 如果【E】第 1 组或【I】第 3 题出错（漏 be；responsible for / in charge of / handle 混用）：下周每天热身后加 1 分钟，用 I'm responsible for… / … is in charge of… / … handles… 各说一句身边的分工（公司、家里、社团都行）；重做 Day 61【E】第 1 组、Day 64【E】第 1、4 组。下周写周报（Day 71）要说清每件事由谁跟进（so I've escalated it to Mike），月度会上被问住时（Day 73）要说 Let me figure out who handles it and get back to you，都离不开「谁负责什么」。
 @improve: 如果被动句还会漏 be、或者时态放错（【E】第 2 组）：把 is shipped / was shipped / has been shipped / will be shipped 写在一张卡片上，每天对着看板或快递 App 用被动说两句真实的状态；重做 Day 63【E】第 1、2、4 组。被动下周会一直出现：Day 71 周报里的 Two tickets are still pending、Day 72 说原因的 The delay was partly caused by bad weather.（被动 + by 说原因）。
-@improve: 如果 main / mainly 或 Do you mean / What does … mean 还会混（【E】第 3、4 组）：每天给自己的邮件分一次类，用 They're mainly about… 说一句，再用 My main problem today is… 说一句；重做 Day 61【E】第 3 组、Day 66【E】第 1 组。下周讲图表（Day 70）会说 The majority of… / mainly from California；被人提问时（Day 73），先用 Do you mean…? 把问题确认清楚再回答。
+@improve: 如果 main / mainly 或 Do you mean / What does … mean 还会混（【E】第 3、4 组）：每天给自己的邮件分一次类，用 They're mainly about… 说一句，再用 My main problem today is… 说一句；重做 Day 61【E】第 3 组、Day 66【E】第 1 组。下周讲图表（Day 70）会学 The majority of… / The rest of…，和 main / mainly 一样都在说「大部分」，后面的名词和动词同样要配对；被人提问时（Day 73），先用 Do you mean…? 把问题确认清楚再回答。
 @improve: 如果交接录音还是先铺垫、后说重点，或者不好意思用 Just to confirm / I assume 把拿不准的地方说出来（【E】第 5 组）：下周每写一条消息，先写第一句「目的或结论」，再写细节；重做 Day 65【E】第 1 组、Day 66【E】第 2、4 组。第 2 周的主题是数字和汇报：Day 68 的读数（百分比和「百分点」）、Day 71 周报的 Overall, …、Day 73 的 I'd say… / Let me check and get back to you，都建立在本周「先说结论、把数字确认清楚」的习惯上。
 
 @next1: 按【H】第 1 层的 10 个提示，不看书再复述一遍交接邮件和 Leo 的问题，和今天的录音比一比：responsible for 前面的 be、被动句的 be 是不是都说出来了

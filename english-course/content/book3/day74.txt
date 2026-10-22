@@ -1,0 +1,158 @@
+@day: 74
+@week: 2
+@review: true
+@title_cn: 第 2 周复习：第一次季度汇报
+@title_en: Week 2 Review: My First Quarterly Review
+@topic: 季度末给经理和西雅图的工程经理做 5 分钟数据小汇报：先计时排练，再讲数字、图表和原因，最后接住追问并收尾
+@think_short: increase by vs increase to｜percent vs percentage points｜because vs because of / due to｜affect vs effect｜account for vs occupy｜I'm sure vs I believe
+
+@goal_scene: 季度最后一天，林晓要给张涛和 Mike 做一个五分钟的季度数据小汇报。前一天，她先拉着 Leo 计时排练，被当场纠正了两个错；第二天正式讲：先说结论，再讲订单和准时率的变化、地区占比、Daniel 那边的问题和原因，然后回答「影响大不大」「数字是不是最终的」「下季度会怎样」，最后按经理的要求收尾。你也要能用这一周的表达，准备并做一次 2 分钟左右的数据汇报。
+@goal_expr: Overall, it was a strong quarter, with one problem. / Orders increased by eighteen percent. They increased to… / That's up three percentage points. / As you can see, … accounts for / makes up forty percent. / … slowed down due to… / Because of the delays, … / Did the strike affect…? — It had very little effect on them, because… / Are you sure…? — I believe so. / I'd say…, but I'm not certain yet. / Can you wrap up? — Our next steps are…
+@goal_vocab: 复现第 68–73 天的 16 个旧词、第 67 天的 1 个旧词 + 第一、二册的 4 个旧词（虚线标出）+ 6 个新词 + 1 个短语：quarterly, rehearse, timer, deck, projector, wrap up, presenter
+@done: 能不看原文，按【H】第 1 层的 10 个提示，用 8–10 句英文复述林晓的排练和季度汇报：两处被纠正的错、三个数字、一个问题的原因和影响、三个追问的回答
+@done: 【E】5 组易混表达（increase by / to 和 percent / percentage points；because / because of / due to；affect / effect；account for / occupy；I'm sure / I believe）每组都能说出正确句子，并用中文讲出理由
+@done: 能用计时器排练，再录一段 1.5–2 分钟的数据汇报：结论先行 → 数字变化 → 图表占比 → 原因和影响 → 回答追问（说清自己有多确定）→ To wrap up 收尾
+
+@warmup_hint: 这 6 句里，四句来自本周不同的日子（Day 69、70、72、73），一句来自第一册 Day 22（过去式 were 和 mostly），一句来自第二册 Day 54（现在一般时 vs 上个月的过去时）。遮住答案，5 秒内说出英文；说不出的打 ★，记下右边的 D#，今天最后一步把它写进下周的热身。
+@warmup: 这个月订单增长了 15%，增长到了一万二。 | Orders increased by fifteen percent this month. They increased to twelve thousand. | D69
+@warmup: 加州占总量的百分之四十。 | California accounts for forty percent of the total. | D70
+@warmup: 因为港口罢工，配送时间变长了。 | Delivery times went up due to the strike at the port. | D72
+@warmup: 我一下子说不准。我把确切数字查清楚，再回复你。 | I'm not sure off the top of my head. Let me figure out the exact number and get back to you. | D73
+@warmup: 晚到的大多在纽约。 | The late ones were mostly in New York. | D22
+@warmup: 我现在平均每天回五十封邮件，上个月才三十封。 | On average, I answer fifty emails a day now. Last month, it was only thirty. | D54
+
+@scene: 季度的最后一天。前一天下午，张涛给林晓发了一条消息：明天早上八点半，给他和 Mike 做一个五分钟的季度小汇报，讲她负责的二十个卖家这个季度的数字——西雅图那边是前一天下午五点半，正好是两边每天唯一重叠的那一个小时（Day 70）。这是林晓第一次做季度汇报：订单比上季度涨了 18%，准时率从 92% 升到 95%，加州仍然占四成（Day 70）；问题出在 Daniel 那边——港口罢工、仓库积压、订单下降（Day 72、73）。下班前，她拉着 Leo 当听众、帮她计时。Leo 这周跟着她练过读数字、讲趋势，一下子就抓出了两个错，还发现她讲了六分钟。第二天早上，投影仪打开，Mike 在视频里，张涛坐在对面——讲完数字，就是提问时间。
+@sp: 人物关系 | 林晓 ↔ Leo：排练时 Leo 是「听众 + 计时员」，哪里错了可以直说；林晓 ↔ 张涛、Mike：正式的季度汇报，张涛是直属经理，Mike 是西雅图的工程经理，两人都会追问
+@sp: 沟通目的 | 林晓：五分钟内讲清这个季度好不好、数字怎么变、问题出在哪、为什么、下一步做什么；张涛和 Mike：判断问题有多严重、数字靠不靠得住、下季度要不要提前准备
+@sp: 已知信息 | 张涛和 Mike 在月度会上（Day 73）已经听过 Daniel 的延误，但没看过整个季度的数字；财务周一才结账，季度数字还可能小改；林晓自己也说不准下季度会涨多少
+@sp: 表达重点 | 排练：account for（不是 occupy）、percentage points（不是 percent）、控制时间 → 正式汇报：Overall… → increased by / to → As you can see… makes up → due to / because of / because → affect / effect → I believe so（不是 I'm sure）→ I'd say…, but I'm not certain yet → Can you wrap up? → next steps
+
+@story_title: Episode 74 · Five Minutes, One Quarter
+@story_type: 消息 + 排练对话 + 会议汇报（新情境 · 季度数据小汇报）
+@s: The day before her first **quarterly** [[presentation]], Tom sends Lily a message: | 第一次季度汇报的前一天，张涛给林晓发来一条消息：
+@s: Tomorrow at 8:30. Mike will join on video. | 明天八点半，Mike 会视频参加。
+@s: Five minutes, main point first. | 五分钟，先说结论。
+@br:
+@s: Lily is nervous, so she **rehearses** with Leo. He holds the **timer**. | 林晓有点紧张，就拉着 Leo 帮她排练。Leo 负责计时。
+@s: Lily: California occupies forty percent of our orders. | 林晓：加州「占领」了我们四成的订单。（她用了 occupies）
+@s: Leo: Stop! Not "occupies." It [[accounts for]] forty percent. | Leo：停！不是 occupies，要说它 accounts for 百分之四十。
+@s: Lily: Right. And the on-time rate went up three percent. | 林晓：对。还有，准时率涨了 3%。
+@s: Leo: Three [[percentage]] points! Ninety-two to ninety-five. | Leo：是三个百分点！从 92 到 95。
+@s: Leo: And that took six minutes. Too long! | Leo：而且你讲了六分钟，太长了！
+@s: Lily cuts two slides from her **deck**. | 林晓从幻灯片里删掉了两页。
+@br:
+@s: The next morning, the **projector** is on, and Mike joins on video. | 第二天早上，投影仪打开了，Mike 也从视频里连了进来。
+@s: Lily: [[Overall]], it was a strong quarter, with one problem. | 林晓：总体来说，这个季度表现很好，只有一个问题。
+@s: Lily: Orders [[increased by]] eighteen [[percent]] from the previous quarter. | 林晓：订单比上个季度增长了 18%。
+@s: Lily: They [[increased to]] about a hundred eighteen thousand. | 林晓：增长到了大约十一万八千单。
+@s: Lily: [[As you can see]], California still makes up forty percent of the total. | 林晓：大家可以看到，加州仍然占总量的四成。
+@s: Lily: Ninety-five percent of packages arrived [[on time]]. That's up three percentage points. | 林晓：95% 的包裹准时送达，比季度初提高了三个百分点。
+@s: Lily: The problem was Daniel's store. His deliveries slowed down [[due to]] the [[strike]] at the port. | 林晓：问题出在 Daniel 的店。因为港口罢工，他的配送变慢了。
+@s: Lily: [[Because of]] the delays, his orders [[dropped]] this month. | 林晓：因为延误，他这个月的订单下降了。
+@s: Mike: Did the strike [[affect]] our other sellers? | Mike：罢工影响到我们其他卖家了吗？
+@s: Lily: It had very little [[effect]] on them, because most of them don't ship by sea. | 林晓：对他们影响很小，因为他们大多不走海运。
+@s: Tom: Are you sure these numbers are final? | 张涛：你确定这些数字是最终的吗？
+@s: Lily: I [[believe]] so. Finance closes the quarter on Monday, so they might change slightly. | 林晓：应该是。不过财务周一才结账，所以数字可能还会有小的变动。
+@s: Mike: What about next quarter? | Mike：那下个季度呢？
+@s: Lily: [[I'd say]] another ten percent, but I'm not [[certain]] yet. | 林晓：我估计会再涨一成左右，不过现在还说不准。
+@s: Tom: We're almost out of time. Can you **wrap up**? | 张涛：时间差不多了，你能收个尾吗？
+@s: Lily: Sure. Our [[next steps]] are a [[backup]] plan for [[peak season]] and earlier warnings for sellers. | 林晓：好的。我们的下一步：为旺季准备一个备用方案，以后有延误更早地提醒卖家。
+@s: Tom: Clear and on time. You're a natural **presenter**! | 张涛：讲得清楚，又不超时。你天生就会讲！
+
+@v: quarterly | = | adj. | ˈkwɔːrtərli | 季度的；每季度一次的 | 季度汇报、季度数据、季度目标 | a quarterly review；quarterly numbers；a quarterly report | We send each seller a quarterly report. | 我们每个季度给每个卖家发一份报告。 | 第一册 D6 学过 quarter 的「一刻钟」，它的另一个常用意思是「季度」（一年的四分之一）：Q3 = the third quarter，读作 Q three；加 -ly 就是「每季度的」，也能作副词：We meet quarterly.；「季度汇报」不说 ✗ season report（season 是春夏秋冬的季节）；美式 t 闪音，听起来像 QUOR-der-ly。
+@v: rehearses | rehearse | v. | rɪˈhɜːrsɪz | 排练；预演 | 汇报、演讲、面试、演示之前先完整练一遍 | rehearse a presentation；rehearse with sb；rehearse the opening | Let's rehearse the demo before the client arrives. | 客户来之前，我们把演示排练一遍。 | rehearse 比 practice 更像「按真实情况从头到尾走一遍」：有听众、有计时、不中途停；名词 rehearsal（彩排）；中间的 hear 在这里读 `/hɜːr/`（和 her 一样），不读 hear 的 `/hɪr/`；三单 rehearses 多一个音节 `/ɪz/`。
+@v: timer | = | n. | ˈtaɪmər | 计时器；定时器 | 排练、开会、做饭时计时 | set a timer；start the timer；a five-minute timer | I set a timer for ten minutes. | 我定了一个十分钟的计时器。 | 「定时」「计时」说 set a timer，不说 ✗ open a timer；timer 多是倒计时，正着计时的「秒表」叫 stopwatch；排练汇报时开着计时器，是控制时间最简单的办法；结尾 er 要卷舌。
+@v: deck | = | n. | dek | （一整套）幻灯片；演示文稿 | 职场里说「我做的那套 PPT」 | a slide deck；the deck；send over the deck | Can you send me the deck before the meeting? | 开会前能把幻灯片发我吗？ | 美国职场把一整套幻灯片叫 deck 或 slide deck，单独的一页叫 slide（D70）；中文说「PPT」，英文一般说 the deck / the slides / the presentation，很少说 ✗ the PPT；deck 的本义是「甲板」「一副纸牌」，一页页叠在一起，所以也指整套幻灯片。
+@v: projector | = | n. | prəˈdʒektər | 投影仪 | 会议室里投屏、放幻灯片 | turn on the projector；connect to the projector；The projector isn't working. | The projector isn't working. Can you share your screen instead? | 投影仪坏了，你能改成共享屏幕吗？ | 动词 project「投影」重音在后 pro-JECT，名词 project「项目」（D71 的 label project）重音在前 PROJ-ect——projector 跟着动词，重音在 jec；「打开投影仪」说 turn on the projector；「投到屏幕上」说 put it on the screen。
+@v: wrap up | = | phr. | ˌræp ˈʌp | 收尾；结束（会议、汇报、讨论） | 会议、汇报快结束时，用一两句总结、说下一步 | wrap up the meeting；Let's wrap up.；To wrap up, … | Let's wrap up. We have two minutes left. | 我们收个尾吧，只剩两分钟了。 | 本义是「包起来」（wrap a gift）；会上别人说 Can you wrap up? 不是让你马上闭嘴，而是请你用一两句总结、说下一步；汇报结尾常用 To wrap up, …（总结一下）；代词放中间：Let's wrap it up.；w 不发音：`/ræp/`，和 rap 同音。
+@v: presenter | = | n. | prɪˈzentər | 汇报人；主讲人 | 会议、培训、发布会上讲的人 | a natural presenter；the next presenter；a confident presenter | Each presenter has ten minutes. | 每位主讲人有十分钟。 | presentation（第一册 D16）是「汇报、演示」，presenter 是「讲的人」；动词 present「做汇报」重音在后 pre-SENT，presenter 重音也在 sen；You're a natural presenter. 是夸人「天生会讲」；电视节目「主持人」美式多说 host。
+
+@diff: 「涨了多少」「涨到多少」——increase by / increase to；percent / percentage points（复习 D68、D69）
+@d_cn: 汇报变化：订单「增长了 18%」「增长到 11.8 万」；准时率「从 92% 涨到 95%，涨了 3 个百分点」。
+@d_en: Orders increased by eighteen percent. / They increased to about a hundred eighteen thousand. / Ninety-five percent arrived on time. That's up three percentage points.
+@d_why: 这一周最容易错的两件事，常常出现在同一句话里。第一是**介词**（D69）：by + 变化量（increased **by** eighteen percent），to + 新数值（increased **to** 118,000），from + 原来的数（from 100,000）——Leo 第一次就说成 ✗ increased to fifteen percent，意思变成「涨到了 15%」。第二是**两个百分比之间的差**（D68）：92% → 95% 是 up three **percentage points**，相对增长只有约 3.3%，不是 ✗ three percent——林晓排练时就说错了，被 Leo 当场纠正。开口前先问自己：我说的是「差了几个点」，还是「涨了百分之几」？percent 跟在数字后（ninety-five percent），percentage 不直接跟数字（✗ ninety-five percentage）。汇报时最不会让人误会的说法，是把起点、终点和差都说出来：The on-time rate went **from** 92 **to** 95 percent, up three percentage points.
+@d_when: 周报、月报、季度汇报里说任何一个数字的变化；给客户解释比率的变化。
+@d_vs: ✓ **Orders increased by eighteen percent.** 订单增长了 18%。（变化量）\n✓ **They increased to about 118,000.** 增长到约 11.8 万。（新数值）\n✓ **The on-time rate went from 92 to 95 percent, up three percentage points.** 准时率从 92% 升到 95%，提高了 3 个百分点。\n✗ Orders increased to eighteen percent. ／ ✗ The on-time rate went up three percent.（说的是 92 → 95 时）
+@d_task: 用英文说：① 退货率从 6% 降到 4%，降了两个百分点。② 卖家数量增长了 25%，增长到 20 个。 | ① The return rate fell from six to four percent, down two percentage points. ② The number of sellers increased by twenty-five percent, to twenty.
+@diff: 「因为」——because + 句子 vs because of / due to + 名词（复习 D72）
+@d_cn: 「因为港口罢工，配送变慢了」「因为延误，订单少了」「影响很小，因为他们大多不走海运」——中文「因为」后面跟词、跟句子都行。
+@d_en: His deliveries slowed down due to the strike at the port. / Because of the delays, his orders dropped this month. / It had very little effect on them, because most of them don't ship by sea.
+@d_why: Day 72 的规则：看「因为」后面是**名词**还是**一句话**。后面是名词（the strike / the delays）→ **because of** 或 **due to**；后面是一句完整的话，有主语和动词（most of them don't ship by sea）→ **because**。林晓今天的三句话，正好三种各用了一次。最常见的两个错：✗ because the strike（缺动词）、✗ due to most of them don't ship by sea（due to 后面接了句子）。语气上 due to 偏正式，适合汇报和通知；because of 口语、书面都行。还有 Day 72 的另一条：because 和 so 不能在同一句里一起用（✗ Because…, so…）。汇报因果时，名词结构更紧凑：due to the strike at the port，几个词就说完了「因为港口那边发生了罢工」。
+@d_when: 解释数据为什么变了、写延误通知、回答 Why…?
+@d_vs: ✓ **His deliveries slowed down due to the strike.** 因为罢工，他的配送变慢了。（due to + 名词）\n✓ **Because of the delays, his orders dropped.** 因为延误，他的订单下降了。（because of + 名词）\n✓ **…because most of them don't ship by sea.** ……因为他们大多不走海运。（because + 句子）\n✗ because the strike ／ ✗ due to most of them don't ship by sea ／ ✗ Because it rained, so the trucks were late.
+@d_task: 各用一句说：① 因为天气不好，航班取消了（用 due to）。② 订单增加了，因为我们搞了一次大促（用 because）。 | ① The flight was canceled due to bad weather. ② Orders went up because we ran a big sale.
+@diff: 「影响」——affect（动词）vs effect（名词）（复习 D72）
+@d_cn: 「罢工对其他卖家有影响吗？」「影响很小」「受影响的包裹」——中文「影响」既是动词又是名词。
+@d_en: Did the strike affect our other sellers? / It had very little effect on them. / How many packages were affected?
+@d_why: 英文要分开：**affect 是动词**，后面直接接对象，不加 on：Did the strike affect our other sellers?（✗ affect on）；**effect 是名词**，前面有 a / the / little / big，后面用 on：It had very little effect on them.；影响更大、语气更重时说 **impact**：It had a big impact on Daniel's sales.（D72）。被动的「受影响」用 affected：How many packages were affected?（D73）。两个词读音几乎一样（`/əˈfekt/`、`/ɪˈfekt/`），听的时候看结构：前面有 a / little / big 的是 effect，后面直接跟人或东西的是 affect。记法：**A**ffect = **A**ction（动作），**E**ffect = **E**nd result（结果）。
+@d_when: 问、说一件事对客户、销量、数据的影响。
+@d_vs: ✓ **Did the strike affect our other sellers?** 罢工影响到其他卖家了吗？（动词）\n✓ **It had very little effect on them.** 对他们影响很小。（名词）\n✓ **It had a big impact on Daniel's sales.** 对 Daniel 的销量冲击很大。\n✓ **About 1,150 packages were affected.** 大约 1,150 个包裹受到了影响。\n✗ Did the strike affect on them? ／ ✗ It had a big affect.
+@d_task: 用英文问：「新系统对回复速度有影响吗？」再回答：「有，影响很大——平均回复时间降到了两小时。」 | Did the new system affect our response time? ／ Yes, it had a big effect. The average response time dropped to two hours.（也可以说 a big impact）
+@diff: 「占……%」——account for / make up vs occupy（复习 D70）
+@d_cn: 「加州占我们订单的四成」——中文一个「占」字。
+@d_en: California accounts for forty percent of our orders. / California makes up forty percent of the total. / Forty percent of our orders come from California.
+@d_why: 林晓排练时脱口而出 ✗ California occupies forty percent of our orders.——查词典「占」，最先跳出来的就是 occupy，可它是「占据（空间）、占用、占领」：The meeting room is occupied.（会议室有人。）说比例，英文用 **account for**（稍正式，报告常用）或 **make up**（更口语）：部分做主语，后面接百分比 + of the total / of our orders；还可以把百分比直接放在主语位置：Forty percent of our orders come from California.。另外两个小坑：一是第三人称 -s，California account**s** for…，说快了容易丢（第一册的老弱项）；二是 majority 必须过半（D70）——加州只占 40%，只能说 California is our largest region，不能说 ✗ The majority of orders come from California.
+@d_when: 讲饼图、说比例、写报告里的「占比」。
+@d_vs: ✓ **California accounts for forty percent of our orders.** 加州占我们订单的四成。\n✓ **New York makes up thirty percent.** 纽约占三成。\n✓ **Forty percent of our orders come from California.** 四成订单来自加州。\n✗ California occupies forty percent. ／ ✗ California account for forty percent.（漏了 -s）
+@d_task: 用两种说法说：「快速件占总量的三分之一。」 | Express packages account for a third of our total volume. ／ Express packages make up a third of the total.
+@diff: 「你确定吗？」——I'm sure vs I believe（复习 D73）
+@d_cn: 经理问「这些数字是最终的吗？你确定？」——中文回答「应该是」「肯定是」，把握有多大全靠语气。
+@d_en: Are you sure these numbers are final? — I believe so. Finance closes the quarter on Monday, so they might change slightly. / I'd say another ten percent, but I'm not certain yet.
+@d_why: Day 73 学过一把「确定程度的尺子」：**I'm sure / I'm certain / definitely**（百分之百：有数据、核对过）→ **I believe / I'm fairly sure**（比较有把握，但还有一点没核实）→ **I think / possibly** → **I doubt / unlikely**。林晓的数字自己算过，但财务周一才结账，所以她不说 I'm sure，而说 **I believe so**，并马上给出理由——张涛一听就明白：数字可以先用，周一再看最终版。对未来的预测更要留余地：I'd say another ten percent, but I'm not certain yet.。中国学习者常见两种问题：一是什么都说 I'm sure，数字一改就失去信任；二是什么都说 I think，听不出把握有多大。回答 Are you sure? 时，美国同事很少只说 Yes. 或 No.，而是「确定程度 + 理由」。
+@d_when: 汇报数据被追问「你确定吗？」「这是最终数字吗？」；做预测、给估计时。
+@d_vs: ✓ **I'm sure. I checked them twice.** 我确定，核对过两遍了。（百分之百）\n✓ **I believe so, but they might change slightly.** 应该是，不过可能还会小改。（比较有把握）\n✓ **I'd say another ten percent, but I'm not certain yet.** 我估计再涨一成，不过还说不准。（预测）\n✗ Yes, I'm sure.（其实还没核实——数字一改，你的话就不可信了）
+@d_task: 经理问 Is this the final version of the report?：① 你已经核对过，百分之百确定；② 你比较有把握，但 Emma 可能还要改一个数字。分别怎么回答？ | ① Yes, I'm sure. I checked it twice this morning. ② I believe so, but Emma might change one number.
+
+@core: Overall, it was a strong quarter, with one problem. | 来自 D71：汇报第一句先给结论，再说有没有问题 | a strong quarter / a busy month；one problem / one risk | 正式：Overall, the quarter exceeded our targets, with one exception.｜随意：Good quarter, one problem.
+@core: … increased by … . They increased to … . / That's up … percentage points. | 来自 D68、D69：说清变化量、新数值和百分点 | eighteen percent / about 118,000；three percentage points | 正式：Orders rose 18 percent from the previous quarter, to approximately 118,000.｜随意：Orders are up eighteen percent.
+@core: As you can see, … accounts for / makes up … percent of the total. | 来自 D70：讲图表、说占比（不说 occupy） | California / forty；New York / thirty；express packages / a third | 正式：As shown in the chart, California accounts for 40 percent of total orders.｜随意：California's about forty percent.
+@core: … due to … / Because of …, … / …, because + 句子 | 来自 D72：说原因，分清后面接名词还是句子 | the strike at the port / the delays / most of them don't ship by sea | 正式：Delivery times increased due to a strike at the port.｜随意：It was mostly the strike.
+@core: Did … affect …? — It had very little / a big effect on … | 来自 D72：问和答影响 | the strike / our other sellers；very little effect / a big impact | 正式：What impact did the strike have on our other sellers?｜随意：Did it hit anyone else?
+@core: I believe so. / I'd say …, but I'm not certain yet. / Let me check and get back to you. | 来自 D73：被追问时说清自己有多确定，答不上来就承诺跟进 | another ten percent / around three days | 正式：I'm fairly confident, but the final figures will be available on Monday.｜随意：Pretty sure, but don't quote me yet.
+
+@pw: quarterly | ˈkwɔːrtərli | 3 个音节 QUAR·ter·ly | 重音在前；qu 读 `/kw/`，ar 卷舌 `/ɔːr/`；美式 t 闪音，像 QUOR-der-ly
+@pw: rehearse | rɪˈhɜːrs | 2 个音节 re·HEARSE | 重音在后；hear 在这里读 `/hɜːr/`（和 her 一样），不读 `/hɪr/`；结尾 se 读清辅音 `/s/`
+@pw: projector | prəˈdʒektər | 3 个音节 pro·JEC·tor | 重音在 jec；和名词 PROJ·ect（项目）不同，和动词 pro·JECT 一样
+@pw: presenter | prɪˈzentər | 3 个音节 pre·SEN·ter | 重音在 sen；s 读 `/z/`；美式 nt 后面的 t 常被吞掉，像 pre-ZEN-er
+@pw: percentage | pərˈsentɪdʒ | 3 个音节 per·CEN·tage（D68） | 重音在 cen；tage 读 `/tɪdʒ/`；说 percentage points 时一定要把 -age 读出来，否则听起来就是 percent
+@ps: **Or**ders in**creased** by eigh**teen** per**cent** / from the **pre**vious **quar**ter. | by 弱读但不能吞——它告诉听的人后面是「变化量」；eighteen 重音在 teen、拉长，别和 eighty 混；previous 重音在前 PRE-vi-ous。
+@ps: It ac**counts**‿for / **for**ty per**cent**. | accounts for 连读，for 弱读成 `/fər/`；accounts 的 -s 一定要有（第三人称）；forty 重音在前，t 闪音像 FOR-dy。
+@ps: I be**lieve** **so**. / **Fi**nance **clos**es the **quar**ter on **Mon**day. | believe so 连读，v 和 s 之间不加元音；finance 美式两种读法都有（FY-nance / fə-NANCE）；closes 读 `/ˈkloʊzɪz/`，比 close 多一个音节。
+@pnote: 本周数字一次复习：a hundred eighteen thousand（118,000，美式一般不加 and）；ninety-two / ninety-five 的 t 闪音，像 NINE-dee；eighteen 和 eighty 靠重音和长短区分：eigh**teen** 重音在后、拉长，**eigh**ty 重音在前、t 闪音；percent 和 percentage points 的区别全在 -age `/ɪdʒ/` 这一个音节上。张涛消息里的 8:30 读作 eight thirty；Q3 读作 Q three（the third quarter）。
+@pnote: 排练 vs 正式讲：排练要开计时器、按真实语速讲。中国学习者排练时常常越讲越快，正式讲时一紧张更快；放慢的办法是在每个路标词（Overall, / As you can see, / due to / To wrap up,）后面停半秒。写 vs 说：幻灯片上写 +18%、92% → 95%、118K，嘴上说 up eighteen percent、from ninety-two to ninety-five percent、about a hundred eighteen thousand——箭头、加号和 K 都要换成完整的话。
+@lfocus: by 和 to 的弱读：increased by / increased to 后面的数字是变化量还是新数值
+@lfocus: percent 还是 percentage points：听 -age 有没有
+@lfocus: affect / effect 读音几乎一样：看前面有没有 a / little / big
+@dict: S12–S15
+@dict: S17–S20
+@res: 在 youglish.com 输入 "wrap up"，选 US，听美国人开会时怎么用它收尾、后面常跟什么。
+
+@mimic: 合上书，不看【C】，按下面 10 个提示用 8–10 句英文复述（可以用林晓的口吻 I…，也可以用第三人称 Lily… She…），并录音：① 季度汇报前一天／张涛的消息：明天八点半、Mike 视频参加、五分钟、先说结论 ② 有点紧张／找 Leo 排练／Leo 计时 ③ 说错一：加州 occupies 40% → accounts for ④ 说错二：准时率涨了 3% → 三个百分点（92 → 95）⑤ 讲了六分钟，太长／删掉两页幻灯片 ⑥ 第二天早上：投影仪、Mike 视频／总体很好，只有一个问题 ⑦ 订单比上季度涨 18%、涨到约 11.8 万／加州仍占四成／95% 准时，提高三个百分点 ⑧ 问题：Daniel 的店／罢工让配送变慢／延误让订单下降 ⑨ Mike：罢工对其他卖家的影响 → 很小，因为大多不走海运／张涛：数字是不是最终的 → I believe so，财务周一才结账 ⑩ Mike：下季度 → 估计再涨一成，但还说不准／张涛请她收尾 → 下一步：旺季备用方案、更早提醒卖家／张涛：讲得清楚又准时。第三人称版专门检查：Orders increased by / to 别用反、California accounts for 的 -s、It had very little effect（effect 是名词）、She believes…（believes 加 -s）。
+@swap: Orders increased by eighteen percent from the previous quarter. They increased to about a hundred eighteen thousand. | 换数据：returns / decreased by ten percent / to about two thousand；the number of sellers / increased by twenty-five percent / to twenty | The number of sellers increased by twenty-five percent from the previous quarter. It increased to twenty.
+@swap: It accounts for forty percent. | 换主语和数字，再换成 make up：New York / thirty percent；Texas / twenty percent；express packages / a third | Express packages make up a third of the total.
+@swap: His deliveries slowed down due to the strike at the port. | 换结果和原因，再改成 because + 句子：orders went up / the holiday sale；returns dropped / better product photos | Orders went up due to the holiday sale. ／ Orders went up because we ran a holiday sale.
+@swap: Are you sure these numbers are final? — I believe so. Finance closes the quarter on Monday. | 换确定程度和理由：I'm sure / I checked them twice；I'm not certain yet / Mike is still checking the data | Are you sure these numbers are final? — I'm not certain yet. Mike is still checking the data.
+@free: 周会开场，经理说 Give us the main point first.：这个月总体不错，但有一个风险——新面单项目还在等承运商审批。（D71） | Overall, it was a good month, but one project is at risk. The new label project is still waiting for the carrier's approval.
+@free: 共享屏幕讲饼图：每一块是一个产品类别；家居用品占 45%，服装占 30%，其余的来自电子产品。（D70） | As you can see, each segment of this pie chart is one product category. Home goods account for forty-five percent, and clothing makes up thirty percent. The rest of the orders come from electronics.
+@free: Priya 问她上个月的订单为什么少了：主要是大促刚结束，属于季节性回落；对她整个季度的销量影响不大，同比还是涨的。（D69、D72） | The drop is largely seasonal, because your big sale ended last month. It didn't have a big effect on your quarterly sales. Year over year, your orders are still up.
+@free: 汇报完，Mike 问 How many tickets did we get this quarter?：你记不清，估计 250 到 300 张，会后查清楚再发邮件给他。（D73） | That's a good question. I'm not sure off the top of my head, but I'd say somewhere in the range of two hundred fifty to three hundred. Let me figure out the exact number and email you this afternoon.
+@free: 明天你第一次在会上做 5 分钟汇报，同事问你准备得怎么样：幻灯片做好了，一共 8 页；今晚要开着计时器排练两遍；说实话，你还是有点紧张。（D74） | My deck is ready. It's eight slides. Tonight, I'm going to rehearse it twice with a timer. To be honest, I'm still a little nervous.
+@output: 录一段 1.5–2 分钟的「季度（或月度）数据小汇报」：先开着计时器排练一遍，再正式录。顺序：开场一句结论（Overall, … / In short, …）→ 1–2 个数字的变化（increase by / to；from … to …, up … percentage points）→ 一张图（As you can see, … accounts for / makes up…；the rest of…）→ 一个问题和原因（due to / because of + 名词，because + 句子；As a result, …）→ 影响（affect / effect / impact）→ 自问自答一个追问（Are you sure…? — I believe so, but… / I'd say…, but I'm not certain yet.）→ 收尾和下一步（To wrap up, here are the next steps.）。录完检查四件事：by / to 有没有用反；percent 和 percentage points 分清没有；有没有说 occupy；because 后面是句子、because of 后面是名词。没有工作数据的，可以汇报你一个月的开支、步数或学习时间。
+@output_sample: Good morning, everyone. I'll keep this to five minutes. Overall, it was a strong quarter for my twenty sellers, with one problem. First, the numbers. Orders increased by eighteen percent from the previous quarter. They increased to about a hundred eighteen thousand. Our on-time rate went from ninety-two to ninety-five percent. That's up three percentage points, not three percent. As you can see in this pie chart, California still accounts for forty percent of the total, and New York makes up thirty percent. The rest of the orders come from Ohio and Texas. Now, the problem. Daniel's deliveries slowed down due to the strike at the port, and his warehouse had a backlog after his holiday sale. As a result, his average delivery time went up by more than three days, and his orders dropped this month. Because of the delays, he also got several one-star reviews. The strike had very little effect on our other sellers, because most of them don't ship by sea. You might ask: are these numbers final? I believe so, but finance closes the quarter on Monday, so they might change slightly. I'll send the final version on Monday. And next quarter? I'd say orders will grow by another ten percent, but I'm not certain yet, because peak season is hard to predict. To wrap up, here are the next steps. First, I'll work with Daniel on a backup plan for peak season. Second, we'll warn sellers earlier when there's a delay at a port. Thank you. Any questions?
+
+@check: （听力，不看原文回答）排练时，Leo 纠正了林晓哪两处？她一共讲了多久？ | ① 她说加州 occupies 40%，Leo 让她说 accounts for；② 她说准时率涨了 3%，Leo 说是三个百分点（从 92% 到 95%）。她讲了六分钟，太长了，所以删掉了两页幻灯片。
+@check: （听力，不看原文回答）Mike 问了哪两个问题？张涛问了什么？林晓分别怎么回答？ | Mike 问罢工有没有影响其他卖家——影响很小，因为他们大多不走海运；Mike 又问下个季度会怎样——她估计再涨 10% 左右，但还说不准（I'm not certain yet）。张涛问数字是不是最终的——她说 I believe so，因为财务周一才结账，数字可能还会小改。
+@check: 改错（共 4 处）：Because the holiday sale, our orders increased to 15%. Texas occupies twenty percent of the total, and the sale affected on every region. | Because of the holiday sale, our orders increased by 15%. Texas accounts for（或 makes up）twenty percent of the total, and the sale affected every region.——because 后面是名词要用 because of；15% 是变化量，用 by；「占」不用 occupy；affect 后面不加 on。
+@check: 迁移：月度会上你讲退货率：从 5% 升到 7%。同事问 "So returns went up two percent?"——你怎么纠正？再补一句原因：主要是因为一批台灯在运输途中被损坏了。 | Actually, it's two percentage points, from five to seven percent. The rise was largely due to a batch of lamps that were damaged in transit.
+@check: 迁移：明天你要给经理做一次 3 分钟的汇报。跟同事说：幻灯片已经做好了，今晚你要开着计时器排练一遍，明天会提前十分钟去试投影仪。 | My deck is ready. I'm going to rehearse it tonight with a timer, and I'll test the projector ten minutes early tomorrow.
+@check: 迁移：经理在会上问 Are you sure the survey results are correct?——Emma 还在核对最后几份问卷，你比较有把握，但不能百分之百确定。怎么回答？ | I believe so, but I'm not certain yet. Emma is still checking the last few surveys, so I'll confirm by tomorrow.
+
+@improve: 如果【E】第 1 组或【I】第 3、4 题出错（by / to 用反、percent 和 percentage points 混用）：下周每天热身后加 1 分钟，拿一个真实的数字（气温、步数、手机电量）用 went from … to …, up / down … 说一句，比率就加上 percentage points；重做 Day 68【E】第 3 组、Day 69【E】第 1 组。下周和客户沟通时数字照样少不了：Day 75 给 Sarah 讲套餐和价格，Day 76 讲赔偿上限（the maximum is one hundred dollars），Day 77 的道歉邮件里有「漏发了 300 条通知」——数字一错，语气再好也没用。
+@improve: 如果因果和影响还会混（【E】第 2、3 组）：每天用 due to + 名词、because + 句子各说一句当天的事（The bus was late due to the rain. / I was late because the bus was late.），再用 It had a big / small effect on… 说一句影响；重做 Day 72【E】第 1、3、4 组。下周 Day 77 的道歉邮件要说明原因（The notifications weren't sent due to a system error.），Day 79 安抚 Daniel 时也要先弄清这件事对他的顾客影响有多大——这两组是写道歉、做解释的骨架。
+@improve: 如果讲图还会说 occupy，或者 the majority of 后面的动词用错（【E】第 4 组）：每天看一张新闻里的图，或者手机存储空间、每月开支的饼图，用 accounts for / makes up / the rest of 说三句；重做 Day 70【E】第 1、3 组。第 3 周和客户打交道时，「占多少」「其余的」照样用得上，比如跟卖家分析退货原因：Wrong sizes account for half of your returns. The rest are damaged items.
+@improve: 如果被追问时只会说 Yes, I'm sure. 或者 I don't know. 就停（【E】第 5 组）：练「确定程度 + 理由」：I believe so, because… / I'm not certain yet, because…；重做 Day 73【E】第 1、3 组。第 3 周的客户沟通更讲分寸：Day 75 答复 Sarah 要说 We don't support UK orders at the moment（别把话说死），Day 78 礼貌拒绝时用 I'm afraid we can't…，Day 79 承诺回电时给出具体时间（I'll call you back by three o'clock）——没把握就别说 definitely，有把握就给出时间。
+
+@next1: 按【H】第 1 层的 10 个提示，不看书再复述一遍排练和汇报，和今天的录音比一比：by / to、percentage points、due to / because 有没有说对
+@next1: 用 quarterly / rehearse / timer / deck / projector / presenter / wrap up 说 3–4 句「我下一次汇报的准备计划」
+@next7: 再做一遍【E】的 5 个小任务，错的那组翻回标题里注明的那一天，把对比例句读 5 遍
+@next7: 不看书，开着计时器再录一次 2 分钟的数据汇报（Overall → 数字 → 图 → 原因 → 影响 → 追问 → To wrap up），和今天的录音比时长和停顿
