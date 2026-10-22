@@ -1,0 +1,160 @@
+@day: 81
+@week: 3
+@review: true
+@title_cn: 第 3 周复习：一封很长的投诉邮件
+@title_en: Week 3 Review: A Long Complaint
+@topic: 周五，Daniel 发来一封很长的投诉邮件：又丢了一双鞋，还要求免费用一年高级版，不然就不续约。林晓起草回复——同情和道歉、讲规则、拒绝升级、给替代方案和一点心意、约跟进电话，把这一周的客户沟通一次用全
+@think_short: I'm afraid not / Unfortunately｜as long as vs unless｜I apologize for vs I'm sorry to hear that｜consider ≠ agree｜Just following up vs You didn't reply
+
+@goal_scene: 一位要求多、这个月又特别不顺的老客户发来长长的投诉：包裹丢了，还提出一个你们给不了的要求，并威胁不续约。你要在一封回信里做完这一周学的五件事——先分清「同情」和「认错」，再讲清规则和他能拿到的赔偿，礼貌而清楚地拒绝，马上给替代方案和一点心意，说明哪些只是「会考虑」，最后约一个跟进电话；对方不回信时，还要会礼貌地跟进。
+@goal_expr: I'm sorry to hear about… / I apologize for… / According to our policy, … are eligible for… / As long as you…, you'll… / Unless…, I'll… / I'm afraid we can't… / I'm afraid not. / What we can do is… free of charge. / As a courtesy, … / … will consider…, but I can't promise anything. / Could we touch base on…? / If that doesn't work, I'm happy to reschedule. / Just following up on…
+@goal_vocab: 复现第 75–80 天的 17 个旧词 + 第一、二册的 4 个旧词（虚线标出）+ 6 个新词 + 1 个短语：demanding, courtesy, voucher, retain, churn, renew, keep sb happy
+@done: 能不看原文，按【H】第 1 层的 10 个提示用 8–10 句英文复述 Daniel 的投诉和林晓的回信：转述过去的事用过去时（Daniel said he wanted… / Lily offered…），说现在的事第三人称 -s 不漏（Daniel says…）
+@done: 【E】5 组易混表达（I'm afraid not / Unfortunately；as long as / unless；I apologize for / I'm sorry to hear；consider / agree；Just following up / You didn't reply）每组都能说出正确句子，并用中文讲出理由
+@done: 能写一封 8–10 句的回复：同情 + 道歉 → 规则 → 拒绝 + 替代方案 → 心意 → 不承诺 → 约跟进电话；并能在 1.5–2 分钟的电话里把同样的内容说出来
+
+@warmup: 在这之前，您可以先免费试用我们的高级版。 | In the meantime, you can try our premium plan free of charge. | D75
+@warmup: 这次失误，我们负全部责任。 | We take full responsibility for the mistake. | D77
+@warmup: 这个功能不在我们今年的产品路线图上。 | It's not on our roadmap this year. | D78
+@warmup: 交给我吧。我三点之前给您回电话。 | Leave it with me. I'll call you back by three o'clock. | D79
+@warmup: 吴佳，你现在方便吗？Dan Miller 刚才打电话来，说有个包裹延误了。 | Grace, do you have a moment? Dan Miller called about a late package. | D17
+@warmup: 我来这儿两年了，可第一个夏天真的很难熬。 | I've been here for two years, but my first summer was really difficult. | D53
+
+@scene: 周五早上。最近两周，林晓几乎把和客户打交道的场面都经历了一遍：回复 Sarah 的咨询、给 Daniel 讲丢件赔偿规则、为通知漏发道歉、婉拒 Daniel 的定制功能、接他深夜打来的怒吼电话、跟进 Priya 的续约条款。偏偏这天一早，Daniel 又发来一封很长的投诉邮件，一口气说了五件事：又有一双球鞋（310 美元）十一天没有任何物流更新；这次他按规定买了保险；上周仓库扣货的事还没过去，客户都在怪他；合作两年的老客户应该有更好的待遇；他的合同下个月到期——不免费送一年高级版，就不续约。【C】里是这封邮件的要点。林晓把邮件拿给张涛看，实习生 Leo 也在旁边学。张涛的意思很清楚：Daniel 要求多，但这个月确实不顺，公司不想失去他；免费一年不行，可以用别的办法留住他。林晓起草回复，还约了一个电话：得州周一晚上 7 点，正好是深圳周二早上 8 点。
+@sp: 人物关系 | 林晓 ↔ Daniel：客户经理和一位要求多、脾气急、但合作了两年的老客户，这个月他已经被拒绝过一次、在电话里吼过一次；林晓 ↔ 张涛：员工和经理，给什么优惠由张涛拍板；林晓 ↔ Leo：带实习生，边做边教
+@sp: 沟通目的 | 让 Daniel 知道：丢件能全额赔、只差发票；免费一年高级版不行，但现在就能拿到一个月高级版和一张续约优惠券；老客户折扣会被考虑，但不是答应；周一通个电话把续约谈清楚——目标是把他留住
+@sp: 已知信息 | 包裹超过十天没有更新，按规定已算丢件；这次买了保险，按申报价值全额赔；上周仓库扣货没人通知他，这一点是 SwiftLink 的问题；张涛同意给一个月免费高级版 + 续约八折券；产品团队会不会做老客户折扣，还不知道
+@sp: 表达重点 | 同情和道歉分开（I'm sorry to hear about… / I apologize for…）→ 规则（According to our policy… / As long as… / Unless…）→ 拒绝（I'm afraid we can't…）→ 替代方案（What we can do is… free of charge）→ 心意（As a courtesy, …）→ 不承诺（… will consider…, but I can't promise anything.）→ 约电话（Could we touch base…? / I'm happy to reschedule.）；对方不回：Just following up on…
+
+@story_title: Episode 81 · Keep Him Happy
+@story_type: 投诉邮件 + 对话 + 回复邮件（新情境）
+@s: On Friday, Daniel sends a long, angry email: | 周五，Daniel 发来一封又长又冲的邮件：
+@s: This has been my worst month in two years with you. | 这是我跟你们合作两年来最糟的一个月。
+@s: Another pair of sneakers has been missing for eleven days. | 又有一双球鞋下落不明，已经十一天了。
+@s: This time I bought [[insurance]]. | 这次我可是买了保险的。
+@s: My customers are [[upset]]. They blame me. | 我的客户都很不满，他们怪的是我。
+@s: [[Loyal]] sellers deserve better. | 老客户应该得到更好的待遇。
+@s: Give me a free year of [[premium]], or I won't **renew** my [[contract]]. | 免费给我一年高级版，不然我就不续约了。
+@br:
+@s: Tom and Leo read it. | 张涛和 Leo 也看了这封邮件。
+@s: Lily: He's **demanding**, but he isn't [[unreasonable]]. | 林晓：他要求是多，但并不是不讲理。
+@s: Tom: Agreed. We don't want him to **churn**. | 张涛：同意。我们不想让他流失。
+@s: Lily: So how do we **retain** him? | 林晓：那我们怎么留住他？
+@s: Tom: A free year is [[not something we can do]]. But we can **keep him happy**. | 张涛：免费送一年，这我们做不到。不过我们可以用别的办法让他满意。
+@s: Tom: Offer him a **voucher**: twenty percent off if he renews. | 张涛：给他一张优惠券——续约打八折。
+@br:
+@s: Lily writes back: | 林晓回信：
+@s: Hi Daniel, | Daniel 你好：
+@s: I'm sorry to hear about the missing sneakers, and I [[apologize]] for last week's warehouse delay. | 听说那双球鞋丢了，我很难过；上周仓库延误的事，我向您道歉。
+@s: [[According to]] our policy, insured packages are eligible for full [[compensation]]. | 根据我们的规定，买了保险的包裹可以获得全额赔偿。
+@s: [[As long as]] you send the invoice, you'll get the full $310. | 只要您把发票发给我，就能拿到全部 310 美元。
+@s: [[Unless]] the [[carrier]] finds it by Monday, I'll file the claim that day. | 如果到周一快递公司还没找到，我当天就帮您提交索赔。
+@s: [[I'm afraid we can't]] offer a free year of premium. | 恐怕我们没法免费给您一年的高级版。
+@s: [[What we can do is]] give you one month of premium [[free of charge]]. | 我们能做的是：免费给您开通一个月的高级版。
+@s: As a **courtesy**, I've attached a voucher for twenty percent off your renewal. | 另外，作为一点心意，我在附件里放了一张续约八折的优惠券。
+@s: Our product team will [[consider]] a loyalty discount, but I can't promise anything. | 我们的产品团队会考虑给老客户的折扣，不过我没法做任何保证。
+@s: Could we [[touch base]] on Monday at 7 p.m. your time? | 我们周一能简单通个电话吗？时间定在您那边晚上 7 点，可以吗？
+@s: If that doesn't work, I'm happy to [[reschedule]]. | 如果时间不合适，我很乐意改期。
+@s: Best, Lily | 祝好！林晓
+@br:
+@s: Leo: What if he doesn't reply? Can I write, "You didn't reply"? | Leo：要是他不回呢？我能不能写「你没回我」？
+@s: Lily: No. Try "[[Just following up on]] my email from Friday." | 林晓：别这么写。试试写「跟进一下我周五发的邮件」。
+@s: Tom: Nice. An [[apology]], the rules, a clear no, and a next step. | 张涛：不错。有道歉、有规则、拒绝得清楚，还有下一步。
+
+@v: renew | = | v. | rɪˈnuː | 续约；续订（合同、订阅到期后接着用） | 合同、年付套餐、会员、护照到期后延长 | renew a contract；renew your subscription；auto-renew | Your annual plan will renew automatically on May 1. | 您的年付套餐会在 5 月 1 日自动续费。 | 「续约」「续费」「续签」英文都用 renew，不说 ✗ continue the contract；名词是 renewal：twenty percent off your renewal / the renewal date；护照「换新」也是 renew your passport；美式 new 读 `/nuː/`，所以是 `/rɪˈnuː/`，英式才读 /rɪˈnjuː/；听力上注意 I won't renew 的 won't `/woʊnt/`，别听成 want。
+@v: demanding | = | adj. | dɪˈmændɪŋ | 要求多的；标准高、不好伺候的；（工作）很费精力的 | 描述要求多的客户、老板，或很累人的工作 | a demanding customer；a demanding job；very demanding | Our biggest client is demanding, but he always pays on time. | 我们最大的客户要求很多，不过付款从来不拖。 | 中文说客户「事儿多」「难搞」，英文用 demanding 最稳妥：它只说「要求多」，不等于「不讲理」（unreasonable，D79）——林晓那句 He's demanding, but he isn't unreasonable. 正好把两个词分开；别用 ✗ troublesome 形容客户，太负面；这是背后描述人的词，当面对客户说 You're demanding. 会得罪人。
+@v: churn | = | v. | tʃɜːrn | （客户）流失；不再续费、转用别家 | 订阅制公司内部讨论客户流失、续约率 | customers churn；the churn rate；reduce churn | Small sellers churn faster than big ones. | 小卖家流失得比大卖家快。 | 这是公司内部的行话（软件订阅和电商最常用），只在同事之间说；对客户本人说 ✗ We don't want you to churn. 很怪，要说 We'd love to keep working with you.；也能作名词：Our churn went up this quarter. / the churn rate（流失率）；一个音节，ur 卷舌，和 turn、learn 押韵，别读成「拆恩」。
+@v: retain | = | v. | rɪˈteɪn | 留住（客户、员工） | 讨论怎么留住老客户、留住人才 | retain customers；retain staff；customer retention | It costs less to retain a customer than to find a new one. | 留住一个老客户，比找一个新客户便宜。 | 中文「留住客户」不说 ✗ keep the customer stay；正式说 retain，口语说 keep：How do we keep him?；名词是 retention（留存）：customer retention rate；retain 和 churn 是一对：retain 留下，churn 流失；重音在后 re-TAIN，ai 读 `/eɪ/`。
+@v: keep him happy | keep sb happy | phr. | ˌkiːp hɪm ˈhæpi | 让某人一直满意；照顾好某人的需要和情绪 | 维护重要客户、老板、家人的长期关系 | keep customers happy；keep the boss happy；keep everyone happy | We send small gifts at New Year to keep our sellers happy. | 我们过年会送点小礼物，让卖家们开心。 | 结构是 keep + 人 + 形容词：✗ keep him to be happy / ✗ let him keep happy；make him happy 是「让他（一下子）高兴」，keep him happy 是「一直让他满意」，说长期的客户关系要用 keep；口语里 him 弱读、h 脱落，keep him 听起来像 keep-im。
+@v: voucher | = | n. | ˈvaʊtʃər | 优惠券；代金券；抵用券 | 给客户的折扣券、补偿用的代金券、礼品券 | a voucher for twenty percent off；a $50 voucher；a gift voucher | Here's a voucher for ten dollars off your next order. | 这是一张下次订单减 10 美元的代金券。 | 「打八折」说 twenty percent off，不说 ✗ eighty percent discount——中文的「八折」是付 80%，英文说的是「减掉 20%」；美国人日常更常说 coupon（超市优惠券）和 discount code（网上输入的折扣码），voucher 偏正式，常见于补偿、礼品券和商务邮件；ou 读 `/aʊ/`，和 out 一样。
+@v: courtesy | = | n. | ˈkɜːrtəsi | 礼貌；（as a courtesy）作为一点心意、出于礼貌（免费提供） | 主动给客户一点额外的好处或方便 | as a courtesy；a courtesy call；out of courtesy | As a courtesy, we'll send you a reminder before your plan renews. | 作为贴心服务，您的套餐续费前我们会提醒您。 | as a courtesy 和 D77 的 as a goodwill gesture 都表示「规定之外、主动给的」：goodwill gesture 多用在我们出了错之后的补偿，as a courtesy 更轻，没出错也能用（照顾老客户、提前提醒）；a courtesy call 是「礼节性的电话或拜访」；cour 读卷舌的 `/kɜːr/`，不读 /kaʊr/。
+
+@diff: 「恐怕不行」——I'm afraid not / I'm afraid we can't… vs Unfortunately, …（复习 D76、D78）
+@d_cn: 拒绝客户的要求、说一个坏消息：「恐怕不行」「很遗憾，我们没法……」。
+@d_en: I'm afraid we can't offer a free year of premium. / Unfortunately, we're unable to offer a free year of premium. / Can you extend my trial? — I'm afraid not.
+@d_why: D78 学过，这两个都是坏消息前的「缓冲」：**I'm afraid…** 是「恐怕」，不是「害怕」，口语和邮件都能用，带着说话人自己的歉意，语气温和；**Unfortunately, …** 更书面、更「公事公办」，放在句首加逗号，最适合正式邮件和群发通知。林晓给 Daniel 写的是 I'm afraid we can't…——两人很熟，这个月又闹过不愉快，用 I'm afraid 更有人情味；如果是发给所有卖家的通知，就用 Unfortunately。**I'm afraid not.** 是对一般疑问句的简短否定回答（D76 Leo 问能不能把数据发到私人邮箱，林晓答 No, I'm afraid not.）；坏消息是「是」的时候，说 **I'm afraid so.**（Is the package lost? — I'm afraid so.）。中国学生最常见的三个错：① ✗ I'm afraid no.——固定说法是 I'm afraid not；② 缓冲词堆在一起：✗ Unfortunately, I'm afraid we are sorry that…；③ 缓冲之后说得含糊：✗ I'm afraid it may be a little difficult.——美国人会理解成「难，但能做」。缓冲只管语气，后面的「不」要清楚，紧接着给 What we can do is…。
+@d_when: I'm afraid…：电话、熟悉的客户和同事、当面回答；Unfortunately, …：正式邮件、群发通知；I'm afraid not / so：对方问「是不是」「能不能」，你给一个简短的坏消息。
+@d_vs: ✓ **I'm afraid we can't offer a free year of premium.**（温和、有人情味）\n✓ **Unfortunately, we're unable to offer a free year of premium.**（书面、公事公办）\n✓ **Can you extend my trial? — I'm afraid not.** ／ **Is the package lost? — I'm afraid so.**\n✗ I'm afraid no. ✗ Unfortunately, I'm afraid we are sorry that…\n✗ I'm afraid it may be a little difficult.（太含糊，对方以为能做）
+@d_task: ① Daniel 在电话里问 Can you give me two free months?（简短回答 + 一句替代方案）② 写进发给所有卖家的通知：很遗憾，我们无法延长免费试用期。 | ① I'm afraid not. What we can do is give you one month free of charge. ② Unfortunately, we're unable to extend the free trial.
+@diff: 「只要……就」vs「除非……否则」——as long as vs unless（复习 D76）
+@d_cn: 讲规则里的条件：「只要发票发过来，就全额赔」「除非周一前找到，否则我当天就提交索赔」。
+@d_en: As long as you send the invoice, you'll get the full $310. / Unless the carrier finds it by Monday, I'll file the claim that day.
+@d_why: D76 讲过：**as long as** = 只要（满足这一个条件就够了），是在给对方希望；**unless** = if not（如果不……），用来说例外。检验 unless 用对没有，最简单的办法是换成 if … not 读一遍：Unless the carrier finds it by Monday = If the carrier doesn't find it by Monday——意思通了，就用对了。这周最常见的三个错：① 照搬「除非……否则……」：✗ Unless…, otherwise…——unless 一个词就够了；② 再加一个 not：✗ Unless the carrier doesn't find it…，成了双重否定，意思全反了；③ 条件里用 will：✗ As long as you will send the invoice…——这两个词后面说将来的事都用一般现在时（send / finds），will 只放在结果那半句（you'll get / I'll file）。还有一个小混淆：as long as 不是「一……就……」，那是 as soon as：As soon as you send the invoice, I'll file the claim. 强调时间先后，as long as 强调条件。
+@d_when: 讲赔偿、退款、折扣、试用的条件；给同事讲规定；和客户约定「如果……就……」。
+@d_vs: **As long as you send the invoice, you'll get the full $310.** 只要您发来发票，就能拿到全部 310 美元。（给希望）\n**Unless the carrier finds it by Monday, I'll file the claim that day.** 除非周一前快递公司找到了，否则我当天就提交索赔。（说例外）\n= If the carrier doesn't find it by Monday, I'll file the claim that day.\n✗ Unless the carrier doesn't find it… ✗ Unless…, otherwise… ✗ As long as you will send…
+@d_task: 填 as long as / unless：① ___ you file within thirty days, we'll process the claim. ② ___ you file within thirty days, we can't process the claim. ③ 改错：Unless you don't send photos, otherwise we can't help you. | ① As long as ② Unless ③ Unless you send photos, we can't help you.（或 If you don't send photos, we can't help you.）
+@diff: 「很抱歉」——I'm sorry to hear about… vs I apologize for…（复习 D27、D77）
+@d_cn: 中文一个「很抱歉」「不好意思」全包：「很抱歉您的鞋丢了」「仓库的事很抱歉」。
+@d_en: I'm sorry to hear about the missing sneakers, and I apologize for last week's warehouse delay.
+@d_why: 英文开口前要先想清楚：**这件事是不是我们的错？** **I'm sorry to hear that / about…**（第一册 D27）是「听到这件事我很难过」，表达同情，**不等于认错**——鞋是在运输途中丢的，原因还没查清，林晓先表示难过。**I apologize for…**（D77）是「为……道歉」，承认是我们这边没做好——上周仓库扣货，四天没人通知 Daniel，这是 SwiftLink 的问题，所以她明确道歉。一句话里两样都有，Daniel 能看出她既有同情，又敢担责任。常见错误：✗ I apologize to hear that.（apologize 后面不接 to hear）；✗ I'm sorry to hear you.（about 不能丢：sorry to hear **about** sth / sorry to hear **that**…）。还有一个文化坑：✗ Sorry for your loss. 在英文里几乎只用于**有人去世**，包裹丢了千万别这么写。涉及赔偿的邮件，美国公司对「认错」的措辞一般比较谨慎：责任清楚的事就 apologize，还没查清的先 sorry to hear——这和 D79「不说『不是我的错』」并不矛盾：不推卸，也不乱认。
+@d_when: 对方遇到了麻烦（丢件、生病、天气、停电）→ I'm sorry to hear…；我们做错了（延误、发错、算错、没通知）→ I apologize for… / We sincerely apologize for…（影响很多客户时）。
+@d_vs: ✓ **I'm sorry to hear about the missing sneakers.** 听说鞋丢了，我很难过。（同情）\n✓ **I apologize for last week's warehouse delay.** 上周仓库延误，我向您道歉。（认错）\n✗ I apologize to hear that. ✗ I'm sorry to hear you.\n✗ Sorry for your loss.（用于有人去世）
+@d_task: 各用一句回应：① Sarah 说她的仓库昨晚停电了，今天发不了货（不是你们的错）② 你们给她的周报晚了两天（是你们的错）。 | ① I'm sorry to hear the power went out at your warehouse. ② I apologize for the late weekly report.
+@diff: 「我们会考虑」——consider ≠ agree（复习 D78）
+@d_cn: 客户提了一个要求，你想说「我们会考虑」「我们研究一下」。
+@d_en: Our product team will consider a loyalty discount, but I can't promise anything. / We've agreed to give you one month of premium free of charge.
+@d_why: D78 Emma 提醒过：**consider** 是「认真想一想」，结果还没定；**agree / approve / confirm** 才是「已经同意」。中文「我们考虑考虑」常常是委婉的「不」，双方心照不宣；可美国客户多半**照字面理解**，过两周就会来问「考虑得怎么样了」。所以林晓的回信把两类事分得清清楚楚：已经定了的（一个月免费高级版、续约八折券）直接说 What we can do is… / I've attached…；还没定的（老客户折扣）用 will consider，后面马上补一句 **but I can't promise anything**。反过来，如果答案其实就是「不」，别拿 consider 来拖，直接用第 1 组的 I'm afraid not。结构：consider + 名词 / -ing（✗ consider to give）；agree to + 动词原形（agree to renew）、agree with + 人、agree on + 事。听别人说时也一样：Daniel 回一句 I'll consider renewing.，你向张涛汇报时只能说 he's considering it，不能说 ✗ He agreed to renew.
+@d_when: 转达客户的需求、回复「能不能……」、向经理汇报客户的态度。
+@d_vs: ✓ **Our product team will consider a loyalty discount, but I can't promise anything.**（只是考虑）\n✓ **We've agreed to give you one month of premium free of charge.**（已经同意）\n✓ **Daniel says he'll consider renewing.** ≠ ✗ Daniel agreed to renew.\n✗ We'll consider to give you a discount.
+@d_task: 告诉 Priya：① 我们已经同意从下周起每周给她发报表（已定）② 产品团队会考虑增加西班牙语页面，但没法承诺时间。 | ① We've agreed to send you a report every week, starting next week. ② Our product team will consider adding Spanish pages, but I can't commit to a date.
+@diff: 「催一下」——Just following up on… vs You didn't reply（复习 D80）
+@d_cn: 邮件发出去，对方没有回音，想提醒他一下。
+@d_en: Just following up on my email from Friday. / In case it got buried in your inbox, here's the invitation again.
+@d_why: D80 Leo 犯过的错，今天他又想犯一次：**You didn't reply.** 主语是「你」，动作是「没做」，读起来就是在指责；对 Daniel 这样正在气头上、刚被拒绝了免费升级的客户，这一句足以让前面所有的道歉白费。**Just following up on…** 主语是「我」（省掉了 I'm），动作是「跟进」，就事论事；just 把语气放轻；美式邮件里一般说 follow up **on** + 事情。D80 的另外两件工具也要一起用：给台阶（In case it got buried in your inbox, …）和把东西再附上一次（here's the invitation again），让对方回复的成本最低。频率上，等两三个工作日再跟进；跨时区时先算清对方那边是星期几、几点——深圳的周一早上，得州还是周日晚上。
+@d_when: 邮件、邀请、报价、合同发出两三个工作日没有回音的时候；对方情绪不好时更要用这一套。
+@d_vs: ✓ **Just following up on my email from Friday.** 跟进一下我周五发的邮件。\n✓ **In case it got buried in your inbox, here's the invitation again.** 怕它被淹没在收件箱里，邀请再发您一次。\n✗ You didn't reply. ✗ Why haven't you answered? ✗ Kindly reply ASAP.
+@d_task: 深圳时间周二上午，约好的通话时间（得州周一晚上 7 点）已经过了，Daniel 也没回周五的邮件。写跟进邮件的前三句：跟进、给台阶并重发邀请、提一个新时间。 | Just following up on my email from Friday. In case it got buried in your inbox, here's the invitation again. Could we touch base on Wednesday at 7 p.m. your time instead?
+
+@core: I'm sorry to hear about …, and I apologize for … | 来自 D77：同一封邮件里，把「同情」和「认错」分开说（sorry to hear 来自 D27） | the missing sneakers / the power cut；last week's warehouse delay / the late report | 正式：We sincerely apologize for…｜随意：Oh no, sorry to hear that!
+@core: According to our policy, … are eligible for … | 来自 D76：引用规定，先说对方能得到什么 | insured packages；full compensation / damaged packages；a refund | 正式：Under the terms of your agreement, …｜随意：Our rule is…
+@core: As long as you …, you'll … / Unless …, I'll … | 来自 D76：给希望用 as long as，说例外用 unless，条件里都用一般现在时 | send me the invoice；get the full $310 / the carrier finds it by Monday；file the claim | 正式：Provided that you send the invoice, you will receive…｜随意：Just send the invoice and you're all set.
+@core: I'm afraid we can't … What we can do is … free of charge. | 来自 D78：清楚地拒绝，马上转到替代方案（free of charge 来自 D75） | offer a free year of premium；give you one month of premium | 正式：Unfortunately, we're unable to… As an alternative, we can…｜随意：Sorry, we can't do that. Here's what we can do.
+@core: … will consider …, but I can't promise anything. | 来自 D78：转达需求，但不替别人答应 | our product team；a loyalty discount / adding Spanish pages | 正式：…will review your request, but I'm not able to commit to a date.｜随意：I'll pass it on, but no promises.
+@core: Could we touch base on …? If that doesn't work, I'm happy to reschedule. | 来自 D80：约跟进通话，并给对方改期的余地；跨时区说清 your time | Monday at 7 p.m. your time / Thursday morning | 正式：Would you be available for a brief call on Monday?｜随意：Can we chat Monday? Happy to move it.
+
+@pw: demanding | dɪˈmændɪŋ | 3 个音节 de·MAND·ing | 重音在 mand，`/æ/` 嘴张大；de 弱读成 `/dɪ/`；结尾 ing 轻读
+@pw: courtesy | ˈkɜːrtəsi | 3 个音节 COUR·te·sy | 重音在前，cour 读卷舌的 `/kɜːr/`，和 cur 一样；t 在美式里常闪音，像轻轻的 d
+@pw: voucher | ˈvaʊtʃər | 2 个音节 VOU·cher | ou 读 `/aʊ/`，像 out；v 上齿轻咬下唇，别读成 w；结尾卷舌 `/ər/`
+@pw: churn | tʃɜːrn | 1 个音节 | ch 嘴唇往前撅；ur 卷舌 `/ɜːr/`；和 turn、learn 押韵，不要在 r 后面加元音
+@pw: renew | rɪˈnuː | 2 个音节 re·NEW | 重音在后；美式 new 读 `/nuː/`；名词 renewal `/rɪˈnuːəl/` 重音位置不变
+@ps: I'm **sor**ry to **hear** about the **miss**ing **sneak**ers, / and I a**pol**ogize / for last week's **ware**house de**lay**. | to 弱读成 `/tə/`；about the 连读；前半句语调平稳下降，是同情；apologize 重音在 pol；warehouse 是复合名词，重音在 ware；last week's 的 t 不爆破。
+@ps: Un**less** the **car**rier **finds**‿it by **Mon**day, / I'll **file** the **claim** that **day**. | unless 重音在后 un-LESS，别听成 and less；finds it 连成 `/faɪndzɪt/`；I'll 读 `/aɪl/`，很短，但它说明「我会」，不能丢。
+@ps: I'm a**fraid** we **can't** / offer a **free** **year** of **pre**mium. / **What** we **can** do / is **give** you **one** **month** / free of **charge**. | can't 重读、元音饱满 `/kænt/`，t 碰到 offer 几乎听不到；What we **can** do 是对比，can 也要重读 `/kæn/`，不能弱读；of 弱读成 `/əv/`。
+@pnote: 数字和价钱：$310 美式读 three hundred ten dollars（口语常省掉 and）；twenty percent off，percent 不加 s；7 p.m. 读 seven p-m，不说 ✗ seven o'clock p.m.；eleven `/ɪˈlevən/` 重音在第二个音节，开头的 e 很弱，快读时像 lev-en，听到 -ven 要靠前面那个轻音分辨 seven 还是 eleven。Daniel 的 has been missing 里，has been 弱读成 `/əz bɪn/`——现在完成时「到现在还」的意思全靠这两个小词（第二册的薄弱项）。
+@pnote: won't 和 want：I won't renew 的 won't 读 `/woʊnt/`，嘴唇收圆，像「欧」滑过去；I want 的 want 读 `/wɑːnt/`，嘴张大——Daniel 说的是「我不续约」，听成 want 意思就完全反了。另外 keep him happy 里 him 弱读、h 脱落，连成 keep-im-HAP-py；I've attached 的 've 很轻，但它说明附件「已经」加好了。
+@lfocus: won't `/woʊnt/` vs want `/wɑːnt/`
+@lfocus: has been missing、I've attached 里的弱读
+@lfocus: 数字：eleven days、$310、twenty percent、7 p.m. your time
+@dict: S9–S13
+@dict: S17–S19
+@res: 在 youglish.com 输入 "keep them happy"，选 US，听美国人谈客户和团队时怎么说「让……满意」。
+
+@mimic: 合上书，不看【C】，按下面 10 个提示用 8–10 句英文复述，并录音。可以用第三人称讲（On Friday, Daniel sent Lily a long email…），讲过去的事一路用过去时，转述邮件用 Daniel said he wanted… / Lily offered…：① 周五／Daniel 的长邮件：合作两年最糟的一个月 ② 又一双球鞋十一天没消息／这次买了保险 ③ 客户不满、怪他／老客户该有更好的待遇 ④ 不免费给一年高级版就不续约 ⑤ 林晓：要求多，但不是不讲理／张涛：不想让他流失 ⑥ 免费一年做不到 → 用别的办法让他满意：续约八折优惠券 ⑦ 回信：对丢鞋表示难过、为上周仓库延误道歉 ⑧ 规则：买了保险能全额赔／只要发发票就拿到 310 美元／周一前找不到就当天提交索赔 ⑨ 拒绝免费一年 → 免费一个月高级版 + 优惠券；产品团队会考虑老客户折扣，但不保证 ⑩ 约周一晚 7 点（他的时间）通话、可以改期／Leo 想写 You didn't reply → 林晓：Just following up on…。录完对照原文，圈出说错的过去时和 unless 句，再讲一遍。
+@swap: I'm sorry to hear about the missing sneakers, and I apologize for last week's warehouse delay. | 换对方的麻烦和我们的错：the broken lamps / the bad weather in Ohio；the wrong invoice / the late report | I'm sorry to hear about the broken lamps, and I apologize for the wrong invoice.
+@swap: As long as you send the invoice, you'll get the full $310. | 换条件和结果：send photos within seven days / file within thirty days；get a full refund / get the full declared value | As long as you file within thirty days, you'll get the full declared value.
+@swap: I'm afraid we can't offer a free year of premium. What we can do is give you one month of premium free of charge. | 换要求和替代方案：cut your price in half / build a custom page；give you two months free with an annual plan / help you customize your tracking page | I'm afraid we can't build a custom page. What we can do is help you customize your tracking page.
+@swap: Could we touch base on Monday at 7 p.m. your time? | 换时间，再加一句改期余地：Tuesday morning / Thursday at 9 a.m. your time | Could we touch base on Thursday at 9 a.m. your time? If that doesn't work, I'm happy to reschedule.
+@free: Sarah 说她的一位顾客收到的台灯是碎的（运输途中摔的，不是你们的问题）。先表示难过，再说规则：只要七天内发来照片，就能赔。 | I'm sorry to hear about the broken lamp, Sarah. As long as you send us photos within seven days, the package is eligible for compensation.
+@free: Priya 要求明年的价格直接降 30%。拒绝，给替代方案（年付送两个月），再说产品团队会考虑大客户折扣，但不保证。 | I'm afraid we can't lower your price by thirty percent. What we can do is give you two months free with an annual subscription. Our product team will also consider a discount for large sellers, but I can't promise anything.
+@free: Daniel 又打电话来吼：迈阿密的一批订单晚了三天。先接住情绪、复述问题，再给出具体的回电时间（复习 D79）。 | I hear you, Daniel. So, if I understand correctly, your Miami orders are three days late. Leave it with me. I'll call you back by noon, your time.
+@free: 你们的系统多扣了 Sarah 一个月的费用（是你们的错）。道歉、说补救，再作为一点心意送一张优惠券。 | I apologize for the double charge, Sarah. We've refunded the extra payment today. As a courtesy, I've also attached a voucher for ten percent off your next month.
+@free: 张涛问你：Daniel 还会续约吗？（他说会考虑，还没答应；你周一跟他通话，之后告诉张涛结果） | Not yet. Daniel says he'll consider renewing, but he hasn't agreed. I'm calling him on Monday, and I'll let you know right after the call.
+@output: 录 1.5–2 分钟「电话里回复一位又生气、又提要求的客户」，把这一周五天的结构串起来：接住情绪（I hear you. / I'm sorry to hear…）→ 复述问题（So, if I understand correctly, …）→ 是我们的错就道歉（I apologize for…）→ 讲规则（According to our policy… / As long as… / Unless…）→ 拒绝不合理的要求（I'm afraid we can't…）→ 替代方案和心意（What we can do is… free of charge / As a courtesy, …）→ 不替别人答应（… will consider…, but I can't promise anything.）→ 下一步和时间（Could we touch base…? / I'll email you by…, Shenzhen time）。可以用 Daniel 的事，也可以换成你自己的客户。录完检查三件事：有没有说出 Calm down / You didn't…；unless 后面有没有多加 not 或 otherwise；说 consider 时有没有补一句「不保证」。
+@output_sample: Hi Priya, this is Lily from SwiftLink. I got your message about the damaged packages, and I'm really sorry to hear about it. So, if I understand correctly, eight of last week's fifty orders arrived broken, and your customers want refunds. I hear you. That's a lot of extra work for your team. Let me start with the rules. According to our policy, damaged packages are eligible for compensation. As long as you send us photos within seven days, we'll process the claims this week. Unless the packages were insured, the maximum is one hundred dollars each, but most of your items cost less than that, so you should get the full amount. I also want to apologize for one thing: our system sent your team the damage alerts a day late, and that's on us. Now, about your request for a fifty percent discount next year. I'm afraid we can't do that. What we can do is give you one month of premium free of charge, and as a courtesy, we'll add a voucher for ten percent off your renewal. Your idea of a special rate for large sellers is a good one. Our product team will consider it, but I can't promise anything. Could we touch base on Thursday at 9 a.m. your time to check the claims together? If that doesn't work, I'm happy to reschedule. I'll email you a summary by 6 p.m. today, Shenzhen time.
+
+@check: （听力，不看原文回答）林晓把邮件拿给张涛看时，是怎么评价 Daniel 的？张涛说免费一年做不到，那他建议给 Daniel 什么？ | 林晓说他要求多，但并不是不讲理（He's demanding, but he isn't unreasonable.）。张涛建议给他一张优惠券：续约打八折（a voucher: twenty percent off if he renews）。
+@check: （听力，不看原文回答）Leo 担心什么？他想怎么写？林晓让他怎么写？ | 他担心 Daniel 不回信，想写 You didn't reply.；林晓说别这么写（No.），要写 Just following up on my email from Friday.
+@check: 改错（共 3 处）：Unless you don't send the invoice, otherwise we can't pay. ／ Can you extend my trial? — I'm afraid no. | Unless you send the invoice, we can't pay.（或 If you don't send the invoice, we can't pay.）——unless 本身就是 if not，不再加 don't，也不加 otherwise；简短的否定回答固定说 I'm afraid not.
+@check: 换个场景：Priya 说她这周一直在生病（不是你们的错）；你发给她的发票上金额写错了（是你们的错）。用两句话分别回应。 | I'm sorry to hear you've been sick this week. And I apologize for the wrong amount on the invoice.——前一句是同情，不认错；后一句是我们的错，要道歉。
+@check: Priya 问：Can you build a dashboard just for BrightNest? 回答：恐怕不行；可以把数据导出给她们自己做报表；产品团队会考虑，但不保证。 | I'm afraid we can't build a dashboard just for BrightNest. What we can do is export the data, so your team can build its own reports. Our product team will consider the idea, but I can't promise anything.
+@check: Daniel 回信只有一句：OK. I'll consider renewing. 你给张涛发消息，准确转述他的态度，并说下一步。 | Daniel says he'll consider renewing, but he hasn't agreed yet. I'll follow up after our call on Monday.——consider 只是「考虑」，不能写成 ✗ Daniel agreed to renew.；说现在的事别漏第三人称 -s（says）。
+
+@improve: 如果【E】第 1、4 组或【I】第 3、5、6 题出错（I'm afraid no、把 consider 当成答应）：下周每天热身后加 2 分钟，用「I'm afraid we can't… + What we can do is…」拒绝一件小事，再用「… will consider…, but I can't promise anything.」转达一个需求；重做 Day 78【E】第 1、2、3 组。第 4 周 Day 82 Leo 想要更大的权限、Kevin 只给只读权限，Day 84 卖家要你们「马上修好」，都是练「清楚地说不 + 替代方案」的现成场景。
+@improve: 如果 as long as / unless 还会混（或者写出 Unless…, otherwise…）：每天用这两个词各说一条你们公司的规定，再把 unless 换成 if … not 自查一遍；重做 Day 76【E】第 1、2 组。Day 88 讲退货流程（退货期限、检查、扣费），条件句会密集出现，到时候专门留意 as long as / unless 后面的一般现在时。
+@improve: 如果分不清 sorry to hear 和 apologize，或道歉信只有「抱歉」没有行动：写客户邮件前先问自己一句「这是不是我们的错？」；重做 Day 77【E】第 1、2、3 组。下周 Day 85 的物流异常（海关扣留、派送失败——多数不是你们的错，先 sorry to hear）和 Day 86 的事故报告（系统宕机——是我们的错，sincerely apologize + 过去时被动）正好一前一后对比着练。
+@improve: 如果跟进时还会写 You didn't reply / as soon as possible，或者约时间忘了时差：重做 Day 80【E】第 1、4 组和 Day 79【E】第 3 组；下周每给同事发一个请求，都写上具体时间和「谁的时间」（by 6 p.m., Shenzhen time / 9 a.m. your time），Day 87 和西雅图跨时区交接时会把这一点讲透。另外，Daniel 那句 has been missing for eleven days 提醒你：第二册的现在完成时 + for 仍然要练，下周的热身里每天都会有一句。
+
+@next1: 按【H】第 1 层的 10 个提示，不看书再复述一遍 Daniel 的投诉和林晓的回信，和今天的录音比一比：unless 句和过去时是不是更稳了
+@next1: 用 demanding / retain / keep sb happy / as a courtesy 各说一句关于你自己的客户（或老板）的话
+@next7: 再做一遍【E】的 5 个小任务，错的那组翻回标题里注明的那一天，把对比例句读 5 遍（Day 90 第三册测评还会再查）
+@next7: 不看书写一封 8–10 句的回复：同情 + 道歉 → 规则 → 拒绝 + 替代方案 → 心意 → 不承诺 → 约电话，和今天的邮件对比

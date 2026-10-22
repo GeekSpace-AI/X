@@ -1,0 +1,159 @@
+@day: 67
+@week: 1
+@review: true
+@title_cn: 第 1 周复习：休假前的交接邮件
+@title_en: Week 1 Review: A Handover Before Vacation
+@topic: 林晓下周休三天年假：用本周学的职责、流程、分工和邮件结构写一封交接邮件，再回答实习生发来的确认问题
+@think_short: 「负责」be responsible for / in charge of / handle｜is shipped vs ships｜main vs mainly｜Do you mean…? vs What does … mean?｜I thought vs I assume
+
+@goal_scene: 林晓下周一到周三休年假。走之前，她要给实习生 Leo 和客服吴佳写一封交接邮件：第一句说目的，再说清自己负责的卖家由谁临时照看、交出去哪两项工作、退款和登录各归谁管、出了大问题找谁；Leo 回消息确认了几处不清楚的地方，林晓再当面一一答复、纠正。你也要能用这一周的表达，为自己的一次休假或出差写一封交接邮件，并听懂、回答同事的确认问题。
+@goal_expr: I'm writing to share my handover notes. / In my absence, … is my backup. / I've delegated … to… / Please see below for the details. / … I'm responsible for / … are handled by… / Loop … in. / If there's a big problem, please escalate it to… / Just to confirm, …? / Do you mean…? / What does "…" mean? / I assume…? — Oh, I thought… / In other words, I'm not taking over.
+@goal_vocab: 复现第 61–66 天的 17 个旧词 + 第一、二册的 5 个旧词（虚线标出）+ 6 个新词 + 1 个短语：vacation, absence, backup, delegate, handbook, temporary, out of office
+@done: 能不看原文，按【H】第 1 层的 10 个提示，用 8–10 句英文复述林晓的交接邮件和 Leo 的四个问题：谁替她、交出去哪两项工作、什么事归谁管（be responsible for / are handled by / loop … in / escalate）
+@done: 【E】5 组易混表达（be responsible for / in charge of / handle；is shipped / ships；main / mainly；Do you mean…? / What does … mean?；I thought / I assume）每组都能说出正确句子，并用中文讲出理由
+@done: 能为自己的一次休假或出差写一封 6–8 句的交接邮件（第一句说目的、Please see below 列要点、Thanks 收尾），也能用 Just to confirm / Do you mean / I assume 把别人交给你的工作问清楚
+
+@warmup_hint: 这 6 句里，四句来自本周不同的日子（Day 61、63、64、66），一句来自第一册 Day 4（handle 和第三人称），一句来自第二册 Day 59（She's been = She has been）。遮住答案，5 秒内说出英文；说不出的打 ★，记下右边的 D#，今天最后一步把它写进下周的热身。
+@warmup: 我的主要工作就是让他们满意。 | My main job is to keep them happy. | D61
+@warmup: 订单一下好，快递面单就会自动生成。 | Once an order is placed, a shipping label is created automatically. | D63
+@warmup: 我找一下对口的同事，再回复你。 | Let me find the right person and get back to you. | D64
+@warmup: 我确认一下，你周五前要，对吧？ | Just to confirm, you need it by Friday? | D66
+@warmup: 他们是我们的客户，他们遇到问题都由我来处理。 | They're our customers. I handle their problems. | D4
+@warmup: 吴佳帮了我很多，她一直是个特别好的师傅。 | Grace helped me a lot. She's been a great mentor. | D59
+
+@scene: 周五下午。中午之前，林晓刚把新搜索功能的测试结果交给 Emma（Day 66）；下午，张涛批了她下周一到周三的三天年假——她要回长沙参加表姐的婚礼。转正还不到两周就休假，她有点不放心：二十个卖家每天都有邮件，俄勒冈州一家新开的蜡烛店，开户流程还卡在张涛审批这一步。她决定按这周学的写法，给实习生 Leo 和客服吴佳发一封交接邮件：第一句说目的，要点列在下面，谁替她、做哪两件事、退款和登录各找谁、大问题上报给谁，都写清楚。一个小时后，Leo 回了一条消息，一口气问了四个问题。林晓干脆走到他的工位旁，当面一一说明白。
+@sp: 人物关系 | 林晓 → Leo、吴佳：内部交接邮件，Leo 是她带了两周的实习生，吴佳是平级同事兼「师傅」，语气友好、直接，结尾写 Thanks, 就够了；林晓 ↔ Leo：当面答疑，轻松随意
+@sp: 沟通目的 | 林晓：让两人一眼看清「我哪几天不在、谁替我、每天做什么、什么事找谁、哪天回来」；Leo：把自己拿不准的四件事问清楚，免得林晓不在时做错
+@sp: 已知信息 | Leo 熟悉看板和开户流程，但不知道哪些事他可以自己答应卖家，也没见过 OOO 这个缩写，还以为蜡烛店昨天就批了；吴佳熟悉退款规则，但钱由财务部来退；张涛已经批了假
+@sp: 表达重点 | 邮件：目的（I'm writing to…）→ 谁替我（In my absence, … backup）→ 交出去的工作（I've delegated… / Please see below）→ 谁管什么（… are handled by… / loop … in / escalate it to…）→ 临时安排、哪天回来（temporary / I'll be back on…）；Leo：Just to confirm…? / Do you mean…? / What does "…" mean? / I assume…?；林晓：答复和纠正（Not yet. Once it's approved, …）
+
+@story_title: Episode 67 · While I'm Away
+@story_type: 邮件 + 回复消息 + 对话（新情境 · 休假前的交接）
+@s: On Friday, Tom approves Lily's **vacation**: three days off next week. | 周五，张涛批了林晓的年假：下周休三天。
+@s: She writes to Leo and Grace. | 她给 Leo 和吴佳写了一封邮件。
+@br:
+@s: Hi Leo and Grace, | Leo、吴佳，你们好：
+@s: [[I'm writing to]] share my [[handover]] notes. I'll be away from Monday to Wednesday. | 写这封邮件，是想把我的交接安排发给你们。我周一到周三不在。
+@s: In my **absence**, Leo is the **backup** for the twenty sellers I'm [[responsible for]]. | 我不在的这几天，我负责的二十个卖家由 Leo 替我照看。
+@s: I've **delegated** two tasks to him. [[Please see below]] for the details. | 我交给了他两项工作，具体如下：
+@s: • Check the [[dashboard]] [[on a daily basis]] and answer simple emails. They're [[mainly]] about tracking. | • 每天看看板，回复简单的邮件——这些邮件主要是问物流跟踪的。
+@s: • Finish onboarding the new candle shop. The steps are in the [[manual]]. | • 把那家新蜡烛店的开户做完，步骤都在操作手册里。
+@s: Grace will cover complaint calls. Refunds are still [[handled]] by the finance team. | 投诉电话由吴佳替我接。退款还是由财务部处理。
+@s: For login errors, [[loop Kevin in]]. If there's a big problem, please [[escalate]] it to Tom. | 遇到登录报错，就把李凯拉进来。如果有大问题，请上报给张涛。
+@s: For anything else, check our team **handbook**. | 其他的事，可以查我们组的员工手册。
+@s: This is only **temporary**. I'll be back on Thursday. | 这只是临时安排，我周四就回来。
+@s: Thanks, Lily | 谢谢！林晓
+@br:
+@s: An hour later, Leo replies. | 一个小时后，Leo 回了消息。
+@s: Thanks! [[Just to confirm]], I can't promise any refunds? | 谢谢！我确认一下：我不能答应卖家退款，对吧？
+@s: By "big problem," [[do you mean]] lost packages? | 你说的「大问题」，是指丢件吗？
+@s: Also, what does "OOO" mean in your calendar? | 还有，你日历上写的「OOO」是什么意思？
+@s: And I [[assume]] Tom has approved the candle shop? | 另外，我想张涛已经批了那家蜡烛店吧？
+@br:
+@s: Lily walks over. | 林晓走到他的工位旁。
+@s: Lily: Right, no promises. Lost packages and long delays are my top [[priority]]. | 林晓：对，什么都别答应。「大问题」就是丢件和长时间的延误，那是我最优先处理的事。
+@s: Lily: OOO means "**out of office**." Sellers who email me get a reply [[automatically]]. | 林晓：OOO 就是「不在办公室」。卖家给我发邮件，会自动收到一条回复。
+@s: Lily: The candle shop still needs Tom's [[approval]]. | 林晓：蜡烛店那边，还在等张涛审批。
+@s: Leo: Oh, I thought it was approved yesterday. | Leo：哦，我还以为昨天就批了。
+@s: Lily: Not yet. Once it's approved, activate the account and email the seller. | 林晓：还没有。一批下来，你就激活账号，再给卖家发封邮件。
+@s: Leo: [[Got it]]. [[In other words]], I'm not [[taking over]]. I'm just covering for you. | Leo：明白了。也就是说，我不是接手，只是临时替你顶一下。
+@s: Lily: Exactly. Only call me if it's [[urgent]]. My phone is on, [[just in case]]. | 林晓：没错。有急事再给我打电话。我手机开着，以防万一。
+@s: Grace replies, too: "Enjoy your vacation. Stay out of your inbox!" | 吴佳也回了一句：「好好休假，别看邮箱！」
+
+@v: vacation | = | n. | veɪˈkeɪʃn | 休假；假期（不上班、不上学的日子） | 请年假、告诉别人自己哪几天不在、问同事假期过得怎么样 | on vacation；take a vacation；vacation days | I'm taking three vacation days next week. | 我下周休三天假。 | 美式说 vacation，英式说 holiday；美国人说 a holiday 多指法定节日（Thanksgiving is a holiday.）；「在休假」是 on vacation，不说 ✗ in vacation；中文「年假」直译成 annual leave 偏英式、偏正式，美国公司里常说 vacation days 或 PTO（paid time off），口语干脆说 I'm taking a few days off.；重音在第二个音节 vay-KAY-shun，第一个音节常弱读成 `/və/`。
+@v: absence | = | n. | ˈæbsəns | 不在；缺席（某人不在的这段时间） | 交接邮件、请假通知里说「我不在期间」 | in my absence；during your absence；an absence from work | In my absence, please contact Grace. | 我不在期间，请联系吴佳。 | 「我不在的时候」写邮件可以用 In my absence, …，比 When I'm not here 正式；口语说 While I'm away, … 就行；absence 是名词，形容词是 absent（缺席的：He was absent from the meeting.）——✗ in my absent 是常见的拼写错误；重音在前 AB-sence，b 和 s 之间不加元音。
+@v: backup | = | n. | ˈbækʌp | 后备人员；（你不在时）替你处理工作的人 | 休假、出差、请病假前说清楚找谁；也指数据备份 | my backup；a backup plan；back up a file（动词，两个词） | Kevin is my backup when I'm on vacation. | 我休假的时候，由李凯替我。 | 名词写成一个词 backup，重音在前 BACK-up；动词是两个词 back up，重音在 up：Back up your files every week.——和 D61 的 handover / hand over 是同一个规律；中文「谁替你盯着？」就是 Who's your backup?；a backup plan 是「备用方案」。
+@v: delegated | delegate | v. | ˈdelɪɡeɪtɪd | 委派；把（工作）交给别人去做 | 经理分工；休假、出差前把任务交出去 | delegate sth to sb；delegate tasks；learn to delegate | A good manager knows how to delegate. | 好经理懂得把工作分给别人做。 | 结构是 delegate + 任务 + to + 人：✓ I've delegated two tasks to Leo. ✗ I've delegated Leo two tasks.；它的意思是「事情交出去了，责任人还是我」——所以林晓交出工作以后，仍然要求大问题上报张涛、自己周四回来接着管；名词 delegate `/ˈdelɪɡət/` 是「（会议）代表」，动词结尾读 `/ɡeɪt/`。
+@v: handbook | = | n. | ˈhændbʊk | （员工、团队的）手册；须知 | 查公司制度、请假规定、团队规矩 | the employee handbook；the team handbook；check the handbook | The vacation policy is in the employee handbook. | 休假制度写在员工手册里。 | handbook 和 D62 的 manual 都译成「手册」：manual 多是操作说明（一步一步怎么做），handbook 多是规定和须知（公司制度、团队规矩）——林晓说开户步骤在 manual 里，其他的事查 handbook；复合名词，重音在 hand，d 碰到 b 只做口型。
+@v: temporary | = | adj. | ˈtempəreri | 临时的；暂时的 | 说一个安排、办法、人员只是暂时的 | a temporary setup；a temporary solution；temporary staff | This is only a temporary solution. We'll fix it properly next week. | 这只是临时办法，下周我们会彻底解决。 | 反义词是 permanent（D59 转正时学的「正式的、长期的」）；副词 temporarily（暂时地）；中文「临时工」是 temporary workers，口语说 temps；美式读 4 个音节 TEM-po-rer-y，重音在第一个音节，别读成 tem-PO-ra-ry。
+@v: out of office | = | phr. | ˌaʊt əv ˈɔːfɪs | 不在办公室；（邮件的）休假自动回复 | 邮箱自动回复、日历上标出自己不在的日子 | an out-of-office reply；set up an out-of-office message；OOO | Don't forget to set up your out-of-office reply before you leave. | 走之前别忘了设置休假自动回复。 | 邮件和日历里常缩写成 OOO，读三个字母 O-O-O；放在名词前要加连字符：an out-of-office reply；说自己「不在办公室」时口语一般加 the：I'll be out of the office until Thursday.，不说 ✗ I'm not in office；同事之间也说 I'm OOO tomorrow.
+
+@diff: 「负责」「归……管」——be responsible for / in charge of / handle（复习 D61、D64；第一册 D4）
+@d_cn: 交接时说清分工：「我负责这二十个卖家」「组里归张涛管」「退款由财务处理」「登录问题李凯负责」——中文一个「负责」「管」几乎全包了。
+@d_en: … the twenty sellers I'm responsible for. / Tom is in charge of our team. / Refunds are still handled by the finance team. / Kevin handles logins.
+@d_why: 英文要先想清楚是哪一种「负责」。**be responsible for**（D61）：这是我的职责范围，介绍岗位最稳妥——别漏 be，for 后面接名词或 -ing。**be in charge of**（第一册 D4）：主管、说了算，多指管人、管一个部门或一整件事：Tom is in charge of our team.——要是说实习生 Leo is in charge of twenty sellers，就把他说成「主管」了，太大。**handle**（第一册 D4、D64）：具体处理某一类事，是动词，前面不加 be：Kevin handles logins.；说分工时常用被动：Refunds are handled by the finance team.。这周最常见的三个错：✗ I responsible for…（漏 be）；✗ I'm handle the refunds.（be 和动词叠在一起）；✗ Tom is in charge for the team.（介词是 of）。今天林晓的邮件分得很清楚：the twenty sellers I'm responsible for（自己的职责）、Refunds are still handled by the finance team（别人的分工），给 Leo 的身份是 backup（替补），不是 in charge of。
+@d_when: 介绍自己的岗位 → be responsible for；说谁是主管、谁说了算 → be in charge of；说某类事由谁处理 → handle / be handled by。
+@d_vs: ✓ **I'm responsible for twenty sellers.** 我负责二十个卖家。\n✓ **Tom is in charge of our team.** 我们组归张涛管。\n✓ **Kevin handles logins.** ／ **Logins are handled by Kevin.** 登录问题由李凯处理。\n✗ I responsible for twenty sellers. ／ ✗ I'm handle refunds. ／ ✗ Tom is in charge for the team.
+@d_task: 用英文说：①「我负责周报。」②「整个项目由 Emma 主管。」③「合同由法务处理。」 | ① I'm responsible for the weekly report. ② Emma is in charge of the whole project. ③ Contracts are handled by the legal team.（或 The legal team handles contracts.）
+@diff: 「订单发了」——is shipped / has been shipped vs ships（复习 D63、D64）
+@d_cn: 「订单发了」「订单明天发」「订单当天就发出」「昨天就批了」——中文的「发」「批」不管谁做、什么时候做，都是同一个字，也不用「被」。
+@d_en: The order has been shipped. / Orders are shipped within 24 hours. / I thought it was approved yesterday. / Once it's approved, … / Ships in 2 days.（网店商品页）
+@d_why: Day 63 学过：订单、账号自己不会「发」「批」，东西做主语时用**被动 be + 过去分词**，时态全在 be 上：is shipped（一贯如此）、was shipped（过去某个时间）、has been shipped（已经发出）、will be shipped（将来）。今天 Leo 说 I thought it was approved yesterday.、林晓说 Once it's approved, …、邮件里写 Refunds are still handled by…，用的都是这个结构。容易混的是：美国网店也常把 ship 当**不及物动词**用——商品页写 Ships in 2 days，系统通知写 Your order has shipped!，这是电商的固定说法，看得懂就行；自己写邮件、跟客户解释时，被动最稳：The order has been shipped.。这周最常见的错是两种结构搅在一起：漏掉 be（✗ The order shipped by our warehouse yesterday.）、分词没变（✗ The order is ship on Tuesday.）、主动被动叠用（✗ The order is ships tomorrow.）。一个检查办法：句子里出现 by + 做事的人，前面就一定要有 be + 过去分词。
+@d_when: 跟客户、同事说订单、账号、申请、文件的状态 → be + 过去分词；读网店页面和系统通知时，认得 ships / has shipped 就行。
+@d_vs: ✓ **The order has been shipped.** 订单已经发出了。\n✓ **Orders are shipped within 24 hours.** 订单 24 小时内发出。\n✓ **I thought it was approved yesterday.** 我还以为昨天就批了。\n（网店页面）**Ships in 2 days.** 两天内发货。——看得懂即可\n✗ The order shipped by our warehouse yesterday. ／ ✗ The order is ship on Tuesday.
+@d_task: 用被动说：①「这个订单是昨天下午发出的。」②「所有退款都由财务部处理。」③「账号一批下来，卖家就会收到通知。」 | ① The order was shipped yesterday afternoon. ② All refunds are handled by the finance team. ③ Once the account is approved, the seller is notified.（也可以说 will be notified）
+@diff: 「主要」——main（+ 名词）vs mainly（+ 动词或整句）（复习 D61）
+@d_cn: 「我的主要工作」「这些邮件主要是问物流的」「主要问题是延误」——中文的「主要」放在名词前、动词前都一样。
+@d_en: My main job is to keep them happy. / They're mainly about tracking. / Our main problem is delays.
+@d_why: Day 61：英文要换词——修饰**名词**用形容词 **main**（my main job、the main problem、the main requirement），修饰**动词或整句**用副词 **mainly**。mainly 的位置和 always、usually 一样：在 be 动词**后面**（They're mainly about tracking.），在实义动词**前面**（I mainly answer emails.）。常见错误：✗ My mainly job is…、✗ They're main about tracking.、✗ I answer mainly emails.（位置别扭；美国人会说 I mainly answer emails. 或 Mostly, I answer emails.）。还要注意意思：mainly 是「大部分是、最主要的是」，**不等于** only——林晓说邮件 mainly about tracking，是说大多数问物流，偶尔也有别的，Leo 碰到别的问题还得查手册、问人，不能凭猜。
+@d_when: 介绍工作重点、说明问题主要出在哪儿、给邮件和问题分类。
+@d_vs: ✓ **Our main problem is delays.** 我们的主要问题是延误。（main + 名词）\n✓ **The emails are mainly about tracking.** 这些邮件主要是问物流的。（be + mainly）\n✓ **I mainly answer emails.** 我主要回邮件。（mainly + 动词）\n✗ My mainly job is… ／ ✗ They're main about tracking.
+@d_task: 用英文说：①「这周的主要任务是给蜡烛店开户。」②「Daniel 的问题主要是关于配送时效的。」 | ① This week's main task is onboarding the candle shop.（或 is to onboard the candle shop）② Daniel's questions are mainly about delivery times.
+@diff: 「你是说……吗？」vs「……是什么意思？」——Do you mean…? vs What does … mean?（复习 D66；第一册 D13）
+@d_cn: 同事说了一句模糊的话，你心里已经有个猜测，想确认；看到一个不认识的缩写，你想知道它是什么意思。
+@d_en: By "big problem," do you mean lost packages? / What does "OOO" mean? — It means "out of office."
+@d_why: 两句都有 mean，问的却是两件事。**Do you mean…?**（D66）问的是**人**：你想指的是不是这个？后面放你猜的具体答案，对方说 Yes 或 No 就行。**What does "…" mean?**（第一册 D13 What does "ETA" mean?）问的是**词**：这个词、这个缩写本身是什么意思？主语是那个词，所以助动词用 does，回答用 It means…。Leo 两种都用对了：「大问题」他已经猜到大概，所以问 do you mean lost packages?；OOO 他完全不认识，所以问 What does "OOO" mean?。常见的错：✗ What is "OOO" mean?（is 和 does 叠用）、✗ What means "OOO"?（漏了 does）、✗ Your meaning is lost packages?（D66：「意思」不做主语）。还有语调：对着人说 What do you mean? 时一旦用降调、重读 mean，听起来像「你什么意思？！」；后面加上 by "…"，就只是单纯在问某个说法。
+@d_when: 已经猜到对方的意思、想确认 → Do you mean…?；遇到不懂的词、缩写、行话 → What does "…" mean?；问对方某个说法具体指什么 → What do you mean by "…"?
+@d_vs: ✓ **By "big problem," do you mean lost packages?** 你说的「大问题」是指丢件吗？\n✓ **What does "OOO" mean?** — **It means "out of office."** OOO 是什么意思？——意思是「不在办公室」。\n✓ **What do you mean by "soon"?** 你说的「很快」是多快？\n✗ What is "OOO" mean? ／ ✗ What means "OOO"? ／ ✗ Your meaning is lost packages?
+@d_task: 用英文问：① 张涛的邮件里写着 EOD，你不知道是什么意思。② Emma 说「下周再测」，你猜是指下周一。 | ① What does "EOD" mean?（回答：It means "end of day."）② Do you mean next Monday?
+@diff: 「我以为……」I thought… vs「我想（还没确认）……」I assume…（复习 D66）
+@d_cn: 「我还以为昨天就批了」（结果没有）；「我想张涛已经批了吧」（还没确认，先这样理解）。
+@d_en: I assume Tom has approved the candle shop? / Oh, I thought it was approved yesterday.
+@d_why: Day 66：**I assume + 现在的推测**＝我先这样理解，还没核实——把推测说出来，就是请对方纠正你。Leo 在消息里写 I assume Tom has approved the candle shop?，林晓才有机会告诉他「还没批」，他也就不会在审批前去激活账号。**I thought + 过去时**＝我原来以为（结果不是）：听到林晓的回答，Leo 说 Oh, I thought it was approved yesterday.——事实已经纠正了他，所以用过去时 thought，后面的 was 也跟着用过去时。中国学生最常见的错，是想说「我以为」却说成 ✗ I think it was approved yesterday.——意思变成「我认为它昨天批了」，像在跟对方争。另一个问题是把推测藏在心里、直接照着猜测去做；美国职场常说 Don't assume—ask.。交接的时候最需要这两句：拿不准的事用 I assume…? 问出来，发现自己理解错了，就用 I thought… 大方承认。
+@d_when: 信息不全、需要对方确认 → I assume…（常配上扬语调或 right?）；发现自己原来理解错了 → I thought…
+@d_vs: ✓ **I assume Tom has approved it?** 我想张涛已经批了吧？（推测，等确认）\n✓ **Oh, I thought it was approved yesterday.** 哦，我还以为昨天就批了。（原来想错了）\n✓ **I thought you were on vacation this week!** 我还以为你这周休假呢！\n✗ I think it was approved yesterday.（想说「我以为」时）
+@d_task: 用英文说：①「我想你需要截图吧？」（还没确认）②「我还以为你周三就回来了。」（其实周四才回） | ① I assume you need screenshots? ② I thought you were back on Wednesday.
+
+@core: I'm writing to + 动词… | 来自 D65：邮件第一句就说目的 | share my handover notes / let you know about my vacation / confirm the new times | 正式：I'm writing to let you know that I'll be out of the office from Monday to Wednesday.｜随意：Quick note before my vacation.
+@core: In my absence, … is my backup. / I've delegated … to … | 来自 D61：说清楚谁临时替你、交出去哪些工作（cover for = 临时顶替，take over = 正式接手） | Leo / Grace；two tasks / the weekly report | 正式：In my absence, Leo will be the point of contact for my sellers.｜随意：Leo's got my sellers while I'm away.
+@core: I'm responsible for… / … are handled by… / Loop … in. | 来自 D61、D64：说自己的职责和别人的分工 | twenty sellers / onboarding；refunds → the finance team；logins → Kevin | 正式：All billing questions are handled by our finance team.｜随意：Finance does refunds, and Kevin does logins.
+@core: To begin with, … Next, … Once that's done, … Finally, … | 来自 D62：按顺序讲清一个流程 | verify the information / upload the template / get Tom's approval / activate the account | 正式：The first step is to verify the seller's information.｜随意：OK, so first…, then…, and that's it.
+@core: The order has been shipped. / Once it's approved, … | 来自 D63：用被动说东西的状态和流程，by… 只在「谁做的」是重点时才加 | shipped / approved / activated；is created automatically | 正式：Your order has been shipped and is on its way.｜随意：Good news, it's on its way!
+@core: Just to confirm, …? / Do you mean…? / I assume…? | 来自 D66：把模糊的要求和自己的推测问清楚 | I can't promise refunds / lost packages / Tom has approved it | 正式：Could you confirm that the deadline is Friday?｜随意：Friday, right?
+
+@pw: vacation | veɪˈkeɪʃn | 3 个音节 va·CA·tion | 重音在中间；第一个音节美式常弱读成 `/və/`；tion 读 `/ʃn/`，不读「深」
+@pw: absence | ˈæbsəns | 2 个音节 AB·sence | 重音在前，`/æ/` 嘴张大；b 和 s 之间不加元音，别读成「爱布森斯」
+@pw: temporary | ˈtempəreri | 4 个音节 TEM·po·rar·y | 重音在第一个音节；美式四个音节都读出来，rar 读 `/rer/`，别读成 tem-PO-ra-ry
+@pw: delegate | ˈdelɪɡeɪt | 3 个音节 DEL·e·gate | 重音在前；动词结尾读 `/ɡeɪt/`，名词「代表」结尾弱读成 `/ɡət/`；-ed 读 `/ɪd/`：DEL-e-gay-did
+@pw: assume | əˈsuːm | 2 个音节 as·SUME（D66） | 重音在后；美式读 `/suːm/`，不读 /sjuːm/；第一个音节很轻，像「呃」一带而过
+@ps: In my **ab**sence, / **Leo** is the **back**up / for the **twen**ty **sell**ers I'm re**spon**sible for. | absence 重音在前；backup 是名词，重音在 back；twenty 美式常吞掉 t，像 twen-ny；句尾的 for 弱读成 `/fər/`，但不能丢——它是 responsible for 的一部分。
+@ps: By "**big** **prob**lem," / do you **mean** / **lost** **pack**ages? ↗ | 引号里的词读的时候前后稍停、重读，表示「你说的这个词」；do you 弱读成 `/də jə/`；lost packages 的 t 碰到 p 只做口型；一般疑问句句末上扬。
+@ps: Oh, I **thought**‿it was ap**proved** **yes**terday. | thought it 连读，t 闪音，像 thaw-dit；was 弱读成 `/wəz/`；approved 的 -ed 读 `/d/`；「我以为」的意思靠重读 thought 带出来。
+@pnote: 本周被动句的弱读一次复习：Refunds **are** handled `/ər ˈhændld/`、it **was** approved `/wəz əˈpruːvd/`、Once **it's** approved `/ɪts/`、has **been** shipped `/əz bɪn ʃɪpt/`。盲听时 be 动词几乎听不见，要抓住后面的过去分词（handled / approved / shipped）；说和写的时候，be 一个都不能丢。另外，本周有一组「名词一个词、动词两个词」：**BACK**up / back **UP**、**HAND**over / hand **O**ver——名词重音在前，动词重音在后的小品词上。
+@pnote: 写 vs 说：邮件和日历里的缩写读出来要换成字母或全称：OOO 读 O-O-O，或直接说 out of office；EOD 读 E-O-D（end of day）；FYI 读 F-Y-I。邮件里的「•」不读出来，每个要点前稍停一下。Hi Leo and Grace 里的 and 弱读成 `/ən/`；Monday to Wednesday 的 to 弱读成 `/tə/`。内部交接邮件结尾写 Thanks, + 名字就够了，Best regards 留给客户（D65）。
+@lfocus: 被动句里弱读的 are / was / it's：抓住后面的过去分词
+@lfocus: Do you mean…? ↗ 和 What does "…" mean? ↘ 的语调区别
+@lfocus: I thought（咬舌的 `/θ/`）和 I assume（`/əˈsuːm/`）
+@dict: S9–S10
+@dict: S22–S24
+@res: 在 youglish.com 输入 "out of the office"，选 US，听美国人在电话和会议里怎么说自己「不在办公室」、什么时候回来。
+
+@mimic: 合上书，不看【C】，按下面 10 个提示用 8–10 句英文复述（可以用林晓的口吻 I…，也可以用第三人称 Lily… She…），并录音：① 周五／张涛批假／下周休三天 ② 给 Leo 和吴佳写邮件／第一句说目的（I'm writing to…）／周一到周三不在 ③ 不在期间／Leo 是后备／自己负责的二十个卖家 ④ 交给 Leo 两项工作：每天看看板、回简单邮件（主要问物流）；把新蜡烛店的开户做完（步骤在手册里）⑤ 吴佳接投诉电话／退款归财务部／登录报错拉李凯进来／大问题上报张涛 ⑥ 其他查员工手册／临时安排／周四回来 ⑦ Leo 回消息：确认不能答应退款／「大问题」是不是指丢件／OOO 什么意思／以为张涛已经批了蜡烛店 ⑧ 林晓答：不能答应／丢件和长时间延误最优先／OOO = out of office，卖家会自动收到回复 ⑨ 蜡烛店还在等审批 → Leo：我还以为昨天就批了 → 批了以后激活账号、给卖家发邮件 ⑩ Leo：不是接手，只是顶班／急事才打电话、手机开着以防万一／吴佳：好好休假，别看邮箱。第三人称版专门检查：Lily is responsible for…（别漏 is）、Refunds are handled by…、She has delegated…（has 不是 have）、Leo thought it was approved…（thought 后面用过去时）。
+@swap: In my absence, Leo is the backup for the twenty sellers I'm responsible for. | 换人和工作：Kevin → the IT helpdesk；Grace → my complaint calls；Leo → the weekly report | In my absence, Kevin is the backup for the IT helpdesk.
+@swap: I've delegated two tasks to him. Please see below for the details. | 换任务和人：the weekly report → Leo；the new seller's onboarding → Grace；my seller calls → Tom | I've delegated the weekly report to Leo. Please see below for the details.
+@swap: By "big problem," do you mean lost packages? | 换模糊的说法和你的猜测："soon" → today；"the report" → the weekly report；"next week" → next Monday | By "soon," do you mean today?
+@swap: I assume Tom has approved it? — Oh, I thought it was approved yesterday. | 换人和事：Kevin has fixed the login / it was fixed this morning；Grace has sent the invoice / it was sent on Monday | I assume Kevin has fixed the login? — Oh, I thought it was fixed this morning.
+@free: 你下周四、周五出差。给 Sarah 写邮件的前三句：说目的、你不在的日期、这两天由 Leo 做她的对接人，有事可以直接找他。（D61、D64、D65） | I'm writing to let you know that I'll be on a business trip next Thursday and Friday. In my absence, my colleague Leo will be your point of contact. Feel free to reach out to him directly.
+@free: 新来的同事问 Who's in charge of refunds?：先说结论（退款由财务部处理），再说退款规则问吴佳最清楚，卖家有事一般先找你。（D61、D64） | Refunds are handled by the finance team. If you have questions about the rules, Grace is the right person to ask. I'm the sellers' point of contact, so they usually come to me first.
+@free: Daniel 发消息问 Has my order shipped yet?：用被动回答——已经发出了，今天早上被取走，周五会送到；跟踪单号是自动生成的，就在下面。（D63、D65） | Yes, it has been shipped. It was picked up this morning, and it will be delivered on Friday. The tracking number was generated automatically. Please see below.
+@free: 你休假前，Emma 说 "Can you clean up the seller list before you go?"，你不确定 clean up 是删掉不再合作的卖家还是改格式：先求证，再确认截止时间，最后说你为什么要问。（D66） | Do you mean removing the inactive sellers, or fixing the format? Just to confirm, you need it before I leave on Friday? I want to get it right the first time.
+@free: 休假回来第一天，张涛问 How did everything go while you were away?：先说结论（总体顺利），再说 Leo 主要做了什么、蜡烛店的账号哪天激活的，最后说有一个丢件问题已经上报、吴佳还在查。（D61、D63、D64） | Everything went smoothly. Leo mainly answered tracking emails, and the candle shop's account was activated on Tuesday. One lost package was escalated to you, and Grace is still looking into it.
+@output: 录一段 1.5–2 分钟的口头交接：想象你下周要休假或出差，周五下班前用语音把工作交给一位同事（还没工作的，可以交接你在学校、社团或家里负责的一件事）。把这一周串起来：开头说目的（I'm going to be on vacation from…, so let me go through my work with you.）→ 我负责什么（I'm responsible for… / My main job is to…）→ 每天做什么（on a daily basis / mainly）→ 一个流程，用 To begin with / Next / Once that's done / Finally 讲 3–4 步 → 用被动说 2–3 件事的状态（… has been shipped / … was uploaded / … are handled by…）→ 谁管什么、找谁（loop … in / escalate it to…）→ 一处你推测的事（I assume…）→ 临时安排、哪天回来（temporary / I'll be back on…）→ 请对方确认（Just to confirm… / If anything is unclear, ask me before I leave.）。录完检查四件事：responsible 前面有没有 be；main / mainly 用对没有；被动句有没有漏掉 be；I thought / I assume 有没有用反。
+@output_sample: I'm going to be on vacation from Monday to Wednesday, so let me go through my work with you before I leave. I'm responsible for twenty online sellers in the U.S. My main job is to keep them happy, and I'm their point of contact. On a daily basis, I check the dashboard and answer emails. The emails are mainly about tracking, so you can answer most of them with our tracking page. One new seller is still in the onboarding process. To begin with, we verified the store's information. Next, the product template was uploaded, and the settings were configured. Now the account needs Tom's approval, and I assume he'll approve it on Monday. Once that's done, you can activate the account and send the welcome email. All the steps are in the manual. Now, who handles what? Refunds are handled by the finance team, so please don't promise any refunds yourself. Login problems go to Kevin, so just loop him in. If there's a big problem, like a lost package, please escalate it to Tom right away. One more thing: Sarah's big order has already been shipped, and it will be delivered next Thursday, so she may email you about it. My out-of-office reply is on, so sellers will know who to contact. This is only a temporary setup. I'll be back on Thursday. Just to confirm, you have my handover notes, right? If anything is unclear, ask me before I leave. Thanks a lot!
+
+@check: （听力，不看原文回答）Leo 问了「大问题」和「OOO」，林晓分别是怎么回答的？ | 「大问题」指丢件和长时间的延误，那是她最优先处理的事（lost packages and long delays are my top priority）；OOO 是 out of office 的缩写，卖家给她发邮件会自动收到回复。
+@check: （听力，不看原文回答）Leo 以为那家新蜡烛店怎么样了？实际情况是什么？林晓让他接下来做什么？ | 他以为昨天就批了（I thought it was approved yesterday.）；其实还在等张涛审批；一批下来，就激活账号，再给卖家发邮件。
+@check: 改错（共 5 处）：In my absent, Leo responsible for my sellers. Refunds handled by finance, and my mainly job is answer emails. | In my absence, Leo is responsible for my sellers. Refunds are handled by finance, and my main job is to answer emails（或 is answering emails）.——absent 是形容词，这里要名词 absence；responsible 前面要有 is；被动句漏了 are；名词前用 main；is 后面接 to do 或 -ing。
+@check: 迁移：你出差两天，同事 Amy 是你的后备。给客户写两句：你不在期间，你的客户由 Amy 临时照看；有急事可以直接联系她。 | In my absence, Amy is my backup. If anything is urgent, please feel free to reach out to her directly.
+@check: 迁移：同事在群里发了一句 "Please send me the numbers by EOD."——你不认识 EOD，还猜他要的是上周的数字。分别怎么问？ | What does "EOD" mean?（It means "end of day."）／ Do you mean last week's numbers?——前一句问词本身的意思，后一句确认对方想要什么。
+@check: 迁移：休假回来，你发现卖家的一个订单还没发。你原来以为周一就发了；你推测是因为缺货。用 I thought 和 I assume 各说一句，再用被动说「明天会发出」。 | I thought it was shipped on Monday. I assume the item was out of stock? Anyway, it will be shipped tomorrow.
+
+@improve: 如果【E】第 1 组或【I】第 3 题出错（漏 be；responsible for / in charge of / handle 混用）：下周每天热身后加 1 分钟，用 I'm responsible for… / … is in charge of… / … handles… 各说一句身边的分工（公司、家里、社团都行）；重做 Day 61【E】第 1 组、Day 64【E】第 1、4 组。下周的周报（Day 71）要写「这周我负责的工单」，月度会答问（Day 73）也常被问「这个数归谁管」，都离不开这三个说法。
+@improve: 如果被动句还会漏 be、或者时态放错（【E】第 2 组）：把 is shipped / was shipped / has been shipped / will be shipped 写在一张卡片上，每天对着看板或快递 App 用被动说两句真实的状态；重做 Day 63【E】第 1、2、4 组。被动下周会一直出现：Day 71 周报里的 Two tickets are still pending、Day 72 说原因的 The delay was partly caused by bad weather.（被动 + by 说原因）。
+@improve: 如果 main / mainly 或 Do you mean / What does … mean 还会混（【E】第 3、4 组）：每天给自己的邮件分一次类，用 They're mainly about… 说一句，再用 My main problem today is… 说一句；重做 Day 61【E】第 3 组、Day 66【E】第 1 组。下周讲图表（Day 70）会说 The majority of… / mainly from California；被人提问时（Day 73），先用 Do you mean…? 把问题确认清楚再回答。
+@improve: 如果交接录音还是先铺垫、后说重点，或者不好意思用 Just to confirm / I assume 把拿不准的地方说出来（【E】第 5 组）：下周每写一条消息，先写第一句「目的或结论」，再写细节；重做 Day 65【E】第 1 组、Day 66【E】第 2、4 组。第 2 周的主题是数字和汇报：Day 68 的读数（百分比和「百分点」）、Day 71 周报的 Overall, …、Day 73 的 I'd say… / Let me check and get back to you，都建立在本周「先说结论、把数字确认清楚」的习惯上。
+
+@next1: 按【H】第 1 层的 10 个提示，不看书再复述一遍交接邮件和 Leo 的问题，和今天的录音比一比：responsible for 前面的 be、被动句的 be 是不是都说出来了
+@next1: 用 vacation / absence / backup / delegate / temporary / handbook / out of office 写一条 3–4 句的「请假前通知」
+@next7: 再做一遍【E】的 5 个小任务，错的那组翻回标题里注明的那一天，把对比例句读 5 遍
+@next7: 不看书，用 I'm writing to… → In my absence… → I've delegated… → Please see below… → … are handled by… → Just to confirm…? 写一封 6–8 句的交接邮件，和今天的输出对比
