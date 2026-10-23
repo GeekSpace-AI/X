@@ -1,0 +1,168 @@
+@day: 93
+@week: 1
+@title_cn: 会后确认邮件
+@title_en: Confirming What We Agreed
+@topic: 启动会开完，第二天一早发会后确认邮件：先写结果，每项决定写清谁、做什么、哪一天；说明哪些是暂定；客户回信更正了一个日期，怎么回
+@think_short: 「按会上说的」As discussed / As agreed（✗ As we discussed about）｜「如有遗漏请指正」Please let me know if I've missed anything.｜「9/8」有歧义 → September 8｜「暂定」tentative / tentatively（✗ temporary）
+
+@goal_scene: BrightNest 项目的启动会在深圳时间半夜才结束。第二天一早，林晓要趁大家记忆还新，发一封会后确认邮件：三个决定、谁负责、什么时候，还有一个没解决的问题。张涛要她先写结果、每件事都有负责人；Leo 的笔记里有个会让人误会的「9/8」。邮件发出一小时后，BrightNest 的 IT 负责人 Raj 回复全体，更正了一个日期。
+@goal_expr: Thanks again for joining the kickoff call. / To sum up, here are the three decisions we made. / As discussed, the pilot will start on September 14. / As agreed, Raj's team will open API access on September 8. / For the record, the dates are tentative. / Please let me know if I've missed anything. / Thanks for catching that. I've revised the dates accordingly.
+@goal_vocab: 20 个重点词 + 5 个短语：会议结果（outcome / consensus / takeaway / resolution）、参会人和负责人、修改与更正（correction / amend / revise / accordingly）、暂定与最终
+@done: 能写一封 6–10 句的会后确认邮件：Thanks again… → To sum up… → 编号列出决定（谁 + 做什么 + 完整日期）→ 未决问题 → For the record… → Please let me know if I've missed anything.
+@done: 能分清 As discussed / As agreed / As mentioned 的分量，不再写 ✗ As we discussed about…；能用 tentative / tentatively 说「暂定」
+@done: 写日期一律把月份拼出来（September 8，不写 9/8）；别人更正时，能用一两句得体地回应（Thanks for catching that…）
+
+@warmup: 尊敬的 Walker 女士：感谢您昨天抽出时间。 | Dear Ms. Walker, thank you for your time yesterday. | D92
+@warmup: Kevin，问你个事。 | Hey Kevin, quick question. | D92
+@warmup: 先谢谢你的帮忙。 | Thanks in advance for your help. | D92
+@warmup: 我们来确认一下，大家的理解是一致的。 | Let's make sure we're on the same page. | D87
+@warmup: 写信是想确认一下新的送达时间。 | I'm writing to confirm the new delivery times. | D65
+@warmup: 我来这儿两年了，可第一个夏天真的很难熬。 | I've been here for two years, but my first summer was really difficult. | D53
+
+@scene: 九月四日，周五早上九点。前一天深夜十一点（太平洋时间周四上午八点），BrightNest 项目的启动会开了整整一个小时：客户方有 Karen、Priya 和 IT 负责人 Raj，西雅图有 Mike，深圳这边是张涛和林晓，实习生 Leo 做记录。会上大家很快在试点开始日期上达成了一致，可试点先上多大规模，Mike 和 Priya 各有想法，没谈出结果。第二天一早，林晓要趁大家记忆还新，发一封会后确认邮件。张涛提醒她：先写结果，别写会议经过；每件事都要有负责人和日期。Leo 的笔记上写着「data, 9/8」——这个日期，不同国家的人会读成两个完全不同的日子。
+@sp: 人物关系 | 林晓 → 全体参会人：她是项目协调人，邮件发给客户高管、客户经理、客户 IT、西雅图工程经理和自己的经理；张涛帮她把关结构；Raj 是客户方的 IT 负责人，第一次和林晓有书面往来
+@sp: 沟通目的 | 把会上口头定下的事变成书面记录：三个决定、负责人、日期；说清哪些是暂定的、哪个问题还没解决；请大家补充或更正，避免日后各说各话
+@sp: 已知信息 | 大家同意试点 9 月 14 日开始；Raj 的团队要开通 API 访问权限；Priya 的团队要发样本数据（原定上周五，现在改到 9 月 8 日）；试点规模没定；所有日期还要等 Karen 批准最终方案
+@sp: 表达重点 | Thanks again for joining… → To sum up, here are the three decisions… → As discussed / As agreed（分量不同）→ 完整日期 → 未决问题（tentatively / align）→ For the record, … tentative → Please let me know if I've missed anything. → 回应更正：Thanks for catching that… accordingly.
+
+@story_title: Episode 93 · For the Record
+@story_type: 会后碰头 + 会后确认邮件 + 客户回信与回复
+@s: The kickoff call ends at midnight, Shenzhen time. | 启动会在深圳时间半夜十二点才结束。
+@s: On Friday morning, Lily goes through Leo's notes with Tom. | 周五早上，林晓和张涛一起看 Leo 的会议笔记。
+@s: Leo: My main **takeaway** is simple. There was a **consensus** on September 14. | Leo：我最大的收获很简单：大家在 9 月 14 日这个日子上达成了共识。
+@s: Tom: Good. Start the email with the **outcomes**, not the story of the call. | 张涛：好。邮件一开头就写结果，别写会议经过。
+@s: Tom: And every action needs an **assignee** and a date. | 张涛：而且每一项行动都要有负责人和日期。
+@s: Leo: My notes just say "data, 9/8." | Leo：我的笔记上只写了「data, 9/8」。
+@s: Lily: That's **ambiguous**. In many countries, 9/8 means August 9. Let's write "September 8." | 林晓：这有歧义。在很多国家，9/8 是八月九日。我们写 September 8 吧。
+@s: Leo: Should I list every **participant**? | Leo：要把每个参会者都列出来吗？
+@s: Tom: No, just send it to all **attendees**. And don't **omit** the open question. | 张涛：不用，发给所有参会人就行。还有，别漏了那个还没解决的问题。
+@s: Lily: Right. The **pilot** size has no **resolution** yet. We'll **align** on it next week. | 林晓：对。试点规模还没有定论，我们下周再对齐。
+@br:
+@s: Lily writes to the group: | 林晓给大家写邮件：
+@s: Hi everyone, | 各位好：
+@s: Thanks again for joining the kickoff call. | 再次感谢大家参加启动会。
+@s: **To sum up**, here are the three decisions we made. | 总结一下，我们做了下面三个决定。
+@s: 1. **As discussed**, the pilot will start on September 14. | 1. 按会上讨论的，试点 9 月 14 日开始。
+@s: 2. **As agreed**, Raj's team will open API access on September 7. | 2. 按商定的，Raj 的团队 9 月 7 日开通 API 访问权限。
+@s: 3. Priya's team will send the sample data by September 8. | 3. Priya 的团队 9 月 8 日前发送样本数据。
+@s: We've **tentatively** planned another call next week to agree on the pilot size. | 我们暂定下周再开一次电话会，商定试点规模。
+@s: **For the record**, the dates are **tentative**. | 郑重说明一下：以上日期都是暂定的。
+@s: Karen will approve the **final** plan next week. | Karen 下周会批准最终方案。
+@s: Our **mutual** goal is a smooth launch before November. | 我们共同的目标，是在 11 月之前顺利上线。
+@s: Please **let me know if I've missed anything**. | 如有遗漏，请告诉我。
+@s: Best,\nLily | 祝好，\n林晓
+@br:
+@s: An hour later, Raj replies to all: | 一小时后，Raj 回复了所有人：
+@s: Thanks, Lily. One small **correction**: September 7 is Labor Day, a U.S. holiday. | 谢谢 Lily。有一处小更正：9 月 7 日是美国的劳动节，放假。
+@s: We'll open API access on September 8 instead. | 我们改在 9 月 8 日开通 API 访问权限。
+@br:
+@s: Lily: Oh no, I **overlooked** the holiday! | 林晓：糟糕，我把这个假日给漏看了！
+@s: Tom: Easy to miss. **Amend** the plan and reply to all. | 张涛：这很容易漏。把计划改一下，再回复全体。
+@s: Lily replies to all: | 林晓回复全体：
+@s: Thanks for catching that, Raj. I've **revised** the dates **accordingly**. | 谢谢你指出来，Raj。我已经相应修改了日期。
+
+@v: takeaway | = | n. | ˈteɪkəweɪ | （会议、讲座的）要点；收获；最重要的结论 | 会后总结、复盘、汇报 | key takeaways；my main takeaway；The takeaway is… | The key takeaway from the meeting is that we start on the 14th. | 这次会的核心要点是：我们 14 号开始。 | 中文「会议要点」「最大的收获」就是 takeaway；美国人说「外卖」是 takeout，takeaway 当「外卖」是英式用法；会后邮件里常写 Key takeaways: 1… 2…；复合词，重音在前 TAKE-a-way。
+@v: consensus | = | n. | kənˈsensəs | 共识；一致意见 | 会上大家意见一致 | reach a consensus；a clear consensus；consensus on… | After an hour, the team reached a consensus on the budget. | 讨论了一个小时，团队在预算上达成了共识。 | 「达成共识」说 reach a consensus，✗ get a common idea；consensus 本身就是「一致意见」，consensus of opinion 常被认为啰嗦；拼写是 -sensus，不是 census（人口普查）；con 弱读 `/kən/`，重音在 SEN。
+@v: outcomes | outcome | n. | ˈaʊtkʌmz | 结果；（会议、谈判的）成果 | 会后邮件、汇报会议结果 | the outcome of…；a good outcome；key outcomes | The outcome of the call was a clear start date. | 这次电话会的成果，是定下了明确的开始日期。 | 比 result 更常用于会议、谈判和项目；会后邮件先写 outcomes（定了什么），而不是会议经过（谁先发言、讨论了多久）；它只是名词，✗ outcome the meeting；重音在前 OUT-come，come 读 `/kʌm/`。
+@v: assignee | = | n. | ˌæsaɪˈniː | （任务的）负责人；被指派的人 | 行动项、项目管理工具里的「负责人」一栏 | the assignee；an assignee and a due date；change the assignee | Every task needs an assignee and a due date. | 每个任务都要有负责人和截止日期。 | assign（D61）是「指派」，assignee 是被指派的人；-ee 结尾的词多指「接受动作的人」：employee（雇员）、attendee（出席者）；口语里更常问 Who's the owner?（owner，D64）；-ee 结尾，重音在最后 as-sign-NEE。
+@v: ambiguous | = | adj. | æmˈbɪɡjuəs | 有歧义的；含糊的；可以有两种理解的 | 日期、措辞、需求写得不清楚 | an ambiguous date；ambiguous wording；a bit ambiguous | "Next Friday" is ambiguous. Do you mean the 11th or the 18th? | 「下周五」有歧义：你是说 11 号还是 18 号？ | 中文「暧昧」说的多是人和关系，英文 ambiguous 多说话语和信息：9/8、next Friday、end of the week 都是常见的 ambiguous 写法；名词 ambiguity；重音在 BIG：am-BIG-u-ous。
+@v: participant | = | n. | pɑːrˈtɪsɪpənt | 参与者；参会者 | 会议、培训、调查 | meeting participants；all participants；an active participant | Each participant will get the slides after the training. | 每位学员培训后都会收到幻灯片。 | participant 强调「参与其中」，attendee 只强调「到场」；动词 participate 后面要加 in：✓ participate in the call，✗ participate the call；重音在 TIC：par-TIC-i-pant。
+@v: attendees | attendee | n. | əˌtenˈdiːz | 出席者；参会人员 | 会议邀请、会后邮件的收件人 | all attendees；the attendee list；send to attendees | The meeting notes went to all attendees. | 会议纪要发给了所有参会人员。 | 动词 attend 直接接会议：✓ attend the meeting，✗ attend to the meeting（attend to 是「处理、照料」）；会议邀请里的「参会人」栏目就叫 Attendees 或 Guests；-ee 结尾，重音在最后 at-ten-DEE。
+@v: omit | = | v. | oʊˈmɪt | 省略；漏掉；删去 | 写纪要、报告时漏掉或有意不写某一项 | omit sth from…；omit the details；accidentally omit | Don't omit the open questions from the summary. | 总结里别漏了还没解决的问题。 | omit 偏书面，可以是有意删掉，也可以是无意漏掉；口语多说 leave out：I left out the date.；过去式双写 t：omitted；重音在后 o-MIT。
+@v: pilot | = | n. | ˈpaɪlət | 试点；（小范围的）试运行 | 新系统、新流程正式上线前先小规模试 | run a pilot；a pilot program；the pilot phase | We'll run a two-week pilot with ten sellers. | 我们会先找十个卖家做两周试点。 | 中文「试点」「试运行」就是 pilot，也可以放在名词前：a pilot project；本义是「飞行员」；和 test 的区别：test 多在测试环境（sandbox，D83）里做，pilot 用真用户、真订单，只是范围小；重音在前 PI-lot。
+@v: resolution | = | n. | ˌrezəˈluːʃn | （问题的）解决；结论；决议 | 会上还没解决、有待定论的问题 | no resolution yet；reach a resolution；a quick resolution | We're still waiting for a resolution on the budget. | 预算的问题我们还在等一个结论。 | 很多学生只知道 New Year's resolution（新年决心）和屏幕的 resolution（分辨率）；工作里它常指「问题的解决、结论」，动词是 resolve（D71）；重音在 LU：res-o-LU-tion。
+@v: align | = | v. | əˈlaɪn | （各方）对齐；协调一致 | 开会对齐意见、目标、时间表 | align on…；align with…；get aligned | Let's align on the timeline before we talk to the client. | 跟客户谈之前，我们先把时间表对齐。 | 中文职场「对齐一下」就是 align（on sth）；和某人或某目标保持一致用 align with：Our plan aligns with BrightNest's goals.；名词 alignment；g 不发音：`/əˈlaɪn/`；同一封邮件里别用三次，会像套话。
+@v: To sum up | to sum up | phr. | tə ˈsʌm ˌʌp | 总之；总结一下 | 会议结尾、邮件里归纳要点 | To sum up, …；to sum up the call；Let me sum up. | To sum up, we need more time and more data. | 总之，我们需要更多时间和更多数据。 | 后面接结论或要点清单；更书面的说法是 In summary,；口语里常说 So, to recap…（recap，D71）；sum up 是动词短语：Let me sum up.；✗ To sum up all…（不用加 all）；up 和 sum 连读：SUM-up。
+@v: As discussed | as discussed | phr. | əz dɪˈskʌst | 按（我们）讨论的；如会上所谈 | 会后邮件里引出已经谈过的内容 | As discussed, …；as discussed on the call；as discussed yesterday | As discussed on Monday, the price will stay the same. | 按周一谈的，价格保持不变。 | 意思是「我们谈过这件事」，不一定是正式决定；As agreed 更重：「我们说定了」；As mentioned（D65）是「我之前提过」；discuss 不加 about：✗ As we discussed about the pilot；-ssed 读 `/st/`。
+@v: As agreed | as agreed | phr. | əz əˈɡriːd | 按（双方）商定的；如约定 | 写进确认邮件、提醒对方按约定办 | As agreed, …；as agreed on the call；as agreed last week | As agreed, we'll share the report every Monday. | 按我们商定的，每周一共享报告。 | 它带「承诺」的分量：写了 As agreed，就等于说「这是双方都同意了的」，所以只写真正说定的事——林晓把一个没核实的日期写成 As agreed，Raj 马上出来更正；agreed 的 -ed 读 `/d/`。
+@v: tentatively | = | adv. | ˈtentətɪvli | 暂定地；试探性地 | 说某个安排先这么定，以后可能会变 | tentatively planned；tentatively set for…；tentatively agree | The review is tentatively set for Friday. | 评审会暂定在周五。 | 中文「暂定」：副词 tentatively 修饰动词（tentatively set / planned），形容词 tentative 修饰名词或放在 be 后面（a tentative date / The dates are tentative.）；重音在前 TEN-ta-tive-ly。
+@v: For the record | for the record | phr. | fər ðə ˈrekərd | 郑重说明一下；（为了）记录在案 | 想让一个信息被正式记下来，免得日后误会 | for the record；just for the record；off the record（不作记录、私下说） | Just for the record, I didn't agree to that price. | 我郑重说明一下，那个价格我没有同意。 | 用在希望「写下来、留个底」的信息前面：For the record, the dates are tentative.；语气可以中性，也可能带一点「到时别说我没提醒」的意思，别用得太频繁；record 名词重音在前 REC-ord，动词是 re-CORD。
+@v: tentative | = | adj. | ˈtentətɪv | 暂定的；未最终确定的 | 说日期、计划、名单还可能变 | a tentative date；tentative plans；The date is tentative. | We have a tentative date for the training: October 5. | 培训有个暂定日期：10 月 5 日。 | 「暂定」不说 ✗ temporary（temporary 是「临时的、短期的」）；日历邀请的回复里选 Tentative，表示「可能参加」；日期「不确定」也不说 ✗ The date is not sure.（sure 用来说人）；结尾读 `/tɪv/`。
+@v: final | = | adj. | ˈfaɪnl | 最终的；定下来的 | 问计划、日期、方案是不是最后版本 | the final plan；the final version；Is that final? | Is this the final version of the agenda? | 这是议程的最终版本吗？ | finally（D34）是副词；问「定了没有」很常说 Is that final?；文件名里的 final 常常并不 final（final_v3），美国办公室爱拿这个开玩笑；fi 读 `/faɪ/`，结尾 -nal 读 `/nl/`。
+@v: mutual | = | adj. | ˈmjuːtʃuəl | 共同的；相互的；双方的 | 说双方共同的目标、利益、朋友 | a mutual goal；mutual benefit；by mutual agreement；a mutual friend | We met through a mutual friend. | 我们是通过一个共同的朋友认识的。 | 「共同的朋友」说 a mutual friend，不说 ✗ a common friend；「互利」mutual benefit；在客户邮件里提 our mutual goal，是在提醒双方「我们是一边的」；tu 读 `/tʃu/`：MYOO-choo-ul。
+@v: let me know if I've missed anything | = | phr. | ˌlet mi ˈnoʊ ɪf aɪv ˈmɪst ˌeniθɪŋ | 如有遗漏请告诉我 | 会后总结、纪要邮件的最后一句 | Please let me know if I've missed anything.；Let me know if I missed anything.；Let me know if I've got anything wrong. | Here are my notes. Let me know if I've missed anything. | 这是我的笔记，有遗漏的话告诉我。 | 中文「如有遗漏，请指正」直译成 ✗ If there is any omission, please point it out. 很生硬；用现在完成时 I've missed（到现在为止有没有漏），美式口语也常说 if I missed anything；let me know（第一册 D19）后面接 if 从句。
+@v: correction | = | n. | kəˈrekʃn | 更正；纠正 | 回信指出某处写错了 | a small correction；make a correction；one correction | Just one correction: the call is at nine, not ten. | 只有一处更正：电话会是九点，不是十点。 | correct（D13）作动词是「纠正」；指出别人的错误时，One small correction: … 简短客气，不会让对方难堪，比 ✗ You are wrong about the date. 好得多；co 弱读 `/kə/`，重音在 REC。
+@v: overlooked | overlook | v. | ˌoʊvərˈlʊkt | 忽略；看漏；没注意到 | 承认自己漏看了某个细节 | overlook a detail；easy to overlook；I overlooked… | Sorry, I overlooked your second question. | 抱歉，我漏看了你的第二个问题。 | 它比 forget 更准确：不是忘了，是看漏了；和 look over（过一遍、检查）意思几乎相反：Can you look over my email? = 帮我把邮件看一遍；overlook 还有「俯瞰」的意思：a room overlooking the sea；主重音在 LOOK。
+@v: Amend | amend | v. | əˈmend | 修改；修订（文件、计划里的一处） | 改会议邀请、合同条款、计划 | amend the plan；amend the invite；an amended contract | I'll amend the invite and send it again. | 我改一下会议邀请，再重新发一遍。 | amend 多指在原文件上做小的、正式的改动（合同、条款、邀请）；revise 是更大范围地修改、更新；日常说 change / update 就行；别和 make amends（赔不是、弥补）混；重音在 MEND。
+@v: revised | revise | v. | rɪˈvaɪzd | 修改；修订；更新 | 改计划、日期、文件 | revise the plan；revise the dates；a revised version | Here's the revised schedule. | 这是修改后的日程表。 | 美式英语里 revise 是「修改」；「复习功课」美国人说 review / study，revise for an exam 是英式用法；邮件里常说 I've revised… / Please see the revised…；-ed 读 `/d/`。
+@v: accordingly | = | adv. | əˈkɔːrdɪŋli | 相应地；照此（调整） | 某个信息变了，跟着调整别的安排 | update accordingly；plan accordingly；revise sth accordingly | The flight is late, so please plan accordingly. | 航班晚点了，请相应安排。 | according to（D76）是「根据」，accordingly 是「相应地」，放在动词短语后面或句末：✓ I've revised the dates accordingly.，✗ I've accordingly to revised…；重音在 COR。
+
+@diff: 「按会上说的」——As discussed / As agreed / As mentioned 分量不同
+@d_cn: 会后写邮件，中文常写「按照会上讨论的」「根据双方约定」「如前所述」，三个说法差别不大，都是客气的引子。
+@d_en: As discussed, the pilot will start on September 14. / As agreed, Raj's team will open API access on September 8. / As mentioned in my last email, …
+@d_why: 英文这三个引子的**分量**不一样：**As discussed** = 我们谈过这件事（提醒内容的来源，不一定是正式决定）；**As agreed** = 我们说定了（带承诺，对方要照办）；**As mentioned**（D65）= 我之前（多半是上一封邮件里）提过。As agreed 写错了对象，就成了「替别人答应」——林晓把一个没核实的日期写成 As agreed，Raj 马上回信更正。语法上，As discussed / As agreed 是省略结构，后面直接接完整的句子；discuss 是及物动词，不加 about：✗ As we discussed about the pilot；中式的 ✗ According to our discussion, … 也很生硬。会上口头说，美国人更常用 Like we said, … / As we discussed, …
+@d_when: 会后确认邮件、会议纪要；跟进时提醒对方「这是之前讲好的」。
+@d_vs: **As discussed, the pilot will start on September 14.** 按会上讨论的，试点 9 月 14 日开始。\n**As agreed, Raj's team will open API access on September 8.** 按约定，Raj 的团队 9 月 8 日开通 API 权限。（承诺）\n**As mentioned in my last email, …** 如我上封邮件所说……（D65）\n✗ As we discussed about the pilot, …\n✗ According to our discussion, …
+@d_task: 会后提醒 Priya：会上她明确同意了，BrightNest 9 月 8 日前发样本数据。用合适的引子写一句。 | As agreed, your team will send the sample data by September 8.
+@diff: 「如有遗漏，请指正」——Please let me know if I've missed anything.
+@d_cn: 中文纪要的末尾常写「如有遗漏，请各位补充指正」，显得谦虚、周到。
+@d_en: Please let me know if I've missed anything. / Let me know if I've got anything wrong. / Feel free to add anything I've missed.
+@d_why: 直译成 ✗ If there is any omission, please point it out. 又长又像公文，omission 也太重。英文用一句轻松的 **let me know if…**：既邀请对方补充，也承认「我可能漏了」——在美国职场，这是做事成熟的表现，不是示弱。时态用现在完成时 I've missed（到发邮件为止有没有漏），美式口语也常说 if I missed anything。别加一堆客套：✗ Please kindly let me know if I have missed anything, and sorry for any inconvenience.——没犯错就不用道歉。别人真的更正了（Raj 的 One small correction: …），也只需要一两句：Thanks for catching that. I've revised the dates accordingly. 道谢 → 说明已改，不用长篇道歉，也不用解释为什么错。
+@d_when: 会议纪要、会后确认、把别人的要求整理好发回去请对方确认时。
+@d_vs: **Please let me know if I've missed anything.** 如有遗漏请告诉我。\n**Let me know if I've got anything wrong.** 有写错的地方告诉我。\n**Thanks for catching that. I've revised the dates accordingly.** 谢谢指出，日期已相应修改。（回应更正）\n✗ If there is any omission, please point it out.（生硬）\n✗ So sorry for my big mistake!!（小错不用大道歉）
+@d_task: 你把 Priya 在电话里提的三点要求整理好发给她，最后一句请她补充或更正。 | Here are the three points from our call. Please let me know if I've missed anything.
+@diff: 「9/8」——日期把月份拼出来：September 8
+@d_cn: 中文写日期「9月8日」「9.8」，顺序永远是月在前、日在后，不会有误会。
+@d_en: The data is due on Tuesday, September 8. / Sept. 8 / ✗ 9/8
+@d_why: 9/8 在美国是 September 8（月/日），可在英国、欧洲、印度、澳大利亚等很多地方是 August 9（日/月）。跨国项目里，一个 ambiguous 的日期能让一个团队白等一个月。最稳的写法是**把月份拼出来**：September 8，或者 Tuesday, September 8——加上星期几，对方还能顺手核对。读的时候用序数词：September **eighth**，写的时候不必写成 8th。另外两个常见的坑：**next Friday**（这周五还是下周五？）写成 Friday, September 11；**时间**要带时区：8 a.m. Pacific Time（D92）。林晓的邮件就是因为写了完整日期，Raj 才一眼看出 September 7 是美国的劳动节（Labor Day，九月的第一个周一）。
+@d_when: 所有跨国邮件、会议纪要、合同和日历邀请；只要读的人可能来自不同国家。
+@d_vs: **The data is due on Tuesday, September 8.** 数据 9 月 8 日（周二）交。（最清楚）\n**Sept. 8** 可以（月份缩写）\n9/8（美国：九月八日；很多国家：八月九日）\n**next Friday** → **Friday, September 11**（避免歧义）\n读法：September **eighth**，不读 September eight
+@d_task: 把这句改得不会有歧义：The review is on 10/9, next Friday.（你说的是 10 月 9 日，周五） | The review is on Friday, October 9.
+@diff: 「暂定」——tentative / tentatively（✗ temporary）
+@d_cn: 中文说「暂定 9 月 14 日」「时间先这么定，后面可能还会调」。
+@d_en: For the record, the dates are tentative. / We've tentatively planned another call next week. / a tentative date
+@d_why: 美国同事往往会把写进邮件的日期当成承诺，所以「暂定」一定要说出来。形容词 **tentative** 修饰名词或放在 be 后面（a tentative date / The dates are tentative.）；副词 **tentatively** 修饰动词（tentatively planned / tentatively set for Friday）。**For the record** 把这一点「记录在案」，日后就不会变成「你们答应过的」。中国学生常见的错：✗ a temporary date——temporary 是「临时的、短期的」（a temporary password），不是「暂定」；✗ The date is not sure.——sure 说的是人，日期要说 not final / not confirmed。更随意的说法 Let's pencil in Friday.（先用铅笔写上），更正式的 subject to change（可能变动）。
+@d_when: 日期、计划、人员还没最终拍板，但要先发出去让大家准备的时候。
+@d_vs: **For the record, the dates are tentative.** 郑重说明一下，日期都是暂定的。\n**The review is tentatively set for Friday.** 评审会暂定周五。\n**Let's pencil in Friday.** 先把周五写上。（随意）\n**All dates are subject to change.** 所有日期均可能变动。（正式）\n✗ a temporary date\n✗ The date is not sure.
+@d_task: 告诉 Kevin：培训暂定在 10 月 5 日（周一），还没最终确定。 | The training is tentatively set for Monday, October 5. It's not final yet.
+
+@core: Thanks again for joining … | 会后邮件的第一句 | the kickoff call / yesterday's meeting / the demo | 正式：Thank you again for joining yesterday's kickoff call.｜随意：Thanks again for jumping on the call!
+@core: To sum up, here are the … decisions we made. 1. … 2. … 3. … | 用编号列出会上的决定 | three decisions / two next steps / the main takeaways | 正式：In summary, the following decisions were made.｜随意：Quick recap of what we decided:
+@core: As discussed, … / As agreed, … | 引出会上讨论过或商定了的内容 | the pilot will start on… / your team will send… | 正式：As agreed during the call, BrightNest will provide the sample data by September 8.｜随意：Like we said, we'll start on the 14th.
+@core: … will … on / by + 星期 + 月 + 日 | 每项决定写清谁、做什么、哪一天 | Raj's team / open API access / Tuesday, September 8 | 正式：Raj's team will provide API access on Tuesday, September 8.｜随意：Raj will open access on the 8th.
+@core: We've tentatively planned … / For the record, the dates are tentative. | 说明哪些还没定，留个底 | another call / a review；the dates / the pilot size | 正式：Please note that all dates remain tentative until final approval.｜随意：Heads-up: the dates might still move.
+@core: Please let me know if I've missed anything. | 纪要的最后一句，请对方补充或更正 | missed anything / got anything wrong | 正式：Please feel free to add anything I may have missed.｜随意：Did I miss anything?
+@core: One small correction: … | 客气地更正别人邮件里的错误 | September 7 is a holiday / the call is at nine, not ten | 正式：I'd like to make one small correction: …｜随意：Quick fix: it's the 8th, not the 7th.
+@core: Thanks for catching that. I've revised … accordingly. | 别人更正后，简短地回应 | the dates / the plan / the invite | 正式：Thank you for pointing that out. I've updated the plan accordingly.｜随意：Good catch! Fixed.
+
+@pw: consensus | kənˈsensəs | 3 个音节 con·SEN·sus | 重音在 sen；con 弱读成 `/kən/`；两个 s 都是清音 `/s/`
+@pw: ambiguous | æmˈbɪɡjuəs | 4 个音节 am·BIG·u·ous | 重音在 big；gu 读 `/ɡju/`，别吞掉 u
+@pw: tentatively | ˈtentətɪvli | 4 个音节 TEN·ta·tive·ly | 重音在前；第二个 t 常闪音，像轻轻的 d：TEN-a-dive-ly
+@pw: assignee | ˌæsaɪˈniː | 3 个音节 as·sign·NEE | -ee 结尾，主重音在最后；g 不发音
+@pw: accordingly | əˈkɔːrdɪŋli | 4 个音节 ac·COR·ding·ly | 重音在 cor，卷舌；开头 a 弱读 `/ə/`
+@pw: participant | pɑːrˈtɪsɪpənt | 4 个音节 par·TIC·i·pant | 重音在 tic；结尾 -pant 弱读 `/pənt/`
+@ps: **Thanks**‿a**gain** / for **join**ing the **kick**off call. | Thanks again 连成 `/θæŋksəˈɡen/`，again 美式多读 `/əˈɡen/`；kickoff call 是复合名词，重音在 kick。
+@ps: As dis**cussed**, / the **pi**lot will **start** / on Sep**tem**ber four**teenth**. | As discussed 弱读成 `/əz dɪˈskʌst/`；日期读序数词 fourteenth，重音在 teenth，别听成 fortieth；逗号后稍停，像在提醒「这是会上说过的」。
+@ps: To **sum**‿up, / here are the **three** de**ci**sions we **made**. | sum up 连成 `/sʌmʌp/`；here are 连成 `/hɪrər/`；数字 three 要重读——听的人会马上在笔记上写 1、2、3。
+@ps: For the **rec**ord, / the **dates** are **ten**tative. | For the 弱读成 `/fər ðə/`；record 是名词，重音在前 REC-ord；tentative 句末语调下降，口气平稳、郑重。
+@pnote: 名词 / 动词的重音对：a **rec**ord（记录）/ to re**cord**（录音、记录）；a **pro**ject（项目）/ to pro**ject**（预计）；an **ob**ject（物体）/ to ob**ject**（反对）——名词重音在前，动词重音在后。会上听到 for the **REC**ord，就知道下面是要「记下来」的话。-ee 结尾的词重音落在 -ee：assig**nee**、atten**dee**、employ**ee**。
+@pnote: 日期听辨：four**teenth**（14 号）vs **for**tieth（第 40）；**sev**enth（7 号）vs **eighth**（8 号）——eighth 读 `/eɪtθ/`，t 和 th 紧挨着。写和说的不同：邮件里的 9/8 嘴上从来不读「九斜杠八」，而是 September eighth 或 the eighth；Labor Day `/ˈleɪbər deɪ/` 是美国劳动节，在九月的第一个周一，和中国的「五一」不是同一天。
+@lfocus: 决定和日期：pilot → September 14；API access → Sept 7 → corrected → Sept 8 (Labor Day)；sample data → by September 8
+@lfocus: 谁负责：Raj's team → API access；Priya's team → sample data；open question → pilot size → align next week；Karen → approve final plan
+@lfocus: 张涛的两条要求：outcomes first；assignee + date；还有 don't omit the open question
+@dict: S13–S17
+@dict: S25–S26
+@res: 在 youglish.com 输入 "for the record"，选 US，听这个短语前后的停顿，体会它「郑重说明」的语气。
+
+@mimic: 跟读【C】S1–S10：先正常语速逐句跟读，重点模仿张涛提要求时的重音（Start the email with the **out**comes, **not** the story）；再由你演林晓、手机朗读张涛和 Leo 的台词，完整对一遍并录音。然后把会后邮件 S11–S23 当成你自己的发言，像在会议最后两分钟做总结那样读出来：读到 1、2、3 时稍作停顿，日期读序数词。最后读 Raj 的更正和林晓的回复（S24–S30），回复的语气要轻松、不慌。
+@swap: Thanks again for joining the kickoff call. | 换会议：yesterday's demo／the planning meeting／this morning's review | Thanks again for joining yesterday's demo.
+@swap: As discussed, the pilot will start on September 14. | 换内容和引子：As agreed／As mentioned in my last email；the training will start on October 5／we'll send the report every Monday | As agreed, we'll send the report every Monday.
+@swap: To sum up, here are the three decisions we made. | 换数量和内容：two next steps／four action items／the main takeaways | To sum up, here are the two next steps.
+@swap: For the record, the dates are tentative. | 换内容：the pilot size／the budget／the new prices；tentative／not final yet | For the record, the pilot size is not final yet.
+@free: 周会开完，你给团队发确认邮件。用 To sum up 引出两个决定：Leo 周三前更新客户名单；Kevin 周四前给新同事开账号。 | To sum up, here are the two decisions we made. Leo will update the client list by Wednesday. Kevin will set up the new accounts by Thursday.
+@free: 你在纪要里写了「9/10 开评审会」，西雅图的 Ana 问你是不是十月九日。用英文回复：说清楚是哪天，并说你已经改了纪要。 | Good question! I meant Thursday, September 10. I've revised the notes accordingly, so the date is spelled out now.
+@free: 客户问 Is the October 5 training confirmed?——还没定，要等经理批准，下周三之前会通知他。 | Not yet. For the record, October 5 is tentative. My manager needs to approve it, and I'll confirm by next Wednesday.
+@free: 同事在你的会后邮件下面回复全体：One small correction: Mike's team, not Raj's team, owns the test setup.——你怎么回？ | Thanks for catching that! I've revised the notes accordingly: Mike's team owns the test setup.
+@output: 录一段 2 分钟的会议收尾发言：假设你在主持一场会，最后两分钟由你口头总结。① 感谢大家参加（Thanks again, everyone, for joining…）② To sum up, here are the three decisions we made.（每个决定说清谁、做什么、哪一天，日期用 Tuesday, September 8 这样的完整说法）③ 至少用一次 As discussed 和一次 As agreed，并想清楚为什么这里用这一个 ④ 一个还没解决的问题（no resolution yet / we'll align on it…）⑤ For the record, … tentative ⑥ 说你会把纪要发给所有参会人，并请大家补充（Please let me know if I've missed anything.）。没有工作会议，就总结一次家庭或朋友的出行计划讨论。
+@output_sample: Before we finish, let me sum up what we decided today. Thanks again, everyone, for joining the kickoff call, especially our Shenzhen team so late at night. To sum up, here are the three decisions we made. First, as discussed, the pilot will start on Monday, September fourteenth. Second, as agreed, Raj's team will open API access on Tuesday, September eighth. Third, Priya's team will send the sample data by the same day, September eighth. Mike's team will load the data right away, so that testing can start before the pilot. There's one open question, and I don't want to omit it: the pilot size. Priya would like a bigger group, and Mike would like to start small, so there's no resolution yet. We'll align on it next week, and I've tentatively planned a call for that. For the record, all the dates are tentative until Karen approves the final plan. So, the action items once more: Raj, API access by the eighth. Priya, sample data by the eighth. Mike, the test setup right after that. I'll send the notes to all attendees by tomorrow morning, with every date spelled out. Please let me know if I've missed anything.
+
+@check: 听力：启动会定了哪三件事（谁、做什么、哪天）？还有什么没定，打算怎么办？ | ① 试点 9 月 14 日开始 ② Raj 的团队开通 API 访问权限（林晓先写的是 9 月 7 日）③ Priya 的团队 9 月 8 日前发样本数据。没定的是试点规模（the pilot size），下周再开一次电话会对齐；所有日期都要等 Karen 批准最终方案。
+@check: 听力：Raj 回信更正了什么？为什么？林晓怎么回？ | API 访问权限不是 9 月 7 日开通，而是 9 月 8 日，因为 9 月 7 日是美国的劳动节（Labor Day）。林晓回复全体：Thanks for catching that, Raj. I've revised the dates accordingly.
+@check: 改错：① As we discussed about the budget, we'll keep it. ② The date is not sure yet. ③ If there is any omission, please point out. | ① As discussed, we'll keep the budget.（discuss 不加 about）② The date is tentative. ／ The date isn't final yet.（sure 说人，不说日期）③ Please let me know if I've missed anything.
+@check: 换个场景：你和卖家 Sarah 打完电话，她同意下周起每天的取件时间从下午 3 点改到中午 12 点（还要等仓库确认）。写会后邮件里的两三句。 | Thanks again for the call today. As agreed, your daily pickup time will move from 3 p.m. to noon, starting next week. For the record, this is tentative until the warehouse confirms.
+@check: 把这些日期写得不会被误解：① 10/9 ② next Friday（今天是 9 月 4 日，周五，你指的是 9 月 11 日）③ 3/4（你的意思是三月四日） | ① October 9（或 Friday, October 9）② Friday, September 11 ③ March 4（在很多国家 3/4 会被读成四月三日）
+@check: 选 As discussed 还是 As agreed：① 会上大家聊到可能要加一位测试工程师，但没定 ② Priya 在会上明确答应 9 月 8 日前发数据 | ① As discussed, we may need another test engineer.（只是谈过，没定）② As agreed, your team will send the data by September 8.（说定了，带承诺）
+@next1: 不看书说出 5 个锚点句：S13、S14、S15、S19、S22
+@next1: 用 As discussed 和 As agreed 各写一句你最近开会或聊天时定下的事，日期把月份拼出来
+@next7: 会后确认邮件的骨架：Thanks again for joining… → To sum up, here are… 1. 2. 3.（谁 + 做什么 + 完整日期）→ 未决问题 → For the record, … tentative → Please let me know if I've missed anything.
+@next7: 回应别人的更正只用两句：Thanks for catching that. I've revised … accordingly.；再说出 tentative、tentatively、temporary 的区别

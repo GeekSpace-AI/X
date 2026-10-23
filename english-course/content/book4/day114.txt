@@ -44,7 +44,7 @@
 @s: Lily: Not "reportedly." I heard it **firsthand**. | 林晓：不是「据说」，是我亲耳听她说的。
 @s: Lily: She couldn't **disclose** numbers, but she **revealed** that they're adding a night shift. | 林晓：她不能透露数字，不过她说了，他们正在加夜班。
 @s: Lily: She also **insisted** on daily updates during testing. | 林晓：她还坚持要求测试期间每天汇报进展。
-@s: Lily: In her words, "We can't afford another delay." | 林晓：用她的原话说：「我们再也耽误不起了。」
+@s: Lily: **In her words**, "We can't afford another delay." | 林晓：用她的原话说：「我们再也耽误不起了。」
 @s: Tom: Is that **word for word**? | 张涛：这是原话吗？
 @s: Lily: Yes. But she didn't **accuse** us of anything. | 林晓：是原话。不过她并没有指责我们。
 @s: Lily: She **warned** that Karen would want an explanation if we slipped again. | 林晓：她提醒说，如果我们再拖，Karen 会要一个解释。

@@ -1,0 +1,164 @@
+@day: 107
+@week: 3
+@title_cn: 影响有多大
+@title_en: How Bad Is It?
+@topic: 向客户高层做影响评估：先量化（订单、顾客、钱、比例），再用程度词定性，最后讲清短期成本、长期风险、最坏情况和现状
+@think_short: 「影响很大」→ It has a big impact on…（✗ influence much）｜程度词：negligible < minimal < moderate < substantial < severe｜「受影响的订单」affected orders / have been affected｜「最坏的情况」In the worst-case scenario, …｜「控制住了」contained ≠ fixed
+
+@goal_scene: 找到原因后的周一晚上，BrightNest 的运营副总裁 Karen 第一次亲自上线，开口就问：「这件事对我们影响有多大？」她只给十分钟。林晓会前先和 Priya 对好数字，会上和 Priya 一起把影响讲清楚：多少订单、多少顾客、多少钱、对运营和口碑有什么影响；再主动说出长期风险和最坏的情况，并说明问题已经控制住、但还没修好。
+@goal_expr: About two percent of pilot orders have been affected. / That's 28 orders out of about 1,400. / The financial impact is minimal so far. / The bigger risk is the impact on customer trust. / So the short-term cost is small, but the risk is substantial. / In the worst-case scenario, BrightNest pauses the pilot. / We've contained the problem for now.
+@goal_vocab: 20 个重点词 + 5 个短语：影响的大小和程度、财务与运营、扩散与连锁影响、风险与最坏情况
+@done: 能先量化再定性：用 out of / percent / a loss of / a high proportion 给出订单、顾客、钱、比例四类数字，再用 negligible / minimal / moderate / substantial / severe 说清程度
+@done: 能用 have been affected（到现在为止）和 were affected（已经结束）说受影响的范围，不再说 ✗ It influences us very much. / ✗ have affected
+@done: 能在会上用 1.5–2 分钟做一次影响评估：数字 → 财务 → 运营 → 信任 → 短期 vs 长期 → 最坏情况 → 现状（contained ≠ fixed）
+
+@warmup: 问题出在一张过时的状态映射表上。 | The problem stems from an outdated status mapping. | D106
+@warmup: 原因是 BrightNest 用的状态代码不一样了。 | The reason is that BrightNest uses different status codes. | D106
+@warmup: 这是个我们没测到的边缘情况。 | It's an edge case we didn't test. | D106
+@warmup: 您能具体说说第二个方案吗？ | Could you elaborate on the second option? | D101
+@warmup: 准时率是 95%，上升了一个百分点。 | The on-time rate was 95%, up one percentage point. | D71
+@warmup: 我们认识十年了。 | We've known each other for ten years. | D58
+
+@scene: 周一晚上（BrightNest 那边是周一早上）。试点第一周已经结束，Priya 的团队把受影响的订单全部查了一遍：不是上周四以为的「几个」，而是 28 个，大约占第一周 1,400 个试点订单的 2%。BrightNest 的运营副总裁 Karen Walker 第一次亲自上线，她是客户方的决策人，时间少、只要结论。开会前，Priya 先发消息给林晓：Karen 要的是数字，不是细节，两个人得先把数字对好。会上张涛也在：订单、顾客、钱、客服的工作量、差评，林晓和 Priya 一人一部分；Karen 最关心的却是另一件事——这对顾客的信任、对整个试点意味着什么。
+@sp: 人物关系 | 林晓 ↔ Karen：服务方的项目协调人面对客户方的副总裁，级别差得远，要简短、准确、坦诚；林晓 ↔ Priya：上周还在着急的客户，这次和林晓站在一起准备数字；张涛是项目负责人，在旁边帮林晓收尾
+@sp: 沟通目的 | 让 Karen 在十分钟里看清影响的大小：先给数字，再给程度；分清眼前的成本和以后的风险；主动说出最坏的情况，同时让她知道问题已经控制住了，明天会拿出两周的计划
+@sp: 已知信息 | 28 个订单（约 1,400 个里的 28 个，约 2%）；19 位顾客联系了客服，多出大约三十个电话和邮件；补寄四件、退款两笔，约 600 美元；收入没有损失；三个一星差评；周六起没有新订单受影响；彻底修好要两周
+@sp: 表达重点 | 会前对数字（Can we quantify everything first?）→ 规模（Let me give you the scale first.）→ 比例 → 财务（minimal / negligible）→ 运营（moderate）→ 信任（The bigger risk is…）→ 短期 vs 长期（short-term / substantial / on a large scale / knock-on effect）→ 最坏情况 → 现状（contained）
+
+@story_title: Episode 107 · Numbers, Not Details
+@story_type: 会前消息 + 客户高层电话会
+@s: On Monday evening, Priya messages Lily before a call with Karen: | 周一晚上，在和 Karen 通话之前，Priya 给林晓发来消息：
+@s: Karen wants numbers, not details. Can we **quantify** everything first? | Karen 要的是数字，不是细节。我们能不能先把所有情况都量化一下？
+@s: Lily replies: | 林晓回复：
+@s: Sure: 28 orders, 19 customers who called or emailed, and about $600 in costs. | 好的：28 个订单，19 位顾客打过电话或发过邮件，成本大约 600 美元。
+@br:
+@s: Half an hour later, the call begins. | 半小时后，电话会开始了。
+@s: Karen: I have ten minutes. What's the **magnitude** of the problem? | Karen：我只有十分钟。这个问题有多大？
+@s: Lily: Let me give you the **scale** first. About two percent of pilot orders have been affected. | 林晓：我先说一下规模：大约 2% 的试点订单受到了影响。
+@s: Priya: That's 28 orders out of about 1,400. Nineteen customers contacted our support team. | Priya：也就是大约 1,400 个订单里的 28 个。有 19 位顾客联系了我们的客服。
+@s: Karen: That's a high **proportion**. What does it cost us? | Karen：这个比例不低。我们损失了多少？
+@s: Lily: The **financial** impact is **minimal** so far. | 林晓：到目前为止，财务上的影响很小。
+@s: Priya: We reshipped four items and gave two refunds. That's a **loss** of about $600. | Priya：我们补寄了四件商品，退了两笔款，损失大约 600 美元。
+@s: Priya: We haven't lost any **revenue**, and the effect on **profit** is **negligible**. | Priya：收入没有损失，对利润的影响可以忽略不计。
+@s: Karen: And on the **operational** side? | Karen：那运营方面呢？
+@s: Priya: It **has an impact on** my support team, but it's **moderate**: about thirty extra calls and emails. | Priya：对我的客服团队有影响，但程度中等：大约多了三十个电话和邮件。
+@s: Karen: **To what extent** are customers upset? | Karen：顾客不满到什么程度？
+@s: Priya: Three left one-star reviews. | Priya：有三位顾客给了一星差评。
+@s: Lily: The bigger risk is the impact on customer trust. | 林晓：更大的风险是对顾客信任的影响。
+@s: Lily: They got an "arrived" email, but only half their order. | 林晓：他们收到了「已送达」的邮件，可到手的只有一半的货。
+@s: Priya: Every wrong status creates a **ripple**: a confused customer, a call, a refund request. | Priya：每错一个状态，就会一圈圈地影响下去：顾客搞不清状况、打电话来问、再要求退款。
+@s: Tom: So the **short-term** cost is small, but the risk is **substantial**. | 张涛：所以眼前的成本不大，但风险不小。
+@s: Lily: Exactly. If this happened **on a large scale** in November, it would be **severe**. | 林晓：没错。如果这种事在十一月大规模发生，后果会很严重。
+@s: Lily: There's also a **knock-on effect** on the schedule. The full fix will take two weeks. | 林晓：对进度也有连带影响：彻底修好要两周。
+@s: Lily: In the **worst-case scenario**, BrightNest pauses the pilot. | 林晓：最坏的情况是 BrightNest 暂停试点。
+@s: Karen: Thanks for being honest. Has the problem **spread**? | Karen：谢谢你说实话。问题有没有扩散？
+@s: Lily: No. We've **contained** the problem for now. Since Saturday, no new orders have been affected. | 林晓：没有。问题暂时控制住了，周六以后没有新的订单受影响。
+@s: Tom: Our **exposure** is limited to multi-box orders, and we know the full **extent** of the damage. | 张涛：会受影响的只有多箱订单，损失有多大，我们也已经完全清楚了。
+@s: Karen: Good. Tomorrow, send me your plan for the next two weeks. One page. | Karen：好。明天把接下来两周的计划发给我，一页纸就行。
+
+@v: quantify | = | v. | ˈkwɑːntɪfaɪ | 量化；用数字说清楚 | 汇报影响、成本、效果之前先把情况变成数字 | quantify the impact；quantify the cost；hard to quantify | It's hard to quantify the damage to our brand. | 对品牌造成的损害很难量化。 | 中文「量化」就是 quantify；高层常问 Can you quantify that?——意思是「给我数字」；名词 quantity 是「数量」；重音在前 QUAN-ti-fy，qua 读 `/kwɑː/`。
+@v: magnitude | = | n. | ˈmæɡnɪtuːd | （问题、事件的）大小；量级；严重程度 | 正式地问「问题有多大」 | the magnitude of the problem；of this magnitude；an order of magnitude | We didn't expect a problem of this magnitude. | 我们没想到问题会这么大。 | 比 size、scale 正式，高层、新闻里常用；of this magnitude = 这么大的；an order of magnitude = 一个数量级（大约十倍）；美式结尾 -tude 读 `/tuːd/`。
+@v: scale | = | n. | skeɪl | 规模；范围 | 说问题、业务有多大 | the scale of the problem；on a small scale；scale up（扩大规模） | Let me give you the scale first. | 我先说一下规模。 | 「规模」说 scale 或 size；scale up 是「扩大规模」，试点扩大时常用；scale 还有「刻度、评分等级」的意思：on a scale of 1 to 5（按 1 到 5 打分）。
+@v: proportion | = | n. | prəˈpɔːrʃn | 比例；（整体中的）一部分 | 说某一部分占整体多少 | a high proportion；a small proportion of…；in proportion to… | A large proportion of our orders come from mobile. | 我们很大一部分订单来自手机端。 | percentage（第三册 D68）是具体的百分比，proportion 可以只说「高 / 低」：That's a high proportion.；a proportion of + 复数名词时动词用复数；重音在 POR：pro-POR-tion。
+@v: financial | = | adj. | faɪˈnænʃl | 财务的；资金上的 | 把影响分成财务、运营、口碑几块来说 | the financial impact；financial loss；financial risk | The financial risk is small, but the time cost is high. | 资金上的风险不大，但时间成本很高。 | 名词 finance（第三册 D64）；「财务影响」说 the financial impact，口语也可以直接问 What does it cost us?；美式 fi 读 `/faɪ/` 或 `/fə/` 都常见。
+@v: minimal | = | adj. | ˈmɪnɪml | 极少的；很小的 | 说影响、成本、风险很小 | minimal impact；minimal cost；keep it minimal | The update caused minimal downtime. | 这次更新只造成了极短的停机。 | minimum（第三册 D76）多作名词「最低限度」，minimal 是形容词「极少的」；比 small 正式；程度上比 negligible 稍大一点：minimal 是「很少」，negligible 是「少到可以不管」。
+@v: loss | = | n. | lɔːs | 损失；亏损 | 说钱、客户、数据的损失 | a loss of $600；financial loss；make a loss（亏本） | The store made a loss last year. | 这家店去年亏损了。 | 动词 lose（第二册 D36）的名词；「亏损」说 make a loss / operate at a loss；数据丢失是 data loss；a loss of + 金额；美式 o 读 `/ɔː/`，不少人读 `/lɑːs/`。
+@v: revenue | = | n. | ˈrevənuː | 收入；营收（卖东西进来的钱） | 说业务影响和财务数字 | lost revenue；revenue growth；annual revenue | Our revenue increased by ten percent this quarter. | 我们这个季度的营收增长了 10%。 | revenue 是「收入」（卖了多少钱），profit 是「利润」（收入减去成本），两个别混；一般不加 s；increase by / to 的用法见第三册；重音在前 REV-e-nue，结尾 `/nuː/`。
+@v: profit | = | n. | ˈprɑːfɪt | 利润 | 说赚了多少钱、受没受影响 | make a profit；the effect on profit；profit margin | We made a small profit on the sale. | 这次促销我们赚了一点钱。 | profit = revenue − costs；「盈利」说 make a profit，✗ get profit；和 prophet（先知）同音；美式 o 读 `/ɑː/`。
+@v: negligible | = | adj. | ˈneɡlɪdʒəbl | 可以忽略不计的；微不足道的 | 说影响、差别小到不用管 | negligible impact；a negligible amount；The difference is negligible. | The price difference is negligible. | 价格差别小到可以忽略。 | 程度最轻的一个词：negligible < minimal < moderate < substantial < severe；动词 neglect 是「忽视」，negligible 就是「可以忽视的」；重音在 NEG，第二个 g 读 `/dʒ/`。
+@v: operational | = | adj. | ˌɑːpəˈreɪʃənl | 运营上的；操作层面的（人手、流程、工作量） | 和财务影响分开说 | the operational impact；operational costs；on the operational side | The new system will reduce our operational costs. | 新系统会降低我们的运营成本。 | operations（第一册）是「运营部门、运营工作」，operational 是形容词；它还有「投入使用的」意思：The new warehouse is now operational.；主重音在 RA：op-er-A-tion-al。
+@v: has an impact on | have an impact on | phr. | ˌhæz ən ˈɪmpækt ɑːn | 对……有影响 | 说一件事影响到了谁、什么 | have a big impact on；have an impact on our team；have little impact on | The new rule will have an impact on delivery times. | 新规定会对送货时间产生影响。 | impact 第三册 D72 学过，这里把整个搭配记住：介词一定用 on，✗ impact to / ✗ impact for；「影响很大」别说 ✗ influence much，说 It has a big impact on…；名词 impact 重音在前 IM-pact。
+@v: moderate | = | adj. | ˈmɑːdərət | 中等的；适度的 | 说影响、风险处于中间程度 | a moderate impact；moderate risk；a moderate increase | The storm caused moderate delays. | 暴风雨造成了中等程度的延误。 | 形容词读 `/ˈmɑːdərət/`，结尾像 rit；动词 moderate（主持讨论、调节）读 `/ˈmɑːdəreɪt/`；它表示「要关注、但不用慌」，比 It's OK. 准确得多。
+@v: To what extent | to what extent | phr. | tə ˌwʌt ɪkˈstent | 在多大程度上 | 正式地问影响、问题到什么程度 | To what extent…?；to some extent（Day 100）；to a large extent | To what extent will the change affect our customers? | 这个变化会在多大程度上影响我们的客户？ | 直接问句要倒装：To what extent are customers upset?；放进间接问句就不倒装：I'd like to know to what extent customers are upset.；比 How much…? 正式，高层和报告里常用。
+@v: ripple | = | n./v. | ˈrɪpl | 涟漪；（一件事引起的）一圈圈往外扩的影响 | 说一个问题像水波一样往外扩散 | a ripple effect；create a ripple；ripple through… | The delay had a ripple effect on every team. | 这次延误对每个团队都产生了连锁影响。 | 美国人最常说 a ripple effect；动词 ripple through：The news rippled through the company.；比 cascade（D106）温和：ripple 像水波往外扩，cascade 像瀑布一级一级往下砸。
+@v: short-term | = | adj. | ˌʃɔːrt ˈtɜːrm | 短期的；眼前的 | 区分眼前的影响和以后的风险 | the short-term cost；a short-term fix；in the short term | It's a short-term problem, but we need a long-term plan. | 这是个短期问题，但我们需要一个长期计划。 | 和 long-term（第三册 D89）相对；放在名词前加连字符：short-term cost；名词短语 in the short term 不加；两个部分都重读：short-TERM。
+@v: substantial | = | adj. | səbˈstænʃl | 相当大的；可观的 | 说风险、成本、变化不小（偏正式） | a substantial risk；substantial costs；a substantial increase | The new contract will bring substantial revenue. | 新合同会带来可观的收入。 | 比 big / large 正式，常用来说钱、风险、数量；程度在 moderate 和 severe 之间；中文「实质性的」有时也译成 substantial，但这里就是「不小、相当大」；重音在 STAN。
+@v: on a large scale | = | phr. | ɑːn ə ˌlɑːrdʒ ˈskeɪl | 大规模地 | 说一件事如果大范围发生会怎样 | on a large scale；on a small scale；on a global scale | We can't test this on a large scale yet. | 我们现在还没法大规模测试这个。 | 介词用 on：✗ in a large scale；反义 on a small scale；和 widespread（D105）比：on a large scale 说「规模大」，widespread 说「分布广」；scale 重读。
+@v: severe | = | adj. | sɪˈvɪr | 严重的；剧烈的 | 说影响、天气、问题很严重 | severe damage；a severe impact；severe weather | Severe weather delayed hundreds of flights. | 恶劣天气导致几百个航班延误。 | 名词 severity（第三册 D84）；比 serious 更重、更正式，是程度词的最高一级；用在人身上是「严厉的」；美式读 `/sɪˈvɪr/`。
+@v: knock-on effect | = | phr. | ˌnɑːk ɑːn ɪˈfekt | 连带影响；后续的连锁影响 | 说一个问题会连带影响到别的事 | a knock-on effect on…；have a knock-on effect | The late shipment had a knock-on effect on our sales. | 那批货晚到，连带影响了我们的销售。 | 原本是英式说法，美国商务里也听得到，但美国人更常说 a ripple effect / a domino effect；介词用 on；effect 是名词，别和动词 affect（第三册 D72）混。
+@v: worst-case scenario | = | phr. | ˌwɜːrst ˌkeɪs səˈnerioʊ | 最坏的情况 | 主动说出最坏会怎样 | in the worst-case scenario；the worst-case scenario is…；the best-case scenario | In the worst-case scenario, we lose the client. | 最坏的情况是我们失去这个客户。 | 介词用 in；worst-case 带连字符，修饰 scenario；口语可以简单说 Worst case, …；美式 scenario 读 `/səˈnerioʊ/`，nar 像「nair」。
+@v: spread | = | v./n. | spred | 扩散；蔓延 | 问问题有没有扩大到别的地方 | spread to other orders；stop the spread；spread quickly | The problem hasn't spread to other regions. | 问题还没有扩散到其他地区。 | 过去式、过去分词都是 spread，不变：Has it spread?；ea 读 `/e/`，和 bread 押韵；spreadsheet（第一册 D22）里也是这个 spread。
+@v: contained | contain | v. | kənˈteɪnd | 控制住（问题、损失，不让它扩大） | 事故处理时说「已经控制住了」 | contain the problem；contain the damage；be contained | The fire was contained within an hour. | 火在一小时内被控制住了。 | 大家熟悉的意思是「包含」（The box contains…）；事故沟通里 contain 是「控制住、不让扩散」：We've contained the problem.——但这不等于已经解决，解决是 fix / resolve，别让对方误会；重音在后 con-TAIN。
+@v: exposure | = | n. | ɪkˈspoʊʒər | （风险的）敞口；会受影响的范围 | 说有多少东西「暴露」在风险里 | our exposure；limit our exposure；financial exposure | We want to limit our exposure to one region. | 我们想把风险控制在一个地区之内。 | 商务里的 exposure 常指「可能受损的范围」；另一个意思是「曝光、接触」：media exposure；s 读 `/ʒ/`：ex-PO-sure。
+@v: extent | = | n. | ɪkˈstent | 程度；范围 | 说损失、问题到底有多大 | the full extent；the extent of the damage；to a large extent | We still don't know the full extent of the damage. | 我们还不清楚损失到底有多大。 | 常和 the full extent / the extent of… 连用；和 to what extent / to some extent 是一家；ex 读 `/ɪk/`，重音在后 ex-TENT。
+
+@diff: 「影响很大」——It has a big impact on… / 程度词 negligible → severe（不说 influence much）
+@d_cn: 说一件事影响大不大：「影响很大」「影响不大」「几乎没影响」「影响一般」。
+@d_en: The effect on profit is negligible. / The financial impact is minimal so far. / It has an impact on my support team, but it's moderate. / The risk is substantial. / It would be severe.
+@d_why: 中文「影响」是个万能词，「影响很大」直译成 ✗ It influences us very much. 是中国学生最典型的错误之一：influence 多指对人的想法、行为的影响（My teacher influenced me a lot.），说业务、数据受到的冲击用 **impact** 或 **affect**（第三册 D72：affect 是动词，impact / effect 是名词，介词用 on）。会上真正有用的不是「大 / 小」，而是**程度词**，美国高层听得很细：**negligible**（可以忽略）< **minimal**（很小）< **moderate**（中等）< **substantial**（相当大）< **severe**（严重）。用对了，对方不用追问就知道该不该担心：Priya 说 moderate，Karen 就知道要关注、但不用慌。还要注意介词：✗ impact to our team ✗ effect for profit → ✓ impact on / effect on。
+@d_when: 向高层、客户汇报影响；写事故说明里的「影响」一段。
+@d_vs: **The effect on profit is negligible.** 对利润的影响可以忽略不计。\n**The financial impact is minimal so far.** 到目前为止，财务影响很小。\n**It has an impact on my support team, but it's moderate.** 对客服团队有影响，但程度中等。\n**The risk is substantial.** 风险相当大。\n**It would be severe.** 后果会很严重。\n✗ It influences our team very much.\n✗ It has a big impact to our team.
+@d_task: 用程度词说三句：① 对收入几乎没影响 ② 对仓库的影响中等 ③ 如果发生在旺季，后果会很严重 | ① The impact on revenue is negligible. ② The impact on the warehouse is moderate. ③ If it happened during the peak season, it would be severe.
+@diff: 「受影响的订单」——affected orders / have been affected / were affected
+@d_cn: 「受影响的订单」「有 2% 的订单受到了影响」「到现在已经影响了 28 个订单」。
+@d_en: About two percent of pilot orders have been affected. / Since Saturday, no new orders have been affected. / We've contacted all the affected customers. / the number of orders affected
+@d_why: 「受影响」是被动的意思，英文用 **be affected**（第三册的被动：be + 过去分词）。时态看「说到什么时候」：说**到现在为止**的累计数，用现在完成时被动 **have been affected**——数字还可能变（第二册的现在完成时）；说**一件已经结束的事**，用一般过去时 **were affected**（第三册 D86：About two percent of orders were affected.）。词序也有讲究：affected 放在名词前是一般说法（**the affected orders**）；放在名词后（**the orders affected**、the number of orders affected）是「受这件事影响的那些订单」，报告里很常见。最常见的错误是漏掉 been：✗ About two percent of orders have affected.——意思成了「订单影响了别的东西」；还有 ✗ the affect orders（affect 是动词）。
+@d_when: 汇报受影响的范围；写事故报告、问题说明的「影响」部分。
+@d_vs: **About two percent of pilot orders have been affected.** 大约 2% 的试点订单受到了影响。（到现在为止）\n**About two percent of orders were affected.** 当时大约 2% 的订单受到了影响。（事情已经结束，第三册 D86）\n**We've contacted all the affected customers.** 我们联系了所有受影响的顾客。\n**the number of orders affected** 受影响订单的数量\n✗ About two percent of orders have affected.\n✗ the affect orders
+@d_task: 用英文说：「到目前为止，有 15 个卖家受到了影响。我们已经给所有受影响的卖家发了邮件。」 | So far, fifteen sellers have been affected. We've emailed all the affected sellers.
+@diff: 用数字说影响——quantify：订单、顾客、钱、比例
+@d_cn: 高层问「影响多大」，中文常回答「影响不大」「还好，问题不严重」「您放心」。
+@d_en: Can we quantify everything first? / That's 28 orders out of about 1,400. / That's a loss of about $600. / We haven't lost any revenue. / That's a high proportion.
+@d_why: Karen 这样的副总裁时间少，听到 It's not serious. 第一反应是 How do you know? 美国职场的习惯是**先量化，再定性**：订单（28 out of about 1,400）、顾客（19 contacted support）、钱（a loss of about $600, no lost revenue）、比例（a high proportion）、口碑（three one-star reviews）——然后才说「所以影响很小 / 中等」。林晓和 Priya 会前先对好数字（Can we quantify everything first?），会上两个人说的数字一致，Karen 才会信。顺便复习第三册的两个薄弱点：revenue（收入）和 profit（利润）别混；比较两个百分比用 **percentage points**：受影响的比例从 2% 涨到 3% 是 up one percentage point，不是 up one percent。
+@d_when: 向高层汇报、回答 How bad is it?、写影响评估。
+@d_vs: **That's 28 orders out of about 1,400.** 也就是大约 1,400 个订单里的 28 个。\n**That's a loss of about $600.** 损失大约 600 美元。\n**We haven't lost any revenue.** 收入没有损失。\n**That's a high proportion.** 这个比例不低。\n✗ The impact is not big, don't worry.（没有数字，听起来像在敷衍）
+@d_task: 把这句话量化：The delay affected some customers, but it's OK.（情况：3,000 个订单里有 45 个晚到，发了 12 张优惠券，约 120 美元） | The delay affected 45 orders out of about 3,000. That's 1.5 percent. We gave out twelve coupons, so the cost was about $120.
+@diff: 短期成本 vs 长期风险——short-term / knock-on effect / worst-case scenario / contained
+@d_cn: 只说眼前花了多少钱，不提以后可能怎样；或者反过来，一开口就说「这下完了」。
+@d_en: So the short-term cost is small, but the risk is substantial. / There's also a knock-on effect on the schedule. / In the worst-case scenario, BrightNest pauses the pilot. / We've contained the problem for now.
+@d_why: 好的影响评估分两层：**眼前**（short-term：28 个订单、600 美元）和**以后**（风险：信任、连带影响、最坏情况），英文常用 **…, but…** 把两层连起来：The short-term cost is small, but the risk is substantial.。说连带影响，美国人最常用 **a ripple effect**；**knock-on effect** 原是英式说法，美国商务里也常听到。**worst-case scenario** 前面用介词 in，后面用一般现在时说结果（BrightNest pauses the pilot.）。林晓主动说出最坏的情况，Karen 反而说 Thanks for being honest.——对高层报喜不报忧，最伤信任。最后一定要讲现状：**We've contained the problem for now.**（控制住了，不再扩散）。注意 contained ≠ fixed：只说 The problem is solved. 而实际上还没修好，下次出事时就没人信你了。
+@d_when: 向高层、客户做影响评估；决定要不要升级问题；写风险说明。
+@d_vs: **The short-term cost is small, but the risk is substantial.** 眼前的成本不大，但风险不小。\n**There's a knock-on effect on the schedule.** 对进度有连带影响。\n**It had a ripple effect on every team.** 它对每个团队都产生了连锁影响。\n**In the worst-case scenario, BrightNest pauses the pilot.** 最坏的情况是 BrightNest 暂停试点。\n**We've contained the problem for now.** 问题暂时控制住了。（≠ 已经修好）\n✗ Don't worry, the problem is solved.（还没修好就这么说）
+@d_task: 用英文说：「短期内损失不大，但如果旺季前还修不好，后果会很严重。最坏的情况是我们失去这个客户。」 | The short-term loss is small, but if it isn't fixed before the peak season, it'll be severe. In the worst-case scenario, we lose the client.
+
+@core: About … percent of … have been affected. | 汇报到目前为止受影响的范围 | pilot orders / sellers / packages；two / five | 正式：Approximately two percent of pilot orders have been affected to date.｜随意：It's about two percent of orders.
+@core: That's … out of about … | 给出分子和分母 | 28 orders / 1,400；19 customers / 28 | 正式：This represents 28 of approximately 1,400 orders.｜随意：28 out of 1,400, so not many.
+@core: The financial impact is minimal so far. | 说钱方面的影响 | financial / operational；minimal / negligible / moderate | 正式：To date, the financial impact has been minimal.｜随意：It hasn't cost us much.
+@core: It has an impact on …, but it's moderate. | 说运营方面的影响 | my support team / the warehouse / our schedule | 正式：The operational impact on our support team is moderate.｜随意：It's keeping my team busy, but it's manageable.
+@core: The bigger risk is the impact on … | 指出比钱更重要的风险 | customer trust / our reputation / the launch date | 正式：The more significant risk concerns customer trust.｜随意：What really worries me is trust.
+@core: So the short-term cost is small, but the risk is substantial. | 把眼前的成本和以后的风险连起来说 | cost / loss；risk / knock-on effect | 正式：While the short-term cost is limited, the risk is substantial.｜随意：It's cheap now, but it could get expensive.
+@core: In the worst-case scenario, … | 主动说出最坏的情况 | BrightNest pauses the pilot / we lose the client / we miss the deadline | 正式：In the worst-case scenario, the client may decide to pause the pilot.｜随意：Worst case, they pause the pilot.
+@core: We've contained the problem for now. Since …, no new … have been affected. | 说明问题已经控制住（但还没修好） | the problem / the damage；Saturday / last night | 正式：The issue has been contained; no new orders have been affected since Saturday.｜随意：It's not getting any worse.
+
+@pw: magnitude | ˈmæɡnɪtuːd | 3 个音节 MAG·ni·tude | 重音在 mag，`/æ/` 嘴张大；结尾 tude 美式读 `/tuːd/`
+@pw: negligible | ˈneɡlɪdʒəbl | 4 个音节 NEG·li·gi·ble | 重音在 neg；第一个 g 读 `/ɡ/`，第二个读 `/dʒ/`
+@pw: substantial | səbˈstænʃl | 3 个音节 sub·STAN·tial | 重音在 stan；sub 弱读成 `/səb/`；tial 读 `/ʃl/`
+@pw: quantify | ˈkwɑːntɪfaɪ | 3 个音节 QUAN·ti·fy | 重音在 quan，读 `/kwɑːn/`；结尾 fy 读 `/faɪ/`
+@pw: revenue | ˈrevənuː | 3 个音节 REV·e·nue | 重音在 rev；中间的 e 弱读成 `/ə/`；美式结尾 `/nuː/`，不读 `/njuː/`
+@pw: operational | ˌɑːpəˈreɪʃənl | 5 个音节 op·er·A·tion·al | 主重音在 a，读 `/reɪ/`；op 带次重音
+@pw: scenario | səˈnerioʊ | 4 个音节 sce·NAR·i·o | 重音在 nar，美式读 `/ner/`，像「奈尔」；sce 读 `/sə/`
+@ps: A**bout** two **per**cent / of **pi**lot orders / have been af**fect**ed. | have been 弱读成 `/əv bɪn/`，几乎只剩 v-bin；pilot orders 是复合名词，重音在 pilot；affected 的 -ed 读 `/ɪd/`。
+@ps: The **fi**nancial **im**pact / is **min**imal / so **far**. | impact 作名词，重音在前 IM-pact；so far 收尾时语调下降，听起来很确定。
+@ps: The **big**ger **risk** / is the **im**pact on **cus**tomer **trust**. | 这是对比句：前面讲了钱，这里重音落在 bigger 和 trust 上；impact on 连读成 `/ˈɪmpæktɑːn/`。
+@ps: In the **worst**-case sce**nar**io, / **Bright**Nest **paus**es the **pi**lot. | worst-case 重音在 worst；scenario 后稍停；pauses 的 -es 读 `/ɪz/`，别吞掉。
+@pnote: 会议里的语调：Karen 的特殊疑问句 What does it cost us? / To what extent are customers upset? 用降调，听起来干脆、直接，但并不是生气；一般疑问句 Has the problem spread? 用升调。对比重音：The **fi**nancial impact is minimal. The **big**ger risk is **trust**.——前后两句的重音落在对比的词上，一听就知道「钱不是重点，信任才是」。形容词和动词同形的词要听元音：**mod**erate 形容词结尾 `/rət/`，动词结尾 `/reɪt/`。
+@pnote: 数字：$600 读 six hundred dollars；1,400 美国人常说 **fourteen hundred**；28 是 twenty-eight，19 是 nine**teen**（重音在后，别听成 ninety）；two percent 和 two percentage points 意思不同。about 弱读成 `/əˈbaʊt/`，快的时候只剩 bout。写和说的不同：Priya 的消息里写 28 orders, 19 customers…, about $600 in costs，嘴上说的是 That's twenty-eight orders out of about fourteen hundred.
+@lfocus: 数字：two percent、28、fourteen hundred（1,400）、nineteen、six hundred dollars、four reshipped、two refunds、thirty extra calls、three one-star reviews
+@lfocus: 程度词：minimal（financial）、negligible（profit）、moderate（operational）、substantial（risk）、severe（on a large scale in November）
+@lfocus: 风险和决定：worst case → pause the pilot；contained, since Saturday；full fix → two weeks；tomorrow → one-page plan for Karen
+@dict: S6–S12
+@dict: S17–S22
+@res: 在 youglish.com 输入 "worst-case scenario"，选 US，留意它前面的介词 in 和后面常跟的一般现在时。
+
+@mimic: 跟读【C】S5–S26：先正常语速逐句跟读，重点模仿 S9 的平稳陈述、S16 的对比重音（bigger / trust）和 S24 里 contained 之后的停顿；再由你演林晓，手机朗读 Karen、Priya 和张涛的台词，完整对一遍并录音。最后只看 Priya 会前消息里的三个数字（S4），合上书，用 4–5 句话把影响讲给 Karen：数字 → 钱 → 运营 → 信任 → 现状。
+@swap: About two percent of pilot orders have been affected. | 换范围和数字：sellers／packages；one percent／fifteen | About fifteen sellers have been affected.
+@swap: The financial impact is minimal so far. | 换方面和程度：operational／moderate；the impact on revenue／negligible | The operational impact is moderate so far.
+@swap: The bigger risk is the impact on customer trust. | 换风险：our reputation／the launch date／our team's workload | The bigger risk is the impact on the launch date.
+@swap: In the worst-case scenario, BrightNest pauses the pilot. | 换最坏情况：we miss the deadline／the client cancels the contract | In the worst-case scenario, we miss the deadline.
+@free: 张涛在走廊里问你：How bad is it?（先说结论：眼前影响不大，但风险不小；再给两个数字） | The impact is small so far, but the risk isn't. About two percent of pilot orders have been affected, and the cost is about $600. The real risk is customer trust.
+@free: 客户问你：这会影响我们的收入吗？（不会：没有丢收入，对利润的影响可以忽略；成本主要是补寄和退款） | No, you haven't lost any revenue. The effect on profit is negligible. The cost is about $600 in reshipping and refunds.
+@free: 经理让你说说「最坏的情况」：如果旺季前修不好，客户可能不再和你们合作 | In the worst-case scenario, we don't fix it before the peak season, and the client stops working with us. It's unlikely, but we should plan for it.
+@free: 同事问你：问题解决了吗？（还没有，只是控制住了：周六以后没有新订单受影响，彻底修好还要两周） | Not yet. We've contained the problem for now, but it isn't fixed. Since Saturday, no new orders have been affected, and the full fix will take two weeks.
+@output: 录一段 1.5–2 分钟的口头影响评估：假设你的经理或客户问 How bad is it?，对象是一个刚发生的问题（系统故障、发货延误、活动出错……；没有工作的，可以讲家里漏水对楼下邻居的影响）。顺序：一句话结论 → 规模（About … percent / … out of …）→ 财务（minimal / negligible）→ 运营（It has an impact on…, but it's moderate.）→ 更大的风险（The bigger risk is…）→ 短期 vs 长期（The short-term cost is…, but…）→ 最坏情况（In the worst-case scenario, …）→ 现状（We've contained… / Since…, no new…）→ 下一步。
+@output_sample: Here's the impact of the status problem, in numbers. The short answer is: the cost is small, but the risk isn't. Let me give you the scale first. About two percent of pilot orders have been affected. That's 28 orders out of about 1,400, and nineteen of those customers contacted BrightNest's support team. The financial impact is minimal so far. BrightNest reshipped four items and gave two refunds, so the loss is about six hundred dollars. They haven't lost any revenue, and the effect on profit is negligible. On the operational side, it has an impact on their support team, but it's moderate: about thirty extra calls and emails. The bigger risk is the impact on customer trust. Those customers got an "arrived" email, but only half their order, and three of them left one-star reviews. So the short-term cost is small, but the risk is substantial. If this happened on a large scale in November, it would be severe. There's also a knock-on effect on our schedule, because the full fix will take two weeks. In the worst-case scenario, BrightNest pauses the pilot. The good news is that we've contained the problem for now. Since Saturday, no new orders have been affected. Tomorrow, I'll send Karen a one-page plan for the next two weeks.
+
+@check: 听力：受影响的订单有多少、占多少？多少位顾客联系了客服？Karen 怎么评价这个数字？ | 28 个订单，大约 1,400 个试点订单里的 28 个，约 2%（About two percent of pilot orders have been affected.）；19 位顾客联系了客服，Karen 说这个比例很高（That's a high proportion.）。
+@check: 听力：钱、运营、口碑三方面的影响各是什么程度？最坏的情况是什么？现在怎么样了？Karen 最后要什么？ | 钱：补寄四件、退款两笔，损失约 600 美元，收入没损失，对利润的影响可以忽略（minimal / negligible）；运营：客服多了大约三十个电话和邮件（moderate）；口碑：三个一星差评，更大的风险是顾客信任。最坏的情况是 BrightNest 暂停试点。问题已经控制住（contained），周六以后没有新订单受影响，彻底修好要两周。Karen 要明天看到一页纸的两周计划。
+@check: 改错：① ✗ This problem influences our team very much. ② ✗ About 3% of orders have affected. | ① This problem has a big impact on our team. ② About 3% of orders have been affected.（受影响是被动，别漏 been）
+@check: 把这五个程度词从轻到重排好：moderate / negligible / severe / minimal / substantial | negligible < minimal < moderate < substantial < severe
+@check: 换个场景：你们的 App 周末宕机了两小时，老板问影响。用三句话：数字 → 程度 → 更大的风险。 | About five percent of our users were affected. The financial impact is minimal, because most of them came back later. The bigger risk is the impact on our reputation.
+@check: 同事对客户说 Don't worry, the problem is solved.，可实际上只是控制住了，还没修好。怎么说更准确？ | We've contained the problem for now. No new orders have been affected since Saturday, but the full fix will take about two weeks.
+@next1: 不看书说出 5 个锚点句：S7、S9、S15、S21、S23
+@next1: 用 negligible / minimal / moderate / substantial / severe 各说一句你工作或生活里的影响
+@next7: 影响评估的顺序：数字 → 财务 → 运营 → 信任 → 短期 vs 长期 → 最坏情况 → 现状（contained ≠ fixed）
+@next7: have been affected（到现在为止）vs were affected（已经结束）；impact on / effect on，不说 influence much

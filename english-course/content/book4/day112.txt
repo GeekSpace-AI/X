@@ -1,0 +1,170 @@
+@day: 112
+@week: 4
+@title_cn: 比较方案
+@title_en: Comparing Options
+@topic: 全面上线有两个方案：A 快但维护成本高，B 晚两周但更省、更稳。林晓做了一张对比表，在会上把两个方案并排讲清楚
+@think_short: 「A 快，而 B 省」A is faster, whereas B is cheaper to maintain.｜「在成本方面」In terms of cost, …（不说 in the aspect of）｜「说到风险」When it comes to risk, …｜「另一方面」On the other hand, …（不说 on the other side）｜「优缺点」pros and cons / a big pro / the main con
+
+@goal_scene: 在内部会议上用一张对比表讲两个方案：先并排说清各是什么，再按标准逐项比较（速度、复杂度、维护、风险），用数字说话，最后给出评分，让经理能据此做决定。
+@goal_expr: Let's compare the two options side by side. / Option A is faster, whereas Option B is cheaper to maintain. / In terms of cost, B is the clear winner. / On the other hand, A gets us live two weeks earlier. / When it comes to risk, I'd choose B. / So it's speed versus maintenance. / You've laid out the pros and cons clearly.
+@goal_vocab: 20 个重点词 + 5 个短语：比较的句型、评估标准、对比表和打分、优点与缺点
+@done: 能用 whereas / On the other hand 对比两个方案，知道 on the other hand 前面不一定要有 on the one hand，也不能用来补充同方向的优点
+@done: 能用 In terms of… / When it comes to… 按一个个标准比较，每一项都带一个数字或事实（forty hours vs five / October 14 vs October 28）
+@done: 能用 pros and cons、advantage / disadvantage、score / rank / weigh、benchmark 讲一张对比表，最后给出总分
+
+@warmup: 我们分两期上线。 | We'll roll it out in two phases. | D109
+@warmup: 这个失误由我们承担。 | We take ownership of this mistake. | D110
+@warmup: 话虽如此，影响是有限的。 | That said, the impact was limited. | D110
+@warmup: 原因是 BrightNest 用的状态代码不一样了。 | The reason is that BrightNest uses different status codes. | D106
+@warmup: 我已经练了半年了。 | I've been training for six months. | D41
+@warmup: 订单比上个季度增长了 18%。 | Orders increased by eighteen percent from the previous quarter. | D74
+@warmup_hint: 第 111 天是复习日，所以前四句取自第 3 周的正课（D106–D110）。第 4 句注意 The reason is that…（不说 because）；第 6 句注意 increase by（增长了多少）和 increase to（增长到多少）。
+
+@scene: 10 月 7 日，周三上午九点（西雅图还是周二傍晚六点）。长期修复的第一期按时完成：统一的状态清单和自动校验都已上线，复盘会也开过了。现在要决定全面上线怎么上，桌上有两个方案。方案 A：下周三、10 月 14 日就全面上线，BrightNest 继续用旧代码，由 SwiftLink 自己的映射表翻译，表要靠工程师手工维护；BrightNest 的 IT 部门 11 月要冻结一切系统变更，第二期（他们换成标准代码）就得拖到明年一月。方案 B：先等 Raj 的团队换成标准代码，再用两周把新代码测透，10 月 28 日上线——晚两周，但仍赶在 11 月旺季之前。Priya 一直希望越快越好；Mike 心疼他的工程师；Emma 管范围，凡事要看依据。林晓昨晚做了一张对比表：四个标准、每项 1 到 5 分。她先把表发给大家，九点在会上逐项讲。张涛不想听倾向，他要先看清两边的账。
+@sp: 人物关系 | 内部会议：林晓主讲；张涛是项目负责人、最后拍板的人，要「先说结论」；Mike 管工程资源，说话直接；Emma 管产品和范围，会挑逻辑漏洞；实习生 Leo 记录，也会提问
+@sp: 沟通目的 | 把两个上线方案并排讲清楚，按同一套标准比较，用数字说话，让张涛看清取舍；今天只比较、不拍板
+@sp: 已知信息 | A：10 月 14 日上线，SwiftLink 手工维护映射表，每月约 40 个工程师小时；B：10 月 28 日上线，Raj 的团队先换标准代码，再测两周，每月约 5 小时；同等规模客户的维护基准是每月 10 小时；BrightNest 11 月单量翻倍、冻结系统变更；Priya 希望尽快上线
+@sp: 表达重点 | 开场（side by side）→ 并排说两个方案 → 一句话点出取舍（speed versus maintenance / whereas）→ 逐项比较（In terms of… / When it comes to… / On the other hand, …）→ 优缺点（advantage / disadvantage / pro / con）→ 打分（score / rank / weigh）→ 总分
+
+@story_title: Episode 112 · Side by Side
+@story_type: 邮件 + 内部会议
+@s: Phase one of the fix is done. Now the team has to choose a launch plan. | 修复的第一期完成了。现在团队要选一个上线方案。
+@s: Before the nine o'clock call, Lily emails everyone: | 九点开会之前，林晓给大家发了一封邮件：
+@s: Hi all, | 大家好：
+@s: The attached **matrix** compares our two launch options. | 附件里的对比表比较了我们的两个上线方案。
+@s: Each option gets a **score** from one to five on four **criteria**. | 每个方案按四个标准打分，每项 1 到 5 分。
+@s: Lily | 林晓
+@br:
+@s: At nine, Lily shares her screen with Tom, Mike, Emma and Leo. | 九点，林晓给张涛、Mike、Emma 和 Leo 共享了屏幕。
+@s: Lily: Let's compare the two options **side by side**. | 林晓：我们把两个方案并排比较一下。
+@s: Lily: With A, we launch on October 14 and keep translating BrightNest's old codes ourselves. | 林晓：选 A，我们 10 月 14 日上线，继续由我们自己翻译 BrightNest 的旧代码。
+@s: Lily: With B, Raj's team switches to the standard codes first, and we launch on October 28. | 林晓：选 B，Raj 的团队先换成标准代码，我们 10 月 28 日上线。
+@s: Mike: So it's **speed** **versus** **maintenance**. | Mike：所以说，是速度和维护之间的取舍。
+@s: Lily: Right. Option A is faster, **whereas** Option B is cheaper to maintain. | 林晓：对。方案 A 更快，而方案 B 维护起来更省。
+@s: Emma: How did you **assess** maintenance? | Emma：维护成本你是怎么评估的？
+@s: Lily: Mike's team estimates forty hours a month for A and five for B. | 林晓：Mike 的团队估算，A 每月要 40 个小时，B 只要 5 个小时。
+@s: Lily: Our **benchmark** for a client this size is ten. | 林晓：这种规模的客户，我们的基准是每月 10 个小时。
+@s: Tom: So A is four times the benchmark. | 张涛：那 A 是基准的四倍。
+@s: Lily: Exactly. **In terms of** cost, B is the clear winner. | 林晓：没错。从成本来看，B 明显胜出。
+@s: Leo: But B's **initial** cost is higher, right? We need two more weeks of testing. | Leo：可 B 的前期成本更高，对吧？我们还要多测两周。
+@s: Lily: Yes, that's a **disadvantage**. | 林晓：对，这是它的一个劣势。
+@s: Mike: What about **complexity**? | Mike：复杂度呢？
+@s: Lily: A is more **complex**: two code lists and a mapping. B's big **advantage** is **simplicity**: one list. | 林晓：A 更复杂：两份代码表加一张映射表。B 最大的优势是简单：只有一份清单。
+@s: Emma: **On the other hand**, A gets us live two weeks earlier. | Emma：另一方面，A 能让我们早两周上线。
+@s: Tom: That's a real **pro**. Priya wants to go live as soon as possible. | 张涛：这是个实实在在的优点。Priya 希望越快上线越好。
+@s: Mike: The big **con** is November. We'd update the mapping by hand at peak volume. | Mike：最大的缺点在十一月：我们得在单量最高的时候手工更新映射表。
+@s: Mike: And BrightNest freezes its systems in November, so phase two would wait until January. | Mike：而且 BrightNest 十一月冻结系统，第二期就得等到一月。
+@s: Lily: **When it comes to** risk, I'd choose B. | 林晓：说到风险，我会选 B。
+@s: Emma: Did you **weigh** all four criteria equally? | Emma：四个标准你是按同样的权重算的吗？
+@s: Lily: Yes. But if I had to **rank** them, risk would come first. | 林晓：是的。不过要是给它们排个序，风险排第一。
+@s: Lily: Overall, B scores sixteen out of twenty, and A scores ten. | 林晓：总的来说，B 得了 16 分（满分 20），A 得了 10 分。
+@s: Tom: Good **assessment**. You've laid out the **pros and cons** clearly. | 张涛：评估得不错，优缺点你都摆得很清楚。
+@s: Tom: But a table doesn't make decisions. Tomorrow, I want your recommendation. | 张涛：不过表格不会替我们做决定。明天，我要听你的建议。
+
+@v: matrix | = | n. | ˈmeɪtrɪks | （评估用的）对比表；矩阵 | 用表格按几个标准比较几个选项 | a decision matrix；a comparison matrix；put it in a matrix | I put the three suppliers in a decision matrix. | 我把三家供应商放进了一张决策对比表。 | 中文「对比表」「打分表」在职场里常叫 a (decision) matrix，听起来比 a table 更像「有标准、有打分」；复数 matrices `/ˈmeɪtrɪsiːz/`；a 读 `/eɪ/`：MAY-triks。
+@v: score | = | n./v. | skɔːr | 分数；得分；（v.）得（多少）分 | 给选项打分、说总分 | get a score；score sixteen out of twenty；a high score | The new supplier scores higher on quality. | 新供应商在质量上得分更高。 | 动词 score 后面直接接分数：B scores sixteen，不加 ✗ scores for sixteen；「满分 20 分得 16 分」= sixteen out of twenty；「在某方面得分高」用 on：score higher on quality。
+@v: criteria | = | n. | kraɪˈtɪriə | （判断、评估的）标准（复数） | 说按哪几个方面来比较 | four criteria；meet the criteria；selection criteria | We chose the venue based on three criteria: price, size and location. | 我们按三个标准选的场地：价格、大小和位置。 | criteria 是复数，单数是 criterion `/kraɪˈtɪriən/`：one criterion, four criteria；很多母语者也会说 ✗ a criteria，但正式场合要分清；中文「标准」若指「规格、规范」用 standard，指「评判依据」用 criteria。
+@v: side by side | = | phr. | ˌsaɪd baɪ ˈsaɪd | 并排地；放在一起（逐项对比） | 把两个方案、两份文件放在一起比较 | compare A and B side by side；work side by side；a side-by-side comparison | Let's put the two contracts side by side. | 我们把两份合同并排放在一起看看。 | 中文「放在一起比较」「对照着看」说 side by side 很形象；放在名词前要加连字符：a side-by-side comparison；by 不重读，重音在第二个 side。
+@v: speed | = | n. | spiːd | 速度；快 | 比较方案时作为一个标准 | in terms of speed；at full speed；speed versus quality | For this project, speed matters more than price. | 这个项目里，速度比价格更重要。 | 比较方案时 speed 常和 cost、quality、risk 并列；「速度快」不说 ✗ The speed is fast，说 It's fast. 或 The speed is high.；speed up 是「加快」。
+@v: versus | = | prep. | ˈvɜːrsəs | 与……相对；……对…… | 点出两个因素之间的取舍 | A versus B；speed versus cost；vs. | It's quality versus price. | 说到底，是质量和价格之间的取舍。 | 书面常缩写成 vs.，口语要读完整的 VER-səs；中文「A 和 B 之间的取舍」直接说 It's A versus B.，很简洁；体育比赛的「对」也是 versus。
+@v: maintenance | = | n. | ˈmeɪntənəns | 维护；保养 | 说一个方案以后要花多少人力维护 | maintenance cost；high maintenance；low-maintenance | Old printers need a lot of maintenance. | 老打印机需要经常保养。 | 注意拼写和重音：动词 main**tain** 重音在后，名词 **main**tenance 重音在前，中间是 te 不是 tai；「维护成本高」说 It's high-maintenance. 或 The maintenance cost is high.
+@v: whereas | = | conj. | werˈæz | 而；然而（对比两件事） | 并列对比两个方案、两个人、两种情况 | A is…, whereas B is…；whereas in the past… | Our Seattle team works at night, whereas we work during the day. | 西雅图团队在我们的夜里工作，而我们在白天工作。 | 它是连词，连接两个完整的句子，前面一般加逗号；意思是「对比」，不是中文「而且」的「而」（递进）；比 while 正式，比 but 更强调「两边各是一种情况」；重音在后 wer-AZ。
+@v: assess | = | v. | əˈses | 评估；估计（影响、成本、风险） | 说怎么判断、衡量一件事 | assess the risk；assess the impact；assess sb's work | We need to assess the risk before we sign. | 签约之前，我们得先评估风险。 | assess 比 evaluate 更常用于「风险、影响、损失」；名词 assessment；两组 ss 都读 `/s/`，重音在后：a-SESS。
+@v: benchmark | = | n. | ˈbentʃmɑːrk | 基准；参照标准 | 把数字和行业或内部的标准比较 | an industry benchmark；set a benchmark；against the benchmark | Our response time is better than the industry benchmark. | 我们的响应时间比行业基准好。 | benchmark 是一个可以拿来对比的「参照数」，说完数字最好跟一句和基准比怎么样（A is four times the benchmark.）；也可作动词：benchmark our prices against competitors；重音在 BENCH。
+@v: In terms of | in terms of | phr. | ɪn ˈtɜːrmz əv | 在……方面；从……来看 | 按一个个标准比较、分析 | in terms of cost；in terms of speed；in terms of quality | In terms of location, the new office is perfect. | 从位置来看，新办公室再合适不过了。 | 中文「在成本方面」「从……角度」不说 ✗ in the aspect of cost / ✗ in cost aspect；terms 一定是复数，后面接名词；口语里也说 cost-wise（随意）。
+@v: initial | = | adj. | ɪˈnɪʃl | 最初的；前期的 | 区分前期成本和长期成本 | initial cost；initial plan；initial results | The initial cost is high, but the running cost is low. | 前期成本高，但运行成本低。 | initial 是「一开始的」，常和长期的 running cost / maintenance 对比；「首字母」也叫 initials；读 i-NI-shəl，t 读 `/ʃ/`，不读 `/t/`。
+@v: disadvantage | = | n. | ˌdɪsədˈvæntɪdʒ | 缺点；劣势；不利条件 | 列出一个方案不好的地方 | a big disadvantage；at a disadvantage；advantages and disadvantages | The main disadvantage of this plan is the cost. | 这个方案的主要缺点是成本。 | 比 con 正式，书面报告里常写 advantages and disadvantages；be at a disadvantage 是「处于劣势」；重音在 VAN，和 advantage 一样。
+@v: complexity | = | n. | kəmˈpleksəti | 复杂度；复杂性 | 比较方案时作为一个标准 | reduce complexity；the complexity of…；add complexity | Every new feature adds complexity. | 每加一个新功能，就多一分复杂度。 | 形容词 complex，名词 complexity；「复杂度高」说 high complexity 或 It's more complex.，不说 ✗ The complexity is very complex.；重音在 PLEX。
+@v: complex | = | adj. | kɑːmˈpleks | 复杂的（由很多部分组成） | 描述系统、流程、问题 | a complex system；more complex；a complex problem | Cross-border returns are more complex than domestic ones. | 跨境退货比国内退货复杂。 | complex 强调「组成部分多、相互关联」，complicated 更强调「难懂、麻烦」；形容词单独用时重音常在后 com-PLEX，放在名词前常移到前面：a COM-plex system；名词 complex（建筑群）重音在前。
+@v: advantage | = | n. | ədˈvæntɪdʒ | 优点；优势 | 说出一个方案最好的地方 | a big advantage；the main advantage of…；take advantage of… | The main advantage of B is simplicity. | B 的主要优势是简单。 | 「……的优点」用 of：the advantage of B，✗ B's advantage point；take advantage of 是「利用」，有时带贬义（占便宜）；重音在 VAN，a 弱读成 `/ə/`。
+@v: simplicity | = | n. | sɪmˈplɪsəti | 简单；简洁 | 把「简单」当作一个方案的优点 | for simplicity；the simplicity of…；value simplicity | We chose this tool for its simplicity. | 我们选这个工具，就是看中它简单。 | simple 的名词；在技术和产品讨论里，simplicity 本身就是优点：越简单越不容易出错、越好维护；重音在 PLI，c 读 `/s/`。
+@v: On the other hand | on the other hand | phr. | ɑːn ði ˈʌðər ˌhænd | 另一方面；但从另一个角度看 | 说完一方的优点，转到另一方的优点或这一方的缺点 | on the other hand, …；but on the other hand；then again（随意） | The hotel is expensive. On the other hand, it's next to the venue. | 那家酒店贵。不过另一方面，它就在会场旁边。 | 前面不一定要有 on the one hand；它引出的是「相反的考虑」，不能用来补充同方向的优点（✗ B is cheaper. On the other hand, it's safer.）；✗ on the other side；the 在元音前读 `/ði/`，重音在 other。
+@v: pro | = | n. | proʊ | 优点；好处（pros and cons 里的 pro） | 口语里说一个方案的好处 | a big pro；the main pro；one pro is… | One pro of working from home is no commute. | 在家办公的一个好处是不用通勤。 | 口语、随意，正式报告里多写 advantage；单独说 a pro 也可以指「专业人士、高手」（He's a pro.），要靠上下文分辨；读 `/proʊ/`。
+@v: con | = | n. | kɑːn | 缺点；坏处（pros and cons 里的 con） | 口语里说一个方案的问题 | the big con；the main con；one con is… | The big con of this apartment is the noise. | 这套公寓最大的缺点是吵。 | 和 pro 成对，口语；正式说法是 disadvantage 或 downside（D102）；con 作动词是「骗」（con sb），名词 a con 也可以是「骗局」，比较方案时说 the main con 就不会误解。
+@v: When it comes to | when it comes to | phr. | wen ɪt ˈkʌmz tə | 说到……；一谈到…… | 转到一个新的标准，常接着给出自己的看法 | when it comes to risk；when it comes to price；when it comes to + -ing | When it comes to customer service, Grace is the expert. | 说到客服，吴佳是专家。 | to 是介词，后面接名词或 -ing：✓ when it comes to choosing，✗ when it comes to choose；比 in terms of 口语，常引出个人意见：When it comes to risk, I'd choose B.；when it 连读，t 闪音：WEN-i-COMZ-tə。
+@v: weigh | = | v. | weɪ | 权衡；（给标准）定权重 | 比较方案时考虑哪个因素更重要 | weigh A against B；weigh the options；weigh the criteria equally | We have to weigh the cost against the risk. | 我们得把成本和风险放在一起权衡。 | 动词 weigh，名词是 weight（重量、权重）：give risk more weight；✗ weight the options；gh 不发音，和 way 同音。
+@v: rank | = | v./n. | ræŋk | 排序；排名 | 给几个标准或选项排先后 | rank A first；rank the options；be ranked second | If I rank the risks, data loss comes first. | 如果给风险排个序，数据丢失排第一。 | rank sth first / second（排第一、第二）；被动 be ranked：Our app is ranked third.；和 D61 的 priority 搭配：rank our priorities；n 后面接 k，读 `/ŋk/`。
+@v: assessment | = | n. | əˈsesmənt | 评估；看法 | 对一份分析、一个判断的评价 | a risk assessment；a fair assessment；my assessment is that… | My assessment is that the plan is too risky. | 我的评估是，这个方案风险太大。 | Good assessment. 是在夸对方「分析得到位」；a risk assessment 是正式的「风险评估」；my assessment is that… 比 I think 更有分量，适合给上司汇报；重音在 SESS。
+@v: pros and cons | = | phr. | ˌproʊz ən ˈkɑːnz | 优缺点；利弊 | 口语和会议里列出一个方案的好处和坏处 | the pros and cons of…；weigh the pros and cons；list the pros and cons | Let's list the pros and cons of each supplier. | 我们把每家供应商的优缺点列一下。 | 固定顺序，先 pros 后 cons，✗ cons and pros；比 advantages and disadvantages 口语；中文「好处坏处」别说 ✗ good points and bad points；and 弱读成 `/ən/`。
+
+@diff: 「A 快，而 B 省」——whereas / while
+@d_cn: 比较两个方案、两个人、两种情况，中文用「而」「但是」把两边连起来：A 快，而 B 省。
+@d_en: Option A is faster, whereas Option B is cheaper to maintain. / Our Seattle team works at night, while we work during the day. / A is faster, but B is cheaper.
+@d_why: 中文的「而」有两个意思：对比（A 快，而 B 省）和递进（而且），英文只有对比这一层能用 **whereas**。whereas 连接两个完整的句子，强调「两边各是一种情况」，前面通常加逗号，语气比较正式，适合汇报、邮件和对比表。**while** 意思一样但更中性；要小心它也有「当……的时候」的意思，句子一长就可能有歧义。**but** 最口语，可它带一点「转折、让步」——A is faster, but B is cheaper. 听起来像「虽然 A 快，B 更划算」，已经在暗示你的倾向；whereas 只是并排摆事实。所以在「只比较、不拍板」的会上，林晓用 whereas 很合适：先把两边公平地摆出来，倾向留到后面讲。说的时候用对比重音：Option **A** is **fast**er, whereas Option **B** is **cheap**er to maintain.
+@d_when: 讲对比表、写比较方案的邮件、说两地或两个团队的差别。
+@d_vs: **Option A is faster, whereas Option B is cheaper to maintain.** 方案 A 更快，而方案 B 维护更省。（并排摆事实，偏正式）\n**Our Seattle team works at night, while we work during the day.** 西雅图团队在我们的夜里工作，而我们白天工作。（中性）\n**A is faster, but B is cheaper.** A 快，不过 B 便宜。（口语，带转折）\n✗ Option A is fast, whereas it is also cheap.（whereas 只表示对比，不表示「而且」）\n✗ Option A is faster whereas Option B cheaper.（后半句要有完整的主谓）
+@d_task: 用 whereas 比较两个仓库：老仓库离港口近；新仓库租金便宜。 | The old warehouse is closer to the port, whereas the new one is cheaper to rent.
+@diff: 「在成本方面」——In terms of cost, … / When it comes to risk, …
+@d_cn: 按一个个标准比较：「在成本方面」「从速度来看」「说到风险」。
+@d_en: In terms of cost, B is the clear winner. / When it comes to risk, I'd choose B. / In terms of speed, A is better.
+@d_why: 中文「在……方面」直译成 ✗ in the aspect of cost / ✗ in cost aspect / ✗ on the cost side 都不自然。英文最常用两种说法，分工不同：**in terms of + 名词** 冷静、分析性强，用来一项项摆数据（In terms of cost, B is the clear winner.）；**when it comes to + 名词 / -ing** 更口语，常常引出自己的判断（When it comes to risk, I'd choose B.）。林晓的顺序很值得学：先用 in terms of 摆事实，最后用 when it comes to 说自己的看法。两个常见错误：terms 一定是复数；when it comes to 的 to 是介词，后面接 -ing（✗ when it comes to choose）。每说一个标准，后面最好马上跟一个数字或事实（forty hours vs five），否则只是空泛的判断。
+@d_when: 逐项比较方案、供应商、候选人；会上转到一个新的话题。
+@d_vs: **In terms of cost, B is the clear winner.** 从成本来看，B 明显胜出。（摆事实）\n**When it comes to risk, I'd choose B.** 说到风险，我会选 B。（引出判断）\n**When it comes to choosing a supplier, price isn't everything.** 选供应商这件事，价格不是全部。\n✗ In the aspect of cost, B is better.\n✗ When it comes to choose, …
+@d_task: 比较两家快递：在价格方面，A 便宜两美元；说到速度，你会选 B。 | In terms of price, A is two dollars cheaper. When it comes to speed, I'd choose B.
+@diff: 「另一方面」——On the other hand, …
+@d_cn: 说完一个方案的好处，转过来说另一面：「另一方面」「不过话说回来」。
+@d_en: On the other hand, A gets us live two weeks earlier. / The hotel is expensive. On the other hand, it's next to the venue. / Then again, …
+@d_why: 很多学生以为 **on the other hand** 前面一定要有 on the one hand——不需要，美国人单用 on the other hand 的时候多得多；把两个都说出来（On the one hand… on the other hand…）显得像写作文。它的作用是「换个角度」：引出**相反方向**的考虑。所以不能用它补充同方向的优点：✗ B is cheaper. On the other hand, it's safer.（这两点都在夸 B，用 also / and 就行）。✗ on the other side 是直译。Emma 在一片「B 更好」的讨论中说 On the other hand, A gets us live two weeks earlier.，正是在公平地替 A 说话——会上有人专门指出另一面，决定才做得稳。口语里更随意的说法是 **Then again, …**。
+@d_when: 比较利弊、帮被忽视的一方说话、写对比邮件的转折段。
+@d_vs: **On the other hand, A gets us live two weeks earlier.** 另一方面，A 能让我们早两周上线。\n**The hotel is expensive. On the other hand, it's next to the venue.** 酒店是贵，不过另一方面，它就在会场旁边。\n**Then again, Priya might not mind.** 不过话说回来，Priya 也许不在乎。（随意）\n✗ B is cheaper. On the other hand, it's also safer.\n✗ On the other side, A is faster.
+@d_task: 说新办公室：离地铁远；另一方面，租金便宜很多。 | The new office is far from the subway. On the other hand, the rent is much lower.
+@diff: 「优缺点」——pros and cons / advantages and disadvantages / a big pro / the main con
+@d_cn: 列出一个方案的好处和坏处，中文说「优缺点」「利弊」「好的地方、不好的地方」。
+@d_en: You've laid out the pros and cons clearly. / B's big advantage is simplicity. / Yes, that's a disadvantage. / That's a real pro. / The big con is November.
+@d_why: 中文「优缺点」直译成 ✗ good points and bad points 很孩子气。英文按正式程度分三档：**advantages and disadvantages** 最正式，适合书面报告；**pros and cons** 是会议和日常最常用的，顺序固定（✗ cons and pros）；单独说一点时用 **a big pro / the main con**，很口语，张涛和 Mike 就是这么说的。D102 学过的 upside / downside、trade-off 也属于这一组：downside 和 con 意思接近，trade-off 是「取舍」本身。讲对比表时，美国同事期待你把每个优缺点量化：That's a real pro → 早两周上线；The big con is November → 旺季手工维护映射表。只说 A has many advantages. 等于什么都没说。
+@d_when: 在会上讲方案、写对比报告、帮朋友做选择。
+@d_vs: **You've laid out the pros and cons clearly.** 优缺点你都摆得很清楚。（会议、日常）\n**B's big advantage is simplicity.** B 最大的优势是简单。（正式）\n**That's a real pro.** 这是个实实在在的优点。（口语）\n**The big con is November.** 最大的缺点在十一月。（口语）\n✗ The good points and bad points of A…\n✗ Let's talk about the cons and pros.
+@d_task: 帮朋友分析租房：先说要把优缺点列一下；最大的优点是离公司近，主要缺点是小。 | Let's list the pros and cons. The big pro is that it's close to your office. The main con is that it's small.
+
+@core: Let's compare the two options side by side. | 开场：把两个方案并排比较 | the two options / the two suppliers / both contracts | 正式：I'd like to present a side-by-side comparison of the two options.｜随意：Let's put them next to each other.
+@core: Option A is faster, whereas Option B is cheaper to maintain. | 并排摆出两个方案的主要区别 | faster / cheaper / simpler；to maintain / to build / to run | 正式：Option A offers speed, whereas Option B offers lower maintenance costs.｜随意：A's faster, but B's cheaper to run.
+@core: So it's speed versus maintenance. | 一句话点出核心取舍 | speed / cost / quality / risk | 正式：The key trade-off is between speed and maintenance.｜随意：It's fast versus cheap, basically.
+@core: In terms of cost, B is the clear winner. | 按一个标准摆事实 | cost / speed / complexity；the clear winner / slightly better | 正式：In terms of total cost, Option B performs significantly better.｜随意：Cost-wise, B wins easily.
+@core: On the other hand, A gets us live two weeks earlier. | 替另一方说话，指出相反的考虑 | gets us live earlier / needs no extra testing | 正式：On the other hand, Option A would allow us to launch two weeks earlier.｜随意：Then again, A is two weeks faster.
+@core: When it comes to risk, I'd choose B. | 转到一个标准，并给出自己的判断 | risk / quality / long-term cost | 正式：With regard to risk, Option B is the stronger choice.｜随意：Risk-wise, I'd go with B.
+@core: B's big advantage is simplicity. The big con of A is … | 说出各自最大的优点和缺点 | advantage / disadvantage；pro / con | 正式：The main advantage of Option B is its simplicity.｜随意：The good thing about B is it's simple.
+@core: Overall, B scores sixteen out of twenty, and A scores ten. | 给出对比表的总分 | sixteen / ten；out of twenty | 正式：In the decision matrix, Option B receives a total score of 16 out of 20.｜随意：B gets sixteen, A gets ten.
+
+@pw: criteria | kraɪˈtɪriə | 4 个音节 cri·TE·ri·a | 开头读 `/kraɪ/`；重音在 te，读 `/tɪ/`；单数 criterion
+@pw: whereas | werˈæz | 2 个音节 where·AS | 重音在后；as 读 `/æz/`，嘴张大，s 浊化
+@pw: maintenance | ˈmeɪntənəns | 3 个音节 MAIN·te·nance | 重音在前；对比动词 main·TAIN 重音在后——名词别读成 main-TAIN-ance
+@pw: complexity | kəmˈpleksəti | 4 个音节 com·PLEX·i·ty | 重音在 plex；com 弱读成 `/kəm/`；-ty 的 t 闪音
+@pw: simplicity | sɪmˈplɪsəti | 4 个音节 sim·PLI·ci·ty | 重音在 pli；c 读 `/s/`
+@pw: benchmark | ˈbentʃmɑːrk | 2 个音节 BENCH·mark | 复合名词，重音在前；ch 读 `/tʃ/`
+@pw: disadvantage | ˌdɪsədˈvæntɪdʒ | 4 个音节 dis·ad·VAN·tage | 主重音在 van，`/æ/` 嘴张大；-tage 读 `/tɪdʒ/`，不读「泰奇」
+@ps: Option **A** is **fast**er, / **where**as Option **B** / is **cheap**er to main**tain**. | 对比重音：A 和 B、faster 和 cheaper 都重读；前半句语调微升，后半句落下；maintain 重音在后。
+@ps: In **terms**‿of **cost**, / **B** is the clear **win**ner. | terms of 连成 `/tɜːrmzəv/`；B 重读，因为它是对比的焦点；winner 语调落下，听起来很肯定。
+@ps: On the **oth**er hand, / **A** gets‿us **live** / two weeks **ear**lier. | the 在元音前读 `/ði/`；go live 的 live 读 `/laɪv/`（「上线」），不读 `/lɪv/`（「居住」）；gets us 连成 `/ɡetsəs/`。
+@ps: When‿it **comes** to **risk**, / I'd choose **B**. | When it 连读，t 闪音：`/wenɪt/`；to 弱读成 `/tə/`；I'd 的 d 很轻，别丢掉，丢了就成了 I choose。
+@pnote: 数字陷阱：**for**ty hours（重音在前）vs October four**teenth**（重音在后）——会上这两个数字都出现了，听不清时靠重音分辨；sixteen out of twenty 读 six**teen**，别听成 sixty；four times the benchmark = 「是基准的四倍」。字母 **A** `/eɪ/` 和 **B** `/biː/` 在比较时总是重读，是笔记里最重要的两个字母。
+@pnote: 重音会跟着词性移动：main**tain** → **main**tenance；com**plex**（单独用）→ a **com**plex system（名词前）；as**sess** → as**sess**ment（不移动）。复合名词重音在前：**bench**mark、**launch** plan、**code** list、**peak** volume。
+@lfocus: 两个方案：A → October 14, keep old codes, mapping by hand；B → Raj's team, standard codes, two more weeks of testing, October 28
+@lfocus: 数字：forty vs five hours a month、benchmark ten（four times）、sixteen vs ten out of twenty
+@lfocus: 谁说了什么：Mike → speed versus maintenance / con = November, freeze, January；Emma → on the other hand / weigh equally?；Leo → initial cost；Tom → pro: Priya / recommendation tomorrow
+@dict: S8–S12
+@dict: S20–S24
+@res: 在 youglish.com 输入 "on the other hand"，选 US，注意美国人很少先说 on the one hand。
+
+@mimic: 跟读【C】S7–S29：先正常语速逐句跟读，重点模仿 S12 的对比重音（Option **A**… Option **B**…）和 S17、S20、S23 三个比较句型的节奏；再你演林晓，手机朗读张涛、Mike、Emma 和 Leo 的台词，完整对一遍并录音。最后不看书，只看 S1–S5 的邮件和自己的笔记，用 1 分钟把两个方案并排讲一遍。
+@swap: Option A is faster, whereas Option B is cheaper to maintain. | 换对象和特点：the old warehouse／the new warehouse；closer to the port／cheaper to rent | The old warehouse is closer to the port, whereas the new one is cheaper to rent.
+@swap: In terms of cost, B is the clear winner. | 换标准和结论：speed → A is slightly better；quality → it's a tie；price → the local supplier wins | In terms of speed, A is slightly better.
+@swap: On the other hand, A gets us live two weeks earlier. | 换另一面：needs no extra testing／is easier to explain to the client／costs less upfront | On the other hand, A needs no extra testing.
+@swap: When it comes to risk, I'd choose B. | 换标准和选择：quality → the German supplier；long-term cost → the new system；customer service → Grace's plan | When it comes to quality, I'd choose the German supplier.
+@free: 张涛问你：两家物流商怎么选？你先用一句话说出核心取舍（速度和价格），再各说一个数字 | It's basically speed versus price. FastShip delivers in five days, whereas BlueLine takes eight. On the other hand, BlueLine is about twenty percent cheaper.
+@free: 会上大家都在夸方案 B，你想替方案 A 说句公道话：它不用额外测试，前期成本低 | On the other hand, A needs no extra testing. Its initial cost is much lower, so it's worth keeping in mind.
+@free: 同事问你的对比表是怎么打分的。说明四个标准、满分、以及你认为最重要的那一项 | I scored each option from one to five on four criteria: speed, complexity, maintenance and risk. The total is out of twenty. If I had to rank them, risk would come first.
+@free: 朋友在纠结要不要换工作（新工作工资高 20%，但每天通勤多一个小时）。帮他列优缺点 | Let's look at the pros and cons. The big pro is the salary: it's twenty percent higher. The main con is the commute, because you'd spend an extra hour on the road every day.
+@output: 写一封 8–12 句的邮件，发给上司，比较两个方案（任选：两家供应商、两个办公地点、两套软件、两种假期安排……）。标题写在任务里，例如 "Two options for extra holiday staff"。结构：一句话说明目的（I've compared… side by side）→ whereas 一句话点出主要区别 → In terms of… 摆数字 → On the other hand… 替另一方说话 → 各说一个 pro 和 con → When it comes to… 给出你的初步看法 → 对比表的总分 → 约时间讨论。今天先比较，明天再正式给建议。
+@output_sample: Hi Tom,\nI've compared our two options for extra holiday staff side by side.\nOption A is to hire temporary workers, whereas Option B is to pay our own team for overtime.\nIn terms of cost, B is cheaper: about eight thousand dollars versus eleven thousand for December.\nOn the other hand, A gives us more people during the busiest weeks.\nThe big pro of B is speed, because our team already knows the system.\nThe main con is that people will be tired after four weeks of overtime.\nWhen it comes to quality, I'd choose B, since new workers usually make more mistakes.\nIn the attached matrix, B scores fifteen out of twenty, and A scores twelve.\nCould we discuss it on Thursday morning?\nBest,\nLily
+
+@check: 听力：两个方案分别是什么，各在哪天上线？Mike 用哪三个词概括了取舍？ | A：10 月 14 日上线，继续由 SwiftLink 自己翻译 BrightNest 的旧代码（手工维护映射表）；B：Raj 的团队先换成标准代码，再多测两周，10 月 28 日上线。Mike 说 speed versus maintenance（速度和维护之间的取舍）。
+@check: 听力：A 和 B 每月各要多少维护工时？基准是多少？总分各是多少？会议最后张涛要林晓做什么？ | A 约 40 小时，B 约 5 小时；同等规模客户的基准是每月 10 小时（A 是基准的四倍）；总分 B 16 分、A 10 分（满分 20）。张涛要她明天给出明确的建议（recommendation）。
+@check: 用 whereas 说一句：你们深圳团队擅长客户沟通，西雅图团队擅长解决技术问题。 | Our Shenzhen team is good at talking to customers, whereas the Seattle team is good at solving technical problems.
+@check: 改错：✗ In the aspect of price, Plan B is better. On the other side, Plan A is faster, and it has many good points. | In terms of price, Plan B is better. On the other hand, Plan A is faster, and it has some real pros.（in the aspect of 和 on the other side 都是直译；good points 换成 pros / advantages）
+@check: 换个场景：朋友纠结买电车还是油车。用 pros and cons、whereas 和 when it comes to 说两三句。 | Let's look at the pros and cons. An electric car is cheaper to run, whereas a gas car is cheaper to buy. When it comes to long road trips, I'd choose the gas car.
+@check: 读音：① go live 的 live 怎么读？② maintain 和 maintenance 的重音？③ forty hours 和 October fourteenth 怎么区分？ | ① `/laɪv/`（「上线」），不读 `/lɪv/` ② main-TAIN（重音在后），MAIN-te-nance（重音在前）③ FOR-ty 重音在前；four-TEENTH 重音在后
+@next1: 不看书说出 5 个锚点句：S8、S12、S17、S20、S23
+@next1: 用 whereas 和 on the other hand 比较你手机上的两个 App
+@next1: 想一想：如果你是林晓，明天会推荐哪个方案？准备一句理由
+@next7: 比较五句：side by side → whereas → In terms of… → On the other hand… → When it comes to…, I'd choose…
+@next7: pros and cons / advantage / disadvantage / a big pro / the main con：各造一句关于你自己工作或生活的话

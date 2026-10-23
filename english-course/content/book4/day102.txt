@@ -1,0 +1,161 @@
+@day: 102
+@week: 2
+@title_cn: 头脑风暴与提建议
+@title_en: Brainstorming Ideas
+@topic: 头脑风暴：定规则、提点子（What if we…? / Why don't we…? / I suggest we…）、评价点子的利弊、在别人的点子上取长补短
+@think_short: 「要不我们……」What if we…?｜「我们……吧」Why don't we…?（不是问原因）｜「我建议我们……」I suggest we…（✗ suggest sb to）｜「可以试试」That could work.｜「在……的基础上」build on｜「有得有失」It's a trade-off.
+
+@goal_scene: 规划会卡在「10 个还是 50 个卖家」。你是主持人，提议停止争论、先头脑风暴：定好「先不评判」的规则，用 What if we…? / Why don't we…? / I suggest we… 提出和接住点子，用 That could work / promising / drawback / trade-off 评价，再把几个人的想法合成一个大家都能接受的方案。
+@goal_expr: There are no bad ideas in a brainstorm. / What if we start with ten sellers instead of fifty? / Why don't we run a small pilot first? / That could work. But let's tweak it. / Let's build on Emma's idea. / I suggest we combine… / It's a trade-off. / I don't need an innovative plan. I need a workable one.
+@goal_vocab: 20 个重点词 + 5 个短语：头脑风暴、产品思路（原型、样稿、迭代）、评价点子的利弊、调整与合并方案
+@done: 能主持一段头脑风暴：定规则（There are no bad ideas in a brainstorm. / Don't judge anything yet.），用 What if we…? / Why don't we…? 提点子
+@done: 能用正确的句型提建议：I suggest we… / I'd suggest -ing，不再说 ✗ suggest sb to do；知道 Why don't we…? 是建议，不是在问原因
+@done: 能评价和改进别人的点子（That could work. But let's tweak it… / The upside… the downside… / It's a trade-off. / Let's build on…），并写一封 8–12 句的建议邮件
+
+@warmup: 抱歉，我能插一句吗？ | Sorry, can I just jump in here? | D101
+@warmup: 您能具体说说第二个选项吗？ | Could you elaborate on the second option? | D101
+@warmup: 我们能回到 Raj 刚才说的那个数据吗？ | Can we go back to what Raj said about the data? | D101
+@warmup: 我坚决认为我们需要更多测试。 | I feel strongly that we need more testing. | D99
+@warmup: 这个月订单增长了 15%。 | Orders increased by fifteen percent this month. | D69
+@warmup: 我已经看了四套，可都太远了。 | I've seen four places, but they were all too far. | D45
+
+@scene: 上一场视频会结束时，大家还是卡在「10 个还是 50 个卖家」：Raj 的数据显示，最大的 10 个卖家占了试点订单的六成——Priya 觉得数据够多了，Mike 却觉得风险太集中。这一次，林晓决定换个办法：不再争谁对谁错，先头脑风暴。她在会上打开一块在线白板，定下规矩：先不评判，什么点子都写上去。实习生 Leo 先抛出一个「脑洞很大」的想法；产品经理 Emma 用做产品的思路，提出先做个小试点；Priya 在 Emma 的基础上让了一步；Mike 接住她的点子，又调整了一下。林晓要学会提建议的几种说法，学会评价点子、取长补短，最后把大家的想法合成一个都能接受的方案。会还没开完，Priya 就给她的副总裁 Karen 发了条消息。
+@sp: 人物关系 | 林晓主持；Emma 是 SwiftLink 的产品经理，习惯「先做原型、再迭代」；Priya 和 Mike 分别代表「要数据」和「控风险」两种意见；Leo 是实习生，第一次在客户会上提点子
+@sp: 沟通目的 | 把「谁对谁错」的争论变成「一起想办法」：先收集点子、不评判，再评估利弊、取长补短，合成一个双方都能接受的试点方案
+@sp: 已知信息 | Raj 的数据：最大的 10 个卖家约占试点订单的 60%；Mike 的测试目前覆盖 10 个卖家，Ana 测完另外 40 个还要两周；试点 9 月 14 日开始；如果大家定不下来，Karen 会出面拍板
+@sp: 表达重点 | 定规则（no bad ideas / don't judge）→ 提点子（What if we…? / Why don't we…?）→ 评价（promising / drawback / upside / downside / trade-off）→ 改进与合并（That could work. But let's tweak it… / build on / I suggest we combine…）→ 强调可行（workable）
+
+@story_title: Episode 102 · No Bad Ideas
+@story_type: 视频会议（在线白板）+ 会中消息
+@s: The team is still stuck between ten sellers and fifty, so Lily opens an online **whiteboard**. | 大家还是卡在十个卖家和五十个卖家之间，于是林晓打开了一块在线白板。
+@s: Lily: Let's stop debating and **brainstorm** for ten minutes. | 林晓：我们先别争了，花十分钟头脑风暴一下。
+@s: Lily: There are no bad ideas in a brainstorm. Don't **judge** anything yet. | 林晓：头脑风暴里没有坏点子。先别评判任何想法。
+@s: Leo: Here's a **wild** one. **What if we** go live on a Sunday, when orders are low? | Leo：我有个脑洞很大的想法：要不我们挑订单少的周日上线？
+@s: Lily: Love it. Let's all **think outside the box**. | 林晓：很好！大家都跳出框框想一想。
+@s: Emma: In product, we never launch everything at once. We build a **prototype** or a **mock-up** first. | Emma：做产品的时候，我们从来不会一下子全部上线，总是先做个原型或者样稿。
+@s: Emma: **Why don't we** run a small pilot first? It's a simple **concept**: start small, learn, then grow. | Emma：我们先做个小试点吧？思路很简单：先小规模做，边做边学，再扩大。
+@s: Priya: Here's another **possibility**. What if we start with ten sellers instead of fifty? | Priya：还有一种可能：要不我们先上十个卖家，不上五十个？
+@s: Priya: But our ten biggest. Raj says they ship sixty percent of pilot orders. | Priya：不过要选我们最大的十个。Raj 说，试点订单有六成是他们发的。
+@s: Mike: Now that's **promising**. The **drawback** is risk: sixty percent of orders in one group. | Mike：这个有戏。缺点是风险：六成的订单都压在一批卖家身上。
+@s: Lily: Let's list the **upside** and the **downside** of each idea. | 林晓：我们把每个点子的好处和坏处都列一下。
+@s: Emma: It's a **trade-off**. More data means more risk. | Emma：这是个取舍问题：数据越多，风险越大。
+@s: Mike: **That could work**. But let's **tweak** it: five big sellers and five small ones. | Mike：这个可以试试。不过我们稍微调整一下：五个大卖家，加五个小卖家。
+@s: Lily: Let's **build on** Emma's idea. | 林晓：我们就在 Emma 的点子上往下想。
+@s: Lily: I suggest we **combine** the small pilot with Priya's ten and Mike's tweak. | 林晓：我建议把小试点、Priya 的「十个卖家」和 Mike 的调整合在一起。
+@s: Emma: And we treat the first two weeks as an **experiment**. Then we **iterate**. | Emma：前两周就当作一次试验，然后再不断调整。
+@s: Mike: And Ana can test the other forty sellers in those two weeks. | Mike：这两周里，Ana 正好可以把另外四十个卖家测完。
+@s: Priya: I don't need an **innovative** plan. I need a **workable** one. | Priya：我不需要一个多有新意的方案，我需要一个行得通的方案。
+@s: Priya: This one works. | Priya：这个就行得通。
+@s: Leo: So my Sunday idea is out? | Leo：那我的周日方案就没戏了？
+@s: Lily: It got everyone thinking. That was a **creative** start, Leo. | 林晓：它让大家都开动了脑筋。这是个很有创意的开头，Leo。
+@br:
+@s: While Mike updates the whiteboard, Priya messages Karen: | Mike 更新白板的时候，Priya 给 Karen 发了条消息：
+@s: Good news. We have a workable plan: ten sellers on September 14, fifty two weeks later. | 好消息：我们有了一个可行的方案——9 月 14 日先上十个卖家，两周后上到五十个。
+@s: Can I call you after the meeting? | 会后我能给你打个电话吗？
+
+@v: whiteboard | = | n. | ˈwaɪtbɔːrd | 白板；（视频会里的）在线白板 | 会上写下点子、画流程 | an online whiteboard；write it on the whiteboard；a whiteboard marker | Let's put all the ideas on the whiteboard. | 我们把所有点子都写到白板上吧。 | 复合名词，重音在前：WHITE-board；a white board（一块白色的板子）重音在 board；视频会里的共享白板也叫 whiteboard；「白板笔」是 a whiteboard marker，不说 ✗ white pen。
+@v: brainstorm | = | v./n. | ˈbreɪnstɔːrm | 头脑风暴；集思广益 | 先不评判，大家一起想点子 | brainstorm ideas；brainstorm for ten minutes；a brainstorming session | Let's brainstorm some names for the new feature. | 我们一起想想新功能叫什么名字吧。 | 动词和名词同形：Let's brainstorm. / There are no bad ideas in a brainstorm.；动词可以直接带宾语：brainstorm ideas / brainstorm names；名词也常说 a brainstorming session；复合词重音在前：BRAIN-storm。
+@v: judge | = | v. | dʒʌdʒ | 评判；下判断 | 头脑风暴阶段先不评价点子 | judge an idea；don't judge yet；judge by… | Don't judge the idea too quickly. Let's test it first. | 别急着评判这个点子，先试试看。 | 中文「评判、评价」是 judge；Don't judge. 在美国口语里还常指「别对人有成见」；名词 judgment（美式拼写，中间没有 e）；a judge 是「法官、评委」；u 读 `/ʌ/`，两个 dge / j 都读 `/dʒ/`。
+@v: wild | = | adj. | waɪld | 大胆的；天马行空的 | 提出一个离谱、但可能有启发的点子 | a wild idea；a wild guess；Here's a wild one. | I have a wild idea, but hear me out. | 我有个很大胆的想法，你们先听我说完。 | wild 本义「野生的」，形容点子是「大胆、离谱」，在头脑风暴里是中性甚至褒义的；Here's a wild one. 是提点子前先打招呼；a wild guess 是「瞎猜」；读 `/waɪld/`，不读 `/wɪld/`。
+@v: What if we | what if we | phr. | ˈwʌt ɪf wi | 要不我们……？如果我们……会怎样？ | 头脑风暴时提出一个可能性 | What if we…?；What if we tried…?；What if…?（也可以表示担心） | What if we move the meeting to the morning? | 要不我们把会改到上午？ | 后面用一般现在时：✓ What if we start…?（✗ What if we will start…?）；用过去式 What if we started…? 更委婉，像随口一提；Day 100 林晓用 What if the statuses are wrong? 提出风险——同一个句型，靠语调和上下文分辨；What if we 连读 `/ˈwʌɾɪf wi/`。
+@v: think outside the box | = | phr. | ˌθɪŋk ˌaʊtsaɪd ðə ˈbɑːks | 跳出常规思维；打破框框 | 鼓励大家想新点子 | think outside the box；out-of-the-box thinking；We need to think outside the box. | We need to think outside the box to cut costs. | 想降低成本，我们得跳出常规思路。 | 中文「打破思维定式」「脑洞开大一点」都可以这样说；这是一句用得很多的商务套话，偶尔用很自然，说多了会显得空；the box 的冠词不能丢；th 两个都要咬舌：think `/θ/`，the `/ð/`。
+@v: prototype | = | n. | ˈproʊtətaɪp | 原型；样机 | 产品开发中先做一个简单的版本来测试 | build a prototype；a working prototype；test the prototype | We tested the prototype with five users. | 我们找了五个用户测试这个原型。 | 产品经理说的「原型」：能用、但很简单的第一版；mock-up 更偏「长什么样」，prototype 更偏「能不能跑起来」；也可以作动词：prototype a feature；重音在前 PRO-to-type，o 读 `/oʊ/`。
+@v: mock-up | = | n. | ˈmɑːkʌp | （页面、产品的）样稿；模型 | 展示设计或方案大概长什么样 | a mock-up of the page；create a mock-up；a quick mock-up | Emma shared a mock-up of the new tracking page. | Emma 分享了新物流跟踪页面的样稿。 | 名词带连字符 mock-up（也写作 mockup），重音在前 MOCK-up；动词短语 mock up 分开写，重音在后：Can you mock up the page?；mock 单用是「嘲笑」，别弄混。
+@v: Why don't we | why don't we | phr. | waɪ ˈdoʊnt wi | 我们……吧（提建议，不是问原因） | 提出一个友好的建议 | Why don't we…?；Why don't you…?；Why not…? | Why don't we take a short break? | 我们休息一会儿吧？ | 这是建议，不是问原因！回应用 Good idea. / Sure.，不说 ✗ Because…；别和 Why didn't you…?（你怎么没……？质问）混；Why don't you…? 也是建议，但对上级说可能显得在指挥对方；don't we 连读 `/ˈdoʊnwi/`，句末语调下降。
+@v: concept | = | n. | ˈkɑːnsept | 概念；思路；构想 | 说一个点子的核心思路 | a simple concept；the basic concept；proof of concept | The concept is simple: test small, then grow. | 思路很简单：先小规模测试，再扩大。 | 中文的「思路」「构想」在商务口语里常是 concept：The concept is simple…；「概念验证」是 proof of concept（proof 第一册 Day 28 学过）；重音在前 CON-cept。
+@v: possibility | = | n. | ˌpɑːsəˈbɪləti | 可能（的办法）；可能性 | 头脑风暴里提出另一个选择 | another possibility；a real possibility；the possibility of… | One possibility is to start with five sellers. | 一个办法是先从五个卖家开始。 | 提另一个选择：Here's another possibility. / Another possibility is to…；「……的可能性」常说 the possibility of + -ing：the possibility of adding more sellers；重音在 BIL：pos-si-BIL-i-ty。
+@v: promising | = | adj. | ˈprɑːmɪsɪŋ | 有希望的；有前景的 | 评价一个点子或结果看起来不错 | a promising idea；promising results；look promising | The first results look promising. | 初步的结果看起来很有希望。 | promising 是形容词「有希望的」，和「答应」无关；Now that's promising. 是对点子很积极的评价，但还不等于拍板；重音在前 PROM-is-ing，o 读 `/ɑː/`。
+@v: drawback | = | n. | ˈdrɔːbæk | 缺点；不利之处 | 指出一个点子的问题 | the main drawback；one drawback is…；the drawback of… | The main drawback is the cost. | 主要的缺点是成本。 | 「缺点」可以说 drawback / downside / disadvantage；drawback 偏正式、具体，常说 The drawback is…；不用来说人的缺点（人的缺点是 weakness）；复合名词重音在前 DRAW-back。
+@v: upside | = | n. | ˈʌpsaɪd | 好处；有利的一面 | 评估点子的利弊 | the upside is…；the upside of…；a big upside | The upside is that we get real data quickly. | 好处是我们能很快拿到真实数据。 | upside 和 downside 是一对，口语里很常用：The upside is…, but the downside is…；比 advantage / disadvantage 随意；重音在前 UP-side。
+@v: downside | = | n. | ˈdaʊnsaɪd | 坏处；不利的一面 | 评估点子的利弊 | the downside is…；the only downside；the downside of… | The only downside is that it takes longer. | 唯一的坏处是花的时间更长。 | the only downside 常用来说「基本都好，只有一点不足」；和 drawback 意思接近，更口语；重音在前 DOWN-side，ow 读 `/aʊ/`。
+@v: trade-off | = | n. | ˈtreɪdɔːf | 取舍；权衡（得到一样就要舍掉一样） | 说两个目标不能同时最大化 | a trade-off between A and B；make a trade-off；It's a trade-off. | There's always a trade-off between speed and quality. | 速度和质量之间总要有所取舍。 | 中文「有得有失」「要权衡」= It's a trade-off.；名词带连字符，重音在前 TRADE-off；动词短语 trade off 分开写，重音在后：trade off speed for quality；介词用 between：a trade-off between A and B。
+@v: That could work | that could work | phr. | ˌðæt kəd ˈwɜːrk | 这个可以试试；也许行得通 | 对点子给出肯定但留有余地的评价 | That could work.；That could work, but…；That might work. | "Why don't we ask Grace's team?" "That could work." | 「要不我们问问吴佳的团队？」「这个可以试试。」 | could 表示「有可能」，比 That will work.（一定行）留有余地，很适合头脑风暴；常接 But let's tweak it… 继续改进；说「这个不行」别用 ✗ That can't work.，用 I'm not sure that would work, because… 更委婉。
+@v: tweak | = | v./n. | twiːk | 微调；稍作修改 | 在一个点子或方案上做小改动 | tweak the plan；a small tweak；tweak it a little | Let's tweak the email before we send it. | 发之前我们再微调一下这封邮件。 | tweak 是「小改」，大改用 change 或 redesign；名词：a small tweak；Mike 说 let's tweak it，等于接受了 Priya 的点子、只改一点——这是很好的合作信号；ea 读 `/iː/`。
+@v: build on | = | phr. | ˈbɪld ɑːn | 在……的基础上发展；接着……往下想 | 头脑风暴时接着别人的点子往下加 | build on sb's idea；build on what X said；build on our success | Let's build on what Ana said about testing. | 我们接着 Ana 说的测试问题往下想。 | build on 是头脑风暴的核心：不推翻别人的点子，而是接着往上加；Let's build on Emma's idea. 同时也肯定了 Emma；on 不能丢：✗ build Emma's idea；build on 连读 `/ˈbɪldɑːn/`。
+@v: combine | = | v. | kəmˈbaɪn | 结合；合并 | 把几个点子合成一个方案 | combine A with B；combine A and B；a combined plan | Let's combine the two plans. | 我们把两个方案合起来吧。 | combine A with B / combine A and B 都可以；「结合在一起」不说 ✗ combine together（together 多余）；动词重音在后 com-BINE；I suggest we combine… 是主持人收拢点子时很好用的一句。
+@v: experiment | = | n./v. | ɪkˈsperɪmənt | 试验；实验 | 把试点当作一次可以学习、调整的尝试 | an experiment；run an experiment；experiment with sth | Let's treat the first month as an experiment. | 我们把第一个月当作一次试验。 | 把试点叫 an experiment，等于告诉大家「出问题可以接受，我们会学习、调整」；动词要加 with：experiment with new ideas（✗ experiment new ideas）；名词结尾读 `/mənt/`，动词结尾常读 `/ment/`。
+@v: iterate | = | v. | ˈɪtəreɪt | 迭代；反复改进 | 产品和项目里「做 → 学 → 改」的循环 | iterate on sth；iterate quickly；test and iterate | We launch early and iterate based on feedback. | 我们尽早上线，再根据反馈不断迭代。 | 互联网行业说的「迭代」就是 iterate：iterate on the design；名词 iteration（一次迭代、一个版本）；重音在前 IT-er-ate，t 在美式里闪音，像 ID-er-ate。
+@v: innovative | = | adj. | ˈɪnəveɪtɪv | 创新的；新颖的 | 评价方案、产品、做法有新意 | an innovative idea；innovative solutions；highly innovative | They found an innovative way to handle returns. | 他们找到了一种处理退货的新办法。 | 中文爱说「创新」，英文商务里 innovative 也常见；但 Priya 那句 I don't need an innovative plan. I need a workable one. 提醒我们：客户更在乎能不能落地；名词 innovation；重音在前 IN-no-va-tive，也有人读 `/ˈɪnəvətɪv/`。
+@v: workable | = | adj. | ˈwɜːrkəbl | 可行的；行得通的 | 评价方案能不能落地 | a workable plan；a workable solution；workable for us | We need a workable solution by Friday. | 我们周五前需要一个可行的解决办法。 | workable 比 feasible（第三册 Day 78）口语一点，常和 plan / solution 连用；That's workable for us. = 我们这边可以接受；结尾 -able 读 `/əbl/`。
+@v: creative | = | adj. | kriˈeɪtɪv | 有创意的；有创造力的 | 夸一个点子或一个人想法新 | a creative idea；get creative；creative thinking | That's a creative solution to the problem. | 这是个很有创意的解决办法。 | creative 不只用于艺术，商务里也常用来夸人：That's very creative. / Let's get creative.（我们发挥一下创意）；重音在 a：cre-A-tive，开头读 `/kri/`，三个音节。
+
+@diff: 「我建议……」——I suggest we… / I'd suggest -ing（不说 suggest sb to do）
+@d_cn: 会上想提一个建议：中文「我建议我们……」「我建议你先……」，结构很自由。
+@d_en: I suggest we combine the small pilot with Priya's ten. / I'd suggest starting with ten sellers. / I suggest that you wait until Friday.
+@d_why: 中文「建议某人做某事」很自然地被套成 ✗ I suggest you to wait.——这是中国学生最顽固的错误之一。suggest 后面**不接「人 + to do」**，正确的有三种：**I suggest we combine…**（suggest + 主语 + 动词原形，最常用）；**I suggest that you wait.**（加 that，更正式，书面里常见）；**I'd suggest starting with ten sellers.**（suggest + -ing，不点明是谁做）。语气上，I suggest we… 清楚、直接，像主持人在推动；I'd suggest… 加了 would，柔和一点；更软的是 Maybe we could…。头脑风暴里最自然的是下面两组：What if we…? / Why don't we…?；到了收拢点子的时候，再用 I suggest we… 把方案定下来，林晓就是这样做的。
+@d_when: 会议上提出方案；邮件里给建议（I'd suggest…）；主持人把大家的点子合在一起时。
+@d_vs: **I suggest we combine the two ideas.** 我建议我们把两个点子合起来。\n**I'd suggest starting with ten sellers.** 我建议先从十个卖家开始。\n**I suggest that you wait until Friday.** 我建议你等到周五。（较正式）\n✗ I suggest you to wait.\n✗ I suggest to start with ten sellers.
+@d_task: 用两种正确的句型建议：先在沙盒环境里测试一周。 | I suggest we test it in the sandbox for a week. / I'd suggest testing it in the sandbox for a week.
+@diff: 「要不我们……？」——What if we…?
+@d_cn: 头脑风暴时抛出一个想法，又不想显得在下结论：中文说「要不我们……」「如果我们……会怎么样」。
+@d_en: What if we start with ten sellers instead of fifty? / What if we go live on a Sunday? / What if we tried a mock-up first?
+@d_why: **What if we…?** 是头脑风暴里最好用的一句：它把点子包装成一个问题，听的人不会觉得你在拍板，可以放心地接着想。语法很简单：后面用**一般现在时**（What if we start…?），✗ What if we will start…? 是常见错误；改用过去式 What if we started…? 更委婉，像随口一提。同一个 What if… 在 Day 100 里林晓用来提出风险（What if the statuses are wrong?）——靠语调分辨：提点子时语气轻快、句末微微上扬；提风险时更慢、更沉。中国学生常把「要不我们……」说成 ✗ How about we will…?，或者干脆说 We can start with ten.（听起来像已经决定了）。
+@d_when: 头脑风暴；会议陷入僵局、想提出一个新方向时。
+@d_vs: **What if we start with ten sellers instead of fifty?** 要不我们先上十个，不上五十个？\n**What if we tried a mock-up first?** 要不我们先做个样稿试试？（更委婉）\n**How about starting on Monday?** 周一开始怎么样？\n✗ What if we will start on Monday?
+@d_task: 头脑风暴中，你想提出：要不我们先给吴佳的团队培训一次，再上线？ | What if we train Grace's team before we go live?
+@diff: 「我们为什么不……？」——Why don't we…? 是建议，不是问原因
+@d_cn: 中文「我们为什么不……」常带一点质问的味道；可英文里 Why don't we…? 天天在用，语气很友好。
+@d_en: Why don't we run a small pilot first? / Why not ask Raj? / Why don't you take a break?
+@d_why: 字面是「我们为什么不……？」，实际意思是「我们……吧」，是一个友好的**建议**。中国学生听到 why 就以为对方在问原因，于是认真地回答 ✗ Because…；正确的回应是 **Good idea.** / **That could work.** / **Sure, let's do that.** 还要和两个句子分开：**Why didn't you…?**（你怎么没……？过去时，是质问、批评）；**Why don't you…?**（你……吧）也是建议，但对上级或客户说，可能显得在指挥对方，换成 Maybe you could… 更稳。简短版 **Why not ask Raj?** 很口语。语调上，Why don't we…? 句末多是下降的，听起来像建议，不像疑问。
+@d_when: 会议和日常工作中提建议；同事之间安排事情。
+@d_vs: **Why don't we run a small pilot first?** 我们先做个小试点吧？（建议）\n**Why not ask Raj?** 问问 Raj 呗。（口语）\n**Why didn't you tell me?** 你怎么没告诉我？（质问）\n✗ "Why don't we take a break?" "Because we're busy."（答非所问）
+@d_task: 同事说：Why don't we order lunch for the whole team? 你觉得是好主意，并主动去问大家想吃什么。 | Good idea! I'll ask everyone what they want.
+@diff: 「这个可以」「这个不行」——评价点子：That could work. / I like that, but… / The drawback is…
+@d_cn: 听到一个点子，中文常直接下结论：「这个可以」「这个不行」「没用的」。
+@d_en: That could work. / That's promising. / I like that, but let's tweak it. / The drawback is… / It's a trade-off.
+@d_why: 头脑风暴分两个阶段：**先发散，后评判**。发散阶段说 There are no bad ideas in a brainstorm. Don't judge anything yet.——这时一句 ✗ That won't work. 就能让所有人闭嘴。评判阶段也有分寸：**That could work.**（可以试试，could 留了余地）；**That's promising.**（很有希望）；**I like that, but…** / **That could work. But let's tweak it…**（先肯定，再改进——Mike 就是这样接住 Priya 的点子的）；说缺点用 **The drawback is… / The downside is…**，对事不对人；两边都有道理时说 **It's a trade-off.** 中文「这个不行」直译成 ✗ This is no good. / ✗ That can't work. 太冲，换成 I'm not sure that would work, because…，再给出原因。
+@d_when: 头脑风暴的评判阶段；评审同事的方案；回应客户的提议。
+@d_vs: **That could work.** 这个可以试试。\n**That's promising.** 这个很有希望。\n**That could work. But let's tweak it: …** 可以，不过我们稍微调整一下：……\n**The drawback is the risk.** 缺点是风险。\n✗ That can't work.\n✗ This idea is no good.
+@d_task: Leo 提议所有卖家都在周日上线。你觉得有创意，但缺点是周日西雅图没人值班。先肯定，再说缺点。 | That's a creative idea. The drawback is that nobody in Seattle works on Sundays.
+
+@core: There are no bad ideas in a brainstorm. Don't judge anything yet. | 开始头脑风暴，先定规则 | brainstorm ／ judge ／ for ten minutes | 正式：For the next ten minutes, let's collect ideas without evaluating them.｜随意：No bad ideas. Just throw them out there.
+@core: What if we …? | 提出一个可能性 | start with ten sellers ／ go live on a Sunday ／ tried a mock-up first | 正式：Another possibility would be to start with ten sellers.｜随意：How about we start with ten?
+@core: Why don't we …? | 友好地提建议 | run a small pilot first ／ ask Raj ／ build a mock-up | 正式：Perhaps we could run a small pilot first.｜随意：Why not just try it?
+@core: I suggest we … ／ I'd suggest -ing | 明确地提建议（不说 suggest sb to） | combine the two ideas ／ starting with ten sellers | 正式：I would suggest that we combine the two approaches.｜随意：How about we just combine them?
+@core: That could work. But let's tweak it: … | 肯定一个点子，再改进 | five big sellers and five small ones ／ add a checkpoint | 正式：That seems workable, with one adjustment: …｜随意：Nice. Just one tweak: …
+@core: Let's build on …'s idea. | 在别人的点子上往下想 | Emma's idea ／ what Raj said ／ Mike's tweak | 正式：I'd like to build on Emma's suggestion.｜随意：Adding to Emma's idea, …
+@core: The upside is …, but the downside is …. It's a trade-off. | 评估点子的利弊 | more data ／ more risk ／ speed ／ cost | 正式：The main benefit is…, while the main drawback is…｜随意：Good news: more data. Bad news: more risk.
+@core: I don't need an innovative plan. I need a workable one. | 强调「可行」比「新颖」更重要 | innovative ／ workable ／ creative | 正式：Our priority is a workable solution rather than an innovative one.｜随意：Fancy is nice, but it has to work.
+
+@pw: brainstorm | ˈbreɪnstɔːrm | 2 个音节 BRAIN·storm | 复合词重音在前；storm 要卷舌 `/stɔːrm/`
+@pw: trade-off | ˈtreɪdɔːf | 2 个音节 TRADE·off | 名词重音在前；动词短语 trade off 重音在后：trade OFF
+@pw: mock-up | ˈmɑːkʌp | 2 个音节 MOCK·up | 名词重音在前，k 和 up 连读；动词短语 mock up 重音在 up
+@pw: prototype | ˈproʊtətaɪp | 3 个音节 PRO·to·type | 重音在前；中间的 to 弱读 `/tə/`，t 闪音
+@pw: iterate | ˈɪtəreɪt | 3 个音节 IT·er·ate | 重音在前；t 闪音，像 ID-er-ate
+@pw: innovative | ˈɪnəveɪtɪv | 4 个音节 IN·no·va·tive | 重音在第一个音节，不在 va 上；也有人读 `/ˈɪnəvətɪv/`
+@pw: creative | kriˈeɪtɪv | 3 个音节 cre·A·tive | 重音在 a `/eɪ/`；开头 cre 读 `/kri/`，和后面的 a 分成两个音节
+@ps: **What** if we start with **ten** sellers / in**stead** of **fif**ty?↗ | What if we 连成 `/ˈwʌɾɪf wi/`，t 闪音像轻轻的 d；对比重音落在 ten 和 fifty 上；句末微微上扬：这是在提可能性，不是下结论。
+@ps: **Why** don't we / run a **small** **pi**lot **first**?↘ | don't we 连成 `/ˈdoʊnwi/`，t 几乎吞掉；句末语调下降，听起来是建议，不是在问原因。
+@ps: That **could** work. / But let's **tweak** it: / five **big** sellers / and five **small** ones. | could 重读，表示「可以试试，但还要改」；big 和 small 是对比重音；冒号处稍停，再列出调整的内容。
+@ps: Let's **build** on **Em**ma's i**dea**. | build on 连成 `/ˈbɪldɑːn/`；Emma's idea 里 s 和 i 连读 `/ˈeməzaɪˈdiːə/`；idea 三个音节 i-DE-a，重音在 de。
+@pnote: 复合名词和短语动词的重音对比：名词 ˈwhiteboard、ˈbrainstorm、ˈtrade-off、ˈmock-up、ˈdrawback、ˈupside、ˈdownside 重音都在前；动词短语 trade ˈoff、mock ˈup 重音在后。再对比 a ˈwhiteboard（白板）和 a white ˈboard（一块白色的板子）：重音一变，意思就变了。听的时候，前重后轻的两个音节通常是一个名词。
+@pnote: 建议句的弱读：What if we → `/ˈwʌɾɪf wi/`；Why don't we → `/waɪ ˈdoʊnwi/`；I'd suggest → `/aɪd səɡˈdʒest/`（I'd 很轻，d 和 s 连在一起）；That could work 里的 could 不重读时是 `/kəd/`，重读时是 `/kʊd/`。数字：**six**ty percent 重音在前；**for**ty `/ˈfɔːrti/` 重音在前（拼写没有 u，不是 fourty），four**teen** 重音在后。
+@lfocus: 点子和提出的人：Leo → Sunday（wild）／Emma → small pilot first（prototype）／Priya → ten biggest（sixty percent）／Mike → tweak: five big + five small
+@lfocus: 评价词：promising ／ drawback ／ upside ／ downside ／ trade-off ／ workable——在每个点子旁边记下它得到的评价
+@lfocus: 方案和数字：combine ／ September 14 ／ ten sellers ／ forty more in two weeks（Ana tests them）；Priya → Karen: workable plan, call after the meeting
+@dict: S8–S13
+@dict: S15–S19
+@res: 在 youglish.com 输入 "why don't we"，选 US，听美国人用它提建议时句末下降的语调。
+
+@mimic: 跟读【C】S1–S21：先正常语速逐句跟读，重点模仿 What if we…? 微微上扬和 Why don't we…? 下降的语调，以及 trade-off、mock-up、whiteboard 前重后轻的重音；再由你演林晓，用手机朗读 Leo、Emma、Priya 和 Mike 的台词，完整对一遍并录音。最后合上书，按【C】里出现的四个点子（Sunday ／ small pilot ／ ten biggest ／ five big + five small），用 What if we… / Why don't we… / I suggest we… 把每个点子重新说一遍。
+@swap: What if we start with ten sellers instead of fifty? | 换内容：five instead of ten／on Monday instead of Friday／two weeks instead of one | What if we start on Monday instead of Friday?
+@swap: Why don't we run a small pilot first? | 换动作：build a mock-up／ask Grace's team／test it with five sellers | Why don't we build a mock-up first?
+@swap: That could work. But let's tweak it: five big sellers and five small ones. | 换调整：add a checkpoint after one week／use real orders／start with one warehouse | That could work. But let's tweak it: let's add a checkpoint after one week.
+@swap: Let's build on Emma's idea. | 换人和内容：Raj's data／Mike's tweak／what Ana said | Let's build on Raj's data.
+@free: 部门要想办法提高客户满意度，你主持头脑风暴，先定规则 | There are no bad ideas in a brainstorm, so let's not judge anything yet. Just put every idea on the whiteboard, and we'll pick the best ones later.
+@free: 你想建议先让 5 个卖家试用新报表，再推广给所有人 | Why don't we run a small pilot first? We could give the new report to five sellers for two weeks and see what they think.
+@free: 同事提议每周开两次项目会。你觉得有道理，但太频繁，想改进 | That could work, but let's tweak it. What if we meet once a week and use the chat for quick updates?
+@free: 两个点子各有利弊（一个快但贵，一个慢但便宜），你要说清楚 | It's a trade-off. The upside of the first idea is speed, but the downside is cost. The second one is cheaper, but it takes longer.
+@output: 写一封 8–12 句的建议邮件（双数日 · 书面），标题是 "Three ideas to prepare for the pilot"（也可以自拟）：开头一句说明写信目的（I'm writing to suggest…）→ 交代背景（为什么需要这些建议）→ 用 Why don't we… / What if we… / I'd suggest -ing 提两三个点子 → 至少说一个点子的好处和坏处（The upside is…; the downside is…）→ 欢迎对方调整或提出新点子 → 约一个时间简短讨论。可以写给同事，也可以写给家人，比如为春节聚会提几个安排上的点子。
+@output_sample: The subject line is "Three ideas to prepare for the pilot."\nHi Grace,\nI'm writing to suggest a few ways your team can prepare for the pilot on September 14.\nWe'll start with ten sellers, and five of them are very big, so customer questions may increase quickly.\nFirst, why don't we write short answers to the five most common tracking questions?\nSecond, what if we set up a shared chat with Mike's team for urgent cases?\nThe upside is speed, but the downside is one more channel to watch.\nI'd also suggest running a short practice session with two or three real orders.\nIf any of these ideas don't feel workable, please tweak them or suggest your own.\nCould we talk for ten minutes on Thursday?\nThanks,\nLily
+
+@check: 听力：会上一共提出了哪几个点子？分别是谁提的？ | Leo：挑订单少的周日上线（a wild idea）；Emma：先做一个小试点，像做产品原型一样先小后大；Priya：先上 10 个卖家，但选最大的 10 个（约占试点订单的 60%）；Mike：调整一下——5 个大卖家加 5 个小卖家。
+@check: 听力：最后的方案是什么？Priya 在给 Karen 的消息里怎么说？ | 把 Emma 的小试点、Priya 的 10 个卖家和 Mike 的调整结合起来：9 月 14 日先上 10 个卖家（5 大 5 小），前两周当作试验；这两周里 Ana 测完另外 40 个，之后再加上。Priya 告诉 Karen：有了一个可行的方案——9 月 14 日 10 个卖家，两周后 50 个，并问会后能不能给她打电话。
+@check: 改错：① I suggest you to start with ten sellers. ② What if we will start next week? ③ A：Why don't we run a small pilot first? B：Because it's safer. | ① I suggest (that) you start with ten sellers.／I'd suggest starting with ten sellers. ② What if we start next week?（What if 后面用一般现在时）③ Why don't we…? 是建议，不是问原因，B 应该回应 Good idea. / That could work.
+@check: 换个场景：周末团建，用 What if we… 和 Why don't we… 各提一个点子。 | What if we go hiking on Saturday morning? Why don't we book a table at the new hot pot place afterward?
+@check: 朋友提议国庆自驾去西藏。你觉得有意思，但路太远。先肯定，再说缺点，最后提一个调整。 | That could work, but the drawback is the distance. Let's tweak it: what if we fly to Lhasa and rent a car there?
+@check: 同事说：「这个方案太普通了，一点创新都没有。」你想像 Priya 那样，强调可行比新颖更重要。用两句英文回应。 | I don't need an innovative plan. I need a workable one. This plan works, and we can still iterate later.
+@next1: 不看书说出 5 个锚点句：S3、S7、S8、S13、S14（S3、S7、S8、S13 只取第一句）
+@next1: 用 What if we…? / Why don't we…? / I suggest we… 为你下周要做的一件事各提一个建议
+@next7: 头脑风暴两阶段：先发散（There are no bad ideas in a brainstorm. / What if we…? / Why don't we…?）→ 后评判（That could work. / The upside… the downside… / It's a trade-off. / Let's build on…）
+@next7: suggest 的三种正确句型：I suggest we… ／ I suggest that you… ／ I'd suggest -ing（✗ suggest sb to do）

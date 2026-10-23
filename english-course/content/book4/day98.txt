@@ -1,0 +1,167 @@
+@day: 98
+@week: 2
+@title_cn: 开会的开场
+@title_en: Opening a Meeting
+@topic: 第一次主持三方会议：准时开场、说目的、过议程、定时间规则、交代会务；有人迟到、有人跑题
+@think_short: 「我们开始吧」Let's get started.｜「今天开会的目的是……」The purpose of today's meeting is to…｜跑题：Let's put that in the parking lot.｜控时间：let's keep it brief
+
+@goal_scene: 你第一次主持和客户的视频会：只有三十分钟，对方那边已经是傍晚。你要准时开场，一口气说清目的、议程和时间规则，交代会务、让新同事认识大家；有人迟到时一句话帮他跟上，客户跑题时先肯定、再把问题「停」到一边。
+@goal_expr: Let's get started. / The purpose of today's meeting is to agree on the pilot plan. / We have three items on the agenda. / We only have thirty minutes, so let's keep it brief. / Let's focus on item one. / Let's put that in the parking lot for now.
+@goal_vocab: 20 个重点词 + 5 个短语：主持与角色（chair / facilitator / timekeeper）、开场与会务、时间控制、迟到和跑题
+@done: 能用 1 分钟完成开场：Let's get started → The purpose of today's meeting is to… → We have … items on the agenda → 时间规则 → housekeeping
+@done: 能一句话帮迟到的人跟上（Welcome, Raj. We're on item one.），并且坚持准时开始，不等迟到的人
+@done: 客户或同事跑题时，能先肯定、再用 Let's put that in the parking lot for now. 拉回议程，并分清 an aside 和 a tangent
+
+@warmup: 再次感谢大家参加启动会。 | Thanks again for joining the kickoff call. | D93
+@warmup: 接下来就交给你们俩了。 | I'll let you two take it from here. | D96
+@warmup: 抱歉这么晚才告诉你。 | Sorry for the short notice. | D95
+@warmup: 我们争取周五，您看可以吗？ | Let's aim for Friday, if that works for you. | D91
+@warmup: 我已经等了二十分钟了。 | I've been waiting for twenty minutes. | D34
+@warmup: 准时率是 95%，上升了一个百分点。 | The on-time rate was 95%, up one percentage point. | D71
+
+@scene: 九月初的一个早上九点（西雅图那边是前一天傍晚六点），林晓要第一次主持和 BrightNest 的试点规划会。参会的有 BrightNest 的 Priya 和 Raj、西雅图的 Mike 和新来的测试工程师 Ana，实习生 Leo 负责记录和计时。会只有三十分钟，美国那边已经到了下班时间，议程上却有三件大事：先上多少个卖家、时间表、测试计划。开会前十分钟，林晓有点紧张，张涛给了她几条建议：主持人的任务是推动讨论，不是每一点都争赢；准时开始，别让准时的人等迟到的人。果然，Raj 在聊天框里说要晚到五分钟；刚进入第一项，Priya 又问起了退货跟踪——问题很重要，但不在今天的议程里。
+@sp: 人物关系 | 林晓第一次当会议主持人；客户方是 Priya（运营经理）和 Raj（IT 负责人，新），西雅图是 Mike（工程经理）和 Ana（测试工程师，新）；Leo 负责记录和计时；张涛会前给林晓提建议，会后发消息给她
+@sp: 沟通目的 | 用两三分钟把会开起来：说清目的、过议程、定时间规则、交代会务、让新人认识大家；遇到迟到和跑题时不让会议失控，也不让客户觉得被打断
+@sp: 已知信息 | 会只有三十分钟，美国那边是傍晚；三项议程：卖家数量、时间表、测试计划，每项八分钟左右；Raj 会晚到五分钟；测试账号已经准备好，可测试才做了一半；退货跟踪不在这次的讨论范围里
+@sp: 表达重点 | 宣布开始（Let's get started）→ 目的（The purpose of today's meeting is to…）→ 议程（three items on the agenda）→ 时间（keep it brief / allotted / overrun）→ 会务（housekeeping / a quick round）→ 集中讨论（Let's focus on…）→ 迟到（Welcome, Raj. We're on item one.）→ 跑题（a tangent / the parking lot）
+
+@story_title: Episode 98 · Let's Get Started
+@story_type: 会前叮嘱 + 聊天消息 + 多人视频会 + 会议记录
+@s: At 8:50, Lily is nervous. She'll **chair** her first BrightNest call. | 八点五十，林晓有点紧张：她要第一次主持和 BrightNest 的电话会。
+@s: Tom: Your job is to **facilitate**, not to win every point. | 张涛：你的任务是推动讨论，不是每一点都争赢。
+@s: Tom: A good **facilitator** keeps everyone's **attention** on decisions. | 张涛：好的主持人会让大家的注意力一直放在做决定上。
+@s: Tom: And start on time. Don't make **punctual** people wait for **latecomers**. | 张涛：还有，准时开始，别让准时的人等迟到的人。
+@s: Lily: Got it. Leo is our **timekeeper**. We'll **rotate** the role every week. | 林晓：明白。Leo 当计时员，这个角色我们每周轮换。
+@s: At 8:58, Raj writes in the chat: "Running five minutes late. Start without me!" | 八点五十八分，Raj 在聊天框里留言：「我晚到五分钟，你们先开始！」
+@br:
+@s: Lily: Hi, everyone. **Let's get started**. | 林晓：大家好，我们开始吧。
+@s: Lily: **The purpose of today's meeting is** to agree on the pilot plan. | 林晓：今天开会的目的是把试点方案定下来。
+@s: Lily: We have three items **on the agenda**. | 林晓：今天的议程有三项。
+@s: Lily: First, how many sellers start. Second, the timeline. Third, the test plan. | 林晓：第一，先上多少个卖家；第二，时间安排；第三，测试计划。
+@s: Lily: We only have thirty minutes, so let's **keep it brief**. | 林晓：我们只有三十分钟，所以大家尽量简短。
+@s: Lily: I've **allotted** eight minutes to each item, so please don't **overrun**. | 林晓：每一项我安排了八分钟，请大家别超时。
+@s: Lily: Some quick **housekeeping**: please stay on mute, and Leo is taking notes. | 林晓：先说几件会务上的小事：不发言时请静音，Leo 负责记录。
+@s: Lily: No **icebreaker** today, just a quick **round** of names for Ana. | 林晓：今天就不破冰了，大家快速轮一圈报个名字，让 Ana 认识一下。
+@s: Ana: Hi, I'm Ana, QA in Seattle. I'll run the pilot tests. | Ana：大家好，我是 Ana，在西雅图做测试，试点的测试由我负责。
+@s: Mike: Quick **aside**: the test accounts are ready. | Mike：顺便说一句：测试账号已经准备好了。
+@br:
+@s: Lily: Thanks, Mike. Let's **focus** on item one: ten sellers or fifty? | 林晓：谢谢 Mike。我们先集中讨论第一项：先上十个卖家还是五十个？
+@s: Mike: That's the big **debate**. Let's be **practical**: testing is only half done. | Mike：这正是最大的争议。我们得现实一点：测试才做了一半。
+@s: At 9:05, Raj joins. | 九点零五分，Raj 进来了。
+@s: Raj: Sorry I'm late! Did I miss anything? | Raj：抱歉，我迟到了！我错过什么了吗？
+@s: Lily: Welcome, Raj. We're on item one. | 林晓：欢迎，Raj。我们在讨论第一项。
+@s: Priya: By the way, can your system track returns? Our customers keep asking. | Priya：顺便问一句，你们的系统能跟踪退货吗？我们的客户一直在问。
+@s: Lily: Good question, but that's a **tangent**. | 林晓：好问题，不过这有点跑题了。
+@s: Lily: Let's put that in the **parking lot** for now. | 林晓：我们先把它放进「停车场」，回头再说。
+@br:
+@s: After the call, Leo shares his notes: | 会后，Leo 发出了会议记录：
+@s: The meeting **commenced** at 9:00. Raj joined at 9:05. | 会议于 9:00 开始。Raj 于 9:05 加入。
+@s: Returns tracking is in the parking lot. | 退货跟踪已列入「停车场」，待后续讨论。
+@s: Tom messages Lily: "Great **opening**. You kept it on time." | 张涛给林晓发消息：「开场很棒，时间也控制住了。」
+
+@v: chair | = | v. | tʃer | 主持（会议） | 说谁主持一场会 | chair a meeting；chair the call；the chair（主持人） | Tom will chair the weekly meeting. | 张涛会主持每周的例会。 | 「主持会议」chair 比较正式，口语常说 run / lead the meeting；名词 the chair 是主持人，也说 chairperson；host a meeting（第 95 天）偏「发起、做东」，不一定是控场的人；chair 读 `/tʃer/`，和椅子是同一个词。
+@v: facilitate | = | v. | fəˈsɪlɪteɪt | 推动、引导（讨论）；促进 | 主持会议或工作坊时让讨论顺利进行 | facilitate a discussion；facilitate the meeting；facilitate communication | Lily will facilitate the discussion between the two teams. | 林晓会引导两个团队之间的讨论。 | facilitate 的本义是「让事情更容易发生」：主持人不替大家做决定，而是让讨论顺畅；宾语是事情，不是人：✓ facilitate a discussion，✗ facilitate the team to talk；重音在 CIL：fa-CIL-i-tate。
+@v: facilitator | = | n. | fəˈsɪlɪteɪtər | （讨论的）主持人；引导者 | 会议、工作坊、培训里引导讨论的人 | a good facilitator；act as facilitator；the workshop facilitator | A good facilitator talks less and listens more. | 好的主持人说得少、听得多。 | facilitator 强调「引导、中立」，chair 强调「主持、掌控流程」，工作坊和培训里多叫 facilitator；重音不变，还在 CIL：fa-CIL-i-ta-tor。
+@v: attention | = | n. | əˈtenʃn | 注意力 | 让大家专注、提醒注意某件事 | keep sb's attention；pay attention to…；Thanks for your attention. | Please pay attention to the dates in the email. | 请注意邮件里的日期。 | pay attention to + 名词或 -ing，✗ pay attention on；Thanks for your attention. 多用在正式演讲的结尾，日常会议说 Thanks, everyone. 就够了；重音在 TEN：at-TEN-tion。
+@v: punctual | = | adj. | ˈpʌŋktʃuəl | 准时的；守时的 | 说某人一向准时 | be punctual；punctual people；a punctual start | Mike is always punctual. | Mike 一向准时。 | punctual 多用来说人「守时」；说事情「按时」更常用 on time：The call started on time.；「准时开始」说 start on time；读 PUNK-chu-al，c 读 `/k/`，tu 读 `/tʃu/`。
+@v: latecomers | latecomer | n. | ˈleɪtkʌmərz | 迟到的人；晚到的人 | 会议开始后才加入的人 | wait for latecomers；a recap for latecomers；a latecomer | We'll do a short recap for latecomers. | 我们给晚到的人简单回顾一下。 | 当面说 You're a latecomer. 有点不客气，对迟到的人一般说 Welcome, Raj. We're on item one.；美国职场的习惯是准时开始、不等人；复合词重音在前 LATE-com-er。
+@v: timekeeper | = | n. | ˈtaɪmkiːpər | 计时员；负责控时间的人 | 会议里负责提醒时间的人 | the timekeeper；act as timekeeper；be our timekeeper | Could you be our timekeeper today? | 今天你能帮我们计时吗？ | 很多美国团队开会会指定一个 timekeeper，到点就提醒：Two minutes left!；这个角色常常轮换；复合名词重音在前：TIME-keep-er。
+@v: rotate | = | v. | ˈroʊteɪt | 轮换；轮流担任 | 说会议角色、值班轮流做 | rotate the role；rotate every week；on a rotating basis | We rotate the note-taker role every month. | 记录员这个角色我们每个月轮换一次。 | 「轮流做」也可以说 take turns：We take turns taking notes.；rotate 本义「旋转」；名词 rotation；美式读 `/ˈroʊteɪt/`，重音在前。
+@v: Let's get started | let's get started | phr. | ˌlets ɡet ˈstɑːrtɪd | 我们开始吧 | 主持人宣布会议开始 | Let's get started.；Shall we get started?；OK, let's get started. | It's nine o'clock, so let's get started. | 九点了，我们开始吧。 | 比 Let's start. 自然、柔和，会议、课堂都能用；更正式：Shall we begin?；更随意：OK, let's dive in.；started 是过去分词，✗ Let's get start.；不要说 ✗ Now we start the meeting.，像在念流程单。
+@v: The purpose of today's meeting is | the purpose of today's meeting is | phr. | ðə ˈpɜːrpəs əv təˌdeɪz ˈmiːtɪŋ ɪz | 今天开会的目的是…… | 开场第一件事：用一句话说清会议目标 | The purpose of today's meeting is to…；The goal of this call is to…；Today, we're here to… | The purpose of today's meeting is to choose a vendor. | 今天开会的目的是选定一家供应商。 | 后面接 to do：is to agree on…，✗ is agree / ✗ is for agreeing；目标最好是一个能「完成」的动作（agree on / decide / choose），而不是 ✗ to talk about the pilot——聊完了也不知道算不算开完；purpose 读 `/ˈpɜːrpəs/`，第二个音节弱读。
+@v: on the agenda | = | phr. | ˌɑːn ði əˈdʒendə | 在议程上 | 说今天要讨论哪些事 | three items on the agenda；What's on the agenda?；put sth on the agenda | What's on the agenda for tomorrow? | 明天的议程有哪些？ | agenda 第一册学过；介词用 on：on the agenda，✗ in the agenda；议程里的一项叫 an item / an agenda item；the 在元音前读 `/ði/`。
+@v: keep it brief | = | phr. | ˌkiːp ɪt ˈbriːf | 尽量简短；长话短说 | 提醒大家控制发言时间，或说自己会说得很短 | let's keep it brief；I'll keep it brief.；keep your updates brief | I know you're busy, so I'll keep it brief. | 我知道您很忙，我就长话短说。 | brief 第三册学过；I'll keep it brief. 对上级、客户都很得体；要求别人时，Let's keep it brief. 把自己也算进去，比 Please be brief. 客气得多；keep it 连读成 `/ˈkiːpɪt/`。
+@v: allotted | allot | v. | əˈlɑːtɪd | 分配（时间、名额、预算） | 说给每个议程项安排多少时间 | allot ten minutes to…；the allotted time；allot time for questions | We've allotted fifteen minutes for questions. | 我们留了十五分钟给大家提问。 | 搭配是 allot sth to / for sth；过去式双写 t：allotted；the allotted time（规定的时间）常见于正式场合，口语说 We have ten minutes for each item.；别和 a lot 搞混：allot 重音在后 `/əˈlɑːt/`。
+@v: overrun | = | v. | ˌoʊvərˈrʌn | 超时；超出（时间、预算） | 会议、项目超时或超支 | overrun by ten minutes；The meeting overran.；a cost overrun（名词） | The meeting overran by twenty minutes. | 会议超时了二十分钟。 | 过去式 overran，过去分词 overrun；口语里更常说 go over：We went over by ten minutes.；动词重音在后 o-ver-RUN，名词重音在前：a cost O-ver-run。
+@v: housekeeping | = | n. | ˈhaʊskiːpɪŋ | （会议开头交代的）事务性小事；会务 | 开场时说明静音、录音、谁记录、休息时间 | some housekeeping；a few housekeeping items；quick housekeeping | Before we start, a few housekeeping items. | 开始之前，先说几件会务上的小事。 | 本义是「家务」「酒店客房部」，在会议里指录音、静音、谁记录这类事务；不可数：some housekeeping，✗ a housekeeping；说这类事时语速可以快一点，大家知道它不是重点；重音在 HOUSE。
+@v: icebreaker | = | n. | ˈaɪsbreɪkər | 破冰活动；暖场的小问题 | 会议、培训开始时让大家放松、互相认识 | an icebreaker；a quick icebreaker；as an icebreaker | We started with a fun icebreaker question. | 我们先用一个有趣的问题破了冰。 | 中文「破冰」正好对应 icebreaker；动词短语是 break the ice；时间紧的会常常直接跳过：No icebreaker today.；复合词重音在前 ICE-break-er。
+@v: round | = | n. | raʊnd | （会上每人轮流发言的）一轮；一圈 | 让每个人轮流说一两句 | a quick round of names；a round of introductions；a round of updates | Let's do a quick round of updates. | 我们快速轮一圈，每人说一下进展。 | 会议里的 a round 是「每个人按顺序说一遍」；a round of applause 是「一阵掌声」，a round of talks 是「一轮谈判」；视频会上也常说 Let's go around the room.
+@v: aside | = | n. | əˈsaɪd | 顺便一提的话；简短的题外话 | 插一句和议题关系不大、但很短的话 | a quick aside；as an aside；just an aside | As an aside, the office is closed on Friday. | 顺便说一句，周五办公室不开门。 | a quick aside 是一两句就说完、马上回到正题的「插话」，和越扯越远的 tangent 不同；as an aside 常放句首；副词 aside 是「在一边」：Let's put that aside.
+@v: focus | = | v. | ˈfoʊkəs | 集中（讨论、注意力）；专注于 | 把讨论拉到一个议题上 | focus on…；let's focus on item one；stay focused | Let's focus on the first item. | 我们先集中讨论第一项。 | 后面接 on：✗ focus item one / ✗ focus at item one；名词也很常用：Our focus today is the timeline.；读 `/ˈfoʊkəs/`，第一个音节是 `/oʊ/`，不读「否」。
+@v: debate | = | n. | dɪˈbeɪt | 争议；大家意见不一的问题 | 说会上分歧最大的那件事 | the big debate；a debate about…；open for debate | There's a big debate about the launch date. | 上线日期是个大争议。 | debate 不只是「辩论赛」，日常指「需要讨论、各方看法不同的问题」；也能做动词：debate the numbers；比 argument（第 99 天）中性，不带火药味；重音在后 de-BATE。
+@v: practical | = | adj. | ˈpræktɪkl | 现实的；实际可行的 | 提醒大家考虑实际条件 | let's be practical；a practical solution；practical experience | Let's be practical. We can't test everything by Friday. | 我们现实一点，周五之前不可能什么都测完。 | Let's be practical. 是会上把讨论拉回现实条件的常用句；practical 强调「做得到、管用」：a practical tool；读 `/ˈpræktɪkl/`，c 不读出「斯」。
+@v: tangent | = | n. | ˈtændʒənt | 跑题的话；扯远的话题 | 有人说着说着离开了议题 | go off on a tangent；that's a tangent；a bit of a tangent | Sorry, I went off on a tangent. Back to the budget. | 抱歉，我扯远了。回到预算上来。 | 本义是数学里的「切线」——碰一下圆就离开了；go off on a tangent 是「说着说着就扯远了」；主持人说 That's a bit of a tangent. 比 ✗ You're off topic! 委婉得多；重音在前 TAN-gent。
+@v: parking lot | = | phr. | ˈpɑːrkɪŋ ˌlɑːt | （会议用语）「停车场」：暂时搁置、以后再讨论的问题清单 | 有人跑题时，把问题先记下来、以后再处理 | put sth in the parking lot；the parking lot list；parking lot items | Let's put the budget question in the parking lot. | 预算的问题我们先放进「停车场」。 | 美国职场的会议用语：把跑题但重要的问题「停」在一边，会议最后或会后再处理，提问的人不会觉得被打断、被忽视；一定要真的记下来、真的回头处理，否则就成了敷衍；英式「停车场」叫 car park，但会议里也说 parking lot；复合名词重音在 PARK。
+@v: commenced | commence | v. | kəˈmenst | 开始（非常正式） | 会议纪要、合同、正式通知 | The meeting commenced at…；commence work；commence on Monday | Construction will commence next month. | 工程下个月开工。 | commence 是 start / begin 的正式说法，只在纪要、合同和正式通知里用；开会时张嘴说 ✗ Let's commence the meeting. 像在法庭上；后面接名词或 -ing：commence testing；-ced 读 `/st/`。
+@v: opening | = | n. | ˈoʊpənɪŋ | 开场；开头部分 | 评价会议、演讲的开头 | a great opening；opening remarks；the opening of the meeting | Her opening was short and clear. | 她的开场简短清楚。 | 会议的开场讲话叫 opening remarks；opening 还有「空缺职位」的意思：a job opening，以及「开业」：a grand opening；读三个音节 O-pen-ing `/ˈoʊpənɪŋ/`。
+
+@diff: 「人差不多到齐了，我们开始吧」——Let's get started.
+@d_cn: 中文的会常常要等「人到齐」：主持人看看表，说「再等两分钟」「那个……人差不多齐了，我们开始吧」。
+@d_en: Hi, everyone. Let's get started. / Shall we begin? / OK, let's dive in. / Welcome, Raj. We're on item one.
+@d_why: 美国职场的习惯是**准时开始**：等迟到的人，等于让准时的人白白浪费时间——张涛说 Don't make punctual people wait for latecomers.。开场句分三档：**Let's get started.** 最常用，中性、柔和；**Shall we begin?** 正式一点，适合和高层、外部客户开的会；**OK, let's dive in.** 随意，熟人小组用。中国学生常见的问题：✗ Let's get start.（漏了 -ed）；✗ Now we start the meeting.（像在念流程单）；开场先绕一大段「感谢各位百忙之中……」才说正事。迟到的人进来，不点名批评，也不从头再讲一遍，一句 **Welcome, Raj. We're on item one.** 让他跟上就继续；需要细节，会后让 Leo 发记录。
+@d_when: 所有会议的第一句；时间一到就说，哪怕还有人没进来。
+@d_vs: **Let's get started.** 我们开始吧。（最常用）\n**Shall we begin?** 我们开始好吗？（正式）\n**OK, let's dive in.** 好，直接进入正题吧。（随意）\n**Welcome, Raj. We're on item one.** 欢迎，Raj，我们在讨论第一项。（给迟到的人）\n✗ Let's get start.\n✗ Let's wait for everyone. Maybe five more minutes?
+@d_task: 九点到了，Priya 还没进会。你决定准时开始，并告诉大家会后会把记录发给她。 | Let's get started. Priya is running late, so Leo will send her the notes after the call.
+@diff: 「今天开会的目的是……」——The purpose of today's meeting is to…
+@d_cn: 中文开场常常先讲背景：「这个项目大家都知道，上周我们……」，讲了好几分钟，大家才明白今天到底要干什么。
+@d_en: The purpose of today's meeting is to agree on the pilot plan. / We have three items on the agenda. First, … Second, … Third, …
+@d_why: 英文会议和第三册的邮件一样，**目的先行**：开场第二句就说 **The purpose of today's meeting is to + 动词**，紧接着说 **We have three items on the agenda.**，再用 First / Second / Third 一项一项点名。目的要写成一个**能完成的动作**：agree on the pilot plan / decide on the timeline / choose a vendor——会议结束时大家能判断「做到了没有」；✗ to talk about the pilot 只是「聊」，聊到什么程度算完谁也不知道。语法上注意三点：purpose 后面接 is to do（✗ is discuss / ✗ is for discussing）；✗ Today's meeting purpose is… 是中式词序；议程用 on：on the agenda（✗ in the agenda）。语气上，The purpose of today's meeting is… 偏正式，适合有客户、有高层的会；内部小会可以说 Today, we just need to decide…
+@d_when: 主持任何会议、电话会、工作坊的开场；也可以写进会议邀请的第一句。
+@d_vs: **The purpose of today's meeting is to agree on the pilot plan.** 今天开会的目的是把试点方案定下来。（正式）\n**Today, we just need to decide on the timeline.** 今天我们只需要把时间表定下来。（内部、随意）\n**We have three items on the agenda.** 今天的议程有三项。\n✗ Today's meeting purpose is discuss the pilot.\n✗ We have three items in the agenda.
+@d_task: 你主持周会：目的是定下周的上线清单；议程两项：未解决的 bug、客服安排。用英文开场两句。 | The purpose of today's meeting is to agree on next week's launch checklist. We have two items on the agenda: open bugs and the support plan.
+@diff: 有人跑题——Let's put that in the parking lot for now.
+@d_cn: 会上有人说着说着扯到别的事。中文主持人要么不好意思打断，让它一直聊下去；要么一句「这个会后再说」，对方觉得被噎了回去。
+@d_en: Good question, but that's a bit of a tangent. Let's put that in the parking lot for now. / Can we come back to that at the end? / Let's take that offline.
+@d_why: 美国会议里有个很好用的工具叫 **parking lot**：把跑题但重要的问题「停」在一个清单上，会议最后或会后再处理。它的好处是**既拉回了议程，又让提问的人知道他的问题没被丢掉**。说法要三步走：先肯定（Good question / That's an important point），再点明（but that's a bit of a tangent），最后安置（Let's put that in the parking lot for now.）。对客户尤其要先肯定——Priya 问退货跟踪是真问题，只是不在今天的议程里。其他说法：**Can we come back to that at the end?**（中性）；**Let's take that offline.**（会后找相关的人单独谈）。✗ That's off topic. / ✗ That's not important now. 太冲，像在批评人。还要分清 **an aside**（一两句的顺便一提，像 Mike 说测试账号好了，说完就回来，不用打断）和 **a tangent**（越扯越远的题外话）。最后，一定让 Leo 把「停车场」里的问题记进会议记录，否则就成了敷衍。
+@d_when: 主持会议时有人跑题、有人提出今天解决不了的问题；你自己想插一个题外话时，也可以说 Quick aside: … 或 This might be a tangent, but…
+@d_vs: **Good question, but that's a bit of a tangent.** 好问题，不过有点跑题了。（先肯定）\n**Let's put that in the parking lot for now.** 我们先把它放进「停车场」。\n**Can we come back to that at the end?** 这个我们最后再说好吗？\n**Let's take that offline.** 这个我们会后单独聊。\n✗ That's off topic.\n✗ That's not important now.
+@d_task: 客户在会上突然问起明年的价格，和今天的议题无关。先肯定，再放进「停车场」，说你会后用邮件跟进。 | That's an important question, but it's a bit of a tangent today. Let's put it in the parking lot for now, and I'll follow up by email after the call.
+@diff: 「时间有限，大家说简短点」——We only have thirty minutes, so let's keep it brief.
+@d_cn: 中文会议很少在开头说清楚「一共多长、每项多久」；超时了，主持人往往不好意思叫停，或者直接说「大家说快点」。
+@d_en: We only have thirty minutes, so let's keep it brief. / I've allotted eight minutes to each item. / Leo is our timekeeper. / I'll keep it brief.
+@d_why: 跨时区的会尤其要控时间：深圳的早上九点是西雅图的傍晚六点，对方已经下班了。英文主持人会在开场就把规则说出来：**一共多久**（We only have thirty minutes）、**每项多久**（I've allotted eight minutes to each item）、**谁来计时**（Leo is our timekeeper）。提醒大家简短有强弱之分：**Let's keep it brief.** 用 let's 把自己也算进去，像大家共同的约定，对客户也不失礼；**Please be brief.** 是直接要求，主持内部会可以用，对客户说就显得在命令人；✗ Speak quickly! / ✗ Hurry up! 太冲。说自己时用 **I'll keep it brief.**（我长话短说），非常得体。快超时的时候，可以说 We're running short on time. 或 Let's not overrun.
+@d_when: 时间紧的会、跨时区的会、有高层参加的会；开场说一次，快超时时再提醒一次。
+@d_vs: **We only have thirty minutes, so let's keep it brief.** 我们只有三十分钟，大家尽量简短。（包括自己，客气）\n**Please be brief.** 请简短一点。（直接，内部会可用）\n**I'll keep it brief.** 我长话短说。（说自己，很得体）\n**We're running short on time.** 时间不多了。\n✗ Speak quickly, please!
+@d_task: 你主持一个只有二十分钟的周会，议程两项。开场说清时间规则，并请 Ana 计时。 | We only have twenty minutes, so let's keep it brief. I've allotted ten minutes to each item. Ana, could you be our timekeeper?
+
+@core: Hi, everyone. Let's get started. | 准时宣布开始 | Let's get started / Shall we begin? | 正式：Good morning, everyone. Shall we begin?｜随意：OK, let's dive in.
+@core: The purpose of today's meeting is to … | 一句话说清会议目标（能完成的动作） | agree on the pilot plan / choose a vendor / review the test results | 正式：The objective of today's meeting is to finalize the pilot plan.｜随意：Today, we just need to decide on…
+@core: We have three items on the agenda. First, … Second, … Third, … | 过议程 | three items / two topics；first / second / third | 正式：There are three items on today's agenda.｜随意：Three things today.
+@core: We only have thirty minutes, so let's keep it brief. I've allotted … minutes to each item. | 定时间规则 | thirty minutes / an hour；eight minutes per item | 正式：Given our limited time, I'd ask everyone to keep their comments brief.｜随意：Short call today, so let's be quick.
+@core: Some quick housekeeping: please stay on mute, and … is taking notes. | 交代会务 | we're recording / Leo is taking notes / Ana is our timekeeper | 正式：Before we begin, a few housekeeping items.｜随意：Quick housekeeping stuff first.
+@core: Let's do a quick round of names. | 让新人认识大家 | names / updates / introductions | 正式：Let's begin with a brief round of introductions.｜随意：Let's go around and say hi.
+@core: Let's focus on item one. / Welcome, Raj. We're on item one. | 集中讨论；帮迟到的人跟上 | item one / the timeline / the test plan | 正式：Welcome, Raj. To bring you up to speed, we're discussing item one.｜随意：Hey Raj, we're on item one.
+@core: Good question, but that's a bit of a tangent. Let's put that in the parking lot for now. | 处理跑题 | that / the returns question；for now / until the end | 正式：That's an important point. I suggest we add it to the parking lot and return to it at the end.｜随意：Let's park that for now.
+
+@pw: facilitate | fəˈsɪlɪteɪt | 4 个音节 fa·CIL·i·tate | 重音在 cil；fa 弱读成 `/fə/`；结尾 tate 读 `/teɪt/`
+@pw: facilitator | fəˈsɪlɪteɪtər | 5 个音节 fa·CIL·i·ta·tor | 重音不动，还在 cil；-tator 的第二个 t 美式常闪音，像轻轻的 d
+@pw: housekeeping | ˈhaʊskiːpɪŋ | 3 个音节 HOUSE·keep·ing | 复合词重音在前，keep 只带次重音
+@pw: timekeeper | ˈtaɪmkiːpər | 3 个音节 TIME·keep·er | 复合词重音在前；同类的还有 ICE-breaker、LATE-comer
+@pw: punctual | ˈpʌŋktʃuəl | 3 个音节 PUNC·tu·al | 重音在前；c 读 `/k/`，tu 读 `/tʃu/`
+@pw: commence | kəˈmens | 2 个音节 com·MENCE | 重音在后；com 弱读成 `/kə/`；过去式 commenced 结尾读 `/st/`
+@pw: overrun | ˌoʊvərˈrʌn | 3 个音节 o·ver·RUN（动词） | 动词重音在后；名词 a cost O-ver-run 重音在前——又一对名动重音
+@ps: **Hi**, everyone. / Let's get **star**ted. | Let's get 连成 `/letsɡet/`；get 的 t 碰到 s 只做口型、不爆破；started 结尾的 -ed 读 `/ɪd/`，别丢；句末降调，干脆利落。
+@ps: The **pur**pose of to**day**'s **meet**ing / is to a**gree** on the **pi**lot plan. | purpose of 连读，of 弱读成 `/əv/`；is to 读得轻 `/ɪz tə/`；pilot plan 是复合名词，重音在 PI-lot；动词 agree 要重读，因为它就是今天的目标。
+@ps: We **on**ly have **thir**ty **min**utes, / so let's keep‿it **brief**. | thirty 美式 t 闪音，听起来像 THIR-dee，重音在前，和 thir-TEEN 区分；keep it 连读 `/ˈkiːpɪt/`；brief 拉长一点，语调落下。
+@ps: Let's put‿that in the **park**ing lot / for **now**. | put that 里 t 只做口型；parking lot 重音在 PARK；for now 的 now 重读、降调，暗示「以后会回来处理」。
+@pnote: 复合名词重音在前：**time**keeper、**house**keeping、**ice**breaker、**late**comer、**park**ing lot、**pi**lot plan、**test** plan、**test** accounts。对比「形容词＋名词」，重音在名词上：a quick **round**、a big de**bate**。听会议时，前重后轻的两个词往往是一个固定的「会议用语」，记笔记时把它当一个词写下来。
+@pnote: 写和说的不同：Leo 的会议记录写 The meeting commenced at 9:00.，嘴上说 We started at nine.；时间读法：9:05 读 nine-oh-five，8:58 读 eight fifty-eight，8:50 读 eight fifty（别听成 eight fifteen：FIF-ty 重音在前，fif-TEEN 重音在后）。housekeeping 这类开场套话美国人说得很快，听的时候抓住 mute / notes / recording 几个关键词就够了。
+@lfocus: 记目的和议程：purpose — agree on the pilot plan；three items — sellers / timeline / test plan
+@lfocus: 记时间和人：thirty minutes；eight minutes per item；Raj joined at 9:05；Leo — timekeeper + notes, rotate weekly
+@lfocus: 记决定和待办：test accounts ready（Mike）；testing half done；parking lot — returns tracking（Priya）
+@dict: S7–S11
+@dict: S22–S24
+@res: 在 youglish.com 输入 "let's get started"，选 US，听不同的人怎样开会、开课。
+
+@mimic: 跟读【C】S7–S16 林晓的开场：先逐句跟读，注意 The purpose of today's meeting is… 里重读的 agree 和 We only have thirty minutes 的节奏；再合上书，看着自己的笔记（purpose / three items / thirty minutes / housekeeping / round），用 1 分钟把开场完整说一遍并录音。最后由你演林晓、手机朗读 S17–S24 其他人的台词，练习「欢迎迟到的人」和「把跑题放进停车场」两处的语气：先友好，再坚定。
+@swap: Let's get started. | 换正式程度：Shall we…?（正式）／OK, let's…（随意） | Shall we begin?
+@swap: The purpose of today's meeting is to agree on the pilot plan. | 换目标：choose a vendor／review the test results／finalize the launch date | The purpose of today's meeting is to review the test results.
+@swap: We have three items on the agenda. | 换数量和问法：two items／four topics；What's on the agenda? | We have two items on the agenda today.
+@swap: Let's put that in the parking lot for now. | 换内容和时间：the pricing question／Raj's idea；until the end／for next week | Let's put the pricing question in the parking lot until the end.
+@free: 九点了，还有两个人没进会。你决定准时开始，说明会后会把记录发给他们。 | Let's get started. It's nine o'clock, and I want to respect everyone's time. Leo will share the notes with anyone who joins late.
+@free: 你主持周会：目的是定下周的上线清单；议程两项；只有二十分钟。 | The purpose of today's meeting is to agree on next week's launch checklist. We have two items on the agenda: open bugs and the support plan. We only have twenty minutes, so let's keep it brief.
+@free: 讨论测试计划时，Raj 开始讲他们明年要换新的仓库系统，越说越远。礼貌地拉回来。 | That sounds like a big project, Raj, but it's a bit of a tangent for today. Let's put it in the parking lot, and we can come back to it at the end.
+@free: Priya 迟到十分钟进会，问你们讲到哪儿了。欢迎她，一句话帮她跟上。 | Welcome, Priya. We've agreed on the timeline, and now we're on item two, the test plan.
+@output: 写一封 8–12 句的会议邀请邮件，标题是 "Pilot planning call: agenda for Thursday"，发给 Priya、Raj、Mike 和 Ana。要求：第一句就说会议目的（The purpose of Thursday's call is to…）→ 时间（写清深圳时间和美国时间）→ 时长和时间规则（We only have thirty minutes, so…）→ We have … items on the agenda，每项写明谁负责、几分钟 → 一句会务（谁计时、会不会录音）→ 上次「停车场」里的问题怎么处理 → 请大家提前准备什么 → 落款。没有工作场景，就写一封读书会或社团活动的邀请。
+@output_sample: Hi everyone,\nThe purpose of Thursday's call is to finalize the test plan for the pilot.\nWe'll start at 9 a.m. Shenzhen time, which is 6 p.m. on Wednesday in Seattle.\nWe only have thirty minutes, so I'll keep my opening brief.\nWe have three items on the agenda.\nFirst, Ana will share the latest test results (ten minutes).\nSecond, Raj will walk us through BrightNest's batch updates (ten minutes).\nThird, we'll review the parking lot from last time, including returns tracking (five minutes).\nLeo will be our timekeeper, and we'll record the call for anyone who can't make it.\nIf you have questions about the test plan, please send them to me in advance.\nThanks,\nLily
+
+@check: 听力：林晓说今天开会的目的是什么？议程有哪三项？每项安排了多少分钟？ | 目的是把试点方案定下来（agree on the pilot plan）。三项：先上多少个卖家、时间安排、测试计划；一共三十分钟，每项八分钟。
+@check: 听力：Raj 几点进会？Mike 顺便说了什么？Priya 的哪个问题被放进了「停车场」？ | Raj 九点零五分进会（他提前在聊天框里说了会晚五分钟）。Mike 顺便说测试账号已经准备好了，测试才做了一半。Priya 问系统能不能跟踪退货，被放进了「停车场」。
+@check: 改错：① Let's get start. ② The purpose of today's meeting is discuss the pilot. ③ We have three items in the agenda. | ① Let's get started. ② The purpose of today's meeting is to agree on the pilot plan.（is to + 动词，最好是一个能完成的动作）③ We have three items on the agenda.
+@check: 换个场景：你主持一个读书会，有人开始聊上周看的电影。用英文委婉地拉回来。 | That sounds like a great movie, but it's a bit of a tangent. Let's put it in the parking lot and get back to the book.
+@check: 对客户说 Please be brief. 和 Let's keep it brief.，哪个更好？为什么？ | Let's keep it brief. 更好：let's 把自己也包括进去，像是大家共同的约定；Please be brief. 是在要求对方，对客户说显得在命令人。
+@check: 会议记录里写 The meeting commenced at 9:00. 没问题；可要是你在开会时说 Let's commence the meeting.，听起来怎么样？该怎么说？ | 太正式、太生硬，像在法庭或典礼上。说 Let's get started. 或 Shall we begin? 就好；commence 留给会议记录和正式通知。
+@next1: 不看书说出 5 个锚点句：S7、S8、S9、S11、S24
+@next1: 不看书，用 1 分钟说一遍开场：Let's get started → The purpose of today's meeting is to… → We have … items on the agenda → 时间规则 → housekeeping
+@next7: 开场五步：Let's get started. → The purpose of today's meeting is to… → We have … items on the agenda. → We only have … minutes, so let's keep it brief. → Some quick housekeeping…
+@next7: 两个「救场」句：迟到——Welcome, …. We're on item ….；跑题——Good question, but that's a bit of a tangent. Let's put that in the parking lot for now.

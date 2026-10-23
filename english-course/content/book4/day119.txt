@@ -1,0 +1,162 @@
+@day: 119
+@week: 5
+@title_cn: 一场完整的项目会
+@title_en: A Ten-Minute Project Meeting
+@topic: 主持一场十分钟的跨团队会议：开场致谢、说明目的、快速进展、提出风险、摆出两个选项、处理分歧、拍板、分配行动项；谈法规和海关时措辞留有余地
+@think_short: 「首先」First and foremost, …｜「值得注意的是」It's worth noting that…｜「目前有两个选项」There are two options on the table.｜「打基础」lay the groundwork｜「推向市场」go to market（≠ go public 公司上市）
+
+@goal_scene: 上线一个月后，BrightNest 想明年春天把服务扩展到加拿大。你主持一场十分钟的跨团队会议，深圳、西雅图和 BrightNest 的人都在：先感谢大家、一句话说清开会的原因；听一个简短的进展；引出风险（海关规则不同、两种官方语言、各地规定可能不一样），说的时候不下法律结论，只说「需要专业意见」；摆出两个选项，处理 Priya 和 Mike 的分歧，把讨论收成一个决定，最后当场分配行动项。
+@goal_expr: First and foremost, thank you all for the smooth launch. / BrightNest wants to expand into Canada next spring. / It's worth noting that Canada has different customs rules. / We'd need advice on that before we decide. / There are two options on the table. / Can we agree that we'll start with Ontario and go to market in April? / Let's lay the groundwork this quarter.
+@goal_vocab: 20 个重点词 + 5 个短语：跨境与合规、语言与本地化、市场与竞争、物流与基础设施、主持会议的固定说法
+@done: 能按「开场致谢 → 目的 → 进展 → 风险 → 两个选项 → 分歧 → 决定 → 行动项」主持一场十分钟的会议，每一步至少会说一句
+@done: 能用 It's worth noting that… 提出风险，用 may / we'd need advice 说法规和海关的事，不把没核实的东西说成定论
+@done: 能用 There are two options on the table. / Option A is to… / Option B is to… 摆出选项，再用 Can we agree that…? 和 Let's lay the groundwork… 收口、分配任务
+
+@warmup: 上线在上午 9 点启动，没出什么大问题。 | The launch went live at 9 a.m. without any major problems. | D118
+@warmup: 事后看来，我们早该更早地测试状态码。 | In hindsight, we should have tested the status codes earlier. | D118
+@warmup: 我要特别表扬一下 Mike 的团队。 | I want to give a shout-out to Mike's team. | D118
+@warmup: 我们把两个方案放在一起比一比。 | Let's compare the two options side by side. | D112
+@warmup: 我已经看了四套，可都太远了。 | I've seen four places, but they were all too far. | D45
+@warmup: 这个月订单增长了 15%。 | Orders increased by fifteen percent this month. | D69
+
+@scene: 十一月底，BrightNest 上线整整一个月了：状态正确，退货跟踪运行平稳，Priya 的团队终于不用手工改订单。这时 BrightNest 提出了下一步：明年春天把服务扩展到加拿大。林晓主持一场跨团队视频会，深圳的张涛和 Emma、西雅图的 Mike、BrightNest 的 Priya 和 Raj 都在，Leo 做记录。会议只有十分钟，可内容一样不少：进展、为什么是加拿大、风险、两个选项、分歧、决定、行动项。最难拿捏的是风险那一段——跨境就意味着不同的海关规则，加拿大有两种官方语言，有些规定是全国性的，有些可能各省不同。这些林晓和团队都不是专家，所以一句话也不能说死：只说「规则不同」「我们需要专业意见」，具体的门槛和要求留给海关顾问去查。Priya 照例想要又大又快——全国一起上；Mike 照例主张稳一点——先做一个省。林晓要在十分钟里让双方都说完，再拿出一个大家都能接受的决定。
+@sp: 人物关系 | 林晓是会议主持人，要照顾三方、六个人的发言；Priya 是客户方的运营经理，想全国铺开；Mike 是西雅图工程经理，主张先做一个省；Raj 管 BrightNest 的系统；Emma 管产品范围和本地化；张涛是 SwiftLink 的项目负责人，对风险把关
+@sp: 沟通目的 | 十分钟内完成一场完整的会：致谢、目的、进展、风险、选项、决定、行动项；在法规问题上不下结论，而是定下「找顾问」这个行动；让 Priya 和 Mike 的分歧落到一个双方都能接受的方案上
+@sp: 已知信息 | 上线一个月很顺利，退货相关的来电下降了三成；不少加拿大顾客已经在逛 BrightNest 的网站，两个竞争对手已经在加拿大发货；SwiftLink 给卖家 Daniel 跟踪过发往加拿大的包裹，算有先例；海关、语言和各地的具体规定，团队里没人能说准
+@sp: 表达重点 | 开场：First and foremost, thank you… → 目的：BrightNest wants to expand into… → 风险：It's worth noting that… / We'd need advice → 选项：There are two options on the table. Option A is to… / Option B is to… → 分歧：I see your point, but… → 决定：Can we agree that…? → 行动项：Let's lay the groundwork this quarter. / Could you… by…?
+
+@story_title: Episode 119 · Next Stop, Canada
+@story_type: 跨团队视频会（完整的十分钟会议）
+@s: A month after the launch, Lily chairs a cross-team video call. Leo takes notes. | 上线一个月后，林晓主持一场跨团队视频会，Leo 做记录。
+@s: Lily: Good morning, everyone. **First and foremost**, thank you all for the smooth launch. | 林晓：大家早上好。首先，感谢各位让这次上线这么顺利。
+@s: Lily: Here's why we're meeting. BrightNest wants to expand into Canada next spring. | 林晓：说一下今天开会的原因：BrightNest 想在明年春天把业务扩展到加拿大。
+@s: Lily: We have ten minutes: a quick update, the options, then next steps. | 林晓：我们有十分钟：先简单说进展，再谈选项，最后定下一步。
+@s: Priya: Quick update: calls about returns are down by thirty percent. | Priya：简单说一下进展：关于退货的来电下降了 30%。
+@s: Priya: And Canada is a **sizable** **market** for us. Two **competitors** already ship there. | Priya：而且加拿大对我们来说是个不小的市场，已经有两个竞争对手在那边发货了。
+@s: Raj: Our **infrastructure** can handle it. We just add Canadian carriers. | Raj：我们的系统基础设施撑得住，加上加拿大的承运商就行。
+@s: Priya: The hard part is **cross-border** **logistics**. | Priya：难的是跨境物流。
+@s: Mike: **It's worth noting that** Canada has different customs rules. | Mike：值得注意的是，加拿大的海关规则不一样。
+@s: Mike: But Daniel's store already ships there, so we have a **precedent**. | Mike：不过 Daniel 的店已经在往那边发货，所以我们有先例可循。
+@s: Emma: Canada has two official languages, so we'd probably need **bilingual** tracking pages. | Emma：加拿大有两种官方语言，所以我们很可能需要双语的跟踪页面。
+@s: Emma: And **localization** isn't just translation. Dates and currency change, too. | Emma：而且本地化不只是翻译，日期格式和货币也都不一样。
+@s: Tom: Some rules are **federal**, and others may vary by province. | 张涛：有些规定是联邦层面的，有些可能各省不同。
+@s: Tom: We'd need advice for each **jurisdiction**. **Compliance** is a **prerequisite**, not a nice-to-have. | 张涛：每个管辖区的规定，我们都需要专业意见。合规是前提，不是可有可无的。
+@s: Raj: Agreed. We have to **comply** before we ship a single parcel. | Raj：同意。一个包裹都还没发之前，就得先做到合规。
+@s: Lily: There are two options **on the table**. | 林晓：目前摆在桌面上的有两个选项。
+@s: Lily: Option A is to launch **nationwide** in April. Option B is to start with Ontario, then expand. | 林晓：方案 A：四月在全国上线。方案 B：先从安大略省开始，再逐步扩展。
+@s: Priya: I'd go nationwide. A slow **entry** gives our competitors time. | Priya：我主张全国一起上。进入市场太慢，等于给竞争对手留时间。
+@s: Mike: I see your point, but one province is easier to get right. | Mike：我明白你的意思，不过先做一个省更容易做对。
+@s: Raj: There may be a value **threshold** for duties, but I don't know the details. | Raj：关税可能有一个货值门槛，不过具体的我不清楚。
+@s: Tom: That's exactly why we need a customs **consultant**. | 张涛：正因为这样，我们才需要一位海关顾问。
+@s: Priya: An **alliance** with a Canadian carrier could also speed things up. | Priya：和一家加拿大承运商结盟，也能加快进度。
+@s: Lily: Can we agree that we'll start with Ontario and **go to market** in April? | 林晓：我们能不能就定下来：先做安大略省，四月推向市场？
+@s: Priya: Fine, if we go nationwide by summer. | Priya：可以，前提是夏天之前推向全国。
+@s: Lily: Deal. Let's **lay the groundwork** this quarter. | 林晓：一言为定。我们这个季度先把基础打好。
+@s: Lily: Raj, could you find a consultant by Friday? Emma, please list what we need to **localize**. | 林晓：Raj，你周五前能找到一位顾问吗？Emma，请列出我们需要本地化的内容。
+@s: Lily: Mike, please check the carrier codes. Leo will circulate the notes. | 林晓：Mike，请检查一下承运商代码。Leo 会把会议纪要发给大家。
+
+@v: First and foremost | first and foremost | phr. | ˌfɜːrst ən ˈfɔːrmoʊst | 首先，也是最重要的 | 开场先说最重要的一点（常是致谢或核心目标） | First and foremost, …；first and foremost a…；Safety comes first and foremost. | First and foremost, I want to thank our customers. | 首先，也是最重要的，我要感谢我们的客户。 | 不只是「第一点」，还带「最重要」的意思，一场会、一封信里只用一次，留给最要紧的话；单纯排顺序用 First, … / To begin with, …；✗ Firstly and foremost；and 弱读成 `/ən/`，foremost 重音在 fore。
+@v: sizable | = | adj. | ˈsaɪzəbl | 相当大的；不小的 | 说市场、数量、金额规模可观 | a sizable market；a sizable share；a sizable amount | We've seen a sizable increase in orders from Texas. | 我们来自得州的订单增长得相当可观。 | 比 big 正式，比 huge 克制，商务里谈规模很合适；美式拼写 sizable，英式常拼 sizeable；i 读 `/aɪ/`，重音在前 SIZE-a-ble。
+@v: market | = | n./v. | ˈmɑːrkɪt | 市场（某个地区或人群的买家）；推销 | 谈进入新地区、产品定位 | a sizable market；enter a market；the Canadian market | Japan is a difficult market for new brands. | 对新品牌来说，日本是个难做的市场。 | 「市场」指某国、某地的买家时常加冠词：the Canadian market / a new market；「菜市场」是 a (farmers') market，「股市」是 the stock market；动词 market 是「推销、做营销」：market a product；ar 读卷舌的 `/ɑːr/`。
+@v: competitors | competitor | n. | kəmˈpetɪtərz | 竞争对手 | 分析市场、说别人已经在做什么 | our main competitors；a direct competitor；ahead of competitors | Our competitors already offer free returns. | 我们的竞争对手已经提供免费退货了。 | 「竞争对手」指公司时说 competitor，比 rival 中性；「竞争」是 competition，「有竞争力的」是 competitive；重音在 pet：com-PET-i-tor，t 闪音像轻 d。
+@v: infrastructure | = | n. | ˈɪnfrəstrʌktʃər | 基础设施；（系统的）底层架构 | 说系统、网络、道路等撑不撑得住 | our infrastructure；IT infrastructure；infrastructure costs | The city is spending billions on new infrastructure. | 这座城市正在新的基础设施上投入数十亿。 | 不可数名词：✗ infrastructures（一般不加 s）；IT 里指服务器、网络、数据库这些「底层」，Raj 说 Our infrastructure can handle it.＝系统撑得住；重音在第一个音节 IN-fra-struc-ture。
+@v: cross-border | = | adj. | ˌkrɔːs ˈbɔːrdər | 跨境的 | 跨国电商、物流、支付 | cross-border shipping；cross-border e-commerce；cross-border payments | Cross-border shipping usually takes longer than domestic shipping. | 跨境运输通常比国内运输慢。 | 中文「跨境电商」就是 cross-border e-commerce，SwiftLink 做的正是这一行；放在名词前要加连字符；「跨部门」是 cross-functional（Day 118），别混；border 的 or 和 er 都要卷舌。
+@v: logistics | = | n. | ləˈdʒɪstɪks | 物流；（复杂事务的）安排和调度 | 说运输、仓储、配送；也说活动的组织安排 | cross-border logistics；a logistics partner；the logistics of the trip | Our logistics partner handles all the warehouses. | 我们的物流合作伙伴负责所有仓库。 | 形式是复数，作主语时常用单数动词：Logistics is the hard part.；也能指「张罗安排」：Let's talk about the logistics of the event.（活动怎么安排）；重音在 gis：lo-GIS-tics。
+@v: It's worth noting that | it's worth noting that | phr. | ɪts ˌwɜːrθ ˈnoʊtɪŋ ðət | 值得注意的是；需要指出的是 | 会议和报告里提出一个风险或重要细节，语气平和 | It's worth noting that…；It's worth mentioning that…；It's worth checking whether… | It's worth noting that prices may change after January. | 值得注意的是，一月以后价格可能会变。 | worth 后面接 -ing：✓ worth noting ✗ worth to note；比 Be careful: … 或 The problem is… 平和，提醒风险又不制造恐慌；worth 的 or 是卷舌的 `/ɜːr/`，th 咬舌，✗ 读成 「沃斯」。
+@v: precedent | = | n. | ˈpresɪdənt | 先例；前例 | 说以前有没有做过类似的事 | set a precedent；there's a precedent；without precedent | There's no precedent for this, so we need to be careful. | 这种事没有先例，所以我们要谨慎。 | 「有先例可循」there's a precedent；「开先例」set a precedent（常有「以后别人也会照着要」的担心）；读音和 president（总统）很像：precedent 是 `/ˈpresɪdənt/`，president 是 `/ˈprezɪdənt/`，区别在 s 和 z。
+@v: bilingual | = | adj. | baɪˈlɪŋɡwəl | 双语的；会说两种语言的 | 说页面、文件、员工用两种语言 | bilingual pages；a bilingual team；bilingual in English and Chinese | We're looking for a bilingual customer service agent. | 我们在招一名双语客服。 | bi- 是「二」，lingual 和语言有关，所以三种语言是 trilingual；人和东西都能用：She's bilingual. / bilingual menus；i 读 `/aɪ/`，gu 读 `/ɡw/`：bye-LING-gwal。
+@v: localization | = | n. | ˌloʊkələˈzeɪʃn | 本地化（让产品适应当地语言、习惯、规则） | 产品进入新市场时 | localization of the website；a localization plan；software localization | Good localization includes local dates, units and payment methods. | 好的本地化包括当地的日期格式、计量单位和支付方式。 | 不只是翻译：还有日期格式、货币、单位、节日、习惯；常缩写成 L10n（L 和 n 之间有 10 个字母）；英式拼作 localisation；加 -ation 以后重音后移到 za：lo-cal-i-ZA-tion。
+@v: federal | = | adj. | ˈfedərəl | 联邦的；（联邦制国家）全国层面的 | 说美国、加拿大等联邦制国家的全国性规定和机构 | federal rules；the federal government；federal and provincial | Some taxes are federal, and some are set by each state. | 有些税是联邦层面的，有些由各州自己定。 | 美国、加拿大是联邦制国家：federal＝全国层面，state（美国）／province（加拿大）＝地方层面；中文「中央的」直译 central 不适合这两个国家；e 读 `/e/`，常吞成两个音节 FED-ral。
+@v: jurisdiction | = | n. | ˌdʒʊrɪsˈdɪkʃn | 管辖区；管辖权 | 说不同的国家、州、省各有各的规定 | each jurisdiction；within our jurisdiction；different jurisdictions | Tax rules can be different in every jurisdiction. | 每个管辖区的税务规定都可能不同。 | 正式用词，法律、合规、税务场合常见；不确定具体规定时，说 We'd need advice for each jurisdiction. 比自己下结论稳妥；重音在 dic：ju-ris-DIC-tion。
+@v: Compliance | compliance | n. | kəmˈplaɪəns | 合规；遵守（法规、标准） | 说进入新市场、上新功能前要满足的规定 | compliance with…；a compliance team；ensure compliance | Our compliance team checks every new contract. | 我们的合规团队会审查每一份新合同。 | 动词是 comply，形容词 compliant：The process is compliant.；搭配 compliance with sth，✗ compliance of；中文「合规」在英文职场就是 compliance，很多公司有专门的 compliance team；重音在 pli。
+@v: prerequisite | = | n. | priˈrekwəzɪt | 前提；先决条件 | 说做某事之前必须先满足的条件 | a prerequisite for…；a basic prerequisite；no prerequisites | A valid visa is a prerequisite for the job. | 有效签证是这份工作的前提条件。 | 后面接 for：a prerequisite for success；比 condition 更强调「先」：没有它，后面的事根本谈不上；大学选课时「先修课」也叫 prerequisite；重音在 req：pre-REQ-ui-site。
+@v: comply | = | v. | kəmˈplaɪ | 遵守；符合（规定） | 说必须按法规、标准、要求做 | comply with the rules；fully comply；fail to comply | All our packaging must comply with the new rules. | 我们所有的包装都必须符合新规定。 | 一定要加 with：✓ comply with the rules ✗ comply the rules；比 follow 正式；第三人称 complies，过去式 complied；重音在后 com-PLY，ply 读 `/plaɪ/`。
+@v: on the table | = | phr. | ˌɑːn ðə ˈteɪbl | 摆在桌面上的；在考虑之中的 | 会议、谈判里说有哪些选项可以讨论 | There are two options on the table.；put sth on the table；off the table | Working from home is off the table for now. | 在家办公这个选项暂时不考虑了。 | 「摆在桌面上的选项」用 on the table，反过来「不再考虑」是 off the table；✗ on the desk；Everything is on the table. 是「什么都可以谈」；table 的 t 送气，ble 读 `/bl/`。
+@v: nationwide | = | adj./adv. | ˌneɪʃnˈwaɪd | 全国范围的（地）；在全国 | 说上线、推广、配送覆盖全国 | launch nationwide；a nationwide campaign；nationwide delivery | The new service is now available nationwide. | 新服务现已在全国推出。 | 可以作副词直接放在动词后：launch nationwide，✗ launch in nationwide；也可作形容词：a nationwide launch；同类词 worldwide（全球）；重音在 wide。
+@v: entry | = | n. | ˈentri | 进入（市场）；入场；（表格里的）一条记录 | 谈进入新市场的时机和方式 | market entry；a slow entry；entry into Canada | Our entry into the Japanese market took two years. | 我们进入日本市场用了两年。 | 「进入（市场）」名词是 entry into…，动词是 enter a market（不加 into）；entry 也指表格、日志里的一条：a log entry；复数 entries；重音在前 EN-try。
+@v: threshold | = | n. | ˈθreʃhoʊld | 门槛；临界值 | 说超过多少才收费、才需要审批 | a value threshold；above/below the threshold；reach a threshold | Orders above the threshold need a manager's approval. | 超过这个门槛的订单需要经理批准。 | 中文「门槛」「起征点」「临界值」都可以用 threshold；具体数字不确定时别猜，说 There may be a threshold, but I don't know the details.；拼写只有一个 h 在中间：thres-hold，✗ threshhold；th 咬舌 `/θ/`。
+@v: consultant | = | n. | kənˈsʌltənt | 顾问；咨询师 | 请外部专家给专业意见（法律、税务、海关等） | a customs consultant；hire a consultant；an outside consultant | We hired a consultant to review our contracts. | 我们请了一位顾问来审查合同。 | 动词是 consult（咨询、请教）：consult a lawyer；拿不准的法规问题，最稳妥的说法是 We'd need advice from a consultant.；重音在 sul：con-SUL-tant，✗ CON-sul-tant。
+@v: alliance | = | n. | əˈlaɪəns | 联盟；（公司之间的）合作结盟 | 两家公司为共同目标长期合作 | form an alliance；a strategic alliance；an alliance with… | The two airlines formed an alliance to share routes. | 两家航空公司结成联盟，共享航线。 | 比 partnership（第三册）更正式，常用于公司之间的战略合作：a strategic alliance；搭配 form an alliance with sb；ll 读 `/l/`，i 读 `/aɪ/`：a-LIE-ance。
+@v: go to market | = | phr. | ˌɡoʊ tə ˈmɑːrkɪt | 推向市场；（在某地）正式开卖 | 说产品或服务什么时候、在哪里正式推出 | go to market in April；a go-to-market plan；go to market early | We plan to go to market in the spring. | 我们计划春天推向市场。 | 中文「上市」有两个意思：产品上市＝go to market / launch；公司上市（IPO）＝go public，✗ BrightNest will go public in Canada（成了公司在加拿大上市！）；做名词定语时加连字符：a go-to-market plan。
+@v: lay the groundwork | = | phr. | ˌleɪ ðə ˈɡraʊndwɜːrk | 打基础；做前期准备 | 说正式开始前先做好的准备工作 | lay the groundwork for…；lay the groundwork this quarter；help lay the groundwork | These meetings will lay the groundwork for next year's budget. | 这几次会议会为明年的预算打下基础。 | 中文「打基础」✗ hit the foundation；lay（放置）的过去式是 laid：We laid the groundwork in May.，别和 lie（躺）混；和 lay the foundation 意思接近，groundwork 更偏「前期的具体准备」；groundwork 是复合名词，重音在 ground。
+@v: localize | = | v. | ˈloʊkəlaɪz | 本地化；使适应当地 | 说哪些页面、内容要改成当地的语言和习惯 | localize the website；localize content；fully localized | We need to localize the app before we launch in Mexico. | 在墨西哥上线之前，我们得把 App 本地化。 | 动词 localize 重音在前 LO-cal-ize，名词 localization 重音后移到 za——加 -ation 的词重音总在 -a- 上；英式拼作 localise；被动 be localized 很常用：The pages are fully localized.
+
+@diff: 「首先」——First and foremost, …
+@d_cn: 主持会议开场，中文习惯说「首先，感谢大家……」，后面的每一点也都用「首先、其次、最后」。
+@d_en: First and foremost, thank you all for the smooth launch. / First, a quick update. / To begin with, …
+@d_why: 中文「首先」只表示顺序；英文 **First and foremost** 是「首先，也是最重要的」，带强调，一场会、一封信只用一次，留给最要紧的话：开场致谢、或者一个核心原则（Safety comes first and foremost.）。只是排顺序时用 **First,** / **To begin with,**（第三册 Day 62），后面接 Then / Next / Finally。中国学习者常见的问题是把 Firstly, secondly, thirdly 用满整场会——在美式口语里显得像念稿；还有 ✗ Firstly and foremost 这种混搭。开场致谢之后要马上说目的（Here's why we're meeting. / The purpose of today's meeting is…），美国同事最怕的是「谢了五分钟还不知道今天开什么会」。
+@d_when: 主持会议、项目阶段性会议、致辞的开头；邮件里提出最重要的一点。
+@d_vs: **First and foremost, thank you all for the smooth launch.** 首先，感谢各位让上线这么顺利。（最重要的话）\n**First, a quick update.** 先简单说一下进展。（单纯排顺序）\n**To begin with, let's look at the numbers.** 先来看数字。\n✗ Firstly and foremost, …\n✗ Firstly… Secondly… Thirdly… Fourthly…（像念稿）
+@d_task: 你主持部门季度会。用一句话开场：首先，也是最重要的，感谢大家这个季度的付出；再说今天开会的原因：讨论明年的预算。 | First and foremost, thank you all for your hard work this quarter. Here's why we're meeting: we need to discuss next year's budget.
+@diff: 「值得注意的是」——It's worth noting that…
+@d_cn: 会上要提出一个风险或容易被忽略的细节，又不想把气氛搞得很紧张：「值得注意的是……」「需要提醒一下……」。
+@d_en: It's worth noting that Canada has different customs rules. / It's worth checking whether there's a threshold. / We'd need advice on that before we decide.
+@d_why: 中国学习者最常见的两种说法：✗ It's worth to note that…（worth 后面要接 -ing，不接 to do）和 ✗ We should pay attention that…（pay attention to 后面不接 that 从句）。**It's worth noting that…** 语气平和：提醒大家注意，但不制造恐慌，比 **Be careful: …** 或 **The big problem is…** 都稳。同一个结构可以换动词：worth mentioning / worth checking / worth asking。谈法规、海关、税务这类自己不是专家的话题，美国职场特别讲究**不说死**：用 may / might / probably（Some rules may vary by province.），坦白说 I don't know the details.，再落到一个行动上：We'd need advice from a consultant.。中文会上常有人凭印象说「加拿大规定是……」，一旦说错，客户会拿它当依据，后果很麻烦。
+@d_when: 会议上提出风险；报告和邮件里补充一个重要细节；谈法律、海关、税务等需要专业意见的话题时。
+@d_vs: **It's worth noting that Canada has different customs rules.** 值得注意的是，加拿大的海关规则不一样。\n**Some rules may vary by province.** 有些规定可能各省不同。（不说死）\n**There may be a threshold, but I don't know the details.** 可能有个门槛，具体的我不清楚。\n**We'd need advice from a consultant.** 我们需要顾问的意见。\n✗ It's worth to note that…\n✗ We should pay attention that…
+@d_task: 在会上提醒大家：新仓库离港口比较远（值得注意），运费可能会上涨，具体多少要问物流公司。 | It's worth noting that the new warehouse is far from the port. Shipping costs may go up, but we'd need to ask our logistics partner for the details.
+@diff: 「目前有两个选项」——There are two options on the table.
+@d_cn: 讨论到一半，主持人想把大家说的归纳成几个选项：「目前有两个方案」「现在摆在我们面前的有两条路」。
+@d_en: There are two options on the table. / Option A is to launch nationwide in April. Option B is to start with Ontario, then expand. / That option is off the table.
+@d_why: **on the table** 是会议和谈判里的固定说法：选项像摆在桌上一样，大家都看得见、都可以讨论；反过来 **off the table** 是「不再考虑了」。中文「摆在面前」直译成 ✗ There are two choices in front of us. 不算错，但听起来像人生抉择；✗ on the desk 就完全不对了。摆出选项以后，用同一个句式逐个说：**Option A is to…** / **Option B is to…**（不定式说「做什么」），每个只说一句，再请各方表态。主持人这时要保持中立：先摆选项，再听 Priya 和 Mike 的理由，最后用 Can we agree that…?（Day 117）收口；如果双方各让一步，说出条件：Fine, if we go nationwide by summer.——这就是一个折中的决定。
+@d_when: 会议讨论到需要选择时；谈判中说明还有哪些条件可谈；写决策邮件时列选项。
+@d_vs: **There are two options on the table.** 目前有两个选项。\n**Option A is to launch nationwide in April.** 方案 A 是四月全国上线。\n**Option B is to start with Ontario, then expand.** 方案 B 是先做安大略，再扩展。\n**Working from home is off the table.** 在家办公不在考虑范围了。\n✗ There are two choices on the desk.
+@d_task: 讨论年会地点，你想归纳：目前有两个选项，一个是在深圳本地办，一个是去珠海办两天。 | There are two options on the table. Option A is to hold it in Shenzhen. Option B is to go to Zhuhai for two days.
+@diff: 「打基础」「推向市场」——lay the groundwork / go to market
+@d_cn: 定下方向以后，说「这个季度先打好基础」「四月正式推向市场」；中文「上市」既可以说产品，也可以说公司。
+@d_en: Let's lay the groundwork this quarter. / We'll go to market in April. / The company went public in 2020.
+@d_why: 「打基础」直译 ✗ hit the foundation / ✗ make the base 都不是英文。**lay the groundwork (for sth)** 是「为某事做前期准备」：找顾问、做本地化清单、查代码，正是林晓分配的那些行动项；lay 的过去式是 laid（✗ layed），也别和 lie（躺）混。「推向市场」说 **go to market**（in April / in Canada），产品经理还常说 a go-to-market plan（上市计划）。最大的坑是中文「上市」：产品上市是 go to market / launch；**公司上市**（IPO）是 **go public**——如果你说 ✗ BrightNest will go public in Canada，对方会以为 BrightNest 要在加拿大的证券交易所挂牌。收尾时把「打基础」变成具体的人和日期：Raj, could you find a consultant by Friday?，这场会才算真正结束。
+@d_when: 会议收尾、项目计划、季度目标；说产品和服务的推出时间。
+@d_vs: **Let's lay the groundwork this quarter.** 我们这个季度先把基础打好。\n**We'll go to market in April.** 我们四月推向市场。\n**We need a go-to-market plan.** 我们需要一个上市计划。\n**The company went public in 2020.** 这家公司 2020 年上市。（IPO）\n✗ BrightNest will go public in Canada.（意思变成公司在加拿大上市）
+@d_task: 告诉团队：这个月先为新 App 打基础（定下设计、找好测试用户），七月推向市场。 | This month, let's lay the groundwork for the new app: finish the design and find our test users. We'll go to market in July.
+
+@core: First and foremost, thank you all for … | 开场先说最重要的话（致谢） | the smooth launch / your hard work / joining at short notice | 正式：First and foremost, I'd like to thank everyone for a successful launch.｜随意：Before anything else, thanks, everyone!
+@core: Here's why we're meeting. … wants to expand into … | 开场第二句：直接说开会的原因 | BrightNest / our client；Canada / Europe / two new cities | 正式：The purpose of today's meeting is to discuss BrightNest's expansion into Canada.｜随意：So, quick context: BrightNest wants to go to Canada.
+@core: It's worth noting that … | 平和地提出风险或重要细节 | Canada has different customs rules / prices may change / the team is smaller in spring | 正式：It should be noted that customs requirements differ in Canada.｜随意：Just so you know, customs works differently there.
+@core: Some rules may …, so we'd need advice from … | 谈法规和海关时不说死，落到行动上 | vary by province / be different；a customs consultant / our legal team | 正式：We will seek professional advice before making any commitments.｜随意：I'm not sure, so let's ask an expert.
+@core: There are two options on the table. Option A is to … Option B is to … | 把讨论归纳成选项 | launch nationwide / start with Ontario；hire a consultant / partner with a carrier | 正式：We are currently considering two options.｜随意：So it's A or B.
+@core: Can we agree that we'll … and go to market in …? | 收口：把折中方案变成一个决定 | start with Ontario / April；launch in two cities / the spring | 正式：I'd like to confirm that we will start with Ontario and go to market in April.｜随意：So, Ontario first, April launch?
+@core: Let's lay the groundwork this quarter. …, could you … by …? | 收尾：说下一步，当场分配行动项 | this quarter / this month；find a consultant / list what to localize；Friday | 正式：Our next step is to lay the groundwork; Raj will identify a consultant by Friday.｜随意：Okay, prep work first. Raj, consultant by Friday?
+
+@pw: jurisdiction | ˌdʒʊrɪsˈdɪkʃn | 4 个音节 ju·ris·DIC·tion | 主重音在 dic；ju 读 `/dʒʊ/`，开头带次重音；-tion 读 `/ʃn/`
+@pw: infrastructure | ˈɪnfrəstrʌktʃər | 4 个音节 IN·fra·struc·ture | 重音在第一个音节；fra 弱读成 `/frə/`；ture 读 `/tʃər/`
+@pw: prerequisite | priˈrekwəzɪt | 4 个音节 pre·REQ·ui·site | 重音在 req；qu 读 `/kw/`；结尾 -site 读 `/zɪt/`，不读 `/saɪt/`
+@pw: localization | ˌloʊkələˈzeɪʃn | 5 个音节 lo·cal·i·ZA·tion | 主重音在 za；对比动词 LO-cal-ize，加 -ation 后重音后移
+@pw: bilingual | baɪˈlɪŋɡwəl | 3 个音节 bi·LIN·gual | 重音在 lin；bi 读 `/baɪ/`；gual 读 `/ɡwəl/`
+@pw: consultant | kənˈsʌltənt | 3 个音节 con·SUL·tant | 重音在 sul；con 弱读成 `/kən/`，✗ CON-sul-tant
+@pw: logistics | ləˈdʒɪstɪks | 3 个音节 lo·GIS·tics | 重音在 gis，g 读 `/dʒ/`；lo 弱读成 `/lə/`
+@ps: **First** and **fore**most, / **thank** you all / for the **smooth** **launch**. | and 弱读成 `/ən/`，first and 连成 fir-stand；致谢部分语调平稳、真诚，launch 处落下。
+@ps: It's **worth** noting that / **Can**ada has **dif**ferent **cus**toms rules. | 重音给 worth 和信息词 different、customs；noting that 的 that 弱读成 `/ðət/`；customs rules 是复合名词，重音在 customs；提醒风险，语气平和，不要加重成警告。
+@ps: There are **two** options / on the **ta**ble. | There are 连读成 `/ðerər/`；数字 two 是信息焦点，要重读；options on 连读成 op-tion-zon。
+@ps: Let's **lay** the **ground**work / this **quar**ter. | the 弱读成 `/ðə/`；groundwork 是复合名词，重音在 ground；quarter 的 t 闪音，像 QUAR-der；收尾句语调坚定落下。
+@pnote: 名词、动词和派生词的重音：**lo**calize（动词，重音在前）→ locali**za**tion（加 -ation，重音移到 za）；com**ply**（动词）→ com**pli**ance（名词，重音不变，ply 变成 pli）；**mar**ket（名词、动词同音）→ go to **mar**ket。复合名词重音在前：**ground**work、**cus**toms rules、**car**rier codes、**track**ing pages；形容词 + 名词重音在后：a sizable **mar**ket、a slow **en**try。
+@pnote: 会议听力要分清「定了的」和「可能的」：may vary、may be a threshold、probably need、we'd need advice——这些都是「还没定、要查」，笔记里打问号；Can we agree that… 之后的 Fine, if… 才是决定，而且带条件（nationwide by summer）。数字听辨：thirty percent（30%）别听成 thirteen；April、summer、this quarter、by Friday 都是时间节点。写和说的不同：会上说 Here's why we're meeting.，会议邀请里写 Purpose of the meeting is to discuss…；Leo 的纪要里会写 Decision: Ontario first, go to market in April.
+@lfocus: 开场和目的：thank you（smooth launch）→ Canada, next spring → ten minutes；进展：returns calls down thirty percent
+@lfocus: 风险（记英文关键词，打问号）：customs rules、two official languages / bilingual / localization、federal / province / jurisdiction、threshold?、consultant
+@lfocus: 选项、决定和行动项：A = nationwide, April（Priya）；B = Ontario first（Mike）；decision = Ontario, go to market April, nationwide by summer；Raj → consultant by Friday、Emma → localize list、Mike → carrier codes、Leo → notes
+@dict: S9–S14
+@dict: S23–S27
+@res: 在 youglish.com 输入 "it's worth noting that"，选 US，听美国人开会时怎么平和地提出一个风险。
+
+@mimic: 跟读【C】S2–S27：先只跟读林晓的台词（S2–S4、S16–S17、S23、S25–S27），把开场、摆选项、收口和分配任务这几步的语气练熟；再逐句跟读整场会议，重点模仿 It's worth noting that… 的平和语气和 Mike 的 I **see** your point, **but**… 里的对比重音；最后你演林晓，手机朗读其他五个人的台词，正常语速完整开一遍会并录音，看看能不能在三分钟内说完。
+@swap: First and foremost, thank you all for the smooth launch. | 换致谢内容：your hard work this quarter／joining at short notice／your patience during the pilot | First and foremost, thank you all for joining at short notice.
+@swap: It's worth noting that Canada has different customs rules. | 换风险：prices may change in January／the new office has less parking／our biggest client renews in March | It's worth noting that our biggest client renews in March.
+@swap: There are two options on the table. | 换数量，再接 Option A / B：three options／only one option left；或换成 off the table | There's only one option left on the table.
+@swap: Let's lay the groundwork this quarter. | 换时间和内容：this month／before the summer；for the new app／for next year's budget | Let's lay the groundwork for the new app this month.
+@free: 你主持季度会，开场先感谢团队完成了一个大项目，再说开会的原因：讨论明年要不要开拓东南亚市场。 | First and foremost, thank you all for finishing the warehouse project on time. Here's why we're meeting: we need to decide whether to enter the Southeast Asian market next year.
+@free: 客户在会上问你：Do we need a special license to ship to Australia? 你不确定，不想乱下结论。 | I'm not sure, and I don't want to guess. The rules may be different there, so we'd need advice from a customs consultant before we commit to anything.
+@free: 讨论新产品上市时间，你归纳：目前有两个选项，一是三月全国一起上，二是先在三个城市试，再推向全国。 | There are two options on the table. Option A is to launch nationwide in March. Option B is to start in three cities and go nationwide later.
+@free: 会议快结束了，你要收口：同意先在三个城市试点，五月推向市场；这个月先打基础，并分配一个任务给 Kevin。 | Can we agree that we'll start in three cities and go to market in May? Great. Let's lay the groundwork this month. Kevin, could you set up the test accounts by Friday?
+@output: 录一段 2 分钟的会议发言：你是主持人，向团队提出一个扩展计划（新市场、新城市、新产品线，或者生活里的：比如学校社团要开第二个分会）。结构：First and foremost, thank you… → Here's why we're meeting: … → 一句进展或一个数字 → It's worth noting that…（风险，措辞留余地：may / we'd need advice）→ There are two options on the table. Option A is to… Option B is to… → 你的建议 → Can we agree that…? → Let's lay the groundwork… + 两个行动项（谁、做什么、什么时候前）。
+@output_sample: Good morning, everyone. First and foremost, thank you all for a great first year in the U.S. market. Here's why we're meeting. Our sellers are asking us to track parcels to Japan, and we'd like to go to market there next autumn. A quick number: last quarter, requests for Japanese tracking increased by forty percent. Japan is a sizable market, and two of our competitors already offer it. It's worth noting that Japan has different customs rules, and we may need to localize our tracking pages and emails. I don't know the details yet, so we'd need advice from a consultant before we commit to anything. There are two options on the table. Option A is to launch for all our sellers at once. Option B is to start with ten sellers who already ship to Japan, and then expand. I'd recommend Option B, because it's easier to get right, and it gives us real data before the big launch. So, can we agree that we'll start with ten sellers and go to market in October? If so, let's lay the groundwork this quarter. Kevin, could you find a customs consultant by the end of the month? And Emma, could you list what we need to localize by next Friday? Thank you, everyone.
+
+@check: 听力：BrightNest 想做什么、什么时候？会上提到了哪几个风险或难点？ | 明年春天扩展到加拿大。风险和难点：跨境物流；加拿大的海关规则不同；有两种官方语言，很可能需要双语页面，本地化不只是翻译（日期、货币）；有些规定是联邦层面的，有些可能各省不同，需要专业意见；关税可能有货值门槛，具体不清楚；合规是前提。
+@check: 听力：桌上的两个选项是什么？谁支持哪个？最后怎么定的？行动项分给了谁？ | A：四月全国上线（Priya 支持，怕慢了给竞争对手机会）；B：先从安大略省开始再扩展（Mike 支持，一个省更容易做对）。决定：先做安大略，四月推向市场，条件是夏天前推向全国；这个季度先打基础。行动项：Raj 周五前找一位海关顾问；Emma 列出需要本地化的内容；Mike 检查承运商代码；Leo 发会议纪要。
+@check: 改错：① It's worth to note that the price will change. ② Firstly and foremost, thanks for coming. ③ We have two choices on the desk. ④ We comply the new rules. | ① It's worth noting that the price will change. ② First and foremost, thanks for coming. ③ There are two options on the table. ④ We comply with the new rules.
+@check: 中文「上市」有两个意思：① 新款手机下个月上市 ② 这家公司明年上市。英文分别怎么说？ | ① The new phone goes to market next month.（或 The new phone launches next month.）② The company will go public next year.
+@check: 换个场景：同事在会上很肯定地说 "In Canada, you don't pay any duty on small parcels." 你不确定这是不是真的。怎么礼貌地提醒大家先别下结论？ | That may be true, but I'm not sure. The rules can change, so it's worth checking with a customs consultant before we promise anything to the client.
+@check: 用 lay the groundwork 和 go to market 说一句你自己的计划（学习、工作或副业）。 | 例如：This month, I'm laying the groundwork for my online English class. I want to go to market in September.
+@next1: 不看书说出 5 个锚点句：S2、S3、S9、S16、S25
+@next1: 按「致谢 → 目的 → 风险 → 两个选项 → 决定 → 行动项」，用六句英文说一说你最近参加的一场会
+@next7: 主持会议八步：First and foremost… → Here's why we're meeting… → update → It's worth noting that… → There are two options on the table. → I see your point, but… → Can we agree that…? → Let's lay the groundwork… / Could you… by…?
+@next7: 谈法规和不确定的事：may / probably / I don't know the details / we'd need advice from a consultant——各造一句

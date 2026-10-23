@@ -19,41 +19,41 @@
 @warmup: 我们能做的是提供一个变通的办法。 | What we can do is offer a workaround. | D78
 @warmup: 李凯和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
 
-@scene: 9 月 14 日试点就要开始了，可规划会上那个最大的问题还悬着：先上多少个卖家？西雅图的 Mike 主张先上 10 个——测试才做了一半，万一出问题，只影响 10 个卖家；BrightNest 的 Priya 坚持 50 个——10 个卖家一天才两百来单，数据太少，十一月旺季又近在眼前。两人说话都很直，几轮下来，会上开始有了火药味。林晓是主持人：她不能一味顺着客户，也不能让自己的工程团队冒太大的险。张涛也在线上，但他希望团队自己拿主意；实习生 Leo 负责记录。林晓要学会礼貌地同意、部分同意和反对，把大家拉回共同的目标，会后再写一封邮件，把共识和分歧写清楚。
-@sp: 人物关系 | 林晓是会议主持人和项目协调人；Mike 是西雅图工程经理，直率、讲逻辑；Priya 是客户方的运营经理，讲数据，想要规模大、速度快；张涛是项目负责人，在线旁听；Leo 做会议记录
+@scene: 9 月 14 日试点就要开始了，可规划会上那个最大的问题还悬着：先上多少个卖家？西雅图的 Mike 主张先上 10 个——测试才做了一半，万一出问题，只影响 10 个卖家；BrightNest 的 Priya 坚持 50 个——10 个卖家一天才两百来单，数据太少，十一月旺季又近在眼前。两人说话都很直，几轮下来，会上开始有了火药味。林晓是主持人：她不能一味顺着客户，也不能让自己的工程团队冒太大的险；实习生 Leo 在一旁记录。林晓要学会礼貌地同意、部分同意和反对，把大家拉回共同的目标，会后再写一封邮件，把共识和分歧写清楚。
+@sp: 人物关系 | 林晓是会议主持人和项目协调人；Mike 是西雅图工程经理，直率、讲逻辑；Priya 是客户方的运营经理，讲数据，想要规模大、速度快；实习生 Leo 做会议记录，只在聊天框里插了一句
 @sp: 沟通目的 | 让两种意见都被听到，分清大家一致的地方（目标）和真正的分歧（风险），不靠投票、也不等上级拍板，推动大家走向一个都能接受的决定
-@sp: 已知信息 | 测试只完成了一半；10 个卖家一天大约 200 单；Priya 希望 9 月 14 日就有 50 个卖家上线；如果团队自己定不下来，BrightNest 的副总裁 Karen 就会出面拍板
+@sp: 已知信息 | 测试只完成了一半；10 个卖家一天大约 200 单；试点 9 月 14 日开始，Priya 希望一开始就上 50 个卖家；如果团队自己定不下来，BrightNest 的副总裁 Karen 就会出面拍板
 @sp: 表达重点 | 同意的强弱（Absolutely / I couldn't agree more）→ 委婉反对（I see your point, but…）→ 部分同意和让步（fair point / to some extent / concede）→ 对事不对人（object to fifty on day one）→ 唱反调提风险 → 会后邮件写清共识和分歧
 
 @story_title: Episode 100 · Ten or Fifty?
 @story_type: 视频会议 + 会后邮件
 @s: One question is still open: ten sellers or fifty? | 有一个问题还没定下来：先上十个卖家，还是五十个？
 @s: Mike: Ten. If something breaks, only ten sellers get hurt. | Mike：十个。万一出了问题，也只连累十个卖家。
-@s: Priya: I have to **disagree**. Ten sellers won't give us enough data. | Priya：这一点我不同意。十个卖家给不了我们足够的数据。
+@s: Priya: I have to **disagree**. We need fifty. | Priya：这一点我不同意。我们需要五十个。
 @s: Mike: **I see your point**, but I'm not sure that's realistic. Our tests are only half done. | Mike：我明白你的意思，但我不确定这现不现实。我们的测试才做了一半。
 @s: Lily can feel the **tension**. The call is getting **heated**. | 林晓感觉到了紧张的气氛，会开得有点火药味了。
 @s: Lily: Let's step back. Do we **agree** on the goal? A smooth launch before November? | 林晓：我们先退一步。目标上我们是不是一致的？在十一月之前顺利上线？
 @s: Priya: **Absolutely**. | Priya：那当然。
 @s: Mike: **I couldn't agree more**. | Mike：再同意不过了。
 @s: Lily: So **fundamentally**, we don't **differ** on the goal, only on the risk. | 林晓：所以说到底，我们在目标上没有分歧，只是对风险的看法不同。
-@s: Priya: Ten sellers mean about two hundred orders a day. That's too few to find real problems. | Priya：十个卖家一天大约只有两百单，太少了，发现不了真正的问题。
+@s: Priya: Ten sellers mean about two hundred orders a day. That's too few. | Priya：十个卖家一天大约只有两百单，太少了。
 @s: Mike: That's a **fair point**. I'll **concede** that ten is **indeed** a small sample. | Mike：这话有道理。我承认，十个卖家的样本确实小了点。
 @s: Mike: But I'm **skeptical** about fifty. Show me the data, and you might **persuade** me. | Mike：可对五十个，我还是有疑虑。拿数据给我看，说不定你能说服我。
 @s: Lily: Priya, I agree with you **to some extent**. More sellers mean more data. | 林晓：Priya，我在一定程度上同意你：卖家越多，数据就越多。
 @s: Lily: Let me **play devil's advocate** for a second. | 林晓：我先来唱个反调。
-@s: Lily: What if the statuses are wrong in week one? Fifty sellers would all call Grace's team. | 林晓：要是第一周物流状态就出错了呢？五十个卖家会一起打电话给吴佳的团队。
+@s: Lily: What if the statuses are wrong in week one? Fifty sellers would call Grace's team. | 林晓：要是第一周物流状态就出错了呢？五十个卖家会一起打电话给吴佳的团队。
 @s: Mike: Exactly. I don't **object** to fifty. I object to fifty on day one. | Mike：没错。我不反对五十个，我反对的是第一天就上五十个。
 @s: Leo types in the chat: "Should we **vote**?" | Leo 在会议聊天框里打了一行字：「要不要投票？」
-@s: Lily: Let's not vote. It doesn't need to be **unanimous**, but we all need to live with the decision. | 林晓：我们不投票。不需要每个人都赞成，但这个决定得是大家都能接受的。
+@s: Lily: Let's not vote. It doesn't need to be **unanimous**, but we all need to live with it. | 林晓：我们不投票。不需要每个人都赞成，但这个决定得是大家都能接受的。
 @s: Priya: Agreed. Otherwise Karen may **overrule** us all. | Priya：同意。不然 Karen 可能会把我们的意见全都否掉。
 @s: Mike: Fair enough. If we go with fifty, please note my **dissent**, Leo. | Mike：行吧。要是最后定了五十个，Leo，请把我的反对意见记下来。
 @br:
-@s: After the call, Lily writes to Mike and Priya: | 会后，林晓给 Mike 和 Priya 写了一封邮件：
+@s: Lily follows up by email: | 会后，林晓发邮件跟进：
 @s: Hi Mike and Priya, | Mike、Priya，你们好：
 @s: Thanks for a **constructive** discussion. Our only **disagreement** is the size of the first group. | 谢谢两位，今天的讨论很有建设性。我们唯一的分歧是第一批上多少个卖家。
-@s: Priya, could you share the order data for all fifty sellers? | Priya，能不能把这五十个卖家的订单数据发给我们？
+@s: Priya, could you share the data for all fifty sellers? | Priya，能不能把这五十个卖家的订单数据发给我们？
 @s: Mike, could you list the open tests? | Mike，能不能把还没做完的测试列个清单？
-@s: Honestly, I'm not **entirely** sure we have to choose between ten and fifty. | 说实话，我不太确定我们是不是非得在十个和五十个之间二选一。
+@s: I'm not **entirely** sure we have to choose between ten and fifty. | 其实我不太确定我们是不是非得在十个和五十个之间二选一。
 @s: If you have any **objections**, just let me know. | 如果你们有异议，随时告诉我。
 @s: Best,\nLily | 祝好，\n林晓
 
@@ -133,15 +133,15 @@
 @ps: I don't ob**ject** to **fif**ty. / I ob**ject** to fifty / on **day one**. | 第二句的重音移到 day one 上——这正是 Mike 要强调的新信息；object 作动词，重音在后；object to 的两个 t 连成一个音。
 @ps: Let me **play** devil's **ad**vocate / for a **sec**ond. | Let me 连读成 `/ˈlemi/`；devil's 很短；for a 弱读成 `/fərə/`；这是打招呼的话，语气轻松，别说得像在吵架。
 @pnote: 会议里的语调：同意时语调下降、干脆（Absolutely↘ / I couldn't agree more↘）；委婉反对时，but 前面那半句语调平或微升（I see your point→, but…），听的人就知道「后面还有话」。I agree with you **to some extent** 里的 to some extent 要稍慢、稍重，提醒对方你不是完全同意。中文语调起伏小，用英文反对时容易每个词一样重，听起来生硬，像在吵架。
-@pnote: 名动重音对：ˈobject（物体）／obˈject（反对）、a ˈproject ／ to proˈject、an ˈincrease ／ to inˈcrease——名词重音在前，动词重音在后。数字：**fif**ty `/ˈfɪfti/` 重音在前，fif**teen** `/ˌfɪfˈtiːn/` 重音在后，会上「fifty sellers」还是「fifteen sellers」全靠重音分辨；two hundred orders a day 里的 a 弱读成 `/ə/`；September 14 读 September fourteenth。
-@lfocus: 数字和日期：ten ／ fifty ／ two hundred orders a day ／ September 14——笔记写成 Mike 10 ／ Priya 50
+@pnote: 名动重音对：ˈobject（物体）／obˈject（反对）、a ˈproject ／ to proˈject、an ˈincrease ／ to inˈcrease——名词重音在前，动词重音在后。数字：**fif**ty `/ˈfɪfti/` 重音在前，fif**teen** `/ˌfɪfˈtiːn/` 重音在后，会上「fifty sellers」还是「fifteen sellers」全靠重音分辨；two hundred orders a day 里的 a 弱读成 `/ə/`，听起来像 two hundred orders‿uh day。
+@lfocus: 数字：ten ／ fifty ／ two hundred orders a day——笔记写成 Mike 10 ／ Priya 50 ／ 10 sellers = 200 orders/day
 @lfocus: 立场和让步：disagree ／ I see your point, but ／ fair point ／ concede ／ object to fifty on day one——记下每个人同意了哪一点、反对哪一点
 @lfocus: 决定和行动项：no vote ／ not unanimous ／ Karen ／ dissent；邮件里 Priya → order data ／ Mike → open tests
-@dict: S10–S14
-@dict: S20–S23
+@dict: S9–S12
+@dict: S16–S19
 @res: 在 youglish.com 输入 "I couldn't agree more"，选 US，听美国人说这句话时落下的语调。
 
-@mimic: 跟读【C】S1–S25：先正常语速逐句跟读，重点模仿 I see your point, but… 的对比重音和 I couldn't agree more. 落下的语调；再由你演林晓，用手机朗读 Mike、Priya 和张涛的台词，完整对一遍并录音。最后把邮件 S26–S34 当成你自己写的，用平稳、友好的语气读一遍。
+@mimic: 跟读【C】S1–S20：先正常语速逐句跟读，重点模仿 I see your point, but… 的对比重音和 I couldn't agree more. 落下的语调；再由你演林晓，用手机朗读 Mike 和 Priya 的台词，完整对一遍并录音。最后把邮件 S21–S28 当成你自己写的，用平稳、友好的语气读一遍。
 @swap: I see your point, but I'm not sure that's realistic. | 换后半句：we have enough time／the numbers support that／our team can handle it | I see your point, but I'm not sure we have enough time.
 @swap: I agree with you to some extent. | 换程度和对象：to a large extent；with Mike／with the plan；再加 but… | I agree with Mike to a large extent, but we still need more data.
 @swap: I don't object to fifty. I object to fifty on day one. | 换内容：the new tool → using it before training；a later launch → a launch without testing | I don't object to the new tool. I object to using it before training.
@@ -153,13 +153,13 @@
 @output: 写一封 8–12 句的会后邮件，标题是 "Where we agree and where we differ"（也可以自拟）：感谢大家有建设性的讨论 → 一句话说共识（We agree on…）→ 说清分歧（Our only disagreement is…）→ 承认双方各自的道理（X made a fair point…）→ 给出你的看法（I agree to some extent, but…）→ 请各方会前准备什么、什么时候给 → 下次在哪里讨论 → 如有异议请告诉你。可以写工作中真实的分歧，也可以写和朋友商量旅行目的地时的分歧。
 @output_sample: The subject line is "Pilot size: where we agree and where we differ."\nHi Mike and Priya,\nThank you both for a constructive discussion today.\nWe agree on the goal: a smooth launch before the November peak.\nOur only disagreement is how many sellers we should start with.\nPriya made a fair point: ten sellers may not give us enough data.\nMike also made a fair point: half of our tests are still open.\nI agree with Priya to some extent, but I'm skeptical that we can support fifty sellers on day one.\nPriya, could you share the order data for all fifty sellers by Thursday?\nMike, could you send me a list of the open tests by the same day?\nI'd like us to make a decision at our next call.\nIf you have any objections, just let me know.\nBest,\nLily
 
-@check: 听力：Mike 和 Priya 分别主张先上多少个卖家？各自的理由是什么？ | Mike 主张 10 个：出了问题只连累 10 个卖家，而且测试才做了一半（Our tests are only half done.）。Priya 主张 50 个：10 个卖家一天只有大约 200 单，太少，发现不了真正的问题；她希望 9 月 14 日就有 50 个卖家上线。
-@check: 听力：最后大家投票了吗？Mike 让 Leo 记下什么？会后林晓请 Priya 和 Mike 各做什么？ | 没有投票：林晓说决定不需要全体一致（unanimous），但要大家都能接受。Mike 说如果定了 50 个，请 Leo 记下他的反对意见（note my dissent）。邮件里，林晓请 Priya 发来 50 个卖家的订单数据，请 Mike 列出还没完成的测试。
+@check: 听力：Mike 和 Priya 分别主张先上多少个卖家？各自的理由是什么？ | Mike 主张 10 个：出了问题只连累 10 个卖家，而且测试才做了一半（Our tests are only half done.）。Priya 主张 50 个：10 个卖家一天只有大约 200 单（about two hundred orders a day），数据太少。Mike 也承认 10 个的样本小了点（a small sample）。
+@check: 听力：最后大家投票了吗？Mike 让 Leo 记下什么？会后林晓请 Priya 和 Mike 各做什么？ | 没有投票：林晓说决定不需要全体一致（unanimous），但要大家都能接受。Mike 说如果定了 50 个，请 Leo 记下他的反对意见（note my dissent）。邮件里，林晓请 Priya 发来 50 个卖家的数据，请 Mike 列出还没完成的测试（the open tests）。
 @check: 改错：① I'm agree with you. ② I'm not agree with this plan. ③ We object to start on Monday. | ① I agree with you. ② I don't agree with this plan.（或 I disagree with this plan.）③ We object to starting on Monday.（object to 后面接 -ing）
 @check: 美国经理在会上说 "I couldn't agree more."，他是同意还是反对？如果他说 "I see your point, but…" 呢？ | I couldn't agree more. 是完全同意（再同意不过了）。I see your point, but… 是委婉的不同意：他认可你的理由，but 后面才是他真正的意见。
 @check: 把这句对人的话改成对事的说法：You're wrong. Fifty sellers is too many. | 例如：I see it a bit differently. I'm not sure we can support fifty sellers on day one.（或：I don't object to fifty. I object to fifty on day one.）
 @check: 换个场景：朋友提议国庆假期五天跑三个城市。你部分同意（想去），但觉得太赶。用 to some extent 说两句。 | I agree with you to some extent. Three cities sound great, but five days isn't enough for all of them.
-@next1: 不看书说出 5 个锚点句：S5、S9、S12、S16、S17
+@next1: 不看书说出 5 个锚点句：S4、S8、S11、S13、S14
 @next1: 用 I see your point, but… 和 I agree with you to some extent, but… 各回应一个你最近听到的提议
 @next7: 同意和反对的梯子：I couldn't agree more → Absolutely → I agree → That's a fair point → I agree with you to some extent → I see your point, but… → I see it a bit differently → I have to disagree
 @next7: 用 I don't object to X. I object to Y. 说一个「不是反对这件事，而是反对时机或方式」的例子

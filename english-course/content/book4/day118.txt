@@ -1,0 +1,167 @@
+@day: 118
+@week: 4
+@title_cn: 上线与复盘
+@title_en: Launch Day and Retrospective
+@topic: 项目正式上线，一周后主持复盘会：说上线结果和小插曲、按「做得好 → 做得不好 → 下次怎么做」复盘、用 In hindsight / If we'd known 说教训、具体地感谢团队，最后写一封复盘总结邮件
+@think_short: 「哪些做得好」What went well?｜「事后看来，早该……」In hindsight, we should have…｜「早知道……就……」If we'd known…, we would have…｜「辛苦了，感谢大家」I want to give a shout-out to…
+
+@goal_scene: BrightNest 项目在 10 月 28 日正式上线。上线当晚，你要用一两句话报告结果和一个小插曲，接住客户副总裁的祝贺；一周后，你主持复盘会：先问做得好的，再问做得不好的，引导大家用 In hindsight… / If we'd known… 说出教训、说清下次怎么做，最后具体地感谢该感谢的人，会后写一封复盘总结邮件。
+@goal_expr: The launch went live at 9 a.m. without any major problems. / There was one hiccup: … / Let's start with what went well. / What didn't go so well? / In hindsight, we should have tested the status codes earlier. / If we'd known about the codes, we would have saved a week. / How could we do things differently next time? / I want to give a shout-out to Mike's team.
+@goal_vocab: 20 个重点词 + 5 个短语：上线与小插曲、顺利与波折、松一口气、复盘的固定说法、表扬和感谢
+@done: 能用 The launch went live at… without any major problems. / There was one hiccup: … 两三句话报告上线结果
+@done: 能按 What went well? → What didn't go so well? → How could we do things differently? 主持一场不追责的复盘，并用 In hindsight, we should have… / If we'd known…, we would have… 说出一条教训
+@done: 能用 I want to give a shout-out to… 或 Kudos to… 具体地表扬一个人或团队（谁 + 做了什么 + 带来什么结果），不再只说 ✗ Everyone worked hard.
+
+@warmup: 我们需要在周五前得到一个决定。 | We need a decision by Friday. | D117
+@warmup: 我们能不能就定下来，选方案 B？ | Can we agree that we'll go with Option B? | D117
+@warmup: 两个我都可以。张涛，您来定。 | Both work for me. It's your call, Tom. | D117
+@warmup: 加上退货跟踪超出了这一期的范围。 | Adding returns tracking is out of scope for this phase. | D115
+@warmup: 我来这儿两年了，可第一个夏天真的很难熬。 | I've been here for two years, but my first summer was really difficult. | D53
+@warmup: 准时率提高了两个百分点。 | The on-time rate went up by two percentage points. | D68
+
+@scene: 10 月 28 日，上线日。BrightNest 那边的上午 9 点正是深圳的晚上 9 点，林晓、张涛和 Leo 留在办公室，桌上摆着外卖；西雅图那边才早上 6 点，Mike 和 Ana 已经上线盯着。切换进行得出奇地顺利，只有看板慢了二十分钟，Ana 很快查出是缓存设置的问题。一小时后，Karen 发来了祝贺。一周后，林晓第一次主持项目复盘会（retrospective）：Priya、Mike、Ana 和张涛都在。美国团队的复盘有固定的三个问题——哪些做得好、哪些做得不好、下次怎么做——而且讲究「对事不对人」，不是开批斗会。试点期那个状态码的问题是大家心里的一根刺：要是早一点用真实的状态码测试，本来能省下一周。林晓要让大家坦率地说出教训，又不让任何人难堪；最后还要把感谢说得具体，而不是一句「大家辛苦了」。
+@sp: 人物关系 | 林晓是复盘会的主持人，要让三方（SwiftLink 深圳、西雅图工程、客户 BrightNest）都敢说真话；Karen 是客户副总裁，用一条短消息表达祝贺；张涛是项目负责人，最后出面感谢团队；Priya 一路上和 Mike 意见不合，这次却主动表扬了林晓
+@sp: 沟通目的 | 上线当晚：用一两句话报告结果，说清唯一的小插曲；复盘会：按三个问题走，说出一条关键教训和下次的具体做法，让每个人的付出被看见；会后：用一封邮件把结论和行动项发给大家
+@sp: 已知信息 | 大家都知道上线很顺利、试点期很波折；状态码的问题让项目晚了一周，Priya 的团队手工改了好几天订单；Ana 的测试最辛苦；退货跟踪是十天前才定下来的，上线第一天就正常运行
+@sp: 表达重点 | 上线：The launch went live at… without any major problems. → There was one hiccup: … → relief / relieved；复盘：Let's start with what went well. → What didn't go so well? → In hindsight, we should have… → If we'd known…, we would have… → How could we do things differently? → I want to give a shout-out to…（说清谁、做了什么）
+
+@story_title: Episode 118 · What Went Well
+@story_type: 上线之夜 + 客户消息 + 复盘会
+@s: On October 28, Lily, Tom and Leo stay late in the Shenzhen office. | 10 月 28 日，林晓、张涛和 Leo 在深圳办公室留到很晚。
+@s: Mike and Ana join from Seattle, where it's 6 a.m. | Mike 和 Ana 从西雅图加入，那边才早上 6 点。
+@s: The launch went live at 9 a.m. without any major problems. | 上线在（BrightNest 那边的）上午 9 点启动，没出什么大问题。
+@s: There was one **hiccup**: the dashboard was slow for twenty minutes. | 只出了一个小插曲：看板慢了二十分钟。
+@s: Ana: Fixed! It was a cache setting. | Ana：修好了！是缓存的一个设置。
+@s: Leo: What a **relief**! | Leo：总算松了一口气！
+@s: Lily: I'm so **relieved**. The **go-live** was much smoother than the **bumpy** pilot. | 林晓：我也松了一大口气。正式上线比磕磕绊绊的试点顺利多了。
+@s: Tom: Not **flawless**, but close. | 张涛：算不上完美无缺，不过也差不多了。
+@s: An hour later, Karen writes to the team: | 一小时后，Karen 给团队发来消息：
+@s: **Kudos** to everyone for a **seamless** switch. | 切换得天衣无缝，为大家点赞。
+@s: I was **pleasantly** surprised. Our customers didn't notice a thing. | 我真是又意外又惊喜。我们的客户什么都没察觉。
+@s: Please share my **appreciation** with your teams. | 请把我的谢意转达给你们的团队。
+@br:
+@s: A week later, Lily runs the project **retrospective** on a video call. | 一周后，林晓在视频会上主持项目复盘会。
+@s: Lily: Let's start with **what went well**. | 林晓：我们先从做得好的地方说起。
+@s: Priya: The **teamwork**. Three teams in three time zones, and it worked. | Priya：团队合作。三个团队、三个时区，硬是配合好了。
+@s: Priya: And returns tracking worked from day one. | Priya：还有，退货跟踪从第一天起就运行正常。
+@s: Mike: Agreed. It was truly **cross-functional**: operations, engineering, QA and customer service. | Mike：同意。这是一次真正的跨职能合作：运营、工程、测试、客服都上了。
+@s: Lily: And what didn't go so well? | 林晓：那哪些地方做得不太好？
+@s: Ana: The pilot. The status problem was a real **setback**. | Ana：试点。状态码那个问题让我们倒退了一大步。
+@s: Ana: **In hindsight**, we should have tested the status codes earlier. | Ana：事后看来，我们早该更早地测试状态码。
+@s: Mike: **If we'd known** about the codes, we would have saved a week. | Mike：要是早知道状态码的事，我们本来能省下一周。
+@s: Priya: And in the **aftermath**, my team corrected orders by hand for days. | Priya：而且出事之后，我的团队手工改了好几天订单。
+@s: Lily: So how could we **do things differently** next time? | 林晓：那下次我们可以怎么换个做法？
+@s: Mike: Test with the client's real data from day one. | Mike：从第一天起就用客户的真实数据测试。
+@s: Priya: And agree on every status code at the kickoff. | Priya：还有，在启动会上就把每一个状态码都对好。
+@s: Tom: Before we finish, I want to **give a shout-out to** Mike's team. | 张涛：结束之前，我要特别表扬一下 Mike 的团队。
+@s: Tom: Ana's testing was **tireless**, and Karen had high **praise** for it. | 张涛：Ana 的测试一刻没停过，Karen 对此也是赞不绝口。
+@s: Priya: I'd also like to **applaud** Lily. She kept three teams on track. | Priya：我也想为林晓鼓个掌，是她让三个团队一直在正轨上。
+@s: Lily: Thank you! For me, this project was hard but **rewarding**. | 林晓：谢谢！对我来说，这个项目很难，但很有收获。
+@s: Priya: After that pilot, the launch felt like a real **triumph**. | Priya：经历了那样的试点，这次上线真像打了一场大胜仗。
+
+@v: hiccup | = | n. | ˈhɪkʌp | 小问题；小插曲（本义「打嗝」） | 说一个很快就解决、影响不大的问题 | a small hiccup；a minor hiccup；a few hiccups | There were a few hiccups, but the event went well overall. | 有几个小插曲，不过活动总体很顺利。 | 中文「小插曲」「小问题」很适合用 hiccup，比 problem 轻松得多，汇报时用它暗示「不要紧」；但真正严重的问题别说成 hiccup，会显得在掩盖；本义是「打嗝」：I have the hiccups.（用复数）；重音在前 HIC-cup。
+@v: relief | = | n. | rɪˈliːf | （紧张、担心过后的）宽慰；松一口气 | 坏事没发生、难事结束时 | What a relief!；a huge relief；to my relief | It was a relief to hear that the package had arrived. | 听说包裹到了，我总算松了口气。 | 「总算松了口气」最常说 What a relief!；relief 是名词，形容人的感受用 relieved：✗ I'm relief. → ✓ I'm relieved.；动词是 relieve；结尾是清音 `/f/`，别和 relieve 的 `/v/` 混。
+@v: relieved | = | adj. | rɪˈliːvd | 松了一口气的；放下心来的 | 说自己或别人担心过后的心情 | I'm so relieved.；relieved to hear…；relieved that… | I was relieved that nobody was hurt. | 没人受伤，我才放下心来。 | 是人的感受，主语是人：I'm relieved.；后面可以接 to do 或 that 从句：relieved to hear the news；和 relief 是一对：What a relief! = I'm so relieved.；结尾 -ed 读 `/d/`。
+@v: go-live | = | n./adj. | ˈɡoʊ ˌlaɪv | （系统）正式上线；上线 | 项目管理、IT 系统切换 | the go-live date；a smooth go-live；after go-live | The go-live date is October 28. | 上线日期是 10 月 28 日。 | 名词写成 go-live，重音在前；动词短语是 go live：The system went live at 9 a.m.；这里的 live 是形容词，读 `/laɪv/`（和 a live show 一样），✗ 读成动词「住」的 `/lɪv/`——这是中国学习者最常见的读错。
+@v: bumpy | = | adj. | ˈbʌmpi | 颠簸的；（过程）磕磕绊绊的 | 说一段经历、一个阶段不顺利 | a bumpy start；a bumpy ride；bumpy roads | After a bumpy start, the new system is working well. | 开头磕磕绊绊，现在新系统运行得不错。 | 本义是路面「坑坑洼洼的、颠簸的」，引申为过程「不顺」，比 difficult 形象、口语；a bumpy ride 常比喻「一段波折的经历」；u 读 `/ʌ/`，像「巴」，不读「布」。
+@v: flawless | = | adj. | ˈflɔːləs | 完美无缺的；毫无瑕疵的 | 评价表演、工作、发布等没有任何差错 | a flawless performance；flawless English；not flawless, but… | Her presentation was flawless. | 她的演讲完美无缺。 | flaw（D106）是「缺陷」，-less 是「没有」，所以 flawless＝「一点缺陷都没有」，标准很高；说「几乎完美」用 almost flawless 或 Not flawless, but close.；aw 读 `/ɔː/`。
+@v: Kudos | kudos | n. | ˈkuːdoʊz | 称赞；点赞（Kudos to…! 为……点赞） | 群里、邮件里随手表扬人 | Kudos to…；kudos for…；big kudos | Kudos to Grace for answering every email so quickly! | 为吴佳点赞，每封邮件都回得那么快！ | 形式像复数，其实是不可数名词，没有单数 kudo；Kudos to sb (for sth)! 很口语、很热情，常见于 Slack 和邮件，正式场合用 I'd like to recognize…；读 KOO-dohz，也有人读 `/ˈkuːdɑːs/`。
+@v: seamless | = | adj. | ˈsiːmləs | 天衣无缝的；顺畅无阻的 | 说切换、交接、合作非常顺利，看不出接缝 | a seamless switch；seamless integration；a seamless experience | The move to the new office was seamless. | 搬到新办公室的过程顺顺当当，一点没耽误事。 | seam 是衣服的「接缝」，seamless＝「看不出接缝」，正适合形容系统切换、两个团队交接；比 smooth 更强、更正式；和 flawless 的区别：flawless 说「没有错」，seamless 说「衔接顺」。
+@v: pleasantly | = | adv. | ˈplezntli | 令人愉快地 | 最常见的是 pleasantly surprised（没想到这么好，惊喜） | pleasantly surprised；pleasantly warm；smile pleasantly | I was pleasantly surprised by how fast the team learned the system. | 团队学这个系统学得这么快，我挺惊喜的。 | 中文「惊喜」不说 ✗ I was surprised happily.，说 I was pleasantly surprised.；只说 surprised 可能是好事也可能是坏事，加上 pleasantly 才是「意外的好」；ea 读短音 `/e/`，像 pleasure 的开头。
+@v: appreciation | = | n. | əˌpriːʃiˈeɪʃn | 感激；谢意（正式） | 正式表达感谢；请人转达谢意 | share my appreciation with…；in appreciation of…；a token of appreciation | Please accept this gift as a token of our appreciation. | 请收下这份礼物，略表我们的谢意。 | 动词 appreciate（第一、二册常用 I appreciate it）；名词偏正式，高层写信常说 Please share my appreciation with your teams.（请向团队转达我的谢意）；ci 读 `/ʃi/`，主重音在 a-tion 的 `/eɪ/` 上。
+@v: retrospective | = | n./adj. | ˌretrəˈspektɪv | （项目）复盘会；回顾 | 项目或阶段结束后，团队一起总结经验 | a project retrospective；run a retrospective；a sprint retrospective | We hold a short retrospective at the end of every sprint. | 每个冲刺周期结束时，我们都开一个简短的复盘会。 | 美国科技公司里的「复盘会」常叫 retrospective，口语缩成 retro；它和 Day 111 的 postmortem 不同：postmortem 多在出事故以后专门追查原因，retrospective 是定期回顾，好的坏的都谈；重音在 spec。
+@v: what went well | = | phr. | ˌwʌt went ˈwel | 哪些做得好；哪些地方顺利 | 复盘会的第一个问题 | what went well；what didn't go so well；what went wrong | Let's list what went well and what we can improve. | 我们把做得好的和可以改进的都列出来。 | 复盘三问：What went well? / What didn't go so well? / What could we do differently?；well 是副词，✗ what went good；go well 是「进行得顺利」，主语是事情不是人，所以不说 ✗ What did we do well good?
+@v: teamwork | = | n. | ˈtiːmwɜːrk | 团队合作 | 夸团队、复盘时说成功的原因 | great teamwork；thanks to teamwork；Teamwork makes the dream work.（俗语） | The project succeeded because of great teamwork. | 这个项目能成功，靠的是出色的团队合作。 | 不可数名词：✗ a teamwork、✗ teamworks；「团队合作很好」说 The teamwork was great.，不说 ✗ Our team cooperation is very good.；复合名词，重音在前 TEAM-work。
+@v: cross-functional | = | adj. | ˌkrɔːs ˈfʌŋkʃənl | 跨职能的；跨部门的 | 说一个团队或项目由不同部门的人组成 | a cross-functional team；cross-functional work；cross-functional meetings | Our launch team is cross-functional: sales, IT and finance all have a seat. | 我们的上线团队是跨部门的：销售、IT 和财务都有人。 | 中文「跨部门」，英文职场最常说 cross-functional（function＝职能）；放在名词前加连字符：a cross-functional team；「跨境」是 cross-border（Day 119）；cross 美式读 `/krɔːs/`。
+@v: setback | = | n. | ˈsetbæk | 挫折；（让进度倒退的）挫败 | 说项目中让事情往后退的问题 | a major setback；a minor setback；suffer a setback | Losing our biggest client was a major setback. | 失去最大的客户是一次重大挫折。 | 名词 setback 重音在前 SET-back；短语动词 set back 重音在后：It set us **back** a week.（让我们晚了一周）；setback 比 hiccup 严重，比 disaster 轻，复盘时说 It was a setback, but we recovered. 很得体。
+@v: In hindsight | in hindsight | phr. | ɪn ˈhaɪndsaɪt | 事后看来；回过头看 | 复盘时说「当时要是……就好了」 | in hindsight；with hindsight；Hindsight is 20/20.（事后诸葛亮谁都会） | In hindsight, I should have asked for help earlier. | 事后看来，我应该早点找人帮忙。 | 后面常接 should have + 过去分词：In hindsight, we should have tested…；✗ In hindsight, we should test…（时态不对）；美国人还爱说 Hindsight is 20/20.，意思是「事后看什么都清楚」，复盘时用它可以给当事人台阶下；hind 读 `/haɪnd/`。
+@v: If we'd known | if we'd known | phr. | ɪf wid ˈnoʊn | 要是（当时）早知道…… | 对过去的假设：其实不知道，所以没做到 | If we'd known…, we would have…；If I'd known…；Had we known…（正式） | If I'd known about the traffic, I would have left earlier. | 要是早知道堵车，我就早点出门了。 | 这是「第三条件句」：if + had done，主句 would have done，说的是过去没发生的事；这里的 'd = had，主句里的 'd 才是 would：If we'd known, we'd have…；✗ If we knew about the codes, we would save a week. 说的是现在，意思全变了；先会听、会用这一个句型就够了。
+@v: aftermath | = | n. | ˈæftərmæθ | （坏事发生后的）后续影响；余波 | 说问题、事故、灾难之后那段时间 | in the aftermath of…；deal with the aftermath；the immediate aftermath | In the aftermath of the storm, many flights were canceled. | 暴风雨过后，很多航班都取消了。 | 只用在坏事之后：✗ the aftermath of the party（除非派对出了乱子）；常用 in the aftermath of sth；math 和数学 math 拼写一样，读 `/mæθ/`，重音在前 AF-ter-math。
+@v: do things differently | = | phr. | ˌduː ˌθɪŋz ˈdɪfrəntli | 换个做法；（下次）用不同的方式做 | 复盘时讨论改进；说自己要改变做事方式 | do things differently next time；What would you do differently?；do it differently | If I could start again, I'd do things differently. | 如果能重来，我会换个做法。 | 复盘的第三问：How could we do things differently next time?，比 ✗ What are our mistakes? 更向前看、不追责；differently 是副词，修饰 do，✗ do things different 在口语里常听到，但写邮件要用 differently；different 读三个音节，美国人常吞掉中间的 e：DIF-rent。
+@v: give a shout-out to | = | phr. | ˌɡɪv ə ˈʃaʊt aʊt tə | 公开点名表扬；特别感谢 | 会议、群聊、演讲里当众感谢某人 | give a shout-out to…；a quick shout-out to…；a big shout-out | I want to give a shout-out to Kevin for fixing the printer. | 我要特别表扬一下李凯，他把打印机修好了。 | 中文「辛苦了」「感谢大家」很笼统；美国会议里的 shout-out 要点名、说具体：give a shout-out to + 人 + for + 做了什么；语气热情、偏口语，正式场合换成 I'd like to recognize…；shout-out 是名词，带连字符，重音在 shout。
+@v: tireless | = | adj. | ˈtaɪərləs | 不知疲倦的；孜孜不倦的 | 夸一个人投入、一直不停地努力 | tireless work；a tireless effort；tireless testing | Thanks to her tireless work, the event was a success. | 多亏她不知疲倦地付出，活动才办得这么成功。 | 是夸人的褒义词，常修饰 work、effort、support，也可以直接说人：She's tireless.；和 tired（累）、tiring（累人的）意思正相反；中文「辛苦了」想具体夸人，可以说 Thanks for your tireless work on…。
+@v: praise | = | n./v. | preɪz | 称赞；表扬 | 说某人得到了上级、客户的好评 | high praise；praise sb for sth；win praise | The new app has won praise from users. | 新 App 赢得了用户的好评。 | 名词不可数：✗ a praise、✗ praises（宗教用语除外）；「赞不绝口」可以说 had high praise for…；动词结构是 praise sb for sth：Karen praised Ana for her testing.；结尾 s 读 `/z/`。
+@v: applaud | = | v. | əˈplɔːd | 鼓掌；赞赏（较正式） | 当众肯定某人的做法或努力 | applaud sb for sth；applaud the decision；loudly applaud | We applaud the team for its quick response. | 我们为团队的迅速反应点赞。 | 本义是「鼓掌」，在会议和邮件里多用引申义「赞赏」：I'd like to applaud Lily.；名词是 applause（掌声，不可数）；au 读 `/ɔː/`，结尾 d 别丢。
+@v: rewarding | = | adj. | rɪˈwɔːrdɪŋ | 有收获的；值得的（让人有成就感） | 说一份工作、一段经历辛苦但值得 | a rewarding job；rewarding but hard；a rewarding experience | Teaching is hard work, but it's very rewarding. | 教书很辛苦，但很有成就感。 | 不一定和钱有关，强调「心里有收获、有成就感」；hard but rewarding 是美国人总结一段经历的常用说法；中文「很有意义」很多时候就可以说 rewarding，不必说 ✗ very meaningful；war 读 `/wɔːr/`。
+@v: triumph | = | n. | ˈtraɪʌmf | 巨大的成功；胜利 | 说经过波折后取得的成功 | a real triumph；a personal triumph；in triumph | The concert was a triumph. | 那场音乐会大获成功。 | 比 success 更强，带「战胜困难」的意味，正适合形容「波折之后的成功」；形容词 triumphant；读 TRY-umph，ph 读 `/f/`，✗ 读成「拽姆」。
+
+@diff: 「哪些做得好」——What went well? / What didn't go so well?
+@d_cn: 项目结束，中国团队常说「我们来总结一下经验教训」，开着开着就变成「这个问题是谁的责任」。
+@d_en: Let's start with what went well. / What didn't go so well? / How could we do things differently next time?
+@d_why: 美国团队的复盘（retrospective）有一套几乎固定的三问：**What went well?**（哪些做得好）→ **What didn't go so well?**（哪些不太好）→ **What could we do differently?**（下次怎么做）。先说好的，大家心里放松，后面才敢说真话；整场讲究 blameless（不追责），对事不对人。注意措辞的分寸：What didn't go so well? 比 ✗ What went wrong? 软，比 ✗ What were our mistakes? / Whose fault was it? 更不伤人。语法上，go well 的主语是「事情」，well 是副词：✓ What went well? ✗ What went good? ✗ What did we do good?；问「下次」用 could / would 留出商量的余地：How could we do things differently next time?
+@d_when: 项目结束、活动办完、一个阶段收尾时主持复盘；一对一回顾自己的工作时也能用。
+@d_vs: **Let's start with what went well.** 我们先从做得好的地方说起。\n**What didn't go so well?** 哪些地方做得不太好？（委婉）\n**How could we do things differently next time?** 下次可以怎么换个做法？\n✗ Whose fault was it?（追责）\n✗ What went good?
+@d_task: 公司年会刚办完，你主持复盘。用英文开场，按顺序问出前两个问题。 | Thanks for coming. Let's start with what went well. Then, what didn't go so well?
+@diff: 「事后看来，我们早该……」——In hindsight, we should have…
+@d_cn: 回头看一件已经过去的事，觉得当时要是那样做就好了：「早该……」「当时应该……」「要是早点……就好了」。
+@d_en: In hindsight, we should have tested the status codes earlier. / Looking back, I should have asked for help sooner. / Hindsight is 20/20.
+@d_why: 中文「早该」「本来应该」不需要变动词，靠「早」「本来」就表示过去；英文必须用 **should have + 过去分词** 才能说「过去该做而没做」：✓ we should have tested ✗ we should test（这是「现在应该」）✗ we should tested。前面加 **In hindsight**（事后看来）或口语一点的 **Looking back**，等于先声明「当时不可能都知道」，语气平和、不像自责也不像指责别人。主语用 we 而不是 you，是复盘的分寸：✗ You should have told us earlier. 是在追责；✓ In hindsight, we should have agreed on the codes at the kickoff. 是在总结。想替当事人解围，美国人会补一句 Hindsight is 20/20.（事后谁都看得清）。读音上 should have 快说成 should've `/ˈʃʊdəv/`，听起来像 should of，但写的时候必须写 have。
+@d_when: 复盘会、项目总结邮件、年终自我评估；向客户解释一个已经发生的问题时也可以用 we 主动承担。
+@d_vs: **In hindsight, we should have tested the status codes earlier.** 事后看来，我们早该更早测试状态码。\n**Looking back, I should have asked for help sooner.** 回头看，我应该早点找人帮忙。\n**Hindsight is 20/20.** 事后谁都看得清。（宽慰对方）\n✗ In hindsight, we should test earlier.\n✗ You should have told us earlier.（像在追责）
+@d_task: 复盘时说：事后看来，我们早该提前一周订会场。 | In hindsight, we should have booked the venue a week earlier.
+@diff: 「要是早知道……就……」——If we'd known…, we would have…（了解即可）
+@d_cn: 中文很常说「早知道……就……」：「早知道状态码不一样，我们能省一周」——其实当时不知道，所以没省下。
+@d_en: If we'd known about the codes, we would have saved a week. / If I'd known about the traffic, I'd have left earlier. / Had we known…（正式）
+@d_why: 「早知道」说的是一件已经过去、而且没有发生的事，英文要用「第三条件句」：**If + had + 过去分词, … would have + 过去分词**。中国学习者最常见的错是时态往回退得不够：✗ If we knew about the codes, we would save a week.——这句是第二条件句，说的是「现在」的假设，意思完全变了。口语里两个 'd 很容易听混：If we'd known 里的 'd = had，主句 we'd have saved 里的 'd = would。今天不需要掌握所有条件句，只要会听、会用 Mike 这一句的格式就够了。分寸上，它和 In hindsight 一样，是在说「我们从这件事学到了什么」，不是后悔或抱怨；前面加一句 To be fair, nobody could have known. 就更不伤人。
+@d_when: 复盘时说一个教训值多少（时间、钱）；生活里说「早知道就……」：If I'd known it would rain, I'd have brought an umbrella.
+@d_vs: **If we'd known about the codes, we would have saved a week.** 要是早知道状态码的事，我们本来能省下一周。\n**If I'd known about the traffic, I'd have left earlier.** 要是早知道堵车，我就早点出门了。\n✗ If we knew about the codes, we would save a week.（变成了说现在）\n✗ If we would have known…（if 从句里不用 would）
+@d_task: 说：要是早知道客户想要退货跟踪，我们本来会把它放进第一期。 | If we'd known that the client wanted returns tracking, we would have put it in phase one.
+@diff: 「大家辛苦了」——I want to give a shout-out to… / Kudos to…
+@d_cn: 项目结束要感谢团队，中文常说「大家辛苦了」「感谢各位的付出」，人人都谢到了，谁也没被具体提到。
+@d_en: I want to give a shout-out to Mike's team. / Ana's testing was tireless. / Kudos to everyone for a seamless switch. / Please share my appreciation with your teams.
+@d_why: 「辛苦了」在英文里没有现成的对应：✗ You're tired. / ✗ You worked hard.（像在陈述事实）都不是感谢。美国人表扬讲究**具体**：谁 + 做了什么 + 带来什么结果——I want to give a shout-out to Mike's team. Ana's testing was tireless.。几个说法的分寸：**give a shout-out to** 热情、口语，会议和群聊里最常用；**Kudos to… for…** 更随意，多见于 Slack 和短邮件；**I'd like to applaud / recognize…** 正式一些，适合大会或高层；**Please share my appreciation with your teams.** 是高层请你转达谢意的说法（Karen 就这么写）。被表扬时，中国人习惯谦虚「哪里哪里，都是大家的功劳」，英文先说 **Thank you!** 接住，再分享功劳也不迟：Thank you! It was a team effort.
+@d_when: 项目上线、活动结束、复盘会收尾；群里同事帮了大忙时，一句 Kudos to… 就很好。
+@d_vs: **I want to give a shout-out to Mike's team.** 我要特别表扬一下 Mike 的团队。（热情、口语）\n**Kudos to everyone for a seamless switch.** 切换得天衣无缝，为大家点赞。（随意）\n**I'd like to applaud Lily. She kept three teams on track.** 我想为林晓鼓个掌。（较正式，而且说了具体做了什么）\n✗ Everyone worked very hard, thank you.（太笼统）\n✗ You are all very tired.
+@d_task: 在复盘会上点名表扬 Kevin：他周末加班，把所有测试账号都设置好了。 | I want to give a shout-out to Kevin. He came in on the weekend and set up all the test accounts.
+
+@core: The launch went live at … without any major problems. | 用一句话报告上线结果 | the launch / the new system / the website；9 a.m. / midnight | 正式：The system went live as scheduled at 9 a.m., with no major issues.｜随意：We're live! No big problems so far.
+@core: There was one hiccup: … | 主动交代一个小插曲，说明已经解决 | one hiccup / a couple of hiccups；the dashboard was slow / a few emails bounced | 正式：We experienced one minor issue, which was resolved within twenty minutes.｜随意：Just one small hiccup, and it's fixed.
+@core: Let's start with what went well. | 复盘开场，先说好的 | what went well / the good news | 正式：I'd like to begin by reviewing what went well.｜随意：Okay, wins first!
+@core: What didn't go so well? How could we do things differently next time? | 复盘的第二、三问，委婉、向前看 | so well / as planned；next time / in phase two | 正式：Which areas could we improve, and what should we change going forward?｜随意：What would you change next time?
+@core: In hindsight, we should have … | 说教训，不追责 | tested the codes earlier / asked for help sooner / booked the room in advance | 正式：In retrospect, earlier testing would have prevented the issue.｜随意：Looking back, we should've tested sooner.
+@core: If we'd known …, we would have … | 说「早知道就……」，算出教训的代价 | about the codes / about the traffic；saved a week / left earlier | 正式：Had we known about the codes, we would have saved a week.｜随意：If we'd known, we'd have saved a whole week.
+@core: I want to give a shout-out to … . (Their/His/Her) … was tireless. | 具体地表扬人：谁 + 做了什么 | Mike's team / Grace / Leo；testing / support / work | 正式：I'd like to recognize Mike's team for their outstanding work.｜随意：Huge shout-out to Mike's team!
+@core: Kudos to … for … . Please share my appreciation with … . | 书面点赞；请人转达谢意 | everyone / the Seattle team；a seamless switch / a great launch | 正式：Please extend my sincere appreciation to your teams.｜随意：Kudos, everyone!
+
+@pw: retrospective | ˌretrəˈspektɪv | 4 个音节 ret·ro·SPEC·tive | 主重音在 spec；ret 带次重音；tro 弱读成 `/trə/`；口语常缩成 retro `/ˈretroʊ/`
+@pw: hindsight | ˈhaɪndsaɪt | 2 个音节 HIND·sight | 重音在前；两个音节都是 `/aɪ/`；d 很轻，几乎和 s 连在一起
+@pw: cross-functional | ˌkrɔːs ˈfʌŋkʃənl | 4 个音节 cross·FUNC·tion·al | 主重音在 func；nc 读 `/ŋk/`；-tional 弱读成 `/ʃənl/`
+@pw: go-live | ˈɡoʊ ˌlaɪv | 2 个音节 GO·live | 名词重音在前；live 读 `/laɪv/`（像 a live show），不读「住」的 `/lɪv/`
+@pw: aftermath | ˈæftərmæθ | 3 个音节 AF·ter·math | 重音在前，a 读 `/æ/` 嘴张大；结尾 th 咬舌 `/θ/`
+@pw: triumph | ˈtraɪʌmf | 2 个音节 TRI·umph | 重音在前，tri 读 `/traɪ/`；ph 读 `/f/`
+@pw: applaud | əˈplɔːd | 2 个音节 ap·PLAUD | 重音在后；a 弱读成 `/ə/`；au 读 `/ɔː/`，结尾 d 别丢
+@ps: The **launch** went **live**‿at **nine** a.m. / without any **ma**jor **prob**lems. | live 读 `/laɪv/`，和 at 连读成 li-vat；without any 连成 with-ou-tany；报好消息，语调平稳落下。
+@ps: Let's **start** with / what went **well**. | went well 两个词的 w 都要圆唇；what went 的 t 只做口型不爆破；主持人开场，语气轻松、结尾下降。
+@ps: In **hind**sight, / we **should**‿have **test**ed / the **sta**tus codes **ear**lier. | should have 快说成 should've `/ˈʃʊdəv/`，have 几乎只剩 `/əv/`；status codes 是复合名词，重音在 status；hindsight 后稍停，语调微升。
+@ps: If we'd **known** about the **codes**, / we would have **saved**‿a **week**. | we'd 弱读成 `/wid/`，d 很轻，要靠后面的 known 判断是 had；would have 读成 `/ˈwʊdəv/`；saved a 连读成 sav-da。
+@pnote: 名词和动词的重音：**set**back（名词：挫折）重音在前，set **back**（短语动词：使延误）重音在后：It was a **set**back. / It set us **back** a week. 同理：the **go**-live（名词）vs we went **live**（动词短语）；a **shout**-out（名词）vs shout **out**（喊出来）；the **kick**off（名词）vs kick **off** the meeting。复合名词 **team**work、**dash**board、**status** codes 重音都在前。
+@pnote: 第三条件句和 should have 的弱读：If we'd known 里的 'd 只剩一个很轻的 `/d/`；would have / should have 在快说时都变成 would've `/ˈwʊdəv/`、should've `/ˈʃʊdəv/`，听起来像 would of、should of——会听就行，写的时候一定写 have。时间听辨：9 a.m. 读 nine A-M；6 a.m.；October 28 读 October twenty-eighth；a week later。写和说的不同：Karen 消息里写 Kudos to everyone…，当面说更常见的是 Great job, everyone!
+@lfocus: 上线：went live at 9 a.m.、no major problems、one hiccup（dashboard slow, twenty minutes, cache）、Karen: kudos, seamless, pleasantly surprised
+@lfocus: 复盘三问的答案：went well = teamwork, returns tracking；didn't go well = pilot, setback, status codes, a week, orders by hand；differently = real data from day one, codes at kickoff
+@lfocus: 表扬了谁：Tom → shout-out to Mike's team（Ana's tireless testing）；Priya → applaud Lily（three teams on track）
+@dict: S3–S7
+@dict: S20–S25
+@res: 在 youglish.com 输入 "in hindsight"，选 US，听美国人复盘时怎么用它开头。
+
+@mimic: 跟读【C】：先读上线之夜 S1–S12，模仿 What a relief! 和 I'm so relieved. 松一口气的语气，再用正式、温暖的语气读 Karen 的消息（S10–S12）；然后逐句跟读复盘会 S13–S30，重点模仿 In hindsight… 和 If we'd known… 里 should have / we'd 的弱读；最后你演林晓，手机朗读其他人的台词，正常语速完整对一遍并录音。
+@swap: The launch went live at 9 a.m. without any major problems. | 换主语和时间：the new website／the app update；midnight／noon | The new website went live at midnight without any major problems.
+@swap: In hindsight, we should have tested the status codes earlier. | 换教训：booked the venue sooner／asked the client for real data／hired a second tester | In hindsight, we should have asked the client for real data.
+@swap: If we'd known about the codes, we would have saved a week. | 换条件和结果：the traffic → left earlier；the price increase → ordered more in September | If we'd known about the price increase, we would have ordered more in September.
+@swap: I want to give a shout-out to Mike's team. | 换人并说具体做了什么：Grace's team → answered every email within an hour；Leo → kept the tracker up to date | I want to give a shout-out to Leo. He kept the tracker up to date every single day.
+@free: 新官网刚上线，经理在群里问情况。你要报告：中午 12 点上线，没有大问题，只有一个小插曲（手机版图片加载慢了十分钟），已经修好。 | The new website went live at noon without any major problems. There was one hiccup: images loaded slowly on mobile for about ten minutes, but it's fixed now.
+@free: 你主持部门年会的复盘。先感谢大家参加，再请大家说做得好的，然后问哪些不太好。 | Thanks for joining, everyone. Let's start with what went well, and then we'll talk about what didn't go so well.
+@free: 复盘时你想说一条教训：报名截止日期定得太晚，酒店只剩小房间了。要是早知道人数，本来能订到大会议厅。 | In hindsight, we should have closed registration earlier. If we'd known the numbers sooner, we would have booked the big hall.
+@free: 项目结束，你想在全组会上感谢实习生 Leo：他每天更新跟踪表、做会议记录，大家从没漏过一个行动项。 | I want to give a shout-out to Leo. He updated the tracker and took notes every single day, so we never missed an action item.
+@output: 写一封 8–12 句的复盘总结邮件，发给参加复盘会的所有人（标题：Retrospective summary: [项目名]）。可以写你自己做过的一个项目、活动或搬家，也可以写林晓的项目。结构：感谢参加 → 一句话说结果（went live / was a success）→ 做得好的两点（what went well）→ 不太好的一点和教训（In hindsight, we should have… / If we'd known…, we would have…）→ 下次怎么做（do things differently）→ 点名表扬一个人，说清他做了什么（give a shout-out to…）→ 行动项和 Please let me know if I've missed anything.
+@output_sample: Hi everyone,\nThanks for joining yesterday's retrospective on our new customer chat tool.\nThe tool went live on Monday without any major problems, and customers are already using it.\nLet's start with what went well: the teamwork between customer service and IT was excellent, and the training sessions were short and practical.\nWhat didn't go so well was the first day, when some messages arrived twice.\nIn hindsight, we should have tested the tool with real customer messages.\nIf we'd known about the problem, we would have delayed the launch by one day.\nNext time, we'll do things differently: we'll run a two-day test with real data first.\nI also want to give a shout-out to Kevin, who stayed late on Monday and fixed the problem in an hour.\nThe action items are in the attached file.\nPlease let me know if I've missed anything.\nBest,\nLily
+
+@check: 听力：上线是几点开始的？出了什么小插曲？Karen 的消息里说了哪三件事？ | 上午 9 点（BrightNest 那边），没有大问题；小插曲是看板慢了二十分钟，Ana 查出是缓存设置，很快修好了。Karen：为切换得天衣无缝点赞（Kudos… seamless）；她很惊喜，客户什么都没察觉；请大家把她的谢意转达给团队。
+@check: 听力：复盘会上，做得好的、做得不好的各是什么？下次怎么做？张涛和 Priya 分别表扬了谁？ | 做得好：三个团队跨三个时区的合作；退货跟踪第一天就运行正常。不好：试点期的状态码问题，早知道能省一周，Priya 的团队手工改了好几天订单。下次：从第一天起用客户的真实数据测试，在启动会上对好所有状态码。张涛表扬了 Mike 的团队（Ana 的测试）；Priya 表扬了林晓（让三个团队一直在正轨上）。
+@check: 改错：① What did go good? ② In hindsight, we should test it earlier. ③ If we knew about the codes, we would save a week. | ① What went well? ② In hindsight, we should have tested it earlier. ③ If we'd known about the codes, we would have saved a week.
+@check: 换个场景：你和朋友自驾游回来，路上车坏了，耽误了半天。用 In hindsight 和 If we'd known 各说一句教训。 | In hindsight, we should have checked the car before we left. If we'd known about the tire, we would have saved half a day.
+@check: 打印机卡纸十分钟，该说 a hiccup、a setback 还是 a disaster？为什么？ | a hiccup。hiccup 是很快解决、影响不大的小插曲；setback 是让进度倒退的挫折；disaster 是灾难。把小问题说成 disaster 太夸张，把大问题说成 hiccup 又像在掩盖。
+@check: 同事说 Everyone worked very hard, thank you all.。怎么改得更具体、更像美国职场的感谢？ | 点名 + 说具体做了什么：I want to give a shout-out to Grace's team. They answered every customer email within an hour during the launch.
+@next1: 不看书说出 5 个锚点句：S3、S14、S20、S21、S26
+@next1: 用复盘三问（What went well? / What didn't go so well? / How could we do things differently?）给你上周做过的一件事各答一句
+@next7: 复盘四句：Let's start with what went well. / In hindsight, we should have… / If we'd known…, we would have… / I want to give a shout-out to…
+@next7: 用 hiccup、setback、seamless、rewarding 各说一句关于你自己工作或学习的话

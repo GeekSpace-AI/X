@@ -1,0 +1,171 @@
+@day: 92
+@week: 1
+@title_cn: 正式还是随意
+@title_en: Formal or Casual?
+@topic: 同一件事（周四的启动会），分别写给客户副总裁、合作几个月的客户经理和隔壁的同事：称呼、句式、用词、缩写都要看对象
+@think_short: 「您」→ 英文靠句式（Could you…?），不靠代词｜「尊敬的王总」✗ Dear VP Walker → Dear Ms. Walker / Hi Priya / Hey Kevin｜「协助、收到、告知」assist / receive / inform，别堆｜I'm / can't 在工作邮件里完全可以
+
+@goal_scene: BrightNest 项目的启动会定在周四。林晓要为同一件事发三条消息：给第一次打交道的客户副总裁 Karen 一封正式的确认邮件，给已经很熟的 Priya 一封中性的邮件，给隔壁工位的 Kevin 一条聊天消息。吴佳教她：尊重不靠「您」，靠称呼、句式和简洁；正式不等于生硬，缩写可以用，俚语和聊天简写不行。
+@goal_expr: Dear Ms. Walker, thank you for your time yesterday. / I'm writing to confirm our kickoff call on Thursday, September 3. / Hi Priya, hope you're doing well. / Hey Kevin, quick question. / We're on a first-name basis now. / Thanks in advance for your help. / Kind regards,
+@goal_vocab: 20 个重点词 + 5 个短语：职位与层级（senior / executive / junior / hierarchy）、称呼与结尾、邮件的语气和写法（formality / stiff / contraction / slang / acronym）
+@done: 能按对象选出称呼和配套的结尾：Dear Ms. … → Kind regards；Hi … → Best；Hey … → Thanks!，并知道什么时候从 Dear Ms. Walker 换成 Hi Karen
+@done: 不再写 ✗ Dear Ms. Karen / ✗ Hi Manager Zhang / ✗ Please be informed that…；能把一句「您」味的中文请求变成英文的礼貌句式
+@done: 能分清 contraction（I'm）、abbreviation（pls）、acronym（ETA）和 slang（gonna），知道哪些能写进给客户高层的邮件
+
+@warmup: 能不能在周四之前搭好一个测试账号？ | Would it be possible to set up a test account by Thursday? | D91
+@warmup: 我们需要这些数据，好让 Mike 的团队开始测试。 | We need it so that Mike's team can start testing. | D91
+@warmup: 我们争取周五，您看可以吗？ | Let's aim for Friday, if that works for you. | D91
+@warmup: 终于见到您本人了，太好了。 | It's great to finally meet you in person. | D89
+@warmup: 本月订单量增长了 15%。 | Orders increased by fifteen percent this month. | D69
+@warmup: 我们认识十年了。 | We've known each other for ten years. | D58
+
+@scene: 九月一日，周二。昨天（美国的周一上午、深圳的周一深夜），张涛和林晓第一次和 BrightNest 的运营副总裁 Karen Walker 通了个简短的电话。启动会定在周四：太平洋时间上午 8 点，也就是深圳时间晚上 11 点。今天林晓要为这件事发三条消息：给 Karen 一封正式的确认邮件；给已经合作了几个月的 Priya 一封邮件，请她把会议邀请转给 IT 负责人 Raj；再给隔壁工位的 Kevin 发条聊天消息，请他设置视频链接。林晓下意识地想把三封都写成「尊敬的……」，吴佳路过看了一眼，坐下来给她和 Leo 讲「语气要看对象」。
+@sp: 人物关系 | 林晓 → Karen：服务方的普通员工写信给客户方的高管，第一次打交道；林晓 → Priya：合作了几个月的客户对接人，早已直呼其名；林晓 → Kevin：同部门的同事，天天见面；吴佳：客服出身，最懂邮件的分寸，像个师姐
+@sp: 沟通目的 | 同一个信息（周四 9 月 3 日太平洋时间上午 8 点的启动会）用三种合适的语气发出去：向 Karen 正式确认、请 Priya 转发邀请、请 Kevin 设置视频链接
+@sp: 已知信息 | Karen 是 senior executive，时间少，昨天刚通过电话；Priya 和林晓已经很熟；Raj 是 BrightNest 的 IT 负责人，还没收到邀请；会议在深圳时间深夜 11 点
+@sp: 表达重点 | 称呼三档（Dear Ms. Walker / Hi Priya / Hey Kevin）→ 尊重靠句式不靠「您」→ 正式但不生硬：缩写可以，俚语、pls、全大写不行 → 称呼和结尾配套（Kind regards / Best / Thanks!）→ 给高层的邮件短而清楚
+
+@story_title: Episode 92 · Dear, Hi or Hey?
+@story_type: 办公室对话 + 两封邮件 + 一条聊天消息
+@s: Yesterday, Tom and Lily had a short call with Karen Walker. | 昨天，张涛和林晓跟 Karen Walker 简短地通了个电话。
+@s: Now Lily needs three messages about Thursday's kickoff call. | 现在，林晓要为周四的启动会发三条消息。
+@br:
+@s: Lily: Karen is a **senior** **executive**. Should I write "Dear Karen"? | 林晓：Karen 是高管。我写 Dear Karen 行吗？
+@s: Grace: In a first email, use her **title** and **surname**: "Dear Ms. Walker." | 吴佳：第一封邮件，要用称谓加姓：Dear Ms. Walker。
+@s: Lily: In Chinese, I'd just use "nín" to be **respectful**. | 林晓：要是中文，我用个「您」就显得尊重了。
+@s: Grace: English has no "nín." You sound **courteous** through the sentence: "Could you…?" | 吴佳：英文里可没有「您」。客气要靠句式来体现，比如 Could you…?
+@s: Grace: Karen expects some **formality**, but formal doesn't mean **stiff**. | 吴佳：Karen 期待一定的正式，可正式不等于生硬。
+@s: Leo: Are **contractions** like "I'm" OK for a VP? | Leo：给副总裁写信，能用 I'm 这种缩写形式吗？
+@s: Grace: Sure, a **neutral** tone is fine. Just no **slang**, and no **abbreviations** like "pls." | 吴佳：当然可以，中性的语气就行。只是别用俚语，也别用 pls 这种简写。
+@s: Leo: And **acronyms**? | Leo：那首字母缩略词呢？
+@s: Grace: Only ones she uses. And never use capitals for **emphasis**. | 吴佳：只用她自己也在用的。还有，千万别用全大写来强调。
+@s: Lily: I'm the most **junior** person here. "Karen" feels strange. | 林晓：我是这里资历最浅的，直接叫 Karen 感觉怪怪的。
+@s: Grace: American companies have a **hierarchy**, too. It's just quieter. | 吴佳：美国公司也有上下级，只是不那么显眼。
+@br:
+@s: Lily: And Priya? "Dear Ms. Nair"? | 林晓：那 Priya 呢？写 Dear Ms. Nair？
+@s: Grace: You've emailed her for months! | 吴佳：你都跟她通了好几个月邮件了！
+@s: Lily: True. We're **on a first-name basis** now. | 林晓：也是，我们现在都直呼名字了。
+@s: Grace: Then match the **salutation** and the **sign-off**: "Hi" goes with "Best." | 吴佳：那就让称呼和结尾配套：Hi 配 Best。
+@s: Grace: "Hey" is **appropriate** for Kevin. A smiley for Karen is **inappropriate**. | 吴佳：对 Kevin 用 Hey 没问题；给 Karen 加个笑脸就不合适了。
+@br:
+@s: Lily writes to Karen: | 林晓给 Karen 写邮件：
+@s: Dear Ms. Walker, thank you for your time yesterday. | 尊敬的 Walker 女士：感谢您昨天抽出时间。
+@s: I'm writing to confirm our kickoff call on Thursday, September 3, at 8 a.m. Pacific Time. | 特此确认我们的启动会：9 月 3 日（周四）太平洋时间上午 8 点。
+@s: The agenda is attached. | 议程见附件。
+@s: **Kind regards**,\nLily Lin\nProject Coordinator, SwiftLink | 此致\n林晓\nSwiftLink 项目协调人
+@br:
+@s: Then to Priya: | 然后是给 Priya 的：
+@s: Hi Priya, **hope you're doing well**. | Priya 你好，希望你一切都好。
+@s: Could you forward the invite to Raj? I'll **reach out** to him about the data. | 能麻烦你把会议邀请转给 Raj 吗？数据的事，我会单独联系他。
+@s: **Thanks in advance** for your help.\nBest,\nLily | 先谢谢你的帮忙！\n祝好，\n林晓
+@br:
+@s: Finally, a chat message to Kevin: | 最后，给 Kevin 发了条聊天消息：
+@s: Hey Kevin, quick question. Can you set up a video link for Thursday, 11 p.m.? | Kevin，问你个事：周四晚上 11 点的会，能帮忙设个视频链接吗？
+@s: Kevin replies, "Sure. 11 p.m.? Coffee's on you!" | Kevin 回复：「没问题。晚上 11 点？那咖啡你请！」
+
+@v: senior | = | adj. | ˈsiːnjər | 高级的；资深的；级别高的 | 说对方的职位和资历 | a senior executive；senior management；more senior than… | She's a senior engineer on Mike's team. | 她是 Mike 团队里的高级工程师。 | 中文「领导」「高层」说 senior management / senior leaders 比 ✗ leaders 准确；「比某人级别高」说 more senior than sb 或 senior to sb；senior 还有「年长的」意思：senior citizens（老年人）；反义词 junior。两个音节 SEEN-yer，ior 读 `/jər/`。
+@v: executive | = | n./adj. | ɪɡˈzekjətɪv | 高管；管理人员；（形容词）高层的 | 说客户方的高层、决策人 | a senior executive；an executive sponsor；an executive summary | The executive summary is on the first page. | 执行摘要在第一页。 | 中文「高管」「老总」就是 executive，口语常缩成 exec；美国公司的 VP（vice president）是常见的高管头衔，不是「副总统」，也不一定是公司的二号人物——大公司可能有很多位 VP，各管一块，Karen 管的是运营；ex 读 `/ɪɡz/`，重音在 ZEC。
+@v: title | = | n. | ˈtaɪtl | 称谓（Ms. / Mr. / Dr.）；头衔；职位名称 | 邮件称呼、签名、介绍对方的职位 | use sb's title；a job title；What's her title? | What's Raj's title? Is he the IT director? | Raj 的职位是什么？他是 IT 总监吗？ | 美国人不用职位当称呼：中文「王总」「张经理」直译成 ✗ Dear VP Walker / ✗ Hi Manager Zhang 会很怪；正式称呼是 title + 姓：Dear Ms. Walker，熟了就叫名字；职位写在签名里：Lily Lin, Project Coordinator。t 闪音，像 TIE-dl。
+@v: surname | = | n. | ˈsɜːrneɪm | 姓 | 称呼、填表 | use sb's surname；first name and surname；What's your surname? | In the U.S., people usually say "last name," not "surname." | 在美国，人们一般说 last name，而不说 surname。 | 表格上 surname / last name / family name 都是「姓」，美国口语最常说 last name；称呼时 title 后面接姓：✓ Ms. Walker，✗ Ms. Karen（那是小学生叫老师的叫法）；中国人的名字先说姓，给外国人写时最好说明哪个是姓，所以很多人用 Lily Lin 这样的写法。sur 读 `/sɜːr/`，卷舌。
+@v: respectful | = | adj. | rɪˈspektfl | 尊重的；有礼貌的 | 说语气、态度 | be respectful；a respectful tone；respectful of sb's time | It's respectful to keep emails to senior people short. | 给高层的邮件写短一点，本身就是一种尊重。 | respect（D79）是名词和动词，respectful 是「表示尊重的」；别和 respectable（体面的、正派的）混：a respectable company 是「一家正规的公司」；美国职场的尊重很大一部分是尊重对方的时间：I know you're busy, so I'll keep this short.
+@v: courteous | = | adj. | ˈkɜːrtiəs | 有礼貌的；客气周到的 | 形容措辞、服务、书面回复 | a courteous reply；courteous but firm；be courteous to… | Even when customers are angry, stay courteous. | 即使客户在发火，也要保持礼貌。 | 比 polite（第一册 D15）正式一点，常形容服务、书面回复；courteous but firm（礼貌但坚定）很常用；三个音节 KUR-tee-us，cour 读 `/kɜːr/`，不读「考」。
+@v: formality | = | n. | fɔːrˈmæləti | 正式（的程度）；拘礼；走形式的手续 | 说场合和语气有多正式 | some formality；a level of formality；just a formality | Don't worry. The signature is just a formality. | 别担心，签字只是走个形式。 | formal（第一册 D19）的名词；It's just a formality. = 只是走个程序；邮件的 formality 不靠长句和大词，靠称呼、结尾和不用口语；重音在 MAL：for-MAL-i-ty。
+@v: stiff | = | adj. | stɪf | （语气）生硬的；拘谨的；不自然的 | 评价邮件或说话太正式、像公文 | sound stiff；a stiff email；too stiff | Your email is polite, but it sounds a bit stiff. | 你的邮件很礼貌，但听起来有点生硬。 | 中文「太官方」「太客套」「像公文」，英文常说 stiff 或 too formal：给合作了几个月的人写 Dear Sir or Madam, I am writing to inform you that… 就很 stiff；本义是「僵硬的」：a stiff neck（落枕、脖子僵）。
+@v: contractions | contraction | n. | kənˈtrækʃnz | 缩约形式（I'm / can't / we'll 这类） | 讨论邮件可以写得多随意 | use contractions；avoid contractions；a contraction like "I'm" | Contractions make your emails sound friendlier. | 用缩约形式，会让邮件听起来更友好。 | 很多中国学生以为 I'm / don't 是口语，商务邮件一律写 I am / do not，结果显得很 stiff；其实除了合同、法律文件和非常正式的信，美国人的工作邮件几乎都用 contractions；不缩写反而像在强调：I am NOT available.；重音在 TRAC。
+@v: neutral | = | adj. | ˈnuːtrəl | 中性的；（语气）不太正式也不太随意的；中立的 | 说邮件和说话的语气 | a neutral tone；neutral language；stay neutral | A neutral tone works for most work emails. | 大多数工作邮件用中性的语气就行。 | 语气不是只有「正式」「随意」两档：大多数工作邮件是 neutral——用 Hi、用缩写、句子简短、没有俚语；在争论里 stay neutral 是「保持中立」；美式 neu 读 `/nuː/`，不读 `/njuː/`。
+@v: slang | = | n. | slæŋ | 俚语 | 说写邮件、开会时该避免什么 | use slang；American slang；a slang word | "Gonna" is slang, so don't use it in a client email. | gonna 是俚语，给客户的邮件里别用。 | 不可数：✗ a slang / ✗ slangs，「一个俚语词」说 a slang word / a slang expression；从美剧里学来的说法写进工作邮件会很怪；a 读 `/æ/`，ng 读 `/ŋ/`，结尾没有 g 的爆破。
+@v: abbreviations | abbreviation | n. | əˌbriːviˈeɪʃnz | 缩写；简写（pls / thx / Sept.） | 说邮件里能不能用简写 | avoid abbreviations；a common abbreviation；the abbreviation for… | "Pls" and "thx" are fine in a chat, but not in a client email. | pls、thx 在聊天里没问题，在客户邮件里就不行。 | 中国学生容易把聊天习惯带进邮件：pls、thx、u、小写的 asap……写给客户和高层要写全；月份、星期的缩写（Sept. / Thu.）可以用，正式邮件里写全更清楚；重音在 A：ab-bre-vi-A-tion。
+@v: acronyms | acronym | n. | ˈækrənɪmz | 首字母缩略词（API / VP / ETA） | 说专业缩写该不该用、要不要解释 | spell out an acronym；industry acronyms；What does the acronym stand for? | Don't use our internal acronyms with clients. | 别对客户用我们公司内部的缩略词。 | acronym 是取首字母组成、当一个词用的缩写（API、ETA、ASAP），abbreviation 是所有缩写的统称；规则：对方也在用的才用，没把握就第一次写全：estimated time of arrival (ETA)；重音在前 AC-ro-nym。
+@v: emphasis | = | n. | ˈemfəsɪs | 强调；重点 | 说邮件里怎么突出重点 | for emphasis；put emphasis on…；the main emphasis | Use bold, not capitals, for emphasis. | 要强调就用加粗，别用全大写。 | 全大写（URGENT / PLEASE REPLY）在英文邮件里就像在大喊，很不礼貌；需要强调就加粗，或者把重点放进第一句；复数 emphases；动词是 emphasize，✗ emphasis it；重音在前 EM-pha-sis。
+@v: junior | = | adj./n. | ˈdʒuːnjər | 资历浅的；级别低的；（名词）新人 | 说自己在团队里的位置 | a junior colleague；junior staff；the most junior person | As the most junior person on the team, Leo takes the notes. | Leo 是团队里资历最浅的，所以由他做记录。 | 和 senior 相对；在美国职场，junior 不妨碍你直呼经理的名字，也不意味着开会时只能听不能说；美国大学的 junior 是「大三学生」；两个音节 JOON-yer。
+@v: hierarchy | = | n. | ˈhaɪərɑːrki | 等级制度；层级；上下级关系 | 说公司里的级别、汇报关系 | a strict hierarchy；a flat hierarchy；the company hierarchy | Our company has a flat hierarchy, so anyone can talk to the CEO. | 我们公司层级很扁平，谁都可以直接找 CEO。 | 美国公司当然有 hierarchy，只是常常「藏」起来：大家互称名字，可谁拍板、谁向谁汇报，人人心里清楚——所以叫 Karen 不等于可以随便；四个音节 HY-er-ar-key，ch 读 `/k/`，开头读 `/haɪ/`。
+@v: on a first-name basis | = | phr. | ɑːn ə ˈfɜːrst neɪm ˌbeɪsɪs | 熟到可以直呼其名 | 说你和客户、上级的关系到了哪一步 | be on a first-name basis with sb；We're on a first-name basis.；get on a first-name basis | After a few calls, we were on a first-name basis. | 通过几次电话以后，我们就直呼名字了。 | 美国职场很多人第一次见面就叫名字，这个短语强调「关系已经到了这一步」；对方先说 Call me Karen. 或者回信只署 Karen，你就可以换成名字；basis 读 `/ˈbeɪsɪs/`，复数是 bases。
+@v: salutation | = | n. | ˌsæljuˈteɪʃn | （邮件、书信开头的）称呼 | 讨论邮件第一行怎么写 | the salutation；a formal salutation；open with a salutation | "Dear Ms. Walker" is a formal salutation. | Dear Ms. Walker 是正式的称呼。 | 就是邮件第一行：Dear… / Hi… / Hey…；不知道对方性别时可以用全名：Dear Alex Kim,；Dear Sir or Madam 在今天的美国邮件里显得过时、像群发，能查到名字就用名字；主重音在 TA。
+@v: sign-off | = | n. | ˈsaɪnɔːf | （邮件结尾、署名前的）结束语 | 讨论邮件怎么结尾 | a sign-off；a formal sign-off；a friendly sign-off | "Best" is one of the most common sign-offs in American work emails. | Best 是美国工作邮件里最常见的结束语之一。 | 称呼和结尾要配套：Dear… → Kind regards, / Best regards,（D65）；Hi… → Best, / Thanks,；Hey… → Thanks!；名词有连字符 sign-off，动词短语 sign off 没有：I'm signing off for today.（我今天下线了）；重音在 SIGN。
+@v: appropriate | = | adj. | əˈproʊpriət | 合适的；恰当的；得体的 | 判断一个称呼、用词、做法在某个场合合不合适 | appropriate for…；an appropriate tone；if appropriate | Jeans are appropriate on Fridays, but not for client visits. | 周五穿牛仔裤没问题，见客户就不合适了。 | 形容词结尾 -ate 读 `/ət/`：a-PRO-pri-ut；同形的动词（挪用）读 `/eɪt/`，很少用；搭配 appropriate for + 人或场合；它比 OK、fine 更强调「符合场合和规矩」。
+@v: inappropriate | = | adj. | ˌɪnəˈproʊpriət | 不合适的；不得体的 | 说某个词、玩笑、表情在工作场合不合适 | inappropriate for work；an inappropriate joke；highly inappropriate | That joke was inappropriate for a team meeting. | 那个玩笑放在团队会议上不太得体。 | inappropriate 的分量比中文「不太合适」重：说一个人的言行 inappropriate，常常暗示「失礼、越界」；只是「不太搭」时说 a bit too casual / not the best choice 更温和；前缀 in- 表示否定。
+@v: Kind regards | kind regards | phr. | ˌkaɪnd rɪˈɡɑːrdz | 此致；谨上（较正式的邮件结束语） | 写给不太熟的人、客户高层，和 Dear… 配套 | Kind regards,；Best regards,；Warm regards, | I always end my first email to a new client with "Kind regards." | 给新客户的第一封邮件，我都用 Kind regards 结尾。 | 和 Best regards（D65）差不多正式，在英式邮件里尤其常见；后面加逗号，换行写名字和职位；regards 永远是复数：✗ Kind regard；只写在邮件里，嘴上从来不说。
+@v: hope you're doing well | = | phr. | ˈhoʊp jʊr ˌduːɪŋ ˈwel | 希望你一切都好（邮件开头的一句寒暄） | 写给认识的人，第一行之后马上说正事 | Hope you're doing well.；I hope you're doing well.；Hope you had a great weekend. | Hi Sarah, hope you're doing well. | Sarah 你好，希望你一切都好。 | 只写一句就转入正题（第三册 D65：目的放在前面），别连着写三句寒暄；它比 I hope this email finds you well 自然，不像套话；省掉 I 是比较随和的写法，写给高层时补上 I；聊天消息里不用。
+@v: reach out | = | phr. | ˌriːtʃ ˈaʊt | （主动）联系某人 | 邮件里说你会去联系谁，或感谢对方来联系你 | reach out to sb；I'll reach out to…；Thanks for reaching out. | I'll reach out to Raj about the test data. | 测试数据的事，我会去联系 Raj。 | 第三册 D64 学过请别人来找你：Feel free to reach out to me.；这里是自己主动去联系：I'll reach out to…；回复别人的第一封来信常说 Thanks for reaching out!；接人要加 to：✗ reach out Raj；一封邮件里用一次就够，用多了像销售套话。
+@v: Thanks in advance | thanks in advance | phr. | ˌθæŋks ɪn ədˈvæns | 先谢谢了；提前致谢 | 小请求的最后一句 | Thanks in advance.；Thanks in advance for your help.；Thank you in advance. | Thanks in advance for sending the file. | 先谢谢你把文件发过来。 | 用在对方多半会帮忙的小事上；有些美国人觉得它有点「替对方先答应了」的味道，所以对客户高层、或对方完全可以拒绝的大请求，换成 I'd really appreciate your help. 更稳；advance 读 `/ədˈvæns/`，重音在 VANCE。
+
+@diff: 「您」——英文的尊重在句式里，不在代词里
+@d_cn: 中文对上级、客户说「您」，对同事说「你」，一个字就分出了尊重和亲近；写邮件时「您」用对了，话就客气了一半。
+@d_en: Could you let me know by Friday? / Would it be possible to forward the invite? / Dear Ms. Walker, thank you for your time yesterday.
+@d_why: 英文只有一个 you，对 CEO 和对实习生都一样。尊重体现在三个地方：① **句式**：Could you… / Would it be possible to…（D91）；② **称呼**：Dear Ms. Walker；③ **尊重对方的时间**：短、第一句就说目的。中国学生容易走两个极端：为了「您」的效果，把句子写得又长又绕——✗ I would like to humbly ask if it is possible for you to kindly confirm…，反而 stiff，kindly 加命令句还可能显得居高临下（D80）；或者觉得反正都是 you，就写 You need to confirm the time today.——这在英文里就是命令。吴佳那句 You sound courteous through the sentence. 就是这个意思：「您」的工作，在英文里由 Could you…? 来做。
+@d_when: 给客户、高层、别的部门写信，想表达尊重时。
+@d_vs: **Could you confirm the time by Friday?** 能在周五前确认一下时间吗？（礼貌、简洁）\n**Would it be possible to forward the invite to Raj?** 能麻烦您把邀请转给 Raj 吗？（更客气）\n✗ You need to confirm the time today.（像命令）\n✗ I would like to humbly ask if you could kindly confirm…（绕、生硬）
+@d_task: 把这句改成写给 Karen 也合适的请求：You must reply to the agenda today. | Could you let me know by end of day if you'd like to change the agenda?
+@diff: 「尊敬的王总」——称呼三档：Dear Ms. Walker / Hi Priya / Hey Kevin
+@d_cn: 中文邮件开头「尊敬的王总」「Priya 你好」「凯哥」……称呼里带着职位和亲疏。
+@d_en: Dear Ms. Walker, / Hi Priya, / Hey Kevin,
+@d_why: 英文称呼分三档：**Dear + title + 姓**（第一次写给高层、陌生人，正式场合）；**Hi + 名**（最常用的中性写法，客户、同事都行）；**Hey + 名**（熟同事、聊天）。title 用 **Ms.**（不分婚否，最安全）/ Mr. / Dr.。中国学生常见的错：✗ Dear Ms. Karen（title 只配姓）、✗ Dear VP Walker / ✗ Hi Manager Zhang（职位不当称呼）、✗ Dear Karen Walker（全名，只在不知道对方性别时用）。什么时候从 Dear Ms. Walker 换成 Hi Karen？跟着对方走：她回信只署 Karen，或电话里说 Call me Karen，就换。称呼还要和结尾配套（sign-off）：Dear → Kind regards / Best regards；Hi → Best / Thanks；Hey → Thanks! 也别反过来：对 Priya 这样合作几个月的人突然写 Dear Ms. Nair，会让她以为出了什么事。
+@d_when: 每一封邮件、每一条消息的第一行；尤其是第一次写给客户、高层，或者关系发生变化（对方开始叫你名字）的时候。
+@d_vs: **Dear Ms. Walker,** 尊敬的 Walker 女士：（第一次、高层）\n**Hi Priya,** Priya 你好：（熟悉的客户，中性）\n**Hey Kevin,** Kevin：（同事、聊天）\n✗ Dear Ms. Karen,\n✗ Hi Manager Zhang,\n✗ Dear VP Walker,
+@d_task: 你第一次给一家美国公司的财务总监 Susan Lee 写邮件（不认识）。开头怎么写？她回信只署名 Susan，你的第二封呢？ | 第一封：Dear Ms. Lee,；第二封：Hi Susan,（跟着对方的署名走）
+@diff: 「协助、收到、告知」——assist / receive / inform 用一两个就够
+@d_cn: 中文写正式邮件，会自动换成书面词：「协助」「收到」「告知」「知悉」。
+@d_en: We've received your file. / Please let me know if anything changes. / We're happy to help with the testing.
+@d_why: 英文也有「书面词 vs 日常词」：**assist / help**、**receive / get**、**inform / tell**、**request / ask**、**regarding / about**。书面词适合正式通知、合同、第一次写给高层的邮件；可是一句话里堆三四个，就成了公文腔：✗ I am writing to inform you that we have received your request and will assist you.——又 stiff 又冷。美国高管也喜欢短而清楚的邮件，不需要满篇大词。经验法则：中性邮件里有一两个正式词就够了，其余用普通词。还有一句典型的中式英文：✗ Please be informed that…（请知悉），美国人几乎不这么写，直接说事：The call is on Thursday. 或 Just so you know, …
+@d_when: 写正式通知、给客户高层的第一封邮件时可以用书面词；日常工作邮件和同事消息用普通词。
+@d_vs: **We've received your file.** 您的文件已收到。（正式一点）\n**We got your file.** 文件收到了。（同事、随意）\n**Please let me know if anything changes.** 如有变化请告诉我。（中性，最常用）\n**Please inform us of any changes.** 如有变更请告知。（正式通知）\n✗ Please be informed that the call is on Thursday.（中式公文腔）
+@d_task: 把这句改得自然一点（写给 Priya）：Please be informed that we have received your data and will assist you with the testing. | Thanks, we've received your data. We're happy to help with the testing.
+@diff: 「正式就不能缩写？」——I'm / can't 可以，gonna / pls 不行
+@d_cn: 很多中国学生以为 I'm、can't、we'll 是「口语」，商务邮件里一律写成 I am、cannot、we will 才算正式。
+@d_en: I'm writing to confirm our kickoff call. / We can't make it on Friday. / I'll reach out to Raj.
+@d_why: **contractions**（I'm / can't / we'll）在美国的工作邮件里是常态，写给副总裁也没问题——林晓给 Karen 的第一句就是 I'm writing to confirm…。全部写开反而 stiff，有时还像在生气：I am not available. / We do not accept this. 听起来是在加重语气（emphasis）。只有合同、法律文件、正式公告和非常正式的信，才尽量不缩写。真正不能进客户邮件的是另外三样：**slang**（gonna / wanna / no worries 偏口语，熟客户可以）、聊天里的 **abbreviations**（pls / thx / u）、对方不懂的 **acronyms**（公司内部的缩写）。四个词别混：contraction 是 I'm，abbreviation 是 pls，acronym 是 ETA，slang 是 gonna。
+@d_when: 判断一句话能不能写进给客户、给高层的邮件时。
+@d_vs: **I'm writing to confirm the call.** 写信确认一下电话会。（中性，给高层也可以）\n**I am writing to confirm the call.** 也对，只是更正式、略显生硬\n**We cannot accept this.** 我们无法接受。（不缩写＝加重语气）\n✗ Pls confirm the time, thx.（聊天简写）\n✗ We're gonna send it tomorrow.（俚语）
+@d_task: 判断能不能写进给 Karen 的邮件，不能的改一下：① I'll send the agenda tomorrow. ② We're gonna start on the 14th. ③ Pls confirm. | ① 可以，缩写没问题 ② 不行，gonna 是俚语 → We're going to start on September 14. ③ 不行，聊天简写 → Could you please confirm?
+
+@core: Dear Ms. …, thank you for your time yesterday. | 第一次正式写信给客户高层，先谢谢对方的时间 | Ms. Walker / Mr. Mehta；yesterday / on Monday | 正式：Dear Ms. Walker, thank you for taking the time to speak with us yesterday.｜随意：Hi Karen, thanks for the call yesterday!
+@core: Hi …, hope you're doing well. | 给认识的客户、同事写信，一句寒暄后马上说正事 | Priya / Raj；doing well / having a good week | 正式：Dear Priya, I hope you're doing well.｜随意：Hi Priya! Hope your week's going well.
+@core: Hey …, quick question. | 给熟悉的同事发消息，开门见山 | Kevin / Leo；quick question / quick favor | 正式：Hi Kevin, I have a quick question about Thursday.｜随意：Kevin, quick one for you!
+@core: I'm writing to confirm … | 正式邮件的第一句说目的（可以用缩写） | our kickoff call / the new date / the meeting time | 正式：I am writing to confirm the details of Thursday's kickoff call.｜随意：Just confirming Thursday's call.
+@core: Could you forward … to …? I'll reach out to … about … | 请对方转发，同时说你会主动联系谁 | the invite / the agenda；Raj / his team；the data / access | 正式：Would you mind forwarding the invitation to Raj? I'll contact him separately about the data.｜随意：Can you send the invite on to Raj? I'll talk to him about the data.
+@core: Thanks in advance for your help. | 小请求的结尾道谢 | your help / sending the file / your patience | 正式：Thank you in advance for your assistance.｜随意：Thanks a lot!
+@core: Kind regards, / Best, / Thanks! | 选一个和称呼配套的结尾 | Dear → Kind regards；Hi → Best；Hey → Thanks! | 正式：Kind regards,\nLily Lin\nProject Coordinator, SwiftLink｜随意：Thanks!\nLily
+@core: We're on a first-name basis now. | 说你和某人已经熟到直呼名字 | Priya and I / the Seattle team；now / after the first call | 正式：Ms. Walker has asked us to call her Karen.｜随意：We're on first names now.
+
+@pw: executive | ɪɡˈzekjətɪv | 4 个音节 ex·EC·u·tive | 重音在 ec；开头 ex 读 `/ɪɡz/`，像「一格z」；cu 读 `/kjə/`
+@pw: hierarchy | ˈhaɪərɑːrki | 4 个音节 HI·er·ar·chy | 重音在开头 `/haɪ/`；ch 读 `/k/`；别缩成三个音节
+@pw: courteous | ˈkɜːrtiəs | 3 个音节 COUR·te·ous | 重音在前；cour 读 `/kɜːr/`，卷舌，不读「考」
+@pw: salutation | ˌsæljuˈteɪʃn | 4 个音节 sal·u·TA·tion | 主重音在 ta；lu 读 `/lju/`
+@pw: abbreviation | əˌbriːviˈeɪʃn | 5 个音节 ab·bre·vi·A·tion | 主重音在 a；bre 读长音 `/briː/`
+@pw: appropriate | əˈproʊpriət | 4 个音节 ap·PRO·pri·ate | 重音在 pro `/proʊ/`；形容词结尾读 `/ət/`，不读 `/eɪt/`
+@pw: formality | fɔːrˈmæləti | 4 个音节 for·MAL·i·ty | 重音在 mal，`/æ/` 嘴张大；结尾 -ty 闪音
+@ps: **Dear** Ms. **Walk**er, / **thank** you for your **time** / **yes**terday. | Ms. 读 `/mɪz/`，不读 Miss `/mɪs/`，也不读成 M、S 两个字母；Walker 的 l 不发音；正式感谢，语调平稳、句末下降。
+@ps: Hi **Pri**ya, / hope you're doing **well**. | hope you're 连成 `/hoʊpjər/`，you're 弱读成 `/jər/`；寒暄只有 well 是重音，读得轻快，不要每个词都重读。
+@ps: Hey **Kev**in, / quick **ques**tion. | 熟人之间的开头，语调上扬、轻快；quick question 两个 `/kw/` 都要读出来，question 的 t 读 `/tʃ/`。
+@ps: We're on a **first**-name **ba**sis now. | We're on a 连成 `/wɪrɑːnə/`；first-name 复合词，重音在 first；basis `/ˈbeɪsɪs/` 的 s 都是清音 `/s/`。
+@pnote: 称谓的读法：**Ms.** `/mɪz/`（不分婚否，美国职场最安全）、**Mr.** `/ˈmɪstər/`、**Mrs.** `/ˈmɪsɪz/`（已婚女士，不确定就别用）。称呼时重音落在姓上：Ms. **Walk**er。几个名字：Priya `/ˈpriːjə/`、Raj `/rɑːdʒ/`、Walker `/ˈwɔːkər/`（l 不发音）、Nair `/naɪr/`。
+@pnote: 写和说的不同：Kind regards、Best 只出现在邮件里，嘴上从来不说；聊天里写 quick q / pls / thx，嘴上说 quick question / please / thanks。时间的读法：8 a.m. Pacific Time 读 eight A M Pacific Time；11 p.m. 读 eleven P M；September 3 读 September third（序数词，书面上不写 3rd 也照样读 third）。
+@lfocus: 三个人、三种称呼：Karen → Dear Ms. Walker（title + surname）；Priya → Hi（first-name basis）；Kevin → Hey
+@lfocus: 吴佳的规则，只记英文关键词：contractions OK；no slang；no "pls"；acronyms she uses；no capitals；salutation + sign-off
+@lfocus: 时间和请求：Thursday, September 3, 8 a.m. Pacific ＝ 11 p.m. Shenzhen；Priya → forward invite to Raj；Kevin → video link
+@dict: S4–S7
+@dict: S20–S22
+@res: 在 youglish.com 输入 "on a first-name basis"，选 US，听美国人在什么场合说自己和某人「直呼其名」。
+
+@mimic: 跟读【C】S3–S18：先正常语速逐句跟读，重点模仿吴佳讲规则时的重音（formal doesn't mean **stiff**）和 S16 We're on a **first**-name **ba**sis now. 的节奏；再由你演林晓、手机朗读吴佳和 Leo 的台词，完整对一遍并录音。最后把三条消息（S20–S29）各读一遍，体会三种语气：给 Karen 平稳正式，给 Priya 亲切，给 Kevin 轻快。
+@swap: Dear Ms. Walker, thank you for your time yesterday. | 换人和时间：Mr. Mehta／Ms. Nair；on Monday／this morning | Dear Mr. Mehta, thank you for your time this morning.
+@swap: Hi Priya, hope you're doing well. | 换人和寒暄：Raj／Sarah；had a great weekend／your week is going well | Hi Raj, hope you had a great weekend.
+@swap: Hey Kevin, quick question. | 换人和事：Leo／Emma；quick favor／quick update | Hey Leo, quick favor.
+@swap: We're on a first-name basis now. | 换主语和时间：Mike and I／the whole BrightNest team；after the first call／since the kickoff | Mike and I were on a first-name basis after the first call.
+@free: 你要给 BrightNest 的 IT 负责人 Raj Mehta 写第一封邮件（他昨天在电话会上说过话，但你们没单独联系过），约他周五聊测试数据。写开头两三句。 | Hi Raj, thank you for joining yesterday's call. I'm writing to ask if we could talk about the test data on Friday. Would 9 a.m. Pacific Time work for you?
+@free: Leo 给 Karen 的邮件草稿写着 Dear Ms. Karen, pls see attached. THX!，请你帮他改，并用英文说出两个问题在哪。 | Dear Ms. Walker, please see the attached agenda. Thank you! The title goes with her surname, not her first name. And "pls" and "THX" are chat abbreviations, and capitals look like shouting.
+@free: Karen 回信只署了一个名字 Karen，还加了一句 Looking forward to Thursday!。你回她一封两三句的邮件，确认你会提前发议程。 | Hi Karen, thank you for your reply. I'll send the final agenda by Wednesday, so you'll have it before the call. Looking forward to Thursday!
+@free: 新同事问你：Is "Thanks in advance" polite enough for a client?（用英文回答：可以用在什么情况，什么时候换个说法） | It's fine for small, everyday requests. For a big request or a senior client, I'd write "I'd really appreciate your help" instead. It sounds less like you've already decided for them.
+@output: 写一封 8–12 句的邮件，第一次写给一位客户方的高管（真实或虚构的都行），邮件标题是 "Kickoff call on Thursday, September 3"。要求：① Dear + title + 姓 ② 感谢对方的时间 ③ 第一句正事就说目的（I'm writing to confirm…）④ 时间写两个时区、月份拼出来 ⑤ 说明谁参加、多长时间、附上议程 ⑥ 一个礼貌的请求（Could you… / Would it be possible to…）⑦ 可以用缩写，不用俚语、pls、全大写 ⑧ Kind regards + 姓名 + 职位。写完数一数：正式词（assist / receive / inform）有没有超过两个？
+@output_sample: Dear Ms. Walker,\nThank you for your time yesterday. It was helpful to hear your goals for the project.\nI'm writing to confirm our kickoff call on Thursday, September 3, at 8 a.m. Pacific Time (11 p.m. in Shenzhen).\nThe call will take about forty-five minutes.\nFrom SwiftLink, Tom Zhang, Mike Carter and I will join.\nI've attached a short agenda with three items: goals, timeline and next steps.\nCould you let me know if you'd like to add anything?\nWe'd also like Raj Mehta to join, since we'll discuss the test data.\nWould it be possible to forward the invite to him?\nIf Thursday no longer works for you, I'm happy to suggest another time.\nKind regards,\nLily Lin\nProject Coordinator, SwiftLink
+
+@check: 听力：吴佳说第一次给 Karen 写邮件，称呼要怎么写？林晓为什么不给 Priya 写 Dear Ms. Nair？ | 用 title + surname：Dear Ms. Walker。因为林晓和 Priya 已经通了好几个月邮件，早就直呼名字了（We're on a first-name basis now.），写 Hi Priya 就行。
+@check: 听力：启动会是什么时候（两个时区）？林晓分别请 Priya 和 Kevin 做什么？ | 周四，9 月 3 日，太平洋时间上午 8 点，也就是深圳时间晚上 11 点。请 Priya 把会议邀请转给 Raj；请 Kevin 为周四晚上 11 点的会设一个视频链接。
+@check: 改错（都是写给客户高层的）：① Dear Ms. Karen, ② Hi Manager Walker, ③ Pls confirm the time, thx. ④ PLEASE REPLY TODAY. | ① Dear Ms. Walker,（title 只配姓）② Dear Ms. Walker,（职位不当称呼）③ Could you please confirm the time? Thank you.（不用聊天简写）④ Could you reply by end of day today?（全大写像在喊；用日期和礼貌句式表达紧迫）
+@check: 换个场景：你第一次给一家美国供应商的销售经理 Mark Ellis 写邮件，他回信只署了 Mark。你第一封和第二封邮件的称呼和结尾分别怎么写？ | 第一封：Dear Mr. Ellis, … Kind regards,；第二封：Hi Mark, … Best,（跟着对方的署名换，称呼和结尾配套）
+@check: 给熟悉的同事 Leo 发条消息，请他把会议纪要模板发给你——写成 Hey 那一档的一两句。 | Hey Leo, quick question. Could you send me the meeting notes template? Thanks!
+@check: 这封给 Karen 的邮件开头为什么太 stiff？怎么改？Dear Madam, I am writing to inform you that I have received your email and I will assist you. | 称呼过时（Dear Madam），正式词堆在一起（inform / received / assist），也完全没有缩写。可以改成：Dear Ms. Walker, thank you for your email. I'm happy to help.
+@next1: 不看书说出 5 个锚点句：S16、S20、S25、S27、S29
+@next1: 用 Dear / Hi / Hey 三档，给三个不同的人各写一句「明天的会改到下午三点」
+@next7: 称呼和结尾配套：Dear Ms. … → Kind regards；Hi … → Best；Hey … → Thanks!；什么时候从 Dear Ms. Walker 换成 Hi Karen
+@next7: contraction / abbreviation / acronym / slang 各举一个例子，并说出哪些能写进给客户高层的邮件

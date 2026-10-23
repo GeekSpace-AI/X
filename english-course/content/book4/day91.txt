@@ -19,9 +19,9 @@
 @warmup: 退款由财务部负责。 | Refunds are handled by the finance team. | D64
 @warmup: 我们刚和一个新的大客户签了合同。 | We've just signed a contract with a big new client. | D33
 
-@scene: 八月的最后一个周一。上周的季度评估上，张涛让林晓牵头 BrightNest 的系统对接上线；从今天起，她正式成为这个项目的协调人。项目牵涉三方：深圳的运营团队、西雅图 Mike 的工程团队、美国的大客户 BrightNest（每天几千个订单）。下周要开启动会，之前得先备好两样东西：一个测试账号、一批真实的订单数据。麻烦在于，这两件事都得请「不归她管」的人来做：Mike 这个月人手紧，客户 Priya 也没有义务配合她的时间表。林晓的初稿写得又短又急——Please set up a test account ASAP.——张涛看完，让她把语气改一改。
+@scene: 八月的最后一个周一。上周的季度评估上，张涛让林晓牵头 BrightNest 的系统对接上线；从今天起，她正式成为这个项目的协调人。项目牵涉三方：深圳的运营团队、西雅图 Mike 的工程团队、美国的大客户 BrightNest（每天几千个订单）。这周四要开启动会，会后马上开始测试，所以得先备好两样东西：一个测试账号、一批真实的订单数据。麻烦在于，这两件事都得请「不归她管」的人来做：Mike 这个月人手紧，客户 Priya 也没有义务配合她的时间表。林晓的初稿写得又短又急——Please set up a test account ASAP.——张涛看完，让她把语气改一改。
 @sp: 人物关系 | 林晓 → Mike：跨时区的同事，Mike 不归她管，这个月人手又紧；林晓 → Priya：服务方写信给大客户的运营经理，对方没有义务配合她的时间表；张涛：林晓的经理、项目负责人，帮她把关语气；Emma 管产品范围，实习生 Leo 做记录
-@sp: 沟通目的 | 启动会前拿到两样东西：Mike 团队的一个专用测试账号（周四前）、Priya 的一批样本订单数据（争取周五）；同时让对方愿意优先处理，而不是觉得被催
+@sp: 沟通目的 | 为启动会后的测试拿到两样东西：Mike 团队的一个专用测试账号（周四前）、Priya 的一批样本订单数据（争取周五）；同时让对方愿意优先处理，而不是觉得被催
 @sp: 已知信息 | Karen Walker 是 BrightNest 方的项目发起人（sponsor），Priya 和 Raj 是主要相关方；Mike 这个月没法再加人；编出来的数据测不出真问题；数据周五到，账号最好周四先搭好
 @sp: 表达重点 | 选礼貌层级（Would it be possible to… / I'd appreciate it if you could…）→ 用日期代替 ASAP → 一句原因（so that…）→ 留余地（If Thursday is too tight… / if that works for you）→ 委婉地多要一样（by any chance）→ 道谢别用 Thank you for your cooperation
 
@@ -32,7 +32,7 @@
 @br:
 @s: On Monday, she meets Tom, Emma and Leo. | 周一，她和张涛、Emma、Leo 碰了个头。
 @s: Tom: At BrightNest, Karen Walker is the **sponsor**, and Priya and Raj are key **stakeholders**. | 张涛：BrightNest 那边，项目发起人是 Karen Walker，Priya 和 Raj 是主要的相关方。
-@s: Tom: Before next week's **kickoff** call, we need two things. | 张涛：下周开启动会之前，我们得先备好两样东西。
+@s: Tom: Testing starts right after this week's **kickoff** call. We need two things. | 张涛：这周的启动会一开完，测试就要开始。我们得先备好两样东西。
 @s: Emma: A test account and real orders. A made-up **dataset** won't show real problems. | Emma：一个测试账号，还有真实的订单。编出来的数据集测不出真问题。
 @s: Leo: But Mike can't **allocate** more **resources** this month. | Leo：可 Mike 这个月没法再调配更多人手了。
 @s: Lily: We don't need more people, just one **dedicated** test account. | 林晓：我们不需要更多人手，只要一个专用的测试账号。
@@ -156,7 +156,7 @@
 @free: 给 Priya 的邮件快写完了，你想顺便问一下她有没有一份 BrightNest 的仓库地址清单（有的话能帮你们配置测试账号）。 | Do you have a list of your warehouse addresses by any chance? It would help us set up the test account. No worries if not.
 @free: 张涛问你：Why did you write "if that works for you"? 用英文解释你的考虑。 | I wanted to give Priya some room. She's a client, so a firm order would sound pushy. If Friday doesn't work, she can suggest another day.
 @output: 录一段 2 分钟的会议发言：你刚当上一个项目的协调人，在内部碰头会上说明你需要的支持。① 一句话说你的角色和本周目标（My aim this week is…）② 向两个人提请求（一个同事、一个外部的人），每个请求都带日期和一句原因（so that… / because…）③ 给一点余地（If … is too tight, … works. / if that works for you）④ 委婉地多要一样（by any chance）⑤ 最后用一句话总结「谁、什么、哪天」。没有项目，就讲一件需要别人帮忙的事：办一场活动、搬家、做一份报告。
-@output_sample: Thanks, everyone. As you know, I'm now the coordinator for the BrightNest project, and my aim this week is simple: get everything ready for the kickoff call. I need help from two people. First, Mike. Would it be possible for your team to set up a dedicated test account by Thursday? BrightNest's data should arrive on Friday, and we'd like to load it right away, so that we can find problems before the kickoff. If Thursday is too tight, Friday morning works. I have some flexibility there. Second, Kevin. I'd appreciate it if you could give Leo access to the test environment. He'll check the data with me, so he needs to log in by Friday. On the client side, I've asked Priya for about five hundred sample orders. I also asked if she had last month's data by any chance, because real orders show real problems. Without real data, we could potentially lose a week, so I'll check in with her on Thursday if I haven't heard back. Karen Walker is the sponsor at BrightNest, so I'll keep her updated through Priya. So, to sum up the dates: the test account by Thursday, the data by Friday, and the kickoff next week. Let's aim for that, if that works for everyone. Any questions?
+@output_sample: Thanks, everyone. As you know, I'm now the coordinator for the BrightNest project, and my aim this week is simple: get everything ready for the kickoff call. I need help from two people. First, Mike. Would it be possible for your team to set up a dedicated test account by Thursday? BrightNest's data should arrive on Friday, and we'd like to load it right away, so that testing can start next week. If Thursday is too tight, Friday morning works. I have some flexibility there. Second, Kevin. I'd appreciate it if you could give Leo access to the test environment. He'll check the data with me, so he needs to log in by Friday. On the client side, I've asked Priya for about five hundred sample orders. I also asked if she had last month's data by any chance, because real orders show real problems. Without real data, we could potentially lose a week, so I'll check in with her on Thursday if I haven't heard back. Karen Walker is the sponsor at BrightNest, so I'll keep her updated through Priya. So, the dates again: the kickoff call and the test account on Thursday, and the data by Friday. Let's aim for that, if that works for everyone. Any questions?
 
 @check: 听力：BrightNest 那边谁是项目的 sponsor？谁是主要的 stakeholders？Mike 那边有什么限制，林晓怎么回应？ | Karen Walker 是 sponsor；Priya 和 Raj 是主要相关方。Mike 说这个月没法再调配更多资源（can't allocate more resources）；林晓说不需要更多人手，只要一个专用的测试账号（just one dedicated test account）。
 @check: 听力：林晓分别向 Mike 和 Priya 要什么、什么时候要？张涛对她的初稿提了哪两点意见？ | 向 Mike 要一个测试账号，周四前（太赶的话周五上午也行）；向 Priya 要样本数据，大约 500 个订单，最好是上个月的，争取周五。张涛的意见：ASAP 听起来像命令，要用日期体现紧迫性、说明理由；Thank you for your cooperation 听起来像银行里的告示。

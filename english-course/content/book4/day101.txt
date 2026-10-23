@@ -1,0 +1,163 @@
+@day: 101
+@week: 2
+@title_cn: 插话与澄清
+@title_en: Jumping In and Clarifying
+@topic: 视频会议里礼貌地插话、被打断时守住话头、请人展开说明、把跑题的讨论拉回来，并说清声音和网络问题
+@think_short: 「我插一句」Sorry, can I just jump in here?｜「让我说完」Let me just finish this point.｜「你先说」Sorry, go ahead.｜「能具体说说吗」Could you elaborate on…?｜「回到刚才……」Can we go back to what Raj said…?｜「你声音断断续续的」Your audio is a bit garbled.
+
+@goal_scene: 一场有延迟的视频会：Raj 说话很快、网络卡顿，几个人同时开口，有人一讲就停不下来，有人跑题，新同事一直没说话。你是主持人：要找准时机礼貌地插话，被打断时守住话头，请对方把关键选项说清楚，鼓励沉默的人发言，最后把讨论拉回那条最重要的数据。
+@goal_expr: Sorry, can I just jump in here? / Let me just finish this point. / Sorry, go ahead. / Could you elaborate on the second option? / Can we go back to what Raj said about the data? / If I could add one thing, … / You're barely audible. / There's a lag on my end. / Sorry, I digress.
+@goal_vocab: 20 个重点词 + 5 个短语：插话与话轮、请人展开、跑题与拉回、视频会上的声音和网络问题、评价沟通方式
+@done: 能用 Sorry, can I just jump in here? / If I could add one thing, … 礼貌地插话；被打断时用 Let me just finish this point. 守住话头；两人同时开口时说 Sorry, go ahead.
+@done: 能用 Could you elaborate on…? / What do you mean by…? 请对方展开，用 Can we go back to what … said about …? 把讨论拉回来（what 后面用陈述语序）
+@done: 能说清视频会上的声音和网络问题（garbled / barely audible / an echo / a lag on my end），并录一段 2 分钟的会议发言：至少插话一次、请人展开一次、拉回话题一次
+
+@warmup: 再同意不过了。 | I couldn't agree more. | D100
+@warmup: 我明白你的意思，但我不确定这现不现实。 | I see your point, but I'm not sure that's realistic. | D100
+@warmup: 我在一定程度上同意你。 | I agree with you to some extent. | D100
+@warmup: 这个先放进「停车场」，以后再说。 | Let's put that in the parking lot for now. | D98
+@warmup: 准时率是 95%，上升了一个百分点。 | The on-time rate was 95%, up one percentage point. | D71
+@warmup: 我已经给她发消息了。 | I've already sent her a message. | D33
+
+@scene: 上次会后，林晓请 Priya 提供 50 个卖家的数据。这一次的规划会是视频会，BrightNest 的 IT 负责人 Raj 带着数据来了。可他在家里连线，Wi-Fi 很差，说话又快，一句话里全是数字和技术词：他刚说完「两个选项」，说到数据的关键处，声音就断了，字幕上只剩「听不清」。接着 Mike 和 Priya 同时开口；Raj 一讲 API 就停不下来；Priya 又扯到了十一月的节日广告；Raj 还打断了 Mike。西雅图新来的测试工程师 Ana 一直没说话。林晓是主持人：她得找准时机礼貌地插话，请 Raj 把第二个选项讲清楚，鼓励 Ana 发言，最后把大家拉回 Raj 那条被淹没的数据。会后，Mike 给她发来一条消息。
+@sp: 人物关系 | 林晓主持会议；Raj 是客户方的 IT 负责人，刚加入项目，技术强、语速快；Priya 是客户方的运营经理；Mike 是西雅图工程经理，说话直接；Ana 是西雅图新来的测试工程师，还不太敢开口
+@sp: 沟通目的 | 在网络不好、多人抢话的视频会上不失礼地插话和澄清：听清 Raj 的两个选项和那条关键数据，让每个人（包括 Ana）都说上话，不让讨论被一个人主导或者跑偏
+@sp: 已知信息 | 上次大家卡在「10 个还是 50 个卖家」；Raj 这次带来了 50 个卖家的数据；Mike 的测试目前只覆盖 10 个卖家；视频有延迟，字幕也会漏掉听不清的部分
+@sp: 表达重点 | 说清声音和网络问题（garbled / audible / echo / lag）→ 同时开口时 Sorry, go ahead → 找准 cue 插话 Sorry, can I just jump in here? → 请对方展开 Could you elaborate on…? → 被打断时 Let me just finish this point → 鼓励沉默的人、补充 If I could add… → 拉回话题 Can we go back to…?
+
+@story_title: Episode 101 · Can I Just Jump In?
+@story_type: 视频会议 + 会后消息
+@s: The next planning call is on video, and Raj is on weak Wi-Fi. | 这次的规划会是视频会，Raj 那边的 Wi-Fi 信号很差。
+@s: Raj: Okay, two options. Option one is fifty sellers. Option two is smaller, and the data shows our ten biggest sellers… | Raj：好，两个选项。选项一是五十个卖家。选项二规模小一些，而且数据显示，我们最大的十个卖家……
+@s: Then his voice is **garbled**. The captions just say "[**inaudible**]." | 接着他的声音就断断续续了，字幕上只显示「[听不清]」。
+@s: Mike and Priya ask two **simultaneous** questions. | Mike 和 Priya 同时问了两个问题。
+@s: Mike: Sorry, **go ahead**. | Mike：抱歉，你先说。
+@s: Priya: Raj, there's an **echo**, and you're barely **audible**. | Priya：Raj，有回音，而且你的声音小得几乎听不见。
+@s: Raj: Sorry, there's a **lag** on my end. I'll move closer to my **microphone**. | Raj：抱歉，我这边有延迟。我离麦克风近一点。
+@s: Everyone **nods**. Then Raj talks about API limits, and he starts to **dominate** the call. | 大家都点了点头。接着 Raj 讲起了 API 的限制，越讲越停不下来，整场会都成了他一个人在说。
+@s: When he stops for a breath, Lily takes her **cue**. | 他停下来换气的时候，林晓抓住了这个时机。
+@s: Lily: Sorry, **can I just jump in** here? Could you **elaborate** on the second option? | 林晓：抱歉，我能插一句吗？您能具体说说第二个选项吗？
+@s: Raj: Sure. We start with a smaller group and add sellers every week. | Raj：当然。我们先上一小批，然后每周再加卖家。
+@s: Priya: Only a few? Our holiday ads start in November, so… Sorry, I **digress**. | Priya：只上几个？我们的节日广告十一月就开始投放了，所以……抱歉，我扯远了。
+@s: Mike: My worry is testing. Our tests only— | Mike：我担心的是测试。我们的测试只——
+@s: Raj: But the API can handle— | Raj：可是 API 撑得住——
+@s: Mike: **Let me just finish** this point. Our tests only cover ten sellers. | Mike：让我先把这一点说完。我们的测试只覆盖了十个卖家。
+@s: Ana has been **silent** so far, but now her virtual **hand** is up. | Ana 到现在一直没说话，但这时她在屏幕上举起了手。
+@s: Lily wants to **encourage** her: "Go ahead, Ana." | 林晓想鼓励她发言：「Ana，你说吧。」
+@s: Ana: **If I could add** one thing, testing fifty sellers would take two more weeks. | Ana：我补充一点：要测五十个卖家，还得再花两周。
+@s: Lily: Thanks. Can we **go back to** what Raj said about the data? | 林晓：谢谢。我们能回到 Raj 刚才说的那个数据吗？
+@s: Raj: Right. Our ten biggest sellers ship about sixty percent of all pilot orders. | Raj：对。我们最大的十个卖家，发货量大约占试点全部订单的百分之六十。
+@s: Priya: Sixty percent? That's a lot of data. | Priya：百分之六十？那数据量可不小。
+@s: Mike: And a lot of risk. | Mike：风险也不小。
+@br:
+@s: After the call, Mike messages Lily: | 会后，Mike 给林晓发了条消息：
+@s: Nice work. You jumped in on a client, but you were **tactful**, not **abrupt**. | 干得不错。你打断的是客户，但你很得体，一点都不生硬。
+@s: It felt like a real **dialogue**, not three speeches. | 这次像是真正的对话，而不是三个人各讲各的。
+@s: Lily replies: "Thanks! Ana's **comment** helped, and Raj's **remark** gives us a new idea." | 林晓回复：「谢谢！Ana 的意见很有帮助，Raj 那句话也给了我们一个新思路。」
+
+@v: garbled | = | adj. | ˈɡɑːrbld | （声音、信息）断断续续的；含混不清的 | 视频会、电话里对方的声音听不清 | garbled audio；sound garbled；a garbled message | Sorry, your audio is garbled. Could you say that again? | 抱歉，你的声音断断续续的，能再说一遍吗？ | 第一册 Day 29 学过 You're breaking up.（声音断断续续）；garbled 更强调「搅成一团、听不出字」：Your audio is a bit garbled.；也可以说信息被弄乱了：a garbled email；结尾 -bled 只有一个弱读音节 `/bld/`，不读「加波得」。
+@v: inaudible | = | adj. | ɪnˈɔːdəbl | 听不见的；听不清的 | 字幕、会议记录、录音稿里标注听不清的地方 | [inaudible]；almost inaudible；inaudible on the recording | Part of his answer was inaudible on the recording. | 他的回答有一部分在录音里听不清。 | 自动字幕和会议记录常用方括号标 [inaudible]，表示「此处听不清」；当面对人说 You're inaudible. 太书面，说 I can't hear you. / You're barely audible. 更自然；in- 是否定前缀，反义词是 audible。
+@v: simultaneous | = | adj. | ˌsaɪmlˈteɪniəs | 同时发生的；同时进行的 | 描述几个人同时说话、几件事同时进行 | simultaneous questions；simultaneous interpretation（同声传译）；simultaneously（副词） | The two updates were almost simultaneous. | 两次更新几乎是同时进行的。 | 偏书面，嘴上更常说 at the same time / at once：They both started talking at once.；「同声传译」是 simultaneous interpretation；美式开头读 `/saɪ/`，主重音在 TA：si-mul-TA-ne-ous。
+@v: go ahead | = | phr. | ˌɡoʊ əˈhed | （你）先说；请说吧 | 两人同时开口时让对方先说；允许对方开始 | Sorry, go ahead.；Please go ahead.；go ahead with sth（按计划进行） | "Can I ask a quick question?" "Sure, go ahead." | 「我能问个小问题吗？」「当然，你问吧。」 | 中文「你先说你先说」不用重复，英文一句 Sorry, go ahead. 就够了，语调下降、真诚；别说 ✗ You speak first.（像在给人排顺序）；go ahead with the plan 是「按计划推进」；重音在 head：a-HEAD。
+@v: echo | = | n./v. | ˈekoʊ | 回声；（引申）附和别人的观点 | 视频会上有回音；会上表示赞同并强调 | there's an echo；hear an echo；echo what sb said | I'd like to echo what Mike said about testing. | 我想附和一下 Mike 关于测试的说法。 | 视频会上 There's an echo. 通常是有人没戴耳机或开了两台设备，常接一句 Could you mute your other device?；会上 I'd like to echo… 是「我同意，而且想再强调一下」，很好用；复数 echoes；ch 读 `/k/`。
+@v: audible | = | adj. | ˈɔːdəbl | 听得见的 | 说声音够不够大、清不清楚 | barely audible；clearly audible；audible to everyone | The speaker was barely audible at the back of the room. | 坐在后排几乎听不见讲话人的声音。 | 常和 barely 连用：You're barely audible.（你声音太小，几乎听不见）；「声音小」别说 ✗ Your voice is too small.，说 You're hard to hear. / You're a bit quiet.；重音在前 AU-di-ble，-ible 弱读 `/əbl/`。
+@v: lag | = | n./v. | læɡ | （网络、画面的）延迟；滞后 | 视频卡顿、声音比画面晚到 | a lag；a two-second lag；the video lags | There's a two-second lag, so let's not talk over each other. | 有两秒的延迟，所以大家别同时说话。 | 「卡」「有延迟」说 There's a lag. / The video is lagging.；画面完全不动是 freeze（第一册 Day 29）；倒时差的「时差反应」是 jet lag；a 读 `/æ/`，嘴张大。
+@v: microphone | = | n. | ˈmaɪkrəfoʊn | 麦克风 | 视频会、演讲时的设备 | move closer to your microphone；your microphone is muted；mic | Could you move closer to your microphone? | 你能离麦克风近一点吗？ | 口语常缩成 mic，读 `/maɪk/`；「你没开麦」是 You're on mute.（mute 第一册 Day 29 学过），「开麦」是 unmute；重音在前，ph 读 `/f/`：MI-cro-phone。
+@v: nods | nod | v./n. | nɑːdz | 点头 | 视频会上用点头表示听清了、同意了 | nod in agreement；give a nod；nod along | She nodded and wrote down the date. | 她点点头，把日期记了下来。 | 视频会上点头很重要：对方看不到你在记笔记，点头就是告诉他「我在听、我听清了」；过去式双写 d：nodded；美式 o 读 `/ɑː/`，嘴张大。
+@v: dominate | = | v. | ˈdɑːmɪneɪt | （一个人）主导、占据（会议、谈话） | 描述有人说得太多，别人插不上话 | dominate the call；dominate the conversation；dominate the market | One person shouldn't dominate every meeting. | 不能每次开会都是一个人在说。 | dominate the call 不一定是故意的，常常只是一个人太投入；主持人的任务之一就是不让一个人 dominate；也用来说市场：dominate the market（占据市场主导地位）；重音在前 DOM-i-nate。
+@v: cue | = | n. | kjuː | 提示；（该你说话或行动的）时机 | 找准插话的时机 | take one's cue；That's my cue.；on cue | When the music stopped, that was our cue to start. | 音乐一停，就是我们开始的信号。 | 本是戏剧里的「提示：该你上场了」；会上等到对方停顿、换气，就是插话的 cue；That's my cue. 是一句幽默的口语：「该我出场了」；和字母 Q、queue（排队）同音 `/kjuː/`。
+@v: can I just jump in | = | phr. | kən aɪ dʒəst ˈdʒʌmp ˌɪn | 我能插一句吗 | 会上礼貌地打断别人、加入讨论 | Sorry, can I just jump in here?；jump in；jump in with a question | Sorry, can I just jump in here with a quick question? | 抱歉，我能插一句、问个小问题吗？ | jump in 是「跳进来」，在会上就是插话；just 让请求变得很轻：「就插一句」；前面加 Sorry 更礼貌；比 ✗ Wait, I want to say something. 柔和得多；can 弱读成 `/kən/`，jump 最重，句末语调上扬。
+@v: elaborate | = | v. | ɪˈlæbəreɪt | 详细说明；展开说 | 请对方把某一点说具体 | elaborate on sth；Could you elaborate?；elaborate a little | Could you elaborate on the risks? | 你能具体说说风险吗？ | 后面要加 on：✗ elaborate the second option → ✓ elaborate on the second option；单说 Please elaborate. 像老师或上级在下命令，Could you elaborate on…? 更客气；同一个词作形容词「精心的、复杂的」时结尾读 `/rət/`：an elaborate plan。
+@v: digress | = | v. | daɪˈɡres | 跑题；扯远了 | 自己说着说着跑题，主动拉回来 | Sorry, I digress.；But I digress.；digress from the topic | We could talk about lunch all day, but I digress. | 午饭的事我们能聊一整天，不过我扯远了。 | 最常见的用法是说自己：Sorry, I digress. / But I digress.，说完马上回到正题；说别人跑题不用 digress，用 Let's get back on track. 或 Can we go back to…?；di 读 `/daɪ/` 或 `/dɪ/` 都常见，重音在后。
+@v: Let me just finish | let me finish | phr. | ˌlet mi dʒəst ˈfɪnɪʃ | 让我先说完 | 被打断时礼貌而坚定地守住话头 | Let me just finish this point.；let me finish my thought；if I could just finish | Let me just finish this point, and then it's your turn. | 让我先把这一点说完，然后就轮到你。 | 语调平稳下降，礼貌但坚定；just 让语气软一点，this point 告诉对方你只要几秒钟；别说 ✗ Don't interrupt me.（很冲）或 ✗ Wait, I'm not finished!；说完记得把话轮交回去：Sorry, Raj, go ahead.
+@v: silent | = | adj. | ˈsaɪlənt | 沉默的；不说话的 | 描述会上一直没发言的人 | be silent；stay silent；silent so far | Ana has been silent so far. Let's hear from her. | Ana 到现在还没说话，我们听听她的意见。 | silent 说的是「此刻不出声」，常用 has been silent / stay silent；说一个人「性格安静」用 quiet，不用 silent；手机的「静音模式」是 silent mode；读 `/ˈsaɪlənt/`，两个音节。
+@v: hand | = | n. | hænd | 手；（视频会里的）举手 | 视频会里的「举手」功能 | raise your hand；a virtual hand；lower your hand | If you have a question, use the raise-hand button. | 有问题的话，请点「举手」按钮。 | 视频会里「举手」就是 raise your hand：Ana raised her hand. / Her hand is up.；主持人常说 I see Ana's hand.（我看到 Ana 举手了）；问完了要 lower your hand（把手放下）；a 读 `/æ/`。
+@v: encourage | = | v. | ɪnˈkɜːrɪdʒ | 鼓励 | 请不爱说话的人发言、鼓励提问 | encourage sb to do sth；encourage questions；I'd encourage you to… | Our manager encourages us to ask questions. | 我们经理鼓励大家提问。 | 句型是 encourage sb to do（✗ encourage sb doing）；I'd encourage you to… 是很客气的建议「我建议你……」；名词 encouragement；ou 读 `/ɜːr/`：en-COUR-age。
+@v: If I could add | if I could add | phr. | ɪf aɪ kəd ˈæd | 如果可以的话，我补充一点 | 会上礼貌地加一点信息 | If I could add one thing, …；If I could add something here, …；Can I add something? | If I could add one thing, the client also asked about returns. | 我补充一点：客户还问到了退货。 | could 让请求显得客气，适合对客户和上级；说完这半句就直接接你要补充的内容；比 ✗ I want to add something. 柔和；could 弱读成 `/kəd/`，重音落在 add 上。
+@v: go back to | = | phr. | ˌɡoʊ ˈbæk tə | 回到（刚才的话题）；再说回…… | 把跑题的讨论拉回来 | go back to what sb said；go back to the data；Can we go back to…? | Can we go back to the budget for a minute? | 我们能不能先回到预算的问题上？ | 拉回话题最好点名「回到哪儿」：Can we go back to what Raj said about the data?；what 后面用陈述语序：✗ what did Raj say → ✓ what Raj said；比 ✗ Let's return to the main topic. 自然；to 弱读成 `/tə/`。
+@v: tactful | = | adj. | ˈtæktfl | 得体的；说话有分寸的 | 评价一个人说话、处理问题的方式 | be tactful；a tactful way to…；tactful but clear | Grace found a tactful way to say no. | 吴佳找到了一个得体的方式说「不」。 | tactful 是「话说清楚了，又不伤人」，反义词 tactless（说话不过脑子）；名词 tact：She has a lot of tact.；中文「情商高、说话有分寸」很多时候就是 tactful；结尾 -ful 只有一个 l。
+@v: abrupt | = | adj. | əˈbrʌpt | 唐突的；生硬的；突然的 | 评价插话、结束对话或写邮件的方式太突然 | sound abrupt；an abrupt ending；abruptly（副词） | His email sounded a bit abrupt, but he was just busy. | 他的邮件听起来有点生硬，其实他只是太忙了。 | 中文说「太冲」「太突然」，很多时候就是 abrupt：没铺垫就打断、没道别就挂电话；只有一句 Send me the file. 的邮件也会显得 abrupt，加上 Hi 和 Thanks 就好；重音在后 a-BRUPT。
+@v: dialogue | = | n. | ˈdaɪəlɔːɡ | 对话；（双方的）交流和沟通 | 说一场讨论是双向的，不是一个人在讲 | a real dialogue；an open dialogue；keep the dialogue going | We want an open dialogue with our customers. | 我们希望和客户保持开放的沟通。 | 商务里 dialogue 常指「双向的交流」，和 speech / lecture（一个人讲）相对；美式也拼作 dialog，软件里的「对话框」就是 dialog box；结尾 gue 不发音：`/lɔːɡ/`。
+@v: comment | = | n./v. | ˈkɑːment | 意见；评论 | 会上、文档里发表看法 | a quick comment；make a comment；comment on sth | Do you have any comments on the draft? | 你对这份草稿有什么意见吗？ | 动词要加 on：✓ comment on the plan（✗ comment the plan）；「无可奉告」是 No comment.；文档里的「批注」也叫 comment；名词、动词重音都在前：COM-ment。
+@v: remark | = | n./v. | rɪˈmɑːrk | （顺口说的）一句话；评论 | 指某人随口提到的一句话 | a quick remark；make a remark；a remark about sth | His remark about the price surprised everyone. | 他提到价格的那句话让大家都很意外。 | remark 多指一句简短、顺口的话，comment 更中性，是有意发表的意见；rude remarks 是「无礼的话」；Raj 那句关于 60% 的 remark 差点被延迟淹没，林晓把它拉了回来；重音在后 re-MARK。
+
+@diff: 「我插一句」——Sorry, can I just jump in here? / If I could add one thing…
+@d_cn: 别人正在说，你有话要说。中文会议里要么一直等，等到会都快散了；要么直接开口：「等一下等一下」「我说一句」。
+@d_en: Sorry, can I just jump in here? / If I could add one thing, … / Sorry to interrupt, but…
+@d_why: 美国会议节奏快，一直等「轮到你」，很可能整场都插不上话；插话本身不失礼，失礼的是**怎么插**。做法有三步：① 等一个停顿或换气（这就是你的 cue），不在对方句子中间硬切进去；② 先道歉、再请求：**Sorry, can I just jump in here?**——just 把请求变轻，「就插一句」；对客户和上级更客气的是 **If I could add one thing, …**（could 让语气更委婉）；第一册 Day 29 学过的 Sorry to interrupt, but… 也可以；③ 插进去以后说得短，说完把话轮还回去。中国学生常见的问题：✗ Wait, wait, wait!（很冲，abrupt）；✗ I want to say something.（像在要发言权）；✗ Excuse me, I have a question.（像课堂上举手，用在讨论中显得生分）。林晓等 Raj 换气时才开口，Mike 会后说她 tactful, not abrupt——这就是标准。
+@d_when: 对方说得很长、你需要补充或纠正时；视频会有延迟、不容易找到空档时。
+@d_vs: **Sorry, can I just jump in here?** 抱歉，我能插一句吗？（中性、友好）\n**If I could add one thing, …** 我补充一点……（更客气，适合对客户和上级）\n**Sorry to interrupt, but…** 抱歉打断一下……\n✗ Wait, wait, I want to say something!\n✗ Stop, let me talk.
+@d_task: Karen 正在讲上线安排，你想补充一点：十一月之前还有一次系统更新。用英文礼貌地插话。 | If I could add one thing, Karen, there's also a system update before November.
+@diff: 「你先说」「让我说完」——Sorry, go ahead. / Let me just finish this point.
+@d_cn: 两个人同时开口，中文会互相推让「你先说你先说」；自己被打断时，可能就不说了，或者有点不高兴地说「你让我说完」。
+@d_en: Sorry, go ahead. / No, please, you go first. / Let me just finish this point. / Sorry, Raj, go ahead.
+@d_why: 视频会有延迟（lag），**同时开口**几乎每场都会发生。英文的处理很简单：一方说 **Sorry, go ahead.**，另一方说声 Thanks 就接着说，不用来回推让三次。如果被打断的是你，而你那句话很关键，就礼貌而坚定地说 **Let me just finish this point.**——just 让语气软一点，this point 说明你只要几秒钟；语调平稳下降，不要上扬（上扬就变成在请求许可了）。说完一定把话轮交回去：**Sorry, Raj, go ahead.** 中国学生被打断时常常干脆放弃，关键信息就没说出来；或者说出 ✗ Don't interrupt me.，这在英文里很冲，像在批评对方没礼貌。
+@d_when: 视频会、电话会上多人抢话时；被打断而你的话还没说完时。
+@d_vs: **Sorry, go ahead.** 抱歉，你先说。\n**No, please, you go first.** 不不，你先请。\n**Let me just finish this point.** 让我先把这一点说完。（礼貌而坚定）\n**Sorry, Raj, go ahead.** 好，Raj，你说吧。（交回话轮）\n✗ Don't interrupt me.\n✗ You speak first.
+@d_task: 你正在讲测试排期，Priya 插了进来。你要礼貌地先说完这一点，再请她发言。 | Let me just finish this point. Then I'd love to hear your view, Priya.
+@diff: 「能具体说说吗」——Could you elaborate on…? / What do you mean by…?
+@d_cn: 对方说得太快、太简略，你想让他展开：中文说「你能具体说说吗」「这个是什么意思」「再详细讲讲」。
+@d_en: Could you elaborate on the second option? / Could you say more about that? / What do you mean by "smaller"? / Could you say that again a bit more slowly?
+@d_why: 「具体说说」常被说成 ✗ Can you explain more detail? 或 ✗ Please say it in detail.。地道的说法：**Could you elaborate on…?**（较正式，适合会议和客户；elaborate 后面一定要加 **on**）；**Could you say more about that?**（更口语）；**What do you mean by "…"?**（直接点出你没听懂的那个词，比如 What do you mean by "smaller"?）。单独一句 Please elaborate. 像老师或上级在下命令，用 Could you…? 开头更客气。对 Raj 这种说话很快的人，别只说一声 Sorry?，要说清你需要什么：**Could you say that again a bit more slowly?**——这一点也不丢脸，美国人自己开会也常这样请求。
+@d_when: 对方提出一个选项或数字却没解释清楚时；技术同事说了一串术语时。
+@d_vs: **Could you elaborate on the second option?** 您能具体说说第二个选项吗？（正式）\n**Could you say more about that?** 能多说一点吗？（口语）\n**What do you mean by "smaller"?** 你说的「小一些」是什么意思？\n✗ Can you explain more detail?\n✗ Could you elaborate the second option?
+@d_task: Raj 很快地说了一句「我们可以分几批接入」，你没听懂怎么分。礼貌地请他展开，并请他说慢一点。 | Could you elaborate on that? And could you say it a bit more slowly?
+@diff: 「我们回到刚才……」——Can we go back to what Raj said about the data? / Sorry, I digress.
+@d_cn: 讨论跑偏了，你想拉回正题：中文说「我们回到正题」「刚才 Raj 说的那个数据，我们再说说」；自己扯远了，会笑着说「扯远了扯远了」。
+@d_en: Can we go back to what Raj said about the data? / Sorry, I digress. / Let's get back on track.
+@d_why: ✗ Let's return to the main topic. 语法没错，但又硬又像在念稿。更自然的是**点名回到哪一点**：**Can we go back to what Raj said about the data?**——既拉回了话题，又顺便告诉大家 Raj 那句话很重要。注意语序：what 引出的是名词从句，用陈述语序 **what Raj said**，不是 ✗ what did Raj say。自己跑题了，主动说 **Sorry, I digress.**（或 But I digress.），然后马上回到正题，大家会觉得你有分寸；digress 只用来说自己，说别人跑题用 Let's get back on track. 或 Can we go back to…?。中文会上一句「扯远了」常常笑一笑就带过，英文会议里这类话是一个清楚的信号：话题要回来了。
+@d_when: 讨论被一个人主导、或被岔开时；一条关键信息被抢话、延迟淹没时。
+@d_vs: **Can we go back to what Raj said about the data?** 我们能回到 Raj 刚才说的那个数据吗？\n**Sorry, I digress.** 抱歉，我扯远了。\n**Let's get back on track.** 我们回到正题吧。\n✗ Can we go back to what did Raj say?\n✗ Let's return to the main topic.（太生硬）
+@d_task: 大家聊到了十一月的节日广告，你想把话题拉回 Ana 刚才说的测试时间。 | Can we go back to what Ana said about testing?
+
+@core: Sorry, can I just jump in here? | 礼貌地插话 | jump in here ／ add something here ／ ask a quick question | 正式：Sorry to interrupt, but may I add something here?｜随意：Can I jump in real quick?
+@core: If I could add one thing, … | 礼貌地补充一点 | one thing ／ something ／ a quick point | 正式：If I may add one point, …｜随意：Just to add to that, …
+@core: Let me just finish this point. | 被打断时守住话头 | this point ／ this thought ／ my sentence | 正式：If I could just finish my point, …｜随意：Hang on, let me finish.
+@core: Sorry, go ahead. | 两人同时开口时让对方先说 | go ahead ／ you go first | 正式：Please, go ahead.｜随意：Go for it.
+@core: Could you elaborate on …? | 请对方展开 | the second option ／ the timeline ／ the test plan | 正式：Would you mind elaborating on the second option?｜随意：Can you say more about that?
+@core: Can we go back to what … said about …? | 把话题拉回关键点 | what Raj said about the data ／ what Ana said about testing | 正式：I'd like to return to Raj's point about the data.｜随意：Wait, back to the data thing.
+@core: You're barely audible. / Your audio is a bit garbled. / There's a lag on my end. | 说清视频会上的声音和网络问题 | barely audible ／ garbled ／ an echo ／ a lag | 正式：I'm afraid your audio is breaking up.｜随意：You're cutting out.
+@core: Sorry, I digress. | 自己跑题后主动拉回 | I digress ／ back to … | 正式：But I digress. To return to the main point, …｜随意：Anyway, where was I?
+
+@pw: elaborate | ɪˈlæbəreɪt | 4 个音节 e·LAB·o·rate | 重音在 lab，`/æ/` 嘴张大；动词结尾读 `/reɪt/`，形容词 elaborate 结尾读 `/rət/`
+@pw: simultaneous | ˌsaɪmlˈteɪniəs | 5 个音节 si·mul·TA·ne·ous | 美式开头读 `/saɪ/`；mul 几乎没有元音 `/ml/`；主重音在 ta `/teɪ/`
+@pw: inaudible | ɪnˈɔːdəbl | 4 个音节 in·AU·di·ble | 重音在 au；-ible 弱读成 `/əbl/`；audible 是 AU·di·ble
+@pw: digress | daɪˈɡres | 2 个音节 di·GRESS | 重音在后；di 读 `/daɪ/` 或 `/dɪ/` 都常见
+@pw: microphone | ˈmaɪkrəfoʊn | 3 个音节 MI·cro·phone | 重音在前；ph 读 `/f/`；口语里常缩成 mic `/maɪk/`
+@pw: garbled | ˈɡɑːrbld | 2 个音节 GAR·bled | gar 要卷舌；结尾 -bled 读 `/bld/`，中间没有元音
+@pw: dominate | ˈdɑːmɪneɪt | 3 个音节 DOM·i·nate | 重音在前；o 读 `/ɑː/`；结尾 -nate 读 `/neɪt/`
+@ps: **Sor**ry, / can I just **jump** in here?↗ | can I 弱读成 `/kənaɪ/`；just 弱读 `/dʒəst/`，t 几乎听不见；jump 最重；句末上扬，是礼貌的请求。
+@ps: Let me just **fin**ish / this **point**.↘ | 礼貌但坚定：语调平稳下降，不要上扬（上扬就成了请求许可）；Let me 连读成 `/ˈlemi/`。
+@ps: **Sor**ry, / go a**head**.↘ | sorry 后稍停；ahead 重音在 head；语调下降、真诚，说一遍就够，不用来回推让。
+@ps: **Could**‿you e**lab**orate / on the **sec**ond **op**tion?↗ | could you 弱读成 `/ˈkʊdʒə/`（d 碰到 y 变成「九」的音）；elaborate on 连读 `/ɪˈlæbəreɪtɑːn/`，t 闪音；句末上扬，表示礼貌的请求。
+@pnote: 弱读和「只听重读词」：could you → `/ˈkʊdʒə/`，can I → `/kənaɪ/`，can we go back to → `/kənwi ɡoʊ ˈbæk tə/`，would it be possible → `/ˈwʊdɪt bi ˈpɑːsəbl/`。Raj 语速快时，这些功能词几乎听不见，只剩重读的实词：two **OP**tions / **FIF**ty **SELL**ers / **TEN** **BIG**gest **SELL**ers / **SIX**ty **PER**cent——记笔记就记这些重读词，别想着把每个词都听清。
+@pnote: 请求的升调和坚持的降调：Can I just jump in here?↗（请求许可）／Could you elaborate…?↗（礼貌的请求）／Let me just finish this point.↘（礼貌而坚定）／Sorry, go ahead.↘（让对方先说）。数字：**six**ty `/ˈsɪksti/` 重音在前，six**teen** `/ˌsɪksˈtiːn/` 重音在后——「sixty percent」还是「sixteen percent」，差别全在重音上。Mike 的 And a lot of risk. 重音在 **risk**，和 Priya 的 a lot of **da**ta 形成对比。
+@lfocus: 人和动作：Raj（fast, garbled, dominates）／Mike & Priya（simultaneous → go ahead）／Ana（silent → hand up → two more weeks）——笔记写成「谁 → 做了什么」
+@lfocus: 选项和数字：option one = fifty ／ option two = smaller group + add sellers every week ／ tests cover ten ／ ten biggest = sixty percent of pilot orders
+@lfocus: 话轮信号词：go ahead ／ jump in ／ elaborate ／ digress ／ let me just finish ／ if I could add ／ go back to——听到这些词，就知道谁要开口、话题要转向哪里
+@dict: S9–S12
+@dict: S18–S22
+@res: 在 youglish.com 输入 "can I just jump in"，选 US，听美国人插话时的语调和停顿。
+
+@mimic: 跟读【C】S1–S22：先正常语速逐句跟读，重点模仿 Sorry, can I just jump in here? 的上扬语调和 Let me just finish this point. 平稳下降的语调；再由你演林晓，用手机朗读 Raj、Priya、Mike 和 Ana 的台词（每人换一种声音），完整对一遍并录音。最后把 Mike 的消息 S23–S26 读一遍，体会美国同事怎样直接地夸人。
+@swap: Sorry, can I just jump in here? | 换说法：add something here／ask a quick question／jump in for a second | Sorry, can I just add something here?
+@swap: Could you elaborate on the second option? | 换内容：the timeline／the test plan／what you mean by "smaller" | Could you elaborate on the test plan?
+@swap: Can we go back to what Raj said about the data? | 换人和话题：Ana → testing；Priya → November；Mike → the risk | Can we go back to what Ana said about testing?
+@swap: Let me just finish this point. | 后面接一句交回话轮：Then I'd love to hear your view.／Then it's your turn. | Let me just finish this point. Then it's your turn, Raj.
+@free: 视频会上客户的声音断断续续，你只听清了一半。礼貌地告诉他，并请他靠近麦克风再说一遍 | Sorry, your audio is a bit garbled, and I missed the last part. Could you move closer to your microphone and say that again?
+@free: 你和一位同事同时开口，你想让他先说，并告诉大家你等一下要补充一点 | Sorry, go ahead. I'll add one quick point after you.
+@free: 大家聊着聊着扯到了年底聚餐，你想把讨论拉回测试排期 | Can we go back to the test schedule? I want to make sure we decide on it before we run out of time.
+@free: 新同事 Ana 整场会都没说话，而测试正是她负责的。你想鼓励她发言 | Ana, we haven't heard from you yet. You know the test plan best, so I'd love your view.
+@output: 录一段 2 分钟的会议发言（单数日 · 口头）：假设你在一场视频会上，一位同事或客户语速很快地讲了一个方案。你要：先礼貌地插话（Sorry, can I just jump in here?）→ 说清一个声音或网络问题 → 请对方展开一个选项（Could you elaborate on…?）→ 被人打断时守住话头一次（Let me just finish this point.），再把话轮交回去 → 补充自己的一点（If I could add one thing, …）→ 把讨论拉回一个关键数字或事实（Can we go back to…?）→ 提出下一步并收尾。可以用工作中的会议，也可以用家庭群视频里商量假期安排的场景。
+@output_sample: Sorry, can I just jump in here? Raj, your audio is a bit garbled on my end, so I missed the last part. Could you elaborate on the second option? You said we could start with a smaller group and add sellers every week. How many sellers would we add each week? … Thanks, that's much clearer. Sorry, Priya, let me just finish this point, and then it's your turn. If we add sellers every week, Ana's team has to test each new group. If I could add one thing, Ana said testing fifty sellers would take two more weeks. So adding sellers in groups might actually help her team. Okay, Priya, go ahead. … Thanks. I hear you about the November ads. They're important, but I think that's a separate topic, so let's put it in the parking lot for now. Can we go back to what Raj said about the data? If our ten biggest sellers ship about sixty percent of the pilot orders, that changes the numbers. Ten sellers might give us enough data after all. But Mike has a point too: sixty percent of the orders is also a lot of risk. So I'd like to look at this in more detail before we decide. Raj, could you send us the numbers for each seller by tomorrow? Then we can compare the options at our next call. Does that work for everyone? Great. Thanks, everyone.
+
+@check: 听力：Raj 一开始提出了哪两个选项？林晓请他展开的是哪一个，他是怎么解释的？ | 选项一：一开始就上 50 个卖家；选项二：规模小一些。林晓请他展开第二个，他说先上一小批卖家，然后每周再加（We start with a smaller group and add sellers every week.）。
+@check: 听力：Ana 补充了什么？Raj 关于数据说了什么？Priya 和 Mike 各有什么反应？ | Ana：要测 50 个卖家，还得再花两周（two more weeks）。Raj：最大的 10 个卖家大约占试点全部订单的 60%（sixty percent）。Priya 觉得数据量很大（That's a lot of data.），Mike 觉得风险也很大（And a lot of risk.）。
+@check: 改错：① Can we go back to what did Raj say? ② Could you elaborate the second option? ③ Wait, wait, I'm not finished! Don't interrupt me. | ① Can we go back to what Raj said?（what 引导的从句用陈述语序）② Could you elaborate on the second option?（elaborate 后面要加 on）③ Let me just finish this point.（礼貌而坚定，不批评对方）
+@check: 你和客户同时开口，两人都停了下来。你该说什么？如果对方又让你先说，你怎么接？ | Sorry, go ahead.／如果对方让你先说：Thanks, I'll be quick. …（直接说你的内容，不用再推让）
+@check: 用英文说出三种视频会上的声音问题：对方声音小得几乎听不见；声音断断续续、听不出字；有回音 | You're barely audible.／Your audio is a bit garbled.／There's an echo.（可以再加一句：Could you move closer to your microphone?）
+@check: 换个场景：家庭群视频里，表弟一直在说他的新手机，你想把话题拉回到春节回谁家过的事。用一句英文礼貌地拉回来。 | Can we go back to what Mom said about New Year? We still need to decide where we're going.
+@next1: 不看书说出 5 个锚点句：S5、S10（两句）、S15 的第一句、S19 的第二句
+@next1: 用 Sorry, can I just jump in here? 和 Can we go back to…? 各说一句你下次开会时可能用得上的话
+@next7: 话轮四件套：Sorry, can I just jump in here? → If I could add one thing, … → Let me just finish this point. → Sorry, go ahead.
+@next7: 视频会上的声音和网络问题：barely audible／garbled／an echo／a lag on my end／move closer to your microphone

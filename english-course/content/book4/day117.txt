@@ -19,50 +19,50 @@
 @warmup: 我已经等了二十分钟了。 | I've been waiting for twenty minutes. | D34
 @warmup: 恐怕我们没办法在下周之前做出一个定制功能。 | I'm afraid we can't build a custom feature by next week. | D78
 
-@scene: Priya 要加退货跟踪，林晓按上周的思路写好了变更申请：先做一个基础版，把定制报表挪到第二期，10 月 28 日的上线日期不变。可一个星期过去了，申请还卡在 BrightNest 那边——Priya 说这么大的事她做不了主，要等 Karen；Karen 正忙着准备董事会的季度汇报。Mike 的团队两个功能都不敢动。更要命的是，BrightNest 的 IT 部门 11 月要冻结一切系统变更，一旦错过 10 月底，上线很可能要拖到明年。林晓决定不再等：她给最终拍板的 Karen 写了一封短而直接的邮件，第二天深圳上午九点（美国那边是前一天傍晚）就约到了一个电话会。Karen 时间少、只听结论，可她从不随便签字，一定要先弄清风险。会后，林晓还要回到自己的团队，处理一个内部取舍：用掉一天缓冲时间，还是让 Ana 周六加班测试？
+@scene: Priya 要加退货跟踪，林晓按上周的思路写好了变更申请：先做一个基础版，把定制报表挪到第二期，10 月 28 日的上线日期不变。可一个星期过去了，申请还卡在 BrightNest 那边——Priya 说这么大的事她做不了主，要等 Karen；Karen 正忙着准备董事会的季度汇报。Mike 的团队两个功能都不敢动。更要命的是，BrightNest 的 IT 部门 11 月要冻结一切系统变更，一旦错过 10 月底，上线很可能要拖到明年。林晓决定不再等：她给最终拍板的 Karen 写了一封短而直接的邮件，第二天深圳上午九点（美国那边还是前一天晚上）就约到了一个电话会。Karen 时间少、只听结论，可她从不随便签字，一定要先弄清风险。会后，林晓还要回到自己的团队，处理一个内部取舍：用掉最后一天缓冲时间，还是让 Ana 周六加班测试？
 @sp: 人物关系 | 林晓 ↔ Karen：服务方的项目协调人和客户方的副总裁，级别差得远，要尊重、简短，但不能含糊；Priya 是 Karen 的下属，这次没有拍板的权限；Raj 对技术变更有否决权；林晓 ↔ 张涛：内部汇报关系，张涛是项目负责人，内部取舍由他拍板
 @sp: 沟通目的 | 让卡了一周的变更申请在期限前有个明确结论；会上拿到一个清清楚楚的 yes；会后让张涛就「缓冲时间还是周六加班」做决定，团队马上开工
-@sp: 已知信息 | Karen 知道有个变更申请，但没细看；董事会给她的任务是赶在节日旺季前上线；Raj 昨天已经同意了方案 B；BrightNest 的 IT 部门 11 月冻结变更；Mike 说测试是唯一的瓶颈，团队只有两天缓冲
+@sp: 已知信息 | Karen 知道有个变更申请，但没细看；董事会给她的任务是赶在节日旺季前上线；Raj 昨天已经同意了方案 B；BrightNest 的 IT 部门 11 月冻结变更；测试是唯一的瓶颈；两天的缓冲时间已经被回归测试用掉了一天
 @sp: 表达重点 | 邮件：第一句说要什么决定、什么时候前 → 两个选项各一句 → 再拖的后果 → 恳请尽快决定；电话会：讲风险（reversible / irreversible）→ I'd like to get closure on this today. → Can we agree that…? → 确认下一步；会后：转告结果（gave us the green light）→ 把内部取舍交给张涛（It's your call, Tom.）
 
 @story_title: Episode 117 · The Green Light
 @story_type: 决策请求邮件 + 电话会 + 内部碰头
-@s: The change request has **stalled**. Nobody has said yes or no for a week. | 变更申请卡住了：一个星期过去，谁都没说行还是不行。
-@s: Lily writes to Karen, the final **decision-maker**, and copies Tom and Priya: | 林晓给最终拍板的 Karen 写邮件，抄送张涛和 Priya：
+@s: A week later, the change request has **stalled**. | 一个星期过去了，变更申请还卡着，谁都没说行还是不行。
+@s: Lily writes to Karen, the **decision-maker**, and copies Tom and Priya: | 林晓给最终拍板的 Karen 写邮件，抄送张涛和 Priya：
 @s: Dear Karen, | Karen 您好：
 @s: We need a decision by Friday. | 我们需要您在周五前做个决定。
-@s: It's about Priya's request to add returns tracking. | 是关于 Priya 提出的增加退货跟踪的需求。
+@s: It's about returns tracking. | 是关于退货跟踪的事。
 @s: Option A is to add it now and push the launch by two weeks. | 方案 A：现在就加，上线推迟两周。
 @s: Option B is to build a basic version and move the custom reports to phase two. | 方案 B：先做一个基础版，把定制报表挪到第二期。
 @s: With Option B, we can still launch on October 28. | 选方案 B，我们仍然能在 10 月 28 日上线。
-@s: Meanwhile, Mike's team is **holding off on** both features. | 眼下，Mike 的团队两个功能都先停着没动。
+@s: Mike's team is **holding off on** both features. | 眼下，Mike 的团队两个功能都先停着没动。
 @s: If we hold off any longer, we'll miss the launch window. | 如果再拖下去，我们就会错过上线的时间窗口。
 @s: Given the **stakes**, I'd **urge** a quick decision. | 这件事关系重大，恳请您尽快决定。
 @s: Best regards,\nLily | 此致，\n林晓
 @br:
-@s: The next morning, Karen joins a short call with Tom, Priya, Mike and Lily. | 第二天上午，Karen 和张涛、Priya、Mike、林晓开了一个简短的电话会。
+@s: The next morning, Karen joins a call with the team. | 第二天上午，Karen 和项目组（张涛、Priya、Mike、林晓）开了一个电话会。
 @s: Karen: My **mandate** from the **board** is simple: launch before the holiday peak. | Karen：董事会交给我的任务很简单：赶在节日旺季之前上线。
 @s: Priya: Does this need to go to the change **committee**? | Priya：这件事需要上变更委员会吗？
 @s: Karen: No, it's within my **authority**. But I don't **rubber-stamp** anything. | Karen：不用，这在我的权限之内。不过我从来不闭着眼睛签字。
-@s: Karen: So what are the risks? | Karen：那风险在哪儿？
-@s: Mike: Option B is **reversible**. If returns tracking causes trouble, we switch it off. | Mike：方案 B 是可以撤回的。退货跟踪要是出了问题，我们把它关掉就行。
-@s: Lily: Pushing the launch is almost **irreversible**. Your IT team freezes all changes in November. | 林晓：推迟上线却几乎没有回头路——你们的 IT 部门 11 月会冻结所有系统变更。
+@s: Karen: What are the risks? | Karen：那风险在哪儿？
+@s: Mike: Option B is **reversible**. If returns tracking fails, we switch it off. | Mike：方案 B 是可以撤回的。退货跟踪要是出了问题，我们把它关掉就行。
+@s: Lily: Pushing the launch is almost **irreversible**. Your IT team freezes changes in November. | 林晓：推迟上线却几乎没有回头路——你们的 IT 部门 11 月会冻结所有系统变更。
 @s: Karen: Does Raj agree? He has a **veto** on technical changes. | Karen：Raj 同意吗？技术上的变更他有一票否决权。
-@s: Priya: Yes, he gave his **consent** yesterday. | Priya：同意，他昨天就点头了。
+@s: Priya: He gave his **consent** yesterday. | Priya：他昨天就点头了。
 @s: Lily: Then I'd like to get **closure** on this today. | 林晓：那我希望今天就把这件事定下来。
 @s: Lily: **Can we agree that** we'll go with Option B? | 林晓：我们能不能就定下来，选方案 B？
 @s: Karen: Yes. We've **deliberated** long enough. Please **proceed**. | Karen：可以。我们讨论得够久了，请推进吧。
-@s: Karen: Once I sign the change request, it's **binding**. | Karen：变更申请我一签字，就正式生效。
-@s: Karen: And from now on, I'm **empowering** Priya to **make a call** on small changes like this. | Karen：还有，从今以后，像这样的小变更，我授权 Priya 自己拍板。
+@s: Karen: Once I sign, it's **binding**. | Karen：我一签字，就正式生效。
+@s: Karen: From now on, I'm **empowering** Priya to **make a call** on small changes. | Karen：从今以后，小的变更我授权 Priya 自己拍板。
 @br:
 @s: That afternoon, Lily updates Emma and Leo. Tom joins them. | 当天下午，林晓向 Emma 和 Leo 通报情况，张涛也过来了。
 @s: Lily: Karen **gave us the green light** this morning. | 林晓：今天上午 Karen 给我们开了绿灯。
-@s: Emma: Great, that **unblocks** us. **At this point**, testing is the only problem. | Emma：太好了，我们终于可以动了。到了这一步，唯一的问题就是测试。
-@s: Lily: Mike says either we use one day of the buffer, or Ana tests on Saturday. | 林晓：Mike 说，要么用掉一天缓冲时间，要么 Ana 周六加班测试。
+@s: Emma: That **unblocks** us. **At this point**, testing is the only problem. | Emma：这下我们终于可以动了。到了这一步，唯一的问题就是测试。
+@s: Lily: Mike says we either use our last buffer day, or Ana tests on Saturday. | 林晓：Mike 说，要么用掉最后一天缓冲时间，要么 Ana 周六加班测试。
 @s: Lily: Both work for me. It's your call, Tom. | 林晓：两个我都可以。张涛，您来定。
 @s: Tom: Use the buffer. A tired team makes mistakes. | 张涛：用缓冲时间。人一累就容易出错。
-@s: Emma: Okay, but that leaves us only one day of **leeway**. | Emma：好，不过那样我们就只剩一天的余地了。
-@s: Tom: Then let's not waste it. | 张涛：那就别浪费它。
+@s: Emma: Then we have no **leeway** left. | Emma：那我们就一点余地都没有了。
+@s: Tom: So nothing else can slip. | 张涛：所以别的环节一点都不能再拖。
 
 @v: stalled | stall | v./n. | stɔːld | （事情）卡住；停滞不前 | 说一件事没有进展、没人推动 | the project stalled；talks have stalled；stall for time（故意拖时间） | The deal stalled because nobody wanted to sign. | 这笔交易卡住了，因为谁都不愿意签字。 | 中文「卡住了」「搁着没动」说的是事情，英文用 stall：The request has stalled.；把「卡住」说成事情的状态，比 ✗ Priya hasn't answered. 更不伤面子；它也可以指人故意拖：Stop stalling!（别磨蹭了）；本义是汽车「熄火」：My car stalled.；all 读 `/ɔːl/`，不读「斯道」。
 @v: decision-maker | = | n. | dɪˈsɪʒn ˌmeɪkər | 决策人；拍板的人 | 弄清楚一件事最终谁说了算 | the final decision-maker；the key decision-makers；get the decision-maker on the call | We need the decision-maker in the meeting, not just her team. | 我们需要拍板的人来开会，不能只有她的团队。 | 中文「领导」「上面」很笼统；推动决策时先问一句 Who's the decision-maker?，找到真正能说 yes 的人，否则邮件写得再好也会卡住；复合名词，重音在前：deˈcision-ˌmaker；也可以不加连字符写成 decision maker。
@@ -142,7 +142,7 @@
 @pnote: 弱读和缩读：I'd urge 连成 `/aɪdɜːrdʒ/`；it's within 的 it's 很轻；gave us 连成 `/ɡeɪvəs/`，us 弱读；Can we 读 `/kənwi/`。听日期：邮件写 October 28，嘴上说 October twenty-eighth（序数词），the 28th 读 the twenty-eighth。写和说的不同：邮件里写 Given the stakes, I'd urge a quick decision.，当面多半说 This is a big one, so the sooner the better.
 @lfocus: 人和角色：Karen = decision-maker / mandate from the board；Raj = veto, consent；Priya → make a call on small changes；Tom → It's your call
 @lfocus: 选项和决定：Option A = add now + push 2 weeks；Option B = basic version + reports → phase two + October 28；decision: B, proceed, binding
-@lfocus: 日期和数字：by Friday、October twenty-eighth、two weeks、November（freeze）、one day of the buffer、Saturday
+@lfocus: 日期和数字：by Friday、October twenty-eighth、two weeks、November（freeze）、last buffer day、Saturday、no leeway left
 @dict: S6–S10
 @dict: S29–S33
 @res: 在 youglish.com 输入 "it's your call"，选 US，听美国人把决定权交给别人时的语气。
@@ -160,7 +160,7 @@
 @output_sample: Thanks, everyone. I'll keep this short. We need a decision on the holiday promotion by Friday. Right now, the plan has stalled, and the design team is holding off on the artwork until they hear from us. We have two options. Option A is to offer free shipping on every order. Option B is to offer ten percent off orders over fifty dollars. Option A is simpler for customers, but it's expensive, and once we announce it, it's almost irreversible. Customers will be angry if we take it back. Option B costs less, and it's reversible. If it doesn't work in the first week, we can change the minimum order. Based on last year's numbers, I'd recommend Option B. Last year, a similar offer increased orders by eighteen percent. The stakes are high, because the holidays are our biggest season. If we hold off any longer, we won't have time to test the checkout page, and we'll miss the start of the sale. So I'd like to get closure on this today. Can we agree that we'll go with Option B? If anyone has a serious concern, now is the time to raise it. Otherwise, I'll ask the design team to proceed this afternoon. And Tom, the final budget is your area, so that part is your call.
 
 @check: 听力：林晓在邮件里要什么时候之前的决定？两个选项分别是什么？哪个能保住 10 月 28 日？ | 周五前（by Friday）。方案 A：现在就加退货跟踪，上线推迟两周；方案 B：先做基础版，把定制报表挪到第二期。方案 B 能保住 10 月 28 日上线。
-@check: 听力：电话会最后定了什么？Karen 给了 Priya 什么权力？下午张涛在内部又拍板了什么？ | 定了方案 B（Please proceed.），Karen 签字后变更申请就正式生效（binding）；以后像这样的小变更由 Priya 自己拍板（make a call）；张涛决定用一天缓冲时间测试，不让 Ana 周六加班，这样只剩一天余地（leeway）。
+@check: 听力：电话会最后定了什么？Karen 给了 Priya 什么权力？下午张涛在内部又拍板了什么？ | 定了方案 B（Please proceed.），Karen 签字后变更申请就正式生效（binding）；以后像这样的小变更由 Priya 自己拍板（make a call）；张涛决定用掉最后一天缓冲时间，不让 Ana 周六加班（A tired team makes mistakes.）；这样就一点余地都没有了（no leeway left），别的环节不能再拖。
 @check: 改错：① We need a decision until Friday. ② If we will wait any longer, we miss the window. ③ Can we agree Option B? | ① We need a decision by Friday. ② If we wait any longer, we'll miss the window. ③ Can we agree on Option B? / Can we agree that we'll go with Option B?
 @check: 换个场景：你请房东在月底前决定修不修空调（再拖，最热的天就要过去一半了）。用英文说两句，先说要什么决定、什么时候前。 | We need a decision on the air conditioner by the end of the month. If we wait any longer, half of the hot season will be over.
 @check: 同事问你：Should we book the bigger room or the cheaper one? 你两个都行，想把决定交给她。哪句合适？① Whatever. ② It's your call. ③ I don't care. | ② It's your call.（① ③ 听起来不上心，甚至不耐烦）。也可以先给倾向：I'd lean toward the bigger room, but it's your call.

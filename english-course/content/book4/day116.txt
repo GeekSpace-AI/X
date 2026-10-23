@@ -1,0 +1,170 @@
+@day: 116
+@week: 4
+@title_cn: 项目进度汇报
+@title_en: Project Status Update
+@topic: 上线前一周的项目周会：先说总体红黄绿灯，再按工作线汇报进度、偏差、风险和缓冲时间，安排演练和「上不上线」的决策点，最后给出一句话结论
+@think_short: 「整体还行，有点风险」→ Overall, the project is amber.（颜色 + 理由）｜「进度正常 / 落后了」on schedule / behind on…（不说 ✗ The testing is delay.）｜「还有两天余量」a two-day buffer｜「演练一下」a dry run｜「说到底」The bottom line is…（不是中文的「底线」）
+
+@goal_scene: 上线前一周的项目周会由你主持：先用一句话给出总体红黄绿灯，再按工作线汇报进度、偏差和风险，说明还剩多少缓冲时间，安排一次演练和「上线还是不上线」的决策点，最后给经理一句话结论；会后把要点写成一封简短的进度邮件发给客户。
+@goal_expr: Let me start with the headline. / Overall, the project is amber. / The data workstream is on schedule, but testing is behind. / We're behind on regression tests. / We have a two-day buffer before the launch. / We'll do a dry run on Thursday. / We'll make the go/no-go decision on Tuesday morning. / The bottom line is we can still launch on the 28th.
+@goal_vocab: 20 个重点词 + 5 个短语：红黄绿状态、进度与偏差、上线准备、演练与决策
+@done: 能先给总体状态和理由（Overall, the project is amber, because…），再按工作线说 on schedule / behind on… / 偏差多少，不说 ✗ The testing is delay. ✗ behind of schedule
+@done: 能说明缓冲时间和可承受的范围（a two-day buffer / within our tolerance），说清红灯项在等谁的 go-ahead，并安排 dry run 和 go/no-go decision 的时间
+@done: 能用 The bottom line is… 给出一句话结论（知道它不是中文的「底线」），并写一封 8–12 句、结论先行的进度邮件
+
+@warmup: 如果现在加，上线就得推迟两周。 | If we add it now, we'll need to push the launch by two weeks. | D115
+@warmup: 我们可以做，条件是把定制报表挪到第二期。 | We can do it in exchange for moving the custom reports to phase two. | D115
+@warmup: 我们把它写成一份变更申请吧。 | Let's write it up as a change request. | D115
+@warmup: 从现在起，每一个新状态都会经过校验。 | From now on, every new status will be validated. | D109
+@warmup: 准时率是 95%，上升了一个百分点。 | The on-time rate was 95%, up one percentage point. | D71
+@warmup: 我们刚和一个新的大客户签了合同。 | We've just signed a contract with a big new client. | D33
+
+@scene: 离 10 月 28 日全面上线只剩一周。深圳上午九点（西雅图是前一天傍晚六点），林晓主持每周的项目例会：张涛和客服的吴佳在深圳，Mike 和测试工程师 Ana 在西雅图，实习生 Leo 把红黄绿进度记分卡投在屏幕上。好消息不少：新的状态代码和数据都按计划走，客服也培训好了。可 Ana 的回归测试又碰上三个边缘情况，要晚一天才能做完；更麻烦的是，Priya 上周提出的退货页面变更申请还在等 BrightNest 的副总裁 Karen 批准，Mike 的团队一行代码都不能写。张涛只想听一句话：28 号到底能不能上线？林晓要按「总体状态 → 各条工作线 → 风险和缓冲 → 演练和决策点 → 结论」汇报清楚，会后再给 Priya 发一封简短的进度邮件。
+@sp: 人物关系 | 林晓主持会议，向项目负责人张涛汇报；Mike（工程）和 Ana（测试）在西雅图，吴佳负责客服准备，Leo 维护记分卡；会后林晓给客户方的 Priya 写进度邮件
+@sp: 沟通目的 | 让张涛在两分钟内知道项目的真实状态：哪里正常、哪里落后、落后多少、风险在哪、还有多少余量、什么时候做最后决定；同时推动 Karen 尽快批准变更申请
+@sp: 已知信息 | 数据线（新状态代码）按计划；回归测试落后一天（周一而不是周五做完）；上线前有两天缓冲；客服已准备好；退货页面的变更申请还没批；周四演练切换，周二上午决定上不上线
+@sp: 表达重点 | 先说 headline（Overall, the project is amber.）→ 按 workstream 说 on schedule / behind on → 偏差（variance）和走势（trajectory）→ 缓冲和容忍度（buffer / tolerance）→ 红灯项和 go-ahead → dry run 和 go/no-go decision → The bottom line is…
+
+
+@story_title: Episode 116 · Seven Days to Go
+@story_type: 项目周会 + 进度邮件
+@s: A week before the **launch**, Lily runs the weekly status meeting. Leo shares the **scorecard**. | 上线前一周，林晓主持每周的项目例会。Leo 把进度记分卡投到屏幕上。
+@s: Lily: The **countdown** has started, so let me start with the **headline**. | 林晓：倒计时已经开始了，我先说最重要的结论。
+@s: Lily: Overall, the project is **amber**. | 林晓：总体来看，项目是黄灯。
+@s: Tom: Why not **green**? | 张涛：为什么不是绿灯？
+@s: Lily: The data **workstream** is **on schedule**, but testing is behind. | 林晓：数据这条线按计划进行，但测试落后了。
+@s: Ana: We're **behind on** regression tests. Three new edge cases came up this week. | Ana：回归测试落后了。这周又冒出来三个边缘情况。
+@s: Tom: How big is the **variance**? | 张涛：和计划差多少？
+@s: Ana: One day. I'll finish on Monday instead of Friday. | Ana：一天。我会在周一做完，而不是周五。
+@s: Mike: My team's **velocity** is good, though. We closed eighteen tickets this **sprint**. | Mike：不过我们团队的速度不错，这个迭代关掉了十八个工单。
+@s: Tom: What's the **outlook** for testing? | 张涛：测试的前景怎么样？
+@s: Ana: Good. The **trajectory** is right: fewer bugs every day. | Ana：不错。走势是对的：bug 一天比一天少。
+@s: Lily: We have a two-day **buffer** before the launch. One day late is within our **tolerance**. | 林晓：上线前我们有两天的缓冲时间。晚一天还在我们能承受的范围内。
+@s: Tom: And the returns page? | 张涛：那退货页面呢？
+@s: Lily: That's **red**. Karen hasn't given the **go-ahead**, so Mike's team can't start. | 林晓：那个是红灯。Karen 还没批准，所以 Mike 的团队没法开工。
+@s: Tom: Then we need her decision this week. | 张涛：那这周就得拿到她的决定。
+@s: Lily: Agreed. I'll write to her today. | 林晓：同意。我今天就给她写邮件。
+@s: Grace: Customer service **readiness** is green. My team knows every new status. | Grace：客服这边准备就绪，是绿灯。每一个新状态我的团队都熟悉了。
+@s: Lily: Great. We'll do a **dry run** on Thursday. | 林晓：很好。我们周四做一次演练。
+@s: Mike: We'll practice the **cutover**: old mapping off, new codes on, sync back on. | Mike：我们会把切换过程演练一遍：关掉旧映射，启用新代码，重新打开同步。
+@s: Lily: Raj's team will join from their side. | 林晓：Raj 的团队会在他们那边一起参加。
+@s: Lily: Then we'll make the **go/no-go decision** on Tuesday morning. | 林晓：然后周二上午做「上线还是不上线」的决定。
+@s: Tom: So what's your **verdict**, Lily? | 张涛：林晓，那你的结论是什么？
+@s: Lily: **The bottom line is** we can still launch on the 28th. | 林晓：说到底，我们仍然可以在 28 号上线。
+@s: Tom: Good. Then let's not waste that buffer. | 张涛：好。那这点缓冲时间可别浪费了。
+@br:
+@s: After the meeting, Lily writes to Priya: | 会后，林晓给 Priya 写邮件：
+@s: Hi Priya, | Priya 你好：
+@s: With the launch **imminent**, here's a short status update. | 上线在即，下面是一份简短的进度汇报。
+@s: Overall, we're amber. Data is green, and testing is one day behind. | 总体是黄灯：数据是绿灯，测试落后一天。
+@s: The returns page is red until Karen approves the change request. | 在 Karen 批准变更申请之前，退货页面都是红灯。
+@s: We'll do a dry run on Thursday and make the go/no-go decision on Tuesday. | 我们周四做演练，周二决定上不上线。
+@s: The bottom line is unchanged: we're on track for October 28. | 结论没有变：我们仍然按计划在 10 月 28 日上线。
+@s: Best,\nLily | 祝好，\n林晓
+
+@v: launch | = | n./v. | lɔːntʃ | 上线；（产品、服务的）正式推出 | 项目汇报、产品发布 | the launch；the launch date；launch on the 28th | The launch went smoothly, and no customers complained. | 上线很顺利，没有一个客户投诉。 | 名词、动词同形：the launch / We'll launch on the 28th.；中文「上线」也可以说 go live，go live 更偏系统，launch 更偏产品和市场；美式 au 读 `/ɔː/`，也有人读 `/lɑːntʃ/`。
+@v: scorecard | = | n. | ˈskɔːrkɑːrd | 记分卡；（项目、业绩的）指标汇总表 | 会议上展示红黄绿状态和关键指标 | a project scorecard；update the scorecard；a weekly scorecard | Leo updates the scorecard every Friday. | Leo 每周五更新一次记分卡。 | 本义是比赛的「记分卡」，职场里指一页纸看全局的指标表，每一项常配红黄绿；和 dashboard（看板，实时数据）不同，scorecard 多是定期汇总；复合名词重音在前 SCORE-card。
+@v: countdown | = | n. | ˈkaʊntdaʊn | 倒计时 | 离上线、活动只剩几天 | the countdown to the launch；start the countdown；a seven-day countdown | The countdown to the holiday sale has begun. | 节日大促的倒计时开始了。 | 名词 countdown 一个词，重音在前 COUNT-down；动词短语 count down 两个词，重音在后：count DOWN the days；the countdown to sth，介词用 to。
+@v: headline | = | n. | ˈhedlaɪn | 要点；最重要的结论（本义：新闻标题） | 汇报开头先说最重要的一句 | the headline；headline numbers；Here's the headline. | The headline is that sales were up ten percent. | 最重要的一点是：销售额增长了 10%。 | 汇报时 Let me start with the headline. 就是「先说结论」，张涛最爱听；headline numbers 指「最关键的那几个数字」；重音在前 HEAD-line。
+@v: amber | = | adj./n. | ˈæmbər | 黄灯（红黄绿状态里「有风险、需要关注」的一档） | 项目状态汇报 | amber status；go amber；turn amber | Two of our five projects are amber this month. | 这个月我们五个项目里有两个是黄灯。 | 项目报告里的红黄绿叫 RAG status（Red / Amber / Green）；不少美国公司直接说 yellow，意思一样；amber 是「有风险但可控」，不是「快不行了」；本义是琥珀（色）；a 读 `/æ/`，嘴张大。
+@v: green | = | adj. | ɡriːn | 绿灯（状态正常、按计划） | 项目状态汇报 | green status；all green；stay green | All our workstreams are green this week. | 这周我们所有工作线都是绿灯。 | 状态汇报里 green = on track（正常）；give the green light（D117）是「批准、放行」，意思不同；ee 读长音 `/iː/`。
+@v: workstream | = | n. | ˈwɜːrkstriːm | 工作线；（项目里并行的）一条工作流 | 按模块汇报进度 | the data workstream；the testing workstream；across workstreams | Each workstream has its own owner. | 每条工作线都有自己的负责人。 | 大项目常拆成几条并行的 workstream（数据、测试、培训……），汇报时一条一条说；可数名词，别漏冠词：the data workstream；复合词重音在前 WORK-stream。
+@v: on schedule | = | phr. | ˌɑːn ˈskedʒuːl | 按计划；按时 | 说某项工作进度正常 | on schedule；ahead of schedule；behind schedule | The new warehouse is on schedule to open in May. | 新仓库按计划将在五月启用。 | 三个固定说法：on schedule（按时）、ahead of schedule（提前）、behind schedule（落后），✗ behind of schedule；according to the schedule 是「根据日程表」，不是「进度正常」；on track 意思接近；美式 schedule 读 `/ˈskedʒuːl/`，英式 /ˈʃedjuːl/。
+@v: behind on | = | phr. | bɪˈhaɪnd ɑːn | （某项工作）落后；拖欠 | 说具体哪一项进度落后 | behind on testing；behind on payments；fall behind on | I'm a little behind on my emails today. | 我今天回邮件有点跟不上。 | behind on + 具体的事：We're behind on regression tests.；主语是事情本身时 behind 当形容词：Testing is behind.；✗ The testing is delay.（应为 is delayed / is behind）；重音在 hind。
+@v: variance | = | n. | ˈveriəns | 偏差；（实际与计划的）差异 | 汇报时说比计划多了或少了多少 | a one-day variance；budget variance；schedule variance | The variance between the budget and the actual cost was small. | 预算和实际花费之间的差异很小。 | 项目和财务里专指「实际 vs 计划」的差：How big is the variance? = 差多少？；回答要带单位和方向：One day behind. / Two thousand dollars over.；美式 var 读 `/ver/`。
+@v: velocity | = | n. | vəˈlɑːsəti | （团队的）开发速度；单位时间完成的工作量 | 敏捷开发团队说每个迭代做完多少 | team velocity；our velocity；velocity drops | Our velocity dropped during the holidays. | 节假日期间我们的开发速度下降了。 | 本义是物理的「速度」，在敏捷开发里指每个 sprint 完成多少任务（工单、故事点）；日常说速度用 speed，汇报团队产出才用 velocity；重音在 loc：ve-LOC-i-ty。
+@v: sprint | = | n. | sprɪnt | 迭代；冲刺（敏捷开发里一个固定的工作周期，常为两周） | 工程团队排工作、汇报进度 | this sprint；the next sprint；a two-week sprint | We'll fix the bug in the next sprint. | 我们会在下一个迭代修好这个 bug。 | 本义是「短跑冲刺」；在软件团队里是一个固定周期，介词用 in / this：in the next sprint、this sprint；中文团队也常直接说「这个 sprint」；动词 sprint 是「全速跑」。
+@v: outlook | = | n. | ˈaʊtlʊk | 前景；（对接下来的）预期 | 问一项工作、一个市场接下来会怎样 | the outlook for…；a positive outlook；the November outlook | The outlook for the holiday season is strong. | 节日旺季的前景很好。 | the outlook for sth，介词用 for；回答常是 good / positive / uncertain；它也指「看法、心态」：a positive outlook on life；重音在前 OUT-look。
+@v: trajectory | = | n. | trəˈdʒektəri | 走势；发展轨迹 | 汇报时说数字在变好还是变坏 | the right trajectory；an upward trajectory；on a good trajectory | Our on-time rate is on an upward trajectory. | 我们的准时率在稳步上升。 | 汇报里 trajectory 关心的是「方向」，不是某一天的数字：One day behind, but the trajectory is right.；本义是子弹、火箭的「弹道」；重音在 jec：tra-JEC-to-ry。
+@v: buffer | = | n. | ˈbʌfər | 缓冲（时间、资金）；余量 | 排期时预留的额外时间 | a two-day buffer；build in a buffer；use the buffer | We always build in a buffer for customs delays. | 我们总会为清关延误留出一些缓冲时间。 | 中文「留点余量」「缓冲期」= a buffer；放名词前用连字符和单数：a two-day buffer（✗ a two-days buffer）；缓冲被占用：eat into the buffer；u 读 `/ʌ/`。
+@v: tolerance | = | n. | ˈtɑːlərəns | 容忍度；可承受的范围 | 说偏差在不在能接受的范围内 | within our tolerance；zero tolerance；risk tolerance | A delay of two days is within our tolerance. | 推迟两天还在我们能承受的范围内。 | within tolerance = 在可接受范围内；zero tolerance for… = 对……零容忍（语气很重）；risk tolerance 是「风险承受能力」；美式 o 读 `/ɑː/`，重音在前 TOL-er-ance。
+@v: red | = | adj. | red | 红灯（严重问题、已经卡住） | 项目状态汇报 | red status；turn red；go red | The project turned red when the supplier missed the deadline. | 供应商错过截止日期后，项目亮了红灯。 | 红灯 = 不处理就会影响整个项目，必须马上有人行动；说某项是 red，一定要同时说卡在哪、需要谁做什么：That's red. Karen hasn't given the go-ahead.；状态变化用 turn / go：It turned red.
+@v: go-ahead | = | n. | ˈɡoʊ əhed | 批准；（开始做某事的）许可 | 等决策人点头才能开工 | give the go-ahead；get the go-ahead；the go-ahead to start | We're still waiting for the go-ahead from finance. | 我们还在等财务批准。 | 名词带连字符，重音在前 GO-ahead；动词短语 go ahead（D101，「请说吧、开始吧」）重音在后；give sb the go-ahead 比 approve 口语；D117 的 give the green light 意思接近。
+@v: readiness | = | n. | ˈredinəs | 准备就绪的程度 | 上线前检查各部门是否准备好 | launch readiness；a readiness check；customer service readiness | We'll review launch readiness on Monday. | 我们周一检查上线准备情况。 | 来自 ready，y 变 i 再加 -ness；正式汇报里说 Readiness is green. / a readiness check，口语说 Are we ready?；重音在前 READ-i-ness。
+@v: dry run | = | phr. | ˌdraɪ ˈrʌn | 演练；彩排（正式上线前完整走一遍） | 上线、演示、重要会议前预演 | do a dry run；a dry run of the cutover；hold a dry run | Let's do a dry run of the demo before the client arrives. | 客户来之前，我们把演示预演一遍。 | 中文「演练」「彩排」「试运行」都可以用 dry run，强调「流程全走一遍，但不动真格」；rehearsal 偏演出和讲话，drill 是应急演习（a fire drill）；动词用 do / run / hold，✗ make a dry run 少见。
+@v: cutover | = | n. | ˈkʌtoʊvər | 切换（从旧系统转到新系统的那一步） | 上线时关旧开新 | the cutover；the cutover plan；a cutover window | The cutover will happen at midnight. | 切换会在午夜进行。 | 名词一个词，重音在前 CUT-over；动词短语 cut over (to the new system) 两个词，重音在后；中文「切换」「割接」都是它；常和 plan、window、date 搭配。
+@v: go/no-go decision | = | phr. | ˌɡoʊ ˈnoʊ ɡoʊ dɪˌsɪʒn | 「上还是不上」的决定；放行决策 | 上线、发布、活动前最后一次拍板 | make the go/no-go decision；a go/no-go meeting；go/no-go criteria | We'll make the go/no-go decision after the final test. | 最后一次测试之后，我们再决定上不上线。 | 写作 go/no-go，读作 go no-go；答案只有「上」或「不上」，最好提前定好标准（go/no-go criteria）和拍板的人；动词用 make：✓ make the go/no-go decision ✗ do the decision。
+@v: verdict | = | n. | ˈvɜːrdɪkt | 结论；（最后的）判断 | 经理问你「到底怎么看」 | your verdict；the final verdict；What's the verdict? | We tried the new coffee machine. The verdict? Not bad. | 我们试了新咖啡机。结论？还不错。 | 本义是法庭的「裁决」，日常和职场里常半开玩笑地用：So what's the verdict? = 你最后怎么看？；回答要短，先给结论；重音在前 VER-dict。
+@v: The bottom line is | = | phr. | ðə ˌbɑːtəm ˈlaɪn ɪz | 说到底；最关键的是 | 汇报、讨论最后的一句话结论 | the bottom line is…；Here's the bottom line.；What's the bottom line? | The bottom line is we need more people. | 说到底，我们需要更多人手。 | 来自财务报表的最后一行（净利润），所以指「最终、最关键的结果」，不是中文「底线」（能接受的最低限度）；谈价钱时 What's your bottom line? 才是「你最低能接受多少」；后面直接接句子，that 常省略；bottom 的 tt 闪音，像 BAH-dum。
+@v: imminent | = | adj. | ˈɪmɪnənt | 即将发生的；迫在眉睫的 | 正式邮件里说上线、截止日期、风险马上就到 | the launch is imminent；an imminent risk；with the deadline imminent | With the deadline imminent, the whole team is working late. | 截止日期迫在眉睫，整个团队都在加班。 | 偏书面，常用 With the launch imminent, … 开头；口语说 The launch is just around the corner.；别和 eminent（杰出的）混；重音在前 IM-mi-nent。
+
+@diff: 「整体还行，有点风险」——Overall, the project is amber.
+@d_cn: 经理问项目怎么样，中文常说「整体还行」「基本正常，有点小问题」「问题不大」——听的人不知道该不该担心。
+@d_en: Overall, the project is amber. / The data workstream is green. / The returns page is red. Karen hasn't given the go-ahead.
+@d_why: 英文项目汇报常用红黄绿（RAG status）先给一个「一眼就懂」的总体状态：**green** = 按计划，不用管；**amber** = 有风险或小偏差，但可控，需要关注；**red** = 已经卡住，不处理就影响全局，要有人马上行动。中文的「还行」「问题不大」太模糊，可能是绿也可能是黄；英文汇报第一句就亮出颜色，经理马上知道要不要追问。关键是**颜色后面一定跟理由**：Overall, the project is amber, because testing is one day behind.；说 red 时还要讲清卡在谁那里、需要谁做什么（Karen hasn't given the go-ahead）。中国同事常有两种倾向：报喜不报忧，明明是黄说成绿；或者怕担责任，什么都标红——两种都会让经理失去判断的依据。不少美国公司把 amber 说成 yellow，意思一样。
+@d_when: 项目周会、给经理或客户的进度邮件、记分卡和周报。
+@d_vs: **Overall, the project is amber.** 总体是黄灯。（有风险，可控）\n**The data workstream is green.** 数据线是绿灯。（正常）\n**The returns page is red. Karen hasn't given the go-ahead.** 退货页面是红灯，Karen 还没批准。（卡住了，说清卡在哪）\n✗ The project is basically OK, just some small problems.（太模糊）\n✗ We're amber.（只有颜色，没有理由）
+@d_task: 用红黄绿汇报：总体黄灯，因为培训晚了两天；系统是绿灯；数据迁移是红灯，还在等 IT 开权限。 | Overall, we're amber, because training is two days behind. The system is green. Data migration is red. We're still waiting for IT to give us access.
+@diff: 「进度正常 / 有点滞后」——on schedule / behind on…
+@d_cn: 说各项工作的进度：「数据那边进度正常」「测试有点滞后」「比计划晚了一天」。
+@d_en: The data workstream is on schedule, but testing is behind. / We're behind on regression tests. / One day. I'll finish on Monday instead of Friday.
+@d_why: 「进度正常」英文用固定搭配 **on schedule**，提前是 **ahead of schedule**，落后是 **behind schedule**——介词都是固定的：✗ behind of schedule；according to the schedule 是「根据时间表」，不是「进度正常」。说**具体哪一项**落后，用 **behind on + 事**：We're behind on regression tests.；主语是事情本身时，behind 当形容词：Testing is behind.。中国学习者最常见的错是 ✗ The testing is delay.——delay 是名词或动词，要说 Testing is delayed. 或 Testing is behind.。光说「落后」还不够，美国经理接着就会问 **How big is the variance?**：回答要有单位和方向（One day. I'll finish on Monday instead of Friday.），再补一句走势（The trajectory is right.），对方才知道这是一个小偏差，还是会越拖越多。
+@d_when: 周会逐项汇报、进度邮件、和经理一对一时说自己手上的工作。
+@d_vs: **The data workstream is on schedule.** 数据线按计划进行。\n**Testing is behind. ／ We're behind on regression tests.** 测试落后了。（说具体哪一项）\n**We're one day behind schedule.** 我们比计划晚一天。\n✗ The testing is delay.\n✗ We are behind of schedule.
+@d_task: 汇报：培训按计划进行；翻译落后了，比计划晚两天，周三能完成。 | Training is on schedule, but we're behind on the translations. We're two days behind schedule, and we'll finish on Wednesday.
+@diff: 「说到底」——The bottom line is…（不是中文的「底线」）
+@d_cn: 汇报完一堆细节，经理问「所以到底怎么样？」中文说「总之……」「说到底……」「一句话……」。看到 bottom line，很多人第一反应是中文的「底线」。
+@d_en: The bottom line is we can still launch on the 28th. / Let me start with the headline. / So what's your verdict, Lily?
+@d_why: **the bottom line** 来自财务报表的最后一行（净利润），所以引申为「最终、最关键的那个结果」：The bottom line is we can still launch on the 28th. = 说到底，我们还是能 28 号上线。它一般不是中文的「底线」（能接受的最低限度、红线）——「安全是我们的底线」要说 Safety is non-negotiable for us.，「这是我们的底线」说 That's the minimum we can accept.；只有谈价钱时，What's your bottom line? 才接近中文「底线」（你最低能接受多少）。汇报时 The bottom line is… 一般放在最后收尾；对时间很少的高层（像 Karen），可以直接放在第一句。它语气坚定、偏口语，对经理和同事都合适；正式书面报告里可以换成 In summary, … / Overall, …。配套的两个说法：开头说 **Let me start with the headline.**（先说要点）；经理问 **What's your verdict?** 时，回答一定要短。
+@d_when: 汇报的开头或结尾；经理、客户高层问「所以呢？」的时候；讨论太长、需要收拢时。
+@d_vs: **The bottom line is we can still launch on the 28th.** 说到底，我们仍然可以在 28 号上线。\n**Let me start with the headline.** 我先说最重要的。\n**What's your bottom line?** 你最低能接受多少？（谈价钱，接近中文「底线」）\n**Safety is non-negotiable for us.** 安全是我们的底线。\n✗ Safety is our bottom line.（听起来像「安全是我们的利润」）
+@d_task: 「准时交付是我们的底线」用英文怎么说？再用 The bottom line is… 给经理一句结论：虽然测试晚了一天，我们仍然能按时上线。 | On-time delivery is non-negotiable for us. / The bottom line is we can still launch on time, even though testing is one day behind.
+@diff: 「彩排 / 演练」a dry run；「最后拍板上不上」a go/no-go decision
+@d_cn: 上线前想把整个流程先走一遍，中文说「演练一下」「彩排」「走一遍流程」；最后再「拍板上不上线」。
+@d_en: We'll do a dry run on Thursday. / We'll practice the cutover. / Then we'll make the go/no-go decision on Tuesday morning.
+@d_why: **dry run** 原指消防队「不放水」的演习，现在泛指「流程完整走一遍，但不动真格」：上线前切换一次系统、演示前预讲一遍，都是 dry run；动词用 do / run / hold：We'll do a dry run on Thursday.。其他「演练」各有分工：**rehearsal** 偏演出和讲话（a rehearsal for the presentation），**drill** 是应急演习（a fire drill），**trial run** 偏「试运行」机器或新流程。中文「演练」直译成 ✗ an exercise of the launch 太泛、不地道。演练之后要有一个明确的拍板点：**go/no-go decision**——只有「上」或「不上」两个答案，什么时候定、谁来定都要提前说好。中国团队常默认「到时候再看」，美国同事会觉得没有计划；把 dry run 和 go/no-go 的日期写进汇报和邮件，大家才知道下一步在哪。
+@d_when: 系统上线、产品发布、重要演示或客户会议之前；项目计划和进度汇报里。
+@d_vs: **We'll do a dry run on Thursday.** 我们周四演练一遍。\n**We'll practice the cutover.** 我们会演练切换过程。\n**We'll make the go/no-go decision on Tuesday morning.** 周二上午决定上不上线。\n**a fire drill** 消防演习 ／ **a rehearsal for the presentation** 演讲彩排\n✗ We'll do an exercise of the launch.
+@d_task: 告诉客户：我们周一下午把演示预演一遍，周三上午决定活动是否照常进行。 | We'll do a dry run of the demo on Monday afternoon. Then we'll make the go/no-go decision on Wednesday morning.
+
+@core: Let me start with the headline. Overall, the project is amber. | 汇报开头先给总体状态 | amber / green / red；the project / we | 正式：In summary, the overall project status is amber.｜随意：Quick headline: we're amber.
+@core: The … workstream is on schedule, but … is behind. | 按工作线说进度 | data / training / testing；on schedule / ahead of schedule | 正式：The data workstream remains on schedule; testing is slightly behind plan.｜随意：Data's fine. Testing's a bit behind.
+@core: We're behind on … by … | 说具体哪项落后、差多少 | regression tests / translations；one day / two days | 正式：Regression testing is running one day behind plan.｜随意：We're a day behind on testing.
+@core: We have a … buffer before the launch, so … is within our tolerance. | 说明余量，判断偏差能不能接受 | two-day / one-week；one day late / a small delay | 正式：The current variance remains within our schedule tolerance.｜随意：We've got two days of slack, so we're OK.
+@core: … is red. We're waiting for … to give the go-ahead. | 说红灯项卡在哪、等谁 | Karen / IT / finance；the go-ahead / approval | 正式：This item is red, pending approval from Karen.｜随意：We're stuck until Karen says yes.
+@core: We'll do a dry run on … | 安排演练 | Thursday / Monday afternoon；of the cutover / of the demo | 正式：A full rehearsal of the cutover is scheduled for Thursday.｜随意：Let's run through it on Thursday.
+@core: We'll make the go/no-go decision on … | 定下最后拍板的时间 | Tuesday morning / after the dry run | 正式：The final go/no-go decision will be made on Tuesday morning.｜随意：We'll decide on Tuesday: go or no go.
+@core: The bottom line is … | 一句话结论 | we can still launch on the 28th / we need one more engineer | 正式：In summary, we remain on track to launch on October 28.｜随意：Long story short, we're good for the 28th.
+
+@pw: trajectory | trəˈdʒektəri | 4 个音节 tra·JEC·to·ry | 重音在 jec；tra 弱读成 `/trə/`，to 也弱读成 `/tə/`
+@pw: velocity | vəˈlɑːsəti | 4 个音节 ve·LOC·i·ty | 重音在 loc，美式 o 读 `/ɑː/`；结尾 -ty 的 t 闪音：ve-LAH-suh-dee
+@pw: variance | ˈveriəns | 3 个音节 VAR·i·ance | 重音在第一个音节；美式 var 读 `/ver/`
+@pw: tolerance | ˈtɑːlərəns | 3 个音节 TOL·er·ance | 重音在 tol，美式 o 读 `/ɑː/`；中间的 er 很轻
+@pw: imminent | ˈɪmɪnənt | 3 个音节 IM·mi·nent | 重音在第一个音节；mm 只读一个 /m/；后两个音节都很轻
+@pw: cutover | ˈkʌtoʊvər | 3 个音节 CUT·o·ver | 名词重音在前；动词短语 cut over 重音在后；cut 的 t 闪音，和 over 连成 CUH-do-ver
+@pw: go-ahead | ˈɡoʊ əhed | 3 个音节 GO·a·head | 名词重音在前；动词短语 go ahead（请说吧、开始吧）重音在后：go a-HEAD
+@ps: **O**verall, / the **pro**ject is **am**ber. | Overall 后稍停、语调微升，像打开话题；名词 project 重音在前 PRO-ject（动词 pro-JECT 是「预计」）；amber 是信息焦点，重读，语调落下。
+@ps: The **da**ta **work**stream is on **sched**ule, / **but** testing is be**hind**. | 对比句：schedule 和 behind 都重读，but 也带重音，提醒听的人「转折来了」；data 美式读 `/ˈdeɪɾə/`，t 闪音。
+@ps: We **have**‿a **two**-day **buf**fer / be**fore** the **launch**. | have a 连读成 ha-va；two-day 作定语，重音在 two；buffer 重读；句末 launch 下降。
+@ps: The **bot**tom **line** is / we can **still** launch on the twenty-**eighth**. | the bottom line is 后面稍停，再说结论；bottom 的 tt 闪音：BAH-dum；still 重读，表示「虽然有问题，仍然能」；28th 读 twenty-eighth，th 要咬舌。
+@pnote: 名词和动词的重音常常相反，汇报里很常见：the **pro**ject（名词：项目）vs we pro**ject**（动词：预计）；the **cut**over（名词）vs cut **o**ver（动词短语）；the **go**-ahead（名词）vs go a**head**（动词短语）；the **count**down vs count **down**。复合名词也是前重后轻：**score**card、**work**stream、**head**line、**dead**line。听的时候，前重后轻的一组音节往往是一个名词。
+@pnote: 星期和日期是这一课的听力重点：on **Mon**day instead of **Fri**day（两个星期都重读，听清「哪天换成哪天」）、on **Thurs**day、on **Tues**day **morn**ing、the twenty-**eighth**。Tuesday 和 Thursday 最容易混：Tues- 开头是 `/tuːz/`，Thurs- 开头是 `/θɜːrz/`，咬舌再卷舌。数字：eighteen tickets 是 eigh-**TEEN**，重音在后，和 **EIGH**-ty 不同。
+@lfocus: 颜色和工作线：overall → amber；data → green（on schedule）；testing → behind（one day）；customer service → green；returns page → red
+@lfocus: 日期和数字：Monday instead of Friday、a two-day buffer、eighteen tickets、Thursday（dry run）、Tuesday morning（go/no-go）、the 28th
+@lfocus: 谁在等谁、谁做什么：Karen → go-ahead；Lily → write to Karen today；Raj's team → join the dry run；Leo → scorecard
+@dict: S5–S8
+@dict: S27–S31
+@res: 在 youglish.com 输入 "the bottom line is"，选 US，听美国人怎么用它给出结论。
+
+@mimic: 跟读【C】S1–S24：先正常语速逐句跟读，重点模仿 S3 开门见山的语调、S5 对比句里 schedule 和 behind 的重音，以及 S23 收尾时坚定的语气；再你演林晓，手机朗读张涛、Ana、Mike 和吴佳的台词，完整对一遍并录音。最后把邮件 S25–S32 当成你自己写的，用汇报的语气读一遍。
+@swap: Overall, the project is amber. | 换颜色和理由：green／red；because testing is behind／because we're waiting for approval | Overall, the project is red, because we're still waiting for approval.
+@swap: The data workstream is on schedule, but testing is behind. | 换工作线：training／the translations／the warehouse setup；on schedule → ahead of schedule | The training workstream is ahead of schedule, but the translations are behind.
+@swap: We have a two-day buffer before the launch. | 换余量和事件：a one-week buffer／half a day；the demo／the peak season | We have a one-week buffer before the peak season.
+@swap: The bottom line is we can still launch on the 28th. | 换结论：we need one more engineer／we're on track for Friday／we can't add anything else | The bottom line is we can't add anything else before the launch.
+@free: 张涛在走廊里问你：「项目怎么样？」你只有 20 秒（总体黄灯；培训按计划，数据迁移晚了一天；周五能赶上） | Overall, we're amber. Training is on schedule, but data migration is one day behind. The bottom line is we'll catch up by Friday.
+@free: Karen 问为什么退货页面是红灯（变更申请还在等她批准；拿不到批准，Mike 的团队没法开工） | The returns page is red because the change request is still waiting for your approval. Until we get the go-ahead, Mike's team can't start.
+@free: 同事问下周给客户的演示准备得怎么样（周一下午预演一遍；周二上午决定照常进行还是推迟） | We'll do a dry run on Monday afternoon. Then we'll make the go/no-go decision on Tuesday morning.
+@free: 经理问：测试晚了一天，要紧吗？（不要紧：上线前有两天缓冲，在能承受的范围内；走势也在变好） | It's within our tolerance. We have a two-day buffer before the launch, and the trajectory is good: there are fewer bugs every day.
+@output: 写一封 8–12 句的每周进度邮件，发给经理或客户，标题写成「项目名 + weekly status + 颜色」，例如 "BrightNest launch: weekly status (amber)"：第一句给总体颜色和原因 → 每条工作线一句（on schedule / behind on…，带偏差）→ 走势（trajectory）→ 缓冲时间和容忍度 → 红灯项：卡在哪、在等谁的 go-ahead → 演练和 go/no-go 的时间 → The bottom line is… 收尾。可以写你手上的一个项目，也可以写一次搬家、一场婚礼或一个学习计划的进度。
+@output_sample: Hi Tom,\nHere's this week's status update for the BrightNest launch.\nOverall, the project is amber, because testing is one day behind.\nThe data workstream is on schedule, and all the new status codes are working in the test environment.\nWe're behind on regression tests, so Ana will finish on Monday instead of Friday.\nMike's team closed eighteen tickets this sprint, and the trajectory is good.\nWe have a two-day buffer before the launch, so the delay is within our tolerance.\nThe only red item is the returns page, because Karen hasn't given the go-ahead yet.\nI've asked her for a decision by Friday.\nWe'll do a dry run of the cutover on Thursday and make the go/no-go decision on Tuesday morning.\nThe bottom line is we can still launch on the 28th.\nBest,\nLily
+
+@check: 听力：总体是什么颜色？哪条线按计划、哪条线落后？落后多少？ | 总体黄灯（amber）。数据线按计划（on schedule），客服准备是绿灯；测试落后：回归测试晚一天，周一而不是周五做完。
+@check: 听力：哪一项是红灯？为什么？演练和「上不上线」的决定分别在什么时候？林晓最后的结论是什么？ | 退货页面是红灯，因为 Karen 还没批准（hasn't given the go-ahead），Mike 的团队没法开工。周四演练切换，周二上午做 go/no-go 决定。结论：仍然可以在 28 号上线（The bottom line is we can still launch on the 28th.）。
+@check: 改错：✗ The testing is delay, we are behind of schedule two days. | Testing is behind (delayed). We're two days behind schedule.（delay 不能当形容词；behind schedule 不加 of；差多少放在 behind 前面）
+@check: 换个场景：你负责公司年会。用红黄绿汇报：总体绿灯；场地和餐饮按计划；周五彩排一次节目。 | Overall, we're green. The venue and the catering are on schedule. We'll do a dry run of the show on Friday.
+@check: 「这是我们的底线」和 The bottom line is… 一样吗？各用在什么场合？ | 不一样。中文「底线」是能接受的最低限度，英文多说 That's the minimum we can accept. / … is non-negotiable for us.（谈价钱时 What's your bottom line? 才接近）。The bottom line is… 是「说到底、最关键的结论」，用在汇报的开头或结尾。
+@check: 经理问 How big is the variance?——你的翻译工作比计划晚两天，周三能完成，而原计划是周一。回答他。 | Two days. We'll finish on Wednesday instead of Monday.
+@next1: 不看书说出 5 个锚点句：S3、S5、S12、S18、S23
+@next1: 用红黄绿给你这周的工作或学习计划打个分：Overall, I'm amber, because…，再用 The bottom line is… 收尾
+@next7: 进度汇报顺序：headline（颜色 + 理由）→ 各条 workstream（on schedule / behind on + variance）→ 红灯项和 go-ahead → buffer / tolerance → dry run → go/no-go decision → The bottom line is…
+@next7: on schedule / ahead of schedule / behind schedule / behind on…；the bottom line ≠ 中文「底线」

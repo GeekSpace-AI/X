@@ -1,0 +1,169 @@
+@day: 115
+@week: 4
+@title_cn: 需求变更
+@title_en: Handling Scope Changes
+@topic: 上线前两周客户临时加需求：说明不在本期范围、用条件句讲清后果、区分必需和可选、提出交换条件、写成变更申请
+@think_short: 「这个不在范围内」→ out of scope for this phase（不说 not in our range）｜「加的话就得推迟」If we add it now, we'll need to…（if 句不用 will）｜「作为交换」in exchange for + -ing｜「需求越加越多」scope creep｜「临时改规则」move the goalposts（只在内部说）
+
+@goal_scene: 离 10 月 28 日上线只剩两周，Priya 在例会上突然要加退货跟踪。你既不能一口回绝，也不能口头答应：先说明它不在这一期的范围内、加进来会怎样，再探出客户真正的刚需，用一个交换条件守住上线日期，最后把它写成正式的变更申请。
+@goal_expr: I see why it matters. / Adding returns tracking is out of scope for this phase. / If we add it now, we'll need to push the launch by two weeks. / Let's separate the must-haves from the nice-to-haves. / We can do it in exchange for moving the custom reports to phase two. / Let's write it up as a change request. / I want to avoid scope creep.
+@goal_vocab: 20 个重点词 + 5 个短语：项目范围、需求优先级、交换与让步、变更流程
+@done: 能先表示理解，再用 out of scope for this phase + 依据（the specification we signed）说明新需求不在本期范围，而不是只说 ✗ We can't.
+@done: 能用 If we add it now, we'll need to… 讲清后果（if 从句不用 will；push the launch by / to 分清），用 must-haves / nice-to-haves 和 in exchange for 谈出折中方案
+@done: 能把口头约定写成变更申请（write it up as a change request / formalize），并分清 scope creep（对谁都能说）和 move the goalposts（只在内部说）
+
+@warmup: Raj 说新的状态代码已经好了。 | Raj said the new codes were ready. | D114
+@warmup: Priya 问我们周一能不能开始。 | Priya asked whether we could start on Monday. | D114
+@warmup: 他跟我说今晚把文件发过来。 | He told me he would send the file tonight. | D114
+@warmup: A 方案更快，而 B 方案维护成本更低。 | Option A is faster, whereas Option B is cheaper to maintain. | D112
+@warmup: 恐怕我们没办法在下周之前做出一个定制功能。 | I'm afraid we can't build a custom feature by next week. | D78
+@warmup: Kevin 和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+
+@scene: 周三上午九点，离 10 月 28 日全面上线只剩两周，状态代码的长期修复正在测试，大家终于松了口气。BrightNest 的每周例会刚开始，Priya 就提出一个新要求：上线时就要有退货跟踪——每年节后他们的退货都会猛增。可九月双方签的需求说明里根本没有这一项；Mike 的团队已经满负荷，第一期还要给 BrightNest 做一批定制报表。林晓知道，一口回绝会伤关系，口头答应又会把上线日期拖垮。她要和产品经理 Emma、工程经理 Mike 一起，先讲清范围和后果，再找出 Priya 真正离不开的东西，用一个交换条件守住 10 月 28 日。会后，她还要把谈好的方案写成变更申请，交给 BrightNest 的副总裁 Karen 批准。
+@sp: 人物关系 | 林晓 ↔ Priya：项目协调人和客户运营经理，Priya 着急、讲数据，林晓要守住范围又不伤关系；Emma（产品）管范围和需求说明，Mike（工程）管工作量和风险；会后林晓和 Emma 是内部同事，说话可以直接一些
+@sp: 沟通目的 | 不一口回绝，也不口头答应：说明新需求不在本期范围、讲清加进来的代价，探出客户的刚需，用交换条件找到双方都能接受的办法，再把它书面化
+@sp: 已知信息 | 九月签的需求说明里没有退货跟踪；第一期包括给 BrightNest 的定制报表；Mike 的团队没有多余人手；退货要用另一套承运商数据；BrightNest 十一月是旺季，10 月 28 日不能动；任何变更都要 Karen 批准
+@sp: 表达重点 | 先理解，再说 out of scope for this phase（给依据）→ If we add it now, we'll need to… 讲后果 → must-haves vs nice-to-haves 探底 → in exchange for 提交换 → write it up as a change request → 内部：scope creep 可以说，move the goalposts 别当着客户说
+
+@story_title: Episode 115 · A Swap, Not an Addition
+@story_type: 视频例会 + 会后对话 + 邮件
+@s: Two weeks before the launch, Priya brings an **unplanned** request to the weekly call. | 离上线还有两周，Priya 在每周例会上提出了一个计划外的需求。
+@s: Priya: Our returns always jump after the holidays. We need returns tracking at launch. | Priya：每年节后我们的退货都会猛增。上线时我们就需要退货跟踪。
+@s: Lily: I see why it matters. Adding returns tracking is **out of scope** for this phase. | 林晓：我明白这件事为什么重要。不过增加退货跟踪不在这一期的范围内。
+@s: Emma: It isn't in the **specification** we signed in September. | Emma：九月我们签的需求说明里没有这一项。
+@s: Priya: It's a small **addition**. Raj calls it a simple **add-on**. | Priya：这只是个小小的补充。Raj 说这就是一个简单的附加功能。
+@s: Mike: Not on our side. Returns need **additional** carrier data, so expect **unforeseen** problems. | Mike：在我们这边可不简单。退货要用另外一套承运商数据，难免会冒出意想不到的问题。
+@s: Lily: If we add it now, we'll need to push the launch by two weeks. | 林晓：如果现在加，上线就得推迟两周。
+@s: Priya: That's not an option. November is our peak. | Priya：那不行，十一月是我们的旺季。
+@s: Lily: Then let's separate the **must-haves** from the **nice-to-haves**. | 林晓：那我们把必须有的和有了更好的分开来看。
+@s: Lily: Is full tracking **essential** at launch, or could a basic version **substitute** for now? | 林晓：完整的退货跟踪是上线时必不可少的吗？还是先用一个基础版顶一下也行？
+@s: Priya: A basic status page would do. The filters are **optional**. | Priya：有一个基础的状态页面就够了，筛选功能可有可无。
+@s: Mike: That's doable, but we can't **absorb** the extra work. | Mike：基础版做得出来，但多出来的工作量我们消化不了。
+@s: Lily: We can do it **in exchange for** moving the custom reports to phase two. | 林晓：我们可以做，条件是把定制报表挪到第二期。
+@s: Priya: So we **defer** the reports and get returns instead? | Priya：也就是说，报表往后推，换成先做退货？
+@s: Lily: Exactly. It's a **swap**, not an addition. | 林晓：对。这是一换一，不是多加一项。
+@s: Emma: And it keeps our **baseline**: same team, same date. | Emma：而且基准计划不变：同样的人手，同样的日期。
+@s: Priya: Giving up the reports is a big **concession** for us. But fine. | Priya：放弃报表对我们来说是很大的让步。不过行吧。
+@s: Emma: Any change that **deviates** from the **spec** needs Karen's approval. | Emma：任何偏离需求说明的改动，都需要 Karen 批准。
+@s: Lily: Let's write it up as a **change request**. | 林晓：我们把它写成一份变更申请吧。
+@br:
+@s: After the call, Emma turns to Lily. | 散会后，Emma 转向林晓。
+@s: Emma: Nice work holding the line. | Emma：干得漂亮，底线守住了。
+@s: Lily: I want to avoid **scope creep**. | 林晓：我就是想避免需求越加越多。
+@s: Emma: Priya keeps **moving the goalposts**. | Emma：Priya 老是临时改标准。
+@s: Lily: Maybe, but never say that to her face. Her reasons are real. | 林晓：也许吧，但这话千万别当着她的面说。她的理由是实实在在的。
+@br:
+@s: That afternoon, Lily emails Priya: | 当天下午，林晓给 Priya 发了一封邮件：
+@s: Hi Priya, | Priya 你好：
+@s: Thanks for being flexible today. I've drafted a change request to **formalize** what we agreed. | 谢谢你今天的通融。我起草了一份变更申请，把我们谈好的内容正式确定下来。
+@s: A basic returns page moves into phase one, and the custom reports move to phase two. | 基础的退货页面放进第一期，定制报表挪到第二期。
+@s: The launch date stays October 28. | 上线日期仍然是 10 月 28 日。
+@s: You're listed as the **requester**, and Karen will need to approve it. | 申请人写的是你，还需要 Karen 批准。
+@s: Best,\nLily | 祝好，\n林晓
+
+@v: unplanned | = | adj. | ˌʌnˈplænd | 计划外的；没安排的 | 项目里突然冒出来的需求、开支、停机 | an unplanned request；unplanned work；unplanned downtime | We had two unplanned meetings this week. | 这周我们开了两个计划外的会。 | un- + planned，强调「计划里没有、临时冒出来」；和 unforeseen（事先想不到的）接近但不同：客户临时加需求是 unplanned，加进来以后冒出的技术麻烦是 unforeseen；-nned 读 `/nd/`，不加元音。
+@v: out of scope | = | phr. | ˌaʊt əv ˈskoʊp | 不在（项目约定的）范围内 | 新需求超出合同、需求说明或本期计划 | out of scope for this phase；in scope；the project scope | Training for new staff is out of scope for this project. | 新员工培训不在这个项目的范围内。 | scope 是「双方约定要做的事的范围」，反义 in scope；加 for this phase / for now 表示「只是不在这一期」，语气更软，也给后面谈条件留了门；✗ out of our range（range 指数值范围）；of 弱读成 `/əv/`。
+@v: specification | = | n. | ˌspesɪfɪˈkeɪʃn | 需求（规格）说明书；技术规格 | 说明双方书面约定的功能和标准 | the specification we signed；product specifications；meet the specification | The new screen doesn't meet the specification. | 新屏幕不符合规格要求。 | 口语里常缩成 spec；可数：a specification / the specifications；动词 specify（D91）；拒绝新需求时引用它最有说服力：It isn't in the specification we signed.；主重音在 ca：spe-ci-fi-CA-tion。
+@v: addition | = | n. | əˈdɪʃn | 增加的东西；补充 | 客户把新需求说得「很小」 | a small addition；a new addition；in addition（此外） | The new filter is a useful addition to the dashboard. | 新的筛选功能是看板上一个很有用的补充。 | 客户说 It's just a small addition. 往往是在把需求往小里说，项目协调人听到要警惕；in addition（此外）是连接词，和这里「新增的东西」不同；形容词 additional。
+@v: add-on | = | n. | ˈædɑːn | 附加功能；附加组件 | 在已有系统上加一个功能 | a simple add-on；an add-on feature；a paid add-on | The basic plan is free, but the reports are a paid add-on. | 基础套餐免费，报表是付费的附加功能。 | 名词 add-on 带连字符，重音在前 ADD-on；动词短语 add on 不带连字符，重音在后 add ON；中文「插件」「增值功能」常用 add-on；美式 on 读 `/ɑːn/`。
+@v: additional | = | adj. | əˈdɪʃənl | 额外的；另外的 | 说需要更多资源、数据、时间或费用 | additional data；additional cost；additional engineers | We'll need additional time for testing. | 我们需要额外的测试时间。 | 比 extra 正式，常见于邮件和报价：an additional week / additional cost；放在名词前；✗ more additional（重复）。
+@v: unforeseen | = | adj. | ˌʌnfɔːrˈsiːn | 无法预见的；意料之外的 | 说新需求或变更可能带来的风险 | unforeseen problems；unforeseen costs；due to unforeseen circumstances | Late changes often cause unforeseen problems. | 临时改动常常会带来意想不到的问题。 | 来自 foresee（预见）；常和 problems / costs / delays / circumstances 搭配；Due to unforeseen circumstances 是正式通知里的套话，日常说 Something came up.（D95）；主重音在 seen。
+@v: must-haves | must-have | n. | ˈmʌst hævz | 必须有的东西；刚需 | 区分需求的优先级 | a must-have；must-have features；must-haves vs nice-to-haves | Fast tracking is a must-have for our customers. | 快速追踪对我们的客户来说是刚需。 | 这里 must-have 是可数名词：a must-have / must-haves，带连字符；也可以放在名词前：a must-have feature；中文「刚需」「必须有」都可以用它；重音在 must。
+@v: nice-to-haves | nice-to-have | n. | ˈnaɪs tə hævz | 有了更好、没有也行的东西 | 和 must-have 对比，区分优先级 | a nice-to-have；nice-to-have features；just a nice-to-have | Dark mode is a nice-to-have, not a priority. | 深色模式有了更好，但不是优先项。 | 两个连字符都不能少；说「这个可以先不做」时，It's a nice-to-have. 比 ✗ It's not important. 客气得多，不否定对方的想法；to 弱读成 `/tə/`。
+@v: essential | = | adj. | ɪˈsenʃl | 必不可少的；最基本的 | 问对方哪些需求真的不能少 | essential for…；absolutely essential；essential features | Clear tracking updates are essential for customer trust. | 清楚的物流更新对客户信任至关重要。 | 比 important 强得多：essential = 没有就不行；结构 essential for / to sth；It's essential that we… 后面常用动词原形；ti 读 `/ʃ/`，结尾 `/l/` 不加元音。
+@v: substitute | = | v./n. | ˈsʌbstɪtuːt | 代替；替代品 | 问一个简单方案能不能暂时代替完整方案 | substitute for sth；substitute A for B；a substitute | Can a phone call substitute for the meeting? | 打个电话能代替这次会议吗？ | substitute for sth = 代替某物：Could a basic version substitute for full tracking?；substitute A for B = 用 A 代替 B，方向容易弄反；口语更常说 replace；美式 tute 读 `/tuːt/`。
+@v: optional | = | adj. | ˈɑːpʃənl | 可选的；非必须的 | 区分功能是不是必需 | optional features；completely optional；optional for… | The training session is optional. | 这个培训自愿参加。 | 反义 required / mandatory；中文「可有可无」用 optional 比 not important 中性，不贬低对方的需求；美式 o 读 `/ɑː/`。
+@v: absorb | = | v. | əbˈzɔːrb | 承担；消化（额外的工作、成本） | 说团队能不能把额外工作量或费用扛下来 | absorb the cost；absorb extra work；absorb a delay | We can't absorb another price increase. | 我们承受不了再一次涨价。 | 本义「吸收」（水分、知识），商务里常指「把额外的成本或工作自己扛下来」；We can't absorb the extra work. 是委婉地说「没有人手」，比 ✗ We are too busy. 专业；美式读 `/əbˈzɔːrb/` 或 `/əbˈsɔːrb/`。
+@v: in exchange for | = | phr. | ɪn ɪksˈtʃeɪndʒ fər | 作为交换；以……为条件 | 谈需求、价格、排期时提出交换条件 | in exchange for sth / doing；in exchange for a discount | We offered free shipping in exchange for a two-year contract. | 我们提供免运费，条件是签两年合同。 | for 后接名词或 -ing：✓ in exchange for moving ✗ in exchange for move；✗ in exchange of；它把「我们给的」和「你们让的」放进一句话，比 ✗ but you must… 公平、不带命令语气。
+@v: defer | = | v. | dɪˈfɜːr | 推迟；延后（正式） | 把某个功能、付款、决定推到以后 | defer sth to phase two；defer a decision；defer payment | We'll defer the decision until next week. | 我们把决定推迟到下周。 | 比 postpone 和 put off 正式，常见于项目和财务；过去式双写 r：deferred；重音在后 de-FER；defer to sb 是「听从某人的意见」，意思完全不同。
+@v: swap | = | n./v. | swɑːp | 对调；交换 | 用一个功能换另一个，总量不变 | a swap；swap A for B；swap shifts | Can we swap our meeting times? | 我们能对调一下开会时间吗？ | 口语词，比 exchange 随意；swap A for B = 拿 A 换 B；It's a swap, not an addition. 强调「工作量不增加」；美式 a 读 `/ɑː/`，像「斯哇普」。
+@v: baseline | = | n. | ˈbeɪslaɪn | 基准；（项目的）基准计划 | 说变更前双方认可的范围、人力、日期 | the baseline plan；keep the baseline；compared with the baseline | Let's compare the new estimate with the baseline. | 我们拿新的估算和基准计划比一比。 | 项目管理里 baseline 是「批准过的原始计划」，任何变更都拿它来比；也指数据的「基准值」：baseline numbers；复合词重音在前 BASE-line。
+@v: concession | = | n. | kənˈseʃn | 让步 | 谈判中一方放弃一部分要求 | make a concession；a big concession；concessions on both sides | Both sides made concessions to reach an agreement. | 双方都做了让步，才达成协议。 | 常用 make a concession；动词 concede（D100）；它偏正式，多用来说「自己让了什么」：That's a big concession for us.；对客户当面说 ✗ Thank you for your concession. 很生硬，说 Thanks for being flexible. 更自然；ss 读 `/ʃ/`。
+@v: deviates | deviate | v. | ˈdiːvieɪts | 偏离（计划、标准） | 说某个改动偏离了原来约定的需求 | deviate from the plan；deviate from the spec；deviate slightly | The final design deviates from the original plan. | 最终设计偏离了原来的计划。 | 后面一定接 from：✗ deviate the plan；正式用词，口语说 change the plan；名词 deviation；重音在第一个音节 DEE-vi-ate；主语是 any change 这类单数时，别丢 -s。
+@v: spec | = | n. | spek | 需求说明；规格（specification 的口语缩写） | 工程师、产品经理日常的说法 | the spec；write a spec；tech specs | Can you send me the spec before the meeting? | 开会前你能把需求说明发我吗？ | 口语和内部邮件里几乎都说 spec，正式文件写 specification；「参数配置」常用复数 specs：the laptop's specs；读 `/spek/`，c 发 /k/，不读 /spes/。
+@v: change request | = | phr. | ˈtʃeɪndʒ rɪˌkwest | 变更申请（单） | 把新需求写成正式文件，评估影响后再批准 | write up a change request；submit a change request；approve a change request | Every change request needs the client's signature. | 每一份变更申请都要客户签字。 | 复合名词，重音在前：CHANGE request；write it up as a change request =「把它整理成一份变更申请」，write up 是「整理成文字」；中国团队常口头答应新需求，结果影响和责任都说不清，写下来就清楚了。
+@v: scope creep | = | phr. | ˈskoʊp ˌkriːp | 需求蔓延；范围一点点越加越多 | 项目会议、风险汇报 | avoid scope creep；prevent scope creep；a classic case of scope creep | Small requests can quickly turn into scope creep. | 小要求积少成多，很快就会变成需求蔓延。 | 中性的项目管理术语，描述现象、不指责谁，对客户也能说；creep 本义「悄悄爬」，画面是需求一点点「爬」进来；复合名词重音在前 SCOPE creep。
+@v: moving the goalposts | move the goalposts | phr. | ˌmuːvɪŋ ðə ˈɡoʊlpoʊsts | 中途改变规则或标准（让人难以达到） | 抱怨对方一再改要求 | move the goalposts；keep moving the goalposts | It's hard to finish when the client keeps moving the goalposts. | 客户老是改标准，这活儿很难干完。 | 本义「挪球门」，带明显的抱怨和指责：内部私下说可以，当着客户说 ✗ You keep moving the goalposts. 等于说对方不讲理；goalposts 用复数；英式也说 shift the goalposts。
+@v: formalize | = | v. | ˈfɔːrməlaɪz | 使正式化；把口头约定写成正式文件 | 把会上谈好的事写进邮件、合同、变更单 | formalize an agreement；formalize what we agreed；formalize the process | Let's formalize the new schedule in writing. | 我们把新排期书面确定下来吧。 | 中文「落到纸面上」「正式确定下来」；直接接宾语：✓ formalize the agreement，✗ make the agreement formalize；美式拼 -ize，英式 -ise；重音在第一个音节 FOR-ma-lize。
+@v: requester | = | n. | rɪˈkwestər | 提出请求的人；申请人 | 变更单、工单里写「由谁提出」 | the requester；requester and approver | The requester gets an email when the ticket is closed. | 工单关闭时，提出人会收到一封邮件。 | 工单、变更单的常用栏目，和 approver（批准人）相对；也拼作 requestor；重音在 ques：re-QUES-ter。
+
+@diff: 「这个不在范围内」——Adding returns tracking is out of scope for this phase.
+@d_cn: 客户提了合同之外的新要求，中文常说「这个不在我们的范围里」「这个做不了」；或者不好意思拒绝，先应一句「我们研究一下」。
+@d_en: I see why it matters. Adding returns tracking is out of scope for this phase. / It isn't in the specification we signed in September.
+@d_why: 项目里的 **scope** 是「双方白纸黑字约定要做的事」，**out of scope** 就是「不在约定范围内」——它说的是计划和合同，不是能力，所以比 ✗ We can't do it. 客观得多，对方不会觉得你在推脱。加上 **for this phase**，等于告诉对方「不是永远不做，只是不在这一期」，给后面谈条件留了门。直译 ✗ It's not in our range. 不对（range 是数值范围）。顺序也重要：先用一句话表示理解（I see why it matters.），再说 out of scope，再给依据（the specification we signed）——这正是第三册练过的「拒绝要给原因和替代方案」。只扔一句 That's out of scope. 就停，会显得很官僚；反过来，中国式的「我们研究一下」会让对方以为有戏，两周后再说不行，伤害更大。
+@d_when: 客户、经理或其他团队临时加需求；评审会上判断一个新想法该不该放进这一期。
+@d_vs: **I see why it matters, but adding returns tracking is out of scope for this phase.** 我理解它很重要，但加退货跟踪不在这一期的范围内。（对客户）\n**That's out of scope for now.** 这个暂时不在范围内。（对同事，简短）\n**It isn't in the specification we signed.** 它不在我们签的需求说明里。（给依据）\n✗ This is not in our range.\n✗ We can't do it.（没有原因，也没有替代方案）
+@d_task: Daniel 想在下周上线前加一个「批量打印面单」功能。先表示理解，再说明它不在这一期的范围内，最后给一个去处。 | I see why that would help, but bulk label printing is out of scope for this phase. We can look at it for the next release.
+@diff: 「加的话就得推迟」——If we add it now, we'll need to push the launch by two weeks.
+@d_cn: 想让对方明白「加需求就要推迟」，中文常说「加的话就来不及了」「那就得往后推」，急了还会说「这样肯定赶不上！」
+@d_en: If we add it now, we'll need to push the launch by two weeks. / If we keep the date, we'll need to drop something else. / If we add twenty sellers, testing will take an extra week.
+@d_why: 第一条件句 **If + 一般现在时, … will …** 把「选择」和「后果」平平静静地摆在桌面上，让对方自己权衡，比 ✗ It's impossible! 冷静，也不像在拒绝——决定权交给了对方。最常见的语法错误是 if 从句里也用 will：✗ If we will add it now…（第四册结尾的薄弱项之一）。**we'll need to** 比 we must 柔和，听起来是「客观需要」，而不是「我们不愿意」。**push … by two weeks** 里的 by 表示差额（推迟两周），和第三册 increase by / to 是同一个道理：push the launch **by** two weeks = 推迟两周；push the launch **to** November 11 = 推迟到 11 月 11 日。用错一个介词，客户记下的日期就错了。
+@d_when: 讨论需求变更、人手、预算；向客户或经理说明一个选择的代价。
+@d_vs: **If we add it now, we'll need to push the launch by two weeks.** 如果现在加，上线就得推迟两周。\n**If we keep the date, we'll need to drop something else.** 如果日期不变，就得砍掉别的。\n**push the launch to November 11** 推迟到 11 月 11 日（to + 新日期）\n✗ If we will add it now, we need push the launch two weeks.\n✗ It's impossible to add it!
+@d_task: 告诉 Priya：如果再加 20 个卖家，测试就要多花一周。 | If we add twenty more sellers, testing will take an extra week.
+@diff: 「作为交换」——We can do it in exchange for…
+@d_cn: 谈判时自己让一步、也要对方让一步，中文说「这样吧，我们可以做，但报表得往后放」「大家各让一步」。
+@d_en: We can do it in exchange for moving the custom reports to phase two. / It's a swap, not an addition. / Giving up the reports is a big concession for us.
+@d_why: **in exchange for** 后面接名词或 -ing（✗ in exchange for move / ✗ in exchange of），把「我们给什么」和「你们让什么」放进同一句话，对方一听就明白这是一笔公平的交易。中文「可以做，但是……得……」直译成 ✗ We can do it, but you must move the reports. 像在下命令；in exchange for 更中性，也把选择权留给了对方。**swap**（对调）是口语，强调「总量不变」：It's a swap, not an addition.——这句话让 Priya 一下子明白了为什么日期能保住。**concession**（让步）偏正式，多用来说自己放弃了什么：Priya 说 Giving up the reports is a big concession for us.；对客户当面说 ✗ Thank you for your concession. 很生硬，林晓在邮件里写的是 Thanks for being flexible today.。最后，交换的东西一定要具体（moving the custom reports to phase two），别说 ✗ something else。
+@d_when: 需求变更、价格谈判、排期冲突；和同事换班、换任务也能用。
+@d_vs: **We can do it in exchange for moving the custom reports to phase two.** 我们可以做，条件是把定制报表挪到第二期。\n**It's a swap, not an addition.** 这是一换一，不是多加一项。（口语）\n**Thanks for being flexible.** 谢谢你通融。（感谢对方让步）\n✗ We can do it, but you must move the reports.\n✗ in exchange of moving the reports
+@d_task: 对同事说：你可以帮他周五值班，交换条件是他帮你值周日的班。 | I can cover your Friday shift in exchange for you covering my Sunday shift.
+@diff: 「需求越加越多」scope creep；「说好的又变了」move the goalposts
+@d_cn: 项目需求一点点往上加，中文说「需求越加越多」「没完没了地改」；对方一再改标准，说「怎么又变了」「说好的又不算了」。
+@d_en: I want to avoid scope creep. / Let's write it up as a change request. / Priya keeps moving the goalposts.（只在内部说）
+@d_why: **scope creep** 是项目管理的常用词：creep 是「悄悄爬」，每次只加一点，加着加着上线日期就没了。它描述的是现象，不指责任何人，所以在会上、在客户面前都能说。**move the goalposts**（挪球门）是说对方中途改规则、改标准，带明显的抱怨——Emma 散会后私下说一句可以，当着 Priya 说 ✗ You keep moving the goalposts. 就等于说她不讲理，林晓马上提醒 never say that to her face。英文里防范 scope creep 最实际的办法是 **change request**（变更申请）：新需求一律写下来，写清影响、谁提出（requester）、谁批准。中国同事常因为不好意思拒绝，口头说「好的，我们尽量」，结果需求越积越多；把它书面化（formalize），本身就是一种礼貌的「刹车」。
+@d_when: scope creep：项目会议、向经理汇报风险；change request：任何正式的变更；move the goalposts：只在内部、和信得过的同事之间。
+@d_vs: **I want to avoid scope creep.** 我想避免需求越加越多。（中性，对谁都能说）\n**Let's write it up as a change request.** 我们把它写成一份变更申请吧。（正式流程）\n**Priya keeps moving the goalposts.** Priya 老是临时改标准。（抱怨，只在内部说）\n✗ You keep moving the goalposts!（当着客户说，太冲）
+@d_task: 客户第三次口头加新功能。用英文礼貌地说：我们想避免需求越加越多，所以把它写成变更申请吧。 | We'd like to avoid scope creep, so let's write it up as a change request.
+
+@core: I see why it matters. … is out of scope for this phase. | 先理解，再说明新需求不在本期范围 | returns tracking / bulk printing；this phase / this release | 正式：While we understand its importance, this request falls outside the scope of phase one.｜随意：Good idea, but it's not in this round.
+@core: It isn't in the specification we signed. | 给出范围的依据 | the specification / the contract / the plan we agreed on | 正式：This requirement is not included in the signed specification.｜随意：It's not in the spec.
+@core: If we add it now, we'll need to … | 用第一条件句说后果 | push the launch by two weeks / add two engineers / drop the filters | 正式：Adding it at this stage would require a two-week delay.｜随意：If we add it, we're looking at two more weeks.
+@core: Let's separate the must-haves from the nice-to-haves. | 区分刚需和可选，找出对方真正要什么 | must-haves / nice-to-haves；essential / optional | 正式：Could we distinguish between essential and optional requirements?｜随意：What do you really need on day one?
+@core: Could a basic version substitute for now? | 探一个更小的替代方案 | a basic version / a manual report / a weekly export | 正式：Would a simplified version be acceptable as an interim solution?｜随意：Would a basic version do for now?
+@core: We can do it in exchange for -ing … | 用交换条件守住日期和人手 | moving the custom reports to phase two / dropping the filters | 正式：We can accommodate this request if the custom reports are deferred to phase two.｜随意：We can do it if we swap out the reports.
+@core: Let's write it up as a change request. | 把口头约定书面化，走正式流程 | a change request / a short proposal | 正式：I'll submit a formal change request for approval.｜随意：Let's put it in writing.
+@core: I want to avoid scope creep. | 说明守范围的理由（中性，不指责） | scope creep / last-minute changes | 正式：Our priority is to protect the agreed scope and timeline.｜随意：Let's not let this snowball.
+
+@pw: specification | ˌspesɪfɪˈkeɪʃn | 5 个音节 spe·ci·fi·CA·tion | 主重音在 ca，次重音在 spe；口语缩写 spec 读 `/spek/`
+@pw: concession | kənˈseʃn | 3 个音节 con·CES·sion | 重音在 ces；con 弱读成 `/kən/`；ss 读 `/ʃ/`
+@pw: unforeseen | ˌʌnfɔːrˈsiːn | 3 个音节 un·fore·SEEN | 主重音在 seen；fore 读 `/fɔːr/`，要卷舌
+@pw: deviate | ˈdiːvieɪt | 3 个音节 DE·vi·ate | 重音在第一个音节，de 读长音 `/diː/`；不读 de-VI-ate
+@pw: requester | rɪˈkwestər | 3 个音节 re·QUES·ter | 重音在 ques；qu 读 `/kw/`；结尾 `/ər/` 卷舌
+@pw: formalize | ˈfɔːrməlaɪz | 3 个音节 FOR·ma·lize | 重音在 for；ma 弱读成 `/mə/`；结尾 `/aɪz/`
+@pw: add-on | ˈædɑːn | 2 个音节 ADD·on | 名词重音在前；动词短语 add on 重音在后：add ON；美式 on 读 `/ɑːn/`
+@ps: I **see** why it **mat**ters. / Adding re**turns** tracking is out of **scope** / for **this** phase. | 先用下降语调表示理解，停一下再转折；this 重读，暗示「只是这一期不做，以后可以谈」；out of 连读，t 闪音：`/ˈaʊɾəv/`。
+@ps: If we **add**‿it **now**, / we'll **need** to push the **launch** / by **two weeks**. | if 从句语调微升，停顿后主句下降；add it 连读成 a-dit；we'll 弱读成 `/wəl/`，need to 连成 `/ˈniːtə/`；two weeks 两个词都重读，这是这句话的「价钱」。
+@ps: We can **do**‿it / in ex**change** for **mov**ing the **cus**tom re**ports** / to phase **two**. | can 弱读成 `/kən/`，重音落在 do 上——说「能做」时，美国人重读动词，而不是 can；exchange 重音在 change；for 弱读成 `/fər/`。
+@ps: Let's **write**‿it **up** / as a **change** request. | write it up 连读成 wri-di-DUP，两个 t 都闪音；change request 是复合名词，重音在 change；句末下降，语气是建议，不是命令。
+@pnote: can 和 can't 是这一课的听力关键：We can do it… 里 can 弱读成 `/kən/`，几乎听不见；we can't absorb the extra work 里 can't 读完整的 `/kænt/`，元音饱满，t 常常只做口型不爆破。听的时候靠元音分辨，别等那个 t——听错一个，意思就全反了。we'll 也很轻，`/wil/` 甚至 `/wəl/`。
+@pnote: 复合名词重音在第一个词：**change** request、**scope** creep、**base**line、**add**-on、**must**-have、**nice**-to-have、**sta**tus page。名词和动词短语重音相反：an **add**-on（名词）vs add **on**（动词）；a **write**-up（一份书面总结）vs write it **up**。数字和日期永远是重点：phase **two**、**two** weeks、October twenty-**eighth**。
+@lfocus: 谁提了什么：Priya → returns tracking（after the holidays）；Raj → "a simple add-on"；Emma → the specification / the spec；Mike → additional carrier data，can't absorb
+@lfocus: 数字和时间：two weeks、September、November、phase one / phase two、October 28
+@lfocus: 决定和行动项：basic returns page ↔ custom reports（swap）；change request；requester = Priya；Karen approves
+@dict: S9–S13
+@dict: S27–S30
+@res: 在 youglish.com 输入 "out of scope"，选 US，听美国人在会上怎么温和地说「这不在范围内」。
+
+@mimic: 跟读【C】S1–S19：先正常语速逐句跟读，重点模仿 S3 先理解再转折的语调、S7 条件句的停顿和 S13 里重读的 do；再你演林晓，手机朗读 Priya、Emma 和 Mike 的台词，完整对一遍并录音。然后读 S20–S24，注意 Emma 私下抱怨和林晓提醒她时语气的差别。最后把邮件 S26–S31 当成你自己写的，用平稳的语气读一遍。
+@swap: Adding returns tracking is out of scope for this phase. | 换需求：bulk label printing／a Canada option／a new dashboard；换时间：for this release／for now | A new dashboard is out of scope for this release.
+@swap: If we add it now, we'll need to push the launch by two weeks. | 换条件和后果：add ten more sellers → one more week of testing；keep the date → drop the filters | If we keep the date, we'll need to drop the filters.
+@swap: We can do it in exchange for moving the custom reports to phase two. | 换交换条件：pushing the training to November／removing the export button | We can do it in exchange for pushing the training to November.
+@swap: Let's write it up as a change request. | 换：a bug report／a short proposal／an action item | Let's write it up as a short proposal.
+@free: 卖家 Sarah 想在本周上线前加一个「多语言通知」功能（不在本期范围；可以放进下一个版本） | Multilingual notifications are out of scope for this release. I see why they'd help, so I'll add them to our list for the next version.
+@free: 张涛问你：要是答应 Priya 的完整版退货跟踪，会怎样？（测试多一周，开发多一周，上线推到 11 月 11 日，已经进入旺季） | If we add the full version, we'll need to push the launch by two weeks. That moves it to November 11, which is already in their peak season.
+@free: 同事请你周五替他做演示。你可以，但希望他帮你做周报里的数据部分 | Sure, I can do the demo on Friday in exchange for some help with my weekly report. Could you take the numbers section?
+@free: 客户在电话里又口头加了一个小要求。你想礼貌地把它变成书面流程 | Happy to look at it, but let's write it up as a change request. That way, we can check the impact and get it approved properly.
+@output: 录一段 2 分钟的会议发言（录音）：客户在会上临时提出一个新需求，你代表团队回应。先表示理解（I see why it matters.）→ 说明不在本期范围（out of scope for this phase）并给依据 → 用条件句说后果（If we add it now, we'll need to…）→ 区分 must-haves 和 nice-to-haves → 提出交换条件（in exchange for…）→ 提议写成 change request，说清谁提出、谁批准 → 用一个问题收尾（Does that work for everyone?）。可以用 BrightNest 的场景，也可以换成你工作中或学校里被临时加码的事。
+@output_sample: Thanks for raising this, Priya. I see why returns tracking matters, especially after the holidays. But let me be clear about where we are. Adding returns tracking is out of scope for this phase. It isn't in the specification we signed in September, and Mike's team is already fully booked. If we add the full version now, we'll need to push the launch by two weeks. That would put us right in the middle of your peak season, and nobody wants that. So let's separate the must-haves from the nice-to-haves. From what you've said, a basic status page is a must-have, and the filters are optional. Here's my proposal. We can build the basic page in exchange for moving the custom reports to phase two. It's a swap, not an addition, so the team and the launch date stay the same. The full version, with filters, can go into phase two as well. I know giving up the reports is a real concession for your team, so if one report is truly essential on day one, please tell me today. Finally, I want to avoid scope creep for both of us. Let's write it up as a change request. I'll draft it this afternoon. You'll be listed as the requester, and Karen will need to approve it. Does that work for everyone?
+
+@check: 听力：Priya 想加什么？为什么？Emma 和 Mike 分别用什么理由回应？ | 她想在上线时就加退货跟踪，因为每年节后退货都会猛增。Emma：九月签的需求说明（specification）里没有这一项；Mike：退货要用另外一套承运商数据，可能有意想不到的问题，而且团队消化不了额外的工作量（can't absorb the extra work）。
+@check: 听力：最后谈成了什么交换？上线日期变了吗？谁是申请人、谁来批准？ | 第一期做一个基础的退货状态页面（筛选功能不做），定制报表挪到第二期——一换一（a swap）；上线日期不变，仍是 10 月 28 日；写成变更申请，Priya 是申请人（requester），Karen 批准。
+@check: 改错：✗ If we will add it now, we need push the launch two weeks. | If we add it now, we'll need to push the launch by two weeks.（if 从句用一般现在时；need to + 动词原形；推迟的时长前用 by）
+@check: 换个场景：经理让你这周多带 10 个卖家。你可以接，交换条件是把月度报告推到下周。用 in exchange for 说。 | I can take on ten more sellers this week in exchange for moving the monthly report to next week.
+@check: 下面哪句只适合在内部说？为什么？① I want to avoid scope creep. ② She keeps moving the goalposts. ③ Let's write it up as a change request. | ②。move the goalposts 带抱怨和指责，当着客户说等于说她不讲理；①③ 是中性的项目说法，对客户也能说。
+@check: 用两句英文把一个新 App 的需求分成 must-haves 和 nice-to-haves：登录、查物流、深色模式、生日祝福推送。 | The must-haves are logging in and tracking orders. Dark mode and birthday messages are nice-to-haves.
+@next1: 不看书说出 5 个锚点句：S3、S7、S13、S19、S22
+@next1: 想一个你工作或生活中被临时加码的要求，用 out of scope / If we…, we'll… / in exchange for 各说一句回应
+@next7: 应对需求变更：理解 → out of scope for this phase + 依据 → If we add it now, we'll… → must-haves vs nice-to-haves → in exchange for → change request
+@next7: scope creep（中性，对谁都能说）vs move the goalposts（抱怨，只在内部说）；push the launch by two weeks vs to November 11

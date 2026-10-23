@@ -1,0 +1,170 @@
+@day: 109
+@week: 3
+@title_cn: 根本解决方案
+@title_en: The Long-Term Fix
+@topic: 和客户开视频会：工程团队提出长期方案（统一状态代码 + 自动校验，分两期上线），协调人把它讲成客户听得懂、愿意买单的话
+@think_short: 「彻底解决」fix it once and for all（不说 solve it thoroughly）｜「原因查清了吗」Have you gotten to the bottom of it?｜「分两期」roll it out in two phases / phase one｜「从今以后」From now on, … will be validated｜「长远来看」in the long run｜「被动 / 主动」reactive / proactive（不说 passive / active）
+
+@goal_scene: 主持一场和客户的视频会：请工程团队讲长期方案，再帮着把它讲成客户听得懂的话——为什么不能只靠临时办法、方案具体做什么、分哪两期、谁负责多久，投入大但为什么值得。
+@goal_expr: We want to fix this once and for all. / Have you gotten to the bottom of it? / The long-term fix is to standardize the status codes. / From now on, every new status will be validated. / We'll roll it out in two phases. / It's a bigger investment, but it's worthwhile. / In the long run, it's cheaper than fixing statuses by hand.
+@goal_vocab: 20 个重点词 + 5 个短语：长期方案、系统改造、测试与校验、分阶段上线、投入与回报
+@done: 能用 once and for all / The long-term fix is to… 提出一个根治方案，并用 From now on, every new … will be + 过去分词 宣布新规则
+@done: 能用 phase one / in phase two / roll out 说清分期安排：每期做什么、在谁那边（on our side / on your side）、要多久
+@done: 能「先认代价、再讲回报」：It's a bigger investment, but it's worthwhile. In the long run, …；能分清 reactive / proactive 和 passive / active
+
+@warmup: 暂时先由我们手动更正这些状态。 | For the time being, we'll correct the statuses manually. | D108
+@warmup: 这只是权宜之计，但能给我们争取一些时间。 | It's a band-aid solution, but it buys us some time. | D108
+@warmup: 这样长期下去是撑不住的。 | This isn't sustainable in the long run. | D108
+@warmup: 问题出在一张过时的状态映射表上。 | The problem stems from an outdated status mapping. | D106
+@warmup: Kevin 和张涛从大学起就认识了。 | Kevin and Tom have known each other since college. | D31
+@warmup: 这次宕机是由一次数据库更新引发的。 | The outage was triggered by a database update. | D86
+
+@scene: 周二早上九点，西雅图和美国那边还是周一晚上。试点第一周的状态错误已经止住了：Mike 的团队打了一个热修复，补上了出问题的那几个代码；自动同步先关着，状态靠人手更正。可大家都明白，这只是权宜之计——热修复只管得了「已知的」代码，BrightNest 哪天再加一个新代码，同样的事还会发生。Mike 和 Ana 拿出了一个长期方案：统一两家公司的状态代码，再加上自动校验，分两期上线。今天的视频会由林晓主持。她要请 Mike 和 Ana 讲方案，更要帮着把技术方案讲成 BrightNest 听得懂、愿意买单的话：Priya 讲数据，最关心原因查清没有、要不要大动干戈、贵不贵；Raj 说话快，追问以后加新代码怎么办、十一月单量翻倍扛不扛得住。BrightNest 原计划九月就全面上线，现在看来要往后推了。
+@sp: 人物关系 | 林晓是会议主持人和项目协调人；Mike（西雅图工程经理）和 Ana（测试工程师）是方案的提出者；Priya（BrightNest 运营经理）看原因、成本和进度；Raj（BrightNest IT 负责人）问技术细节。合作中出过问题，但今天的气氛是「一起解决问题」
+@sp: 沟通目的 | 让 BrightNest 理解并同意长期方案：为什么临时办法不够、方案具体做什么、分哪两期、各由谁负责、要多久，投入大但为什么值得
+@sp: 已知信息 | 原因已经查清：SwiftLink 一张过时的映射表对不上 BrightNest 的状态代码，分箱发货的订单被提前显示成「已送达」，约 2% 的试点订单受影响。热修复已上线，但只覆盖已知代码；自动同步还关着；BrightNest 原计划九月全面上线
+@sp: 表达重点 | 表决心（once and for all）→ 追问原因（get to the bottom of）→ 方案核心（The long-term fix is to…）→ 新规则（From now on, … will be validated）→ reactive → proactive → 分期（two phases / phase one / in phase two）→ 用长远利益说服（a bigger investment, but worthwhile / in the long run）
+
+@story_title: Episode 109 · Once and for All
+@story_type: 视频会议 + 工作群消息
+@s: At nine, Lily hosts a video call with Mike, Ana, Priya and Raj. | 早上九点，林晓主持一场视频会，参加的有 Mike、Ana、Priya 和 Raj。
+@s: Lily: Mike, can you walk us through the long-term fix? | 林晓：Mike，你能给我们讲讲长期方案吗？
+@s: Mike: Our hotfix only covers the codes we know about. | Mike：我们的热修复只管得了已知的那些代码。
+@s: Mike: We want to fix this **once and for all**. | Mike：我们想一劳永逸地解决这个问题。
+@s: Priya: First, have you really **gotten to the bottom of** it? | Priya：先问一句，你们真的把原因查清楚了吗？
+@s: Ana: Yes. An **audit** of every pilot order found one cause: the mapping. | Ana：查清了。我们把每一个试点订单都核查了一遍，原因只有一个：映射表。
+@s: Priya: So is this a complete **overhaul**? | Priya：那这是要全部大改吗？
+@s: Mike: No, we won't **redesign** the system. | Mike：不用，我们不会重新设计整个系统。
+@s: Ana: We'll just **refactor** the part that reads your statuses. | Ana：我们只重构读取你们状态的那一部分代码。
+@s: Mike: The long-term fix is to **standardize** the status codes. | Mike：长期方案是把状态代码统一起来。
+@s: Mike: Both companies will use one list of twelve statuses. | Mike：两家公司用同一张清单，一共十二个状态。
+@s: Raj: What if we add a code later? | Raj：那要是我们以后又加了一个代码呢？
+@s: Ana: That's where **validation** comes in. | Ana：这就要靠校验了。
+@s: Ana: **From now on**, every new status will be **validated**. | Ana：从现在起，每一个新状态都会经过校验。
+@s: Ana: If a code isn't on the list, the order is flagged, not marked "Delivered." | Ana：如果某个代码不在清单上，订单会被标记出来，而不是显示成「已送达」。
+@s: Mike: Right now, we're **reactive**. Your customers find problems before we do. | Mike：现在我们是被动的：你们的客户比我们先发现问题。
+@s: Mike: This makes us **proactive**. | Mike：有了校验，我们就能主动发现问题。
+@s: Ana: I've written forty **test cases** for a full **regression** test. | Ana：我写了四十个测试用例，用来做一次完整的回归测试。
+@s: Raj: Our volume doubles in November. Is it **scalable**? | Raj：十一月我们的单量会翻倍。它扛得住吗？
+@s: Mike: Yes, it's **robust**. Twice the volume is fine. | Mike：扛得住，它很稳。两倍的量没问题。
+@s: Priya: What's the timeline? | Priya：时间安排呢？
+@s: Mike: We'll roll it out in two **phases**. | Mike：我们分两期上线。
+@s: Mike: Phase one is on our side: one list plus validation. It takes two weeks. | Mike：第一期在我们这边：统一清单加上校验，需要两周。
+@s: Mike: In phase two, Raj's team switches to the same codes. | Mike：第二期，Raj 的团队把你们那边换成同一套代码。
+@s: Raj: A **phased** **rollout** makes sense. I'll check our release calendar. | Raj：分期上线说得通。我查一下我们的发布日程。
+@s: Priya: It sounds expensive. | Priya：听起来不便宜。
+@s: Lily: It's a bigger **investment**, but it's **worthwhile**. | 林晓：投入是大一些，但值得。
+@s: Lily: **In the long run**, it's cheaper than fixing statuses by hand. | 林晓：从长远看，这比手动改状态便宜。
+@s: Lily: It's a **durable** fix and a solid **foundation** for the launch. | 林晓：而且这是一个持久的解决办法，也为正式上线打下扎实的基础。
+@br:
+@s: After the call, Lily messages Tom: | 会后，林晓给张涛发了条消息：
+@s: BrightNest agreed to the two-phase fix. The full launch moves to October. | BrightNest 同意了分两期的修复方案。正式上线推到十月。
+@s: Ana will send them a **comprehensive** report every Friday. | Ana 每周五会给他们发一份完整的测试报告。
+
+@v: once and for all | = | phr. | ˌwʌns ən fər ˈɔːl | 一劳永逸地；彻底地（从此不再出这个问题） | 问题反复出现，下决心根治 | fix it once and for all；settle it once and for all；once and for all, … | Let's settle the shipping question once and for all. | 运费的事，我们这次彻底定下来吧。 | 中文「彻底解决」别说 ✗ solve it thoroughly——thoroughly 是「做得仔细、全面」，不保证以后不再出；也不说 ✗ solve it from the root。once and for all 语气坚决，适合会上表态；正式邮件里常换成冷静的 a permanent fix。and 弱读成 `/ən/`，for 弱读成 `/fər/`，重音落在 all。
+@v: gotten to the bottom of | get to the bottom of | phr. | ˌɡɑːtn tə ðə ˈbɑːtəm əv | 查清（真正的原因）；追根究底 | 追问对方是否真的找到了原因 | get to the bottom of it；get to the bottom of the problem；still trying to get to the bottom of… | We need to get to the bottom of these missing packages. | 这些丢失的包裹，我们得查个水落石出。 | 美式完成时用 gotten：Have you gotten to the bottom of it?（英式用 got）；后面接事情（it / the problem），不接人；D77 的 find the root cause 偏书面，get to the bottom of 更口语、更有「一查到底」的决心；bottom 的 tt 闪音，像 BAH-dum。
+@v: audit | = | n./v. | ˈɔːdɪt | （逐项的）全面核查；审核；（财务）审计 | 把数据、订单、流程系统地查一遍 | do an audit；a data audit；audit every order | We do an audit of all seller accounts every quarter. | 我们每个季度都把所有卖家账户核查一遍。 | 别只记成「审计」：在 IT 和运营里，audit 就是「系统地逐个核查」，不一定和财务有关；名词、动词同形：We audited every order.；au 读 `/ɔː/`，很多美国人读得接近 `/ɑː/`。
+@v: overhaul | = | n./v. | ˈoʊvərhɔːl | （系统、流程的）全面翻修；大改 | 讨论要不要「大动干戈」 | a complete overhaul；overhaul the system；need an overhaul | Our billing process needs a complete overhaul. | 我们的计费流程需要彻底大改。 | 名词重音在前 a complete ˈoverhaul，动词重音在后 to overˈhaul `/ˌoʊvərˈhɔːl/` the system；overhaul 是「从头到尾翻修一遍」，只改一处说 fix / update，否则客户会以为工程量很大；h 要发出来，别读成 over-all。
+@v: redesign | = | v./n. | ˌriːdɪˈzaɪn | 重新设计 | 产品、系统、页面的结构要改 | redesign the system；a complete redesign；redesign the page | They redesigned the tracking page last year. | 他们去年重新设计了追踪页面。 | g 不发音，s 读 `/z/`：ree-di-ZINE；redesign 是「重新规划结构和样子」，用户能看出变化；中文「推倒重来」口语说 start from scratch，比 redesign 更彻底。
+@v: refactor | = | v. | ˌriːˈfæktər | （程序员）重构代码：功能不变，只把内部结构改清楚 | 工程师说明技术方案 | refactor the code；refactor a module；a refactor（口语名词） | We need to refactor this code before we add new features. | 加新功能之前，我们得先重构这段代码。 | 这是工程师的行话，用户看不到任何变化——这正是它和 redesign 的区别；对业务方说的时候最好补一句解释，像 Ana 那样说清只改哪一部分；重音在 FAC。
+@v: standardize | = | v. | ˈstændərdaɪz | 统一（标准）；使标准化 | 统一代码、格式、流程 | standardize the codes；standardize the process；a standardized format | We standardized the file names, so everyone can find them. | 我们统一了文件命名，这样谁都找得到。 | 中文「统一格式、统一标准」用 standardize，不说 ✗ unify the format（unify 多指国家、组织「统一、联合」）；美式拼写 -ize，英式 -ise；重音在第一个音节 STAN。
+@v: validation | = | n. | ˌvælɪˈdeɪʃn | （数据的）校验；验证 | 系统自动检查数据是否合规 | add validation；data validation；fail validation | The form shows an error if validation fails. | 校验不通过时，表单会提示错误。 | 「校验」「验证」在技术语境里都是 validation；不可数，一般不加 a：add validation；注意重音移动：ˈvalidate → valiˈdation，加了 -tion 以后重音落在它前面的 da 上。
+@v: From now on | from now on | phr. | frəm ˌnaʊ ˈɑːn | 从现在起；从今以后（做法变了，并且一直这样） | 宣布新规则、新做法 | from now on, …；starting from now；from now on, every… will be… | From now on, all refunds will be checked by Grace. | 从现在起，所有退款都由吴佳审核。 | on 不能丢：✗ From now, …；也不说 ✗ Since now on；后面多接将来时或一般现在时，宣布规则时常配被动：every new status will be validated。D86 的 going forward 意思相近，更偏书面和管理层。
+@v: validated | validate | v. | ˈvælɪdeɪtɪd | 校验；验证（按规则检查数据是否有效） | 说明数据进入系统前要经过检查 | be validated；validate the data；validate an address | Every address is validated before the label is printed. | 每个地址在打印面单之前都会经过校验。 | 数据是「被」校验的，要用被动：✓ every status will be validated，✗ every status will validate（第三册的被动语态）；validate 是「按规则判断是否有效」，check 更泛；重音在 VAL，-ted 读 `/tɪd/`。
+@v: reactive | = | adj. | riˈæktɪv | 被动应对的；出了事才处理的 | 描述团队做事的方式 | a reactive approach；be reactive；too reactive | Our support team is too reactive. We only act after customers complain. | 我们客服太被动了，总是客户投诉了才行动。 | 中文「我们太被动了」别说 ✗ We're too passive.——passive 多指人的性格消极，或语法上的被动语态；做事方式上的「被动应对」是 reactive，和 proactive 成对出现。
+@v: proactive | = | adj. | ˌproʊˈæktɪv | 主动的；防患于未然的 | 描述提前发现、预防问题 | a proactive approach；be proactive about…；proactive alerts | Be proactive. Tell the client about a delay before they ask. | 要主动：客户还没问，就先告诉他延误的事。 | 「主动」不说 ✗ active（active 是「活跃的、积极参与的」）；proactive 是美国职场高频的夸人词：She's very proactive.；pro 读 `/proʊ/`，重音在 AC。
+@v: test cases | test case | phr. | ˈtest ˌkeɪsɪz | 测试用例（一条条具体的测试场景） | 测试工程师说明怎么测 | write test cases；add a test case；a test case for… | Ana wrote a test case for every status code. | Ana 给每个状态代码都写了一个测试用例。 | 复合名词，重音在前：TEST case；「测试用例」不说 ✗ test example；可数，常用复数；cases 结尾读 `/sɪz/`。
+@v: regression | = | n. | rɪˈɡreʃn | 回归（测试）；（改动后）原有功能出了问题 | 软件改动后把旧功能再测一遍 | a regression test；regression testing；cause a regression | Run the regression tests before every release. | 每次发版前都要跑一遍回归测试。 | regression test 是「改了新东西以后，把原来的功能全部再测一遍，看有没有被弄坏」；工程师口中 a regression 本身也指「改动后旧功能变坏了」的 bug；重音在 GRES，-ssion 读 `/ʃn/`。
+@v: scalable | = | adj. | ˈskeɪləbl | 可扩展的（量大了也撑得住） | 讨论业务量增长时系统能不能应对 | a scalable system；a scalable solution；Is it scalable? | The old process worked for ten sellers, but it isn't scalable. | 老流程对十个卖家管用，可规模一大就撑不住。 | 中文「扛不扛得住」「能不能放量」可以问 Is it scalable? / Will it scale?；动词 scale up（扩大规模）；-able 读 `/əbl/`，重音在 SCA。
+@v: robust | = | adj. | roʊˈbʌst | 稳健的；经得起考验的（不容易出错） | 评价系统、方案、流程 | a robust system；robust testing；more robust | We need a more robust process for handling returns. | 我们需要一套更稳健的退货处理流程。 | 技术语境里的「稳定、可靠、健壮」常说 robust；它比 stable 更强调「出了意外也扛得住」；重音在 BUST，也有人读成 ˈroʊbʌst。
+@v: phases | phase | n. | ˈfeɪzɪz | 阶段；（项目的）一期、二期 | 分阶段推进项目 | in two phases；phase one；the next phase | The project has three phases, and we're in phase two now. | 项目分三期，我们现在在第二期。 | 「第一期」说 phase one（数字在后，不加 the）或 the first phase；ph 读 `/f/`，s 读 `/z/`：FAY-ziz；项目计划里「阶段」用 phase 比 step 显得有规划。
+@v: phased | = | adj. | feɪzd | 分阶段的；分批的 | 描述分批上线、逐步推进 | a phased rollout；a phased approach；phase in / phase out（动词短语） | A phased approach lowers the risk. | 分阶段推进能降低风险。 | 只有一个音节 FAYZD，-ed 读 `/d/`，不读 ✗ phase-ed；动词短语 phase in / phase out 是「逐步引入 / 逐步淘汰」。
+@v: rollout | = | n. | ˈroʊlaʊt | （新系统、新功能的）推出；上线 | 说上线的安排和节奏 | a phased rollout；the rollout plan；a slow rollout | The rollout starts with our biggest sellers. | 上线先从我们最大的卖家开始。 | 名词连写成一个词，重音在前：ROLL-out；动词短语分开写，重音在后：roll it OUT（本课 We'll roll it out in two phases.）；和 D83 的 go live 比，roll out 更强调「一步步推出去」。
+@v: investment | = | n. | ɪnˈvestmənt | 投入（钱、时间、人力） | 承认一个方案花得多 | a big investment；an investment in…；a worthwhile investment | Training new staff is an investment in the future. | 培训新员工是对未来的投入。 | 不只指「投资理财」：工程师的时间、团队的人力都是 investment；可数：a bigger investment；重音在 VEST。
+@v: worthwhile | = | adj. | ˌwɜːrθˈwaɪl | 值得的；值得花时间（钱）的 | 说一件事有代价但有回报 | well worthwhile；a worthwhile investment；It's worthwhile. | The trip was long, but it was worthwhile. | 路很远，但很值得。 | 写成一个词；「值得」也可以说 It's worth it.，但不能说 ✗ It's worth.；worth 后面接名词或 -ing：worth the money / worth trying；th 咬舌后马上接 w，重音在 WHILE。
+@v: In the long run | in the long run | phr. | ɪn ðə ˌlɔːŋ ˈrʌn | 从长远看；最终 | 用长期的好处说服别人 | in the long run；cheaper in the long run；pay off in the long run | Good packaging saves money in the long run. | 好的包装长远来看更省钱。 | ✗ in the long time / ✗ in a long run；in the long run 口语、会议最常用，书面也可以写 in the long term；修饰名词时用形容词 long-term（D89，要加连字符）：a long-term fix。
+@v: durable | = | adj. | ˈdʊrəbl | 持久的；耐用的 | 说方案长期有效、东西结实 | a durable solution；durable packaging；durable goods | We use durable boxes for heavy items. | 重的东西我们用结实耐用的箱子装。 | 东西「耐用」和方案「持久有效」都能用 durable；美式读 `/ˈdʊrəbl/`，开头像「都」，不读成 dew-；反义的「临时的」是 temporary 或 D108 的 stopgap。
+@v: foundation | = | n. | faʊnˈdeɪʃn | 基础；根基 | 说一件事为以后打基础 | a solid foundation；lay the foundation；the foundation for… | Clean data is the foundation of a good report. | 干净的数据是一份好报告的基础。 | 「打基础」说 lay the foundation (for…)，不说 ✗ make a base；foundation 还有「基金会」和化妆品「粉底」的意思；重音在 DA。
+@v: comprehensive | = | adj. | ˌkɑːmprɪˈhensɪv | 全面的；详尽的 | 说检查、测试、报告覆盖了所有方面 | a comprehensive report；comprehensive testing；a comprehensive review | We did a comprehensive review of all our contracts. | 我们把所有合同全面审查了一遍。 | 「全面的」不说 ✗ all-round（偏指人「全面发展」）；comprehensive 偏正式，口语也可以说 a full report；不要和 comprehensible（能理解的）混；主重音在 HEN。
+
+@diff: 「彻底解决」——fix it once and for all / get to the bottom of it
+@d_cn: 一个问题反复出现，临时办法撑不下去了。你要表态：这次「彻底查清」，而且「彻底解决」，以后不再出现。
+@d_en: We want to fix this once and for all. / Have you gotten to the bottom of it? / We need a permanent fix, not another patch.
+@d_why: 中文一个「彻底」包办了两层意思：「查得彻底」（把原因查到底）和「解决得彻底」（以后不再出）。英文要分开说：原因查到底是 **get to the bottom of it**（D77 的 find the root cause 是更书面的说法）；从此不再出现是 **once and for all**，书面上常说 **a permanent fix**。直译 ✗ solve it thoroughly 不对：thoroughly 是「做得仔细、全面」，检查得再仔细也不等于以后不出问题；✗ solve it from the root 是中式说法。once and for all 带着决心，语气比较强，在会上表态很合适；写给客户高层的正式邮件里，换成冷静的 a permanent fix / a long-term fix 更稳。还有一点：说完 once and for all，美国同事会马上等你的下一句——具体方案（The long-term fix is to…），否则听起来只是在喊口号。Priya 那句 Have you really gotten to the bottom of it? 也是美国客户的典型追问：先确认原因查清，再谈方案。
+@d_when: 会上提出长期方案、向客户表态这次一定根治；追问同事原因是否真的查清了。
+@d_vs: **We want to fix this once and for all.** 我们想一劳永逸地解决这个问题。（会上表态，语气坚决）\n**Have you gotten to the bottom of it?** 原因真的查清了吗？\n**We need a permanent fix, not another patch.** 我们要的是彻底修好，不是再打一个补丁。（偏书面）\n✗ We will solve it thoroughly.\n✗ We will solve it from the root.
+@d_task: 用英文说：「临时办法已经撑不住了。这次我们要彻底解决，长期方案是统一模板。」 | The workaround isn't working anymore. We want to fix this once and for all. The long-term fix is to standardize the template.
+@diff: 「长远来看」——in the long run / It's a bigger investment, but it's worthwhile.
+@d_cn: 一个方案眼下花钱多、费事，你要说服对方：长远来看是划算的。
+@d_en: It's a bigger investment, but it's worthwhile. / In the long run, it's cheaper than fixing statuses by hand. / It's a durable fix.
+@d_why: 中文「长远来看」「从长期看」直译成 ✗ in the long time / ✗ from a long view 都不对。英文会议里最常用 **in the long run**；稍正式的书面说法是 **in the long term**；放在名词前用形容词 **long-term**（a long-term fix，要加连字符）。更重要的是说服的顺序：美国人习惯**先认代价，再讲回报**——It's a bigger investment, but it's worthwhile. 先坦白承认贵，对方才相信你后面说的好处。中文习惯先把好处讲足，成本最后轻描淡写带一句，在讲数据的美国客户（比如 Priya）听来像在推销，她会自己追问 How much? 注意 but 前后两个重读：**big**ger 和 **worth**while。worthwhile 是「值得花时间、花钱」，口语也说 It's worth it.，但 ✗ It's worth. 后面少了东西。
+@d_when: 说服客户或上司批准一个「贵但长远划算」的方案；解释为什么不再用临时办法。
+@d_vs: **It's a bigger investment, but it's worthwhile.** 投入是大一些，但值得。\n**In the long run, it's cheaper than fixing statuses by hand.** 从长远看，这比手动改状态便宜。\n**In the long term, this will reduce our costs.** 长期来看，这会降低成本。（更书面）\n✗ In the long time, it's cheaper.\n✗ It's expensive, but it's worth.
+@d_task: 说服张涛买新的扫描枪：贵一些，但值得；长远来看比现在每天手动录单号省钱。 | It's a bigger investment, but it's worthwhile. In the long run, it's cheaper than typing tracking numbers by hand every day.
+@diff: 「分两期」——We'll roll it out in two phases.
+@d_cn: 一个改动不一次全上，而是「分两期」「分两步走」：先做哪部分、谁负责、多久，再做哪部分。
+@d_en: We'll roll it out in two phases. / Phase one is on our side. It takes two weeks. / In phase two, Raj's team switches to the same codes. / A phased rollout makes sense.
+@d_why: 中文「分两期」「一期、二期」「分两步走」，英文项目里最常用 **phase**：in two phases、**phase one**（数字放后面，不加 the）或 the first phase。「推出、上线」是动词短语 **roll out**（roll it out，重音在 out），名词连写成 **rollout**（重音在前），常说 a **phased rollout**（分阶段上线）。✗ divide it into two steps to go online 是逐字直译；step 是更小的「步骤」，项目计划里说 phase 显得有规划。讲分期时，每一期都要说清三件事：**做什么、在谁那边（on our side / on your side）、要多久（It takes two weeks.）**——Mike 就是这样讲的，Raj 一听就知道第二期是他的活，马上说要查发布日程。中文开会常说「先这样，后面再看」，美国客户听到会追问 Who does what, by when?
+@d_when: 说明项目计划、系统上线、流程改革的安排；和客户分工。
+@d_vs: **We'll roll it out in two phases.** 我们分两期上线。\n**Phase one is on our side. It takes two weeks.** 第一期在我们这边，需要两周。\n**A phased rollout makes sense.** 分阶段上线说得通。\n✗ We will divide it into two steps to go online.\n✗ The first phase is our side.（→ on our side）
+@d_task: 告诉客户：新看板分两期推出，第一期本月给运营团队用，第二期下个月给全部卖家用。 | We'll roll out the new dashboard in two phases. Phase one is for the operations team this month. In phase two, all sellers get it next month.
+@diff: 「从今以后」——From now on, every new status will be validated.
+@d_cn: 宣布一条新规矩、一种新做法：从这一刻起改了，以后都这样。
+@d_en: From now on, every new status will be validated. / Going forward, we'll send an alert within ten minutes. / Starting next week, every report will use one template.
+@d_why: 中文「从今以后」「以后一律」「从现在开始」，英文最自然的是 **From now on, …**：强调「从现在起做法变了，而且一直这样」。后面接将来时或一般现在时；宣布规则时主语常常是「东西」，所以要用**被动**：every new status will **be validated**（第三册的薄弱项在这里正好用上）。常见错误：✗ From now, …（少了 on）、✗ Since now on、✗ every new status will validate（状态不会自己校验）。D86 学过的 **going forward** 意思接近，更像管理层和书面语；有具体起点时用 **Starting + 时间**（Starting next week, …，D105 的 Starting from Monday 也是这个结构）。From now on 语气坚定，对自己团队说没问题；对客户宣布一条要他们配合的新规则时，最好补一句原因，否则像在下命令。
+@d_when: 宣布新规则、新流程；事故以后承诺新的做法；给自己定一个新习惯。
+@d_vs: **From now on, every new status will be validated.** 从现在起，每个新状态都会经过校验。\n**Going forward, we'll send an alert within ten minutes.** 今后我们会在十分钟内发出提醒。（偏书面、管理层）\n**Starting next week, every report will use one template.** 从下周开始，所有报表都用同一个模板。\n✗ From now, we check every code.\n✗ From now on, every new status will validate.
+@d_task: 宣布新规矩：「从今以后，所有退款都要经过吴佳审核。」（用被动） | From now on, every refund will be reviewed by Grace.
+
+@core: We want to fix this once and for all. | 下决心根治一个反复出现的问题 | fix this / settle this / solve the address problem | 正式：Our goal is a permanent fix.｜随意：Let's fix this for good.
+@core: Have you gotten to the bottom of it? | 追问原因是否真的查清 | it / the problem / these delays | 正式：Have you identified the root cause?｜随意：Do we know what really happened?
+@core: The long-term fix is to … | 说出长期方案的核心 | standardize the status codes / add validation / train every new agent | 正式：The long-term solution is to standardize the status codes across both systems.｜随意：Long term, we just need one set of codes.
+@core: From now on, every new … will be validated. | 宣布从今往后的新规则（被动） | status / address / contract；validated / checked / reviewed | 正式：Going forward, all new status codes will be validated.｜随意：From now on, we check every new code.
+@core: Right now, we're reactive. This makes us proactive. | 对比现在和改进以后的做事方式 | reactive / proactive；this / validation / the new alert | 正式：This shifts us from a reactive to a proactive approach.｜随意：We'll catch problems before customers do.
+@core: We'll roll it out in two phases. Phase one is on our side. In phase two, … | 说清分期安排和分工 | two / three phases；on our side / on your side；It takes two weeks. | 正式：The rollout will take place in two phases.｜随意：We'll do it in two steps.
+@core: It's a bigger investment, but it's worthwhile. | 先承认代价，再说值得 | bigger / bit more of an；worthwhile / worth it | 正式：While the initial investment is higher, it is well worthwhile.｜随意：It costs more, but it's worth it.
+@core: In the long run, it's cheaper than … | 用长远的好处说服对方 | cheaper / safer / faster；fixing statuses by hand / hiring more people | 正式：In the long term, this approach will reduce our costs.｜随意：It'll save us money down the road.
+
+@pw: standardize | ˈstændərdaɪz | 3 个音节 STAN·dard·ize | 重音在第一个音节；dard 弱读成 `/dərd/`；-ize 读 `/aɪz/`
+@pw: validation | ˌvælɪˈdeɪʃn | 4 个音节 val·i·DA·tion | 主重音在 da；对比 ˈvalidate 重音在 VAL——加了 -tion，重音移到它前面的音节
+@pw: overhaul | ˈoʊvərhɔːl | 3 个音节 O·ver·haul（名词） | 名词重音在前：a complete ˈoverhaul；动词重音在后：to overˈhaul the system。名词前重、动词后重，和 ˈincrease / inˈcrease 一样
+@pw: rollout | ˈroʊlaʊt | 2 个音节 ROLL·out | 名词重音在前；动词短语 roll it out 重音在 out
+@pw: comprehensive | ˌkɑːmprɪˈhensɪv | 4 个音节 com·pre·HEN·sive | 主重音在 hen；com 读 `/kɑːm/`，嘴张大
+@pw: worthwhile | ˌwɜːrθˈwaɪl | 2 个音节 worth·WHILE | 卷舌的 `/ɜːr/` 之后咬舌发 th，再马上圆唇发 w；主重音在 while
+@pw: regression | rɪˈɡreʃn | 3 个音节 re·GRES·sion | 重音在 gres；re 弱读成 `/rɪ/`；结尾 -ssion 读 `/ʃn/`
+@ps: We want to **fix** this / **once**‿and for **all**. | once and 连成 `/wʌnsən/`；for 弱读成 `/fər/`；all 是全句最重、最长的音，语调落下，听起来有决心。
+@ps: It's‿a **big**ger in**vest**ment, / but‿it's **worth**while. | 前半句承认代价，bigger 重读、语调微升；后半句转折，worthwhile 重读、语调落下。but it's 的 t 闪音，连成 `/bʌɾɪts/`。
+@ps: We'll **roll**‿it‿**out** / in **two** **phas**es. | roll it out 连成 `/roʊlɪɾaʊt/`，it 的 t 闪音像轻轻的 d；动词短语重音在 out；two 是信息重点，要重读。
+@ps: From now **on**, / every **new** **sta**tus / will be **val**idated. | will be 弱读成 `/wəl bi/`；status 美式两种读法都常见：`/ˈsteɪtəs/` 或 `/ˈstætəs/`；validated 的 -ted 读 `/tɪd/`。
+@pnote: 复合名词重音在第一个词：**test** cases、**sta**tus codes、re**gres**sion test、re**lease** calendar、**pi**lot order。名词和动词的重音对子：a complete ˈ**o**verhaul（名词）/ to over**haul**（动词）；the ˈ**roll**out（名词）/ roll it **out**（动词短语）。会上 Priya 问 a complete overhaul? 时，overhaul 是名词，重音在前；听的时候靠重音分辨它是「一件事」还是「一个动作」。
+@pnote: 弱读：have you really gotten… 里的 have you 读成 `/həvjə/`，gotten 的 tt 美式常变成喉塞音 `/ˈɡɑːʔn/`，几乎听不到 t；What if we 连成 `/wʌɾɪf wi/`。数字和名词要记下来：twelve（不是 twenty）、forty test cases（FOR-ty，重音在前，不是 four-TEEN）、two weeks、November。
+@lfocus: 方案：standardize the status codes（one list, twelve statuses）+ validation（flagged, not "Delivered"）
+@lfocus: 分期和分工：phase one → our side, two weeks；phase two → Raj's team, same codes；Raj → release calendar
+@lfocus: 谁问了什么：Priya → bottom of it? overhaul? expensive?；Raj → new code later? scalable in November?
+@dict: S10–S15
+@dict: S22–S25
+@res: 在 youglish.com 输入 "once and for all"，选 US，听美国人下决心「彻底解决」时的语气。
+
+@mimic: 跟读【C】S1–S29：先正常语速逐句跟读，重点模仿 S4 once and for all 的坚定语气、S14 From now on 的新规则语气和 S27 先认代价再转折的重音（**big**ger…**worth**while）；再由你演林晓和 Mike，手机朗读 Priya、Ana 和 Raj 的台词，完整对一遍并录音。最后只看 S22–S25，用自己的话把两期安排讲一遍。
+@swap: We want to fix this once and for all. | 换对象：the address problem／these late payments／the shipping question | We want to solve the address problem once and for all.
+@swap: The long-term fix is to standardize the status codes. | 换方案：add validation／train every new agent／move everything to one system | The long-term fix is to train every new agent.
+@swap: We'll roll it out in two phases. | 换数字和对象：three phases／the new dashboard／the price change | We'll roll out the new dashboard in three phases.
+@swap: From now on, every new status will be validated. | 换主语和动作：order → checked；contract → reviewed by legal；password → changed every 90 days | From now on, every new contract will be reviewed by legal.
+@free: 部门的报表格式五花八门，老是出错。你在会上提议彻底解决：统一模板，从下周起所有报表都用同一个模板 | We want to fix this once and for all. The long-term fix is to standardize the template. Starting next week, every report will use the same one.
+@free: 经理嫌新系统太贵。你承认投入大，但说明值得：现在每周两个人各花半天手工核对数据 | It's a bigger investment, but it's worthwhile. Right now, two people spend half a day every week checking data by hand. In the long run, the new system is cheaper.
+@free: 客户追问：你们真的查清原因了吗？你说查清了：每个订单都核查过，问题只出在一个地方 | Yes, we've gotten to the bottom of it. We audited every order, and the only cause was the outdated mapping.
+@free: 向客户说明上线分两期：第一期在你们这边、两周完成；第二期需要他们的 IT 团队换成新代码 | We'll roll it out in two phases. Phase one is on our side, and it takes two weeks. In phase two, your IT team switches to the new codes.
+@output: 录一段 2 分钟的会议发言（录音）：针对你工作或生活中一个反复出现的问题，向上司或客户提出「根治」方案：先说现状（Right now, we're reactive…）→ once and for all → 原因已查清（We've gotten to the bottom of it.）→ The long-term fix is to… → 分两期：phase one… / in phase two… → From now on, every … will be + 过去分词 → 先认代价再说回报（a bigger investment, but worthwhile / in the long run）→ 用一个问题收尾。
+@output_sample: Thanks, everyone. I'd like to propose a long-term fix for our invoice errors. Right now, we're reactive. We find mistakes when customers call us, and then we correct them by hand. That isn't sustainable, so we want to fix this once and for all. The good news is that we've gotten to the bottom of it. We use three different invoice templates, and two of them are outdated. The long-term fix is to standardize them into one template. We'll roll it out in two phases. Phase one is on our side: the finance team builds the new template and tests it. That takes two weeks. In phase two, the sales team switches to it, and we train everyone in one short session. From now on, every invoice will be validated before it goes out, so a wrong price is flagged automatically. I know it's a bigger investment than another quick patch. It's about forty hours of work. But it's worthwhile. In the long run, it's cheaper than fixing invoices by hand every week, and it gives us a solid foundation for next year, when our volume grows. Does anyone see a problem with the timeline?
+
+@check: 听力：长期方案的核心是哪两件事？分哪两期，各在谁那边，第一期要多久？ | 统一状态代码（standardize the status codes：两家公司用同一张清单，共 12 个状态）和加校验（validation：不在清单上的代码会被标记出来）。第一期在 SwiftLink 这边（统一清单 + 校验），需要两周；第二期由 Raj 的团队把 BrightNest 那边换成同一套代码。
+@check: 听力：Priya 和 Raj 各提了哪些问题？Priya 嫌贵时，林晓给了哪几个理由？ | Priya：原因真的查清了吗（gotten to the bottom of it）、是不是要全部大改（overhaul）、时间安排、贵不贵。Raj：以后再加新代码怎么办、十一月单量翻倍扛不扛得住（scalable）。林晓：投入大但值得；从长远看比手动改状态便宜；这是持久的解决办法，也为正式上线打基础。
+@check: 改错：✗ We will solve it thoroughly, and from now every new code will validate. | We'll fix it once and for all, and from now on, every new code will be validated.（「彻底解决」用 once and for all；from now on 的 on 不能丢；代码是被校验的，用被动 will be validated）
+@check: 中文「我们现在太被动了，得主动一点」怎么说？ | Right now, we're too reactive. We need to be more proactive.（不说 ✗ passive / ✗ active）
+@check: 换个场景：公司要换新的报销系统，先在财务部试用两周，下个月再推到全公司。用 phase 和 roll out 说两三句。 | We'll roll out the new expense system in two phases. Phase one is the finance team, for two weeks. In phase two, it goes to the whole company next month.
+@check: 名词还是动词？说出重音位置：① a complete overhaul ② We need to overhaul the system. ③ the rollout plan ④ We'll roll it out. | ① ˈoverhaul（名词，重音在前）② overˈhaul（动词，重音在后）③ ˈrollout（名词，重音在前）④ roll it ˈout（动词短语，重音在 out）
+@next1: 不看书说出 5 个锚点句：S4、S10、S14、S22、S27
+@next1: 用 phase one / in phase two 说一说你最近要分两步完成的一件事
+@next1: 用「先认代价、再说回报」说服朋友买一件贵但耐用的东西：It's a bigger investment, but… In the long run, …
+@next7: 长期方案五句：once and for all → The long-term fix is to… → From now on, … will be validated → two phases → a bigger investment, but worthwhile
+@next7: reactive / proactive、overhaul / redesign / refactor 各造一句关于你自己工作的话

@@ -1,0 +1,169 @@
+@day: 96
+@week: 1
+@title_cn: 介绍两个人认识
+@title_en: Introducing People by Email
+@topic: 客户想直接找懂 API 的工程师：先选对人、先征得同意，再写一封「为什么你们该认识」的介绍邮件，然后得体地退出
+@think_short: 「我介绍你们认识」I'd like to introduce you to…｜介绍要说「为什么该聊」｜「久仰」I've heard great things about…｜「把你移到密送」Moving you to bcc.
+
+@goal_scene: 客户方新来的 IT 负责人想直接和懂 API 的工程师谈。你先和经理、产品经理商量谁最合适，征得工程经理同意，再写一封介绍邮件：各用一句话介绍双方、说清为什么该聊、建议下一步，然后把舞台交给他们；对方回信时把你移到密送，你也要明白这是礼貌。
+@goal_expr: Raj, I'd like to introduce you to Mike Carter. / Mike leads our engineering team in Seattle. / I think you two should talk about the API. / I'll let you two take it from here. / Thanks, Lily! Moving you to bcc. / I've heard great things about your team.
+@goal_vocab: 20 个重点词 + 5 个短语：介绍人和专长、过往经历、为什么该认识、邮件礼节（cc / bcc）、人脉
+@done: 能写一封 6–10 句的介绍邮件：先叫客户一方 → I'd like to introduce you to… → 双方各一句简介 → I think you two should talk about… → 建议下一步 → I'll let you two take it from here.
+@done: 能用 I've heard great things about… 表达「久仰」，不再说 ✗ I've heard your name for a long time.
+@done: 被别人介绍后，会在回信第一行写 Thanks, …! Moving you to bcc.，并分清 cc 和 bcc 的用法
+
+@warmup: 抱歉，我临时有事，周二来不了了。 | I'm sorry, something came up and I can't make it on Tuesday. | D95
+@warmup: 这两个时间您看哪个方便？ | Would either of these times work for you? | D95
+@warmup: 把演示提前到周一吧。 | Let's bring the demo forward to Monday. | D95
+@warmup: Priya 你好，最近一切都好吧？ | Hi Priya, hope you're doing well. | D92
+@warmup: 我们认识十年了。 | We've known each other for ten years. | D58
+@warmup: 写这封邮件，是想跟您确认新的配送时效。 | I'm writing to confirm the new delivery times. | D65
+
+@scene: 周二，林晓和 BrightNest 的 Priya、Raj 开了个短会。Raj 上个月才加入 BrightNest，当 IT 负责人；他说话快、问题细，开口就是 webhook 和批量推送。他不想再通过协调人转来转去，想直接和一个懂 API 的工程师谈。挂了电话，林晓去问张涛和 Emma：该介绍 Mike，还是西雅图新来的测试工程师 Ana？张涛和 Emma 的意见很一致，但张涛加了一句：介绍之前，先问问 Mike 本人愿不愿意——这是美国职场的规矩。Mike 两分钟就回了。林晓随即写了一封介绍邮件，一个小时后 Raj「全部回复」，第一句就把林晓移到了密送。实习生 Leo 看了有点不服气：这是不是不太礼貌？
+@sp: 人物关系 | 林晓是服务方的项目协调人，Raj 是客户方新来的 IT 负责人，Mike 是西雅图的工程经理——Raj 和 Mike 是职位、专业都对等的「同行」；张涛、Emma 帮林晓选人；Leo 在旁边学
+@sp: 沟通目的 | 把对的两个人连起来，并让他们一看就知道为什么值得聊；介绍完就退出，让 Raj 和 Mike 自己约时间，不让项目协调人变成传话筒
+@sp: 已知信息 | Raj 需要一个专门做 webhook 的工程师，BrightNest 的状态是成批推送的；API 是 Mike 的专长，Ana 主要负责测试；Priya 一直很信任 Mike；Mike 已经同意被介绍，并要了 Raj 的简介
+@sp: 表达重点 | 选人（ideal / suitable / expertise）→ 先征得同意 → 介绍邮件：先叫客户 → I'd like to introduce you to… → 双方各一句简介（expert / track record / former）→ 为什么该聊（perspective / complement）→ 建议下一步（an introductory call）→ I'll let you two take it from here. → 对方回信：Moving you to bcc. / I've heard great things about…
+
+@story_title: Episode 96 · Raj, Meet Mike
+@story_type: 三方短会 + 内部商量 + 介绍邮件 + 回信
+@s: On Tuesday, Lily calls Priya and Raj. | 周二，林晓和 Priya、Raj 通了个电话。
+@s: Priya: Raj is new, and he has API questions. | Priya：Raj 刚来，他对 API 有些问题。
+@s: Raj: I need an engineer who **specializes** in webhooks. We send statuses in batches. | Raj：我需要一个专门做 webhook 的工程师。我们的状态是成批推送的。
+@s: Lily: I'll connect you with the right person today. | 林晓：我今天就帮你联系合适的人。
+@br:
+@s: Then Lily asks Tom and Emma. | 随后，林晓去问张涛和 Emma。
+@s: Lily: Who's the **ideal** person, Mike or Ana? | 林晓：最合适的人选是 Mike 还是 Ana？
+@s: Tom: Mike. Raj wants a **fellow** engineer, and the API is Mike's **expertise**. | 张涛：Mike。Raj 要找的是同行的工程师，而 API 正是 Mike 的专长。
+@s: Emma: Ana knows testing, but she isn't **suitable** for API design. | Emma：Ana 懂测试，可 API 设计的问题找她不太合适。
+@s: Emma: And Priya already sees Mike as a **trusted** **advisor**. | Emma：而且 Priya 早就把 Mike 当成信得过的顾问了。
+@s: Tom: Good. But ask Mike first. | 张涛：好。不过介绍之前，先问问 Mike 本人。
+@s: Mike replies: "Happy to help. Send me Raj's **bio**." | Mike 回复：「乐意帮忙。把 Raj 的简介发我。」
+@br:
+@s: Lily writes to both. The subject line is "Raj, meet Mike." | 林晓给两人写了一封邮件，标题是「Raj，认识一下 Mike」。
+@s: Hi Raj and Mike, | Raj、Mike，你们好：
+@s: Raj, **I'd like to introduce you to** Mike Carter. | Raj，我想介绍你认识 Mike Carter。
+@s: Mike leads our engineering team in Seattle. | Mike 负责我们西雅图的工程团队。
+@s: He's an **expert** on our API, with a strong **track record**. | 他是我们 API 方面的专家，过往的项目做得一直很出色。
+@s: Mike, Raj is BrightNest's new IT lead and a **former** software architect. | Mike，Raj 是 BrightNest 新来的 IT 负责人，以前做过软件架构师。
+@s: I think you two should talk about the API. | 我觉得你们俩应该聊聊 API。
+@s: Raj brings BrightNest's **perspective**, so you'll **complement** each other. | Raj 带来的是 BrightNest 那边的视角，你们俩正好互补。
+@s: A short **introductory** call before the pilot would be **beneficial** for both teams. | 试点之前先开个简短的认识会，对双方团队都有好处。
+@s: I'll let you two **take it from here**. | 接下来就交给你们俩了。
+@s: Best,\nLily | 祝好！\n林晓
+@br:
+@s: Within an hour, Raj replies to all: | 不到一个小时，Raj 点了「全部回复」：
+@s: Thanks, Lily! **Moving you to bcc**. | 谢谢你，Lily！我把你移到密送了。
+@s: Mike, **I've heard great things about** your team from Priya. | Mike，常听 Priya 夸你们团队。
+@s: Your **insight** into our batch updates would be **valuable**. Are you free Wednesday?\nRaj | 你对我们批量推送这块的见解会很有价值。周三你有空吗？\nRaj
+@br:
+@s: Leo: Raj put you in **bcc**. Isn't that rude? | Leo：Raj 把你放到密送了，这不是有点失礼吗？
+@s: Lily: No, it's polite. Now it's a chat between **peers**. | 林晓：不，这是礼貌。我的任务完成了，接下来是同行之间的事。
+@s: Tom: Nice work. That's how you build a **network**: one **acquaintance** at a time. | 张涛：干得漂亮。人脉就是这样，一个一个认识出来的。
+
+@v: specializes | specialize | v. | ˈspeʃəlaɪzɪz | 专门从事；专攻 | 介绍某人的专业方向、找对口的人 | specialize in…；specialize in webhooks；a specialized team | Ana specializes in mobile testing. | Ana 专门做手机端的测试。 | 后面接 in：✗ specialize on / ✗ specialize at；接动作用 -ing：specialize in testing；英式拼作 specialise；ci 读 `/ʃ/`：SPE-sha-lize；做这一行的人是 specialist。
+@v: ideal | = | adj. | aɪˈdiːəl | 理想的；最合适的 | 挑人选、选时间、选方案 | the ideal person；ideal for…；an ideal time | Thursday is the ideal day for the call. | 周四是开这个电话会最理想的日子。 | ideal 本身就是「最理想」，正式文字里少说 the most ideal；后面接 for：the ideal person for this；副词 ideally 常放句首：Ideally, we'd start on Monday.；读三个音节 i-DEE-al `/aɪˈdiːəl/`，别和 idea 混。
+@v: fellow | = | adj. | ˈfeloʊ | 同为……的；同行的 | 说两个人身份相同：同行、同事、同学 | a fellow engineer；fellow students；fellow passengers | It's easier to talk to a fellow engineer. | 跟同行的工程师沟通更容易。 | 放在名词前表示「和我（你）一样是……的人」：fellow engineers（同行）、fellow passengers（同车的乘客）；单独做名词 a fellow 是「家伙」，口气老派；读 `/ˈfeloʊ/`，结尾是 `/oʊ/`。
+@v: expertise | = | n. | ˌekspɜːrˈtiːz | 专长；专业知识和技能 | 说某人最擅长什么 | his expertise；expertise in…；technical expertise | We don't have the expertise to build this ourselves. | 我们没有自己做这个的专业能力。 | 不可数：✗ an expertise / ✗ expertises；「API 是他的专长」The API is his expertise. 或 His expertise is in APIs.；expert 是人，expertise 是本事；重音在最后：ex-per-TEEZ，结尾读 `/z/`。
+@v: suitable | = | adj. | ˈsuːtəbl | 合适的；适合的 | 说某人、某时间、某方案合不合适 | suitable for…；a suitable time；not suitable for… | Is this room suitable for twenty people? | 这个房间够二十个人用吗？ | ideal 是「最理想」，suitable 只是「合适、够格」，语气客观、偏正式；说某人「不合适」更委婉的口语是 She isn't the right fit for this.；后面接 for，✗ suitable to me；t 闪音，听起来像 SOO-da-bl。
+@v: trusted | = | adj. | ˈtrʌstɪd | 受信任的；信得过的 | 介绍值得信赖的同事、伙伴、顾问 | a trusted advisor；a trusted partner；a trusted source | She's one of our most trusted partners. | 她是我们最信得过的合作伙伴之一。 | trusted 是「被别人信任的」，trustworthy 是「值得信任的」（说人品）；a trusted advisor 是商务里的固定搭配，指客户真正听得进去意见的那个人；-ed 读 `/ɪd/`。
+@v: advisor | = | n. | ədˈvaɪzər | 顾问；出主意的人 | 说某人在项目里给专业建议 | a trusted advisor；a technical advisor；an advisor to… | Kevin is our technical advisor on security. | 李凯是我们安全方面的技术顾问。 | 美式常拼 advisor，也可拼 adviser；三个词别混：动词 advise `/ədˈvaɪz/`（结尾 z）、名词 advice `/ədˈvaɪs/`（结尾 s，不可数，✗ an advice）、人 advisor。
+@v: bio | = | n. | ˈbaɪoʊ | （简短的）个人简介 | 介绍人、会议嘉宾、团队页面 | a short bio；send sb your bio；a speaker bio | Please send a short bio for the event program. | 请发一份简短的个人简介，放进活动手册。 | bio 是 biography 的口语缩写，职场里指两三句话的简介：现在的职位、过去的经历、专长；「个人简介」不说 ✗ personal introduction；读 BYE-oh `/ˈbaɪoʊ/`。
+@v: I'd like to introduce you to | = | phr. | aɪd ˈlaɪk tə ˌɪntrəˈduːs ju tə | 我想介绍你认识…… | 当面或在邮件里正式、得体地介绍两个人 | I'd like to introduce you to…；Let me introduce you to…；I'm connecting you with… | Karen, I'd like to introduce you to our new intern, Leo. | Karen，我想介绍你认识我们新来的实习生 Leo。 | 句型是 introduce A to B：✗ introduce you Mike / ✗ introduce you to know Mike；先叫的那个人一般是客户或更资深的一方；第二册学过 introduce，这里是一整句套路；更随意的说法是 Raj, meet Mike.（常用作邮件标题）
+@v: expert | = | n. | ˈekspɜːrt | 专家；行家 | 介绍某人在某方面很懂 | an expert on/in…；a data expert；expert advice | Raj is an expert on order systems. | Raj 是订单系统方面的专家。 | 名词重音在前 EX-pert；介词用 on 或 in：an expert on APIs、an expert in logistics；中文「专家」用得很宽，英文 expert 分量较重，介绍同事时也可以说得口语一点：He knows our API inside out.
+@v: track record | = | phr. | ˈtræk ˌrekərd | 过往业绩；一贯的表现 | 介绍某人、某公司过去做成过什么 | a strong track record；a proven track record；a track record of… | The company has a proven track record of on-time delivery. | 这家公司在准时交付方面一向有可靠的记录。 | 本义是运动员在跑道上的成绩记录；用来说「他过去做成过很多同类的事」，比 ✗ He is very experienced 更有说服力，最好再带一个例子；record 在这里是名词，重音在前；复合名词重音落在 track：TRACK record。
+@v: former | = | adj. | ˈfɔːrmər | 以前的；前任的 | 介绍某人过去的职位或身份 | a former architect；my former boss；former colleagues | My former boss still sends me job tips. | 我以前的老板现在还会给我推荐工作机会。 | 只放在名词前：a former architect，✗ He is former.；「前同事」former colleague，口语也说 ex-colleague；the former … the latter 是「前者……后者」，偏书面。
+@v: perspective | = | n. | pərˈspektɪv | 视角；（某一方的）看法 | 说某人能带来哪一方的观点 | from our perspective；BrightNest's perspective；a fresh perspective | It helps to hear the seller's perspective. | 听听卖家的角度很有帮助。 | perspective 强调「站在哪个位置看」：from the customer's perspective；比 view 正式，第 99 天的 point of view 口语一些；对某事的看法用 on：a new perspective on the problem；重音在 SPEC。
+@v: complement | = | v. | ˈkɑːmplɪment | 互补；补足 | 说两个人、两种能力正好互补 | complement each other；complement our team；complement sth perfectly | Their skills complement each other. | 他们俩的能力正好互补。 | complement（互补）和 compliment（称赞）读音一样，只差一个字母：e 想成 complete（补全），i 想成 I like it（夸人）；✗ They compliment each other. 是「他们互相夸」；名词 complement 结尾读 `/mənt/`。
+@v: introductory | = | adj. | ˌɪntrəˈdʌktəri | 介绍性的；初次认识的；入门的 | 第一次见面的会、入门课程 | an introductory call；an introductory meeting；an introductory course | Let's set up a short introductory call next week. | 我们下周约一个简短的认识会吧。 | an introductory call 是「先认识一下」的电话会，不深谈细节；an introductory price 是「首发优惠价」；名词 introduction 第三册学过；重音在 DUC：in-tro-DUC-to-ry。
+@v: beneficial | = | adj. | ˌbenɪˈfɪʃl | 有益的；有好处的 | 说一件事对一方或双方有好处 | beneficial for/to…；mutually beneficial；be beneficial | Regular exercise is beneficial to your health. | 经常锻炼对健康有好处。 | 偏正式，口语多说 helpful / good for；mutually beneficial（互利的）是商务常用搭配；名词 benefit；重音在 FI：be-ne-FI-cial，ci 读 `/ʃ/`。
+@v: take it from here | = | phr. | ˌteɪk ɪt frəm ˈhɪr | 从这儿接手；接下来交给你（们） | 介绍完人、交接完工作后退出 | I'll let you take it from here.；I'll take it from here.；Can you take it from here? | Thanks for the background, Leo. I'll take it from here. | 谢谢你把情况说清楚，Leo，接下来我来处理。 | I'll take it from here. 是「我来接手」；I'll let you two take it from here. 是「我退出，你们俩接着聊」——介绍邮件最标准的收尾；it 泛指这件事，不用换成别的词。
+@v: Moving you to bcc | move sb to bcc | phr. | ˌmuːvɪŋ ju tə ˌbiː siː ˈsiː | （回复时）把你移到密送 | 被介绍的人回信时，把介绍人移出收件人 | Moving you to bcc.；move Lily to bcc；(Lily to bcc) | Thanks for connecting us, Tom! Moving you to bcc. | 谢谢你帮我们牵线，张涛！我把你移到密送了。 | 这是美国职场的礼节：介绍人的任务完成了，移到密送既免得他收到后面一长串邮件，又让他看到你已经跟进；一般写在回信第一行，也常写成 (Moving Lily to bcc.)；别写 ✗ I removed you.（像把人踢出去）。
+@v: I've heard great things about | = | phr. | aɪv ˈhɜːrd ˈɡreɪt ˌθɪŋz əˌbaʊt | 常听人夸……；久仰 | 第一次联系或见面时表示好感 | I've heard great things about you.；…about your team；…about your work on… | I've heard great things about your new app. | 早就听说你们的新 App 很棒。 | 「久仰」别直译成 ✗ I've heard your name for a long time.；这里用现在完成时 I've heard（一直以来都听说），'ve 很轻但要说出来；加上消息来源更真诚：from Priya；I've heard a lot about you. 是中性的，好话坏话都有可能。
+@v: insight | = | n. | ˈɪnsaɪt | 见解；深入的了解 | 请对方分享专业看法 | insight into…；valuable insight；share your insights | Thanks for your insight into the data. | 谢谢你对这些数据的分析。 | insight 是「看得深、说到点子上」，比 opinion 有分量；介词用 into：insight into our batch updates；可数不可数都行：Any insights?；重音在前 IN-sight。
+@v: valuable | = | adj. | ˈvæljuəbl | 有价值的；很有用的 | 说某人的意见、经验、时间很宝贵 | valuable insight；valuable feedback；valuable experience | Your feedback was really valuable. | 你的反馈真的很有用。 | invaluable 不是「没价值」，而是「无价的、极其宝贵的」；valuable 说意见、经验时是「很有用」，说东西时是「值钱」：valuable items；读三个音节 VAL-yu-bl `/ˈvæljuəbl/`。
+@v: bcc | = | n./v. | ˌbiː siː ˈsiː | 密送（blind carbon copy） | 写邮件时选择收件人 | in bcc；bcc sb；cc or bcc | I'll bcc my manager on the reply. | 我回信时会密送给我的经理。 | cc 是「抄送」，所有人都看得到；bcc 是「密送」，其他收件人看不到——介绍完退出、群发时保护大家的邮箱都用它；别用 bcc 偷偷让领导看你和同事的争执，对方一点「全部回复」就穿帮了；三个字母，重音在最后：B-C-C。
+@v: peers | peer | n. | pɪrz | 同级的人；同行 | 说职位、专业对等的人之间的沟通 | talk to a peer；peers in other companies；peer review | It's easier to ask a peer than your boss. | 问同级的同事比问老板容易。 | peer 是「地位、职位、专业相当的人」，和第三册的 counterpart（对方公司里对口的人）意思接近，但更宽；peer review 是「同行评审」；读 `/pɪr/`，和 pier 同音。
+@v: network | = | n. | ˈnetwɜːrk | 人脉；关系网 | 说积累职场人脉 | build a network；a professional network；grow your network | A strong network can help your career. | 好的人脉对职业发展有帮助。 | 中文「人脉」「关系」英文常说 network / connections，✗ relationship 太笼统；也可做动词「结交人脉」：She's good at networking.；重音在前 NET-work。
+@v: acquaintance | = | n. | əˈkweɪntəns | 认识的人；泛泛之交 | 说认识但不熟的人 | an acquaintance；a mutual acquaintance；a business acquaintance | He's not a close friend, just an acquaintance. | 他不是好朋友，只是认识而已。 | acquaintance 是「认识但不熟」，比 friend 远一层；牵线的人常是 a mutual acquaintance（共同认识的人）；c 不发音：ac-QUAIN-tance `/əˈkweɪntəns/`。
+
+@diff: 「我介绍你们认识一下」——I'd like to introduce you to… / I'm connecting you with… / Raj, meet Mike.
+@d_cn: 帮两个不认识的人牵线。中文常说「我介绍你们认识一下」「你们加个微信聊」，名字报完就算完成了。
+@d_en: Raj, I'd like to introduce you to Mike Carter. / I'm connecting you with Mike, who leads our engineering team. / Raj, meet Mike.
+@d_why: 英文介绍有三档：**I'd like to introduce you to…** 最稳，正式、半正式都合适，写给客户就用它；**I'm connecting you with… / I wanted to connect you two** 是现在美国职场邮件里很常见的中性说法；**Raj, meet Mike.** 最随意，常用作邮件标题或当面一句话。句型是 **introduce A to B**，中国学生常漏掉 to 或者加上 know：✗ Let me introduce you Mike. ✗ I introduce you to know each other. 顺序也有讲究：**先叫客户或更资深的一方**（Raj 是客户，所以 Raj, I'd like to introduce you to Mike），再把对方介绍给他。还有一个中文里少见的规矩：介绍之前**先问被介绍的一方愿不愿意**——尤其是比较忙、比较资深的那一位（张涛说 But ask Mike first.），美国人叫 double opt-in。直接把人拉进一封邮件，等于替他答应了别人的时间。
+@d_when: 给客户介绍自己的同事、给同事介绍外部的专家、朋友之间牵线找工作或租房。
+@d_vs: **Raj, I'd like to introduce you to Mike Carter.** Raj，我想介绍你认识 Mike Carter。（稳妥，写给客户）\n**I'm connecting you with Mike, who leads our engineering team.** 我帮你联系上 Mike，他负责我们的工程团队。（中性）\n**Raj, meet Mike.** Raj，认识一下 Mike。（随意，常作标题）\n✗ Let me introduce you Mike.\n✗ I introduce you to know each other.
+@d_task: 把客户 Priya 介绍给你的同事 Grace（Grace 负责客服）。写介绍邮件的第一、二句。 | Priya, I'd like to introduce you to Grace Wu. Grace leads our customer service team in Shenzhen.
+@diff: 介绍要说「为什么你们该认识」——I think you two should talk about…
+@d_cn: 中文介绍常常是「这是 Mike，这是 Raj，你们直接联系吧」，剩下的让两个人自己去琢磨。
+@d_en: Mike leads our engineering team in Seattle. / Raj is BrightNest's new IT lead and a former software architect. / I think you two should talk about the API. / I'll let you two take it from here.
+@d_why: 一封好的英文介绍邮件，读的人要在十秒钟内明白三件事：**对方是谁**（一句话简介：职位＋一个亮点，像 a former software architect / a strong track record）、**为什么值得聊**（具体话题：I think you two should talk about the API.，最好再说明彼此能互补：you'll complement each other）、**下一步是什么**（a short introductory call before the pilot）。两边都要介绍，而且要对称：对 Raj 介绍 Mike，也要对 Mike 介绍 Raj。最后一句 **I'll let you two take it from here.** 是在宣布「我退出了」，这在美国人看来是放手、信任，不是不管——中国学生常担心退出显得冷淡，于是一直留在邮件里传话，结果协调人变成了二传手。
+@d_when: 写任何介绍邮件、在会上给两个人牵线；也适合在群聊里拉人进群时说一句「为什么拉你进来」。
+@d_vs: **Mike leads our engineering team in Seattle.** Mike 负责我们西雅图的工程团队。（他是谁）\n**I think you two should talk about the API.** 我觉得你们俩应该聊聊 API。（为什么）\n**A short introductory call would be beneficial for both teams.** 先开个简短的认识会，对双方都有好处。（下一步）\n**I'll let you two take it from here.** 接下来交给你们俩。（退出）\n✗ This is Mike. This is Raj. Please contact each other.（没说为什么）
+@d_task: 你把 Kevin 介绍给 Raj，说明为什么他们该聊（试点需要给 BrightNest 开二十个测试账号），再说你退出。 | I think you two should talk about the test accounts. BrightNest needs twenty accounts for the pilot. I'll let you two take it from here.
+@diff: 「久仰久仰」——I've heard great things about…
+@d_cn: 第一次联系或见面，中文客气一句「久仰大名」「早就听说过您」。
+@d_en: I've heard great things about your team from Priya. / Priya speaks very highly of you. / It's great to finally connect.
+@d_why: 「久仰」直译成 ✗ I've heard your name for a long time. 或 ✗ Your name is like thunder.，英文里没有这种说法，听起来很怪。英文的「久仰」要说**听到的是好话**：**I've heard great things about you / your team / your work on…**，再加一个消息来源更真诚：from Priya。正式一点可以说 **Priya speaks very highly of you.** 注意两个细节：第一，用现在完成时 **I've heard**——表示「一直以来不断听说」，这正是第二册练过的完成时；美国人口语里也说 I heard great things，但写邮件用 I've heard 最稳，'ve 很轻但别丢。第二，✗ I've heard a lot about you. 本身是中性的——可能是夸，也可能是抱怨，单独用时最好跟一句好话，或者干脆用 great things。
+@d_when: 被介绍后第一次回信、第一次视频会、展会上第一次见到早就知道名字的人。
+@d_vs: **I've heard great things about your team from Priya.** 常听 Priya 夸你们团队。（温暖、得体）\n**Priya speaks very highly of you.** Priya 对你评价很高。（正式一点）\n**It's great to finally connect.** 终于联系上了，太好了。（邮件里的「幸会」）\n✗ I've heard your name for a long time.\n✗ I heard a lot about you.（太含糊，好坏不明）
+@d_task: 张涛把你介绍给 BrightNest 的 Karen。回信第一句表示「久仰」：常听 Priya 夸她的团队。 | It's great to finally connect, Karen. I've heard great things about your team from Priya.
+@diff: 「把你移到密送」——Moving you to bcc.
+@d_cn: 被别人介绍后回信。中文邮件里很少讲究 cc / bcc，一般全部回复，介绍人一直留在邮件里。
+@d_en: Thanks, Lily! Moving you to bcc. / (Moving Tom to bcc.) / Thanks for the introduction, Lily. I've moved you to bcc to spare your inbox.
+@d_why: 美国职场有一个小礼节：被介绍的人回信时，第一句**先谢介绍人，再把他移到密送**——**Thanks, Lily! Moving you to bcc.** 介绍人在密送里，还能看到这第一封回复，知道「我介绍的人已经接上头了」；但后面你们来来回回约时间的邮件，他就不用再收。Leo 以为这是把林晓「踢出去」，其实正相反：这是在替她节省时间。正式一点可以写 I've moved you to bcc to spare your inbox.；随意一点就加个括号 (Lily to bcc)。顺带分清：**cc**（抄送）大家都看得到；**bcc**（密送）其他收件人看不到。群发给很多卖家时用 bcc 保护隐私；但别用 bcc 偷偷让领导看你和同事的争执——对方一点「全部回复」就穿帮了。
+@d_when: 被介绍后第一次回信；介绍人已经完成任务、不需要再跟的邮件串。
+@d_vs: **Thanks, Lily! Moving you to bcc.** 谢谢 Lily！我把你移到密送了。（常用）\n**Thanks for the introduction, Lily. I've moved you to bcc to spare your inbox.** 谢谢介绍，我把你移到密送，免得打扰你。（正式）\n**cc** 抄送：所有人都看得到\n**bcc** 密送：其他收件人看不到\n✗ Lily, I deleted you from this email.
+@d_task: Emma 把你介绍给一位美国卖家 Daniel。回信的第一行怎么写？ | Thanks, Emma! Moving you to bcc.
+
+@core: Raj, I'd like to introduce you to Mike Carter. | 正式介绍两个人（先叫客户或资深的一方） | Raj / Karen / Priya；Mike Carter / Grace Wu | 正式：Raj, allow me to introduce Mike Carter, who leads our engineering team.｜随意：Raj, meet Mike!
+@core: Mike leads our engineering team in Seattle. / Raj is BrightNest's new IT lead. | 一句话介绍对方是谁 | leads / manages / runs；our engineering team / customer service | 正式：Mike Carter heads our engineering team in Seattle.｜随意：Mike runs engineering in Seattle.
+@core: He's an expert on …, with a strong track record. | 介绍对方的专长和过往业绩 | our API / customs data / large integrations | 正式：He has deep expertise in API integrations and a proven track record.｜随意：He knows the API inside out.
+@core: I think you two should talk about … | 说明为什么该认识 | the API / the test accounts / the data format | 正式：I believe a conversation about the API would be valuable for both of you.｜随意：You two should chat about the API.
+@core: A short introductory call would be beneficial for both teams. | 建议下一步 | a short introductory call / a quick coffee；both teams / both of you | 正式：I'd suggest a brief introductory call at your earliest convenience.｜随意：Maybe grab a quick call this week?
+@core: I'll let you two take it from here. | 介绍完退出 | you two / you both | 正式：I'll leave it to you both to find a time.｜随意：Over to you two!
+@core: Thanks, Lily! Moving you to bcc. | 被介绍后回信，把介绍人移到密送 | Lily / Tom / Emma | 正式：Thank you for the introduction, Lily. I've moved you to bcc to spare your inbox.｜随意：Thanks, Lily! (Lily to bcc)
+@core: I've heard great things about your team. | 表达「久仰」 | you / your team / your work on the API；from Priya | 正式：Priya speaks very highly of your team.｜随意：I've heard so much good stuff about you guys!
+
+@pw: expertise | ˌekspɜːrˈtiːz | 3 个音节 ex·per·TISE | 主重音在最后，读 `/tiːz/`，结尾是 `/z/`；expert 的重音却在前：EX-pert
+@pw: acquaintance | əˈkweɪntəns | 3 个音节 ac·QUAIN·tance | 重音在 quain；开头的 c 不发音，qu 读 `/kw/`
+@pw: introductory | ˌɪntrəˈdʌktəri | 5 个音节 in·tro·DUC·to·ry | 主重音在 duc；tro 弱读成 `/trə/`；-tory 读 `/təri/`
+@pw: beneficial | ˌbenɪˈfɪʃl | 4 个音节 be·ne·FI·cial | 主重音在 fi；ci 读 `/ʃ/`；结尾的 al 几乎只剩一个 l
+@pw: perspective | pərˈspektɪv | 3 个音节 per·SPEC·tive | 重音在 spec；per 弱读成 `/pər/`，要卷舌
+@pw: complement | ˈkɑːmplɪment | 3 个音节 COM·ple·ment | 重音在前，和 compliment 完全同音；美式 o 读 `/ɑː/`
+@pw: specialize | ˈspeʃəlaɪz | 3 个音节 SPE·cial·ize | 重音在前；ci 读 `/ʃ/`；结尾 ize 读 `/aɪz/`
+@ps: **Raj**, / I'd like to intro**duce**‿you to **Mike** **Car**ter. | 称呼后稍停；I'd like 里的 d 几乎不爆破；introduce you 连成 `/ˌɪntrəˈduːʃju/`（s 碰到 y 常变成 sh 的音）；to 两次都弱读成 `/tə/`。
+@ps: Mike **leads**‿our en**gi**neering team / in Se**at**tle. | leads our 连读 `/liːdzɑːr/`；engineering 重音在 neer：`/ˌendʒɪˈnɪrɪŋ/`；Seattle 读 `/siˈætl/`，tt 在美式里像一个轻轻的 d 或喉塞音。
+@ps: I **think** you **two** should **talk** / about the **A**-**P**-**I**. | should 弱读成 `/ʃəd/`；talk 的 l 不发音；缩写词逐个字母读，重音落在最后一个字母：A-P-**I**。
+@ps: I'll **let**‿you **two** / take‿it from **here**. | let you 连成 `/ˈletʃu/`（t 碰到 y 变成 ch 的音）；take it 连成 `/ˈteɪkɪt/`；句末 here 降调，表示「我说完了，退出」。
+@pnote: 字母缩写的读法：重音一律落在最后一个字母上——A-P-**I**、b-c-**c**、c-**c**、I-**T**、Q-**A**。所以 Raj is our new **I**-**T** lead 听起来是 eye-TEE；记笔记时听到一串字母，先写下来，再想它代表什么。
+@pnote: 同音词和完成时：complement（互补）和 compliment（称赞）发音完全一样，听的时候只能靠语境：They complement each other. 是「互补」。I've heard great things… 里的 've 只剩一个轻轻的 `/v/`，说快了像 I heard…；听的时候别因为没听到 have 就以为是过去时，自己说的时候也要把 've 带出来（第二册的完成时）。
+@lfocus: 记人和身份：Raj — new IT lead, former software architect；Mike — leads engineering in Seattle, API expert；Ana — testing
+@lfocus: 记决定：Mike, not Ana；ask Mike first；Mike: "Send me Raj's bio."
+@lfocus: 记行动项：Lily — intro email → bcc；Raj — call with Mike on Wednesday
+@dict: S14–S18
+@dict: S24–S26
+@res: 在 youglish.com 输入 "take it from here"，选 US，听美国人交接工作时怎么说这句话。
+
+@mimic: 跟读【C】S1–S11：先逐句跟读，模仿 Raj 说话的快节奏和张涛 Mike. 的干脆；再由你演林晓、手机朗读其他人的台词，正常语速完整对一遍并录音。然后把介绍邮件 S12–S22 当成你自己写的，用清楚、友好的语气读一遍，注意 Raj, / Mike, 两个称呼后面的停顿；最后读 Raj 的回信，体会 Thanks, Lily! Moving you to bcc. 轻快的语气。
+@swap: Raj, I'd like to introduce you to Mike Carter. | 换人：Priya → Grace Wu；Karen → Tom Zhang；Leo → Ana Ruiz | Priya, I'd like to introduce you to Grace Wu.
+@swap: Mike leads our engineering team in Seattle. | 换人和职责：Grace／our customer service team／in Shenzhen；Ana／testing for the pilot | Grace leads our customer service team in Shenzhen.
+@swap: I think you two should talk about the API. | 换话题：the test accounts／the data format／the returns process | I think you two should talk about the data format.
+@swap: I've heard great things about your team. | 换对象和来源：your work on the dashboard／your new warehouse；from Tom／from Sarah | I've heard great things about your new warehouse from Sarah.
+@free: 卖家 Sarah 想找一个懂美国海关的人请教，你认识 Kevin 的朋友 Linda（报关行的经理）。先确认 Linda 愿不愿意被介绍，用英文问 Kevin。 | Could you ask Linda if she'd be open to an introduction? Sarah has some questions about U.S. customs, and I think Linda would be the ideal person.
+@free: 给 Sarah 和 Linda 写介绍邮件的正文三句：谁是谁、为什么该聊、你退出。 | Sarah, I'd like to introduce you to Linda, a customs broker with a strong track record. Linda, Sarah runs Pine & Pebble and ships to the U.S. every day. I think you two should talk about customs paperwork, so I'll let you take it from here.
+@free: 你是被介绍的一方：Tom 把你介绍给 BrightNest 的 Karen。写回信的头两句。 | Thanks, Tom! Moving you to bcc. Karen, it's great to finally connect. I've heard great things about your team from Priya.
+@free: Leo 问：Raj 把你移到密送，是不是不尊重你？用两三句英文跟他解释。 | No, it's actually polite. My job was to connect them, and that's done. Now I won't get every email, but I can still see that they followed up.
+@output: 写一封 8–12 句的介绍邮件，标题是 "Raj, meet Kevin"：把 SwiftLink 的李凯（Kevin，管测试账号和权限）介绍给 BrightNest 的 Raj。要求：先叫客户一方 → I'd like to introduce you to… → 双方各一句简介（职位＋一个亮点）→ I think you two should talk about…（试点需要二十个测试账号）→ 为什么互补、有什么好处 → 建议下一步（一个简短的认识会，写清时差：深圳上午九点到十点是美国前一天傍晚）→ I'll let you two take it from here. → 落款。没有工作场景，就介绍你的两个朋友认识（比如一个要去对方城市实习）。
+@output_sample: Hi Raj and Kevin,\nRaj, I'd like to introduce you to Kevin Li.\nKevin manages all of our test accounts and access permissions in Shenzhen.\nHe set up the accounts for our last three large clients, so he has a strong track record.\nKevin, Raj is BrightNest's new IT lead, and he's getting his team ready for the pilot.\nI think you two should talk about the test accounts.\nBrightNest needs about twenty accounts, with different access levels for operations and IT.\nRaj knows exactly who needs what, and Kevin knows our system, so you'll complement each other.\nA short introductory call this week would be beneficial for both teams.\nKevin is usually free from 9 to 10 a.m. Shenzhen time, which is the evening before in the U.S.\nI'll let you two take it from here.\nBest,\nLily
+
+@check: 听力：Raj 想找什么样的人？为什么最后介绍的是 Mike，而不是 Ana？ | 一个专门做 webhook 的工程师（a fellow engineer）。API 是 Mike 的专长（expertise），Ana 懂测试，但 API 设计的问题找她不合适（isn't suitable）；而且 Priya 早就把 Mike 当作信得过的顾问（a trusted advisor）。
+@check: 听力：发介绍邮件之前，张涛让林晓先做什么？Raj 回信做了哪两件事？他约 Mike 哪天？ | 先问 Mike 本人同不同意（Mike 说乐意帮忙，要了 Raj 的简介）。Raj 先谢了林晓、把她移到密送，然后说常听 Priya 夸 Mike 的团队；他约 Mike 周三。
+@check: 改错：① Let me introduce you Mike. ② I've heard your name for a long time. ③ Your skills compliment each other.（想说「互补」） | ① Let me introduce you to Mike. ② I've heard great things about you. ③ Your skills complement each other.
+@check: 换个场景：你介绍朋友 Mei 认识你在西雅图工作的朋友 Amy（Mei 下个月去西雅图实习）。写开头两句。 | Mei, I'd like to introduce you to my friend Amy. She works in Seattle and knows the city well, so I think you two should talk before your internship.
+@check: 别人把你介绍给一位新客户，你回信的第一行写什么？为什么这样写？ | Thanks, Tom! Moving you to bcc. 先谢介绍人，再把他移到密送：免得他收到后面一长串邮件，又让他看到你已经跟进了。
+@check: cc 还是 bcc：① 给二十个卖家群发通知，不想让他们看到彼此的邮箱 ② 给 Priya 回信，想让张涛也知道进展，Priya 看到也没关系 | ① bcc ② cc
+@next1: 不看书说出 5 个锚点句：S14、S15、S18、S21、S24
+@next1: 用介绍邮件的四步（谁是谁 → 为什么该聊 → 下一步 → 退出）口头介绍你身边的两个人认识
+@next7: 介绍邮件模板：…, I'd like to introduce you to… / … leads… / I think you two should talk about… / A short introductory call would be beneficial… / I'll let you two take it from here.
+@next7: 回信礼节：Thanks, …! Moving you to bcc. ＋ I've heard great things about…；分清 cc 和 bcc

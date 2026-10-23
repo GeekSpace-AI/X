@@ -1,0 +1,171 @@
+@day: 106
+@week: 3
+@title_cn: 为什么会这样
+@title_en: What Caused It?
+@topic: 讲清问题的原因：根源在哪、为什么测试没发现、直接原因和间接因素；再把技术原因「翻译」成业务方听得懂的话
+@think_short: 「原因是因为……」→ The reason is that…（✗ The reason is because…）｜「源于」stem from / originate in / be caused by（stem from 不用被动）｜主次：primarily / secondary / an indirect factor｜「说白了」In simple terms / Basically / Essentially
+
+@goal_scene: 试点出错的第二天，西雅图的 Ana 验证了 Mike 的假设，找到了原因：SwiftLink 的状态映射表还在用 BrightNest 早已作废的旧代码表。林晓在九点的电话会上把原因链一环一环问清楚——错误从哪儿来、为什么只有多箱订单出错、是不是人为失误、测试为什么没发现、周一开始是不是巧合——再用简单的话写信告诉 Priya 和 Raj。
+@goal_expr: The problem stems from an outdated status mapping. / The reason is that BrightNest uses different status codes. / It wasn't human error. / The underlying flaw is in our process. / It's an edge case we didn't test. / The problem is primarily ours. / In simple terms, the two systems speak slightly different languages.
+@goal_vocab: 20 个重点词 + 5 个短语：原因与根源、系统对接里的数据问题、主次因素、用简单的话解释
+@done: 能用 The problem stems from… / The reason is that… / … was caused by… 说原因，不再说 ✗ The reason is because… 和 ✗ is stemmed from
+@done: 能分清直接原因、间接因素和深层缺陷（primarily / secondary / an indirect factor / the underlying flaw），对事不对人地说 It wasn't human error.，同时承认自己这边的疏忽
+@done: 能写一封 8–12 句的原因说明邮件，用 In simple terms / Essentially 加一个比喻，把技术原因讲给不懂技术的人听
+
+@warmup: 从周一开始，有些订单显示的物流状态不对。 | Starting from Monday, some orders show the wrong status. | D105
+@warmup: 我们怀疑是同步出了问题，但还没有排除任何可能。 | We suspect it's a sync problem, but we haven't ruled anything out. | D105
+@warmup: 现阶段这还只是个推测。 | At this stage, it's just a theory. | D105
+@warmup: 在我看来，风险太大了。 | From my point of view, the risk is too high. | D99
+@warmup: 这次宕机是由一次数据库更新引发的。 | The outage was triggered by a database update. | D86
+@warmup: 我已经给她发消息了。 | I've already sent her a message. | D33
+
+@scene: 周五上午九点（西雅图周四傍晚六点）。Ana 用了西雅图的一整天，验证了 Mike 昨天提出的假设：问题确实出在两个系统「对不上」。SwiftLink 的系统会把每一条物流动态翻译成 BrightNest 的状态代码，靠的是一张状态映射表；可这张表是按 BrightNest 的旧版代码表做的，而 BrightNest 三月份就换了新代码表，新表里多了一个「部分送达」。所以多箱订单的第一箱一到，SwiftLink 就发出「已送达」，把整单状态都盖掉了，BrightNest 的系统还自动给顾客发了「您的订单已送达」的邮件。林晓听懂了技术细节，可 Priya 不是工程师，Leo 一开始也没听明白。她既要问清原因链，又要把它讲成一句业务方听得懂的话。
+@sp: 人物关系 | 林晓是协调人，夹在工程师和客户中间；Ana 做测试、讲技术细节；Mike 是工程经理，讲逻辑、敢认错；Leo 记笔记，最先问「是谁弄错了」；Priya（运营）和 Raj（IT）是客户方，一个要业务结论，一个懂技术
+@sp: 沟通目的 | 把原因说清楚、说准确：根源、为什么只影响多箱订单、为什么测试没发现、主次原因和责任；然后用一个比喻让客户一听就懂，并告诉他们下一步什么时候来
+@sp: 已知信息 | 时区偏差已排除；数据没有损坏；不是有人输错；映射表用的是三月就作废的旧代码表；Priya 的样本数据里没有多箱订单；BrightNest 换代码只是间接因素，问题主要在 SwiftLink 这边；具体修复方案周一给
+@sp: 表达重点 | 根源（stem from / originate）→ 原因（The reason is that…）→ 原因链（overwrite / duplicates / cascade）→ 排除（offset / corrupt / human error / coincidence）→ 主次（primarily / secondary / indirect）→ 承认疏忽（oversight / Ultimately, …）→ 邮件：先说结论，再 In simple terms…
+
+@story_title: Episode 106 · An Old Dictionary
+@story_type: 电话会 + 给客户的邮件
+@s: On Friday, Ana shares her test results. | 周五，Ana 分享了她的测试结果。
+@s: Ana: Mike's hypothesis was right. It's a mismatch. | Ana：Mike 的假设没错，是两边对不上。
+@s: Ana: First, I ruled out a time-zone **offset**. | Ana：我先排除了时区偏差。
+@s: Lily: So where does the error **originate**? | 林晓：那错误到底是从哪儿来的？
+@s: Ana: It's on our end. The problem **stems from** an **outdated** status **mapping**. | Ana：在我们这边。问题出在一张过时的状态映射表上。
+@s: Ana: Our system turns tracking events into BrightNest status codes. | Ana：我们的系统会把物流动态转换成 BrightNest 的状态代码。
+@s: Ana: But our table uses their **legacy** code list. It's been **obsolete** since March. | Ana：可我们的表用的是他们的旧版代码表，那份表三月份就作废了。
+@s: Mike: **The reason is that** BrightNest uses different status codes. | Mike：原因是 BrightNest 用的状态代码不一样了。
+@s: Ana: Their new list has a code for "Partially delivered." Ours doesn't. | Ana：他们的新代码表里有「部分送达」，我们的表里没有。
+@s: Ana: When the first box arrives, we send "Delivered," and it **overwrites** the whole order. | Ana：第一箱一到，我们就发出「已送达」，把整个订单的状态都覆盖了。
+@s: Ana: Updates for the second box then look like **duplicates**, so they're dropped. | Ana：之后第二箱的更新看起来像重复数据，就被丢掉了。
+@s: Leo: Sorry, I'm lost. | Leo：不好意思，我没听懂。
+@s: Lily: **Basically**, we're using an old dictionary. | 林晓：说白了，就是我们在用一本旧词典。
+@s: Mike: Right. That started a **cascade**: BrightNest emailed customers, "Your order has arrived." | Mike：对。这就引发了连锁反应：BrightNest 给顾客发邮件说「您的订单已送达」。
+@s: Lily: Is any data **corrupt**? | 林晓：有数据损坏吗？
+@s: Ana: No. Only the status is wrong. | Ana：没有，只是状态错了。
+@s: Leo: So who made the mistake? | Leo：那是谁弄错了？
+@s: Mike: It wasn't **human error**. Nobody typed anything wrong. | Mike：不是人为失误，谁也没输错东西。
+@s: Mike: The **underlying** **flaw** is in our process. We never compared the two lists. | Mike：根本的缺陷在我们的流程上：我们从来没把两份代码表对照过。
+@s: Mike: That was our **oversight**. **Ultimately**, it's our table, so it's our fix. | Mike：这是我们的疏忽。说到底，表是我们的，就该我们来修。
+@s: Lily: Why didn't our tests catch it? | 林晓：我们的测试为什么没发现？
+@s: Ana: Priya's sample had no multi-box orders. It's an **edge case** we didn't test. | Ana：Priya 给的样本数据里没有多箱订单。这是个我们没测到的边缘情况。
+@s: Lily: Was the timing a **coincidence**? | 林晓：时间上是巧合吗？
+@s: Mike: No. It started with the pilot. | Mike：不是。错误是跟着试点一起开始的。
+@s: Mike: Their code change was only an **indirect** factor. | Mike：他们改代码只是个间接因素。
+@s: Mike: The problem is **primarily** ours. Everything else is **secondary**. | Mike：问题主要在我们。其他都是次要的。
+@br:
+@s: Lily writes to Priya and Raj: | 林晓给 Priya 和 Raj 写邮件：
+@s: Hi Priya and Raj, we've found the cause. | Priya、Raj，你们好：我们找到原因了。
+@s: **In simple terms**, the two systems speak slightly different languages. | 简单地说，两个系统说的「语言」有点不一样。
+@s: **Essentially**, our system still uses your old status codes. | 实际上，我们的系统还在用你们的旧状态代码。
+@s: So when one box arrives, the whole order looks "Delivered." | 所以只要有一箱送到，整个订单看起来就「已送达」了。
+@s: No data was lost or damaged. | 没有任何数据丢失或损坏。
+@s: We'll share our plan on Monday. | 周一我们会把方案发给你们。
+@s: Best,\nLily | 祝好，\n林晓
+
+@v: offset | = | n. | ˈɔːfset | 偏差；差值（这里指时区差）；也作动词「抵消」 | 排查跨时区系统的时间问题 | a time-zone offset；a UTC offset；offset the cost（动词） | Our servers use UTC, so every timestamp has an eight-hour offset from Shenzhen time. | 我们的服务器用协调世界时，所以每个时间戳都和深圳时间差八个小时。 | 技术语境里 offset 常指「差值、偏移量」，a time-zone offset 就是「时区差」；动词 offset 是「抵消」：The savings will offset the cost.；名词重音在前 OFF-set，动词常读 off-SET；美式 o 读 `/ɔː/`。
+@v: originate | = | v. | əˈrɪdʒɪneɪt | 起源；（问题）出自，从……冒出来 | 追查错误最早出现在哪个环节 | originate in / from…；Where does it originate?；originate on our end | The error originates in the payment system. | 这个错误出自支付系统。 | 不及物动词，不用被动：✗ The error was originated in…；名词 origin（第三册 D85）是「来源、原产地」；比 come from 正式；重音在 RIG：o-RIG-i-nate，g 读 `/dʒ/`。
+@v: stems from | stem from | phr. | ˈstemz frəm | 源于；根子在……（说根本原因） | 解释问题的根源 | stem from an outdated mapping；stem from a lack of…；stem from the fact that… | Most complaints stem from late deliveries. | 大部分投诉都源于送货延迟。 | 主语是结果（the problem），from 后面是原因；它是不及物的，本身就是「源于」，不能用被动：✗ The problem is stemmed from…；比 be caused by 更书面、更强调「根源」；stem 本义是植物的「茎」。
+@v: outdated | = | adj. | ˌaʊtˈdeɪtɪd | 过时的；不是最新的 | 说资料、表格、软件版本没有更新 | an outdated mapping；outdated information；become outdated | The phone numbers on our website are outdated. | 我们网站上的电话号码已经过时了。 | outdated 是「旧了、该更新了」，obsolete 更进一步：「已经作废、不再使用」；作表语也可以说 out of date：This list is out of date.；中文「旧版的」别造 ✗ old-dated；ted 的 t 闪音：out-DAY-did。
+@v: mapping | = | n. | ˈmæpɪŋ | 映射；（两套代码或数据之间的）对应关系、对照表 | 系统对接时说一套代码怎么对应另一套 | a status mapping；a mapping table；update the mapping | We need a mapping between our product codes and theirs. | 我们需要一张表，把我们的产品编码和他们的一一对应起来。 | 技术里的 mapping 不是「地图」，而是「对照表、对应关系」；动词 map A to B：map our codes to their codes；status mapping、mapping table 都是复合名词，重音在前一个词。
+@v: legacy | = | adj./n. | ˈleɡəsi | （系统、版本）旧的、遗留下来的；（一般义）遗产 | 说还在用、但已经该换掉的老系统、老版本 | a legacy system；legacy code；a legacy code list | We still use a legacy system for invoices. | 我们开发票还在用一个老系统。 | IT 里的 legacy 指「老的、还在用但早该换掉的」，带一点无奈；日常义是「遗产、留下的影响」：his legacy；g 读 `/ɡ/`，不读 `/dʒ/`：LEG-a-cy。
+@v: obsolete | = | adj. | ˌɑːbsəˈliːt | 作废的；被淘汰的；不再使用的 | 说旧版本、旧代码、旧设备已经停用 | become obsolete；an obsolete code；obsolete equipment | Fax machines are almost obsolete. | 传真机几乎已经被淘汰了。 | 比 outdated 更彻底：outdated 是「旧了」，obsolete 是「已经不用、作废了」；美式重音在最后 ob-so-LETE；它只作形容词，✗ The list was obsoleted.，说 The list became obsolete.
+@v: The reason is that | the reason is that | phr. | ðə ˈriːzn ɪz ðət | 原因是…… | 会上、邮件里平静地解释原因 | The reason is that…；The main reason is that…；The reason (why)… is that… | The reason is that the warehouse was closed for the holiday. | 原因是仓库放假关门了。 | 不说 ✗ The reason is because…（reason 和 because 意思重复，口语里有人说，但正式场合会被当成错误）；口语更简单：It's because… / This is because…；that 弱读成 `/ðət/`。
+@v: overwrites | overwrite | v. | ˌoʊvərˈraɪts | 覆盖（原来的数据） | 说新数据把旧数据盖掉 | overwrite the status；overwrite a file；be overwritten | Be careful. Saving this file will overwrite the old version. | 小心，保存这个文件会覆盖旧版本。 | 「覆盖」不说 ✗ cover the data；过去分词是 overwritten：The old status was overwritten.（被动很常用）；动词重音在后 o-ver-WRITE，w 不发音。
+@v: duplicates | duplicate | n. | ˈduːplɪkəts | 重复的东西；重复数据 | 系统判断一条数据是不是重复的 | remove duplicates；a duplicate order；duplicate records | The system removes duplicates automatically. | 系统会自动删除重复的数据。 | 名词 / 形容词读 `/ˈduːplɪkət/`，结尾像「kit」；动词读 `/ˈduːplɪkeɪt/`，结尾像 eight：Please don't duplicate the order.；美式 du 读 `/duː/`。
+@v: Basically | basically | adv. | ˈbeɪsɪkli | 说白了；基本上；简单来说 | 口语里把复杂的事一句话总结 | Basically, …；basically the same；It basically means… | Basically, we need more time. | 说白了，我们需要更多时间。 | 口语、随意，美国人常用它来「一句话概括」；用多了像口头禅（basically, basically…），给客户的正式邮件里少用；拼写是 -ally，但只读三个音节：BAY-sik-lee，✗ basicly。
+@v: cascade | = | n./v. | kæˈskeɪd | 连锁反应；一连串（本义是小瀑布） | 说一个问题引发了一连串的后果 | a cascade of errors；start a cascade；cascade through the system | One late flight caused a cascade of delays. | 一个航班晚点，引发了一连串的延误。 | 比 a series of 更形象，强调「一个接一个往下传」；动词：The error cascaded through the system.；重音在后：cas-CADE。
+@v: corrupt | = | adj./v. | kəˈrʌpt | （数据、文件）损坏的；（人）腐败的 | 说数据、文件有没有坏掉 | corrupt data；a corrupt file；The file got corrupted. | The file is corrupt, so I can't open it. | 文件损坏了，我打不开。 | 中文「数据损坏」说 corrupt / corrupted data，✗ broken data；说人是「腐败的」，别拿它形容一般的「坏」；动词：The update corrupted the file.；重音在后 cor-RUPT。
+@v: human error | = | phr. | ˌhjuːmən ˈerər | 人为失误 | 说问题是不是某个人操作出错造成的 | human error；due to human error；rule out human error | The accident was caused by human error. | 这起事故是人为失误造成的。 | 不可数，不加 a：✗ It was a human error.（说具体某一次可以用 a mistake）；说「不是人为失误」之后，紧接着说真正的原因，免得听起来像在推脱；h 要发出来：`/ˈhjuːmən/`。
+@v: underlying | = | adj. | ˌʌndərˈlaɪɪŋ | 深层的；根本的；潜在的 | 区分表面现象和深层原因 | the underlying cause；an underlying problem；the underlying flaw | Late deliveries are a symptom. The underlying problem is a staff shortage. | 送货晚只是表象，深层的问题是人手不够。 | 和 root cause（第三册 D77）意思接近，underlying 强调「藏在表面现象下面」，常和 symptom（第二册 D47）对照；只放在名词前，✗ The cause is underlying.；主重音在 LY：un-der-LY-ing。
+@v: flaw | = | n. | flɔː | 缺陷；漏洞 | 说设计、流程、计划上的毛病 | a flaw in the process；a design flaw；a serious flaw | There's a flaw in the plan: nobody checks the numbers. | 这个计划有个漏洞：没有人核对数字。 | flaw 是设计、结构上的缺陷；bug（第三册 D84）专指程序错误；mistake 是某个人做错了一件事；介词用 in：a flaw in our process；美式读 `/flɔː/`，不少美国人读成 `/flɑː/`。
+@v: oversight | = | n. | ˈoʊvərsaɪt | 疏忽；漏掉、没注意到的事 | 承认流程或检查中漏掉了什么 | an oversight；a serious oversight；due to an oversight | Sorry, your name was left off the list. It was an oversight. | 抱歉，名单上漏了你的名字，是我们疏忽了。 | 比 mistake 委婉，常用来承认失误：That was our oversight.；注意它还有一个几乎相反的意思「监督、监管」，看上下文；动词 overlook（Day 93）是「忽略、漏看」；重音在前 O-ver-sight。
+@v: Ultimately | ultimately | adv. | ˈʌltɪmətli | 说到底；归根结底；最终 | 总结最终的原因、责任或结果 | Ultimately, it's…；ultimately responsible；ultimately decide | Ultimately, the customer decides what works. | 说到底，什么管用要由客户决定。 | 放在句首表示「说到底」；放在句中表示「最后」：The project ultimately failed.；中文「最终」别总用 finally，finally 是「终于、最后一步」；重音在前 UL-ti-mate-ly，mate 弱读 `/mət/`。
+@v: edge case | = | phr. | ˈedʒ ˌkeɪs | 边缘情况；极端或少见的情况 | 测试、开发时说正常流程以外、容易被漏掉的情况 | an edge case；test edge cases；handle edge cases | What happens if a customer orders zero items? That's an edge case. | 顾客下单数量是零会怎样？这就是个边缘情况。 | 工程师的口头禅：正常流程都没问题，出事的往往是 edge case；复合名词，重音在 EDGE；日常说「特殊情况」用 a special case / an exception，测试语境才用 edge case。
+@v: coincidence | = | n. | koʊˈɪnsɪdəns | 巧合 | 判断两件事同时发生是否有联系 | a coincidence；by coincidence；It's no coincidence that… | It's no coincidence that sales dropped when the website was slow. | 网站一慢销量就跌，这可不是巧合。 | 「这不是巧合」说 It's no coincidence that…，✗ It's not coincident.；「真巧！」口语说 What a coincidence!；重音在 IN：co-IN-ci-dence。
+@v: indirect | = | adj. | ˌɪndəˈrekt | 间接的 | 区分直接原因和间接因素 | an indirect factor；an indirect cause；indirect costs | The new rule had an indirect effect on our prices. | 新规定间接影响了我们的价格。 | 反义词 direct；分析原因常说 the direct cause / an indirect factor；美式里 di 读 `/də/` 或 `/daɪ/` 都行；说话方式 indirect 是「委婉、不直说」：Her feedback was very indirect.
+@v: primarily | = | adv. | praɪˈmerəli | 主要地 | 说主要原因、主要责任在谁 | primarily ours；primarily because…；be primarily responsible for… | The new feature is primarily for large sellers. | 新功能主要面向大卖家。 | 比 mainly 正式；美式重音在 MER：pri-MER-i-ly，英式在前；拼写别丢第二个 i：primarily。
+@v: secondary | = | adj. | ˈsekənderi | 次要的；第二位的 | 分清主次 | a secondary factor；of secondary importance；secondary issues | Price matters most. Design is secondary. | 价格最重要，设计是次要的。 | 美式四个音节都要读出来：SEC-on-dar-y，dar 读 `/der/`；secondary school 是「中学」；「次要原因」常说 a secondary factor / a minor factor。
+@v: In simple terms | in simple terms | phr. | ɪn ˌsɪmpl ˈtɜːrmz | 简单地说；说白了 | 把技术内容讲给外行听 | in simple terms；in plain terms；put simply | In simple terms, the app saves your work every minute. | 简单地说，这个应用每分钟都会自动保存你的工作。 | 后面要真的说得简单：用比喻、用日常词；别加 for you（✗ In simple terms for you…），听起来像觉得对方听不懂；「说白了」别直译 ✗ to speak white；terms 用复数。
+@v: Essentially | essentially | adv. | ɪˈsenʃəli | 实际上；本质上；说到底 | 比 basically 正式的「一句话概括」，适合邮件和报告 | Essentially, …；essentially the same；It's essentially… | The two plans are essentially the same. | 这两个方案本质上是一样的。 | 意思和 basically 接近，但更正式，写给客户、高层时更合适；ss 读 `/s/`，ti 读 `/ʃ/`：es-SEN-tial-ly，重音在 SEN。
+
+@diff: 「原因是因为……」——The reason is that…（不说 The reason is because…）
+@d_cn: 解释原因时，中文「原因是因为……」很顺口，「原因」和「因为」连着说也不觉得重复。
+@d_en: The reason is that BrightNest uses different status codes. / It's because their codes are different. / This happened because our table is outdated.
+@d_why: 「原因是因为」直译成 ✗ The reason is because… 美国人口语里确实有人这么说，但老师、编辑和很多商务读者会把它当成典型的重复——reason 已经是「原因」，再加 because 就成了「原因是因为」。正式场合和邮件里用 **The reason is that…**；口语更简单的是 **It's because…** 或 **This is because…**；想强调「为什么」可以说 **The reason (why) it happened is that…**。还有一个常见错误是把 because 从句单独当一句写：✗ Because our table is outdated.（书面要连上主句）。顺序也和中文不同：中文习惯先铺垫背景再说原因，英文会议里先给一句结论（The problem stems from…），再用 The reason is that… 解释，最后才讲细节——Ana 和 Mike 就是这样配合的。
+@d_when: 会上解释原因、邮件里说明问题、回答客户的 Why did this happen?
+@d_vs: **The reason is that BrightNest uses different status codes.** 原因是 BrightNest 用的状态代码不一样。（正式、清楚）\n**It's because their codes are different.** 因为他们的代码不一样。（口语）\n**This happened because our table is outdated.** 出这个问题是因为我们的表过时了。\n✗ The reason is because BrightNest uses different codes.\n✗ Because our table is outdated.（书面里不单独成句）
+@d_task: 用两种说法解释「包裹晚到，原因是港口罢工」：一句正式，一句口语 | The reason is that there was a strike at the port. / It's because of the port strike.
+@diff: 「源于」「是……引起的」——stem from / originate in / be caused by
+@d_cn: 说一个问题的来源：「问题出在……」「是……引起的」「根子在……」。
+@d_en: The problem stems from an outdated status mapping. / The error originates in our mapping table. / The wrong statuses were caused by an old code list.
+@d_why: 三种说法的侧重点和正式程度不同。**stem from** 是「源于、根子在」，强调**根源**，商务和书面都常用；**originate in / from** 强调「最早从哪儿冒出来」，追查出错的环节时常用（Where does the error originate?）；**be caused by** 最直接、最中性，用被动时结果做主语（第三册复习：was triggered by / were caused by）。最大的坑：**stem from** 和 **originate** 都是**不及物动词**，本身就是「源于」，不能再用被动：✗ The problem is stemmed from… ✗ The error was originated in…；cause 是及物动词，要么主动 An old list caused the error.，要么被动 The error was caused by an old list.。中文「是……引起的」里的「是」也别直译成 is：✗ The problem is stem from…
+@d_when: 说明问题的来源和根本原因；写问题说明、事故报告。
+@d_vs: **The problem stems from an outdated status mapping.** 问题源于一张过时的状态映射表。\n**The error originates in our mapping table.** 错误出自我们的映射表。\n**The wrong statuses were caused by an old code list.** 错误状态是一份旧代码表造成的。（被动）\n✗ The problem is stemmed from an old table.\n✗ The error was originated in our system.
+@d_task: 用 stem from 和 be caused by 各说一句：「大部分退货是尺码问题引起的。」 | Most returns stem from sizing problems. / Most returns are caused by sizing problems.
+@diff: 直接原因 vs 间接因素——primarily / secondary / an indirect factor / It wasn't human error.
+@d_cn: 分析原因时，中文常说「主要原因是……，另外也有……的因素」「不是谁的错，是流程的问题」。
+@d_en: The problem is primarily ours. Everything else is secondary. / Their code change was only an indirect factor. / It wasn't human error. The underlying flaw is in our process.
+@d_why: 一个问题常常有好几层原因，英文会议里习惯**分主次**：**the direct cause**（直接原因：映射表过时）、**an indirect factor**（间接因素：BrightNest 三月换了代码表）、**the underlying flaw**（深层缺陷：流程里没有「核对」这一步，和第三册的 root cause 接近），再用 **primarily**（主要地）和 **secondary**（次要的）说清轻重。还要**对事不对人**：Leo 问 Who made the mistake?，Mike 答 It wasn't human error.，接着说 The underlying flaw is in our process.——美国团队做事故分析时很看重这一点：先找流程上的漏洞，而不是找背锅的人。但对事不对人不等于推卸：Mike 马上承认 That was our oversight. Ultimately, it's our table.。对客户说「主要是你们改了代码」，哪怕有一部分是事实，也会显得在甩锅，所以对外先说自己这边的原因。
+@d_when: 内部事故分析、向经理汇报原因、给客户写问题说明时分清主次和责任。
+@d_vs: **The problem is primarily ours.** 问题主要在我们。\n**Their code change was only an indirect factor.** 他们改代码只是个间接因素。\n**Everything else is secondary.** 其他都是次要的。\n**It wasn't human error. The underlying flaw is in our process.** 不是人为失误，深层的缺陷在流程上。\n✗ It's mainly your fault because you changed the codes.（对客户这样说就是甩锅）
+@d_task: 用英文说：「延误主要是仓库人手不够造成的，天气只是次要因素。不是哪个人的失误。」 | The delays are primarily caused by a staff shortage at the warehouse. The weather is only a secondary factor. It wasn't human error.
+@diff: 「说白了」——In simple terms / Basically / Essentially
+@d_cn: 把技术原因讲给不懂技术的人听：「说白了就是……」「简单来说……」「其实就是……」。
+@d_en: In simple terms, the two systems speak slightly different languages. / Basically, we're using an old dictionary. / Essentially, our system still uses your old status codes.
+@d_why: 林晓夹在工程师和客户中间，最要紧的本事就是「翻译」：把 mapping、legacy code list、duplicates 这些词变成业务方听得懂的话。三个开头语语气不同：**In simple terms** 明确告诉对方「下面是简单版」，正式、口语都能用；**Basically** 很口语，适合会上、同事之间（林晓对 Leo 说「我们在用一本旧词典」），但美国人很容易把它说成口头禅，给客户的邮件里少用；**Essentially** 意思接近，但更正式，适合写给客户。光有开头语不够，后面要真的简单：用一个比喻（两种语言、一本旧词典），少用术语，一句只讲一件事。别直译「说白了」✗ To speak white…；也别说 ✗ In simple terms for you…，听起来像觉得对方听不懂。
+@d_when: 给客户、经理、其他部门解释技术问题；会上把工程师的话「翻译」给大家听。
+@d_vs: **In simple terms, the two systems speak slightly different languages.** 简单地说，两个系统说的「语言」有点不一样。\n**Basically, we're using an old dictionary.** 说白了，我们在用一本旧词典。（口语）\n**Essentially, our system still uses your old status codes.** 实际上，我们的系统还在用你们的旧状态代码。（偏正式）\n✗ To speak white, our table is old.\n✗ In simple terms for you, …
+@d_task: 把工程师的这句话「翻译」给客户：Our cache wasn't cleared after the deployment.（意思：更新以后，系统还在显示存着的旧页面） | In simple terms, after the update, our system kept showing an old copy of the page.
+
+@core: The problem stems from … | 说问题的根源 | an outdated mapping / a missing step in our process / an old setting | 正式：The issue originates from an outdated status mapping.｜随意：It all comes down to an old table.
+@core: The reason is that … | 平静、清楚地解释原因（不加 because） | BrightNest uses different status codes / our test data was too small | 正式：This is due to a difference in status codes.｜随意：It's because their codes are different.
+@core: In simple terms, … / Basically, … / Essentially, … | 把技术原因讲成业务语言，最好带一个比喻 | the two systems speak different languages / we're using an old dictionary | 正式：To put it simply, the two systems use different code lists.｜随意：Basically, we're using an old dictionary.
+@core: It wasn't human error. The underlying flaw is in our process. | 对事不对人地说原因 | our process / the design / our test plan | 正式：This was not caused by human error; it reflects a gap in our process.｜随意：Nobody messed up. It's a process thing.
+@core: It's an edge case we didn't test. | 说明测试为什么没发现 | an edge case / a rare situation；didn't test / didn't think of | 正式：This scenario was not covered in our testing.｜随意：We never tested for that.
+@core: The problem is primarily …; … was only an indirect factor. | 分清主次原因 | ours / on our end；their code change / the weather | 正式：The primary cause lies with our mapping; their code change was a contributing factor.｜随意：It's mostly on us.
+@core: Was it a coincidence? / It's no coincidence that … | 判断时间、规律是不是巧合 | the timing / Monday / all nine orders | 正式：The timing was not coincidental.｜随意：That's no coincidence.
+@core: That was our oversight. Ultimately, it's our …, so it's our fix. | 承认疏忽，说清最终由谁负责 | table / code / process | 正式：This was an oversight on our part, and ultimately the responsibility lies with us.｜随意：That's on us. We'll fix it.
+
+@pw: originate | əˈrɪdʒɪneɪt | 4 个音节 o·RIG·i·nate | 重音在 rig；g 读 `/dʒ/`；结尾 nate 读 `/neɪt/`
+@pw: obsolete | ˌɑːbsəˈliːt | 3 个音节 ob·so·LETE | 美式主重音在最后；开头 ob 读 `/ɑːb/`，嘴张大
+@pw: coincidence | koʊˈɪnsɪdəns | 4 个音节 co·IN·ci·dence | 重音在 in；co 读 `/koʊ/`，和后面的 in 分开，不连成 coin
+@pw: primarily | praɪˈmerəli | 4 个音节 pri·MER·i·ly | 美式重音在 mer；英式重音在前，听到两种都别慌
+@pw: underlying | ˌʌndərˈlaɪɪŋ | 4 个音节 un·der·LY·ing | 主重音在 ly，读 `/laɪ/`；ing 前要有一个轻轻的 `/ɪ/`
+@pw: secondary | ˈsekənderi | 4 个音节 SEC·on·dar·y | 重音在 sec；美式 dar 读 `/der/`，四个音节都读出来
+@pw: legacy | ˈleɡəsi | 3 个音节 LEG·a·cy | 重音在前；g 读硬音 `/ɡ/`，不读「莱杰西」
+@ps: The **prob**lem **stems**‿from an out**dat**ed **sta**tus mapping. | stems from 连读，from 弱读成 `/frəm/`；outdated 重音在 dat，t 闪音；status mapping 是复合名词，重音在 status，mapping 轻轻带过。
+@ps: The **rea**son is that / **Bright**Nest uses **dif**ferent **sta**tus codes. | The reason is that 说得轻快，that 弱读成 `/ðət/`，后面稍停；status code 是复合名词（ˈstatus ˌcode），重音在 status；different 常读成两个音节 `/ˈdɪfrənt/`。
+@ps: In **sim**ple **terms**, / the two **sys**tems speak **slight**ly **dif**ferent **lan**guages. | In simple terms 后停顿，像在提醒「下面是简单版」；slightly 和 different 都重读，强调「只是有点不一样」。
+@ps: It **was**n't human **er**ror. / It's‿an **edge** case / we **did**n't **test**. | wasn't 重读，表示否定；edge case 是复合名词，重音在 edge；It's an 连成 `/ɪtsən/`；didn't 的 t 几乎不爆破：`/ˈdɪdn/`。
+@pnote: 名词 / 动词的读音对：**off**set（名词：偏差）vs off**set**（动词：抵消）；**dup**licate 名词读 `/-kət/`，动词读 `/-keɪt/`，重音不变、元音变；**re**cord / re**cord**、**in**crease / in**crease** 也是一样的规律。复合名词重音在前：**sta**tus code、**map**ping table、**time** zone、**edge** case、**code** list。对比重音：Nobody typed anything **wrong**. The flaw is in our **pro**cess.——重音落在「不是人，是流程」的对比上；The problem is **pri**marily **ours**. 里 ours 要重读。
+@pnote: 听力里的弱读和关键词：The reason is that… 说得很快，听起来像 `/ðəˈriːznɪzðət/`；Was it a coincidence? 里 was it a 连成 `/wəzɪɾə/`；It's been obsolete since **March**——记下月份；Partially delivered 读 `/ˈpɑːrʃəli dɪˈlɪvərd/`，tia 读 `/ʃə/`。Leo 那句 Sorry, I'm lost. 是会上很常用的「我没跟上」，比 I don't understand 柔和。写和说的不同：Ana 嘴上说 they're dropped，写进报告会是 These updates were discarded as duplicates.
+@lfocus: 原因链：outdated mapping → legacy list（obsolete since March）→ no "Partially delivered" → "Delivered" overwrites the order → second box = duplicates → BrightNest emails customers
+@lfocus: 排除了什么：offset（ruled out first）、corrupt data（no）、human error（no）、coincidence（no: started with the pilot）
+@lfocus: 主次和下一步：primarily ours / indirect factor = their code change / oversight / plan on Monday
+@dict: S5–S11
+@dict: S28–S33
+@res: 在 youglish.com 输入 "stems from"，选 US，留意它前面的主语几乎都是 the problem / the issue / most complaints 这样的「结果」。
+
+@mimic: 跟读【C】S2–S26：先正常语速逐句跟读，重点模仿 S5 和 S8 的平稳陈述语调、S18 里 wasn't 的否定重音、S26 里 primarily 和 secondary 的对比；再由你演林晓，手机朗读 Ana、Mike 和 Leo 的台词，完整对一遍并录音。最后读一遍邮件 S28–S34，想象 Priya 不懂技术：每句都要让她一听就懂。
+@swap: The problem stems from an outdated status mapping. | 换原因：a missing step in our process／an old version of the app／a wrong setting | The problem stems from a missing step in our process.
+@swap: The reason is that BrightNest uses different status codes. | 换原因：the carrier changed its system／our test data was too small | The reason is that our test data was too small.
+@swap: In simple terms, the two systems speak slightly different languages. | 换比喻：we're using an old map／the two teams were reading different versions of the plan | In simple terms, we're using an old map.
+@swap: It's an edge case we didn't test. | 换：a situation nobody expected／a case we didn't think of | It's a case we didn't think of.
+@free: 张涛问你：So what happened with BrightNest?（先一句话说结论：是我们这边的映射表过时了；再用简单的话解释） | It was on our end: our status mapping is outdated. In simple terms, our system still uses BrightNest's old codes, so multi-box orders show "Delivered" too early.
+@free: Leo 小声问你：是不是 Ana 搞错了？（不是人为失误，是流程上没有核对这一步） | No, it wasn't human error. The underlying flaw is in our process. Nobody checked the table against BrightNest's new list.
+@free: 朋友问你：为什么他手机上的航班时间和机场屏幕上的差了一个小时？（原因：他手机的时区设置是旧的，没跟上夏令时） | The reason is that your phone uses an outdated time-zone setting. In simple terms, it doesn't know that the clocks changed last weekend.
+@free: 会上有人说两次出错都在周一「应该是巧合」，你不同意：两次都发生在周一系统更新之后 | I don't think it's a coincidence. Both errors happened right after the Monday update, so let's check the update first.
+@output: 写一封 8–12 句的原因说明邮件，邮件标题是「What caused …」，写给一个不懂技术的人（客户、经理、其他部门的同事，或者家人）：第一句说明写信目的 → The problem stems from… → The reason is that… → In simple terms / Essentially + 一个比喻 → 只影响什么、没影响什么 → It wasn't human error / an edge case / an oversight（按实际情况）→ 主次原因 → 下一步和时间。可以写工作中的问题，也可以写生活里的（比如家里的 Wi-Fi 每天晚上断线）。
+@output_sample: Hi Grace,\nI'm writing to explain what caused the BrightNest status problem, so your team can answer sellers' questions.\nThe problem stems from an outdated status mapping on our end.\nIn simple terms, our system and BrightNest's system speak slightly different languages.\nThe reason is that BrightNest changed its status codes in March and added a code for "Partially delivered."\nOur table still uses the old list, so when the first box of a two-box order arrives, we tell BrightNest that the whole order is delivered.\nOnly multi-box orders are affected, and no data was lost or damaged.\nIt wasn't human error, and it's an edge case we didn't test, because our test data had no multi-box orders.\nUltimately, it's our table, so the fix is on us.\nIf sellers ask, you can say that the second box is on its way and that we're fixing the problem.\nMike's team will share a plan on Monday, and I'll update you then.\nThanks,\nLily
+
+@check: 听力：错误出在哪里？为什么只有多箱订单出错？ | 出在 SwiftLink 这边的状态映射表（an outdated status mapping）：表用的是 BrightNest 三月就作废的旧代码表，里面没有「部分送达」（Partially delivered）。所以第一箱一到就发出「Delivered」，覆盖了整单状态；第二箱的更新被当成重复数据（duplicates）丢掉，BrightNest 还给顾客发了「订单已送达」的邮件。
+@check: 听力：Ana 先排除了什么？是人为失误吗？测试为什么没发现？周一开始出错是巧合吗？ | 先排除了时区偏差（offset）；数据也没有损坏，只是状态错了。不是人为失误（It wasn't human error），是流程上的疏忽：从没把映射表和新代码表对照过（We never compared the two lists.）。Priya 的样本数据里没有多箱订单，是没测到的边缘情况（edge case）。不是巧合：错误是跟着试点一起开始的。
+@check: 改错：① ✗ The reason is because our test data was too small. ② ✗ The problem is stemmed from an old table. | ① The reason is that our test data was too small.（或 It's because our test data was too small.）② The problem stems from an old table.（stem from 不用被动）
+@check: 换个场景：向不懂技术的经理解释「网站在旧手机上打不开，原因是网站不再支持旧版浏览器」，用 The reason is that… 和 In simple terms 各说一句。 | The reason is that our website no longer supports old browsers. In simple terms, old phones can't read our new pages.
+@check: 用英文分主次：主要原因是新系统培训不够，次要因素是人手少；并说明不是某个人的失误。 | The errors are primarily caused by a lack of training on the new system. The staff shortage is a secondary factor. It wasn't human error.
+@check: 同事给客户的邮件里写了 It's mainly your fault, because you changed the codes.，哪里不妥？怎么改？ | 对客户直接说「主要怪你们」是在甩锅，而且这次问题主要在我们自己。可以改成：The problem stems from an outdated mapping on our end. Your code change was only an indirect factor, and the fix is on us.
+@next1: 不看书说出 5 个锚点句：S5、S8、S18、S22、S29
+@next1: 用「结论 → The reason is that… → In simple terms…」三句话，解释你最近遇到的一个小问题的原因
+@next7: stem from / originate / be caused by 的区别：哪两个不能用被动？各造一句
+@next7: 「说白了」三种开头：In simple terms（中性）/ Basically（口语）/ Essentially（正式）；给自己的工作找一个比喻

@@ -27,7 +27,7 @@
 
 @story_title: Episode 95 · Something Came Up
 @story_type: 客户邮件 + 三方短会 + 改期回信 + 婉拒邮件
-@s: Karen emails Lily on Friday morning: | 周五早上，Karen 给林晓发来一封邮件：
+@s: On Friday, Karen emails Lily: | 周五，Karen 给林晓发来一封邮件：
 @s: Hi Lily, | Lily 你好：
 @s: I'm sorry, **something came up** and I can't **make it** on Tuesday. | 抱歉，我临时有事，周二来不了了。
 @s: I have to visit our Dallas warehouse. It's **unavoidable**. | 我得去一趟达拉斯的仓库，实在推不掉。
@@ -35,11 +35,11 @@
 @br:
 @s: At nine, Lily calls Tom and Mike. | 九点，林晓拉张涛和 Mike 开了个电话会。
 @s: Lily: Karen has a **conflict**. Her trip **clashes** with Tuesday's review. | 林晓：Karen 时间冲突了，她出差正好撞上周二的评审会。
-@s: Tom: The review is **virtual**. Can't she join from Dallas? | 张涛：评审会本来就是线上的，她不能在达拉斯接进来吗？
+@s: Tom: It's **virtual**. Can't she join from Dallas? | 张涛：评审会本来就是线上的，她不能在达拉斯接进来吗？
 @s: Lily: She'll be **onsite** all day, so she can't **attend**. | 林晓：她一整天都在仓库现场，参加不了。
 @s: Lily: Could we move the review to Thursday afternoon? | 林晓：我们能不能把评审会改到周四下午？
 @s: Mike: Thursday at four works. So does Friday at eight. | Mike：周四下午四点可以，周五早上八点也行。
-@s: Tom: **Neither** is great for us: 7 a.m. or 11 p.m. in Shenzhen. | 张涛：这两个时间对我们都不太好，在深圳是早上七点或晚上十一点。
+@s: Tom: **Neither** is great for Shenzhen: 7 a.m. or 11 p.m. | 张涛：这两个时间对我们都不太好，在深圳是早上七点或晚上十一点。
 @s: Tom: But Karen is the client, so let's **accommodate** her. | 张涛：不过 Karen 是客户，我们就配合她的时间吧。
 @s: Mike: Let's **bring the demo forward** to Monday. | Mike：那就把演示提前到周一吧。
 @br:
@@ -47,13 +47,13 @@
 @s: Hi Karen, | Karen 你好：
 @s: We can do Thursday at 4 p.m. or Friday at 8 a.m., Pacific Time. | 我们可以安排在太平洋时间周四下午四点，或者周五上午八点。
 @s: Would **either** of these times work for you? | 这两个时间您看哪个方便？
-@s: The demo is now on Monday, so you'll see the results **prior** to the review. | 演示已经提前到周一，所以评审会之前您就能看到结果。
+@s: With the demo on Monday, you'll see the results **prior** to the review. | 演示提前到了周一，评审会之前您就能看到结果。
 @s: I'll send the agenda **in advance**. | 议程我会提前发给您。
 @s: Best,\nLily | 祝好！\n林晓
-@s: Karen replies within minutes: "Thursday works. Thanks for **rearranging** things." | 几分钟后 Karen 就回了：「周四可以。谢谢你们重新安排。」
+@s: Karen replies: "Thursday works. Thanks for **rearranging** things." | 几分钟后 Karen 就回了：「周四可以。谢谢你们重新安排。」
 @br:
 @s: Now Lily has her own conflict. | 这下轮到林晓自己时间冲突了。
-@s: Ana Ruiz, the new QA engineer in Seattle, is **hosting** a **hybrid** training then. | 西雅图新来的测试工程师 Ana Ruiz 那个时间正好要主持一场线上线下结合的培训。
+@s: Ana Ruiz, Seattle's new QA engineer, is **hosting** a **hybrid** training then. | 西雅图新来的测试工程师 Ana Ruiz 那个时间正好要主持一场线上线下结合的培训。
 @s: The **venue** is the Seattle office, and **remote** **invitees** can **dial** in. | 地点在西雅图办公室，远程的受邀同事可以拨入参加。
 @s: Lily's first draft says, "I **regret** to inform you that I cannot attend." | 林晓的初稿写的是：「我很遗憾地通知您，我无法出席。」
 @s: Grace: Too stiff! That's for formal **occasions**, not colleagues. | 吴佳：太生硬了！这是正式场合用的，不是写给同事的。
@@ -144,11 +144,11 @@
 @lfocus: 记「谁—什么事—哪天」：Karen — can't make it — Tuesday；review → Thursday afternoon；demo → Monday
 @lfocus: 记数字和时区：four / eight（Seattle）→ 7 a.m. / 11 p.m.（Shenzhen）；Pacific Time；Karen chose Thursday
 @lfocus: 记行动项：Lily — agenda in advance；Ana's training — can't make it — recording or next session
-@dict: S6–S13
-@dict: S29–S32
+@dict: S10–S14
+@dict: S30–S32
 @res: 在 youglish.com 输入 "something came up"，选 US，听美国人临时改约时的语气。
 
-@mimic: 跟读【C】S6–S13 的电话会：先逐句跟读，重点模仿 Could we move the review to Thursday afternoon? 的升调和 Neither is great for us 的重音；再由你演林晓、手机朗读张涛和 Mike 的台词，正常语速完整对一遍并录音。最后把两封邮件（S15–S21、S28–S33）当成你自己写的，用平稳、友好的语气各读一遍，注意给 Karen 的那封和给 Ana 的那封语气有什么不同。
+@mimic: 跟读【C】S6–S14 的电话会：先逐句跟读，重点模仿 Could we move the review to Thursday afternoon? 的升调和 Neither is great for us 的重音；再由你演林晓、手机朗读张涛和 Mike 的台词，正常语速完整对一遍并录音。最后把两封邮件（S15–S21、S28–S33）当成你自己写的，用平稳、友好的语气各读一遍，注意给 Karen 的那封和给 Ana 的那封语气有什么不同。
 @swap: I'm sorry, something came up and I can't make it on Tuesday. | 换时间：tomorrow／this afternoon／on Friday；换活动：make it to the call／make it to lunch | I'm sorry, something came up and I can't make it to lunch tomorrow.
 @swap: Could we move the review to Thursday afternoon? | 换事情和时间：the call／the training／our check-in；next Monday／9 a.m. Pacific | Could we move our check-in to next Monday?
 @swap: Let's bring the demo forward to Monday. | 换成推后：push … back to；换事情：the deadline／the launch／the test | Let's push the test back to Friday.

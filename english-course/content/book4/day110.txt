@@ -1,0 +1,172 @@
+@day: 110
+@week: 3
+@title_cn: 写一封问题说明邮件
+@title_en: Explaining a Problem in Writing
+@topic: 给客户副总裁写正式的问题说明邮件：发生了什么 → 为什么 → 影响 → 我们做了什么 → 接下来做什么；坦白、承担责任，但不过度道歉、不找借口
+@think_short: 五段式：what happened / why / impact / what we've done / next steps｜「坦白说」I want to be upfront about…（书面开头少用 To be honest）｜「这事算我们的」We take ownership of…（道歉一次就够）｜「话虽如此」That said, …｜「请放心」Rest assured, …｜moreover / furthermore 一封信里别堆
+
+@goal_scene: 客户副总裁 Karen 要一份书面说明。你先请经理和同事看草稿，按他们的意见改：结构清楚、语气坦白、承担责任但不找借口；然后发出一封五段式的问题说明邮件，并读懂对方的回信。
+@goal_expr: I want to be upfront about what happened. / On our side, the status mapping was outdated. / We take ownership of this mistake. I'm sorry for the disruption. / That said, the impact was limited. / Rest assured, we've fixed the root cause. / Nevertheless, the automatic sync will stay off. / Thank you for the candid update.
+@goal_vocab: 20 个重点词 + 5 个短语：问题说明的结构、坦白与担责、正式书面连接词、让对方放心
+@done: 能按 what happened → why → impact → what we've done → next steps 写一封 8–12 句的问题说明邮件，时态分得清（过去时 / 现在完成时 / 将来时）
+@done: 能用 be upfront about / take ownership of / On our side, … 坦白说明问题、承担责任，只道歉一次，不用 unaware 之类的说法找借口、不怪对方
+@done: 能用 That said / Nevertheless / Meanwhile / Additionally / therefore 连接句子，知道 moreover、furthermore、hence 的分量，一封邮件里不堆砌；能分清 reassure / reassurance / assurance / rest assured
+
+@warmup: 我们想一劳永逸地解决这个问题。 | We want to fix this once and for all. | D109
+@warmup: 从现在起，每一个新状态都会经过校验。 | From now on, every new status will be validated. | D109
+@warmup: 投入是大一些，但值得。 | It's a bigger investment, but it's worthwhile. | D109
+@warmup: 大约 2% 的试点订单受到了影响。 | About two percent of pilot orders have been affected. | D107
+@warmup: 我来这儿两年了，可第一个夏天真的很难熬。 | I've been here for two years, but my first summer was really difficult. | D53
+@warmup: 95% 的包裹准时送达，比之前提高了三个百分点。 | Ninety-five percent of packages arrived on time. That's up three percentage points. | D74
+@warmup_hint: 第 5 句注意完成时和过去时的分工：「来了两年」到现在还在，用 I've been…；「第一个夏天」已经过去，用 was。第 6 句注意 percent（百分之几）和 percentage point（百分点）。
+
+@scene: 周四，长期方案定下来两天了。BrightNest 的运营副总裁 Karen 发来一句话：请把这次的状态错误写成一份书面说明，她要拿去跟自己的团队交代。Karen 是这个项目的最终决策人，时间少，只看结论；这封邮件写得好不好，直接影响她对 SwiftLink 的信任，也影响后面上线日期的讨论。林晓的草稿写得很认真，可张涛和吴佳一看就指出了问题：「此外」「而且」堆了一段，读着像法律文书；有一句「我们事先并不知道贵方改了代码」，虽然是事实，却像在找借口、怪客户；道歉也说得太多。张涛的要求很简单：按「发生了什么—为什么—影响—做了什么—下一步」写，承担责任，但别防御；让 Karen 放心，但别承诺做不到的事。林晓改完发出去，一个小时后收到了 Karen 的回信。
+@sp: 人物关系 | 林晓 → Karen：服务方的项目协调人写给客户方的副总裁、最终决策人，要正式、坦白、有分寸；张涛是林晓的经理，讲「先说结论」；吴佳是客服专员，最懂语气和措辞
+@sp: 沟通目的 | 把整件事书面交代清楚，承担责任、恢复信任；让 Karen 知道问题已经控制住、接下来怎么做、什么时候给新的上线日期
+@sp: 已知信息 | 试点第一周，一些分两箱发货的订单在第一箱送到时就显示「已送达」；原因是 SwiftLink 的状态映射表过时，认不出 BrightNest 较新的代码；约 2% 的试点订单受影响，没有丢件；根本原因已修好，受影响订单都已更正；自动同步还关着；接下来两周统一状态代码、加校验
+@sp: 表达重点 | 改草稿：去掉生硬的 moreover / furthermore，不说 unaware（像借口），不怪客户，只道歉一次 → 邮件：be upfront about → On our side, … hence … → take ownership of → That said, … → Rest assured, … → Nevertheless / Meanwhile / Additionally / therefore → 回信里的 candid / reassurance / assurance
+
+@story_title: Episode 110 · Ownership, Not Excuses
+@story_type: 改稿对话 + 问题说明邮件 + 客户回信
+@s: Karen wants a written summary of the status errors. | Karen 要一份关于状态错误的书面说明。
+@s: Lily shows her draft to Tom and Grace. | 林晓把草稿拿给张涛和吴佳看。
+@s: Tom: Use a clear **outline**: what happened, why, impact, what we've done, next steps. | 张涛：按一个清楚的框架写：发生了什么、为什么、影响多大、我们做了什么、接下来做什么。
+@s: Grace: "**Moreover**" and "**furthermore**" in one paragraph? It sounds like a contract. | 吴佳：一段里又是 moreover 又是 furthermore？读着像合同。
+@s: Grace: Formal is fine. Stiff isn't. | 吴佳：正式可以，生硬不行。
+@s: Lily: Can I say we were **unaware** of BrightNest's new codes? | 林晓：我能不能写「我们事先不知道 BrightNest 换了新代码」？
+@s: Grace: True, but it sounds like an **excuse**. Never **blame** the client. | 吴佳：是事实，可听起来像找借口。千万别怪客户。
+@s: Tom: Don't be **defensive**. Karen wants **ownership**, not excuses. | 张涛：别急着为自己辩护。Karen 要看到的是担当，不是借口。
+@s: Grace: Apologize once, clearly. Keep the rest **factual**. | 吴佳：道歉说一次，说清楚。其余的只写事实。
+@s: Tom: And **reassure** her, but don't promise what we can't control. | 张涛：还要让她放心，但别承诺我们控制不了的事。
+@br:
+@s: Lily writes to Karen: | 林晓给 Karen 写邮件：
+@s: The subject line is "Pilot status errors and next steps." | 邮件标题是「试点状态错误及后续安排」。
+@s: Dear Karen, | Karen 您好：
+@s: I want to **be upfront about** what happened. | 我想把事情的经过坦白地告诉您。
+@s: In the first week, some two-box orders showed "Delivered" too early. | 试点第一周，一些分两箱发货的订单过早地显示成了「已送达」。
+@s: **On our side**, the status mapping was outdated. | 在我们这边，状态映射表过时了。
+@s: It didn't recognize your newer codes, **hence** the wrong statuses. | 它认不出贵方较新的代码，于是出现了错误的状态。
+@s: We **take ownership of** this mistake. I'm sorry for the **disruption**. | 这个失误由我们承担。给您的团队带来困扰，我很抱歉。
+@s: **That said**, the impact was limited. | 话虽如此，影响是有限的。
+@s: About two percent of pilot orders were affected, and no packages were lost. | 大约 2% 的试点订单受到影响，没有一个包裹丢失。
+@s: **Regardless** of the numbers, your customers deserved accurate information. | 不管数字大小，您的顾客都应该看到准确的信息。
+@s: **Rest assured**, we've fixed the root cause. | 请您放心，根本原因我们已经修好了。
+@s: Every affected order has also been corrected. | 所有受影响的订单也都已更正。
+@s: **Nevertheless**, the sync will stay off until new checks are in place. | 尽管如此，在新的检查机制到位之前，自动同步仍会保持关闭。
+@s: Over the next two weeks, we'll standardize the status codes and add validation. | 接下来两周，我们会统一状态代码，并加上自动校验。
+@s: We will **therefore** propose a new launch date in early October. | 因此，我们会在十月初提出新的上线日期。
+@s: **Meanwhile**, we'll check pilot orders by hand. | 在此期间，我们会人工核对试点订单。
+@s: **Additionally**, I'll send you an update every Friday. | 另外，我每周五会给您发一份进展报告。
+@s: Best regards,\nLily | 此致\n林晓
+@br:
+@s: Karen replies within an hour: | 不到一个小时，Karen 就回信了：
+@s: Thanks for the **candid** update. It gives me some **reassurance**. | 谢谢你这么坦率地通报情况，这让我放心了一些。
+@s: Before the launch, I'd like Mike's **assurance** that the new checks work. | 上线之前，我希望 Mike 能向我保证新的检查机制确实有效。
+
+@v: outline | = | n./v. | ˈaʊtlaɪn | 提纲；框架；（v.）概述 | 写邮件、报告、发言前先定结构 | a clear outline；follow an outline；outline the next steps | Let me outline the plan in three points. | 我分三点概述一下这个计划。 | 中文「框架」「提纲」「思路」都可以是 outline；动词 outline 是「概要地说明」，比 explain 更强调「只讲要点」；名词和动词同形，都是重音在前 OUT-line。
+@v: moreover | = | adv. | mɔːrˈoʊvər | 而且；此外（很正式，用来加一个更有力的论点） | 正式书面论证、法律和学术文章 | Moreover, …；and moreover | The plan is cheaper. Moreover, it's easier to maintain. | 这个方案更便宜，而且更容易维护。 | 中国学生作文里很爱用 moreover，可在美国的日常商务邮件里它显得很重、很像公文；一封邮件最多用一次，多数时候 also / and / plus 就够了。和 furthermore 一起出现在同一段，就是吴佳说的 legal letter。
+@v: furthermore | = | adv. | ˈfɜːrðərmɔːr | 此外；再者（正式，用来补充下一点） | 正式报告、合同、论证 | Furthermore, …；and furthermore | The software is fast. Furthermore, it's free for small sellers. | 这个软件很快，而且对小卖家免费。 | 和 moreover 一样偏书面、偏重；美国人写日常邮件更常用 also、in addition 或本课的 additionally；th 读浊音 `/ð/`，重音在 FUR。
+@v: unaware | = | adj. | ˌʌnəˈwer | 不知道的；没意识到的 | 说明某人事先不知道某件事 | be unaware of…；be unaware that…；completely unaware | Many sellers are unaware of the new customs rules. | 很多卖家还不知道新的海关规定。 | 后面接 of + 名词或 that 从句；说别人 unaware 没问题，可在道歉邮件里说自己 We were unaware…，常常读起来像在推卸（「你们又没通知我们」），这就是吴佳拦住林晓的原因；反义词 aware（D94）。
+@v: excuse | = | n. | ɪkˈskjuːs | 借口；理由（多指为自己开脱） | 说别人在找借口，或提醒自己别找借口 | make excuses；no excuse for…；a good excuse | There's no excuse for missing the deadline twice. | 连着两次错过截止日期，没有任何借口可找。 | 名词结尾读 `/s/`：an ex-CUSE `/ɪkˈskjuːs/`；动词 Excuse me 结尾读 `/z/`：`/ɪkˈskjuːz/`——同一个词，名词 /s/、动词 /z/；复数 excuses。
+@v: blame | = | v./n. | bleɪm | 责怪；把……归咎于 | 出了问题追究是谁的错 | blame sb for sth；blame sth on sb；take the blame | Don't blame the warehouse. The label was wrong. | 别怪仓库，是面单错了。 | 两种结构别混：blame the client for the delay = blame the delay on the client；✗ blame to sb；「怪我」说 It's my fault. 或 I'll take the blame.；中文「都怪……」不要直译成 ✗ All blame…
+@v: defensive | = | adj. | dɪˈfensɪv | 戒备的；急于为自己辩护的 | 被批评时的反应、邮件的语气 | get defensive；sound defensive；a defensive tone | When the client complained, he got defensive. | 客户一抱怨，他就急着辩解。 | 中文「急着解释」「护短」常常就是 defensive；在美国职场这是一个负面评价：Don't be defensive. 意思是「先听、先认，别马上辩解」；重音在 FEN。
+@v: ownership | = | n. | ˈoʊnərʃɪp | 担当；（对一件事的）负责到底的态度；所有权 | 评价人做事有没有担当 | show ownership；take ownership；a sense of ownership | Tom likes people who show ownership of their mistakes. | 张涛喜欢对自己的错误有担当的人。 | 本义是「所有权」（ownership of the company），职场里常指「把事情当成自己的事负责到底」；Karen wants ownership, not excuses. 是很典型的美国经理说法；重音在 OWN。
+@v: factual | = | adj. | ˈfæktʃuəl | 基于事实的；只陈述事实的 | 写报告、说明、会议纪要的语气 | keep it factual；factual information；a factual error | Please keep your report short and factual. | 请把报告写得简短，只写事实。 | factual 是「只讲事实、不带情绪」，和 D105 的名词 fact 是一家；a factual error 是「事实性错误」；tu 读 `/tʃu/`：FAK-chu-əl。
+@v: reassure | = | v. | ˌriːəˈʃʊr | 让（人）放心；打消顾虑 | 对方担心时安抚对方 | reassure sb；reassure sb that…；try to reassure | I called Sarah to reassure her that her package was safe. | 我给 Sarah 打电话，让她放心包裹没事。 | 宾语是人：✓ reassure her，✗ reassure her worry；形容词 reassuring（让人安心的）；名词 reassurance；别和 ensure（D77，确保某事）混：ensure 后面接事，reassure 后面接人。
+@v: be upfront about | = | phr. | bi ˌʌpˈfrʌnt əˌbaʊt | 坦白说出；主动把（坏消息、限制）摊开讲 | 主动通报问题、谈判时先亮底线 | be upfront about sth；be upfront with sb；I'll be upfront with you. | I'll be upfront with you: we can't finish it by Friday. | 我跟您直说吧：周五之前我们做不完。 | 对事用 about，对人用 with；upfront 通常放在 be 后面，很少放在名词前；比 To be honest 更积极：表示「我主动告诉你」，而不是「我以前不诚实」；重音在 FRONT。
+@v: On our side | on our side | phr. | ɑːn ˌaʊər ˈsaɪd | 在我们这边；（说明原因、分工时）我方 | 中性地交代自己这方的原因或任务 | on our side；on your side；on the BrightNest side | On our side, the invoice template was out of date. | 在我们这边，发票模板过时了。 | 用来中性地说原因：On our side, X was outdated. 不推卸、也不自责过头；和 D84 的 on my end（我这台电脑、我这儿）不同，on our side 指「我们公司 / 团队这一方」；口语里 our 常读成 `/ɑːr/`。
+@v: hence | = | adv. | hens | 因此；所以（很正式；后面常只跟一个名词短语） | 正式书面语，交代结果 | hence the delay；hence the name；…, hence… | The truck broke down, hence the delay. | 卡车坏了，所以才延误。 | 最典型的用法是逗号后接名词短语：…, hence the wrong statuses.（不用再写完整的句子）；口语里几乎不用，说 so / that's why；一封邮件用一次就够。
+@v: take ownership of | = | phr. | ˌteɪk ˈoʊnərʃɪp əv | 承担（责任）；把……当成自己的事负责到底 | 承认失误、主动接手一项任务 | take ownership of a mistake；take ownership of the problem；take ownership of a project | Leo took ownership of the tracker and updated it every day. | Leo 把跟踪表接了过来，每天更新。 | 比 D77 的 take full responsibility for 更现代、更常用于团队和项目；不只用于认错，也指主动接手：Can you take ownership of this?；of 弱读成 `/əv/`。
+@v: disruption | = | n. | dɪsˈrʌpʃn | 干扰；打乱（正常工作或秩序） | 道歉时说给对方造成的影响 | cause disruption；a disruption to…；minimal disruption | Sorry for the disruption to your schedule. | 打乱了您的日程安排，抱歉。 | 道歉邮件里 I'm sorry for the disruption. 比 ✗ sorry for bringing you big trouble 自然得多；形容词 disruptive；动词 disrupt；重音在 RUP。
+@v: That said | that said | phr. | ˈðæt ˌsed | 话虽如此；话说回来（承认前一点之后，补充另一面） | 先承认问题，再说明影响有限或情况可控 | That said, …；having said that；That being said, … | The new office is small. That said, it's close to the subway. | 新办公室是小。话说回来，离地铁很近。 | 后面接的是「另一面」，不是继续同一个方向；放句首，后面加逗号；重音在 that；比 however 口语，比 but 显得更周到；完整说法 having said that。
+@v: Regardless | regardless | adv. | rɪˈɡɑːrdləs | 不管怎样；无论（regardless of…：不管……） | 说某个条件不影响结论 | regardless of…；regardless of the cost；carry on regardless | We'll ship on Friday, regardless of the weather. | 不管天气怎样，我们周五都发货。 | 后面接名词要加 of：✓ regardless of the numbers；没有 ✗ irregardless 这个正式写法（口语里有人这样说，但被视为错误）；重音在 GAR。
+@v: Rest assured | rest assured | phr. | ˌrest əˈʃʊrd | 请放心；尽管放心 | 书面或正式场合让对方安心 | Rest assured, …；rest assured that…；You can rest assured. | Rest assured, your data is safe with us. | 请放心，您的数据在我们这里是安全的。 | 是固定说法，不是 ✗ Please rest your assured；后面接的必须是事实或你能兑现的事，不能随口许诺；比 Don't worry 正式、更有分量；assured 读 `/əˈʃʊrd/`。
+@v: Nevertheless | nevertheless | adv. | ˌnevərðəˈles | 尽管如此；然而仍然 | 正式书面：虽然前面那样，仍要做后面的事 | Nevertheless, …；but nevertheless | The test went well. Nevertheless, we'll run it again. | 测试很顺利。尽管如此，我们还会再测一遍。 | 一个词连写；比 however 更正式，语气更强调「仍然」；常用在「虽然好了，我们还是很谨慎」；重音在最后 LESS。
+@v: therefore | = | adv. | ˈðerfɔːr | 因此；所以（正式） | 书面推理、交代结果 | therefore, …；will therefore…；and therefore | The file was too large. We therefore split it into two. | 文件太大，因此我们把它分成了两个。 | 可以放句首（Therefore, …），也可以放在助动词后面（We will therefore…），后者读起来更流畅；口语里一般说 so；不能直接连接两个句子：✗ It rained, therefore we stayed home.（要用分号或句号）。
+@v: Meanwhile | meanwhile | adv. | ˈmiːnwaɪl | 在此期间；与此同时 | 说长期方案完成之前先怎么做 | Meanwhile, …；in the meantime | The new printer arrives next week. Meanwhile, use the one upstairs. | 新打印机下周到。这段时间先用楼上那台。 | 「这段时间先……」直接用 Meanwhile, … 或 In the meantime, …；✗ In the meanwhile 不规范；重音在 MEAN。
+@v: Additionally | additionally | adv. | əˈdɪʃənəli | 另外；此外 | 邮件里补充一项安排 | Additionally, …；additionally, we'll… | Additionally, we'll offer free returns for a month. | 另外，我们会提供一个月的免费退货。 | 比 also 正式，比 moreover / furthermore 轻，是商务邮件里最稳的「此外」；放句首加逗号；口语里更常说 Also, … 或 On top of that, …。
+@v: candid | = | adj. | ˈkændɪd | 坦率的；直言不讳的 | 夸对方说话、写东西坦诚 | a candid update；a candid conversation；be candid with sb | Thanks for being so candid about the risks. | 谢谢你把风险说得这么坦率。 | 褒义，强调「不回避难听的事」，比 honest 更具体；Karen 用 candid 是在肯定林晓的坦白；别和 candy 混；重音在前 CAN。
+@v: reassurance | = | n. | ˌriːəˈʃʊrəns | 让人放心的话或事；安慰 | 说某件事让人安心了 | some reassurance；need reassurance；offer reassurance | The weekly updates give our client some reassurance. | 每周的进展报告让客户安心了一些。 | 不可数名词，一般不加 a：✓ some reassurance；它是「让人放心」，不是「保证」——要对方做出承诺用 assurance；重音在 SURE。
+@v: assurance | = | n. | əˈʃʊrəns | 保证；（正式的）承诺 | 要求对方正式保证某事 | give sb assurance；sb's assurance that…；quality assurance（质量保证，QA） | We need your assurance that the date won't change. | 我们需要您保证日期不会再变。 | 要「保证」常用 sb's assurance that…，比 promise 正式；quality assurance 就是 Ana 做的 QA；区分：reassure（让人放心，动词）、reassurance（安心）、assurance（保证）、rest assured（请放心）。
+
+@diff: 问题说明邮件的五段式——what happened / why / impact / what we've done / next steps
+@d_cn: 出了问题，要给客户高层写书面说明。中文邮件习惯先铺垫、先道歉，原因用「由于系统原因」带过，影响说成「部分订单」，最后一句「我们会持续优化」收尾。
+@d_en: I want to be upfront about what happened. / On our side, the status mapping was outdated. / About two percent of pilot orders were affected. / Rest assured, we've fixed the root cause. / Over the next two weeks, we'll standardize the status codes.
+@d_why: Karen 这样的副总裁只想知道五件事，顺序几乎是固定的：**what happened**（什么时候、什么现象）→ **why**（原因，一句话）→ **impact**（多大范围，用数字）→ **what we've done**（已经做了什么）→ **next steps**（接下来做什么、什么时候、怎么通报）。这就是张涛说的 outline。中文的「由于系统原因」「部分订单」「持续优化」，美国读者会觉得在回避：哪个系统？多少订单？哪天之前？英文要具体：About two percent of pilot orders were affected（第三册的被动和百分比）。时态也有分工：发生了什么用过去时（showed / was outdated），已经做完的用现在完成时（we've fixed / has been corrected），下一步用将来时（we'll standardize）。标题也要直接说明目的：Pilot status errors and next steps.——第三册说的「邮件先说目的」在这里同样适用。
+@d_when: 给客户、上级写事故说明、问题报告、延误说明；口头汇报一个问题也可以用同样的顺序。
+@d_vs: **I want to be upfront about what happened.** 开门见山。\n**In the first week, some two-box orders showed "Delivered" too early.** 发生了什么（过去时）\n**On our side, the status mapping was outdated.** 为什么\n**About two percent of pilot orders were affected.** 影响（被动 + 数字）\n**Rest assured, we've fixed the root cause.** 做了什么（现在完成时）\n**Over the next two weeks, we'll add validation.** 下一步（将来时）\n✗ Due to some system reasons, part of orders had problems. We will keep improving.
+@d_task: 按「发生了什么—为什么—影响—做了什么—下一步」各写一句：昨天下午追踪信息延迟 → 快递公司系统宕机 → 约 5% 的包裹受影响 → 已手动更新 → 明天起每小时检查一次。 | Yesterday afternoon, some tracking updates were delayed. Our carrier's system was down. About five percent of packages were affected. We've updated them manually. Starting tomorrow, we'll check the feed every hour.
+@diff: 「坦白说」——I want to be upfront about what happened.
+@d_cn: 有坏消息要告诉客户。你想表明：我不藏着掖着，主动跟您说清楚。
+@d_en: I want to be upfront about what happened. / I'll be upfront with you: … / Thank you for the candid update.
+@d_why: 中文「坦白说」「实话实说」「不瞒您说」，直译成 To be honest 或 Frankly 都有风险：书面邮件一开头写 To be honest，读者可能会想「那你以前不诚实吗？」；**Frankly**（D99）常带着不满，像第三册 Priya 那句 Frankly, this is unacceptable.。**be upfront about** 的意思是「主动、提前把事情摊开」，最适合用来交代坏消息：I want to be upfront about what happened. 它让对方觉得你没有等人追问。对事用 about，对人用 with：I'll be upfront with you.（我跟你直说）。对方肯定你的坦率，会说 **candid**：Thank you for the candid update.——candid 是褒义的「坦率」，比 honest 更强调「连难听的也说了」。注意分寸：坦白不等于把内部细节全倒出来，给客户的说明只讲对方需要知道的事实（D86 学过 customer-facing 和 internal 的区别）。
+@d_when: 主动通报坏消息、延误、错误；谈判时先亮出限制；称赞对方说话坦率。
+@d_vs: **I want to be upfront about what happened.** 我想把事情的经过坦白告诉您。\n**I'll be upfront with you: we can't make the 14th.** 我跟您直说吧：14 号我们赶不上。\n**Thank you for the candid update.** 谢谢你这么坦率地通报情况。\n**Frankly, this is unacceptable.** 说实话，这是不能接受的。（带不满，对方生气时才会这样说）\n✗ To be honest, our system had some problem.（书面开头用 To be honest 容易让人多想）
+@d_task: 给客户写邮件开头：你想坦白告诉他，这个月的数据报告会晚两天。 | I want to be upfront about this month's data report. It will be two days late.
+@diff: 承担责任，但不过度道歉——We take ownership of this mistake.
+@d_cn: 中文道歉习惯说得很重、说很多遍：「非常非常抱歉」「给您添了很大的麻烦」「我们深刻反省」；或者反过来，先解释「其实是因为贵方……」。
+@d_en: We take ownership of this mistake. I'm sorry for the disruption. / Karen wants ownership, not excuses. / On our side, the status mapping was outdated.
+@d_why: 美国商务道歉讲究「说一次、说清楚、然后谈行动」。**take ownership of** 比 D77 的 take full responsibility for 更现代，常用于团队和项目：「这件事算我们的，由我们负责到底」。道歉一句就够（I'm sorry for the disruption.），每段都道歉反而显得慌、没把握——Karen 要的是「你们控制得住」。另一个极端是找借口：We were **unaware** of your new codes. 虽然是事实，读起来却像在说「谁让你们不通知」——这就是 **excuse**（借口）和 **blame**（怪罪），也是 **defensive** 的表现。吴佳的办法：原因用中性的事实写（**On our side**, the status mapping was outdated.），只说自己这一方，不提对方做了什么；然后把重点放在「做了什么、接下来做什么」。
+@d_when: 给客户、上级写道歉或事故说明；会上承认自己团队的失误。
+@d_vs: **We take ownership of this mistake.** 这个失误由我们承担。\n**I'm sorry for the disruption to your team.** 给您的团队带来困扰，很抱歉。（一次就够）\n**On our side, the status mapping was outdated.** 我们这边的映射表过时了。（中性事实，不推卸）\n✗ We are very very sorry. We deeply reflect on ourselves.\n✗ We were unaware of your new codes, so it's not really our fault.
+@d_task: 你们给一批货打错了面单。用英文承担责任、道歉一次，再用一句中性的事实说原因（我们这边的模板还是旧地址）。 | We take ownership of this mistake, and I'm sorry for the trouble. On our side, the label template still had the old address.
+@diff: 「话虽如此」——That said, … / Nevertheless, … / Additionally, …
+@d_cn: 先承认一件不好的事，再补一句「话虽如此」「不过话说回来」：影响有限、情况可控；或者「尽管已经修好了，我们还是……」。
+@d_en: That said, the impact was limited. / Nevertheless, the automatic sync will stay off. / Meanwhile, we'll check pilot orders by hand. / Additionally, I'll send you a short update every Friday.
+@d_why: **That said, …**（= having said that）的意思是「我刚承认了前面那一点，但也要公平地说另一面」，口语和邮件都自然。顺序很关键：先 take ownership，再 That said, the impact was limited.，读者会觉得你很公道；一开头就说 The impact was limited，就像在淡化问题。**Nevertheless** 更正式，意思是「尽管如此，仍然……」，常用在「虽然修好了，我们仍然谨慎」。英文正式连接词各有分量：additionally、meanwhile、therefore 在商务邮件里很稳；**hence** 很书面，最好的用法是逗号后接名词短语（…, hence the wrong statuses）；**moreover、furthermore** 最重，一段里两个都出现就像法律文书——这就是吴佳删掉它们的原因。中国学生写作文时被鼓励多用这类词，可美国商务邮件追求的是清楚，一封信里用两三个就够，其余用 also / so / but。开会说话时，美国人几乎只用 but / also / so / that said。
+@d_when: 承认问题之后补充另一面；说明「虽然修好了，我们仍然谨慎」；控制正式邮件的语气。
+@d_vs: **We take ownership of this mistake. That said, the impact was limited.** 这个失误我们承担。话虽如此，影响是有限的。\n**We've fixed the root cause. Nevertheless, the sync will stay off for now.** 根本原因已经修好。尽管如此，同步暂时仍会关着。\n**Additionally, I'll send you an update every Friday.** 另外，我每周五给您发进展。\n✗ Moreover, … Furthermore, … Hence, …（一段里堆在一起，太生硬）\n✗ That said, we are very sorry.（That said 后面应该是另一面，不是接着道歉）
+@d_task: 用 That said 连接：我们的报告晚交了一天；不过，所有数字都是准确的。 | Our report was a day late. That said, all the numbers were accurate.
+
+@core: I want to be upfront about … | 邮件或发言开头，主动交代坏消息 | what happened / the delay / the cost | 正式：I would like to be upfront about the issue we experienced last week.｜随意：I'll be upfront with you.
+@core: On our side, the … was outdated. | 中性地说出自己这一方的原因 | the status mapping / the template / our test data | 正式：On our side, the root cause was an outdated status mapping.｜随意：It was our mapping. It was out of date.
+@core: We take ownership of this mistake. I'm sorry for the disruption. | 承担责任，道歉一次 | this mistake / the delay；the disruption / the confusion | 正式：We take full ownership of this error and apologize for the disruption.｜随意：That's on us. Sorry about that.
+@core: That said, the impact was limited. | 承认之后，公道地补充另一面 | the impact was limited / no data was lost / most orders were fine | 正式：That said, the overall impact was limited.｜随意：But the good news is, it was small.
+@core: Rest assured, we've fixed the root cause. | 让对方放心（只说做到了的事） | we've fixed the root cause / your data is safe / the date won't change | 正式：Please rest assured that the root cause has been resolved.｜随意：Don't worry, it's fixed.
+@core: Nevertheless, … will stay off until … | 虽然修好了，仍然谨慎 | the sync / the new feature；until new checks are in place / until Monday | 正式：Nevertheless, we will keep the sync disabled as a precaution.｜随意：We're still keeping it off for now, just in case.
+@core: Meanwhile, we'll … Additionally, I'll … | 交代过渡安排和额外的沟通 | check orders by hand / send you an update every Friday | 正式：In the meantime, our team will verify all pilot orders manually.｜随意：Till then, we'll check things by hand.
+@core: Thanks for the candid update. I'd like your assurance that … | 回复对方的说明，要求正式保证 | the new checks work / the date won't change | 正式：We appreciate your candor and would welcome your assurance that…｜随意：Thanks for being straight with me.
+
+@pw: reassurance | ˌriːəˈʃʊrəns | 4 个音节 re·as·SUR·ance | 主重音在 sur，读 `/ʃʊr/`；re 读 `/riː/`，as 弱读成 `/ə/`
+@pw: nevertheless | ˌnevərðəˈles | 4 个音节 nev·er·the·LESS | 重音在最后的 less；the 弱读成 `/ðə/`，整个词一口气读完
+@pw: additionally | əˈdɪʃənəli | 5 个音节 ad·DI·tion·al·ly | 重音在 di；a 弱读成 `/ə/`；-tionally 常连成 `/ʃnəli/`
+@pw: disruption | dɪsˈrʌpʃn | 3 个音节 dis·RUP·tion | 重音在 rup；p 只做口型不爆破，直接接 `/ʃn/`
+@pw: excuse | ɪkˈskjuːs | 2 个音节 ex·CUSE（名词） | 名词结尾 `/s/`：an excuse；动词结尾 `/z/`：Excuse me.——同一个词，名词清、动词浊
+@pw: candid | ˈkændɪd | 2 个音节 CAN·did | 重音在前，`/æ/` 嘴张大；did 轻读
+@pw: furthermore | ˈfɜːrðərmɔːr | 3 个音节 FUR·ther·more | 重音在 fur，要卷舌；th 是浊音 `/ð/`
+@ps: I want to be up**front** about / what **hap**pened. | want to 口语常连成 `/ˈwɑːnə/`，读邮件时可以读完整的 `/ˈwɑːnt tə/`；about what 连读，t 闪音；upfront 的重音在 front。
+@ps: We take **own**ership of this **mis**take, / and I'm **sor**ry for the dis**rup**tion. | of this 弱读成 `/əv ðɪs/`；mistake 重音在 take，ownership 重音在 own；道歉的后半句语调平稳落下，不拖长、不夸张。
+@ps: **That** said, / the **im**pact was **lim**ited. | That 重读，后面停顿；impact 是名词，重音在前 IM-pact（动词 im-PACT）；limited 的 t 闪音，像 LIM-i-did。
+@ps: **Rest** as**sured**, / we've **fixed** the **root** cause. | assured 读 `/əˈʃʊrd/`；fixed the 里的 t 常被吞掉，听起来像 `/fɪks ðə/`；root cause 是复合名词，重音在 root。
+@pnote: 书面连接词怎么读、怎么听：读邮件时，Nevertheless / Meanwhile / Additionally / That said 后面都有一个小停顿，语调先平后降；开会时美国人很少说这些词，换成 but / so / also / anyway。听的时候抓住这些「路标词」，就知道下一句是转折（that said / nevertheless）、补充（additionally）还是结果（therefore / hence）。
+@pnote: 名词和动词的读音对子：an ex**cuse** `/ɪkˈskjuːs/`（名词，s 清）vs ex**cuse** me `/ɪkˈskjuːz/`（动词，s 浊）；the **im**pact（名词，重音在前）vs to im**pact**（动词，重音在后）。数字：two **per**cent，percent 不加 s；September、October 的重音都在第二个音节：Sep-**TEM**-ber、Oc-**TO**-ber。
+@lfocus: 改稿意见：outline（five parts）、no moreover / furthermore、unaware = excuse、don't blame、not defensive、apologize once、factual、reassure
+@lfocus: 邮件里的事实：first week、two-box orders、"Delivered" too early、two percent、no packages lost、root cause fixed、sync off、two weeks、early October、every Friday
+@lfocus: Karen 的回信：candid、reassurance、Mike's assurance、new checks
+@dict: S14–S19
+@dict: S22–S28
+@res: 在 youglish.com 输入 "that said"，选 US，听美国人承认一点之后怎么转到另一面。
+
+@mimic: 跟读【C】S1–S10：先正常语速逐句跟读，模仿张涛和吴佳直接、干脆的语气（Formal is fine. Stiff isn't.）；再分角色读一遍并录音。然后把邮件 S13–S29 当成你自己写的说明，用平稳、诚恳、不卑不亢的语气读一遍，注意 That said / Nevertheless / Meanwhile / Additionally 后面的停顿。最后读 Karen 的回信 S31–S32。
+@swap: I want to be upfront about what happened. | 换内容：the delay／this month's numbers／the price change | I want to be upfront about this month's numbers.
+@swap: On our side, the status mapping was outdated. | 换原因：the label template／our test data／the price list；outdated → wrong／incomplete | On our side, the price list was wrong.
+@swap: We take ownership of this mistake. | 换对象：the delay／the wrong invoices；或换成主动接手：the tracker／the launch plan | We take ownership of the wrong invoices.
+@swap: That said, the impact was limited. | 换另一面：no data was lost／most customers didn't notice／the fix took only an hour | That said, no data was lost.
+@free: 客户问：上周的发票为什么有错？（你们的模板用了旧税率，约 30 张发票受影响，都已重开）用三四句话回答 | On our side, the invoice template used an old tax rate. About thirty invoices were affected, and we take ownership of that. Every one of them has been reissued. That said, no customer paid the wrong amount.
+@free: 同事的道歉邮件写了五遍 sorry，还有一句 We didn't know you changed the file. 给他两条修改建议 | Apologize once, clearly, and keep the rest factual. Also, "We didn't know you changed the file" sounds like an excuse, so describe the cause on our side instead.
+@free: 客户很担心下周的大促会不会再出问题。让他放心（已修好根本原因），但也说明你们仍会谨慎（大促期间每小时检查一次） | Rest assured, we've fixed the root cause. Nevertheless, we'll check the system every hour during the sale. I'll send you a short update every evening.
+@free: 你收到供应商一封很坦诚的延误说明。回两三句：谢谢他的坦率，并请他正式保证新日期不会再变 | Thanks for the candid update. It helps us plan. Could we have your assurance that the new date won't change?
+@output: 写一封 8–12 句的问题说明邮件，标题写在第一句前，例如 "Duplicate invoices last week: what happened and next steps"。写给客户或上司，说明一个真实或假设的工作问题（发错邮件、报表数字错误、发货延误……）：be upfront about → what happened（过去时）→ On our side, … / hence → take ownership of + 只道歉一次 → That said, 影响（用数字）→ Rest assured, … / 已做的（现在完成时）→ Nevertheless / Meanwhile / Additionally → 下一步和时间（将来时）→ 署名。全文正式连接词不超过三个。
+@output_sample: Dear Mr. Lee,\nI want to be upfront about an error in last week's invoices.\nOn Tuesday, eighteen of your customers received two invoices for the same order.\nOn our side, a new billing script ran twice, hence the duplicates.\nWe take ownership of this mistake, and I'm sorry for the confusion.\nThat said, the impact was limited: no customer was charged twice.\nRest assured, we've fixed the root cause, and every duplicate invoice has been canceled.\nNevertheless, our team will check every batch by hand for the next two weeks.\nAdditionally, we've sent a short apology email to each affected customer.\nI'll send you a final update next Friday.\nBest regards,\nLily
+
+@check: 听力：张涛和吴佳给了林晓哪些修改意见？至少说出四条。 | 按「发生了什么—为什么—影响—做了什么—下一步」的框架写（outline）；别在一段里堆 moreover 和 furthermore；不要写「我们事先不知道」（unaware），听起来像借口；不要怪客户；别急着辩护（defensive），要有担当（ownership）；道歉说一次，其余只写事实（factual）；让 Karen 放心，但别承诺控制不了的事。
+@check: 听力：邮件里交代了哪些事实、数字和时间？Karen 回信时还要什么？ | 试点第一周，一些分两箱发货的订单过早显示「已送达」；原因是 SwiftLink 的映射表过时、认不出较新的代码；约 2% 的试点订单受影响，没有丢件；根本原因已修好，受影响订单都已更正；新检查到位前自动同步仍关闭；接下来两周统一代码、加校验；十月初提出新的上线日期；这期间人工核对；每周五发进展。Karen 希望上线前 Mike 能保证新的检查机制有效（Mike's assurance）。
+@check: 改错：✗ We are very very sorry. The reason is because we were unaware of your new codes. | 例如：We take ownership of this mistake, and I'm sorry for the disruption. On our side, the status mapping was outdated.（道歉一次、承担责任；The reason is because 是病句，应为 The reason is that；unaware 听起来像借口）
+@check: 填 reassure / reassurance / assurance / Rest assured：① ___, your data is safe. ② We need your ___ that the date won't change. ③ I called Sarah to ___ her. ④ The weekly report gives the client some ___. | ① Rest assured ② assurance ③ reassure ④ reassurance
+@check: 换个场景：你负责的活动报名系统昨天出错，30 位客户收到了两封确认邮件。用 take ownership of 和 That said 写两句。 | We take ownership of this mistake. That said, the impact was limited: thirty customers got a second confirmation email, and no bookings were lost.
+@check: 把这段改得不那么生硬：Moreover, the delay was short. Furthermore, no data was lost. Hence, we believe the impact was minimal. | 例如：The delay was short, and no data was lost, so the impact was minimal.（一段里不要堆 moreover / furthermore / hence；and / so 更自然）
+@next1: 不看书说出 5 个锚点句：S14、S16、S18、S19、S22
+@next1: 按五段式，口头说一说你最近遇到的一个小问题（每段一句）
+@next1: 用 That said 说两句：先承认一件不好的事，再补充另一面
+@next7: 问题说明邮件骨架：be upfront about → On our side, … → take ownership of → That said, … → Rest assured, … → Meanwhile / Additionally → next steps
+@next7: 分清 reassure（让人放心）/ reassurance（安心）/ assurance（保证）/ rest assured（请放心），各造一句
